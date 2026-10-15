@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_TypeDefinitionIndex = 4593;
+	inline static constexpr unsigned int PreUpdate_TypeDefinitionIndex = 4597;
 
-	struct alignas(1) PreUpdate
+	struct alignas(4) PreUpdate
 	{
 	};
 }

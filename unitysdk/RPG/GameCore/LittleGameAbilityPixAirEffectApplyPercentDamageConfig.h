@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityEffectConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace RPG::GameCore { class LittleGameAbilityPixAirEffectApplyPercentDamageConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_METHOD_3_8127FD4DC7B2B363_OFFSET UNITYSDK_OFFSET(0x1DD61C50)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_METHOD_3_F03872C121479677_OFFSET UNITYSDK_OFFSET(0x1DD61D20)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD61D10)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A9BF0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A9C00)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A9B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityPixAirEffectApplyPercentDamageConfig_TypeDefinitionIndex = 21101;
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectApplyPercentDamageConfig_TypeDefinitionIndex = 21347;
 
 	class LittleGameAbilityPixAirEffectApplyPercentDamageConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:
 		::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* Percentage; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8127FD4DC7B2B363(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_METHOD_3_8127FD4DC7B2B363_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F03872C121479677(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_METHOD_3_F03872C121479677_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityPixAirEffectApplyPercentDamageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREFFECTAPPLYPERCENTDAMAGECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

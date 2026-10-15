@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_LAYERMASK_GETMASK_OFFSET UNITYSDK_OFFSET(0x1EDFA2F0)
-#define UNITYENGINE_LAYERMASK_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x19050)
-#define UNITYENGINE_LAYERMASK_NAMETOLAYER_OFFSET UNITYSDK_OFFSET(0x1EDFA2E0)
-#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EDFA2B0)
-#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EDFA2A0)
-#define UNITYENGINE_LAYERMASK_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18EB0)
+#define UNITYENGINE_LAYERMASK_GETMASK_OFFSET UNITYSDK_OFFSET(0x1F3C58A0)
+#define UNITYENGINE_LAYERMASK_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_LAYERMASK_NAMETOLAYER_OFFSET UNITYSDK_OFFSET(0x1F3C5890)
+#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F3C5860)
+#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F3C5850)
+#define UNITYENGINE_LAYERMASK_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xAF40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LayerMask_TypeDefinitionIndex = 4327;
+	inline static constexpr unsigned int LayerMask_TypeDefinitionIndex = 4330;
 
 	struct alignas(4) LayerMask
 	{
 		::System::Int32 m_Mask; // 0x10
-
+		/*
 		static ::System::Int32 op_Implicit(::UnityEngine::LayerMask a1)
 		{
 			return ((::System::Int32(*)(::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::LayerMask op_Implicit_1(::System::Int32 a1)
 		{
 			return ((::UnityEngine::LayerMask(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET))(a1);
 		}
+		*/
 
 		::System::Int32 get_value()
 		{
@@ -48,5 +49,6 @@ namespace UnityEngine
 		{
 			return ((::System::Int32(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_GETMASK_OFFSET))(a1);
 		}
+
 	};
 }

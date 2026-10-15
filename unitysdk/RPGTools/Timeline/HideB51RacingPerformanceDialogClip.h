@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B590670)
-#define RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B590660)
-#define RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B590830)
+#define RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F5940)
+#define RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F5B00)
+#define RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F5930)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideB51RacingPerformanceDialogClip_TypeDefinitionIndex = 48741;
+	inline static constexpr unsigned int HideB51RacingPerformanceDialogClip_TypeDefinitionIndex = 48281;
 
 	class HideB51RacingPerformanceDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* UILuaPath; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEB51RACINGPERFORMANCEDIALOGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

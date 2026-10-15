@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingFes/ChenLingFesToastItemControl.h"
-
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75DDC0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__FORMATDYNAMICVALUE_OFFSET UNITYSDK_OFFSET(0x1B75DD40)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1B75D860)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B75D800)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCAC2650)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__FORMATDYNAMICVALUE_OFFSET UNITYSDK_OFFSET(0xCAC25D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCAC20F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCAC2070)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastResidentHintControl_TypeDefinitionIndex = 80031;
+	inline static constexpr unsigned int ChenLingFesToastResidentHintControl_TypeDefinitionIndex = 81359;
 
 	class ChenLingFesToastResidentHintControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
 	{
 	public:
+		::UnityEngine::UI::Text* _Text; // 0x58
 		// static const ::System::String* PREFAB_PATH_COUNT_UP; // 0x0
 		// static const ::System::String* PREFAB_PATH_MULTIPLIER; // 0x0
 		// static const ::System::String* PREFAB_PATH_PENDING_CHENLING; // 0x0
 		// static const ::System::String* PREFAB_PATH_COUNT_DOWN; // 0x0
-		::UnityEngine::UI::Text* _Text; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -42,5 +40,6 @@ namespace RPG::Client::ChenLingFes
 		{
 			return ((::System::String*(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTRESIDENTHINTCONTROL__FORMATDYNAMICVALUE_OFFSET))(a1);
 		}
+
 	};
 }

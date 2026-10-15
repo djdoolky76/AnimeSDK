@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PerRendererInfo_TypeDefinitionIndex = 36896;
+	inline static constexpr unsigned int PerRendererInfo_TypeDefinitionIndex = 37581;
 
 	struct alignas(8) PerRendererInfo
 	{

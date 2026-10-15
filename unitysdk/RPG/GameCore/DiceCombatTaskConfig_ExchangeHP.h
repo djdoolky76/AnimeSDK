@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatTaskConfig_ExchangeHP; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_METHOD_3_8EF3E7C129FEAE32_OFFSET UNITYSDK_OFFSET(0x1DB05620)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_METHOD_3_C5B1C0DA05727DB3_OFFSET UNITYSDK_OFFSET(0x1DB05580)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB05610)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E41A0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E41B0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E4110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_ExchangeHP_TypeDefinitionIndex = 15920;
+	inline static constexpr unsigned int DiceCombatTaskConfig_ExchangeHP_TypeDefinitionIndex = 16093;
 
 	class DiceCombatTaskConfig_ExchangeHP : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C5B1C0DA05727DB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_METHOD_3_C5B1C0DA05727DB3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8EF3E7C129FEAE32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_METHOD_3_8EF3E7C129FEAE32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_ExchangeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_EXCHANGEHP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

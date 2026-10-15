@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class TaskConfig; }
+namespace System { class Object; }
+namespace System { template <typename T> class Predicate_1; }
+
+#define JLAAENKJHMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB22BCF0)
+#define JLAAENKJHMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB22BD30)
+#define JLAAENKJHMA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB22BD40)
+
+inline static constexpr unsigned int JLAAENKJHMA___c_TypeDefinitionIndex = 53076;
+
+	class JLAAENKJHMA___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BFB0);
+		}
+
+		static ::System::Predicate_1<::RPG::GameCore::TaskConfig*>** StaticGet___9__0_0()
+		{
+			return (::System::Predicate_1<::RPG::GameCore::TaskConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BFB8);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JLAAENKJHMA___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JLAAENKJHMA___C_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean __ctor_b__0_0(::RPG::GameCore::TaskConfig* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TaskConfig*))((::PBYTE)hIl2Cpp + JLAAENKJHMA___C___CTOR_B__0_0_OFFSET))(this, a1);
+		}
+
+	};

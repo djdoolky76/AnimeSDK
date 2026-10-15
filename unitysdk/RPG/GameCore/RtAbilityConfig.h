@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AbilityConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtAbilityConfig; }
 namespace RPG::GameCore { class RtModifierConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTABILITYCONFIG_METHOD_3_C168DDEA7273D413_OFFSET UNITYSDK_OFFSET(0x1CCD1FE0)
-#define RPG_GAMECORE_RTABILITYCONFIG_METHOD_3_FB3F1F349255B70A_OFFSET UNITYSDK_OFFSET(0x1CCD1FA0)
-#define RPG_GAMECORE_RTABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD1FD0)
+#define RPG_GAMECORE_RTABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A7C0)
+#define RPG_GAMECORE_RTABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA1A7D0)
+#define RPG_GAMECORE_RTABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1A790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityConfig_TypeDefinitionIndex = 17436;
+	inline static constexpr unsigned int RtAbilityConfig_TypeDefinitionIndex = 17648;
 
 	class RtAbilityConfig : public ::RPG::GameCore::AbilityConfig
 	{
@@ -22,20 +22,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAbort; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>* Modifiers; // 0x60
 		::System::String* JsonPath; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FB3F1F349255B70A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAbilityConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIG_METHOD_3_FB3F1F349255B70A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C168DDEA7273D413(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAbilityConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIG_METHOD_3_C168DDEA7273D413_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

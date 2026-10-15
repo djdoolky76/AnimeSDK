@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UIElements/StyleKeyword.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BD58A0)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BD5850)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BD5940)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x19050)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3BD57C0)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D61B5C0)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D61B610)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BD59E0)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BD5820)
-#define UNITYENGINE_UIELEMENTS_STYLECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x3BD57F0)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C88EC0)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x3C88E90)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C88F40)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C88EF0)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C88FE0)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3C88E60)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F492BF0)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F492C40)
+#define UNITYENGINE_UIELEMENTS_STYLECOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C89080)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleColor_TypeDefinitionIndex = 5991;
+	inline static constexpr unsigned int StyleColor_TypeDefinitionIndex = 5999;
 
 	struct alignas(4) StyleColor
 	{
 		::UnityEngine::UIElements::StyleKeyword m_Keyword; // 0x10
 		::UnityEngine::Color m_Value; // 0x14
 		::System::Int32 m_Specificity; // 0x24
-
 		::System::Void _ctor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Color a1, ::UnityEngine::UIElements::StyleKeyword a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Color get_value()
@@ -48,20 +45,26 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_GET_KEYWORD_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleColor a1, ::UnityEngine::UIElements::StyleColor a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleColor, ::UnityEngine::UIElements::StyleColor))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::UIElements::StyleColor op_Implicit(::UnityEngine::Color a1)
 		{
 			return ((::UnityEngine::UIElements::StyleColor(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::UIElements::StyleColor a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleColor))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -77,5 +80,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOLOR_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

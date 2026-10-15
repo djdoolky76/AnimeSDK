@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelNode.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
+namespace RPG::GameCore { class ChimeraDuelBackToEndOfTeamNode; }
 
-#define RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_METHOD_3_2CDB57E8F7C2A48A_OFFSET UNITYSDK_OFFSET(0x1E32D5C0)
-#define RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_METHOD_3_BA9AA49431C5FD10_OFFSET UNITYSDK_OFFSET(0x1E32D560)
-#define RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32D5B0)
+#define RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56D850)
+#define RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56D860)
+#define RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56D800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBackToEndOfTeamNode_TypeDefinitionIndex = 15846;
+	inline static constexpr unsigned int ChimeraDuelBackToEndOfTeamNode_TypeDefinitionIndex = 16019;
 
 	class ChimeraDuelBackToEndOfTeamNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:
 		::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* Target; // 0x10
 		::System::Single TransitionTime; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BA9AA49431C5FD10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_METHOD_3_BA9AA49431C5FD10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2CDB57E8F7C2A48A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_METHOD_3_2CDB57E8F7C2A48A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelBackToEndOfTeamNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBACKTOENDOFTEAMNODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

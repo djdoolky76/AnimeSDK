@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FinishHitStateImmediately; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_METHOD_3_19765CAD45C06517_OFFSET UNITYSDK_OFFSET(0x1E0DB990)
-#define RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_METHOD_3_8DA56A8337928C5C_OFFSET UNITYSDK_OFFSET(0x1E0DB950)
-#define RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DB980)
+#define RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67B890)
+#define RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D67B8A0)
+#define RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67B860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishHitStateImmediately_TypeDefinitionIndex = 23192;
+	inline static constexpr unsigned int FinishHitStateImmediately_TypeDefinitionIndex = 23457;
 
 	class FinishHitStateImmediately : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8DA56A8337928C5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishHitStateImmediately*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishHitStateImmediately* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishHitStateImmediately*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_METHOD_3_8DA56A8337928C5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishHitStateImmediately*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_19765CAD45C06517(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishHitStateImmediately* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishHitStateImmediately* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishHitStateImmediately*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_METHOD_3_19765CAD45C06517_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishHitStateImmediately*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHHITSTATEIMMEDIATELY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

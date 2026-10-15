@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/NearType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetActionDelayNearTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETACTIONDELAYNEARTARGET_METHOD_3_319136DF9B6BAA84_OFFSET UNITYSDK_OFFSET(0x1DB50F50)
-#define RPG_GAMECORE_SETACTIONDELAYNEARTARGET_METHOD_3_D92A76D25F2C325D_OFFSET UNITYSDK_OFFSET(0x1DB50F90)
-#define RPG_GAMECORE_SETACTIONDELAYNEARTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB50F80)
+#define RPG_GAMECORE_SETACTIONDELAYNEARTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA65040)
+#define RPG_GAMECORE_SETACTIONDELAYNEARTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA65050)
+#define RPG_GAMECORE_SETACTIONDELAYNEARTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA65010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetActionDelayNearTarget_TypeDefinitionIndex = 23355;
+	inline static constexpr unsigned int SetActionDelayNearTarget_TypeDefinitionIndex = 23625;
 
 	class SetActionDelayNearTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,21 +21,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* NearTargetType; // 0x20
 		::RPG::GameCore::NearType NearType; // 0x28
 		::System::Boolean IsInit; // 0x2C
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::TargetEvaluator* CustomSource; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONDELAYNEARTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONDELAYNEARTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_319136DF9B6BAA84(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionDelayNearTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetActionDelayNearTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActionDelayNearTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONDELAYNEARTARGET_METHOD_3_319136DF9B6BAA84_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetActionDelayNearTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONDELAYNEARTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D92A76D25F2C325D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionDelayNearTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetActionDelayNearTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActionDelayNearTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONDELAYNEARTARGET_METHOD_3_D92A76D25F2C325D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetActionDelayNearTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONDELAYNEARTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

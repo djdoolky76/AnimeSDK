@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Win32Dll_PROCESS_MEMORY_COUNTERS_TypeDefinitionIndex = 7901;
+	inline static constexpr unsigned int Win32Dll_PROCESS_MEMORY_COUNTERS_TypeDefinitionIndex = 7945;
 
-	struct alignas(8) Win32Dll_PROCESS_MEMORY_COUNTERS
+	struct alignas(4) Win32Dll_PROCESS_MEMORY_COUNTERS
 	{
 		::System::UInt32 cb; // 0x10
 		::System::UInt32 PageFaultCount; // 0x14

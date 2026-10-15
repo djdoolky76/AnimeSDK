@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/OperationTypeMask.h"
+namespace RPG::GameCore { class LevelEventApplyOperation; }
 
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD24070)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD24110)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD240C0)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_INIT_OFFSET UNITYSDK_OFFSET(0x1DD24020)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD24160)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E3970)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E3A60)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E3A10)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E39C0)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_INIT_OFFSET UNITYSDK_OFFSET(0xE6E3920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEventApplyOperation_TypeDefinitionIndex = 56987;
+	inline static constexpr unsigned int LevelEventApplyOperation_TypeDefinitionIndex = 56808;
 
-	class LevelEventApplyOperation : public ::Class_1_BF7A075734D15E98
+	class LevelEventApplyOperation : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::OperationTypeMask OperationMask; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVENTAPPLYOPERATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelEventApplyOperation* Init(::RPG::GameCore::OperationTypeMask a1)
@@ -43,5 +43,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

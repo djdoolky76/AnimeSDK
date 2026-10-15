@@ -3,35 +3,34 @@
 #include "unitysdk/UnityEngine/TextCore/Glyph.h"
 #include "unitysdk/UnityEngine/TextCore/GlyphMetrics.h"
 #include "unitysdk/UnityEngine/TextCore/GlyphRect.h"
-
 namespace UnityEngine { class Sprite; }
 
-#define TMPRO_TMP_SPRITEGLYPH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18B60F90)
-#define TMPRO_TMP_SPRITEGLYPH__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18B60FE0)
-#define TMPRO_TMP_SPRITEGLYPH__CTOR_OFFSET UNITYSDK_OFFSET(0x18B60C60)
+#define TMPRO_TMP_SPRITEGLYPH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2F5160)
+#define TMPRO_TMP_SPRITEGLYPH_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2F51B0)
+#define TMPRO_TMP_SPRITEGLYPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F4E30)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 43446;
+	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 44638;
 
 	class TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph
 	{
 	public:
 		::UnityEngine::Sprite* sprite; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEGLYPH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEGLYPH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::UInt32 a1, ::UnityEngine::TextCore::GlyphMetrics a2, ::UnityEngine::TextCore::GlyphRect a3, ::System::Single a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEGLYPH__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEGLYPH_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void _ctor_2(::System::UInt32 a1, ::UnityEngine::TextCore::GlyphMetrics a2, ::UnityEngine::TextCore::GlyphRect a3, ::System::Single a4, ::System::Int32 a5, ::UnityEngine::Sprite* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, ::System::Single, ::System::Int32, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEGLYPH__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, ::System::Single, ::System::Int32, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEGLYPH_CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
+
 	};
 }

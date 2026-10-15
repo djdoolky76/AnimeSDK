@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/GameModeState.h"
+namespace RPG::GameCore { class LevelGameModeStateChanged; }
 
-#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD24B00)
-#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD24AB0)
-#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_INIT_OFFSET UNITYSDK_OFFSET(0x1DD24A60)
-#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD24B50)
+#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E4450)
+#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E4400)
+#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E43B0)
+#define RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_INIT_OFFSET UNITYSDK_OFFSET(0xE6E4360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGameModeStateChanged_TypeDefinitionIndex = 56873;
+	inline static constexpr unsigned int LevelGameModeStateChanged_TypeDefinitionIndex = 56694;
 
-	class LevelGameModeStateChanged : public ::Class_1_BF7A075734D15E98
+	class LevelGameModeStateChanged : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameModeState CurrentGameModeState; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODESTATECHANGED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelGameModeStateChanged* Init(::RPG::GameCore::GameModeState a1)
@@ -37,5 +37,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODESTATECHANGED_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

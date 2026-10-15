@@ -3,40 +3,41 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/WeaknessStackOperationType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StackWeakness; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKWEAKNESS_METHOD_3_0D171A25AEE859C4_OFFSET UNITYSDK_OFFSET(0x1D0BA6E0)
-#define RPG_GAMECORE_STACKWEAKNESS_METHOD_3_A58936EAFEA9A0AD_OFFSET UNITYSDK_OFFSET(0x1D0BA6A0)
-#define RPG_GAMECORE_STACKWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BA6D0)
+#define RPG_GAMECORE_STACKWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD74C0)
+#define RPG_GAMECORE_STACKWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD74D0)
+#define RPG_GAMECORE_STACKWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD7490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 22816;
+	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 23074;
 
 	class StackWeakness : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::WeaknessStackOperationType OPType; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* WeakList; // 0x28
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* SecretList; // 0x30
 		::System::Boolean PlayAddAnimWhenOverride; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A58936EAFEA9A0AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackWeakness*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StackWeakness* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_METHOD_3_A58936EAFEA9A0AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StackWeakness*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0D171A25AEE859C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackWeakness* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StackWeakness* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackWeakness*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_METHOD_3_0D171A25AEE859C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StackWeakness*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

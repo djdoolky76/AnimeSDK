@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD340A0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD34120)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD34080)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD34010)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB04B2E0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB04B270)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB04B360)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB042030)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_OnServerEventCallbackAction_TypeDefinitionIndex = 46857;
+	inline static constexpr unsigned int SecurityTunnel_OnServerEventCallbackAction_TypeDefinitionIndex = 46397;
 
 	class SecurityTunnel_OnServerEventCallbackAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt32 a3)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONSERVEREVENTCALLBACKACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

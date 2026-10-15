@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/UI/DebugUIHandlerWidget.h"
-
 namespace UnityEngine::Rendering { class DebugUI_Button; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
+namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONACTION_OFFSET UNITYSDK_OFFSET(0x1DE29070)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1DE28F90)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1DE28EC0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1DE28DE0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE290B0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A0100)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONACTION_OFFSET UNITYSDK_OFFSET(0x1F2A00C0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1F29FFE0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1F29FF10)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1F29FE30)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerButton_TypeDefinitionIndex = 35004;
+	inline static constexpr unsigned int DebugUIHandlerButton_TypeDefinitionIndex = 35673;
 
 	class DebugUIHandlerButton : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:
 		::UnityEngine::UI::Text* nameLabel; // 0x58
 		::UnityEngine::Rendering::DebugUI_Button* m_Field; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
@@ -46,5 +45,6 @@ namespace UnityEngine::Rendering::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONACTION_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,37 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class DOFConfig; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A29F8A0)
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A29F790)
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0x1A29FA50)
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_SETDOF_OFFSET UNITYSDK_OFFSET(0x1A29FD90)
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1A29F600)
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A00B0)
-#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER__INITUI3DCAMERA_OFFSET UNITYSDK_OFFSET(0x1A29F710)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC13F0)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCBC0BE0)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCBC0AD0)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xCBC0D90)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_SETDOF_OFFSET UNITYSDK_OFFSET(0xCBC10D0)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xCBC0940)
+#define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER__INITUI3DCAMERA_OFFSET UNITYSDK_OFFSET(0xCBC0A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CreatePlayerEffectController_TypeDefinitionIndex = 72837;
+	inline static constexpr unsigned int CreatePlayerEffectController_TypeDefinitionIndex = 72920;
 
 	class CreatePlayerEffectController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* _EFFECT_PATH; // 0x0
 		::RPG::Client::MonoEffect* _MonoEffect; // 0x18
 		::UnityEngine::Camera* _UI3DCamera; // 0x20
 		::System::Nullable_1<::System::Boolean> _IsNeedToInvoke; // 0x28
 		::System::Action* _NextFrameCallback; // 0x30
-
+		// static const ::System::String* _EFFECT_PATH; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -64,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER__INITUI3DCAMERA_OFFSET))(this);
 		}
+
 	};
 }

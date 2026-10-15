@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/LittleGameSTTaskConfig.h"
 #include "unitysdk/RPG/Client/LittleGameShare/ST_TargetCatType.h"
+class FCOEMCEDLNL;
+namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseTrashItemDecision; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_METHOD_5_32D3EA889B40311B_OFFSET UNITYSDK_OFFSET(0x1D30DAB0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_METHOD_5_E05E0A47119F2879_OFFSET UNITYSDK_OFFSET(0x1D311ED0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30DAA0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FA240)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2FA250)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FA1F0)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_Main_CakeRaceUseTrashItemDecision_TypeDefinitionIndex = 10328;
+	inline static constexpr unsigned int ST_Main_CakeRaceUseTrashItemDecision_TypeDefinitionIndex = 10343;
 
 	class ST_Main_CakeRaceUseTrashItemDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::Client::LittleGameShare
 		::RPG::Client::LittleGameShare::ST_TargetCatType TargetType; // 0x18
 		::System::Int32 TargetParam; // 0x1C
 		::System::UInt32 SimulateStep; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_E05E0A47119F2879(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_METHOD_5_E05E0A47119F2879_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_32D3EA889B40311B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_METHOD_5_32D3EA889B40311B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseTrashItemDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSETRASHITEMDECISION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

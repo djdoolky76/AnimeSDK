@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace MiHoYo::SDK::HoYoUI { class HoYoLocalSkinAsset; }
+namespace MiHoYo::SDK::HoYoUI { class HoYoLocalSkinLoader; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_FINDNEARESTLOCALSKINASSET_OFFSET UNITYSDK_OFFSET(0x1C6F6F90)
-#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_SKINASSET_OFFSET UNITYSDK_OFFSET(0x1C6F6880)
-#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F7100)
+#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAD900)
+#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_FINDNEARESTLOCALSKINASSET_OFFSET UNITYSDK_OFFSET(0xAFAD790)
+#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_SKINASSET_OFFSET UNITYSDK_OFFSET(0xAFAD760)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int HoYoLocalSkinLoader_TypeDefinitionIndex = 47185;
+	inline static constexpr unsigned int HoYoLocalSkinLoader_TypeDefinitionIndex = 46725;
 
 	class HoYoLocalSkinLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::MiHoYo::SDK::HoYoUI::HoYoLocalSkinAsset* m_PropertyValues; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::HoYoUI::HoYoLocalSkinAsset* SkinAsset(::UnityEngine::GameObject* a1)
@@ -32,5 +31,6 @@ namespace MiHoYo::SDK::HoYoUI
 		{
 			return ((::MiHoYo::SDK::HoYoUI::HoYoLocalSkinLoader*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOLOCALSKINLOADER_FINDNEARESTLOCALSKINASSET_OFFSET))(a1);
 		}
+
 	};
 }

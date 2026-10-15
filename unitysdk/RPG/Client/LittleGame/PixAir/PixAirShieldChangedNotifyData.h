@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x18609C10)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_ISADD_OFFSET UNITYSDK_OFFSET(0x18609C20)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_MAXHP_OFFSET UNITYSDK_OFFSET(0x18609C00)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_NEWSHIELD_OFFSET UNITYSDK_OFFSET(0x18609BF0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18609BE0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18609C30)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD4807F0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xD4807D0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_ISADD_OFFSET UNITYSDK_OFFSET(0xD4807E0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_MAXHP_OFFSET UNITYSDK_OFFSET(0xD4807C0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_NEWSHIELD_OFFSET UNITYSDK_OFFSET(0xD4807B0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0xD4807A0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirShieldChangedNotifyData_TypeDefinitionIndex = 76836;
+	inline static constexpr unsigned int PixAirShieldChangedNotifyData_TypeDefinitionIndex = 77307;
 
 	class PixAirShieldChangedNotifyData : public ::System::Object
 	{
 	public:
 		::System::Int32 _NewShield_k__BackingField; // 0x10
-		::System::Int32 _RuntimeID_k__BackingField; // 0x14
-		::System::Boolean _IsAdd_k__BackingField; // 0x18
-		::System::Int32 _ChangeValue_k__BackingField; // 0x1C
-		::System::Int32 _MaxHP_k__BackingField; // 0x20
-
+		::System::Int32 _MaxHP_k__BackingField; // 0x14
+		::System::Int32 _RuntimeID_k__BackingField; // 0x18
+		::System::Boolean _IsAdd_k__BackingField; // 0x1C
+		::System::Byte _padding0[0x3];
+		::System::Int32 _ChangeValue_k__BackingField; // 0x20
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Int32 get_RuntimeID()
@@ -51,5 +51,6 @@ namespace RPG::Client::LittleGame::PixAir
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRSHIELDCHANGEDNOTIFYDATA_GET_ISADD_OFFSET))(this);
 		}
+
 	};
 }

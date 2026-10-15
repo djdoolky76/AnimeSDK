@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityValueGetterConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameAbilityValueGetterContextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_METHOD_3_91BD87ECEDAAEFF3_OFFSET UNITYSDK_OFFSET(0x1DD667C0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_METHOD_3_D8FCB628D798156F_OFFSET UNITYSDK_OFFSET(0x1DD66760)
-#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD667B0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AF190)
+#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7AF1A0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7AF140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityValueGetterContextConfig_TypeDefinitionIndex = 21144;
+	inline static constexpr unsigned int LittleGameAbilityValueGetterContextConfig_TypeDefinitionIndex = 21390;
 
 	class LittleGameAbilityValueGetterContextConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:
 		::System::String* Key; // 0x10
 		::RPG::GameCore::FixPoint DefaultValue; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D8FCB628D798156F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_METHOD_3_D8FCB628D798156F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_91BD87ECEDAAEFF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_METHOD_3_91BD87ECEDAAEFF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityValueGetterContextConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCONTEXTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

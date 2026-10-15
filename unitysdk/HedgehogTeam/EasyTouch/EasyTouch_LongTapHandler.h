@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D15F290)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D15F2C0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A7A0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15F1A0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673A2E0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673A1F0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673A310)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x167357C0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_LongTapHandler_TypeDefinitionIndex = 39000;
+	inline static constexpr unsigned int EasyTouch_LongTapHandler_TypeDefinitionIndex = 40297;
 
 	class EasyTouch_LongTapHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

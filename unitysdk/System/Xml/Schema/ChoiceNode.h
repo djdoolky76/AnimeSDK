@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/InteriorNode.h"
-
 namespace System::Xml::Schema { class BitSet; }
+namespace System::Xml::Schema { class InteriorNode; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 namespace System::Xml::Schema { class SyntaxTreeNode; }
 
-#define SYSTEM_XML_SCHEMA_CHOICENODE_CONSTRUCTCHILDPOS_OFFSET UNITYSDK_OFFSET(0x1BAD0820)
-#define SYSTEM_XML_SCHEMA_CHOICENODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1BAD0990)
-#define SYSTEM_XML_SCHEMA_CHOICENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1BAD0CB0)
-#define SYSTEM_XML_SCHEMA_CHOICENODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1BAD0B30)
-#define SYSTEM_XML_SCHEMA_CHOICENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD0F50)
+#define SYSTEM_XML_SCHEMA_CHOICENODE_CONSTRUCTCHILDPOS_OFFSET UNITYSDK_OFFSET(0x1EE7AE10)
+#define SYSTEM_XML_SCHEMA_CHOICENODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1EE7AF80)
+#define SYSTEM_XML_SCHEMA_CHOICENODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7B540)
+#define SYSTEM_XML_SCHEMA_CHOICENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1EE7B2A0)
+#define SYSTEM_XML_SCHEMA_CHOICENODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1EE7B120)
 
 namespace System::Xml::Schema
 {
@@ -22,7 +22,7 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_CHOICENODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_CHOICENODE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* a1, ::System::Xml::Schema::BitSet* a2, ::System::Xml::Schema::BitSet* a3, ::Il2CppArray<::System::Xml::Schema::BitSet*>* a4)
@@ -44,5 +44,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_CHOICENODE_EXPANDTREE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

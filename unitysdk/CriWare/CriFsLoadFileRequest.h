@@ -2,44 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriFsLoadFileRequest_Phase.h"
 #include "unitysdk/CriWare/CriFsRequest.h"
-
 namespace CriWare { class CriFsBinder; }
 namespace CriWare { class CriFsLoader; }
 namespace CriWare { class CriFsRequest_DoneDelegate; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSLOADFILEREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D389C20)
-#define CRIWARE_CRIFSLOADFILEREQUEST_GET_BYTES_OFFSET UNITYSDK_OFFSET(0x1D389970)
-#define CRIWARE_CRIFSLOADFILEREQUEST_GET_PATH_OFFSET UNITYSDK_OFFSET(0x1D389950)
-#define CRIWARE_CRIFSLOADFILEREQUEST_ONERROR_OFFSET UNITYSDK_OFFSET(0x1DC346C0)
-#define CRIWARE_CRIFSLOADFILEREQUEST_SET_BYTES_OFFSET UNITYSDK_OFFSET(0x1D389980)
-#define CRIWARE_CRIFSLOADFILEREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1D389960)
-#define CRIWARE_CRIFSLOADFILEREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x1D389CF0)
-#define CRIWARE_CRIFSLOADFILEREQUEST_UPDATEBINDER_OFFSET UNITYSDK_OFFSET(0x1D389DD0)
-#define CRIWARE_CRIFSLOADFILEREQUEST_UPDATELOADER_OFFSET UNITYSDK_OFFSET(0x1D38A010)
-#define CRIWARE_CRIFSLOADFILEREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D389D80)
-#define CRIWARE_CRIFSLOADFILEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D389990)
+#define CRIWARE_CRIFSLOADFILEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x167050C0)
+#define CRIWARE_CRIFSLOADFILEREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16705350)
+#define CRIWARE_CRIFSLOADFILEREQUEST_GET_BYTES_OFFSET UNITYSDK_OFFSET(0x167050A0)
+#define CRIWARE_CRIFSLOADFILEREQUEST_GET_PATH_OFFSET UNITYSDK_OFFSET(0x16705080)
+#define CRIWARE_CRIFSLOADFILEREQUEST_ONERROR_OFFSET UNITYSDK_OFFSET(0x16705990)
+#define CRIWARE_CRIFSLOADFILEREQUEST_SET_BYTES_OFFSET UNITYSDK_OFFSET(0x167050B0)
+#define CRIWARE_CRIFSLOADFILEREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x16705090)
+#define CRIWARE_CRIFSLOADFILEREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x16705420)
+#define CRIWARE_CRIFSLOADFILEREQUEST_UPDATEBINDER_OFFSET UNITYSDK_OFFSET(0x16705500)
+#define CRIWARE_CRIFSLOADFILEREQUEST_UPDATELOADER_OFFSET UNITYSDK_OFFSET(0x16705740)
+#define CRIWARE_CRIFSLOADFILEREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x167054B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsLoadFileRequest_TypeDefinitionIndex = 38811;
+	inline static constexpr unsigned int CriFsLoadFileRequest_TypeDefinitionIndex = 40108;
 
 	class CriFsLoadFileRequest : public ::CriWare::CriFsRequest
 	{
 	public:
-		::System::String* _path_k__BackingField; // 0x38
-		::CriWare::CriFsBinder* refBinder; // 0x40
-		::CriWare::CriFsBinder* newBinder; // 0x48
-		::Il2CppArray<::System::Byte>* _bytes_k__BackingField; // 0x50
-		::CriWare::CriFsLoader* loader; // 0x58
-		::System::UInt32 bindId; // 0x60
-		::CriWare::CriFsLoadFileRequest_Phase phase; // 0x64
-		::System::Int32 readUnitSize; // 0x68
-		::System::Int64 fileSize; // 0x70
-
+		::Il2CppArray<::System::Byte>* _bytes_k__BackingField; // 0x38
+		::CriWare::CriFsLoader* loader; // 0x40
+		::System::String* _path_k__BackingField; // 0x48
+		::CriWare::CriFsBinder* refBinder; // 0x50
+		::CriWare::CriFsBinder* newBinder; // 0x58
+		::System::Int64 fileSize; // 0x60
+		::System::UInt32 bindId; // 0x68
+		::CriWare::CriFsLoadFileRequest_Phase phase; // 0x6C
+		::System::Int32 readUnitSize; // 0x70
 		::System::Void _ctor(::CriWare::CriFsBinder* a1, ::System::String* a2, ::CriWare::CriFsRequest_DoneDelegate* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::CriWare::CriFsRequest_DoneDelegate*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSLOADFILEREQUEST__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::CriWare::CriFsRequest_DoneDelegate*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSLOADFILEREQUEST_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_path()
@@ -91,5 +89,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSLOADFILEREQUEST_ONERROR_OFFSET))(this);
 		}
+
 	};
 }

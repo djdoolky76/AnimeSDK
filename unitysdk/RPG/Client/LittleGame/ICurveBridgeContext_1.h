@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Entitas { template <typename T> class IMatcher_1; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICurveBridgeContext_1_TypeDefinitionIndex = 40658;
+	inline static constexpr unsigned int ICurveBridgeContext_1_TypeDefinitionIndex = 42704;
 
-	template <typename TEntity>
+	template <typename T>
 	class ICurveBridgeContext_1
 	{
 	public:

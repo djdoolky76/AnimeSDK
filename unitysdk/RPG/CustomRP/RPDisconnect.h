@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define RPG_CUSTOMRP_RPDISCONNECT_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x18585950)
-#define RPG_CUSTOMRP_RPDISCONNECT_READ_OFFSET UNITYSDK_OFFSET(0x18585940)
-#define RPG_CUSTOMRP_RPDISCONNECT_WRITE_OFFSET UNITYSDK_OFFSET(0x18585930)
-#define RPG_CUSTOMRP_RPDISCONNECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18585990)
+#define RPG_CUSTOMRP_RPDISCONNECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0E280)
+#define RPG_CUSTOMRP_RPDISCONNECT_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1CC0E240)
+#define RPG_CUSTOMRP_RPDISCONNECT_READ_OFFSET UNITYSDK_OFFSET(0x1CC0E230)
+#define RPG_CUSTOMRP_RPDISCONNECT_WRITE_OFFSET UNITYSDK_OFFSET(0x1CC0E220)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPDisconnect_TypeDefinitionIndex = 37226;
+	inline static constexpr unsigned int RPDisconnect_TypeDefinitionIndex = 37918;
 
 	class RPDisconnect : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPDISCONNECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPDISCONNECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Write(::System::IO::BinaryWriter* a1)
@@ -37,5 +36,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPDISCONNECT_GETMESSAGETYPE_OFFSET))(this);
 		}
+
 	};
 }

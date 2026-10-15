@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class BiliBiliDelegate_AntiAddictionCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4F80)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4FB0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4F70)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A4F00)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B730)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B6B0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B760)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_SDKStartHeartbeatDelegate_TypeDefinitionIndex = 7556;
+	inline static constexpr unsigned int BiliBiliDelegate_SDKStartHeartbeatDelegate_TypeDefinitionIndex = 7610;
 
 	class BiliBiliDelegate_SDKStartHeartbeatDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::MiHoYo::SDK::BiliBiliDelegate_AntiAddictionCallback* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKSTARTHEARTBEATDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

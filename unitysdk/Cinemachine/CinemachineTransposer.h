@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineComponentBase.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineTransposer_AngularDampingMode.h"
 #include "unitysdk/Cinemachine/CinemachineTransposer_BindingMode.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/Cinemachine/CameraState.h"
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINETRANSPOSER_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x18C696C0)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x18C79590)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GETOFFSETFORMINIMUMTARGETDISTANCE_OFFSET UNITYSDK_OFFSET(0x18C6BCA0)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GETREFERENCEORIENTATION_OFFSET UNITYSDK_OFFSET(0x18C67AD0)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GETTARGETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x18C79CC0)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_ANGULARDAMPING_OFFSET UNITYSDK_OFFSET(0x18C79690)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_DAMPING_OFFSET UNITYSDK_OFFSET(0x18C79640)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_EFFECTIVEOFFSET_OFFSET UNITYSDK_OFFSET(0x18C69C70)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_HIDEOFFSETININSPECTOR_OFFSET UNITYSDK_OFFSET(0x18C79560)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x18C6AC70)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x18C79580)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_INITPREVFRAMESTATEINFO_OFFSET UNITYSDK_OFFSET(0x18C6A960)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x18C79740)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x18C68D30)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18C67A50)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x18C691E0)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_SET_HIDEOFFSETININSPECTOR_OFFSET UNITYSDK_OFFSET(0x18C79570)
-#define CINEMACHINE_CINEMACHINETRANSPOSER_TRACKTARGET_OFFSET UNITYSDK_OFFSET(0x18C6ADC0)
-#define CINEMACHINE_CINEMACHINETRANSPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6C400)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_CTOR_OFFSET UNITYSDK_OFFSET(0x16688890)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x16685B50)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x16695920)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GETOFFSETFORMINIMUMTARGETDISTANCE_OFFSET UNITYSDK_OFFSET(0x16688130)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GETREFERENCEORIENTATION_OFFSET UNITYSDK_OFFSET(0x16683F60)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GETTARGETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x16696050)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_ANGULARDAMPING_OFFSET UNITYSDK_OFFSET(0x16695A20)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_DAMPING_OFFSET UNITYSDK_OFFSET(0x166959D0)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_EFFECTIVEOFFSET_OFFSET UNITYSDK_OFFSET(0x16686100)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_HIDEOFFSETININSPECTOR_OFFSET UNITYSDK_OFFSET(0x166958F0)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x16687100)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x16695910)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_INITPREVFRAMESTATEINFO_OFFSET UNITYSDK_OFFSET(0x16686DF0)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x16695AD0)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x166851C0)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x16683EE0)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x16685670)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_SET_HIDEOFFSETININSPECTOR_OFFSET UNITYSDK_OFFSET(0x16695900)
+#define CINEMACHINE_CINEMACHINETRANSPOSER_TRACKTARGET_OFFSET UNITYSDK_OFFSET(0x16687250)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTransposer_TypeDefinitionIndex = 38495;
+	inline static constexpr unsigned int CinemachineTransposer_TypeDefinitionIndex = 39792;
 
 	class CinemachineTransposer : public ::Cinemachine::CinemachineComponentBase
 	{
@@ -48,15 +47,16 @@ namespace Cinemachine
 		::System::Single m_RollDamping; // 0x78
 		::System::Single m_AngularDamping; // 0x7C
 		::System::Boolean _HideOffsetInInspector_k__BackingField; // 0x80
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 m_PreviousTargetPosition; // 0x84
 		::UnityEngine::Quaternion m_PreviousReferenceOrientation; // 0x90
 		::UnityEngine::Quaternion m_targetOrientationOnAssign; // 0xA0
 		::UnityEngine::Vector3 m_PreviousOffset; // 0xB0
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* m_previousTarget; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnValidate()
@@ -94,9 +94,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void MutateCameraState(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
@@ -114,14 +114,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InitPrevFrameStateInfo(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void InitPrevFrameStateInfo(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_INITPREVFRAMESTATEINFO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_INITPREVFRAMESTATEINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void TrackTarget(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3& a4, ::UnityEngine::Quaternion& a5)
+		::System::Void TrackTarget(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_TRACKTARGET_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_TRACKTARGET_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::UnityEngine::Vector3 GetOffsetForMinimumTargetDistance(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
@@ -148,5 +148,6 @@ namespace Cinemachine
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRANSPOSER_GETREFERENCEORIENTATION_OFFSET))(this, a1);
 		}
+
 	};
 }

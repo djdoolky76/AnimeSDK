@@ -1,36 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
-
-namespace RPG::Client { class ScalableRendererBehavior; }
-namespace RPG::Client { class ScalableRendererBehavior_RendererPackage; }
+#include "unitysdk/UnityEngine/Bounds.h"
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_SCALABLERENDERER_GET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1AF5AA40)
-#define RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1AF5AAB0)
-#define RPG_CLIENT_SCALABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5AAC0)
+#define RPG_CLIENT_SCALABLERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xE088BE0)
+#define RPG_CLIENT_SCALABLERENDERER_GET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xE088B60)
+#define RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xE088BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 70272;
+	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 70308;
 
-	class ScalableRenderer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ScalableRendererBehavior*>
+	class ScalableRenderer
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ScalableRendererBehavior_RendererPackage*>* RendererPackages; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* RendererPackages; // 0x30
 		::UnityEngine::Bounds Bounds; // 0x38
 		::UnityEngine::Rendering::ShadowCastingMode CastShadows; // 0x50
 		::System::Boolean ReceiveShadows; // 0x54
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Camera* Camera; // 0x58
 		::UnityEngine::MaterialPropertyBlock* IDGFNFGGDOL; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCALABLERENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCALABLERENDERER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::MaterialPropertyBlock* get_MaterialPropertyBlock()
@@ -42,5 +39,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET))(this, a1);
 		}
+
 	};
 }

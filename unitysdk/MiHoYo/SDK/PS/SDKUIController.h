@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/SDKUIController_Direction.h"
-#include "unitysdk/MiHoYo/SDK/PS/SDKUIRect.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/MiHoYo/SDK/PS/SDKUIRect.h"
+namespace MiHoYo::SDK::PS { class SDKUIController; }
 namespace MiHoYo::SDK::PS { class SDKUIDialog; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_GETACTIVEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19E76010)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19E75390)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_HIGHLIGHTNEXTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19E75BA0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19E765F0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19E753A0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x19E753B0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E753C0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E76F30)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF4FB60)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_GETACTIVEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BF4EC10)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BF4DF90)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_HIGHLIGHTNEXTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BF4E7A0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BF4F220)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BF4DFA0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1BF4DFB0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF4DFC0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int SDKUIController_TypeDefinitionIndex = 8864;
+	inline static constexpr unsigned int SDKUIController_TypeDefinitionIndex = 8925;
 
 	class SDKUIController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::MiHoYo::SDK::PS::SDKUIController** StaticGet__Instance_k__BackingField()
 		{
-			return (::MiHoYo::SDK::PS::SDKUIController**)Il2CppClass::FromTypeDefinitionIndex(SDKUIController_TypeDefinitionIndex)->GetStaticField(0x192C0);
+			return (::MiHoYo::SDK::PS::SDKUIController**)UnitySDK::FromName("MiHoYo.SDK.PS", "SDKUIController")->GetStaticField(0x21D30);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::PS::SDKUIController* get_Instance()
@@ -69,5 +69,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::MiHoYo::SDK::PS::SDKUIController_Direction, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Selectable*>*, ::MiHoYo::SDK::PS::SDKUIRect, ::MiHoYo::SDK::PS::SDKUIDialog*, ::MiHoYo::SDK::PS::SDKUIRect))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

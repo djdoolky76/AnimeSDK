@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MultiFloorConflictGroupRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE75B60)
-#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE75CB0)
+#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8913C0)
+#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D891270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 13949;
+	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 14056;
 
 	class MultiFloorConflictGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
-		::System::UInt32 PlaneID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
-
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 PlaneID; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MultiFloorConflictGroupRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MultiFloorConflictGroupRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MultiFloorConflictGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MultiFloorConflictGroupRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

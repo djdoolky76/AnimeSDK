@@ -3,8 +3,8 @@
 #include "unitysdk/System/Xml/Schema/Datatype_dateTimeBase.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_YEAR_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BAE59A0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_YEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD8740)
+#define SYSTEM_XML_SCHEMA_DATATYPE_YEAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82D30)
+#define SYSTEM_XML_SCHEMA_DATATYPE_YEAR_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE8FF90)
 
 namespace System::Xml::Schema
 {
@@ -15,12 +15,13 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_YEAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_YEAR_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlTypeCode get_TypeCode()
 		{
 			return ((::System::Xml::Schema::XmlTypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_YEAR_GET_TYPECODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine::Unity { class SkeletonPartsRenderer; }
+namespace Spine::Unity { class SkeletonRenderSeparator; }
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace Spine::Unity { class SkeletonRendererInstruction; }
 namespace Spine::Unity { class SkeletonRenderer_SkeletonRendererDelegate; }
@@ -11,37 +11,37 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ADDPARTSRENDERER_OFFSET UNITYSDK_OFFSET(0x18333120)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ADDTOSKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x18332A10)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x18332910)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_CLEARPARTSRENDERERMESHES_OFFSET UNITYSDK_OFFSET(0x18333540)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x18332720)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_HANDLERENDER_OFFSET UNITYSDK_OFFSET(0x18333660)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18333420)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18332D40)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x18332990)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR_SET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x18332730)
-#define SPINE_UNITY_SKELETONRENDERSEPARATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x183339A0)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ADDPARTSRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECF7F30)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ADDTOSKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECF7820)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ECF7720)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_CLEARPARTSRENDERERMESHES_OFFSET UNITYSDK_OFFSET(0x1ECF8350)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF87B0)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECF7530)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_HANDLERENDER_OFFSET UNITYSDK_OFFSET(0x1ECF8470)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ECF8230)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ECF7B50)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ECF77A0)
+#define SPINE_UNITY_SKELETONRENDERSEPARATOR_SET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECF7540)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderSeparator_TypeDefinitionIndex = 43852;
+	inline static constexpr unsigned int SkeletonRenderSeparator_TypeDefinitionIndex = 45044;
 
 	class SkeletonRenderSeparator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 DefaultSortingOrderIncrement = 0x5; // 0x0
 		::Spine::Unity::SkeletonRenderer* skeletonRenderer; // 0x18
 		::UnityEngine::MeshRenderer* mainMeshRenderer; // 0x20
 		::System::Boolean copyPropertyBlock; // 0x28
 		::System::Boolean copyMeshRendererFlags; // 0x29
+		::System::Byte _padding0[0x6];
 		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonPartsRenderer*>* partsRenderers; // 0x30
 		::Spine::Unity::SkeletonRenderer_SkeletonRendererDelegate* OnMeshAndMaterialsUpdated; // 0x38
 		::UnityEngine::MaterialPropertyBlock* copiedBlock; // 0x40
-
+		// static const ::System::Object DefaultSortingOrderIncrement; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERSEPARATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERSEPARATOR_CTOR_OFFSET))(this);
 		}
 
 		::Spine::Unity::SkeletonRenderer* get_SkeletonRenderer()
@@ -93,5 +93,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERSEPARATOR_CLEARPARTSRENDERERMESHES_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ByCheckModifierCallBackModifierValue; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define FPANHACFILK_CTOR_OFFSET UNITYSDK_OFFSET(0x159003E0)
+#define FPANHACFILK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15900410)
+
+inline static constexpr unsigned int FPANHACFILK_TypeDefinitionIndex = 54505;
+
+	class FPANHACFILK
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByCheckModifierCallBackModifierValue* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByCheckModifierCallBackModifierValue*))((::PBYTE)hIl2Cpp + FPANHACFILK_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Evaluate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FPANHACFILK_EVALUATE_OFFSET))(this);
+		}
+
+	};

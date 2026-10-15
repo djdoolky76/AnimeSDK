@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/LittleGameSTTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceSelectSkillDecision; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_METHOD_5_69E6DD3D0007EC9E_OFFSET UNITYSDK_OFFSET(0x1D30D2B0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_METHOD_5_AA10326B8B371692_OFFSET UNITYSDK_OFFSET(0x1D311BB0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30D2A0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F97C0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2F97D0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F96D0)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_Main_CakeRaceSelectSkillDecision_TypeDefinitionIndex = 10326;
+	inline static constexpr unsigned int ST_Main_CakeRaceSelectSkillDecision_TypeDefinitionIndex = 10341;
 
 	class ST_Main_CakeRaceSelectSkillDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_AA10326B8B371692(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_METHOD_5_AA10326B8B371692_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_69E6DD3D0007EC9E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_METHOD_5_69E6DD3D0007EC9E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceSelectSkillDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACESELECTSKILLDECISION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

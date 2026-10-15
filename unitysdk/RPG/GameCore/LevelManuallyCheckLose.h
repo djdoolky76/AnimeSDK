@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelManuallyCheckLose; }
 
-#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD29A70)
-#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD29A20)
-#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_INIT_OFFSET UNITYSDK_OFFSET(0x1DD299E0)
-#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29AC0)
+#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E9380)
+#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E9330)
+#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E92E0)
+#define RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_INIT_OFFSET UNITYSDK_OFFSET(0xE6E92A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelManuallyCheckLose_TypeDefinitionIndex = 57012;
+	inline static constexpr unsigned int LevelManuallyCheckLose_TypeDefinitionIndex = 56833;
 
-	class LevelManuallyCheckLose : public ::Class_1_BF7A075734D15E98
+	class LevelManuallyCheckLose : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMANUALLYCHECKLOSE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelManuallyCheckLose* Init()
@@ -34,5 +35,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMANUALLYCHECKLOSE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_AREAEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE33260)
+#define RPG_CLIENT_PROP_AREAEDGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC14150)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AreaEdge_TypeDefinitionIndex = 77746;
+	inline static constexpr unsigned int AreaEdge_TypeDefinitionIndex = 78217;
 
 	class AreaEdge : public ::System::Object
 	{
@@ -15,10 +15,10 @@ namespace RPG::Client::Prop
 		::System::Int32 PointB; // 0x14
 		::System::Single ForwardWeight; // 0x18
 		::System::Single BackwardWeight; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_AREAEDGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_AREAEDGE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -4,17 +4,17 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_AttributeData_AttributeState.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_AttributeData_AttributeType.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class HEU_AttributeData; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_COPYVALUESTO_OFFSET UNITYSDK_OFFSET(0x167C08F0)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISCOLORATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x167C0850)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x167C09E0)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x167C0D20)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_COPYVALUESTO_OFFSET UNITYSDK_OFFSET(0x1B8A7D90)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A81C0)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISCOLORATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B8A7D20)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B8A7E80)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AttributeData_TypeDefinitionIndex = 39125;
+	inline static constexpr unsigned int HEU_AttributeData_TypeDefinitionIndex = 40422;
 
 	class HEU_AttributeData : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace HoudiniEngineUnity
 		::HoudiniEngineUnity::HAPI_AttributeInfo _attributeInfo; // 0x10
 		::System::String* _name; // 0x38
 		::HoudiniEngineUnity::HEU_AttributeData_AttributeType _attributeType; // 0x40
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Int32>* _intValues; // 0x48
 		::Il2CppArray<::System::Single>* _floatValues; // 0x50
 		::Il2CppArray<::System::String*>* _stringValues; // 0x58
 		::HoudiniEngineUnity::HEU_AttributeData_AttributeState _attributeState; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsColorAttribute()
@@ -46,5 +46,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_AttributeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

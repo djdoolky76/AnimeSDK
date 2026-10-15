@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlWellFormedWriter_AttributeValueCache_ItemType.h"
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_SET_OFFSET UNITYSDK_OFFSET(0x1E3DAA60)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DAA50)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89E40)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_SET_OFFSET UNITYSDK_OFFSET(0x1EF89E50)
 
 namespace System::Xml
 {
@@ -15,15 +16,15 @@ namespace System::Xml
 	public:
 		::System::Object* data; // 0x10
 		::System::Xml::XmlWellFormedWriter_AttributeValueCache_ItemType type; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Set(::System::Xml::XmlWellFormedWriter_AttributeValueCache_ItemType a1, ::System::Object* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWellFormedWriter_AttributeValueCache_ItemType, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_SET_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

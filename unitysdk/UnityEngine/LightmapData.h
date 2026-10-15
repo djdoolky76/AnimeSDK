@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightmapData_TypeDefinitionIndex = 4126;
+	inline static constexpr unsigned int LightmapData_TypeDefinitionIndex = 4127;
 
 	class LightmapData : public ::System::Object
 	{

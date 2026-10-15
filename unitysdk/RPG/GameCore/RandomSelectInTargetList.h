@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RandomSelectInTargetList; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RANDOMSELECTINTARGETLIST_METHOD_3_154D38ECC8163566_OFFSET UNITYSDK_OFFSET(0x1D199D30)
-#define RPG_GAMECORE_RANDOMSELECTINTARGETLIST_METHOD_3_2442CA7C0F38B463_OFFSET UNITYSDK_OFFSET(0x1D199C60)
-#define RPG_GAMECORE_RANDOMSELECTINTARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D199D20)
+#define RPG_GAMECORE_RANDOMSELECTINTARGETLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93E930)
+#define RPG_GAMECORE_RANDOMSELECTINTARGETLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D93E940)
+#define RPG_GAMECORE_RANDOMSELECTINTARGETLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93E870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectInTargetList_TypeDefinitionIndex = 22223;
+	inline static constexpr unsigned int RandomSelectInTargetList_TypeDefinitionIndex = 22472;
 
 	class RandomSelectInTargetList : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTINTARGETLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTINTARGETLIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2442CA7C0F38B463(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectInTargetList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RandomSelectInTargetList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectInTargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTINTARGETLIST_METHOD_3_2442CA7C0F38B463_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RandomSelectInTargetList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTINTARGETLIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_154D38ECC8163566(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectInTargetList* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RandomSelectInTargetList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectInTargetList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTINTARGETLIST_METHOD_3_154D38ECC8163566_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RandomSelectInTargetList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTINTARGETLIST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

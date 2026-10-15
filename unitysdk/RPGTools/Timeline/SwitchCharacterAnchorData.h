@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF27860)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE93CE80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SwitchCharacterAnchorData_TypeDefinitionIndex = 48825;
+	inline static constexpr unsigned int SwitchCharacterAnchorData_TypeDefinitionIndex = 48365;
 
 	class SwitchCharacterAnchorData : public ::System::Object
 	{
@@ -20,10 +19,10 @@ namespace RPGTools::Timeline
 		::System::UInt32 AnchorID; // 0x2C
 		::System::Boolean StickToGround; // 0x30
 		::System::Boolean Hide; // 0x31
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

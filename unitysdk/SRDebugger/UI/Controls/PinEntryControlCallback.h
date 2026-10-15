@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDBCFA0)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDBD000)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDBCD80)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBCEB0)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2D510)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2D420)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2D570)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2D2F0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int PinEntryControlCallback_TypeDefinitionIndex = 37334;
+	inline static constexpr unsigned int PinEntryControlCallback_TypeDefinitionIndex = 38027;
 
 	class PinEntryControlCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Collections::Generic::IList_1<::System::Int32>* a1, ::System::Boolean a2)
@@ -38,5 +37,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

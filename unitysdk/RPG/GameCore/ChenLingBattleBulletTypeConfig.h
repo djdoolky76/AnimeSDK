@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingBattleBulletType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingBattleBulletTypeConfig; }
 namespace RPG::GameCore { class ChenLingBattleBulletTypeExtraConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG_METHOD_2_FAE249A1B5E7AFCE_OFFSET UNITYSDK_OFFSET(0x1E00A240)
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E00A830)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D555770)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D555180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBulletTypeConfig_TypeDefinitionIndex = 15538;
+	inline static constexpr unsigned int ChenLingBattleBulletTypeConfig_TypeDefinitionIndex = 15711;
 
 	class ChenLingBattleBulletTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::ChenLingBattleBulletType BulletType; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig* BulletTypeExtraConfig; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FAE249A1B5E7AFCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleBulletTypeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleBulletTypeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleBulletTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG_METHOD_2_FAE249A1B5E7AFCE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleBulletTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

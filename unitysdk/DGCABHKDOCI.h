@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HFCHPMGNMOM;
+class IAJGGEMFOMB;
+class ILOOAAOHIIG;
+
+#define DGCABHKDOCI_CIIFIPFOEHG_OFFSET UNITYSDK_OFFSET(0xE8384D0)
+#define DGCABHKDOCI_JGOGCOLNFFE_1_OFFSET UNITYSDK_OFFSET(0xE838610)
+#define DGCABHKDOCI_JGOGCOLNFFE_OFFSET UNITYSDK_OFFSET(0xE838570)
+#define DGCABHKDOCI_OCCCAPKHJLM_1_OFFSET UNITYSDK_OFFSET(0xE8388C0)
+#define DGCABHKDOCI_OCCCAPKHJLM_OFFSET UNITYSDK_OFFSET(0xE838820)
+#define DGCABHKDOCI_ONJKJJPFKAH_OFFSET UNITYSDK_OFFSET(0xE838780)
+
+inline static constexpr unsigned int DGCABHKDOCI_TypeDefinitionIndex = 79485;
+
+	class DGCABHKDOCI : public ::System::Object
+	{
+	public:
+		static ::System::Boolean CIIFIPFOEHG(::HFCHPMGNMOM* a1)
+		{
+			return ((::System::Boolean(*)(::HFCHPMGNMOM*))((::PBYTE)hIl2Cpp + DGCABHKDOCI_CIIFIPFOEHG_OFFSET))(a1);
+		}
+
+		static ::IAJGGEMFOMB* JGOGCOLNFFE(::HFCHPMGNMOM* a1)
+		{
+			return ((::IAJGGEMFOMB*(*)(::HFCHPMGNMOM*))((::PBYTE)hIl2Cpp + DGCABHKDOCI_JGOGCOLNFFE_OFFSET))(a1);
+		}
+
+		static ::System::Boolean JGOGCOLNFFE_1(::HFCHPMGNMOM* a1, ::IAJGGEMFOMB* a2)
+		{
+			return ((::System::Boolean(*)(::HFCHPMGNMOM*, ::IAJGGEMFOMB*))((::PBYTE)hIl2Cpp + DGCABHKDOCI_JGOGCOLNFFE_1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean ONJKJJPFKAH(::HFCHPMGNMOM* a1)
+		{
+			return ((::System::Boolean(*)(::HFCHPMGNMOM*))((::PBYTE)hIl2Cpp + DGCABHKDOCI_ONJKJJPFKAH_OFFSET))(a1);
+		}
+
+		static ::ILOOAAOHIIG* OCCCAPKHJLM(::HFCHPMGNMOM* a1)
+		{
+			return ((::ILOOAAOHIIG*(*)(::HFCHPMGNMOM*))((::PBYTE)hIl2Cpp + DGCABHKDOCI_OCCCAPKHJLM_OFFSET))(a1);
+		}
+
+		static ::System::Boolean OCCCAPKHJLM_1(::HFCHPMGNMOM* a1, ::ILOOAAOHIIG* a2)
+		{
+			return ((::System::Boolean(*)(::HFCHPMGNMOM*, ::ILOOAAOHIIG*))((::PBYTE)hIl2Cpp + DGCABHKDOCI_OCCCAPKHJLM_1_OFFSET))(a1, a2);
+		}
+
+	};

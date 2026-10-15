@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueMiracleCategory.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IRogueMiracle; }
 namespace RPG::Client { class IRogueMiracleInGame; }
 namespace RPG::Client { class IRogueMiracleInfo; }
@@ -11,16 +10,16 @@ namespace RPG::Client { class IRogueTournMiracle; }
 namespace RPG::Client { class IRogueTournMiracleInGame; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ASINGAME_OFFSET UNITYSDK_OFFSET(0x1B9E23D0)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ASTOURNINGAME_OFFSET UNITYSDK_OFFSET(0x1B9E2460)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ASWITHCATEGORY_OFFSET UNITYSDK_OFFSET(0x1B9E2370)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_GETALLHEXMIRACLES_OFFSET UNITYSDK_OFFSET(0x1B9E24C0)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_GETMIRACLESBYCATEGORY_OFFSET UNITYSDK_OFFSET(0x1B9E2510)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET UNITYSDK_OFFSET(0x1B9E2760)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ASINGAME_OFFSET UNITYSDK_OFFSET(0xDF3A960)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ASTOURNINGAME_OFFSET UNITYSDK_OFFSET(0xDF3A9F0)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ASWITHCATEGORY_OFFSET UNITYSDK_OFFSET(0xDF3A900)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_GETALLHEXMIRACLES_OFFSET UNITYSDK_OFFSET(0xDF3AA50)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_GETMIRACLESBYCATEGORY_OFFSET UNITYSDK_OFFSET(0xDF3AAA0)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET UNITYSDK_OFFSET(0xDF3ACF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleExt_TypeDefinitionIndex = 67274;
+	inline static constexpr unsigned int RogueMiracleExt_TypeDefinitionIndex = 67276;
 
 	class RogueMiracleExt : public ::System::Object
 	{
@@ -54,5 +53,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::IRogueMiracleInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET))(a1, a2);
 		}
+
 	};
 }

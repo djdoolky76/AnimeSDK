@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GotoUIPage; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GOTOUIPAGE_METHOD_3_8E092E11A3750099_OFFSET UNITYSDK_OFFSET(0x1D95DEC0)
-#define RPG_GAMECORE_GOTOUIPAGE_METHOD_3_998AA2B7FE5BE6AA_OFFSET UNITYSDK_OFFSET(0x1D95DF00)
-#define RPG_GAMECORE_GOTOUIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95DEF0)
+#define RPG_GAMECORE_GOTOUIPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F4DC0)
+#define RPG_GAMECORE_GOTOUIPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F4DD0)
+#define RPG_GAMECORE_GOTOUIPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F4D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoUIPage_TypeDefinitionIndex = 23569;
+	inline static constexpr unsigned int GotoUIPage_TypeDefinitionIndex = 23843;
 
 	class GotoUIPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 GotoID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOUIPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOUIPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8E092E11A3750099(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GotoUIPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GotoUIPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GotoUIPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOUIPAGE_METHOD_3_8E092E11A3750099_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GotoUIPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOUIPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_998AA2B7FE5BE6AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GotoUIPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GotoUIPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GotoUIPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOUIPAGE_METHOD_3_998AA2B7FE5BE6AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GotoUIPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOUIPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

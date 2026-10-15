@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/FramePassCaptureData.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/RPG/CustomRP/FramePassCaptureData.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURESCENEOUTPUT_OFFSET UNITYSDK_OFFSET(0x192BC4F0)
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x192BB9B0)
-#define RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x192BC540)
-#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURESCENEOUTPUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x192BC490)
-#define RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET UNITYSDK_OFFSET(0x192BBD10)
-#define RPG_CUSTOMRP_CAPTURESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x192BC5F0)
-#define RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET UNITYSDK_OFFSET(0x192BBBA0)
-#define RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x192BC590)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURESCENEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1CBE27C0)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1CBE1C50)
+#define RPG_CUSTOMRP_CAPTURESCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE28C0)
+#define RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1CBE2810)
+#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURESCENEOUTPUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1CBE2760)
+#define RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET UNITYSDK_OFFSET(0x1CBE1FB0)
+#define RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET UNITYSDK_OFFSET(0x1CBE1E40)
+#define RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1CBE2860)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene_TypeDefinitionIndex = 36914;
+	inline static constexpr unsigned int CaptureScene_TypeDefinitionIndex = 37599;
 
 	class CaptureScene : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,15 +32,15 @@ namespace RPG::CustomRP
 		::System::Boolean needPostProcess; // 0x34
 		::System::Boolean orthographic; // 0x35
 		::System::Boolean debugCapture; // 0x36
+		::System::Byte _padding0[0x1];
 		::System::String* QACaptureJson1; // 0x38
 		::System::String* QACaptureJson2; // 0x40
 		::UnityEngine::Vector3 posBackup; // 0x48
 		::UnityEngine::Quaternion rotBackup; // 0x54
 		::System::Single farPlaneBackup; // 0x64
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Capture()
@@ -49,14 +48,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET))(this);
 		}
 
-		::System::String* _DumpParams(::RPG::CustomRP::FramePassCaptureData& a1)
+		::System::String* _DumpParams(::RPG::CustomRP::FramePassCaptureData a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void _CbScene(::Unity::Collections::NativeArray_1<::System::Byte>& a1)
+		::System::Void _CbScene(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* _CaptureSceneOutputCoroutine()
@@ -78,5 +77,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET))(this);
 		}
+
 	};
 }

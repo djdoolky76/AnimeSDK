@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharaEffectRenderMaterialIndexItem_TypeDefinitionIndex = 69906;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharaEffectRenderMaterialIndexItem_TypeDefinitionIndex = 69940;
 
 	struct alignas(8) MonoEffectPluginCharaEffectBase_CharaEffectRenderMaterialIndexItem
 	{

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueParamRogueTournLayerIndexConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_METHOD_6_2A1868D81AF0B5AC_OFFSET UNITYSDK_OFFSET(0x1E546290)
-#define RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_METHOD_6_F321C9A8EDD8B928_OFFSET UNITYSDK_OFFSET(0x1E5462E0)
-#define RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5462D0)
+#define RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FDD00)
+#define RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FDD10)
+#define RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FDCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamRogueTournLayerIndexConfig_TypeDefinitionIndex = 19604;
+	inline static constexpr unsigned int RogueParamRogueTournLayerIndexConfig_TypeDefinitionIndex = 19834;
 
 	class RogueParamRogueTournLayerIndexConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_2A1868D81AF0B5AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_METHOD_6_2A1868D81AF0B5AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_F321C9A8EDD8B928(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_METHOD_6_F321C9A8EDD8B928_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueTournLayerIndexConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNLAYERINDEXCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

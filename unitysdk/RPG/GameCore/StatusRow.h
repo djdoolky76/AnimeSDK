@@ -5,49 +5,49 @@
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StatusRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1CAFC1A0)
-#define RPG_GAMECORE_STATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1CAF9610)
-#define RPG_GAMECORE_STATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CAF9D10)
-#define RPG_GAMECORE_STATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1CAFC110)
-#define RPG_GAMECORE_STATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1CAFC170)
-#define RPG_GAMECORE_STATUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFC100)
+#define RPG_GAMECORE_STATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1DAF66F0)
+#define RPG_GAMECORE_STATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF6650)
+#define RPG_GAMECORE_STATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DAF3B60)
+#define RPG_GAMECORE_STATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAF4260)
+#define RPG_GAMECORE_STATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DAF6660)
+#define RPG_GAMECORE_STATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DAF66C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatusRow_TypeDefinitionIndex = 15009;
+	inline static constexpr unsigned int StatusRow_TypeDefinitionIndex = 15180;
 
 	class StatusRow : public ::System::Object
 	{
 	public:
-		::System::String* StatusIconPathHighSize; // 0x10
-		::System::String* StatusIconPath; // 0x18
-		::Il2CppArray<::System::String*>* ReadParamList; // 0x20
-		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x28
-		::System::String* ModifierName; // 0x30
-		::RPG::Client::TextID StatusName; // 0x38
-		::RPG::Client::TextID StatusDesc; // 0x48
-		::RPG::Client::TextID StatusEffect; // 0x58
-		::System::UInt32 StatusID; // 0x68
-		::System::Boolean CanDispel; // 0x6C
+		::System::String* ModifierName; // 0x10
+		::Il2CppArray<::System::String*>* ReadParamList; // 0x18
+		::System::String* StatusIconPath; // 0x20
+		::System::String* StatusIconPathHighSize; // 0x28
+		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x30
+		::System::UInt32 StatusID; // 0x38
+		::System::Boolean CanDispel; // 0x3C
+		::System::Byte _padding0[0x3];
+		::RPG::Client::TextID StatusDesc; // 0x40
+		::RPG::Client::TextID StatusEffect; // 0x50
+		::RPG::Client::TextID StatusName; // 0x60
 		::RPG::GameCore::EnumStatusType StatusType; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StatusRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::StatusRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StatusRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::StatusRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StatusRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
@@ -64,5 +64,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EnumStatusTag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_CONTAINSTAG_OFFSET))(this, a1);
 		}
+
 	};
 }

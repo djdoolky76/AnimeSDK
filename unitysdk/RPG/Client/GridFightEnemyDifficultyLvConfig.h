@@ -3,41 +3,41 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
-
+namespace RPG::Client { class GridFightEnemyDifficultyLvConfig; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1C9743D0)
-#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CREATEINTERVAL_OFFSET UNITYSDK_OFFSET(0x1C974460)
-#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C9745B0)
-#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C974450)
+#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD103440)
+#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD1032E0)
+#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xD103260)
+#define RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CREATEINTERVAL_OFFSET UNITYSDK_OFFSET(0xD1032F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEnemyDifficultyLvConfig_TypeDefinitionIndex = 64569;
+	inline static constexpr unsigned int GridFightEnemyDifficultyLvConfig_TypeDefinitionIndex = 64509;
 
 	class GridFightEnemyDifficultyLvConfig : public ::System::Object
 	{
 	public:
+		::RPG::GameCore::FixPoint DefenceRatio; // 0x10
+		::RPG::GameCore::FixPoint HPRatio; // 0x18
+		::RPG::GameCore::FixPoint AttackRatio; // 0x20
+		::System::UInt32 ChapterID; // 0x28
+		::System::UInt32 EnemyDifficultyLevel; // 0x2C
+		::RPG::GameCore::FixPoint StanceRatio; // 0x30
+		::RPG::GameCore::FixPoint SpeedRatio; // 0x38
 		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>** StaticGet_GetConfigImpl()
 		{
-			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEnemyDifficultyLvConfig_TypeDefinitionIndex)->GetStaticField(0x1FD90);
+			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>**)UnitySDK::FromName("RPG.Client", "GridFightEnemyDifficultyLvConfig")->GetStaticField(0x68C60);
 		}
-		::RPG::GameCore::FixPoint StanceRatio; // 0x10
-		::RPG::GameCore::FixPoint SpeedRatio; // 0x18
-		::RPG::GameCore::FixPoint HPRatio; // 0x20
-		::System::UInt32 EnemyDifficultyLevel; // 0x28
-		::System::UInt32 ChapterID; // 0x2C
-		::RPG::GameCore::FixPoint AttackRatio; // 0x30
-		::RPG::GameCore::FixPoint DefenceRatio; // 0x38
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::GridFightEnemyDifficultyLvConfig* GetConfig(::System::UInt32 a1, ::System::UInt32 a2)
@@ -49,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTENEMYDIFFICULTYLVCONFIG__CREATEINTERVAL_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
+class GELIALJDFBL;
 namespace RPG::GameCore { class PlaySequenceDialogue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19003610)
-#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190036E0)
-#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19003EB0)
-#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_TICK_OFFSET UNITYSDK_OFFSET(0x19003F00)
-#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x19003600)
-#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK__GETSEQUENCEUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x19003DD0)
+#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE7083F0)
+#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE708400)
+#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE7084D0)
+#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE708CB0)
+#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_TICK_OFFSET UNITYSDK_OFFSET(0xE708D00)
+#define RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK__GETSEQUENCEUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xE708BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlaySequenceDialogueTask_TypeDefinitionIndex = 58432;
+	inline static constexpr unsigned int PlaySequenceDialogueTask_TypeDefinitionIndex = 58283;
 
-	class PlaySequenceDialogueTask : public ::Class_1_5F51D4049EA87B7B
+	class PlaySequenceDialogueTask : public ::GELIALJDFBL
 	{
 	public:
-		::Class_1_5F51D4049EA87B7B* _dialogueTask; // 0x18
-		::RPG::GameCore::PlaySequenceDialogue* _ConfigRef; // 0x20
+		::RPG::GameCore::PlaySequenceDialogue* _ConfigRef; // 0x18
+		::GELIALJDFBL* _dialogueTask; // 0x20
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x28
-
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlaySequenceDialogue* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PlaySequenceDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PlaySequenceDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -53,5 +52,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::String*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSEQUENCEDIALOGUETASK__GETSEQUENCEUNIQUENAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

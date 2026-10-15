@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1DBA4910)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_INDECLARATIONORDER_OFFSET UNITYSDK_OFFSET(0x1DBA48D0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_INFIELDNUMBERORDER_OFFSET UNITYSDK_OFFSET(0x1DBA48F0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBA48C0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86DAF0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B86DB40)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_INDECLARATIONORDER_OFFSET UNITYSDK_OFFSET(0x1B86DB00)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_INFIELDNUMBERORDER_OFFSET UNITYSDK_OFFSET(0x1B86DB20)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor_FieldCollection_TypeDefinitionIndex = 5544;
+	inline static constexpr unsigned int MessageDescriptor_FieldCollection_TypeDefinitionIndex = 5551;
 
 	class MessageDescriptor_FieldCollection : public ::System::Object
 	{
 	public:
 		::Google::Protobuf::Reflection::MessageDescriptor* messageDescriptor; // 0x10
-
 		::System::Void _ctor(::Google::Protobuf::Reflection::MessageDescriptor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::MessageDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::MessageDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* InDeclarationOrder()
@@ -39,5 +37,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::Google::Protobuf::Reflection::FieldDescriptor*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FIELDCOLLECTION_GET_ITEM_OFFSET))(this, a1);
 		}
+
 	};
 }

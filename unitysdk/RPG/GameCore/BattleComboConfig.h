@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleComboConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_1D062C20384514FA_OFFSET UNITYSDK_OFFSET(0x1B2F2EE0)
-#define RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F33A0)
+#define RPG_GAMECORE_BATTLECOMBOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D427500)
+#define RPG_GAMECORE_BATTLECOMBOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D427040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 16917;
+	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 17112;
 
 	class BattleComboConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,6 +19,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint HitComboValueAddDelta; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* HitComboValueMinusDelta; // 0x18
 		::RPG::GameCore::StringHash SkillComboValueDeltaHash; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::FixPoint>* StanceComboValueDelta; // 0x28
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EliminateComboValueDelta; // 0x30
 		::Il2CppArray<::RPG::GameCore::FixPoint>* DynamicAddRatioByGear; // 0x38
@@ -27,15 +28,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FixPoint>* DamageAdd; // 0x50
 		::RPG::GameCore::FixPoint ComboDamageSkillAdded; // 0x58
 		::RPG::GameCore::FixPoint ComboMaxConst; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1D062C20384514FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleComboConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleComboConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleComboConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_1D062C20384514FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleComboConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

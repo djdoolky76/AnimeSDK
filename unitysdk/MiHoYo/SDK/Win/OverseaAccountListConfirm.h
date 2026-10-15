@@ -1,45 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class OverseaAccountListConfirm; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x18B1D480)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x18B1E590)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x18B1E540)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x18AF4720)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x18AE2270)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x18B1E020)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1E5B0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD835E0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1BD846F0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1BD846A0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD84710)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD5A9C0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD484D0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD84180)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountListConfirm_TypeDefinitionIndex = 9241;
+	inline static constexpr unsigned int OverseaAccountListConfirm_TypeDefinitionIndex = 9303;
 
 	class OverseaAccountListConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::OverseaAccountListConfirm** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm_TypeDefinitionIndex)->GetStaticField(0x332C0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* titlePath; // 0x0
-		// static const ::System::String* deleteAccountTogglePath; // 0x0
-		// static const ::System::String* deleteAccountHintTitlePath; // 0x0
-		// static const ::System::String* deleteAccountHintContentPath; // 0x0
-		// static const ::System::String* saveAccountTogglePath; // 0x0
-		// static const ::System::String* saveAccountHintTitlePath; // 0x0
-		// static const ::System::String* saveAccountHintContentPath; // 0x0
-		// static const ::System::String* cancelButtonPath; // 0x0
-		// static const ::System::String* cancelButtonTextPath; // 0x0
-		// static const ::System::String* confirmButtonPath; // 0x0
-		// static const ::System::String* confirmButtonTextPath; // 0x0
 		::UnityEngine::UI::Text* title; // 0x58
 		::UnityEngine::UI::Text* saveAccountHintTitle; // 0x60
 		::UnityEngine::UI::Text* saveAccountHintContent; // 0x68
@@ -53,10 +36,26 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Text* confirmButtonText; // 0xA8
 		::System::Action* OnCancel; // 0xB0
 		::System::Action_1<::System::Boolean>* OnConfirm; // 0xB8
+		static ::MiHoYo::SDK::Win::OverseaAccountListConfirm** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAccountListConfirm")->GetStaticField(0x33500);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* titlePath; // 0x0
+		// static const ::System::String* deleteAccountTogglePath; // 0x0
+		// static const ::System::String* deleteAccountHintTitlePath; // 0x0
+		// static const ::System::String* deleteAccountHintContentPath; // 0x0
+		// static const ::System::String* saveAccountTogglePath; // 0x0
+		// static const ::System::String* saveAccountHintTitlePath; // 0x0
+		// static const ::System::String* saveAccountHintContentPath; // 0x0
+		// static const ::System::String* cancelButtonPath; // 0x0
+		// static const ::System::String* cancelButtonTextPath; // 0x0
+		// static const ::System::String* confirmButtonPath; // 0x0
+		// static const ::System::String* confirmButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -88,5 +87,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_HIDE_OFFSET))();
 		}
+
 	};
 }

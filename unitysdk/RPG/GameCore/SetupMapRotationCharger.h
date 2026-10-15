@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class DynamicStringList; }
+namespace RPG::GameCore { class SetupMapRotationCharger; }
 
-#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_METHOD_3_23D50BE7DD423273_OFFSET UNITYSDK_OFFSET(0x1E098E90)
-#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_METHOD_3_94F6BA095FDB2551_OFFSET UNITYSDK_OFFSET(0x1E098ED0)
-#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E098EC0)
+#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FD20)
+#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9FD30)
+#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9FCF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupMapRotationCharger_TypeDefinitionIndex = 22054;
+	inline static constexpr unsigned int SetupMapRotationCharger_TypeDefinitionIndex = 22302;
 
 	class SetupMapRotationCharger : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,20 +29,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* FullEffectAttachPoint; // 0x60
 		::RPG::GameCore::DynamicString* DissolveParamName; // 0x68
 		::RPG::GameCore::DynamicString* DissolveAnimState; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONCHARGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONCHARGER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_23D50BE7DD423273(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupMapRotationCharger*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetupMapRotationCharger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupMapRotationCharger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONCHARGER_METHOD_3_23D50BE7DD423273_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetupMapRotationCharger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONCHARGER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_94F6BA095FDB2551(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupMapRotationCharger* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetupMapRotationCharger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupMapRotationCharger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONCHARGER_METHOD_3_94F6BA095FDB2551_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetupMapRotationCharger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONCHARGER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

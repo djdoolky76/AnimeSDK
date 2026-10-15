@@ -3,28 +3,26 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Animations/AnimationPlayableOutput.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Experimental::Animations { class IAnimationWindowPreview; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BF56DC0)
-#define UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_FETCHPREVIEWCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1BF56FF0)
-#define UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF56CE0)
+#define UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F34E130)
+#define UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1F34E210)
+#define UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_FETCHPREVIEWCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F34E440)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationPreviewUpdateCallback_TypeDefinitionIndex = 37478;
+	inline static constexpr unsigned int AnimationPreviewUpdateCallback_TypeDefinitionIndex = 38775;
 
 	class AnimationPreviewUpdateCallback : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* m_PreviewComponents; // 0x10
-		::UnityEngine::Playables::PlayableGraph m_Graph; // 0x18
-		::UnityEngine::Animations::AnimationPlayableOutput m_Output; // 0x28
-
+		::UnityEngine::Animations::AnimationPlayableOutput m_Output; // 0x18
+		::UnityEngine::Playables::PlayableGraph m_Graph; // 0x28
 		::System::Void _ctor(::UnityEngine::Animations::AnimationPlayableOutput a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationPlayableOutput))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationPlayableOutput))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Evaluate()
@@ -36,5 +34,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_ANIMATIONPREVIEWUPDATECALLBACK_FETCHPREVIEWCOMPONENTS_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_100ED75C115B764C;
+class HBMNNCAGMMO;
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETANIMWIDTH_OFFSET UNITYSDK_OFFSET(0x1A927FB0)
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETEFFVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A928010)
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETMOVING_OFFSET UNITYSDK_OFFSET(0x1A927F60)
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A927F50)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCEA430)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETANIMWIDTH_OFFSET UNITYSDK_OFFSET(0xDCEA490)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETEFFVISIBLE_OFFSET UNITYSDK_OFFSET(0xDCEA4F0)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETMOVING_OFFSET UNITYSDK_OFFSET(0xDCEA440)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallObstacle_TypeDefinitionIndex = 78122;
+	inline static constexpr unsigned int GravityBallObstacle_TypeDefinitionIndex = 78593;
 
 	class GravityBallObstacle : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::GameObject* Wall; // 0x18
 		::UnityEngine::GameObject* Base; // 0x20
-		::Class_1_100ED75C115B764C* MEGKBJCPBAG; // 0x28
+		::HBMNNCAGMMO* MEGKBJCPBAG; // 0x28
 		::System::Boolean LLNDBHENPCB; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single NLHPJJAFNLN; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetMoving(::System::Boolean a1)
@@ -42,5 +41,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETEFFVISIBLE_OFFSET))(this, a1);
 		}
+
 	};
 }

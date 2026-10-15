@@ -1,47 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::Rendering { class IBitArray; }
 
-#define UNITYENGINE_RENDERING_BITARRAY8_BITAND_OFFSET UNITYSDK_OFFSET(0x3BB4D60)
-#define UNITYENGINE_RENDERING_BITARRAY8_BITNOT_OFFSET UNITYSDK_OFFSET(0x3BB4EE0)
-#define UNITYENGINE_RENDERING_BITARRAY8_BITOR_OFFSET UNITYSDK_OFFSET(0x3BB4E20)
-#define UNITYENGINE_RENDERING_BITARRAY8_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BB4F30)
-#define UNITYENGINE_RENDERING_BITARRAY8_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BB4F90)
-#define UNITYENGINE_RENDERING_BITARRAY8_GET_ALLFALSE_OFFSET UNITYSDK_OFFSET(0x3A2F740)
-#define UNITYENGINE_RENDERING_BITARRAY8_GET_ALLTRUE_OFFSET UNITYSDK_OFFSET(0x3BB4CA0)
-#define UNITYENGINE_RENDERING_BITARRAY8_GET_CAPACITY_OFFSET UNITYSDK_OFFSET(0x379DEC0)
-#define UNITYENGINE_RENDERING_BITARRAY8_GET_HUMANIZEDDATA_OFFSET UNITYSDK_OFFSET(0x3BB4CB0)
-#define UNITYENGINE_RENDERING_BITARRAY8_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3BB4CC0)
-#define UNITYENGINE_RENDERING_BITARRAY8_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1CD031C0)
-#define UNITYENGINE_RENDERING_BITARRAY8_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1CD031B0)
-#define UNITYENGINE_RENDERING_BITARRAY8_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1CD033A0)
-#define UNITYENGINE_RENDERING_BITARRAY8_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1CD033B0)
-#define UNITYENGINE_RENDERING_BITARRAY8_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x1CD031A0)
-#define UNITYENGINE_RENDERING_BITARRAY8_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3BB4CD0)
-#define UNITYENGINE_RENDERING_BITARRAY8__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BB4CF0)
-#define UNITYENGINE_RENDERING_BITARRAY8__CTOR_OFFSET UNITYSDK_OFFSET(0x18100)
+#define UNITYENGINE_RENDERING_BITARRAY8_BITAND_OFFSET UNITYSDK_OFFSET(0x3C66650)
+#define UNITYENGINE_RENDERING_BITARRAY8_BITNOT_OFFSET UNITYSDK_OFFSET(0x3C667D0)
+#define UNITYENGINE_RENDERING_BITARRAY8_BITOR_OFFSET UNITYSDK_OFFSET(0x3C66710)
+#define UNITYENGINE_RENDERING_BITARRAY8_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C665E0)
+#define UNITYENGINE_RENDERING_BITARRAY8_CTOR_OFFSET UNITYSDK_OFFSET(0xE7580)
+#define UNITYENGINE_RENDERING_BITARRAY8_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C66820)
+#define UNITYENGINE_RENDERING_BITARRAY8_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C66880)
+#define UNITYENGINE_RENDERING_BITARRAY8_GET_ALLFALSE_OFFSET UNITYSDK_OFFSET(0x3C0CBF0)
+#define UNITYENGINE_RENDERING_BITARRAY8_GET_ALLTRUE_OFFSET UNITYSDK_OFFSET(0x3C66590)
+#define UNITYENGINE_RENDERING_BITARRAY8_GET_CAPACITY_OFFSET UNITYSDK_OFFSET(0xF7180)
+#define UNITYENGINE_RENDERING_BITARRAY8_GET_HUMANIZEDDATA_OFFSET UNITYSDK_OFFSET(0x3C665A0)
+#define UNITYENGINE_RENDERING_BITARRAY8_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C665B0)
+#define UNITYENGINE_RENDERING_BITARRAY8_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1F27AAF0)
+#define UNITYENGINE_RENDERING_BITARRAY8_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1F27AAE0)
+#define UNITYENGINE_RENDERING_BITARRAY8_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F27ACD0)
+#define UNITYENGINE_RENDERING_BITARRAY8_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1F27ACE0)
+#define UNITYENGINE_RENDERING_BITARRAY8_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x1F27AAD0)
+#define UNITYENGINE_RENDERING_BITARRAY8_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C665C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BitArray8_TypeDefinitionIndex = 34920;
+	inline static constexpr unsigned int BitArray8_TypeDefinitionIndex = 35589;
 
-	struct alignas(1) BitArray8
+	struct alignas(4) BitArray8
 	{
 		::System::Byte data; // 0x10
-
 		::System::Void _ctor(::System::Byte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_capacity()
@@ -74,20 +71,26 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
+		/*
 		static ::UnityEngine::Rendering::BitArray8 op_OnesComplement(::UnityEngine::Rendering::BitArray8 a1)
 		{
 			return ((::UnityEngine::Rendering::BitArray8(*)(::UnityEngine::Rendering::BitArray8))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_OP_ONESCOMPLEMENT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::BitArray8 op_BitwiseOr(::UnityEngine::Rendering::BitArray8 a1, ::UnityEngine::Rendering::BitArray8 a2)
 		{
 			return ((::UnityEngine::Rendering::BitArray8(*)(::UnityEngine::Rendering::BitArray8, ::UnityEngine::Rendering::BitArray8))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_OP_BITWISEOR_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::BitArray8 op_BitwiseAnd(::UnityEngine::Rendering::BitArray8 a1, ::UnityEngine::Rendering::BitArray8 a2)
 		{
 			return ((::UnityEngine::Rendering::BitArray8(*)(::UnityEngine::Rendering::BitArray8, ::UnityEngine::Rendering::BitArray8))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_OP_BITWISEAND_OFFSET))(a1, a2);
 		}
+		*/
 
 		::UnityEngine::Rendering::IBitArray* BitAnd(::UnityEngine::Rendering::IBitArray* a1)
 		{
@@ -104,15 +107,19 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::IBitArray*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_BITNOT_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Rendering::BitArray8 a1, ::UnityEngine::Rendering::BitArray8 a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::BitArray8, ::UnityEngine::Rendering::BitArray8))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::Rendering::BitArray8 a1, ::UnityEngine::Rendering::BitArray8 a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::BitArray8, ::UnityEngine::Rendering::BitArray8))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* a1)
 		{
@@ -123,5 +130,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BITARRAY8_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Diagnostics/DebuggableAttribute_DebuggingModes.h"
+#include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A559860)
+#define SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A3530)
 
 namespace System::Diagnostics
 {
@@ -13,10 +13,10 @@ namespace System::Diagnostics
 	{
 	public:
 		::System::Diagnostics::DebuggableAttribute_DebuggingModes m_debuggingModes; // 0x10
-
 		::System::Void _ctor(::System::Diagnostics::DebuggableAttribute_DebuggingModes a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::DebuggableAttribute_DebuggingModes))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::DebuggableAttribute_DebuggingModes))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

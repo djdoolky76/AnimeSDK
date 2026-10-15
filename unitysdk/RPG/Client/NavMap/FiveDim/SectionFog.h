@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+#include "unitysdk/RPG/MVector2.h"
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A339440)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A3393C0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1A3395F0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_SETCORNERS_OFFSET UNITYSDK_OFFSET(0x1A339490)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A339C00)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG__GETSPRITESIZE_OFFSET UNITYSDK_OFFSET(0x1A339B20)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_CTOR_OFFSET UNITYSDK_OFFSET(0xD93EA30)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0xD93E270)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xD93E1F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD93E420)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_SETCORNERS_OFFSET UNITYSDK_OFFSET(0xD93E2C0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG__GETSPRITESIZE_OFFSET UNITYSDK_OFFSET(0xD93E950)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int SectionFog_TypeDefinitionIndex = 74553;
+	inline static constexpr unsigned int SectionFog_TypeDefinitionIndex = 74681;
 
 	class SectionFog : public ::UnityEngine::UI::MaskableGraphic
 	{
@@ -27,10 +26,9 @@ namespace RPG::Client::NavMap::FiveDim
 		::UnityEngine::Sprite* _Sprite; // 0xF8
 		::System::Single _TextureRotation; // 0x100
 		::UnityEngine::Vector2 _SpaceWidth; // 0x104
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Texture* get_mainTexture()
@@ -57,5 +55,6 @@ namespace RPG::Client::NavMap::FiveDim
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONFOG__GETSPRITESIZE_OFFSET))(this);
 		}
+
 	};
 }

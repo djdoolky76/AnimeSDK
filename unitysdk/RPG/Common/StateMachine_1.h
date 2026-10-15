@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Common { template <typename T> class IState_1; }
 
 namespace RPG::Common
 {
-	inline static constexpr unsigned int StateMachine_1_TypeDefinitionIndex = 6407;
+	inline static constexpr unsigned int StateMachine_1_TypeDefinitionIndex = 6416;
 
 	template <typename T>
 	class StateMachine_1 : public ::System::Object

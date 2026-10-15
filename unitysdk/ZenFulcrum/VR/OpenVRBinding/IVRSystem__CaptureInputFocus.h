@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE1680)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE16B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE1670)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE1600)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65BC00)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65BB80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65BC30)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65BBF0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__CaptureInputFocus_TypeDefinitionIndex = 37631;
+	inline static constexpr unsigned int IVRSystem__CaptureInputFocus_TypeDefinitionIndex = 38928;
 
 	class IVRSystem__CaptureInputFocus : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__CAPTUREINPUTFOCUS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

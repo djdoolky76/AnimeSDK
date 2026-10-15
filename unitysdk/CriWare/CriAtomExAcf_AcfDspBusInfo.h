@@ -2,15 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExAcf_DspBusOutputType.h"
 #include "unitysdk/CriWare/CriAtom_SpeakerMapping.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x3BAF050)
+#define CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x2E8AB80)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusInfo_TypeDefinitionIndex = 38729;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusInfo_TypeDefinitionIndex = 40026;
 
 	struct alignas(8) CriAtomExAcf_AcfDspBusInfo
 	{
@@ -29,10 +27,10 @@ namespace CriWare
 		::CriWare::CriAtom_SpeakerMapping speakerMapping; // 0x44
 		::CriWare::CriAtomExAcf_DspBusOutputType outputType; // 0x48
 		::System::Byte outputOptions; // 0x4C
-
 		::System::String* get_name()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO_GET_NAME_OFFSET))(this);
 		}
+
 	};
 }

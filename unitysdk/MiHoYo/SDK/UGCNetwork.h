@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
@@ -10,23 +9,22 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_UGCNETWORK_GENERATERANDOMDELAYTIMEMS_OFFSET UNITYSDK_OFFSET(0x1CD4CA70)
-#define MIHOYO_SDK_UGCNETWORK_HTTPGETBINARY_OFFSET UNITYSDK_OFFSET(0x1CD4C110)
-#define MIHOYO_SDK_UGCNETWORK_HTTPPOSTBINARY_OFFSET UNITYSDK_OFFSET(0x1CD4C530)
-#define MIHOYO_SDK_UGCNETWORK_PERFORMHTTPREQUESTBINARY_OFFSET UNITYSDK_OFFSET(0x1CD4C9A0)
+#define MIHOYO_SDK_UGCNETWORK_GENERATERANDOMDELAYTIMEMS_OFFSET UNITYSDK_OFFSET(0xB0629C0)
+#define MIHOYO_SDK_UGCNETWORK_HTTPGETBINARY_OFFSET UNITYSDK_OFFSET(0xB062500)
+#define MIHOYO_SDK_UGCNETWORK_HTTPPOSTBINARY_OFFSET UNITYSDK_OFFSET(0xB0627A0)
+#define MIHOYO_SDK_UGCNETWORK_PERFORMHTTPREQUESTBINARY_OFFSET UNITYSDK_OFFSET(0xB0626F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork_TypeDefinitionIndex = 46910;
+	inline static constexpr unsigned int UGCNetwork_TypeDefinitionIndex = 46450;
 
 	class UGCNetwork : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 ERROR_CODE_SERVER_TRAFFIC_LIMIT = 0x1AD; // 0x0
-		// static const ::System::Int32 MAX_DELAY_TIME_MS = 0x7D0; // 0x0
-		// static const ::System::Int32 DEFAULT_RETRY_COUNT_LIMIT = 0x3; // 0x0
-		// static const ::System::Single DEFAULT_REQUEST_TIMEOUT_SEC; // 0x0
-
+		// static const ::System::Object ERROR_CODE_SERVER_TRAFFIC_LIMIT; // 0x0
+		// static const ::System::Object MAX_DELAY_TIME_MS; // 0x0
+		// static const ::System::Object DEFAULT_RETRY_COUNT_LIMIT; // 0x0
+		// static const ::System::Object DEFAULT_REQUEST_TIMEOUT_SEC; // 0x0
 		static ::System::Collections::IEnumerator* HttpGetBinary(::System::String* a1, ::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* a2, ::System::Action* a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a4, ::System::Single a5, ::System::Int32 a6, ::System::Boolean a7)
 		{
 			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK_HTTPGETBINARY_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
@@ -46,5 +44,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK_GENERATERANDOMDELAYTIMEMS_OFFSET))();
 		}
+
 	};
 }

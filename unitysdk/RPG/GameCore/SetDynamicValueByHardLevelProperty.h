@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByHardLevelProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E81E9E0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_METHOD_4_18010F47A3F270CE_OFFSET UNITYSDK_OFFSET(0x1E81E7B0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_METHOD_4_9F542E81DF93BDFB_OFFSET UNITYSDK_OFFSET(0x1E81E7F0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81E7E0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA78BF0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DA78DF0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA78C00)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA78BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByHardLevelProperty_TypeDefinitionIndex = 23324;
+	inline static constexpr unsigned int SetDynamicValueByHardLevelProperty_TypeDefinitionIndex = 23591;
 
 	class SetDynamicValueByHardLevelProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -24,25 +24,25 @@ namespace RPG::GameCore
 		::System::String* Property; // 0x20
 		::System::String* DynamicKey; // 0x28
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_18010F47A3F270CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByHardLevelProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByHardLevelProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByHardLevelProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_METHOD_4_18010F47A3F270CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByHardLevelProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9F542E81DF93BDFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByHardLevelProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByHardLevelProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByHardLevelProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_METHOD_4_9F542E81DF93BDFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByHardLevelProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYHARDLEVELPROPERTY_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

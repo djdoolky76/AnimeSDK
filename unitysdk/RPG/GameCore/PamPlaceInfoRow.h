@@ -3,30 +3,30 @@
 #include "unitysdk/RPG/GameCore/PamActionType.h"
 #include "unitysdk/RPG/GameCore/PamPlaceType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PamPlaceInfoRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D411610)
-#define RPG_GAMECORE_PAMPLACEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D411760)
+#define RPG_GAMECORE_PAMPLACEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BEDC0)
+#define RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BEC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 14197;
+	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 14304;
 
 	class PamPlaceInfoRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::PamActionType>* PamActionList; // 0x10
 		::RPG::GameCore::PamPlaceType PamPlaceType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMPLACEINFOROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMPLACEINFOROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PamPlaceInfoRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PamPlaceInfoRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PamPlaceInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PamPlaceInfoRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
-
 namespace UnityEngine { class ComputeMeshModifierAsset; }
 
-#define UNITYENGINE_COMPUTEMESHMODIFIER_GET_COMPUTEMESHMODIFIERASSET_OFFSET UNITYSDK_OFFSET(0x1DECA520)
+#define UNITYENGINE_COMPUTEMESHMODIFIER_GET_COMPUTEMESHMODIFIERASSET_OFFSET UNITYSDK_OFFSET(0x1F3AD540)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ComputeMeshModifier_TypeDefinitionIndex = 4108;
+	inline static constexpr unsigned int ComputeMeshModifier_TypeDefinitionIndex = 4109;
 
 	class ComputeMeshModifier : public ::UnityEngine::Behaviour
 	{
@@ -17,5 +16,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::ComputeMeshModifierAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COMPUTEMESHMODIFIER_GET_COMPUTEMESHMODIFIERASSET_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class BIEBKAENNNE;
+class BKMLAKCCPHD;
+class EAKHPFFGJFN;
+class MPJJHEFFKFK;
+
+#define EDCLCCGGLBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1330B510)
+#define EDCLCCGGLBI_GET_ADVMONSTERVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B7B0)
+#define EDCLCCGGLBI_GET_ADVNPCVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B770)
+#define EDCLCCGGLBI_GET_ADVPROPVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B7D0)
+#define EDCLCCGGLBI_GET_ADVSTILLNPCVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B790)
+#define EDCLCCGGLBI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1330B5D0)
+#define EDCLCCGGLBI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1330B6C0)
+#define EDCLCCGGLBI_SET_ADVMONSTERVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B7C0)
+#define EDCLCCGGLBI_SET_ADVNPCVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B780)
+#define EDCLCCGGLBI_SET_ADVPROPVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B7E0)
+#define EDCLCCGGLBI_SET_ADVSTILLNPCVISIBLEHANDLER_OFFSET UNITYSDK_OFFSET(0x1330B7A0)
+
+inline static constexpr unsigned int EDCLCCGGLBI_TypeDefinitionIndex = 60702;
+
+	class EDCLCCGGLBI : public ::System::Object
+	{
+	public:
+		::BKMLAKCCPHD* _AdvPropVisibleHandler_k__BackingField; // 0x10
+		::MPJJHEFFKFK* _AdvNPCVisibleHandler_k__BackingField; // 0x18
+		::EAKHPFFGJFN* _AdvStillNPCVisibleHandler_k__BackingField; // 0x20
+		::BIEBKAENNNE* _AdvMonsterVisibleHandler_k__BackingField; // 0x28
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_CTOR_OFFSET))(this);
+		}
+
+		::System::Void HADOHLNHHGB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_HADOHLNHHGB_OFFSET))(this);
+		}
+
+		::System::Void PJPFIHFAHGO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_PJPFIHFAHGO_OFFSET))(this);
+		}
+
+		::MPJJHEFFKFK* get_AdvNPCVisibleHandler()
+		{
+			return ((::MPJJHEFFKFK*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_GET_ADVNPCVISIBLEHANDLER_OFFSET))(this);
+		}
+
+		::System::Void set_AdvNPCVisibleHandler(::MPJJHEFFKFK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MPJJHEFFKFK*))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_SET_ADVNPCVISIBLEHANDLER_OFFSET))(this, a1);
+		}
+
+		::EAKHPFFGJFN* get_AdvStillNPCVisibleHandler()
+		{
+			return ((::EAKHPFFGJFN*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_GET_ADVSTILLNPCVISIBLEHANDLER_OFFSET))(this);
+		}
+
+		::System::Void set_AdvStillNPCVisibleHandler(::EAKHPFFGJFN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EAKHPFFGJFN*))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_SET_ADVSTILLNPCVISIBLEHANDLER_OFFSET))(this, a1);
+		}
+
+		::BIEBKAENNNE* get_AdvMonsterVisibleHandler()
+		{
+			return ((::BIEBKAENNNE*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_GET_ADVMONSTERVISIBLEHANDLER_OFFSET))(this);
+		}
+
+		::System::Void set_AdvMonsterVisibleHandler(::BIEBKAENNNE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BIEBKAENNNE*))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_SET_ADVMONSTERVISIBLEHANDLER_OFFSET))(this, a1);
+		}
+
+		::BKMLAKCCPHD* get_AdvPropVisibleHandler()
+		{
+			return ((::BKMLAKCCPHD*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_GET_ADVPROPVISIBLEHANDLER_OFFSET))(this);
+		}
+
+		::System::Void set_AdvPropVisibleHandler(::BKMLAKCCPHD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BKMLAKCCPHD*))((::PBYTE)hIl2Cpp + EDCLCCGGLBI_SET_ADVPROPVISIBLEHANDLER_OFFSET))(this, a1);
+		}
+
+	};

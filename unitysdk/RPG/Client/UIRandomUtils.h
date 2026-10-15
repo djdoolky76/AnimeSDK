@@ -2,22 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections::Generic { template <typename T> class IList_1; }
-
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0x17B8E200)
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0x17B8E270)
-#define RPG_CLIENT_UIRANDOMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x17B8E2C0)
+#define RPG_CLIENT_UIRANDOMUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xE3E9E80)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0xE3E9DC0)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0xE3E9E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 73085;
+	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 73180;
 
 	class UIRandomUtils : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIRANDOMUTILS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIRANDOMUTILS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Single RangeFloat(::System::Single a1, ::System::Single a2)
@@ -29,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET))(a1, a2);
 		}
+
 	};
 }

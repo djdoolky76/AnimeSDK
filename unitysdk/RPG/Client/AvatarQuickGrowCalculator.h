@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AvatarQuickGrowCalculator_GrowSimState.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/Client/AvatarQuickGrowCalculator_GrowSimState.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_E0B808936AD386AC;
+class NAIEKONLHAL;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AvatarGrowPlanResult; }
 namespace RPG::Client { class AvatarQuickGrowCalculator_ExpItemPlan; }
@@ -13,71 +12,74 @@ namespace RPG::Client { class ItemCostCalculator; }
 namespace RPG::GameCore { class AvatarExpItemConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_CLEARRULECONTEXT_OFFSET UNITYSDK_OFFSET(0x19EC54B0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x19EC5280)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0x19EC53E0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_SETAVATAR_OFFSET UNITYSDK_OFFSET(0x19EC5360)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_SETRULECONTEXT_OFFSET UNITYSDK_OFFSET(0x19EC5420)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__BUILDEXPPLAN_OFFSET UNITYSDK_OFFSET(0x19EC6F70)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CALCULATE_OFFSET UNITYSDK_OFFSET(0x19EC5520)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EC86A0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CEILDIV_OFFSET UNITYSDK_OFFSET(0x19EC8600)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC5270)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET UNITYSDK_OFFSET(0x19EC6D60)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__ENSUREAVATAREXPROWS_OFFSET UNITYSDK_OFFSET(0x19EC5940)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLPREVIEWCOSTS_OFFSET UNITYSDK_OFFSET(0x19EC7CA0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLREQCOSTLISTS_OFFSET UNITYSDK_OFFSET(0x19EC7940)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FINALIZERESULT_OFFSET UNITYSDK_OFFSET(0x19EC6B50)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETAVAILABLEITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x19EC76B0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETDISPLAYMAXPROMOTIONLEVEL_OFFSET UNITYSDK_OFFSET(0x19EC6C60)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEFFECTIVERULECONTEXT_OFFSET UNITYSDK_OFFSET(0x19EC6110)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEXPCOSTFORLEVELS_OFFSET UNITYSDK_OFFSET(0x19EC74B0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETLEVELUPCOINCOST_OFFSET UNITYSDK_OFFSET(0x19EC77E0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETMAXLEVELOFPROMOTION_OFFSET UNITYSDK_OFFSET(0x19EC6450)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETTARGETPROMOTIONLEVEL_OFFSET UNITYSDK_OFFSET(0x19EC6270)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETTOTALAVAILABLEEXP_OFFSET UNITYSDK_OFFSET(0x19EC64D0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__RESOLVEFARMDEMAND_OFFSET UNITYSDK_OFFSET(0x19EC82B0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__SIMULATEGROW_OFFSET UNITYSDK_OFFSET(0x19EC6680)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__TRYPROMOTION_OFFSET UNITYSDK_OFFSET(0x19EC7510)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__TRYRECALCULATE_OFFSET UNITYSDK_OFFSET(0x19EC5300)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xC707820)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_CLEARRULECONTEXT_OFFSET UNITYSDK_OFFSET(0xC704610)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC7043D0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_GET_RESULT_OFFSET UNITYSDK_OFFSET(0xC7043E0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0xC704540)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_SETAVATAR_OFFSET UNITYSDK_OFFSET(0xC7044C0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_SETRULECONTEXT_OFFSET UNITYSDK_OFFSET(0xC704580)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__BUILDEXPPLAN_OFFSET UNITYSDK_OFFSET(0xC7060E0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CALCULATE_OFFSET UNITYSDK_OFFSET(0xC704680)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CEILDIV_OFFSET UNITYSDK_OFFSET(0xC707780)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET UNITYSDK_OFFSET(0xC705ED0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__ENSUREAVATAREXPROWS_OFFSET UNITYSDK_OFFSET(0xC704AA0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLPREVIEWCOSTS_OFFSET UNITYSDK_OFFSET(0xC706E10)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLREQCOSTLISTS_OFFSET UNITYSDK_OFFSET(0xC706AB0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FINALIZERESULT_OFFSET UNITYSDK_OFFSET(0xC705CC0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETAVAILABLEITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xC706820)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETDISPLAYMAXPROMOTIONLEVEL_OFFSET UNITYSDK_OFFSET(0xC705DD0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEFFECTIVERULECONTEXT_OFFSET UNITYSDK_OFFSET(0xC705270)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEXPCOSTFORLEVELS_OFFSET UNITYSDK_OFFSET(0xC706620)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETLEVELUPCOINCOST_OFFSET UNITYSDK_OFFSET(0xC706950)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETMAXLEVELOFPROMOTION_OFFSET UNITYSDK_OFFSET(0xC7055B0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETTARGETPROMOTIONLEVEL_OFFSET UNITYSDK_OFFSET(0xC7053D0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETTOTALAVAILABLEEXP_OFFSET UNITYSDK_OFFSET(0xC705630)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__RESOLVEFARMDEMAND_OFFSET UNITYSDK_OFFSET(0xC707430)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__SIMULATEGROW_OFFSET UNITYSDK_OFFSET(0xC7057E0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__TRYPROMOTION_OFFSET UNITYSDK_OFFSET(0xC706680)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR__TRYRECALCULATE_OFFSET UNITYSDK_OFFSET(0xC704460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator_TypeDefinitionIndex = 62551;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator_TypeDefinitionIndex = 62468;
 
 	class AvatarQuickGrowCalculator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarExpItemConfigRow*>** StaticGet__AvatarExpRows()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::AvatarExpItemConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator_TypeDefinitionIndex)->GetStaticField(0x66030);
-		}
-		static ::System::UInt32* StaticGet__CoinItemID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator_TypeDefinitionIndex)->GetStaticField(0x15130);
-		}
-		static ::System::UInt32* StaticGet__HighestExpProvide()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator_TypeDefinitionIndex)->GetStaticField(0x15134);
-		}
-		static ::System::UInt32* StaticGet__HighestExpItemID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator_TypeDefinitionIndex)->GetStaticField(0x15138);
-		}
 		::RPG::Client::AvatarGrowPlanResult* _Result; // 0x10
 		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x18
-		::System::UInt32 _RulePlayerLevel; // 0x20
-		::System::UInt32 _RuleWorldLevel; // 0x24
+		::System::UInt32 _RuleWorldLevel; // 0x20
+		::System::UInt32 _RulePlayerLevel; // 0x24
 		::System::Boolean _IsDirty; // 0x28
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarExpItemConfigRow*>** StaticGet__AvatarExpRows()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::AvatarExpItemConfigRow*>**)UnitySDK::FromName("RPG.Client", "AvatarQuickGrowCalculator")->GetStaticField(0x521E0);
+		}
+
+		static ::System::UInt32* StaticGet__CoinItemID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "AvatarQuickGrowCalculator")->GetStaticField(0x12770);
+		}
+
+		static ::System::UInt32* StaticGet__HighestExpItemID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "AvatarQuickGrowCalculator")->GetStaticField(0x12774);
+		}
+
+		static ::System::UInt32* StaticGet__HighestExpProvide()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "AvatarQuickGrowCalculator")->GetStaticField(0x12778);
+		}
 
 		::System::Void _ctor(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR_CCTOR_OFFSET))();
 		}
 
 		::RPG::Client::AvatarGrowPlanResult* get_Result()
@@ -135,14 +137,14 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETMAXLEVELOFPROMOTION_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::AvatarQuickGrowCalculator_GrowSimState _SimulateGrow(::RPG::Client::ItemCostCalculator* a1, ::Class_1_E0B808936AD386AC* a2, ::Class_1_E0B808936AD386AC* a3, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::UInt32 a7)
+		::RPG::Client::AvatarQuickGrowCalculator_GrowSimState _SimulateGrow(::RPG::Client::ItemCostCalculator* a1, ::NAIEKONLHAL* a2, ::NAIEKONLHAL* a3, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::UInt32 a7)
 		{
-			return ((::RPG::Client::AvatarQuickGrowCalculator_GrowSimState(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::Class_1_E0B808936AD386AC*, ::Class_1_E0B808936AD386AC*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__SIMULATEGROW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::RPG::Client::AvatarQuickGrowCalculator_GrowSimState(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__SIMULATEGROW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> _DetermineLevelTarget(::Class_1_E0B808936AD386AC* a1, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> _DetermineLevelTarget(::NAIEKONLHAL* a1, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>(*)(::PVOID, ::Class_1_E0B808936AD386AC*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>(*)(::PVOID, ::NAIEKONLHAL*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 _GetExpCostForLevels(::System::UInt32 a1, ::System::UInt32 a2)
@@ -150,34 +152,34 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEXPCOSTFORLEVELS_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 _GetTotalAvailableExp(::Class_1_E0B808936AD386AC* a1)
+		::System::UInt32 _GetTotalAvailableExp(::NAIEKONLHAL* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_E0B808936AD386AC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETTOTALAVAILABLEEXP_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::NAIEKONLHAL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETTOTALAVAILABLEEXP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _TryPromotion(::RPG::Client::ItemCostCalculator* a1, ::Class_1_E0B808936AD386AC* a2, ::System::UInt32 a3)
+		::System::Boolean _TryPromotion(::RPG::Client::ItemCostCalculator* a1, ::NAIEKONLHAL* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::Class_1_E0B808936AD386AC*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__TRYPROMOTION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__TRYPROMOTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _FinalizeResult(::RPG::Client::AvatarGrowPlanResult* a1, ::RPG::Client::ItemCostCalculator* a2, ::Class_1_E0B808936AD386AC* a3, ::Class_1_E0B808936AD386AC* a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::UInt32 a7)
+		::System::Void _FinalizeResult(::RPG::Client::AvatarGrowPlanResult* a1, ::RPG::Client::ItemCostCalculator* a2, ::NAIEKONLHAL* a3, ::NAIEKONLHAL* a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::UInt32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AvatarGrowPlanResult*, ::RPG::Client::ItemCostCalculator*, ::Class_1_E0B808936AD386AC*, ::Class_1_E0B808936AD386AC*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FINALIZERESULT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AvatarGrowPlanResult*, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FINALIZERESULT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void _FillReqCostLists(::RPG::Client::ItemCostCalculator* a1, ::Class_1_E0B808936AD386AC* a2, ::Class_1_E0B808936AD386AC* a3, ::RPG::Client::AvatarGrowPlanResult* a4)
+		::System::Void _FillReqCostLists(::RPG::Client::ItemCostCalculator* a1, ::NAIEKONLHAL* a2, ::NAIEKONLHAL* a3, ::RPG::Client::AvatarGrowPlanResult* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::Class_1_E0B808936AD386AC*, ::Class_1_E0B808936AD386AC*, ::RPG::Client::AvatarGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLREQCOSTLISTS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::RPG::Client::AvatarGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLREQCOSTLISTS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ResolveFarmDemand(::RPG::Client::ItemCostCalculator* a1, ::Class_1_E0B808936AD386AC* a2, ::Class_1_E0B808936AD386AC* a3, ::RPG::Client::AvatarGrowPlanResult* a4)
+		::System::Void _ResolveFarmDemand(::RPG::Client::ItemCostCalculator* a1, ::NAIEKONLHAL* a2, ::NAIEKONLHAL* a3, ::RPG::Client::AvatarGrowPlanResult* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::Class_1_E0B808936AD386AC*, ::Class_1_E0B808936AD386AC*, ::RPG::Client::AvatarGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__RESOLVEFARMDEMAND_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::RPG::Client::AvatarGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__RESOLVEFARMDEMAND_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _FillPreviewCosts(::Class_1_E0B808936AD386AC* a1, ::Class_1_E0B808936AD386AC* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::RPG::Client::AvatarGrowPlanResult* a6)
+		::System::Void _FillPreviewCosts(::NAIEKONLHAL* a1, ::NAIEKONLHAL* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::RPG::Client::AvatarGrowPlanResult* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E0B808936AD386AC*, ::Class_1_E0B808936AD386AC*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::AvatarGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLPREVIEWCOSTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::AvatarGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__FILLPREVIEWCOSTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::UInt32 _GetDisplayMaxPromotionLevel()
@@ -195,14 +197,15 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__CEILDIV_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::AvatarQuickGrowCalculator_ExpItemPlan* _BuildExpPlan(::Class_1_E0B808936AD386AC* a1, ::System::UInt32 a2)
+		::RPG::Client::AvatarQuickGrowCalculator_ExpItemPlan* _BuildExpPlan(::NAIEKONLHAL* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::AvatarQuickGrowCalculator_ExpItemPlan*(*)(::PVOID, ::Class_1_E0B808936AD386AC*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__BUILDEXPPLAN_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::AvatarQuickGrowCalculator_ExpItemPlan*(*)(::PVOID, ::NAIEKONLHAL*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__BUILDEXPPLAN_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 _GetAvailableItemCount(::System::UInt32 a1, ::Class_1_E0B808936AD386AC* a2)
+		::System::UInt32 _GetAvailableItemCount(::System::UInt32 a1, ::NAIEKONLHAL* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::Class_1_E0B808936AD386AC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETAVAILABLEITEMCOUNT_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::NAIEKONLHAL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETAVAILABLEITEMCOUNT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

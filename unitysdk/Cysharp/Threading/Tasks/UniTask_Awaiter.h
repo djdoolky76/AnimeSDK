@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x3BB7EB0)
-#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3BB7E90)
-#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3BB7EC0)
-#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_SOURCEONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3BB8110)
-#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_UNSAFEONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3BB8100)
-#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER__CTOR_OFFSET UNITYSDK_OFFSET(0x148D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_CTOR_OFFSET UNITYSDK_OFFSET(0x2EDF140)
+#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x3C5F690)
+#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C5F670)
+#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C5F6A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_SOURCEONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C5F8F0)
+#define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_UNSAFEONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C5F8E0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_Awaiter_TypeDefinitionIndex = 42750;
+	inline static constexpr unsigned int UniTask_Awaiter_TypeDefinitionIndex = 38335;
 
-	struct alignas(8) UniTask_Awaiter
+	struct alignas(4) UniTask_Awaiter
 	{
 		::Cysharp::Threading::Tasks::UniTask task; // 0x10
-
-		::System::Void _ctor(::Cysharp::Threading::Tasks::UniTask& a1)
+		/*
+		::System::Void _ctor(::Cysharp::Threading::Tasks::UniTask a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTask&))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_AWAITER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTask))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_AWAITER_CTOR_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean get_IsCompleted()
 		{
@@ -51,5 +50,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_AWAITER_SOURCEONCOMPLETED_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

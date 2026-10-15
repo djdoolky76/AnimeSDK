@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections { class ArrayList; }
@@ -14,29 +13,29 @@ namespace System::Net { class IWebProxy; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define SYSTEM_NET_WEBPROXY_AREALLBYPASSED_OFFSET UNITYSDK_OFFSET(0x1B989FC0)
-#define SYSTEM_NET_WEBPROXY_CREATEDEFAULTPROXY_OFFSET UNITYSDK_OFFSET(0x1B989F90)
-#define SYSTEM_NET_WEBPROXY_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1B989CF0)
-#define SYSTEM_NET_WEBPROXY_GETPROXYAUTO_OFFSET UNITYSDK_OFFSET(0x1B989190)
-#define SYSTEM_NET_WEBPROXY_GETPROXY_OFFSET UNITYSDK_OFFSET(0x1B988F80)
-#define SYSTEM_NET_WEBPROXY_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1B988E70)
-#define SYSTEM_NET_WEBPROXY_GET_SCRIPTENGINE_OFFSET UNITYSDK_OFFSET(0x1B989F80)
-#define SYSTEM_NET_WEBPROXY_GET_USEDEFAULTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1B988E80)
-#define SYSTEM_NET_WEBPROXY_ISBYPASSEDAUTO_OFFSET UNITYSDK_OFFSET(0x1B9899D0)
-#define SYSTEM_NET_WEBPROXY_ISBYPASSEDMANUAL_OFFSET UNITYSDK_OFFSET(0x1B9891D0)
-#define SYSTEM_NET_WEBPROXY_ISBYPASSED_OFFSET UNITYSDK_OFFSET(0x1B989940)
-#define SYSTEM_NET_WEBPROXY_ISLOCALINPROXYHASH_OFFSET UNITYSDK_OFFSET(0x1B989800)
-#define SYSTEM_NET_WEBPROXY_ISLOCAL_OFFSET UNITYSDK_OFFSET(0x1B989540)
-#define SYSTEM_NET_WEBPROXY_ISMATCHINBYPASSLIST_OFFSET UNITYSDK_OFFSET(0x1B989260)
-#define SYSTEM_NET_WEBPROXY_PROXYURI_OFFSET UNITYSDK_OFFSET(0x1B98A440)
-#define SYSTEM_NET_WEBPROXY_SET_USEDEFAULTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1B988F00)
-#define SYSTEM_NET_WEBPROXY_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1B989C50)
-#define SYSTEM_NET_WEBPROXY_UNSAFEUPDATEFROMREGISTRY_OFFSET UNITYSDK_OFFSET(0x1B989C40)
-#define SYSTEM_NET_WEBPROXY_UPDATEREGEXLIST_OFFSET UNITYSDK_OFFSET(0x1B988AB0)
-#define SYSTEM_NET_WEBPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B988A50)
-#define SYSTEM_NET_WEBPROXY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B989A00)
-#define SYSTEM_NET_WEBPROXY__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1B989FB0)
-#define SYSTEM_NET_WEBPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B988A40)
+#define SYSTEM_NET_WEBPROXY_AREALLBYPASSED_OFFSET UNITYSDK_OFFSET(0x1F073640)
+#define SYSTEM_NET_WEBPROXY_CREATEDEFAULTPROXY_OFFSET UNITYSDK_OFFSET(0x1F073610)
+#define SYSTEM_NET_WEBPROXY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F072130)
+#define SYSTEM_NET_WEBPROXY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F073080)
+#define SYSTEM_NET_WEBPROXY_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F073630)
+#define SYSTEM_NET_WEBPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F072120)
+#define SYSTEM_NET_WEBPROXY_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F073370)
+#define SYSTEM_NET_WEBPROXY_GETPROXYAUTO_OFFSET UNITYSDK_OFFSET(0x1F072870)
+#define SYSTEM_NET_WEBPROXY_GETPROXY_OFFSET UNITYSDK_OFFSET(0x1F072660)
+#define SYSTEM_NET_WEBPROXY_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1F072550)
+#define SYSTEM_NET_WEBPROXY_GET_SCRIPTENGINE_OFFSET UNITYSDK_OFFSET(0x1F073600)
+#define SYSTEM_NET_WEBPROXY_GET_USEDEFAULTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1F072560)
+#define SYSTEM_NET_WEBPROXY_ISBYPASSEDAUTO_OFFSET UNITYSDK_OFFSET(0x1F073050)
+#define SYSTEM_NET_WEBPROXY_ISBYPASSEDMANUAL_OFFSET UNITYSDK_OFFSET(0x1F0728B0)
+#define SYSTEM_NET_WEBPROXY_ISBYPASSED_OFFSET UNITYSDK_OFFSET(0x1F072FC0)
+#define SYSTEM_NET_WEBPROXY_ISLOCALINPROXYHASH_OFFSET UNITYSDK_OFFSET(0x1F072E80)
+#define SYSTEM_NET_WEBPROXY_ISLOCAL_OFFSET UNITYSDK_OFFSET(0x1F072C20)
+#define SYSTEM_NET_WEBPROXY_ISMATCHINBYPASSLIST_OFFSET UNITYSDK_OFFSET(0x1F072940)
+#define SYSTEM_NET_WEBPROXY_PROXYURI_OFFSET UNITYSDK_OFFSET(0x1F073AC0)
+#define SYSTEM_NET_WEBPROXY_SET_USEDEFAULTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1F0725E0)
+#define SYSTEM_NET_WEBPROXY_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F0732D0)
+#define SYSTEM_NET_WEBPROXY_UNSAFEUPDATEFROMREGISTRY_OFFSET UNITYSDK_OFFSET(0x1F0732C0)
+#define SYSTEM_NET_WEBPROXY_UPDATEREGEXLIST_OFFSET UNITYSDK_OFFSET(0x1F072190)
 
 namespace System::Net
 {
@@ -45,34 +44,33 @@ namespace System::Net
 	class WebProxy : public ::System::Object
 	{
 	public:
-		::System::Net::AutoWebProxyScriptEngine* m_ScriptEngine; // 0x10
-		::System::Collections::ArrayList* _BypassList; // 0x18
-		::System::Collections::Hashtable* _ProxyHostAddresses; // 0x20
-		::System::Uri* _ProxyAddress; // 0x28
-		::System::Net::ICredentials* _Credentials; // 0x30
-		::Il2CppArray<::System::Text::RegularExpressions::Regex*>* _RegExBypassList; // 0x38
-		::System::Boolean m_EnableAutoproxy; // 0x40
+		::System::Collections::Hashtable* _ProxyHostAddresses; // 0x10
+		::System::Net::AutoWebProxyScriptEngine* m_ScriptEngine; // 0x18
+		::System::Collections::ArrayList* _BypassList; // 0x20
+		::Il2CppArray<::System::Text::RegularExpressions::Regex*>* _RegExBypassList; // 0x28
+		::System::Uri* _ProxyAddress; // 0x30
+		::System::Net::ICredentials* _Credentials; // 0x38
+		::System::Boolean _UseRegistry; // 0x40
 		::System::Boolean _BypassOnLocal; // 0x41
-		::System::Boolean _UseRegistry; // 0x42
-
+		::System::Boolean m_EnableAutoproxy; // 0x42
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Uri* a1, ::System::Boolean a2, ::Il2CppArray<::System::String*>* a3, ::System::Net::ICredentials* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Boolean, ::Il2CppArray<::System::String*>*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Boolean, ::Il2CppArray<::System::String*>*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY__CTOR_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_CTOR_3_OFFSET))(this, a1);
 		}
 
 		::System::Net::ICredentials* get_Credentials()
@@ -150,14 +148,14 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_UNSAFEUPDATEFROMREGISTRY_OFFSET))(this);
 		}
 
-		::System::Boolean GetProxyAuto(::System::Uri* a1, ::System::Uri*& a2)
+		::System::Boolean GetProxyAuto(::System::Uri* a1, ::System::Uri* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Uri*, ::System::Uri*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_GETPROXYAUTO_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Uri*, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_GETPROXYAUTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsBypassedAuto(::System::Uri* a1, ::System::Boolean& a2)
+		::System::Boolean IsBypassedAuto(::System::Uri* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Uri*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_ISBYPASSEDAUTO_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Uri*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_ISBYPASSEDAUTO_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Boolean AreAllBypassed(::System::Collections::Generic::IEnumerable_1<::System::String*>* a1, ::System::Boolean a2)
@@ -169,5 +167,6 @@ namespace System::Net
 		{
 			return ((::System::Uri*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBPROXY_PROXYURI_OFFSET))(a1);
 		}
+
 	};
 }

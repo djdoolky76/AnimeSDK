@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8DA0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8DE0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8D90)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F8D10)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15020)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE14F90)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15060)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15010)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetMatchDetailDelegate_TypeDefinitionIndex = 7603;
+	inline static constexpr unsigned int ConsoleDelegate_GetMatchDetailDelegate_TypeDefinitionIndex = 7657;
 
 	class ConsoleDelegate_GetMatchDetailDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Action_1<::System::String*>* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETMATCHDETAILDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

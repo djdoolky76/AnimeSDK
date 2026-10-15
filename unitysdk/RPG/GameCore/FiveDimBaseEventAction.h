@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/RPG/GameCore/LittleGameBaseEventAction.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimBaseEventAction; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION_METHOD_2_19104FB5E2A34380_OFFSET UNITYSDK_OFFSET(0x1E0E45B0)
-#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION_METHOD_2_C966ACC22D198A0E_OFFSET UNITYSDK_OFFSET(0x1E0E45F0)
-#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E05B0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6804D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D685540)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D685500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBaseEventAction_TypeDefinitionIndex = 18435;
+	inline static constexpr unsigned int FiveDimBaseEventAction_TypeDefinitionIndex = 18644;
 
-	class FiveDimBaseEventAction : public ::RPG::GameCore::JsonConfig
+	class FiveDimBaseEventAction : public ::RPG::GameCore::LittleGameBaseEventAction
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_19104FB5E2A34380(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseEventAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimBaseEventAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseEventAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION_METHOD_2_19104FB5E2A34380_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimBaseEventAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_C966ACC22D198A0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseEventAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimBaseEventAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseEventAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION_METHOD_2_C966ACC22D198A0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimBaseEventAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int VertexPickerEntry_TypeDefinitionIndex = 43235;
+	inline static constexpr unsigned int VertexPickerEntry_TypeDefinitionIndex = 44427;
 
 	struct alignas(8) VertexPickerEntry
 	{

@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B593070)
-#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B593060)
-#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B593200)
+#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F8290)
+#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F8450)
+#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F8280)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideTalkRecordingDialogClip_TypeDefinitionIndex = 48745;
+	inline static constexpr unsigned int HideTalkRecordingDialogClip_TypeDefinitionIndex = 48285;
 
 	class HideTalkRecordingDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* UILuaPath; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

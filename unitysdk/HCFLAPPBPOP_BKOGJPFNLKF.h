@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HCFLAPPBPOP_BKOGJPFNLKF_TypeDefinitionIndex = 28613;
+
+	enum class HCFLAPPBPOP_BKOGJPFNLKF : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		KNBGBCEBLDF = 815,
+		MKPDGFEMJMA = 687,
+		IGDLINLDKKK = 2019,
+		HEPHJJOLHPI = 310,
+		DGCDFCMIAGB = 711,
+		KBLJAHKCNDN = 768,
+		FIMOBDMHLND = 137,
+		OPPGLIEPBPG = 1454,
+		OFLMAAOBIEB = 153,
+		HNCBACAOFFJ = 1970,
+		JICJMDJFMNA = 771,
+		MPGPEOFGDCN = 220,
+		LGLFACNKKLD = 417,
+		DDOPJJIIFIO = 568,
+	};

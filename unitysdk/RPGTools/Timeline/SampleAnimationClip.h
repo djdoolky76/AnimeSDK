@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0BBEF0)
-#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0BBEE0)
-#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BC080)
+#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE928710)
+#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9288A0)
+#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE928700)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SampleAnimationClip_TypeDefinitionIndex = 48317;
+	inline static constexpr unsigned int SampleAnimationClip_TypeDefinitionIndex = 47858;
 
 	class SampleAnimationClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::UnityEngine::AnimationClip* SampleAnimation; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SAMPLEANIMATIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

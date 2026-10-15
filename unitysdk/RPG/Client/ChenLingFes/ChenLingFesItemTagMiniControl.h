@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class MonoUIColorSwitcher; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesItemTagViewModel; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1B755550)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B755600)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1B7552A0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B755200)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCAB9DA0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCAB9CF0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCAB9A40)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCAB99A0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesItemTagMiniControl_TypeDefinitionIndex = 80010;
+	inline static constexpr unsigned int ChenLingFesItemTagMiniControl_TypeDefinitionIndex = 81338;
 
 	class ChenLingFesItemTagMiniControl : public ::Sofa::BaseSofaControl
 	{
 	public:
+		::UnityEngine::UI::Text* _Text; // 0x40
+		::UnityEngine::UI::Image* _Icon; // 0x48
+		::RPG::Client::MonoUIColorSwitcher* _ColorSwitcher; // 0x50
 		// static const ::System::String* PrefabPath; // 0x0
-		::UnityEngine::UI::Text* _Text; // 0x38
-		::UnityEngine::UI::Image* _Icon; // 0x40
-		::RPG::Client::MonoUIColorSwitcher* _ColorSwitcher; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -44,5 +41,6 @@ namespace RPG::Client::ChenLingFes
 		{
 			return ((::RPG::Client::ChenLingFes::ChenLingFesItemTagViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGMINICONTROL_GET__VIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

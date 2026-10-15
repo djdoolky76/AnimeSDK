@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PropSelectionState.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace RPG::Client { class PropSelectionEffectConfig; }
-namespace RPG::Client { class PropSelectionEffect_Class_1_F34E36657A6030BD; }
+namespace RPG::Client { class PropSelectionEffect_KJOFIEKBODK; }
 namespace RPG::Client { class PropSelectionStateConfig; }
 namespace RPG::CustomRP { class AvatarEffectInfo_PerRendererEffect; }
 namespace RPG::GameCore { class GameEntity; }
@@ -16,63 +15,66 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROPSELECTIONEFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x17B48F70)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_ENDWORK_OFFSET UNITYSDK_OFFSET(0x17B499D0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x17B4A7D0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B49430)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_2F02286930EE8C35_OFFSET UNITYSDK_OFFSET(0x17B4A080)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_95336F246B29BAF0_OFFSET UNITYSDK_OFFSET(0x17B498D0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_9849CBBA07F50D0D_OFFSET UNITYSDK_OFFSET(0x17B4A6C0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x17B49820)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0x17B49FD0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_SETHOVERCOLOR_OFFSET UNITYSDK_OFFSET(0x17B4A830)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x17B49DB0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_STARTWORK_1_OFFSET UNITYSDK_OFFSET(0x17B49940)
-#define RPG_CLIENT_PROPSELECTIONEFFECT_STARTWORK_OFFSET UNITYSDK_OFFSET(0x17B496E0)
-#define RPG_CLIENT_PROPSELECTIONEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B4AA40)
-#define RPG_CLIENT_PROPSELECTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4A9D0)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_AKNMPKDGMNC_OFFSET UNITYSDK_OFFSET(0xDDEDB60)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0xDDED170)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDEED80)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDDEED10)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_ENDWORK_OFFSET UNITYSDK_OFFSET(0xDDEDD10)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xDDEEB10)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_GPOOBEJLGOG_OFFSET UNITYSDK_OFFSET(0xDDEE3C0)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0xDDEDC10)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDDED770)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_LFGEIOGPAHD_OFFSET UNITYSDK_OFFSET(0xDDEEA00)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_MDHOEBJGLLA_OFFSET UNITYSDK_OFFSET(0xDDEE310)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_SETHOVERCOLOR_OFFSET UNITYSDK_OFFSET(0xDDEEB70)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_SETSTATE_OFFSET UNITYSDK_OFFSET(0xDDEE0F0)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_STARTWORK_1_OFFSET UNITYSDK_OFFSET(0xDDEDC80)
+#define RPG_CLIENT_PROPSELECTIONEFFECT_STARTWORK_OFFSET UNITYSDK_OFFSET(0xDDEDA20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropSelectionEffect_TypeDefinitionIndex = 60370;
+	inline static constexpr unsigned int PropSelectionEffect_TypeDefinitionIndex = 60258;
 
 	class PropSelectionEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_DPOBOPKPMHI()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PropSelectionEffect_TypeDefinitionIndex)->GetStaticField(0x65650);
-		}
-		static ::System::Int32* StaticGet_JAGEEBGMHAE()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropSelectionEffect_TypeDefinitionIndex)->GetStaticField(0x14FE0);
-		}
 		::RPG::Client::PropSelectionEffectConfig* EffectConfig; // 0x18
 		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x20
 		::System::Boolean FMNEEONAMNO; // 0x28
 		::System::Boolean HDJOGGDMCIO; // 0x29
+		::System::Byte _padding0[0x2];
 		::RPG::Client::PropSelectionState OGLNIEKOGAE; // 0x2C
 		::System::Boolean PEMBKGLBABB; // 0x30
 		::System::Boolean OOEACNADHHB; // 0x31
 		::System::Boolean GFKABGOEIKJ; // 0x32
+		::System::Byte _padding1[0x5];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* ABAJIOEFDFB; // 0x38
 		::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* FJECIBLPPIJ; // 0x40
 		::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* PLEJLCBFGPK; // 0x48
 		::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* OECIFHNOBMO; // 0x50
-		::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD* JJBOPOPCOCH; // 0x58
-		::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD* LKGBNJEFHLB; // 0x60
-		::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD* AOKKCIPBODJ; // 0x68
-		::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD* CHIAGKDHCLG; // 0x70
-		::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD* CFKNDCCBEFL; // 0x78
+		::RPG::Client::PropSelectionEffect_KJOFIEKBODK* JJBOPOPCOCH; // 0x58
+		::RPG::Client::PropSelectionEffect_KJOFIEKBODK* LKGBNJEFHLB; // 0x60
+		::RPG::Client::PropSelectionEffect_KJOFIEKBODK* AOKKCIPBODJ; // 0x68
+		::RPG::Client::PropSelectionEffect_KJOFIEKBODK* CHIAGKDHCLG; // 0x70
+		::RPG::Client::PropSelectionEffect_KJOFIEKBODK* CFKNDCCBEFL; // 0x78
+		static ::Il2CppArray<::System::Int32>** StaticGet_DPOBOPKPMHI()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "PropSelectionEffect")->GetStaticField(0x54760);
+		}
+
+		static ::System::Int32* StaticGet_JAGEEBGMHAE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PropSelectionEffect")->GetStaticField(0x12D40);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -100,14 +102,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_ENDWORK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F37CDBD6D46274D2(::System::Object* a1)
+		::System::Void MDHOEBJGLLA(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_F37CDBD6D46274D2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_MDHOEBJGLLA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_B1936CE4DA97AA45()
+		::System::Void AKNMPKDGMNC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_AKNMPKDGMNC_OFFSET))(this);
 		}
 
 		::System::Void SetState(::RPG::Client::PropSelectionState a1)
@@ -115,19 +117,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PropSelectionState))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_SETSTATE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD* Method_5_95336F246B29BAF0(::RPG::Client::PropSelectionState a1)
+		::RPG::Client::PropSelectionEffect_KJOFIEKBODK* HPNKDJDJMLN(::RPG::Client::PropSelectionState a1)
 		{
-			return ((::RPG::Client::PropSelectionEffect_Class_1_F34E36657A6030BD*(*)(::PVOID, ::RPG::Client::PropSelectionState))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_95336F246B29BAF0_OFFSET))(this, a1);
+			return ((::RPG::Client::PropSelectionEffect_KJOFIEKBODK*(*)(::PVOID, ::RPG::Client::PropSelectionState))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_HPNKDJDJMLN_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Transform* Method_5_9849CBBA07F50D0D(::UnityEngine::Transform* a1, ::System::String* a2)
+		::UnityEngine::Transform* LFGEIOGPAHD(::UnityEngine::Transform* a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_9849CBBA07F50D0D_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_LFGEIOGPAHD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_5_2F02286930EE8C35(::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* a1, ::RPG::Client::PropSelectionStateConfig* a2)
+		::System::Boolean GPOOBEJLGOG(::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* a1, ::RPG::Client::PropSelectionStateConfig* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect*, ::RPG::Client::PropSelectionStateConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_METHOD_5_2F02286930EE8C35_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect*, ::RPG::Client::PropSelectionStateConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_GPOOBEJLGOG_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::PropSelectionState get_CurrentState()
@@ -139,5 +141,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECT_SETHOVERCOLOR_OFFSET))(this, a1);
 		}
+
 	};
 }

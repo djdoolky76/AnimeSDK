@@ -3,24 +3,24 @@
 #include "unitysdk/UnityEngine/Collider.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_SPHERECOLLIDER_GET_CENTER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E8FDC70)
-#define UNITYENGINE_SPHERECOLLIDER_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x1E8FDC20)
-#define UNITYENGINE_SPHERECOLLIDER_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1E8FDCA0)
-#define UNITYENGINE_SPHERECOLLIDER_SET_CENTER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E8FDC90)
-#define UNITYENGINE_SPHERECOLLIDER_SET_CENTER_OFFSET UNITYSDK_OFFSET(0x1E8FDC80)
-#define UNITYENGINE_SPHERECOLLIDER_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1E8FDCB0)
-#define UNITYENGINE_SPHERECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FDCC0)
+#define UNITYENGINE_SPHERECOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46EE00)
+#define UNITYENGINE_SPHERECOLLIDER_GET_CENTER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F46EDB0)
+#define UNITYENGINE_SPHERECOLLIDER_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x1F46ED60)
+#define UNITYENGINE_SPHERECOLLIDER_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1F46EDE0)
+#define UNITYENGINE_SPHERECOLLIDER_SET_CENTER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F46EDD0)
+#define UNITYENGINE_SPHERECOLLIDER_SET_CENTER_OFFSET UNITYSDK_OFFSET(0x1F46EDC0)
+#define UNITYENGINE_SPHERECOLLIDER_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1F46EDF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SphereCollider_TypeDefinitionIndex = 5313;
+	inline static constexpr unsigned int SphereCollider_TypeDefinitionIndex = 5320;
 
 	class SphereCollider : public ::UnityEngine::Collider
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_center()
@@ -43,14 +43,15 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_SET_RADIUS_OFFSET))(this, a1);
 		}
 
-		::System::Void get_center_Injected(::UnityEngine::Vector3& a1)
+		::System::Void get_center_Injected(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_GET_CENTER_INJECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_GET_CENTER_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_center_Injected(::UnityEngine::Vector3& a1)
+		::System::Void set_center_Injected(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_SET_CENTER_INJECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_SET_CENTER_INJECTED_OFFSET))(this, a1);
 		}
+
 	};
 }

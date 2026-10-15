@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace RPG::Client
 {
-	inline static constexpr unsigned int XLuaAction4_5_TypeDefinitionIndex = 59552;
+	inline static constexpr unsigned int XLuaAction4_5_TypeDefinitionIndex = 59407;
 
-	template <typename T0, typename T1, typename T2, typename T3, typename TResult>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class XLuaAction4_5 : public ::System::MulticastDelegate
 	{
 	public:

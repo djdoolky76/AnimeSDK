@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7D8CB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7D8CE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CF5F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D8C40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F61B0F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61B080)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F61B120)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F611AE0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser_OnDestroyFun_TypeDefinitionIndex = 38037;
+	inline static constexpr unsigned int Browser_OnDestroyFun_TypeDefinitionIndex = 39334;
 
 	class Browser_OnDestroyFun : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_ONDESTROYFUN_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

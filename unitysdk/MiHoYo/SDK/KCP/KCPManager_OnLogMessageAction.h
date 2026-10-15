@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C6FDDB0)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6FDDE0)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6FCA10)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FDD40)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFB4550)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB44E0)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFB4580)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFB31B0)
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPManager_OnLogMessageAction_TypeDefinitionIndex = 47153;
+	inline static constexpr unsigned int KCPManager_OnLogMessageAction_TypeDefinitionIndex = 46693;
 
 	class KCPManager_OnLogMessageAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK::KCP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

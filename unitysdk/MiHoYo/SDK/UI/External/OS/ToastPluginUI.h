@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_GET_ONTOASTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1B9D42F0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_SET_ONTOASTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1B9D42E0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_SHOW_OFFSET UNITYSDK_OFFSET(0x1B9D4300)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9D46C0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI__SHOW_B__4_0_OFFSET UNITYSDK_OFFSET(0x1B9D46D0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD0590)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_GET_ONTOASTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1BFD01C0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_SET_ONTOASTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1BFD01B0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFD01D0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI__SHOW_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BFD05A0)
 
 namespace MiHoYo::SDK::UI::External::OS
 {
-	inline static constexpr unsigned int ToastPluginUI_TypeDefinitionIndex = 8372;
+	inline static constexpr unsigned int ToastPluginUI_TypeDefinitionIndex = 8415;
 
 	class ToastPluginUI : public ::System::Object
 	{
 	public:
 		::System::Action* _OnToastCompleted_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_OnToastCompleted(::System::Action* a1)
@@ -44,5 +42,6 @@ namespace MiHoYo::SDK::UI::External::OS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TOASTPLUGINUI__SHOW_B__4_0_OFFSET))(this);
 		}
+
 	};
 }

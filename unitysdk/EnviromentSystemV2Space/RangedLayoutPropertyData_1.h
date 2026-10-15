@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EnviromentSystemV2Space/LayoutPropertyData_1.h"
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int RangedLayoutPropertyData_1_TypeDefinitionIndex = 49792;
+	inline static constexpr unsigned int RangedLayoutPropertyData_1_TypeDefinitionIndex = 49367;
 
 	template <typename T>
-	class RangedLayoutPropertyData_1 : public ::EnviromentSystemV2Space::LayoutPropertyData_1<T>
+	class RangedLayoutPropertyData_1
 	{
 	public:
 		T minVal; // 0x0

@@ -1,46 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine::AI { class NavMeshModifier; }
 
-#define UNITYENGINE_AI_NAVMESHMODIFIER_AFFECTSAGENTTYPE_OFFSET UNITYSDK_OFFSET(0x1EFF1620)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_ACTIVEMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1EFF13E0)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_AREA_OFFSET UNITYSDK_OFFSET(0x1EFF13A0)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_IGNOREFROMBUILD_OFFSET UNITYSDK_OFFSET(0x1EFF13C0)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_OVERRIDEAREA_OFFSET UNITYSDK_OFFSET(0x1EFF1380)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EFF1590)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EFF1440)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1EFF13B0)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_SET_IGNOREFROMBUILD_OFFSET UNITYSDK_OFFSET(0x1EFF13D0)
-#define UNITYENGINE_AI_NAVMESHMODIFIER_SET_OVERRIDEAREA_OFFSET UNITYSDK_OFFSET(0x1EFF1390)
-#define UNITYENGINE_AI_NAVMESHMODIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF1730)
-#define UNITYENGINE_AI_NAVMESHMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF16C0)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_AFFECTSAGENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C344790)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3448A0)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C344830)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_ACTIVEMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1C344550)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_AREA_OFFSET UNITYSDK_OFFSET(0x1C344510)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_IGNOREFROMBUILD_OFFSET UNITYSDK_OFFSET(0x1C344530)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_GET_OVERRIDEAREA_OFFSET UNITYSDK_OFFSET(0x1C3444F0)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C344700)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3445B0)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1C344520)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_SET_IGNOREFROMBUILD_OFFSET UNITYSDK_OFFSET(0x1C344540)
+#define UNITYENGINE_AI_NAVMESHMODIFIER_SET_OVERRIDEAREA_OFFSET UNITYSDK_OFFSET(0x1C344500)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshModifier_TypeDefinitionIndex = 40053;
+	inline static constexpr unsigned int NavMeshModifier_TypeDefinitionIndex = 41350;
 
 	class NavMeshModifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifier*>** StaticGet_s_NavMeshModifiers()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifier*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshModifier_TypeDefinitionIndex)->GetStaticField(0xEC0);
-		}
 		::System::Boolean m_OverrideArea; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 m_Area; // 0x1C
 		::System::Boolean m_IgnoreFromBuild; // 0x20
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::System::Int32>* m_AffectedAgents; // 0x28
+		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifier*>** StaticGet_s_NavMeshModifiers()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifier*>**)UnitySDK::FromName("UnityEngine.AI", "NavMeshModifier")->GetStaticField(0xBA0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_overrideArea()
@@ -92,5 +94,6 @@ namespace UnityEngine::AI
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIER_AFFECTSAGENTTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

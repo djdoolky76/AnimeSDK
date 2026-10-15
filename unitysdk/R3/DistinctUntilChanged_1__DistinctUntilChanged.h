@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/R3/Observer_1.h"
-#include "unitysdk/R3/Result.h"
-
-namespace System { class Exception; }
+namespace R3 { template <typename T> class Observer_1; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int DistinctUntilChanged_1__DistinctUntilChanged_TypeDefinitionIndex = 35260;
+	inline static constexpr unsigned int DistinctUntilChanged_1__DistinctUntilChanged_TypeDefinitionIndex = 35940;
 
 	template <typename T>
-	class DistinctUntilChanged_1__DistinctUntilChanged : public ::R3::Observer_1<T>
+	class DistinctUntilChanged_1__DistinctUntilChanged
 	{
 	public:
 		::R3::Observer_1<T>* observer; // 0x0

@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ACPLKAJAAIL_TypeDefinitionIndex = 34545;
+
+	enum class ACPLKAJAAIL : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		MFHFFDFPBGA = 8160,
+		HNKFDHJBBEG = 8145,
+		PCOCGBEPEJK = 8156,
+		PJMKHDEENAD = 8159,
+		CHAGAGBGIHN = 8153,
+		EKGBJAFENNC = 8142,
+		EMGMNOCIEND = 8143,
+		IDKNBAJLBAP = 8144,
+		JECNAANEHBM = 8148,
+		AOHLDLGHCBL = 8150,
+		JPMKFNJCFDA = 8157,
+		FJECGADDJCJ = 8147,
+		NCMCOOPOHCI = 8152,
+		OAIEAOHBPPL = 8158,
+		CMECHEPAGCK = 8149,
+		EIDOKKFKCJE = 8146,
+	};

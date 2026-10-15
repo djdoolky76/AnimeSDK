@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropDestruct; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPDESTRUCT_METHOD_3_17B0A56EAB7FD5B1_OFFSET UNITYSDK_OFFSET(0x1D177A20)
-#define RPG_GAMECORE_PROPDESTRUCT_METHOD_3_64B4F8F3AC0C82C2_OFFSET UNITYSDK_OFFSET(0x1D177870)
-#define RPG_GAMECORE_PROPDESTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1779F0)
+#define RPG_GAMECORE_PROPDESTRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91BA40)
+#define RPG_GAMECORE_PROPDESTRUCT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91BA70)
+#define RPG_GAMECORE_PROPDESTRUCT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91B8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDestruct_TypeDefinitionIndex = 21818;
+	inline static constexpr unsigned int PropDestruct_TypeDefinitionIndex = 22066;
 
 	class PropDestruct : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean IsPreshow; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_64B4F8F3AC0C82C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropDestruct*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropDestruct* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropDestruct*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCT_METHOD_3_64B4F8F3AC0C82C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropDestruct*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17B0A56EAB7FD5B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropDestruct* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropDestruct* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropDestruct*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCT_METHOD_3_17B0A56EAB7FD5B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropDestruct*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace RPG::Client::ChenLingBattle { class Condition; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC373A0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1CC37AB0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0x1CC37B80)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__2_OFFSET UNITYSDK_OFFSET(0x1CC37C50)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA5E800)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xCA5EF10)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0xCA5EFE0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__2_OFFSET UNITYSDK_OFFSET(0xCA5F0B0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass5_0_TypeDefinitionIndex = 75897;
+	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass5_0_TypeDefinitionIndex = 76374;
 
 	class SoldierPromotion___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChenLingBattle::CardConfig* card; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _IsNeedCardConfig_b__0(::RPG::Client::ChenLingBattle::Condition* a1)
@@ -38,5 +36,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::Condition*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS5_0__ISNEEDCARDCONFIG_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

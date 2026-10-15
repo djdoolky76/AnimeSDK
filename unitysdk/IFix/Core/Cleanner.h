@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_CORE_CLEANNER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1CC5ED40)
-#define IFIX_CORE_CLEANNER_START_OFFSET UNITYSDK_OFFSET(0x1CC5EC40)
-#define IFIX_CORE_CLEANNER_STOP_OFFSET UNITYSDK_OFFSET(0x1CC5ECE0)
-#define IFIX_CORE_CLEANNER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC5F130)
-#define IFIX_CORE_CLEANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5EC30)
+#define IFIX_CORE_CLEANNER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B99ACC0)
+#define IFIX_CORE_CLEANNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99A7C0)
+#define IFIX_CORE_CLEANNER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B99A8D0)
+#define IFIX_CORE_CLEANNER_START_OFFSET UNITYSDK_OFFSET(0x1B99A7D0)
+#define IFIX_CORE_CLEANNER_STOP_OFFSET UNITYSDK_OFFSET(0x1B99A870)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Cleanner_TypeDefinitionIndex = 10073;
+	inline static constexpr unsigned int Cleanner_TypeDefinitionIndex = 7140;
 
 	class Cleanner : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_start()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Cleanner_TypeDefinitionIndex)->GetStaticField(0x480);
+			return (::System::Boolean*)UnitySDK::FromName("IFix.Core", "Cleanner")->GetStaticField(0x3F0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_CLEANNER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_CLEANNER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_CLEANNER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_CLEANNER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void Start()
@@ -44,5 +44,6 @@ namespace IFix::Core
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_CLEANNER_FINALIZE_OFFSET))(this);
 		}
+
 	};
 }

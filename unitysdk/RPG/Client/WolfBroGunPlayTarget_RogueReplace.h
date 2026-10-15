@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTarget_Replace.h"
-
-class Class_1_2BF31F3092BDFD9E;
-class Class_2_9D3DA1BFF2F6EABD;
+class FICJADOJGMF;
+class ODLPBJENMLP;
 namespace RPG::Client { class WolfBroGunPlayTarget; }
 namespace RPG::Client { class WolfBroGunPlayTarget_RogueHP; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_AWAKE_OFFSET UNITYSDK_OFFSET(0x16816110)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GETREPLACEPREFAB_OFFSET UNITYSDK_OFFSET(0x16816160)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GET_ROGUEROADMAP_OFFSET UNITYSDK_OFFSET(0x168163E0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_ONREPLACEPREFABINSTANCED_OFFSET UNITYSDK_OFFSET(0x168162F0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE__CTOR_OFFSET UNITYSDK_OFFSET(0x16816460)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE46FFA0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4702F0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GETREPLACEPREFAB_OFFSET UNITYSDK_OFFSET(0xE46FFF0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GET_ROGUEROADMAP_OFFSET UNITYSDK_OFFSET(0xE470270)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_ONREPLACEPREFABINSTANCED_OFFSET UNITYSDK_OFFSET(0xE470180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueReplace_TypeDefinitionIndex = 68701;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueReplace_TypeDefinitionIndex = 68735;
 
 	class WolfBroGunPlayTarget_RogueReplace : public ::RPG::Client::WolfBroGunPlayTarget_Replace
 	{
@@ -23,10 +22,9 @@ namespace RPG::Client
 		::RPG::Client::WolfBroGunPlayTarget_RogueHP* coin; // 0xD8
 		::RPG::Client::WolfBroGunPlayTarget_RogueHP* miracle; // 0xE0
 		::RPG::Client::WolfBroGunPlayTarget_RogueHP* ruanmei; // 0xE8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -34,19 +32,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_AWAKE_OFFSET))(this);
 		}
 
-		::RPG::Client::WolfBroGunPlayTarget* GetReplacePrefab(::Class_1_2BF31F3092BDFD9E* a1)
+		::RPG::Client::WolfBroGunPlayTarget* GetReplacePrefab(::FICJADOJGMF* a1)
 		{
-			return ((::RPG::Client::WolfBroGunPlayTarget*(*)(::PVOID, ::Class_1_2BF31F3092BDFD9E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GETREPLACEPREFAB_OFFSET))(this, a1);
+			return ((::RPG::Client::WolfBroGunPlayTarget*(*)(::PVOID, ::FICJADOJGMF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GETREPLACEPREFAB_OFFSET))(this, a1);
 		}
 
-		::System::Void OnReplacePrefabInstanced(::Class_1_2BF31F3092BDFD9E* a1, ::RPG::Client::WolfBroGunPlayTarget* a2)
+		::System::Void OnReplacePrefabInstanced(::FICJADOJGMF* a1, ::RPG::Client::WolfBroGunPlayTarget* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2BF31F3092BDFD9E*, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_ONREPLACEPREFABINSTANCED_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::FICJADOJGMF*, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_ONREPLACEPREFABINSTANCED_OFFSET))(this, a1, a2);
 		}
 
-		::Class_2_9D3DA1BFF2F6EABD* get_RogueRoadMap()
+		::ODLPBJENMLP* get_RogueRoadMap()
 		{
-			return ((::Class_2_9D3DA1BFF2F6EABD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GET_ROGUEROADMAP_OFFSET))(this);
+			return ((::ODLPBJENMLP*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEREPLACE_GET_ROGUEROADMAP_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelConsumeParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelConsumeResult; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A274600)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A274640)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A2745F0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A274500)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF7D60)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF7C60)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF7DA0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF7D50)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_ConsumeDelegate_TypeDefinitionIndex = 8488;
+	inline static constexpr unsigned int HoYoChannelDelegate_ConsumeDelegate_TypeDefinitionIndex = 8548;
 
 	class HoYoChannelDelegate_ConsumeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>* a2)
@@ -40,5 +39,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CONSUMEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 namespace UnityEngine::Rendering { class GrowableBuffer; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_INIT_OFFSET UNITYSDK_OFFSET(0x3BB59D0)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_RESET_OFFSET UNITYSDK_OFFSET(0x3BB5A60)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET UNITYSDK_OFFSET(0x3BB5A80)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3BB5A70)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_INIT_OFFSET UNITYSDK_OFFSET(0x3C672C0)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_RESET_OFFSET UNITYSDK_OFFSET(0x3C67350)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET UNITYSDK_OFFSET(0x3C67370)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3C67360)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferExt_RenderCommandSetRTBuffers_TypeDefinitionIndex = 34892;
+	inline static constexpr unsigned int CommandBufferExt_RenderCommandSetRTBuffers_TypeDefinitionIndex = 35561;
 
 	struct alignas(8) CommandBufferExt_RenderCommandSetRTBuffers
 	{
@@ -21,7 +20,6 @@ namespace UnityEngine::Rendering
 		::Il2CppArray<::System::Int32>* colorName; // 0x20
 		::Il2CppArray<::System::UInt32>* colorLoadAction; // 0x28
 		::Il2CppArray<::System::UInt32>* colorStoreAction; // 0x30
-
 		::System::Void Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_INIT_OFFSET))(this);
@@ -32,12 +30,10 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_RESET_OFFSET))(this);
 		}
 
-		/*
-		::System::Void Set(::System::Int32 a1, ::UnityEngine::Rendering::RenderTargetIdentifier& a2)
+		::System::Void Set(::System::Int32 a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderTargetIdentifier&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::Void Serialize(::UnityEngine::Rendering::GrowableBuffer* a1)
 		{
@@ -48,5 +44,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET))(this, a1);
 		}
+
 	};
 }

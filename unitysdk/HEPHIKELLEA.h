@@ -1,0 +1,125 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HEPHIKELLEA;
+namespace Google::Protobuf { class CodedInputStream; }
+namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class OptionalReward; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define HEPHIKELLEA_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E5319A0)
+#define HEPHIKELLEA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E531CA0)
+#define HEPHIKELLEA_CLONE_OFFSET UNITYSDK_OFFSET(0x1E531580)
+#define HEPHIKELLEA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5314D0)
+#define HEPHIKELLEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E531480)
+#define HEPHIKELLEA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E531700)
+#define HEPHIKELLEA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E5315C0)
+#define HEPHIKELLEA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E531820)
+#define HEPHIKELLEA_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E531440)
+#define HEPHIKELLEA_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E531AE0)
+#define HEPHIKELLEA_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E531A40)
+#define HEPHIKELLEA_OMJILCNDMOH_OFFSET UNITYSDK_OFFSET(0x1E5315B0)
+#define HEPHIKELLEA_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E531470)
+#define HEPHIKELLEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E531890)
+#define HEPHIKELLEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5318F0)
+
+inline static constexpr unsigned int HEPHIKELLEA_TypeDefinitionIndex = 26555;
+
+	class HEPHIKELLEA : public ::System::Object
+	{
+	public:
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::OptionalReward*>* BKOMHPBNKPD; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		static ::Google::Protobuf::FieldCodec_1<::Proto::OptionalReward*>** StaticGet_CIBEFBPGOCA()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Proto::OptionalReward*>**)UnitySDK::FromName("", "HEPHIKELLEA")->GetStaticField(0x2D9E0);
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>**)UnitySDK::FromName("", "HEPHIKELLEA")->GetStaticField(0x2D9E8);
+		}
+
+		// static const ::System::Object AGGCHJFEBPC; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::HEPHIKELLEA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HEPHIKELLEA*))((::PBYTE)hIl2Cpp + HEPHIKELLEA_CTOR_1_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HEPHIKELLEA_CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>* JJGHOBBFNJD()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>*(*)())((::PBYTE)hIl2Cpp + HEPHIKELLEA_JJGHOBBFNJD_OFFSET))();
+		}
+
+		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
+		{
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
+		}
+
+		::HEPHIKELLEA* Clone()
+		{
+			return ((::HEPHIKELLEA*(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_CLONE_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::OptionalReward*>* OMJILCNDMOH()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::OptionalReward*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_OMJILCNDMOH_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HEPHIKELLEA_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::HEPHIKELLEA* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HEPHIKELLEA*))((::PBYTE)hIl2Cpp + HEPHIKELLEA_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + HEPHIKELLEA_WRITETO_OFFSET))(this, a1);
+		}
+
+		::System::Int32 CalculateSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HEPHIKELLEA_CALCULATESIZE_OFFSET))(this);
+		}
+
+		::System::Void MergeFrom(::HEPHIKELLEA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HEPHIKELLEA*))((::PBYTE)hIl2Cpp + HEPHIKELLEA_MERGEFROM_OFFSET))(this, a1);
+		}
+
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + HEPHIKELLEA_MERGEFROM_1_OFFSET))(this, a1);
+		}
+
+	};

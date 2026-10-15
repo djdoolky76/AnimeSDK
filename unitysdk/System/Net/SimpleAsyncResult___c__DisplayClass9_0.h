@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class AsyncCallback; }
 namespace System::Net { class SimpleAsyncResult; }
 
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B962C40)
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B963A70)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F04CF70)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1F04DDA0)
 
 namespace System::Net
 {
@@ -17,15 +16,15 @@ namespace System::Net
 	public:
 		::System::Net::SimpleAsyncResult* __4__this; // 0x10
 		::System::AsyncCallback* cb; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __ctor_b__0(::System::Net::SimpleAsyncResult* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Net::SimpleAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0___CTOR_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

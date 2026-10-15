@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareTeamFormationWidth; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_2EACFDCFAE2979D0_OFFSET UNITYSDK_OFFSET(0x1BBC70E0)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_9E02A8ABE2D538E1_OFFSET UNITYSDK_OFFSET(0x1BBC6E70)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_C403968E28C17BE7_OFFSET UNITYSDK_OFFSET(0x1BBC7110)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_CA1BA682114DDE90_OFFSET UNITYSDK_OFFSET(0x1BBC6EB0)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC6EA0)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B2FD0)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4B3240)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4B3210)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4B2FE0)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4B2FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareTeamFormationWidth_TypeDefinitionIndex = 22666;
+	inline static constexpr unsigned int ByCompareTeamFormationWidth_TypeDefinitionIndex = 22923;
 
 	class ByCompareTeamFormationWidth : public ::RPG::GameCore::PredicateConfig
 	{
@@ -24,30 +24,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::CompareType CompareType; // 0x20
 		::RPG::GameCore::TeamType Team; // 0x24
 		::RPG::GameCore::DynamicFloat* CompareValue; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9E02A8ABE2D538E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTeamFormationWidth*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTeamFormationWidth*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_9E02A8ABE2D538E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CA1BA682114DDE90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_CA1BA682114DDE90_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2EACFDCFAE2979D0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_2EACFDCFAE2979D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C403968E28C17BE7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_C403968E28C17BE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

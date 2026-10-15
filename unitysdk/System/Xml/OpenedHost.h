@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_OPENEDHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACDE90)
+#define SYSTEM_XML_OPENEDHOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE78480)
 
 namespace System::Xml
 {
@@ -12,10 +12,10 @@ namespace System::Xml
 	{
 	public:
 		::System::Int32 nonCachedConnectionsCount; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_OPENEDHOST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_OPENEDHOST_CTOR_OFFSET))(this);
 		}
+
 	};
 }

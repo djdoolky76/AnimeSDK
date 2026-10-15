@@ -5,42 +5,42 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/ItemRarity.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class SuitRecommendAvatarData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CHECKISHAVE_OFFSET UNITYSDK_OFFSET(0x1B464E80)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1B464F60)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CREATECONFIGDATA_OFFSET UNITYSDK_OFFSET(0x1B4650A0)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B464FF0)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GETICONPATH_OFFSET UNITYSDK_OFFSET(0x1B464F20)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GETNAME_OFFSET UNITYSDK_OFFSET(0x1B464EC0)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1B464BF0)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GET_ISBIGDATA_OFFSET UNITYSDK_OFFSET(0x1B464BA0)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GET_ISCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x1B464B50)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_SET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1B464C00)
-#define RPG_CLIENT_SUITRECOMMENDAVATARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B464C10)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CHECKISHAVE_OFFSET UNITYSDK_OFFSET(0xE146200)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xE1462E0)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CREATECONFIGDATA_OFFSET UNITYSDK_OFFSET(0xE146420)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE146370)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE145F70)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GETICONPATH_OFFSET UNITYSDK_OFFSET(0xE1462A0)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GETNAME_OFFSET UNITYSDK_OFFSET(0xE146240)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xE145F50)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GET_ISBIGDATA_OFFSET UNITYSDK_OFFSET(0xE145F00)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_GET_ISCONFIGDATA_OFFSET UNITYSDK_OFFSET(0xE145EB0)
+#define RPG_CLIENT_SUITRECOMMENDAVATARDATA_SET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xE145F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SuitRecommendAvatarData_TypeDefinitionIndex = 66892;
+	inline static constexpr unsigned int SuitRecommendAvatarData_TypeDefinitionIndex = 66894;
 
 	class SuitRecommendAvatarData : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* DamageIconPath; // 0x18
-		::RPG::GameCore::ItemRarity Rarity; // 0x20
-		::System::Boolean IsHave; // 0x24
-		::System::Boolean IsFallback; // 0x25
-		::RPG::Client::SuitRecommendDataType _DataType_k__BackingField; // 0x28
-		::System::Int32 RecommendWeight; // 0x2C
-		::RPG::GameCore::AttackDamageType DamageType; // 0x30
-		::System::UInt32 AvatarID; // 0x34
-		::RPG::Client::TextID Name; // 0x38
-
+		::System::String* DamageIconPath; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::SuitRecommendDataType _DataType_k__BackingField; // 0x20
+		::System::UInt32 AvatarID; // 0x24
+		::RPG::Client::TextID Name; // 0x28
+		::RPG::GameCore::AttackDamageType DamageType; // 0x38
+		::System::Boolean IsHave; // 0x3C
+		::System::Boolean IsFallback; // 0x3D
+		::System::Byte _padding0[0x2];
+		::System::Int32 RecommendWeight; // 0x40
+		::RPG::GameCore::ItemRarity Rarity; // 0x44
 		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUITRECOMMENDAVATARDATA__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUITRECOMMENDAVATARDATA_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsConfigData()
@@ -92,5 +92,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::SuitRecommendAvatarData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUITRECOMMENDAVATARDATA_CREATECONFIGDATA_OFFSET))(a1);
 		}
+
 	};
 }

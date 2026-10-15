@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseLightConeRecommendGuideItem.h"
 #include "unitysdk/RPG/Client/LightConeRecommendType.h"
-
 namespace RPG::Client { class EquipmentItemData; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANACQUIRE_OFFSET UNITYSDK_OFFSET(0x194FC870)
-#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANEQUIP_OFFSET UNITYSDK_OFFSET(0x194FC8E0)
-#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x194FC950)
+#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD38CF70)
+#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANACQUIRE_OFFSET UNITYSDK_OFFSET(0xD38CE90)
+#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANEQUIP_OFFSET UNITYSDK_OFFSET(0xD38CF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeGrowthRecommendItem_TypeDefinitionIndex = 65614;
+	inline static constexpr unsigned int LightConeGrowthRecommendItem_TypeDefinitionIndex = 65554;
 
 	class LightConeGrowthRecommendItem : public ::RPG::Client::BaseLightConeRecommendGuideItem
 	{
 	public:
-		::RPG::Client::EquipmentItemData* LightConeData; // 0x28
-		::System::Func_1<::System::String*>* GetGuideDesc; // 0x30
-		::System::String* MarkIconPath; // 0x38
+		::System::String* MarkIconPath; // 0x28
+		::RPG::Client::EquipmentItemData* LightConeData; // 0x30
+		::System::Func_1<::System::String*>* GetGuideDesc; // 0x38
 		::System::UInt32 EquippedAvatarID; // 0x40
-		::RPG::Client::LightConeRecommendType Type; // 0x44
-		::System::Single UsageRate; // 0x48
-
+		::System::Single UsageRate; // 0x44
+		::RPG::Client::LightConeRecommendType Type; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_CanAcquire()
@@ -39,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANEQUIP_OFFSET))(this);
 		}
+
 	};
 }

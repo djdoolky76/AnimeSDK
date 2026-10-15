@@ -1,62 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_COMPLEX_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C59AD0)
-#define SYSTEM_NUMERICS_COMPLEX_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C599F0)
-#define SYSTEM_NUMERICS_COMPLEX_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C59B60)
-#define SYSTEM_NUMERICS_COMPLEX_GET_IMAGINARY_OFFSET UNITYSDK_OFFSET(0x3A30360)
-#define SYSTEM_NUMERICS_COMPLEX_GET_REAL_OFFSET UNITYSDK_OFFSET(0x1DCA0)
-#define SYSTEM_NUMERICS_COMPLEX_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C59CC0)
-#define SYSTEM_NUMERICS_COMPLEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C59BA0)
-#define SYSTEM_NUMERICS_COMPLEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E384720)
-#define SYSTEM_NUMERICS_COMPLEX__CTOR_OFFSET UNITYSDK_OFFSET(0x3C599E0)
+#define SYSTEM_NUMERICS_COMPLEX_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE53270)
+#define SYSTEM_NUMERICS_COMPLEX_CTOR_OFFSET UNITYSDK_OFFSET(0x3C574F0)
+#define SYSTEM_NUMERICS_COMPLEX_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C575E0)
+#define SYSTEM_NUMERICS_COMPLEX_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C57500)
+#define SYSTEM_NUMERICS_COMPLEX_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C57670)
+#define SYSTEM_NUMERICS_COMPLEX_GET_IMAGINARY_OFFSET UNITYSDK_OFFSET(0x2EB4840)
+#define SYSTEM_NUMERICS_COMPLEX_GET_REAL_OFFSET UNITYSDK_OFFSET(0x2F36A50)
+#define SYSTEM_NUMERICS_COMPLEX_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C577D0)
+#define SYSTEM_NUMERICS_COMPLEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C576B0)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Complex_TypeDefinitionIndex = 3841;
+	inline static constexpr unsigned int Complex_TypeDefinitionIndex = 3842;
 
-	struct alignas(8) Complex
+	struct alignas(4) Complex
 	{
-		static ::System::Double* StaticGet_s_log2()
-		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(Complex_TypeDefinitionIndex)->GetStaticField(0x30);
-		}
-		static ::System::Double* StaticGet_s_asinOverflowThreshold()
-		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(Complex_TypeDefinitionIndex)->GetStaticField(0x38);
-		}
-		static ::System::Double* StaticGet_s_sqrtRescaleThreshold()
-		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(Complex_TypeDefinitionIndex)->GetStaticField(0x40);
-		}
-		static ::System::Numerics::Complex* StaticGet_ImaginaryOne()
-		{
-			return (::System::Numerics::Complex*)Il2CppClass::FromTypeDefinitionIndex(Complex_TypeDefinitionIndex)->GetStaticField(0x48);
-		}
-		static ::System::Numerics::Complex* StaticGet_Zero()
-		{
-			return (::System::Numerics::Complex*)Il2CppClass::FromTypeDefinitionIndex(Complex_TypeDefinitionIndex)->GetStaticField(0x58);
-		}
-		static ::System::Numerics::Complex* StaticGet_One()
-		{
-			return (::System::Numerics::Complex*)Il2CppClass::FromTypeDefinitionIndex(Complex_TypeDefinitionIndex)->GetStaticField(0x68);
-		}
 		::System::Double m_real; // 0x10
 		::System::Double m_imaginary; // 0x18
+		static ::System::Double* StaticGet_s_log2()
+		{
+			return (::System::Double*)UnitySDK::FromName("System.Numerics", "Complex")->GetStaticField(0x30);
+		}
+
+		static ::System::Double* StaticGet_s_asinOverflowThreshold()
+		{
+			return (::System::Double*)UnitySDK::FromName("System.Numerics", "Complex")->GetStaticField(0x38);
+		}
+
+		static ::System::Double* StaticGet_s_sqrtRescaleThreshold()
+		{
+			return (::System::Double*)UnitySDK::FromName("System.Numerics", "Complex")->GetStaticField(0x40);
+		}
+
+		static ::System::Numerics::Complex* StaticGet_ImaginaryOne()
+		{
+			return (::System::Numerics::Complex*)UnitySDK::FromName("System.Numerics", "Complex")->GetStaticField(0x48);
+		}
+
+		static ::System::Numerics::Complex* StaticGet_Zero()
+		{
+			return (::System::Numerics::Complex*)UnitySDK::FromName("System.Numerics", "Complex")->GetStaticField(0x58);
+		}
+
+		static ::System::Numerics::Complex* StaticGet_One()
+		{
+			return (::System::Numerics::Complex*)UnitySDK::FromName("System.Numerics", "Complex")->GetStaticField(0x68);
+		}
 
 		::System::Void _ctor(::System::Double a1, ::System::Double a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX_CCTOR_OFFSET))();
 		}
 
 		::System::Double get_Real()
@@ -74,10 +77,12 @@ namespace System::Numerics
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::System::Numerics::Complex a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Complex))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
@@ -93,5 +98,6 @@ namespace System::Numerics
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_COMPLEX_TOSTRING_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

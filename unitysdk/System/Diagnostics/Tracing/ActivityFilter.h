@@ -3,27 +3,27 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Diagnostics::Tracing { class ActivityFilter; }
 namespace System::Diagnostics::Tracing { class EventSource; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_DISABLEFILTER_OFFSET UNITYSDK_OFFSET(0x1AB53B90)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AB53F00)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENABLEFILTER_OFFSET UNITYSDK_OFFSET(0x1AB545A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENSUREACTIVITYCLEANUPDELEGATE_OFFSET UNITYSDK_OFFSET(0x1AB53FA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_FLOWACTIVITYIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1AB54DB0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVEACTIVITIES_OFFSET UNITYSDK_OFFSET(0x1AB54D80)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVITYDYINGDELEGATE_OFFSET UNITYSDK_OFFSET(0x1AB55600)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETFILTERASTUPLE_OFFSET UNITYSDK_OFFSET(0x1AB55290)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_PASSESACTIVITYFILTER_OFFSET UNITYSDK_OFFSET(0x1AB54670)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_TRIMACTIVEACTIVITYSTORE_OFFSET UNITYSDK_OFFSET(0x1AB54F40)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEFILTER_OFFSET UNITYSDK_OFFSET(0x1AB54100)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEKWDTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1AB55100)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB55420)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A7430)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_DISABLEFILTER_OFFSET UNITYSDK_OFFSET(0x1C1A5BA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1A5F10)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENABLEFILTER_OFFSET UNITYSDK_OFFSET(0x1C1A65B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENSUREACTIVITYCLEANUPDELEGATE_OFFSET UNITYSDK_OFFSET(0x1C1A5FB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_FLOWACTIVITYIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1C1A6DC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVEACTIVITIES_OFFSET UNITYSDK_OFFSET(0x1C1A6D90)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVITYDYINGDELEGATE_OFFSET UNITYSDK_OFFSET(0x1C1A7610)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETFILTERASTUPLE_OFFSET UNITYSDK_OFFSET(0x1C1A72A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_PASSESACTIVITYFILTER_OFFSET UNITYSDK_OFFSET(0x1C1A6680)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_TRIMACTIVEACTIVITYSTORE_OFFSET UNITYSDK_OFFSET(0x1C1A6F50)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEFILTER_OFFSET UNITYSDK_OFFSET(0x1C1A6110)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEKWDTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1C1A7110)
 
 namespace System::Diagnostics::Tracing
 {
@@ -32,39 +32,38 @@ namespace System::Diagnostics::Tracing
 	class ActivityFilter : public ::System::Object
 	{
 	public:
-		::System::Diagnostics::Tracing::ActivityFilter* m_next; // 0x10
-		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Int32>* m_activeActivities; // 0x18
+		::System::Action_1<::System::Guid>* m_myActivityDelegate; // 0x10
+		::System::Diagnostics::Tracing::ActivityFilter* m_next; // 0x18
 		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Tuple_2<::System::Guid, ::System::Int32>*>* m_rootActiveActivities; // 0x20
-		::System::Action_1<::System::Guid>* m_myActivityDelegate; // 0x28
-		::System::Guid m_providerGuid; // 0x30
-		::System::Int32 m_eventId; // 0x40
-		::System::Int32 m_curSampleCount; // 0x44
-		::System::Int32 m_samplingFreq; // 0x48
-		::System::Int32 m_perEventSourceSessionId; // 0x4C
-
+		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Int32>* m_activeActivities; // 0x28
+		::System::Int32 m_curSampleCount; // 0x30
+		::System::Int32 m_eventId; // 0x34
+		::System::Int32 m_perEventSourceSessionId; // 0x38
+		::System::Guid m_providerGuid; // 0x3C
+		::System::Int32 m_samplingFreq; // 0x4C
 		::System::Void _ctor(::System::Diagnostics::Tracing::EventSource* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Diagnostics::Tracing::ActivityFilter* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void DisableFilter(::System::Diagnostics::Tracing::ActivityFilter*& a1, ::System::Diagnostics::Tracing::EventSource* a2)
+		static ::System::Void DisableFilter(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Diagnostics::Tracing::EventSource* a2)
 		{
-			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*&, ::System::Diagnostics::Tracing::EventSource*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_DISABLEFILTER_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::System::Diagnostics::Tracing::EventSource*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_DISABLEFILTER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void UpdateFilter(::System::Diagnostics::Tracing::ActivityFilter*& a1, ::System::Diagnostics::Tracing::EventSource* a2, ::System::Int32 a3, ::System::String* a4)
+		static ::System::Void UpdateFilter(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Diagnostics::Tracing::EventSource* a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*&, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEFILTER_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEFILTER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean PassesActivityFilter(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Guid* a2, ::System::Boolean a3, ::System::Diagnostics::Tracing::EventSource* a4, ::System::Int32 a5)
+		static ::System::Boolean PassesActivityFilter(::System::Diagnostics::Tracing::ActivityFilter* a1, ::PVOID a2, ::System::Boolean a3, ::System::Diagnostics::Tracing::EventSource* a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::System::Guid*, ::System::Boolean, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_PASSESACTIVITYFILTER_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::PVOID, ::System::Boolean, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_PASSESACTIVITYFILTER_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void FlowActivityIfNeeded(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Guid* a2, ::System::Guid* a3)
+		static ::System::Void FlowActivityIfNeeded(::System::Diagnostics::Tracing::ActivityFilter* a1, ::PVOID a2, ::PVOID a3)
 		{
-			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::System::Guid*, ::System::Guid*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_FLOWACTIVITYIFNEEDED_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_FLOWACTIVITYIFNEEDED_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void UpdateKwdTriggers(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Guid a2, ::System::Diagnostics::Tracing::EventSource* a3, ::System::Diagnostics::Tracing::EventKeywords a4)
@@ -92,9 +91,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Action_1<::System::Guid>*(*)(::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVITYDYINGDELEGATE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean EnableFilter(::System::Diagnostics::Tracing::ActivityFilter*& a1, ::System::Diagnostics::Tracing::EventSource* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
+		static ::System::Boolean EnableFilter(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Diagnostics::Tracing::EventSource* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::System::Diagnostics::Tracing::ActivityFilter*&, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENABLEFILTER_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::System::Diagnostics::Tracing::EventSource*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENABLEFILTER_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void TrimActiveActivityStore(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Int32>* a1)
@@ -106,5 +105,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Int32>*(*)(::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVEACTIVITIES_OFFSET))(a1);
 		}
+
 	};
 }

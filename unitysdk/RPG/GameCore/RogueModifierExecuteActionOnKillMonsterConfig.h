@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierExecuteActionOnKillMonsterConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_METHOD_3_4D2A85FD97EA2B60_OFFSET UNITYSDK_OFFSET(0x1EEF8FF0)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_METHOD_3_CC58B3C4B21F59DC_OFFSET UNITYSDK_OFFSET(0x1EEF9040)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF9030)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E8A20)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E8A30)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E89E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierExecuteActionOnKillMonsterConfig_TypeDefinitionIndex = 17634;
+	inline static constexpr unsigned int RogueModifierExecuteActionOnKillMonsterConfig_TypeDefinitionIndex = 17846;
 
 	class RogueModifierExecuteActionOnKillMonsterConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4D2A85FD97EA2B60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_METHOD_3_4D2A85FD97EA2B60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CC58B3C4B21F59DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_METHOD_3_CC58B3C4B21F59DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnKillMonsterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONKILLMONSTERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

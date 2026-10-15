@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightInfoFade_TypeDefinitionIndex = 4876;
+	inline static constexpr unsigned int CRPLightInfoFade_TypeDefinitionIndex = 4882;
 
 	struct alignas(4) CRPLightInfoFade
 	{

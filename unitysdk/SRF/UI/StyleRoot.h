@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
-
 namespace SRF::UI { class Style; }
 namespace SRF::UI { class StyleSheet; }
 namespace System { class String; }
 
-#define SRF_UI_STYLEROOT_GETSTYLE_OFFSET UNITYSDK_OFFSET(0x1EC4A250)
-#define SRF_UI_STYLEROOT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EC4A920)
-#define SRF_UI_STYLEROOT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EC4A860)
-#define SRF_UI_STYLEROOT_ONSTYLESHEETCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC4A8D0)
-#define SRF_UI_STYLEROOT_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC4AA00)
-#define SRF_UI_STYLEROOT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC4A970)
-#define SRF_UI_STYLEROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4AA10)
+#define SRF_UI_STYLEROOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED55430)
+#define SRF_UI_STYLEROOT_GETSTYLE_OFFSET UNITYSDK_OFFSET(0x1ED54C70)
+#define SRF_UI_STYLEROOT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ED55340)
+#define SRF_UI_STYLEROOT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED55280)
+#define SRF_UI_STYLEROOT_ONSTYLESHEETCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED552F0)
+#define SRF_UI_STYLEROOT_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1ED55420)
+#define SRF_UI_STYLEROOT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED55390)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int StyleRoot_TypeDefinitionIndex = 34729;
+	inline static constexpr unsigned int StyleRoot_TypeDefinitionIndex = 35398;
 
 	class StyleRoot : public ::SRF::SRMonoBehaviour
 	{
 	public:
 		::SRF::UI::StyleSheet* _activeStyleSheet; // 0x48
 		::SRF::UI::StyleSheet* StyleSheet; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLEROOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLEROOT_CTOR_OFFSET))(this);
 		}
 
 		::SRF::UI::Style* GetStyle(::System::String* a1)
@@ -58,5 +56,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLEROOT_SETDIRTY_OFFSET))(this);
 		}
+
 	};
 }

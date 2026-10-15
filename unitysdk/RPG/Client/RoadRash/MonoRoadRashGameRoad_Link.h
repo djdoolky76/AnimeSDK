@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGameRoad_Link_TypeDefinitionIndex = 75448;
+	inline static constexpr unsigned int MonoRoadRashGameRoad_Link_TypeDefinitionIndex = 75863;
 
 	struct alignas(8) MonoRoadRashGameRoad_Link
 	{

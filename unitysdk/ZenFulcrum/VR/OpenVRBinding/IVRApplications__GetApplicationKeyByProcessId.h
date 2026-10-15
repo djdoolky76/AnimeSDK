@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRApplicationError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FCCD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FCD50)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D7F6A60)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FCC60)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F64B480)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64B410)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F64B500)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F645230)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications__GetApplicationKeyByProcessId_TypeDefinitionIndex = 37661;
+	inline static constexpr unsigned int IVRApplications__GetApplicationKeyByProcessId_TypeDefinitionIndex = 38958;
 
 	class IVRApplications__GetApplicationKeyByProcessId : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError Invoke(::System::UInt32 a1, ::System::String* a2, ::System::UInt32 a3)
@@ -39,5 +38,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONKEYBYPROCESSID_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

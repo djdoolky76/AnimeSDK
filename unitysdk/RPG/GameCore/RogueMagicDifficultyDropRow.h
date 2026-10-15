@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueMagicDifficultyDropRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93A760)
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93A8D0)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A6850)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A66E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 14687;
+	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 14852;
 
 	class RogueMagicDifficultyDropRow : public ::System::Object
 	{
@@ -17,15 +17,15 @@ namespace RPG::GameCore
 		::System::UInt32 WorldLevel; // 0x10
 		::System::UInt32 MonsterEliteDropDisplayID; // 0x14
 		::System::UInt32 AreaID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicDifficultyDropRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueMagicDifficultyDropRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicDifficultyDropRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueMagicDifficultyDropRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseChallengeTargetData.h"
 #include "unitysdk/RPG/Client/ChallengeTargetState.h"
-
 namespace RPG::GameCore { class ChallengeTargetConfigRow; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_SCORECHALLENGETARGETDATA_CALCULATETARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1AF6BAB0)
-#define RPG_CLIENT_SCORECHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1AF6BB20)
-#define RPG_CLIENT_SCORECHALLENGETARGETDATA_UPDATECHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1AF6B9E0)
-#define RPG_CLIENT_SCORECHALLENGETARGETDATA__CONVERT_OFFSET UNITYSDK_OFFSET(0x1AF6B850)
-#define RPG_CLIENT_SCORECHALLENGETARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6B7C0)
+#define RPG_CLIENT_SCORECHALLENGETARGETDATA_CALCULATETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xE09A3E0)
+#define RPG_CLIENT_SCORECHALLENGETARGETDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE09A0F0)
+#define RPG_CLIENT_SCORECHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xE09A450)
+#define RPG_CLIENT_SCORECHALLENGETARGETDATA_UPDATECHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xE09A310)
+#define RPG_CLIENT_SCORECHALLENGETARGETDATA__CONVERT_OFFSET UNITYSDK_OFFSET(0xE09A180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScoreChallengeTargetData_TypeDefinitionIndex = 63182;
+	inline static constexpr unsigned int ScoreChallengeTargetData_TypeDefinitionIndex = 63115;
 
 	class ScoreChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:
 		::System::Void _ctor(::RPG::GameCore::ChallengeTargetConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeTargetConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCORECHALLENGETARGETDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeTargetConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCORECHALLENGETARGETDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 _Convert(::System::Object* a1)
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCORECHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

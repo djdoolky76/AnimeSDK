@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int ThreadSafeQueue_1_TypeDefinitionIndex = 39619;
+	inline static constexpr unsigned int ThreadSafeQueue_1_TypeDefinitionIndex = 40916;
 
 	template <typename T>
 	class ThreadSafeQueue_1 : public ::System::Object

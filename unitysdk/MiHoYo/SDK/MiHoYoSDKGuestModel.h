@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGUESTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1948ECC0)
+#define MIHOYO_SDK_MIHOYOSDKGUESTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC9E70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGuestModel_TypeDefinitionIndex = 46807;
+	inline static constexpr unsigned int MiHoYoSDKGuestModel_TypeDefinitionIndex = 46347;
 
 	class MiHoYoSDKGuestModel : public ::System::Object
 	{
 	public:
 		::System::String* guest_id; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKGUESTMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKGUESTMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

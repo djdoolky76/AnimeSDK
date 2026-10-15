@@ -1,42 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1AAB60)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AABA0)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__STARTLOADINGCOROUTINEIFNEED_B__21_0_OFFSET UNITYSDK_OFFSET(0x1A1AABB0)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC21310)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC21350)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__STARTLOADINGCOROUTINEIFNEED_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BC21360)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudDataStorage___c_TypeDefinitionIndex = 8821;
+	inline static constexpr unsigned int CloudDataStorage___c_TypeDefinitionIndex = 8882;
 
 	class CloudDataStorage___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Cloud::CloudDataStorage___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Cloud::CloudDataStorage___c**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage___c_TypeDefinitionIndex)->GetStaticField(0x4D70);
-		}
 		static ::System::Action** StaticGet___9__21_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage___c_TypeDefinitionIndex)->GetStaticField(0x4D78);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Cloud", "<>c")->GetStaticField(0x51E30);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Cloud", "<>c")->GetStaticField(0x51E38);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _StartLoadingCoroutineIfNeed_b__21_0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__STARTLOADINGCOROUTINEIFNEED_B__21_0_OFFSET))(this);
 		}
+
 	};
 }

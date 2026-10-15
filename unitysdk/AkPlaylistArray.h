@@ -2,226 +2,226 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AKRESULT.h"
 #include "unitysdk/System/Object.h"
-
 class AkIterator;
+class AkPlaylistArray;
 class AkPlaylistItem;
 
-#define AKPLAYLISTARRAY_ADDLAST_1_OFFSET UNITYSDK_OFFSET(0x1DAA35F0)
-#define AKPLAYLISTARRAY_ADDLAST_OFFSET UNITYSDK_OFFSET(0x1DAA34E0)
-#define AKPLAYLISTARRAY_BEGIN_OFFSET UNITYSDK_OFFSET(0x1DAA26F0)
-#define AKPLAYLISTARRAY_COPY_OFFSET UNITYSDK_OFFSET(0x1DAA4160)
-#define AKPLAYLISTARRAY_DATA_OFFSET UNITYSDK_OFFSET(0x1DAA31A0)
-#define AKPLAYLISTARRAY_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1DAA1CE0)
-#define AKPLAYLISTARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DAA2480)
-#define AKPLAYLISTARRAY_END_OFFSET UNITYSDK_OFFSET(0x1DAA27F0)
-#define AKPLAYLISTARRAY_ERASESWAP_OFFSET UNITYSDK_OFFSET(0x1DAA2CC0)
-#define AKPLAYLISTARRAY_ERASE_1_OFFSET UNITYSDK_OFFSET(0x1DAA2C00)
-#define AKPLAYLISTARRAY_ERASE_OFFSET UNITYSDK_OFFSET(0x1DAA2AA0)
-#define AKPLAYLISTARRAY_EXISTS_OFFSET UNITYSDK_OFFSET(0x1DAA3370)
-#define AKPLAYLISTARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1DAA25A0)
-#define AKPLAYLISTARRAY_FINDEX_OFFSET UNITYSDK_OFFSET(0x1DAA28F0)
-#define AKPLAYLISTARRAY_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1DAA2430)
-#define AKPLAYLISTARRAY_GROWARRAY_1_OFFSET UNITYSDK_OFFSET(0x1DAA3EC0)
-#define AKPLAYLISTARRAY_GROWARRAY_OFFSET UNITYSDK_OFFSET(0x1DAA3E10)
-#define AKPLAYLISTARRAY_INSERT_OFFSET UNITYSDK_OFFSET(0x1DAA3D00)
-#define AKPLAYLISTARRAY_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1DAA32C0)
-#define AKPLAYLISTARRAY_ISGROWINGALLOWED_OFFSET UNITYSDK_OFFSET(0x1DAA2E20)
-#define AKPLAYLISTARRAY_ITEMATINDEX_OFFSET UNITYSDK_OFFSET(0x1DAA3C00)
-#define AKPLAYLISTARRAY_LAST_OFFSET UNITYSDK_OFFSET(0x1DAA3760)
-#define AKPLAYLISTARRAY_LENGTH_OFFSET UNITYSDK_OFFSET(0x1DAA30F0)
-#define AKPLAYLISTARRAY_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x1DAA3B50)
-#define AKPLAYLISTARRAY_REMOVELAST_OFFSET UNITYSDK_OFFSET(0x1DAA3860)
-#define AKPLAYLISTARRAY_REMOVESWAP_OFFSET UNITYSDK_OFFSET(0x1DAA3A30)
-#define AKPLAYLISTARRAY_REMOVE_OFFSET UNITYSDK_OFFSET(0x1DAA3910)
-#define AKPLAYLISTARRAY_RESERVED_OFFSET UNITYSDK_OFFSET(0x1DAA2F90)
-#define AKPLAYLISTARRAY_RESERVE_OFFSET UNITYSDK_OFFSET(0x1DAA2ED0)
-#define AKPLAYLISTARRAY_RESIZE_OFFSET UNITYSDK_OFFSET(0x1DAA3F80)
-#define AKPLAYLISTARRAY_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1DAA1A90)
-#define AKPLAYLISTARRAY_TERM_OFFSET UNITYSDK_OFFSET(0x1DAA3040)
-#define AKPLAYLISTARRAY_TRANSFER_OFFSET UNITYSDK_OFFSET(0x1DAA4040)
-#define AKPLAYLISTARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAA2670)
-#define AKPLAYLISTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA1930)
+#define AKPLAYLISTARRAY_ADDLAST_1_OFFSET UNITYSDK_OFFSET(0x1F582270)
+#define AKPLAYLISTARRAY_ADDLAST_OFFSET UNITYSDK_OFFSET(0x1F582160)
+#define AKPLAYLISTARRAY_BEGIN_OFFSET UNITYSDK_OFFSET(0x1F581370)
+#define AKPLAYLISTARRAY_COPY_OFFSET UNITYSDK_OFFSET(0x1F582DE0)
+#define AKPLAYLISTARRAY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F5812F0)
+#define AKPLAYLISTARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5805B0)
+#define AKPLAYLISTARRAY_DATA_OFFSET UNITYSDK_OFFSET(0x1F581E20)
+#define AKPLAYLISTARRAY_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F580960)
+#define AKPLAYLISTARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F581100)
+#define AKPLAYLISTARRAY_END_OFFSET UNITYSDK_OFFSET(0x1F581470)
+#define AKPLAYLISTARRAY_ERASESWAP_OFFSET UNITYSDK_OFFSET(0x1F581940)
+#define AKPLAYLISTARRAY_ERASE_1_OFFSET UNITYSDK_OFFSET(0x1F581880)
+#define AKPLAYLISTARRAY_ERASE_OFFSET UNITYSDK_OFFSET(0x1F581720)
+#define AKPLAYLISTARRAY_EXISTS_OFFSET UNITYSDK_OFFSET(0x1F581FF0)
+#define AKPLAYLISTARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F581220)
+#define AKPLAYLISTARRAY_FINDEX_OFFSET UNITYSDK_OFFSET(0x1F581570)
+#define AKPLAYLISTARRAY_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5810B0)
+#define AKPLAYLISTARRAY_GROWARRAY_1_OFFSET UNITYSDK_OFFSET(0x1F582B40)
+#define AKPLAYLISTARRAY_GROWARRAY_OFFSET UNITYSDK_OFFSET(0x1F582A90)
+#define AKPLAYLISTARRAY_INSERT_OFFSET UNITYSDK_OFFSET(0x1F582980)
+#define AKPLAYLISTARRAY_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1F581F40)
+#define AKPLAYLISTARRAY_ISGROWINGALLOWED_OFFSET UNITYSDK_OFFSET(0x1F581AA0)
+#define AKPLAYLISTARRAY_ITEMATINDEX_OFFSET UNITYSDK_OFFSET(0x1F582880)
+#define AKPLAYLISTARRAY_LAST_OFFSET UNITYSDK_OFFSET(0x1F5823E0)
+#define AKPLAYLISTARRAY_LENGTH_OFFSET UNITYSDK_OFFSET(0x1F581D70)
+#define AKPLAYLISTARRAY_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x1F5827D0)
+#define AKPLAYLISTARRAY_REMOVELAST_OFFSET UNITYSDK_OFFSET(0x1F5824E0)
+#define AKPLAYLISTARRAY_REMOVESWAP_OFFSET UNITYSDK_OFFSET(0x1F5826B0)
+#define AKPLAYLISTARRAY_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F582590)
+#define AKPLAYLISTARRAY_RESERVED_OFFSET UNITYSDK_OFFSET(0x1F581C10)
+#define AKPLAYLISTARRAY_RESERVE_OFFSET UNITYSDK_OFFSET(0x1F581B50)
+#define AKPLAYLISTARRAY_RESIZE_OFFSET UNITYSDK_OFFSET(0x1F582C00)
+#define AKPLAYLISTARRAY_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F580710)
+#define AKPLAYLISTARRAY_TERM_OFFSET UNITYSDK_OFFSET(0x1F581CC0)
+#define AKPLAYLISTARRAY_TRANSFER_OFFSET UNITYSDK_OFFSET(0x1F582CC0)
 
-inline static constexpr unsigned int AkPlaylistArray_TypeDefinitionIndex = 43583;
+inline static constexpr unsigned int AkPlaylistArray_TypeDefinitionIndex = 44775;
 
-class AkPlaylistArray : public ::System::Object
-{
-public:
-	::System::Boolean swigCMemOwn; // 0x10
-	::System::IntPtr swigCPtr; // 0x18
-
-	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+	class AkPlaylistArray : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY__CTOR_OFFSET))(this, a1, a2);
-	}
+	public:
+		::System::IntPtr swigCPtr; // 0x10
+		::System::Boolean swigCMemOwn; // 0x18
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_CTOR_OFFSET))(this, a1, a2);
+		}
 
-	::System::Void _ctor_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY__CTOR_1_OFFSET))(this);
-	}
+		::System::Void _ctor_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_CTOR_1_OFFSET))(this);
+		}
 
-	static ::System::IntPtr getCPtr(::AkPlaylistArray* a1)
-	{
-		return ((::System::IntPtr(*)(::AkPlaylistArray*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_GETCPTR_OFFSET))(a1);
-	}
+		static ::System::IntPtr getCPtr(::AkPlaylistArray* a1)
+		{
+			return ((::System::IntPtr(*)(::AkPlaylistArray*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_GETCPTR_OFFSET))(a1);
+		}
 
-	::System::Void setCPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_SETCPTR_OFFSET))(this, a1);
-	}
+		::System::Void setCPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_SETCPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void Finalize()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_FINALIZE_OFFSET))(this);
-	}
+		::System::Void Finalize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_FINALIZE_OFFSET))(this);
+		}
 
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_DISPOSE_OFFSET))(this);
-	}
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_DISPOSE_OFFSET))(this);
+		}
 
-	::System::Void Dispose_1(::System::Boolean a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_DISPOSE_1_OFFSET))(this, a1);
-	}
+		::System::Void Dispose_1(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_DISPOSE_1_OFFSET))(this, a1);
+		}
 
-	::AkIterator* Begin()
-	{
-		return ((::AkIterator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_BEGIN_OFFSET))(this);
-	}
+		::AkIterator* Begin()
+		{
+			return ((::AkIterator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_BEGIN_OFFSET))(this);
+		}
 
-	::AkIterator* End()
-	{
-		return ((::AkIterator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_END_OFFSET))(this);
-	}
+		::AkIterator* End()
+		{
+			return ((::AkIterator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_END_OFFSET))(this);
+		}
 
-	::AkIterator* FindEx(::AkPlaylistItem* a1)
-	{
-		return ((::AkIterator*(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_FINDEX_OFFSET))(this, a1);
-	}
+		::AkIterator* FindEx(::AkPlaylistItem* a1)
+		{
+			return ((::AkIterator*(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_FINDEX_OFFSET))(this, a1);
+		}
 
-	::AkIterator* Erase(::AkIterator* a1)
-	{
-		return ((::AkIterator*(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ERASE_OFFSET))(this, a1);
-	}
+		::AkIterator* Erase(::AkIterator* a1)
+		{
+			return ((::AkIterator*(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ERASE_OFFSET))(this, a1);
+		}
 
-	::System::Void Erase_1(::System::UInt32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ERASE_1_OFFSET))(this, a1);
-	}
+		::System::Void Erase_1(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ERASE_1_OFFSET))(this, a1);
+		}
 
-	::AkIterator* EraseSwap(::AkIterator* a1)
-	{
-		return ((::AkIterator*(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ERASESWAP_OFFSET))(this, a1);
-	}
+		::AkIterator* EraseSwap(::AkIterator* a1)
+		{
+			return ((::AkIterator*(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ERASESWAP_OFFSET))(this, a1);
+		}
 
-	::System::Boolean IsGrowingAllowed()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ISGROWINGALLOWED_OFFSET))(this);
-	}
+		::System::Boolean IsGrowingAllowed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ISGROWINGALLOWED_OFFSET))(this);
+		}
 
-	::AKRESULT Reserve(::System::UInt32 a1)
-	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_RESERVE_OFFSET))(this, a1);
-	}
+		::AKRESULT Reserve(::System::UInt32 a1)
+		{
+			return ((::AKRESULT(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_RESERVE_OFFSET))(this, a1);
+		}
 
-	::System::UInt32 Reserved()
-	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_RESERVED_OFFSET))(this);
-	}
+		::System::UInt32 Reserved()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_RESERVED_OFFSET))(this);
+		}
 
-	::System::Void Term()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_TERM_OFFSET))(this);
-	}
+		::System::Void Term()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_TERM_OFFSET))(this);
+		}
 
-	::System::UInt32 Length()
-	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_LENGTH_OFFSET))(this);
-	}
+		::System::UInt32 Length()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_LENGTH_OFFSET))(this);
+		}
 
-	::AkPlaylistItem* Data()
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_DATA_OFFSET))(this);
-	}
+		::AkPlaylistItem* Data()
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_DATA_OFFSET))(this);
+		}
 
-	::System::Boolean IsEmpty()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ISEMPTY_OFFSET))(this);
-	}
+		::System::Boolean IsEmpty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ISEMPTY_OFFSET))(this);
+		}
 
-	::AkPlaylistItem* Exists(::AkPlaylistItem* a1)
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_EXISTS_OFFSET))(this, a1);
-	}
+		::AkPlaylistItem* Exists(::AkPlaylistItem* a1)
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_EXISTS_OFFSET))(this, a1);
+		}
 
-	::AkPlaylistItem* AddLast()
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ADDLAST_OFFSET))(this);
-	}
+		::AkPlaylistItem* AddLast()
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ADDLAST_OFFSET))(this);
+		}
 
-	::AkPlaylistItem* AddLast_1(::AkPlaylistItem* a1)
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ADDLAST_1_OFFSET))(this, a1);
-	}
+		::AkPlaylistItem* AddLast_1(::AkPlaylistItem* a1)
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ADDLAST_1_OFFSET))(this, a1);
+		}
 
-	::AkPlaylistItem* Last()
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_LAST_OFFSET))(this);
-	}
+		::AkPlaylistItem* Last()
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_LAST_OFFSET))(this);
+		}
 
-	::System::Void RemoveLast()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVELAST_OFFSET))(this);
-	}
+		::System::Void RemoveLast()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVELAST_OFFSET))(this);
+		}
 
-	::AKRESULT Remove(::AkPlaylistItem* a1)
-	{
-		return ((::AKRESULT(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVE_OFFSET))(this, a1);
-	}
+		::AKRESULT Remove(::AkPlaylistItem* a1)
+		{
+			return ((::AKRESULT(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVE_OFFSET))(this, a1);
+		}
 
-	::AKRESULT RemoveSwap(::AkPlaylistItem* a1)
-	{
-		return ((::AKRESULT(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVESWAP_OFFSET))(this, a1);
-	}
+		::AKRESULT RemoveSwap(::AkPlaylistItem* a1)
+		{
+			return ((::AKRESULT(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVESWAP_OFFSET))(this, a1);
+		}
 
-	::System::Void RemoveAll()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVEALL_OFFSET))(this);
-	}
+		::System::Void RemoveAll()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_REMOVEALL_OFFSET))(this);
+		}
 
-	::AkPlaylistItem* ItemAtIndex(::System::UInt32 a1)
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ITEMATINDEX_OFFSET))(this, a1);
-	}
+		::AkPlaylistItem* ItemAtIndex(::System::UInt32 a1)
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_ITEMATINDEX_OFFSET))(this, a1);
+		}
 
-	::AkPlaylistItem* Insert(::System::UInt32 a1)
-	{
-		return ((::AkPlaylistItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_INSERT_OFFSET))(this, a1);
-	}
+		::AkPlaylistItem* Insert(::System::UInt32 a1)
+		{
+			return ((::AkPlaylistItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_INSERT_OFFSET))(this, a1);
+		}
 
-	::System::Boolean GrowArray()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_GROWARRAY_OFFSET))(this);
-	}
+		::System::Boolean GrowArray()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_GROWARRAY_OFFSET))(this);
+		}
 
-	::System::Boolean GrowArray_1(::System::UInt32 a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_GROWARRAY_1_OFFSET))(this, a1);
-	}
+		::System::Boolean GrowArray_1(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_GROWARRAY_1_OFFSET))(this, a1);
+		}
 
-	::System::Boolean Resize(::System::UInt32 a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_RESIZE_OFFSET))(this, a1);
-	}
+		::System::Boolean Resize(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_RESIZE_OFFSET))(this, a1);
+		}
 
-	::System::Void Transfer(::AkPlaylistArray* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkPlaylistArray*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_TRANSFER_OFFSET))(this, a1);
-	}
+		::System::Void Transfer(::AkPlaylistArray* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AkPlaylistArray*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_TRANSFER_OFFSET))(this, a1);
+		}
 
-	::AKRESULT Copy(::AkPlaylistArray* a1)
-	{
-		return ((::AKRESULT(*)(::PVOID, ::AkPlaylistArray*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_COPY_OFFSET))(this, a1);
-	}
-};
+		::AKRESULT Copy(::AkPlaylistArray* a1)
+		{
+			return ((::AKRESULT(*)(::PVOID, ::AkPlaylistArray*))((::PBYTE)hIl2Cpp + AKPLAYLISTARRAY_COPY_OFFSET))(this, a1);
+		}
+
+	};

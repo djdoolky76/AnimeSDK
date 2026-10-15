@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateTextureStreamingManager_TypeDefinitionIndex = 4561;
+	inline static constexpr unsigned int EarlyUpdate_UpdateTextureStreamingManager_TypeDefinitionIndex = 4565;
 
-	struct alignas(1) EarlyUpdate_UpdateTextureStreamingManager
+	struct alignas(4) EarlyUpdate_UpdateTextureStreamingManager
 	{
 	};
 }

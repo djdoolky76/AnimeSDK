@@ -1,18 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2.h"
-#include "unitysdk/System/ValueType.h"
-
-class Class_1_43BD383C98B4C0C5_3;
-namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2_TypeDefinitionIndex = 10773;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2_TypeDefinitionIndex = 10789;
 
-	template <typename TKey, typename TValue>
-	struct ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2
+	template <typename T1, typename T2>
+	struct alignas(8) ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2
 	{
-		::RPG::GameCore::ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2<TKey, TValue> _InnerEnumerator; // 0x0
+		::RPG::GameCore::ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2<T1, T2> _InnerEnumerator; // 0x0
 	};
 }

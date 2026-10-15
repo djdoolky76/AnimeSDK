@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client::DiceCombat { class DiceCombatCardLevelUpPageParam; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x193134C0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0x19313550)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_SET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0x19313560)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19313540)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC18A00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC18A80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC18A90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_SET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC18AA0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatCardLevelUpPageParam_TypeDefinitionIndex = 75641;
+	inline static constexpr unsigned int DiceCombatCardLevelUpPageParam_TypeDefinitionIndex = 76118;
 
 	class DiceCombatCardLevelUpPageParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _AvatarInfo_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::DiceCombat::DiceCombatCardLevelUpPageParam* Create(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1)
@@ -37,5 +36,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_SET_AVATARINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

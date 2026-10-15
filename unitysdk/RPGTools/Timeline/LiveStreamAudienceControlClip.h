@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class PerformanceLiveStreamAudienceControlData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B59B4B0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B59B4A0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59B640)
+#define RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9006A0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE900830)
+#define RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE900690)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamAudienceControlClip_TypeDefinitionIndex = 48625;
+	inline static constexpr unsigned int LiveStreamAudienceControlClip_TypeDefinitionIndex = 48165;
 
 	class LiveStreamAudienceControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::PerformanceLiveStreamAudienceControlData* AudienceControlData; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMAUDIENCECONTROLCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

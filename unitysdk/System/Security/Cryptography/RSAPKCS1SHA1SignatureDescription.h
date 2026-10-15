@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/RSAPKCS1SignatureDescription.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SHA1SIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x166BB420)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SHA1SIGNATUREDESCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A7270)
 
 namespace System::Security::Cryptography
 {
@@ -13,7 +13,8 @@ namespace System::Security::Cryptography
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SHA1SIGNATUREDESCRIPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SHA1SIGNATUREDESCRIPTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

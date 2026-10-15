@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShieldModifierConstKeys; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_METHOD_2_03659F9A5627B045_OFFSET UNITYSDK_OFFSET(0x1E09D110)
-#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09D680)
+#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA44E0)
+#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA3F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShieldModifierConstKeys_TypeDefinitionIndex = 16908;
+	inline static constexpr unsigned int ShieldModifierConstKeys_TypeDefinitionIndex = 17102;
 
 	class ShieldModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +25,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::StringHash KeyHashWindDamageResistance; // 0x2C
 		::RPG::GameCore::StringHash KeyHashImaginaryDamageResistance; // 0x30
 		::RPG::GameCore::StringHash KeyHashQuantumDamageResistance; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_03659F9A5627B045(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShieldModifierConstKeys*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShieldModifierConstKeys* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShieldModifierConstKeys*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_METHOD_2_03659F9A5627B045_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShieldModifierConstKeys*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

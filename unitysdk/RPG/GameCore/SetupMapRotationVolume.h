@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationVolumeEffectTransitPoint; }
 namespace RPG::GameCore { class MapRotationVolumeSlotConfigBase; }
+namespace RPG::GameCore { class SetupMapRotationVolume; }
 
-#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_METHOD_3_4D6D367C5CA5AFED_OFFSET UNITYSDK_OFFSET(0x1E099130)
-#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_METHOD_3_536E41C2BBB20110_OFFSET UNITYSDK_OFFSET(0x1E099170)
-#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1E099160)
+#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FFC0)
+#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9FFD0)
+#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9FF90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupMapRotationVolume_TypeDefinitionIndex = 22058;
+	inline static constexpr unsigned int SetupMapRotationVolume_TypeDefinitionIndex = 22306;
 
 	class SetupMapRotationVolume : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::MapRotationVolumeEffectTransitPoint*>* EffectTransitPointConfig; // 0x18
 		::Il2CppArray<::RPG::GameCore::MapRotationVolumeSlotConfigBase*>* SlotConfigs; // 0x20
 		::System::Boolean CanMove; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONVOLUME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONVOLUME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4D6D367C5CA5AFED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupMapRotationVolume*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetupMapRotationVolume* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupMapRotationVolume*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONVOLUME_METHOD_3_4D6D367C5CA5AFED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetupMapRotationVolume*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONVOLUME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_536E41C2BBB20110(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupMapRotationVolume* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetupMapRotationVolume* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupMapRotationVolume*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONVOLUME_METHOD_3_536E41C2BBB20110_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetupMapRotationVolume*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPMAPROTATIONVOLUME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

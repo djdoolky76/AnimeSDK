@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::GameCore { class MissionItemConfigList; }
 namespace RPG::GameCore { class SelectMissionItemConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_SelectItem_TypeDefinitionIndex = 66183;
+	inline static constexpr unsigned int MissionModule_SelectItem_TypeDefinitionIndex = 66137;
 
 	struct alignas(8) MissionModule_SelectItem
 	{

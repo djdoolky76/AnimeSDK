@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_COMPARESTRINGANDCHARS_OFFSET UNITYSDK_OFFSET(0x166DE440)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHCHARARRAY_OFFSET UNITYSDK_OFFSET(0x166DE320)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x166DE270)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_MAKESTRING_OFFSET UNITYSDK_OFFSET(0x166D5170)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x166DE3F0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_COMPARESTRINGANDCHARS_OFFSET UNITYSDK_OFFSET(0x1C0CA280)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CA230)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHCHARARRAY_OFFSET UNITYSDK_OFFSET(0x1C0CA160)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x1C0CA0B0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_MAKESTRING_OFFSET UNITYSDK_OFFSET(0x1C0C1030)
 
 namespace System::Security::Util
 {
@@ -18,16 +17,15 @@ namespace System::Security::Util
 	class Tokenizer_StringMaker : public ::System::Object
 	{
 	public:
-		::System::Text::StringBuilder* _outStringBuilder; // 0x10
+		::Il2CppArray<::System::String*>* aStrings; // 0x10
 		::Il2CppArray<::System::Char>* _outChars; // 0x18
-		::Il2CppArray<::System::String*>* aStrings; // 0x20
-		::System::UInt32 cStringsUsed; // 0x28
-		::System::UInt32 cStringsMax; // 0x2C
-		::System::Int32 _outIndex; // 0x30
-
+		::System::Text::StringBuilder* _outStringBuilder; // 0x20
+		::System::Int32 _outIndex; // 0x28
+		::System::UInt32 cStringsUsed; // 0x2C
+		::System::UInt32 cStringsMax; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::UInt32 HashString(::System::String* a1)
@@ -49,5 +47,6 @@ namespace System::Security::Util
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_MAKESTRING_OFFSET))(this);
 		}
+
 	};
 }

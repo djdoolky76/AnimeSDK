@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Text::RegularExpressions { class Capture; }
 namespace System::Text::RegularExpressions { class GroupCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_GET_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1828EF10)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1828EF00)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1828EEB0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1828EFB0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1828EE60)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F089F40)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_GET_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1F089FF0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F089FE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F089F90)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F08A090)
 
 namespace System::Text::RegularExpressions
 {
@@ -20,10 +20,9 @@ namespace System::Text::RegularExpressions
 	public:
 		::System::Text::RegularExpressions::GroupCollection* _rgc; // 0x10
 		::System::Int32 _curindex; // 0x18
-
 		::System::Void _ctor(::System::Text::RegularExpressions::GroupCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::GroupCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::GroupCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()
@@ -45,5 +44,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUPENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

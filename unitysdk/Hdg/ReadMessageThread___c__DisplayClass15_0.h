@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Hdg { class ReadMessageThread; }
 namespace Hdg { class rdtTcpMessage; }
 
-#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45BEE0)
-#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__ONREADING_B__0_OFFSET UNITYSDK_OFFSET(0x1D45BF00)
+#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF296F0)
+#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__ONREADING_B__0_OFFSET UNITYSDK_OFFSET(0xAF29B60)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass15_0_TypeDefinitionIndex = 47399;
+	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass15_0_TypeDefinitionIndex = 46939;
 
 	class ReadMessageThread___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::Hdg::ReadMessageThread* __4__this; // 0x10
-		::Hdg::rdtTcpMessage* message; // 0x18
-
+		::Hdg::rdtTcpMessage* message; // 0x10
+		::Hdg::ReadMessageThread* __4__this; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnReading_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__ONREADING_B__0_OFFSET))(this);
 		}
+
 	};
 }

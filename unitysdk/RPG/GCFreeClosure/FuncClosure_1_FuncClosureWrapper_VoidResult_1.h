@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_3906C24C646CC83F.h"
-#include "unitysdk/Struct_2_6C64084003D66585.h"
+#include "unitysdk/DGEPOBDMLDJ.h"
+#include "unitysdk/ICFEIEJDMIB.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GCFreeClosure { template <typename T1, typename T2, typename T3> class FuncByRef_3; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int FuncClosure_1_FuncClosureWrapper_VoidResult_1_TypeDefinitionIndex = 6448;
+	inline static constexpr unsigned int FuncClosure_1_FuncClosureWrapper_VoidResult_1_TypeDefinitionIndex = 6457;
 
-	template <typename TInput0, typename T>
+	template <typename T>
 	class FuncClosure_1_FuncClosureWrapper_VoidResult_1 : public ::System::Object
 	{
 	public:
-		static ::RPG::GCFreeClosure::FuncByRef_3<::Struct_2_6C64084003D66585, TInput0, ::Struct_2_3906C24C646CC83F>** StaticGet__default()
+		static ::RPG::GCFreeClosure::FuncByRef_3<::ICFEIEJDMIB, T, ::DGEPOBDMLDJ>** StaticGet__default()
 		{
-			return (::RPG::GCFreeClosure::FuncByRef_3<::Struct_2_6C64084003D66585, TInput0, ::Struct_2_3906C24C646CC83F>**)Il2CppClass::FromTypeDefinitionIndex(FuncClosure_1_FuncClosureWrapper_VoidResult_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::RPG::GCFreeClosure::FuncByRef_3<::ICFEIEJDMIB, T, ::DGEPOBDMLDJ>**)UnitySDK::FromName("RPG.GCFreeClosure", "FuncClosureWrapper_VoidResult`1")->GetStaticField(0x0);
 		}
+
 	};
 }

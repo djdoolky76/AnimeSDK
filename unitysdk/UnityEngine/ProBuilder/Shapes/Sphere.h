@@ -1,46 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ProBuilder/Shapes/Shape.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
+namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x19235070)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x19235180)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_SUBDIVIDEICOSAHEDRON_OFFSET UNITYSDK_OFFSET(0x19235EC0)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x192350F0)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE__CCTOR_OFFSET UNITYSDK_OFFSET(0x192363B0)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x192363A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F254700)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F253380)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2546F0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F253490)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_SUBDIVIDEICOSAHEDRON_OFFSET UNITYSDK_OFFSET(0x1F254210)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F253400)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 43277;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 44469;
 
 	class Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
+		::System::Boolean m_Smooth; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::Int32 m_Subdivisions; // 0x14
+		::System::Int32 m_BottomMostVertexIndex; // 0x18
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_k_IcosphereVertices()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Sphere_TypeDefinitionIndex)->GetStaticField(0x64B50);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Sphere")->GetStaticField(0x53050);
 		}
+
 		static ::Il2CppArray<::System::Int32>** StaticGet_k_IcosphereTriangles()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Sphere_TypeDefinitionIndex)->GetStaticField(0x64B58);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Sphere")->GetStaticField(0x53058);
 		}
-		::System::Int32 m_Subdivisions; // 0x10
-		::System::Boolean m_Smooth; // 0x14
-		::System::Int32 m_BottomMostVertexIndex; // 0x18
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_SPHERE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_SPHERE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CCTOR_OFFSET))();
 		}
 
 		::System::Void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* a1)
@@ -62,5 +64,6 @@ namespace UnityEngine::ProBuilder::Shapes
 		{
 			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_SPHERE_SUBDIVIDEICOSAHEDRON_OFFSET))(a1, a2);
 		}
+
 	};
 }

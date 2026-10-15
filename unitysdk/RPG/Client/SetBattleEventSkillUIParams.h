@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_SETBATTLEEVENTSKILLUIPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF7A9E0)
+#define RPG_CLIENT_SETBATTLEEVENTSKILLUIPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xE0A9450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SetBattleEventSkillUIParams_TypeDefinitionIndex = 71584;
+	inline static constexpr unsigned int SetBattleEventSkillUIParams_TypeDefinitionIndex = 71634;
 
 	class SetBattleEventSkillUIParams : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
 		::System::Boolean IsShow; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SETBATTLEEVENTSKILLUIPARAMS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SETBATTLEEVENTSKILLUIPARAMS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_9D455FE4693966A8_OFFSET UNITYSDK_OFFSET(0x1993C1E0)
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1993C260)
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1993C270)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0xCE12CA0)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_HDPMELCDAMA_OFFSET UNITYSDK_OFFSET(0xCE12C90)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_NBBEMNGKEFD_OFFSET UNITYSDK_OFFSET(0xCE12C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 60612;
+	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 60513;
 
 	class EraFlipperManagerDebug : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,20 +21,20 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* Devices; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* TaIndex; // 0x28
 		::System::Boolean InRegion; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9D455FE4693966A8()
+		::System::Void NBBEMNGKEFD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_9D455FE4693966A8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_NBBEMNGKEFD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB()
+		::System::Boolean HDPMELCDAMA()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_HDPMELCDAMA_OFFSET))(this);
 		}
+
 	};
 }

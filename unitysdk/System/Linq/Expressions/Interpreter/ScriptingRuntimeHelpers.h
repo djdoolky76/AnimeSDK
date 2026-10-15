@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1DF45830)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_INT32TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1DF369A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1EDFADA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_INT32TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1EDEBF10)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ScriptingRuntimeHelpers_TypeDefinitionIndex = 3662;
+	inline static constexpr unsigned int ScriptingRuntimeHelpers_TypeDefinitionIndex = 3663;
 
 	class ScriptingRuntimeHelpers : public ::System::Object
 	{
@@ -23,5 +23,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Object*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET))(a1);
 		}
+
 	};
 }

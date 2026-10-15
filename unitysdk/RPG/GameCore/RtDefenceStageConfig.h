@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 #include "unitysdk/RPG/GameCore/FixVec3.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleAreaReferenceInfo; }
 namespace RPG::GameCore { class RtDefenceStageBornPointInfo; }
+namespace RPG::GameCore { class RtDefenceStageConfig; }
 namespace RPG::GameCore { class RtDefenceStageUnitInfo; }
 namespace RPG::GameCore { class RtDefenceWaveMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_METHOD_2_C9A1D20756EE6FE1_OFFSET UNITYSDK_OFFSET(0x1CCE5520)
-#define RPG_GAMECORE_RTDEFENCESTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE5970)
+#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2E5F0)
+#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2E1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceStageConfig_TypeDefinitionIndex = 17858;
+	inline static constexpr unsigned int RtDefenceStageConfig_TypeDefinitionIndex = 18070;
 
 	class RtDefenceStageConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,15 +34,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::RtDefenceWaveMonsterInfo*>* WaveList; // 0x68
 		::Il2CppArray<::System::UInt32>* SummonAvatarPool; // 0x70
 		::Il2CppArray<::System::UInt32>* UpgradeGEPool; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCESTAGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCESTAGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C9A1D20756EE6FE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceStageConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtDefenceStageConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceStageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCESTAGECONFIG_METHOD_2_C9A1D20756EE6FE1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtDefenceStageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCESTAGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

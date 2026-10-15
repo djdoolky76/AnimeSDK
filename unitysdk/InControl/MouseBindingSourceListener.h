@@ -2,40 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/Mouse.h"
 #include "unitysdk/System/Object.h"
-
 namespace InControl { class BindingListenOptions; }
 namespace InControl { class BindingSource; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x18E96980)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x18E96C60)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x18E96900)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x18E968F0)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E96F70)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E96F60)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9E1560)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E1550)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9E0F70)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x1B9E1250)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x1B9E0EF0)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1B9E0EE0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 39508;
+	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 40805;
 
 	class MouseBindingSourceListener : public ::System::Object
 	{
 	public:
+		::InControl::Mouse detectFound; // 0x10
+		::System::Int32 detectPhase; // 0x14
 		static ::System::Single* StaticGet_ScrollWheelThreshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MouseBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x16A0);
+			return (::System::Single*)UnitySDK::FromName("InControl", "MouseBindingSourceListener")->GetStaticField(0x14C00);
 		}
-		::System::Int32 detectPhase; // 0x10
-		::InControl::Mouse detectFound; // 0x14
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_MOUSEBINDINGSOURCELISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_MOUSEBINDINGSOURCELISTENER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_MOUSEBINDINGSOURCELISTENER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_MOUSEBINDINGSOURCELISTENER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Reset()
@@ -57,5 +56,6 @@ namespace InControl
 		{
 			return ((::InControl::Mouse(*)(::PVOID, ::InControl::BindingListenOptions*))((::PBYTE)hIl2Cpp + INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET))(this, a1);
 		}
+
 	};
 }

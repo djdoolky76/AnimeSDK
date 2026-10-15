@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleAbilityNodeConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
+namespace RPG::GameCore { class ChenLingBattleAbility_Teleport; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_METHOD_3_C4F4A77FDAA48714_OFFSET UNITYSDK_OFFSET(0x1E009480)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_METHOD_3_F7CAB374E93B8F26_OFFSET UNITYSDK_OFFSET(0x1E0094E0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0094D0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D554310)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D554320)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5542C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Teleport_TypeDefinitionIndex = 15560;
+	inline static constexpr unsigned int ChenLingBattleAbility_Teleport_TypeDefinitionIndex = 15733;
 
 	class ChenLingBattleAbility_Teleport : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:
 		::RPG::GameCore::BaseChenLingBattleTargetEvaluator* Sources; // 0x10
 		::RPG::GameCore::BaseChenLingBattleTargetEvaluator* Targets; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C4F4A77FDAA48714(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Teleport*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbility_Teleport* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Teleport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_METHOD_3_C4F4A77FDAA48714_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbility_Teleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F7CAB374E93B8F26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Teleport* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbility_Teleport* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Teleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_METHOD_3_F7CAB374E93B8F26_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbility_Teleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_TELEPORT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

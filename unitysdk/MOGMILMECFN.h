@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class NGFHCJIAOLH;
+class PFCDAPDAHNH;
+namespace RPG::GameCore { class TaskContext; }
+
+#define MOGMILMECFN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA266F0)
+#define MOGMILMECFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA26C00)
+#define MOGMILMECFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA26770)
+
+inline static constexpr unsigned int MOGMILMECFN_TypeDefinitionIndex = 52665;
+
+	class MOGMILMECFN
+	{
+	public:
+		::NGFHCJIAOLH* CKCHKBCBNIJ; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::PFCDAPDAHNH* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::PFCDAPDAHNH*))((::PBYTE)hIl2Cpp + MOGMILMECFN_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOGMILMECFN_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOGMILMECFN_DISPOSE_OFFSET))(this);
+		}
+
+	};

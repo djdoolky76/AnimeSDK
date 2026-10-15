@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellSaver_TypeDefinitionIndex = 41214;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellSaver_TypeDefinitionIndex = 42503;
 
 	struct alignas(4) TimelineControlGameWorld_LevelCellSaver
 	{

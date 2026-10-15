@@ -1,0 +1,113 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/BMAGJGLPIIF.h"
+#include "unitysdk/RPG/MVector3.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class ModifierPlayerChangeEffect; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Renderer; }
+
+#define DLAAIAJKEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0xF88A980)
+#define DLAAIAJKEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xF889710)
+#define DLAAIAJKEHP_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF88A960)
+#define DLAAIAJKEHP_HAIHHFOPBLN_1_OFFSET UNITYSDK_OFFSET(0xF88A860)
+#define DLAAIAJKEHP_HAIHHFOPBLN_2_OFFSET UNITYSDK_OFFSET(0xF88A790)
+#define DLAAIAJKEHP_HAIHHFOPBLN_OFFSET UNITYSDK_OFFSET(0xF88A6F0)
+#define DLAAIAJKEHP_HMOOMCLKOJA_OFFSET UNITYSDK_OFFSET(0xF88A4D0)
+#define DLAAIAJKEHP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xF88A060)
+#define DLAAIAJKEHP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF889820)
+#define DLAAIAJKEHP_NFECGOAMEIF_OFFSET UNITYSDK_OFFSET(0xF88A320)
+#define DLAAIAJKEHP_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF88A970)
+
+inline static constexpr unsigned int DLAAIAJKEHP_TypeDefinitionIndex = 55183;
+
+	class DLAAIAJKEHP : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* OIPDNIJEMAF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x18
+		::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x20
+		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x28
+		::RPG::GameCore::ModifierPlayerChangeEffect* DOCBCODGIEH; // 0x30
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* KFOBOAGEAML; // 0x38
+		::System::Single KHCBCLOMOHE; // 0x40
+		::UnityEngine::Color KAPOKDONACI; // 0x44
+		::System::Int32 GMDBHJKEAEI; // 0x54
+		::UnityEngine::Vector4 BKOECPKLOGD; // 0x58
+		::System::Single AHNCHIOFGLB; // 0x68
+		static ::System::Int32* StaticGet_JEJLEFAMBAK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x132E0);
+		}
+
+		static ::System::Int32* StaticGet_LMEDHJLHMFM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x132E4);
+		}
+
+		static ::System::Int32* StaticGet_KJLLAFEBBMG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x132E8);
+		}
+
+		::System::Void _ctor(::RPG::GameCore::ModifierPlayerChangeEffect* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ModifierPlayerChangeEffect*))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_CTOR_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DLAAIAJKEHP_CCTOR_OFFSET))();
+		}
+
+		::System::Boolean KPJGDHLENIP(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_KPJGDHLENIP_OFFSET))(this, a1);
+		}
+
+		::System::Boolean JLANKNHFKCN(::System::Single a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_JLANKNHFKCN_OFFSET))(this, a1);
+		}
+
+		::System::Single NFECGOAMEIF()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_NFECGOAMEIF_OFFSET))(this);
+		}
+
+		::BMAGJGLPIIF HMOOMCLKOJA()
+		{
+			return ((::BMAGJGLPIIF(*)(::PVOID))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_HMOOMCLKOJA_OFFSET))(this);
+		}
+
+		::System::Single HAIHHFOPBLN(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_HAIHHFOPBLN_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::MVector3 HAIHHFOPBLN_1(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::System::Single a3)
+		{
+			return ((::RPG::MVector3(*)(::PVOID, ::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_HAIHHFOPBLN_1_OFFSET))(this, a1, a2, a3);
+		}
+
+		::BMAGJGLPIIF HAIHHFOPBLN_2(::BMAGJGLPIIF a1, ::BMAGJGLPIIF a2, ::System::Single a3)
+		{
+			return ((::BMAGJGLPIIF(*)(::PVOID, ::BMAGJGLPIIF, ::BMAGJGLPIIF, ::System::Single))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_HAIHHFOPBLN_2_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::GameCore::GameEntity* get_Entity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_GET_ENTITY_OFFSET))(this);
+		}
+
+		::System::Void set_Entity(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + DLAAIAJKEHP_SET_ENTITY_OFFSET))(this, a1);
+		}
+
+	};

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_54.h"
+#include "unitysdk/KCKJILIMNFF.h"
 #include "unitysdk/RPG/Client/RelicSmartSuit/PlanType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_18C00C8FB77B0B39_2;
+class ONFLANPGHHL;
+namespace RPG::Client::RelicSmartSuit { class PinDataKey; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17950D70)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_OFFSET UNITYSDK_OFFSET(0x17950AF0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x179516F0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x17951480)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x179517A0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GETHASHSETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17951820)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_INNERSETIDS_OFFSET UNITYSDK_OFFSET(0x17950AD0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_OUTERSETIDS_OFFSET UNITYSDK_OFFSET(0x17950AE0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_PLANTYPE_OFFSET UNITYSDK_OFFSET(0x17950AC0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_HASHSETEQUALS_OFFSET UNITYSDK_OFFSET(0x17951680)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17951410)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x179515E0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_TOPROTO_OFFSET UNITYSDK_OFFSET(0x17951220)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x17950D60)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_1_OFFSET UNITYSDK_OFFSET(0x179513C0)
-#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_OFFSET UNITYSDK_OFFSET(0x17950D10)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_1_OFFSET UNITYSDK_OFFSET(0xDE7FEE0)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_OFFSET UNITYSDK_OFFSET(0xDE7FC60)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7FED0)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xDE80860)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xDE805F0)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDE80910)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GETHASHSETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDE80990)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_INNERSETIDS_OFFSET UNITYSDK_OFFSET(0xDE7FC40)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_OUTERSETIDS_OFFSET UNITYSDK_OFFSET(0xDE7FC50)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_PLANTYPE_OFFSET UNITYSDK_OFFSET(0xDE7FC30)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_HASHSETEQUALS_OFFSET UNITYSDK_OFFSET(0xDE807F0)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xDE80580)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xDE80750)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_TOPROTO_OFFSET UNITYSDK_OFFSET(0xDE80390)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_1_OFFSET UNITYSDK_OFFSET(0xDE80530)
+#define RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_OFFSET UNITYSDK_OFFSET(0xDE7FE80)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int PinDataKey_TypeDefinitionIndex = 74311;
+	inline static constexpr unsigned int PinDataKey_TypeDefinitionIndex = 74410;
 
 	class PinDataKey : public ::System::Object
 	{
@@ -35,10 +36,9 @@ namespace RPG::Client::RelicSmartSuit
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _InnerSetIDs_k__BackingField; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _OuterSetIDs_k__BackingField; // 0x18
 		::RPG::Client::RelicSmartSuit::PlanType _PlanType_k__BackingField; // 0x20
-
 		::System::Void _ctor(::RPG::Client::RelicSmartSuit::PlanType a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::PlanType, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::PlanType, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::RelicSmartSuit::PlanType get_PlanType()
@@ -56,9 +56,9 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Collections::Generic::HashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GET_OUTERSETIDS_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::PinDataKey* Create(::Class_1_18C00C8FB77B0B39_2* a1)
+		static ::RPG::Client::RelicSmartSuit::PinDataKey* Create(::ONFLANPGHHL* a1)
 		{
-			return ((::RPG::Client::RelicSmartSuit::PinDataKey*(*)(::Class_1_18C00C8FB77B0B39_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::RelicSmartSuit::PinDataKey*(*)(::ONFLANPGHHL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::RelicSmartSuit::PinDataKey* Create_1(::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* a1)
@@ -66,19 +66,19 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::RPG::Client::RelicSmartSuit::PinDataKey*(*)(::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_CREATE_1_OFFSET))(a1);
 		}
 
-		::Class_1_18C00C8FB77B0B39_2* ToProto()
+		::ONFLANPGHHL* ToProto()
 		{
-			return ((::Class_1_18C00C8FB77B0B39_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_TOPROTO_OFFSET))(this);
+			return ((::ONFLANPGHHL*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_TOPROTO_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::PlanType _GetPlanType(::Enum_3_DB663931210BBC27_54 a1)
+		static ::RPG::Client::RelicSmartSuit::PlanType _GetPlanType(::KCKJILIMNFF a1)
 		{
-			return ((::RPG::Client::RelicSmartSuit::PlanType(*)(::Enum_3_DB663931210BBC27_54))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_OFFSET))(a1);
+			return ((::RPG::Client::RelicSmartSuit::PlanType(*)(::KCKJILIMNFF))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_OFFSET))(a1);
 		}
 
-		static ::Enum_3_DB663931210BBC27_54 _GetPlanType_1(::RPG::Client::RelicSmartSuit::PlanType a1)
+		static ::KCKJILIMNFF _GetPlanType_1(::RPG::Client::RelicSmartSuit::PlanType a1)
 		{
-			return ((::Enum_3_DB663931210BBC27_54(*)(::RPG::Client::RelicSmartSuit::PlanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_1_OFFSET))(a1);
+			return ((::KCKJILIMNFF(*)(::RPG::Client::RelicSmartSuit::PlanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY__GETPLANTYPE_1_OFFSET))(a1);
 		}
 
 		static ::System::Boolean op_Equality(::RPG::Client::RelicSmartSuit::PinDataKey* a1, ::RPG::Client::RelicSmartSuit::PinDataKey* a2)
@@ -115,5 +115,6 @@ namespace RPG::Client::RelicSmartSuit
 		{
 			return ((::System::Int32(*)(::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PINDATAKEY_GETHASHSETHASHCODE_OFFSET))(a1);
 		}
+
 	};
 }

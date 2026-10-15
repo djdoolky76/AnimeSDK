@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EnviromentSystemV2Space/PropertyData_1.h"
+class GGJFAFONDHN;
 
-class Class_1_EAF7984A8FAD6BE4;
-
-#define ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA_METHOD_3_82ABFE24D5168B0C_OFFSET UNITYSDK_OFFSET(0x106E7EC0)
-#define ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x106E7F50)
+#define ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15647D10)
+#define ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x15647C80)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int FloatPropertyData_TypeDefinitionIndex = 49810;
+	inline static constexpr unsigned int FloatPropertyData_TypeDefinitionIndex = 49385;
 
-	class FloatPropertyData : public ::EnviromentSystemV2Space::PropertyData_1<::System::Single>
+	class FloatPropertyData
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_EAF7984A8FAD6BE4* Method_3_82ABFE24D5168B0C()
+		::GGJFAFONDHN* FCMDLFKMBMH()
 		{
-			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA_METHOD_3_82ABFE24D5168B0C_OFFSET))(this);
+			return ((::GGJFAFONDHN*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_FLOATPROPERTYDATA_FCMDLFKMBMH_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/Bool.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_POINTCOUNT_OFFSET UNITYSDK_OFFSET(0x7845E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x7846F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x182E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_POINTCOUNT_OFFSET UNITYSDK_OFFSET(0x3A2C790)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x869800)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x18100)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_POINTCOUNT_OFFSET UNITYSDK_OFFSET(0x3260)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x1D40)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xC200)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_POINTCOUNT_OFFSET UNITYSDK_OFFSET(0xDD9C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x94C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xE7580)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aePolyMeshData_TypeDefinitionIndex = 44648;
+	inline static constexpr unsigned int aePolyMeshData_TypeDefinitionIndex = 45787;
 
-	struct alignas(8) aePolyMeshData
+	struct alignas(4) aePolyMeshData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _visibility_k__BackingField; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::IntPtr _points_k__BackingField; // 0x18
 		::System::Int32 _pointCount_k__BackingField; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::IntPtr normals; // 0x28
 		::System::IntPtr uv0; // 0x30
 		::System::IntPtr uv1; // 0x38
 		::System::IntPtr colors; // 0x40
 		::System::IntPtr submeshes; // 0x48
 		::System::Int32 submeshCount; // 0x50
-
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_visibility()
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_GET_VISIBILITY_OFFSET))(this);
@@ -55,5 +55,6 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOLYMESHDATA_SET_POINTCOUNT_OFFSET))(this, a1);
 		}
+
 	};
 }

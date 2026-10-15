@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B4260)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST_CTOR_OFFSET UNITYSDK_OFFSET(0xD44D580)
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
-	inline static constexpr unsigned int AddScoreToast_TypeDefinitionIndex = 76774;
+	inline static constexpr unsigned int AddScoreToast_TypeDefinitionIndex = 77245;
 
 	class AddScoreToast : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector3 WorldPos; // 0x10
-		::System::Int32 AddScore; // 0x1C
-		::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType ScoreType; // 0x20
-
+		::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType ScoreType; // 0x1C
+		::System::Int32 AddScore; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST_CTOR_OFFSET))(this);
 		}
+
 	};
 }

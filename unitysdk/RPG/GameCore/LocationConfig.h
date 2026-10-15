@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LocationConfig; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_LOCATIONCONFIG_METHOD_2_09290BFB0D83795C_OFFSET UNITYSDK_OFFSET(0x1DD76B50)
-#define RPG_GAMECORE_LOCATIONCONFIG_METHOD_2_BAE9EAF11BB67243_OFFSET UNITYSDK_OFFSET(0x1DD76520)
-#define RPG_GAMECORE_LOCATIONCONFIG_METHOD_2_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0x1DD76B80)
-#define RPG_GAMECORE_LOCATIONCONFIG_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1DD76BA0)
-#define RPG_GAMECORE_LOCATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD76B40)
+#define RPG_GAMECORE_LOCATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C18C0)
+#define RPG_GAMECORE_LOCATIONCONFIG_FEPNMNINDPB_OFFSET UNITYSDK_OFFSET(0x1D7C1900)
+#define RPG_GAMECORE_LOCATIONCONFIG_JKBPFEMKNHL_OFFSET UNITYSDK_OFFSET(0x1D7C18D0)
+#define RPG_GAMECORE_LOCATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C1110)
+#define RPG_GAMECORE_LOCATIONCONFIG_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1D7C1920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LocationConfig_TypeDefinitionIndex = 16323;
+	inline static constexpr unsigned int LocationConfig_TypeDefinitionIndex = 16496;
 
 	class LocationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,38 +29,41 @@ namespace RPG::GameCore
 		::System::Boolean DisableEnemyFaceTo; // 0x2C
 		::System::Boolean DisableFaceToActionEntity; // 0x2D
 		::System::Boolean RotateWithOtherTeammate; // 0x2E
+		::System::Byte _padding0[0x1];
 		::RPG::MVector3 RootOffset; // 0x30
 		::System::Boolean RotateByRootOffset; // 0x3C
 		::System::Boolean AlignTeamCenter; // 0x3D
+		::System::Byte _padding1[0x2];
 		::RPG::MVector3 FormationFollowOffset; // 0x40
 		::System::Single FormationFollowAngleOffset; // 0x4C
 		::System::Single CloseToSummonerRatio; // 0x50
 		::System::Boolean PreferLowerFormationIndex; // 0x54
+		::System::Byte _padding2[0x3];
 		::RPG::MVector3 PuppetCustomFormationOffset; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BAE9EAF11BB67243(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LocationConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LocationConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LocationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_METHOD_2_BAE9EAF11BB67243_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LocationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		::System::Single Method_2_09290BFB0D83795C(::System::Single a1)
+		::System::Single JKBPFEMKNHL(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_METHOD_2_09290BFB0D83795C_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_JKBPFEMKNHL_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_2_FB4BE762B6186C23()
+		::System::Single FEPNMNINDPB()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_METHOD_2_FB4BE762B6186C23_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_FEPNMNINDPB_OFFSET))(this);
 		}
 
 		::System::Object* ShareByCopy()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCATIONCONFIG_SHAREBYCOPY_OFFSET))(this);
 		}
+
 	};
 }

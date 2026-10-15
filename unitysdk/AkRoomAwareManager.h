@@ -1,78 +1,79 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 class AkRoom;
 class AkRoomAwareObject;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Collider; }
 
-#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_1_OFFSET UNITYSDK_OFFSET(0x1DAACA80)
-#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_OFFSET UNITYSDK_OFFSET(0x1DAAD410)
-#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_1_OFFSET UNITYSDK_OFFSET(0x1DAAE350)
-#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_OFFSET UNITYSDK_OFFSET(0x1DAAD520)
-#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1DAAD110)
-#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1DAAE040)
-#define AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1DAAE100)
-#define AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET UNITYSDK_OFFSET(0x1DAAE4D0)
-#define AKROOMAWAREMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAAE760)
+#define AKROOMAWAREMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F58D3F0)
+#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_1_OFFSET UNITYSDK_OFFSET(0x1F58B700)
+#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_OFFSET UNITYSDK_OFFSET(0x1F58C090)
+#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_1_OFFSET UNITYSDK_OFFSET(0x1F58CFD0)
+#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_OFFSET UNITYSDK_OFFSET(0x1F58C1A0)
+#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1F58BD90)
+#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1F58CCC0)
+#define AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1F58CD80)
+#define AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET UNITYSDK_OFFSET(0x1F58D150)
 
-inline static constexpr unsigned int AkRoomAwareManager_TypeDefinitionIndex = 43657;
+inline static constexpr unsigned int AkRoomAwareManager_TypeDefinitionIndex = 44849;
 
-class AkRoomAwareManager : public ::System::Object
-{
-public:
-	static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjects()
+	class AkRoomAwareManager : public ::System::Object
 	{
-		return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)Il2CppClass::FromTypeDefinitionIndex(AkRoomAwareManager_TypeDefinitionIndex)->GetStaticField(0x134D0);
-	}
-	static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjectToUpdate()
-	{
-		return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)Il2CppClass::FromTypeDefinitionIndex(AkRoomAwareManager_TypeDefinitionIndex)->GetStaticField(0x134D8);
-	}
+	public:
+		static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjectToUpdate()
+		{
+			return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)UnitySDK::FromName("", "AkRoomAwareManager")->GetStaticField(0xF270);
+		}
 
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER__CCTOR_OFFSET))();
-	}
+		static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjects()
+		{
+			return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)UnitySDK::FromName("", "AkRoomAwareManager")->GetStaticField(0xF278);
+		}
 
-	static ::System::Void RegisterRoomAwareObject(::AkRoomAwareObject* a1)
-	{
-		return ((::System::Void(*)(::AkRoomAwareObject*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECT_OFFSET))(a1);
-	}
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_CCTOR_OFFSET))();
+		}
 
-	static ::System::Void UnregisterRoomAwareObject(::AkRoomAwareObject* a1)
-	{
-		return ((::System::Void(*)(::AkRoomAwareObject*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET))(a1);
-	}
+		static ::System::Void RegisterRoomAwareObject(::AkRoomAwareObject* a1)
+		{
+			return ((::System::Void(*)(::AkRoomAwareObject*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECT_OFFSET))(a1);
+		}
 
-	static ::System::Void RegisterRoomAwareObjectForUpdate(::AkRoomAwareObject* a1)
-	{
-		return ((::System::Void(*)(::AkRoomAwareObject*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECTFORUPDATE_OFFSET))(a1);
-	}
+		static ::System::Void UnregisterRoomAwareObject(::AkRoomAwareObject* a1)
+		{
+			return ((::System::Void(*)(::AkRoomAwareObject*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET))(a1);
+		}
 
-	static ::System::Void ObjectEnteredRoom(::UnityEngine::Collider* a1, ::AkRoom* a2)
-	{
-		return ((::System::Void(*)(::UnityEngine::Collider*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTENTEREDROOM_OFFSET))(a1, a2);
-	}
+		static ::System::Void RegisterRoomAwareObjectForUpdate(::AkRoomAwareObject* a1)
+		{
+			return ((::System::Void(*)(::AkRoomAwareObject*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECTFORUPDATE_OFFSET))(a1);
+		}
 
-	static ::System::Void ObjectEnteredRoom_1(::AkRoomAwareObject* a1, ::AkRoom* a2)
-	{
-		return ((::System::Void(*)(::AkRoomAwareObject*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTENTEREDROOM_1_OFFSET))(a1, a2);
-	}
+		static ::System::Void ObjectEnteredRoom(::UnityEngine::Collider* a1, ::AkRoom* a2)
+		{
+			return ((::System::Void(*)(::UnityEngine::Collider*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTENTEREDROOM_OFFSET))(a1, a2);
+		}
 
-	static ::System::Void ObjectExitedRoom(::UnityEngine::Collider* a1, ::AkRoom* a2)
-	{
-		return ((::System::Void(*)(::UnityEngine::Collider*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTEXITEDROOM_OFFSET))(a1, a2);
-	}
+		static ::System::Void ObjectEnteredRoom_1(::AkRoomAwareObject* a1, ::AkRoom* a2)
+		{
+			return ((::System::Void(*)(::AkRoomAwareObject*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTENTEREDROOM_1_OFFSET))(a1, a2);
+		}
 
-	static ::System::Void ObjectExitedRoom_1(::AkRoomAwareObject* a1, ::AkRoom* a2)
-	{
-		return ((::System::Void(*)(::AkRoomAwareObject*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTEXITEDROOM_1_OFFSET))(a1, a2);
-	}
+		static ::System::Void ObjectExitedRoom(::UnityEngine::Collider* a1, ::AkRoom* a2)
+		{
+			return ((::System::Void(*)(::UnityEngine::Collider*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTEXITEDROOM_OFFSET))(a1, a2);
+		}
 
-	static ::System::Void UpdateRoomAwareObjects()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET))();
-	}
-};
+		static ::System::Void ObjectExitedRoom_1(::AkRoomAwareObject* a1, ::AkRoom* a2)
+		{
+			return ((::System::Void(*)(::AkRoomAwareObject*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_OBJECTEXITEDROOM_1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void UpdateRoomAwareObjects()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET))();
+		}
+
+	};

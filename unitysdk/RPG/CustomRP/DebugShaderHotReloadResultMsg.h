@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/DebugShaderHotReloadMsg_UpdateType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x18574390)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_READ_OFFSET UNITYSDK_OFFSET(0x18574610)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_RESET_OFFSET UNITYSDK_OFFSET(0x18574800)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_WRITE_OFFSET UNITYSDK_OFFSET(0x185743D0)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG__CTOR_OFFSET UNITYSDK_OFFSET(0x18574830)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBFD0F0)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1CBFCC50)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_READ_OFFSET UNITYSDK_OFFSET(0x1CBFCED0)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_RESET_OFFSET UNITYSDK_OFFSET(0x1CBFD0C0)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_WRITE_OFFSET UNITYSDK_OFFSET(0x1CBFCC90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugShaderHotReloadResultMsg_TypeDefinitionIndex = 37064;
+	inline static constexpr unsigned int DebugShaderHotReloadResultMsg_TypeDefinitionIndex = 37749;
 
 	class DebugShaderHotReloadResultMsg : public ::System::Object
 	{
 	public:
 		::System::String* detail; // 0x10
 		::System::String* shaderName; // 0x18
-		::System::Boolean success; // 0x20
-		::RPG::CustomRP::DebugShaderHotReloadMsg_UpdateType updateType; // 0x24
-
+		::RPG::CustomRP::DebugShaderHotReloadMsg_UpdateType updateType; // 0x20
+		::System::Boolean success; // 0x24
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetMessageType()
@@ -49,5 +47,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSHADERHOTRELOADRESULTMSG_RESET_OFFSET))(this);
 		}
+
 	};
 }

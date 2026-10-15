@@ -4,7 +4,8 @@
 #include "unitysdk/RPG/Client/MonoMaskSlider_FlashLoopAnimName.h"
 #include "unitysdk/RPG/Client/MonoMaskSlider_SliderDirection.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace RPG::Client { class MonoMaskSlider; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
@@ -13,37 +14,39 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOMASKSLIDER_GETBLINGANIMATIONNORMALIZEDTIME_OFFSET UNITYSDK_OFFSET(0x1ACF5DE0)
-#define RPG_CLIENT_MONOMASKSLIDER_GETRATIO_OFFSET UNITYSDK_OFFSET(0x1ACF5A70)
-#define RPG_CLIENT_MONOMASKSLIDER_GET_LOOPANIMNAMESTR_OFFSET UNITYSDK_OFFSET(0x1ACF5500)
-#define RPG_CLIENT_MONOMASKSLIDER_METHOD_5_7C2C2820B36B9508_OFFSET UNITYSDK_OFFSET(0x1ACF61A0)
-#define RPG_CLIENT_MONOMASKSLIDER_METHOD_5_C457B99D85451047_OFFSET UNITYSDK_OFFSET(0x1ACF5FA0)
-#define RPG_CLIENT_MONOMASKSLIDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ACF6330)
-#define RPG_CLIENT_MONOMASKSLIDER_SETREFSLIDER_OFFSET UNITYSDK_OFFSET(0x1ACF5AE0)
-#define RPG_CLIENT_MONOMASKSLIDER_STARTFLASHLOOP_OFFSET UNITYSDK_OFFSET(0x1ACF5CD0)
-#define RPG_CLIENT_MONOMASKSLIDER_STARTFLASHSPREAD_OFFSET UNITYSDK_OFFSET(0x1ACF5B40)
-#define RPG_CLIENT_MONOMASKSLIDER_STOPFLASHLOOPANIM_OFFSET UNITYSDK_OFFSET(0x1ACF6060)
-#define RPG_CLIENT_MONOMASKSLIDER_STOPFLASHSPREADANIM_OFFSET UNITYSDK_OFFSET(0x1ACF5E90)
-#define RPG_CLIENT_MONOMASKSLIDER_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1ACF56D0)
-#define RPG_CLIENT_MONOMASKSLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ACF6150)
-#define RPG_CLIENT_MONOMASKSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF6380)
+#define RPG_CLIENT_MONOMASKSLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD842E50)
+#define RPG_CLIENT_MONOMASKSLIDER_GETBLINGANIMATIONNORMALIZEDTIME_OFFSET UNITYSDK_OFFSET(0xD8428B0)
+#define RPG_CLIENT_MONOMASKSLIDER_GETRATIO_OFFSET UNITYSDK_OFFSET(0xD842540)
+#define RPG_CLIENT_MONOMASKSLIDER_GET_LOOPANIMNAMESTR_OFFSET UNITYSDK_OFFSET(0xD841FD0)
+#define RPG_CLIENT_MONOMASKSLIDER_IMLPBFKEGPP_OFFSET UNITYSDK_OFFSET(0xD842A70)
+#define RPG_CLIENT_MONOMASKSLIDER_NNDLMDPLBAH_OFFSET UNITYSDK_OFFSET(0xD842C70)
+#define RPG_CLIENT_MONOMASKSLIDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD842E00)
+#define RPG_CLIENT_MONOMASKSLIDER_SETREFSLIDER_OFFSET UNITYSDK_OFFSET(0xD8425B0)
+#define RPG_CLIENT_MONOMASKSLIDER_STARTFLASHLOOP_OFFSET UNITYSDK_OFFSET(0xD8427A0)
+#define RPG_CLIENT_MONOMASKSLIDER_STARTFLASHSPREAD_OFFSET UNITYSDK_OFFSET(0xD842610)
+#define RPG_CLIENT_MONOMASKSLIDER_STOPFLASHLOOPANIM_OFFSET UNITYSDK_OFFSET(0xD842B30)
+#define RPG_CLIENT_MONOMASKSLIDER_STOPFLASHSPREADANIM_OFFSET UNITYSDK_OFFSET(0xD842960)
+#define RPG_CLIENT_MONOMASKSLIDER_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0xD8421A0)
+#define RPG_CLIENT_MONOMASKSLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD842C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaskSlider_TypeDefinitionIndex = 72510;
+	inline static constexpr unsigned int MonoMaskSlider_TypeDefinitionIndex = 72584;
 
 	class MonoMaskSlider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* LCKEMILPCPM; // 0x0
 		::UnityEngine::RectTransform* maskRect; // 0x18
 		::UnityEngine::RectTransform* fillRect; // 0x20
 		::RPG::Client::MonoMaskSlider_AnimStyle animStlye; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Animation* LoopAnim; // 0x30
 		::RPG::Client::MonoMaskSlider_FlashLoopAnimName LoopAnimName; // 0x38
 		::System::Boolean LoopAnimEnable; // 0x3C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Animation* SpreadAnim; // 0x40
 		::System::Boolean SpreadAnimEnable; // 0x48
+		::System::Byte _padding2[0x7];
 		::System::Action_1<::RPG::Client::MonoMaskSlider*>* OnCustomAnimUpdate; // 0x50
 		::RPG::Client::MonoMaskSlider* EKHMMEIDHIO; // 0x58
 		::UnityEngine::Transform* _fullEffect; // 0x60
@@ -52,14 +55,16 @@ namespace RPG::Client
 		::System::Single minValue; // 0x70
 		::System::Single value; // 0x74
 		::System::Single maxValue; // 0x78
+		::System::Byte _padding3[0x4];
 		::System::Action_2<::System::Single, ::System::Single>* onValueChanged; // 0x80
 		::System::Boolean FKEBDCOLKIM; // 0x88
 		::System::Boolean HDBGDLLNFHJ; // 0x89
-		::System::Collections::Generic::SortedList_2<::RPG::Client::MonoMaskSlider_FlashLoopAnimName, ::System::String*>* JMNNFJOLPJB; // 0x90
-
+		::System::Byte _padding4[0x6];
+		::System::Collections::Generic::SortedList_2<::System::Object*, ::System::String*>* JMNNFJOLPJB; // 0x90
+		// static const ::System::String* LCKEMILPCPM; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_LoopAnimNameStr()
@@ -112,19 +117,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C457B99D85451047(::UnityEngine::Animation* a1, ::System::String* a2)
+		::System::Void IMLPBFKEGPP(::UnityEngine::Animation* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_METHOD_5_C457B99D85451047_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_IMLPBFKEGPP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_7C2C2820B36B9508()
+		::System::Void NNDLMDPLBAH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_METHOD_5_7C2C2820B36B9508_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_NNDLMDPLBAH_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMASKSLIDER_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

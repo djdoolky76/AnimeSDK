@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/ParticleSystem_PlaybackState_Seed4.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_PlaybackState_Shape_TypeDefinitionIndex = 5216;
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Shape_TypeDefinitionIndex = 5223;
 
 	struct alignas(4) ParticleSystem_PlaybackState_Shape
 	{

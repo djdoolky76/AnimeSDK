@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG { template <typename T> class PoolList_1; }
+namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
+
+#define KICPKKFAIBC___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4147F0)
+#define KICPKKFAIBC___C__DISPLAYCLASS12_0___TRYAPPLYEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xB414AB0)
+
+inline static constexpr unsigned int KICPKKFAIBC___c__DisplayClass12_0_TypeDefinitionIndex = 77911;
+
+	class KICPKKFAIBC___c__DisplayClass12_0 : public ::System::Object
+	{
+	public:
+		::RPG::PoolList_1<::RPG::GameCore::ChenLingBattleAnimEventConfig*>* executedEvents; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KICPKKFAIBC___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean __TryApplyEvent_b__0(::RPG::GameCore::ChenLingBattleAnimEventConfig* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChenLingBattleAnimEventConfig*))((::PBYTE)hIl2Cpp + KICPKKFAIBC___C__DISPLAYCLASS12_0___TRYAPPLYEVENT_B__0_OFFSET))(this, a1);
+		}
+
+	};

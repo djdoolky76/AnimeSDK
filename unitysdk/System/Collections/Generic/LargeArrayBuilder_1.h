@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Generic/ArrayBuilder_1.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int LargeArrayBuilder_1_TypeDefinitionIndex = 3691;
+	inline static constexpr unsigned int LargeArrayBuilder_1_TypeDefinitionIndex = 3692;
 
 	template <typename T>
-	struct LargeArrayBuilder_1
+	struct alignas(8) LargeArrayBuilder_1
 	{
 		::System::Int32 _maxCapacity; // 0x0
 		::Il2CppArray<T>* _first; // 0x0

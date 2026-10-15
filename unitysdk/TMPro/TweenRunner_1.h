@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class MonoBehaviour; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TweenRunner_1_TypeDefinitionIndex = 43364;
+	inline static constexpr unsigned int TweenRunner_1_TypeDefinitionIndex = 44556;
 
 	template <typename T>
 	class TweenRunner_1 : public ::System::Object

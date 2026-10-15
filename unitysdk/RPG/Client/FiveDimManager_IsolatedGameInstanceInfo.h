@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimManager_IsolatedGameInstanceInfo_TypeDefinitionIndex = 60642;
+	inline static constexpr unsigned int FiveDimManager_IsolatedGameInstanceInfo_TypeDefinitionIndex = 60543;
 
 	struct alignas(4) FiveDimManager_IsolatedGameInstanceInfo
 	{

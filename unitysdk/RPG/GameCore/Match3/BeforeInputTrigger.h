@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Match3/Match3TriggerBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore::Match3 { class BeforeInputTrigger; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_METHOD_4_10B32EF2C26D4180_OFFSET UNITYSDK_OFFSET(0x1D25D570)
-#define RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_METHOD_4_7F0B9261D0824945_OFFSET UNITYSDK_OFFSET(0x1D25D4D0)
-#define RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D25D560)
+#define RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81CCC0)
+#define RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D81CCD0)
+#define RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81CC30)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BeforeInputTrigger_TypeDefinitionIndex = 24591;
+	inline static constexpr unsigned int BeforeInputTrigger_TypeDefinitionIndex = 24873;
 
 	class BeforeInputTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7F0B9261D0824945(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::BeforeInputTrigger*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::BeforeInputTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::BeforeInputTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_METHOD_4_7F0B9261D0824945_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::BeforeInputTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_10B32EF2C26D4180(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::BeforeInputTrigger* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::BeforeInputTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::BeforeInputTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_METHOD_4_10B32EF2C26D4180_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::BeforeInputTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BEFOREINPUTTRIGGER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

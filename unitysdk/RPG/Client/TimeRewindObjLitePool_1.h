@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindObjLitePool_1_TypeDefinitionIndex = 60949;
+	inline static constexpr unsigned int TimeRewindObjLitePool_1_TypeDefinitionIndex = 60852;
 
 	template <typename T>
 	class TimeRewindObjLitePool_1 : public ::System::Object

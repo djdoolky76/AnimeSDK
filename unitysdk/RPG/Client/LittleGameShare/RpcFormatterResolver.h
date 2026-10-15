@@ -1,39 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MessagePack { class IFormatterResolver; }
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0xC2C6C90)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2C6D10)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0xC2C6C80)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7CA270)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CA1E0)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1C7CA1F0)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 36374;
+	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 37061;
 
 	class RpcFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::IFormatterResolver** StaticGet_FMJPMFEDIJL()
 		{
-			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(RpcFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x25BD0);
+			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("RPG.Client.LittleGameShare", "RpcFormatterResolver")->GetStaticField(0x1E5B0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void RegisterToGlobalResolver()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET))();
 		}
+
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Xml::Serialization { class UnreferencedObjectEventArgs; }
 
-#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B095300)
-#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B095340)
-#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B0952F0)
-#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B095200)
+#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EED5F80)
+#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED5E80)
+#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EED5FC0)
+#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EED5F70)
 
 namespace System::Xml::Serialization
 {
@@ -21,7 +20,7 @@ namespace System::Xml::Serialization
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Xml::Serialization::UnreferencedObjectEventArgs* a2)
@@ -38,5 +37,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

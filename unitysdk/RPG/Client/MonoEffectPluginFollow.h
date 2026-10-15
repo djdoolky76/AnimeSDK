@@ -7,30 +7,29 @@
 #include "unitysdk/RPG/Client/ScaleFollowOption.h"
 #include "unitysdk/RPG/Client/SmoothFollowType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_E4151F8C70CE8C1E;
+class MDBAJJMCGPM;
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B38A4C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B38A660)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B38A3B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x1B38A730)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1B38AB20)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0x1B38A2B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_1_OFFSET UNITYSDK_OFFSET(0x1B38AAC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_OFFSET UNITYSDK_OFFSET(0x1B38AA00)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x1B38A860)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_2_OFFSET UNITYSDK_OFFSET(0x1B38A8C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_3_OFFSET UNITYSDK_OFFSET(0x1B38A920)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_4_OFFSET UNITYSDK_OFFSET(0x1B38AA60)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1B38A810)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1B38A980)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B38A2F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38AB30)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7F59F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F6060)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7F5B90)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7F58E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xD7F5C60)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD7F6050)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__DAMPROTATIONACTIVE_OFFSET UNITYSDK_OFFSET(0xD7F5E50)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATIONRATIO_OFFSET UNITYSDK_OFFSET(0xD7F5F90)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATIONSPEED_OFFSET UNITYSDK_OFFSET(0xD7F5FF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATIONTIME_OFFSET UNITYSDK_OFFSET(0xD7F5F30)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATION_OFFSET UNITYSDK_OFFSET(0xD7F5EB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPEXPOPTION_OFFSET UNITYSDK_OFFSET(0xD7F5DF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPOPTION_OFFSET UNITYSDK_OFFSET(0xD7F5D90)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWFOLLOWBEFORECAMERASHAKE_OFFSET UNITYSDK_OFFSET(0xD7F5D40)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xD7F57E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7F5820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFollow_TypeDefinitionIndex = 70031;
+	inline static constexpr unsigned int MonoEffectPluginFollow_TypeDefinitionIndex = 70066;
 
 	class MonoEffectPluginFollow : public ::RPG::Client::MonoEffectPluginBase
 	{
@@ -41,11 +40,13 @@ namespace RPG::Client
 		::RPG::Client::ModelFlipOption ModelFlipOption; // 0x34
 		::System::Boolean FollowBeforeCameraShake; // 0x38
 		::System::Boolean UseRandomOffsetFollow; // 0x39
+		::System::Byte _padding0[0x2];
 		::System::Single RandomFollowOffsetRadius; // 0x3C
 		::RPG::Client::SmoothFollowType RandomFollowType; // 0x40
 		::System::Single RandomFollowRatio; // 0x44
 		::System::Single RandomFollowSpeed; // 0x48
 		::System::Boolean UseSmoothFollow; // 0x4C
+		::System::Byte _padding1[0x3];
 		::RPG::Client::SmoothFollowType SmoothFollowType; // 0x50
 		::System::Single SmoothFollowRatio; // 0x54
 		::System::Single SmoothFollowSpeed; // 0x58
@@ -57,6 +58,7 @@ namespace RPG::Client
 		::System::Single SmoothDampExpDistanceThreshold; // 0x70
 		::System::Single SmoothFollowMaxRange; // 0x74
 		::System::Boolean DampRotationFollow; // 0x78
+		::System::Byte _padding2[0x3];
 		::RPG::Client::SmoothFollowType RotationSmoothFollowType; // 0x7C
 		::UnityEngine::Vector3 AngleDampTime; // 0x80
 		::System::Single RotationSmoothFollowRatio; // 0x8C
@@ -66,6 +68,7 @@ namespace RPG::Client
 		::System::Boolean OnlyFirstFrame; // 0x9C
 		::System::Boolean ManuallFollowOnFormationChange; // 0x9D
 		::System::Boolean StopFollow; // 0x9E
+		::System::Byte _padding3[0x1];
 		::Il2CppArray<::UnityEngine::Transform*>* FollowPoints; // 0xA0
 		::System::Boolean IsRotationUseFollowPoints; // 0xA8
 		::System::Boolean RotateAroundX; // 0xA9
@@ -74,14 +77,15 @@ namespace RPG::Client
 		::UnityEngine::Vector3 BaseFollowScale; // 0xAC
 		::UnityEngine::Vector3 MaxFollowScale; // 0xB8
 		::System::Boolean LockPositionToGround; // 0xC4
+		::System::Byte _padding4[0x3];
 		::System::Single CameraDistK; // 0xC8
 		::System::Single CameraDistA; // 0xCC
 		::System::Single CameraDistB; // 0xD0
-		::Class_2_E4151F8C70CE8C1E* _Behavior; // 0xD8
-
+		::System::Byte _padding5[0x4];
+		::MDBAJJMCGPM* _Behavior; // 0xD8
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IgnoreInEditor()
@@ -114,49 +118,50 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_ENDOFLATETICK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_6_1D4018D4200358D0()
+		::System::Boolean get__ShowFollowBeforeCameraShake()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWFOLLOWBEFORECAMERASHAKE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_1D4018D4200358D0_1()
+		::System::Boolean get__ShowDampOption()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPOPTION_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_1D4018D4200358D0_2()
+		::System::Boolean get__ShowDampExpOption()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_2_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPEXPOPTION_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_1D4018D4200358D0_3()
+		::System::Boolean get__DampRotationActive()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_3_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__DAMPROTATIONACTIVE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_A3FAE12D7B6ACD62()
+		::System::Boolean get__ShowDampDampRotation()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_A3FAE12D7B6ACD62_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATION_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_0DF420E95D6252BE()
+		::System::Boolean get__ShowDampDampRotationTime()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATIONTIME_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_1D4018D4200358D0_4()
+		::System::Boolean get__ShowDampDampRotationRatio()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_4_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATIONRATIO_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_0DF420E95D6252BE_1()
+		::System::Boolean get__ShowDampDampRotationSpeed()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET__SHOWDAMPDAMPROTATIONSPEED_OFFSET))(this);
 		}
 
-		::Class_2_E4151F8C70CE8C1E* get_Behavior()
+		::MDBAJJMCGPM* get_Behavior()
 		{
-			return ((::Class_2_E4151F8C70CE8C1E*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET))(this);
+			return ((::MDBAJJMCGPM*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET))(this);
 		}
+
 	};
 }

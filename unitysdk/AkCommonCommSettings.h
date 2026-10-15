@@ -2,49 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCommunicationSettings_AkCommSystem.h"
 #include "unitysdk/System/Object.h"
-
 class AkCommunicationSettings;
 namespace System { class String; }
 
-#define AKCOMMONCOMMSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1D58F8E0)
-#define AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1D5903D0)
-#define AKCOMMONCOMMSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D590450)
-#define AKCOMMONCOMMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D590410)
+#define AKCOMMONCOMMSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F558610)
+#define AKCOMMONCOMMSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F557AA0)
+#define AKCOMMONCOMMSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5585D0)
+#define AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1F558590)
 
-inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 43650;
+inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 44842;
 
-class AkCommonCommSettings : public ::System::Object
-{
-public:
-	static ::System::UInt16* StaticGet_DefaultDiscoveryBroadcastPort()
+	class AkCommonCommSettings : public ::System::Object
 	{
-		return (::System::UInt16*)Il2CppClass::FromTypeDefinitionIndex(AkCommonCommSettings_TypeDefinitionIndex)->GetStaticField(0x7320);
-	}
-	::System::UInt32 m_PoolSize; // 0x10
-	::System::UInt16 m_DiscoveryBroadcastPort; // 0x14
-	::System::UInt16 m_CommandPort; // 0x16
-	::System::UInt16 m_NotificationPort; // 0x18
-	::System::Boolean m_InitializeSystemComms; // 0x1A
-	::System::String* m_NetworkName; // 0x20
-	::AkCommunicationSettings_AkCommSystem m_commSystem; // 0x28
+	public:
+		::System::UInt32 m_PoolSize; // 0x10
+		::System::UInt16 m_DiscoveryBroadcastPort; // 0x14
+		::System::UInt16 m_CommandPort; // 0x16
+		::System::UInt16 m_NotificationPort; // 0x18
+		::System::Boolean m_InitializeSystemComms; // 0x1A
+		::System::Byte _padding0[0x5];
+		::System::String* m_NetworkName; // 0x20
+		::AkCommunicationSettings_AkCommSystem m_commSystem; // 0x28
+		static ::System::UInt16* StaticGet_DefaultDiscoveryBroadcastPort()
+		{
+			return (::System::UInt16*)UnitySDK::FromName("", "AkCommonCommSettings")->GetStaticField(0x2580);
+		}
 
-	::System::Void _ctor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS__CTOR_OFFSET))(this);
-	}
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS_CTOR_OFFSET))(this);
+		}
 
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS__CCTOR_OFFSET))();
-	}
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS_CCTOR_OFFSET))();
+		}
 
-	::System::Void CopyTo(::AkCommunicationSettings* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkCommunicationSettings*))((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS_COPYTO_OFFSET))(this, a1);
-	}
+		::System::Void CopyTo(::AkCommunicationSettings* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AkCommunicationSettings*))((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS_COPYTO_OFFSET))(this, a1);
+		}
 
-	::System::Void Validate()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET))(this);
-	}
-};
+		::System::Void Validate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET))(this);
+		}
+
+	};

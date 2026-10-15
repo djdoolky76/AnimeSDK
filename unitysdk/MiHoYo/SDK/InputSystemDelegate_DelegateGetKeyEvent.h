@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/KeyCode.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AEAE6C0)
-#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AEAE730)
-#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AEAE3F0)
-#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEAE650)
+#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE558C0)
+#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE55850)
+#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE55930)
+#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE555F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int InputSystemDelegate_DelegateGetKeyEvent_TypeDefinitionIndex = 7504;
+	inline static constexpr unsigned int InputSystemDelegate_DelegateGetKeyEvent_TypeDefinitionIndex = 7558;
 
 	class InputSystemDelegate_DelegateGetKeyEvent : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::UnityEngine::KeyCode a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEMDELEGATE_DELEGATEGETKEYEVENT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

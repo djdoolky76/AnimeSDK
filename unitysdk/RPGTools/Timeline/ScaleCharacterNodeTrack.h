@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0BC490)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B0BC320)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B0BC420)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BC5D0)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE928CB0)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE928B40)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE928DF0)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE928C40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ScaleCharacterNodeTrack_TypeDefinitionIndex = 48729;
+	inline static constexpr unsigned int ScaleCharacterNodeTrack_TypeDefinitionIndex = 48269;
 
 	class ScaleCharacterNodeTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SCALECHARACTERNODETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

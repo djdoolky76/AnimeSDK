@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PullRefreshControl_DragLoadState.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace SuperScrollView { class LoopListView2; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PULLREFRESHCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0x17B4DCD0)
-#define RPG_CLIENT_PULLREFRESHCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4E0E0)
-#define RPG_CLIENT_PULLREFRESHCONTROL__ISREACHBOTTOM_OFFSET UNITYSDK_OFFSET(0x17B4DF20)
-#define RPG_CLIENT_PULLREFRESHCONTROL__ONDRAG_OFFSET UNITYSDK_OFFSET(0x17B4E000)
-#define RPG_CLIENT_PULLREFRESHCONTROL__ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x17B4E070)
-#define RPG_CLIENT_PULLREFRESHCONTROL__SETDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x17B4DD40)
-#define RPG_CLIENT_PULLREFRESHCONTROL__SETENDDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x17B4DE30)
+#define RPG_CLIENT_PULLREFRESHCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDDF2450)
+#define RPG_CLIENT_PULLREFRESHCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0xDDF2040)
+#define RPG_CLIENT_PULLREFRESHCONTROL__ISREACHBOTTOM_OFFSET UNITYSDK_OFFSET(0xDDF2290)
+#define RPG_CLIENT_PULLREFRESHCONTROL__ONDRAG_OFFSET UNITYSDK_OFFSET(0xDDF2370)
+#define RPG_CLIENT_PULLREFRESHCONTROL__ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xDDF23E0)
+#define RPG_CLIENT_PULLREFRESHCONTROL__SETDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0xDDF20B0)
+#define RPG_CLIENT_PULLREFRESHCONTROL__SETENDDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0xDDF21A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PullRefreshControl_TypeDefinitionIndex = 72558;
+	inline static constexpr unsigned int PullRefreshControl_TypeDefinitionIndex = 72633;
 
 	class PullRefreshControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::PullRefreshControl_DragLoadState mDragLoadState; // 0x18
+		::System::Byte _padding0[0x4];
 		::SuperScrollView::LoopListView2* mLoopListView; // 0x20
 		::System::Int32 DragLoadHeight; // 0x28
+		::System::Byte _padding1[0x4];
 		::System::Action* mOnRefreshCallback; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PULLREFRESHCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PULLREFRESHCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::SuperScrollView::LoopListView2* a1, ::System::Action* a2)
@@ -60,5 +60,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PULLREFRESHCONTROL__ONENDDRAG_OFFSET))(this);
 		}
+
 	};
 }

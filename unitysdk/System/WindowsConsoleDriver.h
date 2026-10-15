@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Handles.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/System/ConsoleKeyInfo.h"
 #include "unitysdk/System/ConsoleScreenBufferInfo.h"
-#include "unitysdk/System/Handles.h"
 #include "unitysdk/System/InputRecord.h"
-#include "unitysdk/System/Object.h"
 
-#define SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET UNITYSDK_OFFSET(0x1EEB65C0)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET UNITYSDK_OFFSET(0x1EEB6500)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_ISMODIFIERKEY_OFFSET UNITYSDK_OFFSET(0x1EEB6A60)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET UNITYSDK_OFFSET(0x1EEB6920)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1EEB6690)
-#define SYSTEM_WINDOWSCONSOLEDRIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB62B0)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1626D0)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET UNITYSDK_OFFSET(0x1C1629E0)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET UNITYSDK_OFFSET(0x1C162920)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_ISMODIFIERKEY_OFFSET UNITYSDK_OFFSET(0x1C162E80)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET UNITYSDK_OFFSET(0x1C162D40)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1C162AB0)
 
 namespace System
 {
@@ -20,13 +20,13 @@ namespace System
 	class WindowsConsoleDriver : public ::System::Object
 	{
 	public:
-		::System::IntPtr outputHandle; // 0x10
+		::System::Int16 defaultAttribute; // 0x10
+		::System::Byte _padding0[0x6];
 		::System::IntPtr inputHandle; // 0x18
-		::System::Int16 defaultAttribute; // 0x20
-
+		::System::IntPtr outputHandle; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_CTOR_OFFSET))(this);
 		}
 
 		::System::ConsoleKeyInfo ReadKey(::System::Boolean a1)
@@ -44,14 +44,15 @@ namespace System
 			return ((::System::IntPtr(*)(::System::Handles))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetConsoleScreenBufferInfo(::System::IntPtr a1, ::System::ConsoleScreenBufferInfo& a2)
+		static ::System::Boolean GetConsoleScreenBufferInfo(::System::IntPtr a1, ::System::ConsoleScreenBufferInfo a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::ConsoleScreenBufferInfo&))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::ConsoleScreenBufferInfo))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ReadConsoleInput(::System::IntPtr a1, ::System::InputRecord& a2, ::System::Int32 a3, ::System::Int32& a4)
+		static ::System::Boolean ReadConsoleInput(::System::IntPtr a1, ::System::InputRecord a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::InputRecord&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::InputRecord, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

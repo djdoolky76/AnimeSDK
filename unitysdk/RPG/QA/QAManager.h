@@ -3,113 +3,125 @@
 #include "unitysdk/RPG/QA/QAManager_Message.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LogType.h"
-
 namespace RPG::Client { class UIController; }
 namespace RPG::QA { class QAManager_LogInfoSender; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_QA_QAMANAGER_ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x1A376E90)
-#define RPG_QA_QAMANAGER_DESTROYRPGSHELL_OFFSET UNITYSDK_OFFSET(0x1A377D10)
-#define RPG_QA_QAMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A376450)
-#define RPG_QA_QAMANAGER_EXECUTERELEASEGM_OFFSET UNITYSDK_OFFSET(0x1A376F60)
-#define RPG_QA_QAMANAGER_INITRPGSHELL_OFFSET UNITYSDK_OFFSET(0x1A377D00)
-#define RPG_QA_QAMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1A3762A0)
-#define RPG_QA_QAMANAGER_ISRPGSHELLSTARTED_OFFSET UNITYSDK_OFFSET(0x1A377D40)
-#define RPG_QA_QAMANAGER_LOG_OFFSET UNITYSDK_OFFSET(0x1A377D30)
-#define RPG_QA_QAMANAGER_SENDCRASH_OFFSET UNITYSDK_OFFSET(0x1A377330)
-#define RPG_QA_QAMANAGER_SENDLASTERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A376E30)
-#define RPG_QA_QAMANAGER_SENDMESSAGE__1_OFFSET UNITYSDK_OFFSET(0x1A377430)
-#define RPG_QA_QAMANAGER_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x1A3773D0)
-#define RPG_QA_QAMANAGER_SETSENDLOGSWITCH_OFFSET UNITYSDK_OFFSET(0x1A3772C0)
-#define RPG_QA_QAMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x1A377D20)
-#define RPG_QA_QAMANAGER__ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A3776F0)
-#define RPG_QA_QAMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A375DD0)
-#define RPG_QA_QAMANAGER__CLOSEDIALOGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A376D30)
-#define RPG_QA_QAMANAGER__GETRPGQAPLATFORM_OFFSET UNITYSDK_OFFSET(0x1A377C80)
-#define RPG_QA_QAMANAGER__ISSENDLASTERRORMESSAGESUCCESS_OFFSET UNITYSDK_OFFSET(0x1A376E40)
-#define RPG_QA_QAMANAGER__NEEDSENDLOG_OFFSET UNITYSDK_OFFSET(0x1A376B80)
-#define RPG_QA_QAMANAGER__ONCMDGMTALKSCNOTIFY_OFFSET UNITYSDK_OFFSET(0x1A376F10)
-#define RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVEDCO_OFFSET UNITYSDK_OFFSET(0x1A376690)
-#define RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVEDTHREADED_OFFSET UNITYSDK_OFFSET(0x1A376630)
-#define RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVED_OFFSET UNITYSDK_OFFSET(0x1A3769A0)
-#define RPG_QA_QAMANAGER__ONSENDMESSAGEERROR_OFFSET UNITYSDK_OFFSET(0x1A377930)
-#define RPG_QA_QAMANAGER__REBUILDEXCEPTIONSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1A376890)
-#define RPG_QA_QAMANAGER__REBUILDLUAEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A3766E0)
-#define RPG_QA_QAMANAGER__SENDMESSAGETOAPMCO_OFFSET UNITYSDK_OFFSET(0x1A377C90)
-#define RPG_QA_QAMANAGER__SENDMESSAGETOAPM_OFFSET UNITYSDK_OFFSET(0x1A377870)
-#define RPG_QA_QAMANAGER__SHOWERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x1A376CD0)
+#define RPG_QA_QAMANAGER_ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xE874490)
+#define RPG_QA_QAMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8733F0)
+#define RPG_QA_QAMANAGER_DESTROYRPGSHELL_OFFSET UNITYSDK_OFFSET(0xE8752B0)
+#define RPG_QA_QAMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0xE873A70)
+#define RPG_QA_QAMANAGER_EXECUTERELEASEGM_OFFSET UNITYSDK_OFFSET(0xE874560)
+#define RPG_QA_QAMANAGER_INITRPGSHELL_OFFSET UNITYSDK_OFFSET(0xE8752A0)
+#define RPG_QA_QAMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xE8738C0)
+#define RPG_QA_QAMANAGER_ISRPGSHELLSTARTED_OFFSET UNITYSDK_OFFSET(0xE8752E0)
+#define RPG_QA_QAMANAGER_LOG_OFFSET UNITYSDK_OFFSET(0xE8752D0)
+#define RPG_QA_QAMANAGER_SENDCRASH_OFFSET UNITYSDK_OFFSET(0xE8748D0)
+#define RPG_QA_QAMANAGER_SENDLASTERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0xE874430)
+#define RPG_QA_QAMANAGER_SENDMESSAGE_1_OFFSET UNITYSDK_OFFSET(0xE8749D0)
+#define RPG_QA_QAMANAGER_SENDMESSAGE_OFFSET UNITYSDK_OFFSET(0xE874970)
+#define RPG_QA_QAMANAGER_SETSENDLOGSWITCH_OFFSET UNITYSDK_OFFSET(0xE874860)
+#define RPG_QA_QAMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0xE8752C0)
+#define RPG_QA_QAMANAGER__ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0xE874C90)
+#define RPG_QA_QAMANAGER__CLOSEDIALOGCALLBACK_OFFSET UNITYSDK_OFFSET(0xE874350)
+#define RPG_QA_QAMANAGER__GETRPGQAPLATFORM_OFFSET UNITYSDK_OFFSET(0xE875220)
+#define RPG_QA_QAMANAGER__ISSENDLASTERRORMESSAGESUCCESS_OFFSET UNITYSDK_OFFSET(0xE874440)
+#define RPG_QA_QAMANAGER__NEEDSENDLOG_OFFSET UNITYSDK_OFFSET(0xE8741A0)
+#define RPG_QA_QAMANAGER__ONCMDGMTALKSCNOTIFY_OFFSET UNITYSDK_OFFSET(0xE874510)
+#define RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVEDCO_OFFSET UNITYSDK_OFFSET(0xE873CB0)
+#define RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVEDTHREADED_OFFSET UNITYSDK_OFFSET(0xE873C50)
+#define RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVED_OFFSET UNITYSDK_OFFSET(0xE873FC0)
+#define RPG_QA_QAMANAGER__ONSENDMESSAGEERROR_OFFSET UNITYSDK_OFFSET(0xE874ED0)
+#define RPG_QA_QAMANAGER__REBUILDEXCEPTIONSTACKTRACE_OFFSET UNITYSDK_OFFSET(0xE873EB0)
+#define RPG_QA_QAMANAGER__REBUILDLUAEXCEPTION_OFFSET UNITYSDK_OFFSET(0xE873D00)
+#define RPG_QA_QAMANAGER__SENDMESSAGETOAPMCO_OFFSET UNITYSDK_OFFSET(0xE875230)
+#define RPG_QA_QAMANAGER__SENDMESSAGETOAPM_OFFSET UNITYSDK_OFFSET(0xE874E10)
+#define RPG_QA_QAMANAGER__SHOWERRORDIALOG_OFFSET UNITYSDK_OFFSET(0xE8742F0)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager_TypeDefinitionIndex = 52108;
+	inline static constexpr unsigned int QAManager_TypeDefinitionIndex = 51814;
 
 	class QAManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::QA::QAManager_Message>** StaticGet__PendingMessages()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::QA::QAManager_Message>**)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2AB40);
-		}
-		static ::RPG::QA::QAManager_Message* StaticGet__EmptyMessage()
-		{
-			return (::RPG::QA::QAManager_Message*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2AB48);
-		}
-		static ::RPG::QA::QAManager_Message* StaticGet__LastErrorMessage()
-		{
-			return (::RPG::QA::QAManager_Message*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2AB68);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet__SentMessages()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2AB88);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet__LogTypeString()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2AB90);
-		}
-		static ::RPG::Client::UIController** StaticGet__ErrorDialogController()
-		{
-			return (::RPG::Client::UIController**)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2AB98);
-		}
-		static ::RPG::QA::QAManager_LogInfoSender** StaticGet__LogInfoSender()
-		{
-			return (::RPG::QA::QAManager_LogInfoSender**)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2ABA0);
-		}
 		static ::Il2CppArray<::System::Boolean>** StaticGet__SendLogSwitch()
 		{
-			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0x2ABA8);
+			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F2F0);
 		}
-		static ::System::Int32* StaticGet__MessgeReportIndex()
+
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__PendingMessages()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0xC700);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F2F8);
 		}
-		static ::System::Boolean* StaticGet_ErrorSaveReplay()
+
+		static ::RPG::QA::QAManager_Message* StaticGet__LastErrorMessage()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0xC704);
+			return (::RPG::QA::QAManager_Message*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F300);
 		}
-		static ::System::Boolean* StaticGet_ErrorPause()
+
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet__SentMessages()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0xC705);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F320);
 		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet__LogTypeString()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F328);
+		}
+
+		static ::RPG::Client::UIController** StaticGet__ErrorDialogController()
+		{
+			return (::RPG::Client::UIController**)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F330);
+		}
+
+		static ::RPG::QA::QAManager_LogInfoSender** StaticGet__LogInfoSender()
+		{
+			return (::RPG::QA::QAManager_LogInfoSender**)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F338);
+		}
+
+		static ::RPG::QA::QAManager_Message* StaticGet__EmptyMessage()
+		{
+			return (::RPG::QA::QAManager_Message*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x6F340);
+		}
+
 		static ::System::Int64* StaticGet__LastSendTimeTicks()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0xC708);
+			return (::System::Int64*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x15920);
 		}
+
 		static ::System::Int64* StaticGet__ReportImportDruation()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(QAManager_TypeDefinitionIndex)->GetStaticField(0xC710);
+			return (::System::Int64*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x15928);
 		}
+
+		static ::System::Int32* StaticGet__MessgeReportIndex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x15930);
+		}
+
+		static ::System::Boolean* StaticGet_ErrorPause()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x15934);
+		}
+
+		static ::System::Boolean* StaticGet_ErrorSaveReplay()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.QA", "QAManager")->GetStaticField(0x15935);
+		}
+
 		// static const ::System::String* LuaExceptionSign; // 0x0
 		// static const ::System::String* LuaStackSign; // 0x0
 		// static const ::System::String* LuaTracebackSign; // 0x0
-
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void Init()
@@ -132,14 +144,14 @@ namespace RPG::QA
 			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::String*, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__ONLOGMESSAGERECEIVEDCO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _RebuildLuaException(::System::String*& a1, ::System::String*& a2)
+		static ::System::Void _RebuildLuaException(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__REBUILDLUAEXCEPTION_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__REBUILDLUAEXCEPTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _RebuildExceptionStackTrace(::System::String*& a1, ::System::String*& a2)
+		static ::System::Void _RebuildExceptionStackTrace(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__REBUILDEXCEPTIONSTACKTRACE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__REBUILDEXCEPTIONSTACKTRACE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void _OnLogMessageReceived(::System::String* a1, ::System::String* a2, ::UnityEngine::LogType a3)
@@ -182,14 +194,14 @@ namespace RPG::QA
 			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDCRASH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SendMessage_(::System::String* a1, ::System::String* a2, ::System::String* a3)
+		static ::System::Void SendMessage(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE__OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SendMessage__1(::RPG::QA::QAManager_Message a1, ::System::Action_1<::System::Boolean>* a2)
+		static ::System::Void SendMessage_1(::RPG::QA::QAManager_Message a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::RPG::QA::QAManager_Message, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE__1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::QA::QAManager_Message, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void SendLastErrorMessage(::System::Action_1<::System::Boolean>* a1)
@@ -256,5 +268,6 @@ namespace RPG::QA
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_ISRPGSHELLSTARTED_OFFSET))();
 		}
+
 	};
 }

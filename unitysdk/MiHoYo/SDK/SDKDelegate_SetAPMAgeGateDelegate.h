@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABDB0)
-#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABE00)
-#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABDA0)
-#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9ABD30)
+#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7EB0)
+#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA7E30)
+#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7F00)
+#define MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7EA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_SetAPMAgeGateDelegate_TypeDefinitionIndex = 7763;
+	inline static constexpr unsigned int SDKDelegate_SetAPMAgeGateDelegate_TypeDefinitionIndex = 7807;
 
 	class SDKDelegate_SetAPMAgeGateDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_SETAPMAGEGATEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

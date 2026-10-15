@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowUltraSkillAlternative; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_METHOD_3_1E8DBE193337542F_OFFSET UNITYSDK_OFFSET(0x1D09DCF0)
-#define RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_METHOD_3_FDDF8122D025C114_OFFSET UNITYSDK_OFFSET(0x1D09DCB0)
-#define RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09DCE0)
+#define RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABA5C0)
+#define RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABA5D0)
+#define RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABA590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUltraSkillAlternative_TypeDefinitionIndex = 22669;
+	inline static constexpr unsigned int ShowUltraSkillAlternative_TypeDefinitionIndex = 22926;
 
 	class ShowUltraSkillAlternative : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsShow; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FDDF8122D025C114(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUltraSkillAlternative*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowUltraSkillAlternative* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUltraSkillAlternative*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_METHOD_3_FDDF8122D025C114_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowUltraSkillAlternative*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1E8DBE193337542F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUltraSkillAlternative* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowUltraSkillAlternative* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUltraSkillAlternative*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_METHOD_3_1E8DBE193337542F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowUltraSkillAlternative*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWULTRASKILLALTERNATIVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

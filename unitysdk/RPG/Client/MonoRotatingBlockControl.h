@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_2_057C3FE8F02A318D;
+class AGJOJEGMJNH;
 namespace RPG::Client { class GameObjectAudio; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AD0BCE0)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AD0BE10)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AD0BD50)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD0BDB0)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0BEA0)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD8589E0)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD858BA0)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD858B10)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD858A50)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD858AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRotatingBlockControl_TypeDefinitionIndex = 70707;
+	inline static constexpr unsigned int MonoRotatingBlockControl_TypeDefinitionIndex = 70743;
 
 	class MonoRotatingBlockControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean isEditorDebug; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GameObject* ReferencePos; // 0x20
 		::UnityEngine::GameObject* RootBase; // 0x28
 		::Il2CppArray<::UnityEngine::GameObject*>* rootNode; // 0x30
@@ -38,16 +38,17 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::GameObject*>* rootSFXObj; // 0x70
 		::Il2CppArray<::UnityEngine::Renderer*>* floorRenderer; // 0x78
 		::System::Int32 floorID; // 0x80
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::Renderer*>* wallRenderer; // 0x88
 		::System::Int32 wallID; // 0x90
 		::System::Single timePhase; // 0x94
 		::System::Single RoundTime; // 0x98
 		::System::Boolean isReversed; // 0x9C
-		::Class_2_057C3FE8F02A318D* _Behavior; // 0xA0
-
+		::System::Byte _padding2[0x3];
+		::AGJOJEGMJNH* _Behavior; // 0xA0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROTATINGBLOCKCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROTATINGBLOCKCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -69,5 +70,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

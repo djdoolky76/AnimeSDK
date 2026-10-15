@@ -2,47 +2,47 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class ItemConfig; }
+namespace RPG::GameCore { class SwordTrainingSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E159A60)
-#define RPG_GAMECORE_SWORDTRAININGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15A030)
+#define RPG_GAMECORE_SWORDTRAININGSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1FC80)
+#define RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1F6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingSkillRow_TypeDefinitionIndex = 12359;
+	inline static constexpr unsigned int SwordTrainingSkillRow_TypeDefinitionIndex = 12445;
 
 	class SwordTrainingSkillRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ItemConfig* Cost; // 0x10
+		::Il2CppArray<::System::UInt32>* NextSkillIDList; // 0x10
 		::Il2CppArray<::System::Single>* ParamList; // 0x18
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AvatarStatusAddList; // 0x20
-		::System::String* SkillIcon; // 0x28
-		::Il2CppArray<::System::UInt32>* NextSkillIDList; // 0x30
-		::RPG::Client::TextID SkillName; // 0x38
-		::System::UInt32 SkillID; // 0x48
-		::System::UInt32 SkillStatusLevel; // 0x4C
-		::System::UInt32 SkillPower; // 0x50
-		::System::UInt32 Rare; // 0x54
-		::System::UInt32 Condition; // 0x58
-		::System::UInt32 MazeBuffID; // 0x5C
-		::RPG::Client::TextID SkillTag; // 0x60
-		::System::UInt32 SkillTypeID; // 0x70
-		::System::UInt32 SkillRank; // 0x74
-		::RPG::Client::TextID SkillDesc; // 0x78
-
+		::RPG::GameCore::ItemConfig* Cost; // 0x28
+		::System::String* SkillIcon; // 0x30
+		::RPG::Client::TextID SkillDesc; // 0x38
+		::System::UInt32 SkillStatusLevel; // 0x48
+		::System::UInt32 MazeBuffID; // 0x4C
+		::System::UInt32 SkillTypeID; // 0x50
+		::System::UInt32 SkillID; // 0x54
+		::RPG::Client::TextID SkillTag; // 0x58
+		::System::UInt32 SkillRank; // 0x68
+		::System::UInt32 Rare; // 0x6C
+		::RPG::Client::TextID SkillName; // 0x70
+		::System::UInt32 Condition; // 0x80
+		::System::UInt32 SkillPower; // 0x84
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSKILLROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSKILLROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingSkillRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwordTrainingSkillRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwordTrainingSkillRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

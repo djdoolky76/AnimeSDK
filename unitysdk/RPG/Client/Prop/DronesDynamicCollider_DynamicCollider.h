@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesDynamicCollider_DynamicCollider_TypeDefinitionIndex = 78091;
+	inline static constexpr unsigned int DronesDynamicCollider_DynamicCollider_TypeDefinitionIndex = 78562;
 
 	struct alignas(8) DronesDynamicCollider_DynamicCollider
 	{

@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { template <typename T> class IEntityScaledTimeService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimDestructibleService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventService_1; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseDestructiblePropSystem_1_TypeDefinitionIndex = 76609;
+	inline static constexpr unsigned int BaseDestructiblePropSystem_1_TypeDefinitionIndex = 77080;
 
 	template <typename T>
 	class BaseDestructiblePropSystem_1 : public ::System::Object

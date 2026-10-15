@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3F810)
-#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__RENDERCHARACTERTOTEXTURE_B__1_OFFSET UNITYSDK_OFFSET(0x18B400C0)
+#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D2DA0)
+#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__RENDERCHARACTERTOTEXTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1F2D3650)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontAsset___c__DisplayClass180_0_TypeDefinitionIndex = 43379;
+	inline static constexpr unsigned int TMP_FontAsset___c__DisplayClass180_0_TypeDefinitionIndex = 44571;
 
 	class TMP_FontAsset___c__DisplayClass180_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 unicode; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _RenderCharacterToTexture_b__1(::System::UInt32 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__RENDERCHARACTERTOTEXTURE_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

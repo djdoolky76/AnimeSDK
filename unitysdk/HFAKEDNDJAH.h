@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DBNPGNPNJFE;
+
+#define HFAKEDNDJAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA991E0)
+
+inline static constexpr unsigned int HFAKEDNDJAH_TypeDefinitionIndex = 42027;
+
+	class HFAKEDNDJAH : public ::System::Object
+	{
+	public:
+		::DBNPGNPNJFE* JIIKAEMELPJ; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFAKEDNDJAH_CTOR_OFFSET))(this);
+		}
+
+	};

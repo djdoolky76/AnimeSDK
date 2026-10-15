@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class NPGCEFKJOIN;
+namespace System { class Object; }
+
+#define NPGCEFKJOIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB6ADD0)
+#define NPGCEFKJOIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6AE10)
+#define NPGCEFKJOIN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB6AE20)
+
+inline static constexpr unsigned int NPGCEFKJOIN___c_TypeDefinitionIndex = 28723;
+
+	class NPGCEFKJOIN___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD690);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPGCEFKJOIN___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPGCEFKJOIN___C_CTOR_OFFSET))(this);
+		}
+
+		::NPGCEFKJOIN* __cctor_b__28_0()
+		{
+			return ((::NPGCEFKJOIN*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPGCEFKJOIN___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+
+	};

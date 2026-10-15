@@ -5,135 +5,144 @@
 #include "unitysdk/RPG/Client/CachedType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
-
-namespace RPG::Client { class CachedAssetLoader_AssetDependencyData; }
 namespace RPG::Client { class CachedAssetLoader_CachedAssetData; }
 namespace RPG::Client { class CachedAssetLoader_CachedAssetGroup; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace RPG::Client { class RPGProfilerMarker; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSETIMPL_OFFSET UNITYSDK_OFFSET(0x1A1236E0)
-#define RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_1_OFFSET UNITYSDK_OFFSET(0x1A1219B0)
-#define RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_OFFSET UNITYSDK_OFFSET(0x1A121920)
-#define RPG_CLIENT_CACHEDASSETLOADER_CANCELASYNCLOADIMPL_OFFSET UNITYSDK_OFFSET(0x1A123C50)
-#define RPG_CLIENT_CACHEDASSETLOADER_CANCELASYNCLOAD_OFFSET UNITYSDK_OFFSET(0x1A11CB80)
-#define RPG_CLIENT_CACHEDASSETLOADER_CANCLEAYSCLOAD_OFFSET UNITYSDK_OFFSET(0x1A123C00)
-#define RPG_CLIENT_CACHEDASSETLOADER_CHECKASSETOBJECT_OFFSET UNITYSDK_OFFSET(0x1A1255B0)
-#define RPG_CLIENT_CACHEDASSETLOADER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1A1247F0)
-#define RPG_CLIENT_CACHEDASSETLOADER_CLEARCACHEDASSETGROUP_OFFSET UNITYSDK_OFFSET(0x1A1246A0)
-#define RPG_CLIENT_CACHEDASSETLOADER_CLEARCACHEDASSET_OFFSET UNITYSDK_OFFSET(0x1A1243D0)
-#define RPG_CLIENT_CACHEDASSETLOADER_GETASSETDATA_OFFSET UNITYSDK_OFFSET(0x1A125120)
-#define RPG_CLIENT_CACHEDASSETLOADER_GETASSETNAMEHASH_OFFSET UNITYSDK_OFFSET(0x1A125060)
-#define RPG_CLIENT_CACHEDASSETLOADER_GETCACHEDASSETGROUP_OFFSET UNITYSDK_OFFSET(0x1A124FF0)
-#define RPG_CLIENT_CACHEDASSETLOADER_GET_CAPACITYRATIO_OFFSET UNITYSDK_OFFSET(0x1A124310)
-#define RPG_CLIENT_CACHEDASSETLOADER_GET_MAXMEMORYSIZERATIO_OFFSET UNITYSDK_OFFSET(0x1A124370)
-#define RPG_CLIENT_CACHEDASSETLOADER_INFERLOGICTYPE_OFFSET UNITYSDK_OFFSET(0x1A124C10)
-#define RPG_CLIENT_CACHEDASSETLOADER_INITASSETGROUPCAPACITYANDMAXMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0x1A123ED0)
-#define RPG_CLIENT_CACHEDASSETLOADER_INTERNALINFERLOGICTYPE_OFFSET UNITYSDK_OFFSET(0x1A124D90)
-#define RPG_CLIENT_CACHEDASSETLOADER_INTERNALRELEASEASSET_OFFSET UNITYSDK_OFFSET(0x1A1251B0)
-#define RPG_CLIENT_CACHEDASSETLOADER_ONAFTERRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x1A125510)
-#define RPG_CLIENT_CACHEDASSETLOADER_RELEASEASSETIMPL_OFFSET UNITYSDK_OFFSET(0x1A122AB0)
-#define RPG_CLIENT_CACHEDASSETLOADER_RELEASEASSET_OFFSET UNITYSDK_OFFSET(0x1A11C8D0)
-#define RPG_CLIENT_CACHEDASSETLOADER_SET_CAPACITYRATIO_OFFSET UNITYSDK_OFFSET(0x1A123F30)
-#define RPG_CLIENT_CACHEDASSETLOADER_SET_MAXMEMORYSIZERATIO_OFFSET UNITYSDK_OFFSET(0x1A124120)
-#define RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSETIMPL_OFFSET UNITYSDK_OFFSET(0x1A122430)
-#define RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_1_OFFSET UNITYSDK_OFFSET(0x1A121120)
-#define RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_OFFSET UNITYSDK_OFFSET(0x1A1210B0)
-#define RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_1_OFFSET UNITYSDK_OFFSET(0x1A121CD0)
-#define RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_OFFSET UNITYSDK_OFFSET(0x1A121C10)
-#define RPG_CLIENT_CACHEDASSETLOADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1209B0)
+#define RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSETIMPL_OFFSET UNITYSDK_OFFSET(0xC8CBF30)
+#define RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_1_OFFSET UNITYSDK_OFFSET(0xC8CA160)
+#define RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_3_OFFSET UNITYSDK_OFFSET(0xC8CA1F0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CANCELASYNCLOADIMPL_OFFSET UNITYSDK_OFFSET(0xC8CC4A0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CANCELASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xC8C53B0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CANCLEAYSCLOAD_OFFSET UNITYSDK_OFFSET(0xC8CC450)
+#define RPG_CLIENT_CACHEDASSETLOADER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8C91E0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CHECKASSETOBJECT_OFFSET UNITYSDK_OFFSET(0xC8CDE00)
+#define RPG_CLIENT_CACHEDASSETLOADER_CLEARALL_OFFSET UNITYSDK_OFFSET(0xC8CD040)
+#define RPG_CLIENT_CACHEDASSETLOADER_CLEARCACHEDASSETGROUP_OFFSET UNITYSDK_OFFSET(0xC8CCEF0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CLEARCACHEDASSET_OFFSET UNITYSDK_OFFSET(0xC8CCC20)
+#define RPG_CLIENT_CACHEDASSETLOADER_GETASSETDATA_OFFSET UNITYSDK_OFFSET(0xC8CD970)
+#define RPG_CLIENT_CACHEDASSETLOADER_GETASSETNAMEHASH_OFFSET UNITYSDK_OFFSET(0xC8CD8B0)
+#define RPG_CLIENT_CACHEDASSETLOADER_GETCACHEDASSETGROUP_OFFSET UNITYSDK_OFFSET(0xC8CD840)
+#define RPG_CLIENT_CACHEDASSETLOADER_GET_CAPACITYRATIO_OFFSET UNITYSDK_OFFSET(0xC8CCB60)
+#define RPG_CLIENT_CACHEDASSETLOADER_GET_MAXMEMORYSIZERATIO_OFFSET UNITYSDK_OFFSET(0xC8CCBC0)
+#define RPG_CLIENT_CACHEDASSETLOADER_INFERLOGICTYPE_1_OFFSET UNITYSDK_OFFSET(0xC8CD460)
+#define RPG_CLIENT_CACHEDASSETLOADER_INITASSETGROUPCAPACITYANDMAXMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0xC8CC720)
+#define RPG_CLIENT_CACHEDASSETLOADER_INTERNALINFERLOGICTYPE_OFFSET UNITYSDK_OFFSET(0xC8CD5E0)
+#define RPG_CLIENT_CACHEDASSETLOADER_INTERNALRELEASEASSET_OFFSET UNITYSDK_OFFSET(0xC8CDA00)
+#define RPG_CLIENT_CACHEDASSETLOADER_ONAFTERRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xC8CDD60)
+#define RPG_CLIENT_CACHEDASSETLOADER_RELEASEASSETIMPL_OFFSET UNITYSDK_OFFSET(0xC8CB300)
+#define RPG_CLIENT_CACHEDASSETLOADER_RELEASEASSET_OFFSET UNITYSDK_OFFSET(0xC8C5100)
+#define RPG_CLIENT_CACHEDASSETLOADER_SET_CAPACITYRATIO_OFFSET UNITYSDK_OFFSET(0xC8CC780)
+#define RPG_CLIENT_CACHEDASSETLOADER_SET_MAXMEMORYSIZERATIO_OFFSET UNITYSDK_OFFSET(0xC8CC970)
+#define RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSETIMPL_OFFSET UNITYSDK_OFFSET(0xC8CAC80)
+#define RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_1_OFFSET UNITYSDK_OFFSET(0xC8C98E0)
+#define RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_3_OFFSET UNITYSDK_OFFSET(0xC8C9950)
+#define RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_1_OFFSET UNITYSDK_OFFSET(0xC8CA450)
+#define RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_3_OFFSET UNITYSDK_OFFSET(0xC8CA510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader_TypeDefinitionIndex = 59576;
+	inline static constexpr unsigned int CachedAssetLoader_TypeDefinitionIndex = 59431;
 
 	class CachedAssetLoader : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::RPG::Client::CachedAssetLoader_CachedAssetGroup*>** StaticGet__CachedAssetGroup()
+		static ::Il2CppArray<::System::Object*>** StaticGet__CachedAssetGroup()
 		{
-			return (::Il2CppArray<::RPG::Client::CachedAssetLoader_CachedAssetGroup*>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13350);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168B0);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::UInt64>** StaticGet__CachedAssetToAssetNameHash()
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Object*>** StaticGet__AssetDependencyData()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13358);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168B8);
 		}
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__GetAssetObjectCheckTypeMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13360);
-		}
+
 		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>** StaticGet__CachedTempAssetDependencies()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13368);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168C0);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::RPG::Client::CachedAssetLoader_AssetDependencyData*>** StaticGet__AssetDependencyData()
+
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::UInt64>** StaticGet__CachedAssetToAssetNameHash()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::RPG::Client::CachedAssetLoader_AssetDependencyData*>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13370);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::UInt64>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168C8);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::RPG::Client::CachedAssetLoader_CachedAssetData*>** StaticGet__AssetNameHashToCachedAsset()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::RPG::Client::CachedAssetLoader_CachedAssetData*>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13378);
-		}
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__InferLogicTypeMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13380);
-		}
+
 		static ::System::Collections::Generic::List_1<::UnityEngine::Object*>** StaticGet__CachedTempAssetObjects()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x13388);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Object*>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168D0);
 		}
-		static ::System::Single* StaticGet__MaxMemorySizeRatio()
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__InferLogicTypeMarker()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x7CD0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168D8);
 		}
-		static ::System::Single* StaticGet__CapacityRatio()
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__GetAssetObjectCheckTypeMarker()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x7CD4);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168E0);
 		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Object*>** StaticGet__AssetNameHashToCachedAsset()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x168E8);
+		}
+
 		static ::System::Int32* StaticGet_LogicTypeCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_TypeDefinitionIndex)->GetStaticField(0x7CD8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x4CB0);
+		}
+
+		static ::System::Single* StaticGet__MaxMemorySizeRatio()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x4CB4);
+		}
+
+		static ::System::Single* StaticGet__CapacityRatio()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x4CB8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_CCTOR_OFFSET))();
 		}
 
-		static ::UnityEngine::Object* SyncLoadAsset(::System::String* a1, ::System::Type* a2, ::RPG::Client::CachedAssetLogicType a3, ::System::Boolean a4)
+		static ::UnityEngine::Object* SyncLoadAsset_1(::System::String* a1, ::System::Type* a2, ::RPG::Client::CachedAssetLogicType a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*, ::RPG::Client::CachedAssetLogicType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*, ::RPG::Client::CachedAssetLogicType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::IAssetOperation* AsyncLoadAsset(::System::String* a1, ::System::Type* a2, ::RPG::Client::CachedAssetLogicType a3, ::System::Object* a4, ::RPG::Client::OnAssetOperationDelegate* a5, ::RPG::Client::AssetLoadPriority a6)
+		static ::RPG::Client::IAssetOperation* AsyncLoadAsset_1(::System::String* a1, ::System::Type* a2, ::RPG::Client::CachedAssetLogicType a3, ::System::Object* a4, ::RPG::Client::OnAssetOperationDelegate* a5, ::RPG::Client::AssetLoadPriority a6)
 		{
-			return ((::RPG::Client::IAssetOperation*(*)(::System::String*, ::System::Type*, ::RPG::Client::CachedAssetLogicType, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::RPG::Client::IAssetOperation*(*)(::System::String*, ::System::Type*, ::RPG::Client::CachedAssetLogicType, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean SyncOrAsyncLoadAsset(::System::String* a1, ::System::Type* a2, ::RPG::Client::CachedAssetLogicType a3, ::UnityEngine::Object*& a4, ::RPG::Client::IAssetOperation*& a5, ::System::Object* a6, ::RPG::Client::OnAssetOperationDelegate* a7, ::RPG::Client::AssetLoadPriority a8)
+		static ::System::Boolean SyncOrAsyncLoadAsset_1(::System::String* a1, ::System::Type* a2, ::RPG::Client::CachedAssetLogicType a3, ::UnityEngine::Object* a4, ::RPG::Client::IAssetOperation* a5, ::System::Object* a6, ::RPG::Client::OnAssetOperationDelegate* a7, ::RPG::Client::AssetLoadPriority a8)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Type*, ::RPG::Client::CachedAssetLogicType, ::UnityEngine::Object*&, ::RPG::Client::IAssetOperation*&, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Boolean(*)(::System::String*, ::System::Type*, ::RPG::Client::CachedAssetLogicType, ::UnityEngine::Object*, ::RPG::Client::IAssetOperation*, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::UnityEngine::Object* SyncLoadAsset_1(::System::String* a1, ::System::Type* a2, ::System::Boolean a3)
+		static ::UnityEngine::Object* SyncLoadAsset_3(::System::String* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_1_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCLOADASSET_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::IAssetOperation* AsyncLoadAsset_1(::System::String* a1, ::System::Type* a2, ::System::Object* a3, ::RPG::Client::OnAssetOperationDelegate* a4, ::RPG::Client::AssetLoadPriority a5)
+		static ::RPG::Client::IAssetOperation* AsyncLoadAsset_3(::System::String* a1, ::System::Type* a2, ::System::Object* a3, ::RPG::Client::OnAssetOperationDelegate* a4, ::RPG::Client::AssetLoadPriority a5)
 		{
-			return ((::RPG::Client::IAssetOperation*(*)(::System::String*, ::System::Type*, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_1_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::Client::IAssetOperation*(*)(::System::String*, ::System::Type*, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_ASYNCLOADASSET_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean SyncOrAsyncLoadAsset_1(::System::String* a1, ::System::Type* a2, ::UnityEngine::Object*& a3, ::RPG::Client::IAssetOperation*& a4, ::System::Object* a5, ::RPG::Client::OnAssetOperationDelegate* a6, ::RPG::Client::AssetLoadPriority a7)
+		static ::System::Boolean SyncOrAsyncLoadAsset_3(::System::String* a1, ::System::Type* a2, ::UnityEngine::Object* a3, ::RPG::Client::IAssetOperation* a4, ::System::Object* a5, ::RPG::Client::OnAssetOperationDelegate* a6, ::RPG::Client::AssetLoadPriority a7)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Type*, ::UnityEngine::Object*&, ::RPG::Client::IAssetOperation*&, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::System::String*, ::System::Type*, ::UnityEngine::Object*, ::RPG::Client::IAssetOperation*, ::System::Object*, ::RPG::Client::OnAssetOperationDelegate*, ::RPG::Client::AssetLoadPriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_SYNCORASYNCLOADASSET_3_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Void ReleaseAsset(::UnityEngine::Object* a1)
@@ -191,9 +200,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_CLEARALL_OFFSET))();
 		}
 
-		static ::RPG::Client::CachedAssetLogicType InferLogicType(::System::String* a1, ::System::Type* a2)
+		static ::RPG::Client::CachedAssetLogicType InferLogicType_1(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::RPG::Client::CachedAssetLogicType(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_INFERLOGICTYPE_OFFSET))(a1, a2);
+			return ((::RPG::Client::CachedAssetLogicType(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_INFERLOGICTYPE_1_OFFSET))(a1, a2);
 		}
 
 		static ::RPG::Client::CachedAssetLoader_CachedAssetGroup* GetCachedAssetGroup(::RPG::Client::CachedAssetLogicType a1)
@@ -250,5 +259,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::RPG::Client::IAssetOperation*, ::RPG::Client::CachedType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CACHEDASSETLOADER_CANCELASYNCLOADIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

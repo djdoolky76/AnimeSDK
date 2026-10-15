@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/HoYoUI/SerializableDictionary_2.h"
-#include "unitysdk/UnityEngine/Color.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_HOYOUI_COLORVALUEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F3EA0)
+#define MIHOYO_SDK_HOYOUI_COLORVALUEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAA780)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 47187;
+	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 46727;
 
-	class ColorValueMap : public ::MiHoYo::SDK::HoYoUI::SerializableDictionary_2<::System::String*, ::UnityEngine::Color>
+	class ColorValueMap
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_COLORVALUEMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_COLORVALUEMAP_CTOR_OFFSET))(this);
 		}
+
 	};
 }

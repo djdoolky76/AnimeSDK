@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowTalkRecordingDialog; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_METHOD_3_36225EF44F407C38_OFFSET UNITYSDK_OFFSET(0x1D09B950)
-#define RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_METHOD_3_A0122AB667D3BADB_OFFSET UNITYSDK_OFFSET(0x1D09B900)
-#define RPG_GAMECORE_SHOWTALKRECORDINGDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09B940)
+#define RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB8220)
+#define RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB8230)
+#define RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB81E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowTalkRecordingDialog_TypeDefinitionIndex = 21688;
+	inline static constexpr unsigned int ShowTalkRecordingDialog_TypeDefinitionIndex = 21936;
 
 	class ShowTalkRecordingDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Show; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTALKRECORDINGDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0122AB667D3BADB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTalkRecordingDialog*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowTalkRecordingDialog* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTalkRecordingDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_METHOD_3_A0122AB667D3BADB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowTalkRecordingDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_36225EF44F407C38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTalkRecordingDialog* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowTalkRecordingDialog* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTalkRecordingDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_METHOD_3_36225EF44F407C38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowTalkRecordingDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTALKRECORDINGDIALOG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

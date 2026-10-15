@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
-namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Func_6; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int CombineLatest_6_TypeDefinitionIndex = 44145;
+	inline static constexpr unsigned int CombineLatest_6_TypeDefinitionIndex = 45284;
 
-	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class CombineLatest_6 : public ::System::Object
 	{
 	public:
@@ -20,6 +17,6 @@ namespace Cysharp::Threading::Tasks::Linq
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T3>* source3; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T4>* source4; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T5>* source5; // 0x0
-		::System::Func_6<T1, T2, T3, T4, T5, TResult>* resultSelector; // 0x0
+		::System::Func_6<T1, T2, T3, T4, T5, T6>* resultSelector; // 0x0
 	};
 }

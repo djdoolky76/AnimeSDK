@@ -1,64 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class RotationMapInfoSnapshot; }
 namespace Proto { class VectorSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD50EB0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD43770)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD50B40)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD508F0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD43D20)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_GET_MAPPOS_OFFSET UNITYSDK_OFFSET(0x1DD508B0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_GET_MAPROT_OFFSET UNITYSDK_OFFSET(0x1DD508D0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD50740)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD50F40)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD44180)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD507A0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_SET_MAPPOS_OFFSET UNITYSDK_OFFSET(0x1DD508C0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_SET_MAPROT_OFFSET UNITYSDK_OFFSET(0x1DD508E0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD50D70)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD50DD0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD510F0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD507B0)
-#define PROTO_ROTATIONMAPINFOSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD44170)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFE25D0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE29A0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE1EC0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE1D40)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE1D30)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE21A0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE1F50)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE23D0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_GET_MAPPOS_OFFSET UNITYSDK_OFFSET(0x1DFE1F10)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_GET_MAPROT_OFFSET UNITYSDK_OFFSET(0x1DFE1F30)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE1CC0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFE27F0)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFE2660)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE1D20)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_SET_MAPPOS_OFFSET UNITYSDK_OFFSET(0x1DFE1F20)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_SET_MAPROT_OFFSET UNITYSDK_OFFSET(0x1DFE1F40)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE2490)
+#define PROTO_ROTATIONMAPINFOSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE24F0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int RotationMapInfoSnapshot_TypeDefinitionIndex = 25503;
+	inline static constexpr unsigned int RotationMapInfoSnapshot_TypeDefinitionIndex = 25846;
 
 	class RotationMapInfoSnapshot : public ::System::Object
 	{
 	public:
+		::Proto::VectorSnapshot* mapRot_; // 0x10
+		::Proto::VectorSnapshot* mapPos_; // 0x18
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
 		static ::Google::Protobuf::MessageParser_1<::Proto::RotationMapInfoSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::RotationMapInfoSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(RotationMapInfoSnapshot_TypeDefinitionIndex)->GetStaticField(0x5C810);
+			return (::Google::Protobuf::MessageParser_1<::Proto::RotationMapInfoSnapshot*>**)UnitySDK::FromName("Proto", "RotationMapInfoSnapshot")->GetStaticField(0x4E7F0);
 		}
-		// static const ::System::Int32 MapPosFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 MapRotFieldNumber = 0x2; // 0x0
-		::Proto::VectorSnapshot* mapPos_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::Proto::VectorSnapshot* mapRot_; // 0x20
 
+		// static const ::System::Object MapPosFieldNumber; // 0x0
+		// static const ::System::Object MapRotFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::RotationMapInfoSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::RotationMapInfoSnapshot*))((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::RotationMapInfoSnapshot*))((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::RotationMapInfoSnapshot*>* get_Parser()
@@ -135,5 +136,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_ROTATIONMAPINFOSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

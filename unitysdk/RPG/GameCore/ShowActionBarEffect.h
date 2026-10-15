@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionBarEffectConfig; }
+namespace RPG::GameCore { class ShowActionBarEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWACTIONBAREFFECT_METHOD_3_78D7ADE67CED0140_OFFSET UNITYSDK_OFFSET(0x1E0A16E0)
-#define RPG_GAMECORE_SHOWACTIONBAREFFECT_METHOD_3_AB89412CE31C30EA_OFFSET UNITYSDK_OFFSET(0x1E0A1620)
-#define RPG_GAMECORE_SHOWACTIONBAREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A1690)
+#define RPG_GAMECORE_SHOWACTIONBAREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA8650)
+#define RPG_GAMECORE_SHOWACTIONBAREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA86A0)
+#define RPG_GAMECORE_SHOWACTIONBAREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA85E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowActionBarEffect_TypeDefinitionIndex = 22691;
+	inline static constexpr unsigned int ShowActionBarEffect_TypeDefinitionIndex = 22948;
 
 	class ShowActionBarEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,21 +20,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::Il2CppArray<::System::Int32>* MultiActionIndexes; // 0x20
 		::System::Boolean IsShow; // 0x28
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::GameCore::ActionBarEffectConfig*>* EffectPrefabs; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIONBAREFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIONBAREFFECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AB89412CE31C30EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowActionBarEffect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowActionBarEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowActionBarEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIONBAREFFECT_METHOD_3_AB89412CE31C30EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowActionBarEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIONBAREFFECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_78D7ADE67CED0140(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowActionBarEffect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowActionBarEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowActionBarEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIONBAREFFECT_METHOD_3_78D7ADE67CED0140_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowActionBarEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIONBAREFFECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

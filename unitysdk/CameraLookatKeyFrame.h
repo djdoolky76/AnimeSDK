@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CAMERALOOKATKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A863CA0)
+#define CAMERALOOKATKEYFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD7F10)
 
-inline static constexpr unsigned int CameraLookatKeyFrame_TypeDefinitionIndex = 47741;
+inline static constexpr unsigned int CameraLookatKeyFrame_TypeDefinitionIndex = 47281;
 
-class CameraLookatKeyFrame : public ::System::Object
-{
-public:
-	::System::Single Position; // 0x10
-	::UnityEngine::Vector3 direction; // 0x14
-	::UnityEngine::Quaternion dir; // 0x20
-
-	::System::Void _ctor()
+	class CameraLookatKeyFrame : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAMERALOOKATKEYFRAME__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Single Position; // 0x10
+		::UnityEngine::Vector3 direction; // 0x14
+		::UnityEngine::Quaternion dir; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAMERALOOKATKEYFRAME_CTOR_OFFSET))(this);
+		}
+
+	};

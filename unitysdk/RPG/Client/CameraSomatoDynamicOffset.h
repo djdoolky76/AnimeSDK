@@ -3,17 +3,16 @@
 #include "unitysdk/RPG/GameCore/CharacterSomatoType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_METHOD_1_0FDE67E8BCF7203D_OFFSET UNITYSDK_OFFSET(0x1C85A6B0)
-#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_METHOD_1_4ACC2F8684BE1D57_1_OFFSET UNITYSDK_OFFSET(0x1C85A840)
-#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_METHOD_1_4ACC2F8684BE1D57_OFFSET UNITYSDK_OFFSET(0x1C85A780)
-#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85A900)
+#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_AINFIDLKOBF_OFFSET UNITYSDK_OFFSET(0xC9317B0)
+#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0xC931870)
+#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_ECACFPDDGEJ_OFFSET UNITYSDK_OFFSET(0xC9316F0)
+#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_PNAKMMIPLDB_OFFSET UNITYSDK_OFFSET(0xC931620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraSomatoDynamicOffset_TypeDefinitionIndex = 69691;
+	inline static constexpr unsigned int CameraSomatoDynamicOffset_TypeDefinitionIndex = 69726;
 
 	class CameraSomatoDynamicOffset : public ::System::Object
 	{
@@ -25,27 +24,28 @@ namespace RPG::Client
 		::UnityEngine::Vector3 AimOffsetMax; // 0x28
 		::UnityEngine::Vector3 SelectDarkOffset; // 0x34
 		::UnityEngine::Vector3 SelectDarkAimOffsetMax; // 0x40
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* AnchorOffsetRatioCurve; // 0x50
 		::UnityEngine::AnimationCurve* AimOffsetRatioCurve; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_1_0FDE67E8BCF7203D(::System::Single a1)
+		::UnityEngine::Vector3 PNAKMMIPLDB(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_METHOD_1_0FDE67E8BCF7203D_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_PNAKMMIPLDB_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_1_4ACC2F8684BE1D57(::System::Single a1)
+		::UnityEngine::Vector3 ECACFPDDGEJ(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_METHOD_1_4ACC2F8684BE1D57_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_ECACFPDDGEJ_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_1_4ACC2F8684BE1D57_1(::System::Single a1)
+		::UnityEngine::Vector3 AINFIDLKOBF(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_METHOD_1_4ACC2F8684BE1D57_1_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERASOMATODYNAMICOFFSET_AINFIDLKOBF_OFFSET))(this, a1);
 		}
+
 	};
 }

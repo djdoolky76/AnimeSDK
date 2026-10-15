@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int MarkupTag_TypeDefinitionIndex = 43431;
+	inline static constexpr unsigned int MarkupTag_TypeDefinitionIndex = 44623;
 
 	enum class MarkupTag : ::System::Int32
 	{
@@ -19,7 +19,7 @@ namespace TMPro
 		SLASH_MARK = 57644506,
 		SUBSCRIPT = 92132,
 		SLASH_SUBSCRIPT = 1770219,
-		Value_92150 = 92150,
+		SUPERSCRIPT = 92150,
 		SLASH_SUPERSCRIPT = 1770233,
 		COLOR = 81999901,
 		SLASH_COLOR = 1909026194,

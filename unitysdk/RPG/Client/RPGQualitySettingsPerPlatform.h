@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::CustomRP { class CRPGraphicsSettingsData_LocalLightLOD; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSPERPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x18044D60)
+#define RPG_CLIENT_RPGQUALITYSETTINGSPERPLATFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xDE20070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsPerPlatform_TypeDefinitionIndex = 67937;
+	inline static constexpr unsigned int RPGQualitySettingsPerPlatform_TypeDefinitionIndex = 67939;
 
 	class RPGQualitySettingsPerPlatform : public ::System::Object
 	{
@@ -27,10 +26,10 @@ namespace RPG::Client
 		::System::Boolean EnableCMaskFastClear; // 0x30
 		::System::Boolean EnableDCC; // 0x31
 		::System::Boolean HiZUseCS; // 0x32
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGSPERPLATFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGSPERPLATFORM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

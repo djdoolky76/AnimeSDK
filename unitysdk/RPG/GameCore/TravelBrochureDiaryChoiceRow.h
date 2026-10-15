@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TravelBrochureDiaryChoiceRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D53F320)
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D53FDC0)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0DF30)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC0D490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureDiaryChoiceRow_TypeDefinitionIndex = 15202;
+	inline static constexpr unsigned int TravelBrochureDiaryChoiceRow_TypeDefinitionIndex = 15373;
 
 	class TravelBrochureDiaryChoiceRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID DetailMessage; // 0x10
-		::System::UInt32 ID; // 0x20
-		::RPG::Client::TextID ChoiceMessage; // 0x28
-
+		::System::UInt32 ID; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID ChoiceMessage; // 0x18
+		::RPG::Client::TextID DetailMessage; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelBrochureDiaryChoiceRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TravelBrochureDiaryChoiceRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureDiaryChoiceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TravelBrochureDiaryChoiceRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

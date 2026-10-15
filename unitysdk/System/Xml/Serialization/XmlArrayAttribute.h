@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaForm.h"
-
+#include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1B095980)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_FORM_OFFSET UNITYSDK_OFFSET(0x1B0959A0)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1B0959B0)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1B0959C0)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1B0959D0)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1EED6600)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_FORM_OFFSET UNITYSDK_OFFSET(0x1EED6620)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1EED6630)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EED6640)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1EED6650)
 
 namespace System::Xml::Serialization
 {
@@ -20,10 +19,10 @@ namespace System::Xml::Serialization
 	public:
 		::System::String* elementName; // 0x10
 		::System::String* ns; // 0x18
-		::System::Xml::Schema::XmlSchemaForm form; // 0x20
-		::System::Int32 order; // 0x24
-		::System::Boolean isNullable; // 0x28
-
+		::System::Boolean isNullable; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Xml::Schema::XmlSchemaForm form; // 0x24
+		::System::Int32 order; // 0x28
 		::System::String* get_ElementName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET))(this);
@@ -48,5 +47,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET))(this);
 		}
+
 	};
 }

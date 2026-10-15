@@ -1,64 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AimSolver_Struct_2_CC346D804C45C8EA.h"
-#include "unitysdk/Struct_2_B87BAA35D432DB99.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/KFPPDLJEJJA.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AimSolverAimer; }
 namespace RPG::Client { template <typename T1, typename T2> class AimEvaluator_2; }
 namespace RootMotion::IKJob { class IKThreadProxyContext; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIMSOLVER_GET_AIMERCOUNT_OFFSET UNITYSDK_OFFSET(0x19E05590)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_11923540E96E60E4_OFFSET UNITYSDK_OFFSET(0x19E06E50)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_262E11E993897B67_OFFSET UNITYSDK_OFFSET(0x19E060C0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_3F5823D34C4A0A38_OFFSET UNITYSDK_OFFSET(0x19E073A0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_412B37D6127486C3_OFFSET UNITYSDK_OFFSET(0x19E06DB0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_42075C80014CA6D1_OFFSET UNITYSDK_OFFSET(0x19E07030)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_4C7D121ED22BD1D1_OFFSET UNITYSDK_OFFSET(0x19E06F70)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_64D17174D10FA3CE_OFFSET UNITYSDK_OFFSET(0x19E05F60)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_653151ACD8E3C108_OFFSET UNITYSDK_OFFSET(0x19E055E0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x19E05CC0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_843619D883256BB2_OFFSET UNITYSDK_OFFSET(0x19E064B0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_8E968BA443B7271D_OFFSET UNITYSDK_OFFSET(0x19E07C60)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_A17B38030E623502_OFFSET UNITYSDK_OFFSET(0x19E06D30)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_A5FE044F664519B0_OFFSET UNITYSDK_OFFSET(0x19E06B40)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_C50A2293958CA940_OFFSET UNITYSDK_OFFSET(0x19E07BE0)
-#define RPG_CLIENT_AIMSOLVER_METHOD_1_EABBE399EFB12E42_OFFSET UNITYSDK_OFFSET(0x19E05C10)
-#define RPG_CLIENT_AIMSOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E07EA0)
-#define RPG_CLIENT_AIMSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E07E40)
+#define RPG_CLIENT_AIMSOLVER_BMEKHLDCKEP_OFFSET UNITYSDK_OFFSET(0xC630420)
+#define RPG_CLIENT_AIMSOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC633100)
+#define RPG_CLIENT_AIMSOLVER_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xC630D60)
+#define RPG_CLIENT_AIMSOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0xC6330A0)
+#define RPG_CLIENT_AIMSOLVER_ENGKMNOALGK_OFFSET UNITYSDK_OFFSET(0xC631F90)
+#define RPG_CLIENT_AIMSOLVER_FFGNEJIMBKN_OFFSET UNITYSDK_OFFSET(0xC632600)
+#define RPG_CLIENT_AIMSOLVER_GET_AIMERCOUNT_OFFSET UNITYSDK_OFFSET(0xC62FA50)
+#define RPG_CLIENT_AIMSOLVER_GFFMKKGJEKA_1_OFFSET UNITYSDK_OFFSET(0xC6321D0)
+#define RPG_CLIENT_AIMSOLVER_GFFMKKGJEKA_OFFSET UNITYSDK_OFFSET(0xC6320B0)
+#define RPG_CLIENT_AIMSOLVER_IICCFDAANGF_OFFSET UNITYSDK_OFFSET(0xC631CD0)
+#define RPG_CLIENT_AIMSOLVER_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xC632EC0)
+#define RPG_CLIENT_AIMSOLVER_KMENBMHOGFH_OFFSET UNITYSDK_OFFSET(0xC6300D0)
+#define RPG_CLIENT_AIMSOLVER_LEJANEEOEEE_OFFSET UNITYSDK_OFFSET(0xC632290)
+#define RPG_CLIENT_AIMSOLVER_MEILFKECFAA_OFFSET UNITYSDK_OFFSET(0xC630180)
+#define RPG_CLIENT_AIMSOLVER_NNPCBCEBPKB_OFFSET UNITYSDK_OFFSET(0xC632010)
+#define RPG_CLIENT_AIMSOLVER_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xC62FAA0)
+#define RPG_CLIENT_AIMSOLVER_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC632E40)
+#define RPG_CLIENT_AIMSOLVER_PKELPMDKHCB_OFFSET UNITYSDK_OFFSET(0xC631150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimSolver_TypeDefinitionIndex = 68400;
+	inline static constexpr unsigned int AimSolver_TypeDefinitionIndex = 68433;
 
 	class AimSolver : public ::System::Object
 	{
 	public:
+		::Il2CppArray<::RPG::Client::AimSolverAimer*>* Aimers; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* _SolveStepBatch; // 0x18
 		static ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>** StaticGet__QuaternionCache()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(AimSolver_TypeDefinitionIndex)->GetStaticField(0x647C0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Quaternion>**)UnitySDK::FromName("RPG.Client", "AimSolver")->GetStaticField(0x3EEB0);
 		}
+
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet__BoneIdxAndDepth()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AimSolver_TypeDefinitionIndex)->GetStaticField(0x647C8);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("RPG.Client", "AimSolver")->GetStaticField(0x3EEB8);
 		}
-		::Il2CppArray<::RPG::Client::AimSolverAimer*>* Aimers; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::AimSolver_Struct_2_CC346D804C45C8EA>* _SolveStepBatch; // 0x18
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_AimerCount()
@@ -66,79 +66,80 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_GET_AIMERCOUNT_OFFSET))(this);
 		}
 
-		::System::Void Method_1_653151ACD8E3C108()
+		::System::Void OINBDMGFFJL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_653151ACD8E3C108_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_OINBDMGFFJL_OFFSET))(this);
 		}
 
-		::System::Void Method_1_739DB9F245C7FAD0()
+		::System::Void MEILFKECFAA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_739DB9F245C7FAD0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_MEILFKECFAA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_262E11E993897B67()
+		::System::Boolean CIJDJDICMMM()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_262E11E993897B67_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_CIJDJDICMMM_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_A5FE044F664519B0(::System::String* a1)
+		::System::Int32 IICCFDAANGF(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_A5FE044F664519B0_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_IICCFDAANGF_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_1_A17B38030E623502(::System::Int32 a1)
+		::System::Single ENGKMNOALGK(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_A17B38030E623502_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_ENGKMNOALGK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_412B37D6127486C3(::System::Int32 a1, ::System::Single a2)
+		::System::Void NNPCBCEBPKB(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_412B37D6127486C3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_NNPCBCEBPKB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_11923540E96E60E4(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector2 a3)
+		::System::Void GFFMKKGJEKA(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_11923540E96E60E4_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_GFFMKKGJEKA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_4C7D121ED22BD1D1(::System::Int32 a1, ::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>* a2, ::UnityEngine::Vector2 a3, ::System::Single a4)
+		::System::Void GFFMKKGJEKA_1(::System::Int32 a1, ::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>* a2, ::UnityEngine::Vector2 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>*, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_4C7D121ED22BD1D1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>*, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_GFFMKKGJEKA_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_1_64D17174D10FA3CE(::System::Int32 a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		::System::Void BMEKHLDCKEP(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_64D17174D10FA3CE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_BMEKHLDCKEP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_42075C80014CA6D1(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a1)
+		::System::Void LEJANEEOEEE(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_42075C80014CA6D1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_LEJANEEOEEE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_3F5823D34C4A0A38(::RootMotion::IKJob::IKThreadProxyContext* a1, ::Struct_2_B87BAA35D432DB99& a2)
+		::System::Void FFGNEJIMBKN(::RootMotion::IKJob::IKThreadProxyContext* a1, ::KFPPDLJEJJA a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RootMotion::IKJob::IKThreadProxyContext*, ::Struct_2_B87BAA35D432DB99&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_3F5823D34C4A0A38_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RootMotion::IKJob::IKThreadProxyContext*, ::KFPPDLJEJJA))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_FFGNEJIMBKN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_C50A2293958CA940(::System::Int32 a1)
+		::System::Void PJPFIHFAHGO(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_C50A2293958CA940_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_PJPFIHFAHGO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_8E968BA443B7271D(::System::String* a1)
+		::System::Boolean KKKIONIDKFA(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_8E968BA443B7271D_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_KKKIONIDKFA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_843619D883256BB2(::UnityEngine::Transform* a1)
+		::System::Void PKELPMDKHCB(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_843619D883256BB2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_PKELPMDKHCB_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 Method_1_EABBE399EFB12E42(::UnityEngine::Transform* a1)
+		static ::System::Int32 KMENBMHOGFH(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_METHOD_1_EABBE399EFB12E42_OFFSET))(a1);
+			return ((::System::Int32(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVER_KMENBMHOGFH_OFFSET))(a1);
 		}
+
 	};
 }

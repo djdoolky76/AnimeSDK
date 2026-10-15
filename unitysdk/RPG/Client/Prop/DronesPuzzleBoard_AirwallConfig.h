@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleBoard_AirwallConfig_TypeDefinitionIndex = 78095;
+	inline static constexpr unsigned int DronesPuzzleBoard_AirwallConfig_TypeDefinitionIndex = 78566;
 
 	struct alignas(8) DronesPuzzleBoard_AirwallConfig
 	{

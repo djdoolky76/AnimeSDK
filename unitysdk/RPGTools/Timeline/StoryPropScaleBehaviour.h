@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class StoryPropScaleClip; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1BF26220)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1BF26240)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1BF26230)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF263A0)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE93B920)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE93B7A0)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE93B7C0)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE93B7B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropScaleBehaviour_TypeDefinitionIndex = 48820;
+	inline static constexpr unsigned int StoryPropScaleBehaviour_TypeDefinitionIndex = 48360;
 
 	class StoryPropScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::StoryPropScaleClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::StoryPropScaleClip* get_Clip()
@@ -39,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,16 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-namespace System { class String; }
-
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XHashtable_1_ExtractKeyDelegate_TypeDefinitionIndex = 3878;
+	inline static constexpr unsigned int XHashtable_1_ExtractKeyDelegate_TypeDefinitionIndex = 3879;
 
-	template <typename TValue>
+	template <typename T>
 	class XHashtable_1_ExtractKeyDelegate : public ::System::MulticastDelegate
 	{
 	public:

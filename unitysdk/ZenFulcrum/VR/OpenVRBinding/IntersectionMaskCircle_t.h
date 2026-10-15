@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IntersectionMaskCircle_t_TypeDefinitionIndex = 38019;
+	inline static constexpr unsigned int IntersectionMaskCircle_t_TypeDefinitionIndex = 39316;
 
 	struct alignas(4) IntersectionMaskCircle_t
 	{

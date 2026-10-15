@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EDF9C30)
-#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EDF9D40)
-#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EDF9C20)
-#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF9C10)
+#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C51C0)
+#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F3C51E0)
+#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F3C52F0)
+#define UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F3C51D0)
 
 namespace UnityEngine::Internal
 {
-	inline static constexpr unsigned int DefaultValueAttribute_TypeDefinitionIndex = 4681;
+	inline static constexpr unsigned int DefaultValueAttribute_TypeDefinitionIndex = 4685;
 
 	class DefaultValueAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Object* DefaultValue; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Value()
@@ -38,5 +36,6 @@ namespace UnityEngine::Internal
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_DEFAULTVALUEATTRIBUTE_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

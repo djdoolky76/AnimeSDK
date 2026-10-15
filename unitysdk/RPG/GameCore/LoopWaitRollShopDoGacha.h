@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoopWaitRollShopDoGacha; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_METHOD_3_AE154C4B52079EEA_OFFSET UNITYSDK_OFFSET(0x1D48B0D0)
-#define RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_METHOD_3_BACD8976E7A6F946_OFFSET UNITYSDK_OFFSET(0x1D48B120)
-#define RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48B110)
+#define RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C8EF0)
+#define RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C8F00)
+#define RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C8EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitRollShopDoGacha_TypeDefinitionIndex = 20968;
+	inline static constexpr unsigned int LoopWaitRollShopDoGacha_TypeDefinitionIndex = 21214;
 
 	class LoopWaitRollShopDoGacha : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AE154C4B52079EEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitRollShopDoGacha*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitRollShopDoGacha* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitRollShopDoGacha*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_METHOD_3_AE154C4B52079EEA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitRollShopDoGacha*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BACD8976E7A6F946(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitRollShopDoGacha* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitRollShopDoGacha* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitRollShopDoGacha*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_METHOD_3_BACD8976E7A6F946_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitRollShopDoGacha*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROLLSHOPDOGACHA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

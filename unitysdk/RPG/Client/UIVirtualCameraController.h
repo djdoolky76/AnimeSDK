@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x1DDBBC50)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_DEACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x1DDBC4F0)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBC730)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__SETUPBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0x1DDBC3D0)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xE401260)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE401D40)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_DEACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xE401B00)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__SETUPBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0xE4019E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIVirtualCameraController_TypeDefinitionIndex = 69083;
+	inline static constexpr unsigned int UIVirtualCameraController_TypeDefinitionIndex = 69119;
 
 	class UIVirtualCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single VIRTUAL_CAMERA_NEAR_CLIP; // 0x0
-		// static const ::System::Single VIRTUAL_CAMERA_FAR_CLIP; // 0x0
-
+		// static const ::System::Object VIRTUAL_CAMERA_NEAR_CLIP; // 0x0
+		// static const ::System::Object VIRTUAL_CAMERA_FAR_CLIP; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ActiveVirtualCamera(::UnityEngine::Transform* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::Boolean a4, ::System::Nullable_1<::UnityEngine::Vector2> a5, ::System::Boolean a6)
@@ -41,5 +39,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__SETUPBLENDCONFIG_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,13 +3,13 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int DynamicCollisionRegisterReason_TypeDefinitionIndex = 41626;
+	inline static constexpr unsigned int DynamicCollisionRegisterReason_TypeDefinitionIndex = 43266;
 
 	enum class DynamicCollisionRegisterReason : ::System::Byte
 	{
-		None = 0x0,
-		PlayerContact = 0x1,
-		EventAction = 0x2,
-		CollideSystemGuard = 0x4,
+		None = 0,
+		PlayerContact = 1,
+		EventAction = 2,
+		CollideSystemGuard = 4,
 	};
 }

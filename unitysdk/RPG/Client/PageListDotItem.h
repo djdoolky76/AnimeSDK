@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PAGELISTDOTITEM_SETSELECTED_OFFSET UNITYSDK_OFFSET(0x1C4D1E10)
-#define RPG_CLIENT_PAGELISTDOTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D1FD0)
+#define RPG_CLIENT_PAGELISTDOTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA61E50)
+#define RPG_CLIENT_PAGELISTDOTITEM_SETSELECTED_OFFSET UNITYSDK_OFFSET(0xDA61C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PageListDotItem_TypeDefinitionIndex = 72546;
+	inline static constexpr unsigned int PageListDotItem_TypeDefinitionIndex = 72621;
 
 	class PageListDotItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::GameObject* Dark; // 0x18
 		::UnityEngine::GameObject* Light; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTDOTITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTDOTITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetSelected(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTDOTITEM_SETSELECTED_OFFSET))(this, a1);
 		}
+
 	};
 }

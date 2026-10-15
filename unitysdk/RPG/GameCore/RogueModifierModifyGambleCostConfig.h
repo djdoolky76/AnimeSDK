@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierModifyGambleCostConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_METHOD_3_650D314BAE0E81DD_OFFSET UNITYSDK_OFFSET(0x1EEFABC0)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_METHOD_3_FE39354CB45D9219_OFFSET UNITYSDK_OFFSET(0x1EEFAB70)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFABB0)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9EA5A0)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9EA5B0)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9EA560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierModifyGambleCostConfig_TypeDefinitionIndex = 17531;
+	inline static constexpr unsigned int RogueModifierModifyGambleCostConfig_TypeDefinitionIndex = 17743;
 
 	class RogueModifierModifyGambleCostConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FE39354CB45D9219(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyGambleCostConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyGambleCostConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyGambleCostConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_METHOD_3_FE39354CB45D9219_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyGambleCostConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_650D314BAE0E81DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyGambleCostConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyGambleCostConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyGambleCostConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_METHOD_3_650D314BAE0E81DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyGambleCostConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYGAMBLECOSTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

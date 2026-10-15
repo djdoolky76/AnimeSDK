@@ -1,51 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_276321B6B122C69C_6.h"
+#include "unitysdk/LICGOGNGGID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_10F56A639581CEB1;
+class KOBGMGHMCLF;
 namespace RPG::Client { class TeamBuild; }
+namespace RPG::Client { class TeamBuildRecipe; }
 namespace RPG::Client { class TeamBuildUnit; }
 namespace RPG::GameCore { class TeamBuildConfigRow; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_TEAMBUILDRECIPE_CHECKCOLLETIONSCONTAINNUMBER_OFFSET UNITYSDK_OFFSET(0x1A3866E0)
-#define RPG_CLIENT_TEAMBUILDRECIPE_CREATEBUILD_OFFSET UNITYSDK_OFFSET(0x1A386170)
-#define RPG_CLIENT_TEAMBUILDRECIPE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1A3841B0)
-#define RPG_CLIENT_TEAMBUILDRECIPE_CREATE_OFFSET UNITYSDK_OFFSET(0x1A383730)
-#define RPG_CLIENT_TEAMBUILDRECIPE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A3865A0)
-#define RPG_CLIENT_TEAMBUILDRECIPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A386530)
-#define RPG_CLIENT_TEAMBUILDRECIPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A386690)
-#define RPG_CLIENT_TEAMBUILDRECIPE_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1A385280)
-#define RPG_CLIENT_TEAMBUILDRECIPE_GET_TARGETAVATARID_OFFSET UNITYSDK_OFFSET(0x1A384970)
-#define RPG_CLIENT_TEAMBUILDRECIPE_GET_TARGETAVATARPOSITION_OFFSET UNITYSDK_OFFSET(0x1A385290)
-#define RPG_CLIENT_TEAMBUILDRECIPE_GET_TEAMMATES_OFFSET UNITYSDK_OFFSET(0x1A3852A0)
-#define RPG_CLIENT_TEAMBUILDRECIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A386160)
-#define RPG_CLIENT_TEAMBUILDRECIPE__GETALTERNATIVEAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1A385BC0)
-#define RPG_CLIENT_TEAMBUILDRECIPE__TRYCONVERTAVATARID_OFFSET UNITYSDK_OFFSET(0x1A3852B0)
+#define RPG_CLIENT_TEAMBUILDRECIPE_CHECKCOLLETIONSCONTAINNUMBER_OFFSET UNITYSDK_OFFSET(0xE1C10F0)
+#define RPG_CLIENT_TEAMBUILDRECIPE_CREATEBUILD_OFFSET UNITYSDK_OFFSET(0xE1C0B80)
+#define RPG_CLIENT_TEAMBUILDRECIPE_CREATE_1_OFFSET UNITYSDK_OFFSET(0xE1BEBC0)
+#define RPG_CLIENT_TEAMBUILDRECIPE_CREATE_OFFSET UNITYSDK_OFFSET(0xE1BE140)
+#define RPG_CLIENT_TEAMBUILDRECIPE_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C0B70)
+#define RPG_CLIENT_TEAMBUILDRECIPE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE1C0FB0)
+#define RPG_CLIENT_TEAMBUILDRECIPE_EQUALS_OFFSET UNITYSDK_OFFSET(0xE1C0F40)
+#define RPG_CLIENT_TEAMBUILDRECIPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE1C10A0)
+#define RPG_CLIENT_TEAMBUILDRECIPE_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xE1BFC90)
+#define RPG_CLIENT_TEAMBUILDRECIPE_GET_TARGETAVATARID_OFFSET UNITYSDK_OFFSET(0xE1BF380)
+#define RPG_CLIENT_TEAMBUILDRECIPE_GET_TARGETAVATARPOSITION_OFFSET UNITYSDK_OFFSET(0xE1BFCA0)
+#define RPG_CLIENT_TEAMBUILDRECIPE_GET_TEAMMATES_OFFSET UNITYSDK_OFFSET(0xE1BFCB0)
+#define RPG_CLIENT_TEAMBUILDRECIPE__GETALTERNATIVEAVATARIDS_OFFSET UNITYSDK_OFFSET(0xE1C05D0)
+#define RPG_CLIENT_TEAMBUILDRECIPE__TRYCONVERTAVATARID_OFFSET UNITYSDK_OFFSET(0xE1BFCC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildRecipe_TypeDefinitionIndex = 68088;
+	inline static constexpr unsigned int TeamBuildRecipe_TypeDefinitionIndex = 68093;
 
 	class TeamBuildRecipe : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 _UnitCount = 0x3; // 0x0
 		::Il2CppArray<::RPG::Client::TeamBuildUnit*>* _Teammates_k__BackingField; // 0x10
-		::System::UInt32 _TargetAvatarPosition_k__BackingField; // 0x18
-		::Struct_2_276321B6B122C69C_6 _Identifier_k__BackingField; // 0x1C
-
-		::System::Void _ctor(::Struct_2_276321B6B122C69C_6& a1, ::System::UInt32 a2, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>* a3)
+		::LICGOGNGGID _Identifier_k__BackingField; // 0x18
+		::System::UInt32 _TargetAvatarPosition_k__BackingField; // 0x20
+		// static const ::System::Object _UnitCount; // 0x0
+		::System::Void _ctor(::LICGOGNGGID a1, ::System::UInt32 a2, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_276321B6B122C69C_6&, ::System::UInt32, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::LICGOGNGGID, ::System::UInt32, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Struct_2_276321B6B122C69C_6 get_Identifier()
+		::LICGOGNGGID get_Identifier()
 		{
-			return ((::Struct_2_276321B6B122C69C_6(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_GET_IDENTIFIER_OFFSET))(this);
+			return ((::LICGOGNGGID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_GET_IDENTIFIER_OFFSET))(this);
 		}
 
 		::System::UInt32 get_TargetAvatarID()
@@ -68,9 +68,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TeamBuildRecipe*(*)(::RPG::GameCore::TeamBuildConfigRow*, ::System::Collections::Generic::ICollection_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::TeamBuildRecipe* Create_1(::Class_1_10F56A639581CEB1* a1, ::System::Collections::Generic::ICollection_1<::System::UInt32>* a2)
+		static ::RPG::Client::TeamBuildRecipe* Create_1(::KOBGMGHMCLF* a1, ::System::Collections::Generic::ICollection_1<::System::UInt32>* a2)
 		{
-			return ((::RPG::Client::TeamBuildRecipe*(*)(::Class_1_10F56A639581CEB1*, ::System::Collections::Generic::ICollection_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_CREATE_1_OFFSET))(a1, a2);
+			return ((::RPG::Client::TeamBuildRecipe*(*)(::KOBGMGHMCLF*, ::System::Collections::Generic::ICollection_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_CREATE_1_OFFSET))(a1, a2);
 		}
 
 		::RPG::Client::TeamBuild* CreateBuild()
@@ -107,5 +107,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::System::UInt32, ::Il2CppArray<::System::Collections::Generic::ICollection_1<::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE_CHECKCOLLETIONSCONTAINNUMBER_OFFSET))(a1, a2);
 		}
+
 	};
 }

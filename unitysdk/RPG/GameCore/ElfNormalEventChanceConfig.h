@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/RestaurantEmployeeAbility.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ElfNormalEventChanceConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_METHOD_2_1FB6778FA88C16A1_OFFSET UNITYSDK_OFFSET(0x1DB2A040)
-#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2A210)
+#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D609400)
+#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D609230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfNormalEventChanceConfig_TypeDefinitionIndex = 18260;
+	inline static constexpr unsigned int ElfNormalEventChanceConfig_TypeDefinitionIndex = 18475;
 
 	class ElfNormalEventChanceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,15 +19,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::RestaurantEmployeeAbility Ability; // 0x14
 		::System::Single EventGenChanceAdd; // 0x18
 		::System::Single EventGenChanceReset; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1FB6778FA88C16A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfNormalEventChanceConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfNormalEventChanceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfNormalEventChanceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_METHOD_2_1FB6778FA88C16A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfNormalEventChanceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

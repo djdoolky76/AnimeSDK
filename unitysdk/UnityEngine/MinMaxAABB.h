@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C6B810)
-#define UNITYENGINE_MINMAXAABB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C6B800)
-#define UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C6B720)
-#define UNITYENGINE_MINMAXAABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3AF6A50)
-#define UNITYENGINE_MINMAXAABB_GET_EXTENTS_OFFSET UNITYSDK_OFFSET(0x3C6B9C0)
-#define UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C6BA00)
+#define UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C702B0)
+#define UNITYENGINE_MINMAXAABB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C702A0)
+#define UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C701C0)
+#define UNITYENGINE_MINMAXAABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3C342F0)
+#define UNITYENGINE_MINMAXAABB_GET_EXTENTS_OFFSET UNITYSDK_OFFSET(0x3C362A0)
+#define UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C70460)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MinMaxAABB_TypeDefinitionIndex = 4256;
+	inline static constexpr unsigned int MinMaxAABB_TypeDefinitionIndex = 4258;
 
 	struct alignas(4) MinMaxAABB
 	{
 		::UnityEngine::Vector3 m_Min; // 0x10
 		::UnityEngine::Vector3 m_Max; // 0x1C
-
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET))(this);
@@ -32,10 +29,12 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::MinMaxAABB a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::MinMaxAABB))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
 		::UnityEngine::Vector3 get_center()
 		{
@@ -51,5 +50,6 @@ namespace UnityEngine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_ResetFrameStatsAfterPresent_TypeDefinitionIndex = 4559;
+	inline static constexpr unsigned int EarlyUpdate_ResetFrameStatsAfterPresent_TypeDefinitionIndex = 4563;
 
-	struct alignas(1) EarlyUpdate_ResetFrameStatsAfterPresent
+	struct alignas(4) EarlyUpdate_ResetFrameStatsAfterPresent
 	{
 	};
 }

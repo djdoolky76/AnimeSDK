@@ -1,34 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/VertexAttachment.h"
-
 namespace Spine { class Attachment; }
+namespace Spine { class BoundingBoxAttachment; }
 namespace System { class String; }
 
-#define SPINE_BOUNDINGBOXATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x160535B0)
-#define SPINE_BOUNDINGBOXATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16053570)
-#define SPINE_BOUNDINGBOXATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16050E30)
+#define SPINE_BOUNDINGBOXATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1EC736B0)
+#define SPINE_BOUNDINGBOXATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC73670)
+#define SPINE_BOUNDINGBOXATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC70F60)
 
 namespace Spine
 {
-	inline static constexpr unsigned int BoundingBoxAttachment_TypeDefinitionIndex = 38356;
+	inline static constexpr unsigned int BoundingBoxAttachment_TypeDefinitionIndex = 39653;
 
 	class BoundingBoxAttachment : public ::Spine::VertexAttachment
 	{
 	public:
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_BOUNDINGBOXATTACHMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_BOUNDINGBOXATTACHMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::Spine::BoundingBoxAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::BoundingBoxAttachment*))((::PBYTE)hIl2Cpp + SPINE_BOUNDINGBOXATTACHMENT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::BoundingBoxAttachment*))((::PBYTE)hIl2Cpp + SPINE_BOUNDINGBOXATTACHMENT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Spine::Attachment* Copy()
 		{
 			return ((::Spine::Attachment*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BOUNDINGBOXATTACHMENT_COPY_OFFSET))(this);
 		}
+
 	};
 }

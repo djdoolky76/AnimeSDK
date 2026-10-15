@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_GUI_WINDOWFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CAC8A30)
-#define UNITYENGINE_GUI_WINDOWFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CAC8A80)
-#define UNITYENGINE_GUI_WINDOWFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CAC8610)
-#define UNITYENGINE_GUI_WINDOWFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC89C0)
+#define UNITYENGINE_GUI_WINDOWFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F424530)
+#define UNITYENGINE_GUI_WINDOWFUNCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4244C0)
+#define UNITYENGINE_GUI_WINDOWFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F424580)
+#define UNITYENGINE_GUI_WINDOWFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F424110)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUI_WindowFunction_TypeDefinitionIndex = 5160;
+	inline static constexpr unsigned int GUI_WindowFunction_TypeDefinitionIndex = 5167;
 
 	class GUI_WindowFunction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_WINDOWFUNCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_WINDOWFUNCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +36,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_WINDOWFUNCTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

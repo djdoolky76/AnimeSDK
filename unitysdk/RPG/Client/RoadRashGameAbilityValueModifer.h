@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/ERoadRashGameAbilityValueModifyType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_METHOD_2_5946A9AF26738BBC_OFFSET UNITYSDK_OFFSET(0x1D313F20)
-#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D314120)
+#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FCD00)
+#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FCB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbilityValueModifer_TypeDefinitionIndex = 10285;
+	inline static constexpr unsigned int RoadRashGameAbilityValueModifer_TypeDefinitionIndex = 10299;
 
 	class RoadRashGameAbilityValueModifer : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,15 +19,15 @@ namespace RPG::Client
 		::RPG::GameCore::FixPoint Priority; // 0x10
 		::RPG::GameCore::FixPoint Value; // 0x18
 		::RPG::Client::ERoadRashGameAbilityValueModifyType Type; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5946A9AF26738BBC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbilityValueModifer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbilityValueModifer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbilityValueModifer*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_METHOD_2_5946A9AF26738BBC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbilityValueModifer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

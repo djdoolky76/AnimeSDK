@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Profile_TypeDefinitionIndex = 36044;
+	inline static constexpr unsigned int B2Profile_TypeDefinitionIndex = 36731;
 
 	struct alignas(4) B2Profile
 	{

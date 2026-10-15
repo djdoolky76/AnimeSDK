@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace ScenenLightManager { class Tup; }
+
+#define NCLAAPMIJMD_COMPARE_OFFSET UNITYSDK_OFFSET(0xBB0EB70)
+#define NCLAAPMIJMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0EC00)
+
+inline static constexpr unsigned int NCLAAPMIJMD_TypeDefinitionIndex = 49165;
+
+	class NCLAAPMIJMD : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCLAAPMIJMD_CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 Compare(::ScenenLightManager::Tup* a1, ::ScenenLightManager::Tup* a2)
+		{
+			return ((::System::Int32(*)(::PVOID, ::ScenenLightManager::Tup*, ::ScenenLightManager::Tup*))((::PBYTE)hIl2Cpp + NCLAAPMIJMD_COMPARE_OFFSET))(this, a1, a2);
+		}
+
+	};

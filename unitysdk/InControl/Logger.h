@@ -2,32 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/LogMessage.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define INCONTROL_LOGGER_ADD_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x18E823B0)
-#define INCONTROL_LOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x18E91740)
-#define INCONTROL_LOGGER_LOGINFO_OFFSET UNITYSDK_OFFSET(0x18E82440)
-#define INCONTROL_LOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x18E8DAC0)
-#define INCONTROL_LOGGER_REMOVE_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x18E82320)
-#define INCONTROL_LOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E95E70)
+#define INCONTROL_LOGGER_ADD_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B9CCDA0)
+#define INCONTROL_LOGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E0460)
+#define INCONTROL_LOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1B9DBE70)
+#define INCONTROL_LOGGER_LOGINFO_OFFSET UNITYSDK_OFFSET(0x1B9CCE30)
+#define INCONTROL_LOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1B9D81F0)
+#define INCONTROL_LOGGER_REMOVE_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B9CCD10)
 
 namespace InControl
 {
-	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 39537;
+	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 40834;
 
 	class Logger : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::InControl::LogMessage>** StaticGet_OnLogMessage()
 		{
-			return (::System::Action_1<::InControl::LogMessage>**)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x3FD0);
+			return (::System::Action_1<::InControl::LogMessage>**)UnitySDK::FromName("InControl", "Logger")->GetStaticField(0x64CE0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_LOGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_LOGGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void add_OnLogMessage(::System::Action_1<::InControl::LogMessage>* a1)
@@ -54,5 +53,6 @@ namespace InControl
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_LOGGER_LOGERROR_OFFSET))(a1);
 		}
+
 	};
 }

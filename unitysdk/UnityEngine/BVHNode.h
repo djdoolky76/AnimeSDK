@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/BVHData.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BVHNode_TypeDefinitionIndex = 4101;
+	inline static constexpr unsigned int BVHNode_TypeDefinitionIndex = 4102;
 
 	struct alignas(8) BVHNode
 	{

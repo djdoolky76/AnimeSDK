@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LevelNPCOverrideBehaviorParameter.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelNPCTrainPassengerParam; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1C11EBC0)
-#define RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11EF50)
-#define RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11EBB0)
+#define RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D78ADE0)
+#define RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D78ADF0)
+#define RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D78B330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCTrainPassengerParam_TypeDefinitionIndex = 17075;
+	inline static constexpr unsigned int LevelNPCTrainPassengerParam_TypeDefinitionIndex = 17270;
 
 	class LevelNPCTrainPassengerParam : public ::RPG::GameCore::LevelNPCOverrideBehaviorParameter
 	{
 	public:
 		::System::UInt32 PassengerID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCTrainPassengerParam*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCTrainPassengerParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCTrainPassengerParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCTrainPassengerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCTrainPassengerParam* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCTrainPassengerParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCTrainPassengerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCTrainPassengerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCTRAINPASSENGERPARAM_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

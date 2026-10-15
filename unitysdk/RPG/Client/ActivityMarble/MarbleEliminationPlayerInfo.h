@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ActivityMarble { class MarbleEliminationRoundInfo; }
 namespace RPG::Client::ActivityMarble { class MarblePvePlayer; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x1AF9AB70)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_GET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1AF9A790)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_INITFROM_OFFSET UNITYSDK_OFFSET(0x1AF9A6D0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x1AF9AB80)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF9A6C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC536040)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0xC536410)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_GET_PLAYER_OFFSET UNITYSDK_OFFSET(0xC5360D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_INITFROM_OFFSET UNITYSDK_OFFSET(0xC536050)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xC536420)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarbleEliminationPlayerInfo_TypeDefinitionIndex = 74582;
+	inline static constexpr unsigned int MarbleEliminationPlayerInfo_TypeDefinitionIndex = 75983;
 
 	class MarbleEliminationPlayerInfo : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsWin_k__BackingField; // 0x10
-		::System::Boolean IsFromLeft; // 0x11
-		::System::UInt32 _PlayerID; // 0x14
-
+		::System::UInt32 _PlayerID; // 0x10
+		::System::Boolean _IsWin_k__BackingField; // 0x14
+		::System::Boolean IsFromLeft; // 0x15
 		::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void InitFrom(::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo* a1)
@@ -46,5 +44,6 @@ namespace RPG::Client::ActivityMarble
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONPLAYERINFO_SET_ISWIN_OFFSET))(this, a1);
 		}
+
 	};
 }

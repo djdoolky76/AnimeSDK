@@ -1,19 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/SRF/Service/SRServiceBase_1.h"
-
-namespace System { class String; }
-namespace System::Collections { class IEnumerator; }
-namespace UnityEngine { class Object; }
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRSceneServiceBase_2_TypeDefinitionIndex = 34744;
+	inline static constexpr unsigned int SRSceneServiceBase_2_TypeDefinitionIndex = 35413;
 
-	template <typename T, typename TImpl>
-	class SRSceneServiceBase_2 : public ::SRF::Service::SRServiceBase_1<T>
+	template <typename T1, typename T2>
+	class SRSceneServiceBase_2
 	{
 	public:
-		TImpl _rootObject; // 0x0
+		T1 _rootObject; // 0x0
 	};
 }

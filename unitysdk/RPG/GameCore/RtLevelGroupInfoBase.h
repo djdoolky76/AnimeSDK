@@ -7,8 +7,7 @@
 #include "unitysdk/RPG/GameCore/HoyoGroupStreamingTemplateType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/LevelGroupLoadSide.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class GroupPropertyConfig; }
 namespace RPG::GameCore { class GroupState; }
 namespace RPG::GameCore { class HoyoTagContainer; }
@@ -33,26 +32,29 @@ namespace RPG::GameCore { class LevelPedestrianV2Info; }
 namespace RPG::GameCore { class LevelPropInfo; }
 namespace RPG::GameCore { class LevelSmartObjectInfo; }
 namespace RPG::GameCore { class LevelWaypointInfo; }
+namespace RPG::GameCore { class RtLevelGroupInfoBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_6FCB1E01C18E4715_OFFSET UNITYSDK_OFFSET(0x1CCE9940)
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_CB070DEF2CA7CA6C_OFFSET UNITYSDK_OFFSET(0x1CCE9780)
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE9760)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA323E0)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA325C0)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA32400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 17148;
+	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 17343;
 
 	class RtLevelGroupInfoBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* GroupName; // 0x10
 		::RPG::GameCore::GroupCategory Category; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* ConfigPrefabPath; // 0x20
 		::System::String* LevelGraph; // 0x28
 		::System::String* AreaAnchorName; // 0x30
 		::RPG::GameCore::GroupSaveType SaveType; // 0x38
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::LevelGroupMissionConditionSet* LoadCondition; // 0x40
 		::RPG::GameCore::LevelGroupMissionConditionSet* UnloadCondition; // 0x48
 		::RPG::GameCore::LevelGroupMissionConditionSet* ForceUnloadCondition; // 0x50
@@ -62,24 +64,30 @@ namespace RPG::GameCore
 		::System::Boolean UseCustomSaveData; // 0x70
 		::System::Boolean IsPendedLoad; // 0x71
 		::System::Boolean IsPendedUnload; // 0x72
+		::System::Byte _padding2[0x1];
 		::RPG::GameCore::LevelGroupLoadSide LoadSide; // 0x74
 		::System::Boolean LoadOnInitial; // 0x78
+		::System::Byte _padding3[0x3];
 		::System::UInt32 OwnerMainMissionID; // 0x7C
 		::Il2CppArray<::System::String*>* AirlineInitPrefabPaths; // 0x80
 		::RPG::GameCore::LevelGroupRandomInitInfo* RandomInit; // 0x88
 		::Il2CppArray<::RPG::GameCore::GroupState*>* GroupStateList; // 0x90
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GroupPropertyConfig*>* GroupPropertyMap; // 0x98
 		::System::UInt32 GroupRefreshID; // 0xA0
+		::System::Byte _padding4[0x4];
 		::RPG::GameCore::LevelGraphValueSource* ValueSource; // 0xA8
 		::Il2CppArray<::System::UInt32>* ConflictIDList; // 0xB0
 		::System::Boolean IsHoyoGroup; // 0xB8
+		::System::Byte _padding5[0x3];
 		::RPG::GameCore::HoYoGroupType HoYoGroupType; // 0xBC
 		::RPG::GameCore::HoyoGroupStreamingTemplateType StreamingTemplateType; // 0xC0
 		::RPG::GameCore::GraphicQuality HoyoGroupLowestLoadPlatformQuality; // 0xC4
 		::Il2CppArray<::System::UInt32>* ConflictWhiteList; // 0xC8
 		::System::Boolean EnableGroupAI; // 0xD0
+		::System::Byte _padding6[0x7];
 		::RPG::GameCore::HoyoTagContainer* TagContainer; // 0xD8
 		::System::Boolean IsSaveNeedMergeBack; // 0xE0
+		::System::Byte _padding7[0x7];
 		::Il2CppArray<::RPG::GameCore::LevelAnchorInfo*>* AnchorList; // 0xE8
 		::Il2CppArray<::RPG::GameCore::LevelMonsterInfo*>* MonsterList; // 0xF0
 		::Il2CppArray<::RPG::GameCore::LevelPropInfo*>* PropList; // 0xF8
@@ -95,20 +103,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::LevelSmartObjectInfo*>* SmartObjectList; // 0x148
 		::Il2CppArray<::RPG::GameCore::LevelCurveInfo*>* CurveList; // 0x150
 		::Il2CppArray<::RPG::GameCore::LevelLittleGameInfo*>* LittleGameList; // 0x158
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFOBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFOBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CB070DEF2CA7CA6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelGroupInfoBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtLevelGroupInfoBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelGroupInfoBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_CB070DEF2CA7CA6C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtLevelGroupInfoBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFOBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_6FCB1E01C18E4715(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelGroupInfoBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtLevelGroupInfoBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelGroupInfoBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_6FCB1E01C18E4715_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtLevelGroupInfoBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFOBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

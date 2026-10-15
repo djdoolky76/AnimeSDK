@@ -1,0 +1,201 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/RPG/GameCore/SkillSPProgressType.h"
+#include "unitysdk/IGKFNIEJGLM.h"
+class FMPCODLIOLG;
+class KECKKGPEKPJ;
+class OIGLHNJBHED;
+class PMPMKGFGICF;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+
+#define ODADIANBOGD_ACOINEJHNMG_OFFSET UNITYSDK_OFFSET(0xBD706A0)
+#define ODADIANBOGD_ANBCOHKDLEC_OFFSET UNITYSDK_OFFSET(0xBD6FB20)
+#define ODADIANBOGD_APKDADOCMGI_OFFSET UNITYSDK_OFFSET(0xBD6EDB0)
+#define ODADIANBOGD_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xBD70890)
+#define ODADIANBOGD_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xBD709B0)
+#define ODADIANBOGD_BLKKIGPHOOL_OFFSET UNITYSDK_OFFSET(0xBD707A0)
+#define ODADIANBOGD_CFLMMIMOJCE_OFFSET UNITYSDK_OFFSET(0xBD6EFE0)
+#define ODADIANBOGD_CTOR_OFFSET UNITYSDK_OFFSET(0xBD70AA0)
+#define ODADIANBOGD_DCODHLFNNGL_OFFSET UNITYSDK_OFFSET(0xBD6EF00)
+#define ODADIANBOGD_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xBD6ED30)
+#define ODADIANBOGD_DJLLCHKBGOK_OFFSET UNITYSDK_OFFSET(0xBD6F7B0)
+#define ODADIANBOGD_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xBD6F030)
+#define ODADIANBOGD_FFOKBCNCOEI_OFFSET UNITYSDK_OFFSET(0xBD70220)
+#define ODADIANBOGD_FLBOMMGKGBA_OFFSET UNITYSDK_OFFSET(0xBD6F0A0)
+#define ODADIANBOGD_HAPNJBEFIMN_OFFSET UNITYSDK_OFFSET(0xBD6F9C0)
+#define ODADIANBOGD_IMJJNMKABHL_OFFSET UNITYSDK_OFFSET(0xBD700C0)
+#define ODADIANBOGD_JJDEBMCFINC_OFFSET UNITYSDK_OFFSET(0xBD706E0)
+#define ODADIANBOGD_JPKFAEOIJDJ_OFFSET UNITYSDK_OFFSET(0xBD6EF60)
+#define ODADIANBOGD_LHHJIIOFPEC_OFFSET UNITYSDK_OFFSET(0xBD6FCA0)
+#define ODADIANBOGD_LKJKBMMPJDI_OFFSET UNITYSDK_OFFSET(0xBD70340)
+#define ODADIANBOGD_MDINHNPDKDH_OFFSET UNITYSDK_OFFSET(0xBD6FF60)
+#define ODADIANBOGD_NFCNKHJBKBI_OFFSET UNITYSDK_OFFSET(0xBD6FE00)
+#define ODADIANBOGD_NPNJJLGDKCL_OFFSET UNITYSDK_OFFSET(0xBD6F630)
+#define ODADIANBOGD_OHGDBFAIGDD_OFFSET UNITYSDK_OFFSET(0xBD705E0)
+#define ODADIANBOGD_OHMFNPPIECM_OFFSET UNITYSDK_OFFSET(0xBD703F0)
+#define ODADIANBOGD_PABIKLFICHE_OFFSET UNITYSDK_OFFSET(0xBD6F530)
+#define ODADIANBOGD_PDHLICBLOMI_OFFSET UNITYSDK_OFFSET(0xBD70550)
+#define ODADIANBOGD_PFPGMDMLNEN_OFFSET UNITYSDK_OFFSET(0xBD6F360)
+#define ODADIANBOGD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBD6EC40)
+
+inline static constexpr unsigned int ODADIANBOGD_TypeDefinitionIndex = 71449;
+
+	class ODADIANBOGD : public ::FMPCODLIOLG
+	{
+	public:
+		::FMPCODLIOLG* LGKIBCBINEM; // 0x60
+		::UnityEngine::Transform* MOGAILKHMNA; // 0x68
+		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x70
+		::PMPMKGFGICF* MKNJNDLHMLA; // 0x78
+		::UnityEngine::Transform* DGKOLHPFDMK; // 0x80
+		::RPG::GameCore::SkillSPProgressType AMGLDBPMEHE; // 0x88
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnBind()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD__ONBIND_OFFSET))(this);
+		}
+
+		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + ODADIANBOGD_DHHDFAAJMMC_OFFSET))(this, a1);
+		}
+
+		::System::Void DCODHLFNNGL(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + ODADIANBOGD_DCODHLFNNGL_OFFSET))(this, a1);
+		}
+
+		::System::Void CFLMMIMOJCE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_CFLMMIMOJCE_OFFSET))(this);
+		}
+
+		::System::Void EKGCGIDIFJJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_EKGCGIDIFJJ_OFFSET))(this);
+		}
+
+		::System::Void PFPGMDMLNEN(::KECKKGPEKPJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KECKKGPEKPJ*))((::PBYTE)hIl2Cpp + ODADIANBOGD_PFPGMDMLNEN_OFFSET))(this, a1);
+		}
+
+		::System::Void NPNJJLGDKCL(::OIGLHNJBHED* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OIGLHNJBHED*))((::PBYTE)hIl2Cpp + ODADIANBOGD_NPNJJLGDKCL_OFFSET))(this, a1);
+		}
+
+		::System::Void JPKFAEOIJDJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_JPKFAEOIJDJ_OFFSET))(this);
+		}
+
+		::System::Boolean PABIKLFICHE(::RPG::GameCore::SkillSPProgressType a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SkillSPProgressType))((::PBYTE)hIl2Cpp + ODADIANBOGD_PABIKLFICHE_OFFSET))(this, a1);
+		}
+
+		::System::Void APKDADOCMGI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_APKDADOCMGI_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* FLBOMMGKGBA()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_FLBOMMGKGBA_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* PDHLICBLOMI()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_PDHLICBLOMI_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* LHHJIIOFPEC()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_LHHJIIOFPEC_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* DJLLCHKBGOK()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_DJLLCHKBGOK_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* MDINHNPDKDH()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_MDINHNPDKDH_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* HAPNJBEFIMN()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_HAPNJBEFIMN_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* ANBCOHKDLEC()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_ANBCOHKDLEC_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* NFCNKHJBKBI()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_NFCNKHJBKBI_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* IMJJNMKABHL()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_IMJJNMKABHL_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* FFOKBCNCOEI()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_FFOKBCNCOEI_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* LKJKBMMPJDI()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_LKJKBMMPJDI_OFFSET))(this);
+		}
+
+		::FMPCODLIOLG* OHMFNPPIECM()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_OHMFNPPIECM_OFFSET))(this);
+		}
+
+		static ::System::String* OHGDBFAIGDD()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + ODADIANBOGD_OHGDBFAIGDD_OFFSET))();
+		}
+
+		::FMPCODLIOLG* ACOINEJHNMG()
+		{
+			return ((::FMPCODLIOLG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_ACOINEJHNMG_OFFSET))(this);
+		}
+
+		::System::Void JJDEBMCFINC(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ODADIANBOGD_JJDEBMCFINC_OFFSET))(this, a1);
+		}
+
+		::System::Void BLKKIGPHOOL(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ODADIANBOGD_BLKKIGPHOOL_OFFSET))(this, a1);
+		}
+
+		::System::Void AutoBindCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_AUTOBINDCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void AutoRemoveCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODADIANBOGD_AUTOREMOVECALLBACK_OFFSET))(this);
+		}
+
+	};

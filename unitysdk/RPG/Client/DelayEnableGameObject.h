@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DELAYENABLEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x192E4150)
+#define RPG_CLIENT_DELAYENABLEGAMEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE8CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DelayEnableGameObject_TypeDefinitionIndex = 70019;
+	inline static constexpr unsigned int DelayEnableGameObject_TypeDefinitionIndex = 70054;
 
 	class DelayEnableGameObject : public ::System::Object
 	{
@@ -16,10 +15,10 @@ namespace RPG::Client
 		::UnityEngine::GameObject* GO; // 0x10
 		::System::Single DelayTime; // 0x18
 		::System::Boolean Done; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DELAYENABLEGAMEOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DELAYENABLEGAMEOBJECT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

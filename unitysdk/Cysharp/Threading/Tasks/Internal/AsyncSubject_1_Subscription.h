@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class AsyncSubject_1; }
+namespace System { class Object; }
 namespace System { template <typename T> class IObserver_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int AsyncSubject_1_Subscription_TypeDefinitionIndex = 43111;
+	inline static constexpr unsigned int AsyncSubject_1_Subscription_TypeDefinitionIndex = 38696;
 
 	template <typename T>
 	class AsyncSubject_1_Subscription : public ::System::Object

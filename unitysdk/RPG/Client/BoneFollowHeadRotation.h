@@ -3,95 +3,99 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class BoneFollowHeadRotation_HeadFollowBoneEntry; }
 namespace RPG::Client { class LookAtIK; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD90FF0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x1BD90770)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_4BE99DDCF7F1FD88_OFFSET UNITYSDK_OFFSET(0x1BD90D10)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1BD90760)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_56552A5762FD2EFD_OFFSET UNITYSDK_OFFSET(0x1BD914E0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_5D54C30F452105AE_OFFSET UNITYSDK_OFFSET(0x1BD91CF0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_6D71CC7A9DF62322_OFFSET UNITYSDK_OFFSET(0x1BD90CC0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_7B5CF29097D2700A_OFFSET UNITYSDK_OFFSET(0x1BD92100)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_90EC931103FB6F31_OFFSET UNITYSDK_OFFSET(0x1BD90F90)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_A29740DEFAF9052D_OFFSET UNITYSDK_OFFSET(0x1BD91C00)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_AA9368B26B643FC9_OFFSET UNITYSDK_OFFSET(0x1BD91680)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_B93A9FB8A3E13C83_OFFSET UNITYSDK_OFFSET(0x1BD90F40)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_D12F8A06E3A6D25D_OFFSET UNITYSDK_OFFSET(0x1BD917A0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x1BD90740)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_EC130DFB9EDACA56_OFFSET UNITYSDK_OFFSET(0x1BD907E0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_EFF275E2C18C04F2_OFFSET UNITYSDK_OFFSET(0x1BD908F0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1BD90730)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BD91040)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1BD910A0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_UPDATEFOLLOW_OFFSET UNITYSDK_OFFSET(0x1BD910F0)
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD92190)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_ADNJJABIOEJ_OFFSET UNITYSDK_OFFSET(0xC8A5310)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8A5A10)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_BIKMEFFHHBN_OFFSET UNITYSDK_OFFSET(0xC8A56E0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_BOABFLMLKII_OFFSET UNITYSDK_OFFSET(0xC8A5160)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_CGFOJKFIAKO_OFFSET UNITYSDK_OFFSET(0xC8A6620)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A6BB0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_DJBNJMGCFDE_OFFSET UNITYSDK_OFFSET(0xC8A61C0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_DPJMOOFDMEL_OFFSET UNITYSDK_OFFSET(0xC8A5180)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_EKEGDIMHMLN_OFFSET UNITYSDK_OFFSET(0xC8A5960)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_HAHCDNNPCMK_OFFSET UNITYSDK_OFFSET(0xC8A5200)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_HCBKDNFHGJG_OFFSET UNITYSDK_OFFSET(0xC8A60A0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_JAKPOPIEBJE_OFFSET UNITYSDK_OFFSET(0xC8A5150)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_LMHDJAMKBIE_OFFSET UNITYSDK_OFFSET(0xC8A6710)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_LPBGPNLGJNL_OFFSET UNITYSDK_OFFSET(0xC8A5F00)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_MDNIIHHLKJH_OFFSET UNITYSDK_OFFSET(0xC8A5730)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_MHNCIMNFDAF_OFFSET UNITYSDK_OFFSET(0xC8A6B20)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_NAELGDNHEIL_OFFSET UNITYSDK_OFFSET(0xC8A5190)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC8A5A60)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xC8A5AC0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_PPDJNGKNIMK_OFFSET UNITYSDK_OFFSET(0xC8A59B0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_UPDATEFOLLOW_OFFSET UNITYSDK_OFFSET(0xC8A5B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoneFollowHeadRotation_TypeDefinitionIndex = 68409;
+	inline static constexpr unsigned int BoneFollowHeadRotation_TypeDefinitionIndex = 68442;
 
 	class BoneFollowHeadRotation : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* HeadBone; // 0x18
 		::System::Boolean AutoResolveHeadFromLookAtIk; // 0x20
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* RotationReference; // 0x28
 		::System::Boolean AutoFindFollowBoneByName; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry*>* FollowBones; // 0x38
+		::System::Byte _padding1[0x7];
+		::System::Collections::Generic::List_1<::System::Object*>* FollowBones; // 0x38
 		::System::Boolean RecaptureBindPoseOnEnable; // 0x40
 		::System::Boolean EnableFollow; // 0x41
+		::System::Byte _padding2[0x2];
 		::System::Single GlobalCoefficientMultiplier; // 0x44
 		::System::Boolean DrawRuntimeGizmos; // 0x48
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Quaternion LHAHADFKJHH; // 0x4C
 		::System::Boolean NAOAJNBMPBM; // 0x5C
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Vector3 OCOPNMLPOAM; // 0x60
 		::System::Single CDBFEOGMOAJ; // 0x6C
 		::RPG::Client::LookAtIK* FEIPKPLMKDO; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB()
+		::System::Boolean JAKPOPIEBJE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_JAKPOPIEBJE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_5_D37FAD0A6AA04B25()
+		::UnityEngine::Vector3 BOABFLMLKII()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_D37FAD0A6AA04B25_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_BOABFLMLKII_OFFSET))(this);
 		}
 
-		::System::Single Method_5_5323F2DF46A044DA()
+		::System::Single DPJMOOFDMEL()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_5323F2DF46A044DA_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_DPJMOOFDMEL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_00DEF5A164D9A9D5()
+		::System::Void NAELGDNHEIL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_00DEF5A164D9A9D5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_NAELGDNHEIL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6D71CC7A9DF62322()
+		::System::Void BIKMEFFHHBN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_6D71CC7A9DF62322_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_BIKMEFFHHBN_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B93A9FB8A3E13C83()
+		::System::Void EKEGDIMHMLN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_B93A9FB8A3E13C83_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_EKEGDIMHMLN_OFFSET))(this);
 		}
 
-		::UnityEngine::Transform* Method_5_90EC931103FB6F31()
+		::UnityEngine::Transform* PPDJNGKNIMK()
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_90EC931103FB6F31_OFFSET))(this);
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_PPDJNGKNIMK_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -114,49 +118,50 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_UPDATEFOLLOW_OFFSET))(this);
 		}
 
-		::System::Void Method_5_56552A5762FD2EFD(::UnityEngine::Quaternion a1)
+		::System::Void LPBGPNLGJNL(::UnityEngine::Quaternion a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_56552A5762FD2EFD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_LPBGPNLGJNL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_AA9368B26B643FC9()
+		::System::Void HCBKDNFHGJG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_AA9368B26B643FC9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_HCBKDNFHGJG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4BE99DDCF7F1FD88()
+		::System::Void MDNIIHHLKJH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_4BE99DDCF7F1FD88_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_MDNIIHHLKJH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EFF275E2C18C04F2()
+		::System::Void ADNJJABIOEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_EFF275E2C18C04F2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_ADNJJABIOEJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EC130DFB9EDACA56()
+		::System::Void HAHCDNNPCMK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_EC130DFB9EDACA56_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_HAHCDNNPCMK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D12F8A06E3A6D25D(::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry* a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3)
+		::System::Void DJBNJMGCFDE(::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry* a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry*, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_D12F8A06E3A6D25D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry*, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_DJBNJMGCFDE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::UnityEngine::Quaternion Method_5_5D54C30F452105AE(::UnityEngine::Quaternion a1, ::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry* a2, ::System::Single a3)
+		static ::UnityEngine::Quaternion LMHDJAMKBIE(::UnityEngine::Quaternion a1, ::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry* a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Quaternion, ::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_5D54C30F452105AE_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Quaternion, ::RPG::Client::BoneFollowHeadRotation_HeadFollowBoneEntry*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_LMHDJAMKBIE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Method_5_7B5CF29097D2700A(::System::Single a1)
+		static ::System::Single MHNCIMNFDAF(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_7B5CF29097D2700A_OFFSET))(a1);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_MHNCIMNFDAF_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Transform* Method_5_A29740DEFAF9052D(::UnityEngine::Transform* a1, ::System::String* a2)
+		static ::UnityEngine::Transform* CGFOJKFIAKO(::UnityEngine::Transform* a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::Transform*(*)(::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_METHOD_5_A29740DEFAF9052D_OFFSET))(a1, a2);
+			return ((::UnityEngine::Transform*(*)(::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BONEFOLLOWHEADROTATION_CGFOJKFIAKO_OFFSET))(a1, a2);
 		}
+
 	};
 }

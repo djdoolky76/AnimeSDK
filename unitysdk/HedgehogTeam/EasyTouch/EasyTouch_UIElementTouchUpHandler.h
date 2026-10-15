@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D161040)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D161070)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A970)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D160F50)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673C090)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673BFA0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673C0C0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16735990)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_UIElementTouchUpHandler_TypeDefinitionIndex = 39030;
+	inline static constexpr unsigned int EasyTouch_UIElementTouchUpHandler_TypeDefinitionIndex = 40327;
 
 	class EasyTouch_UIElementTouchUpHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_UIELEMENTTOUCHUPHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

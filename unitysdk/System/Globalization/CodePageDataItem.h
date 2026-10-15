@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x18D6A9A0)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_BODYNAME_OFFSET UNITYSDK_OFFSET(0x18D6ABA0)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x18D6AC40)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_HEADERNAME_OFFSET UNITYSDK_OFFSET(0x18D6AB00)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_UIFAMILYCODEPAGE_OFFSET UNITYSDK_OFFSET(0x18D6AAF0)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_WEBNAME_OFFSET UNITYSDK_OFFSET(0x18D6AA50)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D6AC50)
-#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18D6A920)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1E4D40)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x1C1E4A90)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E4A10)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_BODYNAME_OFFSET UNITYSDK_OFFSET(0x1C1E4C90)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1C1E4D30)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_HEADERNAME_OFFSET UNITYSDK_OFFSET(0x1C1E4BF0)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_UIFAMILYCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1C1E4BE0)
+#define SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_WEBNAME_OFFSET UNITYSDK_OFFSET(0x1C1E4B40)
 
 namespace System::Globalization
 {
@@ -20,25 +19,25 @@ namespace System::Globalization
 	class CodePageDataItem : public ::System::Object
 	{
 	public:
+		::System::String* m_bodyName; // 0x10
+		::System::String* m_webName; // 0x18
+		::System::String* m_headerName; // 0x20
+		::System::Int32 m_uiFamilyCodePage; // 0x28
+		::System::UInt32 m_flags; // 0x2C
+		::System::Int32 m_dataIndex; // 0x30
 		static ::Il2CppArray<::System::Char>** StaticGet_sep()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodePageDataItem_TypeDefinitionIndex)->GetStaticField(0x7B00);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "CodePageDataItem")->GetStaticField(0x15A70);
 		}
-		::System::String* m_webName; // 0x10
-		::System::String* m_headerName; // 0x18
-		::System::String* m_bodyName; // 0x20
-		::System::UInt32 m_flags; // 0x28
-		::System::Int32 m_dataIndex; // 0x2C
-		::System::Int32 m_uiFamilyCodePage; // 0x30
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* CreateString(::System::String* a1, ::System::UInt32 a2)
@@ -70,5 +69,6 @@ namespace System::Globalization
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CODEPAGEDATAITEM_GET_FLAGS_OFFSET))(this);
 		}
+
 	};
 }

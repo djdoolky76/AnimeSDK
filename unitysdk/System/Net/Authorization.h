@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_NET_AUTHORIZATION_GET_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1AB40710)
-#define SYSTEM_NET_AUTHORIZATION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1AB40700)
-#define SYSTEM_NET_AUTHORIZATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB406B0)
-#define SYSTEM_NET_AUTHORIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB40660)
+#define SYSTEM_NET_AUTHORIZATION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFF1DB0)
+#define SYSTEM_NET_AUTHORIZATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF1D60)
+#define SYSTEM_NET_AUTHORIZATION_GET_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1EFF1E10)
+#define SYSTEM_NET_AUTHORIZATION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1EFF1E00)
 
 namespace System::Net
 {
@@ -19,15 +18,14 @@ namespace System::Net
 		::System::String* m_Message; // 0x10
 		::System::String* ModuleAuthenticationType; // 0x18
 		::System::Boolean m_Complete; // 0x20
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHORIZATION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHORIZATION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHORIZATION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHORIZATION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()
@@ -39,5 +37,6 @@ namespace System::Net
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHORIZATION_GET_COMPLETE_OFFSET))(this);
 		}
+
 	};
 }

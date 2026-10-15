@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_NAMEDCURVE_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x1A322A80)
-#define RPG_CLIENT_NAMEDCURVE_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x1A322A90)
-#define RPG_CLIENT_NAMEDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A322AA0)
+#define RPG_CLIENT_NAMEDCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0xD9270D0)
+#define RPG_CLIENT_NAMEDCURVE_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0xD9270B0)
+#define RPG_CLIENT_NAMEDCURVE_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0xD9270C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NamedCurve_TypeDefinitionIndex = 60182;
+	inline static constexpr unsigned int NamedCurve_TypeDefinitionIndex = 60045;
 
 	class NamedCurve : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Int32 _NameHash_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* Curve; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAMEDCURVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAMEDCURVE_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_NameHash()
@@ -32,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAMEDCURVE_SET_NAMEHASH_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RPGGrassSetting.h"
 
-#define UNITYENGINE_RPGGRASSSETTINGUTIL_CLOSEGRASSPARAMETEROVERRIDE_OFFSET UNITYSDK_OFFSET(0x1EABC170)
-#define UNITYENGINE_RPGGRASSSETTINGUTIL_GETRPGGRASSSETTING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EABC160)
-#define UNITYENGINE_RPGGRASSSETTINGUTIL_GETRPGGRASSSETTING_OFFSET UNITYSDK_OFFSET(0x1EABC110)
-#define UNITYENGINE_RPGGRASSSETTINGUTIL_SETGRASSPARAMETEROVERRIDE_OFFSET UNITYSDK_OFFSET(0x1EABC180)
-#define UNITYENGINE_RPGGRASSSETTINGUTIL_SETRPGGRASSSETTING_OFFSET UNITYSDK_OFFSET(0x1EABC100)
+#define UNITYENGINE_RPGGRASSSETTINGUTIL_CLOSEGRASSPARAMETEROVERRIDE_OFFSET UNITYSDK_OFFSET(0x1F3E3930)
+#define UNITYENGINE_RPGGRASSSETTINGUTIL_GETRPGGRASSSETTING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3E3920)
+#define UNITYENGINE_RPGGRASSSETTINGUTIL_GETRPGGRASSSETTING_OFFSET UNITYSDK_OFFSET(0x1F3E38D0)
+#define UNITYENGINE_RPGGRASSSETTINGUTIL_SETGRASSPARAMETEROVERRIDE_OFFSET UNITYSDK_OFFSET(0x1F3E3940)
+#define UNITYENGINE_RPGGRASSSETTINGUTIL_SETRPGGRASSSETTING_OFFSET UNITYSDK_OFFSET(0x1F3E38C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RPGGrassSettingUtil_TypeDefinitionIndex = 4284;
+	inline static constexpr unsigned int RPGGrassSettingUtil_TypeDefinitionIndex = 4287;
 
 	class RPGGrassSettingUtil : public ::System::Object
 	{
 	public:
-		static ::System::Void SetRPGGrassSetting(::UnityEngine::RPGGrassSetting& a1)
+		static ::System::Void SetRPGGrassSetting(::UnityEngine::RPGGrassSetting a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::RPGGrassSetting&))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGGRASSSETTINGUTIL_SETRPGGRASSSETTING_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::RPGGrassSetting))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGGRASSSETTINGUTIL_SETRPGGRASSSETTING_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::RPGGrassSetting GetRPGGrassSetting()
@@ -36,9 +36,10 @@ namespace UnityEngine
 			return ((::System::Void(*)(::System::Single, ::System::Boolean, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGGRASSSETTINGUTIL_SETGRASSPARAMETEROVERRIDE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void GetRPGGrassSetting_Injected(::UnityEngine::RPGGrassSetting& a1)
+		static ::System::Void GetRPGGrassSetting_Injected(::UnityEngine::RPGGrassSetting a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::RPGGrassSetting&))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGGRASSSETTINGUTIL_GETRPGGRASSSETTING_INJECTED_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::RPGGrassSetting))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGGRASSSETTINGUTIL_GETRPGGRASSSETTING_INJECTED_OFFSET))(a1);
 		}
+
 	};
 }

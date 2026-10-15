@@ -1,34 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class GeneralAudioItem; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_METHOD_5_0C44FB644D25C1C2_OFFSET UNITYSDK_OFFSET(0x1ACEDF60)
-#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_METHOD_5_899EC372DEC6EBDF_OFFSET UNITYSDK_OFFSET(0x1ACEDD50)
-#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_METHOD_5_B7A43C06FD78D78B_OFFSET UNITYSDK_OFFSET(0x1ACEDFE0)
-#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_START_OFFSET UNITYSDK_OFFSET(0x1ACEDC10)
-#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ACEDE20)
-#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEE050)
+#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_CTOR_OFFSET UNITYSDK_OFFSET(0xD83AAC0)
+#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_EAGEFEABFHI_OFFSET UNITYSDK_OFFSET(0xD83AA50)
+#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_EMKFBOLCALG_OFFSET UNITYSDK_OFFSET(0xD83A7C0)
+#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_IGFOKEBDLID_OFFSET UNITYSDK_OFFSET(0xD83A9D0)
+#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_START_OFFSET UNITYSDK_OFFSET(0xD83A680)
+#define RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_UPDATE_OFFSET UNITYSDK_OFFSET(0xD83A890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLightIntensityAudio_TypeDefinitionIndex = 68574;
+	inline static constexpr unsigned int MonoLightIntensityAudio_TypeDefinitionIndex = 68608;
 
 	class MonoLightIntensityAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single MNMKACKAKDF; // 0x0
 		::UnityEngine::Light* _LightObject; // 0x18
 		::System::Single LFBOFFNMACP; // 0x20
 		::System::Boolean LFKFOKNFJFN; // 0x24
+		::System::Byte _padding0[0x3];
 		::RPG::Client::GeneralAudioItem* _TurnOnAudio; // 0x28
 		::RPG::Client::GeneralAudioItem* _TurnOffAudio; // 0x30
-
+		// static const ::System::Object MNMKACKAKDF; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -41,19 +40,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0C44FB644D25C1C2()
+		::System::Void IGFOKEBDLID()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_METHOD_5_0C44FB644D25C1C2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_IGFOKEBDLID_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B7A43C06FD78D78B()
+		::System::Void EAGEFEABFHI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_METHOD_5_B7A43C06FD78D78B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_EAGEFEABFHI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_899EC372DEC6EBDF(::System::Single a1)
+		::System::Void EMKFBOLCALG(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_METHOD_5_899EC372DEC6EBDF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTINTENSITYAUDIO_EMKFBOLCALG_OFFSET))(this, a1);
 		}
+
 	};
 }

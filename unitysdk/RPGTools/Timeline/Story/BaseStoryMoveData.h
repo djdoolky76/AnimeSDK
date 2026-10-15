@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_STORY_BASESTORYMOVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C56D0)
+#define RPGTOOLS_TIMELINE_STORY_BASESTORYMOVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE931F60)
 
 namespace RPGTools::Timeline::Story
 {
-	inline static constexpr unsigned int BaseStoryMoveData_TypeDefinitionIndex = 49157;
+	inline static constexpr unsigned int BaseStoryMoveData_TypeDefinitionIndex = 48703;
 
 	class BaseStoryMoveData : public ::System::Object
 	{
@@ -16,10 +16,10 @@ namespace RPGTools::Timeline::Story
 		::System::Single AvgDeltaTime; // 0x18
 		::System::Single MaxStopDist; // 0x1C
 		::System::Single MinStopDist; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORY_BASESTORYMOVEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORY_BASESTORYMOVEDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

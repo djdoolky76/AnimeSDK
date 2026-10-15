@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKConfigUrlModel; }
 namespace MiHoYo::SDK { class MiHoYoSDKEOSParametersModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1949F470)
+#define MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD2350)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 46810;
+	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 46350;
 
 	class MiHoYoSDKLocalConfigModel : public ::System::Object
 	{
 	public:
 		::System::String* area; // 0x10
 		::System::Int32 env; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* app_id; // 0x20
 		::System::String* app_key; // 0x28
 		::System::String* channel_id; // 0x30
@@ -26,6 +26,7 @@ namespace MiHoYo::SDK
 		::System::String* google_client_id; // 0x50
 		::System::String* domain_prefix; // 0x58
 		::System::Boolean enable_crash_sdk; // 0x60
+		::System::Byte _padding1[0x7];
 		::System::String* api_sdk_domain; // 0x68
 		::System::String* game_api_domain; // 0x70
 		::System::String* user_mihoyo_domain; // 0x78
@@ -39,10 +40,10 @@ namespace MiHoYo::SDK
 		::System::String* check_domain; // 0xB8
 		::MiHoYo::SDK::MiHoYoSDKEOSParametersModel* eos_parameters; // 0xC0
 		::MiHoYo::SDK::MiHoYoSDKConfigUrlModel* url; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

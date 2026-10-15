@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B57FBA0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x1B57FB90)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B57FD20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57FE20)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E4E10)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E5060)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE8E4E00)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E4F60)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoEyeBloomTimelineTrack_TypeDefinitionIndex = 49231;
+	inline static constexpr unsigned int EmoEyeBloomTimelineTrack_TypeDefinitionIndex = 48777;
 
 	class EmoEyeBloomTimelineTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_UseUniqueCharacterName()
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYEBLOOMTIMELINETRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

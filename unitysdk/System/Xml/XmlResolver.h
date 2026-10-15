@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { class Uri; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x183FA970)
-#define SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x183FA620)
-#define SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET UNITYSDK_OFFSET(0x183FA8B0)
-#define SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x183FA9C0)
+#define SYSTEM_XML_XMLRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF58AF0)
+#define SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1EF58AA0)
+#define SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1EF58750)
+#define SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET UNITYSDK_OFFSET(0x1EF589E0)
 
 namespace System::Xml
 {
@@ -21,7 +21,7 @@ namespace System::Xml
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_CTOR_OFFSET))(this);
 		}
 
 		::System::Uri* ResolveUri(::System::Uri* a1, ::System::String* a2)
@@ -38,5 +38,6 @@ namespace System::Xml
 		{
 			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

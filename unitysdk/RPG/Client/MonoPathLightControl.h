@@ -3,33 +3,35 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_20CD753D282DC6DE;
+class EBHMCKHPFEB;
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AD003F0)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AD00530)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AD00470)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD004D0)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD005C0)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD84CED0)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD84D0A0)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD84D010)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD84CF50)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD84CFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPathLightControl_TypeDefinitionIndex = 68580;
+	inline static constexpr unsigned int MonoPathLightControl_TypeDefinitionIndex = 68614;
 
 	class MonoPathLightControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean contorlLightsAlongPath; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 startPosition; // 0x1C
 		::UnityEngine::Vector3 destinationPosition; // 0x28
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::GameObject*>* lightRenderer; // 0x38
 		::UnityEngine::GameObject* lightObject; // 0x40
 		::UnityEngine::Vector2Int stoppingReference; // 0x48
 		::System::Int32 lightPhase; // 0x50
 		::System::Single PlayerPos; // 0x54
 		::System::Boolean contorlFloatingAlongPath; // 0x58
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector3 targetPosition; // 0x5C
 		::Il2CppArray<::UnityEngine::GameObject*>* distancingRootNode; // 0x68
 		::Il2CppArray<::UnityEngine::GameObject*>* floatingRootNode; // 0x70
@@ -40,23 +42,27 @@ namespace RPG::Client
 		::System::Single floatingDuration; // 0x98
 		::System::Single floatingAmount; // 0x9C
 		::System::Boolean isfloatingOverrided; // 0xA0
+		::System::Byte _padding3[0x3];
 		::System::Single floatingProgressOverride; // 0xA4
 		::System::Boolean updateStartPos; // 0xA8
 		::System::Boolean controlScaleByDistance; // 0xA9
+		::System::Byte _padding4[0x2];
 		::UnityEngine::Vector3 StartPos; // 0xAC
 		::UnityEngine::Vector3 DestPos; // 0xB8
 		::UnityEngine::Vector3 StartScale; // 0xC4
 		::UnityEngine::Vector3 DestScale; // 0xD0
+		::System::Byte _padding5[0x4];
 		::UnityEngine::GameObject* scaledRootNode; // 0xE0
 		::System::Single startDistance; // 0xE8
 		::System::Boolean isEditorDebug; // 0xEC
+		::System::Byte _padding6[0x3];
 		::UnityEngine::GameObject* ReferencePos; // 0xF0
 		::System::Single DirectionalTest; // 0xF8
-		::Class_2_20CD753D282DC6DE* _Behavior; // 0x100
-
+		::System::Byte _padding7[0x4];
+		::EBHMCKHPFEB* _Behavior; // 0x100
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPATHLIGHTCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPATHLIGHTCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -78,5 +84,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPATHLIGHTCONTROL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

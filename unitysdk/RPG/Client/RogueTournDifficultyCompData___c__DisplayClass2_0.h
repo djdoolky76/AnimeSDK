@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueTournMode.h"
 #include "unitysdk/System/Object.h"
+class KOKDNGLIFND;
 
-class Class_1_349BE0BAA6D56377;
-
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF10B30)
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__GETALLDATABYTOURN_B__0_OFFSET UNITYSDK_OFFSET(0x1AF10E30)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF92740)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__GETALLDATABYTOURN_B__0_OFFSET UNITYSDK_OFFSET(0xDF92A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDifficultyCompData___c__DisplayClass2_0_TypeDefinitionIndex = 67582;
+	inline static constexpr unsigned int RogueTournDifficultyCompData___c__DisplayClass2_0_TypeDefinitionIndex = 67584;
 
 	class RogueTournDifficultyCompData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::RogueTournMode tournMode; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAllDataByTourn_b__0(::Class_1_349BE0BAA6D56377* a1)
+		::System::Boolean _GetAllDataByTourn_b__0(::KOKDNGLIFND* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_349BE0BAA6D56377*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__GETALLDATABYTOURN_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::KOKDNGLIFND*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__GETALLDATABYTOURN_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,45 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_D9C1712509F1BA29_Enum_3_37EB127CD200B7DD_5.h"
+#include "unitysdk/DLCJPINDIAC_DIDDNMJIMOD.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_21C7581DFE99F091_88;
-class Class_1_D17272E82AE804C2_745;
-class Class_1_D17272E82AE804C2_747;
-class Class_1_D17272E82AE804C2_748;
-class Class_1_D9C1712509F1BA29;
+class BCKBEMGGGIF;
+class DGLBOFKGGLL;
+class DLCJPINDIAC;
+class GKJHNGLHOBA;
+class PLICOOFLBIB;
 namespace System { class String; }
 
-#define RPG_CLIENT_FRIENDRANKINGINFO_GETPVPSCORE_OFFSET UNITYSDK_OFFSET(0x193676C0)
-#define RPG_CLIENT_FRIENDRANKINGINFO_GETRANKICON_OFFSET UNITYSDK_OFFSET(0x19367830)
-#define RPG_CLIENT_FRIENDRANKINGINFO_GET_SYNCTIME_OFFSET UNITYSDK_OFFSET(0x19367510)
-#define RPG_CLIENT_FRIENDRANKINGINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0x193674F0)
-#define RPG_CLIENT_FRIENDRANKINGINFO_ISSETTLED_OFFSET UNITYSDK_OFFSET(0x19367770)
-#define RPG_CLIENT_FRIENDRANKINGINFO_SET_SYNCTIME_OFFSET UNITYSDK_OFFSET(0x19367520)
-#define RPG_CLIENT_FRIENDRANKINGINFO_SET_UID_OFFSET UNITYSDK_OFFSET(0x19367500)
-#define RPG_CLIENT_FRIENDRANKINGINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x19367530)
-#define RPG_CLIENT_FRIENDRANKINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19367D20)
+#define RPG_CLIENT_FRIENDRANKINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD059B80)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GETPVPSCORE_OFFSET UNITYSDK_OFFSET(0xD0596D0)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GETRANKICON_OFFSET UNITYSDK_OFFSET(0xD059800)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GET_SYNCTIME_OFFSET UNITYSDK_OFFSET(0xD059520)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0xD059500)
+#define RPG_CLIENT_FRIENDRANKINGINFO_ISSETTLED_OFFSET UNITYSDK_OFFSET(0xD059790)
+#define RPG_CLIENT_FRIENDRANKINGINFO_SET_SYNCTIME_OFFSET UNITYSDK_OFFSET(0xD059530)
+#define RPG_CLIENT_FRIENDRANKINGINFO_SET_UID_OFFSET UNITYSDK_OFFSET(0xD059510)
+#define RPG_CLIENT_FRIENDRANKINGINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xD059540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FriendRankingInfo_TypeDefinitionIndex = 66349;
+	inline static constexpr unsigned int FriendRankingInfo_TypeDefinitionIndex = 66310;
 
 	class FriendRankingInfo : public ::System::Object
 	{
 	public:
-		::System::String* _CachedRankIcon; // 0x10
-		::Class_1_D17272E82AE804C2_747* MarbleCommonInfo; // 0x18
-		::Class_1_21C7581DFE99F091_88* TeamTowersCommonInfo; // 0x20
-		::Class_1_D17272E82AE804C2_748* DiceCombatCommonInfo; // 0x28
-		::Class_1_D17272E82AE804C2_745* MatchThreeCommonInfo; // 0x30
-		::System::UInt32 _Uid_k__BackingField; // 0x38
-		::Class_1_D9C1712509F1BA29_Enum_3_37EB127CD200B7DD_5 InfoCase; // 0x3C
-		::System::UInt32 Rank; // 0x40
-		::System::UInt32 _SyncTime_k__BackingField; // 0x44
-
+		::PLICOOFLBIB* MarbleCommonInfo; // 0x10
+		::DGLBOFKGGLL* MatchThreeCommonInfo; // 0x18
+		::BCKBEMGGGIF* DiceCombatCommonInfo; // 0x20
+		::GKJHNGLHOBA* TeamTowersCommonInfo; // 0x28
+		::System::String* _CachedRankIcon; // 0x30
+		::DLCJPINDIAC_DIDDNMJIMOD InfoCase; // 0x38
+		::System::UInt32 _SyncTime_k__BackingField; // 0x3C
+		::System::UInt32 _Uid_k__BackingField; // 0x40
+		::System::UInt32 Rank; // 0x44
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_Uid()
@@ -62,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_SET_SYNCTIME_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::Class_1_D9C1712509F1BA29* a1)
+		::System::Void Sync(::DLCJPINDIAC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D9C1712509F1BA29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::DLCJPINDIAC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetPvpScore()
@@ -81,5 +79,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_GETRANKICON_OFFSET))(this);
 		}
+
 	};
 }

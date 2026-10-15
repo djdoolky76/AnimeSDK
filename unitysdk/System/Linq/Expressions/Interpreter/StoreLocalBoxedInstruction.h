@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/LocalAccessInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF45E60)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1DF45E70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1DF45EB0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF45E50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFB3C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDFB3D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDFB3E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDFB420)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int StoreLocalBoxedInstruction_TypeDefinitionIndex = 3505;
+	inline static constexpr unsigned int StoreLocalBoxedInstruction_TypeDefinitionIndex = 3506;
 
 	class StoreLocalBoxedInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction
 	{
 	public:
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -36,5 +35,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORELOCALBOXEDINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

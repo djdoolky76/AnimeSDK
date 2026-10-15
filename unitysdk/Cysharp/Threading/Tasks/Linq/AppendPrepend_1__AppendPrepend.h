@@ -1,12 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Linq/AppendPrepend_1__AppendPrepend_State.h"
 #include "unitysdk/Cysharp/Threading/Tasks/MoveNextSource.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 namespace System { class Object; }
@@ -14,22 +9,23 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_TypeDefinitionIndex = 44085;
+	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_TypeDefinitionIndex = 45224;
 
-	template <typename TSource>
+	template <typename T>
 	class AppendPrepend_1__AppendPrepend : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T>* source; // 0x0
+		T element; // 0x0
+		::System::Threading::CancellationToken cancellationToken; // 0x0
+		::System::Object* state; // 0x0
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<T>* enumerator; // 0x0
+		::System::Object* awaiter; // 0x0
+		T _Current_k__BackingField; // 0x0
 		static ::System::Action_1<::System::Object*>** StaticGet_MoveNextCoreDelegate()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AppendPrepend_1__AppendPrepend_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_AppendPrepend")->GetStaticField(0x0);
 		}
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<TSource>* source; // 0x0
-		TSource element; // 0x0
-		::System::Threading::CancellationToken cancellationToken; // 0x0
-		::Cysharp::Threading::Tasks::Linq::AppendPrepend_1__AppendPrepend_State<TSource> state; // 0x0
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<TSource>* enumerator; // 0x0
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> awaiter; // 0x0
-		TSource _Current_k__BackingField; // 0x0
+
 	};
 }

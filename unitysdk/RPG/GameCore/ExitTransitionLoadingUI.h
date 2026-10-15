@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ExitTransitionLoadingUI; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_EXITTRANSITIONLOADINGUI_METHOD_3_6E15D35AC5BF59F4_OFFSET UNITYSDK_OFFSET(0x1D7D8D60)
-#define RPG_GAMECORE_EXITTRANSITIONLOADINGUI_METHOD_3_ED7C0D849DC4D031_OFFSET UNITYSDK_OFFSET(0x1D7D8C90)
-#define RPG_GAMECORE_EXITTRANSITIONLOADINGUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D8D50)
+#define RPG_GAMECORE_EXITTRANSITIONLOADINGUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D65E880)
+#define RPG_GAMECORE_EXITTRANSITIONLOADINGUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D65E890)
+#define RPG_GAMECORE_EXITTRANSITIONLOADINGUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D65E7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExitTransitionLoadingUI_TypeDefinitionIndex = 21464;
+	inline static constexpr unsigned int ExitTransitionLoadingUI_TypeDefinitionIndex = 21710;
 
 	class ExitTransitionLoadingUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXITTRANSITIONLOADINGUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXITTRANSITIONLOADINGUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ED7C0D849DC4D031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ExitTransitionLoadingUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ExitTransitionLoadingUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExitTransitionLoadingUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXITTRANSITIONLOADINGUI_METHOD_3_ED7C0D849DC4D031_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ExitTransitionLoadingUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXITTRANSITIONLOADINGUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6E15D35AC5BF59F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ExitTransitionLoadingUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ExitTransitionLoadingUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExitTransitionLoadingUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXITTRANSITIONLOADINGUI_METHOD_3_6E15D35AC5BF59F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ExitTransitionLoadingUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXITTRANSITIONLOADINGUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

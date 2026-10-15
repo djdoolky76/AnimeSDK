@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0CDCB0)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B0CDB30)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B0CDDF0)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0CDE60)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93A4B0)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE93A330)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE93A660)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE93A5F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropEffectTransformTrack_TypeDefinitionIndex = 48811;
+	inline static constexpr unsigned int StoryPropEffectTransformTrack_TypeDefinitionIndex = 48351;
 
 	class StoryPropEffectTransformTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

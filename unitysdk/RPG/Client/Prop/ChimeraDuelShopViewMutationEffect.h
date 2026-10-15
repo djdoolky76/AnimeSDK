@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraDuelShopViewEffectBase.h"
 #include "unitysdk/System/Nullable_1.h"
-
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAATTACK_OFFSET UNITYSDK_OFFSET(0x1A8E6120)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAHEALTH_OFFSET UNITYSDK_OFFSET(0x1A8E6130)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_MUTATED_OFFSET UNITYSDK_OFFSET(0x1A8E6110)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_VISITTARGETS_OFFSET UNITYSDK_OFFSET(0x1A8E62B0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E6140)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET UNITYSDK_OFFSET(0x1A8E6250)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6A800)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAATTACK_OFFSET UNITYSDK_OFFSET(0xDC6A7E0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAHEALTH_OFFSET UNITYSDK_OFFSET(0xDC6A7F0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_MUTATED_OFFSET UNITYSDK_OFFSET(0xDC6A7D0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_VISITTARGETS_OFFSET UNITYSDK_OFFSET(0xDC6A970)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET UNITYSDK_OFFSET(0xDC6A910)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopViewMutationEffect_TypeDefinitionIndex = 77895;
+	inline static constexpr unsigned int ChimeraDuelShopViewMutationEffect_TypeDefinitionIndex = 78366;
 
 	class ChimeraDuelShopViewMutationEffect : public ::RPG::Client::Prop::ChimeraDuelShopViewEffectBase
 	{
@@ -23,10 +22,9 @@ namespace RPG::Client::Prop
 		::RPG::Client::ChimeraDuelGameSessionChimera* _Mutated_k__BackingField; // 0x10
 		::System::Nullable_1<::System::Int32> _DeltaAttack_k__BackingField; // 0x18
 		::System::Nullable_1<::System::Int32> _DeltaHealth_k__BackingField; // 0x20
-
 		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::System::UInt32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::ChimeraDuelGameSessionChimera* get_Mutated()
@@ -53,5 +51,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Nullable_1<::System::Int32>(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueShowSelectMainPage; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_METHOD_3_01A6659C1084AC3A_OFFSET UNITYSDK_OFFSET(0x1E549900)
-#define RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_METHOD_3_1F9E22BD8F7B9297_OFFSET UNITYSDK_OFFSET(0x1E549830)
-#define RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5498F0)
+#define RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA012E0)
+#define RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA012F0)
+#define RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA01220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueShowSelectMainPage_TypeDefinitionIndex = 20568;
+	inline static constexpr unsigned int RogueShowSelectMainPage_TypeDefinitionIndex = 20807;
 
 	class RogueShowSelectMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F9E22BD8F7B9297(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueShowSelectMainPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueShowSelectMainPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueShowSelectMainPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_METHOD_3_1F9E22BD8F7B9297_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueShowSelectMainPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_01A6659C1084AC3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueShowSelectMainPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueShowSelectMainPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueShowSelectMainPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_METHOD_3_01A6659C1084AC3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueShowSelectMainPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESHOWSELECTMAINPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

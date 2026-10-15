@@ -2,158 +2,171 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
-class Class_0_16E4307DCC419505_1067;
+class CNMEOLEHOOF;
 namespace RPG::Client { class DialogRenderer; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x192F2170)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x192F21D0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1AE11C3424D3DD6A_OFFSET UNITYSDK_OFFSET(0x192F4750)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1F3793A40D6D0F7F_OFFSET UNITYSDK_OFFSET(0x192F14A0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_3EBE5A8F310A42D3_OFFSET UNITYSDK_OFFSET(0x192F33D0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x192EFA80)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4805283D59625FD9_OFFSET UNITYSDK_OFFSET(0x192F01E0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x192F2250)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_549E6EFF8C7F104E_OFFSET UNITYSDK_OFFSET(0x192F29A0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_55E11F5A568A45D7_OFFSET UNITYSDK_OFFSET(0x192F3280)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_5FCE1CDDAE90A8B2_OFFSET UNITYSDK_OFFSET(0x192F4A20)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_78110CB57EA2D55A_OFFSET UNITYSDK_OFFSET(0x192F3820)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_1_OFFSET UNITYSDK_OFFSET(0x192F20D0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0x192F1CB0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_9B994748933F0708_OFFSET UNITYSDK_OFFSET(0x192F5A00)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_1_OFFSET UNITYSDK_OFFSET(0x192F2050)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0x192EFAF0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x192F2130)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CEA32FF190776922_OFFSET UNITYSDK_OFFSET(0x192EFC60)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D61E937BA820948F_OFFSET UNITYSDK_OFFSET(0x192F2A30)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x192EFB50)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_EEED34E9AAC26D51_OFFSET UNITYSDK_OFFSET(0x192F1D00)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F3A4A12640955A20_OFFSET UNITYSDK_OFFSET(0x192F2D00)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F82B4FC81CECCDB8_OFFSET UNITYSDK_OFFSET(0x192F5D50)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x192F62B0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x192F62A0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_APIDHHKLGEJ_OFFSET UNITYSDK_OFFSET(0xCBF47D0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_BJNPMGKHDEO_OFFSET UNITYSDK_OFFSET(0xCBF46C0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBFAE20)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CDGPLNADJLD_OFFSET UNITYSDK_OFFSET(0xCBF8390)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xCBF6CA0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCBFAE10)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xCBF6CE0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_FNEOGHHJDJL_1_OFFSET UNITYSDK_OFFSET(0xCBFA570)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_FNEOGHHJDJL_OFFSET UNITYSDK_OFFSET(0xCBF7DF0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xCBF6D40)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_HMONCLEJKJK_OFFSET UNITYSDK_OFFSET(0xCBF75A0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_IINKHPOJOGP_OFFSET UNITYSDK_OFFSET(0xCBF4D50)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_JHNCMJJMGKK_OFFSET UNITYSDK_OFFSET(0xCBF6010)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xCBF6BC0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_KAGEIMIHJHP_OFFSET UNITYSDK_OFFSET(0xCBF92C0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCBF45F0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_LDFIOGPLGDM_OFFSET UNITYSDK_OFFSET(0xCBF6870)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xCBF6820)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_MILJKPAJLNJ_OFFSET UNITYSDK_OFFSET(0xCBFA8C0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_MJIMJDMKNNA_OFFSET UNITYSDK_OFFSET(0xCBF7F40)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_NHPIHFLFANE_OFFSET UNITYSDK_OFFSET(0xCBF6DC0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_NLFLJGONCHE_OFFSET UNITYSDK_OFFSET(0xCBF7870)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_OCIHINMJMBE_1_OFFSET UNITYSDK_OFFSET(0xCBF9590)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_OCIHINMJMBE_OFFSET UNITYSDK_OFFSET(0xCBF7510)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xCBF6C40)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xCBF4660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogRendererBehavior_TypeDefinitionIndex = 70246;
+	inline static constexpr unsigned int DialogRendererBehavior_TypeDefinitionIndex = 70282;
 
 	class DialogRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__DialogShaders()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x5AAA0);
-		}
-		static ::System::Int32* StaticGet__DialogClipRectShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126A0);
-		}
-		static ::System::Int32* StaticGet__DialogClipMaskShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126A4);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixVShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126A8);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixVPShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126AC);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixPShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126B0);
-		}
-		static ::System::Int32* StaticGet__DialogDepthOffsetShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126B4);
-		}
-		static ::System::Int32* StaticGet__DialogCameraPositionWSShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126B8);
-		}
-		static ::System::Int32* StaticGet__DialogDitherAlphaShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126BC);
-		}
-		static ::System::Int32* StaticGet__DialogMatrixMShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126C0);
-		}
-		static ::System::Int32* StaticGet__DialogCullShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126C4);
-		}
-		static ::System::Int32* StaticGet__DialogClipMaskTexShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126C8);
-		}
-		static ::System::Int32* StaticGet__DialogClipMaskThresholdShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126CC);
-		}
-		static ::System::Int32* StaticGet__DialogDitherShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126D0);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixInvVShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x126D4);
-		}
 		::UnityEngine::Transform* _OwnerTransform; // 0x38
 		::UnityEngine::Transform* _DialogCameraTransform; // 0x40
 		::UnityEngine::Camera* _MainCamera; // 0x48
 		::UnityEngine::Transform* _MainCameraTransform; // 0x50
 		::Il2CppArray<::UnityEngine::Renderer*>* _DialogTargetRenderers; // 0x58
-		::Il2CppArray<::Class_0_16E4307DCC419505_1067*>* _DialogTargetRenderables; // 0x60
+		::Il2CppArray<::CNMEOLEHOOF*>* _DialogTargetRenderables; // 0x60
 		::UnityEngine::Bounds _DialogTargetBounds; // 0x68
 		::System::Boolean _NeedUpdateRenderer; // 0x80
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__DialogShaders()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x1D1F0);
+		}
+
+		static ::System::Int32* StaticGet__DialogClipRectShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6420);
+		}
+
+		static ::System::Int32* StaticGet__DialogDitherAlphaShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6424);
+		}
+
+		static ::System::Int32* StaticGet__DialogDitherShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6428);
+		}
+
+		static ::System::Int32* StaticGet__DialogDepthOffsetShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x642C);
+		}
+
+		static ::System::Int32* StaticGet__DialogCameraMatrixVPShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6430);
+		}
+
+		static ::System::Int32* StaticGet__DialogCullShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6434);
+		}
+
+		static ::System::Int32* StaticGet__DialogCameraMatrixPShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6438);
+		}
+
+		static ::System::Int32* StaticGet__DialogCameraPositionWSShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x643C);
+		}
+
+		static ::System::Int32* StaticGet__DialogMatrixMShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6440);
+		}
+
+		static ::System::Int32* StaticGet__DialogCameraMatrixInvVShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6444);
+		}
+
+		static ::System::Int32* StaticGet__DialogClipMaskShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6448);
+		}
+
+		static ::System::Int32* StaticGet__DialogClipMaskTexShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x644C);
+		}
+
+		static ::System::Int32* StaticGet__DialogCameraMatrixVShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6450);
+		}
+
+		static ::System::Int32* StaticGet__DialogClipMaskThresholdShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "DialogRendererBehavior")->GetStaticField(0x6454);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_4343F372F34C05BF()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_A5809AB80389F7DE()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8DF47EF45ABD2A6C()
+		::System::Void MFCDKJIHDEH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_MFCDKJIHDEH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_A5809AB80389F7DE_1()
+		::System::Void JPKHCNDFAEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_JPKHCNDFAEL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8DF47EF45ABD2A6C_1()
+		::System::Void OIBPOPCFDHA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_OIBPOPCFDHA_OFFSET))(this);
 		}
 
-		::System::Void Method_3_CA373AA1C7054598()
+		::System::Void CGEJMGFOLMP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CGEJMGFOLMP_OFFSET))(this);
 		}
 
 		::System::Void EndOfLateTick(::System::Single a1)
@@ -161,79 +174,79 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_CEA32FF190776922()
+		::System::Void APIDHHKLGEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CEA32FF190776922_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_APIDHHKLGEJ_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4805283D59625FD9()
+		::System::Void IINKHPOJOGP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4805283D59625FD9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_IINKHPOJOGP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_1F3793A40D6D0F7F()
+		::System::Void JHNCMJJMGKK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1F3793A40D6D0F7F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_JHNCMJJMGKK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_EEED34E9AAC26D51()
+		::System::Void LDFIOGPLGDM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_EEED34E9AAC26D51_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_LDFIOGPLGDM_OFFSET))(this);
 		}
 
-		::System::Void Method_3_F3A4A12640955A20(::Class_0_16E4307DCC419505_1067* a1)
+		::System::Void NLFLJGONCHE(::CNMEOLEHOOF* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1067*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F3A4A12640955A20_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CNMEOLEHOOF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_NLFLJGONCHE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_3EBE5A8F310A42D3(::Class_0_16E4307DCC419505_1067* a1)
+		::System::Void MJIMJDMKNNA(::CNMEOLEHOOF* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1067*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_3EBE5A8F310A42D3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CNMEOLEHOOF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_MJIMJDMKNNA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_549E6EFF8C7F104E(::UnityEngine::Renderer* a1)
+		::System::Void OCIHINMJMBE(::UnityEngine::Renderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_549E6EFF8C7F104E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_OCIHINMJMBE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_5FCE1CDDAE90A8B2(::UnityEngine::Renderer* a1, ::System::Int32 a2)
+		::System::Void OCIHINMJMBE_1(::UnityEngine::Renderer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_5FCE1CDDAE90A8B2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_OCIHINMJMBE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_78110CB57EA2D55A(::UnityEngine::Material* a1)
+		::System::Void CDGPLNADJLD(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_78110CB57EA2D55A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_CDGPLNADJLD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_55E11F5A568A45D7(::UnityEngine::Renderer* a1)
+		::System::Void FNEOGHHJDJL(::UnityEngine::Renderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_55E11F5A568A45D7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_FNEOGHHJDJL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_9B994748933F0708(::UnityEngine::Renderer* a1, ::System::Int32 a2)
+		::System::Void FNEOGHHJDJL_1(::UnityEngine::Renderer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_9B994748933F0708_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_FNEOGHHJDJL_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_1AE11C3424D3DD6A(::UnityEngine::Material* a1)
+		::System::Void KAGEIMIHJHP(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1AE11C3424D3DD6A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_KAGEIMIHJHP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_D61E937BA820948F(::UnityEngine::Bounds a1)
+		::System::Void HMONCLEJKJK(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D61E937BA820948F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_HMONCLEJKJK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_497833CF065C1894()
+		::System::Void NHPIHFLFANE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_497833CF065C1894_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_NHPIHFLFANE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_D737CD2779D51A4E()
+		::System::Void BJNPMGKHDEO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D737CD2779D51A4E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_BJNPMGKHDEO_OFFSET))(this);
 		}
 
 		::RPG::Client::DialogRenderer* get__Owner()
@@ -241,9 +254,10 @@ namespace RPG::Client
 			return ((::RPG::Client::DialogRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_GET__OWNER_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F82B4FC81CECCDB8(::System::Collections::Generic::List_1<::UnityEngine::Material*>*& a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& a2)
+		static ::System::Void MILJKPAJLNJ(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Material*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F82B4FC81CECCDB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_MILJKPAJLNJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

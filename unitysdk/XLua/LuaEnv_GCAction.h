@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaEnv_GCAction_TypeDefinitionIndex = 50537;
+	inline static constexpr unsigned int LuaEnv_GCAction_TypeDefinitionIndex = 50206;
 
 	struct alignas(4) LuaEnv_GCAction
 	{

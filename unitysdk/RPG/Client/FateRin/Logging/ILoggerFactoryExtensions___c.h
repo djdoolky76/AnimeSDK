@@ -1,50 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Diagnostics { class StackFrame; }
 namespace System::Reflection { class MethodBase; }
 
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5AD780)
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AD7C0)
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B5AD7D0)
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_1_OFFSET UNITYSDK_OFFSET(0x1B5AD860)
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_2_OFFSET UNITYSDK_OFFSET(0x1B5AD8F0)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFA3780)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA37C0)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0xCFA37D0)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_1_OFFSET UNITYSDK_OFFSET(0xCFA3860)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_2_OFFSET UNITYSDK_OFFSET(0xCFA38F0)
 
 namespace RPG::Client::FateRin::Logging
 {
-	inline static constexpr unsigned int ILoggerFactoryExtensions___c_TypeDefinitionIndex = 79713;
+	inline static constexpr unsigned int ILoggerFactoryExtensions___c_TypeDefinitionIndex = 81037;
 
 	class ILoggerFactoryExtensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Diagnostics::StackFrame*, ::System::Reflection::MethodBase*>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::System::Diagnostics::StackFrame*, ::System::Reflection::MethodBase*>**)Il2CppClass::FromTypeDefinitionIndex(ILoggerFactoryExtensions___c_TypeDefinitionIndex)->GetStaticField(0xAD40);
-		}
 		static ::System::Func_2<::System::Reflection::MethodBase*, ::System::Type*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::System::Reflection::MethodBase*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ILoggerFactoryExtensions___c_TypeDefinitionIndex)->GetStaticField(0xAD48);
+			return (::System::Func_2<::System::Reflection::MethodBase*, ::System::Type*>**)UnitySDK::FromName("RPG.Client.FateRin.Logging", "<>c")->GetStaticField(0x57330);
 		}
+
+		static ::System::Func_2<::System::Diagnostics::StackFrame*, ::System::Reflection::MethodBase*>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::System::Diagnostics::StackFrame*, ::System::Reflection::MethodBase*>**)UnitySDK::FromName("RPG.Client.FateRin.Logging", "<>c")->GetStaticField(0x57338);
+		}
+
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ILoggerFactoryExtensions___c_TypeDefinitionIndex)->GetStaticField(0xAD50);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Logging", "<>c")->GetStaticField(0x57340);
 		}
-		static ::RPG::Client::FateRin::Logging::ILoggerFactoryExtensions___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::Logging::ILoggerFactoryExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(ILoggerFactoryExtensions___c_TypeDefinitionIndex)->GetStaticField(0xAD58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Logging", "<>c")->GetStaticField(0x57348);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Reflection::MethodBase* __FindCallerType_b__1_0(::System::Diagnostics::StackFrame* a1)
@@ -61,5 +64,6 @@ namespace RPG::Client::FateRin::Logging
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS___C___FINDCALLERTYPE_B__1_2_OFFSET))(this, a1);
 		}
+
 	};
 }

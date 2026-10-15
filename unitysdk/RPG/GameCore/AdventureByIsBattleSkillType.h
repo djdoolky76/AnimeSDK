@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdventureSkillType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByIsBattleSkillType; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_0E5D77B248BC52D4_OFFSET UNITYSDK_OFFSET(0x1CBABF60)
-#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_AE03D74CB5F8B134_OFFSET UNITYSDK_OFFSET(0x1CBAC0E0)
-#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_CCC9D051C97D975B_OFFSET UNITYSDK_OFFSET(0x1CBAC110)
-#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_DB3B0E5DBCCC2551_OFFSET UNITYSDK_OFFSET(0x1CBABF20)
-#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBABF50)
+#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38D060)
+#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D38D220)
+#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D38D1F0)
+#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38D070)
+#define RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38D030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByIsBattleSkillType_TypeDefinitionIndex = 21573;
+	inline static constexpr unsigned int AdventureByIsBattleSkillType_TypeDefinitionIndex = 21821;
 
 	class AdventureByIsBattleSkillType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::AdventureSkillType SkillType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DB3B0E5DBCCC2551(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsBattleSkillType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsBattleSkillType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsBattleSkillType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_DB3B0E5DBCCC2551_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsBattleSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0E5D77B248BC52D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsBattleSkillType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsBattleSkillType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsBattleSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_0E5D77B248BC52D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsBattleSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AE03D74CB5F8B134(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsBattleSkillType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsBattleSkillType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsBattleSkillType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_AE03D74CB5F8B134_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsBattleSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CCC9D051C97D975B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsBattleSkillType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsBattleSkillType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsBattleSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_METHOD_4_CCC9D051C97D975B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsBattleSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISBATTLESKILLTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

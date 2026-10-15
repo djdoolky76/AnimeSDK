@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1993E510)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1993E550)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1993DCE0)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1993E490)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCE14F50)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCE14ED0)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCE14F90)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCE14720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EventTriggerListener_VoidBaseEventDataDelegate_TypeDefinitionIndex = 72457;
+	inline static constexpr unsigned int EventTriggerListener_VoidBaseEventDataDelegate_TypeDefinitionIndex = 72530;
 
 	class EventTriggerListener_VoidBaseEventDataDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::BaseEventData* a2)
@@ -39,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

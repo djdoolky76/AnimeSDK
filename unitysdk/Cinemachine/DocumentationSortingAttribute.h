@@ -3,22 +3,21 @@
 #include "unitysdk/Cinemachine/DocumentationSortingAttribute_Level.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1EF09F70)
-#define CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_SET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1EF09F80)
-#define CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF09F90)
+#define CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1669C660)
+#define CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1669C640)
+#define CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_SET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1669C650)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int DocumentationSortingAttribute_TypeDefinitionIndex = 38535;
+	inline static constexpr unsigned int DocumentationSortingAttribute_TypeDefinitionIndex = 39832;
 
 	class DocumentationSortingAttribute : public ::System::Attribute
 	{
 	public:
 		::Cinemachine::DocumentationSortingAttribute_Level _Category_k__BackingField; // 0x10
-
 		::System::Void _ctor(::Cinemachine::DocumentationSortingAttribute_Level a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::DocumentationSortingAttribute_Level))((::PBYTE)hIl2Cpp + CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::DocumentationSortingAttribute_Level))((::PBYTE)hIl2Cpp + CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::DocumentationSortingAttribute_Level get_Category()
@@ -30,5 +29,6 @@ namespace Cinemachine
 		{
 			return ((::System::Void(*)(::PVOID, ::Cinemachine::DocumentationSortingAttribute_Level))((::PBYTE)hIl2Cpp + CINEMACHINE_DOCUMENTATIONSORTINGATTRIBUTE_SET_CATEGORY_OFFSET))(this, a1);
 		}
+
 	};
 }

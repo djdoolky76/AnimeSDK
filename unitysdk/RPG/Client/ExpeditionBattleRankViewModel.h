@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_GET_RANKSTATENAME_OFFSET UNITYSDK_OFFSET(0x1B892EE0)
-#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_SETRANSTATENAME_OFFSET UNITYSDK_OFFSET(0x1B8901D0)
-#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_SET_RANKSTATENAME_OFFSET UNITYSDK_OFFSET(0x1B892EF0)
-#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B892F00)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCE45F50)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_GET_RANKSTATENAME_OFFSET UNITYSDK_OFFSET(0xCE45F30)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_SETRANSTATENAME_OFFSET UNITYSDK_OFFSET(0xCE42FC0)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_SET_RANKSTATENAME_OFFSET UNITYSDK_OFFSET(0xCE45F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleRankViewModel_TypeDefinitionIndex = 64008;
+	inline static constexpr unsigned int ExpeditionBattleRankViewModel_TypeDefinitionIndex = 63946;
 
 	class ExpeditionBattleRankViewModel : public ::System::Object
 	{
 	public:
 		::System::String* _RankStateName_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_RankStateName()
@@ -37,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERANKVIEWMODEL_SETRANSTATENAME_OFFSET))(this, a1);
 		}
+
 	};
 }

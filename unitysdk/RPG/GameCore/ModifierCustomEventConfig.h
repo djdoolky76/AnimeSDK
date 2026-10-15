@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/ModifierCustomEventSortType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::GameCore { class ModifierCustomEventConfig; }
 
-#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_METHOD_2_CE1718586B91F924_OFFSET UNITYSDK_OFFSET(0x1D1B24B0)
-#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B2650)
+#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8603E0)
+#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D860240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierCustomEventConfig_TypeDefinitionIndex = 16907;
+	inline static constexpr unsigned int ModifierCustomEventConfig_TypeDefinitionIndex = 17101;
 
 	class ModifierCustomEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,15 +20,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* BehaviorFlags; // 0x10
 		::RPG::GameCore::JsonEnum* EventType; // 0x18
 		::RPG::GameCore::ModifierCustomEventSortType SortBy; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CE1718586B91F924(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierCustomEventConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifierCustomEventConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierCustomEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_METHOD_2_CE1718586B91F924_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifierCustomEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMSHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x192CEE30)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMSHADERRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF4ED0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessData_CustomShaderResources_TypeDefinitionIndex = 37085;
+	inline static constexpr unsigned int CustomPostProcessData_CustomShaderResources_TypeDefinitionIndex = 37770;
 
 	class CustomPostProcessData_CustomShaderResources : public ::System::Object
 	{
@@ -23,10 +22,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Shader* PPPattern; // 0x48
 		::UnityEngine::Shader* PPLensGlitch; // 0x50
 		::UnityEngine::Shader* PPLensGlitch2; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMSHADERRESOURCES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMSHADERRESOURCES_CTOR_OFFSET))(this);
 		}
+
 	};
 }

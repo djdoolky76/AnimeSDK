@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_854;
+class FBFODNFGMKG;
 namespace RPG::Client { class GridFightEquipTrackData; }
 namespace RPG::Client { class GridFightGameSession; }
 
-#define RPG_CLIENT_GRIDFIGHTTRACK_GET_EQUIPTRACKDATA_OFFSET UNITYSDK_OFFSET(0x1BAF2FF0)
-#define RPG_CLIENT_GRIDFIGHTTRACK_INIT_OFFSET UNITYSDK_OFFSET(0x1BAF2E50)
-#define RPG_CLIENT_GRIDFIGHTTRACK_SETCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x1BAF2F90)
-#define RPG_CLIENT_GRIDFIGHTTRACK_SET_EQUIPTRACKDATA_OFFSET UNITYSDK_OFFSET(0x1BAF3000)
-#define RPG_CLIENT_GRIDFIGHTTRACK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BAF2F40)
-#define RPG_CLIENT_GRIDFIGHTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF3010)
+#define RPG_CLIENT_GRIDFIGHTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xD29AFF0)
+#define RPG_CLIENT_GRIDFIGHTTRACK_GET_EQUIPTRACKDATA_OFFSET UNITYSDK_OFFSET(0xD29AFD0)
+#define RPG_CLIENT_GRIDFIGHTTRACK_INIT_OFFSET UNITYSDK_OFFSET(0xD29AE20)
+#define RPG_CLIENT_GRIDFIGHTTRACK_SETCOLLECTOR_OFFSET UNITYSDK_OFFSET(0xD29AF70)
+#define RPG_CLIENT_GRIDFIGHTTRACK_SET_EQUIPTRACKDATA_OFFSET UNITYSDK_OFFSET(0xD29AFE0)
+#define RPG_CLIENT_GRIDFIGHTTRACK_UPDATE_OFFSET UNITYSDK_OFFSET(0xD29AF20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTrack_TypeDefinitionIndex = 65413;
+	inline static constexpr unsigned int GridFightTrack_TypeDefinitionIndex = 65353;
 
 	class GridFightTrack : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightEquipTrackData* _EquipTrackData_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::Client::GridFightGameSession* a1)
@@ -37,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRACK_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SetCollector(::Class_0_16E4307DCC419505_854* a1)
+		::System::Void SetCollector(::FBFODNFGMKG* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_854*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRACK_SETCOLLECTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::FBFODNFGMKG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRACK_SETCOLLECTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightEquipTrackData* get_EquipTrackData()
@@ -51,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipTrackData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRACK_SET_EQUIPTRACKDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

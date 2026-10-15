@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_EVENTS_UNITYACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DED8E20)
-#define UNITYENGINE_EVENTS_UNITYACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DED8E50)
-#define UNITYENGINE_EVENTS_UNITYACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DED7410)
-#define UNITYENGINE_EVENTS_UNITYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DED8DB0)
+#define UNITYENGINE_EVENTS_UNITYACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BBC50)
+#define UNITYENGINE_EVENTS_UNITYACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BBBE0)
+#define UNITYENGINE_EVENTS_UNITYACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BBC80)
+#define UNITYENGINE_EVENTS_UNITYACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BA240)
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityAction_TypeDefinitionIndex = 4487;
+	inline static constexpr unsigned int UnityAction_TypeDefinitionIndex = 4491;
 
 	class UnityAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace UnityEngine::Events
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

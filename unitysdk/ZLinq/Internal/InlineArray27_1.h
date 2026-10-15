@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int InlineArray27_1_TypeDefinitionIndex = 6144;
+	inline static constexpr unsigned int InlineArray27_1_TypeDefinitionIndex = 6153;
 
 	template <typename T>
-	struct InlineArray27_1
+	struct alignas(8) InlineArray27_1
 	{
 		T item0; // 0x0
 		T item1; // 0x0
@@ -38,7 +37,8 @@ namespace ZLinq::Internal
 		T item26; // 0x0
 		static ::Il2CppArray<T>** StaticGet_threadStaticArray()
 		{
-			return (::Il2CppArray<T>**)Il2CppClass::FromTypeDefinitionIndex(InlineArray27_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<T>**)UnitySDK::FromName("ZLinq.Internal", "InlineArray27`1")->GetStaticField(0x0);
 		}
+
 	};
 }

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/MeshGenerator_Settings.h"
 #include "unitysdk/Spine/Unity/UpdateMode.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/SpriteMaskInteraction.h"
-
+#include "unitysdk/Spine/Unity/MeshGenerator_Settings.h"
 namespace Spine { class Skeleton; }
 namespace Spine { class Slot; }
 namespace Spine::Unity { class MeshGenerator; }
@@ -16,78 +15,69 @@ namespace Spine::Unity { class SkeletonRendererInstruction; }
 namespace Spine::Unity { class SkeletonRenderer_InstructionDelegate; }
 namespace Spine::Unity { class SkeletonRenderer_SkeletonRendererDelegate; }
 namespace Spine::Unity { class SkeletonRenderer_SpriteMaskInteractionMaterials; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define SPINE_UNITY_SKELETONRENDERER_ADD_GENERATEMESHOVERRIDE_1_OFFSET UNITYSDK_OFFSET(0x18333300)
-#define SPINE_UNITY_SKELETONRENDERER_ADD_GENERATEMESHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x18333A20)
-#define SPINE_UNITY_SKELETONRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x18333C00)
-#define SPINE_UNITY_SKELETONRENDERER_ADD_ONPOSTPROCESSVERTICES_OFFSET UNITYSDK_OFFSET(0x18333B20)
-#define SPINE_UNITY_SKELETONRENDERER_ADD_ONREBUILD_OFFSET UNITYSDK_OFFSET(0x1830ECA0)
-#define SPINE_UNITY_SKELETONRENDERER_ASSIGNSPRITEMASKMATERIALS_OFFSET UNITYSDK_OFFSET(0x18334AD0)
-#define SPINE_UNITY_SKELETONRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0x18333D70)
-#define SPINE_UNITY_SKELETONRENDERER_CLEARSTATE_OFFSET UNITYSDK_OFFSET(0x1831F330)
-#define SPINE_UNITY_SKELETONRENDERER_ENSUREMESHGENERATORCAPACITY_OFFSET UNITYSDK_OFFSET(0x18333ED0)
-#define SPINE_UNITY_SKELETONRENDERER_FINDANDAPPLYSEPARATORSLOTS_1_OFFSET UNITYSDK_OFFSET(0x18335080)
-#define SPINE_UNITY_SKELETONRENDERER_FINDANDAPPLYSEPARATORSLOTS_OFFSET UNITYSDK_OFFSET(0x18334F90)
-#define SPINE_UNITY_SKELETONRENDERER_GET_CUSTOMMATERIALOVERRIDE_OFFSET UNITYSDK_OFFSET(0x18333BE0)
-#define SPINE_UNITY_SKELETONRENDERER_GET_CUSTOMSLOTMATERIALS_OFFSET UNITYSDK_OFFSET(0x18333BF0)
-#define SPINE_UNITY_SKELETONRENDERER_GET_SKELETONDATAASSET_OFFSET UNITYSDK_OFFSET(0x18333D00)
-#define SPINE_UNITY_SKELETONRENDERER_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x1831D9C0)
-#define SPINE_UNITY_SKELETONRENDERER_GET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x18333A00)
-#define SPINE_UNITY_SKELETONRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1831F430)
-#define SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSFORMASKTYPE_OFFSET UNITYSDK_OFFSET(0x183356E0)
-#define SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSINSIDEMASK_OFFSET UNITYSDK_OFFSET(0x18335680)
-#define SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSOUTSIDEMASK_OFFSET UNITYSDK_OFFSET(0x183356B0)
-#define SPINE_UNITY_SKELETONRENDERER_LATEUPDATEMESH_OFFSET UNITYSDK_OFFSET(0x18333F00)
-#define SPINE_UNITY_SKELETONRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1831FD60)
-#define SPINE_UNITY_SKELETONRENDERER_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x18334F80)
-#define SPINE_UNITY_SKELETONRENDERER_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x18334EE0)
-#define SPINE_UNITY_SKELETONRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18333EA0)
-#define SPINE_UNITY_SKELETONRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18333E00)
-#define SPINE_UNITY_SKELETONRENDERER_REAPPLYSEPARATORSLOTNAMES_OFFSET UNITYSDK_OFFSET(0x18335530)
-#define SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_1_OFFSET UNITYSDK_OFFSET(0x183327F0)
-#define SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x18333AA0)
-#define SPINE_UNITY_SKELETONRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x18333C80)
-#define SPINE_UNITY_SKELETONRENDERER_REMOVE_ONPOSTPROCESSVERTICES_OFFSET UNITYSDK_OFFSET(0x18333B80)
-#define SPINE_UNITY_SKELETONRENDERER_REMOVE_ONREBUILD_OFFSET UNITYSDK_OFFSET(0x1830EC20)
-#define SPINE_UNITY_SKELETONRENDERER_SETMATERIALSETTINGSTOFIXDRAWORDER_OFFSET UNITYSDK_OFFSET(0x18334CA0)
-#define SPINE_UNITY_SKELETONRENDERER_SETMESHSETTINGS_OFFSET UNITYSDK_OFFSET(0x18333D10)
-#define SPINE_UNITY_SKELETONRENDERER_SET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x18333A10)
-#define SPINE_UNITY_SKELETONRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18335860)
-#define SPINE_UNITY_SKELETONRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1831FF00)
+#define SPINE_UNITY_SKELETONRENDERER_ADD_GENERATEMESHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1ECF8110)
+#define SPINE_UNITY_SKELETONRENDERER_ADD_GENERATEMESHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1ECF8830)
+#define SPINE_UNITY_SKELETONRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ECF8A10)
+#define SPINE_UNITY_SKELETONRENDERER_ADD_ONPOSTPROCESSVERTICES_OFFSET UNITYSDK_OFFSET(0x1ECF8930)
+#define SPINE_UNITY_SKELETONRENDERER_ADD_ONREBUILD_OFFSET UNITYSDK_OFFSET(0x1ECD3D30)
+#define SPINE_UNITY_SKELETONRENDERER_ASSIGNSPRITEMASKMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ECF98D0)
+#define SPINE_UNITY_SKELETONRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ECF8B80)
+#define SPINE_UNITY_SKELETONRENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECFA660)
+#define SPINE_UNITY_SKELETONRENDERER_CLEARSTATE_OFFSET UNITYSDK_OFFSET(0x1ECE4430)
+#define SPINE_UNITY_SKELETONRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE5010)
+#define SPINE_UNITY_SKELETONRENDERER_ENSUREMESHGENERATORCAPACITY_OFFSET UNITYSDK_OFFSET(0x1ECF8CE0)
+#define SPINE_UNITY_SKELETONRENDERER_FINDANDAPPLYSEPARATORSLOTS_1_OFFSET UNITYSDK_OFFSET(0x1ECF9E80)
+#define SPINE_UNITY_SKELETONRENDERER_FINDANDAPPLYSEPARATORSLOTS_OFFSET UNITYSDK_OFFSET(0x1ECF9D90)
+#define SPINE_UNITY_SKELETONRENDERER_GET_CUSTOMMATERIALOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1ECF89F0)
+#define SPINE_UNITY_SKELETONRENDERER_GET_CUSTOMSLOTMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ECF8A00)
+#define SPINE_UNITY_SKELETONRENDERER_GET_SKELETONDATAASSET_OFFSET UNITYSDK_OFFSET(0x1ECF8B10)
+#define SPINE_UNITY_SKELETONRENDERER_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x1ECE2AB0)
+#define SPINE_UNITY_SKELETONRENDERER_GET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x1ECF8810)
+#define SPINE_UNITY_SKELETONRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECE4530)
+#define SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSFORMASKTYPE_OFFSET UNITYSDK_OFFSET(0x1ECFA4E0)
+#define SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSINSIDEMASK_OFFSET UNITYSDK_OFFSET(0x1ECFA480)
+#define SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSOUTSIDEMASK_OFFSET UNITYSDK_OFFSET(0x1ECFA4B0)
+#define SPINE_UNITY_SKELETONRENDERER_LATEUPDATEMESH_OFFSET UNITYSDK_OFFSET(0x1ECF8D10)
+#define SPINE_UNITY_SKELETONRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ECE4E70)
+#define SPINE_UNITY_SKELETONRENDERER_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1ECF9D80)
+#define SPINE_UNITY_SKELETONRENDERER_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1ECF9CE0)
+#define SPINE_UNITY_SKELETONRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ECF8CB0)
+#define SPINE_UNITY_SKELETONRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ECF8C10)
+#define SPINE_UNITY_SKELETONRENDERER_REAPPLYSEPARATORSLOTNAMES_OFFSET UNITYSDK_OFFSET(0x1ECFA330)
+#define SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1ECF7600)
+#define SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1ECF88B0)
+#define SPINE_UNITY_SKELETONRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ECF8A90)
+#define SPINE_UNITY_SKELETONRENDERER_REMOVE_ONPOSTPROCESSVERTICES_OFFSET UNITYSDK_OFFSET(0x1ECF8990)
+#define SPINE_UNITY_SKELETONRENDERER_REMOVE_ONREBUILD_OFFSET UNITYSDK_OFFSET(0x1ECD3CB0)
+#define SPINE_UNITY_SKELETONRENDERER_SETMATERIALSETTINGSTOFIXDRAWORDER_OFFSET UNITYSDK_OFFSET(0x1ECF9AA0)
+#define SPINE_UNITY_SKELETONRENDERER_SETMESHSETTINGS_OFFSET UNITYSDK_OFFSET(0x1ECF8B20)
+#define SPINE_UNITY_SKELETONRENDERER_SET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x1ECF8820)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer_TypeDefinitionIndex = 43853;
+	inline static constexpr unsigned int SkeletonRenderer_TypeDefinitionIndex = 45045;
 
 	class SkeletonRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_STENCIL_COMP_PARAM_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SkeletonRenderer_TypeDefinitionIndex)->GetStaticField(0x9750);
-		}
-		static ::System::Int32* StaticGet_SUBMESH_DUMMY_PARAM_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SkeletonRenderer_TypeDefinitionIndex)->GetStaticField(0x9754);
-		}
-		// static const ::UnityEngine::Rendering::CompareFunction STENCIL_COMP_MASKINTERACTION_NONE; // 0x0
-		// static const ::UnityEngine::Rendering::CompareFunction STENCIL_COMP_MASKINTERACTION_VISIBLE_INSIDE; // 0x0
-		// static const ::UnityEngine::Rendering::CompareFunction STENCIL_COMP_MASKINTERACTION_VISIBLE_OUTSIDE; // 0x0
 		::Spine::Unity::SkeletonDataAsset* skeletonDataAsset; // 0x18
 		::System::String* initialSkinName; // 0x20
 		::System::Boolean initialFlipX; // 0x28
 		::System::Boolean initialFlipY; // 0x29
+		::System::Byte _padding0[0x2];
 		::Spine::Unity::UpdateMode updateMode; // 0x2C
 		::Spine::Unity::UpdateMode updateWhenInvisible; // 0x30
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::String*>* separatorSlotNames; // 0x38
 		::System::Collections::Generic::List_1<::Spine::Slot*>* separatorSlots; // 0x40
 		::System::Single zSpacing; // 0x48
@@ -100,9 +90,12 @@ namespace Spine::Unity
 		::System::Boolean fixDrawOrder; // 0x52
 		::System::Boolean addNormals; // 0x53
 		::System::Boolean calculateTangents; // 0x54
+		::System::Byte _padding2[0x3];
 		::UnityEngine::SpriteMaskInteraction maskInteraction; // 0x58
+		::System::Byte _padding3[0x4];
 		::Spine::Unity::SkeletonRenderer_SpriteMaskInteractionMaterials* maskMaterials; // 0x60
 		::System::Boolean disableRenderingOnOverride; // 0x68
+		::System::Byte _padding4[0x7];
 		::Spine::Unity::SkeletonRenderer_InstructionDelegate* generateMeshOverride; // 0x70
 		::Spine::Unity::MeshGeneratorDelegate* OnPostProcessVertices; // 0x78
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* customMaterialOverride; // 0x80
@@ -113,19 +106,32 @@ namespace Spine::Unity
 		::UnityEngine::MeshRenderer* meshRenderer; // 0xA8
 		::UnityEngine::MeshFilter* meshFilter; // 0xB0
 		::System::Boolean valid; // 0xB8
+		::System::Byte _padding5[0x7];
 		::Spine::Skeleton* skeleton; // 0xC0
 		::Spine::Unity::SkeletonRenderer_SkeletonRendererDelegate* OnRebuild; // 0xC8
 		::Spine::Unity::SkeletonRenderer_SkeletonRendererDelegate* OnMeshAndMaterialsUpdated; // 0xD0
 		::UnityEngine::MaterialPropertyBlock* reusedPropertyBlock; // 0xD8
+		static ::System::Int32* StaticGet_STENCIL_COMP_PARAM_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Spine.Unity", "SkeletonRenderer")->GetStaticField(0x4980);
+		}
 
+		static ::System::Int32* StaticGet_SUBMESH_DUMMY_PARAM_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Spine.Unity", "SkeletonRenderer")->GetStaticField(0x4984);
+		}
+
+		// static const ::System::Object STENCIL_COMP_MASKINTERACTION_NONE; // 0x0
+		// static const ::System::Object STENCIL_COMP_MASKINTERACTION_VISIBLE_INSIDE; // 0x0
+		// static const ::System::Object STENCIL_COMP_MASKINTERACTION_VISIBLE_OUTSIDE; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_CCTOR_OFFSET))();
 		}
 
 		::Spine::Unity::UpdateMode get_UpdateMode()
@@ -148,14 +154,14 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer_InstructionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_GenerateMeshOverride_1(::Spine::Unity::SkeletonRenderer_InstructionDelegate* a1)
+		::System::Void add_GenerateMeshOverride(::Spine::Unity::SkeletonRenderer_InstructionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer_InstructionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_ADD_GENERATEMESHOVERRIDE_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer_InstructionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_ADD_GENERATEMESHOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_GenerateMeshOverride_1(::Spine::Unity::SkeletonRenderer_InstructionDelegate* a1)
+		::System::Void remove_GenerateMeshOverride(::Spine::Unity::SkeletonRenderer_InstructionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer_InstructionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer_InstructionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_REMOVE_GENERATEMESHOVERRIDE_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnPostProcessVertices(::Spine::Unity::MeshGeneratorDelegate* a1)
@@ -293,14 +299,15 @@ namespace Spine::Unity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSOUTSIDEMASK_OFFSET))(this);
 		}
 
-		::System::Boolean InitSpriteMaskMaterialsForMaskType(::UnityEngine::Rendering::CompareFunction a1, ::Il2CppArray<::UnityEngine::Material*>*& a2)
+		::System::Boolean InitSpriteMaskMaterialsForMaskType(::UnityEngine::Rendering::CompareFunction a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::CompareFunction, ::Il2CppArray<::UnityEngine::Material*>*&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSFORMASKTYPE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::CompareFunction, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_INITSPRITEMASKMATERIALSFORMASKTYPE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetMaterialSettingsToFixDrawOrder()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SETMATERIALSETTINGSTOFIXDRAWORDER_OFFSET))(this);
 		}
+
 	};
 }

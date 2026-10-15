@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameSession___c__DisplayClass111_0_TypeDefinitionIndex = 78874;
+	inline static constexpr unsigned int PixAirGameSession___c__DisplayClass111_0_TypeDefinitionIndex = 79355;
 
 	struct alignas(4) PixAirGameSession___c__DisplayClass111_0
 	{

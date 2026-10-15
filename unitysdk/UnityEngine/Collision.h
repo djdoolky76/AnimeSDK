@@ -3,22 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ContactPoint.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
 
-#define UNITYENGINE_COLLISION_GETCONTACTS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1E8E4B80)
-#define UNITYENGINE_COLLISION_GETCONTACT_OFFSET UNITYSDK_OFFSET(0x1E8E4C60)
-#define UNITYENGINE_COLLISION_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1E8E4BB0)
-#define UNITYENGINE_COLLISION_GET_CONTACTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E8E4C00)
-#define UNITYENGINE_COLLISION_GET_CONTACTS_OFFSET UNITYSDK_OFFSET(0x1E8E4C10)
-#define UNITYENGINE_COLLISION_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E8E4BC0)
-#define UNITYENGINE_COLLISION_GET_RELATIVEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1E8E4B90)
+#define UNITYENGINE_COLLISION_GETCONTACTS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F455CF0)
+#define UNITYENGINE_COLLISION_GETCONTACT_OFFSET UNITYSDK_OFFSET(0x1F455DD0)
+#define UNITYENGINE_COLLISION_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1F455D20)
+#define UNITYENGINE_COLLISION_GET_CONTACTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F455D70)
+#define UNITYENGINE_COLLISION_GET_CONTACTS_OFFSET UNITYSDK_OFFSET(0x1F455D80)
+#define UNITYENGINE_COLLISION_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F455D30)
+#define UNITYENGINE_COLLISION_GET_RELATIVEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1F455D00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Collision_TypeDefinitionIndex = 5299;
+	inline static constexpr unsigned int Collision_TypeDefinitionIndex = 5306;
 
 	class Collision : public ::System::Object
 	{
@@ -28,9 +27,9 @@ namespace UnityEngine
 		::UnityEngine::Rigidbody* m_Rigidbody; // 0x28
 		::UnityEngine::Collider* m_Collider; // 0x30
 		::System::Int32 m_ContactCount; // 0x38
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::ContactPoint>* m_ReusedContacts; // 0x40
 		::Il2CppArray<::UnityEngine::ContactPoint>* m_LegacyContacts; // 0x48
-
 		::Il2CppArray<::UnityEngine::ContactPoint>* GetContacts_Internal()
 		{
 			return ((::Il2CppArray<::UnityEngine::ContactPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLISION_GETCONTACTS_INTERNAL_OFFSET))(this);
@@ -65,5 +64,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::ContactPoint(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLISION_GETCONTACT_OFFSET))(this, a1);
 		}
+
 	};
 }

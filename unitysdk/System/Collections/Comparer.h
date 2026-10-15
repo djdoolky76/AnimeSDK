@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+namespace System { class Object; }
+namespace System::Collections { class Comparer; }
 namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C9CEA30)
-#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C9D1550)
-#define SYSTEM_COLLECTIONS_COMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9D15F0)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C9D12E0)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C9D13A0)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9D12D0)
+#define SYSTEM_COLLECTIONS_COMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0929D0)
+#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C08FE10)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0926C0)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C092780)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0926B0)
+#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C092930)
 
 namespace System::Collections
 {
@@ -21,34 +22,35 @@ namespace System::Collections
 	class Comparer : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
-		{
-			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x7940);
-		}
+		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
 		static ::System::Collections::Comparer** StaticGet_Default()
 		{
-			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x7948);
+			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xF180);
 		}
-		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
+
+		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
+		{
+			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xF188);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
@@ -60,5 +62,6 @@ namespace System::Collections
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1110)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1140)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1100)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E1090)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F623D30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F623CB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F623D60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F623D20)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getVersion_TypeDefinitionIndex = 38109;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getVersion_TypeDefinitionIndex = 39406;
 
 	class BrowserNative_Calltype_zfb_getVersion : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

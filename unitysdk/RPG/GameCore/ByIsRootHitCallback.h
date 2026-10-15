@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsRootHitCallback; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_237726AA6455864A_OFFSET UNITYSDK_OFFSET(0x1CDAC210)
-#define RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_790C63A4AD23C001_OFFSET UNITYSDK_OFFSET(0x1CDAC1D0)
-#define RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_7BCF328C893025F5_OFFSET UNITYSDK_OFFSET(0x1CDAC380)
-#define RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_AE942EE597AC6B74_OFFSET UNITYSDK_OFFSET(0x1CDAC350)
-#define RPG_GAMECORE_BYISROOTHITCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAC200)
+#define RPG_GAMECORE_BYISROOTHITCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F3100)
+#define RPG_GAMECORE_BYISROOTHITCALLBACK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F3280)
+#define RPG_GAMECORE_BYISROOTHITCALLBACK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F3250)
+#define RPG_GAMECORE_BYISROOTHITCALLBACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F3110)
+#define RPG_GAMECORE_BYISROOTHITCALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F30D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsRootHitCallback_TypeDefinitionIndex = 23234;
+	inline static constexpr unsigned int ByIsRootHitCallback_TypeDefinitionIndex = 23499;
 
 	class ByIsRootHitCallback : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_790C63A4AD23C001(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRootHitCallback*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsRootHitCallback* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRootHitCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_790C63A4AD23C001_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsRootHitCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_237726AA6455864A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRootHitCallback* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsRootHitCallback* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRootHitCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_237726AA6455864A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsRootHitCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AE942EE597AC6B74(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRootHitCallback*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRootHitCallback* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRootHitCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_AE942EE597AC6B74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRootHitCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7BCF328C893025F5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRootHitCallback* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRootHitCallback* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRootHitCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_METHOD_4_7BCF328C893025F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRootHitCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROOTHITCALLBACK_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

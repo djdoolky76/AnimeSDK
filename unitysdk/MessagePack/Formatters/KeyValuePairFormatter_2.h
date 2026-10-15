@@ -1,17 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
-namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int KeyValuePairFormatter_2_TypeDefinitionIndex = 7438;
+	inline static constexpr unsigned int KeyValuePairFormatter_2_TypeDefinitionIndex = 7492;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class KeyValuePairFormatter_2 : public ::System::Object
 	{
 	public:

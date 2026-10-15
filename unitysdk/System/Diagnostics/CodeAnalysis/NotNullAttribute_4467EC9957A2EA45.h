@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLATTRIBUTE_4467EC9957A2EA45_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB8810)
+
+namespace System::Diagnostics::CodeAnalysis
+{
+	inline static constexpr unsigned int NotNullAttribute_4467EC9957A2EA45_TypeDefinitionIndex = 7527;
+
+	class NotNullAttribute_4467EC9957A2EA45 : public ::System::Attribute
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLATTRIBUTE_4467EC9957A2EA45_CTOR_OFFSET))(this);
+		}
+
+	};
+}

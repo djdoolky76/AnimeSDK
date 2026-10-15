@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SOTaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SO_PlayInteractOnPoint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_94DDEB05A6232D54_OFFSET UNITYSDK_OFFSET(0x1DB2F490)
-#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_AECD304FF6A05641_OFFSET UNITYSDK_OFFSET(0x1DB2FD70)
-#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2F480)
+#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA42BE0)
+#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA42BF0)
+#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA434D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_PlayInteractOnPoint_TypeDefinitionIndex = 19830;
+	inline static constexpr unsigned int SO_PlayInteractOnPoint_TypeDefinitionIndex = 20064;
 
 	class SO_PlayInteractOnPoint : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -19,23 +19,24 @@ namespace RPG::GameCore
 		::System::Boolean ForceStartMotion; // 0x18
 		::System::Boolean ForceAtPosition; // 0x19
 		::System::Boolean AlignRotation; // 0x1A
+		::System::Byte _padding0[0x5];
 		::System::String* CharacterID; // 0x20
 		::System::UInt32 MotionID; // 0x28
 		::System::Single Duration; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_AECD304FF6A05641(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_PlayInteractOnPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SO_PlayInteractOnPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_PlayInteractOnPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_AECD304FF6A05641_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SO_PlayInteractOnPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_94DDEB05A6232D54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_PlayInteractOnPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SO_PlayInteractOnPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_PlayInteractOnPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_94DDEB05A6232D54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SO_PlayInteractOnPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

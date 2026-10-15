@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class Rigidbody; }
 
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_AWAKE_OFFSET UNITYSDK_OFFSET(0x11663510)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x11663F20)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x11663630)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x116639B0)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_SETSIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0x11663090)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x11664180)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_AWAKE_OFFSET UNITYSDK_OFFSET(0xD743EF0)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_CTOR_OFFSET UNITYSDK_OFFSET(0xD744B60)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xD744900)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_LIDHHFMGKDI_OFFSET UNITYSDK_OFFSET(0xD744010)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xD744390)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_SETSIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0xD743A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDestructibleObjectProp_TypeDefinitionIndex = 68548;
+	inline static constexpr unsigned int MonoDestructibleObjectProp_TypeDefinitionIndex = 68582;
 
 	class MonoDestructibleObjectProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single GALIKECOAFL; // 0x0
 		::System::Int32 collisionLimit; // 0x18
 		::System::Single angularDecaySpeed; // 0x1C
 		::UnityEngine::Rigidbody* HPAGDLDHKFC; // 0x20
@@ -28,12 +26,13 @@ namespace RPG::Client
 		::UnityEngine::Vector3 LBMIBPCGFBI; // 0x2C
 		::UnityEngine::Vector3 FJFEGHMLCBC; // 0x38
 		::System::Boolean CJDMCDJHGJD; // 0x44
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 CFJHLILPEHI; // 0x48
 		::UnityEngine::Vector3 EJAOEBGHCHD; // 0x54
-
+		// static const ::System::Object GALIKECOAFL; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -56,9 +55,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_06330CD58CB602B6()
+		::System::Void LIDHHFMGKDI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_METHOD_5_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_LIDHHFMGKDI_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/InputField.h"
-
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define SRF_UI_SRNUMBERSPINNER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EC48C40)
-#define SRF_UI_SRNUMBERSPINNER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1EC48F30)
-#define SRF_UI_SRNUMBERSPINNER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1EC49200)
-#define SRF_UI_SRNUMBERSPINNER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x1EC49400)
-#define SRF_UI_SRNUMBERSPINNER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1EC48DB0)
-#define SRF_UI_SRNUMBERSPINNER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1EC48F10)
-#define SRF_UI_SRNUMBERSPINNER_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1EC48F20)
-#define SRF_UI_SRNUMBERSPINNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC494A0)
+#define SRF_UI_SRNUMBERSPINNER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ED53660)
+#define SRF_UI_SRNUMBERSPINNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED53E90)
+#define SRF_UI_SRNUMBERSPINNER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1ED53950)
+#define SRF_UI_SRNUMBERSPINNER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1ED53C20)
+#define SRF_UI_SRNUMBERSPINNER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x1ED53DF0)
+#define SRF_UI_SRNUMBERSPINNER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1ED537D0)
+#define SRF_UI_SRNUMBERSPINNER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1ED53930)
+#define SRF_UI_SRNUMBERSPINNER_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1ED53940)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRNumberSpinner_TypeDefinitionIndex = 34722;
+	inline static constexpr unsigned int SRNumberSpinner_TypeDefinitionIndex = 35391;
 
 	class SRNumberSpinner : public ::UnityEngine::UI::InputField
 	{
@@ -24,12 +23,12 @@ namespace SRF::UI
 		::System::Double _dragStartAmount; // 0x248
 		::System::Double _dragStep; // 0x250
 		::System::Single DragSensitivity; // 0x258
+		::System::Byte _padding0[0x4];
 		::System::Double MaxValue; // 0x260
 		::System::Double MinValue; // 0x268
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERSPINNER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERSPINNER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -66,5 +65,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERSPINNER_ONENDDRAG_OFFSET))(this, a1);
 		}
+
 	};
 }

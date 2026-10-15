@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET UNITYSDK_OFFSET(0x1A1B6EF0)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x1A1B6E40)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATNOTCSHARPSTANDARDSTRING_OFFSET UNITYSDK_OFFSET(0x1A191F80)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET UNITYSDK_OFFSET(0x1A1B6C50)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMAT_OFFSET UNITYSDK_OFFSET(0x1A1B6D50)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET UNITYSDK_OFFSET(0x1BC2D5C0)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x1BC2D510)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATNOTCSHARPSTANDARDSTRING_OFFSET UNITYSDK_OFFSET(0x1BC07E80)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET UNITYSDK_OFFSET(0x1BC2D460)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMAT_OFFSET UNITYSDK_OFFSET(0x1BC2D4C0)
 
 namespace MiHoYo::SDK::Common
 {
-	inline static constexpr unsigned int StringUtils_TypeDefinitionIndex = 8766;
+	inline static constexpr unsigned int StringUtils_TypeDefinitionIndex = 8827;
 
 	class StringUtils : public ::System::Object
 	{
 	public:
 		// static const ::System::String* LOG_EVENT_STRING_FORMAT_FAILED; // 0x0
-
 		static ::System::String* SafeFormatString(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
 			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET))(a1, a2);
@@ -43,5 +42,6 @@ namespace MiHoYo::SDK::Common
 		{
 			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventFieldFormat.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventFieldTags.h"
-
+#include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x1AB5AEF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AB5AEE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x1AB5AED0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x1C1ACEE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C1ACED0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x1C1ACEC0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -20,7 +19,6 @@ namespace System::Diagnostics::Tracing
 		::System::String* _Name_k__BackingField; // 0x10
 		::System::Diagnostics::Tracing::EventFieldTags _Tags_k__BackingField; // 0x18
 		::System::Diagnostics::Tracing::EventFieldFormat _Format_k__BackingField; // 0x1C
-
 		::System::Diagnostics::Tracing::EventFieldTags get_Tags()
 		{
 			return ((::System::Diagnostics::Tracing::EventFieldTags(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_TAGS_OFFSET))(this);
@@ -35,5 +33,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Diagnostics::Tracing::EventFieldFormat(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_FORMAT_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LPMAENKEEHO_TypeDefinitionIndex = 34231;
+
+	enum class LPMAENKEEHO : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		DPOBLEPFJDJ = 6739,
+		KKHDJGCHKHG = 6768,
+		HCNDNIGALBB = 6715,
+		MKKIOPMCMHB = 6775,
+		KCMOAOLIPGN = 6708,
+		AOJDJHDIFIP = 6760,
+		FMNIDGBDCDO = 6758,
+		HFBJHFGODGB = 6705,
+		CADJHIFNINP = 6725,
+		GIMMMBGKIKL = 6783,
+		ENEKOFGHHGG = 6756,
+		BMPNHEMOEKI = 6734,
+		DPLPKPEFDCC = 6761,
+		JKILIBCLKPK = 6742,
+		AJHLBBKCFFK = 6716,
+	};

@@ -1,59 +1,60 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class PropInfoSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_PROPINFOSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD4E670)
-#define PROTO_PROPINFOSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD4E260)
-#define PROTO_PROPINFOSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD4E3F0)
-#define PROTO_PROPINFOSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD4E2F0)
-#define PROTO_PROPINFOSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD4E560)
-#define PROTO_PROPINFOSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD4E1B0)
-#define PROTO_PROPINFOSNAPSHOT_GET_PROPSTATE_OFFSET UNITYSDK_OFFSET(0x1DD4E2D0)
-#define PROTO_PROPINFOSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD4E730)
-#define PROTO_PROPINFOSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD4E700)
-#define PROTO_PROPINFOSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD4E210)
-#define PROTO_PROPINFOSNAPSHOT_SET_PROPSTATE_OFFSET UNITYSDK_OFFSET(0x1DD4E2E0)
-#define PROTO_PROPINFOSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD4E590)
-#define PROTO_PROPINFOSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD4E5F0)
-#define PROTO_PROPINFOSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD4E890)
-#define PROTO_PROPINFOSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD4E230)
-#define PROTO_PROPINFOSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD4E220)
+#define PROTO_PROPINFOSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFDFC40)
+#define PROTO_PROPINFOSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFDFE60)
+#define PROTO_PROPINFOSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFDF830)
+#define PROTO_PROPINFOSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFDF800)
+#define PROTO_PROPINFOSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDF7F0)
+#define PROTO_PROPINFOSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFDF9C0)
+#define PROTO_PROPINFOSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFDF8C0)
+#define PROTO_PROPINFOSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFDFB30)
+#define PROTO_PROPINFOSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFDF780)
+#define PROTO_PROPINFOSNAPSHOT_GET_PROPSTATE_OFFSET UNITYSDK_OFFSET(0x1DFDF8A0)
+#define PROTO_PROPINFOSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFDFD00)
+#define PROTO_PROPINFOSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFDFCD0)
+#define PROTO_PROPINFOSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFDF7E0)
+#define PROTO_PROPINFOSNAPSHOT_SET_PROPSTATE_OFFSET UNITYSDK_OFFSET(0x1DFDF8B0)
+#define PROTO_PROPINFOSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFDFB60)
+#define PROTO_PROPINFOSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFDFBC0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PropInfoSnapshot_TypeDefinitionIndex = 25478;
+	inline static constexpr unsigned int PropInfoSnapshot_TypeDefinitionIndex = 25821;
 
 	class PropInfoSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::PropInfoSnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::PropInfoSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PropInfoSnapshot_TypeDefinitionIndex)->GetStaticField(0x5C790);
-		}
-		// static const ::System::Int32 PropStateFieldNumber = 0x1; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::System::UInt32 propState_; // 0x18
+		static ::Google::Protobuf::MessageParser_1<::Proto::PropInfoSnapshot*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::PropInfoSnapshot*>**)UnitySDK::FromName("Proto", "PropInfoSnapshot")->GetStaticField(0x4E510);
+		}
 
+		// static const ::System::Object PropStateFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::PropInfoSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::PropInfoSnapshot*))((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::PropInfoSnapshot*))((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::PropInfoSnapshot*>* get_Parser()
@@ -120,5 +121,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_PROPINFOSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

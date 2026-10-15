@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x11679CD0)
-#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1167A030)
+#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD79CB40)
+#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD79C7E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectDecorateLineControl_TypeDefinitionIndex = 70695;
+	inline static constexpr unsigned int MonoEffectDecorateLineControl_TypeDefinitionIndex = 70731;
 
 	class MonoEffectDecorateLineControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,15 +23,15 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::GameObject*>* destination; // 0x38
 		::Il2CppArray<::System::Single>* destinationFadeoutRange; // 0x40
 		::System::Int32 showDestinations; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTDECORATELINECONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

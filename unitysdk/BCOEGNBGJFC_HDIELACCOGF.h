@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BCOEGNBGJFC_HDIELACCOGF_TypeDefinitionIndex = 33303;
+
+	enum class BCOEGNBGJFC_HDIELACCOGF : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		NLJPONKBMFI = 14,
+		BBNEGKCNMBA = 6,
+		PKPIEFOBHKH = 12,
+		FKMADCAFJMC = 9,
+		PHLEDABHDML = 3,
+		DDLADFJMEEC = 10,
+		OJEANDPABHC = 2,
+		CLLEJEPNBDH = 8,
+		DNHKNALBAMG = 4,
+		LBBCJHOPEPH = 5,
+		KDFGAKDCMIK = 7,
+		PMOBKAPNAOE = 15,
+		HEDNHMLDAHF = 1,
+		OBMGLCHBFOM = 11,
+		JGHCKHAPAGG = 330,
+	};

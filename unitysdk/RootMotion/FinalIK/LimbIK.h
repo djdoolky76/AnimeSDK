@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RootMotion/FinalIK/GrounderIKThreadSolver_Limb.h"
 #include "unitysdk/RootMotion/FinalIK/IK.h"
-
+#include "unitysdk/RootMotion/FinalIK/GrounderIKThreadSolver_Limb.h"
 namespace RootMotion::FinalIK { class IKSolver; }
 namespace RootMotion::FinalIK { class IKSolverLimb; }
 namespace System { class String; }
 
-#define ROOTMOTION_FINALIK_LIMBIK_ASTHREAD_OFFSET UNITYSDK_OFFSET(0x196AF1D0)
-#define ROOTMOTION_FINALIK_LIMBIK_COPYFROM_OFFSET UNITYSDK_OFFSET(0x196952E0)
-#define ROOTMOTION_FINALIK_LIMBIK_COPYTO_OFFSET UNITYSDK_OFFSET(0x19694940)
-#define ROOTMOTION_FINALIK_LIMBIK_GETIKSOLVER_OFFSET UNITYSDK_OFFSET(0x196AF220)
-#define ROOTMOTION_FINALIK_LIMBIK_OPENSCRIPTREFERENCE_OFFSET UNITYSDK_OFFSET(0x196AF130)
-#define ROOTMOTION_FINALIK_LIMBIK_OPENUSERMANUAL_OFFSET UNITYSDK_OFFSET(0x196AF0E0)
-#define ROOTMOTION_FINALIK_LIMBIK_SUPPORTGROUP_OFFSET UNITYSDK_OFFSET(0x196AF180)
-#define ROOTMOTION_FINALIK_LIMBIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x196AF230)
-#define ROOTMOTION_FINALIK_LIMBIK__CTOR_OFFSET UNITYSDK_OFFSET(0x196AF340)
+#define ROOTMOTION_FINALIK_LIMBIK_ASTHREAD_OFFSET UNITYSDK_OFFSET(0xB0B6620)
+#define ROOTMOTION_FINALIK_LIMBIK_COPYFROM_OFFSET UNITYSDK_OFFSET(0xB09BDE0)
+#define ROOTMOTION_FINALIK_LIMBIK_COPYTO_OFFSET UNITYSDK_OFFSET(0xB09B440)
+#define ROOTMOTION_FINALIK_LIMBIK_CTOR_OFFSET UNITYSDK_OFFSET(0xB0B6790)
+#define ROOTMOTION_FINALIK_LIMBIK_GETIKSOLVER_OFFSET UNITYSDK_OFFSET(0xB0B6670)
+#define ROOTMOTION_FINALIK_LIMBIK_OPENSCRIPTREFERENCE_OFFSET UNITYSDK_OFFSET(0xB0B6580)
+#define ROOTMOTION_FINALIK_LIMBIK_OPENUSERMANUAL_OFFSET UNITYSDK_OFFSET(0xB0B6530)
+#define ROOTMOTION_FINALIK_LIMBIK_SUPPORTGROUP_OFFSET UNITYSDK_OFFSET(0xB0B65D0)
+#define ROOTMOTION_FINALIK_LIMBIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB0B6680)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int LimbIK_TypeDefinitionIndex = 44873;
+	inline static constexpr unsigned int LimbIK_TypeDefinitionIndex = 46012;
 
 	class LimbIK : public ::RootMotion::FinalIK::IK
 	{
 	public:
 		::RootMotion::FinalIK::IKSolverLimb* solver; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OpenUserManual()
@@ -51,14 +49,14 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_ASTHREAD_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::RootMotion::FinalIK::GrounderIKThreadSolver_Limb& a1)
+		::System::Void CopyTo(::RootMotion::FinalIK::GrounderIKThreadSolver_Limb a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::GrounderIKThreadSolver_Limb&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_COPYTO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::GrounderIKThreadSolver_Limb))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_COPYTO_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyFrom(::RootMotion::FinalIK::GrounderIKThreadSolver_Limb& a1)
+		::System::Void CopyFrom(::RootMotion::FinalIK::GrounderIKThreadSolver_Limb a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::GrounderIKThreadSolver_Limb&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_COPYFROM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::GrounderIKThreadSolver_Limb))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_COPYFROM_OFFSET))(this, a1);
 		}
 
 		::RootMotion::FinalIK::IKSolver* GetIKSolver()
@@ -70,5 +68,6 @@ namespace RootMotion::FinalIK
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_LIMBIK_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

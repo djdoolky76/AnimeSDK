@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AnimGroupEventEntry; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMGROUPEVENTENTRY_METHOD_2_543EABFB4E771448_OFFSET UNITYSDK_OFFSET(0x1C56B470)
-#define RPG_GAMECORE_ANIMGROUPEVENTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C56B820)
+#define RPG_GAMECORE_ANIMGROUPEVENTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C4F30)
+#define RPG_GAMECORE_ANIMGROUPEVENTENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C4B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimGroupEventEntry_TypeDefinitionIndex = 16120;
+	inline static constexpr unsigned int AnimGroupEventEntry_TypeDefinitionIndex = 16293;
 
 	class AnimGroupEventEntry : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,15 +24,15 @@ namespace RPG::GameCore
 		::System::Boolean ResetOnSameStateEnter; // 0x23
 		::System::Boolean ResetOnSameStateChange; // 0x24
 		::System::Boolean DisallowExitTriggeredOnStateUpdate; // 0x25
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTENTRY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_543EABFB4E771448(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimGroupEventEntry*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AnimGroupEventEntry* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimGroupEventEntry*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTENTRY_METHOD_2_543EABFB4E771448_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AnimGroupEventEntry*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTENTRY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

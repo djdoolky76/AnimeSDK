@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class MJNAGKGOMKA;
+namespace RPG::GameCore { class TaskContext; }
+
+#define IJLELNGIFNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1645E8F0)
+#define IJLELNGIFNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1645E920)
+
+inline static constexpr unsigned int IJLELNGIFNB_TypeDefinitionIndex = 52966;
+
+	class IJLELNGIFNB
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::MJNAGKGOMKA* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::MJNAGKGOMKA*))((::PBYTE)hIl2Cpp + IJLELNGIFNB_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLELNGIFNB_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

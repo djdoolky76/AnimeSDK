@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class WaitCustomString; }
 
-#define RPG_GAMECORE_WAITCUSTOMSTRING_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x1DEB5CE0)
-#define RPG_GAMECORE_WAITCUSTOMSTRING_METHOD_3_566AB8B75D620003_OFFSET UNITYSDK_OFFSET(0x1DEB56C0)
-#define RPG_GAMECORE_WAITCUSTOMSTRING_METHOD_3_CA89EF70B6C7BF4C_OFFSET UNITYSDK_OFFSET(0x1DEB5890)
-#define RPG_GAMECORE_WAITCUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB5880)
+#define RPG_GAMECORE_WAITCUSTOMSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC68010)
+#define RPG_GAMECORE_WAITCUSTOMSTRING_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x1DC68470)
+#define RPG_GAMECORE_WAITCUSTOMSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC68020)
+#define RPG_GAMECORE_WAITCUSTOMSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC67E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitCustomString_TypeDefinitionIndex = 23484;
+	inline static constexpr unsigned int WaitCustomString_TypeDefinitionIndex = 23758;
 
 	class WaitCustomString : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,25 +21,25 @@ namespace RPG::GameCore
 		::System::Boolean WaitOwnerOnly; // 0x20
 		::System::Boolean GoNextImmediately; // 0x21
 		::System::Boolean ResetWhenTaskBegin; // 0x22
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_566AB8B75D620003(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitCustomString*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitCustomString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitCustomString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING_METHOD_3_566AB8B75D620003_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CA89EF70B6C7BF4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitCustomString* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitCustomString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING_METHOD_3_CA89EF70B6C7BF4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean get_IsClientOnly()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITCUSTOMSTRING_GET_ISCLIENTONLY_OFFSET))(this);
 		}
+
 	};
 }

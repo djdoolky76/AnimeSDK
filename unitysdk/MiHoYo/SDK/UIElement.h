@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIBase.h"
-
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_UIELEMENT_GETUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1CD70350)
-#define MIHOYO_SDK_UIELEMENT_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1CD70330)
-#define MIHOYO_SDK_UIELEMENT_GET_PREFABNAME_OFFSET UNITYSDK_OFFSET(0x1CD70310)
-#define MIHOYO_SDK_UIELEMENT_ISINGLOBALUISTACKTOP_OFFSET UNITYSDK_OFFSET(0x1CD708C0)
-#define MIHOYO_SDK_UIELEMENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CD70900)
-#define MIHOYO_SDK_UIELEMENT_SET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1CD70340)
-#define MIHOYO_SDK_UIELEMENT_SET_PREFABNAME_OFFSET UNITYSDK_OFFSET(0x1CD70320)
-#define MIHOYO_SDK_UIELEMENT_TABACTIVE_OFFSET UNITYSDK_OFFSET(0x1CD68260)
-#define MIHOYO_SDK_UIELEMENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CD70360)
-#define MIHOYO_SDK_UIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD61D80)
+#define MIHOYO_SDK_UIELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD4600)
+#define MIHOYO_SDK_UIELEMENT_GETUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1BFE4110)
+#define MIHOYO_SDK_UIELEMENT_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1BFE40F0)
+#define MIHOYO_SDK_UIELEMENT_GET_PREFABNAME_OFFSET UNITYSDK_OFFSET(0x1BFE40D0)
+#define MIHOYO_SDK_UIELEMENT_ISINGLOBALUISTACKTOP_OFFSET UNITYSDK_OFFSET(0x1BFE4680)
+#define MIHOYO_SDK_UIELEMENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BFE46C0)
+#define MIHOYO_SDK_UIELEMENT_SET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1BFE4100)
+#define MIHOYO_SDK_UIELEMENT_SET_PREFABNAME_OFFSET UNITYSDK_OFFSET(0x1BFE40E0)
+#define MIHOYO_SDK_UIELEMENT_TABACTIVE_OFFSET UNITYSDK_OFFSET(0x1BFDC020)
+#define MIHOYO_SDK_UIELEMENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BFE4120)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UIElement_TypeDefinitionIndex = 8182;
+	inline static constexpr unsigned int UIElement_TypeDefinitionIndex = 8225;
 
 	class UIElement : public ::MiHoYo::SDK::UIBase
 	{
@@ -33,11 +32,11 @@ namespace MiHoYo::SDK
 		::System::String* _PrefabName_k__BackingField; // 0x38
 		::MiHoYo::SDK::UIManager* _Manager_k__BackingField; // 0x40
 		::System::Int32 tabPosition; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Object*>* tabList; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIELEMENT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_PrefabName()
@@ -84,5 +83,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIELEMENT_ONENABLE_OFFSET))(this);
 		}
+
 	};
 }

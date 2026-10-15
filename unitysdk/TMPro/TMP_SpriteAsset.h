@@ -2,54 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/TMPro/TMP_Asset.h"
 #include "unitysdk/UnityEngine/TextCore/FaceInfo.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class TMP_Sprite; }
+namespace TMPro { class TMP_SpriteAsset; }
 namespace TMPro { class TMP_SpriteCharacter; }
 namespace TMPro { class TMP_SpriteGlyph; }
 namespace UnityEngine { class Texture; }
 
-#define TMPRO_TMP_SPRITEASSET_AWAKE_OFFSET UNITYSDK_OFFSET(0x18B5F530)
-#define TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMHASHCODE_OFFSET UNITYSDK_OFFSET(0x18B5FAD0)
-#define TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMNAME_OFFSET UNITYSDK_OFFSET(0x18B5FBF0)
-#define TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMUNICODE_OFFSET UNITYSDK_OFFSET(0x18B5FB40)
-#define TMPRO_TMP_SPRITEASSET_GET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x18B5EC80)
-#define TMPRO_TMP_SPRITEASSET_GET_SPRITECHARACTERLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x18B40DA0)
-#define TMPRO_TMP_SPRITEASSET_GET_SPRITECHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x18B5EBC0)
-#define TMPRO_TMP_SPRITEASSET_GET_SPRITEGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x18B5F510)
-#define TMPRO_TMP_SPRITEASSET_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x18B5EC60)
-#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x18B608D0)
-#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18B60710)
-#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODE_OFFSET UNITYSDK_OFFSET(0x18B60290)
-#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x18B60160)
-#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18B60050)
-#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODE_OFFSET UNITYSDK_OFFSET(0x18B5FD60)
-#define TMPRO_TMP_SPRITEASSET_SET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x18B5ECC0)
-#define TMPRO_TMP_SPRITEASSET_SET_SPRITECHARACTERLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x18B5F500)
-#define TMPRO_TMP_SPRITEASSET_SET_SPRITECHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x18B5F4F0)
-#define TMPRO_TMP_SPRITEASSET_SET_SPRITEGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x18B5F520)
-#define TMPRO_TMP_SPRITEASSET_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x18B5EC70)
-#define TMPRO_TMP_SPRITEASSET_SORTCHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x18B60AF0)
-#define TMPRO_TMP_SPRITEASSET_SORTGLYPHANDCHARACTERTABLES_OFFSET UNITYSDK_OFFSET(0x18B60C40)
-#define TMPRO_TMP_SPRITEASSET_SORTGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x18B609A0)
-#define TMPRO_TMP_SPRITEASSET_UPDATELOOKUPTABLES_OFFSET UNITYSDK_OFFSET(0x18B5ED00)
-#define TMPRO_TMP_SPRITEASSET_UPGRADESPRITEASSET_OFFSET UNITYSDK_OFFSET(0x18B5F560)
-#define TMPRO_TMP_SPRITEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18B60DD0)
+#define TMPRO_TMP_SPRITEASSET_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F2F36E0)
+#define TMPRO_TMP_SPRITEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F4FA0)
+#define TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F2F3C80)
+#define TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMNAME_OFFSET UNITYSDK_OFFSET(0x1F2F3DA0)
+#define TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMUNICODE_OFFSET UNITYSDK_OFFSET(0x1F2F3CF0)
+#define TMPRO_TMP_SPRITEASSET_GET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x1F2F2E30)
+#define TMPRO_TMP_SPRITEASSET_GET_SPRITECHARACTERLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1F2D4350)
+#define TMPRO_TMP_SPRITEASSET_GET_SPRITECHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2D70)
+#define TMPRO_TMP_SPRITEASSET_GET_SPRITEGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F36C0)
+#define TMPRO_TMP_SPRITEASSET_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F2F2E10)
+#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1F2F4AA0)
+#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F2F48E0)
+#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F2F4450)
+#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1F2F4320)
+#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F2F4210)
+#define TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODE_OFFSET UNITYSDK_OFFSET(0x1F2F3F10)
+#define TMPRO_TMP_SPRITEASSET_SET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x1F2F2E70)
+#define TMPRO_TMP_SPRITEASSET_SET_SPRITECHARACTERLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F36B0)
+#define TMPRO_TMP_SPRITEASSET_SET_SPRITECHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F36A0)
+#define TMPRO_TMP_SPRITEASSET_SET_SPRITEGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F36D0)
+#define TMPRO_TMP_SPRITEASSET_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F2F2E20)
+#define TMPRO_TMP_SPRITEASSET_SORTCHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F4CC0)
+#define TMPRO_TMP_SPRITEASSET_SORTGLYPHANDCHARACTERTABLES_OFFSET UNITYSDK_OFFSET(0x1F2F4E10)
+#define TMPRO_TMP_SPRITEASSET_SORTGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F4B70)
+#define TMPRO_TMP_SPRITEASSET_UPDATELOOKUPTABLES_OFFSET UNITYSDK_OFFSET(0x1F2F2EB0)
+#define TMPRO_TMP_SPRITEASSET_UPGRADESPRITEASSET_OFFSET UNITYSDK_OFFSET(0x1F2F3710)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteAsset_TypeDefinitionIndex = 43443;
+	inline static constexpr unsigned int TMP_SpriteAsset_TypeDefinitionIndex = 44635;
 
 	class TMP_SpriteAsset : public ::TMPro::TMP_Asset
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_searchedSpriteAssets()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset_TypeDefinitionIndex)->GetStaticField(0x62A0);
-		}
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* m_NameLookup; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* m_GlyphIndexLookup; // 0x38
 		::System::String* m_Version; // 0x40
@@ -62,10 +58,14 @@ namespace TMPro
 		::System::Collections::Generic::List_1<::TMPro::TMP_Sprite*>* spriteInfoList; // 0xD0
 		::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* fallbackSpriteAssets; // 0xD8
 		::System::Boolean m_IsSpriteAssetLookupTablesDirty; // 0xE0
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_searchedSpriteAssets()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("TMPro", "TMP_SpriteAsset")->GetStaticField(0x56EE0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_version()
@@ -143,34 +143,34 @@ namespace TMPro
 			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_GETSPRITEINDEXFROMNAME_OFFSET))(this, a1);
 		}
 
-		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(::TMPro::TMP_SpriteAsset* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32& a4)
+		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(::TMPro::TMP_SpriteAsset* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::UInt32, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODE_OFFSET))(a1, a2, a3, a4);
+			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::UInt32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32& a4)
+		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::TMPro::TMP_SpriteAsset*(*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*, ::System::UInt32, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_OFFSET))(a1, a2, a3, a4);
+			return ((::TMPro::TMP_SpriteAsset*(*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*, ::System::UInt32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal_1(::TMPro::TMP_SpriteAsset* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32& a4)
+		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal_1(::TMPro::TMP_SpriteAsset* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::UInt32, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_1_OFFSET))(a1, a2, a3, a4);
+			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::UInt32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYUNICODEINTERNAL_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCode(::TMPro::TMP_SpriteAsset* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32& a4)
+		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCode(::TMPro::TMP_SpriteAsset* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODE_OFFSET))(a1, a2, a3, a4);
+			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32& a4)
+		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::TMPro::TMP_SpriteAsset*(*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*, ::System::Int32, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_OFFSET))(a1, a2, a3, a4);
+			return ((::TMPro::TMP_SpriteAsset*(*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal_1(::TMPro::TMP_SpriteAsset* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32& a4)
+		static ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal_1(::TMPro::TMP_SpriteAsset* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_1_OFFSET))(a1, a2, a3, a4);
+			return ((::TMPro::TMP_SpriteAsset*(*)(::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_SEARCHFORSPRITEBYHASHCODEINTERNAL_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void SortGlyphTable()
@@ -192,5 +192,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEASSET_UPGRADESPRITEASSET_OFFSET))(this);
 		}
+
 	};
 }

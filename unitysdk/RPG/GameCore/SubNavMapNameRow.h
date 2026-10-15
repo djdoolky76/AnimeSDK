@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SubNavMapNameRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SUBNAVMAPNAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CB10050)
-#define RPG_GAMECORE_SUBNAVMAPNAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB101F0)
+#define RPG_GAMECORE_SUBNAVMAPNAMEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0B350)
+#define RPG_GAMECORE_SUBNAVMAPNAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0B1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubNavMapNameRow_TypeDefinitionIndex = 13913;
+	inline static constexpr unsigned int SubNavMapNameRow_TypeDefinitionIndex = 14020;
 
 	class SubNavMapNameRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 SubMapID; // 0x20
-		::System::UInt32 FloorID; // 0x24
-
+		::System::UInt32 FloorID; // 0x10
+		::System::UInt32 SubMapID; // 0x14
+		::RPG::Client::TextID Name; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBNAVMAPNAMEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBNAVMAPNAMEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubNavMapNameRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::SubNavMapNameRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubNavMapNameRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBNAVMAPNAMEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SubNavMapNameRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBNAVMAPNAMEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

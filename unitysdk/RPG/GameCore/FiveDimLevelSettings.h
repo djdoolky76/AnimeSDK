@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/FiveDimDifficulty.h"
 #include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
 #include "unitysdk/RPG/GameCore/LittleGameLevelSettings.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEditorLoadStageConfig; }
 namespace RPG::GameCore { class FiveDimExtraLevelGraphConfig; }
 namespace RPG::GameCore { class FiveDimLevelAudioConfig; }
+namespace RPG::GameCore { class FiveDimLevelSettings; }
 namespace RPG::GameCore { class FiveDimMusicJumpConfig; }
 namespace RPG::GameCore { class FiveDimTrainLevelConfig; }
 namespace RPG::GameCore { class FiveDimWaterReflectionLevelConfig; }
@@ -18,23 +18,25 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D8671C0)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D867170)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8671B0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D698530)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D698550)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6984E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18302;
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18517;
 
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
 	public:
 		::RPG::GameCore::HoyoTagContainer* Tags; // 0x10
 		::System::UInt32 UnitLengthIndex; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::FiveDimExtraLevelGraphConfig*>* ExtraLevelGraphConfigList; // 0x20
 		::System::Boolean UseLevelSpaceGravity; // 0x28
 		::System::Boolean ReverseCameraGravity; // 0x29
 		::System::Boolean LightFollowCameraDir; // 0x2A
+		::System::Byte _padding1[0x1];
 		::System::UInt32 AvatarID; // 0x2C
 		::RPG::GameCore::FiveDimLevelAudioConfig* LevelAudioConfig; // 0x30
 		::RPG::GameCore::FiveDimMusicJumpConfig* MusicJumpConfig; // 0x38
@@ -47,26 +49,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::FiveDimTrainLevelConfig* TrainConfig; // 0x68
 		::RPG::GameCore::MiniGameHundredFloorConfig* HundredFloorConfig; // 0x70
 		::RPG::GameCore::FiveDimDifficulty Difficulty; // 0x78
+		::System::Byte _padding2[0x4];
 		::RPG::Client::TextID SimpleGameLevelTips; // 0x80
 		::RPG::Client::TextID SimepleGameLevelDesc; // 0x90
 		::System::Boolean CameraCullingOptimization; // 0xA0
-		::System::Boolean EnableEffectSimulateInSurface; // 0xA1
-		::System::Boolean UnlimitedJumpEnergy; // 0xA2
-		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xA4
-
+		::System::Byte _padding3[0x3];
+		::System::Single CameraCullingFovScale; // 0xA4
+		::System::Boolean EnableEffectSimulateInSurface; // 0xA8
+		::System::Boolean UnlimitedJumpEnergy; // 0xA9
+		::System::Byte _padding4[0x2];
+		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xAC
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLevelSettings*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimLevelSettings* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLevelSettings*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimLevelSettings*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLevelSettings* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimLevelSettings* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLevelSettings*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimLevelSettings*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

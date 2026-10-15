@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByHasPausedElationTime; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_2384F83176FEF420_OFFSET UNITYSDK_OFFSET(0x1BBDFEB0)
-#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_34763F50B546CCB3_OFFSET UNITYSDK_OFFSET(0x1BBDFEF0)
-#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_AA15705AC597AD60_OFFSET UNITYSDK_OFFSET(0x1BBE0060)
-#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_CC272375F59FEDE9_OFFSET UNITYSDK_OFFSET(0x1BBE0030)
-#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDFEE0)
+#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4CC010)
+#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4CC190)
+#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4CC160)
+#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4CC020)
+#define RPG_GAMECORE_BYHASPAUSEDELATIONTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4CBFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHasPausedElationTime_TypeDefinitionIndex = 22365;
+	inline static constexpr unsigned int ByHasPausedElationTime_TypeDefinitionIndex = 22618;
 
 	class ByHasPausedElationTime : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2384F83176FEF420(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasPausedElationTime*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHasPausedElationTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasPausedElationTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_2384F83176FEF420_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHasPausedElationTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_34763F50B546CCB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasPausedElationTime* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHasPausedElationTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasPausedElationTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_34763F50B546CCB3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHasPausedElationTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CC272375F59FEDE9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasPausedElationTime*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasPausedElationTime* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasPausedElationTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_CC272375F59FEDE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasPausedElationTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AA15705AC597AD60(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasPausedElationTime* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasPausedElationTime* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasPausedElationTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_METHOD_4_AA15705AC597AD60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasPausedElationTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASPAUSEDELATIONTIME_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

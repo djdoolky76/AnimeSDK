@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TRFTeleportGateComponentConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_METHOD_3_53DD3365BB689D34_OFFSET UNITYSDK_OFFSET(0x1E160360)
-#define RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_METHOD_3_9688010784CB1F58_OFFSET UNITYSDK_OFFSET(0x1E160300)
-#define RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E160350)
+#define RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB264C0)
+#define RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB264D0)
+#define RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB26470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TRFTeleportGateComponentConfig_TypeDefinitionIndex = 18691;
+	inline static constexpr unsigned int TRFTeleportGateComponentConfig_TypeDefinitionIndex = 18913;
 
 	class TRFTeleportGateComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::UInt32 TeleportGateId; // 0x10
 		::System::Boolean InitOn; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9688010784CB1F58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFTeleportGateComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TRFTeleportGateComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFTeleportGateComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_METHOD_3_9688010784CB1F58_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TRFTeleportGateComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_53DD3365BB689D34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFTeleportGateComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TRFTeleportGateComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFTeleportGateComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_METHOD_3_53DD3365BB689D34_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TRFTeleportGateComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFTELEPORTGATECOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

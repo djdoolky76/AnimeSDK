@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Rendering/BlendState.h"
 #include "unitysdk/UnityEngine/Rendering/DepthState.h"
@@ -8,12 +7,11 @@
 #include "unitysdk/UnityEngine/Rendering/StencilState.h"
 #include "unitysdk/UnityEngine/WarmupQualityCategory.h"
 #include "unitysdk/UnityEngine/WarmupSubpass.h"
-
 namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WarmupPipelineState_TypeDefinitionIndex = 4380;
+	inline static constexpr unsigned int WarmupPipelineState_TypeDefinitionIndex = 4383;
 
 	struct alignas(8) WarmupPipelineState
 	{
@@ -39,6 +37,7 @@ namespace UnityEngine
 		::UnityEngine::Rendering::RasterState rasterState; // 0xA8
 		::UnityEngine::Rendering::DepthState depthState; // 0xB8
 		::UnityEngine::Rendering::StencilState stencilState; // 0xBA
+		::System::Byte _padding0[0x2];
 		::System::Int32 globalDepthBias; // 0xC8
 		::System::Int32 globalSlopeBias; // 0xCC
 		::System::Int32 depthBoundNear; // 0xD0

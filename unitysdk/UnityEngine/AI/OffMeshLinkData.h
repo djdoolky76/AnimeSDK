@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/AI/OffMeshLinkType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int OffMeshLinkData_TypeDefinitionIndex = 5643;
+	inline static constexpr unsigned int OffMeshLinkData_TypeDefinitionIndex = 5650;
 
 	struct alignas(4) OffMeshLinkData
 	{

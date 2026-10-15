@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FCVFilterExpression; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FCVFILTEREXPRESSION_METHOD_2_0BC3BDAA6F437B8C_OFFSET UNITYSDK_OFFSET(0x1D7E21C0)
-#define RPG_GAMECORE_FCVFILTEREXPRESSION_METHOD_2_5C3E85EEFDF5174F_OFFSET UNITYSDK_OFFSET(0x1D7E2310)
-#define RPG_GAMECORE_FCVFILTEREXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E2300)
+#define RPG_GAMECORE_FCVFILTEREXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D667E30)
+#define RPG_GAMECORE_FCVFILTEREXPRESSION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D667E40)
+#define RPG_GAMECORE_FCVFILTEREXPRESSION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D667CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FCVFilterExpression_TypeDefinitionIndex = 17204;
+	inline static constexpr unsigned int FCVFilterExpression_TypeDefinitionIndex = 17400;
 
 	class FCVFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FCVFILTEREXPRESSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FCVFILTEREXPRESSION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0BC3BDAA6F437B8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FCVFilterExpression*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FCVFilterExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FCVFilterExpression*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FCVFILTEREXPRESSION_METHOD_2_0BC3BDAA6F437B8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FCVFilterExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FCVFILTEREXPRESSION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_5C3E85EEFDF5174F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FCVFilterExpression* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FCVFilterExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FCVFilterExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FCVFILTEREXPRESSION_METHOD_2_5C3E85EEFDF5174F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FCVFilterExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FCVFILTEREXPRESSION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

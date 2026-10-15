@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BaseGachaGroupData; }
 
-#define RPG_CLIENT_GACHAGROUPDATAEXT_ISSINGLEPOOLGACHAGROUP_OFFSET UNITYSDK_OFFSET(0x19398A20)
+#define RPG_CLIENT_GACHAGROUPDATAEXT_ISSINGLEPOOLGACHAGROUP_OFFSET UNITYSDK_OFFSET(0xD089C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaGroupDataExt_TypeDefinitionIndex = 64379;
+	inline static constexpr unsigned int GachaGroupDataExt_TypeDefinitionIndex = 64319;
 
 	class GachaGroupDataExt : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::BaseGachaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAGROUPDATAEXT_ISSINGLEPOOLGACHAGROUP_OFFSET))(a1);
 		}
+
 	};
 }

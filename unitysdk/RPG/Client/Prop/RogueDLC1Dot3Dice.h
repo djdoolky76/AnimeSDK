@@ -4,33 +4,28 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x16643410)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0x166431E0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x166428E0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x16642D10)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_RESETDICE_OFFSET UNITYSDK_OFFSET(0x16642C80)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x16643390)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_1_OFFSET UNITYSDK_OFFSET(0x16643240)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_OFFSET UNITYSDK_OFFSET(0x16642A30)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x16642860)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16644E70)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CTOR_OFFSET UNITYSDK_OFFSET(0x16643480)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD83A60)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_CTOR_OFFSET UNITYSDK_OFFSET(0xDD82090)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDD82020)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_FNECGCDGEFB_OFFSET UNITYSDK_OFFSET(0xDD81920)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_NAJOIFMOIEB_OFFSET UNITYSDK_OFFSET(0xDD81DF0)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_OOEKMNLGJIK_OFFSET UNITYSDK_OFFSET(0xDD814F0)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_RESETDICE_OFFSET UNITYSDK_OFFSET(0xDD81890)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDD81FA0)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_1_OFFSET UNITYSDK_OFFSET(0xDD81E50)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xDD81640)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD81470)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLC1Dot3Dice_TypeDefinitionIndex = 78479;
+	inline static constexpr unsigned int RogueDLC1Dot3Dice_TypeDefinitionIndex = 78950;
 
 	class RogueDLC1Dot3Dice : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet_DCIBODDDBEL()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RogueDLC1Dot3Dice_TypeDefinitionIndex)->GetStaticField(0x14BB0);
-		}
 		::System::Int32 RotateRound; // 0x18
 		::System::Int32 RerollRotateRound; // 0x1C
 		::System::Single RotateTime; // 0x20
@@ -43,6 +38,7 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::RogueDLC1Dot3Dice_Phase KAEFGGECBDO; // 0x50
 		::System::Single DNEAPBILMFH; // 0x54
 		::System::Int32 ILLABOABODJ; // 0x58
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* ILAAPIFJEGL; // 0x60
 		::System::Int32 AJHCOEBHBKI; // 0x68
 		::System::Single MLJHEPFKDOG; // 0x6C
@@ -56,15 +52,19 @@ namespace RPG::Client::Prop
 		::UnityEngine::Vector3 DDCDAGJGLPM; // 0xB4
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* JKJGJHJPFFB; // 0xC0
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>* KIMIJDFMFPD; // 0xC8
+		static ::System::Single* StaticGet_DCIBODDDBEL()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "RogueDLC1Dot3Dice")->GetStaticField(0x115D0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_CCTOR_OFFSET))();
 		}
 
 		::System::Void Update()
@@ -87,19 +87,19 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_RESETDICE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AA169839CB93802A()
+		::System::Void OOEKMNLGJIK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_AA169839CB93802A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_OOEKMNLGJIK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B7F8E0B4AF22DEA3()
+		::System::Void FNECGCDGEFB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_B7F8E0B4AF22DEA3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_FNECGCDGEFB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7646FFE662147970()
+		::System::Void NAJOIFMOIEB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_7646FFE662147970_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_NAJOIFMOIEB_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -111,5 +111,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_DESPAWNED_OFFSET))(this);
 		}
+
 	};
 }

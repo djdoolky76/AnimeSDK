@@ -1,41 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x16648840)
-#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x166487C0)
-#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_SHOWEMPTYEXHIBITION_OFFSET UNITYSDK_OFFSET(0x16648AA0)
-#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_SHOWEXHIBITION_OFFSET UNITYSDK_OFFSET(0x166488A0)
-#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH__CCTOR_OFFSET UNITYSDK_OFFSET(0x16648B90)
-#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH__CTOR_OFFSET UNITYSDK_OFFSET(0x16648B80)
+#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD87710)
+#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_CTOR_OFFSET UNITYSDK_OFFSET(0xDD87700)
+#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_EBIPCMFGMDK_OFFSET UNITYSDK_OFFSET(0xDD873C0)
+#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDD87340)
+#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_SHOWEMPTYEXHIBITION_OFFSET UNITYSDK_OFFSET(0xDD87620)
+#define RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_SHOWEXHIBITION_OFFSET UNITYSDK_OFFSET(0xDD87420)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueTournExhibitionBooth_TypeDefinitionIndex = 78486;
+	inline static constexpr unsigned int RogueTournExhibitionBooth_TypeDefinitionIndex = 78957;
 
 	class RogueTournExhibitionBooth : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_DBLJMLMIIIL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RogueTournExhibitionBooth_TypeDefinitionIndex)->GetStaticField(0x14C30);
-		}
 		::UnityEngine::Renderer* ExhibitionImageRenderer; // 0x18
 		::UnityEngine::Texture* CECNGLFHAPO; // 0x20
 		::System::String* ICLMCBLCOPE; // 0x28
+		static ::System::Int32* StaticGet_DBLJMLMIIIL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "RogueTournExhibitionBooth")->GetStaticField(0x116F0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_CCTOR_OFFSET))();
 		}
 
 		::System::Void OnDestroy()
@@ -53,9 +52,10 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_SHOWEMPTYEXHIBITION_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void EBIPCMFGMDK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUETOURNEXHIBITIONBOOTH_EBIPCMFGMDK_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_LISTGOODSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A627CF0)
+#define MIHOYO_SDK_LISTGOODSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6BEE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ListGoodsInfo_TypeDefinitionIndex = 7537;
+	inline static constexpr unsigned int ListGoodsInfo_TypeDefinitionIndex = 7591;
 
 	class ListGoodsInfo : public ::System::Object
 	{
@@ -23,10 +21,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* GOODS_TYPE_BP; // 0x0
 		// static const ::System::String* GOODS_TYPE_PERMANENT_ITEM; // 0x0
 		// static const ::System::String* GOODS_TYPE_BUNDLE; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LISTGOODSINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LISTGOODSINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

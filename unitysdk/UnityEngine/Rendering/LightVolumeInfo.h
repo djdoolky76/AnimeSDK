@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightVolumeInfo_TypeDefinitionIndex = 4868;
+	inline static constexpr unsigned int LightVolumeInfo_TypeDefinitionIndex = 4874;
 
 	struct alignas(4) LightVolumeInfo
 	{

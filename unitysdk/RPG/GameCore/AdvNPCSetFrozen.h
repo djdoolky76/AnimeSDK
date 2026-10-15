@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvNPCSetFrozen; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVNPCSETFROZEN_METHOD_3_2C7CB82163AFC288_OFFSET UNITYSDK_OFFSET(0x1D6BDF00)
-#define RPG_GAMECORE_ADVNPCSETFROZEN_METHOD_3_7D0E86508A4B598D_OFFSET UNITYSDK_OFFSET(0x1D6BDF40)
-#define RPG_GAMECORE_ADVNPCSETFROZEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BDF30)
+#define RPG_GAMECORE_ADVNPCSETFROZEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D377780)
+#define RPG_GAMECORE_ADVNPCSETFROZEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D377790)
+#define RPG_GAMECORE_ADVNPCSETFROZEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D377750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNPCSetFrozen_TypeDefinitionIndex = 20099;
+	inline static constexpr unsigned int AdvNPCSetFrozen_TypeDefinitionIndex = 20336;
 
 	class AdvNPCSetFrozen : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsFrozen; // 0x18
 		::System::Boolean AffectCollider; // 0x19
+		::System::Byte _padding0[0x6];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCSETFROZEN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCSETFROZEN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C7CB82163AFC288(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCSetFrozen*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNPCSetFrozen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNPCSetFrozen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCSETFROZEN_METHOD_3_2C7CB82163AFC288_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNPCSetFrozen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCSETFROZEN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7D0E86508A4B598D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCSetFrozen* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNPCSetFrozen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNPCSetFrozen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCSETFROZEN_METHOD_3_7D0E86508A4B598D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNPCSetFrozen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCSETFROZEN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

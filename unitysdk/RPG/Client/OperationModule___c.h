@@ -1,56 +1,59 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_296A7AC90F028539;
-class Class_1_AC6C63F15E9794D3;
-class Class_1_D8AE373904B194A5;
+class GHHJNCOAIJF;
+class HKNBPHAJEJF;
+class IHGIENOHBMJ;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191F84E0)
-#define RPG_CLIENT_OPERATIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191F8520)
-#define RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_0_OFFSET UNITYSDK_OFFSET(0x191F8530)
-#define RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_1_OFFSET UNITYSDK_OFFSET(0x191F8560)
+#define RPG_CLIENT_OPERATIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0C100)
+#define RPG_CLIENT_OPERATIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0C140)
+#define RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_0_OFFSET UNITYSDK_OFFSET(0xDA0C150)
+#define RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_1_OFFSET UNITYSDK_OFFSET(0xDA0C180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c_TypeDefinitionIndex = 66448;
+	inline static constexpr unsigned int OperationModule___c_TypeDefinitionIndex = 66419;
 
 	class OperationModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_D8AE373904B194A5*>** StaticGet___9__54_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_D8AE373904B194A5*>**)Il2CppClass::FromTypeDefinitionIndex(OperationModule___c_TypeDefinitionIndex)->GetStaticField(0x523D0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE140);
 		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__54_0()
+
+		static ::System::Func_2<::IHGIENOHBMJ*, ::HKNBPHAJEJF*>** StaticGet___9__54_1()
 		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(OperationModule___c_TypeDefinitionIndex)->GetStaticField(0x523D8);
+			return (::System::Func_2<::IHGIENOHBMJ*, ::HKNBPHAJEJF*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE148);
 		}
-		static ::RPG::Client::OperationModule___c** StaticGet___9()
+
+		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>** StaticGet___9__54_0()
 		{
-			return (::RPG::Client::OperationModule___c**)Il2CppClass::FromTypeDefinitionIndex(OperationModule___c_TypeDefinitionIndex)->GetStaticField(0x523E0);
+			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE150);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>* _SendUseCDKeyHttpReq_b__54_0(::Class_1_AC6C63F15E9794D3* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendUseCDKeyHttpReq_b__54_0(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*(*)(::PVOID, ::Class_1_AC6C63F15E9794D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_0_OFFSET))(this, a1);
 		}
 
-		::Class_1_D8AE373904B194A5* _SendUseCDKeyHttpReq_b__54_1(::Class_1_296A7AC90F028539* a1)
+		::HKNBPHAJEJF* _SendUseCDKeyHttpReq_b__54_1(::IHGIENOHBMJ* a1)
 		{
-			return ((::Class_1_D8AE373904B194A5*(*)(::PVOID, ::Class_1_296A7AC90F028539*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_1_OFFSET))(this, a1);
+			return ((::HKNBPHAJEJF*(*)(::PVOID, ::IHGIENOHBMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__SENDUSECDKEYHTTPREQ_B__54_1_OFFSET))(this, a1);
 		}
+
 	};
 }

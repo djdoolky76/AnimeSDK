@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class AvatarFarmGuideData; }
+namespace RPG::Client { class HandbookGrowthGuideMaterialData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1A04DE40)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_GET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0x1A052470)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0x1A052480)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0520B0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD2E5E20)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E9FA0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_GET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0xD2EA370)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0xD2EA380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideMaterialData_TypeDefinitionIndex = 65680;
+	inline static constexpr unsigned int HandbookGrowthGuideMaterialData_TypeDefinitionIndex = 65620;
 
 	class HandbookGrowthGuideMaterialData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>* _MaterialGuideDataList_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::HandbookGrowthGuideMaterialData* Create(::System::UInt32 a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET))(this, a1);
 		}
+
 	};
 }

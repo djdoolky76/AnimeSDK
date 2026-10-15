@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Linq/AsyncEnumerableSorter_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-
+namespace Cysharp::Threading::Tasks::Linq { template <typename T> class AsyncEnumerableSorter_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SyncSelectorAsyncEnumerableSorter_2_TypeDefinitionIndex = 44381;
+	inline static constexpr unsigned int SyncSelectorAsyncEnumerableSorter_2_TypeDefinitionIndex = 45520;
 
-	template <typename TElement, typename TKey>
-	class SyncSelectorAsyncEnumerableSorter_2 : public ::Cysharp::Threading::Tasks::Linq::AsyncEnumerableSorter_1<TElement>
+	template <typename T1, typename T2>
+	class SyncSelectorAsyncEnumerableSorter_2
 	{
 	public:
-		::System::Func_2<TElement, TKey>* keySelector; // 0x0
-		::System::Collections::Generic::IComparer_1<TKey>* comparer; // 0x0
+		::System::Func_2<T1, T2>* keySelector; // 0x0
+		::System::Collections::Generic::IComparer_1<T2>* comparer; // 0x0
 		::System::Boolean descending; // 0x0
-		::Cysharp::Threading::Tasks::Linq::AsyncEnumerableSorter_1<TElement>* next; // 0x0
-		::Il2CppArray<TKey>* keys; // 0x0
+		::Cysharp::Threading::Tasks::Linq::AsyncEnumerableSorter_1<T1>* next; // 0x0
+		::Il2CppArray<T2>* keys; // 0x0
 	};
 }

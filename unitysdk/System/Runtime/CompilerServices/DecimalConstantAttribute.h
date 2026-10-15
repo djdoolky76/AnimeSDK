@@ -3,8 +3,8 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Decimal.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C456830)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4567B0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2991C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C299240)
 
 namespace System::Runtime::CompilerServices
 {
@@ -14,15 +14,15 @@ namespace System::Runtime::CompilerServices
 	{
 	public:
 		::System::Decimal dec; // 0x10
-
 		::System::Void _ctor(::System::Byte a1, ::System::Byte a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Decimal get_Value()
 		{
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE_GET_VALUE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FDLGMIIOACH_OPOHHCGKFPM.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
+class HCFLAPPBPOP;
+class JCLBKPABADL;
+class LEIJJPBKBKG;
+
+#define JCLBKPABADL_BJDFJKMIHMI_OFFSET UNITYSDK_OFFSET(0x16596940)
+#define JCLBKPABADL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16596BB0)
+#define JCLBKPABADL_CTOR_OFFSET UNITYSDK_OFFSET(0x16596C60)
+#define JCLBKPABADL_ENMMLCAMILF_OFFSET UNITYSDK_OFFSET(0x16596AD0)
+#define JCLBKPABADL_JMIOOGDGAPL_OFFSET UNITYSDK_OFFSET(0x16596930)
+#define JCLBKPABADL_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0x16596920)
+#define JCLBKPABADL_NIEDMGHBCAA_OFFSET UNITYSDK_OFFSET(0x165969F0)
+#define JCLBKPABADL_OBCFNMGELFO_OFFSET UNITYSDK_OFFSET(0x16596990)
+
+inline static constexpr unsigned int JCLBKPABADL_TypeDefinitionIndex = 78072;
+
+	class JCLBKPABADL
+	{
+	public:
+		::System::Void _ctor(::HCFLAPPBPOP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HCFLAPPBPOP*))((::PBYTE)hIl2Cpp + JCLBKPABADL_CTOR_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId JOHPKPGOGHD()
+		{
+			return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBKPABADL_JOHPKPGOGHD_OFFSET))(this);
+		}
+
+		::LEIJJPBKBKG* JMIOOGDGAPL()
+		{
+			return ((::LEIJJPBKBKG*(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBKPABADL_JMIOOGDGAPL_OFFSET))(this);
+		}
+
+		::System::UInt32 BJDFJKMIHMI()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBKPABADL_BJDFJKMIHMI_OFFSET))(this);
+		}
+
+		::FDLGMIIOACH_OPOHHCGKFPM OBCFNMGELFO()
+		{
+			return ((::FDLGMIIOACH_OPOHHCGKFPM(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBKPABADL_OBCFNMGELFO_OFFSET))(this);
+		}
+
+		::System::UInt32 NIEDMGHBCAA()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBKPABADL_NIEDMGHBCAA_OFFSET))(this);
+		}
+
+		::System::UInt32 ENMMLCAMILF()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBKPABADL_ENMMLCAMILF_OFFSET))(this);
+		}
+
+		static ::JCLBKPABADL* BPLPBPMEODA(::HCFLAPPBPOP* a1)
+		{
+			return ((::JCLBKPABADL*(*)(::HCFLAPPBPOP*))((::PBYTE)hIl2Cpp + JCLBKPABADL_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+	};

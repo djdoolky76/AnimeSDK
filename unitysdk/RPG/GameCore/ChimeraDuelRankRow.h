@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelRankRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E33A580)
-#define RPG_GAMECORE_CHIMERADUELRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33AC20)
+#define RPG_GAMECORE_CHIMERADUELRANKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57B310)
+#define RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57AC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRankRow_TypeDefinitionIndex = 11114;
+	inline static constexpr unsigned int ChimeraDuelRankRow_TypeDefinitionIndex = 11130;
 
 	class ChimeraDuelRankRow : public ::System::Object
 	{
@@ -21,15 +21,15 @@ namespace RPG::GameCore
 		::RPG::Client::TextID RankName; // 0x20
 		::System::UInt32 RankLevel; // 0x30
 		::System::UInt32 RankMinScore; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELRANKROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELRANKROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelRankRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelRankRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelRankRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelRankRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

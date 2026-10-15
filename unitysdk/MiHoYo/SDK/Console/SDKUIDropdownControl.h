@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -9,46 +8,46 @@ namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_CHANGEDROPDOWNVALUE_OFFSET UNITYSDK_OFFSET(0x1C5E40D0)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_CLOSEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1C5E4160)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_FIREDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1C5E3000)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GETDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1C5E39A0)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GETDROPDOWNREPEATRATE_OFFSET UNITYSDK_OFFSET(0x1C5E3C20)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GET_FOCUSEDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1C5E3BE0)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GET_ISWRAPAROUND_OFFSET UNITYSDK_OFFSET(0x1C5E3C00)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_INITIALIZEDROPDOWNITEMS_OFFSET UNITYSDK_OFFSET(0x1C5E31D0)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_SCROLLTOSELECTEDITEM_OFFSET UNITYSDK_OFFSET(0x1C5E3C40)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_SET_FOCUSEDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1C5E3BF0)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_SET_ISWRAPAROUND_OFFSET UNITYSDK_OFFSET(0x1C5E3C10)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_UPDATEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1C5E3220)
-#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E2FC0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_CHANGEDROPDOWNVALUE_OFFSET UNITYSDK_OFFSET(0x1BE001D0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_CLOSEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BE00260)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDFF0D0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_FIREDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BDFF100)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GETDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1BDFFAA0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GETDROPDOWNREPEATRATE_OFFSET UNITYSDK_OFFSET(0x1BDFFD20)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GET_FOCUSEDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BDFFCE0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_GET_ISWRAPAROUND_OFFSET UNITYSDK_OFFSET(0x1BDFFD00)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_INITIALIZEDROPDOWNITEMS_OFFSET UNITYSDK_OFFSET(0x1BDFF2D0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_SCROLLTOSELECTEDITEM_OFFSET UNITYSDK_OFFSET(0x1BDFFD40)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_SET_FOCUSEDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BDFFCF0)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_SET_ISWRAPAROUND_OFFSET UNITYSDK_OFFSET(0x1BDFFD10)
+#define MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_UPDATEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BDFF320)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int SDKUIDropdownControl_TypeDefinitionIndex = 8894;
+	inline static constexpr unsigned int SDKUIDropdownControl_TypeDefinitionIndex = 8955;
 
 	class SDKUIDropdownControl : public ::System::Object
 	{
 	public:
-		// static const ::System::Single inputRepeatDelay; // 0x0
-		// static const ::System::Single inputRepeatRate; // 0x0
-		// static const ::System::Single accelerationInterval; // 0x0
-		::UnityEngine::UI::ScrollRect* dropdownScrollRect; // 0x10
-		::UnityEngine::UI::Dropdown* _focusedDropdown_k__BackingField; // 0x18
+		::UnityEngine::UI::Dropdown* _focusedDropdown_k__BackingField; // 0x10
+		::UnityEngine::UI::ScrollRect* dropdownScrollRect; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>* dropdownItems; // 0x20
-		::System::Int32 maxStep; // 0x28
-		::System::Single lastInputTime; // 0x2C
-		::System::Int32 lastInputDirection; // 0x30
-		::System::Single inputHoldTime; // 0x34
-		::System::Int32 focusedDropdownValue; // 0x38
-		::System::Boolean _IsWrapAround_k__BackingField; // 0x3C
-		::System::Boolean justOpenDropDown; // 0x3D
-		::System::Boolean isTransitioning; // 0x3E
-		::System::Int32 step; // 0x40
-
+		::System::Int32 lastInputDirection; // 0x28
+		::System::Int32 focusedDropdownValue; // 0x2C
+		::System::Single lastInputTime; // 0x30
+		::System::Boolean justOpenDropDown; // 0x34
+		::System::Boolean isTransitioning; // 0x35
+		::System::Boolean _IsWrapAround_k__BackingField; // 0x36
+		::System::Byte _padding0[0x1];
+		::System::Int32 step; // 0x38
+		::System::Single inputHoldTime; // 0x3C
+		::System::Int32 maxStep; // 0x40
+		// static const ::System::Object inputRepeatDelay; // 0x0
+		// static const ::System::Object inputRepeatRate; // 0x0
+		// static const ::System::Object accelerationInterval; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::UI::Dropdown* get_focusedDropdown()
@@ -110,5 +109,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_SDKUIDROPDOWNCONTROL_UPDATEDROPDOWN_OFFSET))(this, a1);
 		}
+
 	};
 }

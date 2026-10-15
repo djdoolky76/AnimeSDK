@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceBasePredicateConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceBasePredicateConfig; }
+namespace RPG::GameCore { class CakeRaceOrPredicateConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEORPREDICATECONFIG_METHOD_3_0E47CAE8301634F0_OFFSET UNITYSDK_OFFSET(0x1D0FD260)
-#define RPG_GAMECORE_CAKERACEORPREDICATECONFIG_METHOD_3_F3B95642F3B5C738_OFFSET UNITYSDK_OFFSET(0x1D103090)
-#define RPG_GAMECORE_CAKERACEORPREDICATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD250)
+#define RPG_GAMECORE_CAKERACEORPREDICATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51DF40)
+#define RPG_GAMECORE_CAKERACEORPREDICATECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51DF50)
+#define RPG_GAMECORE_CAKERACEORPREDICATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D523DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceOrPredicateConfig_TypeDefinitionIndex = 18159;
+	inline static constexpr unsigned int CakeRaceOrPredicateConfig_TypeDefinitionIndex = 18374;
 
 	class CakeRaceOrPredicateConfig : public ::RPG::GameCore::CakeRaceBasePredicateConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::CakeRaceBasePredicateConfig*>* Predicates; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEORPREDICATECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEORPREDICATECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3B95642F3B5C738(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceOrPredicateConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceOrPredicateConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceOrPredicateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEORPREDICATECONFIG_METHOD_3_F3B95642F3B5C738_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceOrPredicateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEORPREDICATECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0E47CAE8301634F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceOrPredicateConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceOrPredicateConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceOrPredicateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEORPREDICATECONFIG_METHOD_3_0E47CAE8301634F0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceOrPredicateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEORPREDICATECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

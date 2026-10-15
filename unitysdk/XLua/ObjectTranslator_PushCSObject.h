@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF9FE410)
-#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF9FE480)
-#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0xF9FE400)
-#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xF9FE390)
+#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x152B7B50)
+#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x152B7AD0)
+#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x152B7BC0)
+#define XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x152B7B40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_PushCSObject_TypeDefinitionIndex = 50442;
+	inline static constexpr unsigned int ObjectTranslator_PushCSObject_TypeDefinitionIndex = 50071;
 
 	class ObjectTranslator_PushCSObject : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::Object* a2)
@@ -37,5 +36,6 @@ namespace XLua
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_PUSHCSOBJECT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

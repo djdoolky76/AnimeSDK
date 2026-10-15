@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class LuaUIGameFlowContext; }
 namespace RPG::Client::ChenLingBattle { class ActionInfo; }
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CC28460)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0x1CC28500)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1CC284C0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0x1CC283E0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC283D0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCA4F920)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCA4F9B0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0xCA2F870)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xCA4FA10)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0xCA4F930)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 75806;
+	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 76283;
 
 	class PendingAction : public ::System::Object
 	{
 	public:
 		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x10
-		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x18
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x18
 		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x20
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x28
-
+		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x28
 		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::RPG::Client::ChenLingBattle::ActionInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Promises::IPromise* OnEnter(::System::Nullable_1<::System::Int32> a1)
@@ -51,5 +49,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::RPG::Client::ChenLingBattle::ActionInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET))(this);
 		}
+
 	};
 }

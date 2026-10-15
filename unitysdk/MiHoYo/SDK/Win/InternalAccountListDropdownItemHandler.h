@@ -1,28 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x18AC1D20)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_GETKEY_OFFSET UNITYSDK_OFFSET(0x18AC3180)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x18AC3210)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18AC30E0)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_PARSEACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x18AC24B0)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_START_OFFSET UNITYSDK_OFFSET(0x18AC24A0)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC32D0)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD28000)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD295A0)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1BD29450)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BD294E0)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BD293E0)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_PARSEACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x1BD28790)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1BD28780)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int InternalAccountListDropdownItemHandler_TypeDefinitionIndex = 9237;
+	inline static constexpr unsigned int InternalAccountListDropdownItemHandler_TypeDefinitionIndex = 9299;
 
 	class InternalAccountListDropdownItemHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		::UnityEngine::UI::Text* itemText; // 0x18
+		::UnityEngine::UI::Text* showText; // 0x20
+		::UnityEngine::UI::Text* loginTimeText; // 0x28
+		::UnityEngine::GameObject* accountIcon; // 0x30
+		::UnityEngine::UI::Image* itemBackgournd; // 0x38
+		::UnityEngine::UI::Image* buttonBackgournd; // 0x40
+		::UnityEngine::UI::Button* deleteButton; // 0x48
+		::UnityEngine::UI::Text* buttonText; // 0x50
+		::System::String* type; // 0x58
 		// static const ::System::String* UserNamePath; // 0x0
 		// static const ::System::String* loginTimePath; // 0x0
 		// static const ::System::String* accountIconPath; // 0x0
@@ -33,19 +41,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* lastItemButtonTextPath; // 0x0
 		// static const ::System::String* itemBackgroundPath; // 0x0
 		// static const ::System::String* buttonBackgroundPath; // 0x0
-		::UnityEngine::UI::Text* itemText; // 0x18
-		::UnityEngine::UI::Text* showText; // 0x20
-		::UnityEngine::UI::Text* loginTimeText; // 0x28
-		::UnityEngine::GameObject* accountIcon; // 0x30
-		::UnityEngine::UI::Image* itemBackgournd; // 0x38
-		::UnityEngine::UI::Image* buttonBackgournd; // 0x40
-		::UnityEngine::UI::Button* deleteButton; // 0x48
-		::UnityEngine::UI::Text* buttonText; // 0x50
-		::System::String* type; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -77,5 +75,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET))(this);
 		}
+
 	};
 }

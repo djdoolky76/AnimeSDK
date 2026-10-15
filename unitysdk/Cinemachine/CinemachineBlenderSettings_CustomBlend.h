@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cinemachine/CinemachineBlendDefinition.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlenderSettings_CustomBlend_TypeDefinitionIndex = 38511;
+	inline static constexpr unsigned int CinemachineBlenderSettings_CustomBlend_TypeDefinitionIndex = 39808;
 
 	struct alignas(8) CinemachineBlenderSettings_CustomBlend
 	{

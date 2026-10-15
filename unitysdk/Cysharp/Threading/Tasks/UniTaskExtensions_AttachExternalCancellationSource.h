@@ -1,48 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-
+#include "unitysdk/System/Object.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CE1B890)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE1B8F0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE1B900)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CE1B9B0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_RUNTASK_OFFSET UNITYSDK_OFFSET(0x1CE1B850)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE1B9D0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE1BA20)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE18280)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F127560)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1276F0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F123F80)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F1275C0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F1275D0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F127680)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_RUNTASK_OFFSET UNITYSDK_OFFSET(0x1F127510)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F1276A0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_TypeDefinitionIndex = 42817;
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_TypeDefinitionIndex = 38402;
 
 	class UniTaskExtensions_AttachExternalCancellationSource : public ::System::Object
 	{
 	public:
+		::System::Threading::CancellationTokenRegistration tokenRegistration; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x28
+		::System::Byte _padding0[0x18];
+		::System::Threading::CancellationToken cancellationToken; // 0x48
 		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallbackDelegate()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskExtensions_AttachExternalCancellationSource_TypeDefinitionIndex)->GetStaticField(0x62C70);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AttachExternalCancellationSource")->GetStaticField(0x3AD10);
 		}
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Threading::CancellationTokenRegistration tokenRegistration; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x30
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::UniTask a1, ::System::Threading::CancellationToken a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTask, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTask, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CCTOR_OFFSET))();
 		}
 
 		::Cysharp::Threading::Tasks::UniTaskVoid RunTask(::Cysharp::Threading::Tasks::UniTask a1)
@@ -74,5 +75,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,119 +2,126 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class LoopTowerAnimBehavior_Class_1_2DA16813DB0B3208; }
+namespace RPG::Client { class LoopTowerAnimBehavior_CLNGNPDGIHJ; }
 namespace RPG::Client { class LoopTowerAnimBehavior_LoopTowerSlide; }
 namespace RPG::Client { class LoopTowerAnimMonoPlugin; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x17489A80)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_107FD70DCCEDAA2A_OFFSET UNITYSDK_OFFSET(0x17489470)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x1748BA00)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x1748BA60)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x1748C460)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET UNITYSDK_OFFSET(0x1748C4C0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1748B9A0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_43690B86AECB092E_OFFSET UNITYSDK_OFFSET(0x1748A5D0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1748B590)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_6516B39957C2E680_OFFSET UNITYSDK_OFFSET(0x17488DA0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_85A29D63AC16EE29_OFFSET UNITYSDK_OFFSET(0x17488FA0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x17488CA0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_B0351A8151A472A4_1_OFFSET UNITYSDK_OFFSET(0x1748B130)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_B0351A8151A472A4_OFFSET UNITYSDK_OFFSET(0x17489B00)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_FDA446125651C201_OFFSET UNITYSDK_OFFSET(0x1748B290)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_FFBC3E5986CAC663_OFFSET UNITYSDK_OFFSET(0x1748B240)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1748BAD0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1748C520)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xD4E3C00)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CMMLLEFOFFK_1_OFFSET UNITYSDK_OFFSET(0xD4E3E10)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CMMLLEFOFFK_OFFSET UNITYSDK_OFFSET(0xD4E3BB0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD4E4E90)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_EDJPJIEMFGD_OFFSET UNITYSDK_OFFSET(0xD4E1D10)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_EPHLGLKBMHF_OFFSET UNITYSDK_OFFSET(0xD4E23A0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xD4E2320)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_HBEPKJGPCHF_OFFSET UNITYSDK_OFFSET(0xD4E3AE0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_HFMALHCIGHI_OFFSET UNITYSDK_OFFSET(0xD4E2E70)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_HMPABFMDGAH_OFFSET UNITYSDK_OFFSET(0xD4E1640)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_IFFPBDHNDIK_OFFSET UNITYSDK_OFFSET(0xD4E39D0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_IKEIFJKJDFM_OFFSET UNITYSDK_OFFSET(0xD4E1840)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xD4E4DD0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD4E3C70)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xD4E43E0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xD4E4E30)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_PADPGDLBDFD_OFFSET UNITYSDK_OFFSET(0xD4E1540)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xD4E4380)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xD4E4440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimBehavior_TypeDefinitionIndex = 70884;
+	inline static constexpr unsigned int LoopTowerAnimBehavior_TypeDefinitionIndex = 70917;
 
 	class LoopTowerAnimBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Boolean* StaticGet_DisableShakeSource()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoopTowerAnimBehavior_TypeDefinitionIndex)->GetStaticField(0xFB20);
-		}
-		::System::Collections::Generic::List_1<::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide*>* _TowerSliders; // 0x38
-		::RPG::Client::LoopTowerAnimBehavior_Class_1_2DA16813DB0B3208* _RandomBezierCurveGenerator; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* _TowerSliders; // 0x38
+		::RPG::Client::LoopTowerAnimBehavior_CLNGNPDGIHJ* _RandomBezierCurveGenerator; // 0x40
 		::UnityEngine::Vector3 _UpDir; // 0x48
 		::System::Single _RotateY; // 0x54
 		::System::Single _TotalTime; // 0x58
 		::System::Boolean _ForceAsignNext; // 0x5C
+		::System::Byte _padding0[0x3];
 		::System::Int32 _ForceAsignNextIndex; // 0x60
+		static ::System::Boolean* StaticGet_DisableShakeSource()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "LoopTowerAnimBehavior")->GetStaticField(0x5430);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8C4AEC0BC1CA0CB4(::System::Single a1)
+		::System::Void PADPGDLBDFD(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_8C4AEC0BC1CA0CB4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_PADPGDLBDFD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_6516B39957C2E680(::System::Single a1)
+		::System::Void HMPABFMDGAH(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_6516B39957C2E680_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_HMPABFMDGAH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_85A29D63AC16EE29()
+		::System::Boolean IKEIFJKJDFM()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_85A29D63AC16EE29_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_IKEIFJKJDFM_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_107FD70DCCEDAA2A()
+		::System::Boolean EDJPJIEMFGD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_107FD70DCCEDAA2A_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_EDJPJIEMFGD_OFFSET))(this);
 		}
 
-		::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide* Method_3_43690B86AECB092E()
+		::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide* HFMALHCIGHI()
 		{
-			return ((::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_43690B86AECB092E_OFFSET))(this);
+			return ((::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_HFMALHCIGHI_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B0351A8151A472A4(::UnityEngine::Transform* a1)
+		static ::System::Void EPHLGLKBMHF(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_B0351A8151A472A4_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_EPHLGLKBMHF_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_3_B0351A8151A472A4_1(::UnityEngine::Transform* a1)
+		static ::System::Void IFFPBDHNDIK(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_B0351A8151A472A4_1_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_IFFPBDHNDIK_OFFSET))(a1);
 		}
 
-		::System::Void Method_3_FFBC3E5986CAC663()
+		::System::Void HBEPKJGPCHF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_FFBC3E5986CAC663_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_HBEPKJGPCHF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_FDA446125651C201(::System::Boolean a1)
+		::System::Void CMMLLEFOFFK()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_FDA446125651C201_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CMMLLEFOFFK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_508D4DD02D3DB74E()
+		::System::Void CMMLLEFOFFK_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_508D4DD02D3DB74E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CMMLLEFOFFK_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_1()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_2()
+		::System::Void MFCDKJIHDEH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_MFCDKJIHDEH_OFFSET))(this);
+		}
+
+		::System::Void CGEJMGFOLMP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CGEJMGFOLMP_OFFSET))(this);
 		}
 
 		::System::Void Tick(::System::Single a1)
@@ -122,19 +129,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_3()
+		::System::Void JPKHCNDFAEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_JPKHCNDFAEL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_4()
+		::System::Void OIBPOPCFDHA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_OIBPOPCFDHA_OFFSET))(this);
 		}
 
 		::RPG::Client::LoopTowerAnimMonoPlugin* get__OwnerMonoPlugin()
 		{
 			return ((::RPG::Client::LoopTowerAnimMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

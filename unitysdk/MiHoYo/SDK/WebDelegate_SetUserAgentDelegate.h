@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x15CD2550)
-#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15CD2580)
-#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15CD2540)
-#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD24D0)
+#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BCB59A0)
+#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB5920)
+#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BCB59D0)
+#define MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BCB5990)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_SetUserAgentDelegate_TypeDefinitionIndex = 7791;
+	inline static constexpr unsigned int WebDelegate_SetUserAgentDelegate_TypeDefinitionIndex = 7835;
 
 	class WebDelegate_SetUserAgentDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETUSERAGENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

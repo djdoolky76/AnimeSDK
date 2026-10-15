@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDSCMIXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19959EC0)
+#define RPG_CLIENT_EVOLVEBUILDSCMIXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCE2F870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildScMixData_TypeDefinitionIndex = 63887;
+	inline static constexpr unsigned int EvolveBuildScMixData_TypeDefinitionIndex = 63825;
 
 	class EvolveBuildScMixData : public ::System::Object
 	{
@@ -14,10 +14,10 @@ namespace RPG::Client
 		::System::UInt32 FirstGearID; // 0x10
 		::System::UInt32 SecondGearID; // 0x14
 		::System::UInt32 MixGearID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSCMIXDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSCMIXDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

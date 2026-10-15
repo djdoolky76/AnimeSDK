@@ -6,460 +6,462 @@
 #include "unitysdk/RPG/Client/OpenWorld/StreamingInstanceLodState.h"
 #include "unitysdk/RPG/Client/OpenWorld/StreamingState.h"
 #include "unitysdk/RPG/GameCore/StreamingLayerType.h"
-#include "unitysdk/Struct_2_A77148D52D516E55.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/GEEOPFIMJEM.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_414BCDCDAD47B487;
-class Class_1_8A6989C352B0F0F0;
+class DGPKLNNFELK;
+class HPKACEPPPCA;
 namespace RPG::Client { class Stage; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1A082AF0)
-#define BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET UNITYSDK_OFFSET(0x1A083B80)
-#define BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1A082AD0)
-#define BOUNDSDRAWER_METHOD_5_1808E1CF7A125519_1_OFFSET UNITYSDK_OFFSET(0x1A0839A0)
-#define BOUNDSDRAWER_METHOD_5_1808E1CF7A125519_2_OFFSET UNITYSDK_OFFSET(0x1A083A00)
-#define BOUNDSDRAWER_METHOD_5_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x1A082B10)
-#define BOUNDSDRAWER_METHOD_5_1C67A1B858A84789_OFFSET UNITYSDK_OFFSET(0x1A083CA0)
-#define BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x1A082BF0)
-#define BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_2_OFFSET UNITYSDK_OFFSET(0x1A082E10)
-#define BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_3_OFFSET UNITYSDK_OFFSET(0x1A082E80)
-#define BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_4_OFFSET UNITYSDK_OFFSET(0x1A083EE0)
-#define BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_5_OFFSET UNITYSDK_OFFSET(0x1A083F40)
-#define BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1A082B90)
-#define BOUNDSDRAWER_METHOD_5_291BD54BBD95177E_OFFSET UNITYSDK_OFFSET(0x1A083610)
-#define BOUNDSDRAWER_METHOD_5_2F0F99A12DB93F30_OFFSET UNITYSDK_OFFSET(0x1A081C30)
-#define BOUNDSDRAWER_METHOD_5_3422201382CE593B_OFFSET UNITYSDK_OFFSET(0x1A083930)
-#define BOUNDSDRAWER_METHOD_5_35EA095E1AFDD9C8_1_OFFSET UNITYSDK_OFFSET(0x1A083750)
-#define BOUNDSDRAWER_METHOD_5_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x1A083690)
-#define BOUNDSDRAWER_METHOD_5_37D0382D0C30A2DC_OFFSET UNITYSDK_OFFSET(0x1A083D00)
-#define BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x1A0825E0)
-#define BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_2_OFFSET UNITYSDK_OFFSET(0x1A082630)
-#define BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_3_OFFSET UNITYSDK_OFFSET(0x1A082680)
-#define BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_4_OFFSET UNITYSDK_OFFSET(0x1A0826D0)
-#define BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_5_OFFSET UNITYSDK_OFFSET(0x1A082720)
-#define BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A082590)
-#define BOUNDSDRAWER_METHOD_5_446216BB4A89C3EE_OFFSET UNITYSDK_OFFSET(0x1A082980)
-#define BOUNDSDRAWER_METHOD_5_4AB9012B5D01108B_1_OFFSET UNITYSDK_OFFSET(0x1A083090)
-#define BOUNDSDRAWER_METHOD_5_4AB9012B5D01108B_2_OFFSET UNITYSDK_OFFSET(0x1A0831C0)
-#define BOUNDSDRAWER_METHOD_5_4AB9012B5D01108B_OFFSET UNITYSDK_OFFSET(0x1A082F60)
-#define BOUNDSDRAWER_METHOD_5_57DCB1CE056E3F2A_1_OFFSET UNITYSDK_OFFSET(0x1A0834F0)
-#define BOUNDSDRAWER_METHOD_5_57DCB1CE056E3F2A_OFFSET UNITYSDK_OFFSET(0x1A0833D0)
-#define BOUNDSDRAWER_METHOD_5_71B51064EA4E98D5_OFFSET UNITYSDK_OFFSET(0x1A0836F0)
-#define BOUNDSDRAWER_METHOD_5_7D40798EDE81B29E_OFFSET UNITYSDK_OFFSET(0x1A083C40)
-#define BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_1_OFFSET UNITYSDK_OFFSET(0x1A0827E0)
-#define BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_2_OFFSET UNITYSDK_OFFSET(0x1A082CC0)
-#define BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_3_OFFSET UNITYSDK_OFFSET(0x1A082D30)
-#define BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_4_OFFSET UNITYSDK_OFFSET(0x1A082DA0)
-#define BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_5_OFFSET UNITYSDK_OFFSET(0x1A083360)
-#define BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x1A082770)
-#define BOUNDSDRAWER_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x1A0815A0)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_1_OFFSET UNITYSDK_OFFSET(0x1A082A70)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_2_OFFSET UNITYSDK_OFFSET(0x1A082C50)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_3_OFFSET UNITYSDK_OFFSET(0x1A0832F0)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_4_OFFSET UNITYSDK_OFFSET(0x1A083D80)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_5_OFFSET UNITYSDK_OFFSET(0x1A083DE0)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_6_OFFSET UNITYSDK_OFFSET(0x1A083FA0)
-#define BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1A082A10)
-#define BOUNDSDRAWER_METHOD_5_979768AC80931731_OFFSET UNITYSDK_OFFSET(0x1A082400)
-#define BOUNDSDRAWER_METHOD_5_A78A3A2829178A6C_1_OFFSET UNITYSDK_OFFSET(0x1A083AF0)
-#define BOUNDSDRAWER_METHOD_5_A78A3A2829178A6C_OFFSET UNITYSDK_OFFSET(0x1A083A60)
-#define BOUNDSDRAWER_METHOD_5_AA972BE565DAF9E3_OFFSET UNITYSDK_OFFSET(0x1A083E40)
-#define BOUNDSDRAWER_METHOD_5_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0x1A082360)
-#define BOUNDSDRAWER_METHOD_5_C0F4F3F5ADBF2BED_OFFSET UNITYSDK_OFFSET(0x1A083BE0)
-#define BOUNDSDRAWER_METHOD_5_CFDB2DF757369D2B_OFFSET UNITYSDK_OFFSET(0x1A082850)
-#define BOUNDSDRAWER_METHOD_5_D64FD9A228A1C4E0_1_OFFSET UNITYSDK_OFFSET(0x1A083870)
-#define BOUNDSDRAWER_METHOD_5_D64FD9A228A1C4E0_2_OFFSET UNITYSDK_OFFSET(0x1A0838D0)
-#define BOUNDSDRAWER_METHOD_5_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x1A083810)
-#define BOUNDSDRAWER_METHOD_5_EC3D01ECC1D2AB6C_OFFSET UNITYSDK_OFFSET(0x1A0837B0)
-#define BOUNDSDRAWER_METHOD_5_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x1A082920)
-#define BOUNDSDRAWER_METHOD_5_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x1A0818B0)
-#define BOUNDSDRAWER_METHOD_5_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x1A082EF0)
-#define BOUNDSDRAWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A081820)
-#define BOUNDSDRAWER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A0817E0)
-#define BOUNDSDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A081860)
-#define BOUNDSDRAWER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A0817A0)
-#define BOUNDSDRAWER_SETBOUND_OFFSET UNITYSDK_OFFSET(0x1A081520)
-#define BOUNDSDRAWER_SETOWNERINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A0816B0)
-#define BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1A082B00)
-#define BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1A082AE0)
-#define BOUNDSDRAWER_START_OFFSET UNITYSDK_OFFSET(0x1A081700)
-#define BOUNDSDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A084000)
-
-inline static constexpr unsigned int BoundsDrawer_TypeDefinitionIndex = 47745;
-
-class BoundsDrawer : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::UnityEngine::Renderer* AJEFFDBGDML; // 0x18
-	::System::Boolean GJCGOFIKCBB; // 0x20
-	::BoundsDrawer_BoundsDrawerInspectorMode InspectorMode; // 0x24
-	::System::Int32 ObjectIndex; // 0x28
-	::System::String* LoadingStatus; // 0x30
-	::System::Single DistanceToCamera; // 0x38
-	::System::Single DistanceRatio; // 0x3C
-	::System::Single RealDistanceToCamera; // 0x40
-	::System::String* _PreloadCullingStatus_k__BackingField; // 0x48
-	::System::String* _CullingStatus_k__BackingField; // 0x50
-	::Class_1_8A6989C352B0F0F0* OwnerInstance; // 0x58
-	::RPG::Client::OpenWorld::StreamingItemData* ItemData; // 0x60
-
-	::System::Void _ctor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER__CTOR_OFFSET))(this);
-	}
-
-	::System::Void SetBound(::UnityEngine::Bounds a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SETBOUND_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void SetOwnerInstance(::Class_1_8A6989C352B0F0F0* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_8A6989C352B0F0F0*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SETOWNERINSTANCE_OFFSET))(this, a1);
-	}
-
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_START_OFFSET))(this);
-	}
-
-	::System::Void OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONENABLE_OFFSET))(this);
-	}
-
-	::System::Void OnDisable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONDISABLE_OFFSET))(this);
-	}
-
-	::System::Void OnDestroy()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONDESTROY_OFFSET))(this);
-	}
-
-	::System::Void OnDrawGizmosSelected()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONDRAWGIZMOSSELECTED_OFFSET))(this);
-	}
-
-	::System::Void Method_5_F5447CD65612575D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_F5447CD65612575D_OFFSET))(this);
-	}
-
-	::System::Void Method_5_2F0F99A12DB93F30()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_2F0F99A12DB93F30_OFFSET))(this);
-	}
-
-	::System::Void Method_5_89D1F247B9D324EE()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_89D1F247B9D324EE_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_979768AC80931731(::RPG::Client::Stage* a1, ::UnityEngine::Vector3& a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Stage*, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_979768AC80931731_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void Method_5_B3A88D7849969A71(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_B3A88D7849969A71_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_5_391A84BCD9F51317()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_391A84BCD9F51317_1()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_1_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_391A84BCD9F51317_2()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_2_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_391A84BCD9F51317_3()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_3_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_391A84BCD9F51317_4()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_4_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_391A84BCD9F51317_5()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_391A84BCD9F51317_5_OFFSET))(this);
-	}
-
-	::System::String* Method_5_88B60F3B95FAA4F1()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_OFFSET))(this);
-	}
-
-	::System::String* Method_5_88B60F3B95FAA4F1_1()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_1_OFFSET))(this);
-	}
-
-	::System::String* Method_5_CFDB2DF757369D2B()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_CFDB2DF757369D2B_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_F026F9F94BAA5E1F()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_F026F9F94BAA5E1F_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_446216BB4A89C3EE()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_446216BB4A89C3EE_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36_1()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_1_OFFSET))(this);
-	}
-
-	::System::String* get_PreloadCullingStatus()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET))(this);
-	}
-
-	::System::Void set_PreloadCullingStatus(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET))(this, a1);
-	}
-
-	::System::String* get_CullingStatus()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET))(this);
-	}
-
-	::System::Void set_CullingStatus(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_5_1808E1CF7A125519()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1808E1CF7A125519_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1D4018D4200358D0()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1D4018D4200358D0_1()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_1_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36_2()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_2_OFFSET))(this);
-	}
-
-	::System::String* Method_5_88B60F3B95FAA4F1_2()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_2_OFFSET))(this);
-	}
-
-	::System::String* Method_5_88B60F3B95FAA4F1_3()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_3_OFFSET))(this);
-	}
-
-	::System::String* Method_5_88B60F3B95FAA4F1_4()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_4_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1D4018D4200358D0_2()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_2_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1D4018D4200358D0_3()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_3_OFFSET))(this);
-	}
-
-	::System::Single Method_5_FF7B2911BBACA4A9()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_FF7B2911BBACA4A9_OFFSET))(this);
-	}
-
-	::UnityEngine::Vector3 Method_5_4AB9012B5D01108B()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_4AB9012B5D01108B_OFFSET))(this);
-	}
-
-	::UnityEngine::Vector3 Method_5_4AB9012B5D01108B_1()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_4AB9012B5D01108B_1_OFFSET))(this);
-	}
-
-	::UnityEngine::Vector3 Method_5_4AB9012B5D01108B_2()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_4AB9012B5D01108B_2_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36_3()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_3_OFFSET))(this);
-	}
-
-	::System::String* Method_5_88B60F3B95FAA4F1_5()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_88B60F3B95FAA4F1_5_OFFSET))(this);
-	}
-
-	::UnityEngine::Vector3 Method_5_57DCB1CE056E3F2A()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_57DCB1CE056E3F2A_OFFSET))(this);
-	}
-
-	::UnityEngine::Vector3 Method_5_57DCB1CE056E3F2A_1()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_57DCB1CE056E3F2A_1_OFFSET))(this);
-	}
-
-	::Struct_2_A77148D52D516E55 Method_5_291BD54BBD95177E()
-	{
-		return ((::Struct_2_A77148D52D516E55(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_291BD54BBD95177E_OFFSET))(this);
-	}
-
-	::System::String* Method_5_35EA095E1AFDD9C8()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_35EA095E1AFDD9C8_OFFSET))(this);
-	}
-
-	::RPG::Client::OpenWorld::LodTemplateSourceType Method_5_71B51064EA4E98D5()
-	{
-		return ((::RPG::Client::OpenWorld::LodTemplateSourceType(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_71B51064EA4E98D5_OFFSET))(this);
-	}
-
-	::System::String* Method_5_35EA095E1AFDD9C8_1()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_35EA095E1AFDD9C8_1_OFFSET))(this);
-	}
-
-	::RPG::GameCore::StreamingLayerType Method_5_EC3D01ECC1D2AB6C()
-	{
-		return ((::RPG::GameCore::StreamingLayerType(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_EC3D01ECC1D2AB6C_OFFSET))(this);
-	}
-
-	::System::Single Method_5_D64FD9A228A1C4E0()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_D64FD9A228A1C4E0_OFFSET))(this);
-	}
-
-	::System::Single Method_5_D64FD9A228A1C4E0_1()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_D64FD9A228A1C4E0_1_OFFSET))(this);
-	}
-
-	::System::Single Method_5_D64FD9A228A1C4E0_2()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_D64FD9A228A1C4E0_2_OFFSET))(this);
-	}
-
-	::System::Single Method_5_3422201382CE593B()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_3422201382CE593B_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1808E1CF7A125519_1()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1808E1CF7A125519_1_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1808E1CF7A125519_2()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1808E1CF7A125519_2_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_A78A3A2829178A6C()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_A78A3A2829178A6C_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_A78A3A2829178A6C_1()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_A78A3A2829178A6C_1_OFFSET))(this);
-	}
-
-	::Class_1_414BCDCDAD47B487* get_LodTemplateCfg()
-	{
-		return ((::Class_1_414BCDCDAD47B487*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET))(this);
-	}
-
-	::RPG::Client::OpenWorld::StreamingState Method_5_C0F4F3F5ADBF2BED()
-	{
-		return ((::RPG::Client::OpenWorld::StreamingState(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_C0F4F3F5ADBF2BED_OFFSET))(this);
-	}
-
-	::RPG::Client::OpenWorld::StreamingInstanceLoadingState Method_5_7D40798EDE81B29E()
-	{
-		return ((::RPG::Client::OpenWorld::StreamingInstanceLoadingState(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_7D40798EDE81B29E_OFFSET))(this);
-	}
-
-	::RPG::Client::OpenWorld::StreamingInstanceLodState Method_5_1C67A1B858A84789()
-	{
-		return ((::RPG::Client::OpenWorld::StreamingInstanceLodState(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1C67A1B858A84789_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_37D0382D0C30A2DC()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_37D0382D0C30A2DC_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36_4()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_4_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36_5()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_5_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_AA972BE565DAF9E3()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_AA972BE565DAF9E3_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1D4018D4200358D0_4()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_4_OFFSET))(this);
-	}
-
-	::System::Boolean Method_5_1D4018D4200358D0_5()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_1D4018D4200358D0_5_OFFSET))(this);
-	}
-
-	::System::Int32 Method_5_95780ED94B90ED36_6()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_METHOD_5_95780ED94B90ED36_6_OFFSET))(this);
-	}
-};
+#define BOUNDSDRAWER_ABOAJLKHKEH_OFFSET UNITYSDK_OFFSET(0xC1B7360)
+#define BOUNDSDRAWER_BEKBHNCIAGC_OFFSET UNITYSDK_OFFSET(0xC1B6F70)
+#define BOUNDSDRAWER_BKMMNBKNFHJ_OFFSET UNITYSDK_OFFSET(0xC1B75F0)
+#define BOUNDSDRAWER_CADMMFIDKBO_OFFSET UNITYSDK_OFFSET(0xC1B7D40)
+#define BOUNDSDRAWER_CCBGIKNFCCI_OFFSET UNITYSDK_OFFSET(0xC1B8430)
+#define BOUNDSDRAWER_CHAKBAEFJLF_OFFSET UNITYSDK_OFFSET(0xC1B73E0)
+#define BOUNDSDRAWER_CNDODKJHPAE_OFFSET UNITYSDK_OFFSET(0xC1B85D0)
+#define BOUNDSDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B8850)
+#define BOUNDSDRAWER_DEFJFFLBOMC_OFFSET UNITYSDK_OFFSET(0xC1B80C0)
+#define BOUNDSDRAWER_DFPIHPABNGH_OFFSET UNITYSDK_OFFSET(0xC1B76D0)
+#define BOUNDSDRAWER_DMMHKJPIBEN_OFFSET UNITYSDK_OFFSET(0xC1B7740)
+#define BOUNDSDRAWER_EAGNNLOAPNK_OFFSET UNITYSDK_OFFSET(0xC1B7260)
+#define BOUNDSDRAWER_EKEHCGBMCGA_OFFSET UNITYSDK_OFFSET(0xC1B8060)
+#define BOUNDSDRAWER_EMIFKCOILMH_OFFSET UNITYSDK_OFFSET(0xC1B8250)
+#define BOUNDSDRAWER_FAFICIEPOIL_OFFSET UNITYSDK_OFFSET(0xC1B7E60)
+#define BOUNDSDRAWER_FBDFOCFLKMA_OFFSET UNITYSDK_OFFSET(0xC1B81F0)
+#define BOUNDSDRAWER_FBGAGJKFDDP_OFFSET UNITYSDK_OFFSET(0xC1B7B40)
+#define BOUNDSDRAWER_FEBHJMJNMJH_OFFSET UNITYSDK_OFFSET(0xC1B8550)
+#define BOUNDSDRAWER_GBAJEECJMHF_OFFSET UNITYSDK_OFFSET(0xC1B6480)
+#define BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xC1B7340)
+#define BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET UNITYSDK_OFFSET(0xC1B83D0)
+#define BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xC1B7320)
+#define BOUNDSDRAWER_GGPBABJFLKB_OFFSET UNITYSDK_OFFSET(0xC1B78E0)
+#define BOUNDSDRAWER_GHDDPOAOGLI_OFFSET UNITYSDK_OFFSET(0xC1B6FC0)
+#define BOUNDSDRAWER_HHHIFCAOFLG_OFFSET UNITYSDK_OFFSET(0xC1B7A10)
+#define BOUNDSDRAWER_HKEBOGFOCHJ_OFFSET UNITYSDK_OFFSET(0xC1B8180)
+#define BOUNDSDRAWER_HMJJMOBCLLJ_OFFSET UNITYSDK_OFFSET(0xC1B7BB0)
+#define BOUNDSDRAWER_HOAPGEHPABH_OFFSET UNITYSDK_OFFSET(0xC1B6ED0)
+#define BOUNDSDRAWER_HOBNKEAMHOC_OFFSET UNITYSDK_OFFSET(0xC1B7660)
+#define BOUNDSDRAWER_IBOFNAKAPFG_OFFSET UNITYSDK_OFFSET(0xC1B72C0)
+#define BOUNDSDRAWER_IDDFLMLGMLF_OFFSET UNITYSDK_OFFSET(0xC1B77B0)
+#define BOUNDSDRAWER_IELKEOOKAPD_OFFSET UNITYSDK_OFFSET(0xC1B7440)
+#define BOUNDSDRAWER_IINNEALBCNH_OFFSET UNITYSDK_OFFSET(0xC1B6DE0)
+#define BOUNDSDRAWER_IOKLLBPGFJM_OFFSET UNITYSDK_OFFSET(0xC1B7030)
+#define BOUNDSDRAWER_JHJLMAKHMHF_OFFSET UNITYSDK_OFFSET(0xC1B7EE0)
+#define BOUNDSDRAWER_JKAONODONLN_OFFSET UNITYSDK_OFFSET(0xC1B8340)
+#define BOUNDSDRAWER_JPNJJLBKFMF_OFFSET UNITYSDK_OFFSET(0xC1B7170)
+#define BOUNDSDRAWER_KBAALPPAPAF_OFFSET UNITYSDK_OFFSET(0xC1B7510)
+#define BOUNDSDRAWER_KCNDNBEJAEL_OFFSET UNITYSDK_OFFSET(0xC1B84F0)
+#define BOUNDSDRAWER_LEFONFPDHKN_OFFSET UNITYSDK_OFFSET(0xC1B8690)
+#define BOUNDSDRAWER_LGDBJHIAAKN_OFFSET UNITYSDK_OFFSET(0xC1B87F0)
+#define BOUNDSDRAWER_LKCDENFNBAL_OFFSET UNITYSDK_OFFSET(0xC1B6E30)
+#define BOUNDSDRAWER_LOPLOJEFEMB_OFFSET UNITYSDK_OFFSET(0xC1B8120)
+#define BOUNDSDRAWER_MEDECELCGPF_OFFSET UNITYSDK_OFFSET(0xC1B7C20)
+#define BOUNDSDRAWER_MFAMKFKGLBB_OFFSET UNITYSDK_OFFSET(0xC1B8000)
+#define BOUNDSDRAWER_MHLDNHIEHLI_OFFSET UNITYSDK_OFFSET(0xC1B7FA0)
+#define BOUNDSDRAWER_NAGGPAIKHJF_OFFSET UNITYSDK_OFFSET(0xC1B8730)
+#define BOUNDSDRAWER_NAKHEIAKAEO_OFFSET UNITYSDK_OFFSET(0xC1B71D0)
+#define BOUNDSDRAWER_NAMEFOOLFDH_OFFSET UNITYSDK_OFFSET(0xC1B74A0)
+#define BOUNDSDRAWER_NGEEOKOIPKI_OFFSET UNITYSDK_OFFSET(0xC1B70A0)
+#define BOUNDSDRAWER_NIGIOHLOJIJ_OFFSET UNITYSDK_OFFSET(0xC1B82B0)
+#define BOUNDSDRAWER_NNLBIGNJOOB_OFFSET UNITYSDK_OFFSET(0xC1B6E80)
+#define BOUNDSDRAWER_NOAMNICPDPK_OFFSET UNITYSDK_OFFSET(0xC1B6100)
+#define BOUNDSDRAWER_OBFGMIDLBLC_OFFSET UNITYSDK_OFFSET(0xC1B6BB0)
+#define BOUNDSDRAWER_OCMOOAKHPGL_OFFSET UNITYSDK_OFFSET(0xC1B8490)
+#define BOUNDSDRAWER_OKKDFDAFEND_OFFSET UNITYSDK_OFFSET(0xC1B5DF0)
+#define BOUNDSDRAWER_OMHJJCMHOFI_OFFSET UNITYSDK_OFFSET(0xC1B8630)
+#define BOUNDSDRAWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1B6070)
+#define BOUNDSDRAWER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC1B6030)
+#define BOUNDSDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xC1B60B0)
+#define BOUNDSDRAWER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC1B5FF0)
+#define BOUNDSDRAWER_PHOODOLFPKO_OFFSET UNITYSDK_OFFSET(0xC1B6F20)
+#define BOUNDSDRAWER_PKKALEBIPNN_OFFSET UNITYSDK_OFFSET(0xC1B8790)
+#define BOUNDSDRAWER_PLNGKJBFMPJ_OFFSET UNITYSDK_OFFSET(0xC1B7580)
+#define BOUNDSDRAWER_PMBLOJBHKBJ_OFFSET UNITYSDK_OFFSET(0xC1B6C50)
+#define BOUNDSDRAWER_PNLBMILLJBL_OFFSET UNITYSDK_OFFSET(0xC1B7F40)
+#define BOUNDSDRAWER_SETBOUND_OFFSET UNITYSDK_OFFSET(0xC1B5D60)
+#define BOUNDSDRAWER_SETOWNERINSTANCE_OFFSET UNITYSDK_OFFSET(0xC1B5F00)
+#define BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xC1B7350)
+#define BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xC1B7330)
+#define BOUNDSDRAWER_START_OFFSET UNITYSDK_OFFSET(0xC1B5F50)
+
+inline static constexpr unsigned int BoundsDrawer_TypeDefinitionIndex = 47285;
+
+	class BoundsDrawer : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::UnityEngine::Renderer* AJEFFDBGDML; // 0x18
+		::System::Boolean GJCGOFIKCBB; // 0x20
+		::System::Byte _padding0[0x3];
+		::BoundsDrawer_BoundsDrawerInspectorMode InspectorMode; // 0x24
+		::System::Int32 ObjectIndex; // 0x28
+		::System::Byte _padding1[0x4];
+		::System::String* LoadingStatus; // 0x30
+		::System::Single DistanceToCamera; // 0x38
+		::System::Single DistanceRatio; // 0x3C
+		::System::Single RealDistanceToCamera; // 0x40
+		::System::Byte _padding2[0x4];
+		::System::String* _PreloadCullingStatus_k__BackingField; // 0x48
+		::System::String* _CullingStatus_k__BackingField; // 0x50
+		::HPKACEPPPCA* OwnerInstance; // 0x58
+		::RPG::Client::OpenWorld::StreamingItemData* ItemData; // 0x60
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_CTOR_OFFSET))(this);
+		}
+
+		::System::Void SetBound(::UnityEngine::Bounds a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SETBOUND_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetOwnerInstance(::HPKACEPPPCA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HPKACEPPPCA*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SETOWNERINSTANCE_OFFSET))(this, a1);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_START_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnDrawGizmosSelected()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ONDRAWGIZMOSSELECTED_OFFSET))(this);
+		}
+
+		::System::Void NOAMNICPDPK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NOAMNICPDPK_OFFSET))(this);
+		}
+
+		::System::Void GBAJEECJMHF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GBAJEECJMHF_OFFSET))(this);
+		}
+
+		::System::Void OKKDFDAFEND()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_OKKDFDAFEND_OFFSET))(this);
+		}
+
+		::System::Boolean PMBLOJBHKBJ(::RPG::Client::Stage* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Stage*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_PMBLOJBHKBJ_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OBFGMIDLBLC(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_OBFGMIDLBLC_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IINNEALBCNH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_IINNEALBCNH_OFFSET))(this);
+		}
+
+		::System::Boolean LKCDENFNBAL()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_LKCDENFNBAL_OFFSET))(this);
+		}
+
+		::System::Boolean NNLBIGNJOOB()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NNLBIGNJOOB_OFFSET))(this);
+		}
+
+		::System::Boolean HOAPGEHPABH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_HOAPGEHPABH_OFFSET))(this);
+		}
+
+		::System::Boolean PHOODOLFPKO()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_PHOODOLFPKO_OFFSET))(this);
+		}
+
+		::System::Boolean BEKBHNCIAGC()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_BEKBHNCIAGC_OFFSET))(this);
+		}
+
+		::System::String* GHDDPOAOGLI()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GHDDPOAOGLI_OFFSET))(this);
+		}
+
+		::System::String* IOKLLBPGFJM()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_IOKLLBPGFJM_OFFSET))(this);
+		}
+
+		::System::String* NGEEOKOIPKI()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NGEEOKOIPKI_OFFSET))(this);
+		}
+
+		::System::Int32 JPNJJLBKFMF()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_JPNJJLBKFMF_OFFSET))(this);
+		}
+
+		::System::Int32 NAKHEIAKAEO()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NAKHEIAKAEO_OFFSET))(this);
+		}
+
+		::System::Int32 EAGNNLOAPNK()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_EAGNNLOAPNK_OFFSET))(this);
+		}
+
+		::System::Int32 IBOFNAKAPFG()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_IBOFNAKAPFG_OFFSET))(this);
+		}
+
+		::System::String* get_PreloadCullingStatus()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET))(this);
+		}
+
+		::System::Void set_PreloadCullingStatus(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET))(this, a1);
+		}
+
+		::System::String* get_CullingStatus()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET))(this);
+		}
+
+		::System::Void set_CullingStatus(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean ABOAJLKHKEH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_ABOAJLKHKEH_OFFSET))(this);
+		}
+
+		::System::Boolean CHAKBAEFJLF()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_CHAKBAEFJLF_OFFSET))(this);
+		}
+
+		::System::Boolean IELKEOOKAPD()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_IELKEOOKAPD_OFFSET))(this);
+		}
+
+		::System::Int32 NAMEFOOLFDH()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NAMEFOOLFDH_OFFSET))(this);
+		}
+
+		::System::String* KBAALPPAPAF()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_KBAALPPAPAF_OFFSET))(this);
+		}
+
+		::System::String* PLNGKJBFMPJ()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_PLNGKJBFMPJ_OFFSET))(this);
+		}
+
+		::System::String* BKMMNBKNFHJ()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_BKMMNBKNFHJ_OFFSET))(this);
+		}
+
+		::System::Boolean HOBNKEAMHOC()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_HOBNKEAMHOC_OFFSET))(this);
+		}
+
+		::System::Boolean DFPIHPABNGH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_DFPIHPABNGH_OFFSET))(this);
+		}
+
+		::System::Single DMMHKJPIBEN()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_DMMHKJPIBEN_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 IDDFLMLGMLF()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_IDDFLMLGMLF_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 GGPBABJFLKB()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GGPBABJFLKB_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 HHHIFCAOFLG()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_HHHIFCAOFLG_OFFSET))(this);
+		}
+
+		::System::Int32 FBGAGJKFDDP()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_FBGAGJKFDDP_OFFSET))(this);
+		}
+
+		::System::String* HMJJMOBCLLJ()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_HMJJMOBCLLJ_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 MEDECELCGPF()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_MEDECELCGPF_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 CADMMFIDKBO()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_CADMMFIDKBO_OFFSET))(this);
+		}
+
+		::GEEOPFIMJEM FAFICIEPOIL()
+		{
+			return ((::GEEOPFIMJEM(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_FAFICIEPOIL_OFFSET))(this);
+		}
+
+		::System::String* JHJLMAKHMHF()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_JHJLMAKHMHF_OFFSET))(this);
+		}
+
+		::RPG::Client::OpenWorld::LodTemplateSourceType PNLBMILLJBL()
+		{
+			return ((::RPG::Client::OpenWorld::LodTemplateSourceType(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_PNLBMILLJBL_OFFSET))(this);
+		}
+
+		::System::String* MHLDNHIEHLI()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_MHLDNHIEHLI_OFFSET))(this);
+		}
+
+		::RPG::GameCore::StreamingLayerType MFAMKFKGLBB()
+		{
+			return ((::RPG::GameCore::StreamingLayerType(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_MFAMKFKGLBB_OFFSET))(this);
+		}
+
+		::System::Single EKEHCGBMCGA()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_EKEHCGBMCGA_OFFSET))(this);
+		}
+
+		::System::Single DEFJFFLBOMC()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_DEFJFFLBOMC_OFFSET))(this);
+		}
+
+		::System::Single LOPLOJEFEMB()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_LOPLOJEFEMB_OFFSET))(this);
+		}
+
+		::System::Single HKEBOGFOCHJ()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_HKEBOGFOCHJ_OFFSET))(this);
+		}
+
+		::System::Boolean FBDFOCFLKMA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_FBDFOCFLKMA_OFFSET))(this);
+		}
+
+		::System::Boolean EMIFKCOILMH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_EMIFKCOILMH_OFFSET))(this);
+		}
+
+		::System::Int32 NIGIOHLOJIJ()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NIGIOHLOJIJ_OFFSET))(this);
+		}
+
+		::System::Int32 JKAONODONLN()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_JKAONODONLN_OFFSET))(this);
+		}
+
+		::DGPKLNNFELK* get_LodTemplateCfg()
+		{
+			return ((::DGPKLNNFELK*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET))(this);
+		}
+
+		::RPG::Client::OpenWorld::StreamingState CCBGIKNFCCI()
+		{
+			return ((::RPG::Client::OpenWorld::StreamingState(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_CCBGIKNFCCI_OFFSET))(this);
+		}
+
+		::RPG::Client::OpenWorld::StreamingInstanceLoadingState OCMOOAKHPGL()
+		{
+			return ((::RPG::Client::OpenWorld::StreamingInstanceLoadingState(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_OCMOOAKHPGL_OFFSET))(this);
+		}
+
+		::RPG::Client::OpenWorld::StreamingInstanceLodState KCNDNBEJAEL()
+		{
+			return ((::RPG::Client::OpenWorld::StreamingInstanceLodState(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_KCNDNBEJAEL_OFFSET))(this);
+		}
+
+		::System::Int32 FEBHJMJNMJH()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_FEBHJMJNMJH_OFFSET))(this);
+		}
+
+		::System::Int32 CNDODKJHPAE()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_CNDODKJHPAE_OFFSET))(this);
+		}
+
+		::System::Int32 OMHJJCMHOFI()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_OMHJJCMHOFI_OFFSET))(this);
+		}
+
+		::System::Boolean LEFONFPDHKN()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_LEFONFPDHKN_OFFSET))(this);
+		}
+
+		::System::Boolean NAGGPAIKHJF()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_NAGGPAIKHJF_OFFSET))(this);
+		}
+
+		::System::Boolean PKKALEBIPNN()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_PKKALEBIPNN_OFFSET))(this);
+		}
+
+		::System::Int32 LGDBJHIAAKN()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_LGDBJHIAAKN_OFFSET))(this);
+		}
+
+	};

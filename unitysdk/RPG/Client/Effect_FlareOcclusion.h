@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+class GDHFBPEJPHC;
 
-class Class_2_831FF41FA9AE2628;
-
-#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E5B8B0)
-#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x15E5BA10)
-#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15E5B920)
-#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E5B9C0)
-#define RPG_CLIENT_EFFECT_FLAREOCCLUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5BA80)
+#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD22130)
+#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_CTOR_OFFSET UNITYSDK_OFFSET(0xCD22300)
+#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xCD22290)
+#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD221A0)
+#define RPG_CLIENT_EFFECT_FLAREOCCLUSION_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD22240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FlareOcclusion_TypeDefinitionIndex = 70438;
+	inline static constexpr unsigned int Effect_FlareOcclusion_TypeDefinitionIndex = 70474;
 
 	class Effect_FlareOcclusion : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single EnableRange; // 0x18
-		::Class_2_831FF41FA9AE2628* EIGCKKONNIO; // 0x20
-
+		::System::Byte _padding0[0x4];
+		::GDHFBPEJPHC* EIGCKKONNIO; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLAREOCCLUSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLAREOCCLUSION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -44,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLAREOCCLUSION_ONDRAWGIZMOS_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/IndexedBranchInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class TryFaultHandler; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AFD7FE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_GET_PRODUCEDCONTINUATIONS_OFFSET UNITYSDK_OFFSET(0x1AFD8020)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1AFD8040)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_SETTRYHANDLER_OFFSET UNITYSDK_OFFSET(0x1AFD8030)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD7FD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDB6270)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDB6280)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_GET_PRODUCEDCONTINUATIONS_OFFSET UNITYSDK_OFFSET(0x1EDB62C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDB62E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_SETTRYHANDLER_OFFSET UNITYSDK_OFFSET(0x1EDB62D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int EnterTryFaultInstruction_TypeDefinitionIndex = 3328;
+	inline static constexpr unsigned int EnterTryFaultInstruction_TypeDefinitionIndex = 3329;
 
 	class EnterTryFaultInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:
 		::System::Linq::Expressions::Interpreter::TryFaultHandler* _tryHandler; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_InstructionName()
@@ -45,5 +43,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTERTRYFAULTINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

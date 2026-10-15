@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/ChenLingBattleEffectLifeTimeType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_F22C727D81B7294B_OFFSET UNITYSDK_OFFSET(0x1E006E20)
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E00AB00)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D555A40)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D551CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleEffectConfig_TypeDefinitionIndex = 15534;
+	inline static constexpr unsigned int ChenLingBattleEffectConfig_TypeDefinitionIndex = 15707;
 
 	class ChenLingBattleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,19 +25,20 @@ namespace RPG::GameCore
 		::System::String* AttachPointName; // 0x38
 		::System::String* UniqueName; // 0x40
 		::System::Boolean IsAttachToTarget; // 0x48
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::ChenLingBattleEffectLifeTimeType LifeTimeType; // 0x4C
 		::System::UInt32 MaxCountLimit; // 0x50
 		::System::Boolean IsAffectByAttackSpeed; // 0x54
 		::System::Boolean IsForbidInitRenderCache; // 0x55
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F22C727D81B7294B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_F22C727D81B7294B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

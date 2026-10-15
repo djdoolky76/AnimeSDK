@@ -2,38 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BattleExtraPropertyAddition.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleExtraPropertyAdditionPair; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_METHOD_2_1436B6DB26FEC618_OFFSET UNITYSDK_OFFSET(0x1B2FCEA0)
-#define RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_METHOD_2_F412DFCC2181D785_OFFSET UNITYSDK_OFFSET(0x1B2FCD30)
-#define RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2FCE90)
+#define RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D431150)
+#define RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D431160)
+#define RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D430FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleExtraPropertyAdditionPair_TypeDefinitionIndex = 23373;
+	inline static constexpr unsigned int BattleExtraPropertyAdditionPair_TypeDefinitionIndex = 23643;
 
 	class BattleExtraPropertyAdditionPair : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::BattleExtraPropertyAddition PropertyName; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* Value; // 0x18
 		::Il2CppArray<::System::UInt32>* CharacterConfigIDFilter; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F412DFCC2181D785(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleExtraPropertyAdditionPair*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleExtraPropertyAdditionPair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleExtraPropertyAdditionPair*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_METHOD_2_F412DFCC2181D785_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleExtraPropertyAdditionPair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_1436B6DB26FEC618(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleExtraPropertyAdditionPair* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleExtraPropertyAdditionPair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleExtraPropertyAdditionPair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_METHOD_2_1436B6DB26FEC618_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleExtraPropertyAdditionPair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRAPROPERTYADDITIONPAIR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

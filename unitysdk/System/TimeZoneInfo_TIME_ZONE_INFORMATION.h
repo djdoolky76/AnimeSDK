@@ -1,8 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/TimeZoneInfo_SYSTEMTIME.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace System
@@ -12,9 +10,11 @@ namespace System
 	struct alignas(8) TimeZoneInfo_TIME_ZONE_INFORMATION
 	{
 		::System::Int32 Bias; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* StandardName; // 0x18
 		::System::TimeZoneInfo_SYSTEMTIME StandardDate; // 0x20
 		::System::Int32 StandardBias; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::String* DaylightName; // 0x38
 		::System::TimeZoneInfo_SYSTEMTIME DaylightDate; // 0x40
 		::System::Int32 DaylightBias; // 0x50

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_VIRTUALCURSOR_MOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C815870)
+#define RPG_CLIENT_VIRTUALCURSOR_MOVEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE44CA50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursor_MoveEvent_TypeDefinitionIndex = 73136;
+	inline static constexpr unsigned int VirtualCursor_MoveEvent_TypeDefinitionIndex = 73232;
 
-	class VirtualCursor_MoveEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>
+	class VirtualCursor_MoveEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_MOVEEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_MOVEEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

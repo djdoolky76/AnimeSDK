@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET UNITYSDK_OFFSET(0x16D4CAA0)
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16D4C1F0)
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x16D4C1E0)
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4D460)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67FD20)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET UNITYSDK_OFFSET(0x1F67F360)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F67EAB0)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1F67EAA0)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int ASCIIEncoder_TypeDefinitionIndex = 6958;
+	inline static constexpr unsigned int ASCIIEncoder_TypeDefinitionIndex = 6967;
 
 	class ASCIIEncoder : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_EncodingMode()
@@ -35,5 +34,6 @@ namespace ZXing::Datamatrix::Encoder
 		{
 			return ((::System::Char(*)(::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET))(a1, a2);
 		}
+
 	};
 }

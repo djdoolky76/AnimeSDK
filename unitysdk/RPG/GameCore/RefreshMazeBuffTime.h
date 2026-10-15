@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class RefreshMazeBuffTime; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_7612EDDB74E08EE7_OFFSET UNITYSDK_OFFSET(0x1DB7ED10)
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_BE78AFA8D4F45D5A_OFFSET UNITYSDK_OFFSET(0x1DB7ECD0)
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7ED00)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D949080)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D949090)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D949050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 19950;
+	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 20187;
 
 	class RefreshMazeBuffTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::UInt32 ID; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* LifeTime; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE78AFA8D4F45D5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMazeBuffTime*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RefreshMazeBuffTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshMazeBuffTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_BE78AFA8D4F45D5A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RefreshMazeBuffTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7612EDDB74E08EE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMazeBuffTime* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RefreshMazeBuffTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshMazeBuffTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_7612EDDB74E08EE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RefreshMazeBuffTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

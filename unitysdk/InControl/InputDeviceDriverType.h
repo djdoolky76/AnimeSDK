@@ -3,19 +3,19 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceDriverType_TypeDefinitionIndex = 39542;
+	inline static constexpr unsigned int InputDeviceDriverType_TypeDefinitionIndex = 40839;
 
 	enum class InputDeviceDriverType : ::System::UInt16
 	{
-		Unknown = 0x0,
-		HID = 0x1,
-		USB = 0x2,
-		Bluetooth = 0x3,
-		XInput = 0x4,
-		DirectInput = 0x5,
-		RawInput = 0x6,
-		AppleGameController = 0x7,
-		SDLJoystick = 0x8,
-		SDLController = 0x9,
+		Unknown = 0,
+		HID = 1,
+		USB = 2,
+		Bluetooth = 3,
+		XInput = 4,
+		DirectInput = 5,
+		RawInput = 6,
+		AppleGameController = 7,
+		SDLJoystick = 8,
+		SDLController = 9,
 	};
 }

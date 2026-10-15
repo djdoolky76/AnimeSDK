@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class GachaCeilingAvatar; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0x19397130)
-#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0x19397110)
-#define RPG_CLIENT_GACHACEILINGDATA_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0x19397150)
-#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGAVATAR_OFFSET UNITYSDK_OFFSET(0x19397070)
-#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGNUM_OFFSET UNITYSDK_OFFSET(0x19397020)
-#define RPG_CLIENT_GACHACEILINGDATA_SETCLOSED_OFFSET UNITYSDK_OFFSET(0x193970C0)
-#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0x19397140)
-#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0x19397120)
-#define RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET UNITYSDK_OFFSET(0x19397160)
-#define RPG_CLIENT_GACHACEILINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19397010)
+#define RPG_CLIENT_GACHACEILINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0882B0)
+#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0xD0883D0)
+#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0xD0883B0)
+#define RPG_CLIENT_GACHACEILINGDATA_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0xD0883F0)
+#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGAVATAR_OFFSET UNITYSDK_OFFSET(0xD088310)
+#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGNUM_OFFSET UNITYSDK_OFFSET(0xD0882C0)
+#define RPG_CLIENT_GACHACEILINGDATA_SETCLOSED_OFFSET UNITYSDK_OFFSET(0xD088360)
+#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0xD0883E0)
+#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0xD0883C0)
+#define RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET UNITYSDK_OFFSET(0xD088400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaCeilingData_TypeDefinitionIndex = 64353;
+	inline static constexpr unsigned int GachaCeilingData_TypeDefinitionIndex = 64293;
 
 	class GachaCeilingData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* _CeilingAvatars_k__BackingField; // 0x10
-		::System::UInt32 _CeilingNum_k__BackingField; // 0x18
-		::System::Boolean _Closed_k__BackingField; // 0x1C
-
+		::System::Boolean _Closed_k__BackingField; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _CeilingNum_k__BackingField; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void SetCeilingNum(::System::UInt32 a1)
@@ -76,5 +75,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET))(this, a1);
 		}
+
 	};
 }

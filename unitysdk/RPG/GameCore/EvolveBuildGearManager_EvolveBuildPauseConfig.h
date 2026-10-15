@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_EvolveBuildPauseConfig_TypeDefinitionIndex = 56257;
+	inline static constexpr unsigned int EvolveBuildGearManager_EvolveBuildPauseConfig_TypeDefinitionIndex = 56070;
 
 	struct alignas(8) EvolveBuildGearManager_EvolveBuildPauseConfig
 	{

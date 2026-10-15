@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x106BBD10)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x106BBD40)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1067B380)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x106BBC20)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1561B830)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1561B740)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1561B860)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x155DAAD0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentClip_OnEnvironmentClipLoadDelegate_TypeDefinitionIndex = 50009;
+	inline static constexpr unsigned int EnviromentClip_OnEnvironmentClipLoadDelegate_TypeDefinitionIndex = 49584;
 
 	class EnviromentClip_OnEnvironmentClipLoadDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace EnviromentSystem
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_ONENVIRONMENTCLIPLOADDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

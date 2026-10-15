@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class PPNMNDKILGL;
+namespace System { class Object; }
+
+#define PPNMNDKILGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFB43C0)
+#define PPNMNDKILGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB43F0)
+#define PPNMNDKILGL___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1DFB4400)
+
+inline static constexpr unsigned int PPNMNDKILGL___c_TypeDefinitionIndex = 26510;
+
+	class PPNMNDKILGL___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47750);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PPNMNDKILGL___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PPNMNDKILGL___C_CTOR_OFFSET))(this);
+		}
+
+		::PPNMNDKILGL* __cctor_b__108_0()
+		{
+			return ((::PPNMNDKILGL*(*)(::PVOID))((::PBYTE)hIl2Cpp + PPNMNDKILGL___C___CCTOR_B__108_0_OFFSET))(this);
+		}
+
+	};

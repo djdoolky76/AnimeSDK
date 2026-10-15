@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_BufferInfo_TypeDefinitionIndex = 4088;
+	inline static constexpr unsigned int AstraFXResource_BufferInfo_TypeDefinitionIndex = 4089;
 
 	struct alignas(4) AstraFXResource_BufferInfo
 	{

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrainPartyModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyModifierSpecifyRarityOnRefreshCardConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_METHOD_3_3308207B90924CC8_OFFSET UNITYSDK_OFFSET(0x1D536D80)
-#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_METHOD_3_BE55ADD912DD334C_OFFSET UNITYSDK_OFFSET(0x1D537140)
-#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D536D70)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC04EE0)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC04EF0)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC052B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyModifierSpecifyRarityOnRefreshCardConfig_TypeDefinitionIndex = 17899;
+	inline static constexpr unsigned int TrainPartyModifierSpecifyRarityOnRefreshCardConfig_TypeDefinitionIndex = 18111;
 
 	class TrainPartyModifierSpecifyRarityOnRefreshCardConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE55ADD912DD334C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_METHOD_3_BE55ADD912DD334C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3308207B90924CC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_METHOD_3_3308207B90924CC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyModifierSpecifyRarityOnRefreshCardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYRARITYONREFRESHCARDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

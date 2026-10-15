@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitUIControllerClose; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITUICONTROLLERCLOSE_METHOD_3_7A77FA56466DECAC_OFFSET UNITYSDK_OFFSET(0x1DEC45F0)
-#define RPG_GAMECORE_WAITUICONTROLLERCLOSE_METHOD_3_F7C8B9A810480DE7_OFFSET UNITYSDK_OFFSET(0x1DEC4630)
-#define RPG_GAMECORE_WAITUICONTROLLERCLOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC4620)
+#define RPG_GAMECORE_WAITUICONTROLLERCLOSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC76E70)
+#define RPG_GAMECORE_WAITUICONTROLLERCLOSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC76E80)
+#define RPG_GAMECORE_WAITUICONTROLLERCLOSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC76E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitUIControllerClose_TypeDefinitionIndex = 20930;
+	inline static constexpr unsigned int WaitUIControllerClose_TypeDefinitionIndex = 21176;
 
 	class WaitUIControllerClose : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* UIControllerName; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUICONTROLLERCLOSE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUICONTROLLERCLOSE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7A77FA56466DECAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUIControllerClose*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitUIControllerClose* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitUIControllerClose*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUICONTROLLERCLOSE_METHOD_3_7A77FA56466DECAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitUIControllerClose*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUICONTROLLERCLOSE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F7C8B9A810480DE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUIControllerClose* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitUIControllerClose* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitUIControllerClose*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUICONTROLLERCLOSE_METHOD_3_F7C8B9A810480DE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitUIControllerClose*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUICONTROLLERCLOSE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

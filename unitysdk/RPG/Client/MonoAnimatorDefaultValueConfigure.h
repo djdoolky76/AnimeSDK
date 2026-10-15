@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MonoAnimatorDefaultValueConfigure_DefaultValueConfigure.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E28F70)
-#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E29130)
+#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD724660)
+#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0xD724820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_TypeDefinitionIndex = 68479;
+	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_TypeDefinitionIndex = 68513;
 
 	class MonoAnimatorDefaultValueConfigure : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Animator* Animator; // 0x18
-		::Il2CppArray<::RPG::Client::MonoAnimatorDefaultValueConfigure_DefaultValueConfigure>* DefaultValues; // 0x20
-
+		::Il2CppArray<::System::Object*>* DefaultValues; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_AWAKE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierForceShopGoodsListConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_METHOD_3_E1A1240F18F70995_OFFSET UNITYSDK_OFFSET(0x1EE6DEE0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_METHOD_3_FE4DAC36BD0F0F71_OFFSET UNITYSDK_OFFSET(0x1EE6DE90)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6DED0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D706E60)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D706E70)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D706E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierForceShopGoodsListConfig_TypeDefinitionIndex = 19210;
+	inline static constexpr unsigned int GridFightModifierForceShopGoodsListConfig_TypeDefinitionIndex = 19440;
 
 	class GridFightModifierForceShopGoodsListConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FE4DAC36BD0F0F71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_METHOD_3_FE4DAC36BD0F0F71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E1A1240F18F70995(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_METHOD_3_E1A1240F18F70995_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierForceShopGoodsListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFORCESHOPGOODSLISTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOITEMBACKGROUND_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ACEBDB0)
-#define RPG_CLIENT_MONOITEMBACKGROUND_SETANCHORIMAGE_OFFSET UNITYSDK_OFFSET(0x1ACEB930)
-#define RPG_CLIENT_MONOITEMBACKGROUND_SETDUMMYGO_OFFSET UNITYSDK_OFFSET(0x1ACEB5C0)
-#define RPG_CLIENT_MONOITEMBACKGROUND_START_OFFSET UNITYSDK_OFFSET(0x1ACEB980)
-#define RPG_CLIENT_MONOITEMBACKGROUND_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ACEBC10)
-#define RPG_CLIENT_MONOITEMBACKGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEBE00)
+#define RPG_CLIENT_MONOITEMBACKGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0xD838860)
+#define RPG_CLIENT_MONOITEMBACKGROUND_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD838810)
+#define RPG_CLIENT_MONOITEMBACKGROUND_SETANCHORIMAGE_OFFSET UNITYSDK_OFFSET(0xD8383C0)
+#define RPG_CLIENT_MONOITEMBACKGROUND_SETDUMMYGO_OFFSET UNITYSDK_OFFSET(0xD838020)
+#define RPG_CLIENT_MONOITEMBACKGROUND_START_OFFSET UNITYSDK_OFFSET(0xD838410)
+#define RPG_CLIENT_MONOITEMBACKGROUND_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8386A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoItemBackground_TypeDefinitionIndex = 72506;
+	inline static constexpr unsigned int MonoItemBackground_TypeDefinitionIndex = 72580;
 
 	class MonoItemBackground : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,10 +22,9 @@ namespace RPG::Client
 		::UnityEngine::GameObject* FLMODBLFAGD; // 0x20
 		::UnityEngine::GameObject* DHGHDFFFBCA; // 0x28
 		::UnityEngine::UI::Image* HDDHEHADJOA; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOITEMBACKGROUND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOITEMBACKGROUND_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetDummyGO(::UnityEngine::GameObject* a1)
@@ -53,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOITEMBACKGROUND_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7F660)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7F690)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7BFA0)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7F570)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3360)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3270)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3390)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEFCF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_OnWebViewBeforePageHide_TypeDefinitionIndex = 7775;
+	inline static constexpr unsigned int WebDelegate_OnWebViewBeforePageHide_TypeDefinitionIndex = 7819;
 
 	class WebDelegate_OnWebViewBeforePageHide : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

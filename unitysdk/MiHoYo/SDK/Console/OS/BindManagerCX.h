@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/OS/BindManager.h"
-
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x17365EA0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x17366200)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x173660A0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x17366570)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX__CTOR_OFFSET UNITYSDK_OFFSET(0x17365CE0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC98300)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BC984C0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x1BC98820)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1BC986C0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BC98B90)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerCX_TypeDefinitionIndex = 9012;
+	inline static constexpr unsigned int BindManagerCX_TypeDefinitionIndex = 9073;
 
 	class BindManagerCX : public ::MiHoYo::SDK::Console::OS::BindManager
 	{
 	public:
 		// static const ::System::String* XTOKEN_URL; // 0x0
 		// static const ::System::String* PlatformTag; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_CTOR_OFFSET))(this);
 		}
 
 		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
@@ -45,5 +43,6 @@ namespace MiHoYo::SDK::Console::OS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_REACTIVATEACCOUNT_OFFSET))(this);
 		}
+
 	};
 }

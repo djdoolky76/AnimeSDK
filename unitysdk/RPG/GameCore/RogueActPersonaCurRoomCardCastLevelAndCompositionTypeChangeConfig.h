@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActPersonaCurRoomCardCastConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_METHOD_7_5C33E16F83CB3D60_OFFSET UNITYSDK_OFFSET(0x1EE86800)
-#define RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_METHOD_7_9B6BF618AA890224_OFFSET UNITYSDK_OFFSET(0x1EE868A0)
-#define RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE867F0)
+#define RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9717D0)
+#define RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9717E0)
+#define RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D971880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig_TypeDefinitionIndex = 19535;
+	inline static constexpr unsigned int RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig_TypeDefinitionIndex = 19765;
 
 	class RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig : public ::RPG::GameCore::RogueActPersonaCurRoomCardCastConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_7_9B6BF618AA890224(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_METHOD_7_9B6BF618AA890224_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_7_5C33E16F83CB3D60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_METHOD_7_5C33E16F83CB3D60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActPersonaCurRoomCardCastLevelAndCompositionTypeChangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONACURROOMCARDCASTLEVELANDCOMPOSITIONTYPECHANGECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

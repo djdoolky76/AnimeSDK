@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvWaitingEventBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitGroupEvent; }
 
-#define RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_88885C73CE8EC5EA_OFFSET UNITYSDK_OFFSET(0x1DEB9C20)
-#define RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_DD381AAA6EE524B7_OFFSET UNITYSDK_OFFSET(0x1DEB9BD0)
-#define RPG_GAMECORE_WAITGROUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB9C10)
+#define RPG_GAMECORE_WAITGROUPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6C3A0)
+#define RPG_GAMECORE_WAITGROUPEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6C3B0)
+#define RPG_GAMECORE_WAITGROUPEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6C360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGroupEvent_TypeDefinitionIndex = 20951;
+	inline static constexpr unsigned int WaitGroupEvent_TypeDefinitionIndex = 21197;
 
 	class WaitGroupEvent : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
 		::RPG::GameCore::DynamicString* EventName; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnEvent; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DD381AAA6EE524B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitGroupEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGroupEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_DD381AAA6EE524B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitGroupEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_88885C73CE8EC5EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitGroupEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGroupEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_88885C73CE8EC5EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitGroupEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

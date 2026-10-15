@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class Booklet; }
 namespace RPG::Client { class BookletLuaPanelParam; }
 namespace RPG::Client { class IBookletView; }
 namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET UNITYSDK_OFFSET(0x1B419610)
-#define RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET UNITYSDK_OFFSET(0x1B4192D0)
+#define RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET UNITYSDK_OFFSET(0xE1A5560)
+#define RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET UNITYSDK_OFFSET(0xE1A5220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 72386;
+	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 72459;
 
 	class TarotBookHelper : public ::System::Object
 	{
@@ -27,5 +26,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::RPG::Client::IBookletView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET))(a1);
 		}
+
 	};
 }

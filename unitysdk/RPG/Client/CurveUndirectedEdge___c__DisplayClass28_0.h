@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ECurveEdgePoint.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CurveUndirectedEdge; }
 namespace RPG::Client { class CurveUndirectedEdgeConnection; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192D1A50)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__0_OFFSET UNITYSDK_OFFSET(0x192D2000)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET UNITYSDK_OFFSET(0x192D2020)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD6080)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__0_OFFSET UNITYSDK_OFFSET(0xCBD6630)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET UNITYSDK_OFFSET(0xCBD6650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass28_0_TypeDefinitionIndex = 68538;
+	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass28_0_TypeDefinitionIndex = 68572;
 
 	class CurveUndirectedEdge___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::CurveUndirectedEdge* connectEdge; // 0x10
 		::RPG::Client::ECurveEdgePoint connectPoint; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _TryConnectToOtherEdge_b__0(::RPG::Client::CurveUndirectedEdgeConnection* a1)
@@ -34,5 +32,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdgeConnection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

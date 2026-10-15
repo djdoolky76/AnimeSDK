@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D128130)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D128230)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1D128300)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D128440)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8A89A0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8A8AA0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8CB0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8A8B70)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseExternalAudioTrack_TypeDefinitionIndex = 49296;
+	inline static constexpr unsigned int WwiseExternalAudioTrack_TypeDefinitionIndex = 48850;
 
 	class WwiseExternalAudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline::Audio
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

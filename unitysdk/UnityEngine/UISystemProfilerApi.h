@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UISystemProfilerApi_SampleType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET UNITYSDK_OFFSET(0x1EFEFED0)
-#define UNITYENGINE_UISYSTEMPROFILERAPI_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EFEFEB0)
-#define UNITYENGINE_UISYSTEMPROFILERAPI_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EFEFEC0)
+#define UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET UNITYSDK_OFFSET(0x1F4A0790)
+#define UNITYENGINE_UISYSTEMPROFILERAPI_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F4A0770)
+#define UNITYENGINE_UISYSTEMPROFILERAPI_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F4A0780)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UISystemProfilerApi_TypeDefinitionIndex = 6020;
+	inline static constexpr unsigned int UISystemProfilerApi_TypeDefinitionIndex = 6028;
 
 	class UISystemProfilerApi : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET))(a1, a2);
 		}
+
 	};
 }

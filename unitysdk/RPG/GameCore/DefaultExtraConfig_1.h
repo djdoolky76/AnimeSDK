@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefaultExtraConfig_1_TypeDefinitionIndex = 54275;
+	inline static constexpr unsigned int DefaultExtraConfig_1_TypeDefinitionIndex = 54061;
 
 	template <typename T>
 	class DefaultExtraConfig_1 : public ::System::Object
@@ -12,7 +12,8 @@ namespace RPG::GameCore
 	public:
 		static T* StaticGet_Get()
 		{
-			return (T*)Il2CppClass::FromTypeDefinitionIndex(DefaultExtraConfig_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (T*)UnitySDK::FromName("RPG.GameCore", "DefaultExtraConfig`1")->GetStaticField(0x0);
 		}
+
 	};
 }

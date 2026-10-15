@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::Promises { class IRejectable; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 9853;
+	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 9911;
 
 	struct alignas(8) RejectHandler
 	{

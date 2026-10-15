@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/BRECORD.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_VARIANT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C8D530)
+#define SYSTEM_VARIANT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C1AA90)
 
 namespace System
 {
 	inline static constexpr unsigned int Variant_TypeDefinitionIndex = 452;
 
-	struct alignas(8) Variant
+	struct alignas(4) Variant
 	{
 		::System::Int16 vt; // 0x10
 		::System::UInt16 wReserved1; // 0x12
@@ -31,10 +30,10 @@ namespace System
 		::System::UInt32 uintVal; // 0x18
 		::System::IntPtr pdispVal; // 0x18
 		::System::BRECORD bRecord; // 0x18
-
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VARIANT_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

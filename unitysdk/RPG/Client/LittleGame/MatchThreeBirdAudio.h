@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_METHOD_5_B6BF2A1BCE9B9659_OFFSET UNITYSDK_OFFSET(0x1B1CCAB0)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_TRIGGERAPPEAREVENT_OFFSET UNITYSDK_OFFSET(0x1B1CCA60)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_TRIGGERIDLESHOWEVENT_OFFSET UNITYSDK_OFFSET(0x1B1CCBC0)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CCC10)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_CJCHJIHIMDH_OFFSET UNITYSDK_OFFSET(0xD4658D0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_CTOR_OFFSET UNITYSDK_OFFSET(0xD465A30)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_TRIGGERAPPEAREVENT_OFFSET UNITYSDK_OFFSET(0xD465880)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_TRIGGERIDLESHOWEVENT_OFFSET UNITYSDK_OFFSET(0xD4659E0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MatchThreeBirdAudio_TypeDefinitionIndex = 76074;
+	inline static constexpr unsigned int MatchThreeBirdAudio_TypeDefinitionIndex = 76551;
 
 	class MatchThreeBirdAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* AppearEvent; // 0x18
 		::System::String* IdleShowEvent; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void TriggerAppearEvent()
@@ -34,9 +32,10 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_TRIGGERIDLESHOWEVENT_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B6BF2A1BCE9B9659(::System::String* a1)
+		::System::Void CJCHJIHIMDH(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_METHOD_5_B6BF2A1BCE9B9659_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEBIRDAUDIO_CJCHJIHIMDH_OFFSET))(this, a1);
 		}
+
 	};
 }

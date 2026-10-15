@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVREventType.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE2590)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE2600)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE2580)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE2510)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65CB10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65CA90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65CB80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65CB00)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetEventTypeNameFromEnum_TypeDefinitionIndex = 37624;
+	inline static constexpr unsigned int IVRSystem__GetEventTypeNameFromEnum_TypeDefinitionIndex = 38921;
 
 	class IVRSystem__GetEventTypeNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke(::ZenFulcrum::VR::OpenVRBinding::EVREventType a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETEVENTTYPENAMEFROMENUM_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

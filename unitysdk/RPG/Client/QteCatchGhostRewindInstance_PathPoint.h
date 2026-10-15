@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QteCatchGhostRewindInstance_PathPoint_TypeDefinitionIndex = 60385;
+	inline static constexpr unsigned int QteCatchGhostRewindInstance_PathPoint_TypeDefinitionIndex = 60273;
 
 	struct alignas(4) QteCatchGhostRewindInstance_PathPoint
 	{

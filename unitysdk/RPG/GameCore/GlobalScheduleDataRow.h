@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GlobalScheduleDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D95AEE0)
-#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95B0C0)
+#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F1EA0)
+#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F1CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalScheduleDataRow_TypeDefinitionIndex = 14923;
+	inline static constexpr unsigned int GlobalScheduleDataRow_TypeDefinitionIndex = 15088;
 
 	class GlobalScheduleDataRow : public ::System::Object
 	{
 	public:
-		::System::String* EndTime; // 0x10
-		::System::String* GlobalEndTime; // 0x18
-		::System::String* BeginTime; // 0x20
-		::System::String* GlobalBeginTime; // 0x28
+		::System::String* BeginTime; // 0x10
+		::System::String* GlobalBeginTime; // 0x18
+		::System::String* EndTime; // 0x20
+		::System::String* GlobalEndTime; // 0x28
 		::System::UInt32 ID; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSCHEDULEDATAROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSCHEDULEDATAROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalScheduleDataRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GlobalScheduleDataRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalScheduleDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSCHEDULEDATAROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GlobalScheduleDataRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSCHEDULEDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

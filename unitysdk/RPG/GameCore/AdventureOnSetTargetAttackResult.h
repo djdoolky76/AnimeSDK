@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/AdventureAttackResult.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class AdventureDyingParam; }
+namespace RPG::GameCore { class AdventureOnSetTargetAttackResult; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x19404CF0)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19404D90)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19404D40)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x19404C90)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19404DE0)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0xE570900)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE5709F0)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE5709A0)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE570950)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_INIT_OFFSET UNITYSDK_OFFSET(0xE5708A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureOnSetTargetAttackResult_TypeDefinitionIndex = 56831;
+	inline static constexpr unsigned int AdventureOnSetTargetAttackResult_TypeDefinitionIndex = 56652;
 
-	class AdventureOnSetTargetAttackResult : public ::Class_1_BF7A075734D15E98
+	class AdventureOnSetTargetAttackResult : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::AdventureDyingParam* DyingStyleParam; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x18
+		::RPG::GameCore::AdventureDyingParam* DyingStyleParam; // 0x20
 		::RPG::GameCore::AdventureAttackResult AttackResult; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AdventureOnSetTargetAttackResult* Init(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::RPG::GameCore::AdventureAttackResult a2)
@@ -49,5 +48,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

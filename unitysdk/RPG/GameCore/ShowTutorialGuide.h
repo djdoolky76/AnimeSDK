@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowTutorialGuide; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWTUTORIALGUIDE_METHOD_3_A788721232A8A5EE_OFFSET UNITYSDK_OFFSET(0x1D09C400)
-#define RPG_GAMECORE_SHOWTUTORIALGUIDE_METHOD_3_E971ED3AAF37953F_OFFSET UNITYSDK_OFFSET(0x1D09C440)
-#define RPG_GAMECORE_SHOWTUTORIALGUIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09C430)
+#define RPG_GAMECORE_SHOWTUTORIALGUIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB8D10)
+#define RPG_GAMECORE_SHOWTUTORIALGUIDE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB8D20)
+#define RPG_GAMECORE_SHOWTUTORIALGUIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB8CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowTutorialGuide_TypeDefinitionIndex = 24068;
+	inline static constexpr unsigned int ShowTutorialGuide_TypeDefinitionIndex = 24347;
 
 	class ShowTutorialGuide : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 GuideID; // 0x18
 		::System::Boolean WaitForExit; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::String* Param; // 0x20
 		::System::Boolean SkipIfAlreadySeen; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A788721232A8A5EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialGuide*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowTutorialGuide* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTutorialGuide*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDE_METHOD_3_A788721232A8A5EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowTutorialGuide*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E971ED3AAF37953F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialGuide* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowTutorialGuide* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTutorialGuide*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDE_METHOD_3_E971ED3AAF37953F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowTutorialGuide*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

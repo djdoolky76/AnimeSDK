@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelBattleEventCreate; }
 
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18451790)
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18451740)
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_INIT_OFFSET UNITYSDK_OFFSET(0x184516E0)
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE__CTOR_OFFSET UNITYSDK_OFFSET(0x184517E0)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D6FE0)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D6F90)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D6F40)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_INIT_OFFSET UNITYSDK_OFFSET(0xE6D6EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBattleEventCreate_TypeDefinitionIndex = 56950;
+	inline static constexpr unsigned int LevelBattleEventCreate_TypeDefinitionIndex = 56771;
 
-	class LevelBattleEventCreate : public ::Class_1_BF7A075734D15E98
+	class LevelBattleEventCreate : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* BattleEventEntity; // 0x18
-		::RPG::GameCore::GameEntity* Caster; // 0x20
-
+		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::RPG::GameCore::GameEntity* BattleEventEntity; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEEVENTCREATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEEVENTCREATE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelBattleEventCreate* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
@@ -39,5 +38,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

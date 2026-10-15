@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class TriggerDrinkMakerBartend; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_METHOD_3_BE306024692CB6E0_OFFSET UNITYSDK_OFFSET(0x1D54A650)
-#define RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_METHOD_3_EE523BA3205AE9A3_OFFSET UNITYSDK_OFFSET(0x1D54A610)
-#define RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54A640)
+#define RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC18870)
+#define RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC18880)
+#define RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC18840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerDrinkMakerBartend_TypeDefinitionIndex = 21466;
+	inline static constexpr unsigned int TriggerDrinkMakerBartend_TypeDefinitionIndex = 21712;
 
 	class TriggerDrinkMakerBartend : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggered; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EE523BA3205AE9A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerDrinkMakerBartend*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerDrinkMakerBartend* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerDrinkMakerBartend*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_METHOD_3_EE523BA3205AE9A3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerDrinkMakerBartend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BE306024692CB6E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerDrinkMakerBartend* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerDrinkMakerBartend* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerDrinkMakerBartend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_METHOD_3_BE306024692CB6E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerDrinkMakerBartend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDRINKMAKERBARTEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

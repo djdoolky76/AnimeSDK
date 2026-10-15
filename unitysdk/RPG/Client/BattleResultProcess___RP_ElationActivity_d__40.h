@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class LuaUIController; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19F81A50)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19F81B50)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19F81BB0)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19F81B60)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F81A40)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40__CTOR_OFFSET UNITYSDK_OFFSET(0x19F7E0A0)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_CTOR_OFFSET UNITYSDK_OFFSET(0xC84F600)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xC853530)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC853630)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC853690)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xC853640)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC853520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleResultProcess___RP_ElationActivity_d__40_TypeDefinitionIndex = 61100;
+	inline static constexpr unsigned int BattleResultProcess___RP_ElationActivity_d__40_TypeDefinitionIndex = 61003;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40>
 	class BattleResultProcess___RP_ElationActivity_d__40 : public ::System::Object
 	{
 	public:
 		::System::Object* __2__current; // 0x10
 		::RPG::Client::LuaUIController* _controller_5__2; // 0x18
 		::System::Int32 __1__state; // 0x20
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -51,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULTPROCESS___RP_ELATIONACTIVITY_D__40_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

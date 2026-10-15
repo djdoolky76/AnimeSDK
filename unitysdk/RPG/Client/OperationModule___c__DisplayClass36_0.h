@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_AC6C63F15E9794D3;
+class GHHJNCOAIJF;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191F5DB0)
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0x191F85B0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA099E0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xDA0C1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 66449;
+	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 66420;
 
 	class OperationModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::Class_1_AC6C63F15E9794D3* req; // 0x10
-		::System::String* authKeyVer; // 0x18
-		::System::String* signType; // 0x20
-		::System::String* appID; // 0x28
-
+		::GHHJNCOAIJF* req; // 0x10
+		::System::String* appID; // 0x18
+		::System::String* authKeyVer; // 0x20
+		::System::String* signType; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_AC6C63F15E9794D3* _SetupHttpAuthKeyPromised_b__0(::System::String* a1)
+		::GHHJNCOAIJF* _SetupHttpAuthKeyPromised_b__0(::System::String* a1)
 		{
-			return ((::Class_1_AC6C63F15E9794D3*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET))(this, a1);
+			return ((::GHHJNCOAIJF*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

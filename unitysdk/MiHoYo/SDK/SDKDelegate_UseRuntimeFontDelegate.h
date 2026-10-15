@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AC070)
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AC0A0)
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9A9ED0)
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AC000)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA8170)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA8100)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA81A0)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA5FD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_UseRuntimeFontDelegate_TypeDefinitionIndex = 7740;
+	inline static constexpr unsigned int SDKDelegate_UseRuntimeFontDelegate_TypeDefinitionIndex = 7784;
 
 	class SDKDelegate_UseRuntimeFontDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

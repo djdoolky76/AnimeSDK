@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F001DD0)
-#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F001E00)
-#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F001D20)
-#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F001D60)
+#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F395260)
+#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3951F0)
+#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F395290)
+#define UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3951B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioClip_PCMReaderCallback_TypeDefinitionIndex = 5138;
+	inline static constexpr unsigned int AudioClip_PCMReaderCallback_TypeDefinitionIndex = 5145;
 
 	class AudioClip_PCMReaderCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Il2CppArray<::System::Single>* a1)
@@ -37,5 +36,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMREADERCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

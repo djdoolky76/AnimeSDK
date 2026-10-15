@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C482EF0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C482F20)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C482EE0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1C482E70)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFA2720)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA26A0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFA2750)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFA2710)
 
 namespace Mono::Unity
 {
@@ -21,22 +19,23 @@ namespace Mono::Unity
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Mono::Unity::UnityTls_unitytls_x509list* a1)
+		::System::Void Invoke(::PVOID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_INVOKE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Mono::Unity::UnityTls_unitytls_x509list* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::PVOID a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_X509LIST_FREE_T_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

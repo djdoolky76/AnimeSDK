@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RVO/Vector2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOAgentParam_TypeDefinitionIndex = 44896;
+	inline static constexpr unsigned int RVOAgentParam_TypeDefinitionIndex = 46035;
 
 	struct alignas(4) RVOAgentParam
 	{

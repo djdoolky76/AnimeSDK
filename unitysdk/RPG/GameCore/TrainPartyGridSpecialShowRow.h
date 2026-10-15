@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyGridSpecialShowRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D535E40)
-#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D535F70)
+#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC040E0)
+#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC03FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyGridSpecialShowRow_TypeDefinitionIndex = 15140;
+	inline static constexpr unsigned int TrainPartyGridSpecialShowRow_TypeDefinitionIndex = 15311;
 
 	class TrainPartyGridSpecialShowRow : public ::System::Object
 	{
 	public:
 		::System::String* GridSpecialShowImagePath; // 0x10
 		::System::UInt32 GridID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyGridSpecialShowRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyGridSpecialShowRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyGridSpecialShowRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyGridSpecialShowRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

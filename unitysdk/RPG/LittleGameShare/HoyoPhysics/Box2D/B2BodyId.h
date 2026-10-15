@@ -1,48 +1,55 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xC2D9070)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0xC2D9000)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xC2D90E0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0xC2D8F90)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID__CTOR_OFFSET UNITYSDK_OFFSET(0x82DBC0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2C700)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C7DC640)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1C7DC5D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C7DC6B0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1C7DC560)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyId_TypeDefinitionIndex = 35908;
+	inline static constexpr unsigned int B2BodyId_TypeDefinitionIndex = 36595;
 
 	struct alignas(8) B2BodyId
 	{
 		::System::Int32 index1; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* world0; // 0x18
 		::System::UInt16 generation; // 0x20
-
 		::System::Void _ctor(::System::Int32 a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a2, ::System::UInt16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
+		/*
 		static ::System::Boolean op_LessThan(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a2)
 		{
 			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_LESSTHAN_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_GreaterThan(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a2)
 		{
 			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_GREATERTHAN_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a2)
 		{
 			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a2)
 		{
 			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYID_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
+
 	};
 }

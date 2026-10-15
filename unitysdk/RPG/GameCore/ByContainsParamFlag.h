@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameCoreParamFlag.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByContainsParamFlag; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_7523329FC1EC29E0_OFFSET UNITYSDK_OFFSET(0x1BBCEED0)
-#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_7EBADACA5D1A9845_OFFSET UNITYSDK_OFFSET(0x1BBCEF10)
-#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_B53FC4F8DF992F7F_OFFSET UNITYSDK_OFFSET(0x1BBCF090)
-#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_E88D9F61C6C20778_OFFSET UNITYSDK_OFFSET(0x1BBCF0C0)
-#define RPG_GAMECORE_BYCONTAINSPARAMFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBCEF00)
+#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4BB030)
+#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4BB1F0)
+#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4BB1C0)
+#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4BB040)
+#define RPG_GAMECORE_BYCONTAINSPARAMFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4BB000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByContainsParamFlag_TypeDefinitionIndex = 23272;
+	inline static constexpr unsigned int ByContainsParamFlag_TypeDefinitionIndex = 23538;
 
 	class ByContainsParamFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::GameCoreParamFlag Flag; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7523329FC1EC29E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByContainsParamFlag*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByContainsParamFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByContainsParamFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_7523329FC1EC29E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByContainsParamFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7EBADACA5D1A9845(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByContainsParamFlag* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByContainsParamFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByContainsParamFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_7EBADACA5D1A9845_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByContainsParamFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B53FC4F8DF992F7F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainsParamFlag*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainsParamFlag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainsParamFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_B53FC4F8DF992F7F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainsParamFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E88D9F61C6C20778(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainsParamFlag* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainsParamFlag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainsParamFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_METHOD_4_E88D9F61C6C20778_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainsParamFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSPARAMFLAG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayerSpaceConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERSPACECONFIG_METHOD_2_901B6599D95E06FD_OFFSET UNITYSDK_OFFSET(0x1D7B2FE0)
-#define RPG_GAMECORE_PLAYERSPACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B3310)
+#define RPG_GAMECORE_PLAYERSPACECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90ED20)
+#define RPG_GAMECORE_PLAYERSPACECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90E9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerSpaceConfig_TypeDefinitionIndex = 16225;
+	inline static constexpr unsigned int PlayerSpaceConfig_TypeDefinitionIndex = 16398;
 
 	class PlayerSpaceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +25,15 @@ namespace RPG::GameCore
 		::System::Single DefaultSideSpaceRTPC; // 0x3C
 		::System::Single RaycastAroundMaxDistance; // 0x40
 		::System::Single RaycastTopMaxHeight; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERSPACECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERSPACECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_901B6599D95E06FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerSpaceConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayerSpaceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerSpaceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERSPACECONFIG_METHOD_2_901B6599D95E06FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayerSpaceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERSPACECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

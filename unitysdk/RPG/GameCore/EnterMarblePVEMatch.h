@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EnterMarblePVEMatch; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENTERMARBLEPVEMATCH_METHOD_3_3AB9CBEE98CF5652_OFFSET UNITYSDK_OFFSET(0x1D7C3470)
-#define RPG_GAMECORE_ENTERMARBLEPVEMATCH_METHOD_3_88A950E283CFD55F_OFFSET UNITYSDK_OFFSET(0x1D7C34B0)
-#define RPG_GAMECORE_ENTERMARBLEPVEMATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C34A0)
+#define RPG_GAMECORE_ENTERMARBLEPVEMATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D617850)
+#define RPG_GAMECORE_ENTERMARBLEPVEMATCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D617860)
+#define RPG_GAMECORE_ENTERMARBLEPVEMATCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D617820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterMarblePVEMatch_TypeDefinitionIndex = 21484;
+	inline static constexpr unsigned int EnterMarblePVEMatch_TypeDefinitionIndex = 21730;
 
 	class EnterMarblePVEMatch : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 MatchID; // 0x18
 		::System::Boolean EnableTeamEdit; // 0x1C
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::System::UInt32>* HeroTeamMarbleSealIDList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMARBLEPVEMATCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMARBLEPVEMATCH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3AB9CBEE98CF5652(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterMarblePVEMatch*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnterMarblePVEMatch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterMarblePVEMatch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMARBLEPVEMATCH_METHOD_3_3AB9CBEE98CF5652_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnterMarblePVEMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMARBLEPVEMATCH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_88A950E283CFD55F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterMarblePVEMatch* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnterMarblePVEMatch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterMarblePVEMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMARBLEPVEMATCH_METHOD_3_88A950E283CFD55F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnterMarblePVEMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMARBLEPVEMATCH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

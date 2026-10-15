@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class DataUploadReport; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_DATAUPLOADREPORT_CHECKTELEMETRYENABLE_OFFSET UNITYSDK_OFFSET(0x1C5FD000)
-#define MIHOYO_SDK_DATAUPLOADREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x1C5FD0C0)
-#define MIHOYO_SDK_DATAUPLOADREPORT_TELEMETRYSTART_OFFSET UNITYSDK_OFFSET(0x1C5FD220)
-#define MIHOYO_SDK_DATAUPLOADREPORT_TELEMETRYSTOP_OFFSET UNITYSDK_OFFSET(0x1C5FD500)
-#define MIHOYO_SDK_DATAUPLOADREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5FD6A0)
-#define MIHOYO_SDK_DATAUPLOADREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FD690)
+#define MIHOYO_SDK_DATAUPLOADREPORT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE19830)
+#define MIHOYO_SDK_DATAUPLOADREPORT_CHECKTELEMETRYENABLE_OFFSET UNITYSDK_OFFSET(0x1BE19190)
+#define MIHOYO_SDK_DATAUPLOADREPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE19820)
+#define MIHOYO_SDK_DATAUPLOADREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x1BE19250)
+#define MIHOYO_SDK_DATAUPLOADREPORT_TELEMETRYSTART_OFFSET UNITYSDK_OFFSET(0x1BE193B0)
+#define MIHOYO_SDK_DATAUPLOADREPORT_TELEMETRYSTOP_OFFSET UNITYSDK_OFFSET(0x1BE19690)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DataUploadReport_TypeDefinitionIndex = 7930;
+	inline static constexpr unsigned int DataUploadReport_TypeDefinitionIndex = 7973;
 
 	class DataUploadReport : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::DataUploadReport** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DataUploadReport**)Il2CppClass::FromTypeDefinitionIndex(DataUploadReport_TypeDefinitionIndex)->GetStaticField(0x69E0);
+			return (::MiHoYo::SDK::DataUploadReport**)UnitySDK::FromName("MiHoYo.SDK", "DataUploadReport")->GetStaticField(0xDCF0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DATAUPLOADREPORT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DATAUPLOADREPORT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DATAUPLOADREPORT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DATAUPLOADREPORT_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean CheckTelemetryEnable()
@@ -52,5 +52,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DATAUPLOADREPORT_TELEMETRYSTOP_OFFSET))(this);
 		}
+
 	};
 }

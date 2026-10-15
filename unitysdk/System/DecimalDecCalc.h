@@ -1,56 +1,57 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MutableDecimal.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/MutableDecimal.h"
 
-#define SYSTEM_DECIMALDECCALC_D32ADDCARRY_OFFSET UNITYSDK_OFFSET(0x1EE18A50)
-#define SYSTEM_DECIMALDECCALC_D32DIVMOD1E9_OFFSET UNITYSDK_OFFSET(0x1EE18970)
-#define SYSTEM_DECIMALDECCALC_DECADDINT32_OFFSET UNITYSDK_OFFSET(0x1EE18A30)
-#define SYSTEM_DECIMALDECCALC_DECADD_OFFSET UNITYSDK_OFFSET(0x1EE18B20)
-#define SYSTEM_DECIMALDECCALC_DECDIVMOD1E9_OFFSET UNITYSDK_OFFSET(0x1EE189B0)
-#define SYSTEM_DECIMALDECCALC_DECMUL10_OFFSET UNITYSDK_OFFSET(0x1EE18A70)
-#define SYSTEM_DECIMALDECCALC_DECSHIFTLEFT_OFFSET UNITYSDK_OFFSET(0x1EE18B00)
+#define SYSTEM_DECIMALDECCALC_D32ADDCARRY_OFFSET UNITYSDK_OFFSET(0x1EE17520)
+#define SYSTEM_DECIMALDECCALC_D32DIVMOD1E9_OFFSET UNITYSDK_OFFSET(0x1EE17440)
+#define SYSTEM_DECIMALDECCALC_DECADDINT32_OFFSET UNITYSDK_OFFSET(0x1EE17500)
+#define SYSTEM_DECIMALDECCALC_DECADD_OFFSET UNITYSDK_OFFSET(0x1EE175F0)
+#define SYSTEM_DECIMALDECCALC_DECDIVMOD1E9_OFFSET UNITYSDK_OFFSET(0x1EE17480)
+#define SYSTEM_DECIMALDECCALC_DECMUL10_OFFSET UNITYSDK_OFFSET(0x1EE17540)
+#define SYSTEM_DECIMALDECCALC_DECSHIFTLEFT_OFFSET UNITYSDK_OFFSET(0x1EE175D0)
 
 namespace System
 {
-	inline static constexpr unsigned int DecimalDecCalc_TypeDefinitionIndex = 4964;
+	inline static constexpr unsigned int DecimalDecCalc_TypeDefinitionIndex = 4971;
 
 	class DecimalDecCalc : public ::System::Object
 	{
 	public:
-		static ::System::UInt32 D32DivMod1E9(::System::UInt32 a1, ::System::UInt32& a2)
+		static ::System::UInt32 D32DivMod1E9(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_D32DIVMOD1E9_OFFSET))(a1, a2);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_D32DIVMOD1E9_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 DecDivMod1E9(::System::MutableDecimal& a1)
+		static ::System::UInt32 DecDivMod1E9(::System::MutableDecimal a1)
 		{
-			return ((::System::UInt32(*)(::System::MutableDecimal&))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECDIVMOD1E9_OFFSET))(a1);
+			return ((::System::UInt32(*)(::System::MutableDecimal))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECDIVMOD1E9_OFFSET))(a1);
 		}
 
-		static ::System::Void DecAddInt32(::System::MutableDecimal& a1, ::System::UInt32 a2)
+		static ::System::Void DecAddInt32(::System::MutableDecimal a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::System::MutableDecimal&, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECADDINT32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::MutableDecimal, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECADDINT32_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean D32AddCarry(::System::UInt32& a1, ::System::UInt32 a2)
+		static ::System::Boolean D32AddCarry(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32&, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_D32ADDCARRY_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_D32ADDCARRY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DecMul10(::System::MutableDecimal& a1)
+		static ::System::Void DecMul10(::System::MutableDecimal a1)
 		{
-			return ((::System::Void(*)(::System::MutableDecimal&))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECMUL10_OFFSET))(a1);
+			return ((::System::Void(*)(::System::MutableDecimal))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECMUL10_OFFSET))(a1);
 		}
 
-		static ::System::Void DecShiftLeft(::System::MutableDecimal& a1)
+		static ::System::Void DecShiftLeft(::System::MutableDecimal a1)
 		{
-			return ((::System::Void(*)(::System::MutableDecimal&))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECSHIFTLEFT_OFFSET))(a1);
+			return ((::System::Void(*)(::System::MutableDecimal))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECSHIFTLEFT_OFFSET))(a1);
 		}
 
-		static ::System::Void DecAdd(::System::MutableDecimal& a1, ::System::MutableDecimal a2)
+		static ::System::Void DecAdd(::System::MutableDecimal a1, ::System::MutableDecimal a2)
 		{
-			return ((::System::Void(*)(::System::MutableDecimal&, ::System::MutableDecimal))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECADD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::MutableDecimal, ::System::MutableDecimal))((::PBYTE)hIl2Cpp + SYSTEM_DECIMALDECCALC_DECADD_OFFSET))(a1, a2);
 		}
+
 	};
 }

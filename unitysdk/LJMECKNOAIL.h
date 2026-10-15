@@ -1,0 +1,137 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class ADACHIJCKMB;
+class CMMEIAPCHLN;
+class EHNIDIFHEED;
+class EJPLBPPIADG;
+class GIDHOABFFFP;
+class HEMNHLPNABL;
+class HOOIHKNPALE;
+class MFDCEFCKHNP;
+class PBIPFMHIGHO;
+class PBIPFMHIGHO_KHPIOJENIFE;
+
+#define LJMECKNOAIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB71A100)
+#define LJMECKNOAIL_EPCCCIKOHJI_OFFSET UNITYSDK_OFFSET(0xB719F50)
+#define LJMECKNOAIL_GET_EIDOLONMAPPER_OFFSET UNITYSDK_OFFSET(0xB719EB0)
+#define LJMECKNOAIL_GET_LEVELMAPPER_OFFSET UNITYSDK_OFFSET(0xB719E70)
+#define LJMECKNOAIL_GET_LIGHTCONEMAPPER_OFFSET UNITYSDK_OFFSET(0xB719ED0)
+#define LJMECKNOAIL_GET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0xB719E50)
+#define LJMECKNOAIL_GET_PROMOTIONMAPPER_OFFSET UNITYSDK_OFFSET(0xB719E90)
+#define LJMECKNOAIL_GET_RELICSET2MAPPER_OFFSET UNITYSDK_OFFSET(0xB719F10)
+#define LJMECKNOAIL_GET_RELICSET4MAPPER_OFFSET UNITYSDK_OFFSET(0xB719EF0)
+#define LJMECKNOAIL_GET_TRACETREEMAPPER_OFFSET UNITYSDK_OFFSET(0xB719F30)
+#define LJMECKNOAIL_SET_EIDOLONMAPPER_OFFSET UNITYSDK_OFFSET(0xB719EC0)
+#define LJMECKNOAIL_SET_LEVELMAPPER_OFFSET UNITYSDK_OFFSET(0xB719E80)
+#define LJMECKNOAIL_SET_LIGHTCONEMAPPER_OFFSET UNITYSDK_OFFSET(0xB719EE0)
+#define LJMECKNOAIL_SET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0xB719E60)
+#define LJMECKNOAIL_SET_PROMOTIONMAPPER_OFFSET UNITYSDK_OFFSET(0xB719EA0)
+#define LJMECKNOAIL_SET_RELICSET2MAPPER_OFFSET UNITYSDK_OFFSET(0xB719F20)
+#define LJMECKNOAIL_SET_RELICSET4MAPPER_OFFSET UNITYSDK_OFFSET(0xB719F00)
+#define LJMECKNOAIL_SET_TRACETREEMAPPER_OFFSET UNITYSDK_OFFSET(0xB719F40)
+
+inline static constexpr unsigned int LJMECKNOAIL_TypeDefinitionIndex = 62837;
+
+	class LJMECKNOAIL : public ::System::Object
+	{
+	public:
+		::GIDHOABFFFP* _ProfileBuilder_k__BackingField; // 0x10
+		::CMMEIAPCHLN* _PromotionMapper_k__BackingField; // 0x18
+		::MFDCEFCKHNP* _TraceTreeMapper_k__BackingField; // 0x20
+		::EJPLBPPIADG* _RelicSet2Mapper_k__BackingField; // 0x28
+		::ADACHIJCKMB* _RelicSet4Mapper_k__BackingField; // 0x30
+		::HOOIHKNPALE* _LightConeMapper_k__BackingField; // 0x38
+		::EHNIDIFHEED* _EidolonMapper_k__BackingField; // 0x40
+		::HEMNHLPNABL* _LevelMapper_k__BackingField; // 0x48
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_CTOR_OFFSET))(this);
+		}
+
+		::GIDHOABFFFP* get_ProfileBuilder()
+		{
+			return ((::GIDHOABFFFP*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_PROFILEBUILDER_OFFSET))(this);
+		}
+
+		::System::Void set_ProfileBuilder(::GIDHOABFFFP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GIDHOABFFFP*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_PROFILEBUILDER_OFFSET))(this, a1);
+		}
+
+		::HEMNHLPNABL* get_LevelMapper()
+		{
+			return ((::HEMNHLPNABL*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_LEVELMAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_LevelMapper(::HEMNHLPNABL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HEMNHLPNABL*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_LEVELMAPPER_OFFSET))(this, a1);
+		}
+
+		::CMMEIAPCHLN* get_PromotionMapper()
+		{
+			return ((::CMMEIAPCHLN*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_PROMOTIONMAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_PromotionMapper(::CMMEIAPCHLN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CMMEIAPCHLN*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_PROMOTIONMAPPER_OFFSET))(this, a1);
+		}
+
+		::EHNIDIFHEED* get_EidolonMapper()
+		{
+			return ((::EHNIDIFHEED*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_EIDOLONMAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_EidolonMapper(::EHNIDIFHEED* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EHNIDIFHEED*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_EIDOLONMAPPER_OFFSET))(this, a1);
+		}
+
+		::HOOIHKNPALE* get_LightConeMapper()
+		{
+			return ((::HOOIHKNPALE*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_LIGHTCONEMAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_LightConeMapper(::HOOIHKNPALE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HOOIHKNPALE*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_LIGHTCONEMAPPER_OFFSET))(this, a1);
+		}
+
+		::ADACHIJCKMB* get_RelicSet4Mapper()
+		{
+			return ((::ADACHIJCKMB*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_RELICSET4MAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_RelicSet4Mapper(::ADACHIJCKMB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ADACHIJCKMB*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_RELICSET4MAPPER_OFFSET))(this, a1);
+		}
+
+		::EJPLBPPIADG* get_RelicSet2Mapper()
+		{
+			return ((::EJPLBPPIADG*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_RELICSET2MAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_RelicSet2Mapper(::EJPLBPPIADG* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EJPLBPPIADG*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_RELICSET2MAPPER_OFFSET))(this, a1);
+		}
+
+		::MFDCEFCKHNP* get_TraceTreeMapper()
+		{
+			return ((::MFDCEFCKHNP*(*)(::PVOID))((::PBYTE)hIl2Cpp + LJMECKNOAIL_GET_TRACETREEMAPPER_OFFSET))(this);
+		}
+
+		::System::Void set_TraceTreeMapper(::MFDCEFCKHNP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MFDCEFCKHNP*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_SET_TRACETREEMAPPER_OFFSET))(this, a1);
+		}
+
+		::PBIPFMHIGHO_KHPIOJENIFE* EPCCCIKOHJI(::PBIPFMHIGHO* a1)
+		{
+			return ((::PBIPFMHIGHO_KHPIOJENIFE*(*)(::PVOID, ::PBIPFMHIGHO*))((::PBYTE)hIl2Cpp + LJMECKNOAIL_EPCCCIKOHJI_OFFSET))(this, a1);
+		}
+
+	};

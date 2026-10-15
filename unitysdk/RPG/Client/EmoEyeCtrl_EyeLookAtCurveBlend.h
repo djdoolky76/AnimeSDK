@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_GETBLEND_OFFSET UNITYSDK_OFFSET(0x3B19B10)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_GET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x3B199B0)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x3B199D0)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_SET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x3B199C0)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_UNINITIALIZE_OFFSET UNITYSDK_OFFSET(0x3B19AC0)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_UPDATEBLEND_OFFSET UNITYSDK_OFFSET(0x3B19B90)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_GETBLEND_OFFSET UNITYSDK_OFFSET(0xE6C20)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_GET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0xE6AC0)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE6AE0)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_SET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0xE6AD0)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_UNINITIALIZE_OFFSET UNITYSDK_OFFSET(0xE6BD0)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_UPDATEBLEND_OFFSET UNITYSDK_OFFSET(0xE6CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoEyeCtrl_EyeLookAtCurveBlend_TypeDefinitionIndex = 71096;
+	inline static constexpr unsigned int EmoEyeCtrl_EyeLookAtCurveBlend_TypeDefinitionIndex = 71128;
 
 	struct alignas(8) EmoEyeCtrl_EyeLookAtCurveBlend
 	{
@@ -24,7 +22,6 @@ namespace RPG::Client
 		::UnityEngine::Vector3 _fromLeftValue; // 0x20
 		::UnityEngine::Vector3 _fromRightValue; // 0x2C
 		::System::Boolean _Initialized_k__BackingField; // 0x38
-
 		::System::Boolean get_Initialized()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_GET_INITIALIZED_OFFSET))(this);
@@ -50,9 +47,10 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_GETBLEND_OFFSET))(this);
 		}
 
-		::System::Void UpdateBlend(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		::System::Void UpdateBlend(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_UPDATEBLEND_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL_EYELOOKATCURVEBLEND_UPDATEBLEND_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

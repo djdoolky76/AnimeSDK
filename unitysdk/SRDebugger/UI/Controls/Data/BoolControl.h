@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/UI/Controls/DataBoundControl.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1BDB7B10)
-#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1BDB79B0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1BDB7A80)
-#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1BDB7670)
-#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_TOGGLEONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BDB7740)
-#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB7B50)
+#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1ED280B0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED280F0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1ED27F50)
+#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1ED28020)
+#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED27C10)
+#define SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_TOGGLEONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1ED27CE0)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int BoolControl_TypeDefinitionIndex = 37349;
+	inline static constexpr unsigned int BoolControl_TypeDefinitionIndex = 38042;
 
 	class BoolControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:
 		::UnityEngine::UI::Text* Title; // 0x98
 		::UnityEngine::UI::Toggle* Toggle; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -54,5 +52,6 @@ namespace SRDebugger::UI::Controls::Data
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_BOOLCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Diagnostics { class TraceListenerCollection; }
 
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1AB29680)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_FAIL_OFFSET UNITYSDK_OFFSET(0x1AB32290)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1AB31990)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1AB32230)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTSIZE_OFFSET UNITYSDK_OFFSET(0x1AB32280)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_LISTENERS_OFFSET UNITYSDK_OFFSET(0x1AB31700)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_USEGLOBALLOCK_OFFSET UNITYSDK_OFFSET(0x1AB32220)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_INITIALIZESETTINGS_OFFSET UNITYSDK_OFFSET(0x1AB31FD0)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1AB296B0)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB33280)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1EFDACB0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFE4980)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_FAIL_OFFSET UNITYSDK_OFFSET(0x1EFE3990)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1EFE3080)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1EFE3930)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTSIZE_OFFSET UNITYSDK_OFFSET(0x1EFE3980)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_LISTENERS_OFFSET UNITYSDK_OFFSET(0x1EFE2DF0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_USEGLOBALLOCK_OFFSET UNITYSDK_OFFSET(0x1EFE3920)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_INITIALIZESETTINGS_OFFSET UNITYSDK_OFFSET(0x1EFE36D0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1EFDACE0)
 
 namespace System::Diagnostics
 {
@@ -23,38 +23,44 @@ namespace System::Diagnostics
 	class TraceInternal : public ::System::Object
 	{
 	public:
-		static ::System::Diagnostics::TraceListenerCollection** StaticGet_listeners()
-		{
-			return (::System::Diagnostics::TraceListenerCollection**)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0x36180);
-		}
-		static ::System::Object** StaticGet_critSec()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0x36188);
-		}
 		static ::System::String** StaticGet_appName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0x36190);
+			return (::System::String**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x2CE00);
 		}
+
+		static ::System::Object** StaticGet_critSec()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x2CE08);
+		}
+
+		static ::System::Diagnostics::TraceListenerCollection** StaticGet_listeners()
+		{
+			return (::System::Diagnostics::TraceListenerCollection**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x2CE10);
+		}
+
 		static ::System::Boolean* StaticGet_autoFlush()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0xE1E0);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x9640);
 		}
+
 		static ::System::Boolean* StaticGet_useGlobalLock()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0xE1E1);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x9641);
 		}
+
 		static ::System::Int32* StaticGet_indentSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0xE1E4);
+			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x9644);
 		}
+
 		static ::System::Int32* StaticGet_indentLevel()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TraceInternal_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACEINTERNAL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACEINTERNAL_CCTOR_OFFSET))();
 		}
 
 		static ::System::Diagnostics::TraceListenerCollection* get_Listeners()
@@ -101,5 +107,6 @@ namespace System::Diagnostics
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACEINTERNAL_WRITELINE_OFFSET))(a1);
 		}
+
 	};
 }

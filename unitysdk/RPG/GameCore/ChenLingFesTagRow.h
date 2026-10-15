@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingFesTagRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E0177F0)
-#define RPG_GAMECORE_CHENLINGFESTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0179C0)
+#define RPG_GAMECORE_CHENLINGFESTAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5632E0)
+#define RPG_GAMECORE_CHENLINGFESTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D563110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesTagRow_TypeDefinitionIndex = 11086;
+	inline static constexpr unsigned int ChenLingFesTagRow_TypeDefinitionIndex = 11102;
 
 	class ChenLingFesTagRow : public ::System::Object
 	{
 	public:
 		::System::String* TagIconPath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::Client::TextID TagTitle; // 0x20
-
+		::RPG::Client::TextID TagTitle; // 0x18
+		::System::UInt32 ID; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTAGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTAGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesTagRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesTagRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesTagRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTAGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesTagRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTAGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

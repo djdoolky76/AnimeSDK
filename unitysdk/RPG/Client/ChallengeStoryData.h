@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChallengeData.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
+#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
 namespace RPG::Client { class MonsterData; }
 namespace RPG::GameCore { class ChallengeStoryMazeExtraConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGESTORYDATA_GETALLWAVEMONSTERDATABYSTAGEINDEXANDEVENTINDEX_OFFSET UNITYSDK_OFFSET(0x1AD6E3C0)
-#define RPG_CLIENT_CHALLENGESTORYDATA_GETDESCRIPTIONPARAMS_OFFSET UNITYSDK_OFFSET(0x1AD6E080)
-#define RPG_CLIENT_CHALLENGESTORYDATA_GETDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1AD6DFD0)
-#define RPG_CLIENT_CHALLENGESTORYDATA_GETVORACITYINVASIONLEVEL_OFFSET UNITYSDK_OFFSET(0x1AD6E0D0)
-#define RPG_CLIENT_CHALLENGESTORYDATA_GET_STORYEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x1AD6DF50)
-#define RPG_CLIENT_CHALLENGESTORYDATA_SET_STORYEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x1AD6DF60)
-#define RPG_CLIENT_CHALLENGESTORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD6DF70)
+#define RPG_CLIENT_CHALLENGESTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC9B5A00)
+#define RPG_CLIENT_CHALLENGESTORYDATA_GETALLWAVEMONSTERDATABYSTAGEINDEXANDEVENTINDEX_OFFSET UNITYSDK_OFFSET(0xC9B5E20)
+#define RPG_CLIENT_CHALLENGESTORYDATA_GETDESCRIPTIONPARAMS_OFFSET UNITYSDK_OFFSET(0xC9B5B10)
+#define RPG_CLIENT_CHALLENGESTORYDATA_GETDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xC9B5A60)
+#define RPG_CLIENT_CHALLENGESTORYDATA_GETVORACITYINVASIONLEVEL_OFFSET UNITYSDK_OFFSET(0xC9B5B60)
+#define RPG_CLIENT_CHALLENGESTORYDATA_GET_STORYEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0xC9B59E0)
+#define RPG_CLIENT_CHALLENGESTORYDATA_SET_STORYEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0xC9B59F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryData_TypeDefinitionIndex = 63214;
+	inline static constexpr unsigned int ChallengeStoryData_TypeDefinitionIndex = 63147;
 
 	class ChallengeStoryData : public ::RPG::Client::ChallengeData
 	{
 	public:
 		::RPG::GameCore::ChallengeStoryMazeExtraConfigRow* _StoryExtraInfoRow_k__BackingField; // 0x68
-
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::ChallengeGroupType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChallengeGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChallengeGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::ChallengeStoryMazeExtraConfigRow* get_StoryExtraInfoRow()
@@ -60,5 +58,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYDATA_GETALLWAVEMONSTERDATABYSTAGEINDEXANDEVENTINDEX_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

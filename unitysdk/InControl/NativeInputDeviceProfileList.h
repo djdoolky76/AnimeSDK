@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace System { class String; }
 
-#define INCONTROL_NATIVEINPUTDEVICEPROFILELIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1497D010)
-#define INCONTROL_NATIVEINPUTDEVICEPROFILELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1497D000)
+#define INCONTROL_NATIVEINPUTDEVICEPROFILELIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA4B880)
+#define INCONTROL_NATIVEINPUTDEVICEPROFILELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA4B870)
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeInputDeviceProfileList_TypeDefinitionIndex = 39573;
+	inline static constexpr unsigned int NativeInputDeviceProfileList_TypeDefinitionIndex = 40870;
 
 	class NativeInputDeviceProfileList : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_Profiles()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputDeviceProfileList_TypeDefinitionIndex)->GetStaticField(0xA810);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("InControl", "NativeInputDeviceProfileList")->GetStaticField(0xAA00);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEPROFILELIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEPROFILELIST_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEPROFILELIST__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEPROFILELIST_CCTOR_OFFSET))();
 		}
+
 	};
 }

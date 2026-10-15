@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class ChatMessage; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CHATCONTEXT_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0x16A8B5F0)
-#define MIHOYO_SDK_CHATCONTEXT_GET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0x16A8B570)
-#define MIHOYO_SDK_CHATCONTEXT_GET_MESSAGES_OFFSET UNITYSDK_OFFSET(0x16A8B550)
-#define MIHOYO_SDK_CHATCONTEXT_GET_SCENEID_OFFSET UNITYSDK_OFFSET(0x16A8B530)
-#define MIHOYO_SDK_CHATCONTEXT_SET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0x16A8B580)
-#define MIHOYO_SDK_CHATCONTEXT_SET_MESSAGES_OFFSET UNITYSDK_OFFSET(0x16A8B560)
-#define MIHOYO_SDK_CHATCONTEXT_SET_SCENEID_OFFSET UNITYSDK_OFFSET(0x16A8B540)
-#define MIHOYO_SDK_CHATCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8B590)
+#define MIHOYO_SDK_CHATCONTEXT_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0xAF639D0)
+#define MIHOYO_SDK_CHATCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xAF63970)
+#define MIHOYO_SDK_CHATCONTEXT_GET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0xAF63950)
+#define MIHOYO_SDK_CHATCONTEXT_GET_MESSAGES_OFFSET UNITYSDK_OFFSET(0xAF63930)
+#define MIHOYO_SDK_CHATCONTEXT_GET_SCENEID_OFFSET UNITYSDK_OFFSET(0xAF63910)
+#define MIHOYO_SDK_CHATCONTEXT_SET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0xAF63960)
+#define MIHOYO_SDK_CHATCONTEXT_SET_MESSAGES_OFFSET UNITYSDK_OFFSET(0xAF63940)
+#define MIHOYO_SDK_CHATCONTEXT_SET_SCENEID_OFFSET UNITYSDK_OFFSET(0xAF63920)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ChatContext_TypeDefinitionIndex = 47038;
+	inline static constexpr unsigned int ChatContext_TypeDefinitionIndex = 46578;
 
 	class ChatContext : public ::System::Object
 	{
 	public:
-		::System::String* _SceneId_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::ChatMessage*>* _Messages_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::ChatMessage*>* _Messages_k__BackingField; // 0x10
+		::System::String* _SceneId_k__BackingField; // 0x18
 		::System::Int32 _MaxContextSize_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CHATCONTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CHATCONTEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_SceneId()
@@ -65,5 +63,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ChatMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CHATCONTEXT_ADDMESSAGE_OFFSET))(this, a1);
 		}
+
 	};
 }

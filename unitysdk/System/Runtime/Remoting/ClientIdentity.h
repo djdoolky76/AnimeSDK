@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/Identity.h"
-
 namespace System { class MarshalByRefObject; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { class WeakReference; }
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1C465390)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1C465260)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET UNITYSDK_OFFSET(0x1C4653A0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1C465350)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C465120)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1C2A7DD0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A7B60)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1C2A7CA0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET UNITYSDK_OFFSET(0x1C2A7DE0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1C2A7D90)
 
 namespace System::Runtime::Remoting
 {
@@ -22,10 +21,9 @@ namespace System::Runtime::Remoting
 	{
 	public:
 		::System::WeakReference* _proxyReference; // 0x48
-
 		::System::Void _ctor(::System::String* a1, ::System::Runtime::Remoting::ObjRef* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::ObjRef*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::ObjRef*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::MarshalByRefObject* get_ClientProxy()
@@ -47,5 +45,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET))(this);
 		}
+
 	};
 }

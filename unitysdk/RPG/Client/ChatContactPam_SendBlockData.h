@@ -2,22 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B930080)
+#define RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCA23170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 63284;
+	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 63217;
 
 	class ChatContactPam_SendBlockData : public ::System::Object
 	{
 	public:
 		::System::Object* Data; // 0x10
 		::RPG::Client::MessageContentBlock_BlockType BlockType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

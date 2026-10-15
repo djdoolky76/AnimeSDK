@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateActAddShopBonusGoodsConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_METHOD_6_08504A93FC67F298_OFFSET UNITYSDK_OFFSET(0x1E0CC020)
-#define RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_METHOD_6_C13BA5DE5D010694_OFFSET UNITYSDK_OFFSET(0x1E0CC070)
-#define RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CC060)
+#define RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66C030)
+#define RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66C040)
+#define RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66BFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateActAddShopBonusGoodsConfig_TypeDefinitionIndex = 19011;
+	inline static constexpr unsigned int FateActAddShopBonusGoodsConfig_TypeDefinitionIndex = 19241;
 
 	class FateActAddShopBonusGoodsConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_08504A93FC67F298(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActAddShopBonusGoodsConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActAddShopBonusGoodsConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActAddShopBonusGoodsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_METHOD_6_08504A93FC67F298_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActAddShopBonusGoodsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_C13BA5DE5D010694(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActAddShopBonusGoodsConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActAddShopBonusGoodsConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActAddShopBonusGoodsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_METHOD_6_C13BA5DE5D010694_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActAddShopBonusGoodsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDSHOPBONUSGOODSCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

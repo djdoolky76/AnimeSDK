@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSource.h"
 #include "unitysdk/System/Guid.h"
-
 namespace System { class String; }
+namespace System::Diagnostics::Tracing { class TplEtwProvider; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_DEBUGFACILITYMESSAGE1_OFFSET UNITYSDK_OFFSET(0x1AB56910)
-#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_DEBUGFACILITYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1AB56350)
-#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_GET_DEBUG_OFFSET UNITYSDK_OFFSET(0x1AB56320)
-#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_SETACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1AB654E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB801E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB801A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D2130)
+#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D20F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_DEBUGFACILITYMESSAGE1_OFFSET UNITYSDK_OFFSET(0x1C1A8900)
+#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_DEBUGFACILITYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C1A8360)
+#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_GET_DEBUG_OFFSET UNITYSDK_OFFSET(0x1C1A8330)
+#define SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_SETACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1B7470)
 
 namespace System::Diagnostics::Tracing
 {
@@ -21,17 +21,17 @@ namespace System::Diagnostics::Tracing
 	public:
 		static ::System::Diagnostics::Tracing::TplEtwProvider** StaticGet_Log()
 		{
-			return (::System::Diagnostics::Tracing::TplEtwProvider**)Il2CppClass::FromTypeDefinitionIndex(TplEtwProvider_TypeDefinitionIndex)->GetStaticField(0xACF0);
+			return (::System::Diagnostics::Tracing::TplEtwProvider**)UnitySDK::FromName("System.Diagnostics.Tracing", "TplEtwProvider")->GetStaticField(0x13420);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_Debug()
@@ -53,5 +53,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TPLETWPROVIDER_SETACTIVITYID_OFFSET))(this, a1);
 		}
+
 	};
 }

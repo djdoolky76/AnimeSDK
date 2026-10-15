@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ColliderConfig; }
+namespace RPG::GameCore { class LevelNPCStillConfigData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11ED60)
-#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11EF40)
+#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D78B320)
+#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D78B140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCStillConfigData_TypeDefinitionIndex = 17072;
+	inline static constexpr unsigned int LevelNPCStillConfigData_TypeDefinitionIndex = 17267;
 
 	class LevelNPCStillConfigData : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,15 +21,15 @@ namespace RPG::GameCore
 		::System::Int32 Frame; // 0x20
 		::System::Single NormalizedTime; // 0x24
 		::RPG::GameCore::ColliderConfig* ColliderConfig; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCStillConfigData*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCStillConfigData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCStillConfigData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCStillConfigData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

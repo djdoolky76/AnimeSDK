@@ -2,8 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_0_16E4307DCC419505_413;
+class IFEABBJBIGK;
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardPileBtnViewModel; }
 namespace RPG::Client::FateRin::View::Battle { class FateRinEffectController; }
 namespace RPG::Client::Promises { class IPendingPromise; }
@@ -11,16 +10,16 @@ namespace System { class Object; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_078D85152011B919_1_OFFSET UNITYSDK_OFFSET(0x1B5CF220)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_078D85152011B919_OFFSET UNITYSDK_OFFSET(0x1B5CF190)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_BF93C93F570E4D30_OFFSET UNITYSDK_OFFSET(0x1B5CF0A0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_D0F7E0CB5C46E8D1_OFFSET UNITYSDK_OFFSET(0x1B5CEA70)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_PLAYSHUFFLEFLOW_OFFSET UNITYSDK_OFFSET(0x1B5BE0D0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5CF2B0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_BIAJIILMHON_OFFSET UNITYSDK_OFFSET(0xCFC4FF0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_BOPHIHGFLPJ_OFFSET UNITYSDK_OFFSET(0xCFC4E70)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_CGOGLKBHCDP_OFFSET UNITYSDK_OFFSET(0xCFC4F60)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC5080)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_GHLGBCGGGGG_OFFSET UNITYSDK_OFFSET(0xCFC4840)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_PLAYSHUFFLEFLOW_OFFSET UNITYSDK_OFFSET(0xCFB3FE0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinShuffleTrailEffectView_TypeDefinitionIndex = 79373;
+	inline static constexpr unsigned int FateRinShuffleTrailEffectView_TypeDefinitionIndex = 80697;
 
 	class FateRinShuffleTrailEffectView : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,35 +31,35 @@ namespace RPG::Client::FateRin::View::Battle
 		::UnityEngine::Animation* _BtnDropAnimation; // 0x38
 		::System::Int32 _Count; // 0x40
 		::System::Single _Interval; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_CTOR_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_413* PlayShuffleFlow(::RPG::Client::FateRin::View::Battle::FateRinEffectController* a1, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel* a2, ::System::Int32 a3, ::System::Int32 a4, ::RPG::Client::Promises::IPendingPromise* a5)
+		::IFEABBJBIGK* PlayShuffleFlow(::RPG::Client::FateRin::View::Battle::FateRinEffectController* a1, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel* a2, ::System::Int32 a3, ::System::Int32 a4, ::RPG::Client::Promises::IPendingPromise* a5)
 		{
-			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel*, ::System::Int32, ::System::Int32, ::RPG::Client::Promises::IPendingPromise*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_PLAYSHUFFLEFLOW_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::IFEABBJBIGK*(*)(::PVOID, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel*, ::System::Int32, ::System::Int32, ::RPG::Client::Promises::IPendingPromise*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_PLAYSHUFFLEFLOW_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::Class_0_16E4307DCC419505_413* Method_5_D0F7E0CB5C46E8D1(::RPG::Client::FateRin::View::Battle::FateRinEffectController* a1, ::System::Object* a2)
+		::IFEABBJBIGK* GHLGBCGGGGG(::RPG::Client::FateRin::View::Battle::FateRinEffectController* a1, ::System::Object* a2)
 		{
-			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_D0F7E0CB5C46E8D1_OFFSET))(this, a1, a2);
+			return ((::IFEABBJBIGK*(*)(::PVOID, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_GHLGBCGGGGG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_078D85152011B919()
+		::System::Void CGOGLKBHCDP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_078D85152011B919_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_CGOGLKBHCDP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_078D85152011B919_1()
+		::System::Void BIAJIILMHON()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_078D85152011B919_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_BIAJIILMHON_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Vector3 Method_5_BF93C93F570E4D30(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
+		static ::UnityEngine::Vector3 BOPHIHGFLPJ(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_METHOD_5_BF93C93F570E4D30_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW_BOPHIHGFLPJ_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

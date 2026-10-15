@@ -3,24 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B579FD0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B579E50)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57A110)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DEE40)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8DECC0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DEF80)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionEyeCtrlTrack_TypeDefinitionIndex = 49178;
+	inline static constexpr unsigned int DiscussionEyeCtrlTrack_TypeDefinitionIndex = 48724;
 
 	class DiscussionEyeCtrlTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYECTRLTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

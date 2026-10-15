@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Http/HttpCompletionOption.h"
 #include "unitysdk/System/Net/Http/HttpMessageInvoker.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/TimeSpan.h"
-
+#include "unitysdk/System/Threading/CancellationToken.h"
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Net::Http { class HttpContent; }
@@ -15,49 +14,50 @@ namespace System::Net::Http::Headers { class HttpRequestHeaders; }
 namespace System::Threading { class CancellationTokenSource; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E7E8FA0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_GET_MAXRESPONSECONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1E7E8F90)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_POSTASYNC_OFFSET UNITYSDK_OFFSET(0x1E7E9100)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNCWORKER_OFFSET UNITYSDK_OFFSET(0x1E7E98E0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_1_OFFSET UNITYSDK_OFFSET(0x1E7E97E0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_2_OFFSET UNITYSDK_OFFSET(0x1E7E9320)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1E7E92E0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7E9990)
-#define SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7E8E70)
-#define SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E8D80)
-#define SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET UNITYSDK_OFFSET(0x1E7E99A0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE30760)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE2FC70)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2FB80)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EE2FDA0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_GET_MAXRESPONSECONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1EE2FD90)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_POSTASYNC_OFFSET UNITYSDK_OFFSET(0x1EE2FF00)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNCWORKER_OFFSET UNITYSDK_OFFSET(0x1EE306A0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EE305C0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_2_OFFSET UNITYSDK_OFFSET(0x1EE30120)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1EE300E0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET UNITYSDK_OFFSET(0x1EE30770)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClient_TypeDefinitionIndex = 3758;
+	inline static constexpr unsigned int HttpClient_TypeDefinitionIndex = 3759;
 
 	class HttpClient : public ::System::Net::Http::HttpMessageInvoker
 	{
 	public:
+		::System::Net::Http::Headers::HttpRequestHeaders* headers; // 0x20
+		::System::Threading::CancellationTokenSource* cts; // 0x28
+		::System::Uri* base_address; // 0x30
+		::System::Boolean disposed; // 0x38
+		::System::Byte _padding0[0x7];
+		::System::Int64 buffer_size; // 0x40
+		::System::TimeSpan timeout; // 0x48
 		static ::System::TimeSpan* StaticGet_TimeoutDefault()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(HttpClient_TypeDefinitionIndex)->GetStaticField(0x24E0);
+			return (::System::TimeSpan*)UnitySDK::FromName("System.Net.Http", "HttpClient")->GetStaticField(0x2480);
 		}
-		::System::Net::Http::Headers::HttpRequestHeaders* headers; // 0x20
-		::System::Uri* base_address; // 0x28
-		::System::Threading::CancellationTokenSource* cts; // 0x30
-		::System::TimeSpan timeout; // 0x38
-		::System::Boolean disposed; // 0x40
-		::System::Int64 buffer_size; // 0x48
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Net::Http::HttpMessageHandler* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpMessageHandler*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpMessageHandler*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_CCTOR_OFFSET))();
 		}
 
 		::System::Int64 get_MaxResponseContentBufferSize()
@@ -99,5 +99,6 @@ namespace System::Net::Http
 		{
 			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,34 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client { class GridFightDamageStatisticInfo; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1C95F190)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x1C95F160)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGE_OFFSET UNITYSDK_OFFSET(0x1C95F150)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x1C95F170)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_SET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x1C95F180)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C95F120)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C95F110)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD0EE7B0)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD0EE740)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD0EE730)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0xD0EE780)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGE_OFFSET UNITYSDK_OFFSET(0xD0EE770)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0xD0EE790)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_SET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0xD0EE7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightDamageStatisticInfo_TypeDefinitionIndex = 64474;
+	inline static constexpr unsigned int GridFightDamageStatisticInfo_TypeDefinitionIndex = 64414;
 
 	class GridFightDamageStatisticInfo : public ::System::Object
 	{
 	public:
 		::System::Object* _RelatedDataObject_k__BackingField; // 0x10
-		::System::Double _Damage_k__BackingField; // 0x18
-		::System::Single _DamagePercent_k__BackingField; // 0x20
-
+		::System::Single _DamagePercent_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
+		::System::Double _Damage_k__BackingField; // 0x20
 		::System::Void _ctor(::System::Double a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Double a1, ::System::Double a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Double get_Damage()
@@ -55,5 +57,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightDamageStatisticInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET))(this, a1);
 		}
+
 	};
 }

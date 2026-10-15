@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Text { class EncoderNLS; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1B3BF5F0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET UNITYSDK_OFFSET(0x1B3BF630)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET UNITYSDK_OFFSET(0x1B3BF6A0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x1B3BF4D0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1B3BF7C0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_CHARSUSED_OFFSET UNITYSDK_OFFSET(0x1B3BF880)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B3BF8A0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1B3BF720)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1B3BF510)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3BF1D0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1C0F2AC0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET UNITYSDK_OFFSET(0x1C0F2B00)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET UNITYSDK_OFFSET(0x1C0F2B70)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x1C0F29A0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F26A0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1C0F2C90)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_CHARSUSED_OFFSET UNITYSDK_OFFSET(0x1C0F2D50)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C0F2D70)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1C0F2BF0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1C0F29E0)
 
 namespace System::Text
 {
@@ -24,20 +23,20 @@ namespace System::Text
 	class Encoding_EncodingByteBuffer : public ::System::Object
 	{
 	public:
-		::System::Text::Encoding* enc; // 0x10
-		::System::Text::EncoderNLS* encoder; // 0x18
+		::System::Text::EncoderNLS* encoder; // 0x10
+		::System::Text::Encoding* enc; // 0x18
 		::System::Text::EncoderFallbackBuffer* fallbackBuffer; // 0x20
-		::System::Int32 byteCountResult; // 0x28
-		::System::Byte* bytes; // 0x30
-		::System::Byte* byteEnd; // 0x38
-		::System::Byte* byteStart; // 0x40
-		::System::Char* charEnd; // 0x48
-		::System::Char* charStart; // 0x50
-		::System::Char* chars; // 0x58
-
-		::System::Void _ctor(::System::Text::Encoding* a1, ::System::Text::EncoderNLS* a2, ::System::Byte* a3, ::System::Int32 a4, ::System::Char* a5, ::System::Int32 a6)
+		::PVOID charEnd; // 0x28
+		::System::Int32 byteCountResult; // 0x30
+		::System::Byte _padding0[0x4];
+		::PVOID chars; // 0x38
+		::PVOID byteEnd; // 0x40
+		::PVOID bytes; // 0x48
+		::PVOID byteStart; // 0x50
+		::PVOID charStart; // 0x58
+		::System::Void _ctor(::System::Text::Encoding* a1, ::System::Text::EncoderNLS* a2, ::PVOID a3, ::System::Int32 a4, ::PVOID a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*, ::System::Text::EncoderNLS*, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*, ::System::Text::EncoderNLS*, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean AddByte(::System::Byte a1, ::System::Int32 a2)
@@ -84,5 +83,6 @@ namespace System::Text
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_COUNT_OFFSET))(this);
 		}
+
 	};
 }

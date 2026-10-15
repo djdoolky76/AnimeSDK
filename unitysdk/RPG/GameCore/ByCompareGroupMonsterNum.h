@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareGroupMonsterNum; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_METHOD_4_96C75C3E8B786B93_OFFSET UNITYSDK_OFFSET(0x1C3204F0)
-#define RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_METHOD_4_FAD0EF240E1E92CF_OFFSET UNITYSDK_OFFSET(0x1C3204A0)
-#define RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3204E0)
+#define RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4853B0)
+#define RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4853C0)
+#define RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D485370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareGroupMonsterNum_TypeDefinitionIndex = 22015;
+	inline static constexpr unsigned int ByCompareGroupMonsterNum_TypeDefinitionIndex = 22263;
 
 	class ByCompareGroupMonsterNum : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_FAD0EF240E1E92CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGroupMonsterNum*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareGroupMonsterNum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGroupMonsterNum*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_METHOD_4_FAD0EF240E1E92CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareGroupMonsterNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_96C75C3E8B786B93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGroupMonsterNum* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareGroupMonsterNum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGroupMonsterNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_METHOD_4_96C75C3E8B786B93_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareGroupMonsterNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGROUPMONSTERNUM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace SRDebugger::UI::Controls { class SRTabButton; }
 namespace SRDebugger::UI::Other { class ITabNavigationController; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Sprite; }
 
-#define SRDEBUGGER_UI_OTHER_SRTAB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1BDC6070)
-#define SRDEBUGGER_UI_OTHER_SRTAB_GET_LONGTITLE_OFFSET UNITYSDK_OFFSET(0x1BDC6050)
-#define SRDEBUGGER_UI_OTHER_SRTAB_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1BDC6030)
-#define SRDEBUGGER_UI_OTHER_SRTAB_ONTABSELECTED_OFFSET UNITYSDK_OFFSET(0x1BDC6310)
-#define SRDEBUGGER_UI_OTHER_SRTAB_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1BDC65F0)
-#define SRDEBUGGER_UI_OTHER_SRTAB_SET_KEY_OFFSET UNITYSDK_OFFSET(0x1BDC6080)
-#define SRDEBUGGER_UI_OTHER_SRTAB_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1BDC6040)
-#define SRDEBUGGER_UI_OTHER_SRTAB_START_OFFSET UNITYSDK_OFFSET(0x1BDC6090)
-#define SRDEBUGGER_UI_OTHER_SRTAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC6720)
-#define SRDEBUGGER_UI_OTHER_SRTAB__RESETSCROLLCONTENT_OFFSET UNITYSDK_OFFSET(0x1BDC6570)
+#define SRDEBUGGER_UI_OTHER_SRTAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED36980)
+#define SRDEBUGGER_UI_OTHER_SRTAB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1ED362D0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_GET_LONGTITLE_OFFSET UNITYSDK_OFFSET(0x1ED362B0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1ED36290)
+#define SRDEBUGGER_UI_OTHER_SRTAB_ONTABSELECTED_OFFSET UNITYSDK_OFFSET(0x1ED36570)
+#define SRDEBUGGER_UI_OTHER_SRTAB_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1ED36850)
+#define SRDEBUGGER_UI_OTHER_SRTAB_SET_KEY_OFFSET UNITYSDK_OFFSET(0x1ED362E0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1ED362A0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_START_OFFSET UNITYSDK_OFFSET(0x1ED362F0)
+#define SRDEBUGGER_UI_OTHER_SRTAB__RESETSCROLLCONTENT_OFFSET UNITYSDK_OFFSET(0x1ED367D0)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SRTab_TypeDefinitionIndex = 37318;
+	inline static constexpr unsigned int SRTab_TypeDefinitionIndex = 38011;
 
 	class SRTab : public ::SRF::SRMonoBehaviourEx
 	{
@@ -32,16 +31,16 @@ namespace SRDebugger::UI::Other
 		::UnityEngine::RectTransform* IconExtraContent; // 0x58
 		::System::String* IconStyleKey; // 0x60
 		::System::Int32 SortIndex; // 0x68
+		::System::Byte _padding0[0x4];
 		::SRDebugger::UI::Controls::SRTabButton* TabButton; // 0x70
 		::System::String* _title; // 0x78
 		::System::String* _longTitle; // 0x80
 		::System::String* _key; // 0x88
 		::UnityEngine::RectTransform* ScrollContent; // 0x90
 		::SRDebugger::UI::Other::ITabNavigationController* _NaviController; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_Title()
@@ -88,5 +87,6 @@ namespace SRDebugger::UI::Other
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB__RESETSCROLLCONTENT_OFFSET))(this);
 		}
+
 	};
 }

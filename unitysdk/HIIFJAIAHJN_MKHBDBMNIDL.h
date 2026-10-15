@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HIIFJAIAHJN;
+class KLKMCNOECAL;
+namespace RPG::Client { class IAssetOperation; }
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class ObjectInstantiateRequest; }
+
+#define HIIFJAIAHJN_MKHBDBMNIDL_BIHGLMGIGPL_OFFSET UNITYSDK_OFFSET(0x15CDCBA0)
+#define HIIFJAIAHJN_MKHBDBMNIDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15CDC450)
+#define HIIFJAIAHJN_MKHBDBMNIDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CDA2D0)
+#define HIIFJAIAHJN_MKHBDBMNIDL_DNLBJCEIIKD_OFFSET UNITYSDK_OFFSET(0x15CDCCF0)
+#define HIIFJAIAHJN_MKHBDBMNIDL_EGKNKHEANAN_OFFSET UNITYSDK_OFFSET(0x15CDC480)
+#define HIIFJAIAHJN_MKHBDBMNIDL_ELINOHABNCJ_OFFSET UNITYSDK_OFFSET(0x15CDCF40)
+#define HIIFJAIAHJN_MKHBDBMNIDL_FOJMIFPHLLC_OFFSET UNITYSDK_OFFSET(0x15CDCB90)
+#define HIIFJAIAHJN_MKHBDBMNIDL_HNLHPGKIAIC_OFFSET UNITYSDK_OFFSET(0x15CDA1E0)
+#define HIIFJAIAHJN_MKHBDBMNIDL_IKHJMENJMHJ_OFFSET UNITYSDK_OFFSET(0x15CDCD90)
+
+inline static constexpr unsigned int HIIFJAIAHJN_MKHBDBMNIDL_TypeDefinitionIndex = 59682;
+
+	class HIIFJAIAHJN_MKHBDBMNIDL : public ::System::Object
+	{
+	public:
+		::KLKMCNOECAL* GHCANNCCJOL; // 0x10
+		::RPG::Client::IAssetOperation* JMLPCOLIILA; // 0x18
+		::System::String* CDEEHGCEOKN; // 0x20
+		::HIIFJAIAHJN* CFKHNPGEAJA; // 0x28
+		::UnityEngine::ObjectInstantiateRequest* LIMMNNJDECJ; // 0x30
+		::System::Void _ctor(::HIIFJAIAHJN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIIFJAIAHJN*))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_CTOR_OFFSET))(this, a1);
+		}
+
+		::KLKMCNOECAL* FOJMIFPHLLC()
+		{
+			return ((::KLKMCNOECAL*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_FOJMIFPHLLC_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void BIHGLMGIGPL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_BIHGLMGIGPL_OFFSET))(this);
+		}
+
+		::System::Void DNLBJCEIIKD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_DNLBJCEIIKD_OFFSET))(this);
+		}
+
+		::KLKMCNOECAL* HNLHPGKIAIC()
+		{
+			return ((::KLKMCNOECAL*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_HNLHPGKIAIC_OFFSET))(this);
+		}
+
+		::System::Void EGKNKHEANAN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_EGKNKHEANAN_OFFSET))(this);
+		}
+
+		::System::Boolean IKHJMENJMHJ(::RPG::Client::IAssetOperation* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_IKHJMENJMHJ_OFFSET))(this, a1);
+		}
+
+		::System::Void ELINOHABNCJ(::UnityEngine::GameObject* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HIIFJAIAHJN_MKHBDBMNIDL_ELINOHABNCJ_OFFSET))(this, a1);
+		}
+
+	};

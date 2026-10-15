@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/AlertCompliance_AlertResult.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A197F50)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A197FC0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A197810)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A197EE0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC0DDE0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC0DD70)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC0DE50)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC0D6B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertCompliance_OnAlertDelegate_TypeDefinitionIndex = 7949;
+	inline static constexpr unsigned int AlertCompliance_OnAlertDelegate_TypeDefinitionIndex = 7992;
 
 	class AlertCompliance_OnAlertDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::AlertCompliance_AlertResult a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

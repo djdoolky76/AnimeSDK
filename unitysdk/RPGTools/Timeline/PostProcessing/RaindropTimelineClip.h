@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::PostProcessing { class RaindropTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0B1FB0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0B20A0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B20B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE91ECA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE91EDA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE91ED90)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RaindropTimelineClip_TypeDefinitionIndex = 49060;
+	inline static constexpr unsigned int RaindropTimelineClip_TypeDefinitionIndex = 48606;
 
 	class RaindropTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::PostProcessing::RaindropTimelineBehaviour* Template; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINECLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

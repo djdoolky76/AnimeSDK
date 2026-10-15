@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Collections::Pooled { template <typename T> class PooledList_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int EmptyPooledList_1_TypeDefinitionIndex = 6355;
+	inline static constexpr unsigned int EmptyPooledList_1_TypeDefinitionIndex = 6364;
 
 	template <typename T>
 	class EmptyPooledList_1 : public ::System::Object
@@ -14,7 +13,8 @@ namespace RPG
 	public:
 		static ::Collections::Pooled::PooledList_1<T>** StaticGet_Instance()
 		{
-			return (::Collections::Pooled::PooledList_1<T>**)Il2CppClass::FromTypeDefinitionIndex(EmptyPooledList_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Collections::Pooled::PooledList_1<T>**)UnitySDK::FromName("RPG", "EmptyPooledList`1")->GetStaticField(0x0);
 		}
+
 	};
 }

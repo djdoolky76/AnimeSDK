@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x3B8F080)
+#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF9390)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int EyeProtectionParameter_TypeDefinitionIndex = 49152;
+	inline static constexpr unsigned int EyeProtectionParameter_TypeDefinitionIndex = 48698;
 
 	struct alignas(4) EyeProtectionParameter
 	{
@@ -16,10 +15,10 @@ namespace RPGTools::Timeline::VFX
 		::System::Single EffectPointLightScale; // 0x1C
 		::System::Single LevelForceDisable; // 0x20
 		::System::Single ColorGradientForceDisable; // 0x24
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONPARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONPARAMETER_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

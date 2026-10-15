@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD58B50)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__0_OFFSET UNITYSDK_OFFSET(0x1BD5A870)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__1_OFFSET UNITYSDK_OFFSET(0x1BD5A910)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__2_OFFSET UNITYSDK_OFFSET(0x1BD5A9B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD140E00)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__0_OFFSET UNITYSDK_OFFSET(0xD142BA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__1_OFFSET UNITYSDK_OFFSET(0xD142C40)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__2_OFFSET UNITYSDK_OFFSET(0xD142CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormation___c__DisplayClass45_0_TypeDefinitionIndex = 64742;
+	inline static constexpr unsigned int GridFightGameFormation___c__DisplayClass45_0_TypeDefinitionIndex = 64682;
 
 	class GridFightGameFormation___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 roleID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _IsReferenced_b__0(::RPG::Client::GridFightFormationRole* a1)
@@ -37,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__DISPLAYCLASS45_0__ISREFERENCED_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

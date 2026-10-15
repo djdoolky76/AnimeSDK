@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6B4C20)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
 
 namespace System::Diagnostics::Tracing
 {
@@ -12,10 +11,10 @@ namespace System::Diagnostics::Tracing
 	{
 		::System::Int32 sessionIdBit; // 0x10
 		::System::Int32 etwSessionId; // 0x14
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

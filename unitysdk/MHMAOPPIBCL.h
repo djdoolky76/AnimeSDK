@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MHMAOPPIBCL_TypeDefinitionIndex = 32508;
+
+	enum class MHMAOPPIBCL : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		IDDGLECPMDA = 8968,
+		ANLKBPKEAGG = 8954,
+		FGCLOPHMIAF = 8969,
+		MPHMEBAEJOP = 8962,
+		BDLILDCEOPJ = 8956,
+		NINAJABOKCG = 8967,
+		ALMNLDLOJEK = 8960,
+		DLMGEEGPAKK = 8963,
+		OJCIKJJMKPE = 8959,
+		ALBNDJCFHCJ = 8966,
+		BKIOFNFLBLF = 8957,
+		NJDBMIBJMFC = 8958,
+		JCCLMLILHFH = 8952,
+	};

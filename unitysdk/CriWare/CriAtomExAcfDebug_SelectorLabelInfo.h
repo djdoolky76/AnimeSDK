@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorLabelInfo_TypeDefinitionIndex = 38887;
+	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorLabelInfo_TypeDefinitionIndex = 40184;
 
 	struct alignas(8) CriAtomExAcfDebug_SelectorLabelInfo
 	{

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Texture; }
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A99260)
-#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x3A99250)
+#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4E50)
+#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF4E40)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 52154;
+	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 51860;
 
 	struct alignas(8) PPFilterStack_PPPatternParameter
 	{
 		::System::Boolean PPPatternOverrideState; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single _GrowingProgress; // 0x14
 		::UnityEngine::Vector4 _MainTex_ST; // 0x18
 		::UnityEngine::Vector4 _MainTex1_ST; // 0x28
@@ -24,6 +23,7 @@ namespace RPG::CustomRP
 		::UnityEngine::Texture* _MaskTex1; // 0x48
 		::UnityEngine::Vector4 _MainTexSpeed; // 0x50
 		::System::Boolean _UseNoiseGlitch; // 0x60
+		::System::Byte _padding1[0x3];
 		::System::Single _NoiseSpeed; // 0x64
 		::System::Single _NoiseSeed1; // 0x68
 		::System::Single _NoiseSeed2; // 0x6C
@@ -35,6 +35,7 @@ namespace RPG::CustomRP
 		::System::Boolean _NoiseIntensityOverrideState; // 0x78
 		::System::Boolean _MainTexSpeedOverrideState; // 0x79
 		::System::Boolean _UseDualTex; // 0x7A
+		::System::Byte _padding2[0x5];
 		::UnityEngine::Texture* _MainTex2; // 0x80
 		::UnityEngine::Texture* _DetailTex2; // 0x88
 		::UnityEngine::Texture* _MaskTex2; // 0x90
@@ -69,6 +70,7 @@ namespace RPG::CustomRP
 		::System::Boolean _CloudScaleOverrideState; // 0x112
 		::System::Boolean _CloudMaskScaleOverrideState; // 0x113
 		::System::Boolean _UseOldFilm; // 0x114
+		::System::Byte _padding3[0x3];
 		::System::Single _Saturation; // 0x118
 		::UnityEngine::Vector4 _DotST; // 0x11C
 		::System::Single _DotSpeed; // 0x12C
@@ -93,6 +95,7 @@ namespace RPG::CustomRP
 		::System::Boolean _FrameColorOverrideState; // 0x18A
 		::System::Boolean _BaseColorOverrideState; // 0x18B
 		::System::Boolean _UseMonkeyPattern; // 0x18C
+		::System::Byte _padding4[0x3];
 		::System::Single _MK_Coverage; // 0x190
 		::UnityEngine::Vector4 _MK_NoiseTiling; // 0x194
 		::System::Single _MK_NoiseSpeed; // 0x1A4
@@ -122,6 +125,7 @@ namespace RPG::CustomRP
 		::System::Boolean _MK_DarkColor1OverrideState; // 0x240
 		::System::Boolean _MK_BleedColor1OverrideState; // 0x241
 		::System::Boolean _MK_TransparencyOverrideState; // 0x242
+		::System::Byte _padding5[0x1];
 		::System::Single _CenterX; // 0x244
 		::System::Single _CenterY; // 0x248
 		::System::Single _StartRadius; // 0x24C
@@ -130,15 +134,17 @@ namespace RPG::CustomRP
 		::System::Boolean _CenterYOverrideState; // 0x255
 		::System::Boolean _StartRadiusOverrideState; // 0x256
 		::System::Boolean _BlendRadiusOverrideState; // 0x257
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Void _ctor_1(::RPG::CustomRP::PPFilterStack_PPPatternParameter a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_PPPatternParameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_PPPatternParameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_1_OFFSET))(this, a1, a2);
 		}
+		*/
+
 	};
 }

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/RuntimeParameterInfo.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class ParameterInfo; }
 namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1C43A040)
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C43A080)
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GETREQUIREDCUSTOMMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1C43A0A0)
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1C439E80)
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1C43A090)
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C439E50)
-#define SYSTEM_REFLECTION_MONOPARAMETERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C439C30)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C27C860)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27C640)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1C27CA50)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C27CA90)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GETREQUIREDCUSTOMMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1C27CAB0)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1C27C890)
+#define SYSTEM_REFLECTION_MONOPARAMETERINFO_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1C27CAA0)
 
 namespace System::Reflection
 {
@@ -25,12 +24,12 @@ namespace System::Reflection
 	public:
 		::System::Void _ctor(::System::Reflection::ParameterInfo* a1, ::System::Reflection::MemberInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPARAMETERINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPARAMETERINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Type* a1, ::System::Reflection::MemberInfo* a2, ::System::Runtime::InteropServices::MarshalAsAttribute* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPARAMETERINFO__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPARAMETERINFO_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* get_DefaultValue()
@@ -57,5 +56,6 @@ namespace System::Reflection
 		{
 			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPARAMETERINFO_GETREQUIREDCUSTOMMODIFIERS_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,24 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0B72E0)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B0B7420)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B7490)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE923FA0)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE924150)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE9240E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropAttachToAdvPropTrack_TypeDefinitionIndex = 48699;
+	inline static constexpr unsigned int PropAttachToAdvPropTrack_TypeDefinitionIndex = 48239;
 
 	class PropAttachToAdvPropTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

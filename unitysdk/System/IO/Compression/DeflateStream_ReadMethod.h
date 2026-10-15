@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AB37B20)
-#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AB380D0)
-#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AB384C0)
-#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB38440)
+#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFE9220)
+#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE9B40)
+#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFE97D0)
+#define SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFE9BC0)
 
 namespace System::IO::Compression
 {
@@ -20,7 +19,7 @@ namespace System::IO::Compression
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -37,5 +36,6 @@ namespace System::IO::Compression
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_COMPRESSION_DEFLATESTREAM_READMETHOD_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

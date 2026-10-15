@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client { class TalkEmotionData; }
 
-#define RPG_CLIENT_CHARACTERTALKEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B929A90)
+#define RPG_CLIENT_CHARACTERTALKEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCA1CB40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterTalkEmotion_TypeDefinitionIndex = 71092;
+	inline static constexpr unsigned int CharacterTalkEmotion_TypeDefinitionIndex = 71124;
 
 	class CharacterTalkEmotion : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::Il2CppArray<::RPG::Client::TalkEmotionData*>* Emotions; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERTALKEMOTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERTALKEMOTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

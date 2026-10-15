@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/RPG/GameCore/ScoringShowType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetBattleScoringItem; }
 
-#define RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_07CA2814C4000F3F_OFFSET UNITYSDK_OFFSET(0x1E80FCE0)
-#define RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_86E0A7CF65552535_OFFSET UNITYSDK_OFFSET(0x1E80FD30)
-#define RPG_GAMECORE_SETBATTLESCORINGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E80FD20)
+#define RPG_GAMECORE_SETBATTLESCORINGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA69EA0)
+#define RPG_GAMECORE_SETBATTLESCORINGITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA69EB0)
+#define RPG_GAMECORE_SETBATTLESCORINGITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA69E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleScoringItem_TypeDefinitionIndex = 22915;
+	inline static constexpr unsigned int SetBattleScoringItem_TypeDefinitionIndex = 23176;
 
 	class SetBattleScoringItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,21 +22,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::PropertyModifyFunction ModifyFunction; // 0x1C
 		::RPG::GameCore::DynamicFloat* ModifyValue; // 0x20
 		::RPG::GameCore::ScoringShowType ShowType; // 0x28
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* DisplayValue; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_07CA2814C4000F3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleScoringItem*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetBattleScoringItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleScoringItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_07CA2814C4000F3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetBattleScoringItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_86E0A7CF65552535(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleScoringItem* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetBattleScoringItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleScoringItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_86E0A7CF65552535_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetBattleScoringItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

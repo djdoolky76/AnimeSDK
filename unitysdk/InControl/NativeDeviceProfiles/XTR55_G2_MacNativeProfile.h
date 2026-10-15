@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x149677A0)
-#define INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x14967860)
+#define INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA360E0)
+#define INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA36020)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int XTR55_G2_MacNativeProfile_TypeDefinitionIndex = 39973;
+	inline static constexpr unsigned int XTR55_G2_MacNativeProfile_TypeDefinitionIndex = 41270;
 
 	class XTR55_G2_MacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Define()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_XTR55_G2_MACNATIVEPROFILE_DEFINE_OFFSET))(this);
 		}
+
 	};
 }

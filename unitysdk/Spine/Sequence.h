@@ -1,60 +1,62 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class IHasTextureRegion; }
+namespace Spine { class Sequence; }
 namespace Spine { class Slot; }
 namespace Spine { class TextureRegion; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SPINE_SEQUENCE_APPLY_OFFSET UNITYSDK_OFFSET(0x160593B0)
-#define SPINE_SEQUENCE_GETPATH_OFFSET UNITYSDK_OFFSET(0x160506E0)
-#define SPINE_SEQUENCE_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x16062B90)
-#define SPINE_SEQUENCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x16062BE0)
-#define SPINE_SEQUENCE_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x16062BD0)
-#define SPINE_SEQUENCE_GET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x16062BB0)
-#define SPINE_SEQUENCE_GET_START_OFFSET UNITYSDK_OFFSET(0x16062B70)
-#define SPINE_SEQUENCE_SET_DIGITS_OFFSET UNITYSDK_OFFSET(0x16062BA0)
-#define SPINE_SEQUENCE_SET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x16062BC0)
-#define SPINE_SEQUENCE_SET_START_OFFSET UNITYSDK_OFFSET(0x16062B80)
-#define SPINE_SEQUENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16062D40)
-#define SPINE_SEQUENCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16058D80)
-#define SPINE_SEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16062BF0)
+#define SPINE_SEQUENCE_APPLY_OFFSET UNITYSDK_OFFSET(0x1EC794B0)
+#define SPINE_SEQUENCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC82E80)
+#define SPINE_SEQUENCE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC78E90)
+#define SPINE_SEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC82D30)
+#define SPINE_SEQUENCE_GETPATH_OFFSET UNITYSDK_OFFSET(0x1EC707E0)
+#define SPINE_SEQUENCE_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x1EC82CD0)
+#define SPINE_SEQUENCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EC82D20)
+#define SPINE_SEQUENCE_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x1EC82D10)
+#define SPINE_SEQUENCE_GET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x1EC82CF0)
+#define SPINE_SEQUENCE_GET_START_OFFSET UNITYSDK_OFFSET(0x1EC82CB0)
+#define SPINE_SEQUENCE_SET_DIGITS_OFFSET UNITYSDK_OFFSET(0x1EC82CE0)
+#define SPINE_SEQUENCE_SET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x1EC82D00)
+#define SPINE_SEQUENCE_SET_START_OFFSET UNITYSDK_OFFSET(0x1EC82CC0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Sequence_TypeDefinitionIndex = 38363;
+	inline static constexpr unsigned int Sequence_TypeDefinitionIndex = 39660;
 
 	class Sequence : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_nextIdLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Sequence_TypeDefinitionIndex)->GetStaticField(0x52F20);
-		}
-		static ::System::Int32* StaticGet_nextID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Sequence_TypeDefinitionIndex)->GetStaticField(0x11220);
-		}
 		::Il2CppArray<::Spine::TextureRegion*>* regions; // 0x10
 		::System::Int32 digits; // 0x18
-		::System::Int32 start; // 0x1C
-		::System::Int32 setupIndex; // 0x20
+		::System::Int32 setupIndex; // 0x1C
+		::System::Int32 start; // 0x20
 		::System::Int32 id; // 0x24
+		static ::System::Object** StaticGet_nextIdLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("Spine", "Sequence")->GetStaticField(0x4CD60);
+		}
+
+		static ::System::Int32* StaticGet_nextID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Spine", "Sequence")->GetStaticField(0x11920);
+		}
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SEQUENCE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SEQUENCE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::Spine::Sequence* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_SEQUENCE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_SEQUENCE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_SEQUENCE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_SEQUENCE_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_Start()
@@ -106,5 +108,6 @@ namespace Spine
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SEQUENCE_GETPATH_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

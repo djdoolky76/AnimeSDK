@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimRefillPlayerJumpEnergyAction; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_METHOD_3_6BB9855695E7DBB1_OFFSET UNITYSDK_OFFSET(0x1D8768B0)
-#define RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_METHOD_3_751B6E10221A835C_OFFSET UNITYSDK_OFFSET(0x1D876830)
-#define RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8768A0)
+#define RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9790)
+#define RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6A97A0)
+#define RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A9720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRefillPlayerJumpEnergyAction_TypeDefinitionIndex = 18516;
+	inline static constexpr unsigned int FiveDimRefillPlayerJumpEnergyAction_TypeDefinitionIndex = 18726;
 
 	class FiveDimRefillPlayerJumpEnergyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_751B6E10221A835C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_METHOD_3_751B6E10221A835C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6BB9855695E7DBB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_METHOD_3_6BB9855695E7DBB1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimRefillPlayerJumpEnergyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMREFILLPLAYERJUMPENERGYACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

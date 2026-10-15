@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPProbeInfo_TypeDefinitionIndex = 4877;
+	inline static constexpr unsigned int CRPProbeInfo_TypeDefinitionIndex = 4883;
 
 	struct alignas(4) CRPProbeInfo
 	{
@@ -19,6 +18,7 @@ namespace UnityEngine::Rendering
 		::System::Int32 baseProbeId; // 0x124
 		::System::Int32 probeRangeMode; // 0x128
 		::System::Boolean blendOnBase; // 0x12C
+		::System::Byte _padding0[0x3];
 		::System::Int32 customProbeQualityFilter; // 0x130
 	};
 }

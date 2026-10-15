@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CloudGame/MailBox/GameControl/Gyroscope.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/CloudGame/MailBox/GameControl/Gyroscope.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AB970)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AB9E0)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AB930)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AB8C0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7A70)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA79C0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7AE0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7A30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_OnGyroscopeDelegate_TypeDefinitionIndex = 7751;
+	inline static constexpr unsigned int SDKDelegate_OnGyroscopeDelegate_TypeDefinitionIndex = 7795;
 
 	class SDKDelegate_OnGyroscopeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CloudGame::MailBox::GameControl::Gyroscope a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

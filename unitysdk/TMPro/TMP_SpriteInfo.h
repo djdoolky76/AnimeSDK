@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteInfo_TypeDefinitionIndex = 43493;
+	inline static constexpr unsigned int TMP_SpriteInfo_TypeDefinitionIndex = 44685;
 
 	struct alignas(4) TMP_SpriteInfo
 	{

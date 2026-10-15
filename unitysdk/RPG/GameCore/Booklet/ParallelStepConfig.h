@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Booklet/StepConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore::Booklet { class ParallelStepConfig; }
+namespace RPG::GameCore::Booklet { class StepConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_METHOD_3_4D09F7921760BD94_OFFSET UNITYSDK_OFFSET(0x1B312390)
-#define RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_METHOD_3_AFC466BD867B54C4_OFFSET UNITYSDK_OFFSET(0x1B312330)
-#define RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B312380)
+#define RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4470C0)
+#define RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4470D0)
+#define RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D447070)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int ParallelStepConfig_TypeDefinitionIndex = 24695;
+	inline static constexpr unsigned int ParallelStepConfig_TypeDefinitionIndex = 24977;
 
 	class ParallelStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::Booklet::StepConfig*>* Children; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AFC466BD867B54C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ParallelStepConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::Booklet::ParallelStepConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::ParallelStepConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_METHOD_3_AFC466BD867B54C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Booklet::ParallelStepConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4D09F7921760BD94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ParallelStepConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::Booklet::ParallelStepConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::ParallelStepConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_METHOD_3_4D09F7921760BD94_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Booklet::ParallelStepConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PARALLELSTEPCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_DirectorUpdateAnimationEnd_TypeDefinitionIndex = 4614;
+	inline static constexpr unsigned int PreLateUpdate_DirectorUpdateAnimationEnd_TypeDefinitionIndex = 4618;
 
-	struct alignas(1) PreLateUpdate_DirectorUpdateAnimationEnd
+	struct alignas(4) PreLateUpdate_DirectorUpdateAnimationEnd
 	{
 	};
 }

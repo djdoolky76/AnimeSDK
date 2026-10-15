@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_CHECKCONFIGLEGAL_OFFSET UNITYSDK_OFFSET(0x1C299410)
-#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_GETSPPOINTNODEBYINDEX_OFFSET UNITYSDK_OFFSET(0x1C2994A0)
-#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_ISULTRASKILLSPECIALSTATE_OFFSET UNITYSDK_OFFSET(0x1C2996B0)
-#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C299860)
-#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2998B0)
+#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_CHECKCONFIGLEGAL_OFFSET UNITYSDK_OFFSET(0xD875DA0)
+#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xD876250)
+#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_GETSPPOINTNODEBYINDEX_OFFSET UNITYSDK_OFFSET(0xD875E30)
+#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_ISULTRASKILLSPECIALSTATE_OFFSET UNITYSDK_OFFSET(0xD876050)
+#define RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD876200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUltraSkillCyrenePanelHelper_TypeDefinitionIndex = 71854;
+	inline static constexpr unsigned int MonoUltraSkillCyrenePanelHelper_TypeDefinitionIndex = 71919;
 
 	class MonoUltraSkillCyrenePanelHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 _INNER_POINT_NUM = 0xC; // 0x0
-		// static const ::System::Int32 _OUTER_POINT_NUM = 0xC; // 0x0
-		// static const ::System::Int32 _POINT_NUM = 0x18; // 0x0
 		::Il2CppArray<::UnityEngine::Transform*>* NormalChargeOrder; // 0x18
 		::Il2CppArray<::UnityEngine::Transform*>* SpecialInnerChargeOrder; // 0x20
 		::Il2CppArray<::UnityEngine::Transform*>* SpecialOutterChargeOrder; // 0x28
-
+		// static const ::System::Object _INNER_POINT_NUM; // 0x0
+		// static const ::System::Object _OUTER_POINT_NUM; // 0x0
+		// static const ::System::Object _POINT_NUM; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CheckConfigLegal()
@@ -48,5 +46,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOULTRASKILLCYRENEPANELHELPER_ONENABLE_OFFSET))(this);
 		}
+
 	};
 }

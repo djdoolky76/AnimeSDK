@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1C5BAE10)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1C5BADB0)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C5BAD70)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BAE60)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD27E830)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD27E7E0)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD27E780)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD27E740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageChangeCollector_TypeDefinitionIndex = 64627;
+	inline static constexpr unsigned int GridFightStageChangeCollector_TypeDefinitionIndex = 64567;
 
 	class GridFightStageChangeCollector : public ::System::Object
 	{
 	public:
 		::System::Boolean IsDirty; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,53 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_0_16E4307DCC419505_1028_ERenderInstanceCollectMode.h"
+#include "unitysdk/IKOKHPCKLAN_ERenderInstanceCollectMode.h"
 #include "unitysdk/RPG/Client/ComicDialogEmitterBehavior_FadeMode.h"
 #include "unitysdk/RPG/Client/ComicDialogEmitterBehavior_TextDirection.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-#include "unitysdk/Struct_2_B3CFB45E7E960210.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-namespace RPG::Client { class ComicDialogEmitterBehavior; }
-namespace RPG::Client { class ComicDialogEmitterBehavior_DialogData; }
+#include "unitysdk/PNJJDIDBMNM.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x1A279F00)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x1A27DD60)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_AUDIOPLAYERGO_OFFSET UNITYSDK_OFFSET(0x1A27DD40)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_IFSHOWALLDIALOG_OFFSET UNITYSDK_OFFSET(0x1A27DD20)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0x1A27DE10)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERINSTANCECOLLECTMODE_OFFSET UNITYSDK_OFFSET(0x1A27E120)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_4967C5B92C502D51_1_OFFSET UNITYSDK_OFFSET(0x1A27DD00)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_4967C5B92C502D51_OFFSET UNITYSDK_OFFSET(0x1A27DCE0)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_53DEB092240C71C8_1_OFFSET UNITYSDK_OFFSET(0x1A27DD10)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_53DEB092240C71C8_OFFSET UNITYSDK_OFFSET(0x1A27DCF0)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_SET_AUDIOPLAYERGO_OFFSET UNITYSDK_OFFSET(0x1A27DD50)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_SET_IFSHOWALLDIALOG_OFFSET UNITYSDK_OFFSET(0x1A27DD30)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A27E1C0)
-#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A27E130)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB9ACB0)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9AC20)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xCB969F0)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xCB9A850)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_AUDIOPLAYERGO_OFFSET UNITYSDK_OFFSET(0xCB9A830)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_IFSHOWALLDIALOG_OFFSET UNITYSDK_OFFSET(0xCB9A810)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0xCB9A900)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERINSTANCECOLLECTMODE_OFFSET UNITYSDK_OFFSET(0xCB9AC10)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_HADNEGJDJGJ_OFFSET UNITYSDK_OFFSET(0xCB9A800)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_ICFAPKAGOMD_OFFSET UNITYSDK_OFFSET(0xCB9A7E0)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_MNALCCPDJIL_OFFSET UNITYSDK_OFFSET(0xCB9A7D0)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_NIKCDAFCJMJ_OFFSET UNITYSDK_OFFSET(0xCB9A7F0)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_SET_AUDIOPLAYERGO_OFFSET UNITYSDK_OFFSET(0xCB9A840)
+#define RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_SET_IFSHOWALLDIALOG_OFFSET UNITYSDK_OFFSET(0xCB9A820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComicDialogEmitterMonoPlugin_TypeDefinitionIndex = 70844;
+	inline static constexpr unsigned int ComicDialogEmitterMonoPlugin_TypeDefinitionIndex = 70882;
 
-	class ComicDialogEmitterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ComicDialogEmitterBehavior*>
+	class ComicDialogEmitterMonoPlugin
 	{
 	public:
-		static ::System::String** StaticGet_FADILKPGCEM()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ComicDialogEmitterMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x56050);
-		}
 		::UnityEngine::Mesh* PatternMesh; // 0x30
 		::UnityEngine::Material* BackMaterial; // 0x38
 		::UnityEngine::Material* TextMaterial; // 0x40
 		::System::String* FontAssetPath; // 0x48
 		::System::Int32 SelectedIndex; // 0x50
-		::Il2CppArray<::RPG::Client::ComicDialogEmitterBehavior_DialogData*>* DialogDatas; // 0x58
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* DialogDatas; // 0x58
 		::RPG::Client::ComicDialogEmitterBehavior_TextDirection TextDirection; // 0x60
 		::System::Single TextSize; // 0x64
 		::UnityEngine::Vector2 TextPadding; // 0x68
@@ -63,43 +57,50 @@ namespace RPG::Client
 		::System::UInt32 FadeInMode; // 0xAC
 		::System::UInt32 FadeOutMode; // 0xB0
 		::System::Boolean IfEmitByDist; // 0xB4
+		::System::Byte _padding1[0x3];
 		::System::Single EmitDist; // 0xB8
 		::System::Boolean IfUseFrustumCulling; // 0xBC
 		::System::Boolean IfUseAudio; // 0xBD
 		::System::Boolean IfSetAudioPerDialog; // 0xBE
+		::System::Byte _padding2[0x1];
 		::System::String* AudioEventName; // 0xC0
 		::System::Single AudioDelay; // 0xC8
 		::System::Boolean _IfShowAllDialog_k__BackingField; // 0xCC
+		::System::Byte _padding3[0x3];
 		::UnityEngine::GameObject* _AudioPlayerGO_k__BackingField; // 0xD0
+		static ::System::String** StaticGet_FADILKPGCEM()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "ComicDialogEmitterMonoPlugin")->GetStaticField(0x17C00);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_CCTOR_OFFSET))();
 		}
 
-		::RPG::Client::ComicDialogEmitterBehavior_FadeMode Method_7_4967C5B92C502D51()
+		::RPG::Client::ComicDialogEmitterBehavior_FadeMode MNALCCPDJIL()
 		{
-			return ((::RPG::Client::ComicDialogEmitterBehavior_FadeMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_4967C5B92C502D51_OFFSET))(this);
+			return ((::RPG::Client::ComicDialogEmitterBehavior_FadeMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_MNALCCPDJIL_OFFSET))(this);
 		}
 
-		::System::Void Method_7_53DEB092240C71C8(::RPG::Client::ComicDialogEmitterBehavior_FadeMode a1)
+		::System::Void ICFAPKAGOMD(::RPG::Client::ComicDialogEmitterBehavior_FadeMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComicDialogEmitterBehavior_FadeMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_53DEB092240C71C8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComicDialogEmitterBehavior_FadeMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_ICFAPKAGOMD_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ComicDialogEmitterBehavior_FadeMode Method_7_4967C5B92C502D51_1()
+		::RPG::Client::ComicDialogEmitterBehavior_FadeMode NIKCDAFCJMJ()
 		{
-			return ((::RPG::Client::ComicDialogEmitterBehavior_FadeMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_4967C5B92C502D51_1_OFFSET))(this);
+			return ((::RPG::Client::ComicDialogEmitterBehavior_FadeMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_NIKCDAFCJMJ_OFFSET))(this);
 		}
 
-		::System::Void Method_7_53DEB092240C71C8_1(::RPG::Client::ComicDialogEmitterBehavior_FadeMode a1)
+		::System::Void HADNEGJDJGJ(::RPG::Client::ComicDialogEmitterBehavior_FadeMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComicDialogEmitterBehavior_FadeMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_METHOD_7_53DEB092240C71C8_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComicDialogEmitterBehavior_FadeMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_HADNEGJDJGJ_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IfShowAllDialog()
@@ -132,14 +133,15 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_ARTBOUND_OFFSET))(this);
 		}
 
-		::Struct_2_B3CFB45E7E960210 get_RenderBudgetData()
+		::PNJJDIDBMNM get_RenderBudgetData()
 		{
-			return ((::Struct_2_B3CFB45E7E960210(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET))(this);
+			return ((::PNJJDIDBMNM(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_1028_ERenderInstanceCollectMode get_RenderInstanceCollectMode()
+		::IKOKHPCKLAN_ERenderInstanceCollectMode get_RenderInstanceCollectMode()
 		{
-			return ((::Class_0_16E4307DCC419505_1028_ERenderInstanceCollectMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERINSTANCECOLLECTMODE_OFFSET))(this);
+			return ((::IKOKHPCKLAN_ERenderInstanceCollectMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDIALOGEMITTERMONOPLUGIN_GET_RENDERINSTANCECOLLECTMODE_OFFSET))(this);
 		}
+
 	};
 }

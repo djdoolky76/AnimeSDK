@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class FindChestData; }
-
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChestIcon_TypeDefinitionIndex = 62978;
+	inline static constexpr unsigned int IChestIcon_TypeDefinitionIndex = 62911;
 
 	class IChestIcon
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/PlatformID.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Version; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_OPERATINGSYSTEM_CLONE_OFFSET UNITYSDK_OFFSET(0x1CC0BDF0)
-#define SYSTEM_OPERATINGSYSTEM_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1CC0BE30)
-#define SYSTEM_OPERATINGSYSTEM_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1CC0BDC0)
-#define SYSTEM_OPERATINGSYSTEM_GET_SERVICEPACK_OFFSET UNITYSDK_OFFSET(0x1CC0BDE0)
-#define SYSTEM_OPERATINGSYSTEM_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1CC0BDD0)
-#define SYSTEM_OPERATINGSYSTEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CC0BFA0)
-#define SYSTEM_OPERATINGSYSTEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CC0BC60)
-#define SYSTEM_OPERATINGSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0BB80)
+#define SYSTEM_OPERATINGSYSTEM_CLONE_OFFSET UNITYSDK_OFFSET(0x1C25FE50)
+#define SYSTEM_OPERATINGSYSTEM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C25FCC0)
+#define SYSTEM_OPERATINGSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25FBE0)
+#define SYSTEM_OPERATINGSYSTEM_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C25FE90)
+#define SYSTEM_OPERATINGSYSTEM_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1C25FE20)
+#define SYSTEM_OPERATINGSYSTEM_GET_SERVICEPACK_OFFSET UNITYSDK_OFFSET(0x1C25FE40)
+#define SYSTEM_OPERATINGSYSTEM_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1C25FE30)
+#define SYSTEM_OPERATINGSYSTEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C260000)
 
 namespace System
 {
@@ -24,18 +24,17 @@ namespace System
 	class OperatingSystem : public ::System::Object
 	{
 	public:
-		::System::String* _servicePack; // 0x10
-		::System::Version* _version; // 0x18
+		::System::Version* _version; // 0x10
+		::System::String* _servicePack; // 0x18
 		::System::PlatformID _platform; // 0x20
-
 		::System::Void _ctor(::System::PlatformID a1, ::System::Version* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::PlatformID, ::System::Version*))((::PBYTE)hIl2Cpp + SYSTEM_OPERATINGSYSTEM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::PlatformID, ::System::Version*))((::PBYTE)hIl2Cpp + SYSTEM_OPERATINGSYSTEM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_OPERATINGSYSTEM__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_OPERATINGSYSTEM_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::PlatformID get_Platform()
@@ -67,5 +66,6 @@ namespace System
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OPERATINGSYSTEM_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

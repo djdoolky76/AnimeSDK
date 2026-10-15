@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_MESHLINEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x18580D70)
-#define RPG_CUSTOMRP_MESHLINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18580DF0)
+#define RPG_CUSTOMRP_MESHLINEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC096E0)
+#define RPG_CUSTOMRP_MESHLINEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1CC09660)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MeshLineData_TypeDefinitionIndex = 37241;
+	inline static constexpr unsigned int MeshLineData_TypeDefinitionIndex = 37934;
 
 	class MeshLineData : public ::System::Object
 	{
@@ -23,15 +22,15 @@ namespace RPG::CustomRP
 		::System::Int32 instanceCount; // 0x28
 		::UnityEngine::Bounds aabb; // 0x2C
 		::System::Int32 meshOffset; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESHLINEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESHLINEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESHLINEDATA_RESET_OFFSET))(this);
 		}
+
 	};
 }

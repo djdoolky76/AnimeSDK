@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_IKHITREACTIONSPINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1982EF70)
+#define RPG_CLIENT_IKHITREACTIONSPINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD3327E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 68423;
+	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 68456;
 
 	class IKHitReactionSpine : public ::System::Object
 	{
@@ -20,10 +19,10 @@ namespace RPG::Client
 		::System::Single ExtendLength; // 0x2C
 		::System::Single UnitLengthMass; // 0x30
 		::System::Single Stiffness; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IKHITREACTIONSPINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IKHITREACTIONSPINE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Serialization/XmlTypeMapMemberExpandable.h"
-
 namespace System::Xml::Serialization { class ListMap; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_GET_LISTMAP_OFFSET UNITYSDK_OFFSET(0x17C6F3A0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_SET_LISTMAP_OFFSET UNITYSDK_OFFSET(0x17C6F3B0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x17C44B10)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE3870)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_GET_LISTMAP_OFFSET UNITYSDK_OFFSET(0x1EF0E0A0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_SET_LISTMAP_OFFSET UNITYSDK_OFFSET(0x1EF0E0B0)
 
 namespace System::Xml::Serialization
 {
@@ -16,10 +15,9 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::Xml::Serialization::ListMap* _listMap; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Serialization::ListMap* get_ListMap()
@@ -31,5 +29,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ListMap*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST_SET_LISTMAP_OFFSET))(this, a1);
 		}
+
 	};
 }

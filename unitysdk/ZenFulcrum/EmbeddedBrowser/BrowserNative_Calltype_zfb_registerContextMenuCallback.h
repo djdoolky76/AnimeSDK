@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ShowContextMenuFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1EF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1F50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1EE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E1E70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F624B10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F624A90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F624B70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F624B00)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerContextMenuCallback_TypeDefinitionIndex = 38157;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerContextMenuCallback_TypeDefinitionIndex = 39454;
 
 	class BrowserNative_Calltype_zfb_registerContextMenuCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ShowContextMenuFunc* a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERCONTEXTMENUCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

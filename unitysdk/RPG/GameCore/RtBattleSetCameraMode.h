@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RtBattleCameraMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtBattleSetCameraMode; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RTBATTLESETCAMERAMODE_METHOD_3_39B45A0DEA957682_OFFSET UNITYSDK_OFFSET(0x1CCD8240)
-#define RPG_GAMECORE_RTBATTLESETCAMERAMODE_METHOD_3_F49094647AD91B79_OFFSET UNITYSDK_OFFSET(0x1CCD8200)
-#define RPG_GAMECORE_RTBATTLESETCAMERAMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD8230)
+#define RPG_GAMECORE_RTBATTLESETCAMERAMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA20BB0)
+#define RPG_GAMECORE_RTBATTLESETCAMERAMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA20BC0)
+#define RPG_GAMECORE_RTBATTLESETCAMERAMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA20B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleSetCameraMode_TypeDefinitionIndex = 23818;
+	inline static constexpr unsigned int RtBattleSetCameraMode_TypeDefinitionIndex = 24093;
 
 	class RtBattleSetCameraMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::RtBattleCameraMode CameraMode; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESETCAMERAMODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESETCAMERAMODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F49094647AD91B79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleSetCameraMode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleSetCameraMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleSetCameraMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESETCAMERAMODE_METHOD_3_F49094647AD91B79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleSetCameraMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESETCAMERAMODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_39B45A0DEA957682(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleSetCameraMode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleSetCameraMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleSetCameraMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESETCAMERAMODE_METHOD_3_39B45A0DEA957682_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleSetCameraMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESETCAMERAMODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutUtility___c__DisplayClass16_0_TypeDefinitionIndex = 6780;
+	inline static constexpr unsigned int LayoutUtility___c__DisplayClass16_0_TypeDefinitionIndex = 6789;
 
 	struct alignas(8) LayoutUtility___c__DisplayClass16_0
 	{

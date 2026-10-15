@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ServerTriggerMazePlaneEventDrop; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_METHOD_3_6234581BC9113B76_OFFSET UNITYSDK_OFFSET(0x1DB50630)
-#define RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_METHOD_3_D8D009918D97321A_OFFSET UNITYSDK_OFFSET(0x1DB505E0)
-#define RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB50620)
+#define RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA646E0)
+#define RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA646F0)
+#define RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA646A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerTriggerMazePlaneEventDrop_TypeDefinitionIndex = 22067;
+	inline static constexpr unsigned int ServerTriggerMazePlaneEventDrop_TypeDefinitionIndex = 22315;
 
 	class ServerTriggerMazePlaneEventDrop : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D8D009918D97321A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_METHOD_3_D8D009918D97321A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6234581BC9113B76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_METHOD_3_6234581BC9113B76_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ServerTriggerMazePlaneEventDrop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERTRIGGERMAZEPLANEEVENTDROP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

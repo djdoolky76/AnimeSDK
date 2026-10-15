@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
-#define MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3AA64E0)
-#define MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19050)
-#define MONO_RUNTIMEPROPERTYHANDLE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define MONO_RUNTIMEPROPERTYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x16050)
+#define MONO_RUNTIMEPROPERTYHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C14E00)
+#define MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
+#define MONO_RUNTIMEPROPERTYHANDLE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D30)
 
 namespace Mono
 {
 	inline static constexpr unsigned int RuntimePropertyHandle_TypeDefinitionIndex = 9;
 
-	struct alignas(8) RuntimePropertyHandle
+	struct alignas(4) RuntimePropertyHandle
 	{
 		::System::IntPtr value; // 0x10
-
 		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_Value()
@@ -36,5 +33,6 @@ namespace Mono
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

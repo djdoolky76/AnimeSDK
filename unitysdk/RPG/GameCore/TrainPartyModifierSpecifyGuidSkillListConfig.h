@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrainPartyModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyModifierSpecifyGuidSkillListConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_METHOD_3_19D0BFD5572FB285_OFFSET UNITYSDK_OFFSET(0x1D5370C0)
-#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_METHOD_3_B726BCBCA43B3C09_OFFSET UNITYSDK_OFFSET(0x1D536D40)
-#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D536D30)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC04EA0)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC04EB0)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC05230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyModifierSpecifyGuidSkillListConfig_TypeDefinitionIndex = 17903;
+	inline static constexpr unsigned int TrainPartyModifierSpecifyGuidSkillListConfig_TypeDefinitionIndex = 18115;
 
 	class TrainPartyModifierSpecifyGuidSkillListConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_19D0BFD5572FB285(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_METHOD_3_19D0BFD5572FB285_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B726BCBCA43B3C09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_METHOD_3_B726BCBCA43B3C09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyModifierSpecifyGuidSkillListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERSPECIFYGUIDSKILLLISTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

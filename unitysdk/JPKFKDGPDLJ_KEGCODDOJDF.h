@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/KPEPGHLKNFG.h"
+#include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
+#include "unitysdk/System/Object.h"
+class KAKADGHNMFK;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define JPKFKDGPDLJ_KEGCODDOJDF_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CB79F60)
+#define JPKFKDGPDLJ_KEGCODDOJDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB79EE0)
+
+inline static constexpr unsigned int JPKFKDGPDLJ_KEGCODDOJDF_TypeDefinitionIndex = 41947;
+
+	class JPKFKDGPDLJ_KEGCODDOJDF : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::UInt32>* GEIAMAJHJOM; // 0x10
+		::System::Int32 LFPBDLMKCMA; // 0x18
+		::System::Int32 POJIJMMGAFB; // 0x1C
+		::KPEPGHLKNFG FFEPLIHOFLA; // 0x20
+		::System::Int32 KOLODCBCIBM; // 0x24
+		::System::Int32 AHGIENEMKFI; // 0x28
+		::System::Int32 KKOHJJCHHCI; // 0x2C
+		::System::Int32 JJNEIJNMKJG; // 0x30
+		::System::Boolean ELGNOMOFHAG; // 0x34
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::ChimeraDuelTeamType JCDIEKGKCPP; // 0x38
+		::System::Int32 IPIFLCJBDEE; // 0x3C
+		::System::UInt32 PJNNPOKJEFD; // 0x40
+		::System::Int32 ABHHIEEBJLB; // 0x44
+		::System::Int32 OICNICJICFN; // 0x48
+		::System::UInt32 PHFMCACHFIJ; // 0x4C
+		::System::UInt32 PMIEAEGJNMJ; // 0x50
+		::System::UInt32 AAGKEBFHLMC; // 0x54
+		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::Collections::Generic::List_1<::System::UInt32>* a6, ::System::Boolean a7, ::System::Int32 a8, ::RPG::GameCore::ChimeraDuelTeamType a9, ::System::Int32 a10, ::System::Int32 a11)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_KEGCODDOJDF_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+		}
+
+		::System::Void _ctor_1(::KAKADGHNMFK* a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Boolean a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::KAKADGHNMFK*, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_KEGCODDOJDF_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+	};

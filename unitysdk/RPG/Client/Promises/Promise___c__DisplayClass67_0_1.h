@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass67_0_1_TypeDefinitionIndex = 9869;
+	inline static constexpr unsigned int Promise___c__DisplayClass67_0_1_TypeDefinitionIndex = 9927;
 
-	template <typename ConvertedT>
+	template <typename T>
 	class Promise___c__DisplayClass67_0_1 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::Collections::Generic::IEnumerable_1<::RPG::Client::Promises::IPromise_1<ConvertedT>*>*>* chain; // 0x0
+		::System::Func_1<::System::Collections::Generic::IEnumerable_1<::RPG::Client::Promises::IPromise_1<::System::Object*>*>*>* chain; // 0x0
 	};
 }

@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C5A610)
-#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_CONCATNODELIMITER_OFFSET UNITYSDK_OFFSET(0x3C5A640)
-#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_GETRESULT_OFFSET UNITYSDK_OFFSET(0x3C5A630)
-#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x3C5A620)
+#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C5A490)
+#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_CONCATNODELIMITER_OFFSET UNITYSDK_OFFSET(0x3C5A4B0)
+#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_GETRESULT_OFFSET UNITYSDK_OFFSET(0x3C5A4A0)
+#define SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x2F9E470)
 
 namespace System::Xml::Xsl::Runtime
 {
@@ -23,7 +21,6 @@ namespace System::Xml::Xsl::Runtime
 		::System::String* delimiter; // 0x30
 		::System::Collections::Generic::List_1<::System::String*>* strList; // 0x38
 		::System::Int32 idxStr; // 0x40
-
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_CLEAR_OFFSET))(this);
@@ -43,5 +40,6 @@ namespace System::Xml::Xsl::Runtime
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XSL_RUNTIME_STRINGCONCAT_CONCATNODELIMITER_OFFSET))(this, a1);
 		}
+
 	};
 }

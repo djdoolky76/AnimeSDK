@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_A33B5D17A96691F2;
+class JOGAOGMJHCK;
+namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_ADDTEXTITEM_OFFSET UNITYSDK_OFFSET(0x1BD6DDF0)
-#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1BD6DCE0)
-#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6DDA0)
+#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_ADDTEXTITEM_OFFSET UNITYSDK_OFFSET(0xC859FE0)
+#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_CREATE_OFFSET UNITYSDK_OFFSET(0xC859ED0)
+#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC859F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescItemFitterParamCollector_TypeDefinitionIndex = 71828;
+	inline static constexpr unsigned int BattleSkillDescItemFitterParamCollector_TypeDefinitionIndex = 71893;
 
 	class BattleSkillDescItemFitterParamCollector : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* FitterTransform; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_A33B5D17A96691F2*>* TextItemList; // 0x18
-
+		::System::Collections::Generic::List_1<::JOGAOGMJHCK*>* TextItemList; // 0x10
+		::UnityEngine::RectTransform* FitterTransform; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::BattleSkillDescItemFitterParamCollector* Create(::UnityEngine::RectTransform* a1)
@@ -35,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_ADDTEXTITEM_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

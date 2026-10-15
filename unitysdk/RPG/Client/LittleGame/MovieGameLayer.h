@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D5F90)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER_CTOR_OFFSET UNITYSDK_OFFSET(0xD46EE90)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 76133;
+	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 76610;
 
 	class MovieGameLayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Int32 Layer; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* StartPos; // 0x20
 		::UnityEngine::Transform* EndPos; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

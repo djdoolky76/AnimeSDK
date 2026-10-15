@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ArgumentException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C9B2330)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C9B20F0)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GET_RANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C9B1E30)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C9B1F40)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C9B2000)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C9B2070)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1C9B2470)
-#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B1E80)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C073490)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C073550)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C0735C0)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1C0739C0)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0733D0)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C073880)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C073640)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GET_RANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C073380)
 
 namespace System
 {
@@ -23,35 +22,35 @@ namespace System
 	class ArgumentOutOfRangeException : public ::System::ArgumentException
 	{
 	public:
+		::System::Object* m_actualValue; // 0x90
 		static ::System::String** StaticGet__rangeMessage()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ArgumentOutOfRangeException_TypeDefinitionIndex)->GetStaticField(0x7920);
+			return (::System::String**)UnitySDK::FromName("System", "ArgumentOutOfRangeException")->GetStaticField(0xEF70);
 		}
-		::System::Object* m_actualValue; // 0x90
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::String* a1, ::System::Object* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_3_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_4(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_CTOR_4_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::String* get_RangeMessage()
@@ -68,5 +67,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

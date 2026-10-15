@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeProxy.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeCastInput_TypeDefinitionIndex = 36075;
+	inline static constexpr unsigned int B2ShapeCastInput_TypeDefinitionIndex = 36762;
 
 	struct alignas(4) B2ShapeCastInput
 	{

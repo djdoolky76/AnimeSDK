@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StartAim; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTAIM_METHOD_3_437D51C179124BDD_OFFSET UNITYSDK_OFFSET(0x1CAF3CC0)
-#define RPG_GAMECORE_STARTAIM_METHOD_3_DD0E6FB00E9A9041_OFFSET UNITYSDK_OFFSET(0x1CAF3D40)
-#define RPG_GAMECORE_STARTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF3D10)
+#define RPG_GAMECORE_STARTAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEE000)
+#define RPG_GAMECORE_STARTAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAEE030)
+#define RPG_GAMECORE_STARTAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEDFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22156;
+	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22405;
 
 	class StartAim : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,22 +28,23 @@ namespace RPG::GameCore
 		::System::Single HorizontalAlpha; // 0x44
 		::System::Boolean IsEffect; // 0x48
 		::System::Boolean TraceTarget; // 0x49
+		::System::Byte _padding0[0x6];
 		::System::String* EffectPath; // 0x50
 		::RPG::MVector2 LimitTargetRange; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_437D51C179124BDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartAim*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_METHOD_3_437D51C179124BDD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DD0E6FB00E9A9041(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartAim* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_METHOD_3_DD0E6FB00E9A9041_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

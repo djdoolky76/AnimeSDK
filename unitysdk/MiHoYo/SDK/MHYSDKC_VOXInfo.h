@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXInfo_TypeDefinitionIndex = 46691;
+	inline static constexpr unsigned int MHYSDKC_VOXInfo_TypeDefinitionIndex = 46242;
 
 	class MHYSDKC_VOXInfo : public ::System::Object
 	{
@@ -21,7 +19,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* POS_X; // 0x0
 		// static const ::System::String* POS_Y; // 0x0
 		// static const ::System::String* POS_Z; // 0x0
-		// static const ::System::Int32 MAX_RECV_RANGE = 0x7FFFFFFF; // 0x0
+		// static const ::System::Object MAX_RECV_RANGE; // 0x0
 		// static const ::System::String* RET; // 0x0
 		// static const ::System::String* MESSAGE; // 0x0
 		// static const ::System::String* STREAM_LEVEL_LIST; // 0x0
@@ -37,6 +35,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* ENABLE_DDC; // 0x0
 		// static const ::System::String* ENABLE_DOUBLE_ASYNC; // 0x0
 		// static const ::System::String* ENABLE_NONSTREAM; // 0x0
+		// static const ::System::String* ENABLE_AUTO_LANG_DETECT; // 0x0
 		// static const ::System::String* LAST_ASR_RESULT; // 0x0
 		// static const ::System::String* RESULT; // 0x0
 		// static const ::System::String* LOG_ID; // 0x0

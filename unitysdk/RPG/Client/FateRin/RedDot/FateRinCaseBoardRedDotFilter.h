@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_1350;
+class PEAFBFCPFCC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_GETTEAMDETAILSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1B5AF720)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_ISMAINPAGENEW_OFFSET UNITYSDK_OFFSET(0x1B5AF770)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AF6D0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA56D0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_GETTEAMDETAILSUBKEYS_OFFSET UNITYSDK_OFFSET(0xCFA5720)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_ISMAINPAGENEW_OFFSET UNITYSDK_OFFSET(0xCFA5770)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinCaseBoardRedDotFilter_TypeDefinitionIndex = 79412;
+	inline static constexpr unsigned int FateRinCaseBoardRedDotFilter_TypeDefinitionIndex = 80736;
 
 	class FateRinCaseBoardRedDotFilter : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_1350* _RedDotService; // 0x10
-
-		::System::Void _ctor(::Class_0_16E4307DCC419505_1350* a1)
+		::PEAFBFCPFCC* _RedDotService; // 0x10
+		::System::Void _ctor(::PEAFBFCPFCC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1350*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PEAFBFCPFCC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetTeamDetailSubKeys()
@@ -32,5 +30,6 @@ namespace RPG::Client::FateRin::RedDot
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINCASEBOARDREDDOTFILTER_ISMAINPAGENEW_OFFSET))(this);
 		}
+
 	};
 }

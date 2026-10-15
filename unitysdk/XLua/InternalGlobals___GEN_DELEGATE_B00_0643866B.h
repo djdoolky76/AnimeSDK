@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IRogueTournDifficulty; }
 namespace RPG::Client { class IRogueTournDifficultyWithDifficultyComp; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12B20420)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12B20450)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B20410)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B__CTOR_OFFSET UNITYSDK_OFFSET(0x12B20320)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA2A10)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA2910)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA2A40)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA2A00)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_0643866B_TypeDefinitionIndex = 50481;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_0643866B_TypeDefinitionIndex = 50115;
 
 	class InternalGlobals___GEN_DELEGATE_B00_0643866B : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::IRogueTournDifficultyWithDifficultyComp* Invoke(::RPG::Client::IRogueTournDifficulty* a1)
@@ -39,5 +38,6 @@ namespace XLua
 		{
 			return ((::RPG::Client::IRogueTournDifficultyWithDifficultyComp*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_0643866B_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

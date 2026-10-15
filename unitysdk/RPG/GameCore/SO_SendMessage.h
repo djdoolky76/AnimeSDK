@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SOTaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SO_SendMessage; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_DB61BFF33571926C_OFFSET UNITYSDK_OFFSET(0x1DB2FDA0)
-#define RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_FE35FABD832CA2A7_OFFSET UNITYSDK_OFFSET(0x1DB2F760)
-#define RPG_GAMECORE_SO_SENDMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2F750)
+#define RPG_GAMECORE_SO_SENDMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA42EB0)
+#define RPG_GAMECORE_SO_SENDMESSAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA42EC0)
+#define RPG_GAMECORE_SO_SENDMESSAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA43500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 19832;
+	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 20066;
 
 	class SO_SendMessage : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:
 		::System::String* Message; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DB61BFF33571926C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_SendMessage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SO_SendMessage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_SendMessage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_DB61BFF33571926C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SO_SendMessage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FE35FABD832CA2A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_SendMessage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SO_SendMessage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_SendMessage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_FE35FABD832CA2A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SO_SendMessage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

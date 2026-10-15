@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class Object; }
 namespace UnityEngine::Pooled { template <typename T> class PooledListForStruct_1; }
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int PooledListForStruct_1_Enumerator_TypeDefinitionIndex = 4530;
+	inline static constexpr unsigned int PooledListForStruct_1_Enumerator_TypeDefinitionIndex = 4534;
 
 	template <typename T>
-	struct PooledListForStruct_1_Enumerator
+	struct alignas(8) PooledListForStruct_1_Enumerator
 	{
 		::UnityEngine::Pooled::PooledListForStruct_1<T>* _list; // 0x0
 		::System::Int32 _index; // 0x0

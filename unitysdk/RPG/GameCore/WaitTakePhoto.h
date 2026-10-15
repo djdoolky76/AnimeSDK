@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitTakePhoto; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITTAKEPHOTO_METHOD_3_67B3EB7F1BB7E8C5_OFFSET UNITYSDK_OFFSET(0x1DEC2CE0)
-#define RPG_GAMECORE_WAITTAKEPHOTO_METHOD_3_A6B72822741B4A12_OFFSET UNITYSDK_OFFSET(0x1DEC2C90)
-#define RPG_GAMECORE_WAITTAKEPHOTO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC2CD0)
+#define RPG_GAMECORE_WAITTAKEPHOTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC75520)
+#define RPG_GAMECORE_WAITTAKEPHOTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC75530)
+#define RPG_GAMECORE_WAITTAKEPHOTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC754E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTakePhoto_TypeDefinitionIndex = 21923;
+	inline static constexpr unsigned int WaitTakePhoto_TypeDefinitionIndex = 22171;
 
 	class WaitTakePhoto : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnShot; // 0x18
 		::System::Boolean IsLoop; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTAKEPHOTO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTAKEPHOTO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A6B72822741B4A12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTakePhoto*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitTakePhoto* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTakePhoto*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTAKEPHOTO_METHOD_3_A6B72822741B4A12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitTakePhoto*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTAKEPHOTO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_67B3EB7F1BB7E8C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTakePhoto* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitTakePhoto* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTakePhoto*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTAKEPHOTO_METHOD_3_67B3EB7F1BB7E8C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitTakePhoto*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTAKEPHOTO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

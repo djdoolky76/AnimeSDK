@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_Gradient; }
 namespace UnityEngine { class Gradient; }
 
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1EEEB560)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISNULL_OFFSET UNITYSDK_OFFSET(0x1EEEB550)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEB540)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9906B0)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9906D0)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9906C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Gradient_TypeDefinitionIndex = 39448;
+	inline static constexpr unsigned int Test_Gradient_TypeDefinitionIndex = 40745;
 
 	class Test_Gradient : public ::System::Object
 	{
 	public:
 		::UnityEngine::Gradient* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Gradient* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_GRADIENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_GRADIENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +30,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_Gradient*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_GRADIENT_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

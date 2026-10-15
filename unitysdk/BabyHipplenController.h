@@ -3,7 +3,6 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class FABRIK; }
 namespace RPG::Client { class LookAtIK; }
 namespace System { class String; }
@@ -11,166 +10,169 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define BABYHIPPLENCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A77C140)
-#define BABYHIPPLENCONTROLLER_ENABLENECKIK_OFFSET UNITYSDK_OFFSET(0x1A77C0F0)
-#define BABYHIPPLENCONTROLLER_GETHEADTRANS_OFFSET UNITYSDK_OFFSET(0x1A77BBE0)
-#define BABYHIPPLENCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A77C450)
-#define BABYHIPPLENCONTROLLER_METHOD_5_0BA114B592B3A582_OFFSET UNITYSDK_OFFSET(0x1A77D0F0)
-#define BABYHIPPLENCONTROLLER_METHOD_5_491027A35182E1D6_OFFSET UNITYSDK_OFFSET(0x1A77C030)
-#define BABYHIPPLENCONTROLLER_METHOD_5_627C7524E98F4AC5_1_OFFSET UNITYSDK_OFFSET(0x1A77BF90)
-#define BABYHIPPLENCONTROLLER_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x1A77BF10)
-#define BABYHIPPLENCONTROLLER_METHOD_5_6A6A96FBD090C99D_OFFSET UNITYSDK_OFFSET(0x1A77C580)
-#define BABYHIPPLENCONTROLLER_METHOD_5_DE4BD3007909A465_OFFSET UNITYSDK_OFFSET(0x1A77E240)
-#define BABYHIPPLENCONTROLLER_METHOD_5_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0x1A77DE80)
-#define BABYHIPPLENCONTROLLER_METHOD_5_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0x1A77C510)
-#define BABYHIPPLENCONTROLLER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A77E310)
-#define BABYHIPPLENCONTROLLER_PLAYANIMSEQ_OFFSET UNITYSDK_OFFSET(0x1A77BD40)
-#define BABYHIPPLENCONTROLLER_RISEHEADFORSECONDS_OFFSET UNITYSDK_OFFSET(0x1A77BCA0)
-#define BABYHIPPLENCONTROLLER_SETATTENTIONTRANS_OFFSET UNITYSDK_OFFSET(0x1A77BC20)
-#define BABYHIPPLENCONTROLLER_STARTPETTING_OFFSET UNITYSDK_OFFSET(0x1A77E400)
-#define BABYHIPPLENCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1A77C220)
-#define BABYHIPPLENCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A77C380)
-#define BABYHIPPLENCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A77E820)
+#define BABYHIPPLENCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1AF590)
+#define BABYHIPPLENCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B1C70)
+#define BABYHIPPLENCONTROLLER_DOAIADLNJFE_OFFSET UNITYSDK_OFFSET(0xC1B0540)
+#define BABYHIPPLENCONTROLLER_ENABLENECKIK_OFFSET UNITYSDK_OFFSET(0xC1AF540)
+#define BABYHIPPLENCONTROLLER_FDHNENGOLKK_OFFSET UNITYSDK_OFFSET(0xC1AF360)
+#define BABYHIPPLENCONTROLLER_FEFBNIIHCGJ_OFFSET UNITYSDK_OFFSET(0xC1AF480)
+#define BABYHIPPLENCONTROLLER_GETHEADTRANS_OFFSET UNITYSDK_OFFSET(0xC1AF030)
+#define BABYHIPPLENCONTROLLER_JKBGMGMKGFM_OFFSET UNITYSDK_OFFSET(0xC1AF3E0)
+#define BABYHIPPLENCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC1AF8A0)
+#define BABYHIPPLENCONTROLLER_NNEGLKFCMNE_OFFSET UNITYSDK_OFFSET(0xC1B1690)
+#define BABYHIPPLENCONTROLLER_OBBDHDHNMJD_OFFSET UNITYSDK_OFFSET(0xC1AF9D0)
+#define BABYHIPPLENCONTROLLER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xC1B1760)
+#define BABYHIPPLENCONTROLLER_PJMIIFNBCAJ_OFFSET UNITYSDK_OFFSET(0xC1B12D0)
+#define BABYHIPPLENCONTROLLER_PLAYANIMSEQ_OFFSET UNITYSDK_OFFSET(0xC1AF190)
+#define BABYHIPPLENCONTROLLER_PNJNDJJCBFA_OFFSET UNITYSDK_OFFSET(0xC1AF960)
+#define BABYHIPPLENCONTROLLER_RISEHEADFORSECONDS_OFFSET UNITYSDK_OFFSET(0xC1AF0F0)
+#define BABYHIPPLENCONTROLLER_SETATTENTIONTRANS_OFFSET UNITYSDK_OFFSET(0xC1AF070)
+#define BABYHIPPLENCONTROLLER_STARTPETTING_OFFSET UNITYSDK_OFFSET(0xC1B1850)
+#define BABYHIPPLENCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xC1AF670)
+#define BABYHIPPLENCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC1AF7D0)
 
-inline static constexpr unsigned int BabyHipplenController_TypeDefinitionIndex = 47654;
+inline static constexpr unsigned int BabyHipplenController_TypeDefinitionIndex = 47194;
 
-class BabyHipplenController : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::UnityEngine::Transform* AttentionTrans; // 0x18
-	::UnityEngine::Transform* MoveTrans; // 0x20
-	::UnityEngine::Transform* LookAtTrans; // 0x28
-	::UnityEngine::Transform* LookAtTargetTransform; // 0x30
-	::UnityEngine::Transform* NeckIKTargetTrans; // 0x38
-	::UnityEngine::Transform* NeckIKTargetTransDefault; // 0x40
-	::UnityEngine::Transform* RiseHeadTrans; // 0x48
-	::UnityEngine::Transform* ArtTrans; // 0x50
-	::UnityEngine::Transform* HeadTrans; // 0x58
-	::UnityEngine::Transform* NeckRootTrans; // 0x60
-	::RPG::Client::FABRIK* NeckIK; // 0x68
-	::RPG::Client::LookAtIK* LookAtIK; // 0x70
-	::System::Single lookAtLerpSpd; // 0x78
-	::System::Single lookAtPointDist; // 0x7C
-	::System::Boolean NeckIKEnabled; // 0x80
-	::System::Single neckAngleRestraint; // 0x84
-	::UnityEngine::Vector2 neckDeltaHeightRangeSmall; // 0x88
-	::UnityEngine::Vector2 neckDeltaHeightRangeBig; // 0x90
-	::System::Single neckIKLerpSpd; // 0x98
-	::System::Single minNeckDist; // 0x9C
-	::System::Single maxNeckDist; // 0xA0
-	::System::Boolean isMoveEnabled; // 0xA4
-	::System::Boolean isRun; // 0xA5
-	::System::Single moveSpdMax; // 0xA8
-	::System::Single runSpdMult; // 0xAC
-	::System::Single moveAcc; // 0xB0
-	::System::Single steerSpdMax; // 0xB4
-	::System::Single steerAcc; // 0xB8
-	::UnityEngine::Transform* BIABGGPFEBH; // 0xC0
-	::UnityEngine::Transform* LCJODBLMEOG; // 0xC8
-	::UnityEngine::Animator* DGOLMMAONAI; // 0xD0
-	::UnityEngine::Transform* CCKNADPGAEM; // 0xD8
-	::System::Single LCCCAFILOBI; // 0xE0
-	::UnityEngine::Vector2 AAOMOCADIHD; // 0xE4
-	::System::Single ACPEGNAPPNL; // 0xEC
-	::System::Single CDEOPAHKDLL; // 0xF0
-
-	::System::Void _ctor()
+	class BabyHipplenController : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::Transform* AttentionTrans; // 0x18
+		::UnityEngine::Transform* MoveTrans; // 0x20
+		::UnityEngine::Transform* LookAtTrans; // 0x28
+		::UnityEngine::Transform* LookAtTargetTransform; // 0x30
+		::UnityEngine::Transform* NeckIKTargetTrans; // 0x38
+		::UnityEngine::Transform* NeckIKTargetTransDefault; // 0x40
+		::UnityEngine::Transform* RiseHeadTrans; // 0x48
+		::UnityEngine::Transform* ArtTrans; // 0x50
+		::UnityEngine::Transform* HeadTrans; // 0x58
+		::UnityEngine::Transform* NeckRootTrans; // 0x60
+		::RPG::Client::FABRIK* NeckIK; // 0x68
+		::RPG::Client::LookAtIK* LookAtIK; // 0x70
+		::System::Single lookAtLerpSpd; // 0x78
+		::System::Single lookAtPointDist; // 0x7C
+		::System::Boolean NeckIKEnabled; // 0x80
+		::System::Byte _padding0[0x3];
+		::System::Single neckAngleRestraint; // 0x84
+		::UnityEngine::Vector2 neckDeltaHeightRangeSmall; // 0x88
+		::UnityEngine::Vector2 neckDeltaHeightRangeBig; // 0x90
+		::System::Single neckIKLerpSpd; // 0x98
+		::System::Single minNeckDist; // 0x9C
+		::System::Single maxNeckDist; // 0xA0
+		::System::Boolean isMoveEnabled; // 0xA4
+		::System::Boolean isRun; // 0xA5
+		::System::Byte _padding1[0x2];
+		::System::Single moveSpdMax; // 0xA8
+		::System::Single runSpdMult; // 0xAC
+		::System::Single moveAcc; // 0xB0
+		::System::Single steerSpdMax; // 0xB4
+		::System::Single steerAcc; // 0xB8
+		::System::Byte _padding2[0x4];
+		::UnityEngine::Transform* BIABGGPFEBH; // 0xC0
+		::UnityEngine::Transform* LCJODBLMEOG; // 0xC8
+		::UnityEngine::Animator* DGOLMMAONAI; // 0xD0
+		::UnityEngine::Transform* CCKNADPGAEM; // 0xD8
+		::System::Single LCCCAFILOBI; // 0xE0
+		::UnityEngine::Vector2 AAOMOCADIHD; // 0xE4
+		::System::Single ACPEGNAPPNL; // 0xEC
+		::System::Single CDEOPAHKDLL; // 0xF0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_CTOR_OFFSET))(this);
+		}
 
-	::UnityEngine::Transform* GetHeadTrans()
-	{
-		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_GETHEADTRANS_OFFSET))(this);
-	}
+		::UnityEngine::Transform* GetHeadTrans()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_GETHEADTRANS_OFFSET))(this);
+		}
 
-	::System::Void SetAttentionTrans(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_SETATTENTIONTRANS_OFFSET))(this, a1, a2, a3);
-	}
+		::System::Void SetAttentionTrans(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_SETATTENTIONTRANS_OFFSET))(this, a1, a2, a3);
+		}
 
-	::System::Collections::IEnumerator* RiseHeadForSeconds(::System::Single a1)
-	{
-		return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_RISEHEADFORSECONDS_OFFSET))(this, a1);
-	}
+		::System::Collections::IEnumerator* RiseHeadForSeconds(::System::Single a1)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_RISEHEADFORSECONDS_OFFSET))(this, a1);
+		}
 
-	::System::Void PlayAnimSeq(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_PLAYANIMSEQ_OFFSET))(this, a1);
-	}
+		::System::Void PlayAnimSeq(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_PLAYANIMSEQ_OFFSET))(this, a1);
+		}
 
-	::System::Collections::IEnumerator* Method_5_627C7524E98F4AC5()
-	{
-		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_627C7524E98F4AC5_OFFSET))(this);
-	}
+		::System::Collections::IEnumerator* FDHNENGOLKK()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_FDHNENGOLKK_OFFSET))(this);
+		}
 
-	::System::Collections::IEnumerator* Method_5_627C7524E98F4AC5_1()
-	{
-		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_627C7524E98F4AC5_1_OFFSET))(this);
-	}
+		::System::Collections::IEnumerator* JKBGMGMKGFM()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_JKBGMGMKGFM_OFFSET))(this);
+		}
 
-	::System::Collections::IEnumerator* Method_5_491027A35182E1D6(::System::Single a1, ::System::Single a2)
-	{
-		return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_491027A35182E1D6_OFFSET))(this, a1, a2);
-	}
+		::System::Collections::IEnumerator* FEFBNIIHCGJ(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_FEFBNIIHCGJ_OFFSET))(this, a1, a2);
+		}
 
-	::System::Void EnableNeckIK(::System::Boolean a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_ENABLENECKIK_OFFSET))(this, a1);
-	}
+		::System::Void EnableNeckIK(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_ENABLENECKIK_OFFSET))(this, a1);
+		}
 
-	::System::Void Awake()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_AWAKE_OFFSET))(this);
-	}
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_AWAKE_OFFSET))(this);
+		}
 
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_START_OFFSET))(this);
-	}
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_START_OFFSET))(this);
+		}
 
-	::System::Void Update()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_UPDATE_OFFSET))(this);
-	}
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_UPDATE_OFFSET))(this);
+		}
 
-	::System::Void LateUpdate()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_LATEUPDATE_OFFSET))(this);
-	}
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_LATEUPDATE_OFFSET))(this);
+		}
 
-	::System::Void Method_5_FBF2CB29FD3B55E6()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_FBF2CB29FD3B55E6_OFFSET))(this);
-	}
+		::System::Void PNJNDJJCBFA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_PNJNDJJCBFA_OFFSET))(this);
+		}
 
-	::System::Void Method_5_E52129E82CD2D7F8()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_E52129E82CD2D7F8_OFFSET))(this);
-	}
+		::System::Void PJMIIFNBCAJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_PJMIIFNBCAJ_OFFSET))(this);
+		}
 
-	::System::Void Method_5_6A6A96FBD090C99D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_6A6A96FBD090C99D_OFFSET))(this);
-	}
+		::System::Void OBBDHDHNMJD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_OBBDHDHNMJD_OFFSET))(this);
+		}
 
-	::System::Void Method_5_0BA114B592B3A582()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_0BA114B592B3A582_OFFSET))(this);
-	}
+		::System::Void DOAIADLNJFE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_DOAIADLNJFE_OFFSET))(this);
+		}
 
-	::System::Void OnDrawGizmosSelected()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_ONDRAWGIZMOSSELECTED_OFFSET))(this);
-	}
+		::System::Void OnDrawGizmosSelected()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_ONDRAWGIZMOSSELECTED_OFFSET))(this);
+		}
 
-	::System::Single Method_5_DE4BD3007909A465(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
-	{
-		return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_METHOD_5_DE4BD3007909A465_OFFSET))(this, a1, a2);
-	}
+		::System::Single NNEGLKFCMNE(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_NNEGLKFCMNE_OFFSET))(this, a1, a2);
+		}
 
-	::System::Void StartPetting(::UnityEngine::Vector3 a1, ::System::Single a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_STARTPETTING_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Void StartPetting(::UnityEngine::Vector3 a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER_STARTPETTING_OFFSET))(this, a1, a2);
+		}
+
+	};

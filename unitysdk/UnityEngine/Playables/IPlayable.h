@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int IPlayable_TypeDefinitionIndex = 4900;
+	inline static constexpr unsigned int IPlayable_TypeDefinitionIndex = 4907;
 
 	class IPlayable
 	{

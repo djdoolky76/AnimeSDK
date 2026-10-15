@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace IFix { class ILFixDynamicMethodWrapper; }
 namespace IFix::Core { class AnonymousStorey; }
 namespace IFix::Core { class VirtualMachine; }
 namespace System { class Delegate; }
+namespace System { class Object; }
 namespace System { class Type; }
 
-#define IFIX_WRAPPERSMANAGERIMPL_CREATEBRIDGE_OFFSET UNITYSDK_OFFSET(0x186A7F70)
-#define IFIX_WRAPPERSMANAGERIMPL_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x186A7E80)
-#define IFIX_WRAPPERSMANAGERIMPL_CREATEWRAPPER_OFFSET UNITYSDK_OFFSET(0x186A7F10)
-#define IFIX_WRAPPERSMANAGERIMPL_GETPATCH_OFFSET UNITYSDK_OFFSET(0x186A7E00)
-#define IFIX_WRAPPERSMANAGERIMPL_INITWRAPPERARRAY_OFFSET UNITYSDK_OFFSET(0x186A7F40)
-#define IFIX_WRAPPERSMANAGERIMPL_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x186A7E40)
-#define IFIX_WRAPPERSMANAGERIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x186A7DF0)
+#define IFIX_WRAPPERSMANAGERIMPL_CREATEBRIDGE_OFFSET UNITYSDK_OFFSET(0x1EC01B10)
+#define IFIX_WRAPPERSMANAGERIMPL_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1EC01A20)
+#define IFIX_WRAPPERSMANAGERIMPL_CREATEWRAPPER_OFFSET UNITYSDK_OFFSET(0x1EC01AB0)
+#define IFIX_WRAPPERSMANAGERIMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC019D0)
+#define IFIX_WRAPPERSMANAGERIMPL_GETPATCH_OFFSET UNITYSDK_OFFSET(0x1EBBDFC0)
+#define IFIX_WRAPPERSMANAGERIMPL_INITWRAPPERARRAY_OFFSET UNITYSDK_OFFSET(0x1EC01AE0)
+#define IFIX_WRAPPERSMANAGERIMPL_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x1EC019E0)
 
 namespace IFix
 {
-	inline static constexpr unsigned int WrappersManagerImpl_TypeDefinitionIndex = 80953;
+	inline static constexpr unsigned int WrappersManagerImpl_TypeDefinitionIndex = 35344;
 
 	class WrappersManagerImpl : public ::System::Object
 	{
 	public:
 		::IFix::Core::VirtualMachine* virtualMachine; // 0x10
-
 		::System::Void _ctor(::IFix::Core::VirtualMachine* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::IFix::ILFixDynamicMethodWrapper* GetPatch(::System::Int32 a1)
@@ -59,5 +58,6 @@ namespace IFix
 		{
 			return ((::IFix::Core::AnonymousStorey*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_CREATEBRIDGE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
+
 	};
 }

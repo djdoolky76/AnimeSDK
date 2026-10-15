@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class FixStretchUV; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x190DABB0)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_37AACA8481A4B501_OFFSET UNITYSDK_OFFSET(0x190DA410)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x190D9760)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_5D2EADEA3A052595_OFFSET UNITYSDK_OFFSET(0x190DA6B0)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_74F16A204699EDE8_OFFSET UNITYSDK_OFFSET(0x190DA7E0)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_AB7ED27CAB69BE58_OFFSET UNITYSDK_OFFSET(0x190D97D0)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_E87C1FD44C1B6C8A_OFFSET UNITYSDK_OFFSET(0x190D9EA0)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x190D9E20)
-#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x190DABF0)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD038910)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xD0374F0)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xD0388D0)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_INEODHIJNGB_OFFSET UNITYSDK_OFFSET(0xD037BC0)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_JGNKCOANMNH_OFFSET UNITYSDK_OFFSET(0xD0383D0)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_MHFOALPFPAH_OFFSET UNITYSDK_OFFSET(0xD038500)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xD037480)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_PDFMJEDPKOD_OFFSET UNITYSDK_OFFSET(0xD038130)
+#define RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xD037B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchUVBehavior_TypeDefinitionIndex = 70564;
+	inline static constexpr unsigned int FixStretchUVBehavior_TypeDefinitionIndex = 70600;
 
 	class FixStretchUVBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -27,15 +26,14 @@ namespace RPG::Client
 		::UnityEngine::Vector2 tiling; // 0x38
 		::UnityEngine::Renderer* _Renderer; // 0x40
 		::UnityEngine::MaterialPropertyBlock* _MaterialPropertyBlock; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
 		}
 
 		::System::Void Tick(::System::Single a1)
@@ -43,34 +41,35 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_AB7ED27CAB69BE58()
+		::System::Void DIOEAJEHHND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_AB7ED27CAB69BE58_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_DIOEAJEHHND_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 Method_3_E87C1FD44C1B6C8A()
+		::UnityEngine::Vector2 INEODHIJNGB()
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_E87C1FD44C1B6C8A_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_INEODHIJNGB_OFFSET))(this);
 		}
 
-		::System::Void Method_3_74F16A204699EDE8(::UnityEngine::Vector2 a1)
+		::System::Void MHFOALPFPAH(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_74F16A204699EDE8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_MHFOALPFPAH_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 Method_3_5D2EADEA3A052595(::UnityEngine::Vector2 a1)
+		::UnityEngine::Vector2 JGNKCOANMNH(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_5D2EADEA3A052595_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_JGNKCOANMNH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_37AACA8481A4B501()
+		::System::Void PDFMJEDPKOD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_METHOD_3_37AACA8481A4B501_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_PDFMJEDPKOD_OFFSET))(this);
 		}
 
 		::RPG::Client::FixStretchUV* get__OwnerMonoPlugin()
 		{
 			return ((::RPG::Client::FixStretchUV*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUVBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

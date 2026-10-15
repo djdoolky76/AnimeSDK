@@ -1,18 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-
-namespace RPG::GameCore { class DynamicFloat; }
-namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
-namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
-namespace System { class Action; }
-namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ILevelVariableService_1_TypeDefinitionIndex = 41125;
+	inline static constexpr unsigned int ILevelVariableService_1_TypeDefinitionIndex = 42413;
 
-	template <typename TEntity>
+	template <typename T>
 	class ILevelVariableService_1
 	{
 	public:

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class RtByIsTriggeredBlockDamage; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define FCLLFGOIMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156C29F0)
+#define FCLLFGOIMPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156C2A20)
+
+inline static constexpr unsigned int FCLLFGOIMPJ_TypeDefinitionIndex = 53843;
+
+	class FCLLFGOIMPJ
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + FCLLFGOIMPJ_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Evaluate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FCLLFGOIMPJ_EVALUATE_OFFSET))(this);
+		}
+
+	};

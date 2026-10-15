@@ -3,8 +3,6 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventActivityOptions.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventDescriptor.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventTags.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingEventTypes; }
 namespace System::Reflection { class ParameterInfo; }

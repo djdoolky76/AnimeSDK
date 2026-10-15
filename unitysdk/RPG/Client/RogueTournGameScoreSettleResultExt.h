@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
-#define RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1C32B420)
+#define RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xDFE3E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 67844;
+	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 67846;
 
 	class RogueTournGameScoreSettleResultExt : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::IRogueTournGameScoreSettleResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET))(a1);
 		}
+
 	};
 }

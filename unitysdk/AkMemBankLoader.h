@@ -2,73 +2,75 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET UNITYSDK_OFFSET(0x1DA99370)
-#define AKMEMBANKLOADER_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1DA992B0)
-#define AKMEMBANKLOADER_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1DA99570)
-#define AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1DA98FF0)
-#define AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1DA99170)
-#define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1DA99600)
-#define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x1DA98F90)
-#define AKMEMBANKLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA99830)
+#define AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET UNITYSDK_OFFSET(0x1F577FF0)
+#define AKMEMBANKLOADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5784B0)
+#define AKMEMBANKLOADER_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F577F30)
+#define AKMEMBANKLOADER_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1F5781F0)
+#define AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1F577C70)
+#define AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1F577DF0)
+#define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F578280)
+#define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x1F577C10)
 
-inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 43744;
+inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 44936;
 
-class AkMemBankLoader : public ::UnityEngine::MonoBehaviour
-{
-public:
-	// static const ::System::Int32 WaitMs = 0x32; // 0x0
-	// static const ::System::Int64 AK_BANK_PLATFORM_DATA_ALIGNMENT = 0x10; // 0x0
-	// static const ::System::Int64 AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK = 0xF; // 0x0
-	::System::String* bankName; // 0x18
-	::System::Boolean isLocalizedBank; // 0x20
-	::System::String* m_bankPath; // 0x28
-	::System::UInt32 ms_bankID; // 0x30
-	::System::IntPtr ms_pInMemoryBankPtr; // 0x38
-	::System::Runtime::InteropServices::GCHandle ms_pinnedArray; // 0x40
-	::UnityEngine::Networking::UnityWebRequest* ms_www; // 0x48
-
-	::System::Void _ctor()
+	class AkMemBankLoader : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::String* bankName; // 0x18
+		::System::Boolean isLocalizedBank; // 0x20
+		::System::Byte _padding0[0x7];
+		::System::String* m_bankPath; // 0x28
+		::System::UInt32 ms_bankID; // 0x30
+		::System::Byte _padding1[0x4];
+		::System::IntPtr ms_pInMemoryBankPtr; // 0x38
+		::System::Runtime::InteropServices::GCHandle ms_pinnedArray; // 0x40
+		::System::Byte _padding2[0x4];
+		::UnityEngine::Networking::UnityWebRequest* ms_www; // 0x48
+		// static const ::System::Object WaitMs; // 0x0
+		// static const ::System::Object AK_BANK_PLATFORM_DATA_ALIGNMENT; // 0x0
+		// static const ::System::Object AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_START_OFFSET))(this);
-	}
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_START_OFFSET))(this);
+		}
 
-	::System::Void LoadNonLocalizedBank(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET))(this, a1);
-	}
+		::System::Void LoadNonLocalizedBank(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET))(this, a1);
+		}
 
-	::System::Void LoadLocalizedBank(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET))(this, a1);
-	}
+		::System::Void LoadLocalizedBank(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET))(this, a1);
+		}
 
-	::System::UInt32 AllocateAlignedBuffer(::Il2CppArray<::System::Byte>* a1)
-	{
-		return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET))(this, a1);
-	}
+		::System::UInt32 AllocateAlignedBuffer(::Il2CppArray<::System::Byte>* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET))(this, a1);
+		}
 
-	::System::Collections::IEnumerator* LoadFile()
-	{
-		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADFILE_OFFSET))(this);
-	}
+		::System::Collections::IEnumerator* LoadFile()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADFILE_OFFSET))(this);
+		}
 
-	::System::Void DoLoadBank(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_DOLOADBANK_OFFSET))(this, a1);
-	}
+		::System::Void DoLoadBank(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_DOLOADBANK_OFFSET))(this, a1);
+		}
 
-	::System::Void OnDestroy()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_ONDESTROY_OFFSET))(this);
-	}
-};
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_ONDESTROY_OFFSET))(this);
+		}
+
+	};

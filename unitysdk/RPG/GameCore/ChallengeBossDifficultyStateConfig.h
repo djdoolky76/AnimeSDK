@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChallengeBossDifficultyStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_METHOD_2_29189E77B99F6CDF_OFFSET UNITYSDK_OFFSET(0x1D10CB10)
-#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10CCF0)
+#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D52DEC0)
+#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D52DCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBossDifficultyStateConfig_TypeDefinitionIndex = 16232;
+	inline static constexpr unsigned int ChallengeBossDifficultyStateConfig_TypeDefinitionIndex = 16405;
 
 	class ChallengeBossDifficultyStateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,15 +20,15 @@ namespace RPG::GameCore
 		::System::String* EnterMapEventName; // 0x20
 		::System::String* ExitMapEventName; // 0x28
 		::System::String* DifficultyStateNameFormat; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_29189E77B99F6CDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChallengeBossDifficultyStateConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChallengeBossDifficultyStateConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChallengeBossDifficultyStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_METHOD_2_29189E77B99F6CDF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChallengeBossDifficultyStateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

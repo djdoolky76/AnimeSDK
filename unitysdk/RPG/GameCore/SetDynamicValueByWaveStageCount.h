@@ -2,44 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByWaveStageCount; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E825650)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_METHOD_4_96BA95DFB99846A4_OFFSET UNITYSDK_OFFSET(0x1E8254E0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_METHOD_4_EF27C4582C8A0023_OFFSET UNITYSDK_OFFSET(0x1E8254A0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8254D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7F8E0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DA7FA60)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7F8F0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7F8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByWaveStageCount_TypeDefinitionIndex = 22920;
+	inline static constexpr unsigned int SetDynamicValueByWaveStageCount_TypeDefinitionIndex = 23181;
 
 	class SetDynamicValueByWaveStageCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
 		::System::String* WriteToKey; // 0x18
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EF27C4582C8A0023(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByWaveStageCount*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByWaveStageCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByWaveStageCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_METHOD_4_EF27C4582C8A0023_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByWaveStageCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_96BA95DFB99846A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByWaveStageCount* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByWaveStageCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByWaveStageCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_METHOD_4_96BA95DFB99846A4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByWaveStageCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYWAVESTAGECOUNT_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

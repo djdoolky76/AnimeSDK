@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG { template <typename T> class LinkableNodeList_1; }
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int LinkableNodeListEnumerator_1_TypeDefinitionIndex = 6368;
+	inline static constexpr unsigned int LinkableNodeListEnumerator_1_TypeDefinitionIndex = 6377;
 
 	template <typename T>
 	class LinkableNodeListEnumerator_1 : public ::System::Object

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class ToggleHitCountUITop; }
 
-#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_METHOD_3_579A2E3EADF5CE17_OFFSET UNITYSDK_OFFSET(0x1D52C2A0)
-#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_METHOD_3_6F772A375F21D33C_OFFSET UNITYSDK_OFFSET(0x1D52C200)
-#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52C260)
+#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5E670)
+#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5E6B0)
+#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5E610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToggleHitCountUITop_TypeDefinitionIndex = 22895;
+	inline static constexpr unsigned int ToggleHitCountUITop_TypeDefinitionIndex = 23154;
 
 	class ToggleHitCountUITop : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DynamicFloat* LeftCount; // 0x20
 		::RPG::GameCore::DynamicFloat* PastCount; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLEHITCOUNTUITOP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLEHITCOUNTUITOP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6F772A375F21D33C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToggleHitCountUITop*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ToggleHitCountUITop* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleHitCountUITop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLEHITCOUNTUITOP_METHOD_3_6F772A375F21D33C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ToggleHitCountUITop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLEHITCOUNTUITOP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_579A2E3EADF5CE17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToggleHitCountUITop* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ToggleHitCountUITop* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleHitCountUITop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLEHITCOUNTUITOP_METHOD_3_579A2E3EADF5CE17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ToggleHitCountUITop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLEHITCOUNTUITOP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

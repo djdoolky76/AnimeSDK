@@ -1,19 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AttachAvatarChange; }
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_76731230AE1ABC6C_OFFSET UNITYSDK_OFFSET(0x1C57A240)
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_98B493D44D99BC97_OFFSET UNITYSDK_OFFSET(0x1C57A140)
-#define RPG_GAMECORE_ATTACHAVATARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C57A1D0)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D39F0)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3D3A60)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3D3960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachAvatarChange_TypeDefinitionIndex = 23342;
+	inline static constexpr unsigned int AttachAvatarChange_TypeDefinitionIndex = 23612;
 
 	class AttachAvatarChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,20 +26,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeNewAvatarCreate; // 0x38
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnNewAvatarCreate; // 0x40
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnNewAvatarRefresh; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHAVATARCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHAVATARCHANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_98B493D44D99BC97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachAvatarChange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AttachAvatarChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachAvatarChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_98B493D44D99BC97_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AttachAvatarChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHAVATARCHANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76731230AE1ABC6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachAvatarChange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AttachAvatarChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachAvatarChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_76731230AE1ABC6C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AttachAvatarChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHAVATARCHANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

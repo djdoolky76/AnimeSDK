@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsRogueTournCurRoomFinish; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_04AB1870464A6BA2_OFFSET UNITYSDK_OFFSET(0x1CDAB9D0)
-#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_7043728B63E59077_OFFSET UNITYSDK_OFFSET(0x1CDABA00)
-#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_86773FAC16C8579C_OFFSET UNITYSDK_OFFSET(0x1CDAB890)
-#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_BBA686AB5C66C517_OFFSET UNITYSDK_OFFSET(0x1CDAB850)
-#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAB880)
+#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F2780)
+#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F2900)
+#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F28D0)
+#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F2790)
+#define RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F2750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsRogueTournCurRoomFinish_TypeDefinitionIndex = 21874;
+	inline static constexpr unsigned int ByIsRogueTournCurRoomFinish_TypeDefinitionIndex = 22122;
 
 	class ByIsRogueTournCurRoomFinish : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_BBA686AB5C66C517(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_BBA686AB5C66C517_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_86773FAC16C8579C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_86773FAC16C8579C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_04AB1870464A6BA2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_04AB1870464A6BA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7043728B63E59077(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRogueTournCurRoomFinish* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_METHOD_4_7043728B63E59077_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRogueTournCurRoomFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROGUETOURNCURROOMFINISH_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

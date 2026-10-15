@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class MarbleSealSkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MARBLESKILL_GET_DESCPARAMS_OFFSET UNITYSDK_OFFSET(0x1C257540)
-#define RPG_CLIENT_MARBLESKILL_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1C2574D0)
-#define RPG_CLIENT_MARBLESKILL_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1C257370)
-#define RPG_CLIENT_MARBLESKILL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1C257410)
-#define RPG_CLIENT_MARBLESKILL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1C257320)
-#define RPG_CLIENT_MARBLESKILL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C257460)
-#define RPG_CLIENT_MARBLESKILL_GET_SKILLHINTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2573C0)
-#define RPG_CLIENT_MARBLESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C257310)
+#define RPG_CLIENT_MARBLESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0xD5600A0)
+#define RPG_CLIENT_MARBLESKILL_GET_DESCPARAMS_OFFSET UNITYSDK_OFFSET(0xD573EE0)
+#define RPG_CLIENT_MARBLESKILL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xD573E70)
+#define RPG_CLIENT_MARBLESKILL_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xD573D10)
+#define RPG_CLIENT_MARBLESKILL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD573DB0)
+#define RPG_CLIENT_MARBLESKILL_GET_ID_OFFSET UNITYSDK_OFFSET(0xD560320)
+#define RPG_CLIENT_MARBLESKILL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xD573E00)
+#define RPG_CLIENT_MARBLESKILL_GET_SKILLHINTTYPE_OFFSET UNITYSDK_OFFSET(0xD573D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleSkill_TypeDefinitionIndex = 65881;
+	inline static constexpr unsigned int MarbleSkill_TypeDefinitionIndex = 65834;
 
 	class MarbleSkill : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::MarbleSealSkillConfigRow* _Row; // 0x10
-
 		::System::Void _ctor(::RPG::GameCore::MarbleSealSkillConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleSealSkillConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLESKILL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleSealSkillConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLESKILL_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -63,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLESKILL_GET_DESCPARAMS_OFFSET))(this);
 		}
+
 	};
 }

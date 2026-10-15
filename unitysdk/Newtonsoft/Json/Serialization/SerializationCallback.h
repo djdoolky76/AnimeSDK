@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17306CB0)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17306D30)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x172E5DE0)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17306BC0)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C3D4390)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D42A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C3D4410)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C3B3500)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int SerializationCallback_TypeDefinitionIndex = 9663;
+	inline static constexpr unsigned int SerializationCallback_TypeDefinitionIndex = 9721;
 
 	class SerializationCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Runtime::Serialization::StreamingContext a2)
@@ -38,5 +37,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

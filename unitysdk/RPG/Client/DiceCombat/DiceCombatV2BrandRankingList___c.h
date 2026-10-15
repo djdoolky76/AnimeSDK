@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::DiceCombat { class DiceCombatV2BrandRankingEntry; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C42FE70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C42FEB0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C42FEC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC42B00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC42B40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET UNITYSDK_OFFSET(0xCC42B50)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BrandRankingList___c_TypeDefinitionIndex = 75728;
+	inline static constexpr unsigned int DiceCombatV2BrandRankingList___c_TypeDefinitionIndex = 76205;
 
 	class DiceCombatV2BrandRankingList___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingList___c** StaticGet___9()
-		{
-			return (::RPG::Client::DiceCombat::DiceCombatV2BrandRankingList___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2BrandRankingList___c_TypeDefinitionIndex)->GetStaticField(0x58810);
-		}
 		static ::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>** StaticGet___9__12_0()
 		{
-			return (::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2BrandRankingList___c_TypeDefinitionIndex)->GetStaticField(0x58818);
+			return (::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x22100);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x22108);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Single _PlayChange_b__12_0(::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* a1, ::System::Int32 a2)
 		{
 			return ((::System::Single(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

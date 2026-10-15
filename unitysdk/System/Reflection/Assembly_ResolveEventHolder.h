@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Reflection { class ModuleResolveEventHandler; }
 
-#define SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC12480)
+#define SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2664C0)
 
 namespace System::Reflection
 {
@@ -14,10 +13,10 @@ namespace System::Reflection
 	{
 	public:
 		::System::Reflection::ModuleResolveEventHandler* ModuleResolve; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

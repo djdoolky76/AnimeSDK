@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LoopGenerateBehavior_PhaseType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_PhaseConfig_TypeDefinitionIndex = 70881;
+	inline static constexpr unsigned int LoopGenerateBehavior_PhaseConfig_TypeDefinitionIndex = 70914;
 
 	struct alignas(8) LoopGenerateBehavior_PhaseConfig
 	{

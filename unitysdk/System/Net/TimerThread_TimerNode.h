@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/TimerThread_Timer.h"
 #include "unitysdk/System/Net/TimerThread_TimerNode_TimerState.h"
-
 namespace System { class Object; }
 namespace System::Net { class TimerThread_Callback; }
+namespace System::Net { class TimerThread_TimerNode; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1B976000)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x1B9761D0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET UNITYSDK_OFFSET(0x1B9761F0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x1B9761E0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET UNITYSDK_OFFSET(0x1B976200)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B976170)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1F05F840)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05F9B0)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x1F05FA10)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET UNITYSDK_OFFSET(0x1F05FA30)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x1F05FA20)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET UNITYSDK_OFFSET(0x1F05FA40)
 
 namespace System::Net
 {
@@ -20,16 +20,15 @@ namespace System::Net
 	class TimerThread_TimerNode : public ::System::Net::TimerThread_Timer
 	{
 	public:
-		::System::Net::TimerThread_TimerNode* next; // 0x18
+		::System::Net::TimerThread_Callback* m_Callback; // 0x18
 		::System::Object* m_QueueLock; // 0x20
-		::System::Net::TimerThread_TimerNode* prev; // 0x28
-		::System::Net::TimerThread_Callback* m_Callback; // 0x30
-		::System::Object* m_Context; // 0x38
+		::System::Object* m_Context; // 0x28
+		::System::Net::TimerThread_TimerNode* prev; // 0x30
+		::System::Net::TimerThread_TimerNode* next; // 0x38
 		::System::Net::TimerThread_TimerNode_TimerState m_TimerState; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Net::TimerThread_TimerNode* get_Next()
@@ -56,5 +55,6 @@ namespace System::Net
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET))(this);
 		}
+
 	};
 }

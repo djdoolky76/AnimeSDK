@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefHttpRspBody_1_TypeDefinitionIndex = 64841;
+	inline static constexpr unsigned int GridFightGameRefHttpRspBody_1_TypeDefinitionIndex = 64781;
 
 	template <typename T>
 	class GridFightGameRefHttpRspBody_1 : public ::System::Object

@@ -1,52 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AndroidJavaClass; }
 namespace UnityEngine { class AndroidJavaObject; }
 namespace UnityEngine { class GlobalJavaObjectRef; }
 
-#define UNITYENGINE_ANDROIDJAVAPROXY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EF19530)
-#define UNITYENGINE_ANDROIDJAVAPROXY_GETPROXYOBJECT_OFFSET UNITYSDK_OFFSET(0x1EF1B170)
-#define UNITYENGINE_ANDROIDJAVAPROXY_GETRAWPROXY_OFFSET UNITYSDK_OFFSET(0x1EF1A910)
-#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_1_OFFSET UNITYSDK_OFFSET(0x1EF1AAD0)
-#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF195A0)
-#define UNITYENGINE_ANDROIDJAVAPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF1B270)
-#define UNITYENGINE_ANDROIDJAVAPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF19520)
-#define UNITYENGINE_ANDROIDJAVAPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF194C0)
+#define UNITYENGINE_ANDROIDJAVAPROXY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F383D40)
+#define UNITYENGINE_ANDROIDJAVAPROXY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F381FF0)
+#define UNITYENGINE_ANDROIDJAVAPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F381F90)
+#define UNITYENGINE_ANDROIDJAVAPROXY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F382000)
+#define UNITYENGINE_ANDROIDJAVAPROXY_GETPROXYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F383C40)
+#define UNITYENGINE_ANDROIDJAVAPROXY_GETRAWPROXY_OFFSET UNITYSDK_OFFSET(0x1F3833E0)
+#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_1_OFFSET UNITYSDK_OFFSET(0x1F3835A0)
+#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F382070)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AndroidJavaProxy_TypeDefinitionIndex = 5672;
+	inline static constexpr unsigned int AndroidJavaProxy_TypeDefinitionIndex = 5680;
 
 	class AndroidJavaProxy : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::GlobalJavaObjectRef** StaticGet_s_JavaLangSystemClass()
-		{
-			return (::UnityEngine::GlobalJavaObjectRef**)Il2CppClass::FromTypeDefinitionIndex(AndroidJavaProxy_TypeDefinitionIndex)->GetStaticField(0x300);
-		}
-		static ::System::IntPtr* StaticGet_s_HashCodeMethodID()
-		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidJavaProxy_TypeDefinitionIndex)->GetStaticField(0x210);
-		}
 		::UnityEngine::AndroidJavaClass* javaInterface; // 0x10
 		::System::IntPtr proxyObject; // 0x18
+		static ::UnityEngine::GlobalJavaObjectRef** StaticGet_s_JavaLangSystemClass()
+		{
+			return (::UnityEngine::GlobalJavaObjectRef**)UnitySDK::FromName("UnityEngine", "AndroidJavaProxy")->GetStaticField(0x300);
+		}
+
+		static ::System::IntPtr* StaticGet_s_HashCodeMethodID()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidJavaProxy")->GetStaticField(0x210);
+		}
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::AndroidJavaClass* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AndroidJavaClass*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AndroidJavaClass*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY_CCTOR_OFFSET))();
 		}
 
 		::System::Void Finalize()
@@ -73,5 +74,6 @@ namespace UnityEngine
 		{
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDJAVAPROXY_GETRAWPROXY_OFFSET))(this);
 		}
+
 	};
 }

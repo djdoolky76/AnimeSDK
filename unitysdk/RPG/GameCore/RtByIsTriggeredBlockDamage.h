@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtByIsTriggeredBlockDamage; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_018D60C88AC1DF44_OFFSET UNITYSDK_OFFSET(0x1CCDF910)
-#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_1B0C78932702C627_OFFSET UNITYSDK_OFFSET(0x1CCDF7A0)
-#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_99FF7D8DDA83262D_OFFSET UNITYSDK_OFFSET(0x1CCDF8E0)
-#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_F8383DC8D947B5EC_OFFSET UNITYSDK_OFFSET(0x1CCDF760)
-#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCDF790)
+#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA28110)
+#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DA28290)
+#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA28260)
+#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA28120)
+#define RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA280E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtByIsTriggeredBlockDamage_TypeDefinitionIndex = 23895;
+	inline static constexpr unsigned int RtByIsTriggeredBlockDamage_TypeDefinitionIndex = 24170;
 
 	class RtByIsTriggeredBlockDamage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F8383DC8D947B5EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_F8383DC8D947B5EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1B0C78932702C627(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_1B0C78932702C627_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_99FF7D8DDA83262D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_99FF7D8DDA83262D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_018D60C88AC1DF44(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtByIsTriggeredBlockDamage* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_METHOD_4_018D60C88AC1DF44_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtByIsTriggeredBlockDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBYISTRIGGEREDBLOCKDAMAGE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

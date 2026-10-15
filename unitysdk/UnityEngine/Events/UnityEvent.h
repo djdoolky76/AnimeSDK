@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEventBase.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 namespace UnityEngine::Events { class BaseInvokableCall; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define UNITYENGINE_EVENTS_UNITYEVENT_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1DED8F40)
-#define UNITYENGINE_EVENTS_UNITYEVENT_FINDMETHOD_IMPL_OFFSET UNITYSDK_OFFSET(0x1DED9200)
-#define UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1DED9030)
-#define UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_OFFSET UNITYSDK_OFFSET(0x1DED9640)
-#define UNITYENGINE_EVENTS_UNITYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DED9680)
-#define UNITYENGINE_EVENTS_UNITYEVENT_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x1DED9130)
-#define UNITYENGINE_EVENTS_UNITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DED8E60)
+#define UNITYENGINE_EVENTS_UNITYEVENT_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1F3BBD70)
+#define UNITYENGINE_EVENTS_UNITYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BBC90)
+#define UNITYENGINE_EVENTS_UNITYEVENT_FINDMETHOD_IMPL_OFFSET UNITYSDK_OFFSET(0x1F3BC030)
+#define UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1F3BBE60)
+#define UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_OFFSET UNITYSDK_OFFSET(0x1F3BC470)
+#define UNITYENGINE_EVENTS_UNITYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BC4B0)
+#define UNITYENGINE_EVENTS_UNITYEVENT_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x1F3BBF60)
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityEvent_TypeDefinitionIndex = 4488;
+	inline static constexpr unsigned int UnityEvent_TypeDefinitionIndex = 4492;
 
 	class UnityEvent : public ::UnityEngine::Events::UnityEventBase
 	{
 	public:
 		::Il2CppArray<::System::Object*>* m_InvokeArray; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AddListener(::UnityEngine::Events::UnityAction* a1)
@@ -59,5 +57,6 @@ namespace UnityEngine::Events
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_INVOKE_OFFSET))(this);
 		}
+
 	};
 }

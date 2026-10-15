@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE233F0)
-#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE23420)
-#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE1ECB0)
-#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE23380)
+#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F44B8D0)
+#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F44B860)
+#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F44B900)
+#define UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F447190)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_OnNewParticleEmissionEvent_TypeDefinitionIndex = 5224;
+	inline static constexpr unsigned int ParticleSystem_OnNewParticleEmissionEvent_TypeDefinitionIndex = 5231;
 
 	class ParticleSystem_OnNewParticleEmissionEvent : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::ParticleSystem* a1)
@@ -38,5 +37,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_ONNEWPARTICLEEMISSIONEVENT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

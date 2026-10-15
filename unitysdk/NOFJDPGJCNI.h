@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GOGCDNMNIKF.h"
+class NOFJDPGJCNI;
+namespace System { class String; }
+
+#define NOFJDPGJCNI_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCE4710)
+#define NOFJDPGJCNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE46B0)
+#define NOFJDPGJCNI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xBCE46C0)
+
+inline static constexpr unsigned int NOFJDPGJCNI_TypeDefinitionIndex = 67278;
+
+	class NOFJDPGJCNI : public ::GOGCDNMNIKF
+	{
+	public:
+		static ::NOFJDPGJCNI** StaticGet_FMJPMFEDIJL()
+		{
+			return (::NOFJDPGJCNI**)UnitySDK::FromName("", "NOFJDPGJCNI")->GetStaticField(0x52FD0);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOFJDPGJCNI_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NOFJDPGJCNI_CCTOR_OFFSET))();
+		}
+
+		::System::String* JBIOGKPHKKC()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOFJDPGJCNI_JBIOGKPHKKC_OFFSET))(this);
+		}
+
+	};

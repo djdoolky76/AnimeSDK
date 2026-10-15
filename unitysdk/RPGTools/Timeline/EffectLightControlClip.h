@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class EffectLightControlBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B56DB40)
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B56DCB0)
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_METHOD_4_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1B56DAF0)
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56DCC0)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D2960)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D2AE0)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D2AD0)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_LICKKICAABN_OFFSET UNITYSDK_OFFSET(0xE8D2910)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffectLightControlClip_TypeDefinitionIndex = 48618;
+	inline static constexpr unsigned int EffectLightControlClip_TypeDefinitionIndex = 48158;
 
 	class EffectLightControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::EffectLightControlBehaviour* template_; // 0x18
 		::System::Boolean AutoReset; // 0x20
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_4_3E7178C5ECF017DB(::System::Boolean a1)
+		::System::Void LICKKICAABN(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_METHOD_4_3E7178C5ECF017DB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_LICKKICAABN_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -43,5 +42,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

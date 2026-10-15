@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_DB0D23A9175AE8ED_OFFSET UNITYSDK_OFFSET(0x1797F880)
-#define RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1797F8D0)
+#define RPG_CLIENT_REPLAYCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDEAE8C0)
+#define RPG_CLIENT_REPLAYCUSTOMDATA_GCBMOBCGDPI_OFFSET UNITYSDK_OFFSET(0xDEAE870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReplayCustomData_TypeDefinitionIndex = 61073;
+	inline static constexpr unsigned int ReplayCustomData_TypeDefinitionIndex = 60976;
 
 	class ReplayCustomData : public ::System::Object
 	{
@@ -19,15 +18,15 @@ namespace RPG::Client
 		::System::String* ClientVersion; // 0x20
 		::System::String* CostTime; // 0x28
 		::System::String* SimulateTime; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_DB0D23A9175AE8ED()
+		::System::String* GCBMOBCGDPI()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_DB0D23A9175AE8ED_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA_GCBMOBCGDPI_OFFSET))(this);
 		}
+
 	};
 }

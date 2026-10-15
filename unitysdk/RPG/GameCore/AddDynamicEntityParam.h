@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddDynamicEntityParam; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_METHOD_3_149836B19B5DF3C0_OFFSET UNITYSDK_OFFSET(0x1D69F9C0)
-#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_METHOD_3_582262F7444F92DD_OFFSET UNITYSDK_OFFSET(0x1D69F980)
-#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69F9B0)
+#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D358BF0)
+#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D358C00)
+#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D358BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddDynamicEntityParam_TypeDefinitionIndex = 22418;
+	inline static constexpr unsigned int AddDynamicEntityParam_TypeDefinitionIndex = 22671;
 
 	class AddDynamicEntityParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* DynamicKey; // 0x18
 		::RPG::GameCore::TargetEvaluator* ReadTargetType; // 0x20
 		::RPG::GameCore::TargetEvaluator* ParamTargetType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDDYNAMICENTITYPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDDYNAMICENTITYPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_582262F7444F92DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddDynamicEntityParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddDynamicEntityParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddDynamicEntityParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDDYNAMICENTITYPARAM_METHOD_3_582262F7444F92DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddDynamicEntityParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDDYNAMICENTITYPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_149836B19B5DF3C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddDynamicEntityParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddDynamicEntityParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddDynamicEntityParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDDYNAMICENTITYPARAM_METHOD_3_149836B19B5DF3C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddDynamicEntityParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDDYNAMICENTITYPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

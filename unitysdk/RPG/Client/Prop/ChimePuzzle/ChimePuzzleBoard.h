@@ -5,11 +5,10 @@
 #include "unitysdk/RPG/Client/Prop/ChimePuzzle/ChimePuzzleMode.h"
 #include "unitysdk/RPG/Client/Prop/ChimePuzzle/ChimeType.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
-
-class Class_0_16E4307DCC419505_460;
-class Class_1_10C1CA4432641F33;
-class Class_1_3133E5682FCA6A92;
-class Class_1_8EE73BB839E63837;
+class DOFODCADEHG;
+class EKFMIDBJDIA;
+class GNELPKKAEBC;
+class KMBCPKFMDEH;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
@@ -18,35 +17,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_DIMALLBOARD_OFFSET UNITYSDK_OFFSET(0x189CD3F0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x189CCC30)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0x189CBCC0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_3BC8B8F2BB08C1C2_OFFSET UNITYSDK_OFFSET(0x189CDF00)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_4438B031809D397B_OFFSET UNITYSDK_OFFSET(0x189CCC90)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_50F03662731E0345_OFFSET UNITYSDK_OFFSET(0x189CDF90)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_61929A3103595552_OFFSET UNITYSDK_OFFSET(0x189CC970)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_7F4EBEC55EBE2D81_OFFSET UNITYSDK_OFFSET(0x189CCFD0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_A5B6063FFC26FC8F_OFFSET UNITYSDK_OFFSET(0x189CD6E0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_E495EFFB22D4AFAB_OFFSET UNITYSDK_OFFSET(0x189CD8E0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_E885EC74FCEE16A4_OFFSET UNITYSDK_OFFSET(0x189CBD90)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0x189CD290)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_SETCHIMEWRONGSTATE_OFFSET UNITYSDK_OFFSET(0x189CD5A0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_SHOWBOARD_OFFSET UNITYSDK_OFFSET(0x189CD4E0)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x189CE580)
-#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x189CE330)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC3DDA0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CJELDNHONPG_OFFSET UNITYSDK_OFFSET(0xDC3C180)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CMBEDELFAKF_OFFSET UNITYSDK_OFFSET(0xDC3C7F0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDC3DB50)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_DIMALLBOARD_OFFSET UNITYSDK_OFFSET(0xDC3CC10)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC3C440)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_GPNMMOCCKNK_OFFSET UNITYSDK_OFFSET(0xDC3C4A0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_HAMGAJPPIBP_OFFSET UNITYSDK_OFFSET(0xDC3B5A0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC3B4D0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_JNPJIEDLIJI_OFFSET UNITYSDK_OFFSET(0xDC3D720)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_KNACEGNPDCP_OFFSET UNITYSDK_OFFSET(0xDC3D100)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_OJADMGMCENO_OFFSET UNITYSDK_OFFSET(0xDC3CF00)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_OKDEHBDGFFI_OFFSET UNITYSDK_OFFSET(0xDC3D7B0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC3CAB0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_SETCHIMEWRONGSTATE_OFFSET UNITYSDK_OFFSET(0xDC3CDC0)
+#define RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_SHOWBOARD_OFFSET UNITYSDK_OFFSET(0xDC3CD00)
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
-	inline static constexpr unsigned int ChimePuzzleBoard_TypeDefinitionIndex = 78516;
+	inline static constexpr unsigned int ChimePuzzleBoard_TypeDefinitionIndex = 78987;
 
 	class ChimePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimePuzzle::ChimeType, ::System::Int32>** StaticGet_ChimeScore()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimePuzzle::ChimeType, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChimePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x60550);
-		}
 		::System::UInt32 ChimePuzzleGroupID; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::String* ChimePuzzleGroupIDDynamicString; // 0x50
 		::RPG::Client::Prop::ChimePuzzle::ChimePuzzleMode Mode; // 0x58
 		::System::Int32 MaxValue; // 0x5C
@@ -54,20 +50,24 @@ namespace RPG::Client::Prop::ChimePuzzle
 		::Il2CppArray<::System::Int32>* InitCombination; // 0x68
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimePuzzle::ChimeProxy>* ChimeInfos; // 0x70
 		::Il2CppArray<::RPG::Client::Prop::ChimePuzzle::ChimeCoord>* BrokenBlocks; // 0x78
-		::Il2CppArray<::Class_1_3133E5682FCA6A92*>* _ChimeBoardProxise; // 0x80
-		::Class_1_8EE73BB839E63837* _ChimePuzzleInst; // 0x88
+		::Il2CppArray<::DOFODCADEHG*>* _ChimeBoardProxise; // 0x80
+		::GNELPKKAEBC* _ChimePuzzleInst; // 0x88
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _ChimeRunTimeIDToIndex; // 0x90
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_10C1CA4432641F33*>* _ChimeViewProxyMap; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KMBCPKFMDEH*>* _ChimeViewProxyMap; // 0x98
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* _BlockCoords; // 0xA0
+		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimePuzzle::ChimeType, ::System::Int32>** StaticGet_ChimeScore()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimePuzzle::ChimeType, ::System::Int32>**)UnitySDK::FromName("RPG.Client.Prop.ChimePuzzle", "ChimePuzzleBoard")->GetStaticField(0x35AF0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CCTOR_OFFSET))();
 		}
 
 		::System::Void InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
@@ -100,44 +100,45 @@ namespace RPG::Client::Prop::ChimePuzzle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_SETCHIMEWRONGSTATE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_4438B031809D397B(::System::UInt32 a1)
+		::System::Void GPNMMOCCKNK(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_4438B031809D397B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_GPNMMOCCKNK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_6_E885EC74FCEE16A4(::System::UInt32 a1)
+		::System::Boolean HAMGAJPPIBP(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_E885EC74FCEE16A4_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_HAMGAJPPIBP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_E495EFFB22D4AFAB(::Class_0_16E4307DCC419505_460* a1)
+		::System::Void KNACEGNPDCP(::EKFMIDBJDIA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_E495EFFB22D4AFAB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_KNACEGNPDCP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_A5B6063FFC26FC8F()
+		::System::Void OJADMGMCENO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_A5B6063FFC26FC8F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_OJADMGMCENO_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_50F03662731E0345()
+		::System::Boolean OKDEHBDGFFI()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_50F03662731E0345_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_OKDEHBDGFFI_OFFSET))(this);
 		}
 
-		::System::Void Method_6_61929A3103595552()
+		::System::Void CJELDNHONPG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_61929A3103595552_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CJELDNHONPG_OFFSET))(this);
 		}
 
-		::System::Void Method_6_7F4EBEC55EBE2D81()
+		::System::Void CMBEDELFAKF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_7F4EBEC55EBE2D81_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_CMBEDELFAKF_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3BC8B8F2BB08C1C2()
+		::System::Void JNPJIEDLIJI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_METHOD_6_3BC8B8F2BB08C1C2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMEPUZZLE_CHIMEPUZZLEBOARD_JNPJIEDLIJI_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatTaskConfig_MarkBossForceChangePhaseFlag; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_METHOD_3_42008D98B55629D0_OFFSET UNITYSDK_OFFSET(0x1DB05EC0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_METHOD_3_D7FE6DEC532465D5_OFFSET UNITYSDK_OFFSET(0x1DB05F60)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB05F50)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4AE0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E4AF0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E4A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_MarkBossForceChangePhaseFlag_TypeDefinitionIndex = 15906;
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkBossForceChangePhaseFlag_TypeDefinitionIndex = 16079;
 
 	class DiceCombatTaskConfig_MarkBossForceChangePhaseFlag : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_42008D98B55629D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_METHOD_3_42008D98B55629D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D7FE6DEC532465D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_METHOD_3_D7FE6DEC532465D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKBOSSFORCECHANGEPHASEFLAG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

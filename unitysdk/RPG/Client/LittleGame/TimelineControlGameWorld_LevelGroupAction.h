@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9ECC0)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DB220)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_TypeDefinitionIndex = 41232;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_TypeDefinitionIndex = 42521;
 
 	class TimelineControlGameWorld_LevelGroupAction : public ::System::Object
 	{
@@ -17,10 +16,10 @@ namespace RPG::Client::LittleGame
 		::System::String* UniqueName; // 0x10
 		::UnityEngine::Animator* Animator; // 0x18
 		::System::Int32 AnimatorTriggerParam; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

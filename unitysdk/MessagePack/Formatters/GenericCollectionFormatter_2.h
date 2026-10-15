@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/Formatters/CollectionFormatterBase_2.h"
-
-namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericCollectionFormatter_2_TypeDefinitionIndex = 7332;
+	inline static constexpr unsigned int GenericCollectionFormatter_2_TypeDefinitionIndex = 7386;
 
-	template <typename TElement, typename TCollection>
-	class GenericCollectionFormatter_2 : public ::MessagePack::Formatters::CollectionFormatterBase_2<TElement, TCollection>
+	template <typename T1, typename T2>
+	class GenericCollectionFormatter_2
 	{
 	public:
 	};

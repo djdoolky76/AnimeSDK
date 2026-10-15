@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class RogueMiracleRowWrap; }
 namespace RPG::GameCore { class RogueMiracleRow; }
 
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_CREATE_OFFSET UNITYSDK_OFFSET(0x1B9E1150)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEDISPLAYID_OFFSET UNITYSDK_OFFSET(0x1B9E4060)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEEFFECTID_OFFSET UNITYSDK_OFFSET(0x1B9E4160)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET__ROW_OFFSET UNITYSDK_OFFSET(0x1B9E4100)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E4050)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_CREATE_OFFSET UNITYSDK_OFFSET(0xDF396E0)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_CTOR_OFFSET UNITYSDK_OFFSET(0xDF3C5E0)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEDISPLAYID_OFFSET UNITYSDK_OFFSET(0xDF3C5F0)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEEFFECTID_OFFSET UNITYSDK_OFFSET(0xDF3C6F0)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET__ROW_OFFSET UNITYSDK_OFFSET(0xDF3C690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleRowWrap_TypeDefinitionIndex = 67288;
+	inline static constexpr unsigned int RogueMiracleRowWrap_TypeDefinitionIndex = 67290;
 
 	class RogueMiracleRowWrap : public ::System::Object
 	{
 	public:
 		::System::UInt32 _MiracleID; // 0x10
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::RogueMiracleRowWrap* Create(::System::UInt32 a1)
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::RogueMiracleRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET__ROW_OFFSET))(this);
 		}
+
 	};
 }

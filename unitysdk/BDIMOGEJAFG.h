@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BDIMOGEJAFG_TypeDefinitionIndex = 30748;
+
+	enum class BDIMOGEJAFG : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		ACCEPIEJPDF = 2708,
+		IOEFOHDFHGG = 2761,
+		BOMFNPGCIEG = 2705,
+		KDAGJGBHJFC = 2739,
+		PJBBDHBNFOC = 2734,
+		IDLOFNPDAMF = 2756,
+		DKKMLOIPOIH = 2758,
+		IFDAEEMGEKB = 2775,
+		LDNLCNFIPCJ = 2742,
+		OBKNDEAOLPF = 2760,
+		IJDKJJBJEMN = 2725,
+		BBGNFMGJBIC = 2715,
+		FPIEPJMKGGB = 2783,
+		CHHHBIHDNNK = 2716,
+	};

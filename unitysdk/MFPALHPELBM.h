@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class OHDCJOENBLH;
+namespace RPG::GameCore { class TaskContext; }
+
+#define MFPALHPELBM_CTOR_OFFSET UNITYSDK_OFFSET(0xB90AB30)
+#define MFPALHPELBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90ADC0)
+
+inline static constexpr unsigned int MFPALHPELBM_TypeDefinitionIndex = 52825;
+
+	class MFPALHPELBM
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::OHDCJOENBLH* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::OHDCJOENBLH*))((::PBYTE)hIl2Cpp + MFPALHPELBM_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFPALHPELBM_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

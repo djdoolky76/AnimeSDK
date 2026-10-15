@@ -1,0 +1,165 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CPHOIPHAPDJ;
+namespace Google::Protobuf { class CodedInputStream; }
+namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
+namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define CPHOIPHAPDJ_AENLBGLIBJL_OFFSET UNITYSDK_OFFSET(0x1E1117B0)
+#define CPHOIPHAPDJ_AIMMOANBDCA_OFFSET UNITYSDK_OFFSET(0x1E1117C0)
+#define CPHOIPHAPDJ_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E111BD0)
+#define CPHOIPHAPDJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E111ED0)
+#define CPHOIPHAPDJ_CLONE_OFFSET UNITYSDK_OFFSET(0x1E111740)
+#define CPHOIPHAPDJ_CMFGFDOOFFI_OFFSET UNITYSDK_OFFSET(0x1E1117D0)
+#define CPHOIPHAPDJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E111710)
+#define CPHOIPHAPDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E111700)
+#define CPHOIPHAPDJ_ECLJEIOLMND_OFFSET UNITYSDK_OFFSET(0x1E111810)
+#define CPHOIPHAPDJ_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E1118C0)
+#define CPHOIPHAPDJ_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E111830)
+#define CPHOIPHAPDJ_FGDAPHJMJNL_OFFSET UNITYSDK_OFFSET(0x1E111800)
+#define CPHOIPHAPDJ_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E1119A0)
+#define CPHOIPHAPDJ_JANMDMKKBDP_OFFSET UNITYSDK_OFFSET(0x1E1117F0)
+#define CPHOIPHAPDJ_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E111690)
+#define CPHOIPHAPDJ_MEIGHCDGBDI_OFFSET UNITYSDK_OFFSET(0x1E1117E0)
+#define CPHOIPHAPDJ_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E111E30)
+#define CPHOIPHAPDJ_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E111DE0)
+#define CPHOIPHAPDJ_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E1116F0)
+#define CPHOIPHAPDJ_PDJIOGFEPLI_OFFSET UNITYSDK_OFFSET(0x1E111820)
+#define CPHOIPHAPDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1119E0)
+#define CPHOIPHAPDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E111A40)
+
+inline static constexpr unsigned int CPHOIPHAPDJ_TypeDefinitionIndex = 31749;
+
+	class CPHOIPHAPDJ : public ::System::Object
+	{
+	public:
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		::System::UInt32 DNKADAFBILN; // 0x18
+		::System::UInt32 PPLDPADCCBI; // 0x1C
+		::System::UInt32 LJDBCGPFFDH; // 0x20
+		::System::UInt32 NNLJKKAEICI; // 0x24
+		static ::Google::Protobuf::MessageParser_1<::CPHOIPHAPDJ*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::CPHOIPHAPDJ*>**)UnitySDK::FromName("", "CPHOIPHAPDJ")->GetStaticField(0x1F390);
+		}
+
+		// static const ::System::Object KOEOEHIMOEI; // 0x0
+		// static const ::System::Object AOEBNCAILPJ; // 0x0
+		// static const ::System::Object KJAMNGECFBP; // 0x0
+		// static const ::System::Object BFMLFALLFGN; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::CPHOIPHAPDJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CPHOIPHAPDJ*))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_CTOR_1_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::CPHOIPHAPDJ*>* JJGHOBBFNJD()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::CPHOIPHAPDJ*>*(*)())((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_JJGHOBBFNJD_OFFSET))();
+		}
+
+		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
+		{
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
+		}
+
+		::CPHOIPHAPDJ* Clone()
+		{
+			return ((::CPHOIPHAPDJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_CLONE_OFFSET))(this);
+		}
+
+		::System::UInt32 AENLBGLIBJL()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_AENLBGLIBJL_OFFSET))(this);
+		}
+
+		::System::Void AIMMOANBDCA(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_AIMMOANBDCA_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 CMFGFDOOFFI()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_CMFGFDOOFFI_OFFSET))(this);
+		}
+
+		::System::Void MEIGHCDGBDI(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_MEIGHCDGBDI_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 JANMDMKKBDP()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_JANMDMKKBDP_OFFSET))(this);
+		}
+
+		::System::Void FGDAPHJMJNL(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_FGDAPHJMJNL_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 ECLJEIOLMND()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_ECLJEIOLMND_OFFSET))(this);
+		}
+
+		::System::Void PDJIOGFEPLI(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_PDJIOGFEPLI_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::CPHOIPHAPDJ* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::CPHOIPHAPDJ*))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_WRITETO_OFFSET))(this, a1);
+		}
+
+		::System::Int32 CalculateSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_CALCULATESIZE_OFFSET))(this);
+		}
+
+		::System::Void MergeFrom(::CPHOIPHAPDJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CPHOIPHAPDJ*))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_MERGEFROM_OFFSET))(this, a1);
+		}
+
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + CPHOIPHAPDJ_MERGEFROM_1_OFFSET))(this, a1);
+		}
+
+	};

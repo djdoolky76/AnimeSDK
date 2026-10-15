@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AB4B0)
-#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AB4E0)
-#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AB4A0)
-#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AB430)
+#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA75B0)
+#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA7530)
+#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA75E0)
+#define MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA75A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_NotificationDelegate_TypeDefinitionIndex = 7728;
+	inline static constexpr unsigned int SDKDelegate_NotificationDelegate_TypeDefinitionIndex = 7772;
 
 	class SDKDelegate_NotificationDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_NOTIFICATIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

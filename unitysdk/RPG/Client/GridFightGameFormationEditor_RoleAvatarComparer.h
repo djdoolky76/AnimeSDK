@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GridFightRoleConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BD653A0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BD65440)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD61E40)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xD14D600)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0xD14D4F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xD14D590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_RoleAvatarComparer_TypeDefinitionIndex = 64714;
+	inline static constexpr unsigned int GridFightGameFormationEditor_RoleAvatarComparer_TypeDefinitionIndex = 64654;
 
 	class GridFightGameFormationEditor_RoleAvatarComparer : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::RPG::GameCore::GridFightRoleConfigRow* a1, ::RPG::GameCore::GridFightRoleConfigRow* a2)
@@ -29,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GridFightRoleConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ROLEAVATARCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

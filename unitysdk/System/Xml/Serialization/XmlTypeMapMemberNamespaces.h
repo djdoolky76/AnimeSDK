@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Serialization/XmlTypeMapMember.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERNAMESPACES__CTOR_OFFSET UNITYSDK_OFFSET(0x17C44A20)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERNAMESPACES_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE3770)
 
 namespace System::Xml::Serialization
 {
@@ -13,7 +13,8 @@ namespace System::Xml::Serialization
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERNAMESPACES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERNAMESPACES_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,16 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarbleNpcListener; }
+namespace RPG::GameCore { class TaskConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MARBLENPCLISTENER_METHOD_3_1DED02AA4BBEF85B_OFFSET UNITYSDK_OFFSET(0x1D4AD3B0)
-#define RPG_GAMECORE_MARBLENPCLISTENER_METHOD_3_C0161FB08F369E10_OFFSET UNITYSDK_OFFSET(0x1D4AD3F0)
-#define RPG_GAMECORE_MARBLENPCLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AD3E0)
+#define RPG_GAMECORE_MARBLENPCLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D814E50)
+#define RPG_GAMECORE_MARBLENPCLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D814E60)
+#define RPG_GAMECORE_MARBLENPCLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D814E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleNpcListener_TypeDefinitionIndex = 21795;
+	inline static constexpr unsigned int MarbleNpcListener_TypeDefinitionIndex = 22043;
 
 	class MarbleNpcListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +22,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSpecialKillB; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnNormalKillB; // 0x38
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnMassDamageB; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCLISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCLISTENER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1DED02AA4BBEF85B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleNpcListener*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleNpcListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleNpcListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCLISTENER_METHOD_3_1DED02AA4BBEF85B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleNpcListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCLISTENER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C0161FB08F369E10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleNpcListener* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleNpcListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleNpcListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCLISTENER_METHOD_3_C0161FB08F369E10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleNpcListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCLISTENER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

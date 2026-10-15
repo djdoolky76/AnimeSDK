@@ -2,37 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueDLC1Dot3AdventureRoomType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueDLC1Dot3AdventureRoomManage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_METHOD_3_2E6E86137FE548B1_OFFSET UNITYSDK_OFFSET(0x1D919220)
-#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_METHOD_3_D78A7F648B382E88_OFFSET UNITYSDK_OFFSET(0x1D919260)
-#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D919250)
+#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D985210)
+#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D985220)
+#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9851E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomManage_TypeDefinitionIndex = 22027;
+	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomManage_TypeDefinitionIndex = 22275;
 
 	class RogueDLC1Dot3AdventureRoomManage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::RogueDLC1Dot3AdventureRoomType Type; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* TargetBoxTrigger; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2E6E86137FE548B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_METHOD_3_2E6E86137FE548B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D78A7F648B382E88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_METHOD_3_D78A7F648B382E88_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMMANAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

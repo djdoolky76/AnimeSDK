@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/StageHarmonyVelocitySignalMonoPlugin_VelocitySignalType.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client { class StageHarmonyVelocitySignalBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_STAGEHARMONYVELOCITYSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4EF260)
+#define RPG_CLIENT_STAGEHARMONYVELOCITYSIGNALMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE112C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyVelocitySignalMonoPlugin_TypeDefinitionIndex = 70973;
+	inline static constexpr unsigned int StageHarmonyVelocitySignalMonoPlugin_TypeDefinitionIndex = 71005;
 
-	class StageHarmonyVelocitySignalMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyVelocitySignalBehavior*>
+	class StageHarmonyVelocitySignalMonoPlugin
 	{
 	public:
 		::System::String* Channel; // 0x30
@@ -21,10 +18,10 @@ namespace RPG::Client
 		::RPG::Client::StageHarmonyVelocitySignalMonoPlugin_VelocitySignalType VelocitySignalMode; // 0x40
 		::System::Boolean AbsValue; // 0x44
 		::System::Boolean ChannleNameInvalid; // 0x45
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYVELOCITYSIGNALMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYVELOCITYSIGNALMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

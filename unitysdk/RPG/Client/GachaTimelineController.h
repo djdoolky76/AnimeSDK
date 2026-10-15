@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class GachaModule_DrawInfoCache; }
 namespace RPG::GameCore { class GachaCutsceneConfig; }
 namespace RPG::GameCore { class GachaTimelineConfig; }
@@ -12,35 +11,35 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_139E092F12DFE1A7_OFFSET UNITYSDK_OFFSET(0x193A6080)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_2B65D7A931236279_OFFSET UNITYSDK_OFFSET(0x193A4D30)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_2ED8799B5DC425F3_OFFSET UNITYSDK_OFFSET(0x193A5840)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_486A15F3893ACC02_OFFSET UNITYSDK_OFFSET(0x193A5720)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_A27D06F9481FAFDB_OFFSET UNITYSDK_OFFSET(0x193A6360)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_D0898EF70A90254D_OFFSET UNITYSDK_OFFSET(0x193A59E0)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_F018C4D4C383EBB3_OFFSET UNITYSDK_OFFSET(0x193A4F50)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x193A62A0)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x193A4340)
-#define RPG_CLIENT_GACHATIMELINECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x193A63C0)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD0976A0)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_DDOBNODLFDI_OFFSET UNITYSDK_OFFSET(0xD096010)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_GFCJIEPNGMC_OFFSET UNITYSDK_OFFSET(0xD096AE0)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_LBEAKAGBNMJ_OFFSET UNITYSDK_OFFSET(0xD096C80)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_LDFCOCBHDGD_OFFSET UNITYSDK_OFFSET(0xD097320)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_LHKNGJBAAIA_OFFSET UNITYSDK_OFFSET(0xD097600)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_LLFDIIJKKHG_OFFSET UNITYSDK_OFFSET(0xD096A00)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_OJAGHJAKJBO_OFFSET UNITYSDK_OFFSET(0xD096230)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD097540)
+#define RPG_CLIENT_GACHATIMELINECONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xD095630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaTimelineController_TypeDefinitionIndex = 72722;
+	inline static constexpr unsigned int GachaTimelineController_TypeDefinitionIndex = 72802;
 
 	class GachaTimelineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* CGKEFDLCFMH; // 0x0
 		::UnityEngine::Playables::PlayableDirector* OPNHINPCKOJ; // 0x18
 		::RPG::GameCore::GachaCutsceneConfig* BCOIKMNICIM; // 0x20
 		::RPG::GameCore::GachaTimelineConfig* GPJAIPBLGGI; // 0x28
 		::UnityEngine::Material* OAOEINKGPGN; // 0x30
 		::System::Boolean NGKEFBPLJBE; // 0x38
+		::System::Byte _padding0[0x7];
 		::RPG::Client::GachaModule_DrawInfoCache* ONKFLNPHHBE; // 0x40
-
+		// static const ::System::String* CGKEFDLCFMH; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -48,24 +47,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_START_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2B65D7A931236279(::System::UInt32 a1)
+		::System::Void DDOBNODLFDI(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_2B65D7A931236279_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_DDOBNODLFDI_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F018C4D4C383EBB3(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::TimelineAsset* a2)
+		::System::Void OJAGHJAKJBO(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::TimelineAsset* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::TimelineAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_F018C4D4C383EBB3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::TimelineAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_OJAGHJAKJBO_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Timeline::TrackAsset* Method_5_D0898EF70A90254D(::System::String* a1, ::UnityEngine::Timeline::TimelineAsset* a2)
+		::UnityEngine::Timeline::TrackAsset* LBEAKAGBNMJ(::System::String* a1, ::UnityEngine::Timeline::TimelineAsset* a2)
 		{
-			return ((::UnityEngine::Timeline::TrackAsset*(*)(::PVOID, ::System::String*, ::UnityEngine::Timeline::TimelineAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_D0898EF70A90254D_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Timeline::TrackAsset*(*)(::PVOID, ::System::String*, ::UnityEngine::Timeline::TimelineAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_LBEAKAGBNMJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_139E092F12DFE1A7(::UnityEngine::Playables::PlayableDirector* a1)
+		::System::Void LDFCOCBHDGD(::UnityEngine::Playables::PlayableDirector* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_139E092F12DFE1A7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_LDFCOCBHDGD_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDisable()
@@ -73,19 +72,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A27D06F9481FAFDB(::System::Object* a1)
+		::System::Void LHKNGJBAAIA(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_A27D06F9481FAFDB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_LHKNGJBAAIA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_486A15F3893ACC02(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Timeline::TrackAsset* a2)
+		::System::Boolean LLFDIIJKKHG(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Timeline::TrackAsset* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_486A15F3893ACC02_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_LLFDIIJKKHG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_2ED8799B5DC425F3(::System::Boolean a1)
+		::System::Void GFCJIEPNGMC(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_METHOD_5_2ED8799B5DC425F3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATIMELINECONTROLLER_GFCJIEPNGMC_OFFSET))(this, a1);
 		}
+
 	};
 }

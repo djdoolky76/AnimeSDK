@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::PC::OS { class ProductData; }
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEPLAYBILLINGPAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A264D40)
+#define MIHOYO_SDK_PC_OS_GOOGLEPLAYBILLINGPAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE82B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GooglePlayBillingPayInfo_TypeDefinitionIndex = 8479;
+	inline static constexpr unsigned int GooglePlayBillingPayInfo_TypeDefinitionIndex = 8539;
 
 	class GooglePlayBillingPayInfo : public ::System::Object
 	{
@@ -20,10 +19,10 @@ namespace MiHoYo::SDK::PC::OS
 		::MiHoYo::SDK::PC::OS::PurchaseData* purchaseData; // 0x18
 		::MiHoYo::SDK::PC::OS::ProductData* productData; // 0x20
 		::System::String* orderNo; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPLAYBILLINGPAYINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPLAYBILLINGPAYINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

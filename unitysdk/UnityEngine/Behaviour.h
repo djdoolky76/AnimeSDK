@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Component.h"
 
-#define UNITYENGINE_BEHAVIOUR_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1E1E8170)
-#define UNITYENGINE_BEHAVIOUR_GET_ISACTIVEANDENABLED_OFFSET UNITYSDK_OFFSET(0x1E1E8190)
-#define UNITYENGINE_BEHAVIOUR_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1E1E8180)
-#define UNITYENGINE_BEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E81A0)
+#define UNITYENGINE_BEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A61E0)
+#define UNITYENGINE_BEHAVIOUR_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1F3A61B0)
+#define UNITYENGINE_BEHAVIOUR_GET_ISACTIVEANDENABLED_OFFSET UNITYSDK_OFFSET(0x1F3A61D0)
+#define UNITYENGINE_BEHAVIOUR_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1F3A61C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Behaviour_TypeDefinitionIndex = 4314;
+	inline static constexpr unsigned int Behaviour_TypeDefinitionIndex = 4317;
 
 	class Behaviour : public ::UnityEngine::Component
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_enabled()
@@ -33,5 +33,6 @@ namespace UnityEngine
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BEHAVIOUR_GET_ISACTIVEANDENABLED_OFFSET))(this);
 		}
+
 	};
 }

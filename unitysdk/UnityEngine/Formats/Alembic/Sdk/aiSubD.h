@@ -1,44 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSchema.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiMeshSummary.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPolyMeshSample.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GETSUMMARY_OFFSET UNITYSDK_OFFSET(0x3BBB500)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GET_SAMPLE_OFFSET UNITYSDK_OFFSET(0x3BBB480)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1CE45380)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1CE3BA90)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GETSUMMARY_OFFSET UNITYSDK_OFFSET(0x3C62CB0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GET_SAMPLE_OFFSET UNITYSDK_OFFSET(0x3C62C30)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F151020)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F147730)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiSubD_TypeDefinitionIndex = 44691;
+	inline static constexpr unsigned int aiSubD_TypeDefinitionIndex = 45830;
 
-	struct alignas(8) aiSubD
+	struct alignas(4) aiSubD
 	{
 		::System::IntPtr self; // 0x10
 		::UnityEngine::Formats::Alembic::Sdk::aiSchema schema; // 0x10
-
+		/*
 		static ::System::Boolean op_Implicit(::UnityEngine::Formats::Alembic::Sdk::aiSubD a1)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiSubD))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Formats::Alembic::Sdk::aiSchema op_Implicit_1(::UnityEngine::Formats::Alembic::Sdk::aiSubD a1)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aiSchema(*)(::UnityEngine::Formats::Alembic::Sdk::aiSubD))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_OP_IMPLICIT_1_OFFSET))(a1);
 		}
+		*/
 
-		/*
 		::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample get_sample()
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GET_SAMPLE_OFFSET))(this);
 		}
-		*/
 
-		/*
-		::System::Void GetSummary(::UnityEngine::Formats::Alembic::Sdk::aiMeshSummary& a1)
+		::System::Void GetSummary(::UnityEngine::Formats::Alembic::Sdk::aiMeshSummary a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiMeshSummary&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GETSUMMARY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiMeshSummary))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AISUBD_GETSUMMARY_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

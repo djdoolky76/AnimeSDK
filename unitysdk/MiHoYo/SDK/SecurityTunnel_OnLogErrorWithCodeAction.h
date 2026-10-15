@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/SecurityTunnel_ErrorCode.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33BC0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33C40)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD336E0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD33B50)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB04AE50)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB04ADE0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB04AED0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB04AAD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_OnLogErrorWithCodeAction_TypeDefinitionIndex = 46865;
+	inline static constexpr unsigned int SecurityTunnel_OnLogErrorWithCodeAction_TypeDefinitionIndex = 46405;
 
 	class SecurityTunnel_OnLogErrorWithCodeAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::SecurityTunnel_ErrorCode a1, ::System::String* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

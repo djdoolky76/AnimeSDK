@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvWaitingEventBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitRogueTournCollectionBoothPreviewUpdate; }
 
-#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_METHOD_4_17B88221CA4E5897_OFFSET UNITYSDK_OFFSET(0x1DEC0310)
-#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_METHOD_4_F240B587F730E15E_OFFSET UNITYSDK_OFFSET(0x1DEC0360)
-#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC0350)
+#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC72AB0)
+#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC72AC0)
+#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC72A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitRogueTournCollectionBoothPreviewUpdate_TypeDefinitionIndex = 21863;
+	inline static constexpr unsigned int WaitRogueTournCollectionBoothPreviewUpdate_TypeDefinitionIndex = 22111;
 
 	class WaitRogueTournCollectionBoothPreviewUpdate : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* BoothID; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnEvent; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_17B88221CA4E5897(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_METHOD_4_17B88221CA4E5897_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F240B587F730E15E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_METHOD_4_F240B587F730E15E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitRogueTournCollectionBoothPreviewUpdate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHPREVIEWUPDATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

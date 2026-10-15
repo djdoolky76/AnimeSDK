@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChallengeInstance.h"
-
-class Class_1_3AD2528CD53B1639_1;
+class GEGKPEHKGCB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE_SETUPLOADINGSTRATEGY_OFFSET UNITYSDK_OFFSET(0x1AD6EE00)
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CALCISNEWRECORD_OFFSET UNITYSDK_OFFSET(0x1AD6ED30)
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD6E800)
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET UNITYSDK_OFFSET(0x1AD6E860)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC9B6260)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE_SETUPLOADINGSTRATEGY_OFFSET UNITYSDK_OFFSET(0xC9B6860)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CALCISNEWRECORD_OFFSET UNITYSDK_OFFSET(0xC9B6790)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET UNITYSDK_OFFSET(0xC9B62C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryInstance_TypeDefinitionIndex = 63217;
+	inline static constexpr unsigned int ChallengeStoryInstance_TypeDefinitionIndex = 63150;
 
 	class ChallengeStoryInstance : public ::RPG::Client::ChallengeInstance
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* BuffList; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SyncExtraInfo(::Class_1_3AD2528CD53B1639_1* a1)
+		::System::Void _SyncExtraInfo(::GEGKPEHKGCB* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::GEGKPEHKGCB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void _CalcIsNewRecord()
@@ -38,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE_SETUPLOADINGSTRATEGY_OFFSET))(this);
 		}
+
 	};
 }

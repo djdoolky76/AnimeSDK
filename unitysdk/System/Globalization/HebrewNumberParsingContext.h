@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/HebrewNumber_HS.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBERPARSINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3AEDB90)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBERPARSINGCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C20800)
 
 namespace System::Globalization
 {
@@ -13,10 +12,10 @@ namespace System::Globalization
 	{
 		::System::Globalization::HebrewNumber_HS state; // 0x10
 		::System::Int32 result; // 0x14
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBERPARSINGCONTEXT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBERPARSINGCONTEXT_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

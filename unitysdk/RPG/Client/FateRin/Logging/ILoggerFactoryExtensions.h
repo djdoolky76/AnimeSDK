@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
+namespace System { class Object; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS_GETCURRENTCLASSLOGGER_OFFSET UNITYSDK_OFFSET(0x1B5ACE50)
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS_GETLOGGERFOR_OFFSET UNITYSDK_OFFSET(0x1B5AD520)
-#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS__FINDCALLERTYPE_OFFSET UNITYSDK_OFFSET(0x1B5AD060)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS_GETCURRENTCLASSLOGGER_OFFSET UNITYSDK_OFFSET(0xCFA2E40)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS_GETLOGGERFOR_OFFSET UNITYSDK_OFFSET(0xCFA3520)
+#define RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS__FINDCALLERTYPE_OFFSET UNITYSDK_OFFSET(0xCFA3050)
 
 namespace RPG::Client::FateRin::Logging
 {
-	inline static constexpr unsigned int ILoggerFactoryExtensions_TypeDefinitionIndex = 79712;
+	inline static constexpr unsigned int ILoggerFactoryExtensions_TypeDefinitionIndex = 81036;
 
 	class ILoggerFactoryExtensions : public ::System::Object
 	{
@@ -31,5 +31,6 @@ namespace RPG::Client::FateRin::Logging
 		{
 			return ((::RPG::Client::FateRin::Logging::ILogger*(*)(::RPG::Client::FateRin::Logging::ILoggerFactory*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_LOGGING_ILOGGERFACTORYEXTENSIONS_GETLOGGERFOR_OFFSET))(a1, a2);
 		}
+
 	};
 }

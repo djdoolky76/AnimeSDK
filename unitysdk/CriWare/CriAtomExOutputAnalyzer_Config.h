@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputAnalyzer_Config_TypeDefinitionIndex = 38750;
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_Config_TypeDefinitionIndex = 40047;
 
 	struct alignas(4) CriAtomExOutputAnalyzer_Config
 	{

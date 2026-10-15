@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/Emotion/BlendCurve.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPGTools::Timeline::Emotion { class EmoMouthBakedBlendShapes; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B580DC0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1B580E60)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B580F10)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B580EF0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E6000)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E5FE0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xE8E5EB0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xE8E5F50)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoMouthBakedBlendShapesData_TypeDefinitionIndex = 49225;
+	inline static constexpr unsigned int EmoMouthBakedBlendShapesData_TypeDefinitionIndex = 48771;
 
 	class EmoMouthBakedBlendShapesData : public ::UnityEngine::ScriptableObject
 	{
 	public:
+		::RPGTools::Timeline::Emotion::BlendCurve Curve; // 0x18
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapes*>* BlendShapes; // 0x20
 		static ::UnityEngine::AnimationCurve** StaticGet_s_EaseInOutCurve()
 		{
-			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(EmoMouthBakedBlendShapesData_TypeDefinitionIndex)->GetStaticField(0x13AD0);
+			return (::UnityEngine::AnimationCurve**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "EmoMouthBakedBlendShapesData")->GetStaticField(0x68A10);
 		}
-		::RPGTools::Timeline::Emotion::BlendCurve Curve; // 0x18
-		::Il2CppArray<::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapes*>* BlendShapes; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_IsValid()
@@ -44,5 +44,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_LENGTH_OFFSET))(this);
 		}
+
 	};
 }

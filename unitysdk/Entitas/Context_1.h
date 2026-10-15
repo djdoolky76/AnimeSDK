@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace DesperateDevs::Utils { template <typename T> class ObjectPool_1; }
 namespace Entitas { class ContextEntityChanged; }
 namespace Entitas { class ContextGroupChanged; }
@@ -26,9 +25,9 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Context_1_TypeDefinitionIndex = 9928;
+	inline static constexpr unsigned int Context_1_TypeDefinitionIndex = 9986;
 
-	template <typename TEntity>
+	template <typename T>
 	class Context_1 : public ::System::Object
 	{
 	public:
@@ -40,17 +39,17 @@ namespace Entitas
 		::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>* _componentPools; // 0x0
 		::Entitas::ContextInfo* _contextInfo; // 0x0
 		::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>* _aercFactory; // 0x0
-		::System::Func_1<TEntity>* _entityFactory; // 0x0
-		::System::Collections::Generic::HashSet_1<TEntity>* _entities; // 0x0
-		::System::Collections::Generic::Stack_1<TEntity>* _reusableEntities; // 0x0
-		::System::Collections::Generic::HashSet_1<TEntity>* _retainedEntities; // 0x0
-		::System::Collections::Generic::Dictionary_2<::Entitas::IMatcher_1<TEntity>*, ::Entitas::IGroup_1<TEntity>*>* _groups; // 0x0
-		::Il2CppArray<::System::Collections::Generic::List_1<::Entitas::IGroup_1<TEntity>*>*>* _groupsForIndex; // 0x0
-		::DesperateDevs::Utils::ObjectPool_1<::System::Collections::Generic::List_1<::Entitas::GroupChanged_1<TEntity>*>*>* _groupChangedListPool; // 0x0
+		::System::Func_1<T>* _entityFactory; // 0x0
+		::System::Collections::Generic::HashSet_1<T>* _entities; // 0x0
+		::System::Collections::Generic::Stack_1<T>* _reusableEntities; // 0x0
+		::System::Collections::Generic::HashSet_1<T>* _retainedEntities; // 0x0
+		::System::Collections::Generic::Dictionary_2<::Entitas::IMatcher_1<T>*, ::Entitas::IGroup_1<T>*>* _groups; // 0x0
+		::Il2CppArray<::System::Collections::Generic::List_1<::Entitas::IGroup_1<T>*>*>* _groupsForIndex; // 0x0
+		::DesperateDevs::Utils::ObjectPool_1<::System::Collections::Generic::List_1<::Entitas::GroupChanged_1<T>*>*>* _groupChangedListPool; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::Entitas::IEntityIndex*>* _entityIndices; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, TEntity>* _entitiesByCreationIndex; // 0x0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, T>* _entitiesByCreationIndex; // 0x0
 		::System::Int32 _creationIndex; // 0x0
-		::Il2CppArray<TEntity>* _entitiesCache; // 0x0
+		::Il2CppArray<T>* _entitiesCache; // 0x0
 		::Entitas::EntityComponentChanged* _cachedEntityChanged; // 0x0
 		::Entitas::EntityComponentReplaced* _cachedComponentReplaced; // 0x0
 		::Entitas::EntityEvent* _cachedEntityReleased; // 0x0

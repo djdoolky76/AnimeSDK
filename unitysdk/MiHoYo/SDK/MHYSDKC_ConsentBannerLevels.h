@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ConsentBannerLevels_TypeDefinitionIndex = 46674;
+	inline static constexpr unsigned int MHYSDKC_ConsentBannerLevels_TypeDefinitionIndex = 46225;
 
 	class MHYSDKC_ConsentBannerLevels : public ::System::Object
 	{

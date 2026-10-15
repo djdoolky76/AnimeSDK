@@ -1,68 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_4B6B1EA474B8E7B0;
+class KPHMLOHPAAD;
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGiftData; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenInteractPropData; }
 namespace RPG::GameCore { class ActivityHipplenPhaseRow; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8F6C70)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F6CB0)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETCYCLEGROWTHPHASETRIALNAMELIST_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B8F6D50)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETITEMDISPLAYDATAFROMGIFTLIST_B__28_0_OFFSET UNITYSDK_OFFSET(0x1B8F6D90)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETNEWUNLOCKEDINTERACTPROPS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1B8F6D00)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETSTATGRADETYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B8F6CC0)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__OPENHIPPLENMAINPAGE_B__31_1_OFFSET UNITYSDK_OFFSET(0x1B8F6DF0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC43EC60)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC43ECA0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETCYCLEGROWTHPHASETRIALNAMELIST_B__26_0_OFFSET UNITYSDK_OFFSET(0xC43ED40)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETITEMDISPLAYDATAFROMGIFTLIST_B__28_0_OFFSET UNITYSDK_OFFSET(0xC43ED80)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETNEWUNLOCKEDINTERACTPROPS_B__25_0_OFFSET UNITYSDK_OFFSET(0xC43ECF0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETSTATGRADETYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0xC43ECB0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__OPENHIPPLENMAINPAGE_B__31_1_OFFSET UNITYSDK_OFFSET(0xC43EDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenUtils___c_TypeDefinitionIndex = 61621;
+	inline static constexpr unsigned int ActivityHipplenUtils___c_TypeDefinitionIndex = 61527;
 
 	class ActivityHipplenUtils___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>** StaticGet___9__25_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x55750);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B380);
 		}
-		static ::RPG::Client::ActivityHipplenUtils___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityHipplenUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x55758);
-		}
+
 		static ::System::Comparison_1<::RPG::GameCore::ActivityHipplenPhaseRow*>** StaticGet___9__26_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::ActivityHipplenPhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x55760);
+			return (::System::Comparison_1<::RPG::GameCore::ActivityHipplenPhaseRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B388);
 		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B390);
+		}
+
 		static ::System::Action** StaticGet___9__31_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x55768);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B398);
 		}
+
+		static ::System::Comparison_1<::KPHMLOHPAAD*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::KPHMLOHPAAD*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B3A0);
+		}
+
 		static ::System::Func_2<::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*, ::System::UInt32>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x55770);
-		}
-		static ::System::Comparison_1<::Class_1_4B6B1EA474B8E7B0*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::Class_1_4B6B1EA474B8E7B0*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x55778);
+			return (::System::Func_2<::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B3A8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetStatGradeType_b__1_0(::Class_1_4B6B1EA474B8E7B0* a1, ::Class_1_4B6B1EA474B8E7B0* a2)
+		::System::Int32 _GetStatGradeType_b__1_0(::KPHMLOHPAAD* a1, ::KPHMLOHPAAD* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_4B6B1EA474B8E7B0*, ::Class_1_4B6B1EA474B8E7B0*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETSTATGRADETYPE_B__1_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::KPHMLOHPAAD*, ::KPHMLOHPAAD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETSTATGRADETYPE_B__1_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 _GetNewUnlockedInteractProps_b__25_0(::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData* a2)
@@ -84,5 +89,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__OPENHIPPLENMAINPAGE_B__31_1_OFFSET))(this);
 		}
+
 	};
 }

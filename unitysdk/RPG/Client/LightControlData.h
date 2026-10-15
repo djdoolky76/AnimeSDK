@@ -4,21 +4,20 @@
 #include "unitysdk/UnityEngine/LightType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CLIENT_LIGHTCONTROLDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x19505CA0)
-#define RPG_CLIENT_LIGHTCONTROLDATA_ISCHILDOFENVNODE_OFFSET UNITYSDK_OFFSET(0x19505BB0)
-#define RPG_CLIENT_LIGHTCONTROLDATA_RESETTOINITIAL_OFFSET UNITYSDK_OFFSET(0x19505F30)
-#define RPG_CLIENT_LIGHTCONTROLDATA_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x19505EB0)
-#define RPG_CLIENT_LIGHTCONTROLDATA_SETINTENSITY_OFFSET UNITYSDK_OFFSET(0x19505E10)
-#define RPG_CLIENT_LIGHTCONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19506080)
+#define RPG_CLIENT_LIGHTCONTROLDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0xD396450)
+#define RPG_CLIENT_LIGHTCONTROLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD396830)
+#define RPG_CLIENT_LIGHTCONTROLDATA_ISCHILDOFENVNODE_OFFSET UNITYSDK_OFFSET(0xD396360)
+#define RPG_CLIENT_LIGHTCONTROLDATA_RESETTOINITIAL_OFFSET UNITYSDK_OFFSET(0xD3966E0)
+#define RPG_CLIENT_LIGHTCONTROLDATA_SETCOLOR_OFFSET UNITYSDK_OFFSET(0xD396660)
+#define RPG_CLIENT_LIGHTCONTROLDATA_SETINTENSITY_OFFSET UNITYSDK_OFFSET(0xD3965C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightControlData_TypeDefinitionIndex = 70147;
+	inline static constexpr unsigned int LightControlData_TypeDefinitionIndex = 70183;
 
 	class LightControlData : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,18 +25,19 @@ namespace RPG::Client
 		::System::String* lightName; // 0x18
 		::UnityEngine::LightType lightType; // 0x20
 		::System::Boolean controllable; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Int32 lightGroupId; // 0x28
 		::System::Single initialIntensity; // 0x2C
 		::UnityEngine::Color initialColor; // 0x30
 		::UnityEngine::Vector2 intensityRange; // 0x40
 		::System::Single currentIntensity; // 0x48
 		::UnityEngine::Color currentColor; // 0x4C
+		::System::Byte _padding1[0x4];
 		::System::String* assignedCalculator; // 0x60
 		::UnityEngine::Light* lightComponent; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONTROLDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONTROLDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean IsChildOfEnvNode(::UnityEngine::GameObject* a1)
@@ -64,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONTROLDATA_RESETTOINITIAL_OFFSET))(this);
 		}
+
 	};
 }

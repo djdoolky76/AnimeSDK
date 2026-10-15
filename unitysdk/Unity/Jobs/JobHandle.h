@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E1E0820)
-#define UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_OFFSET UNITYSDK_OFFSET(0x1E1E07E0)
-#define UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1E1E07A0)
-#define UNITY_JOBS_JOBHANDLE_COMPLETEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E1E0760)
-#define UNITY_JOBS_JOBHANDLE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x3C562B0)
-#define UNITY_JOBS_JOBHANDLE_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C562D0)
-#define UNITY_JOBS_JOBHANDLE_ISCOMPLETEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E1E0780)
-#define UNITY_JOBS_JOBHANDLE_SCHEDULEBATCHEDJOBS_OFFSET UNITYSDK_OFFSET(0x1E1E0790)
+#define UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F39E890)
+#define UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_OFFSET UNITYSDK_OFFSET(0x1F39E850)
+#define UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1F39E810)
+#define UNITY_JOBS_JOBHANDLE_COMPLETEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F39E7D0)
+#define UNITY_JOBS_JOBHANDLE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x3C6B620)
+#define UNITY_JOBS_JOBHANDLE_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C6B640)
+#define UNITY_JOBS_JOBHANDLE_ISCOMPLETEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F39E7F0)
+#define UNITY_JOBS_JOBHANDLE_SCHEDULEBATCHEDJOBS_OFFSET UNITYSDK_OFFSET(0x1F39E800)
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int JobHandle_TypeDefinitionIndex = 3961;
+	inline static constexpr unsigned int JobHandle_TypeDefinitionIndex = 3962;
 
-	struct alignas(8) JobHandle
+	struct alignas(4) JobHandle
 	{
 		::System::IntPtr jobGroup; // 0x10
 		::System::Int32 version; // 0x18
-
 		::System::Void Complete()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMPLETE_OFFSET))(this);
@@ -35,29 +33,40 @@ namespace Unity::Jobs
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_SCHEDULEBATCHEDJOBS_OFFSET))();
 		}
 
-		static ::System::Void CompleteInternal(::Unity::Jobs::JobHandle& a1)
+		/*
+		static ::System::Void CompleteInternal(::Unity::Jobs::JobHandle a1)
 		{
-			return ((::System::Void(*)(::Unity::Jobs::JobHandle&))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMPLETEINTERNAL_OFFSET))(a1);
+			return ((::System::Void(*)(::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMPLETEINTERNAL_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean IsCompleteInternal(::Unity::Jobs::JobHandle& a1)
+		/*
+		static ::System::Boolean IsCompleteInternal(::Unity::Jobs::JobHandle a1)
 		{
-			return ((::System::Boolean(*)(::Unity::Jobs::JobHandle&))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_ISCOMPLETEINTERNAL_OFFSET))(a1);
+			return ((::System::Boolean(*)(::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_ISCOMPLETEINTERNAL_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Jobs::JobHandle a1, ::Unity::Jobs::JobHandle a2)
 		{
 			return ((::Unity::Jobs::JobHandle(*)(::Unity::Jobs::JobHandle, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIES_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::Unity::Jobs::JobHandle CombineDependenciesInternal2(::Unity::Jobs::JobHandle& a1, ::Unity::Jobs::JobHandle& a2)
+		/*
+		static ::Unity::Jobs::JobHandle CombineDependenciesInternal2(::Unity::Jobs::JobHandle a1, ::Unity::Jobs::JobHandle a2)
 		{
-			return ((::Unity::Jobs::JobHandle(*)(::Unity::Jobs::JobHandle&, ::Unity::Jobs::JobHandle&))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_OFFSET))(a1, a2);
+			return ((::Unity::Jobs::JobHandle(*)(::Unity::Jobs::JobHandle, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Void CombineDependenciesInternal2_Injected(::Unity::Jobs::JobHandle& a1, ::Unity::Jobs::JobHandle& a2, ::Unity::Jobs::JobHandle& a3)
+		/*
+		static ::System::Void CombineDependenciesInternal2_Injected(::Unity::Jobs::JobHandle a1, ::Unity::Jobs::JobHandle a2, ::Unity::Jobs::JobHandle a3)
 		{
-			return ((::System::Void(*)(::Unity::Jobs::JobHandle&, ::Unity::Jobs::JobHandle&, ::Unity::Jobs::JobHandle&))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::Unity::Jobs::JobHandle, ::Unity::Jobs::JobHandle, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + UNITY_JOBS_JOBHANDLE_COMBINEDEPENDENCIESINTERNAL2_INJECTED_OFFSET))(a1, a2, a3);
 		}
+		*/
+
 	};
 }

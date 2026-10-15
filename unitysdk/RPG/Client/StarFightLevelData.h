@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MonsterData; }
 namespace RPG::GameCore { class ActivityStarFightStageConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GETMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x1A4FA680)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1A4FAA00)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x1A4FA920)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0x1A4FA8D0)
-#define RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F9A20)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE11D250)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GETMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xE11DF30)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xE11E2B0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xE11E1D0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0xE11E180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StarFightLevelData_TypeDefinitionIndex = 67977;
+	inline static constexpr unsigned int StarFightLevelData_TypeDefinitionIndex = 67982;
 
 	class StarFightLevelData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ActivityStarFightStageConfigRow* _LevelRow; // 0x10
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>* GetMonsterData()
@@ -45,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET))(this);
 		}
+
 	};
 }

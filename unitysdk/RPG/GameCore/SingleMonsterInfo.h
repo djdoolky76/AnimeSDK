@@ -1,32 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SingleMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEMONSTERINFO_METHOD_2_6D1ECDE6F3651754_OFFSET UNITYSDK_OFFSET(0x1D0A14C0)
-#define RPG_GAMECORE_SINGLEMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A1650)
+#define RPG_GAMECORE_SINGLEMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABE190)
+#define RPG_GAMECORE_SINGLEMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABE000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleMonsterInfo_TypeDefinitionIndex = 23134;
+	inline static constexpr unsigned int SingleMonsterInfo_TypeDefinitionIndex = 23399;
 
 	class SingleMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 MonsterID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* AnchorName; // 0x18
 		::System::Int32 RowIndex; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEMONSTERINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEMONSTERINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6D1ECDE6F3651754(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleMonsterInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SingleMonsterInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleMonsterInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEMONSTERINFO_METHOD_2_6D1ECDE6F3651754_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SingleMonsterInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEMONSTERINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

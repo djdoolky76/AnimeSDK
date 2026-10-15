@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B633DA0)
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B633DE0)
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET UNITYSDK_OFFSET(0x1B633DF0)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5BFB20)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5BFB60)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET UNITYSDK_OFFSET(0xE5BFB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 56673;
+	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 56488;
 
 	class BattleLineupJsonTable___c : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::BattleLineupJsonTable___c** StaticGet___9()
-		{
-			return (::RPG::GameCore::BattleLineupJsonTable___c**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x668C0);
-		}
 		static ::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x668C8);
+			return (::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x55250);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x55258);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPJSONTABLE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPJSONTABLE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _LoadAvatarPresetConfig_b__4_0(::RPG::GameCore::AvatarLineupKeyLevelConfig* a1, ::RPG::GameCore::AvatarLineupKeyLevelConfig* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::AvatarLineupKeyLevelConfig*, ::RPG::GameCore::AvatarLineupKeyLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

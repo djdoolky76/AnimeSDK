@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-
 namespace Entitas
 {
-	inline static constexpr unsigned int ICollector_1_TypeDefinitionIndex = 9925;
+	inline static constexpr unsigned int ICollector_1_TypeDefinitionIndex = 9983;
 
-	template <typename TEntity>
+	template <typename T>
 	class ICollector_1
 	{
 	public:

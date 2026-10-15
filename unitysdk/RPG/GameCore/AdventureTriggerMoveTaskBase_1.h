@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
-
 namespace RPG::Client { class CameraBlendCurve; }
-namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerMoveTaskBase_1_TypeDefinitionIndex = 58081;
+	inline static constexpr unsigned int AdventureTriggerMoveTaskBase_1_TypeDefinitionIndex = 57928;
 
 	template <typename T>
-	class AdventureTriggerMoveTaskBase_1 : public ::RPG::GameCore::ImmediateTaskBase_1<T>
+	class AdventureTriggerMoveTaskBase_1
 	{
 	public:
 		::RPG::Client::CameraBlendCurve* _SpeedCurve; // 0x0

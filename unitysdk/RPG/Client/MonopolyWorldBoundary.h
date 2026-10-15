@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0x19608A80)
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_START_OFFSET UNITYSDK_OFFSET(0x19608910)
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19608AE0)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_CTOR_OFFSET UNITYSDK_OFFSET(0xD8AF750)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0xD8AF6F0)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_START_OFFSET UNITYSDK_OFFSET(0xD8AF580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyWorldBoundary_TypeDefinitionIndex = 72766;
+	inline static constexpr unsigned int MonopolyWorldBoundary_TypeDefinitionIndex = 72849;
 
 	class MonopolyWorldBoundary : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::RectTransform* OFFPODABAEC; // 0x18
 		::Il2CppArray<::UnityEngine::Vector3>* NKAAOPLPBMN; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYWORLDBOUNDARY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYWORLDBOUNDARY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -33,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET))(this);
 		}
+
 	};
 }

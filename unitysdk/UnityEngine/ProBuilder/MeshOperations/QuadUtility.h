@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/EdgeLookup.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -10,13 +9,13 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_GETBESTQUADCONNECTION_OFFSET UNITYSDK_OFFSET(0xCFF3A70)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_GETQUADSCORE_OFFSET UNITYSDK_OFFSET(0xCFF3200)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_TOQUADS_OFFSET UNITYSDK_OFFSET(0xCFF02F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_GETBESTQUADCONNECTION_OFFSET UNITYSDK_OFFSET(0x1F209840)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_GETQUADSCORE_OFFSET UNITYSDK_OFFSET(0x1F208FD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_TOQUADS_OFFSET UNITYSDK_OFFSET(0x1F2060C0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int QuadUtility_TypeDefinitionIndex = 43320;
+	inline static constexpr unsigned int QuadUtility_TypeDefinitionIndex = 44512;
 
 	class QuadUtility : public ::System::Object
 	{
@@ -35,5 +34,6 @@ namespace UnityEngine::ProBuilder::MeshOperations
 		{
 			return ((::System::Single(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_QUADUTILITY_GETQUADSCORE_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

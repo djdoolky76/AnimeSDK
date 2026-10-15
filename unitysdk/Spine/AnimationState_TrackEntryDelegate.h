@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine { class TrackEntry; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1604D0C0)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1604D0F0)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x160465A0)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1604CFD0)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EC6D210)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6D120)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EC6D240)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EC66770)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationState_TrackEntryDelegate_TypeDefinitionIndex = 38332;
+	inline static constexpr unsigned int AnimationState_TrackEntryDelegate_TypeDefinitionIndex = 39629;
 
 	class AnimationState_TrackEntryDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::TrackEntry* a1)
@@ -38,5 +37,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

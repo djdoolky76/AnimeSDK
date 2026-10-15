@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiCameraSample.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICAMERA_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1CE431F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICAMERA_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F14EE90)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiCamera_TypeDefinitionIndex = 44656;
+	inline static constexpr unsigned int NativeMethods_aiCamera_TypeDefinitionIndex = 45795;
 
-	struct alignas(1) NativeMethods_aiCamera
+	struct alignas(4) NativeMethods_aiCamera
 	{
-		/*
 		static ::UnityEngine::Formats::Alembic::Sdk::aiCameraSample aiSchemaGetSample(::System::IntPtr a1)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aiCameraSample(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICAMERA_AISCHEMAGETSAMPLE_OFFSET))(a1);
 		}
-		*/
+
 	};
 }

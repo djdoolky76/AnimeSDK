@@ -1,25 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GameLevelHeartDialDialogueConfig; }
 namespace RPG::GameCore { class GameLevelHeartDialPerformance; }
 namespace RPG::GameCore { class LevelDialogInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_METHOD_2_FA865E2343559C67_OFFSET UNITYSDK_OFFSET(0x1D952B70)
-#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D952EC0)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E92E0)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E8F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameLevelHeartDialDialogueConfig_TypeDefinitionIndex = 17223;
+	inline static constexpr unsigned int GameLevelHeartDialDialogueConfig_TypeDefinitionIndex = 17419;
 
 	class GameLevelHeartDialDialogueConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 DialogueID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* ConfigEntityPath; // 0x18
 		::System::UInt32 FreeStyleID; // 0x20
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::GameLevelHeartDialPerformance* StartPerformance; // 0x28
 		::RPG::GameCore::GameLevelHeartDialPerformance* StartPerformanceOnFinish; // 0x30
 		::RPG::GameCore::LevelDialogInfo* Dialog; // 0x38
@@ -28,15 +30,15 @@ namespace RPG::GameCore
 		::System::String* BlendShapeConfigName; // 0x48
 		::System::Boolean IsOverrideFreeStyleAndBlendShape; // 0x50
 		::System::Boolean IsShowToastAfterPerformance; // 0x51
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FA865E2343559C67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameLevelHeartDialDialogueConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GameLevelHeartDialDialogueConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameLevelHeartDialDialogueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_METHOD_2_FA865E2343559C67_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GameLevelHeartDialDialogueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

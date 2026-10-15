@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client { class EvolveBuildTag; }
 namespace RPG::GameCore { class EvolveBuildTagConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EVOLVEBUILDTAG_CREATE_OFFSET UNITYSDK_OFFSET(0x1B8839E0)
-#define RPG_CLIENT_EVOLVEBUILDTAG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1B883C10)
-#define RPG_CLIENT_EVOLVEBUILDTAG_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B883A80)
-#define RPG_CLIENT_EVOLVEBUILDTAG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B883B30)
-#define RPG_CLIENT_EVOLVEBUILDTAG_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1B883AC0)
-#define RPG_CLIENT_EVOLVEBUILDTAG_GET_SEASON_OFFSET UNITYSDK_OFFSET(0x1B883AA0)
-#define RPG_CLIENT_EVOLVEBUILDTAG_SET_ID_OFFSET UNITYSDK_OFFSET(0x1B883A90)
-#define RPG_CLIENT_EVOLVEBUILDTAG_SET_SEASON_OFFSET UNITYSDK_OFFSET(0x1B883AB0)
-#define RPG_CLIENT_EVOLVEBUILDTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B883A70)
+#define RPG_CLIENT_EVOLVEBUILDTAG_CREATE_OFFSET UNITYSDK_OFFSET(0xCE36690)
+#define RPG_CLIENT_EVOLVEBUILDTAG_CTOR_OFFSET UNITYSDK_OFFSET(0xCE36720)
+#define RPG_CLIENT_EVOLVEBUILDTAG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xCE368C0)
+#define RPG_CLIENT_EVOLVEBUILDTAG_GET_ID_OFFSET UNITYSDK_OFFSET(0xCE36730)
+#define RPG_CLIENT_EVOLVEBUILDTAG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCE367E0)
+#define RPG_CLIENT_EVOLVEBUILDTAG_GET_ROW_OFFSET UNITYSDK_OFFSET(0xCE36770)
+#define RPG_CLIENT_EVOLVEBUILDTAG_GET_SEASON_OFFSET UNITYSDK_OFFSET(0xCE36750)
+#define RPG_CLIENT_EVOLVEBUILDTAG_SET_ID_OFFSET UNITYSDK_OFFSET(0xCE36740)
+#define RPG_CLIENT_EVOLVEBUILDTAG_SET_SEASON_OFFSET UNITYSDK_OFFSET(0xCE36760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildTag_TypeDefinitionIndex = 63872;
+	inline static constexpr unsigned int EvolveBuildTag_TypeDefinitionIndex = 63810;
 
 	class EvolveBuildTag : public ::System::Object
 	{
 	public:
-		::System::UInt32 _ID_k__BackingField; // 0x10
-		::RPG::GameCore::EvolveBuildSeason _Season_k__BackingField; // 0x14
-
+		::RPG::GameCore::EvolveBuildSeason _Season_k__BackingField; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDTAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDTAG_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::EvolveBuildTag* Create(::System::UInt32 a1, ::RPG::GameCore::EvolveBuildSeason a2)
@@ -71,5 +70,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDTAG_GET_ICONPATH_OFFSET))(this);
 		}
+
 	};
 }

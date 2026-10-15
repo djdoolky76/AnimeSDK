@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPGlobalMutationNameStats_TypeDefinitionIndex = 4827;
+	inline static constexpr unsigned int CRPGlobalMutationNameStats_TypeDefinitionIndex = 4833;
 
 	struct alignas(8) CRPGlobalMutationNameStats
 	{

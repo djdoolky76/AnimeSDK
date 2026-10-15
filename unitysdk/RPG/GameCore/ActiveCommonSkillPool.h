@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActiveCommonSkillPool; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_METHOD_3_2F0F649A86112778_OFFSET UNITYSDK_OFFSET(0x1C9EB0F0)
-#define RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_METHOD_3_A76C74E0E0D2401B_OFFSET UNITYSDK_OFFSET(0x1C9EB0B0)
-#define RPG_GAMECORE_ACTIVECOMMONSKILLPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9EB0E0)
+#define RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31BDF0)
+#define RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31BE00)
+#define RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31BDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveCommonSkillPool_TypeDefinitionIndex = 23010;
+	inline static constexpr unsigned int ActiveCommonSkillPool_TypeDefinitionIndex = 23274;
 
 	class ActiveCommonSkillPool : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* PoolNames; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVECOMMONSKILLPOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A76C74E0E0D2401B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveCommonSkillPool*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActiveCommonSkillPool* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveCommonSkillPool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_METHOD_3_A76C74E0E0D2401B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActiveCommonSkillPool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2F0F649A86112778(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveCommonSkillPool* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActiveCommonSkillPool* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveCommonSkillPool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_METHOD_3_2F0F649A86112778_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActiveCommonSkillPool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVECOMMONSKILLPOOL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

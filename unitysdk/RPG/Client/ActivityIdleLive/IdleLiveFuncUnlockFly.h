@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class QuadricBezier; }
 namespace RPG::Client::ActivityIdleLive { class FuncUnlockUiData; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C0E1B50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_FLY_OFFSET UNITYSDK_OFFSET(0x1C0E17B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C0E1BD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C0E1B90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E1EE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_CTOR_OFFSET UNITYSDK_OFFSET(0xC4C8EB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC4C8B20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_FLY_OFFSET UNITYSDK_OFFSET(0xC4C8780)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC4C8BA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC4C8B60)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockFly_TypeDefinitionIndex = 74876;
+	inline static constexpr unsigned int IdleLiveFuncUnlockFly_TypeDefinitionIndex = 75176;
 
 	class IdleLiveFuncUnlockFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* PNBBLMANKPC; // 0x0
 		::System::Single LJEOPKOBAGF; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* KNGEKPKBIDK; // 0x20
 		::UnityEngine::Transform* CEEAKCACHGJ; // 0x28
 		::UnityEngine::Transform* GNPBGAKIAHM; // 0x30
@@ -36,10 +34,10 @@ namespace RPG::Client::ActivityIdleLive
 		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x48
 		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x50
 		::UnityEngine::Transform* AMIKEMOINMJ; // 0x58
-
+		// static const ::System::String* PNBBLMANKPC; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Fly(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::RPG::Client::ActivityIdleLive::FuncUnlockUiData* a4, ::System::Action* a5)
@@ -61,5 +59,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_ONCREATE_OFFSET))(this, a1);
 		}
+
 	};
 }

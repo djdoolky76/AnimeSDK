@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19050)
-#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_GET_TOTAL_OFFSET UNITYSDK_OFFSET(0x784260)
-#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18EB0)
-#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_SET_TOTAL_OFFSET UNITYSDK_OFFSET(0xB596A0)
-#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6B4C20)
+#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
+#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE620)
+#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_GET_TOTAL_OFFSET UNITYSDK_OFFSET(0xFDF0)
+#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_SET_TOTAL_OFFSET UNITYSDK_OFFSET(0xFE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakProgressInfo_TypeDefinitionIndex = 63243;
+	inline static constexpr unsigned int ChallengePeakProgressInfo_TypeDefinitionIndex = 63176;
 
 	struct alignas(4) ChallengePeakProgressInfo
 	{
 		::System::Int32 _Current_k__BackingField; // 0x10
 		::System::Int32 _Total_k__BackingField; // 0x14
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Current()
@@ -41,5 +39,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKPROGRESSINFO_SET_TOTAL_OFFSET))(this, a1);
 		}
+
 	};
 }

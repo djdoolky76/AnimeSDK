@@ -1,0 +1,187 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class String; }
+
+#define CBEMBJPNIJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC49A9E0)
+#define CBEMBJPNIJJ_DDFDECHHJJF_OFFSET UNITYSDK_OFFSET(0xC49A930)
+#define CBEMBJPNIJJ_GET_ASYNCREQUESTS_OFFSET UNITYSDK_OFFSET(0xC49A7F0)
+#define CBEMBJPNIJJ_GET_AVGLIFETIMEMS_OFFSET UNITYSDK_OFFSET(0xC49A8F0)
+#define CBEMBJPNIJJ_GET_BLOCKEDBYMAXCOUNT_OFFSET UNITYSDK_OFFSET(0xC49A870)
+#define CBEMBJPNIJJ_GET_CREATES_OFFSET UNITYSDK_OFFSET(0xC49A810)
+#define CBEMBJPNIJJ_GET_CURRENTACTIVECOUNT_OFFSET UNITYSDK_OFFSET(0xC49A890)
+#define CBEMBJPNIJJ_GET_CURRENTPOOLCACHEDCOUNT_OFFSET UNITYSDK_OFFSET(0xC49A8D0)
+#define CBEMBJPNIJJ_GET_EFFECTPATH_OFFSET UNITYSDK_OFFSET(0xC49A7B0)
+#define CBEMBJPNIJJ_GET_LIFETIMESAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0xC49A910)
+#define CBEMBJPNIJJ_GET_PEAKACTIVECOUNT_OFFSET UNITYSDK_OFFSET(0xC49A8B0)
+#define CBEMBJPNIJJ_GET_REMOVES_OFFSET UNITYSDK_OFFSET(0xC49A850)
+#define CBEMBJPNIJJ_GET_REUSES_OFFSET UNITYSDK_OFFSET(0xC49A830)
+#define CBEMBJPNIJJ_GET_SYNCREQUESTS_OFFSET UNITYSDK_OFFSET(0xC49A7D0)
+#define CBEMBJPNIJJ_NIGBDNJMHKL_OFFSET UNITYSDK_OFFSET(0xC49A980)
+#define CBEMBJPNIJJ_SET_ASYNCREQUESTS_OFFSET UNITYSDK_OFFSET(0xC49A800)
+#define CBEMBJPNIJJ_SET_AVGLIFETIMEMS_OFFSET UNITYSDK_OFFSET(0xC49A900)
+#define CBEMBJPNIJJ_SET_BLOCKEDBYMAXCOUNT_OFFSET UNITYSDK_OFFSET(0xC49A880)
+#define CBEMBJPNIJJ_SET_CREATES_OFFSET UNITYSDK_OFFSET(0xC49A820)
+#define CBEMBJPNIJJ_SET_CURRENTACTIVECOUNT_OFFSET UNITYSDK_OFFSET(0xC49A8A0)
+#define CBEMBJPNIJJ_SET_CURRENTPOOLCACHEDCOUNT_OFFSET UNITYSDK_OFFSET(0xC49A8E0)
+#define CBEMBJPNIJJ_SET_EFFECTPATH_OFFSET UNITYSDK_OFFSET(0xC49A7C0)
+#define CBEMBJPNIJJ_SET_LIFETIMESAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0xC49A920)
+#define CBEMBJPNIJJ_SET_PEAKACTIVECOUNT_OFFSET UNITYSDK_OFFSET(0xC49A8C0)
+#define CBEMBJPNIJJ_SET_REMOVES_OFFSET UNITYSDK_OFFSET(0xC49A860)
+#define CBEMBJPNIJJ_SET_REUSES_OFFSET UNITYSDK_OFFSET(0xC49A840)
+#define CBEMBJPNIJJ_SET_SYNCREQUESTS_OFFSET UNITYSDK_OFFSET(0xC49A7E0)
+
+inline static constexpr unsigned int CBEMBJPNIJJ_TypeDefinitionIndex = 77845;
+
+	class CBEMBJPNIJJ : public ::System::Object
+	{
+	public:
+		::System::String* _EffectPath_k__BackingField; // 0x10
+		::System::Int64 _Creates_k__BackingField; // 0x18
+		::System::Int64 _SyncRequests_k__BackingField; // 0x20
+		::System::Int32 _CurrentPoolCachedCount_k__BackingField; // 0x28
+		::System::Byte _padding0[0x4];
+		::System::Double _AvgLifetimeMs_k__BackingField; // 0x30
+		::System::Int64 _BlockedByMaxCount_k__BackingField; // 0x38
+		::System::Int32 _CurrentActiveCount_k__BackingField; // 0x40
+		::System::Int32 _PeakActiveCount_k__BackingField; // 0x44
+		::System::Int64 _AsyncRequests_k__BackingField; // 0x48
+		::System::Int64 _LifetimeSampleCount_k__BackingField; // 0x50
+		::System::Int64 _Removes_k__BackingField; // 0x58
+		::System::Int64 _Reuses_k__BackingField; // 0x60
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_EffectPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_EFFECTPATH_OFFSET))(this);
+		}
+
+		::System::Void set_EffectPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_EFFECTPATH_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_SyncRequests()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_SYNCREQUESTS_OFFSET))(this);
+		}
+
+		::System::Void set_SyncRequests(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_SYNCREQUESTS_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_AsyncRequests()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_ASYNCREQUESTS_OFFSET))(this);
+		}
+
+		::System::Void set_AsyncRequests(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_ASYNCREQUESTS_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_Creates()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_CREATES_OFFSET))(this);
+		}
+
+		::System::Void set_Creates(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_CREATES_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_Reuses()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_REUSES_OFFSET))(this);
+		}
+
+		::System::Void set_Reuses(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_REUSES_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_Removes()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_REMOVES_OFFSET))(this);
+		}
+
+		::System::Void set_Removes(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_REMOVES_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_BlockedByMaxCount()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_BLOCKEDBYMAXCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_BlockedByMaxCount(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_BLOCKEDBYMAXCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_CurrentActiveCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_CURRENTACTIVECOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentActiveCount(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_CURRENTACTIVECOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_PeakActiveCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_PEAKACTIVECOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_PeakActiveCount(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_PEAKACTIVECOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_CurrentPoolCachedCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_CURRENTPOOLCACHEDCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentPoolCachedCount(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_CURRENTPOOLCACHEDCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Double get_AvgLifetimeMs()
+		{
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_AVGLIFETIMEMS_OFFSET))(this);
+		}
+
+		::System::Void set_AvgLifetimeMs(::System::Double a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_AVGLIFETIMEMS_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_LifetimeSampleCount()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_GET_LIFETIMESAMPLECOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_LifetimeSampleCount(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_SET_LIFETIMESAMPLECOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Int64 DDFDECHHJJF()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_DDFDECHHJJF_OFFSET))(this);
+		}
+
+		::System::Double NIGBDNJMHKL()
+		{
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CBEMBJPNIJJ_NIGBDNJMHKL_OFFSET))(this);
+		}
+
+	};

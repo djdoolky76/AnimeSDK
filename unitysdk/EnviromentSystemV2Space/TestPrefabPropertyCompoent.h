@@ -3,19 +3,18 @@
 #include "unitysdk/EnviromentSystemV2Space/PrefabPropertyComponent.h"
 #include "unitysdk/ScenenLightManager/FadingState.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_INIT_OFFSET UNITYSDK_OFFSET(0x199E6610)
-#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x199E6570)
-#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x199E64C0)
-#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT__CTOR_OFFSET UNITYSDK_OFFSET(0x199E66A0)
+#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1564BF30)
+#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_INIT_OFFSET UNITYSDK_OFFSET(0x1564BEA0)
+#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x1564BE00)
+#define ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x1564BD50)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int TestPrefabPropertyCompoent_TypeDefinitionIndex = 49737;
+	inline static constexpr unsigned int TestPrefabPropertyCompoent_TypeDefinitionIndex = 49311;
 
 	class TestPrefabPropertyCompoent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
@@ -23,10 +22,9 @@ namespace EnviromentSystemV2Space
 		::System::String* aaa; // 0x18
 		::UnityEngine::Texture2D* tex; // 0x20
 		::UnityEngine::Vector3 EJCFLGHGNNB; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnFading(::System::Single a1, ::ScenenLightManager::FadingState a2)
@@ -43,5 +41,6 @@ namespace EnviromentSystemV2Space
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TESTPREFABPROPERTYCOMPOENT_INIT_OFFSET))(this, a1);
 		}
+
 	};
 }

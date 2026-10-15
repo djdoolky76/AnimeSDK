@@ -4,32 +4,32 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace RPG::Client { class GridBasedEventData; }
 namespace RPG::Client { class UIController; }
 namespace UnityEngine::EventSystems { class AxisEventData; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_DISABLEREPEATMOVEONCE_OFFSET UNITYSDK_OFFSET(0x1ADAB350)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_ENABLETWOAXISMOVE_OFFSET UNITYSDK_OFFSET(0x1ADAB390)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET UNITYSDK_OFFSET(0x1ADAB2F0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_INIT_OFFSET UNITYSDK_OFFSET(0x1ADAB300)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_UNITYENGINE_EVENTSYSTEMS_IMOVEHANDLER_ONMOVE_OFFSET UNITYSDK_OFFSET(0x1ADABAA0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ADAB3E0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET UNITYSDK_OFFSET(0x1ADABDC0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADABE60)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET UNITYSDK_OFFSET(0x1ADAB970)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET UNITYSDK_OFFSET(0x1ADAB630)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C0880)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_DISABLEREPEATMOVEONCE_OFFSET UNITYSDK_OFFSET(0xD0BFD80)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_ENABLETWOAXISMOVE_OFFSET UNITYSDK_OFFSET(0xD0BFDC0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET UNITYSDK_OFFSET(0xD0BFD20)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_INIT_OFFSET UNITYSDK_OFFSET(0xD0BFD30)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_UNITYENGINE_EVENTSYSTEMS_IMOVEHANDLER_ONMOVE_OFFSET UNITYSDK_OFFSET(0xD0C04C0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0BFE10)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET UNITYSDK_OFFSET(0xD0C07E0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET UNITYSDK_OFFSET(0xD0C03A0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET UNITYSDK_OFFSET(0xD0C0060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridBasedMovement_TypeDefinitionIndex = 72461;
+	inline static constexpr unsigned int GridBasedMovement_TypeDefinitionIndex = 72534;
 
 	class GridBasedMovement : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>* _OnMove_k__BackingField; // 0x18
 		::System::Boolean UseUnityStickMove; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single MoveSpeed; // 0x24
 		::System::Single MoveThreshold; // 0x28
 		::System::Single FirstMoveThreshold; // 0x2C
@@ -39,10 +39,9 @@ namespace RPG::Client
 		::System::Boolean _IsMoving; // 0x48
 		::System::Boolean _DisableRepeatMoveOnce; // 0x49
 		::System::Boolean _EnableTwoAxisMove; // 0x4A
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>* get_OnMove()
@@ -80,14 +79,15 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::EventSystems::MoveDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _TryGetAxisValue(::UnityEngine::Vector2& a1)
+		::System::Boolean _TryGetAxisValue(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2Int _DetermineMoveDir(::UnityEngine::Vector2 a1, ::System::Single a2)
 		{
 			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

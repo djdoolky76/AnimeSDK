@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleSeekOnBGM; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BATTLESEEKONBGM_METHOD_3_4360DF5C50B7B1C8_OFFSET UNITYSDK_OFFSET(0x1B306520)
-#define RPG_GAMECORE_BATTLESEEKONBGM_METHOD_3_E9B88A87A5B62FB3_OFFSET UNITYSDK_OFFSET(0x1B306560)
-#define RPG_GAMECORE_BATTLESEEKONBGM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B306550)
+#define RPG_GAMECORE_BATTLESEEKONBGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D43AA90)
+#define RPG_GAMECORE_BATTLESEEKONBGM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D43AAA0)
+#define RPG_GAMECORE_BATTLESEEKONBGM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D43AA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleSeekOnBGM_TypeDefinitionIndex = 22710;
+	inline static constexpr unsigned int BattleSeekOnBGM_TypeDefinitionIndex = 22967;
 
 	class BattleSeekOnBGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 MilliSecondPosition; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESEEKONBGM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESEEKONBGM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4360DF5C50B7B1C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleSeekOnBGM*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleSeekOnBGM* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleSeekOnBGM*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESEEKONBGM_METHOD_3_4360DF5C50B7B1C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleSeekOnBGM*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESEEKONBGM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E9B88A87A5B62FB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleSeekOnBGM* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleSeekOnBGM* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleSeekOnBGM*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESEEKONBGM_METHOD_3_E9B88A87A5B62FB3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleSeekOnBGM*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESEEKONBGM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

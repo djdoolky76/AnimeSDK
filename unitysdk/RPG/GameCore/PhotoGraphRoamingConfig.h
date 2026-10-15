@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PhotoGraphRoamingConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4360B0)
-#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D436250)
+#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E4D70)
+#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8E4BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphRoamingConfig_TypeDefinitionIndex = 18832;
+	inline static constexpr unsigned int PhotoGraphRoamingConfig_TypeDefinitionIndex = 19056;
 
 	class PhotoGraphRoamingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::System::Single InitFovRatio; // 0x14
 		::System::Single MaxFov; // 0x18
 		::System::Single MinFov; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphRoamingConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphRoamingConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphRoamingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphRoamingConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

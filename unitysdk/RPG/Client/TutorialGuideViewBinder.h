@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TutorialGuideViewType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace RPG::Client { class TutorialGuideViewBinder; }
 namespace RPG::Client { class TutorialGuideViewNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_NODELIST_OFFSET UNITYSDK_OFFSET(0x1B113BB0)
-#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_OFFSET UNITYSDK_OFFSET(0x1B113AE0)
-#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B113BF0)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE334F50)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_NODELIST_OFFSET UNITYSDK_OFFSET(0xE334F10)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_OFFSET UNITYSDK_OFFSET(0xE334E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideViewBinder_TypeDefinitionIndex = 68206;
+	inline static constexpr unsigned int TutorialGuideViewBinder_TypeDefinitionIndex = 68214;
 
 	class TutorialGuideViewBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::TutorialGuideViewType ViewType; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::TutorialGuideViewNode*>* _NodeList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDEVIEWBINDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::TutorialGuideViewBinder* Get(::UnityEngine::Transform* a1)
@@ -35,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TutorialGuideViewNode*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_NODELIST_OFFSET))(this);
 		}
+
 	};
 }

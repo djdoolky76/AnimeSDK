@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RefreshChangePhaseUI; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_REFRESHCHANGEPHASEUI_METHOD_3_21E09E0E77937F57_OFFSET UNITYSDK_OFFSET(0x1DB7E460)
-#define RPG_GAMECORE_REFRESHCHANGEPHASEUI_METHOD_3_CB2DE14BED3A2FFA_OFFSET UNITYSDK_OFFSET(0x1DB7E390)
-#define RPG_GAMECORE_REFRESHCHANGEPHASEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7E450)
+#define RPG_GAMECORE_REFRESHCHANGEPHASEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9487D0)
+#define RPG_GAMECORE_REFRESHCHANGEPHASEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9487E0)
+#define RPG_GAMECORE_REFRESHCHANGEPHASEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D948710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshChangePhaseUI_TypeDefinitionIndex = 22946;
+	inline static constexpr unsigned int RefreshChangePhaseUI_TypeDefinitionIndex = 23208;
 
 	class RefreshChangePhaseUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHCHANGEPHASEUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHCHANGEPHASEUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CB2DE14BED3A2FFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshChangePhaseUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RefreshChangePhaseUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshChangePhaseUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHCHANGEPHASEUI_METHOD_3_CB2DE14BED3A2FFA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RefreshChangePhaseUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHCHANGEPHASEUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_21E09E0E77937F57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshChangePhaseUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RefreshChangePhaseUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshChangePhaseUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHCHANGEPHASEUI_METHOD_3_21E09E0E77937F57_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RefreshChangePhaseUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHCHANGEPHASEUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

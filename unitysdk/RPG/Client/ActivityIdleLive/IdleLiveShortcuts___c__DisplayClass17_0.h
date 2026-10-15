@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_29ADE9724E15BDC9;
+class FHFCJKKKNLP;
 namespace RPG::Client { class BaseGameFlow; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1027C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1C102970)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E9560)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xC4E9710)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass17_0_TypeDefinitionIndex = 75018;
+	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass17_0_TypeDefinitionIndex = 75318;
 
 	class IdleLiveShortcuts___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x10
-
+		::FHFCJKKKNLP* gameFlowPrepareService; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __DoEnterGameFlow_b__0(::RPG::Client::BaseGameFlow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0___DOENTERGAMEFLOW_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

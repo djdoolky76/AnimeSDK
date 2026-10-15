@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueSubMode.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IResidentActivityPanelData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETACTIVITYRESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0x17980D60)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETDISPLAYRESIDENTACTIVITIES_OFFSET UNITYSDK_OFFSET(0x1797FDE0)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0x17980E10)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETACTIVITYRESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0xDEB23C0)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETDISPLAYRESIDENTACTIVITIES_OFFSET UNITYSDK_OFFSET(0xDEB1440)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0xDEB2470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentActivityPanelDataProvider_TypeDefinitionIndex = 61862;
+	inline static constexpr unsigned int ResidentActivityPanelDataProvider_TypeDefinitionIndex = 61772;
 
 	class ResidentActivityPanelDataProvider : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::IResidentActivityPanelData*(*)(::RPG::GameCore::RogueSubMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/IO/SearchResultHandler_1.h"
-
 namespace System { class String; }
 namespace System::IO { class SearchResult; }
 
-#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D4741D0)
-#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1D474070)
-#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D464050)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C240510)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2304B0)
+#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1C240420)
 
 namespace System::IO
 {
 	inline static constexpr unsigned int StringResultHandler_TypeDefinitionIndex = 676;
 
-	class StringResultHandler : public ::System::IO::SearchResultHandler_1<::System::String*>
+	class StringResultHandler
 	{
 	public:
-		::System::Boolean _includeDirs; // 0x10
-		::System::Boolean _includeFiles; // 0x11
-
+		::System::Boolean _includeFiles; // 0x10
+		::System::Boolean _includeDirs; // 0x11
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGRESULTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsResultIncluded(::System::IO::SearchResult* a1)
@@ -33,5 +30,6 @@ namespace System::IO
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IO::SearchResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET))(this, a1);
 		}
+
 	};
 }

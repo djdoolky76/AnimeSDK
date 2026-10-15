@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class GeetestView; }
 namespace MiHoYo::SDK { class MmtManager_GeetestModel; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7EA00)
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7EA40)
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7E9E0)
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7E8F0)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF2700)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF25F0)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF2740)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF26E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_GeetestLoadURLDelegate_TypeDefinitionIndex = 7798;
+	inline static constexpr unsigned int WebDelegate_GeetestLoadURLDelegate_TypeDefinitionIndex = 7842;
 
 	class WebDelegate_GeetestLoadURLDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::GeetestView* a1, ::System::String* a2, ::MiHoYo::SDK::MmtManager_GeetestModel* a3)
@@ -40,5 +39,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

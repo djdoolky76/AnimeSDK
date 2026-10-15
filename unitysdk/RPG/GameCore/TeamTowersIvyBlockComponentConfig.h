@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TeamTowersIvyBlockComponentConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_METHOD_3_03E41278EEFA2A6F_OFFSET UNITYSDK_OFFSET(0x1E1CE7B0)
-#define RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_METHOD_3_906504D229E277DD_OFFSET UNITYSDK_OFFSET(0x1E1CE810)
-#define RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CE800)
+#define RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4FD20)
+#define RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB4FD30)
+#define RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4FCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersIvyBlockComponentConfig_TypeDefinitionIndex = 18722;
+	inline static constexpr unsigned int TeamTowersIvyBlockComponentConfig_TypeDefinitionIndex = 18946;
 
 	class TeamTowersIvyBlockComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean Enabled; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 MaxSpreadTimes; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_03E41278EEFA2A6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_METHOD_3_03E41278EEFA2A6F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_906504D229E277DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_METHOD_3_906504D229E277DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TeamTowersIvyBlockComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSIVYBLOCKCOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

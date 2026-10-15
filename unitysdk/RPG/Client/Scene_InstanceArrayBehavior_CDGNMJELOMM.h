@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace System { class Object; }
+
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_CTOR_OFFSET UNITYSDK_OFFSET(0xFDE0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xF19C0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_EQUALS_OFFSET UNITYSDK_OFFSET(0xF1950)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF19D0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_CDGNMJELOMM_TypeDefinitionIndex = 70846;
+
+	struct alignas(4) Scene_InstanceArrayBehavior_CDGNMJELOMM
+	{
+		::System::Int32 EANDBJKBOHB; // 0x10
+		::System::Int32 GIDLGKABJJM; // 0x14
+		::System::Int32 PDHOJECNGIC; // 0x18
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		/*
+		::System::Boolean Equals(::RPG::Client::Scene_InstanceArrayBehavior_CDGNMJELOMM a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Scene_InstanceArrayBehavior_CDGNMJELOMM))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_EQUALS_OFFSET))(this, a1);
+		}
+		*/
+
+		::System::Boolean Equals_1(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CDGNMJELOMM_GETHASHCODE_OFFSET))(this);
+		}
+
+	};
+}

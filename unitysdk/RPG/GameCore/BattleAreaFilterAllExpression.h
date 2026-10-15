@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BattleAreaFilterExpression.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleAreaFilterAllExpression; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_METHOD_3_66297788E2FC1F61_OFFSET UNITYSDK_OFFSET(0x1B2F04E0)
-#define RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_METHOD_3_663182C44C259C3D_OFFSET UNITYSDK_OFFSET(0x1B2F0490)
-#define RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F04D0)
+#define RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D424630)
+#define RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D424640)
+#define RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4245F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAreaFilterAllExpression_TypeDefinitionIndex = 17214;
+	inline static constexpr unsigned int BattleAreaFilterAllExpression_TypeDefinitionIndex = 17410;
 
 	class BattleAreaFilterAllExpression : public ::RPG::GameCore::BattleAreaFilterExpression
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_663182C44C259C3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleAreaFilterAllExpression*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleAreaFilterAllExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleAreaFilterAllExpression*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_METHOD_3_663182C44C259C3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleAreaFilterAllExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_66297788E2FC1F61(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleAreaFilterAllExpression* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleAreaFilterAllExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleAreaFilterAllExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_METHOD_3_66297788E2FC1F61_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleAreaFilterAllExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAREAFILTERALLEXPRESSION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,21 +3,22 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
+namespace RPG::GameCore { class PropSetupTwoStateUITrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_862C363D3936A688_OFFSET UNITYSDK_OFFSET(0x1D184370)
-#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_D1737663E5DE3A8F_OFFSET UNITYSDK_OFFSET(0x1D184270)
-#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D184300)
+#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9288B0)
+#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D928920)
+#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D928820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupTwoStateUITrigger_TypeDefinitionIndex = 21970;
+	inline static constexpr unsigned int PropSetupTwoStateUITrigger_TypeDefinitionIndex = 22218;
 
 	class PropSetupTwoStateUITrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,26 +35,29 @@ namespace RPG::GameCore
 		::System::Single UIProtectTime; // 0x70
 		::System::Boolean ForceInteractInDanger; // 0x74
 		::System::Boolean ConsiderAngleLimit; // 0x75
+		::System::Byte _padding0[0x2];
 		::System::Single InteractAngleRange; // 0x78
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::RPG::GameCore::EntityType>* OverrideTargetTypes; // 0x80
 		::System::Boolean TriggerByFakeAvatar; // 0x88
 		::System::Boolean SkipFakeAvatar; // 0x89
+		::System::Byte _padding2[0x6];
 		::RPG::GameCore::PredicateConfig* OnEnterFilter; // 0x90
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D1737663E5DE3A8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTwoStateUITrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_D1737663E5DE3A8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropSetupTwoStateUITrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_862C363D3936A688(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTwoStateUITrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_862C363D3936A688_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropSetupTwoStateUITrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

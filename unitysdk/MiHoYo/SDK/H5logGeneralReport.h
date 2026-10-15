@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/H5logGeneralReport_LogLevel.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class H5logGeneralReport; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORTASYNC_OFFSET UNITYSDK_OFFSET(0x16AA6690)
-#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x16AA6250)
-#define MIHOYO_SDK_H5LOGGENERALREPORT_REPORTINNER_OFFSET UNITYSDK_OFFSET(0x16AA6480)
-#define MIHOYO_SDK_H5LOGGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AA6810)
-#define MIHOYO_SDK_H5LOGGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA6800)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF7EE80)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_CTOR_OFFSET UNITYSDK_OFFSET(0xAF7EE70)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORTASYNC_OFFSET UNITYSDK_OFFSET(0xAF7ED00)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORT_OFFSET UNITYSDK_OFFSET(0xAF7E8C0)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_REPORTINNER_OFFSET UNITYSDK_OFFSET(0xAF7EAF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int H5logGeneralReport_TypeDefinitionIndex = 46932;
+	inline static constexpr unsigned int H5logGeneralReport_TypeDefinitionIndex = 46472;
 
 	class H5logGeneralReport : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::H5logGeneralReport** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::H5logGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(H5logGeneralReport_TypeDefinitionIndex)->GetStaticField(0x47FB0);
+			return (::MiHoYo::SDK::H5logGeneralReport**)UnitySDK::FromName("MiHoYo.SDK", "H5logGeneralReport")->GetStaticField(0x220E0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_H5LOGGENERALREPORT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_H5LOGGENERALREPORT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_H5LOGGENERALREPORT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_H5LOGGENERALREPORT_CCTOR_OFFSET))();
 		}
 
 		::System::Void LogReport(::System::String* a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::H5logGeneralReport_LogLevel a4)
@@ -47,5 +47,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::H5logGeneralReport_LogLevel, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_H5LOGGENERALREPORT_REPORTINNER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

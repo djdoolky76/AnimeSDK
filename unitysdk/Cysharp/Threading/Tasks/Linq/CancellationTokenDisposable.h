@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace System::Threading { class CancellationTokenSource; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CE517F0)
-#define CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1CE51760)
-#define CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE51830)
+#define CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D04D0)
+#define CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F0D0490)
+#define CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1F0D0400)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int CancellationTokenDisposable_TypeDefinitionIndex = 44461;
+	inline static constexpr unsigned int CancellationTokenDisposable_TypeDefinitionIndex = 45600;
 
 	class CancellationTokenDisposable : public ::System::Object
 	{
 	public:
 		::System::Threading::CancellationTokenSource* cts; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Threading::CancellationToken get_Token()
@@ -32,5 +30,6 @@ namespace Cysharp::Threading::Tasks::Linq
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_CANCELLATIONTOKENDISPOSABLE_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,26 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaDatatypeVariety.h"
-#include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
-
-namespace System { class Exception; }
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
-namespace System { class Type; }
-namespace System::Xml { class IXmlNamespaceResolver; }
-namespace System::Xml { class XmlNameTable; }
-namespace System::Xml::Schema { class FacetsChecker; }
-namespace System::Xml::Schema { class RestrictionFacets; }
-namespace System::Xml::Schema { class XmlValueConverter; }
+namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_FROMXMLTOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1B0585B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_GET_TYPECODESTRING_OFFSET UNITYSDK_OFFSET(0x1B0796F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B0796E0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_GET_VARIETY_OFFSET UNITYSDK_OFFSET(0x1B0796D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_TYPECODETOSTRING_OFFSET UNITYSDK_OFFSET(0x1B079880)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B079C50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBA8D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_FROMXMLTOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EE992E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_GET_TYPECODESTRING_OFFSET UNITYSDK_OFFSET(0x1EEBA370)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEBA360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_GET_VARIETY_OFFSET UNITYSDK_OFFSET(0x1EEBA350)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_TYPECODETOSTRING_OFFSET UNITYSDK_OFFSET(0x1EEBA500)
 
 namespace System::Xml::Schema
 {
@@ -31,7 +23,7 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety()
@@ -58,5 +50,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Xml::Schema::XmlSchemaDatatype*(*)(::System::Xml::XmlTokenizedType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMADATATYPE_FROMXMLTOKENIZEDTYPE_OFFSET))(a1);
 		}
+
 	};
 }

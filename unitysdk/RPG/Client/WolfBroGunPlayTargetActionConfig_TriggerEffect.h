@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionConfig.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_482F3423DE650EAD;
+class JNKPPLPLFOM;
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0x16811680)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16811700)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B5A0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TriggerEffect_TypeDefinitionIndex = 68678;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TriggerEffect_TypeDefinitionIndex = 68712;
 
 	class WolfBroGunPlayTargetActionConfig_TriggerEffect : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
@@ -19,16 +18,17 @@ namespace RPG::Client
 		::System::String* effectPath; // 0x18
 		::System::String* attachPoint; // 0x20
 		::System::Boolean followPoint; // 0x28
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 direction; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_482F3423DE650EAD* Method_2_47FCE72550F759BF()
+		::JNKPPLPLFOM* EINKGFCBAJI()
 		{
-			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_METHOD_2_47FCE72550F759BF_OFFSET))(this);
+			return ((::JNKPPLPLFOM*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_EINKGFCBAJI_OFFSET))(this);
 		}
+
 	};
 }

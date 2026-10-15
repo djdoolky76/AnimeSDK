@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::CustomRP { class GradientTex; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_LENSFLAREELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1857D490)
+#define RPG_CUSTOMRP_LENSFLAREELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC05D40)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LensFlareElement_TypeDefinitionIndex = 37135;
+	inline static constexpr unsigned int LensFlareElement_TypeDefinitionIndex = 37821;
 
 	class LensFlareElement : public ::System::Object
 	{
@@ -30,10 +29,10 @@ namespace RPG::CustomRP
 		::System::Boolean UseTexmapRGB; // 0x54
 		::System::Boolean ignoreDirectionRotation; // 0x55
 		::System::Boolean fullScreenDustMask; // 0x56
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LENSFLAREELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LENSFLAREELEMENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

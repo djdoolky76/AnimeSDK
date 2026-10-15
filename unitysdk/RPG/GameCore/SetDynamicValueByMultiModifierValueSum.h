@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/ModifierValueType.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByMultiModifierValueSum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E8200F0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_METHOD_4_62AB6AE478816282_OFFSET UNITYSDK_OFFSET(0x1E81FE50)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_METHOD_4_A9B016A01613B330_OFFSET UNITYSDK_OFFSET(0x1E81FDB0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81FE10)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7A220)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DA7A500)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7A260)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7A1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByMultiModifierValueSum_TypeDefinitionIndex = 23309;
+	inline static constexpr unsigned int SetDynamicValueByMultiModifierValueSum_TypeDefinitionIndex = 23576;
 
 	class SetDynamicValueByMultiModifierValueSum : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -28,25 +28,25 @@ namespace RPG::GameCore
 		::System::String* DynamicKey; // 0x28
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x30
 		::System::Boolean IncludeLimbo; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A9B016A01613B330(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_METHOD_4_A9B016A01613B330_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_62AB6AE478816282(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_METHOD_4_62AB6AE478816282_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMULTIMODIFIERVALUESUM_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

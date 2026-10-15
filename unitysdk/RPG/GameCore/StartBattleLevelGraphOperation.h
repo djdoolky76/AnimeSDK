@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LevelGraphOperationType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StartBattleLevelGraphOperation; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_METHOD_3_582B6197F804978F_OFFSET UNITYSDK_OFFSET(0x1CAF4300)
-#define RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_METHOD_3_663AB6F5BA5AD99E_OFFSET UNITYSDK_OFFSET(0x1CAF42C0)
-#define RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF42F0)
+#define RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEE6B0)
+#define RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAEE6C0)
+#define RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEE680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartBattleLevelGraphOperation_TypeDefinitionIndex = 23137;
+	inline static constexpr unsigned int StartBattleLevelGraphOperation_TypeDefinitionIndex = 23402;
 
 	class StartBattleLevelGraphOperation : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::LevelGraphOperationType OperationType; // 0x18
 		::System::UInt32 Param; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_663AB6F5BA5AD99E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleLevelGraphOperation*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartBattleLevelGraphOperation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleLevelGraphOperation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_METHOD_3_663AB6F5BA5AD99E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartBattleLevelGraphOperation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_582B6197F804978F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleLevelGraphOperation* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartBattleLevelGraphOperation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleLevelGraphOperation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_METHOD_3_582B6197F804978F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartBattleLevelGraphOperation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLELEVELGRAPHOPERATION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

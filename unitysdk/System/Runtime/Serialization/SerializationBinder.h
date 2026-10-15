@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET UNITYSDK_OFFSET(0x19B99380)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B99390)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET UNITYSDK_OFFSET(0x1C30EC20)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C30EC30)
 
 namespace System::Runtime::Serialization
 {
@@ -17,12 +16,13 @@ namespace System::Runtime::Serialization
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void BindToName(::System::Type* a1, ::System::String*& a2, ::System::String*& a3)
+		::System::Void BindToName(::System::Type* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

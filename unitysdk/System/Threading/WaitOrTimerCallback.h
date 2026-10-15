@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_THREADING_WAITORTIMERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C671030)
-#define SYSTEM_THREADING_WAITORTIMERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C671090)
-#define SYSTEM_THREADING_WAITORTIMERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C671020)
-#define SYSTEM_THREADING_WAITORTIMERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C670F30)
+#define SYSTEM_THREADING_WAITORTIMERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C138C40)
+#define SYSTEM_THREADING_WAITORTIMERCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C138B40)
+#define SYSTEM_THREADING_WAITORTIMERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C138CA0)
+#define SYSTEM_THREADING_WAITORTIMERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C138C30)
 
 namespace System::Threading
 {
@@ -20,7 +19,7 @@ namespace System::Threading
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITORTIMERCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITORTIMERCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Boolean a2)
@@ -37,5 +36,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITORTIMERCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

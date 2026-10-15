@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class BiliBiliDelegate_InitCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4B60)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4C10)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4B20)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A4AA0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B310)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B250)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B3C0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B2D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_SDKInitDelegate_TypeDefinitionIndex = 7552;
+	inline static constexpr unsigned int BiliBiliDelegate_SDKInitDelegate_TypeDefinitionIndex = 7606;
 
 	class BiliBiliDelegate_SDKInitDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::IntPtr a2, ::System::Boolean a3, ::System::Boolean a4, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback* a5)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

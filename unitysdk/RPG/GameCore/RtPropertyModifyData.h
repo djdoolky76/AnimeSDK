@@ -2,22 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
-#include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_RTPROPERTYMODIFYDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x39A9C30)
+#define RPG_GAMECORE_RTPROPERTYMODIFYDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0xF62E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtPropertyModifyData_TypeDefinitionIndex = 53946;
+	inline static constexpr unsigned int RtPropertyModifyData_TypeDefinitionIndex = 53732;
 
-	struct alignas(8) RtPropertyModifyData
+	struct alignas(4) RtPropertyModifyData
 	{
 		::RPG::GameCore::RtAbilityProperty PropertyType; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint ModifyValue; // 0x18
-
+		/*
 		::System::Boolean Equals(::RPG::GameCore::RtPropertyModifyData a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RtPropertyModifyData))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPROPERTYMODIFYDATA_EQUALS_OFFSET))(this, a1);
 		}
+		*/
+
 	};
 }

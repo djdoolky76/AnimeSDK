@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client { template <typename T> class GridFightFlowDirector_TransitionRule_1___c; }
+namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_TransitionRule_1___c_TypeDefinitionIndex = 64668;
+	inline static constexpr unsigned int GridFightFlowDirector_TransitionRule_1___c_TypeDefinitionIndex = 64608;
 
 	template <typename T>
 	class GridFightFlowDirector_TransitionRule_1___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightFlowDirector_TransitionRule_1___c<T>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightFlowDirector_TransitionRule_1___c<T>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_TransitionRule_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x0);
 		}
+
 		static ::System::Predicate_1<T>** StaticGet___9__0_0()
 		{
-			return (::System::Predicate_1<T>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_TransitionRule_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Predicate_1<T>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x0);
 		}
+
 	};
 }

@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 
-#define RPG_CLIENT_CAKECATCHUI3DMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A140070)
-#define RPG_CLIENT_CAKECATCHUI3DMONO_CLEARDITHER_OFFSET UNITYSDK_OFFSET(0x1A1402D0)
-#define RPG_CLIENT_CAKECATCHUI3DMONO_GET_SHADERCOMP_OFFSET UNITYSDK_OFFSET(0x1A140000)
-#define RPG_CLIENT_CAKECATCHUI3DMONO_SETDITHER_OFFSET UNITYSDK_OFFSET(0x1A140190)
-#define RPG_CLIENT_CAKECATCHUI3DMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1403E0)
+#define RPG_CLIENT_CAKECATCHUI3DMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8E8750)
+#define RPG_CLIENT_CAKECATCHUI3DMONO_CLEARDITHER_OFFSET UNITYSDK_OFFSET(0xC8E89B0)
+#define RPG_CLIENT_CAKECATCHUI3DMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E8AC0)
+#define RPG_CLIENT_CAKECATCHUI3DMONO_GET_SHADERCOMP_OFFSET UNITYSDK_OFFSET(0xC8E86E0)
+#define RPG_CLIENT_CAKECATCHUI3DMONO_SETDITHER_OFFSET UNITYSDK_OFFSET(0xC8E8870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchUI3DMono_TypeDefinitionIndex = 63042;
+	inline static constexpr unsigned int CakeCatchUI3DMono_TypeDefinitionIndex = 62975;
 
 	class CakeCatchUI3DMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::BaseShaderPropertyTransition* _ShaderComp; // 0x18
 		::System::Single _DitherAlpha; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHUI3DMONO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHUI3DMONO_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::BaseShaderPropertyTransition* get_ShaderComp()
@@ -44,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHUI3DMONO_CLEARDITHER_OFFSET))(this);
 		}
+
 	};
 }

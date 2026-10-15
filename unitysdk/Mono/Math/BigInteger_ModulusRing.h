@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Math { class BigInteger; }
 
-#define MONO_MATH_BIGINTEGER_MODULUSRING_BARRETTREDUCTION_OFFSET UNITYSDK_OFFSET(0x1D237500)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_DIFFERENCE_OFFSET UNITYSDK_OFFSET(0x1D2372A0)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1D237A10)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET UNITYSDK_OFFSET(0x1D237E00)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_OFFSET UNITYSDK_OFFSET(0x1D237C70)
-#define MONO_MATH_BIGINTEGER_MODULUSRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2371B0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_BARRETTREDUCTION_OFFSET UNITYSDK_OFFSET(0x1C03C610)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C03B0F0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_DIFFERENCE_OFFSET UNITYSDK_OFFSET(0x1C03C3B0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1C03CB20)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET UNITYSDK_OFFSET(0x1C03CD80)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_OFFSET UNITYSDK_OFFSET(0x1C03B1E0)
 
 namespace Mono::Math
 {
-	inline static constexpr unsigned int BigInteger_ModulusRing_TypeDefinitionIndex = 2316;
+	inline static constexpr unsigned int BigInteger_ModulusRing_TypeDefinitionIndex = 83;
 
 	class BigInteger_ModulusRing : public ::System::Object
 	{
 	public:
 		::Mono::Math::BigInteger* mod; // 0x10
 		::Mono::Math::BigInteger* constant; // 0x18
-
 		::System::Void _ctor(::Mono::Math::BigInteger* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void BarrettReduction(::Mono::Math::BigInteger* a1)
@@ -50,5 +48,6 @@ namespace Mono::Math
 		{
 			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::System::UInt32, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

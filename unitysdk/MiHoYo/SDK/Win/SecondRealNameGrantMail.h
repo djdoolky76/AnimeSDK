@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class SecondRealNameGrantMail; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -12,45 +12,30 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x187A8F60)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x1879F120)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x187AA470)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x1879AEB0)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_LOGIN_OFFSET UNITYSDK_OFFSET(0x187AA290)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187AA4E0)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_OTHERVERIFY_OFFSET UNITYSDK_OFFSET(0x187AA450)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_REDIRECT_OFFSET UNITYSDK_OFFSET(0x187AA430)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x187AA260)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x187AA250)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x1879B530)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1879F0B0)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_START_OFFSET UNITYSDK_OFFSET(0x187AA130)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x187A9FB0)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x187A9E30)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x187AA500)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDC8590)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x1BDBE760)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDC9AA0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC9B30)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDBA510)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_LOGIN_OFFSET UNITYSDK_OFFSET(0x1BDC98C0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDC9B10)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_OTHERVERIFY_OFFSET UNITYSDK_OFFSET(0x1BDC9A80)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_REDIRECT_OFFSET UNITYSDK_OFFSET(0x1BDC9A60)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDC9890)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDC9880)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDBAB90)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDBE6F0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_START_OFFSET UNITYSDK_OFFSET(0x1BDC9760)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BDC95E0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BDC9460)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealNameGrantMail_TypeDefinitionIndex = 9463;
+	inline static constexpr unsigned int SecondRealNameGrantMail_TypeDefinitionIndex = 9521;
 
 	class SecondRealNameGrantMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::SecondRealNameGrantMail** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::SecondRealNameGrantMail**)Il2CppClass::FromTypeDefinitionIndex(SecondRealNameGrantMail_TypeDefinitionIndex)->GetStaticField(0x3A400);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* MailTextPath; // 0x0
-		// static const ::System::String* VerifyCodeInputPath; // 0x0
-		// static const ::System::String* VerifyCodeInputTextPath; // 0x0
-		// static const ::System::String* VerifyCodeInputPlaceholderPath; // 0x0
-		// static const ::System::String* RequestCodeButtonPath; // 0x0
-		// static const ::System::String* RequestCodeTextPath; // 0x0
-		// static const ::System::String* LoginButtonPath; // 0x0
-		// static const ::System::String* RedirectButtonPath; // 0x0
-		// static const ::System::String* OtherVerifyButtonPath; // 0x0
 		::UnityEngine::UI::Button* backButton; // 0x58
 		::UnityEngine::UI::Text* mailText; // 0x60
 		::UnityEngine::UI::InputField* verifycodeInput; // 0x68
@@ -69,15 +54,32 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnGrantPhone; // 0xD0
 		::System::Action* OnOtherVerify; // 0xD8
 		::System::Boolean isRequestVerifyCode; // 0xE0
+		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xE4
 		::System::Boolean retrieveFlag; // 0xE8
+		::System::Byte _padding1[0x7];
 		::MiHoYo::SDK::AccountModel* account; // 0xF0
 		::System::Boolean isShowRedirect; // 0xF8
 		::System::Boolean isShowOtherVerify; // 0xF9
+		static ::MiHoYo::SDK::Win::SecondRealNameGrantMail** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::SecondRealNameGrantMail**)UnitySDK::FromName("MiHoYo.SDK.Win", "SecondRealNameGrantMail")->GetStaticField(0x2E100);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* MailTextPath; // 0x0
+		// static const ::System::String* VerifyCodeInputPath; // 0x0
+		// static const ::System::String* VerifyCodeInputTextPath; // 0x0
+		// static const ::System::String* VerifyCodeInputPlaceholderPath; // 0x0
+		// static const ::System::String* RequestCodeButtonPath; // 0x0
+		// static const ::System::String* RequestCodeTextPath; // 0x0
+		// static const ::System::String* LoginButtonPath; // 0x0
+		// static const ::System::String* RedirectButtonPath; // 0x0
+		// static const ::System::String* OtherVerifyButtonPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -154,5 +156,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

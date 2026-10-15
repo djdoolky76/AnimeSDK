@@ -3,26 +3,25 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EOverlayDirection.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDC840)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDC8F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDC820)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDC7B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F656DC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F656D30)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F656E70)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F656DA0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__SetOverlayNeighbor_TypeDefinitionIndex = 37817;
+	inline static constexpr unsigned int IVROverlay__SetOverlayNeighbor_TypeDefinitionIndex = 39114;
 
 	class IVROverlay__SetOverlayNeighbor : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::ZenFulcrum::VR::OpenVRBinding::EOverlayDirection a1, ::System::UInt64 a2, ::System::UInt64 a3)
@@ -39,5 +38,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

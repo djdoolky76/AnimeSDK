@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class StartMatchThreeV2PVE1v1Game; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_METHOD_3_1703938A48A95BEF_OFFSET UNITYSDK_OFFSET(0x1D320AC0)
-#define RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_METHOD_3_C2E53916756F2EF2_OFFSET UNITYSDK_OFFSET(0x1D320A80)
-#define RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D320AB0)
+#define RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D309690)
+#define RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3096A0)
+#define RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D309660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StartMatchThreeV2PVE1v1Game_TypeDefinitionIndex = 10240;
+	inline static constexpr unsigned int StartMatchThreeV2PVE1v1Game_TypeDefinitionIndex = 10254;
 
 	class StartMatchThreeV2PVE1v1Game : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::Client
 		::System::UInt32 prop1Level; // 0x24
 		::System::UInt32 prop2ID; // 0x28
 		::System::UInt32 prop2Level; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C2E53916756F2EF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::StartMatchThreeV2PVE1v1Game*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::StartMatchThreeV2PVE1v1Game* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::StartMatchThreeV2PVE1v1Game*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_METHOD_3_C2E53916756F2EF2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::StartMatchThreeV2PVE1v1Game*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1703938A48A95BEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::StartMatchThreeV2PVE1v1Game* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::StartMatchThreeV2PVE1v1Game* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::StartMatchThreeV2PVE1v1Game*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_METHOD_3_1703938A48A95BEF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::StartMatchThreeV2PVE1v1Game*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARTMATCHTHREEV2PVE1V1GAME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+class HFBJCGFABAO;
+class IAJGGEMFOMB;
+class IIIBPJDFPLJ;
+class KCPJAAHHPGK;
+class MCPCIKHFBIO;
+class PDMBLCALNPD;
+namespace RPG::Client::MechCraft::View { class MechCraftCraftPlacedChipPieceControl; }
+namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressControlBinder; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine { class GameObject; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_AKCCKGAAIPD_OFFSET UNITYSDK_OFFSET(0xD628A40)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD629930)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_DIABEJGHCAN_OFFSET UNITYSDK_OFFSET(0xD628350)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_FOFDONGOEAF_OFFSET UNITYSDK_OFFSET(0xD628EE0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_GCELLKOMMEF_OFFSET UNITYSDK_OFFSET(0xD628CA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD627E00)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_GET_PIECEGETTER_OFFSET UNITYSDK_OFFSET(0xD627C40)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xD627E40)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_PHAPEKAADOA_OFFSET UNITYSDK_OFFSET(0xD629740)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD607EA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_SET_PIECEGETTER_OFFSET UNITYSDK_OFFSET(0xD607D90)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___REFRESHTRAITS_B__12_0_OFFSET UNITYSDK_OFFSET(0xD629950)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftProgressControl_TypeDefinitionIndex = 79927;
+
+	class MechCraftCraftProgressControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::HFBJCGFABAO* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftCraftProgressControlBinder* _Binder; // 0x20
+		::System::String* _StateBoardNotComplete; // 0x28
+		::System::String* _StateBoardComplete; // 0x30
+		::System::Boolean FIGOEIGHJGD; // 0x38
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_CTOR_OFFSET))(this);
+		}
+
+		::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* get_PieceGetter()
+		{
+			return ((::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_GET_PIECEGETTER_OFFSET))(this);
+		}
+
+		::System::Void set_PieceGetter(::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_SET_PIECEGETTER_OFFSET))(this, a1);
+		}
+
+		::HFBJCGFABAO* get_Content()
+		{
+			return ((::HFBJCGFABAO*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::HFBJCGFABAO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HFBJCGFABAO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void KANMCJHEFJJ(::HFBJCGFABAO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HFBJCGFABAO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_KANMCJHEFJJ_OFFSET))(this, a1);
+		}
+
+		::System::Void DIABEJGHCAN(::MCPCIKHFBIO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MCPCIKHFBIO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_DIABEJGHCAN_OFFSET))(this, a1);
+		}
+
+		::System::Void AKCCKGAAIPD(::PDMBLCALNPD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PDMBLCALNPD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_AKCCKGAAIPD_OFFSET))(this, a1);
+		}
+
+		::System::Void GCELLKOMMEF(::KCPJAAHHPGK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KCPJAAHHPGK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_GCELLKOMMEF_OFFSET))(this, a1);
+		}
+
+		::System::Void FOFDONGOEAF(::IIIBPJDFPLJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IIIBPJDFPLJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_FOFDONGOEAF_OFFSET))(this, a1);
+		}
+
+		::System::Void PHAPEKAADOA(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL_PHAPEKAADOA_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::GameObject* __RefreshTraits_b__12_0()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___REFRESHTRAITS_B__12_0_OFFSET))(this);
+		}
+
+	};
+}

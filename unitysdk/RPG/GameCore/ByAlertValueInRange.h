@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByAlertValueInRange; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_1028FE37E2E5A7F0_OFFSET UNITYSDK_OFFSET(0x1C2EF640)
-#define RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_2830ED621F32FFE0_OFFSET UNITYSDK_OFFSET(0x1C2EF3D0)
-#define RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_55C949550FA40EC6_OFFSET UNITYSDK_OFFSET(0x1C2EF610)
-#define RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_F4F631AD510D0F8D_OFFSET UNITYSDK_OFFSET(0x1C2EF410)
-#define RPG_GAMECORE_BYALERTVALUEINRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2EF400)
+#define RPG_GAMECORE_BYALERTVALUEINRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D453490)
+#define RPG_GAMECORE_BYALERTVALUEINRANGE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4536D0)
+#define RPG_GAMECORE_BYALERTVALUEINRANGE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4536A0)
+#define RPG_GAMECORE_BYALERTVALUEINRANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4534A0)
+#define RPG_GAMECORE_BYALERTVALUEINRANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D453460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByAlertValueInRange_TypeDefinitionIndex = 19801;
+	inline static constexpr unsigned int ByAlertValueInRange_TypeDefinitionIndex = 20035;
 
 	class ByAlertValueInRange : public ::RPG::GameCore::PredicateConfig
 	{
@@ -22,30 +22,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::Single AlertValueMin; // 0x28
 		::System::Single AlertValueMax; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2830ED621F32FFE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAlertValueInRange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByAlertValueInRange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAlertValueInRange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_2830ED621F32FFE0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByAlertValueInRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F4F631AD510D0F8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAlertValueInRange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByAlertValueInRange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAlertValueInRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_F4F631AD510D0F8D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByAlertValueInRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_55C949550FA40EC6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAlertValueInRange*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAlertValueInRange* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAlertValueInRange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_55C949550FA40EC6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAlertValueInRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1028FE37E2E5A7F0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAlertValueInRange* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAlertValueInRange* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAlertValueInRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_METHOD_4_1028FE37E2E5A7F0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAlertValueInRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALERTVALUEINRANGE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

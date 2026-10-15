@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetCharacterShaderSpeedEnable; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_METHOD_3_826E5201EB1964BB_OFFSET UNITYSDK_OFFSET(0x1E813AD0)
-#define RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_METHOD_3_D5A02BBF1E8728DC_OFFSET UNITYSDK_OFFSET(0x1E813B20)
-#define RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E813B10)
+#define RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6DF50)
+#define RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA6DF60)
+#define RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6DF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterShaderSpeedEnable_TypeDefinitionIndex = 22695;
+	inline static constexpr unsigned int SetCharacterShaderSpeedEnable_TypeDefinitionIndex = 22952;
 
 	class SetCharacterShaderSpeedEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean IsEnable; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_826E5201EB1964BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterShaderSpeedEnable*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCharacterShaderSpeedEnable* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterShaderSpeedEnable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_METHOD_3_826E5201EB1964BB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCharacterShaderSpeedEnable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D5A02BBF1E8728DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterShaderSpeedEnable* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCharacterShaderSpeedEnable* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterShaderSpeedEnable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_METHOD_3_D5A02BBF1E8728DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCharacterShaderSpeedEnable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERSHADERSPEEDENABLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PlanetFesAnimTypeEnum.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlanetFesAnimComposite; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_METHOD_2_42A19DAA9AD4874E_OFFSET UNITYSDK_OFFSET(0x1D797090)
-#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7973B0)
+#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F2C70)
+#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F2950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAnimComposite_TypeDefinitionIndex = 16080;
+	inline static constexpr unsigned int PlanetFesAnimComposite_TypeDefinitionIndex = 16253;
 
 	class PlanetFesAnimComposite : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +25,15 @@ namespace RPG::GameCore
 		::System::String* ActionAnimName; // 0x30
 		::RPG::Client::TextID TalkBubbleText; // 0x38
 		::System::UInt32 EmojiEffectID; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESANIMCOMPOSITE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESANIMCOMPOSITE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_42A19DAA9AD4874E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlanetFesAnimComposite*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlanetFesAnimComposite* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesAnimComposite*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESANIMCOMPOSITE_METHOD_2_42A19DAA9AD4874E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlanetFesAnimComposite*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESANIMCOMPOSITE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

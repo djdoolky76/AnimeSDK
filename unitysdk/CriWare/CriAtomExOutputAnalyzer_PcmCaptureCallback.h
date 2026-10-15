@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D366FB0)
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D367030)
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D366D80)
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D366F30)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x166E26E0)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x166E2660)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x166E2760)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x166E24B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputAnalyzer_PcmCaptureCallback_TypeDefinitionIndex = 38749;
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_PcmCaptureCallback_TypeDefinitionIndex = 40046;
 
 	class CriAtomExOutputAnalyzer_PcmCaptureCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Il2CppArray<::System::Single>* a1, ::Il2CppArray<::System::Single>* a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -37,5 +36,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTANALYZER_PCMCAPTURECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

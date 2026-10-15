@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine { class Attachment; }
 namespace Spine { class BoundingBoxAttachment; }
 namespace Spine { class Skin; }
@@ -11,56 +10,57 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class PolygonCollider2D; }
 
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_ADDCOLLIDERSFORSKIN_OFFSET UNITYSDK_OFFSET(0x18310B40)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_CLEARSTATE_OFFSET UNITYSDK_OFFSET(0x183114B0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_DISPOSEEXCESSCOLLIDERSAFTER_OFFSET UNITYSDK_OFFSET(0x183110B0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_CURRENTATTACHMENTNAME_OFFSET UNITYSDK_OFFSET(0x18310300)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_CURRENTATTACHMENT_OFFSET UNITYSDK_OFFSET(0x183102F0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_CURRENTCOLLIDER_OFFSET UNITYSDK_OFFSET(0x18310310)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_ISTRIGGER_OFFSET UNITYSDK_OFFSET(0x18310320)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x183102E0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_HANDLEREBUILD_OFFSET UNITYSDK_OFFSET(0x18310B30)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x18310340)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18311670)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_MATCHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x18311690)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x183113A0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18310970)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_START_OFFSET UNITYSDK_OFFSET(0x18310330)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18311B90)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x18311A80)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_ADDCOLLIDERSFORSKIN_OFFSET UNITYSDK_OFFSET(0x1ECD5BD0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECD6C20)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_CLEARSTATE_OFFSET UNITYSDK_OFFSET(0x1ECD6540)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD6B10)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_DISPOSEEXCESSCOLLIDERSAFTER_OFFSET UNITYSDK_OFFSET(0x1ECD6140)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_CURRENTATTACHMENTNAME_OFFSET UNITYSDK_OFFSET(0x1ECD5390)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_CURRENTATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECD5380)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_CURRENTCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1ECD53A0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_ISTRIGGER_OFFSET UNITYSDK_OFFSET(0x1ECD53B0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x1ECD5370)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_HANDLEREBUILD_OFFSET UNITYSDK_OFFSET(0x1ECD5BC0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECD53D0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ECD6700)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_MATCHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECD6720)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ECD6430)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ECD5A00)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWER_START_OFFSET UNITYSDK_OFFSET(0x1ECD53C0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BoundingBoxFollower_TypeDefinitionIndex = 43824;
+	inline static constexpr unsigned int BoundingBoxFollower_TypeDefinitionIndex = 45016;
 
 	class BoundingBoxFollower : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_DebugMessages()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoundingBoxFollower_TypeDefinitionIndex)->GetStaticField(0x90B0);
-		}
 		::Spine::Unity::SkeletonRenderer* skeletonRenderer; // 0x18
 		::System::String* slotName; // 0x20
 		::System::Boolean isTrigger; // 0x28
 		::System::Boolean usedByEffector; // 0x29
 		::System::Boolean usedByComposite; // 0x2A
 		::System::Boolean clearStateOnDisable; // 0x2B
+		::System::Byte _padding0[0x4];
 		::Spine::Slot* slot; // 0x30
 		::Spine::BoundingBoxAttachment* currentAttachment; // 0x38
 		::System::String* currentAttachmentName; // 0x40
 		::UnityEngine::PolygonCollider2D* currentCollider; // 0x48
 		::System::Collections::Generic::Dictionary_2<::Spine::BoundingBoxAttachment*, ::UnityEngine::PolygonCollider2D*>* colliderTable; // 0x50
 		::System::Collections::Generic::Dictionary_2<::Spine::BoundingBoxAttachment*, ::System::String*>* nameTable; // 0x58
+		static ::System::Boolean* StaticGet_DebugMessages()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Spine.Unity", "BoundingBoxFollower")->GetStaticField(0x43B0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER_CCTOR_OFFSET))();
 		}
 
 		::Spine::Slot* get_Slot()
@@ -108,9 +108,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER_INITIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddCollidersForSkin(::Spine::Skin* a1, ::System::Int32 a2, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>* a3, ::System::Int32& a4)
+		::System::Void AddCollidersForSkin(::Spine::Skin* a1, ::System::Int32 a2, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skin*, ::System::Int32, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER_ADDCOLLIDERSFORSKIN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skin*, ::System::Int32, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER_ADDCOLLIDERSFORSKIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void OnDisable()
@@ -137,5 +137,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWER_MATCHATTACHMENT_OFFSET))(this, a1);
 		}
+
 	};
 }

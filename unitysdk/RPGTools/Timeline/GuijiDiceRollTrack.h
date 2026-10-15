@@ -3,24 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B590380)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B5904C0)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B590640)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F5650)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8F5790)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F5910)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GuijiDiceRollTrack_TypeDefinitionIndex = 48595;
+	inline static constexpr unsigned int GuijiDiceRollTrack_TypeDefinitionIndex = 48135;
 
 	class GuijiDiceRollTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GUIJIDICEROLLTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

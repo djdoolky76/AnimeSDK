@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF2BAF0)
-#define RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1BF2BC10)
-#define RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2BCE0)
+#define RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE941B20)
+#define RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE941C40)
+#define RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE941D10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimelineCustomEventTrack_TypeDefinitionIndex = 48864;
+	inline static constexpr unsigned int TimelineCustomEventTrack_TypeDefinitionIndex = 48410;
 
 	class TimelineCustomEventTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMELINECUSTOMEVENTTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

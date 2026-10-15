@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PredicateTaskBase_1_TypeDefinitionIndex = 54999;
+	inline static constexpr unsigned int PredicateTaskBase_1_TypeDefinitionIndex = 54789;
 
-	template <typename TConfig>
-	class PredicateTaskBase_1 : public ::Class_1_5F51D4049EA87B7B
+	template <typename T>
+	class PredicateTaskBase_1 : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x0
-		TConfig _ConfigRef; // 0x0
+		T _ConfigRef; // 0x0
 	};
 }

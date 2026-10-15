@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1B790E90)
-#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B791140)
-#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B790F10)
-#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7912D0)
+#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CC8C0)
+#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1F4CC480)
+#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F4CC730)
+#define UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F4CC500)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicMaterialInstance_TypeDefinitionIndex = 6709;
+	inline static constexpr unsigned int GraphicMaterialInstance_TypeDefinitionIndex = 6718;
 
 	class GraphicMaterialInstance : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +19,9 @@ namespace UnityEngine::UI
 		::UnityEngine::UI::Graphic* m_Graphic; // 0x18
 		::UnityEngine::Material* m_OrginMaterial; // 0x20
 		::UnityEngine::Material* m_MaterialInstance; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICMATERIALINSTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::UI::Graphic* get_graphic()
@@ -40,5 +38,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICMATERIALINSTANCE_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

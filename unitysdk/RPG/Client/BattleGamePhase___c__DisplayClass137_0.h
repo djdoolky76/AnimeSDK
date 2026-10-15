@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BattleGamePhase; }
 namespace RPG::GameCore { class LevelTurnUltraSkillPrepare; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5EDF0)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0___ONLEVELTURNULTRASKILLPREPAREEVENT_B__1_OFFSET UNITYSDK_OFFSET(0x19F64990)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0___ONLEVELTURNULTRASKILLPREPAREEVENT_G___ONFRAMECAPTUREDONE_0_OFFSET UNITYSDK_OFFSET(0x19F5EE00)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC82F1F0)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0___ONLEVELTURNULTRASKILLPREPAREEVENT_B__1_OFFSET UNITYSDK_OFFSET(0xC834C50)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0___ONLEVELTURNULTRASKILLPREPAREEVENT_G___ONFRAMECAPTUREDONE_0_OFFSET UNITYSDK_OFFSET(0xC82F200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass137_0_TypeDefinitionIndex = 61062;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass137_0_TypeDefinitionIndex = 60965;
 
 	class BattleGamePhase___c__DisplayClass137_0 : public ::System::Object
 	{
@@ -19,10 +18,9 @@ namespace RPG::Client
 		::RPG::GameCore::LevelTurnUltraSkillPrepare* pRealEvent; // 0x10
 		::RPG::Client::BattleGamePhase* __4__this; // 0x18
 		::System::Boolean bHasPrepareAbility; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __OnLevelTurnUltraSkillPrepareEvent_g___OnFrameCaptureDone_0()
@@ -34,5 +32,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS137_0___ONLEVELTURNULTRASKILLPREPAREEVENT_B__1_OFFSET))(this);
 		}
+
 	};
 }

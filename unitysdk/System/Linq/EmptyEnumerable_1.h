@@ -4,15 +4,16 @@
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int EmptyEnumerable_1_TypeDefinitionIndex = 3163;
+	inline static constexpr unsigned int EmptyEnumerable_1_TypeDefinitionIndex = 3164;
 
-	template <typename TElement>
+	template <typename T>
 	class EmptyEnumerable_1 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<TElement>** StaticGet_Instance()
+		static ::Il2CppArray<T>** StaticGet_Instance()
 		{
-			return (::Il2CppArray<TElement>**)Il2CppClass::FromTypeDefinitionIndex(EmptyEnumerable_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<T>**)UnitySDK::FromName("System.Linq", "EmptyEnumerable`1")->GetStaticField(0x0);
 		}
+
 	};
 }

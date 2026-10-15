@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3BACAD0)
-#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x3BACA30)
+#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C7E490)
+#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C7E530)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5162;
+	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5169;
 
-	struct alignas(1) GUIClip_ParentClipScope
+	struct alignas(4) GUIClip_ParentClipScope
 	{
 		::System::Boolean m_Disposed; // 0x10
-
-		/*
 		::System::Void _ctor(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Rect a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_PARENTCLIPSCOPE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_CTOR_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::Void Dispose()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

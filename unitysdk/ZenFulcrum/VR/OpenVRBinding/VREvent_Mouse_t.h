@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Mouse_t_TypeDefinitionIndex = 37986;
+	inline static constexpr unsigned int VREvent_Mouse_t_TypeDefinitionIndex = 39283;
 
 	struct alignas(4) VREvent_Mouse_t
 	{

@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class AFEPOFEOCDI;
+class OCPOIDCNJDA;
+class OMPCEECHGJK;
+namespace Entitas { template <typename T> class IGroup_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define DLFEICHFIOA_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xF896EE0)
+#define DLFEICHFIOA_CTOR_OFFSET UNITYSDK_OFFSET(0xF896ED0)
+#define DLFEICHFIOA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF897040)
+#define DLFEICHFIOA_HFILAANFCAN_OFFSET UNITYSDK_OFFSET(0xF8972F0)
+#define DLFEICHFIOA_IJOLENBNDDC_OFFSET UNITYSDK_OFFSET(0xF897230)
+#define DLFEICHFIOA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xF896F40)
+
+inline static constexpr unsigned int DLFEICHFIOA_TypeDefinitionIndex = 76659;
+
+	class DLFEICHFIOA : public ::System::Object
+	{
+	public:
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* LPDMBHGIAPJ; // 0x10
+		::AFEPOFEOCDI* FKINCGODJEP; // 0x18
+		::OMPCEECHGJK* PDENFEFCAGN; // 0x20
+		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::AFEPOFEOCDI*, ::OMPCEECHGJK*))((::PBYTE)hIl2Cpp + DLFEICHFIOA_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean BBLMMNLCMGM()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DLFEICHFIOA_BBLMMNLCMGM_OFFSET))(this);
+		}
+
+		::System::Void Initialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLFEICHFIOA_INITIALIZE_OFFSET))(this);
+		}
+
+		::System::Void Execute()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLFEICHFIOA_EXECUTE_OFFSET))(this);
+		}
+
+		::System::Void IJOLENBNDDC(::OCPOIDCNJDA* a1, ::System::Collections::Generic::List_1<::OCPOIDCNJDA*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::OCPOIDCNJDA*, ::System::Collections::Generic::List_1<::OCPOIDCNJDA*>*))((::PBYTE)hIl2Cpp + DLFEICHFIOA_IJOLENBNDDC_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void HFILAANFCAN(::OCPOIDCNJDA* a1, ::System::Collections::Generic::List_1<::OCPOIDCNJDA*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::OCPOIDCNJDA*, ::System::Collections::Generic::List_1<::OCPOIDCNJDA*>*))((::PBYTE)hIl2Cpp + DLFEICHFIOA_HFILAANFCAN_OFFSET))(this, a1, a2);
+		}
+
+	};

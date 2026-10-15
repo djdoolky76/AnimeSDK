@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IRogueMiracle; }
 namespace RPG::Client { class IRogueMiracleWithCategory; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11857780)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x118577B0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_INVOKE_OFFSET UNITYSDK_OFFSET(0x11857770)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151__CTOR_OFFSET UNITYSDK_OFFSET(0x11857680)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA9550)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA9450)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA9580)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA9540)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_DF972151_TypeDefinitionIndex = 50475;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_DF972151_TypeDefinitionIndex = 50109;
 
 	class InternalGlobals___GEN_DELEGATE_B00_DF972151 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::IRogueMiracleWithCategory* Invoke(::RPG::Client::IRogueMiracle* a1)
@@ -39,5 +38,6 @@ namespace XLua
 		{
 			return ((::RPG::Client::IRogueMiracleWithCategory*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DF972151_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

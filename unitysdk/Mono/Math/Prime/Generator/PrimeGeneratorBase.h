@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Math/Prime/ConfidenceFactor.h"
 #include "unitysdk/System/Object.h"
-
-namespace Mono::Math { class BigInteger; }
 namespace Mono::Math::Prime { class PrimalityTest; }
 
-#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_CONFIDENCE_OFFSET UNITYSDK_OFFSET(0x1D237E90)
-#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_PRIMALITYTEST_OFFSET UNITYSDK_OFFSET(0x1D237EA0)
-#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_TRIALDIVISIONBOUNDS_OFFSET UNITYSDK_OFFSET(0x1D237F10)
-#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D237F20)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C03CEA0)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_CONFIDENCE_OFFSET UNITYSDK_OFFSET(0x1C03CE10)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_PRIMALITYTEST_OFFSET UNITYSDK_OFFSET(0x1C03CE20)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_TRIALDIVISIONBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C03CE90)
 
 namespace Mono::Math::Prime::Generator
 {
-	inline static constexpr unsigned int PrimeGeneratorBase_TypeDefinitionIndex = 2321;
+	inline static constexpr unsigned int PrimeGeneratorBase_TypeDefinitionIndex = 88;
 
 	class PrimeGeneratorBase : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_CTOR_OFFSET))(this);
 		}
 
 		::Mono::Math::Prime::ConfidenceFactor get_Confidence()
@@ -37,5 +35,6 @@ namespace Mono::Math::Prime::Generator
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_GET_TRIALDIVISIONBOUNDS_OFFSET))(this);
 		}
+
 	};
 }

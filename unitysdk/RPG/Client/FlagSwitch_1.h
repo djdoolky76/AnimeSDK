@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlagSwitch_1_TypeDefinitionIndex = 60051;
+	inline static constexpr unsigned int FlagSwitch_1_TypeDefinitionIndex = 59914;
 
 	template <typename T>
 	class FlagSwitch_1 : public ::System::Object

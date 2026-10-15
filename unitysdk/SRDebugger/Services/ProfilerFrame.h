@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ProfilerFrame_TypeDefinitionIndex = 37376;
+	inline static constexpr unsigned int ProfilerFrame_TypeDefinitionIndex = 38069;
 
-	struct alignas(8) ProfilerFrame
+	struct alignas(4) ProfilerFrame
 	{
 		::System::Double FrameTime; // 0x10
 		::System::Double OtherTime; // 0x18

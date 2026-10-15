@@ -1,45 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ArtNPCPedestrianAssetConfig_FeatureData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_METHOD_1_3EA30B12D9DE8222_OFFSET UNITYSDK_OFFSET(0x1B32C630)
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x1B32C5F0)
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_METHOD_1_DA37DFE3A5BDA9F4_OFFSET UNITYSDK_OFFSET(0x1B32BFB0)
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32C710)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC693630)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC692ED0)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_PAABEMLAHOL_OFFSET UNITYSDK_OFFSET(0xC693550)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_PNJGKDFAACN_OFFSET UNITYSDK_OFFSET(0xC693510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_IdentityData_TypeDefinitionIndex = 69193;
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_IdentityData_TypeDefinitionIndex = 69229;
 
 	class ArtNPCPedestrianAssetConfig_IdentityData : public ::System::Object
 	{
 	public:
 		::System::String* IdentityID; // 0x10
-		::Il2CppArray<::RPG::Client::ArtNPCPedestrianAssetConfig_FeatureData*>* FeatureDatas; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::ArtNPCPedestrianAssetConfig_FeatureData*>* _FeatureMap; // 0x20
-
+		::Il2CppArray<::System::Object*>* FeatureDatas; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _FeatureMap; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_DA1BF2C227DC3D86()
+		::System::String* PNJGKDFAACN()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_METHOD_1_DA1BF2C227DC3D86_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_PNJGKDFAACN_OFFSET))(this);
 		}
 
-		::System::Void Method_1_DA37DFE3A5BDA9F4()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_METHOD_1_DA37DFE3A5BDA9F4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::RPG::Client::ArtNPCPedestrianAssetConfig_FeatureData* Method_1_3EA30B12D9DE8222(::System::String* a1)
+		::RPG::Client::ArtNPCPedestrianAssetConfig_FeatureData* PAABEMLAHOL(::System::String* a1)
 		{
-			return ((::RPG::Client::ArtNPCPedestrianAssetConfig_FeatureData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_METHOD_1_3EA30B12D9DE8222_OFFSET))(this, a1);
+			return ((::RPG::Client::ArtNPCPedestrianAssetConfig_FeatureData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_IDENTITYDATA_PAABEMLAHOL_OFFSET))(this, a1);
 		}
+
 	};
 }

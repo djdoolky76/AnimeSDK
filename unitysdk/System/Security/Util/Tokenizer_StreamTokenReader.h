@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::IO { class StreamReader; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_GET_NUMCHARENCOUNTERED_OFFSET UNITYSDK_OFFSET(0x166DE260)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_READ_OFFSET UNITYSDK_OFFSET(0x166DE0B0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x166DD7D0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C9610)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_GET_NUMCHARENCOUNTERED_OFFSET UNITYSDK_OFFSET(0x1C0CA0A0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_READ_OFFSET UNITYSDK_OFFSET(0x1C0C9EF0)
 
 namespace System::Security::Util
 {
@@ -17,10 +16,9 @@ namespace System::Security::Util
 	public:
 		::System::IO::StreamReader* _in; // 0x10
 		::System::Int32 _numCharRead; // 0x18
-
 		::System::Void _ctor(::System::IO::StreamReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::StreamReader*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IO::StreamReader*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Read()
@@ -32,5 +30,6 @@ namespace System::Security::Util
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_GET_NUMCHARENCOUNTERED_OFFSET))(this);
 		}
+
 	};
 }

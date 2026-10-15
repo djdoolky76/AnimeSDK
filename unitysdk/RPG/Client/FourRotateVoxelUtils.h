@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_4EEAD21E873B5A41;
-class Class_2_B8E38BF47138A2E5;
+class INMMPMDELKE;
+class OEAKPLCANOI;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_EVALUATEID_OFFSET UNITYSDK_OFFSET(0x190E6010)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEENTITYBYENTITYID_OFFSET UNITYSDK_OFFSET(0x190E6410)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEVOXELLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x190E6630)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEVOXELLEVELUNITLENGTH_OFFSET UNITYSDK_OFFSET(0x190E69C0)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x190E60E0)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETPLAYERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x190E6A50)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_ISFOURROTATEVOXELCONTAINER_OFFSET UNITYSDK_OFFSET(0x190E6920)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETCONTAINERENTITY_OFFSET UNITYSDK_OFFSET(0x190E6560)
-#define RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETENTITYWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x190E6750)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_EVALUATEID_OFFSET UNITYSDK_OFFSET(0xD043FB0)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEENTITYBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD0443B0)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEVOXELLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD0445D0)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEVOXELLEVELUNITLENGTH_OFFSET UNITYSDK_OFFSET(0xD044960)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETINSTANCE_1_OFFSET UNITYSDK_OFFSET(0xD044080)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_GETPLAYERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xD0449F0)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_ISFOURROTATEVOXELCONTAINER_OFFSET UNITYSDK_OFFSET(0xD0448C0)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETCONTAINERENTITY_OFFSET UNITYSDK_OFFSET(0xD044500)
+#define RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETENTITYWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xD0446F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FourRotateVoxelUtils_TypeDefinitionIndex = 60517;
+	inline static constexpr unsigned int FourRotateVoxelUtils_TypeDefinitionIndex = 60405;
 
 	class FourRotateVoxelUtils : public ::System::Object
 	{
@@ -33,14 +32,14 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::RPG::GameCore::TaskContext*, ::RPG::GameCore::DynamicString*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_EVALUATEID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetInstance(::Class_2_4EEAD21E873B5A41*& a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
+		static ::System::Boolean GetInstance_1(::OEAKPLCANOI* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::Class_2_4EEAD21E873B5A41*&, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETINSTANCE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::OEAKPLCANOI*, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETINSTANCE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Class_2_B8E38BF47138A2E5* GetFourRotateEntityByEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
+		static ::INMMPMDELKE* GetFourRotateEntityByEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::Class_2_B8E38BF47138A2E5*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEENTITYBYENTITYID_OFFSET))(a1, a2, a3, a4);
+			return ((::INMMPMDELKE*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEENTITYBYENTITYID_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::RPG::GameCore::GameEntity* TryGetContainerEntity(::System::UInt32 a1, ::System::UInt32 a2)
@@ -48,14 +47,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETCONTAINERENTITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetFourRotateVoxelLevelConfig(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LevelLittleGameInfo*& a3)
+		static ::System::Boolean GetFourRotateVoxelLevelConfig(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LevelLittleGameInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEVOXELLEVELCONFIG_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETFOURROTATEVOXELLEVELCONFIG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryGetEntityWorldPosition(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::UnityEngine::Vector3& a4)
+		static ::System::Boolean TryGetEntityWorldPosition(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETENTITYWORLDPOSITION_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_TRYGETENTITYWORLDPOSITION_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean IsFourRotateVoxelContainer(::System::UInt32 a1, ::System::UInt32 a2)
@@ -72,5 +71,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::GameObject*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FOURROTATEVOXELUTILS_GETPLAYERGAMEOBJECT_OFFSET))();
 		}
+
 	};
 }

@@ -1,29 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/GuijiDiceRollClip_GuijiDiceRollResultType.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B5901E0)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B5901D0)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_EFFECTPATH_OFFSET UNITYSDK_OFFSET(0x1B590080)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_RESULTLOCALEULERANGLES_OFFSET UNITYSDK_OFFSET(0x1B58FBC0)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_WWISEEVENT_OFFSET UNITYSDK_OFFSET(0x1B590120)
-#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B590370)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F54B0)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F5640)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F54A0)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_EFFECTPATH_OFFSET UNITYSDK_OFFSET(0xE8F5350)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_RESULTLOCALEULERANGLES_OFFSET UNITYSDK_OFFSET(0xE8F4E90)
+#define RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_WWISEEVENT_OFFSET UNITYSDK_OFFSET(0xE8F53F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GuijiDiceRollClip_TypeDefinitionIndex = 48592;
+	inline static constexpr unsigned int GuijiDiceRollClip_TypeDefinitionIndex = 48132;
 
 	class GuijiDiceRollClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
+		::System::String* CharacterUniqueName; // 0x18
+		::RPGTools::Timeline::GuijiDiceRollClip_GuijiDiceRollResultType ResultType; // 0x20
+		::UnityEngine::Vector3 BigSuccessLocalEulerAngles; // 0x24
+		::UnityEngine::Vector3 SuccessLocalEulerAngles; // 0x30
+		::UnityEngine::Vector3 MissLocalEulerAngles; // 0x3C
+		::System::String* AreaName; // 0x48
+		::System::String* AnchorName; // 0x50
 		// static const ::System::String* DEFAULT_RESULT_NODE_PATH; // 0x0
 		// static const ::System::String* ANIMATION_PATH; // 0x0
 		// static const ::System::String* BIG_SUCCESS_EFFECT_PATH; // 0x0
@@ -34,17 +40,9 @@ namespace RPGTools::Timeline
 		// static const ::System::String* MISS_WWISE_EVENT; // 0x0
 		// static const ::System::String* VFX_TRIGGER_ANIMATION_EVENT_NAME; // 0x0
 		// static const ::System::String* EFFECT_UNIQUE_NAME; // 0x0
-		::System::String* CharacterUniqueName; // 0x18
-		::RPGTools::Timeline::GuijiDiceRollClip_GuijiDiceRollResultType ResultType; // 0x20
-		::UnityEngine::Vector3 BigSuccessLocalEulerAngles; // 0x24
-		::UnityEngine::Vector3 SuccessLocalEulerAngles; // 0x30
-		::UnityEngine::Vector3 MissLocalEulerAngles; // 0x3C
-		::System::String* AreaName; // 0x48
-		::System::String* AnchorName; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -71,5 +69,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GUIJIDICEROLLCLIP_GET_RESULTLOCALEULERANGLES_OFFSET))(this);
 		}
+
 	};
 }

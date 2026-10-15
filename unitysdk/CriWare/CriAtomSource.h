@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomExPlayback.h"
 #include "unitysdk/CriWare/CriAtomSourceBase.h"
-
+#include "unitysdk/CriWare/CriAtomExPlayback.h"
 namespace CriWare { class CriAtomExAcb; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define CRIWARE_CRIATOMSOURCE_GETACB_OFFSET UNITYSDK_OFFSET(0x1D37E990)
-#define CRIWARE_CRIATOMSOURCE_GET_CUENAME_OFFSET UNITYSDK_OFFSET(0x1D37E7E0)
-#define CRIWARE_CRIATOMSOURCE_GET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x1D37E800)
-#define CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET UNITYSDK_OFFSET(0x1D37EA30)
-#define CRIWARE_CRIATOMSOURCE_PLAYONSTART_OFFSET UNITYSDK_OFFSET(0x1D37E9B0)
-#define CRIWARE_CRIATOMSOURCE_PLAY_OFFSET UNITYSDK_OFFSET(0x1D37E820)
-#define CRIWARE_CRIATOMSOURCE_SET_CUENAME_OFFSET UNITYSDK_OFFSET(0x1D37E7F0)
-#define CRIWARE_CRIATOMSOURCE_SET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x1D37E810)
-#define CRIWARE_CRIATOMSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37EA90)
+#define CRIWARE_CRIATOMSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x166FA1C0)
+#define CRIWARE_CRIATOMSOURCE_GETACB_OFFSET UNITYSDK_OFFSET(0x166FA0C0)
+#define CRIWARE_CRIATOMSOURCE_GET_CUENAME_OFFSET UNITYSDK_OFFSET(0x166F9F10)
+#define CRIWARE_CRIATOMSOURCE_GET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x166F9F30)
+#define CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET UNITYSDK_OFFSET(0x166FA160)
+#define CRIWARE_CRIATOMSOURCE_PLAYONSTART_OFFSET UNITYSDK_OFFSET(0x166FA0E0)
+#define CRIWARE_CRIATOMSOURCE_PLAY_OFFSET UNITYSDK_OFFSET(0x166F9F50)
+#define CRIWARE_CRIATOMSOURCE_SET_CUENAME_OFFSET UNITYSDK_OFFSET(0x166F9F20)
+#define CRIWARE_CRIATOMSOURCE_SET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x166F9F40)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomSource_TypeDefinitionIndex = 38644;
+	inline static constexpr unsigned int CriAtomSource_TypeDefinitionIndex = 39941;
 
 	class CriAtomSource : public ::CriWare::CriAtomSourceBase
 	{
 	public:
 		::System::String* _cueName; // 0xA0
 		::System::String* _cueSheet; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_cueName()
@@ -71,5 +69,6 @@ namespace CriWare
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET))(this, a1);
 		}
+
 	};
 }

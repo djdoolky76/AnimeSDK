@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PolymerDatabasePropertyType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1AE1B2A0)
-#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1B2F0)
+#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDBFBA30)
+#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xDBFB9E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PolymerPropertyLinkMaterial_MaterialPropertyElement_TypeDefinitionIndex = 70268;
+	inline static constexpr unsigned int PolymerPropertyLinkMaterial_MaterialPropertyElement_TypeDefinitionIndex = 70304;
 
 	class PolymerPropertyLinkMaterial_MaterialPropertyElement : public ::System::Object
 	{
 	public:
 		::System::Int32 databaseSlotID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* propertyName; // 0x18
 		::RPG::Client::PolymerDatabasePropertyType propertyType; // 0x20
 		::System::Int32 targetUniqueID; // 0x24
 		::System::Int32 propertyShaderNameID; // 0x28
-
 		::System::Void _ctor(::RPG::Client::PolymerDatabasePropertyType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PolymerDatabasePropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PolymerDatabasePropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_PCNAKDOLCCD_OFFSET))(this);
 		}
+
 	};
 }

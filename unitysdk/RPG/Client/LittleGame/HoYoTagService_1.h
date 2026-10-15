@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class HoyoTagContainer; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int HoYoTagService_1_TypeDefinitionIndex = 76008;
+	inline static constexpr unsigned int HoYoTagService_1_TypeDefinitionIndex = 76485;
 
-	template <typename TEntity>
+	template <typename T>
 	class HoYoTagService_1 : public ::System::Object
 	{
 	public:

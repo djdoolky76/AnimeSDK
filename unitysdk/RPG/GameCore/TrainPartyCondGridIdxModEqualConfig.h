@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrainPartyConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyCondGridIdxModEqualConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_METHOD_5_58353DD88F6D8F2E_OFFSET UNITYSDK_OFFSET(0x1D534520)
-#define RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_METHOD_5_D82BD59E82796E92_OFFSET UNITYSDK_OFFSET(0x1D5344D0)
-#define RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534510)
+#define RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC02200)
+#define RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC02210)
+#define RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC021C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCondGridIdxModEqualConfig_TypeDefinitionIndex = 17876;
+	inline static constexpr unsigned int TrainPartyCondGridIdxModEqualConfig_TypeDefinitionIndex = 18088;
 
 	class TrainPartyCondGridIdxModEqualConfig : public ::RPG::GameCore::TrainPartyConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_D82BD59E82796E92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_METHOD_5_D82BD59E82796E92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_58353DD88F6D8F2E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_METHOD_5_58353DD88F6D8F2E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyCondGridIdxModEqualConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDGRIDIDXMODEQUALCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

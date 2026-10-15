@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F0020C0)
-#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F002110)
-#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F002040)
-#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F002050)
+#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F395550)
+#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3954E0)
+#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3955A0)
+#define UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3954D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioSettings_AudioConfigurationChangeHandler_TypeDefinitionIndex = 5136;
+	inline static constexpr unsigned int AudioSettings_AudioConfigurationChangeHandler_TypeDefinitionIndex = 5143;
 
 	class AudioSettings_AudioConfigurationChangeHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +36,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOSETTINGS_AUDIOCONFIGURATIONCHANGEHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

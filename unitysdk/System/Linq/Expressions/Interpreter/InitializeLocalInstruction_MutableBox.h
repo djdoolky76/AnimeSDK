@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/InitializeLocalInstruction.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AFE1030)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_RUN_OFFSET UNITYSDK_OFFSET(0x1AFE0EC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE0EB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBF150)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDBF2D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_RUN_OFFSET UNITYSDK_OFFSET(0x1EDBF160)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InitializeLocalInstruction_MutableBox_TypeDefinitionIndex = 3516;
+	inline static constexpr unsigned int InitializeLocalInstruction_MutableBox_TypeDefinitionIndex = 3517;
 
 	class InitializeLocalInstruction_MutableBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:
 		::System::Type* _type; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
@@ -33,5 +31,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEBOX_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
+
 	};
 }

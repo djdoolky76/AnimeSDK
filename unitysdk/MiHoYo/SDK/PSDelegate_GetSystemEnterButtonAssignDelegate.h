@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B290)
-#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B2C0)
-#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E777E0)
-#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7B220)
+#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53EC0)
+#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF53E50)
+#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53EF0)
+#define MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF50410)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_GetSystemEnterButtonAssignDelegate_TypeDefinitionIndex = 7677;
+	inline static constexpr unsigned int PSDelegate_GetSystemEnterButtonAssignDelegate_TypeDefinitionIndex = 7721;
 
 	class PSDelegate_GetSystemEnterButtonAssignDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETSYSTEMENTERBUTTONASSIGNDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

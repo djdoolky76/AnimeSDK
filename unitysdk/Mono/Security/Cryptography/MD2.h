@@ -1,25 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
+namespace Mono::Security::Cryptography { class MD2; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2_CREATE_OFFSET UNITYSDK_OFFSET(0x1D23E600)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D23E5F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2_CREATE_OFFSET UNITYSDK_OFFSET(0x1C0485A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2_CTOR_OFFSET UNITYSDK_OFFSET(0x1C048590)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int MD2_TypeDefinitionIndex = 2302;
+	inline static constexpr unsigned int MD2_TypeDefinitionIndex = 67;
 
 	class MD2 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2_CTOR_OFFSET))(this);
 		}
 
 		static ::Mono::Security::Cryptography::MD2* Create()
 		{
 			return ((::Mono::Security::Cryptography::MD2*(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2_CREATE_OFFSET))();
 		}
+
 	};
 }

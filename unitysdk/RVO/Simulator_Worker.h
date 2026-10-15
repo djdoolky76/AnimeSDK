@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RVO { class Simulator; }
+namespace System { class Object; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0x1968F970)
-#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0x1968F960)
-#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1968FC70)
-#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1968E890)
+#define RVO_SIMULATOR_WORKER_CTOR_OFFSET UNITYSDK_OFFSET(0xB095250)
+#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0xB096330)
+#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0xB096320)
+#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB096630)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 44902;
+	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 46041;
 
 	class Simulator_Worker : public ::System::Object
 	{
@@ -21,10 +21,9 @@ namespace RVO
 		::System::Threading::ManualResetEvent* doneEvent_; // 0x18
 		::System::Int32 start_; // 0x20
 		::System::Int32 end_; // 0x24
-
 		::System::Void _ctor(::RVO::Simulator* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::ManualResetEvent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::Simulator*, ::System::Int32, ::System::Int32, ::System::Threading::ManualResetEvent*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RVO::Simulator*, ::System::Int32, ::System::Int32, ::System::Threading::ManualResetEvent*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void step(::System::Object* a1)
@@ -41,5 +40,6 @@ namespace RVO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_UPDATE_OFFSET))(this, a1);
 		}
+
 	};
 }

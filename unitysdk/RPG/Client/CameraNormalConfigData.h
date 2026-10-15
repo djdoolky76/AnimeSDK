@@ -5,25 +5,25 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client { class CameraNormalConfigData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraNormalConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x1C8537C0)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMDATA_OFFSET UNITYSDK_OFFSET(0x1C85A500)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x1C852F80)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMOTHEREXCLUDEINVALID_OFFSET UNITYSDK_OFFSET(0x1C8530E0)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_GET_ISMELEEATTACK_OFFSET UNITYSDK_OFFSET(0x1C85A670)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_RESETTARGETENTITIES_OFFSET UNITYSDK_OFFSET(0x1C853930)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_SETFOLLOWANGLETOFOLLOWSPHERICALPOS_OFFSET UNITYSDK_OFFSET(0x1C85A5F0)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C851620)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xC929F10)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMDATA_OFFSET UNITYSDK_OFFSET(0xC931470)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xC9296D0)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMOTHEREXCLUDEINVALID_OFFSET UNITYSDK_OFFSET(0xC929830)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC927DB0)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_GET_ISMELEEATTACK_OFFSET UNITYSDK_OFFSET(0xC9315E0)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_RESETTARGETENTITIES_OFFSET UNITYSDK_OFFSET(0xC92A080)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_SETFOLLOWANGLETOFOLLOWSPHERICALPOS_OFFSET UNITYSDK_OFFSET(0xC931560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNormalConfigData_TypeDefinitionIndex = 69530;
+	inline static constexpr unsigned int CameraNormalConfigData_TypeDefinitionIndex = 69566;
 
 	class CameraNormalConfigData : public ::System::Object
 	{
@@ -33,6 +33,7 @@ namespace RPG::Client
 		::System::Boolean IsLocalOffset; // 0x18
 		::System::Boolean UseLightTeamOffsetByTeamWidth; // 0x19
 		::System::Boolean UseDarkTeamOffsetByTeamWidth; // 0x1A
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Vector3 AnchorOffset; // 0x1C
 		::System::Single AnchorRatio; // 0x28
 		::UnityEngine::Vector3 AimOffset; // 0x2C
@@ -55,17 +56,22 @@ namespace RPG::Client
 		::System::Boolean UseSkillPerformIgnoreDynamicOffset; // 0x70
 		::System::Boolean UseSkillPerformIgnoreDynamicOffsetAtUltraDistance; // 0x71
 		::System::Boolean EnableDampAtUltraDistance; // 0x72
+		::System::Byte _padding1[0x1];
 		::System::Single DampTimeAtUltraDistance; // 0x74
 		::System::Boolean UseSkillPerformEnableCommonTeamWidthOffset; // 0x78
+		::System::Byte _padding2[0x7];
 		::System::String* BattleFinishFallbackPerform; // 0x80
 		::System::Single FollowDampZ; // 0x88
 		::System::Boolean ResetToDefault; // 0x8C
+		::System::Byte _padding3[0x3];
 		::RPG::GameCore::GameEntity* AnchorTargetEntity; // 0x90
 		::RPG::GameCore::GameEntityList* AnchorTargetEntityList; // 0x98
 		::System::Nullable_1<::UnityEngine::Vector3> AnchorTargetPos; // 0xA0
+		::System::Byte _padding4[0x8];
 		::RPG::GameCore::GameEntity* AimTargetEntity; // 0xB0
 		::RPG::GameCore::GameEntityList* AimTargetEntityList; // 0xB8
 		::System::Nullable_1<::UnityEngine::Vector3> AimTargetPos; // 0xC0
+		::System::Byte _padding5[0x8];
 		::UnityEngine::Vector3 AnchorPos; // 0xD0
 		::UnityEngine::Vector3 FollowSpericalPos; // 0xDC
 		::UnityEngine::Vector3 AimPos; // 0xE8
@@ -73,10 +79,9 @@ namespace RPG::Client
 		::RPG::GameCore::TargetEvaluator* AimTargetType; // 0xF8
 		::RPG::GameCore::TargetEvaluator* AnchorTargetType; // 0x100
 		::System::Boolean ShotCutAlways; // 0x108
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CopyFromConfig(::RPG::GameCore::VCameraNormalConfig* a1)
@@ -113,5 +118,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_GET_ISMELEEATTACK_OFFSET))(this);
 		}
+
 	};
 }

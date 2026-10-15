@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelAsyncParams.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1ABCF970)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABCF980)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF06040)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF06030)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelShowMessageDialogParams_TypeDefinitionIndex = 8554;
+	inline static constexpr unsigned int HoYoChannelShowMessageDialogParams_TypeDefinitionIndex = 8615;
 
 	class HoYoChannelShowMessageDialogParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
@@ -19,15 +18,15 @@ namespace MiHoYo::SDK::PC::OS
 		::Il2CppArray<::System::String*>* button; // 0x28
 		::System::Int32 defaultButton; // 0x30
 		::System::Int32 cancelButton; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWMESSAGEDIALOGPARAMS_TOJSON_OFFSET))(this);
 		}
+
 	};
 }

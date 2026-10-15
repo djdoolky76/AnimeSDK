@@ -1,43 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
-
 namespace RPG::Client { class MonoPrefabLightFadeInOutMonoPlugin; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1AD01AF0)
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_METHOD_3_1947BC35B7A7FCB8_OFFSET UNITYSDK_OFFSET(0x1AD018A0)
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_METHOD_3_31F40A8A1EFC6074_OFFSET UNITYSDK_OFFSET(0x1AD01B70)
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD01C50)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD84E730)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xD84E5D0)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD84E380)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_MEJILMGLMOC_OFFSET UNITYSDK_OFFSET(0xD84E650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPrefabLightFadeInOutBehavior_TypeDefinitionIndex = 70891;
+	inline static constexpr unsigned int MonoPrefabLightFadeInOutBehavior_TypeDefinitionIndex = 70924;
 
 	class MonoPrefabLightFadeInOutBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Light*>* _TargetLights; // 0x38
 		::Il2CppArray<::System::Single>* _TargetLightsIntensity; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_1947BC35B7A7FCB8()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_METHOD_3_1947BC35B7A7FCB8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_31F40A8A1EFC6074(::System::Single a1)
+		::System::Void MEJILMGLMOC(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_METHOD_3_31F40A8A1EFC6074_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_MEJILMGLMOC_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MonoPrefabLightFadeInOutMonoPlugin* get__OwnerMonoPlugin()
 		{
 			return ((::RPG::Client::MonoPrefabLightFadeInOutMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

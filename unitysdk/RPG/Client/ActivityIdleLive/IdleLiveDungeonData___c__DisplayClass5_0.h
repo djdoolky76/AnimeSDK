@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonAssistData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonFriendSoltData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CF550)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1C0D0820)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__1_OFFSET UNITYSDK_OFFSET(0x1C0D0840)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B65E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC4B78B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__1_OFFSET UNITYSDK_OFFSET(0xC4B78D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass5_0_TypeDefinitionIndex = 74902;
+	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass5_0_TypeDefinitionIndex = 75202;
 
 	class IdleLiveDungeonData___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 uid; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _TryRemoveAssistData_b__0(::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistData* a1)
@@ -32,5 +30,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonFriendSoltData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

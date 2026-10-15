@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerPamMovePhaseTalkWait; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_METHOD_3_D2E349BD7DD31F5A_OFFSET UNITYSDK_OFFSET(0x1D2920A0)
-#define RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_METHOD_3_D67D8C7E405863B7_OFFSET UNITYSDK_OFFSET(0x1D291FD0)
-#define RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D292090)
+#define RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC291D0)
+#define RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC291E0)
+#define RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC29110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPamMovePhaseTalkWait_TypeDefinitionIndex = 19794;
+	inline static constexpr unsigned int TriggerPamMovePhaseTalkWait_TypeDefinitionIndex = 20028;
 
 	class TriggerPamMovePhaseTalkWait : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D67D8C7E405863B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPamMovePhaseTalkWait*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerPamMovePhaseTalkWait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPamMovePhaseTalkWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_METHOD_3_D67D8C7E405863B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerPamMovePhaseTalkWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D2E349BD7DD31F5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPamMovePhaseTalkWait* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerPamMovePhaseTalkWait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPamMovePhaseTalkWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_METHOD_3_D2E349BD7DD31F5A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerPamMovePhaseTalkWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPAMMOVEPHASETALKWAIT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

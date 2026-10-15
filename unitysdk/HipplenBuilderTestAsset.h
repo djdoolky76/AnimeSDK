@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
-class HipplenBuilderTestAsset_TestLineConfig;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERTESTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD57C0)
+#define HIPPLENBUILDERTESTASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE4F80)
 
-inline static constexpr unsigned int HipplenBuilderTestAsset_TypeDefinitionIndex = 47692;
+inline static constexpr unsigned int HipplenBuilderTestAsset_TypeDefinitionIndex = 47232;
 
-class HipplenBuilderTestAsset : public ::UnityEngine::ScriptableObject
-{
-public:
-	::System::Collections::Generic::List_1<::HipplenBuilderTestAsset_TestLineConfig*>* TestLineConfigs; // 0x18
-
-	::System::Void _ctor()
+	class HipplenBuilderTestAsset : public ::UnityEngine::ScriptableObject
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTASSET__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Collections::Generic::List_1<::System::Object*>* TestLineConfigs; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTASSET_CTOR_OFFSET))(this);
+		}
+
+	};

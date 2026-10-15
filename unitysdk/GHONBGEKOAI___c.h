@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GHONBGEKOAI;
+namespace System { class Object; }
+
+#define GHONBGEKOAI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4630C0)
+#define GHONBGEKOAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E463100)
+#define GHONBGEKOAI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E463110)
+
+inline static constexpr unsigned int GHONBGEKOAI___c_TypeDefinitionIndex = 34975;
+
+	class GHONBGEKOAI___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17E90);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GHONBGEKOAI___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHONBGEKOAI___C_CTOR_OFFSET))(this);
+		}
+
+		::GHONBGEKOAI* __cctor_b__28_0()
+		{
+			return ((::GHONBGEKOAI*(*)(::PVOID))((::PBYTE)hIl2Cpp + GHONBGEKOAI___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+
+	};

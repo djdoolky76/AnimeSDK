@@ -2,37 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STSpecialEventType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvNotifyAiSpecialEvent; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_METHOD_3_8F1007DD74DCE97D_OFFSET UNITYSDK_OFFSET(0x1D6BE680)
-#define RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_METHOD_3_95F0FD6D6F8F9448_OFFSET UNITYSDK_OFFSET(0x1D6BE640)
-#define RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BE670)
+#define RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D377EC0)
+#define RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D377ED0)
+#define RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D377E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNotifyAiSpecialEvent_TypeDefinitionIndex = 19998;
+	inline static constexpr unsigned int AdvNotifyAiSpecialEvent_TypeDefinitionIndex = 20235;
 
 	class AdvNotifyAiSpecialEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::STSpecialEventType SpecialEventType; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* Distance; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_95F0FD6D6F8F9448(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNotifyAiSpecialEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNotifyAiSpecialEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNotifyAiSpecialEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_METHOD_3_95F0FD6D6F8F9448_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNotifyAiSpecialEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8F1007DD74DCE97D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNotifyAiSpecialEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNotifyAiSpecialEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNotifyAiSpecialEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_METHOD_3_8F1007DD74DCE97D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNotifyAiSpecialEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNOTIFYAISPECIALEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

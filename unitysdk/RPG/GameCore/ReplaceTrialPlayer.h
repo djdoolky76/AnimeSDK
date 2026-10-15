@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ReplaceTrialPlayer; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_REPLACETRIALPLAYER_METHOD_3_4E5E455100389076_OFFSET UNITYSDK_OFFSET(0x1DB90110)
-#define RPG_GAMECORE_REPLACETRIALPLAYER_METHOD_3_589A86E848583AD2_OFFSET UNITYSDK_OFFSET(0x1DB90160)
-#define RPG_GAMECORE_REPLACETRIALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB90150)
+#define RPG_GAMECORE_REPLACETRIALPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95A630)
+#define RPG_GAMECORE_REPLACETRIALPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95A640)
+#define RPG_GAMECORE_REPLACETRIALPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95A5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReplaceTrialPlayer_TypeDefinitionIndex = 21358;
+	inline static constexpr unsigned int ReplaceTrialPlayer_TypeDefinitionIndex = 21604;
 
 	class ReplaceTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REPLACETRIALPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REPLACETRIALPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E5E455100389076(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReplaceTrialPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ReplaceTrialPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReplaceTrialPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REPLACETRIALPLAYER_METHOD_3_4E5E455100389076_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ReplaceTrialPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REPLACETRIALPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_589A86E848583AD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReplaceTrialPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ReplaceTrialPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReplaceTrialPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REPLACETRIALPLAYER_METHOD_3_589A86E848583AD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ReplaceTrialPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REPLACETRIALPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

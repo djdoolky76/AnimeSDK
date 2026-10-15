@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreateLevelAreas; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_CREATELEVELAREAS_METHOD_3_B975EB696683A330_OFFSET UNITYSDK_OFFSET(0x1D9BED90)
-#define RPG_GAMECORE_CREATELEVELAREAS_METHOD_3_EC5E4F917F0BE291_OFFSET UNITYSDK_OFFSET(0x1D9BEDD0)
-#define RPG_GAMECORE_CREATELEVELAREAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BEDC0)
+#define RPG_GAMECORE_CREATELEVELAREAS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B61A0)
+#define RPG_GAMECORE_CREATELEVELAREAS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B61B0)
+#define RPG_GAMECORE_CREATELEVELAREAS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B6170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateLevelAreas_TypeDefinitionIndex = 20508;
+	inline static constexpr unsigned int CreateLevelAreas_TypeDefinitionIndex = 20747;
 
 	class CreateLevelAreas : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* AssetPath; // 0x18
 		::System::Boolean IsLocal; // 0x20
 		::System::Boolean IsDefaultArea; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATELEVELAREAS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATELEVELAREAS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B975EB696683A330(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateLevelAreas*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateLevelAreas* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateLevelAreas*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATELEVELAREAS_METHOD_3_B975EB696683A330_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateLevelAreas*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATELEVELAREAS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EC5E4F917F0BE291(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateLevelAreas* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateLevelAreas* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateLevelAreas*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATELEVELAREAS_METHOD_3_EC5E4F917F0BE291_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateLevelAreas*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATELEVELAREAS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

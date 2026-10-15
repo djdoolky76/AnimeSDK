@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FMIHMGNLBPN.h"
+
+#define OPMMEDHGJLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFAC7B0)
+#define OPMMEDHGJLC_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xBFAC680)
+
+inline static constexpr unsigned int OPMMEDHGJLC_TypeDefinitionIndex = 66516;
+
+	class OPMMEDHGJLC : public ::FMIHMGNLBPN
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPMMEDHGJLC_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean FHAAHMEJMCI()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OPMMEDHGJLC_FHAAHMEJMCI_OFFSET))(this);
+		}
+
+	};

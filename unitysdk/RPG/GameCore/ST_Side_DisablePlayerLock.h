@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Side_DisablePlayerLock; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_METHOD_4_22248F963B8F612C_OFFSET UNITYSDK_OFFSET(0x1DB41950)
-#define RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_METHOD_4_9DD3DDDED9AC3FE9_OFFSET UNITYSDK_OFFSET(0x1DB41880)
-#define RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41940)
+#define RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA553B0)
+#define RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA553C0)
+#define RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA552F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_DisablePlayerLock_TypeDefinitionIndex = 19905;
+	inline static constexpr unsigned int ST_Side_DisablePlayerLock_TypeDefinitionIndex = 20141;
 
 	class ST_Side_DisablePlayerLock : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9DD3DDDED9AC3FE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_DisablePlayerLock*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Side_DisablePlayerLock* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_DisablePlayerLock*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_METHOD_4_9DD3DDDED9AC3FE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Side_DisablePlayerLock*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_22248F963B8F612C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_DisablePlayerLock* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Side_DisablePlayerLock* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_DisablePlayerLock*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_METHOD_4_22248F963B8F612C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Side_DisablePlayerLock*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_DISABLEPLAYERLOCK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

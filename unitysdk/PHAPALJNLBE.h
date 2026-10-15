@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PHAPALJNLBE_TypeDefinitionIndex = 31402;
+
+	enum class PHAPALJNLBE : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		APKIMNNBLIE = 7577,
+		PHBPMCMMCGJ = 7586,
+		GFPOONKNKPD = 7573,
+		PJFKKFFGNJO = 7598,
+		IMBKCHOMGBP = 7580,
+		PGGPINKJPJA = 7578,
+		LHHIDMNPKGM = 7583,
+		LJFKOLLPGKP = 7574,
+		KDBOPFPFGNF = 7587,
+		LKFCANNCJPC = 7590,
+		HJMPAGJEBOI = 7599,
+		BHGAAEBOBOO = 7597,
+	};

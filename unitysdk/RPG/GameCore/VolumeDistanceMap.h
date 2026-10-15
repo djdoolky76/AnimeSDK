@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VolumeDistanceMap; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_VOLUMEDISTANCEMAP_METHOD_2_5A1D43DEA3B97CCB_OFFSET UNITYSDK_OFFSET(0x1DEB2ED0)
-#define RPG_GAMECORE_VOLUMEDISTANCEMAP_METHOD_2_E0E95C03951619C1_OFFSET UNITYSDK_OFFSET(0x1DEB3020)
-#define RPG_GAMECORE_VOLUMEDISTANCEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB3010)
+#define RPG_GAMECORE_VOLUMEDISTANCEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC657A0)
+#define RPG_GAMECORE_VOLUMEDISTANCEMAP_JFHKHOMEKIM_OFFSET UNITYSDK_OFFSET(0x1DC657B0)
+#define RPG_GAMECORE_VOLUMEDISTANCEMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC65660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VolumeDistanceMap_TypeDefinitionIndex = 18931;
+	inline static constexpr unsigned int VolumeDistanceMap_TypeDefinitionIndex = 19158;
 
 	class VolumeDistanceMap : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 Size; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Int32>* DistanceMapInternal; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMEDISTANCEMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMEDISTANCEMAP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5A1D43DEA3B97CCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VolumeDistanceMap*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VolumeDistanceMap* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VolumeDistanceMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMEDISTANCEMAP_METHOD_2_5A1D43DEA3B97CCB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VolumeDistanceMap*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMEDISTANCEMAP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		::System::Single Method_2_E0E95C03951619C1(::System::Int32 a1, ::System::Int32 a2)
+		::System::Single JFHKHOMEKIM(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMEDISTANCEMAP_METHOD_2_E0E95C03951619C1_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMEDISTANCEMAP_JFHKHOMEKIM_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

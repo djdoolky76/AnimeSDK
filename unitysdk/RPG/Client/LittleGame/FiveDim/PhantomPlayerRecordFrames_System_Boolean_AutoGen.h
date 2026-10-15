@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerFrameData_1.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_SYSTEM_BOOLEAN_AUTOGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9C370)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_SYSTEM_BOOLEAN_AUTOGEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9D88E0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerRecordFrames_System_Boolean_AutoGen_TypeDefinitionIndex = 41993;
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_System_Boolean_AutoGen_TypeDefinitionIndex = 43636;
 
-	class PhantomPlayerRecordFrames_System_Boolean_AutoGen : public ::RPG::Client::LittleGame::FiveDim::PhantomPlayerFrameData_1<::System::Boolean>
+	class PhantomPlayerRecordFrames_System_Boolean_AutoGen
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_SYSTEM_BOOLEAN_AUTOGEN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_SYSTEM_BOOLEAN_AUTOGEN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B57F9B0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B57FAB0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B57F940)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57FB80)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E4C20)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E4D20)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E4DF0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E4BB0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionTimelineTrack_TypeDefinitionIndex = 49220;
+	inline static constexpr unsigned int EmoDiscussionTimelineTrack_TypeDefinitionIndex = 48766;
 
 	class EmoDiscussionTimelineTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

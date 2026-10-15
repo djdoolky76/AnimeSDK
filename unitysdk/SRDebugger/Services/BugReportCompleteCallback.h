@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA1A80)
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA1AE0)
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA1A70)
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA1A00)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED12300)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED12280)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED12360)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED122F0)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int BugReportCompleteCallback_TypeDefinitionIndex = 37358;
+	inline static constexpr unsigned int BugReportCompleteCallback_TypeDefinitionIndex = 38051;
 
 	class BugReportCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1, ::System::String* a2)
@@ -38,5 +37,6 @@ namespace SRDebugger::Services
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

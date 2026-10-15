@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1861E210)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1861E240)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1861D560)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1861E1A0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD494EB0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xD494E40)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD494EE0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD494210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalizedInputField_VoidDelegate_TypeDefinitionIndex = 72488;
+	inline static constexpr unsigned int LocalizedInputField_VoidDelegate_TypeDefinitionIndex = 72562;
 
 	class LocalizedInputField_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

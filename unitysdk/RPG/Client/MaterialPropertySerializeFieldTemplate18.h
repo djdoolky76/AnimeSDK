@@ -2,27 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MaterialPropertySerializeFieldTemplate17.h"
 #include "unitysdk/RPG/Client/MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField.h"
+namespace System { class Object; }
 
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0x1B215F30)
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18__CTOR_OFFSET UNITYSDK_OFFSET(0x1B216580)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18_CTOR_OFFSET UNITYSDK_OFFSET(0xD5D0340)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0xD5CFCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate18_TypeDefinitionIndex = 70630;
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate18_TypeDefinitionIndex = 70666;
 
 	class MaterialPropertySerializeFieldTemplate18 : public ::RPG::Client::MaterialPropertySerializeFieldTemplate17
 	{
 	public:
 		::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField Field18; // 0x3E8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18_CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>* GetPropertyFields()
+		::Il2CppArray<::System::Object*>* GetPropertyFields()
 		{
-			return ((::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18_GETPROPERTYFIELDS_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE18_GETPROPERTYFIELDS_OFFSET))(this);
 		}
+
 	};
 }

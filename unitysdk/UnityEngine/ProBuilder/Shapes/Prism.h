@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ProBuilder/Shapes/Shape.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
+namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x19233150)
-#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x19233160)
-#define UNITYENGINE_PROBUILDER_SHAPES_PRISM__CTOR_OFFSET UNITYSDK_OFFSET(0x19233EE0)
+#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F251460)
+#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2521F0)
+#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F251470)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 43273;
+	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 44465;
 
 	class Prism : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_PRISM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_PRISM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* a1)
@@ -32,5 +32,6 @@ namespace UnityEngine::ProBuilder::Shapes
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_PRISM_REBUILDMESH_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

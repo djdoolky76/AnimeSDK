@@ -5,7 +5,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollector_1_TypeDefinitionIndex = 5616;
+	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollector_1_TypeDefinitionIndex = 5623;
 
 	template <typename T>
 	class ReferencePool_AutoReleaseReferenceObjectCollector_1 : public ::System::Object
@@ -13,7 +13,8 @@ namespace RPG
 	public:
 		static ::RPG::ReferencePool_AutoReleaseReferenceObjectDatas* StaticGet_Data()
 		{
-			return (::RPG::ReferencePool_AutoReleaseReferenceObjectDatas*)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_AutoReleaseReferenceObjectCollector_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::RPG::ReferencePool_AutoReleaseReferenceObjectDatas*)UnitySDK::FromName("RPG", "AutoReleaseReferenceObjectCollector`1")->GetStaticField(0x0);
 		}
+
 	};
 }

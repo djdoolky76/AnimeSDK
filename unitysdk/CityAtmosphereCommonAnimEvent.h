@@ -3,8 +3,7 @@
 #include "unitysdk/RPG/Client/PolymerEffectControllBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-class Class_1_303D5A33D1401D59;
+class KLEFGGIHGMI;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -14,81 +13,84 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CITYATMOSPHERECOMMONANIMEVENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A873240)
-#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0x1A8731E0)
-#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0x1A8729A0)
-#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0x1A873310)
-#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET UNITYSDK_OFFSET(0x1A8734C0)
-#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET UNITYSDK_OFFSET(0x1A872A20)
-#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET UNITYSDK_OFFSET(0x1A872D80)
-#define CITYATMOSPHERECOMMONANIMEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A873540)
-#define CITYATMOSPHERECOMMONANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A873500)
+#define CITYATMOSPHERECOMMONANIMEVENT_AWAKE_OFFSET UNITYSDK_OFFSET(0xDF95E40)
+#define CITYATMOSPHERECOMMONANIMEVENT_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF96140)
+#define CITYATMOSPHERECOMMONANIMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDF96100)
+#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0xDF95DE0)
+#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0xDF955A0)
+#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0xDF95F10)
+#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET UNITYSDK_OFFSET(0xDF960C0)
+#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET UNITYSDK_OFFSET(0xDF95620)
+#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET UNITYSDK_OFFSET(0xDF95980)
 
-inline static constexpr unsigned int CityAtmosphereCommonAnimEvent_TypeDefinitionIndex = 47542;
+inline static constexpr unsigned int CityAtmosphereCommonAnimEvent_TypeDefinitionIndex = 47082;
 
-class CityAtmosphereCommonAnimEvent : public ::RPG::Client::PolymerEffectControllBase
-{
-public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_sCachedRendererMats()
+	class CityAtmosphereCommonAnimEvent : public ::RPG::Client::PolymerEffectControllBase
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CityAtmosphereCommonAnimEvent_TypeDefinitionIndex)->GetStaticField(0x66960);
-	}
-	static ::System::Int32* StaticGet_AdjustAlbedoColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CityAtmosphereCommonAnimEvent_TypeDefinitionIndex)->GetStaticField(0x152C0);
-	}
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Goods; // 0x30
-	::System::Boolean TriggerWhenInverted; // 0x38
-	::System::Collections::Generic::List_1<::UnityEngine::Color>* CandidateColor; // 0x40
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _ObjList; // 0x48
-	::System::Collections::Generic::List_1<::System::String*>* ObjPathList; // 0x50
-	::UnityEngine::Vector4 Color; // 0x58
-	::UnityEngine::Animator* _Animator; // 0x68
-	::UnityEngine::Renderer* _Renderer; // 0x70
-	::UnityEngine::MaterialPropertyBlock* _PropertyBlockCache; // 0x78
+	public:
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Goods; // 0x30
+		::System::Boolean TriggerWhenInverted; // 0x38
+		::System::Byte _padding0[0x7];
+		::System::Collections::Generic::List_1<::UnityEngine::Color>* CandidateColor; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _ObjList; // 0x48
+		::System::Collections::Generic::List_1<::System::String*>* ObjPathList; // 0x50
+		::UnityEngine::Vector4 Color; // 0x58
+		::UnityEngine::Animator* _Animator; // 0x68
+		::UnityEngine::Renderer* _Renderer; // 0x70
+		::UnityEngine::MaterialPropertyBlock* _PropertyBlockCache; // 0x78
+		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_sCachedRendererMats()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("", "CityAtmosphereCommonAnimEvent")->GetStaticField(0x55070);
+		}
 
-	::System::Void _ctor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT__CTOR_OFFSET))(this);
-	}
+		static ::System::Int32* StaticGet_AdjustAlbedoColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "CityAtmosphereCommonAnimEvent")->GetStaticField(0x12E70);
+		}
 
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT__CCTOR_OFFSET))();
-	}
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_CTOR_OFFSET))(this);
+		}
 
-	::System::Void OnPolymerRebuildBeforeFading(::Class_1_303D5A33D1401D59* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_303D5A33D1401D59*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDBEFOREFADING_OFFSET))(this, a1, a2, a3, a4);
-	}
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_CCTOR_OFFSET))();
+		}
 
-	::System::Void OnPolymerRebuildAfterFading(::Class_1_303D5A33D1401D59* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_303D5A33D1401D59*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDAFTERFADING_OFFSET))(this, a1, a2, a3);
-	}
+		::System::Void OnPolymerRebuildBeforeFading(::KLEFGGIHGMI* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::KLEFGGIHGMI*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDBEFOREFADING_OFFSET))(this, a1, a2, a3, a4);
+		}
 
-	::System::Void Awake()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_AWAKE_OFFSET))(this);
-	}
+		::System::Void OnPolymerRebuildAfterFading(::KLEFGGIHGMI* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::KLEFGGIHGMI*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDAFTERFADING_OFFSET))(this, a1, a2, a3);
+		}
 
-	::System::Void RefreshChildObj()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET))(this);
-	}
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_AWAKE_OFFSET))(this);
+		}
 
-	::System::Void RandomColor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_RANDOMCOLOR_OFFSET))(this);
-	}
+		::System::Void RefreshChildObj()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET))(this);
+		}
 
-	::System::Void RefreshColor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET))(this);
-	}
+		::System::Void RandomColor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_RANDOMCOLOR_OFFSET))(this);
+		}
 
-	::System::Void RandomContainerGoods()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET))(this);
-	}
-};
+		::System::Void RefreshColor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET))(this);
+		}
+
+		::System::Void RandomContainerGoods()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET))(this);
+		}
+
+	};

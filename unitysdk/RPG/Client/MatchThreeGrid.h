@@ -1,43 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
-class Class_1_AA0343CD5D895891;
+#include "unitysdk/UnityEngine/Vector2.h"
+class JDIDJHLDOMN;
 namespace RPG::Client { class MatchThreeBoard; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MATCHTHREEGRID_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C277260)
-#define RPG_CLIENT_MATCHTHREEGRID_GET_GRIDDATA_OFFSET UNITYSDK_OFFSET(0x1C25E880)
-#define RPG_CLIENT_MATCHTHREEGRID_GET_POSINDEX_OFFSET UNITYSDK_OFFSET(0x1C2770C0)
-#define RPG_CLIENT_MATCHTHREEGRID_INIT_OFFSET UNITYSDK_OFFSET(0x1C2770E0)
-#define RPG_CLIENT_MATCHTHREEGRID_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C2772A0)
-#define RPG_CLIENT_MATCHTHREEGRID_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x1C25E500)
-#define RPG_CLIENT_MATCHTHREEGRID_SETSIZE_OFFSET UNITYSDK_OFFSET(0x1C2771A0)
-#define RPG_CLIENT_MATCHTHREEGRID_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1C25E470)
-#define RPG_CLIENT_MATCHTHREEGRID_SET_POSINDEX_OFFSET UNITYSDK_OFFSET(0x1C2770D0)
-#define RPG_CLIENT_MATCHTHREEGRID_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C277220)
-#define RPG_CLIENT_MATCHTHREEGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x1C277420)
+#define RPG_CLIENT_MATCHTHREEGRID_CTOR_OFFSET UNITYSDK_OFFSET(0xD5931B0)
+#define RPG_CLIENT_MATCHTHREEGRID_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD592FF0)
+#define RPG_CLIENT_MATCHTHREEGRID_GET_GRIDDATA_OFFSET UNITYSDK_OFFSET(0xD592D00)
+#define RPG_CLIENT_MATCHTHREEGRID_GET_POSINDEX_OFFSET UNITYSDK_OFFSET(0xD592CE0)
+#define RPG_CLIENT_MATCHTHREEGRID_INIT_OFFSET UNITYSDK_OFFSET(0xD592D40)
+#define RPG_CLIENT_MATCHTHREEGRID_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD593030)
+#define RPG_CLIENT_MATCHTHREEGRID_SETPOSITION_OFFSET UNITYSDK_OFFSET(0xD592F10)
+#define RPG_CLIENT_MATCHTHREEGRID_SETSIZE_OFFSET UNITYSDK_OFFSET(0xD592E00)
+#define RPG_CLIENT_MATCHTHREEGRID_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xD592E80)
+#define RPG_CLIENT_MATCHTHREEGRID_SET_POSINDEX_OFFSET UNITYSDK_OFFSET(0xD592CF0)
+#define RPG_CLIENT_MATCHTHREEGRID_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD592FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGrid_TypeDefinitionIndex = 65997;
+	inline static constexpr unsigned int MatchThreeGrid_TypeDefinitionIndex = 65951;
 
 	class MatchThreeGrid : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Vector2Int _PosIndex_k__BackingField; // 0x18
-		::Class_1_AA0343CD5D895891* CKNHLLFEJAC; // 0x20
+		::JDIDJHLDOMN* CKNHLLFEJAC; // 0x20
 		::RPG::Client::MatchThreeBoard* MIPPNCGOJNM; // 0x28
 		::UnityEngine::Transform* BDNINMDLECC; // 0x30
 		::UnityEngine::Transform* PFAHCGGPAJH; // 0x38
 		::UnityEngine::Transform* NNIGFBPEBFF; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector2Int get_PosIndex()
@@ -50,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_SET_POSINDEX_OFFSET))(this, a1);
 		}
 
-		::Class_1_AA0343CD5D895891* get_GridData()
+		::JDIDJHLDOMN* get_GridData()
 		{
-			return ((::Class_1_AA0343CD5D895891*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_GET_GRIDDATA_OFFSET))(this);
+			return ((::JDIDJHLDOMN*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_GET_GRIDDATA_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -65,9 +63,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_SETSIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetupView(::Class_1_AA0343CD5D895891* a1)
+		::System::Void SetupView(::JDIDJHLDOMN* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_AA0343CD5D895891*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_SETUPVIEW_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::JDIDJHLDOMN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_SETUPVIEW_OFFSET))(this, a1);
 		}
 
 		::System::Void SetPosition(::UnityEngine::Vector2Int a1)
@@ -89,5 +87,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGRID_ONCREATE_OFFSET))(this, a1);
 		}
+
 	};
 }

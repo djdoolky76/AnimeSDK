@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/Identity.h"
-
 namespace System { class MarshalByRefObject; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -9,20 +8,18 @@ namespace System::Runtime::Remoting { class ObjRef; }
 namespace System::Runtime::Remoting::Contexts { class Context; }
 namespace System::Runtime::Remoting::Lifetime { class ILease; }
 namespace System::Runtime::Remoting::Lifetime { class Lease; }
-namespace System::Runtime::Remoting::Messaging { class IMessage; }
-namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ATTACHSERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1945B860)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x19459B50)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_DISPOSESERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1945C110)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1945C170)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_GET_LEASE_OFFSET UNITYSDK_OFFSET(0x1945C160)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1945C0B0)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ONLIFETIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0x1945C0C0)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1945C180)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_STARTTRACKINGLIFETIME_OFFSET UNITYSDK_OFFSET(0x194599D0)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1945C0A0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ATTACHSERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1C2DA4F0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1C2D87E0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DAD30)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_DISPOSESERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1C2DADA0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C2DAE00)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_GET_LEASE_OFFSET UNITYSDK_OFFSET(0x1C2DADF0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2DAD40)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ONLIFETIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0x1C2DAD50)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C2DAE10)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_STARTTRACKINGLIFETIME_OFFSET UNITYSDK_OFFSET(0x1C2D8660)
 
 namespace System::Runtime::Remoting
 {
@@ -32,14 +29,13 @@ namespace System::Runtime::Remoting
 	{
 	public:
 		::System::Runtime::Remoting::Lifetime::Lease* _lease; // 0x48
-		::System::MarshalByRefObject* _serverObject; // 0x50
+		::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink; // 0x50
 		::System::Runtime::Remoting::Contexts::Context* _context; // 0x58
-		::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink; // 0x60
-		::System::Type* _objectType; // 0x68
-
+		::System::Type* _objectType; // 0x60
+		::System::MarshalByRefObject* _serverObject; // 0x68
 		::System::Void _ctor(::System::String* a1, ::System::Runtime::Remoting::Contexts::Context* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Type* get_ObjectType()
@@ -86,5 +82,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_DISPOSESERVEROBJECT_OFFSET))(this);
 		}
+
 	};
 }

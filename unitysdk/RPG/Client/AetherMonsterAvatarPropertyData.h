@@ -2,43 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonsterAvatarPropertySource.h"
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_44250175B60B216B;
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+class KLBOFEDGNLL;
 namespace RPG::Client { class AetherMonsterAvatarData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0x19DFF740)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETAETHERMONSTERAVATARBASEVALUE_OFFSET UNITYSDK_OFFSET(0x19E02420)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETBASEVALUE_OFFSET UNITYSDK_OFFSET(0x19DFF970)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETFINALVALUE_OFFSET UNITYSDK_OFFSET(0x19DFEDC0)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETPROPERTYADDVALUE_OFFSET UNITYSDK_OFFSET(0x19DFFF90)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GET__AETHERMONSTERAVATARDATA_OFFSET UNITYSDK_OFFSET(0x19E026C0)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SETMODIFER_OFFSET UNITYSDK_OFFSET(0x19E013E0)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SET__AETHERMONSTERAVATARDATA_OFFSET UNITYSDK_OFFSET(0x19E026D0)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19DFE190)
-#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA__GETPROPERTYEXCELBASEDATA_OFFSET UNITYSDK_OFFSET(0x19E024B0)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC629B40)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xC62AE60)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETAETHERMONSTERAVATARBASEVALUE_OFFSET UNITYSDK_OFFSET(0xC62A480)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETBASEVALUE_OFFSET UNITYSDK_OFFSET(0xC62A510)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETFINALVALUE_OFFSET UNITYSDK_OFFSET(0xC629BF0)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GETPROPERTYADDVALUE_OFFSET UNITYSDK_OFFSET(0xC62AD40)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_GET__AETHERMONSTERAVATARDATA_OFFSET UNITYSDK_OFFSET(0xC62B090)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SETMODIFER_OFFSET UNITYSDK_OFFSET(0xC629B80)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SET__AETHERMONSTERAVATARDATA_OFFSET UNITYSDK_OFFSET(0xC62B0A0)
+#define RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA__GETPROPERTYEXCELBASEDATA_OFFSET UNITYSDK_OFFSET(0xC62AB30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AetherMonsterAvatarPropertyData_TypeDefinitionIndex = 62310;
+	inline static constexpr unsigned int AetherMonsterAvatarPropertyData_TypeDefinitionIndex = 62227;
 
 	class AetherMonsterAvatarPropertyData : public ::System::Object
 	{
 	public:
 		::RPG::Client::AetherMonsterAvatarData* __AetherMonsterAvatarData_k__BackingField; // 0x10
-		::System::Collections::Generic::SortedList_2<::RPG::Client::MonsterAvatarPropertySource, ::Class_1_44250175B60B216B*>* _PropertyModifiers; // 0x18
-
+		::System::Collections::Generic::SortedList_2<::RPG::Client::MonsterAvatarPropertySource, ::KLBOFEDGNLL*>* _PropertyModifiers; // 0x18
 		::System::Void _ctor(::RPG::Client::AetherMonsterAvatarData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AetherMonsterAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AetherMonsterAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetModifer(::RPG::Client::MonsterAvatarPropertySource a1, ::Class_1_44250175B60B216B* a2)
+		::System::Void SetModifer(::RPG::Client::MonsterAvatarPropertySource a1, ::KLBOFEDGNLL* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonsterAvatarPropertySource, ::Class_1_44250175B60B216B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SETMODIFER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonsterAvatarPropertySource, ::KLBOFEDGNLL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SETMODIFER_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::FixPoint GetFinalValue(::RPG::GameCore::AvatarPropertyType a1, ::System::UInt32 a2)
@@ -66,9 +64,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_FORMATDISPLAYDATABYTYPE_OFFSET))(a1, a2);
 		}
 
-		::System::Void _GetPropertyExcelBaseData(::RPG::GameCore::AvatarPropertyType a1, ::System::UInt32 a2, ::RPG::GameCore::FixPoint& a3)
+		::System::Void _GetPropertyExcelBaseData(::RPG::GameCore::AvatarPropertyType a1, ::System::UInt32 a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::System::UInt32, ::RPG::GameCore::FixPoint&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA__GETPROPERTYEXCELBASEDATA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA__GETPROPERTYEXCELBASEDATA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::AetherMonsterAvatarData* get__AetherMonsterAvatarData()
@@ -80,5 +78,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::AetherMonsterAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARPROPERTYDATA_SET__AETHERMONSTERAVATARDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

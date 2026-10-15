@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF80AF0)
-#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF80B20)
-#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF7C590)
-#define RPG_CLIENT_ONASSETOPERATIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF80A00)
+#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C4B3C30)
+#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B3B40)
+#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C4B3C60)
+#define RPG_CLIENT_ONASSETOPERATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C4AF580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnAssetOperationDelegate_TypeDefinitionIndex = 40104;
+	inline static constexpr unsigned int OnAssetOperationDelegate_TypeDefinitionIndex = 41401;
 
 	class OnAssetOperationDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONASSETOPERATIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONASSETOPERATIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::Client::IAssetOperation* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONASSETOPERATIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

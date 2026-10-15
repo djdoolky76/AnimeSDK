@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentProbeSettings_TypeDefinitionIndex = 69740;
+	inline static constexpr unsigned int EnvironmentProbeSettings_TypeDefinitionIndex = 69775;
 
 	struct alignas(8) EnvironmentProbeSettings
 	{

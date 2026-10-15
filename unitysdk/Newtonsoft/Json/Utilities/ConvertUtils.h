@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Utilities/ConvertUtils_ConvertResult.h"
-#include "unitysdk/Newtonsoft/Json/Utilities/ConvertUtils_TypeConvertKey.h"
 #include "unitysdk/Newtonsoft/Json/Utilities/ParseResult.h"
 #include "unitysdk/Newtonsoft/Json/Utilities/PrimitiveTypeCode.h"
-#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Newtonsoft/Json/Utilities/ConvertUtils_TypeConvertKey.h"
+#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/TimeSpan.h"
-
 namespace Newtonsoft::Json::Utilities { class TypeInformation; }
 namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> class ThreadSafeStore_2; }
 namespace System { class IConvertible; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { class Version; }
@@ -19,49 +19,51 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::ComponentModel { class TypeConverter; }
 namespace System::Globalization { class CultureInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CONVERTORCAST_OFFSET UNITYSDK_OFFSET(0x172F5210)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CREATECASTCONVERTER_OFFSET UNITYSDK_OFFSET(0x1730B7B0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ENSURETYPEASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1730C950)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x172DFDD0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_1_OFFSET UNITYSDK_OFFSET(0x172CD5D0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x172DFD90)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPEINFORMATION_OFFSET UNITYSDK_OFFSET(0x1730B670)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_HEXCHARTOINT_OFFSET UNITYSDK_OFFSET(0x1730D130)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_HEXTEXTTOINT_OFFSET UNITYSDK_OFFSET(0x1730D010)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT32TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1730CB80)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT64TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1730CD00)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ISCONVERTIBLE_OFFSET UNITYSDK_OFFSET(0x172E58A0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ISINTEGER_OFFSET UNITYSDK_OFFSET(0x172F51A0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_PARSETIMESPAN_OFFSET UNITYSDK_OFFSET(0x172CBDE0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTGUID_OFFSET UNITYSDK_OFFSET(0x1730CE70)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1730BAE0)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERT_OFFSET UNITYSDK_OFFSET(0x1730BA40)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_VERSIONTRYPARSE_OFFSET UNITYSDK_OFFSET(0x1730C890)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1730D1C0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3DA570)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CONVERTORCAST_OFFSET UNITYSDK_OFFSET(0x1C3C28E0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CREATECASTCONVERTER_OFFSET UNITYSDK_OFFSET(0x1C3D8B90)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ENSURETYPEASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1C3D9D00)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1C3AD6B0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_1_OFFSET UNITYSDK_OFFSET(0x1C39AA10)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x1C3AD670)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPEINFORMATION_OFFSET UNITYSDK_OFFSET(0x1C3D8A50)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_HEXCHARTOINT_OFFSET UNITYSDK_OFFSET(0x1C3DA4E0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_HEXTEXTTOINT_OFFSET UNITYSDK_OFFSET(0x1C3DA3C0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT32TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1C3D9F30)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT64TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1C3DA0B0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ISCONVERTIBLE_OFFSET UNITYSDK_OFFSET(0x1C3B2FC0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ISINTEGER_OFFSET UNITYSDK_OFFSET(0x1C3C2870)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_PARSETIMESPAN_OFFSET UNITYSDK_OFFSET(0x1C398ED0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTGUID_OFFSET UNITYSDK_OFFSET(0x1C3DA220)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C3D8EC0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERT_OFFSET UNITYSDK_OFFSET(0x1C3D8E20)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_VERSIONTRYPARSE_OFFSET UNITYSDK_OFFSET(0x1C3D9C40)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ConvertUtils_TypeDefinitionIndex = 9599;
+	inline static constexpr unsigned int ConvertUtils_TypeDefinitionIndex = 9657;
 
 	class ConvertUtils : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::Newtonsoft::Json::Utilities::TypeInformation*>** StaticGet_PrimitiveTypeCodes()
-		{
-			return (::Il2CppArray<::Newtonsoft::Json::Utilities::TypeInformation*>**)Il2CppClass::FromTypeDefinitionIndex(ConvertUtils_TypeDefinitionIndex)->GetStaticField(0x45AF0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>** StaticGet_TypeCodeMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>**)Il2CppClass::FromTypeDefinitionIndex(ConvertUtils_TypeDefinitionIndex)->GetStaticField(0x45AF8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "ConvertUtils")->GetStaticField(0x37710);
 		}
-		static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::ConvertUtils_TypeConvertKey, ::System::Func_2<::System::Object*, ::System::Object*>*>** StaticGet_CastConverters()
+
+		static ::Il2CppArray<::Newtonsoft::Json::Utilities::TypeInformation*>** StaticGet_PrimitiveTypeCodes()
 		{
-			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::ConvertUtils_TypeConvertKey, ::System::Func_2<::System::Object*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConvertUtils_TypeDefinitionIndex)->GetStaticField(0x45B00);
+			return (::Il2CppArray<::Newtonsoft::Json::Utilities::TypeInformation*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "ConvertUtils")->GetStaticField(0x37718);
+		}
+
+		static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, ::System::Func_2<::System::Object*, ::System::Object*>*>** StaticGet_CastConverters()
+		{
+			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, ::System::Func_2<::System::Object*, ::System::Object*>*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "ConvertUtils")->GetStaticField(0x37720);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CCTOR_OFFSET))();
 		}
 
 		static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type* a1)
@@ -69,9 +71,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::Newtonsoft::Json::Utilities::PrimitiveTypeCode(*)(::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_OFFSET))(a1);
 		}
 
-		static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode_1(::System::Type* a1, ::System::Boolean& a2)
+		static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Newtonsoft::Json::Utilities::PrimitiveTypeCode(*)(::System::Type*, ::System::Boolean&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_1_OFFSET))(a1, a2);
+			return ((::Newtonsoft::Json::Utilities::PrimitiveTypeCode(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETTYPECODE_1_OFFSET))(a1, a2);
 		}
 
 		static ::Newtonsoft::Json::Utilities::TypeInformation* GetTypeInformation(::System::IConvertible* a1)
@@ -94,14 +96,14 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Func_2<::System::Object*, ::System::Object*>*(*)(::Newtonsoft::Json::Utilities::ConvertUtils_TypeConvertKey))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_CREATECASTCONVERTER_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryConvert(::System::Object* a1, ::System::Globalization::CultureInfo* a2, ::System::Type* a3, ::System::Object*& a4)
+		static ::System::Boolean TryConvert(::System::Object* a1, ::System::Globalization::CultureInfo* a2, ::System::Type* a3, ::System::Object* a4)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Globalization::CultureInfo*, ::System::Type*, ::System::Object*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Globalization::CultureInfo*, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult TryConvertInternal(::System::Object* a1, ::System::Globalization::CultureInfo* a2, ::System::Type* a3, ::System::Object*& a4)
+		static ::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult TryConvertInternal(::System::Object* a1, ::System::Globalization::CultureInfo* a2, ::System::Type* a3, ::System::Object* a4)
 		{
-			return ((::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult(*)(::System::Object*, ::System::Globalization::CultureInfo*, ::System::Type*, ::System::Object*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTINTERNAL_OFFSET))(a1, a2, a3, a4);
+			return ((::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult(*)(::System::Object*, ::System::Globalization::CultureInfo*, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Object* ConvertOrCast(::System::Object* a1, ::System::Globalization::CultureInfo* a2, ::System::Type* a3)
@@ -119,9 +121,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::ComponentModel::TypeConverter*(*)(::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_GETCONVERTER_OFFSET))(a1);
 		}
 
-		static ::System::Boolean VersionTryParse(::System::String* a1, ::System::Version*& a2)
+		static ::System::Boolean VersionTryParse(::System::String* a1, ::System::Version* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Version*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_VERSIONTRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Version*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_VERSIONTRYPARSE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean IsInteger(::System::Object* a1)
@@ -129,19 +131,19 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_ISINTEGER_OFFSET))(a1);
 		}
 
-		static ::Newtonsoft::Json::Utilities::ParseResult Int32TryParse(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
+		static ::Newtonsoft::Json::Utilities::ParseResult Int32TryParse(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::Newtonsoft::Json::Utilities::ParseResult(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT32TRYPARSE_OFFSET))(a1, a2, a3, a4);
+			return ((::Newtonsoft::Json::Utilities::ParseResult(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT32TRYPARSE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Newtonsoft::Json::Utilities::ParseResult Int64TryParse(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int64& a4)
+		static ::Newtonsoft::Json::Utilities::ParseResult Int64TryParse(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int64 a4)
 		{
-			return ((::Newtonsoft::Json::Utilities::ParseResult(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Int64&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT64TRYPARSE_OFFSET))(a1, a2, a3, a4);
+			return ((::Newtonsoft::Json::Utilities::ParseResult(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_INT64TRYPARSE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryConvertGuid(::System::String* a1, ::System::Guid& a2)
+		static ::System::Boolean TryConvertGuid(::System::String* a1, ::System::Guid a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Guid&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTGUID_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Guid))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_TRYCONVERTGUID_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 HexTextToInt(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -153,5 +155,6 @@ namespace Newtonsoft::Json::Utilities
 		{
 			return ((::System::Int32(*)(::System::Char))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS_HEXCHARTOINT_OFFSET))(a1);
 		}
+
 	};
 }

@@ -2,8 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_6CC143B9599F1FCA;
+class EKOGCACGADH;
 namespace RPG::Client { class QuadricBezier; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -11,17 +10,17 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C3723A0)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C3723E0)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C372310)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_PLAY_OFFSET UNITYSDK_OFFSET(0x1C371250)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SETICON_OFFSET UNITYSDK_OFFSET(0x1C3711A0)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C372360)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C372550)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDB8BC00)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDB8BA50)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xDB8BA90)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDB8B9C0)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_PLAY_OFFSET UNITYSDK_OFFSET(0xDB8A900)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SETICON_OFFSET UNITYSDK_OFFSET(0xDB8A850)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDB8BA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingEvent_TypeDefinitionIndex = 66528;
+	inline static constexpr unsigned int PlanetFesFloatingEvent_TypeDefinitionIndex = 66496;
 
 	class PlanetFesFloatingEvent : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,13 +28,12 @@ namespace RPG::Client
 		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x18
 		::UnityEngine::Transform* KNGEKPKBIDK; // 0x20
 		::UnityEngine::Transform* GNPBGAKIAHM; // 0x28
-		::Class_1_6CC143B9599F1FCA* DLALHGJDNNO; // 0x30
+		::EKOGCACGADH* DLALHGJDNNO; // 0x30
 		::RPG::Client::QuadricBezier* BKHMEKLPNHJ; // 0x38
 		::System::Single HBDJCFFDGDD; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESFLOATINGEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESFLOATINGEVENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -67,5 +65,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESFLOATINGEVENT_PLAY_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

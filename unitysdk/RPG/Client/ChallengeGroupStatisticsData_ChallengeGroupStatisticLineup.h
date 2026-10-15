@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeGroupStatisticsData_ChallengeGroupStatisticLineup_TypeDefinitionIndex = 63192;
+	inline static constexpr unsigned int ChallengeGroupStatisticsData_ChallengeGroupStatisticLineup_TypeDefinitionIndex = 63125;
 
 	struct alignas(8) ChallengeGroupStatisticsData_ChallengeGroupStatisticLineup
 	{

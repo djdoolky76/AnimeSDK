@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MonopolyPhaseRewardRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C8660)
-#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C8CD0)
+#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D876FE0)
+#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D876970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyPhaseRewardRow_TypeDefinitionIndex = 11973;
+	inline static constexpr unsigned int MonopolyPhaseRewardRow_TypeDefinitionIndex = 12054;
 
 	class MonopolyPhaseRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardID; // 0x10
-		::System::UInt32 ProgressValue; // 0x14
+		::System::UInt32 ProgressValue; // 0x10
+		::System::UInt32 RewardID; // 0x14
 		::System::UInt32 PhaseRewardID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYPHASEREWARDROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYPHASEREWARDROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyPhaseRewardRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonopolyPhaseRewardRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyPhaseRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYPHASEREWARDROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonopolyPhaseRewardRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYPHASEREWARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x194B89E0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x194B8A20)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x194B7EC0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x194B88F0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB840)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFEB750)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB880)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFEAD20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeNavigationMessageDelegate_TypeDefinitionIndex = 47060;
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeNavigationMessageDelegate_TypeDefinitionIndex = 46600;
 
 	class MiHoYoSDKWebView_OnBeforeNavigationMessageDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1, ::System::String* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

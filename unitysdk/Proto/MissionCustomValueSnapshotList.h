@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -10,56 +9,59 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class MissionCustomValueSnapshot; }
+namespace Proto { class MissionCustomValueSnapshotList; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD45640)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD41C00)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD45410)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD45290)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD42110)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_GET_CUSTOMVALUELIST_OFFSET UNITYSDK_OFFSET(0x1DD45280)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD45160)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD456E0)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD42570)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD451C0)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD45530)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD45590)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD458A0)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD451D0)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD42520)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFD6B80)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD6DE0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFD3470)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFD6710)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD3D90)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFD6950)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFD67D0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFD3980)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_GET_CUSTOMVALUELIST_OFFSET UNITYSDK_OFFSET(0x1DFD67C0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFD66A0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFD6C20)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFD3DE0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFD6700)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD6A70)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD6AD0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MissionCustomValueSnapshotList_TypeDefinitionIndex = 25489;
+	inline static constexpr unsigned int MissionCustomValueSnapshotList_TypeDefinitionIndex = 25832;
 
 	class MissionCustomValueSnapshotList : public ::System::Object
 	{
 	public:
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MissionCustomValueSnapshot*>* customValueList_; // 0x18
 		static ::Google::Protobuf::MessageParser_1<::Proto::MissionCustomValueSnapshotList*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::MissionCustomValueSnapshotList*>**)Il2CppClass::FromTypeDefinitionIndex(MissionCustomValueSnapshotList_TypeDefinitionIndex)->GetStaticField(0x5BF70);
+			return (::Google::Protobuf::MessageParser_1<::Proto::MissionCustomValueSnapshotList*>**)UnitySDK::FromName("Proto", "MissionCustomValueSnapshotList")->GetStaticField(0x4CC90);
 		}
+
 		static ::Google::Protobuf::FieldCodec_1<::Proto::MissionCustomValueSnapshot*>** StaticGet__repeated_customValueList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::MissionCustomValueSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MissionCustomValueSnapshotList_TypeDefinitionIndex)->GetStaticField(0x5BF78);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::MissionCustomValueSnapshot*>**)UnitySDK::FromName("Proto", "MissionCustomValueSnapshotList")->GetStaticField(0x4CC98);
 		}
-		// static const ::System::Int32 CustomValueListFieldNumber = 0x1; // 0x0
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MissionCustomValueSnapshot*>* customValueList_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 
+		// static const ::System::Object CustomValueListFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::MissionCustomValueSnapshotList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::MissionCustomValueSnapshotList*))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::MissionCustomValueSnapshotList*))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::MissionCustomValueSnapshotList*>* get_Parser()
@@ -121,5 +123,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

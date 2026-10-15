@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCurrentSkillName; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_2E4156EB6C95B848_OFFSET UNITYSDK_OFFSET(0x1BBD1DB0)
-#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_E0EFEFEDE90A451D_OFFSET UNITYSDK_OFFSET(0x1BBD1D70)
-#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_EDC82C4EABF67BF3_OFFSET UNITYSDK_OFFSET(0x1BBD2020)
-#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_F3E8D8BF37431B5C_OFFSET UNITYSDK_OFFSET(0x1BBD1FF0)
-#define RPG_GAMECORE_BYCURRENTSKILLNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD1DA0)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4BDED0)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4BE150)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4BE120)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4BDEE0)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4BDEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentSkillName_TypeDefinitionIndex = 23241;
+	inline static constexpr unsigned int ByCurrentSkillName_TypeDefinitionIndex = 23506;
 
 	class ByCurrentSkillName : public ::RPG::GameCore::PredicateConfig
 	{
@@ -22,30 +22,30 @@ namespace RPG::GameCore
 		::System::String* SkillName; // 0x20
 		::Il2CppArray<::System::String*>* SkillNameList; // 0x28
 		::System::Boolean AccessClientActiveSkill; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E0EFEFEDE90A451D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillName*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_E0EFEFEDE90A451D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2E4156EB6C95B848(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_2E4156EB6C95B848_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F3E8D8BF37431B5C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillName*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_F3E8D8BF37431B5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EDC82C4EABF67BF3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_EDC82C4EABF67BF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

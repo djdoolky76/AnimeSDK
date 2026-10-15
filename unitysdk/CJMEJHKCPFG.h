@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class KFELGAIGHAP;
+namespace RPG::GameCore { class AttachGlobalShield; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CJMEJHKCPFG_CTOR_OFFSET UNITYSDK_OFFSET(0xD4CE440)
+#define CJMEJHKCPFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4CEAB0)
+#define CJMEJHKCPFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD4CE530)
+
+inline static constexpr unsigned int CJMEJHKCPFG_TypeDefinitionIndex = 54859;
+
+	class CJMEJHKCPFG
+	{
+	public:
+		::KFELGAIGHAP* CLJEOHHIOKK; // 0x28
+		::KFELGAIGHAP* PPCEGDLCPJH; // 0x30
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AttachGlobalShield* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AttachGlobalShield*))((::PBYTE)hIl2Cpp + CJMEJHKCPFG_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJMEJHKCPFG_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJMEJHKCPFG_DISPOSE_OFFSET))(this);
+		}
+
+	};

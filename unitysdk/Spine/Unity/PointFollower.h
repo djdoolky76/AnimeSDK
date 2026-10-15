@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine { class Bone; }
 namespace Spine { class PointAttachment; }
 namespace Spine::Unity { class ISkeletonComponent; }
@@ -9,19 +8,19 @@ namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_POINTFOLLOWER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1831D630)
-#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1831D620)
-#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1831D610)
-#define SPINE_UNITY_POINTFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1831D990)
-#define SPINE_UNITY_POINTFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1831D640)
-#define SPINE_UNITY_POINTFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1831DB50)
-#define SPINE_UNITY_POINTFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1831DA50)
-#define SPINE_UNITY_POINTFOLLOWER_UPDATEREFERENCES_OFFSET UNITYSDK_OFFSET(0x1831D670)
-#define SPINE_UNITY_POINTFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1831E120)
+#define SPINE_UNITY_POINTFOLLOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE3210)
+#define SPINE_UNITY_POINTFOLLOWER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1ECE2720)
+#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1ECE2710)
+#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECE2700)
+#define SPINE_UNITY_POINTFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECE2A80)
+#define SPINE_UNITY_POINTFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECE2730)
+#define SPINE_UNITY_POINTFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ECE2C40)
+#define SPINE_UNITY_POINTFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ECE2B40)
+#define SPINE_UNITY_POINTFOLLOWER_UPDATEREFERENCES_OFFSET UNITYSDK_OFFSET(0x1ECE2760)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int PointFollower_TypeDefinitionIndex = 43826;
+	inline static constexpr unsigned int PointFollower_TypeDefinitionIndex = 45018;
 
 	class PointFollower : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,15 +31,16 @@ namespace Spine::Unity
 		::System::Boolean followRotation; // 0x30
 		::System::Boolean followSkeletonFlip; // 0x31
 		::System::Boolean followSkeletonZPosition; // 0x32
+		::System::Byte _padding0[0x5];
 		::UnityEngine::Transform* skeletonTransform; // 0x38
 		::System::Boolean skeletonTransformIsParent; // 0x40
+		::System::Byte _padding1[0x7];
 		::Spine::PointAttachment* point; // 0x48
 		::Spine::Bone* bone; // 0x50
 		::System::Boolean valid; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_CTOR_OFFSET))(this);
 		}
 
 		::Spine::Unity::SkeletonRenderer* get_SkeletonRenderer()
@@ -82,5 +82,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

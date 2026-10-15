@@ -3,13 +3,13 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int TacticsRefreshResult_TypeDefinitionIndex = 35831;
+	inline static constexpr unsigned int TacticsRefreshResult_TypeDefinitionIndex = 36518;
 
 	enum class TacticsRefreshResult : ::System::Byte
 	{
-		Success = 0x0,
-		AlreadyRefreshedThisTurn = 0x1,
-		NotEnoughTacticsPoint = 0x2,
-		SystemDisabled = 0x3,
+		Success = 0,
+		AlreadyRefreshedThisTurn = 1,
+		NotEnoughTacticsPoint = 2,
+		SystemDisabled = 3,
 	};
 }

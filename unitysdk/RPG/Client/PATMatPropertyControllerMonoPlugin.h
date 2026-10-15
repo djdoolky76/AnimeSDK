@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PATMatPropertyControllerBehavior_MatBlockType.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 class PATRenderer;
-namespace RPG::Client { class PATMatPropertyControllerBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x191FF1B0)
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x191FF200)
+#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA12CE0)
+#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDA12C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PATMatPropertyControllerMonoPlugin_TypeDefinitionIndex = 70657;
+	inline static constexpr unsigned int PATMatPropertyControllerMonoPlugin_TypeDefinitionIndex = 70693;
 
-	class PATMatPropertyControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PATMatPropertyControllerBehavior*>
+	class PATMatPropertyControllerMonoPlugin
 	{
 	public:
 		::System::String* PropertyName; // 0x30
@@ -25,15 +22,15 @@ namespace RPG::Client
 		::UnityEngine::Color ColorData; // 0x40
 		::UnityEngine::Vector4 VectorData; // 0x50
 		::PATRenderer* TargetPatRenderer; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Button.h"
-
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Button_ButtonClickedEvent; }
 
-#define SRF_UI_LONGPRESSBUTTON_GET_ONLONGPRESS_OFFSET UNITYSDK_OFFSET(0x1EC47F20)
-#define SRF_UI_LONGPRESSBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1EC48010)
-#define SRF_UI_LONGPRESSBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1EC47F70)
-#define SRF_UI_LONGPRESSBUTTON_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1EC47F40)
-#define SRF_UI_LONGPRESSBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1EC47FC0)
-#define SRF_UI_LONGPRESSBUTTON_SET_ONLONGPRESS_OFFSET UNITYSDK_OFFSET(0x1EC47F30)
-#define SRF_UI_LONGPRESSBUTTON_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC48020)
-#define SRF_UI_LONGPRESSBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48080)
+#define SRF_UI_LONGPRESSBUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED52AD0)
+#define SRF_UI_LONGPRESSBUTTON_GET_ONLONGPRESS_OFFSET UNITYSDK_OFFSET(0x1ED52970)
+#define SRF_UI_LONGPRESSBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1ED52A60)
+#define SRF_UI_LONGPRESSBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1ED529C0)
+#define SRF_UI_LONGPRESSBUTTON_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1ED52990)
+#define SRF_UI_LONGPRESSBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1ED52A10)
+#define SRF_UI_LONGPRESSBUTTON_SET_ONLONGPRESS_OFFSET UNITYSDK_OFFSET(0x1ED52980)
+#define SRF_UI_LONGPRESSBUTTON_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED52A70)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int LongPressButton_TypeDefinitionIndex = 34713;
+	inline static constexpr unsigned int LongPressButton_TypeDefinitionIndex = 35382;
 
 	class LongPressButton : public ::UnityEngine::UI::Button
 	{
 	public:
 		::System::Boolean _handled; // 0x110
+		::System::Byte _padding0[0x7];
 		::UnityEngine::UI::Button_ButtonClickedEvent* _onLongPress; // 0x118
 		::System::Boolean _pressed; // 0x120
+		::System::Byte _padding1[0x3];
 		::System::Single _pressedTime; // 0x124
 		::System::Single LongPressDuration; // 0x128
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_LONGPRESSBUTTON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_LONGPRESSBUTTON_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::UI::Button_ButtonClickedEvent* get_onLongPress()
@@ -66,5 +66,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_LONGPRESSBUTTON_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

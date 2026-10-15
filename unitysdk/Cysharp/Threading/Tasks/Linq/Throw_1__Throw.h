@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Throw_1__Throw_TypeDefinitionIndex = 44533;
+	inline static constexpr unsigned int Throw_1__Throw_TypeDefinitionIndex = 45672;
 
-	template <typename TValue>
+	template <typename T>
 	class Throw_1__Throw : public ::System::Object
 	{
 	public:

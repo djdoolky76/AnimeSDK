@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class DeviceInfo; }
 namespace MiHoYo::SDK { class LogInfo; }
 namespace MiHoYo::SDK { class UserInfo; }
 namespace MiHoYo::SDK { class VersionInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD74440)
+#define MIHOYO_SDK_UPLOADCONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE81E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UploadContent_TypeDefinitionIndex = 7829;
+	inline static constexpr unsigned int UploadContent_TypeDefinitionIndex = 7873;
 
 	class UploadContent : public ::System::Object
 	{
@@ -22,10 +21,10 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::UserInfo* user_info; // 0x20
 		::MiHoYo::SDK::VersionInfo* version_info; // 0x28
 		::MiHoYo::SDK::LogInfo* log_info; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADCONTENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADCONTENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,44 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SharedValue.h"
 #include "unitysdk/RPG/GameCore/SharedValueType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SharedInt; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_SHAREDINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E09C260)
-#define RPG_GAMECORE_SHAREDINT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E09C2A0)
-#define RPG_GAMECORE_SHAREDINT_METHOD_3_6298D73FAACC4622_OFFSET UNITYSDK_OFFSET(0x1E09C140)
-#define RPG_GAMECORE_SHAREDINT_METHOD_3_85D22C255258C41D_OFFSET UNITYSDK_OFFSET(0x1E09C250)
-#define RPG_GAMECORE_SHAREDINT_METHOD_3_D606EE9005CB8215_OFFSET UNITYSDK_OFFSET(0x1E09C100)
-#define RPG_GAMECORE_SHAREDINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09C130)
+#define RPG_GAMECORE_SHAREDINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA2F90)
+#define RPG_GAMECORE_SHAREDINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DAA30C0)
+#define RPG_GAMECORE_SHAREDINT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DAA3100)
+#define RPG_GAMECORE_SHAREDINT_IMGLGAIIPCA_OFFSET UNITYSDK_OFFSET(0x1DAA30B0)
+#define RPG_GAMECORE_SHAREDINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA2FA0)
+#define RPG_GAMECORE_SHAREDINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA2F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SharedInt_TypeDefinitionIndex = 18090;
+	inline static constexpr unsigned int SharedInt_TypeDefinitionIndex = 18305;
 
 	class SharedInt : public ::RPG::GameCore::SharedValue
 	{
 	public:
 		::System::Int32 Value; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D606EE9005CB8215(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SharedInt*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SharedInt* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SharedInt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_METHOD_3_D606EE9005CB8215_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SharedInt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6298D73FAACC4622(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SharedInt* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SharedInt* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SharedInt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_METHOD_3_6298D73FAACC4622_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SharedInt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		::RPG::GameCore::SharedValueType Method_3_85D22C255258C41D()
+		::RPG::GameCore::SharedValueType IMGLGAIIPCA()
 		{
-			return ((::RPG::GameCore::SharedValueType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_METHOD_3_85D22C255258C41D_OFFSET))(this);
+			return ((::RPG::GameCore::SharedValueType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_IMGLGAIIPCA_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -51,5 +50,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDINT_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

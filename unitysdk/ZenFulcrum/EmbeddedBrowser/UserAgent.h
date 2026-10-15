@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_GETUSERAGENT_OFFSET UNITYSDK_OFFSET(0x1D7F40F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_SETUSERAGENTAPPEND_OFFSET UNITYSDK_OFFSET(0x1D7F4320)
-#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_SETUSERAGENT_OFFSET UNITYSDK_OFFSET(0x1D7F4290)
-#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F43D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F642BA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_GETUSERAGENT_OFFSET UNITYSDK_OFFSET(0x1F6428C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_SETUSERAGENTAPPEND_OFFSET UNITYSDK_OFFSET(0x1F642AF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_SETUSERAGENT_OFFSET UNITYSDK_OFFSET(0x1F642A60)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int UserAgent_TypeDefinitionIndex = 38269;
+	inline static constexpr unsigned int UserAgent_TypeDefinitionIndex = 39566;
 
 	class UserAgent : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_agentOverride()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UserAgent_TypeDefinitionIndex)->GetStaticField(0x46B00);
+			return (::System::String**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "UserAgent")->GetStaticField(0x46BA0);
 		}
+
 		static ::System::String** StaticGet_s_strAgentAppendSuffix()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UserAgent_TypeDefinitionIndex)->GetStaticField(0x46B08);
+			return (::System::String**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "UserAgent")->GetStaticField(0x46BA8);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::String* GetUserAgent()
@@ -44,5 +44,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_USERAGENT_SETUSERAGENTAPPEND_OFFSET))(a1);
 		}
+
 	};
 }

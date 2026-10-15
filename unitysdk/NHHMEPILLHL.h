@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NHHMEPILLHL_TypeDefinitionIndex = 32816;
+
+	enum class NHHMEPILLHL : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		MIDKKNAGOFA = 1,
+		FJMCIHHIGIA = 2,
+		ANBKDJKHCBI = 3,
+		NCLBFAALLFJ = 4,
+		EPCDLHFFBLI = 5,
+		MOFNIOJHBBL = 6,
+		CLNGFDPINDB = 7,
+		BGDGIIOKHGF = 8,
+		MCGGEAAHBPD = 9,
+		FMPGGENBHID = 10,
+		EMALBALANLH = 11,
+		LFCDGLIEHAI = 12,
+		DOFDGKKLJDD = 13,
+		JOLNBCHMDNN = 14,
+		BGPLPIPENJN = 15,
+		NPAFMEBNFOB = 16,
+		IKCHCHPGFFJ = 17,
+	};

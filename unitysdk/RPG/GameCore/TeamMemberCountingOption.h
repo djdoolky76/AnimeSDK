@@ -3,19 +3,19 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamMemberCountingOption_TypeDefinitionIndex = 18079;
+	inline static constexpr unsigned int TeamMemberCountingOption_TypeDefinitionIndex = 18294;
 
 	enum class TeamMemberCountingOption : ::System::UInt32
 	{
-		None = 0x0,
-		IgnoreRemoving = 0x1,
-		IgnoreServant = 0x2,
-		IgnoreRemovingExceptTarget = 0x4,
-		IgnoreTempLeave = 0x8,
-		IgnoreWillUnstage = 0x10,
-		IgnoreServantWhenSummonerSelectable = 0x20,
-		IgnoreStealthForWaveEndCheck = 0x40,
-		IgnoreExcludeInMultiCharacter = 0x80,
-		IgnorePuppetCharacter = 0x100,
+		None = 0,
+		IgnoreRemoving = 1,
+		IgnoreServant = 2,
+		IgnoreRemovingExceptTarget = 4,
+		IgnoreTempLeave = 8,
+		IgnoreWillUnstage = 16,
+		IgnoreServantWhenSummonerSelectable = 32,
+		IgnoreStealthForWaveEndCheck = 64,
+		IgnoreExcludeInMultiCharacter = 128,
+		IgnorePuppetCharacter = 256,
 	};
 }

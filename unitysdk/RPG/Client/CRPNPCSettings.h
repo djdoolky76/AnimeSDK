@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CRPNPCSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11DC10)
+#define RPG_CLIENT_CRPNPCSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C6440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPNPCSettings_TypeDefinitionIndex = 67933;
+	inline static constexpr unsigned int CRPNPCSettings_TypeDefinitionIndex = 67935;
 
 	class CRPNPCSettings : public ::System::Object
 	{
@@ -15,10 +15,10 @@ namespace RPG::Client
 		::RPG::CustomRP::Quality CrowdDensityQuality; // 0x10
 		::RPG::CustomRP::Quality PedestrianDensityQuality; // 0x14
 		::RPG::CustomRP::Quality AudienceDensityQuality; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPNPCSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPNPCSETTINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

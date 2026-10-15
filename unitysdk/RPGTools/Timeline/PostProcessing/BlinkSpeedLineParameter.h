@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_METHOD_2_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x3B774D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_METHOD_2_CFB02B3D31F59D6F_OFFSET UNITYSDK_OFFSET(0x1B0A2E60)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE910090)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF82A0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkSpeedLineParameter_TypeDefinitionIndex = 48990;
+	inline static constexpr unsigned int BlinkSpeedLineParameter_TypeDefinitionIndex = 48536;
 
 	struct alignas(4) BlinkSpeedLineParameter
 	{
@@ -29,15 +28,17 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Single BlinkSpeedlineLength; // 0x54
 		::System::Single BlinkSpeedlineWidth; // 0x58
 		::System::Boolean IsActive; // 0x5C
-
-		static ::RPGTools::Timeline::PostProcessing::BlinkSpeedLineParameter Method_2_CFB02B3D31F59D6F(::System::Boolean a1)
+		/*
+		static ::RPGTools::Timeline::PostProcessing::BlinkSpeedLineParameter JIHKKHMEKLO(::System::Boolean a1)
 		{
-			return ((::RPGTools::Timeline::PostProcessing::BlinkSpeedLineParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_METHOD_2_CFB02B3D31F59D6F_OFFSET))(a1);
+			return ((::RPGTools::Timeline::PostProcessing::BlinkSpeedLineParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_JIHKKHMEKLO_OFFSET))(a1);
+		}
+		*/
+
+		::System::Void KHGIKBFDLFB(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_KHGIKBFDLFB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_3E7178C5ECF017DB(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINEPARAMETER_METHOD_2_3E7178C5ECF017DB_OFFSET))(this, a1);
-		}
 	};
 }

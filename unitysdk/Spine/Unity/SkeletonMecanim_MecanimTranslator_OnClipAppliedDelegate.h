@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine { class Animation; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1832F5C0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1832F690)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1832E740)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1832F4D0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF43D0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF42E0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF44A0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF3530)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate_TypeDefinitionIndex = 43845;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate_TypeDefinitionIndex = 45037;
 
 	class SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Animation* a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
@@ -38,5 +37,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

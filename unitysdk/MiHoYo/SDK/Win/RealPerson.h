@@ -2,48 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class RealPerson; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_REALPERSON_AWAKE_OFFSET UNITYSDK_OFFSET(0x1879F700)
-#define MIHOYO_SDK_WIN_REALPERSON_BACK_OFFSET UNITYSDK_OFFSET(0x187A07B0)
-#define MIHOYO_SDK_WIN_REALPERSON_HIDE_OFFSET UNITYSDK_OFFSET(0x187A07D0)
-#define MIHOYO_SDK_WIN_REALPERSON_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x187A0770)
-#define MIHOYO_SDK_WIN_REALPERSON_MEETRULE_OFFSET UNITYSDK_OFFSET(0x187A0790)
-#define MIHOYO_SDK_WIN_REALPERSON_NOTVERIFY_OFFSET UNITYSDK_OFFSET(0x187A0840)
-#define MIHOYO_SDK_WIN_REALPERSON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187A0B10)
-#define MIHOYO_SDK_WIN_REALPERSON_SETREALNAMEINFO_OFFSET UNITYSDK_OFFSET(0x187A09F0)
-#define MIHOYO_SDK_WIN_REALPERSON_SHOW_OFFSET UNITYSDK_OFFSET(0x187A0670)
-#define MIHOYO_SDK_WIN_REALPERSON_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1879FE80)
-#define MIHOYO_SDK_WIN_REALPERSON__CTOR_OFFSET UNITYSDK_OFFSET(0x187A0B30)
-#define MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET UNITYSDK_OFFSET(0x187A0B70)
+#define MIHOYO_SDK_WIN_REALPERSON_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDBED40)
+#define MIHOYO_SDK_WIN_REALPERSON_BACK_OFFSET UNITYSDK_OFFSET(0x1BDBFDF0)
+#define MIHOYO_SDK_WIN_REALPERSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC0170)
+#define MIHOYO_SDK_WIN_REALPERSON_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDBFE10)
+#define MIHOYO_SDK_WIN_REALPERSON_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1BDBFDB0)
+#define MIHOYO_SDK_WIN_REALPERSON_MEETRULE_OFFSET UNITYSDK_OFFSET(0x1BDBFDD0)
+#define MIHOYO_SDK_WIN_REALPERSON_NOTVERIFY_OFFSET UNITYSDK_OFFSET(0x1BDBFE80)
+#define MIHOYO_SDK_WIN_REALPERSON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDC0150)
+#define MIHOYO_SDK_WIN_REALPERSON_SETREALNAMEINFO_OFFSET UNITYSDK_OFFSET(0x1BDC0030)
+#define MIHOYO_SDK_WIN_REALPERSON_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDBFCB0)
+#define MIHOYO_SDK_WIN_REALPERSON_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BDBF4C0)
+#define MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET UNITYSDK_OFFSET(0x1BDC01B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealPerson_TypeDefinitionIndex = 9432;
+	inline static constexpr unsigned int RealPerson_TypeDefinitionIndex = 9490;
 
 	class RealPerson : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::RealPerson** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::RealPerson**)Il2CppClass::FromTypeDefinitionIndex(RealPerson_TypeDefinitionIndex)->GetStaticField(0x3A630);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* QuestionButtonPath; // 0x0
-		// static const ::System::String* RuleButtonPath; // 0x0
-		// static const ::System::String* RuleButtonTextPath; // 0x0
-		// static const ::System::String* NameTextPath; // 0x0
-		// static const ::System::String* IDTextPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* SubmitButtonTextPath; // 0x0
-		// static const ::System::String* TipsTextPath; // 0x0
 		::UnityEngine::UI::Button* backButton; // 0x58
 		::UnityEngine::UI::Button* questionButton; // 0x60
 		::UnityEngine::UI::Button* ruleButton; // 0x68
@@ -56,10 +41,25 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnRequestRule; // 0xA0
 		::System::Action* OnMeetProblem; // 0xA8
 		::MiHoYo::SDK::AccountModel* account; // 0xB0
+		static ::MiHoYo::SDK::Win::RealPerson** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::RealPerson**)UnitySDK::FromName("MiHoYo.SDK.Win", "RealPerson")->GetStaticField(0x2E490);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* QuestionButtonPath; // 0x0
+		// static const ::System::String* RuleButtonPath; // 0x0
+		// static const ::System::String* RuleButtonTextPath; // 0x0
+		// static const ::System::String* NameTextPath; // 0x0
+		// static const ::System::String* IDTextPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* SubmitButtonTextPath; // 0x0
+		// static const ::System::String* TipsTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -116,5 +116,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET))(this, a1);
 		}
+
 	};
 }

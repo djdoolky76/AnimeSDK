@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x14971470)
-#define INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x149725F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA40E70)
+#define INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA3FCF0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int XboxOneWindows10NativeProfile_TypeDefinitionIndex = 40034;
+	inline static constexpr unsigned int XboxOneWindows10NativeProfile_TypeDefinitionIndex = 41331;
 
 	class XboxOneWindows10NativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Define()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_XBOXONEWINDOWS10NATIVEPROFILE_DEFINE_OFFSET))(this);
 		}
+
 	};
 }

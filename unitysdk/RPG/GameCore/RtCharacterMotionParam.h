@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtCharacterMotionParam; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_METHOD_2_D4205F33CDE91B9B_OFFSET UNITYSDK_OFFSET(0x1CCD6490)
-#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE2690)
+#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2B310)
+#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1EE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterMotionParam_TypeDefinitionIndex = 17439;
+	inline static constexpr unsigned int RtCharacterMotionParam_TypeDefinitionIndex = 17651;
 
 	class RtCharacterMotionParam : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,15 +24,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint RunStopAcc; // 0x40
 		::RPG::GameCore::FixPoint RunStartTime; // 0x48
 		::RPG::GameCore::FixPoint RunStopTime; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERMOTIONPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERMOTIONPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D4205F33CDE91B9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterMotionParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtCharacterMotionParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterMotionParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERMOTIONPARAM_METHOD_2_D4205F33CDE91B9B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtCharacterMotionParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERMOTIONPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

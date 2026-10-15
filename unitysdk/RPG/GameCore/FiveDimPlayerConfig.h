@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEventReceiverConfig; }
 namespace RPG::GameCore { class FiveDimMoveConfig; }
 namespace RPG::GameCore { class FiveDimPlayerActionConfig; }
 namespace RPG::GameCore { class FiveDimPlayerAnimConfig; }
+namespace RPG::GameCore { class FiveDimPlayerConfig; }
 namespace RPG::GameCore { class FiveDimPlayerEffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYERCONFIG_METHOD_2_2A2A7E9AB7B7AC90_OFFSET UNITYSDK_OFFSET(0x1D8601F0)
-#define RPG_GAMECORE_FIVEDIMPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D871510)
+#define RPG_GAMECORE_FIVEDIMPLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A4080)
+#define RPG_GAMECORE_FIVEDIMPLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A3C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerConfig_TypeDefinitionIndex = 16491;
+	inline static constexpr unsigned int FiveDimPlayerConfig_TypeDefinitionIndex = 16667;
 
 	class FiveDimPlayerConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,15 +36,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FiveDimPlayerActionConfig* DashHitTimeSlowActions; // 0x78
 		::RPG::GameCore::FiveDimPlayerActionConfig* DashStartAimActions; // 0x80
 		::RPG::GameCore::FiveDimEventReceiverConfig* EventReceiverConfig; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2A2A7E9AB7B7AC90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPlayerConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimPlayerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPlayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERCONFIG_METHOD_2_2A2A7E9AB7B7AC90_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimPlayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,41 +3,43 @@
 #include "unitysdk/RPG/GameCore/RequestPassByValueSourceType.h"
 #include "unitysdk/RPG/GameCore/RequestPassByValueTargetType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvPassByValueClientServer; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_04796BC54F726CD8_OFFSET UNITYSDK_OFFSET(0x1D6C2CD0)
-#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_0B35E6AF6010E561_OFFSET UNITYSDK_OFFSET(0x1D6C2D10)
-#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C2D00)
+#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37C750)
+#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37C760)
+#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37C720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPassByValueClientServer_TypeDefinitionIndex = 20292;
+	inline static constexpr unsigned int AdvPassByValueClientServer_TypeDefinitionIndex = 20530;
 
 	class AdvPassByValueClientServer : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::RequestPassByValueSourceType SourceType; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* SourceInstanceID; // 0x20
 		::RPG::GameCore::DynamicString* SourceKey; // 0x28
 		::RPG::GameCore::RequestPassByValueTargetType TargetType; // 0x30
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::DynamicString* TargetKey; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_04796BC54F726CD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPassByValueClientServer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvPassByValueClientServer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPassByValueClientServer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_04796BC54F726CD8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvPassByValueClientServer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0B35E6AF6010E561(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPassByValueClientServer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvPassByValueClientServer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPassByValueClientServer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_0B35E6AF6010E561_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvPassByValueClientServer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

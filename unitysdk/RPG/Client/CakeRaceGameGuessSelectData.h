@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client { class CakeRaceGameGuessSelectData; }
 
-#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C648790)
-#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_GET_CATID_OFFSET UNITYSDK_OFFSET(0x1C648770)
-#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_GET_COSTTICKETCOUNT_OFFSET UNITYSDK_OFFSET(0x1C648780)
-#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C648810)
+#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC911920)
+#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC9119A0)
+#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_GET_CATID_OFFSET UNITYSDK_OFFSET(0xC911900)
+#define RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_GET_COSTTICKETCOUNT_OFFSET UNITYSDK_OFFSET(0xC911910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameGuessSelectData_TypeDefinitionIndex = 63111;
+	inline static constexpr unsigned int CakeRaceGameGuessSelectData_TypeDefinitionIndex = 63044;
 
 	class CakeRaceGameGuessSelectData : public ::System::Object
 	{
 	public:
 		::System::UInt32 _CostTicketCount_k__BackingField; // 0x10
 		::System::UInt32 _CatID_k__BackingField; // 0x14
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_CatID()
@@ -36,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::CakeRaceGameGuessSelectData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSSELECTDATA_CREATE_OFFSET))(a1, a2);
 		}
+
 	};
 }

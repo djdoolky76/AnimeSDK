@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace HoudiniEngineUnity { class HEU_PreAssetEventData; }
-
-#define HOUDINIENGINEUNITY_HEU_PREASSETEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B146D30)
+#define HOUDINIENGINEUNITY_HEU_PREASSETEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B95B880)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PreAssetEvent_TypeDefinitionIndex = 39067;
+	inline static constexpr unsigned int HEU_PreAssetEvent_TypeDefinitionIndex = 40364;
 
-	class HEU_PreAssetEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_PreAssetEventData*>
+	class HEU_PreAssetEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PREASSETEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PREASSETEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

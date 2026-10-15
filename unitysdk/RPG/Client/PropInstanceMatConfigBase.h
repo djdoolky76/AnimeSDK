@@ -3,49 +3,47 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
-namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_42314D937731DCE7_OFFSET UNITYSDK_OFFSET(0x17B48BB0)
-#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_5620A498479AEA0C_OFFSET UNITYSDK_OFFSET(0x17B48B60)
-#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17B48A10)
-#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_F1E2CFDA70BD4DCE_OFFSET UNITYSDK_OFFSET(0x17B48B10)
-#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B48C00)
+#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDDECE00)
+#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_DBKOJBAIOFL_1_OFFSET UNITYSDK_OFFSET(0xDDECD60)
+#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_DBKOJBAIOFL_2_OFFSET UNITYSDK_OFFSET(0xDDECDB0)
+#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_DBKOJBAIOFL_OFFSET UNITYSDK_OFFSET(0xDDECD10)
+#define RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xDDECC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceMatConfigBase_TypeDefinitionIndex = 70715;
+	inline static constexpr unsigned int PropInstanceMatConfigBase_TypeDefinitionIndex = 70751;
 
 	class PropInstanceMatConfigBase : public ::System::Object
 	{
 	public:
 		::System::String* PropertyName; // 0x10
 		::System::Int32 _PropertyID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_1_F1E2CFDA70BD4DCE(::Il2CppArray<::System::Single>* a1)
+		::System::Void DBKOJBAIOFL(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_F1E2CFDA70BD4DCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_DBKOJBAIOFL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_5620A498479AEA0C(::Unity::Collections::NativeArray_1<::System::Single> a1)
+		::System::Void DBKOJBAIOFL_1(::Unity::Collections::NativeArray_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_5620A498479AEA0C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_DBKOJBAIOFL_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_42314D937731DCE7(::Il2CppArray<::UnityEngine::Color>* a1)
+		::System::Void DBKOJBAIOFL_2(::Il2CppArray<::UnityEngine::Color>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_METHOD_1_42314D937731DCE7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCEMATCONFIGBASE_DBKOJBAIOFL_2_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetMapSummonedMinions; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_6D76543FDC3D64CC_OFFSET UNITYSDK_OFFSET(0x1E1BDE40)
-#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_BBEED9848CF4BAC6_OFFSET UNITYSDK_OFFSET(0x1E1BDEC0)
-#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_C83467000443B361_OFFSET UNITYSDK_OFFSET(0x1E1BDDC0)
-#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_DB45420F8586E573_OFFSET UNITYSDK_OFFSET(0x1E1BDEA0)
-#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BDE30)
+#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3F1F0)
+#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB3F280)
+#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB3F260)
+#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB3F200)
+#define RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB3F180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapSummonedMinions_TypeDefinitionIndex = 23679;
+	inline static constexpr unsigned int TargetMapSummonedMinions_TypeDefinitionIndex = 23953;
 
 	class TargetMapSummonedMinions : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C83467000443B361(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapSummonedMinions*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapSummonedMinions* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapSummonedMinions*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_C83467000443B361_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapSummonedMinions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6D76543FDC3D64CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapSummonedMinions* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapSummonedMinions* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapSummonedMinions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_6D76543FDC3D64CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapSummonedMinions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DB45420F8586E573(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSummonedMinions*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSummonedMinions* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSummonedMinions*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_DB45420F8586E573_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSummonedMinions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BBEED9848CF4BAC6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSummonedMinions* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSummonedMinions* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSummonedMinions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_METHOD_3_BBEED9848CF4BAC6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSummonedMinions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONEDMINIONS_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE45A20)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1516C0)
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
-	inline static constexpr unsigned int AlembicTrack_TypeDefinitionIndex = 44615;
+	inline static constexpr unsigned int AlembicTrack_TypeDefinitionIndex = 45754;
 
 	class AlembicTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICTRACK_CTOR_OFFSET))(this);
 		}
+
 	};
 }

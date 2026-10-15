@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyId.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Transform.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyMoveEvent_TypeDefinitionIndex = 35909;
+	inline static constexpr unsigned int B2BodyMoveEvent_TypeDefinitionIndex = 36596;
 
 	struct alignas(8) B2BodyMoveEvent
 	{

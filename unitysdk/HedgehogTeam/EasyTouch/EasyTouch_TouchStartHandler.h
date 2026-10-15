@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D160A50)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D160A80)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A740)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D160960)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673BAA0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673B9B0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673BAD0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16735760)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_TouchStartHandler_TypeDefinitionIndex = 38994;
+	inline static constexpr unsigned int EasyTouch_TouchStartHandler_TypeDefinitionIndex = 40291;
 
 	class EasyTouch_TouchStartHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHSTARTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

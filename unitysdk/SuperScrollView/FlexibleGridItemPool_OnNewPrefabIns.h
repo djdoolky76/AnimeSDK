@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x197F6030)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x197F6060)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_INVOKE_OFFSET UNITYSDK_OFFSET(0x197F5BD0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS__CTOR_OFFSET UNITYSDK_OFFSET(0x197F5FC0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE990F50)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_CTOR_OFFSET UNITYSDK_OFFSET(0xE990EE0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE990F80)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_INVOKE_OFFSET UNITYSDK_OFFSET(0xE990AC0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int FlexibleGridItemPool_OnNewPrefabIns_TypeDefinitionIndex = 48101;
+	inline static constexpr unsigned int FlexibleGridItemPool_OnNewPrefabIns_TypeDefinitionIndex = 47641;
 
 	class FlexibleGridItemPool_OnNewPrefabIns : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +37,6 @@ namespace SuperScrollView
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

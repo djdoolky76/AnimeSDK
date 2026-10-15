@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9B9890)
-#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9B98E0)
-#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9B9880)
-#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B9810)
+#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB5940)
+#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB58C0)
+#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB5990)
+#define MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB5930)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SteamDelegate_SetAppIdDelegate_TypeDefinitionIndex = 7643;
+	inline static constexpr unsigned int SteamDelegate_SetAppIdDelegate_TypeDefinitionIndex = 7697;
 
 	class SteamDelegate_SetAppIdDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt32 a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_SETAPPIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

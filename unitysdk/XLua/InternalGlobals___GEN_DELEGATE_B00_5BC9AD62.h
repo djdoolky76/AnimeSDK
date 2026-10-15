@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12B22170)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12B221D0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B22160)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62__CTOR_OFFSET UNITYSDK_OFFSET(0x12B22070)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA5570)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA5470)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA55D0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA5560)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_5BC9AD62_TypeDefinitionIndex = 50529;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_5BC9AD62_TypeDefinitionIndex = 50198;
 
 	class InternalGlobals___GEN_DELEGATE_B00_5BC9AD62 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::GameEntity* Invoke(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* a1, ::System::UInt32 a2)
@@ -39,5 +38,6 @@ namespace XLua
 		{
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_5BC9AD62_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,52 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StageHarmonyBaseLinkSlot.h"
-
 namespace RPG::CustomRP { class CustomAdditionalLightData; }
 namespace UnityEngine { class Light; }
 
-#define STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x197EC660)
-#define STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x197EC710)
-#define STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x197EC830)
-#define STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x197EC7F0)
-#define STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_FD6AF0F9AA9298B1_OFFSET UNITYSDK_OFFSET(0x197EC870)
-#define STAGEHARMONYLIGHTGROUPLINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x197ECEF0)
+#define STAGEHARMONYLIGHTGROUPLINKSLOT_AIDGGGKKGKD_OFFSET UNITYSDK_OFFSET(0xE9879E0)
+#define STAGEHARMONYLIGHTGROUPLINKSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xE988060)
+#define STAGEHARMONYLIGHTGROUPLINKSLOT_JEFGHGKMEME_OFFSET UNITYSDK_OFFSET(0xE9877D0)
+#define STAGEHARMONYLIGHTGROUPLINKSLOT_JKCPLEJCBML_OFFSET UNITYSDK_OFFSET(0xE9879A0)
+#define STAGEHARMONYLIGHTGROUPLINKSLOT_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE987880)
+#define STAGEHARMONYLIGHTGROUPLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE987960)
 
-inline static constexpr unsigned int StageHarmonyLightGroupLinkSlot_TypeDefinitionIndex = 48004;
+inline static constexpr unsigned int StageHarmonyLightGroupLinkSlot_TypeDefinitionIndex = 47544;
 
-class StageHarmonyLightGroupLinkSlot : public ::StageHarmonyBaseLinkSlot
-{
-public:
-	::UnityEngine::Light* TargetLight; // 0x40
-	::RPG::CustomRP::CustomAdditionalLightData* lightData; // 0x48
-
-	::System::Void _ctor()
+	class StageHarmonyLightGroupLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::Light* TargetLight; // 0x40
+		::RPG::CustomRP::CustomAdditionalLightData* lightData; // 0x48
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Method_2_7DB49B5407C8FD68()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_7DB49B5407C8FD68_OFFSET))(this);
-	}
+		::System::Void JEFGHGKMEME()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_JEFGHGKMEME_OFFSET))(this);
+		}
 
-	::System::Void Method_2_B09E78EE7EE4F8FA()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_B09E78EE7EE4F8FA_OFFSET))(this);
-	}
+		::System::Void KPJGDHLENIP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_KPJGDHLENIP_OFFSET))(this);
+		}
 
-	::System::Void Method_2_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET))(this);
-	}
+		::System::Void NEKGALPLEOH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_NEKGALPLEOH_OFFSET))(this);
+		}
 
-	::System::Void Method_2_CA373AA1C7054598_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
-	}
+		::System::Void JKCPLEJCBML()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_JKCPLEJCBML_OFFSET))(this);
+		}
 
-	::System::Void Method_2_FD6AF0F9AA9298B1(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_METHOD_2_FD6AF0F9AA9298B1_OFFSET))(this, a1);
-	}
-};
+		::System::Void AIDGGGKKGKD(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTGROUPLINKSLOT_AIDGGGKKGKD_OFFSET))(this, a1);
+		}
+
+	};

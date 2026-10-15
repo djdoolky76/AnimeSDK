@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EDCDMKFIOPH_TypeDefinitionIndex = 31253;
+
+	enum class EDCDMKFIOPH : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		DLCLAPFNCJG = 1039,
+		MMJDGCIPGKF = 1061,
+		OAAFNIKLKJO = 1015,
+		EBEILHDCJLP = 1034,
+		MGJGKJAODIO = 1075,
+		IPNNIOLHMGC = 1058,
+		IABBOIKMDLB = 1056,
+		DOAJCCEGGMO = 1068,
+		OMIAAIJAFKJ = 1008,
+		JFACCEAOBDM = 1005,
+		EOMMLHEPHAP = 1025,
+		KPJFFMGAIBC = 1016,
+		BNAPHIHJLBL = 1083,
+		DJGHCGCPHCD = 1060,
+		CHFKDJGAIEL = 1042,
+	};

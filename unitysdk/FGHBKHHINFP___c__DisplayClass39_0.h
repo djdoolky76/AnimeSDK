@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class FGHBKHHINFP;
+class FGHBKHHINFP_INIEEEKLKEA;
+namespace RPG::Client { class IAssetOperation; }
+namespace RPG::Client::Promises { class Promise; }
+
+#define FGHBKHHINFP___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15756480)
+#define FGHBKHHINFP___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x157566E0)
+
+inline static constexpr unsigned int FGHBKHHINFP___c__DisplayClass39_0_TypeDefinitionIndex = 69166;
+
+	class FGHBKHHINFP___c__DisplayClass39_0 : public ::System::Object
+	{
+	public:
+		::FGHBKHHINFP* __4__this; // 0x10
+		::RPG::Client::Promises::Promise* promise; // 0x18
+		::FGHBKHHINFP_INIEEEKLKEA* onLoadAction; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FGHBKHHINFP___C__DISPLAYCLASS39_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _AsyncLoadGameobjectWithPromise_b__0(::RPG::Client::IAssetOperation* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + FGHBKHHINFP___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET))(this, a1);
+		}
+
+	};

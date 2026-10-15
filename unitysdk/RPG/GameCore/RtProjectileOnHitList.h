@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtProjectileOnHitList; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTPROJECTILEONHITLIST_METHOD_2_92D13C95471BBDF4_OFFSET UNITYSDK_OFFSET(0x1CCEC2F0)
-#define RPG_GAMECORE_RTPROJECTILEONHITLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEC440)
+#define RPG_GAMECORE_RTPROJECTILEONHITLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA350C0)
+#define RPG_GAMECORE_RTPROJECTILEONHITLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA34F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtProjectileOnHitList_TypeDefinitionIndex = 23865;
+	inline static constexpr unsigned int RtProjectileOnHitList_TypeDefinitionIndex = 24140;
 
 	class RtProjectileOnHitList : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Int32 RepeatCount; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnProjectileHit; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPROJECTILEONHITLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPROJECTILEONHITLIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_92D13C95471BBDF4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtProjectileOnHitList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtProjectileOnHitList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtProjectileOnHitList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPROJECTILEONHITLIST_METHOD_2_92D13C95471BBDF4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtProjectileOnHitList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPROJECTILEONHITLIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

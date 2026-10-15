@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Microsoft::CSharp { class CodeDomProvider; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALIDSTART_OFFSET UNITYSDK_OFFSET(0x1B088C80)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B088BF0)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEPASCAL_OFFSET UNITYSDK_OFFSET(0x1B088610)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEVALID_OFFSET UNITYSDK_OFFSET(0x1B0887B0)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B088D00)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEC9980)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALIDSTART_OFFSET UNITYSDK_OFFSET(0x1EEC9900)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EEC9870)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEPASCAL_OFFSET UNITYSDK_OFFSET(0x1EEC9290)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEVALID_OFFSET UNITYSDK_OFFSET(0x1EEC9430)
 
 namespace System::Xml::Serialization
 {
@@ -20,12 +19,12 @@ namespace System::Xml::Serialization
 	public:
 		static ::Microsoft::CSharp::CodeDomProvider** StaticGet_csharp()
 		{
-			return (::Microsoft::CSharp::CodeDomProvider**)Il2CppClass::FromTypeDefinitionIndex(CodeIdentifier_TypeDefinitionIndex)->GetStaticField(0x1ECF0);
+			return (::Microsoft::CSharp::CodeDomProvider**)UnitySDK::FromName("System.Xml.Serialization", "CodeIdentifier")->GetStaticField(0x30B50);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* MakePascal(::System::String* a1)
@@ -47,5 +46,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET))(a1);
 		}
+
 	};
 }

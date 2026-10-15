@@ -4,46 +4,38 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-
 namespace RPG::Client::BAT { class BATRenderer; }
 namespace RPG::Client::TAUtils { class MaterialPropertiesCollection; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_GPUDRIVEN_OFFSET UNITYSDK_OFFSET(0x19F01B70)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_MODE_OFFSET UNITYSDK_OFFSET(0x19F02080)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x19F02390)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_VALIDFORCULLING_OFFSET UNITYSDK_OFFSET(0x19F02310)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x19F02150)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET__PROTOTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x19F01B10)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_0C44FB644D25C1C2_OFFSET UNITYSDK_OFFSET(0x19F011A0)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x19F01CA0)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_8BC85DADEC2C3862_OFFSET UNITYSDK_OFFSET(0x19F01D50)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x19F020D0)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x19F02110)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x19F02090)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_DA40E2A231DA0583_OFFSET UNITYSDK_OFFSET(0x19F02030)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x19F023A0)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F023C0)
-#define RPG_CLIENT_BAT_BATCONTROLLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F023B0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xC7CD8E0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7CDF50)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CDF40)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_GPUDRIVEN_OFFSET UNITYSDK_OFFSET(0xC7CD700)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_MODE_OFFSET UNITYSDK_OFFSET(0xC7CDC10)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xC7CDF20)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_VALIDFORCULLING_OFFSET UNITYSDK_OFFSET(0xC7CDEA0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0xC7CDCE0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GET__PROTOTYPECOUNT_OFFSET UNITYSDK_OFFSET(0xC7CD6A0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_GPLLONMEDAC_OFFSET UNITYSDK_OFFSET(0xC7CDCA0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0xC7CDC60)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_KEPMMNEBKCD_OFFSET UNITYSDK_OFFSET(0xC7CDC20)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC7CDBC0)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xC7CCD30)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC7CD830)
+#define RPG_CLIENT_BAT_BATCONTROLLERBASE_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xC7CDF30)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATControllerBase_TypeDefinitionIndex = 73558;
+	inline static constexpr unsigned int BATControllerBase_TypeDefinitionIndex = 73665;
 
 	class BATControllerBase : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__InstanceDataBufferShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATControllerBase_TypeDefinitionIndex)->GetStaticField(0xB00);
-		}
-		static ::System::Int32* StaticGet__InstanceDataOffsetShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATControllerBase_TypeDefinitionIndex)->GetStaticField(0xB04);
-		}
 		::RPG::Client::BAT::BATControllerBase_DrawMode _Mode_k__BackingField; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* Counts; // 0x18
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*>* MatrixLists; // 0x20
 		::UnityEngine::ComputeBuffer* Buffer; // 0x28
@@ -53,36 +45,46 @@ namespace RPG::Client::BAT
 		::UnityEngine::Bounds Bounds; // 0x48
 		::System::Int32 _TotalCount_k__BackingField; // 0x60
 		::System::Boolean _AutoSpawnDataAligned; // 0x64
+		::System::Byte _padding1[0x3];
 		::RPG::Client::BAT::BATRenderer* Owner; // 0x68
+		static ::System::Int32* StaticGet__InstanceDataOffsetShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATControllerBase")->GetStaticField(0x138D0);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATControllerBase")->GetStaticField(0x138D4);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_1_0C44FB644D25C1C2()
+		::System::Void OINBDMGFFJL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_0C44FB644D25C1C2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_OINBDMGFFJL_OFFSET))(this);
 		}
 
-		::System::Void Method_1_2450CFC043E97F54()
+		::System::Void PAGKOAEOLKA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_2450CFC043E97F54_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_PAGKOAEOLKA_OFFSET))(this);
 		}
 
-		::System::Void Method_1_8BC85DADEC2C3862()
+		::System::Void ABKBOGIGAEH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_8BC85DADEC2C3862_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_ABKBOGIGAEH_OFFSET))(this);
 		}
 
-		::System::Void Method_1_DA40E2A231DA0583()
+		::System::Void KHGIKBFDLFB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_DA40E2A231DA0583_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_KHGIKBFDLFB_OFFSET))(this);
 		}
 
 		::RPG::Client::BAT::BATControllerBase_DrawMode get_Mode()
@@ -90,19 +92,19 @@ namespace RPG::Client::BAT
 			return ((::RPG::Client::BAT::BATControllerBase_DrawMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_GET_MODE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void KEPMMNEBKCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_KEPMMNEBKCD_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_1()
+		::System::Void IKOHLHDGFKH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_IKOHLHDGFKH_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_2()
+		::System::Void GPLLONMEDAC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_GPLLONMEDAC_OFFSET))(this);
 		}
 
 		::System::Boolean get_ValidForRendering()
@@ -134,5 +136,6 @@ namespace RPG::Client::BAT
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATCONTROLLERBASE_GET__PROTOTYPECOUNT_OFFSET))(this);
 		}
+
 	};
 }

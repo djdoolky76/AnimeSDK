@@ -3,24 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D13F770)
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D13F9E0)
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D140160)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C0370)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8C05E0)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C0D60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterLookAtTrack_TypeDefinitionIndex = 48441;
+	inline static constexpr unsigned int CharacterLookAtTrack_TypeDefinitionIndex = 47981;
 
 	class CharacterLookAtTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

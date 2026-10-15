@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x1B0C0520)
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B0C0540)
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x1B0C0530)
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C05F0)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE92CE10)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xE92CD40)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE92CD60)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xE92CD50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetStoryDanmuEnableBehaviour_TypeDefinitionIndex = 48525;
+	inline static constexpr unsigned int SetStoryDanmuEnableBehaviour_TypeDefinitionIndex = 48065;
 
 	class SetStoryDanmuEnableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean _IsEnable_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsEnable()
@@ -37,5 +36,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETSTORYDANMUENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

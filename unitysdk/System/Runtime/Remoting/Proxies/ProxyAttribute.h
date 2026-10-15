@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class MarshalByRefObject; }
 namespace System { class Object; }
 namespace System { class Type; }
@@ -9,8 +8,8 @@ namespace System::Runtime::Remoting { class ObjRef; }
 namespace System::Runtime::Remoting::Contexts { class Context; }
 namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1944F520)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEPROXY_OFFSET UNITYSDK_OFFSET(0x1944F970)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C2CE1A0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEPROXY_OFFSET UNITYSDK_OFFSET(0x1C2CE5F0)
 
 namespace System::Runtime::Remoting::Proxies
 {
@@ -28,5 +27,6 @@ namespace System::Runtime::Remoting::Proxies
 		{
 			return ((::System::Runtime::Remoting::Proxies::RealProxy*(*)(::PVOID, ::System::Runtime::Remoting::ObjRef*, ::System::Type*, ::System::Object*, ::System::Runtime::Remoting::Contexts::Context*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEPROXY_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

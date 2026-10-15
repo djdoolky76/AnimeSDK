@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client { class GridFightMonsterAffixConfig; }
 namespace RPG::GameCore { class GridFightAffixConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x1BC3F7D0)
-#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1BC4C1C0)
-#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1BC4C270)
-#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x1BC4C100)
-#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BC4C150)
-#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC4C0F0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0xD1A84D0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD1B4FF0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_DESC_OFFSET UNITYSDK_OFFSET(0xD1B50C0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD1B5170)
+#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0xD1B5000)
+#define RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xD1B5050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterAffixConfig_TypeDefinitionIndex = 65113;
+	inline static constexpr unsigned int GridFightMonsterAffixConfig_TypeDefinitionIndex = 65053;
 
 	class GridFightMonsterAffixConfig : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GridFightAffixConfigRow* _row; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::GridFightMonsterAffixConfig* Create(::System::UInt32 a1)
@@ -51,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMONSTERAFFIXCONFIG_GET_ICONPATH_OFFSET))(this);
 		}
+
 	};
 }

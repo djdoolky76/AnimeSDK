@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PairValueEntry.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CURVEPAIRVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B3610)
+#define RPG_CLIENT_CURVEPAIRVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD4B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurvePairValue_TypeDefinitionIndex = 70982;
+	inline static constexpr unsigned int CurvePairValue_TypeDefinitionIndex = 71014;
 
 	class CurvePairValue : public ::RPG::Client::PairValueEntry
 	{
 	public:
 		::UnityEngine::AnimationCurve* Curve; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEPAIRVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEPAIRVALUE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

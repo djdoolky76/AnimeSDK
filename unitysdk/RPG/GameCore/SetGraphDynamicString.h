@@ -1,40 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class SetGraphDynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_METHOD_3_3CD646DFAD9564DE_OFFSET UNITYSDK_OFFSET(0x1E82D0C0)
-#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_METHOD_3_4D6126E161FF5DEF_OFFSET UNITYSDK_OFFSET(0x1E82D110)
-#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E82D100)
+#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA87610)
+#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA87620)
+#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA875D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetGraphDynamicString_TypeDefinitionIndex = 20472;
+	inline static constexpr unsigned int SetGraphDynamicString_TypeDefinitionIndex = 20711;
 
 	class SetGraphDynamicString : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* Name; // 0x18
 		::System::Boolean TargetSelf; // 0x20
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::System::UInt32>* TargetIDs; // 0x28
 		::RPG::GameCore::DynamicString* Value; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICSTRING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICSTRING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3CD646DFAD9564DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetGraphDynamicString*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetGraphDynamicString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetGraphDynamicString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICSTRING_METHOD_3_3CD646DFAD9564DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetGraphDynamicString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICSTRING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4D6126E161FF5DEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetGraphDynamicString* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetGraphDynamicString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetGraphDynamicString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICSTRING_METHOD_3_4D6126E161FF5DEF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetGraphDynamicString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICSTRING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

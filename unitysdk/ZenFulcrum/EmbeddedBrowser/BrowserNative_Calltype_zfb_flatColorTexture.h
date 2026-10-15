@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E07D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0890)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7D1770)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E0760)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6233F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F623380)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6234B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F613C60)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_flatColorTexture_TypeDefinitionIndex = 38105;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_flatColorTexture_TypeDefinitionIndex = 39402;
 
 	class BrowserNative_Calltype_zfb_flatColorTexture : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_FLATCOLORTEXTURE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_F9FBCC956DFCF137_27;
+class ICCLDNDNHPD;
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A8E6330)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_TICK_OFFSET UNITYSDK_OFFSET(0x1A8E6390)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E6320)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6A9E0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDC6A9F0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_TICK_OFFSET UNITYSDK_OFFSET(0xDC6AA50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopWaitSecondsCommand_TypeDefinitionIndex = 77879;
+	inline static constexpr unsigned int ChimeraDuelShopWaitSecondsCommand_TypeDefinitionIndex = 78350;
 
 	class ChimeraDuelShopWaitSecondsCommand : public ::System::Object
 	{
@@ -19,20 +18,20 @@ namespace RPG::Client::Prop
 		::System::Action* _OnComplete; // 0x10
 		::System::Single _Total; // 0x18
 		::System::Single _Elapsed; // 0x1C
-
 		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Execute(::Class_1_F9FBCC956DFCF137_27* a1, ::System::Action* a2)
+		::System::Void Execute(::ICCLDNDNHPD* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_27*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_EXECUTE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::ICCLDNDNHPD*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Tick(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_HOSTTONETWORK_OFFSET UNITYSDK_OFFSET(0x1C6CA7B0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_NETWORKTOHOST_OFFSET UNITYSDK_OFFSET(0x1C6CF130)
-#define MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6CF140)
+#define MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0xB049130)
+#define MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_HOSTTONETWORK_OFFSET UNITYSDK_OFFSET(0xB043BC0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_NETWORKTOHOST_OFFSET UNITYSDK_OFFSET(0xB049120)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_EndianConverter_TypeDefinitionIndex = 46861;
+	inline static constexpr unsigned int SecurityTunnel_EndianConverter_TypeDefinitionIndex = 46401;
 
 	class SecurityTunnel_EndianConverter : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void HostToNetwork(::Il2CppArray<::System::Byte>* a1)
@@ -27,5 +27,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ENDIANCONVERTER_NETWORKTOHOST_OFFSET))(a1);
 		}
+
 	};
 }

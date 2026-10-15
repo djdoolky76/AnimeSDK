@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+namespace RPG::Client { class LuaUIController; }
+namespace RPG::GameCore { class ShowFantasticStoryBattleResultPage; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define DILIAHKLHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xF20E460)
+#define DILIAHKLHCL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF20E470)
+#define DILIAHKLHCL_NOOGKPDBCCC_OFFSET UNITYSDK_OFFSET(0xF20E500)
+#define DILIAHKLHCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF20E4B0)
+#define DILIAHKLHCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF20E630)
+#define DILIAHKLHCL_TICK_OFFSET UNITYSDK_OFFSET(0xF20E680)
+
+inline static constexpr unsigned int DILIAHKLHCL_TypeDefinitionIndex = 58647;
+
+	class DILIAHKLHCL : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::ShowFantasticStoryBattleResultPage* OFKGLJOAMLD; // 0x18
+		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowFantasticStoryBattleResultPage* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowFantasticStoryBattleResultPage*))((::PBYTE)hIl2Cpp + DILIAHKLHCL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DILIAHKLHCL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DILIAHKLHCL_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DILIAHKLHCL_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + DILIAHKLHCL_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void NOOGKPDBCCC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DILIAHKLHCL_NOOGKPDBCCC_OFFSET))(this);
+		}
+
+	};

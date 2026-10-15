@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace IFix::Core { class VirtualMachine; }
+namespace System { class Object; }
 
-#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1CC60A80)
-#define IFIX_CORE_GENERICDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC60A60)
+#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1B99C610)
+#define IFIX_CORE_GENERICDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99C5F0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 10055;
+	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 7122;
 
 	class GenericDelegate : public ::System::Object
 	{
@@ -18,16 +18,17 @@ namespace IFix::Core
 		::System::Object* anonObj; // 0x18
 		::System::Int32 methodId; // 0x20
 		::System::Boolean pushSelf; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Int32 extraArgNum; // 0x28
-
 		::System::Void _ctor(::IFix::Core::VirtualMachine* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_GENERICDELEGATE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_GENERICDELEGATE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Action()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET))(this);
 		}
+
 	};
 }

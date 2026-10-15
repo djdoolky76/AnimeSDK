@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Diagnostics/DebuggerBrowsableState.h"
+#include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB515D0)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A35E0)
 
 namespace System::Diagnostics
 {
@@ -13,10 +13,10 @@ namespace System::Diagnostics
 	{
 	public:
 		::System::Diagnostics::DebuggerBrowsableState state; // 0x10
-
 		::System::Void _ctor(::System::Diagnostics::DebuggerBrowsableState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::DebuggerBrowsableState))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::DebuggerBrowsableState))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

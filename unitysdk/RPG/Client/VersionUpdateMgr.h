@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_87;
-class Class_1_8CA784D26D9A6CF7;
-class Class_1_F0F5FC8CD22F7E83;
-class Class_2_570C2CCF5D0BF6A1;
-class Class_2_7419679A7698613D;
+class CEOABLKMPKE;
+class EJLIOMPMHHI;
+class HGDELEAHIJO;
+class HJEIEIFLDGN;
+class PNFLEMCDMJD;
 namespace RPG::GameCore { class PckPatchConfig; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -14,45 +13,44 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_VERSIONUPDATEMGR_CLEARDOWNLOADEDALLASSETSFLAG_OFFSET UNITYSDK_OFFSET(0x1C802560)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETASSETSERVERUPDATEURL_OFFSET UNITYSDK_OFFSET(0x1C802660)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETDOWNLOADALLSIZEWITHBLACKLIST_OFFSET UNITYSDK_OFFSET(0x1C8028D0)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETDOWNLOADALLSIZE_OFFSET UNITYSDK_OFFSET(0x1C802760)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADALLSIZE_OFFSET UNITYSDK_OFFSET(0x1C8058F0)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADASSETSERVERUPDATEURL_OFFSET UNITYSDK_OFFSET(0x1C808600)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADFULLSIZE_OFFSET UNITYSDK_OFFSET(0x1C805A60)
-#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADSIZE_OFFSET UNITYSDK_OFFSET(0x1C8070C0)
-#define RPG_CLIENT_VERSIONUPDATEMGR_HAVEPREDOWNLOADASSETS_OFFSET UNITYSDK_OFFSET(0x1C804190)
-#define RPG_CLIENT_VERSIONUPDATEMGR_HAVEPREDOWNLOADVERSION_OFFSET UNITYSDK_OFFSET(0x1C804370)
-#define RPG_CLIENT_VERSIONUPDATEMGR_ISDOWNLOADEDALLASSETS_OFFSET UNITYSDK_OFFSET(0x1C802250)
-#define RPG_CLIENT_VERSIONUPDATEMGR_ISPREDOWNLOADEDALLASSETS_OFFSET UNITYSDK_OFFSET(0x1C808690)
-#define RPG_CLIENT_VERSIONUPDATEMGR_LOADMINIVERSION_OFFSET UNITYSDK_OFFSET(0x1C804420)
-#define RPG_CLIENT_VERSIONUPDATEMGR_LOADPREDOWNLOADVERSION_OFFSET UNITYSDK_OFFSET(0x1C804EC0)
-#define RPG_CLIENT_VERSIONUPDATEMGR_MAKEDOWNLOADEDALLASSETSFLAG_OFFSET UNITYSDK_OFFSET(0x1C8023C0)
-#define RPG_CLIENT_VERSIONUPDATEMGR_REMOVEPCKPATCHFILE_OFFSET UNITYSDK_OFFSET(0x1C804560)
-#define RPG_CLIENT_VERSIONUPDATEMGR_REMOVEPCKPATCHS_OFFSET UNITYSDK_OFFSET(0x1C804700)
-#define RPG_CLIENT_VERSIONUPDATEMGR_TRYDELETEPREDOWNLOADASSETS_OFFSET UNITYSDK_OFFSET(0x1C8050D0)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOSCORE_OFFSET UNITYSDK_OFFSET(0x1C8076E0)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0x1C802FA0)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHPREDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0x1C8075A0)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOSCORE_OFFSET UNITYSDK_OFFSET(0x1C803150)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0x1C802DF0)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHPREDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0x1C807460)
-#define RPG_CLIENT_VERSIONUPDATEMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C808CE0)
-#define RPG_CLIENT_VERSIONUPDATEMGR__GETDOWNLOADSIZE_OFFSET UNITYSDK_OFFSET(0x1C802A40)
+#define RPG_CLIENT_VERSIONUPDATEMGR_CLEARDOWNLOADEDALLASSETSFLAG_OFFSET UNITYSDK_OFFSET(0xE4394D0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_CTOR_OFFSET UNITYSDK_OFFSET(0xE43FBB0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETASSETSERVERUPDATEURL_OFFSET UNITYSDK_OFFSET(0xE4395D0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETDOWNLOADALLSIZEWITHBLACKLIST_OFFSET UNITYSDK_OFFSET(0xE439830)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETDOWNLOADALLSIZE_OFFSET UNITYSDK_OFFSET(0xE4396D0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADALLSIZE_OFFSET UNITYSDK_OFFSET(0xE43C780)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADASSETSERVERUPDATEURL_OFFSET UNITYSDK_OFFSET(0xE43F490)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADFULLSIZE_OFFSET UNITYSDK_OFFSET(0xE43C8F0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADSIZE_OFFSET UNITYSDK_OFFSET(0xE43DF50)
+#define RPG_CLIENT_VERSIONUPDATEMGR_HAVEPREDOWNLOADASSETS_OFFSET UNITYSDK_OFFSET(0xE43B0E0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_HAVEPREDOWNLOADVERSION_OFFSET UNITYSDK_OFFSET(0xE43B300)
+#define RPG_CLIENT_VERSIONUPDATEMGR_ISDOWNLOADEDALLASSETS_OFFSET UNITYSDK_OFFSET(0xE4391C0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_ISPREDOWNLOADEDALLASSETS_OFFSET UNITYSDK_OFFSET(0xE43F520)
+#define RPG_CLIENT_VERSIONUPDATEMGR_LOADMINIVERSION_OFFSET UNITYSDK_OFFSET(0xE43B3B0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_LOADPREDOWNLOADVERSION_OFFSET UNITYSDK_OFFSET(0xE43BE60)
+#define RPG_CLIENT_VERSIONUPDATEMGR_MAKEDOWNLOADEDALLASSETSFLAG_OFFSET UNITYSDK_OFFSET(0xE439330)
+#define RPG_CLIENT_VERSIONUPDATEMGR_REMOVEPCKPATCHFILE_OFFSET UNITYSDK_OFFSET(0xE43B570)
+#define RPG_CLIENT_VERSIONUPDATEMGR_REMOVEPCKPATCHS_OFFSET UNITYSDK_OFFSET(0xE43B6A0)
+#define RPG_CLIENT_VERSIONUPDATEMGR_TRYDELETEPREDOWNLOADASSETS_OFFSET UNITYSDK_OFFSET(0xE43BFD0)
+#define RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOSCORE_OFFSET UNITYSDK_OFFSET(0xE43E570)
+#define RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0xE439EF0)
+#define RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHPREDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0xE43E430)
+#define RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOSCORE_OFFSET UNITYSDK_OFFSET(0xE43A0A0)
+#define RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0xE439D40)
+#define RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHPREDOWNLOADINFOS_OFFSET UNITYSDK_OFFSET(0xE43E2F0)
+#define RPG_CLIENT_VERSIONUPDATEMGR__GETDOWNLOADSIZE_OFFSET UNITYSDK_OFFSET(0xE439990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateMgr_TypeDefinitionIndex = 61371;
+	inline static constexpr unsigned int VersionUpdateMgr_TypeDefinitionIndex = 61277;
 
 	class VersionUpdateMgr : public ::System::Object
 	{
 	public:
 		// static const ::System::String* DownloadAllAssetsFlagFile; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean IsDownloadedAllAssets()
@@ -85,19 +83,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Action_2<::System::Int64, ::System::Int64>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_GETDOWNLOADALLSIZEWITHBLACKLIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int64 _GetDownloadSize(::Class_1_8CA784D26D9A6CF7* a1)
+		static ::System::Int64 _GetDownloadSize(::EJLIOMPMHHI* a1)
 		{
-			return ((::System::Int64(*)(::Class_1_8CA784D26D9A6CF7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__GETDOWNLOADSIZE_OFFSET))(a1);
+			return ((::System::Int64(*)(::EJLIOMPMHHI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__GETDOWNLOADSIZE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean _CalcBlockHPatchDownloadInfos(::Class_2_7419679A7698613D* a1, ::System::Int64& a2, ::System::Int32& a3, ::System::Int32& a4, ::System::Int64& a5, ::System::Int32& a6)
+		static ::System::Boolean _CalcBlockHPatchDownloadInfos(::PNFLEMCDMJD* a1, ::System::Int64 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int64 a5, ::System::Int32 a6)
 		{
-			return ((::System::Boolean(*)(::Class_2_7419679A7698613D*, ::System::Int64&, ::System::Int32&, ::System::Int32&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::PNFLEMCDMJD*, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean _CalcBlockHPatchDownloadInfosCore(::Class_2_7419679A7698613D* a1, ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>* a2, ::System::Int64& a3, ::System::Int32& a4, ::System::Int32& a5, ::System::Int64& a6, ::System::Int32& a7)
+		static ::System::Boolean _CalcBlockHPatchDownloadInfosCore(::PNFLEMCDMJD* a1, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>* a2, ::System::Int64 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int64 a6, ::System::Int32 a7)
 		{
-			return ((::System::Boolean(*)(::Class_2_7419679A7698613D*, ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>*, ::System::Int64&, ::System::Int32&, ::System::Int32&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOSCORE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::PNFLEMCDMJD*, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>*, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHDOWNLOADINFOSCORE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Boolean HavePredownloadAssets()
@@ -105,9 +103,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_HAVEPREDOWNLOADASSETS_OFFSET))();
 		}
 
-		static ::Class_1_F0F5FC8CD22F7E83* LoadMiniVersion(::System::String* a1, ::System::String* a2)
+		static ::HJEIEIFLDGN* LoadMiniVersion(::System::String* a1, ::System::String* a2)
 		{
-			return ((::Class_1_F0F5FC8CD22F7E83*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_LOADMINIVERSION_OFFSET))(a1, a2);
+			return ((::HJEIEIFLDGN*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_LOADMINIVERSION_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean HavePredownloadVersion(::System::String* a1, ::System::String* a2)
@@ -125,9 +123,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::PckPatchConfig*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_REMOVEPCKPATCHS_OFFSET))(a1, a2);
 		}
 
-		static ::Class_1_F0F5FC8CD22F7E83* LoadPredownloadVersion(::System::String* a1, ::System::String* a2)
+		static ::HJEIEIFLDGN* LoadPredownloadVersion(::System::String* a1, ::System::String* a2)
 		{
-			return ((::Class_1_F0F5FC8CD22F7E83*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_LOADPREDOWNLOADVERSION_OFFSET))(a1, a2);
+			return ((::HJEIEIFLDGN*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_LOADPREDOWNLOADVERSION_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void TryDeletePredownloadAssets(::System::Boolean a1)
@@ -140,34 +138,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::Action_2<::System::Int64, ::System::Int64>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADALLSIZE_OFFSET))(a1);
 		}
 
-		static ::System::Int64 GetPreDownloadFullSize(::Class_1_8CA784D26D9A6CF7* a1)
+		static ::System::Int64 GetPreDownloadFullSize(::EJLIOMPMHHI* a1)
 		{
-			return ((::System::Int64(*)(::Class_1_8CA784D26D9A6CF7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADFULLSIZE_OFFSET))(a1);
+			return ((::System::Int64(*)(::EJLIOMPMHHI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADFULLSIZE_OFFSET))(a1);
 		}
 
-		static ::System::Int64 GetPreDownloadSize(::Class_1_8CA784D26D9A6CF7* a1)
+		static ::System::Int64 GetPreDownloadSize(::EJLIOMPMHHI* a1)
 		{
-			return ((::System::Int64(*)(::Class_1_8CA784D26D9A6CF7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADSIZE_OFFSET))(a1);
+			return ((::System::Int64(*)(::EJLIOMPMHHI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_GETPREDOWNLOADSIZE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean _CalcBlockHPatchPreDownloadInfos(::Class_2_7419679A7698613D* a1, ::System::Int64& a2, ::System::Int32& a3, ::System::Int32& a4, ::System::Int64& a5, ::System::Int32& a6)
+		static ::System::Boolean _CalcBlockHPatchPreDownloadInfos(::PNFLEMCDMJD* a1, ::System::Int64 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int64 a5, ::System::Int32 a6)
 		{
-			return ((::System::Boolean(*)(::Class_2_7419679A7698613D*, ::System::Int64&, ::System::Int32&, ::System::Int32&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHPREDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::PNFLEMCDMJD*, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCBLOCKHPATCHPREDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean _CalcAudioHPatchDownloadInfos(::Class_2_570C2CCF5D0BF6A1* a1, ::System::Int64& a2, ::System::Int32& a3, ::System::Int32& a4, ::System::Int64& a5, ::System::Int32& a6)
+		static ::System::Boolean _CalcAudioHPatchDownloadInfos(::CEOABLKMPKE* a1, ::System::Int64 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int64 a5, ::System::Int32 a6)
 		{
-			return ((::System::Boolean(*)(::Class_2_570C2CCF5D0BF6A1*, ::System::Int64&, ::System::Int32&, ::System::Int32&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::CEOABLKMPKE*, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean _CalcAudioHPatchPreDownloadInfos(::Class_2_570C2CCF5D0BF6A1* a1, ::System::Int64& a2, ::System::Int32& a3, ::System::Int32& a4, ::System::Int64& a5, ::System::Int32& a6)
+		static ::System::Boolean _CalcAudioHPatchPreDownloadInfos(::CEOABLKMPKE* a1, ::System::Int64 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int64 a5, ::System::Int32 a6)
 		{
-			return ((::System::Boolean(*)(::Class_2_570C2CCF5D0BF6A1*, ::System::Int64&, ::System::Int32&, ::System::Int32&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHPREDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::CEOABLKMPKE*, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHPREDOWNLOADINFOS_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean _CalcAudioHPatchDownloadInfosCore(::Class_2_570C2CCF5D0BF6A1* a1, ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>* a2, ::System::Int64& a3, ::System::Int32& a4, ::System::Int32& a5, ::System::Int64& a6, ::System::Int32& a7)
+		static ::System::Boolean _CalcAudioHPatchDownloadInfosCore(::CEOABLKMPKE* a1, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>* a2, ::System::Int64 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int64 a6, ::System::Int32 a7)
 		{
-			return ((::System::Boolean(*)(::Class_2_570C2CCF5D0BF6A1*, ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>*, ::System::Int64&, ::System::Int32&, ::System::Int32&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOSCORE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::CEOABLKMPKE*, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>*, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR__CALCAUDIOHPATCHDOWNLOADINFOSCORE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::String* GetPredownloadAssetServerUpdateUrl()
@@ -179,5 +177,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR_ISPREDOWNLOADEDALLASSETS_OFFSET))();
 		}
+
 	};
 }

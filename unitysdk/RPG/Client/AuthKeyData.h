@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client { class AuthKeyData_WebAuthKey; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_AUTHKEYDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x193B5360)
-#define RPG_CLIENT_AUTHKEYDATA_GETWEBAUTHKEYSTRING_OFFSET UNITYSDK_OFFSET(0x193B4B00)
-#define RPG_CLIENT_AUTHKEYDATA_GET_AUTHKEYDIC_OFFSET UNITYSDK_OFFSET(0x193B4700)
-#define RPG_CLIENT_AUTHKEYDATA_ISWEBAUTHKEYEXPIRE_OFFSET UNITYSDK_OFFSET(0x193B47B0)
-#define RPG_CLIENT_AUTHKEYDATA_UPDATEWEBAUTHKEY_OFFSET UNITYSDK_OFFSET(0x193B4DF0)
-#define RPG_CLIENT_AUTHKEYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x193B46F0)
+#define RPG_CLIENT_AUTHKEYDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xC6BFB10)
+#define RPG_CLIENT_AUTHKEYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC6BF470)
+#define RPG_CLIENT_AUTHKEYDATA_GETWEBAUTHKEYSTRING_OFFSET UNITYSDK_OFFSET(0xC6BF700)
+#define RPG_CLIENT_AUTHKEYDATA_GET_AUTHKEYDIC_OFFSET UNITYSDK_OFFSET(0xC6BF480)
+#define RPG_CLIENT_AUTHKEYDATA_ISWEBAUTHKEYEXPIRE_OFFSET UNITYSDK_OFFSET(0xC6BF560)
+#define RPG_CLIENT_AUTHKEYDATA_UPDATEWEBAUTHKEY_OFFSET UNITYSDK_OFFSET(0xC6BF890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AuthKeyData_TypeDefinitionIndex = 66445;
+	inline static constexpr unsigned int AuthKeyData_TypeDefinitionIndex = 66416;
 
 	class AuthKeyData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::AuthKeyData_WebAuthKey*>* _AuthKeyDic; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _AuthKeyDic; // 0x10
 		::System::UInt64 _WebAuthkeyCacheTimespan; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTHKEYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTHKEYDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::AuthKeyData_WebAuthKey*>* get_AuthKeyDic()
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_AuthKeyDic()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::AuthKeyData_WebAuthKey*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTHKEYDATA_GET_AUTHKEYDIC_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTHKEYDATA_GET_AUTHKEYDIC_OFFSET))(this);
 		}
 
 		::System::Boolean IsWebAuthkeyExpire(::System::String* a1)
@@ -52,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTHKEYDATA_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

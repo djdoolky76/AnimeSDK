@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_APPLYSTRETCHTOBASESPRITE_OFFSET UNITYSDK_OFFSET(0x1C6F47F0)
-#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_APPLYSTRETCHTOOVERRIDESPRITE_OFFSET UNITYSDK_OFFSET(0x1C6F4AB0)
-#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_CREATEHORIZONTALSTRETCHSPRITE_OFFSET UNITYSDK_OFFSET(0x1C6F8B20)
-#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_ISINSTRETCHWHITELIST_OFFSET UNITYSDK_OFFSET(0x1C6F8950)
-#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F8D30)
+#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_APPLYSTRETCHTOBASESPRITE_OFFSET UNITYSDK_OFFSET(0xAFACD80)
+#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_APPLYSTRETCHTOOVERRIDESPRITE_OFFSET UNITYSDK_OFFSET(0xAFAD010)
+#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFAF590)
+#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_CREATEHORIZONTALSTRETCHSPRITE_OFFSET UNITYSDK_OFFSET(0xAFAF380)
+#define MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_ISINSTRETCHWHITELIST_OFFSET UNITYSDK_OFFSET(0xAFAF1B0)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int StretchModeSkinAssetsLogic_TypeDefinitionIndex = 47196;
+	inline static constexpr unsigned int StretchModeSkinAssetsLogic_TypeDefinitionIndex = 46736;
 
 	class StretchModeSkinAssetsLogic : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_StretchWhitelist()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StretchModeSkinAssetsLogic_TypeDefinitionIndex)->GetStaticField(0x52DF0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoUI", "StretchModeSkinAssetsLogic")->GetStaticField(0x25890);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean IsInStretchWhitelist(::System::String* a1)
@@ -48,5 +47,6 @@ namespace MiHoYo::SDK::HoYoUI
 		{
 			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Sprite*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_STRETCHMODESKINASSETSLOGIC_CREATEHORIZONTALSTRETCHSPRITE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

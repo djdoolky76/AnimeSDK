@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class RegularTeamListProvider; }
 namespace RPG::Client { class TeamData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0x1B65C3F0)
-#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET UNITYSDK_OFFSET(0x1B65CA60)
-#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0x1B65C470)
-#define RPG_CLIENT_REGULARTEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B65C460)
+#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xDE5ED70)
+#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDE5EDE0)
+#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET UNITYSDK_OFFSET(0xDE5F3D0)
+#define RPG_CLIENT_REGULARTEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0xDE5EDF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegularTeamListProvider_TypeDefinitionIndex = 68116;
+	inline static constexpr unsigned int RegularTeamListProvider_TypeDefinitionIndex = 68121;
 
 	class RegularTeamListProvider : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGULARTEAMLISTPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGULARTEAMLISTPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::RegularTeamListProvider* Create()
@@ -36,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TeamData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGULARTEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET))(this);
 		}
+
 	};
 }

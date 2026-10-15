@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterNavigateFollow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_392B5CFE830B80C0_OFFSET UNITYSDK_OFFSET(0x1D1240D0)
-#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_F71A36AB8CE33556_OFFSET UNITYSDK_OFFSET(0x1D124120)
-#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D124110)
+#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D545FE0)
+#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D545FF0)
+#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D545FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterNavigateFollow_TypeDefinitionIndex = 20617;
+	inline static constexpr unsigned int CharacterNavigateFollow_TypeDefinitionIndex = 20856;
 
 	class CharacterNavigateFollow : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,20 +23,20 @@ namespace RPG::GameCore
 		::System::Single FollowDistance; // 0x2C
 		::System::Boolean WaitUntilFinish; // 0x30
 		::System::Boolean AvoidOthers; // 0x31
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_392B5CFE830B80C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterNavigateFollow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterNavigateFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterNavigateFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_392B5CFE830B80C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterNavigateFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F71A36AB8CE33556(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterNavigateFollow* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterNavigateFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterNavigateFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_F71A36AB8CE33556_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterNavigateFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,40 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FourRotateVoxelChestHintConfig; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_98E1691212CA4139_OFFSET UNITYSDK_OFFSET(0x1DCB4B20)
-#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_AE691D0393D3BF8C_OFFSET UNITYSDK_OFFSET(0x1DCB4B60)
-#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB4B50)
+#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BF900)
+#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6BF910)
+#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BF8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelChestHintConfig_TypeDefinitionIndex = 16605;
+	inline static constexpr unsigned int FourRotateVoxelChestHintConfig_TypeDefinitionIndex = 16781;
 
 	class FourRotateVoxelChestHintConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsChestHint; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* ChestHintBindLevelVarName; // 0x18
+		::System::Byte _padding0[0x7];
+		::RPG::GameCore::LittleGameDynamicVar* ChestHintBindLevelVarName; // 0x18
 		::System::SByte ChestHintLevelVarTargetValue; // 0x20
+		::System::Byte _padding1[0x7];
 		::System::String* HintAttachPointName; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_98E1691212CA4139(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelChestHintConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_98E1691212CA4139_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelChestHintConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AE691D0393D3BF8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelChestHintConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_AE691D0393D3BF8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelChestHintConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

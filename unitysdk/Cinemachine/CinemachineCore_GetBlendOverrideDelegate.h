@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CinemachineBlendDefinition.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/Cinemachine/CinemachineBlendDefinition.h"
 namespace Cinemachine { class ICinemachineCamera; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18C53AF0)
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18C53B90)
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18C43EB0)
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C53A00)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1666FFB0)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1666FEC0)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16670050)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16660360)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCore_GetBlendOverrideDelegate_TypeDefinitionIndex = 38516;
+	inline static constexpr unsigned int CinemachineCore_GetBlendOverrideDelegate_TypeDefinitionIndex = 39813;
 
 	class CinemachineCore_GetBlendOverrideDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Cinemachine::CinemachineBlendDefinition Invoke(::Cinemachine::ICinemachineCamera* a1, ::Cinemachine::ICinemachineCamera* a2, ::Cinemachine::CinemachineBlendDefinition a3, ::UnityEngine::MonoBehaviour* a4)
@@ -40,5 +39,6 @@ namespace Cinemachine
 		{
 			return ((::Cinemachine::CinemachineBlendDefinition(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

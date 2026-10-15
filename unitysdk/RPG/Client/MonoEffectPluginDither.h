@@ -1,45 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaReplaceMatBase.h"
-
 namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_METHOD_8_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x1B386660)
-#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_METHOD_8_3E586421BA588EFD_OFFSET UNITYSDK_OFFSET(0x1B3863D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_METHOD_8_FF35922B674791EC_OFFSET UNITYSDK_OFFSET(0x1B386020)
-#define RPG_CLIENT_MONOEFFECTPLUGINDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3866F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0xD7F1B10)
+#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F1BA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7F1880)
+#define RPG_CLIENT_MONOEFFECTPLUGINDITHER_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0xD7F14D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDither_TypeDefinitionIndex = 69968;
+	inline static constexpr unsigned int MonoEffectPluginDither_TypeDefinitionIndex = 70002;
 
 	class MonoEffectPluginDither : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:
 		::System::Boolean EnableDither; // 0x170
+		::System::Byte _padding0[0x3];
 		::System::Single DitherAlpha; // 0x174
 		::System::Boolean DitherFadeIn; // 0x178
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* DEOKAPMPABA; // 0x180
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_8_FF35922B674791EC()
+		::System::Void IJICJDNHKHN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_METHOD_8_FF35922B674791EC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_IJICJDNHKHN_OFFSET))(this);
 		}
 
-		::System::Void Method_8_3E586421BA588EFD()
+		::System::Void IFOEAAAKONL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_METHOD_8_3E586421BA588EFD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_IFOEAAAKONL_OFFSET))(this);
 		}
 
-		::System::Void Method_8_0BDFAC56E6B704CB()
+		::System::Void CBKPMHCOCMH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_METHOD_8_0BDFAC56E6B704CB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDITHER_CBKPMHCOCMH_OFFSET))(this);
 		}
+
 	};
 }

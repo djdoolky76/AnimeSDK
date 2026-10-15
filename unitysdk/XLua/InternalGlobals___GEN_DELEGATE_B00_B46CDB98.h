@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IRogueTournGameLevelLayerLinear; }
 namespace RPG::Client { class IRogueTournGameLevelLinear; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11856900)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11856930)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_INVOKE_OFFSET UNITYSDK_OFFSET(0x118568F0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98__CTOR_OFFSET UNITYSDK_OFFSET(0x11856800)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA7BE0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA7AE0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA7C10)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA7BD0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_B46CDB98_TypeDefinitionIndex = 50491;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_B46CDB98_TypeDefinitionIndex = 50125;
 
 	class InternalGlobals___GEN_DELEGATE_B00_B46CDB98 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournGameLevelLayerLinear*>* Invoke(::RPG::Client::IRogueTournGameLevelLinear* a1)
@@ -40,5 +39,6 @@ namespace XLua
 		{
 			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournGameLevelLayerLinear*>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B46CDB98_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

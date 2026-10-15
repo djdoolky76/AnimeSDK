@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AliveState.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12B212D0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12B21320)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B212C0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342__CTOR_OFFSET UNITYSDK_OFFSET(0x12B21250)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA3E60)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA3DE0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA3EB0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA3E50)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_2F42A342_TypeDefinitionIndex = 50510;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_2F42A342_TypeDefinitionIndex = 50180;
 
 	class InternalGlobals___GEN_DELEGATE_B00_2F42A342 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::GameCore::AliveState a1)
@@ -38,5 +37,6 @@ namespace XLua
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2F42A342_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

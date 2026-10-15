@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/Messaging/MessageDictionary.h"
-
 namespace System { class String; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19440880)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19440810)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2BF590)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2BF520)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -17,17 +16,18 @@ namespace System::Runtime::Remoting::Messaging
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_InternalKeys()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MCMDictionary_TypeDefinitionIndex)->GetStaticField(0x12CA0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "MCMDictionary")->GetStaticField(0x1CD50);
 		}
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY_CCTOR_OFFSET))();
 		}
+
 	};
 }

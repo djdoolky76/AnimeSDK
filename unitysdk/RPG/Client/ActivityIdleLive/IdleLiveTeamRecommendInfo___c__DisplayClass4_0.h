@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamRecommendData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA56A00)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__0_OFFSET UNITYSDK_OFFSET(0x1BA56E30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__1_OFFSET UNITYSDK_OFFSET(0x1BA56FC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__2_OFFSET UNITYSDK_OFFSET(0x1BA57070)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__4_OFFSET UNITYSDK_OFFSET(0x1BA56E60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__5_OFFSET UNITYSDK_OFFSET(0x1BA56F10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4FB3E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__0_OFFSET UNITYSDK_OFFSET(0xC4FB810)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__1_OFFSET UNITYSDK_OFFSET(0xC4FB9A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__2_OFFSET UNITYSDK_OFFSET(0xC4FBA50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__4_OFFSET UNITYSDK_OFFSET(0xC4FB840)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__5_OFFSET UNITYSDK_OFFSET(0xC4FB8F0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass4_0_TypeDefinitionIndex = 74789;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass4_0_TypeDefinitionIndex = 75089;
 
 	class IdleLiveTeamRecommendInfo___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>* allAvatarDatas; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::UInt64>* powerByData; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::UInt32>* weightByData; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::UInt64>* powerByData; // 0x20
-
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>* allAvatarDatas; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetRecommendDataListSortedByWeight_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
@@ -54,5 +52,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_0__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

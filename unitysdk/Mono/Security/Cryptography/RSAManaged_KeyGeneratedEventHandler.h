@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class EventArgs; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D242E30)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D242E70)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D242260)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D242D40)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C04F820)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C04F730)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C04F860)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C04DD50)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAManaged_KeyGeneratedEventHandler_TypeDefinitionIndex = 2312;
+	inline static constexpr unsigned int RSAManaged_KeyGeneratedEventHandler_TypeDefinitionIndex = 77;
 
 	class RSAManaged_KeyGeneratedEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::EventArgs* a2)
@@ -38,5 +37,6 @@ namespace Mono::Security::Cryptography
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_KEYGENERATEDEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

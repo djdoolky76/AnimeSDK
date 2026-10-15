@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
-
 namespace RPG::Client::LimaoNews { class LimaoNewsInterviewDetailViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x1C53AAA0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_ONBTNTABCLICK_OFFSET UNITYSDK_OFFSET(0x1C53ABD0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_TABINDEX_OFFSET UNITYSDK_OFFSET(0x1C53ABC0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_TITLETEXTID_OFFSET UNITYSDK_OFFSET(0x1C53ABB0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5372B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C53ABE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A4E40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xD3A86E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_ONBTNTABCLICK_OFFSET UNITYSDK_OFFSET(0xD3A8810)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_TABINDEX_OFFSET UNITYSDK_OFFSET(0xD3A8800)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_GET_TITLETEXTID_OFFSET UNITYSDK_OFFSET(0xD3A87F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD3A8820)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInterviewTabViewModel_TypeDefinitionIndex = 79134;
+	inline static constexpr unsigned int LimaoNewsInterviewTabViewModel_TypeDefinitionIndex = 80457;
 
 	class LimaoNewsInterviewTabViewModel : public ::Sofa::BaseViewModel
 	{
@@ -23,11 +22,11 @@ namespace RPG::Client::LimaoNews
 		::RPG::Client::LimaoNews::LimaoNewsInterviewDetailViewModel* _DetailViewModel; // 0x20
 		::Sofa::Core::SimpleCommand* _OnBtnTabClick_k__BackingField; // 0x28
 		::System::Int32 _TabIndex_k__BackingField; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID _TitleTextID_k__BackingField; // 0x38
-
 		::System::Void _ctor(::RPG::Client::TextID a1, ::System::Int32 a2, ::RPG::Client::LimaoNews::LimaoNewsInterviewDetailViewModel* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::Int32, ::RPG::Client::LimaoNews::LimaoNewsInterviewDetailViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::Int32, ::RPG::Client::LimaoNews::LimaoNewsInterviewDetailViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::TextID get_TitleTextID()
@@ -54,5 +53,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTABVIEWMODEL___CTOR_B__0_0_OFFSET))(this);
 		}
+
 	};
 }

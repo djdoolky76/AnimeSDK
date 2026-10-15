@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_FULLBODYIKEFFECTOROFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19391AD0)
+#define RPG_CLIENT_FULLBODYIKEFFECTOROFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0xD082E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullBodyIKEffectorOffset_TypeDefinitionIndex = 68570;
+	inline static constexpr unsigned int FullBodyIKEffectorOffset_TypeDefinitionIndex = 68604;
 
 	class FullBodyIKEffectorOffset : public ::System::Object
 	{
@@ -22,10 +22,10 @@ namespace RPG::Client
 		::UnityEngine::Vector3 rightHandOffset; // 0x5C
 		::UnityEngine::Vector3 leftFootOffset; // 0x68
 		::UnityEngine::Vector3 rightFootOffset; // 0x74
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODYIKEFFECTOROFFSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODYIKEFFECTOROFFSET_CTOR_OFFSET))(this);
 		}
+
 	};
 }

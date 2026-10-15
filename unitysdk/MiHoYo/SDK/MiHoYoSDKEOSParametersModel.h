@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSPARAMETERSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1948DF20)
+#define MIHOYO_SDK_MIHOYOSDKEOSPARAMETERSMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC9C40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSParametersModel_TypeDefinitionIndex = 46811;
+	inline static constexpr unsigned int MiHoYoSDKEOSParametersModel_TypeDefinitionIndex = 46351;
 
 	class MiHoYoSDKEOSParametersModel : public ::System::Object
 	{
@@ -18,10 +17,10 @@ namespace MiHoYo::SDK
 		::System::String* product_id; // 0x20
 		::System::String* sandbox_id; // 0x28
 		::System::String* deployment_id; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPARAMETERSMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPARAMETERSMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1BC5C370)
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1BC5C3E0)
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_PLAY_1_OFFSET UNITYSDK_OFFSET(0x1BC5C7B0)
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x1BC5C640)
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_SETCAMERA_OFFSET UNITYSDK_OFFSET(0x1BC5C560)
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1BC5C330)
-#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5C9A0)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C60C0)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD1C5A90)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD1C5B00)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_PLAY_1_OFFSET UNITYSDK_OFFSET(0xD1C5ED0)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD1C5D60)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_SETCAMERA_OFFSET UNITYSDK_OFFSET(0xD1C5C80)
+#define RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD1C5A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightParticleEffect_TypeDefinitionIndex = 64517;
+	inline static constexpr unsigned int GridFightParticleEffect_TypeDefinitionIndex = 64457;
 
 	class GridFightParticleEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single HBDJCFFDGDD; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::ParticleSystemRenderer*>* HNIPMNNODNP; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -61,5 +60,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTICLEEFFECT_PLAY_1_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

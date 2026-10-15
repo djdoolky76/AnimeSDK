@@ -3,30 +3,30 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/HeartDialEmoType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HeartDialEmoRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HEARTDIALEMOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3CF380)
-#define RPG_GAMECORE_HEARTDIALEMOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CF9C0)
+#define RPG_GAMECORE_HEARTDIALEMOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72AE10)
+#define RPG_GAMECORE_HEARTDIALEMOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72A7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialEmoRow_TypeDefinitionIndex = 13619;
+	inline static constexpr unsigned int HeartDialEmoRow_TypeDefinitionIndex = 13726;
 
 	class HeartDialEmoRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID EmoName; // 0x10
 		::RPG::GameCore::HeartDialEmoType EmoType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeartDialEmoRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::HeartDialEmoRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialEmoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HeartDialEmoRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FBBA0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FBBD0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FBB90)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FBB20)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE17E20)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE17DA0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE17E50)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE17E10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_UpdateAchievementDelegate_TypeDefinitionIndex = 7586;
+	inline static constexpr unsigned int ConsoleDelegate_UpdateAchievementDelegate_TypeDefinitionIndex = 7640;
 
 	class ConsoleDelegate_UpdateAchievementDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

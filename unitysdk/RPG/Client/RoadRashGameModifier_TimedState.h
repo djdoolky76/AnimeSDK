@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTaskConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameModifier_TimedState; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_METHOD_4_29CD0D465EA2DD37_OFFSET UNITYSDK_OFFSET(0x1D31D2B0)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_METHOD_4_7B474BAB11AD0C44_OFFSET UNITYSDK_OFFSET(0x1D31D270)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D31D2A0)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D305E80)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D305E90)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D305E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_TimedState_TypeDefinitionIndex = 10294;
+	inline static constexpr unsigned int RoadRashGameModifier_TimedState_TypeDefinitionIndex = 10308;
 
 	class RoadRashGameModifier_TimedState : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:
 		::RPG::GameCore::FixPoint Duration; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7B474BAB11AD0C44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_TimedState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_TimedState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_TimedState*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_METHOD_4_7B474BAB11AD0C44_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_TimedState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_29CD0D465EA2DD37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_TimedState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_TimedState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_TimedState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_METHOD_4_29CD0D465EA2DD37_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_TimedState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_TIMEDSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

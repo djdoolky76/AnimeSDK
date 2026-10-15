@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class ChallengePeakTeamListProvider; }
 namespace RPG::Client { class TeamData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0x1AD6A620)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET UNITYSDK_OFFSET(0x1AD6AE90)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0x1AD6A690)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD6A610)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xC9B2150)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xC9B2140)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET UNITYSDK_OFFSET(0xC9B29C0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0xC9B21C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTeamListProvider_TypeDefinitionIndex = 68113;
+	inline static constexpr unsigned int ChallengePeakTeamListProvider_TypeDefinitionIndex = 68118;
 
 	class ChallengePeakTeamListProvider : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ChallengePeakTeamListProvider* Create()
@@ -36,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TeamData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET))(this);
 		}
+
 	};
 }

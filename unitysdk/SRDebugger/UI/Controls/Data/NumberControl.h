@@ -1,9 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
-#include "unitysdk/SRDebugger/UI/Controls/Data/NumberControl_ValueRange.h"
 #include "unitysdk/SRDebugger/UI/Controls/DataBoundControl.h"
-
 namespace SRF::UI { class SRNumberButton; }
 namespace SRF::UI { class SRNumberSpinner; }
 namespace System { class Object; }
@@ -13,38 +11,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1BDB96A0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1BDB9170)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMINVALUE_OFFSET UNITYSDK_OFFSET(0x1BDB93B0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISDECIMALTYPE_OFFSET UNITYSDK_OFFSET(0x1BDB9080)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISINTEGERTYPE_OFFSET UNITYSDK_OFFSET(0x1BDB8F90)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1BDB8C00)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BDB8B60)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1BDB95F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1BDB9730)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1BDB8A80)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDB9770)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB9760)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1ED29BE0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED29CB0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED29CA0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1ED29710)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMINVALUE_OFFSET UNITYSDK_OFFSET(0x1ED29920)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISDECIMALTYPE_OFFSET UNITYSDK_OFFSET(0x1ED29620)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISINTEGERTYPE_OFFSET UNITYSDK_OFFSET(0x1ED29530)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1ED291A0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1ED29100)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1ED29B30)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1ED29C70)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED29020)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 37351;
+	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 38044;
 
 	class NumberControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:
-		static ::Il2CppArray<::System::Type*>** StaticGet_IntegerTypes()
-		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x40960);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::SRDebugger::UI::Controls::Data::NumberControl_ValueRange>** StaticGet_ValueRanges()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::SRDebugger::UI::Controls::Data::NumberControl_ValueRange>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x40968);
-		}
-		static ::Il2CppArray<::System::Type*>** StaticGet_DecimalTypes()
-		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x40970);
-		}
 		::System::String* _lastValue; // 0x98
 		::System::Type* _type; // 0xA0
 		::Il2CppArray<::UnityEngine::GameObject*>* DisableOnReadOnly; // 0xA8
@@ -52,15 +38,29 @@ namespace SRDebugger::UI::Controls::Data
 		::SRF::UI::SRNumberSpinner* NumberSpinner; // 0xB8
 		::UnityEngine::UI::Text* Title; // 0xC0
 		::SRF::UI::SRNumberButton* UpNumberButton; // 0xC8
+		static ::Il2CppArray<::System::Type*>** StaticGet_IntegerTypes()
+		{
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x349F0);
+		}
+
+		static ::Il2CppArray<::System::Type*>** StaticGet_DecimalTypes()
+		{
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x349F8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_ValueRanges()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x34A00);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()
@@ -112,5 +112,6 @@ namespace SRDebugger::UI::Controls::Data
 		{
 			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_984AA94FB23486F9_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/BCENMJEPKMP.h"
 namespace RPG::Client { class ConeCollider; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET UNITYSDK_OFFSET(0x1B6457B0)
-#define RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B645910)
-#define RPG_CLIENT_RANGELIMITCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B645BD0)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDE48F10)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET UNITYSDK_OFFSET(0xDE48AF0)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET UNITYSDK_OFFSET(0xDE48C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 68868;
+	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 68903;
 
 	class RangeLimitCollider : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,10 +20,9 @@ namespace RPG::Client
 		::UnityEngine::Transform* MEMMLNBHMHA; // 0x18
 		::UnityEngine::MeshCollider* MHINJGKOAOO; // 0x20
 		::RPG::Client::ConeCollider* OBHOKMBIBAH; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANGELIMITCOLLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANGELIMITCOLLIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::UnityEngine::Transform* a1)
@@ -32,9 +30,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetupRangeLimitCollider(::System::Boolean a1, ::Struct_2_984AA94FB23486F9_1 a2, ::System::Single a3, ::System::Single a4)
+		::System::Void SetupRangeLimitCollider(::System::Boolean a1, ::BCENMJEPKMP a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Struct_2_984AA94FB23486F9_1, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::BCENMJEPKMP, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

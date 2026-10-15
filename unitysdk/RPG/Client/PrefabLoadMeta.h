@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WeakAssetReference.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class PrefabLoadMeta_WeakAssetReferenceList; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PREFABLOADMETA_GET_MULTIPREFABLIST_OFFSET UNITYSDK_OFFSET(0x1AE1F5B0)
-#define RPG_CLIENT_PREFABLOADMETA_GET_PREFAB_OFFSET UNITYSDK_OFFSET(0x1AE1F540)
-#define RPG_CLIENT_PREFABLOADMETA_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x1AE1F920)
-#define RPG_CLIENT_PREFABLOADMETA_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1AE1F7D0)
-#define RPG_CLIENT_PREFABLOADMETA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AE1FBF0)
-#define RPG_CLIENT_PREFABLOADMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1FD70)
+#define RPG_CLIENT_PREFABLOADMETA_CTOR_OFFSET UNITYSDK_OFFSET(0xDC00CA0)
+#define RPG_CLIENT_PREFABLOADMETA_GET_MULTIPREFABLIST_OFFSET UNITYSDK_OFFSET(0xDC00510)
+#define RPG_CLIENT_PREFABLOADMETA_GET_PREFAB_OFFSET UNITYSDK_OFFSET(0xDC004A0)
+#define RPG_CLIENT_PREFABLOADMETA_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0xDC00850)
+#define RPG_CLIENT_PREFABLOADMETA_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xDC00700)
+#define RPG_CLIENT_PREFABLOADMETA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDC00B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefabLoadMeta_TypeDefinitionIndex = 72771;
+	inline static constexpr unsigned int PrefabLoadMeta_TypeDefinitionIndex = 72854;
 
 	class PrefabLoadMeta : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,10 +25,9 @@ namespace RPG::Client
 		::RPG::Client::PrefabLoadMeta_WeakAssetReferenceList* _MultiPrefabList; // 0x20
 		::RPG::Client::WeakAssetReference PrefabReference; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::WeakAssetReference>* MultiPrefabReferences; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFABLOADMETA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFABLOADMETA_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::GameObject* get_Prefab()
@@ -56,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFABLOADMETA_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

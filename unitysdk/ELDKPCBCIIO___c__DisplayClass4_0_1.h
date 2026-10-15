@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class ELDKPCBCIIO;
+namespace RPG::Client::FateRin { template <typename T> class PresentResult_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
+
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass4_0_1_TypeDefinitionIndex = 80617;
+
+	template <typename T>
+	class ELDKPCBCIIO___c__DisplayClass4_0_1 : public ::System::Object
+	{
+	public:
+		::ELDKPCBCIIO* __4__this; // 0x0
+		T viewModel; // 0x0
+		::RPG::Client::Promises::Promise_1<::RPG::Client::FateRin::PresentResult_1<T>*>* resultPromise; // 0x0
+	};

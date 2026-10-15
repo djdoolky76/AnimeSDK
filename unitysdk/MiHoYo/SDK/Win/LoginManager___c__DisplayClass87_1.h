@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace MiHoYo::SDK::Win { class LoginManager___c__DisplayClass87_0; }
 namespace System { class Action; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE6640)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__ONCHECKACCOUNT_B__18_OFFSET UNITYSDK_OFFSET(0x18AFDD00)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__ONCHECKACCOUNT_B__20_OFFSET UNITYSDK_OFFSET(0x18AFDE70)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4C890)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__ONCHECKACCOUNT_B__18_OFFSET UNITYSDK_OFFSET(0x1BD63F30)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__ONCHECKACCOUNT_B__20_OFFSET UNITYSDK_OFFSET(0x1BD640A0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass87_1_TypeDefinitionIndex = 9402;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass87_1_TypeDefinitionIndex = 9460;
 
+	template <typename T>
 	class LoginManager___c__DisplayClass87_1 : public ::System::Object
 	{
 	public:
 		::System::Action* OnBindMail; // 0x10
-		::MiHoYo::SDK::Win::LoginManager___c__DisplayClass87_0* CS___8__locals1; // 0x18
-
+		::System::Object* CS___8__locals1; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnCheckAccount_b__18()
@@ -33,5 +32,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS87_1__ONCHECKACCOUNT_B__20_OFFSET))(this);
 		}
+
 	};
 }

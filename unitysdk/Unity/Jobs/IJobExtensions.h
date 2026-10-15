@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int IJobExtensions_TypeDefinitionIndex = 3954;
+	inline static constexpr unsigned int IJobExtensions_TypeDefinitionIndex = 3955;
 
 	class IJobExtensions : public ::System::Object
 	{

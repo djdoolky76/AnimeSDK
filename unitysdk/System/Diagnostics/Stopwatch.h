@@ -2,18 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
+namespace System::Diagnostics { class Stopwatch; }
 
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_GETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1AB30860)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ELAPSEDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1AB30AA0)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ELAPSEDTICKS_OFFSET UNITYSDK_OFFSET(0x1AB30A30)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ELAPSED_OFFSET UNITYSDK_OFFSET(0x1AB308B0)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x1AB30C20)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_RESET_OFFSET UNITYSDK_OFFSET(0x1AB30C30)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_RESTART_OFFSET UNITYSDK_OFFSET(0x1AB30D30)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_START_OFFSET UNITYSDK_OFFSET(0x1AB30C40)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH_STOP_OFFSET UNITYSDK_OFFSET(0x1AB30CB0)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB30DA0)
-#define SYSTEM_DIAGNOSTICS_STOPWATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB308A0)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFE2490)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE1F90)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_GETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1EFE1ED0)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ELAPSEDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1EFE2200)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ELAPSEDTICKS_OFFSET UNITYSDK_OFFSET(0x1EFE2190)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ELAPSED_OFFSET UNITYSDK_OFFSET(0x1EFE2010)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x1EFE2380)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_RESET_OFFSET UNITYSDK_OFFSET(0x1EFE2390)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_RESTART_OFFSET UNITYSDK_OFFSET(0x1EFE2420)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_STARTNEW_OFFSET UNITYSDK_OFFSET(0x1EFE1F10)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_START_OFFSET UNITYSDK_OFFSET(0x1EFE1FA0)
+#define SYSTEM_DIAGNOSTICS_STOPWATCH_STOP_OFFSET UNITYSDK_OFFSET(0x1EFE23A0)
 
 namespace System::Diagnostics
 {
@@ -22,31 +24,37 @@ namespace System::Diagnostics
 	class Stopwatch : public ::System::Object
 	{
 	public:
-		static ::System::Int64* StaticGet_Frequency()
-		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(Stopwatch_TypeDefinitionIndex)->GetStaticField(0xCCE0);
-		}
-		static ::System::Boolean* StaticGet_IsHighResolution()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Stopwatch_TypeDefinitionIndex)->GetStaticField(0xCCE8);
-		}
 		::System::Int64 started; // 0x10
 		::System::Int64 elapsed; // 0x18
 		::System::Boolean is_running; // 0x20
+		static ::System::Int64* StaticGet_Frequency()
+		{
+			return (::System::Int64*)UnitySDK::FromName("System.Diagnostics", "Stopwatch")->GetStaticField(0x7E10);
+		}
+
+		static ::System::Boolean* StaticGet_IsHighResolution()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "Stopwatch")->GetStaticField(0x7E18);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int64 GetTimestamp()
 		{
 			return ((::System::Int64(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH_GETTIMESTAMP_OFFSET))();
+		}
+
+		static ::System::Diagnostics::Stopwatch* StartNew()
+		{
+			return ((::System::Diagnostics::Stopwatch*(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH_STARTNEW_OFFSET))();
 		}
 
 		::System::TimeSpan get_Elapsed()
@@ -88,5 +96,6 @@ namespace System::Diagnostics
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STOPWATCH_RESTART_OFFSET))(this);
 		}
+
 	};
 }

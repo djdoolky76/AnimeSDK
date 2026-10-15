@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x1BD9AF40)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x1BD9AFE0)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD9B0D0)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x1ED0B8E0)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0BA70)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x1ED0B980)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 37409;
+	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 38102;
 
 	class InternalOptionsRegistry : public ::System::Object
 	{
 	public:
 		::System::Action_1<::System::Object*>* _handler; // 0x10
 		::System::Collections::Generic::List_1<::System::Object*>* _registeredContainers; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AddOptionContainer(::System::Object* a1)
@@ -33,5 +32,6 @@ namespace SRDebugger::Internal
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET))(this, a1);
 		}
+
 	};
 }

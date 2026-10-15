@@ -3,36 +3,37 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/VersusBarQuestStatus.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class NotifyVersusBarQuestChange; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_METHOD_3_A741C8DBEFD7E7FA_OFFSET UNITYSDK_OFFSET(0x1CE91270)
-#define RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_METHOD_3_AF8C49587F7F5823_OFFSET UNITYSDK_OFFSET(0x1CE91230)
-#define RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE91260)
+#define RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AD9B0)
+#define RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8AD9C0)
+#define RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8AD980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NotifyVersusBarQuestChange_TypeDefinitionIndex = 22889;
+	inline static constexpr unsigned int NotifyVersusBarQuestChange_TypeDefinitionIndex = 23148;
 
 	class NotifyVersusBarQuestChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::VersusBarQuestStatus NewStatus; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID QuestTipText; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AF8C49587F7F5823(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyVersusBarQuestChange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::NotifyVersusBarQuestChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyVersusBarQuestChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_METHOD_3_AF8C49587F7F5823_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NotifyVersusBarQuestChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A741C8DBEFD7E7FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyVersusBarQuestChange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::NotifyVersusBarQuestChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyVersusBarQuestChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_METHOD_3_A741C8DBEFD7E7FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NotifyVersusBarQuestChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYVERSUSBARQUESTCHANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

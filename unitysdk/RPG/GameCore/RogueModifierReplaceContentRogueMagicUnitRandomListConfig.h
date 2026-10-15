@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierReplaceContentRogueMagicUnitRandomListConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_METHOD_3_01E9971A6E85F63B_OFFSET UNITYSDK_OFFSET(0x1EEFCB50)
-#define RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_METHOD_3_66C3D7B84060EFBF_OFFSET UNITYSDK_OFFSET(0x1EEFCBA0)
-#define RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFCB90)
+#define RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9EC580)
+#define RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9EC590)
+#define RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9EC540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierReplaceContentRogueMagicUnitRandomListConfig_TypeDefinitionIndex = 17502;
+	inline static constexpr unsigned int RogueModifierReplaceContentRogueMagicUnitRandomListConfig_TypeDefinitionIndex = 17714;
 
 	class RogueModifierReplaceContentRogueMagicUnitRandomListConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_01E9971A6E85F63B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_METHOD_3_01E9971A6E85F63B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_66C3D7B84060EFBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_METHOD_3_66C3D7B84060EFBF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierReplaceContentRogueMagicUnitRandomListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREPLACECONTENTROGUEMAGICUNITRANDOMLISTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

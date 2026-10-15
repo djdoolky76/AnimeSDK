@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF26820)
-#define RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF26810)
-#define RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF269A0)
+#define RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93BE40)
+#define RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE93BFC0)
+#define RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE93BE30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropTriggerAnimStateClip_TypeDefinitionIndex = 48715;
+	inline static constexpr unsigned int StoryPropTriggerAnimStateClip_TypeDefinitionIndex = 48255;
 
 	class StoryPropTriggerAnimStateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -24,11 +23,11 @@ namespace RPGTools::Timeline
 		::System::Single TransitionOffset; // 0x28
 		::System::Single TransitionDuration; // 0x2C
 		::System::Boolean FixedTransitionDuration; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Int32 LayerIndex; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -40,5 +39,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPTRIGGERANIMSTATECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

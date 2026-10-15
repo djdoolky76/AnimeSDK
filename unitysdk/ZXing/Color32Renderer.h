@@ -3,31 +3,29 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
-
 namespace System { class String; }
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::Common { class EncodingOptions; }
 
-#define ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x16D431F0)
-#define ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x16D431D0)
-#define ZXING_COLOR32RENDERER_RENDER_OFFSET UNITYSDK_OFFSET(0x16D43210)
-#define ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x16D43200)
-#define ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x16D431E0)
-#define ZXING_COLOR32RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D43190)
+#define ZXING_COLOR32RENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F675A70)
+#define ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1F675AD0)
+#define ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1F675AB0)
+#define ZXING_COLOR32RENDERER_RENDER_OFFSET UNITYSDK_OFFSET(0x1F675AF0)
+#define ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1F675AE0)
+#define ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1F675AC0)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 7001;
+	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 7010;
 
 	class Color32Renderer : public ::System::Object
 	{
 	public:
 		::UnityEngine::Color32 _Background_k__BackingField; // 0x10
 		::UnityEngine::Color32 _Foreground_k__BackingField; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Color32 get_Foreground()
@@ -54,5 +52,6 @@ namespace ZXing
 		{
 			return ((::Il2CppArray<::UnityEngine::Color32>*(*)(::PVOID, ::ZXing::Common::BitMatrix*, ::ZXing::BarcodeFormat, ::System::String*, ::ZXing::Common::EncodingOptions*))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_RENDER_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/InitializeLocalInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AFE0D30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_RUN_OFFSET UNITYSDK_OFFSET(0x1AFE0C70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE0C60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBEF00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDBEFD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_RUN_OFFSET UNITYSDK_OFFSET(0x1EDBEF10)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InitializeLocalInstruction_ImmutableRefBox_TypeDefinitionIndex = 3512;
+	inline static constexpr unsigned int InitializeLocalInstruction_ImmutableRefBox_TypeDefinitionIndex = 3513;
 
 	class InitializeLocalInstruction_ImmutableRefBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
@@ -30,5 +29,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_IMMUTABLEREFBOX_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
+
 	};
 }

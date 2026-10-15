@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_B823313B2CC4BC8E;
+class NDNBAKIOMIC;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_GAMEFLOWHELPER_CHECKCANGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x193A7B70)
-#define RPG_CLIENT_GAMEFLOWHELPER_TRYGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x193A67C0)
-#define RPG_CLIENT_GAMEFLOWHELPER__CHECKPARAMVALID_OFFSET UNITYSDK_OFFSET(0x193A6C80)
-#define RPG_CLIENT_GAMEFLOWHELPER__CREATEGOTOPARAMS_OFFSET UNITYSDK_OFFSET(0x193A6DF0)
+#define RPG_CLIENT_GAMEFLOWHELPER_CHECKCANGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0xD098ED0)
+#define RPG_CLIENT_GAMEFLOWHELPER_TRYGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0xD097B20)
+#define RPG_CLIENT_GAMEFLOWHELPER__CHECKPARAMVALID_OFFSET UNITYSDK_OFFSET(0xD097FE0)
+#define RPG_CLIENT_GAMEFLOWHELPER__CREATEGOTOPARAMS_OFFSET UNITYSDK_OFFSET(0xD098150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameFlowHelper_TypeDefinitionIndex = 64412;
+	inline static constexpr unsigned int GameFlowHelper_TypeDefinitionIndex = 64352;
 
 	class GameFlowHelper : public ::System::Object
 	{
@@ -28,14 +27,15 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEFLOWHELPER_CHECKCANGOTOGAMEFLOW_OFFSET))(a1, a2);
 		}
 
-		static ::Class_1_B823313B2CC4BC8E* _CreateGotoParams(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>* a2)
+		static ::NDNBAKIOMIC* _CreateGotoParams(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>* a2)
 		{
-			return ((::Class_1_B823313B2CC4BC8E*(*)(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEFLOWHELPER__CREATEGOTOPARAMS_OFFSET))(a1, a2);
+			return ((::NDNBAKIOMIC*(*)(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEFLOWHELPER__CREATEGOTOPARAMS_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean _CheckParamValid(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>* a2)
 		{
 			return ((::System::Boolean(*)(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEFLOWHELPER__CHECKPARAMVALID_OFFSET))(a1, a2);
 		}
+
 	};
 }

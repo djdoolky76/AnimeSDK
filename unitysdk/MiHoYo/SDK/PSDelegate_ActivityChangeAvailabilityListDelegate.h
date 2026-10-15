@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E79F90)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E79FC0)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E79F80)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E79F10)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF52BF0)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF52B70)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF52C20)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF52BE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ActivityChangeAvailabilityListDelegate_TypeDefinitionIndex = 7712;
+	inline static constexpr unsigned int PSDelegate_ActivityChangeAvailabilityListDelegate_TypeDefinitionIndex = 7756;
 
 	class PSDelegate_ActivityChangeAvailabilityListDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYLISTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

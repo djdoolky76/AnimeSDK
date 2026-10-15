@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterBreakStateChange; }
 
-#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x184523E0)
-#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18452480)
-#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18452430)
-#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_INIT_1_OFFSET UNITYSDK_OFFSET(0x18452360)
-#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x184522D0)
-#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x184524D0)
+#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6D7BF0)
+#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D7CE0)
+#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D7C90)
+#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D7C40)
+#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_INIT_1_OFFSET UNITYSDK_OFFSET(0xE6D7B70)
+#define RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6D7AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterBreakStateChange_TypeDefinitionIndex = 56979;
+	inline static constexpr unsigned int LevelCharacterBreakStateChange_TypeDefinitionIndex = 56800;
 
-	class LevelCharacterBreakStateChange : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterBreakStateChange : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Entity; // 0x18
-		::RPG::GameCore::GameEntity* AttackerEntity; // 0x20
-		::RPG::GameCore::AttackDamageType StanceDamageType; // 0x28
-		::System::Boolean IsRedStance; // 0x2C
-		::System::Boolean IsBreak; // 0x2D
-
+		::RPG::GameCore::GameEntity* AttackerEntity; // 0x18
+		::RPG::GameCore::GameEntity* Entity; // 0x20
+		::System::Boolean IsBreak; // 0x28
+		::System::Boolean IsRedStance; // 0x29
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::AttackDamageType StanceDamageType; // 0x2C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterBreakStateChange* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::System::Boolean a3, ::RPG::GameCore::AttackDamageType a4, ::System::Boolean a5)
@@ -55,5 +55,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBREAKSTATECHANGE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

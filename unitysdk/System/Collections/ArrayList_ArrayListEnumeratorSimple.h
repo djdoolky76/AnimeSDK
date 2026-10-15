@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 
-#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1C9C8E50)
-#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C9C91D0)
-#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C9C8EF0)
-#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_RESET_OFFSET UNITYSDK_OFFSET(0x1C9C9290)
-#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9C9340)
-#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C7F80)
+#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C08A860)
+#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1C08A370)
+#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0894A0)
+#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C08A6F0)
+#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C08A410)
+#define SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_RESET_OFFSET UNITYSDK_OFFSET(0x1C08A7B0)
 
 namespace System::Collections
 {
@@ -18,24 +18,25 @@ namespace System::Collections
 	class ArrayList_ArrayListEnumeratorSimple : public ::System::Object
 	{
 	public:
+		::System::Collections::ArrayList* list; // 0x10
+		::System::Object* currentElement; // 0x18
+		::System::Boolean isArrayList; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 index; // 0x24
+		::System::Int32 version; // 0x28
 		static ::System::Object** StaticGet_dummyObject()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ArrayList_ArrayListEnumeratorSimple_TypeDefinitionIndex)->GetStaticField(0x7990);
+			return (::System::Object**)UnitySDK::FromName("System.Collections", "ArrayListEnumeratorSimple")->GetStaticField(0x10230);
 		}
-		::System::Object* currentElement; // 0x10
-		::System::Collections::ArrayList* list; // 0x18
-		::System::Int32 version; // 0x20
-		::System::Boolean isArrayList; // 0x24
-		::System::Int32 index; // 0x28
 
 		::System::Void _ctor(::System::Collections::ArrayList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_CCTOR_OFFSET))();
 		}
 
 		::System::Object* Clone()
@@ -57,5 +58,6 @@ namespace System::Collections
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_ARRAYLIST_ARRAYLISTENUMERATORSIMPLE_RESET_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security { class ASN1; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MONO_SECURITY_X509_X509EXTENSION_DECODE_OFFSET UNITYSDK_OFFSET(0x1D25B790)
-#define MONO_SECURITY_X509_X509EXTENSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D25B7A0)
-#define MONO_SECURITY_X509_X509EXTENSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D25B8E0)
-#define MONO_SECURITY_X509_X509EXTENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D25C0A0)
-#define MONO_SECURITY_X509_X509EXTENSION_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1D25B970)
-#define MONO_SECURITY_X509_X509EXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D25B370)
+#define MONO_SECURITY_X509_X509EXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0680A0)
+#define MONO_SECURITY_X509_X509EXTENSION_DECODE_OFFSET UNITYSDK_OFFSET(0x1C0684C0)
+#define MONO_SECURITY_X509_X509EXTENSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0684D0)
+#define MONO_SECURITY_X509_X509EXTENSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C068610)
+#define MONO_SECURITY_X509_X509EXTENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C068DA0)
+#define MONO_SECURITY_X509_X509EXTENSION_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1C0686A0)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X509Extension_TypeDefinitionIndex = 2270;
+	inline static constexpr unsigned int X509Extension_TypeDefinitionIndex = 61;
 
 	class X509Extension : public ::System::Object
 	{
 	public:
-		::Mono::Security::ASN1* extnValue; // 0x10
-		::System::String* extnOid; // 0x18
+		::System::String* extnOid; // 0x10
+		::Mono::Security::ASN1* extnValue; // 0x18
 		::System::Boolean extnCritical; // 0x20
-
 		::System::Void _ctor(::Mono::Security::ASN1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509EXTENSION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509EXTENSION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Decode()
@@ -53,5 +52,6 @@ namespace Mono::Security::X509
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509EXTENSION_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

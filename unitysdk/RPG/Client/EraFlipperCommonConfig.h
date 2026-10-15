@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client { class GeneralAudioItem; }
 namespace RPG::Client { class ProxyEffectProp; }
 namespace System { class String; }
@@ -10,11 +9,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_ERAFLIPPERCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199353C0)
+#define RPG_CLIENT_ERAFLIPPERCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCE0BE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperCommonConfig_TypeDefinitionIndex = 60603;
+	inline static constexpr unsigned int EraFlipperCommonConfig_TypeDefinitionIndex = 60504;
 
 	class EraFlipperCommonConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -52,6 +51,7 @@ namespace RPG::Client
 		::System::Single FollowSmoothTime; // 0xE8
 		::System::Single FollowMaxSpeed; // 0xEC
 		::System::Single AchievementBreakThroughEdgeDis; // 0xF0
+		::System::Byte _padding0[0x4];
 		::System::String* FollowAttachEffectPointName; // 0xF8
 		::System::String* FollowAttachEffect; // 0x100
 		::System::Single FlipPerformDelayTime; // 0x108
@@ -59,10 +59,10 @@ namespace RPG::Client
 		::System::Single RangeScaleMaxSpeed; // 0x110
 		::System::Single RangeEdgeSmoothTime; // 0x114
 		::System::Single RangeEdgeMaxSpeed; // 0x118
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERCOMMONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERCOMMONCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

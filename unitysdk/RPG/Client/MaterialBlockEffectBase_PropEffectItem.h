@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_PROPEFFECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B212980)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_PROPEFFECTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD5CC740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectBase_PropEffectItem_TypeDefinitionIndex = 70613;
+	inline static constexpr unsigned int MaterialBlockEffectBase_PropEffectItem_TypeDefinitionIndex = 70649;
 
 	class MaterialBlockEffectBase_PropEffectItem : public ::System::Object
 	{
@@ -17,10 +16,10 @@ namespace RPG::Client
 		::UnityEngine::Renderer* PropRenderer; // 0x10
 		::System::String* RendererName; // 0x18
 		::System::Int32 PropMaterialIndex; // 0x20
-
 		::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALBLOCKEFFECTBASE_PROPEFFECTITEM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALBLOCKEFFECTBASE_PROPEFFECTITEM_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

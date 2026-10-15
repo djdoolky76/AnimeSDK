@@ -4,18 +4,17 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class VirtualCursorInputModule; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_CURSORSCRIPT_START_OFFSET UNITYSDK_OFFSET(0x1A2AD2E0)
-#define RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A2AD540)
-#define RPG_CLIENT_CURSORSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2AE0D0)
+#define RPG_CLIENT_CURSORSCRIPT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBCF340)
+#define RPG_CLIENT_CURSORSCRIPT_START_OFFSET UNITYSDK_OFFSET(0xCBCE5B0)
+#define RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0xCBCE7E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 73129;
+	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 73225;
 
 	class CursorScript : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,16 +22,17 @@ namespace RPG::Client
 		::UnityEngine::CursorMode cursorMode; // 0x18
 		::UnityEngine::Vector3 cursorPosition; // 0x1C
 		::System::Single cursorSpeed; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::RectTransform* myRecTransform; // 0x30
 		::UnityEngine::RectTransform* canvasParent; // 0x38
 		::System::Boolean virtualCursorSupport; // 0x40
+		::System::Byte _padding1[0x7];
 		::UnityEngine::EventSystems::VirtualCursorInputModule* OEAGIKMGOPF; // 0x48
 		::UnityEngine::UI::Image* AAAKAGFLLJJ; // 0x50
 		::UnityEngine::Vector2 MGOCAFLEMNE; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURSORSCRIPT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURSORSCRIPT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -44,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_45BB92167AED63A0_22;
+class GDDLBMCHIED;
 namespace RPG::Client::ChenLingBattle { class Policy; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_GET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0x1CC31290)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_GET_SELECTABLEPOLICIES_OFFSET UNITYSDK_OFFSET(0x1CC31270)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_SET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0x1CC312A0)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_SET_SELECTABLEPOLICIES_OFFSET UNITYSDK_OFFSET(0x1CC31280)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC30CD0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCA58140)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_GET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0xCA58700)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_GET_SELECTABLEPOLICIES_OFFSET UNITYSDK_OFFSET(0xCA586E0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_SET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0xCA58710)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_SET_SELECTABLEPOLICIES_OFFSET UNITYSDK_OFFSET(0xCA586F0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectPolicyPhaseInfo_TypeDefinitionIndex = 75916;
+	inline static constexpr unsigned int SelectPolicyPhaseInfo_TypeDefinitionIndex = 76393;
 
 	class SelectPolicyPhaseInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Policy*>* _SelectablePolicies_k__BackingField; // 0x10
 		::System::UInt32 _RefreshCost_k__BackingField; // 0x18
-
-		::System::Void _ctor(::Class_1_45BB92167AED63A0_22* a1)
+		::System::Void _ctor(::GDDLBMCHIED* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_45BB92167AED63A0_22*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::GDDLBMCHIED*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Policy*>* get_SelectablePolicies()
@@ -46,5 +44,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASEINFO_SET_REFRESHCOST_OFFSET))(this, a1);
 		}
+
 	};
 }

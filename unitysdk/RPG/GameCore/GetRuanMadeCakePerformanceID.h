@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GetRuanMadeCakePerformanceID; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_METHOD_3_2A361B0DAED867B8_OFFSET UNITYSDK_OFFSET(0x1D959D80)
-#define RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_METHOD_3_C5D09739983A649B_OFFSET UNITYSDK_OFFSET(0x1D959DC0)
-#define RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID__CTOR_OFFSET UNITYSDK_OFFSET(0x1D959DB0)
+#define RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F0420)
+#define RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F0430)
+#define RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F03F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GetRuanMadeCakePerformanceID_TypeDefinitionIndex = 20858;
+	inline static constexpr unsigned int GetRuanMadeCakePerformanceID_TypeDefinitionIndex = 21104;
 
 	class GetRuanMadeCakePerformanceID : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 RoomID; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* DynamicStringKey; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2A361B0DAED867B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GetRuanMadeCakePerformanceID*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GetRuanMadeCakePerformanceID* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GetRuanMadeCakePerformanceID*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_METHOD_3_2A361B0DAED867B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GetRuanMadeCakePerformanceID*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C5D09739983A649B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GetRuanMadeCakePerformanceID* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GetRuanMadeCakePerformanceID* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GetRuanMadeCakePerformanceID*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_METHOD_3_C5D09739983A649B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GetRuanMadeCakePerformanceID*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETRUANMADECAKEPERFORMANCEID_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,33 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1ADADA70)
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_METHOD_5_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0x1ADADF30)
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1ADADAB0)
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_PLAY_1_OFFSET UNITYSDK_OFFSET(0x1ADADD40)
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x1ADADBE0)
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1ADADA30)
-#define RPG_CLIENT_GRIDFIGHTANIMEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADADFA0)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_BBNDNGACCFL_OFFSET UNITYSDK_OFFSET(0xD0C2950)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C29C0)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD0C2490)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD0C24D0)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_PLAY_1_OFFSET UNITYSDK_OFFSET(0xD0C2760)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD0C2600)
+#define RPG_CLIENT_GRIDFIGHTANIMEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD0C2450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAnimEffect_TypeDefinitionIndex = 64532;
+	inline static constexpr unsigned int GridFightAnimEffect_TypeDefinitionIndex = 64472;
 
 	class GridFightAnimEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Action* OOBALIFBOCA; // 0x18
 		::System::Single HBDJCFFDGDD; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTANIMEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTANIMEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -56,9 +54,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTANIMEFFECT_PLAY_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_B3A88D7849969A71(::System::String* a1)
+		::System::Void BBNDNGACCFL(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTANIMEFFECT_METHOD_5_B3A88D7849969A71_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTANIMEFFECT_BBNDNGACCFL_OFFSET))(this, a1);
 		}
+
 	};
 }

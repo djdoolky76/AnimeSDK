@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
-
 namespace System { class Exception; }
 
-#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EFD5AB0)
-#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EFD5AC0)
-#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5A80)
+#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB1340)
+#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CBB1370)
+#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CBB1380)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int ExceptionEventArgs_TypeDefinitionIndex = 9852;
+	inline static constexpr unsigned int ExceptionEventArgs_TypeDefinitionIndex = 9910;
 
 	class ExceptionEventArgs : public ::System::EventArgs
 	{
 	public:
 		::System::Exception* _Exception_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Exception* get_Exception()
@@ -31,5 +29,6 @@ namespace RPG::Client::Promises
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceActionBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceActionSlopeSlide; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_METHOD_3_6F968CC3F8074F2B_OFFSET UNITYSDK_OFFSET(0x1D0FB780)
-#define RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_METHOD_3_F84A999E1F9CA8CA_OFFSET UNITYSDK_OFFSET(0x1D0FB6E0)
-#define RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FB770)
+#define RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51C460)
+#define RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51C470)
+#define RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51C3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceActionSlopeSlide_TypeDefinitionIndex = 18138;
+	inline static constexpr unsigned int CakeRaceActionSlopeSlide_TypeDefinitionIndex = 18353;
 
 	class CakeRaceActionSlopeSlide : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F84A999E1F9CA8CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceActionSlopeSlide*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceActionSlopeSlide* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionSlopeSlide*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_METHOD_3_F84A999E1F9CA8CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceActionSlopeSlide*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6F968CC3F8074F2B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceActionSlopeSlide* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceActionSlopeSlide* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionSlopeSlide*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_METHOD_3_6F968CC3F8074F2B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceActionSlopeSlide*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONSLOPESLIDE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

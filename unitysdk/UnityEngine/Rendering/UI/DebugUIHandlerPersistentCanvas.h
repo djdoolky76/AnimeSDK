@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::Rendering { class DebugUI_Value; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerValue; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DE32290)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1DE31DC0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE32410)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F2A9280)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A9400)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1F2A8DB0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas_TypeDefinitionIndex = 35023;
+	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas_TypeDefinitionIndex = 35692;
 
 	class DebugUIHandlerPersistentCanvas : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,10 +20,9 @@ namespace UnityEngine::Rendering::UI
 		::UnityEngine::RectTransform* panel; // 0x18
 		::UnityEngine::RectTransform* valuePrefab; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>* m_Items; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Toggle(::UnityEngine::Rendering::DebugUI_Value* a1)
@@ -36,5 +34,6 @@ namespace UnityEngine::Rendering::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/PreviewSnapshot.h"
-
 namespace RPG::Client::ChenLingBattle { class ActionInfo; }
+namespace RPG::Client::ChenLingBattle { class ActionPreviewSnapshot; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_CREATEACTIONSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1B93CF00)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x1B93CF90)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x1B93CFA0)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93CF80)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_CREATEACTIONSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xCA30B60)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0xCA30BE0)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xCA30BF0)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xCA30C00)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ActionPreviewSnapshot_TypeDefinitionIndex = 75819;
+	inline static constexpr unsigned int ActionPreviewSnapshot_TypeDefinitionIndex = 76296;
 
 	class ActionPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:
 		::RPG::Client::ChenLingBattle::ActionInfo* _PhaseInfo_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::ChenLingBattle::ActionInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::RPG::Client::ChenLingBattle::ActionPreviewSnapshot* CreateActionSnapshot(::System::Int32 a1, ::RPG::Client::ChenLingBattle::ActionInfo* a2)
@@ -37,5 +36,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ACTIONPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

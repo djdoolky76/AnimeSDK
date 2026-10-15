@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_2_71ECD705C8627A9D;
+class JBFFCBPMKEF;
 namespace RPG::GameCore { class LevelGraphValueSource; }
 
-#define RPG_GAMECORE_LEVELGRAPHVALESOURCEEXTENSION_WRITETOCUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x1DD26250)
+#define RPG_GAMECORE_LEVELGRAPHVALESOURCEEXTENSION_WRITETOCUSTOMDATA_OFFSET UNITYSDK_OFFSET(0xE6E5B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphValeSourceExtension_TypeDefinitionIndex = 57923;
+	inline static constexpr unsigned int LevelGraphValeSourceExtension_TypeDefinitionIndex = 57769;
 
 	class LevelGraphValeSourceExtension : public ::System::Object
 	{
 	public:
-		static ::System::Void WriteToCustomData(::RPG::GameCore::LevelGraphValueSource* a1, ::Class_2_71ECD705C8627A9D* a2)
+		static ::System::Void WriteToCustomData(::RPG::GameCore::LevelGraphValueSource* a1, ::JBFFCBPMKEF* a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::LevelGraphValueSource*, ::Class_2_71ECD705C8627A9D*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALESOURCEEXTENSION_WRITETOCUSTOMDATA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::GameCore::LevelGraphValueSource*, ::JBFFCBPMKEF*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALESOURCEEXTENSION_WRITETOCUSTOMDATA_OFFSET))(a1, a2);
 		}
+
 	};
 }

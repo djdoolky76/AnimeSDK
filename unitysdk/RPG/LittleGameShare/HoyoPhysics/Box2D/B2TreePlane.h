@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2AABB.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TreePlane_TypeDefinitionIndex = 36113;
+	inline static constexpr unsigned int B2TreePlane_TypeDefinitionIndex = 36800;
 
 	struct alignas(4) B2TreePlane
 	{

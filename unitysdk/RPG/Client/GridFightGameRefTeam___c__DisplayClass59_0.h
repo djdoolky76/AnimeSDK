@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B;
-class Class_1_BE77F98C85B2B14F;
+class KKJMAOMDCAE_OPIGALIJPOP;
+class MFNCDGPLHDC;
 namespace RPG::Client { class GridFightGameRefTeam; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2A5F0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0___SYNCTEAM_B__0_OFFSET UNITYSDK_OFFSET(0x1BA2BD90)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1718B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0___SYNCTEAM_B__0_OFFSET UNITYSDK_OFFSET(0xD1739E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass59_0_TypeDefinitionIndex = 64869;
+	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass59_0_TypeDefinitionIndex = 64809;
 
 	class GridFightGameRefTeam___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightGameRefTeam* __4__this; // 0x10
-		::Class_1_BE77F98C85B2B14F* teamFactory; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B*>* appendingFinalRoles; // 0x20
-
+		::MFNCDGPLHDC* teamFactory; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* appendingFinalRoles; // 0x18
+		::RPG::Client::GridFightGameRefTeam* __4__this; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void __SyncTeam_b__0(::Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B* a1)
+		::System::Void __SyncTeam_b__0(::KKJMAOMDCAE_OPIGALIJPOP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0___SYNCTEAM_B__0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::KKJMAOMDCAE_OPIGALIJPOP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0___SYNCTEAM_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

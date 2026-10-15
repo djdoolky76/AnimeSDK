@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNativeEditBox_EditBoxConfig_TypeDefinitionIndex = 71127;
+	inline static constexpr unsigned int MonoNativeEditBox_EditBoxConfig_TypeDefinitionIndex = 71159;
 
 	struct alignas(8) MonoNativeEditBox_EditBoxConfig
 	{
 		::System::Boolean multiline; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color textColor; // 0x14
 		::UnityEngine::Color backColor; // 0x24
+		::System::Byte _padding1[0x4];
 		::System::String* contentType; // 0x38
 		::System::String* font; // 0x40
 		::System::Single fontSize; // 0x48
+		::System::Byte _padding2[0x4];
 		::System::String* align; // 0x50
 		::System::String* placeHolder; // 0x58
 		::System::Int32 characterLimit; // 0x60

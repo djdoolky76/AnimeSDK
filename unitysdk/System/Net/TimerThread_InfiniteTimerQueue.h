@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/TimerThread_Queue.h"
 
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975C20)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05F460)
 
 namespace System::Net
 {
@@ -13,7 +13,8 @@ namespace System::Net
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

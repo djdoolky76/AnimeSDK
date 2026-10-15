@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DeviceRelatedConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DeviceRelatedFloat; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DEVICERELATEDFLOAT_METHOD_3_B2C753CAD7FC4A97_OFFSET UNITYSDK_OFFSET(0x1D819950)
-#define RPG_GAMECORE_DEVICERELATEDFLOAT_METHOD_3_ED35481A76A4682D_OFFSET UNITYSDK_OFFSET(0x1D81A2E0)
-#define RPG_GAMECORE_DEVICERELATEDFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D819940)
+#define RPG_GAMECORE_DEVICERELATEDFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D16A0)
+#define RPG_GAMECORE_DEVICERELATEDFLOAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D16B0)
+#define RPG_GAMECORE_DEVICERELATEDFLOAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D2040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceRelatedFloat_TypeDefinitionIndex = 16295;
+	inline static constexpr unsigned int DeviceRelatedFloat_TypeDefinitionIndex = 16468;
 
 	class DeviceRelatedFloat : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:
 		::System::Single Value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFLOAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFLOAT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ED35481A76A4682D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedFloat*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceRelatedFloat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFLOAT_METHOD_3_ED35481A76A4682D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceRelatedFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFLOAT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B2C753CAD7FC4A97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedFloat* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceRelatedFloat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFLOAT_METHOD_3_B2C753CAD7FC4A97_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceRelatedFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFLOAT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

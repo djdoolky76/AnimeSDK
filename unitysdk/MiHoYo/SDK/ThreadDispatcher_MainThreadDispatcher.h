@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1B9BA8E0)
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B9BAD10)
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B9BAAF0)
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BAA90)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB6B20)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1BFB6970)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BFB6D60)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BFB6B70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadDispatcher_MainThreadDispatcher_TypeDefinitionIndex = 7988;
+	inline static constexpr unsigned int ThreadDispatcher_MainThreadDispatcher_TypeDefinitionIndex = 8031;
 
 	class ThreadDispatcher_MainThreadDispatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Object* locker; // 0x18
 		::System::Collections::Generic::List_1<::System::Action*>* actions; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void DispatchToMainThread(::System::Action* a1)
@@ -40,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

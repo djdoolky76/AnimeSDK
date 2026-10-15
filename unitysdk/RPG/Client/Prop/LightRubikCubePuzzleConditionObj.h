@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::Prop { class LightRubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
@@ -9,20 +8,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1611ECD0)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_INITOBJECT_OFFSET UNITYSDK_OFFSET(0x1611E230)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETFINISH_OFFSET UNITYSDK_OFFSET(0x1611EC10)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1611ED90)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x1611EE90)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDD18F00)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD18D40)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_INITOBJECT_OFFSET UNITYSDK_OFFSET(0xDD182A0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETFINISH_OFFSET UNITYSDK_OFFSET(0xDD18C80)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0xDD18E00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LightRubikCubePuzzleConditionObj_TypeDefinitionIndex = 78211;
+	inline static constexpr unsigned int LightRubikCubePuzzleConditionObj_TypeDefinitionIndex = 78682;
 
 	class LightRubikCubePuzzleConditionObj : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Int32 Color; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Material* NormalMaterial; // 0x20
 		::UnityEngine::Material* FinishMaterial; // 0x28
 		::System::String* ConditionObjFinishCustomString; // 0x30
@@ -30,10 +30,9 @@ namespace RPG::Client::Prop
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x40
 		::RPG::Client::Prop::LightRubikCubePuzzleCube* FNHJKBEIKOA; // 0x48
 		::UnityEngine::Renderer* GBFNIKFNGBH; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -55,5 +54,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETFINISH_OFFSET))(this, a1);
 		}
+
 	};
 }

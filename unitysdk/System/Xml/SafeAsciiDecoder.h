@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Text/Decoder.h"
 
-#define SYSTEM_XML_SAFEASCIIDECODER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1BACFAD0)
-#define SYSTEM_XML_SAFEASCIIDECODER_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1BACFA40)
-#define SYSTEM_XML_SAFEASCIIDECODER_GETCHARS_OFFSET UNITYSDK_OFFSET(0x1BACFA50)
-#define SYSTEM_XML_SAFEASCIIDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACFA30)
+#define SYSTEM_XML_SAFEASCIIDECODER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1EE7A0C0)
+#define SYSTEM_XML_SAFEASCIIDECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7A020)
+#define SYSTEM_XML_SAFEASCIIDECODER_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE7A030)
+#define SYSTEM_XML_SAFEASCIIDECODER_GETCHARS_OFFSET UNITYSDK_OFFSET(0x1EE7A040)
 
 namespace System::Xml
 {
@@ -16,7 +16,7 @@ namespace System::Xml
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SAFEASCIIDECODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SAFEASCIIDECODER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 GetCharCount(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -29,9 +29,10 @@ namespace System::Xml
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SAFEASCIIDECODER_GETCHARS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Convert(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Int32& a8, ::System::Int32& a9, ::System::Boolean& a10)
+		::System::Void Convert(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Boolean a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SAFEASCIIDECODER_CONVERT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SAFEASCIIDECODER_CONVERT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
+
 	};
 }

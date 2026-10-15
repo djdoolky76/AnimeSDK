@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int DictionaryExtensions_TypeDefinitionIndex = 39328;
+	inline static constexpr unsigned int DictionaryExtensions_TypeDefinitionIndex = 40625;
 
 	class DictionaryExtensions : public ::System::Object
 	{

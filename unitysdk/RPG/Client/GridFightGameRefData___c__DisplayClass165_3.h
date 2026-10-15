@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_50210DAEB46E0CD5;
+class OABDFLPEHDO;
 namespace RPG::Client { class GridFightGameRefTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1C720)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__3_OFFSET UNITYSDK_OFFSET(0x1BA21B10)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__4_OFFSET UNITYSDK_OFFSET(0x1BA21B50)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__5_OFFSET UNITYSDK_OFFSET(0x1BA21B90)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3_CTOR_OFFSET UNITYSDK_OFFSET(0xD163A90)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__3_OFFSET UNITYSDK_OFFSET(0xD168E60)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__4_OFFSET UNITYSDK_OFFSET(0xD168EA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__5_OFFSET UNITYSDK_OFFSET(0xD168EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_3_TypeDefinitionIndex = 64794;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_3_TypeDefinitionIndex = 64734;
 
+	template <typename T1, typename T2, typename T3>
 	class GridFightGameRefData___c__DisplayClass165_3 : public ::System::Object
 	{
 	public:
-		::Class_1_50210DAEB46E0CD5* rule; // 0x10
-
+		::OABDFLPEHDO* rule; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __CollectEquipsAndTrait_b__3(::RPG::Client::GridFightGameRefTrait* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_3___COLLECTEQUIPSANDTRAIT_B__5_OFFSET))(this, a1);
 		}
+
 	};
 }

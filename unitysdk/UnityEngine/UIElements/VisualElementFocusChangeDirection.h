@@ -1,36 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/FocusChangeDirection.h"
+namespace UnityEngine::UIElements { class FocusChangeDirection; }
+namespace UnityEngine::UIElements { class VisualElementFocusChangeDirection; }
 
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1D6244A0)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1D624500)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6245C0)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D624560)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F49BBF0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49BB90)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1F49BAD0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1F49BB30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualElementFocusChangeDirection_TypeDefinitionIndex = 5897;
+	inline static constexpr unsigned int VisualElementFocusChangeDirection_TypeDefinitionIndex = 5905;
 
 	class VisualElementFocusChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection
 	{
 	public:
-		static ::UnityEngine::UIElements::VisualElementFocusChangeDirection** StaticGet_s_Left()
-		{
-			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)Il2CppClass::FromTypeDefinitionIndex(VisualElementFocusChangeDirection_TypeDefinitionIndex)->GetStaticField(0x1D140);
-		}
 		static ::UnityEngine::UIElements::VisualElementFocusChangeDirection** StaticGet_s_Right()
 		{
-			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)Il2CppClass::FromTypeDefinitionIndex(VisualElementFocusChangeDirection_TypeDefinitionIndex)->GetStaticField(0x1D148);
+			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)UnitySDK::FromName("UnityEngine.UIElements", "VisualElementFocusChangeDirection")->GetStaticField(0x2EA40);
+		}
+
+		static ::UnityEngine::UIElements::VisualElementFocusChangeDirection** StaticGet_s_Left()
+		{
+			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)UnitySDK::FromName("UnityEngine.UIElements", "VisualElementFocusChangeDirection")->GetStaticField(0x2EA48);
 		}
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_CCTOR_OFFSET))();
 		}
 
 		static ::UnityEngine::UIElements::FocusChangeDirection* get_left()
@@ -42,5 +45,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::UnityEngine::UIElements::FocusChangeDirection*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_RIGHT_OFFSET))();
 		}
+
 	};
 }

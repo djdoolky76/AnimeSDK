@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/XLua/OverloadMethodWrap.h"
 
-namespace System { class Type; }
-namespace System::Reflection { class MethodBase; }
-namespace XLua { class ObjectTranslator; }
-
 namespace XLua
 {
-	inline static constexpr unsigned int KeyValuePairWrap_GetKey_2_TypeDefinitionIndex = 50554;
+	inline static constexpr unsigned int KeyValuePairWrap_GetKey_2_TypeDefinitionIndex = 50223;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class KeyValuePairWrap_GetKey_2 : public ::XLua::OverloadMethodWrap
 	{
 	public:

@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DemodulatorOutPutType.h"
 #include "unitysdk/System/Object.h"
-
 class StageHarmonyDemodulatorUsrInfo;
 namespace System { class String; }
 
-#define STAGEHARMONYDEMODULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197E7F50)
+#define STAGEHARMONYDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9830C0)
 
-inline static constexpr unsigned int StageHarmonyDemodulator_TypeDefinitionIndex = 47983;
+inline static constexpr unsigned int StageHarmonyDemodulator_TypeDefinitionIndex = 47523;
 
-class StageHarmonyDemodulator : public ::System::Object
-{
-public:
-	::System::String* PropertyName; // 0x10
-	::StageHarmonyDemodulatorUsrInfo* usrInfo; // 0x18
-
-	::System::Void _ctor()
+	class StageHarmonyDemodulator : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYDEMODULATOR__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::String* PropertyName; // 0x10
+		::StageHarmonyDemodulatorUsrInfo* usrInfo; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYDEMODULATOR_CTOR_OFFSET))(this);
+		}
+
+	};

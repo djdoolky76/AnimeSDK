@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class ModifyTeamBoostPoint; }
 namespace RPG::GameCore { class SpecialBpFeature; }
 
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_22B45910F237C5BD_OFFSET UNITYSDK_OFFSET(0x1D1BF740)
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_9E5ECD66D1303827_OFFSET UNITYSDK_OFFSET(0x1D1BF6F0)
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BF730)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86D7D0)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86D7E0)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86D790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 22353;
+	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 22606;
 
 	class ModifyTeamBoostPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,20 +25,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::SpecialBpFeature* OverrideBpFeature; // 0x28
 		::System::Boolean IsSilence; // 0x30
 		::System::Boolean AllowDarkTeamModifyToNegative; // 0x31
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E5ECD66D1303827(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyTeamBoostPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyTeamBoostPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyTeamBoostPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_9E5ECD66D1303827_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyTeamBoostPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_22B45910F237C5BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyTeamBoostPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyTeamBoostPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyTeamBoostPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_22B45910F237C5BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyTeamBoostPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

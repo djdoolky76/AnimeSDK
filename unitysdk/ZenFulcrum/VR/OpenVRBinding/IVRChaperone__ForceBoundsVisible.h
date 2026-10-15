@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FE7E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FE830)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D7F7540)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FE770)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F64CF90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64CF20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F64CFE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F645D10)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone__ForceBoundsVisible_TypeDefinitionIndex = 37695;
+	inline static constexpr unsigned int IVRChaperone__ForceBoundsVisible_TypeDefinitionIndex = 38992;
 
 	class IVRChaperone__ForceBoundsVisible : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__FORCEBOUNDSVISIBLE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraTeamWorkIncreaseTeamConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_METHOD_2_C4F2A240F02A8EE6_OFFSET UNITYSDK_OFFSET(0x1E342170)
-#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3421B0)
+#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D582CB0)
+#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D582C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTeamWorkIncreaseTeamConfig_TypeDefinitionIndex = 15716;
+	inline static constexpr unsigned int ChimeraTeamWorkIncreaseTeamConfig_TypeDefinitionIndex = 15889;
 
 	class ChimeraTeamWorkIncreaseTeamConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C4F2A240F02A8EE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTeamWorkIncreaseTeamConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraTeamWorkIncreaseTeamConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTeamWorkIncreaseTeamConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_METHOD_2_C4F2A240F02A8EE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraTeamWorkIncreaseTeamConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

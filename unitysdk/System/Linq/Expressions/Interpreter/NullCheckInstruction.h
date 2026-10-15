@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/Instruction.h"
-
 namespace System { class String; }
+namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF3E660)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1DF3E680)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF3E670)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1DF3E6C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF3E750)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3E650)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDF3CC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF3BC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF3BD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDF3BF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF3BE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDF3C30)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NullCheckInstruction_TypeDefinitionIndex = 3594;
+	inline static constexpr unsigned int NullCheckInstruction_TypeDefinitionIndex = 3595;
 
 	class NullCheckInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_Instance()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NullCheckInstruction_TypeDefinitionIndex)->GetStaticField(0x2590);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullCheckInstruction")->GetStaticField(0x3CFB0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -53,5 +53,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLCHECKINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

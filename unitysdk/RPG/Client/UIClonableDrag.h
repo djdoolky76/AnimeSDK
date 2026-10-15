@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
@@ -9,15 +8,15 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UICLONABLEDRAG_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x17002720)
-#define RPG_CLIENT_UICLONABLEDRAG_ONDRAG_OFFSET UNITYSDK_OFFSET(0x17002570)
-#define RPG_CLIENT_UICLONABLEDRAG_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x17002CB0)
-#define RPG_CLIENT_UICLONABLEDRAG_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x17002E10)
-#define RPG_CLIENT_UICLONABLEDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0x17002E80)
+#define RPG_CLIENT_UICLONABLEDRAG_CTOR_OFFSET UNITYSDK_OFFSET(0xE37A1C0)
+#define RPG_CLIENT_UICLONABLEDRAG_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xE379A60)
+#define RPG_CLIENT_UICLONABLEDRAG_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE3798B0)
+#define RPG_CLIENT_UICLONABLEDRAG_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xE379FF0)
+#define RPG_CLIENT_UICLONABLEDRAG_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xE37A150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIClonableDrag_TypeDefinitionIndex = 72665;
+	inline static constexpr unsigned int UIClonableDrag_TypeDefinitionIndex = 72740;
 
 	class UIClonableDrag : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,10 +32,9 @@ namespace RPG::Client
 		::System::Boolean Mute; // 0x43
 		::System::Single CloneScaleFactor; // 0x44
 		::UnityEngine::GameObject* JAHEFPCEEAH; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICLONABLEDRAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICLONABLEDRAG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -58,5 +56,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICLONABLEDRAG_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
+
 	};
 }

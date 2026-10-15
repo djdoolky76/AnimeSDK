@@ -2,22 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_LAUNCHDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A627CE0)
+#define MIHOYO_SDK_LAUNCHDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6BED0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LaunchDefine_TypeDefinitionIndex = 7530;
+	inline static constexpr unsigned int LaunchDefine_TypeDefinitionIndex = 7584;
 
 	class LaunchDefine : public ::System::Object
 	{
 	public:
 		// static const ::System::String* GET_DISK_FREE_SPACE; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LAUNCHDEFINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LAUNCHDEFINE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

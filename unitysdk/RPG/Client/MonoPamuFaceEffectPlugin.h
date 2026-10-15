@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACFE820)
-#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_START_OFFSET UNITYSDK_OFFSET(0x1ACFE7E0)
-#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACFEEC0)
+#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD84B9A0)
+#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD84B300)
+#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_START_OFFSET UNITYSDK_OFFSET(0xD84B2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPamuFaceEffectPlugin_TypeDefinitionIndex = 68578;
+	inline static constexpr unsigned int MonoPamuFaceEffectPlugin_TypeDefinitionIndex = 68612;
 
 	class MonoPamuFaceEffectPlugin : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,10 +24,9 @@ namespace RPG::Client
 		::UnityEngine::Vector4 KGAOFGJGKPG; // 0x60
 		::UnityEngine::Vector4 DPHPGKFIDMA; // 0x70
 		::UnityEngine::Vector4 HMACHLDCGIC; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -40,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

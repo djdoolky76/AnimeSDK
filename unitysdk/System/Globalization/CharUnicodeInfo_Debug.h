@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x18D69CD0)
+#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1C1E3DC0)
 
 namespace System::Globalization
 {
@@ -17,5 +16,6 @@ namespace System::Globalization
 		{
 			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET))(a1, a2);
 		}
+
 	};
 }

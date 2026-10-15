@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContactPoint2D_TypeDefinitionIndex = 5802;
+	inline static constexpr unsigned int ContactPoint2D_TypeDefinitionIndex = 5810;
 
 	struct alignas(4) ContactPoint2D
 	{

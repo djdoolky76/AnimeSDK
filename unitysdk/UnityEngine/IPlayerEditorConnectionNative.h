@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Guid.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IPlayerEditorConnectionNative_TypeDefinitionIndex = 4231;
+	inline static constexpr unsigned int IPlayerEditorConnectionNative_TypeDefinitionIndex = 4233;
 
 	class IPlayerEditorConnectionNative
 	{

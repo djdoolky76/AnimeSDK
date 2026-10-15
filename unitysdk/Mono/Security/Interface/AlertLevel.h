@@ -7,7 +7,7 @@ namespace Mono::Security::Interface
 
 	enum class AlertLevel : ::System::Byte
 	{
-		Warning = 0x1,
-		Fatal = 0x2,
+		Warning = 1,
+		Fatal = 2,
 	};
 }

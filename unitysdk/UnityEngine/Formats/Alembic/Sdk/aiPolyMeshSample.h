@@ -1,26 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/Unity/Collections/NativeArray_1.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiMeshSampleSummary.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiMeshSplitSummary.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPolyMeshData.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSubmeshData.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSubmeshSummary.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_FILLVERTEXBUFFER_OFFSET UNITYSDK_OFFSET(0x3BBB270)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSPLITSUMMARIES_OFFSET UNITYSDK_OFFSET(0x3BBB160)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUBMESHSUMMARIES_OFFSET UNITYSDK_OFFSET(0x3BBB1F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUMMARY_OFFSET UNITYSDK_OFFSET(0x3BBB0E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1CE452B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1CE452A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_FILLVERTEXBUFFER_OFFSET UNITYSDK_OFFSET(0x3C62A20)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSPLITSUMMARIES_OFFSET UNITYSDK_OFFSET(0x3C62910)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUBMESHSUMMARIES_OFFSET UNITYSDK_OFFSET(0x3C629A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUMMARY_OFFSET UNITYSDK_OFFSET(0x3C62890)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F150F50)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F150F40)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiPolyMeshSample_TypeDefinitionIndex = 44697;
+	inline static constexpr unsigned int aiPolyMeshSample_TypeDefinitionIndex = 45836;
 
-	struct alignas(8) aiPolyMeshSample
+	struct alignas(4) aiPolyMeshSample
 	{
 		::System::IntPtr self; // 0x10
-
+		/*
 		static ::System::Boolean op_Implicit(::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample a1)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
 		/*
 		static ::UnityEngine::Formats::Alembic::Sdk::aiSample op_Implicit_1(::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample a1)
@@ -29,32 +35,25 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		}
 		*/
 
-		/*
-		::System::Void GetSummary(::UnityEngine::Formats::Alembic::Sdk::aiMeshSampleSummary& a1)
+		::System::Void GetSummary(::UnityEngine::Formats::Alembic::Sdk::aiMeshSampleSummary a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiMeshSampleSummary&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUMMARY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiMeshSampleSummary))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUMMARY_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::System::Void GetSplitSummaries(::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiMeshSplitSummary> a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiMeshSplitSummary>))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSPLITSUMMARIES_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::System::Void GetSubmeshSummaries(::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshSummary> a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshSummary>))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_GETSUBMESHSUMMARIES_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::System::Void FillVertexBuffer(::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshData> a1, ::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshData> a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshData>, ::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshData>))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOLYMESHSAMPLE_FILLVERTEXBUFFER_OFFSET))(this, a1, a2);
 		}
-		*/
+
 	};
 }

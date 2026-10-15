@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChimeraGalleryGroupedTalkData; }
 
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1B5F90A0)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET UNITYSDK_OFFSET(0x1B5F8FF0)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1B5F8D70)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET__HASSIBLINGS_OFFSET UNITYSDK_OFFSET(0x1B5F8D10)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F8AE0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB43C90)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xCB44250)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET UNITYSDK_OFFSET(0xCB441A0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xCB43F20)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET__HASSIBLINGS_OFFSET UNITYSDK_OFFSET(0xCB43EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkData_TypeDefinitionIndex = 63489;
+	inline static constexpr unsigned int ChimeraGalleryTalkData_TypeDefinitionIndex = 63427;
 
 	class ChimeraGalleryTalkData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChimeraGalleryGroupedTalkData* _Group; // 0x10
 		::System::Int32 _Index; // 0x18
-
 		::System::Void _ctor(::RPG::Client::ChimeraGalleryGroupedTalkData* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get__HasSiblings()
@@ -46,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET))(this);
 		}
+
 	};
 }

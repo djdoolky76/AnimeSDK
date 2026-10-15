@@ -4,20 +4,19 @@
 #include "unitysdk/RPG/Client/MonoTrainPartyBuildItem_TagType.h"
 #include "unitysdk/RPG/GameCore/LogicOperation.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client { class MonoTrainPartyBuildItem_SlotInfo; }
 namespace RPG::Client { class TrainPartyBuildItemDynamicBindValue; }
 namespace RPG::GameCore { class TrainPartyBuildItemDynamicBindValue; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CONVERTDYNAMICBINDVALUE_1_OFFSET UNITYSDK_OFFSET(0x1C289420)
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CONVERTDYNAMICBINDVALUE_OFFSET UNITYSDK_OFFSET(0x1C2892D0)
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_GETUNIQUEKEY_OFFSET UNITYSDK_OFFSET(0x1C2891E0)
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C289570)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CONVERTDYNAMICBINDVALUE_1_OFFSET UNITYSDK_OFFSET(0xD865EC0)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CONVERTDYNAMICBINDVALUE_OFFSET UNITYSDK_OFFSET(0xD865D70)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD866010)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_GETUNIQUEKEY_OFFSET UNITYSDK_OFFSET(0xD865C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItem_TypeDefinitionIndex = 68838;
+	inline static constexpr unsigned int MonoTrainPartyBuildItem_TypeDefinitionIndex = 68872;
 
 	class MonoTrainPartyBuildItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,17 +25,17 @@ namespace RPG::Client
 		::RPG::Client::MonoTrainPartyBuildItem_ItemType type; // 0x1C
 		::System::String* uniqueName; // 0x20
 		::System::String* guid; // 0x28
-		::Il2CppArray<::RPG::Client::MonoTrainPartyBuildItem_SlotInfo*>* slots; // 0x30
+		::Il2CppArray<::System::Object*>* slots; // 0x30
 		::RPG::Client::MonoTrainPartyBuildItem_TagType tags; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::String* bindFloorCustomString; // 0x40
 		::System::Int32 bindFloorCustomValue; // 0x48
 		::RPG::GameCore::LogicOperation dynamicLogic; // 0x4C
 		::RPG::Client::TrainPartyBuildItemDynamicBindValue* dynamicBindValue; // 0x50
 		::RPG::Client::TrainPartyBuildItemDynamicBindValue* dynamicBindValueExt; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetUniqueKey()
@@ -53,5 +52,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::TrainPartyBuildItemDynamicBindValue*(*)(::RPG::GameCore::TrainPartyBuildItemDynamicBindValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM_CONVERTDYNAMICBINDVALUE_1_OFFSET))(a1);
 		}
+
 	};
 }

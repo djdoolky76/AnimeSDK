@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLBEHAVIOR_PARTICLECONTROLCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E8C540)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLBEHAVIOR_PARTICLECONTROLCONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD52E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleVelocityControlBehavior_ParticleControlContent_TypeDefinitionIndex = 70489;
+	inline static constexpr unsigned int Effect_ParticleVelocityControlBehavior_ParticleControlContent_TypeDefinitionIndex = 70525;
 
 	class Effect_ParticleVelocityControlBehavior_ParticleControlContent : public ::System::Object
 	{
 	public:
 		::UnityEngine::ParticleSystem* ParticleSystem; // 0x10
 		::System::Single Velocity; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLBEHAVIOR_PARTICLECONTROLCONTENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLBEHAVIOR_PARTICLECONTROLCONTENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

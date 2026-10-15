@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystemV2Space/PrefabPropertyComponent.h"
 #include "unitysdk/ScenenLightManager/FadingState.h"
-#include "unitysdk/UnityEngine/ParticleSystem_Particle.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
@@ -14,23 +13,23 @@ namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x106CED80)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x106C9AE0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_3867C36D1420E61A_OFFSET UNITYSDK_OFFSET(0x106CA530)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_3E06E2491B129B22_OFFSET UNITYSDK_OFFSET(0x106CEB80)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x106CEA30)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_AFECFD7779937DC6_OFFSET UNITYSDK_OFFSET(0x106CA950)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_C75AEDD60282682F_OFFSET UNITYSDK_OFFSET(0x106CC490)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x106CE910)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x106CE9A0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x106CE860)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x106CEDD0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x106CB930)
-#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x106CAA60)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x1562E870)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1562A550)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_DGNNCPFGJAK_OFFSET UNITYSDK_OFFSET(0x1562A440)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_DLCHAGJCEAE_OFFSET UNITYSDK_OFFSET(0x1562E670)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_EOBKINCLBOG_OFFSET UNITYSDK_OFFSET(0x1562E520)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x156295D0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x1562E400)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x1562E490)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x1562E350)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_PLKPGNCBOGH_1_OFFSET UNITYSDK_OFFSET(0x1562BF80)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_PLKPGNCBOGH_OFFSET UNITYSDK_OFFSET(0x1562A020)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x1562E8C0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x1562B420)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ES_ParticleComponent_TypeDefinitionIndex = 49729;
+	inline static constexpr unsigned int ES_ParticleComponent_TypeDefinitionIndex = 49303;
 
 	class ES_ParticleComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
@@ -50,12 +49,12 @@ namespace EnviromentSystemV2Space
 		::UnityEngine::ParticleSystemRenderer* m_ParticleSystemRenderer; // 0x68
 		::UnityEngine::MaterialPropertyBlock* m_MatPropBlock; // 0x70
 		::System::Int32 _MaterialSpriteTilesCount; // 0x78
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* EGBKMFOCNBN; // 0x80
-		::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* EDAMIDLHCFN; // 0x88
-
+		::Il2CppArray<::System::Object*>* EDAMIDLHCFN; // 0x88
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnFading(::System::Single a1, ::ScenenLightManager::FadingState a2)
@@ -78,14 +77,14 @@ namespace EnviromentSystemV2Space
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_3E06E2491B129B22()
+		::System::Void DLCHAGJCEAE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_3E06E2491B129B22_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_DLCHAGJCEAE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_4307B2A4B4A12C1A()
+		::System::Void EOBKINCLBOG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_4307B2A4B4A12C1A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_EOBKINCLBOG_OFFSET))(this);
 		}
 
 		::System::Void Apply(::UnityEngine::Rendering::CommandBuffer* a1)
@@ -103,19 +102,20 @@ namespace EnviromentSystemV2Space
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* Method_6_3867C36D1420E61A()
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* PLKPGNCBOGH()
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector4>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_3867C36D1420E61A_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector4>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_PLKPGNCBOGH_OFFSET))(this);
 		}
 
-		::System::Void Method_6_C75AEDD60282682F(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& a1)
+		::System::Void PLKPGNCBOGH_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_C75AEDD60282682F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_PLKPGNCBOGH_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_AFECFD7779937DC6(::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*& a1)
+		::System::Void DGNNCPFGJAK(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_METHOD_6_AFECFD7779937DC6_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_PARTICLECOMPONENT_DGNNCPFGJAK_OFFSET))(this, a1);
 		}
+
 	};
 }

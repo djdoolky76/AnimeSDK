@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UIController.h"
+class LBAMBIMMJKB;
 
-class Class_1_A167209E71412818;
-
-#define RPG_CLIENT_BASEPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F19A80)
+#define RPG_CLIENT_BASEPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC7E97E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePage_TypeDefinitionIndex = 71321;
+	inline static constexpr unsigned int BasePage_TypeDefinitionIndex = 71359;
 
 	class BasePage : public ::RPG::Client::UIController
 	{
 	public:
-		::System::Void _ctor(::Class_1_A167209E71412818* a1)
+		::System::Void _ctor(::LBAMBIMMJKB* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_A167209E71412818*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPAGE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LBAMBIMMJKB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPAGE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

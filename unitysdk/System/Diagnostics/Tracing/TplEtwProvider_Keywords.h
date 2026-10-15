@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Diagnostics::Tracing
@@ -10,6 +9,6 @@ namespace System::Diagnostics::Tracing
 	class TplEtwProvider_Keywords : public ::System::Object
 	{
 	public:
-		// static const ::System::Diagnostics::Tracing::EventKeywords Debug; // 0x0
+		// static const ::System::Object Debug; // 0x0
 	};
 }

@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaReplaceMatBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x1B384AD0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_8BC85DADEC2C3862_OFFSET UNITYSDK_OFFSET(0x1B3840F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_A91086AED8314DB5_OFFSET UNITYSDK_OFFSET(0x1B383720)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B384B60)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0xD7EFF80)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F0010)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7EF5A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0xD7EEBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDirectionDissolve_TypeDefinitionIndex = 69966;
+	inline static constexpr unsigned int MonoEffectPluginDirectionDissolve_TypeDefinitionIndex = 70000;
 
 	class MonoEffectPluginDirectionDissolve : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:
 		::System::Boolean EnableDissolve; // 0x170
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* DissolveTargetPlane; // 0x178
 		::System::Single DissolveOutlineSize1; // 0x180
 		::System::Single DissolveOutlineSize2; // 0x184
@@ -28,26 +28,27 @@ namespace RPG::Client
 		::UnityEngine::Color DissolveOutlineColor1; // 0x18C
 		::UnityEngine::Color DissolveOutlineColor2; // 0x19C
 		::UnityEngine::Vector2 DissolveOutlineSmoothStep; // 0x1AC
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* DEOKAPMPABA; // 0x1B8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_8_A91086AED8314DB5()
+		::System::Void IJICJDNHKHN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_A91086AED8314DB5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_IJICJDNHKHN_OFFSET))(this);
 		}
 
-		::System::Void Method_8_8BC85DADEC2C3862()
+		::System::Void IFOEAAAKONL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_8BC85DADEC2C3862_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_IFOEAAAKONL_OFFSET))(this);
 		}
 
-		::System::Void Method_8_0BDFAC56E6B704CB()
+		::System::Void CBKPMHCOCMH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_0BDFAC56E6B704CB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_CBKPMHCOCMH_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype_AnimationClipInfo_TypeDefinitionIndex = 73612;
+	inline static constexpr unsigned int CrowdPrototype_AnimationClipInfo_TypeDefinitionIndex = 73719;
 
 	struct alignas(8) CrowdPrototype_AnimationClipInfo
 	{

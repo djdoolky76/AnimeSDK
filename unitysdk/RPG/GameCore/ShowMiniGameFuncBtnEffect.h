@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowMiniGameFuncBtnEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_METHOD_3_4E7C7C4DB729828F_OFFSET UNITYSDK_OFFSET(0x1D097910)
-#define RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_METHOD_3_96C50CACFC9DCB3E_OFFSET UNITYSDK_OFFSET(0x1D097960)
-#define RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D097950)
+#define RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4270)
+#define RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB4280)
+#define RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB4230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowMiniGameFuncBtnEffect_TypeDefinitionIndex = 20261;
+	inline static constexpr unsigned int ShowMiniGameFuncBtnEffect_TypeDefinitionIndex = 20499;
 
 	class ShowMiniGameFuncBtnEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsShow; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* CustomFuncBtnName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E7C7C4DB729828F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMiniGameFuncBtnEffect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowMiniGameFuncBtnEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMiniGameFuncBtnEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_METHOD_3_4E7C7C4DB729828F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowMiniGameFuncBtnEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_96C50CACFC9DCB3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMiniGameFuncBtnEffect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowMiniGameFuncBtnEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMiniGameFuncBtnEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_METHOD_3_96C50CACFC9DCB3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowMiniGameFuncBtnEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMINIGAMEFUNCBTNEFFECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

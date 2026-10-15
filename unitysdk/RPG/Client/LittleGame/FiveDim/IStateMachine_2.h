@@ -3,9 +3,9 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IStateMachine_2_TypeDefinitionIndex = 41982;
+	inline static constexpr unsigned int IStateMachine_2_TypeDefinitionIndex = 43624;
 
-	template <typename TStateEnum, typename TState>
+	template <typename T1, typename T2>
 	class IStateMachine_2
 	{
 	public:

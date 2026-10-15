@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CUSTOMRP_RELEASEASSETDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x185B6180)
-#define RPG_CUSTOMRP_RELEASEASSETDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x185B61B0)
-#define RPG_CUSTOMRP_RELEASEASSETDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x185AE810)
-#define RPG_CUSTOMRP_RELEASEASSETDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x185B6090)
+#define RPG_CUSTOMRP_RELEASEASSETDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CC3F210)
+#define RPG_CUSTOMRP_RELEASEASSETDEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3F120)
+#define RPG_CUSTOMRP_RELEASEASSETDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CC3F240)
+#define RPG_CUSTOMRP_RELEASEASSETDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC378A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReleaseAssetDel_TypeDefinitionIndex = 37205;
+	inline static constexpr unsigned int ReleaseAssetDel_TypeDefinitionIndex = 37897;
 
 	class ReleaseAssetDel : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RELEASEASSETDEL__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RELEASEASSETDEL_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Object* a1)
@@ -38,5 +37,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RELEASEASSETDEL_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

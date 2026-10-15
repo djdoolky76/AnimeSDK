@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace System { class Object; }
+
+#define JLGAPJLCIKO_AENOJILPKDO_EQUALS_OFFSET UNITYSDK_OFFSET(0x115D0)
+#define JLGAPJLCIKO_AENOJILPKDO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x115E0)
+
+inline static constexpr unsigned int JLGAPJLCIKO_AENOJILPKDO_TypeDefinitionIndex = 70682;
+
+	struct alignas(8) JLGAPJLCIKO_AENOJILPKDO
+	{
+		::System::Int32 ELBDFOOMPON; // 0x10
+		::System::Int32 DHGKOHEFAID; // 0x14
+		::UnityEngine::Vector3 NPHAFNPMMDF; // 0x18
+		::UnityEngine::Vector2 HMAGPLNGNMP; // 0x24
+		::UnityEngine::Vector3 NDFPBNPAHNA; // 0x2C
+		::Il2CppArray<::System::Int32>* FOMNGCINLNE; // 0x38
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + JLGAPJLCIKO_AENOJILPKDO_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + JLGAPJLCIKO_AENOJILPKDO_GETHASHCODE_OFFSET))(this);
+		}
+
+	};

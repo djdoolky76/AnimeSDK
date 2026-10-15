@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ERoadRashGameAbilityValueModifyType.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
 
-#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1EF9EAC0)
-#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_METHOD_1_D59742BC11AE0DBF_OFFSET UNITYSDK_OFFSET(0x1EF9EB30)
-#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9EBC0)
+#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1C9DB020)
+#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DB120)
+#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x1C9DB090)
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int RoadRashAbilityValueModifer_TypeDefinitionIndex = 41273;
+	inline static constexpr unsigned int RoadRashAbilityValueModifer_TypeDefinitionIndex = 42885;
 
 	class RoadRashAbilityValueModifer : public ::System::Object
 	{
@@ -17,10 +18,9 @@ namespace RPG::Client::LittleGame::RoadRash
 		::System::Int32 Priority; // 0x10
 		::RPG::Client::ERoadRashGameAbilityValueModifyType Type; // 0x14
 		::System::Single Value; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 CompareTo(::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer* a1)
@@ -28,9 +28,10 @@ namespace RPG::Client::LittleGame::RoadRash
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer* Method_1_D59742BC11AE0DBF()
+		::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer* NBHCPBBGAKA()
 		{
-			return ((::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_METHOD_1_D59742BC11AE0DBF_OFFSET))(this);
+			return ((::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYVALUEMODIFER_NBHCPBBGAKA_OFFSET))(this);
 		}
+
 	};
 }

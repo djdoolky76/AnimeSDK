@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/ArrayList.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x17C43FE0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE2D10)
 
 namespace System::Xml::Serialization
 {
@@ -13,7 +13,8 @@ namespace System::Xml::Serialization
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST_CTOR_OFFSET))(this);
 		}
+
 	};
 }

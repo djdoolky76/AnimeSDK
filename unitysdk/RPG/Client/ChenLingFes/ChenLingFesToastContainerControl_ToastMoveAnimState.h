@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastContainerControl_ToastMoveAnimState_TypeDefinitionIndex = 80026;
+	inline static constexpr unsigned int ChenLingFesToastContainerControl_ToastMoveAnimState_TypeDefinitionIndex = 81354;
 
 	struct alignas(4) ChenLingFesToastContainerControl_ToastMoveAnimState
 	{

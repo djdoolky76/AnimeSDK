@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace SRDebugger { template <typename T> class IReadOnlyList_1; }
-namespace SRDebugger::Services { class ConsoleEntry; }
-namespace SRDebugger::Services { class ConsoleUpdatedEventHandler; }
-
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IConsoleService_TypeDefinitionIndex = 37362;
+	inline static constexpr unsigned int IConsoleService_TypeDefinitionIndex = 38055;
 
 	class IConsoleService
 	{

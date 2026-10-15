@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChronicleConnectionPointType.h"
 #include "unitysdk/RPG/GameCore/ChronicleLineType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client { class MissionChronicleMainPathData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainChronicleConnectionWay_TypeDefinitionIndex = 66130;
+	inline static constexpr unsigned int MainChronicleConnectionWay_TypeDefinitionIndex = 66084;
 
 	struct alignas(8) MainChronicleConnectionWay
 	{

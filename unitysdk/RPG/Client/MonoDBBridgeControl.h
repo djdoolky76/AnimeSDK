@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_E81EA3C183D62038;
+class LLENKPGMALJ;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONODBBRIDGECONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E41DC0)
-#define RPG_CLIENT_MONODBBRIDGECONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19E41EE0)
-#define RPG_CLIENT_MONODBBRIDGECONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19E41E30)
-#define RPG_CLIENT_MONODBBRIDGECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E41E90)
-#define RPG_CLIENT_MONODBBRIDGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E41F70)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD73D360)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD73D510)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD73D480)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD73D3D0)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD73D430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDBBridgeControl_TypeDefinitionIndex = 70692;
+	inline static constexpr unsigned int MonoDBBridgeControl_TypeDefinitionIndex = 70728;
 
 	class MonoDBBridgeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean StandingBy; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GameObject* rootPos; // 0x20
 		::Il2CppArray<::UnityEngine::GameObject*>* effectNode; // 0x28
 		::Il2CppArray<::UnityEngine::Renderer*>* effectLoopRenderer; // 0x30
@@ -34,12 +34,13 @@ namespace RPG::Client
 		::System::Boolean isMovingBack; // 0x4A
 		::System::Boolean isStopping; // 0x4B
 		::System::Boolean notCompletelyUseable; // 0x4C
+		::System::Byte _padding1[0x3];
 		::System::Single fadeoutDuration; // 0x50
-		::Class_2_E81EA3C183D62038* _Behavior; // 0x58
-
+		::System::Byte _padding2[0x4];
+		::LLENKPGMALJ* _Behavior; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODBBRIDGECONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODBBRIDGECONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -61,5 +62,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODBBRIDGECONTROL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

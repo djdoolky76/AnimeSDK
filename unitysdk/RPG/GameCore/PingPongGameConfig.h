@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameConstConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongAddPointConfig; }
 namespace RPG::GameCore { class PingPongBallConfig; }
 namespace RPG::GameCore { class PingPongBaseStateConfig; }
 namespace RPG::GameCore { class PingPongDropItemConfig; }
 namespace RPG::GameCore { class PingPongEnemyCommonConfig; }
+namespace RPG::GameCore { class PingPongGameConfig; }
 namespace RPG::GameCore { class PingPongProjectileGroup; }
 namespace RPG::GameCore { class PingPongRacketConfig; }
 namespace RPG::GameCore { class PingPongSkillConfig; }
 
-#define RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_0E877F96CED10BF7_OFFSET UNITYSDK_OFFSET(0x1D78E480)
-#define RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_A2EF257BB135E722_OFFSET UNITYSDK_OFFSET(0x1D78E440)
-#define RPG_GAMECORE_PINGPONGGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78E470)
+#define RPG_GAMECORE_PINGPONGGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E9BF0)
+#define RPG_GAMECORE_PINGPONGGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E9C00)
+#define RPG_GAMECORE_PINGPONGGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E9BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongGameConfig_TypeDefinitionIndex = 16781;
+	inline static constexpr unsigned int PingPongGameConfig_TypeDefinitionIndex = 16975;
 
 	class PingPongGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
@@ -31,20 +31,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::PingPongSkillConfig* Skill; // 0x38
 		::Il2CppArray<::RPG::GameCore::PingPongProjectileGroup*>* ProjectileList; // 0x40
 		::RPG::GameCore::PingPongDropItemConfig* DropItem; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A2EF257BB135E722(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_A2EF257BB135E722_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0E877F96CED10BF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongGameConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_0E877F96CED10BF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGGAMECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
+namespace RPG::Client { class MessageContentBlock; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B23A8C0)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1B23A990)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B23A860)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_URL_OFFSET UNITYSDK_OFFSET(0x1B23A9A0)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23A8B0)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD696FB0)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD696FC0)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xD697090)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD696F60)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_URL_OFFSET UNITYSDK_OFFSET(0xD6970A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentHyperlinkBlock_TypeDefinitionIndex = 63305;
+	inline static constexpr unsigned int MessageContentHyperlinkBlock_TypeDefinitionIndex = 63240;
 
 	class MessageContentHyperlinkBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
-		::System::String* _Title_k__BackingField; // 0x18
-		::System::String* _Url_k__BackingField; // 0x20
-
+		::System::String* _Url_k__BackingField; // 0x18
+		::System::String* _Title_k__BackingField; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -45,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_URL_OFFSET))(this);
 		}
+
 	};
 }

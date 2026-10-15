@@ -1,14 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
+namespace System::Collections { class CaseInsensitiveHashCodeProvider; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Globalization { class TextInfo; }
 
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C9CF040)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1C9CEF80)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C9CEEA0)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CEDA0)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C090280)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C090180)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C090420)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1C090360)
 
 namespace System::Collections
 {
@@ -18,15 +19,14 @@ namespace System::Collections
 	{
 	public:
 		::System::Globalization::TextInfo* m_text; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Collections::CaseInsensitiveHashCodeProvider* get_Default()
@@ -38,5 +38,6 @@ namespace System::Collections
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

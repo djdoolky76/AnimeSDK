@@ -3,7 +3,6 @@
 #include "unitysdk/System/Xml/Schema/Datatype_anySimpleType.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -14,16 +13,16 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BADE500)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1BADE370)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1BADE4F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1BADE3C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1BADE490)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BADE420)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1BADE430)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1BADE600)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BADE780)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD6450)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE88D70)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EE88AF0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EE88960)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE80A40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EE88AE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EE889B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE88A80)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE88A10)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE88A20)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EE88BF0)
 
 namespace System::Xml::Schema
 {
@@ -34,21 +33,22 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_boolean_TypeDefinitionIndex)->GetStaticField(0x1C230);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_boolean")->GetStaticField(0x2D8E0);
 		}
+
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_boolean_TypeDefinitionIndex)->GetStaticField(0x1C238);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_boolean")->GetStaticField(0x2D8E8);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CCTOR_OFFSET))();
 		}
 
 		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
@@ -86,9 +86,10 @@ namespace System::Xml::Schema
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object* a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

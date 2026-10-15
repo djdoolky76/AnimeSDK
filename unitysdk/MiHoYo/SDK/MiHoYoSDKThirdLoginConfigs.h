@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKThirdLoginConfig; }
 
-#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x194ACC50)
+#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0xAFDF9C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfigs_TypeDefinitionIndex = 46797;
+	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfigs_TypeDefinitionIndex = 46337;
 
 	class MiHoYoSDKThirdLoginConfigs : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::MiHoYoSDKThirdLoginConfig* tw; // 0x10
 		::MiHoYo::SDK::MiHoYoSDKThirdLoginConfig* fb; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

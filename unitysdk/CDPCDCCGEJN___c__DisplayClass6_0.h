@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CDPCDCCGEJN;
+class CDPCDCCGEJN_CFLILJECMKA;
+
+#define CDPCDCCGEJN___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC774760)
+#define CDPCDCCGEJN___C__DISPLAYCLASS6_0___ONITEMSUCCEEDBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xC775A30)
+
+inline static constexpr unsigned int CDPCDCCGEJN___c__DisplayClass6_0_TypeDefinitionIndex = 59578;
+
+	class CDPCDCCGEJN___c__DisplayClass6_0 : public ::System::Object
+	{
+	public:
+		::CDPCDCCGEJN_CFLILJECMKA* item; // 0x10
+		::CDPCDCCGEJN* __4__this; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CDPCDCCGEJN___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void __OnItemSucceedByThread_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CDPCDCCGEJN___C__DISPLAYCLASS6_0___ONITEMSUCCEEDBYTHREAD_B__0_OFFSET))(this);
+		}
+
+	};

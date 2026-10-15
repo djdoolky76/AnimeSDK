@@ -2,35 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
+namespace RPG::Client { class MessageContentBlock; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B23AA20)
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1B23AAE0)
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B23A9B0)
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__BYIMAGEID_OFFSET UNITYSDK_OFFSET(0x1B23ACE0)
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B23AA10)
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23AA00)
-#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__GETIMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1B23AB70)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD697110)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD697100)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD697120)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xD6971E0)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD6970B0)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__BYIMAGEID_OFFSET UNITYSDK_OFFSET(0xD697410)
+#define RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__GETIMAGEPATH_OFFSET UNITYSDK_OFFSET(0xD697270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentImageBlock_TypeDefinitionIndex = 63311;
+	inline static constexpr unsigned int MessageContentImageBlock_TypeDefinitionIndex = 63246;
 
 	class MessageContentImageBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::System::String* _ImagePath; // 0x18
 		::System::UInt32 _ImageID; // 0x20
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -57,5 +56,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTIMAGEBLOCK_GET_IMAGEPATH_OFFSET))(this);
 		}
+
 	};
 }

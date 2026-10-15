@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D15F9B0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D15F9E0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A8D0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15F8C0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673AA00)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673A910)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673AA30)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x167358F0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_PinchInHandler_TypeDefinitionIndex = 39018;
+	inline static constexpr unsigned int EasyTouch_PinchInHandler_TypeDefinitionIndex = 40315;
 
 	class EasyTouch_PinchInHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHINHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

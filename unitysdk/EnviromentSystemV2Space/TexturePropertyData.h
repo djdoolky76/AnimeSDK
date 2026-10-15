@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EnviromentSystemV2Space/PropertyData_1.h"
-
-class Class_1_EAF7984A8FAD6BE4;
+class GGJFAFONDHN;
 namespace EnviromentSystemV2Space { class PropertyDataBase; }
-namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_METHOD_3_50F156471F8D4EB9_OFFSET UNITYSDK_OFFSET(0x199E6A90)
-#define ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_METHOD_3_E4886687508BA48F_OFFSET UNITYSDK_OFFSET(0x199E6B60)
-#define ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199E6C20)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1564C4B0)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_EIOEKCFAIMG_OFFSET UNITYSDK_OFFSET(0x1564C320)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1564C3F0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int TexturePropertyData_TypeDefinitionIndex = 49816;
+	inline static constexpr unsigned int TexturePropertyData_TypeDefinitionIndex = 49391;
 
-	class TexturePropertyData : public ::EnviromentSystemV2Space::PropertyData_1<::System::String*>
+	class TexturePropertyData
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_50F156471F8D4EB9(::EnviromentSystemV2Space::PropertyDataBase* a1)
+		::System::Boolean EIOEKCFAIMG(::EnviromentSystemV2Space::PropertyDataBase* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystemV2Space::PropertyDataBase*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_METHOD_3_50F156471F8D4EB9_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystemV2Space::PropertyDataBase*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_EIOEKCFAIMG_OFFSET))(this, a1);
 		}
 
-		::Class_1_EAF7984A8FAD6BE4* Method_3_E4886687508BA48F()
+		::GGJFAFONDHN* FCMDLFKMBMH()
 		{
-			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_METHOD_3_E4886687508BA48F_OFFSET))(this);
+			return ((::GGJFAFONDHN*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TEXTUREPROPERTYDATA_FCMDLFKMBMH_OFFSET))(this);
 		}
+
 	};
 }

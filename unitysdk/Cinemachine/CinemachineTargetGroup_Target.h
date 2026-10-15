@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTargetGroup_Target_TypeDefinitionIndex = 38463;
+	inline static constexpr unsigned int CinemachineTargetGroup_Target_TypeDefinitionIndex = 39760;
 
 	struct alignas(8) CinemachineTargetGroup_Target
 	{

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UnLockTeamLeader; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_UNLOCKTEAMLEADER_METHOD_3_446AE6F0DA9737AB_OFFSET UNITYSDK_OFFSET(0x1D2ADC60)
-#define RPG_GAMECORE_UNLOCKTEAMLEADER_METHOD_3_FA2E22D51A839407_OFFSET UNITYSDK_OFFSET(0x1D2ADC10)
-#define RPG_GAMECORE_UNLOCKTEAMLEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2ADC50)
+#define RPG_GAMECORE_UNLOCKTEAMLEADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC44F90)
+#define RPG_GAMECORE_UNLOCKTEAMLEADER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC44FA0)
+#define RPG_GAMECORE_UNLOCKTEAMLEADER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC44F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnLockTeamLeader_TypeDefinitionIndex = 21360;
+	inline static constexpr unsigned int UnLockTeamLeader_TypeDefinitionIndex = 21606;
 
 	class UnLockTeamLeader : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTEAMLEADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTEAMLEADER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FA2E22D51A839407(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnLockTeamLeader*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UnLockTeamLeader* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnLockTeamLeader*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTEAMLEADER_METHOD_3_FA2E22D51A839407_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UnLockTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTEAMLEADER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_446AE6F0DA9737AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnLockTeamLeader* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::UnLockTeamLeader* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnLockTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTEAMLEADER_METHOD_3_446AE6F0DA9737AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UnLockTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTEAMLEADER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

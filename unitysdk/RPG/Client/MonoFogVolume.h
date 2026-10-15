@@ -5,29 +5,29 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-class Class_2_8DC5AE9AD23DB502;
+class AKGOAGMFOFF;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture3D; }
 
-#define RPG_CLIENT_MONOFOGVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ACD7A90)
-#define RPG_CLIENT_MONOFOGVOLUME_GET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0x1ACD7C30)
-#define RPG_CLIENT_MONOFOGVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ACD7AF0)
-#define RPG_CLIENT_MONOFOGVOLUME_SAVETOFILE_OFFSET UNITYSDK_OFFSET(0x1ACD7BC0)
-#define RPG_CLIENT_MONOFOGVOLUME_SET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0x1ACD7C40)
-#define RPG_CLIENT_MONOFOGVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ACD7B60)
-#define RPG_CLIENT_MONOFOGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD7C80)
+#define RPG_CLIENT_MONOFOGVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0xD824450)
+#define RPG_CLIENT_MONOFOGVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0xD824640)
+#define RPG_CLIENT_MONOFOGVOLUME_GET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0xD8245F0)
+#define RPG_CLIENT_MONOFOGVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8244B0)
+#define RPG_CLIENT_MONOFOGVOLUME_SAVETOFILE_OFFSET UNITYSDK_OFFSET(0xD824580)
+#define RPG_CLIENT_MONOFOGVOLUME_SET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0xD824600)
+#define RPG_CLIENT_MONOFOGVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0xD824520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFogVolume_TypeDefinitionIndex = 70755;
+	inline static constexpr unsigned int MonoFogVolume_TypeDefinitionIndex = 70793;
 
 	class MonoFogVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean UseMaterial; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Material* mat; // 0x20
 		::RPG::Client::MonoFogVolume_LevelType m_QualityLevel; // 0x28
 		::System::Int32 LightQualityVersion; // 0x2C
@@ -36,12 +36,14 @@ namespace RPG::Client
 		::UnityEngine::Color FogColor; // 0x38
 		::System::Single EdgeFade; // 0x48
 		::System::Boolean UseMeshMask; // 0x4C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Texture3D* MeskMaskTexture; // 0x50
 		::System::Single DistanceFade; // 0x58
 		::System::Single DistanceFadeExp; // 0x5C
 		::System::Single FogStartHeight; // 0x60
 		::System::Single _FogFalloff; // 0x64
 		::System::Single DensityOffset; // 0x68
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Texture3D* ShapeTex; // 0x70
 		::UnityEngine::Vector4 BasicShapeTiling; // 0x78
 		::System::Single BasicShapeExp; // 0x88
@@ -56,11 +58,10 @@ namespace RPG::Client
 		::System::Single ShapeSpeed; // 0xC8
 		::System::Single DetailSpeed; // 0xCC
 		::UnityEngine::GameObject* fogObject; // 0xD0
-		::Class_2_8DC5AE9AD23DB502* EIGCKKONNIO; // 0xD8
-
+		::AKGOAGMFOFF* EIGCKKONNIO; // 0xD8
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOGVOLUME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOGVOLUME_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -92,5 +93,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOGVOLUME_SET_LAST_SAVE_PATH_OFFSET))(a1);
 		}
+
 	};
 }

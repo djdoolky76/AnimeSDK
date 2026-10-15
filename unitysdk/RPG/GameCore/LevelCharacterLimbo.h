@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterLimbo; }
 
-#define RPG_GAMECORE_LEVELCHARACTERLIMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x18452DC0)
-#define RPG_GAMECORE_LEVELCHARACTERLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18452E60)
-#define RPG_GAMECORE_LEVELCHARACTERLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18452E10)
-#define RPG_GAMECORE_LEVELCHARACTERLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0x18452D40)
-#define RPG_GAMECORE_LEVELCHARACTERLIMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x18452EB0)
+#define RPG_GAMECORE_LEVELCHARACTERLIMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6D8600)
+#define RPG_GAMECORE_LEVELCHARACTERLIMBO_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D86F0)
+#define RPG_GAMECORE_LEVELCHARACTERLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D86A0)
+#define RPG_GAMECORE_LEVELCHARACTERLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D8650)
+#define RPG_GAMECORE_LEVELCHARACTERLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0xE6D8580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterLimbo_TypeDefinitionIndex = 56945;
+	inline static constexpr unsigned int LevelCharacterLimbo_TypeDefinitionIndex = 56766;
 
-	class LevelCharacterLimbo : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterLimbo : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Defender; // 0x18
-		::RPG::GameCore::GameEntity* Attacker; // 0x20
-		::RPG::GameCore::FixPoint Damage; // 0x28
-		::RPG::GameCore::FixPoint DefenderBeforeHP; // 0x30
-
+		::RPG::GameCore::GameEntity* Attacker; // 0x18
+		::RPG::GameCore::GameEntity* Defender; // 0x20
+		::RPG::GameCore::FixPoint DefenderBeforeHP; // 0x28
+		::RPG::GameCore::FixPoint Damage; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERLIMBO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERLIMBO_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterLimbo* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4)
@@ -48,5 +47,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERLIMBO_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

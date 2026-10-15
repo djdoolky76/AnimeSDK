@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimSectionConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMSECTIONCONFIG_METHOD_2_6EAFC17C956680DA_OFFSET UNITYSDK_OFFSET(0x1D877340)
-#define RPG_GAMECORE_FIVEDIMSECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D877450)
+#define RPG_GAMECORE_FIVEDIMSECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AA6F0)
+#define RPG_GAMECORE_FIVEDIMSECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AA5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSectionConfig_TypeDefinitionIndex = 18311;
+	inline static constexpr unsigned int FiveDimSectionConfig_TypeDefinitionIndex = 18526;
 
 	class FiveDimSectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 SectionID; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::UInt32>* Indices; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSECTIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSECTIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6EAFC17C956680DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSectionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimSectionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSectionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSECTIONCONFIG_METHOD_2_6EAFC17C956680DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimSectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSECTIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

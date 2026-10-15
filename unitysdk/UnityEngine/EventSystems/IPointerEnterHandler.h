@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine::EventSystems { class PointerEventData; }
-
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IPointerEnterHandler_TypeDefinitionIndex = 6902;
+	inline static constexpr unsigned int IPointerEnterHandler_TypeDefinitionIndex = 6911;
 
 	class IPointerEnterHandler
 	{

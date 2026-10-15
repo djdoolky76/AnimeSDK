@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
-
 namespace Cysharp::Threading::Tasks { class ExceptionHolder; }
-namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCompletionSource_1_TypeDefinitionIndex = 42815;
+	inline static constexpr unsigned int UniTaskCompletionSource_1_TypeDefinitionIndex = 38400;
 
 	template <typename T>
 	class UniTaskCompletionSource_1 : public ::System::Object

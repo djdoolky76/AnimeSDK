@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace CriWare { class CriAtomExBeatSync_CbFunc; }
 
-#define CRIWARE_CRIATOMEXBEATSYNC_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CB97450)
-#define CRIWARE_CRIATOMEXBEATSYNC_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CB97460)
-#define CRIWARE_CRIATOMEXBEATSYNC_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CB97470)
+#define CRIWARE_CRIATOMEXBEATSYNC_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x166D9690)
+#define CRIWARE_CRIATOMEXBEATSYNC_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x166D96A0)
+#define CRIWARE_CRIATOMEXBEATSYNC_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x166D96B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_TypeDefinitionIndex = 38703;
+	inline static constexpr unsigned int CriAtomExBeatSync_TypeDefinitionIndex = 40000;
 
 	class CriAtomExBeatSync : public ::System::Object
 	{
@@ -29,5 +28,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::CriWare::CriAtomExBeatSync_CbFunc*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_SETCALLBACK_OFFSET))(a1);
 		}
+
 	};
 }

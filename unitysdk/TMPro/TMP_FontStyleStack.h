@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/FontStyles.h"
 
-#define TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x3AE8F40)
-#define TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x3AE8F30)
-#define TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x3AE8F50)
+#define TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x3C68210)
+#define TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C68200)
+#define TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x3C68220)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 43475;
+	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 44667;
 
-	struct alignas(1) TMP_FontStyleStack
+	struct alignas(4) TMP_FontStyleStack
 	{
 		::System::Byte bold; // 0x10
 		::System::Byte italic; // 0x11
@@ -23,7 +22,6 @@ namespace TMPro
 		::System::Byte uppercase; // 0x17
 		::System::Byte lowercase; // 0x18
 		::System::Byte smallcaps; // 0x19
-
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET))(this);
@@ -38,5 +36,6 @@ namespace TMPro
 		{
 			return ((::System::Byte(*)(::PVOID, ::TMPro::FontStyles))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET))(this, a1);
 		}
+
 	};
 }

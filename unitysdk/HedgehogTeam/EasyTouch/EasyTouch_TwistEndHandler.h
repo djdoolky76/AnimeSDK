@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D160DE0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D160E10)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A8B0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D160CF0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673BE30)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673BD40)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673BE60)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x167358D0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_TwistEndHandler_TypeDefinitionIndex = 39017;
+	inline static constexpr unsigned int EasyTouch_TwistEndHandler_TypeDefinitionIndex = 40314;
 
 	class EasyTouch_TwistEndHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TWISTENDHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

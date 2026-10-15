@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class CommandBufferExt; }
 namespace UnityEngine::Rendering { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_PROFILINGSCOPE_BEGINPROFILE_1_OFFSET UNITYSDK_OFFSET(0x1CD21640)
-#define UNITYENGINE_RENDERING_PROFILINGSCOPE_BEGINPROFILE_OFFSET UNITYSDK_OFFSET(0x1CD21630)
-#define UNITYENGINE_RENDERING_PROFILINGSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F00)
-#define UNITYENGINE_RENDERING_PROFILINGSCOPE_ENDPROFILE_OFFSET UNITYSDK_OFFSET(0x1CD21650)
-#define UNITYENGINE_RENDERING_PROFILINGSCOPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10F00)
-#define UNITYENGINE_RENDERING_PROFILINGSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define UNITYENGINE_RENDERING_PROFILINGSCOPE_BEGINPROFILE_1_OFFSET UNITYSDK_OFFSET(0x1F298B60)
+#define UNITYENGINE_RENDERING_PROFILINGSCOPE_BEGINPROFILE_OFFSET UNITYSDK_OFFSET(0x1F298B50)
+#define UNITYENGINE_RENDERING_PROFILINGSCOPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define UNITYENGINE_RENDERING_PROFILINGSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define UNITYENGINE_RENDERING_PROFILINGSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define UNITYENGINE_RENDERING_PROFILINGSCOPE_ENDPROFILE_OFFSET UNITYSDK_OFFSET(0x1F298B70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ProfilingScope_TypeDefinitionIndex = 34886;
+	inline static constexpr unsigned int ProfilingScope_TypeDefinitionIndex = 35555;
 
-	struct alignas(1) ProfilingScope
+	struct alignas(4) ProfilingScope
 	{
 		::System::Void _ctor(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::ProfilingSampler* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::ProfilingSampler*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PROFILINGSCOPE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::ProfilingSampler*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PROFILINGSCOPE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Rendering::CommandBufferExt* a1, ::UnityEngine::Rendering::ProfilingSampler* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBufferExt*, ::UnityEngine::Rendering::ProfilingSampler*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PROFILINGSCOPE__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBufferExt*, ::UnityEngine::Rendering::ProfilingSampler*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PROFILINGSCOPE_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -48,5 +46,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PROFILINGSCOPE_ENDPROFILE_OFFSET))();
 		}
+
 	};
 }

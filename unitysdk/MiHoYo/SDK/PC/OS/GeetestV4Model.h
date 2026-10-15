@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_GEETESTV4MODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A262340)
+#define MIHOYO_SDK_PC_OS_GEETESTV4MODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE58B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GeetestV4Model_TypeDefinitionIndex = 8449;
+	inline static constexpr unsigned int GeetestV4Model_TypeDefinitionIndex = 8492;
 
 	class GeetestV4Model : public ::System::Object
 	{
@@ -19,10 +18,10 @@ namespace MiHoYo::SDK::PC::OS
 		::System::String* lang; // 0x28
 		::System::String* risk_type; // 0x30
 		::System::String* session_id; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GEETESTV4MODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GEETESTV4MODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C25FA10)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0x1C268140)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD57BB50)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0xD584140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass23_0_TypeDefinitionIndex = 65952;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass23_0_TypeDefinitionIndex = 65906;
 
 	class MatchThreeBoard___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
 		::System::Action* onFinish; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _DoSwitchPiece_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET))(this);
 		}
+
 	};
 }

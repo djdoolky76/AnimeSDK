@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MapRotationCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_METHOD_2_FE2972EEAE53C97D_OFFSET UNITYSDK_OFFSET(0x1D49AFE0)
-#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49B130)
+#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D801410)
+#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8012C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationCameraConfig_TypeDefinitionIndex = 16839;
+	inline static constexpr unsigned int MapRotationCameraConfig_TypeDefinitionIndex = 17033;
 
 	class MapRotationCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::System::String* ConfigPath; // 0x10
 		::System::Single InBlendTime; // 0x18
 		::System::Single OutBlendTime; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONCAMERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONCAMERACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FE2972EEAE53C97D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationCameraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONCAMERACONFIG_METHOD_2_FE2972EEAE53C97D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONCAMERACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

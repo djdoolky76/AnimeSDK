@@ -4,7 +4,7 @@
 
 namespace SRF::Components
 {
-	inline static constexpr unsigned int SRSingleton_1_TypeDefinitionIndex = 34764;
+	inline static constexpr unsigned int SRSingleton_1_TypeDefinitionIndex = 35433;
 
 	template <typename T>
 	class SRSingleton_1 : public ::SRF::SRMonoBehaviour
@@ -12,7 +12,8 @@ namespace SRF::Components
 	public:
 		static T* StaticGet__instance()
 		{
-			return (T*)Il2CppClass::FromTypeDefinitionIndex(SRSingleton_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (T*)UnitySDK::FromName("SRF.Components", "SRSingleton`1")->GetStaticField(0x0);
 		}
+
 	};
 }

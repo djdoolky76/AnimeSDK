@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/ExpressionVisitor.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -9,28 +8,26 @@ namespace System::Linq::Expressions { class BlockExpression; }
 namespace System::Linq::Expressions { class CatchBlock; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
-namespace System::Linq::Expressions { template <typename T> class Expression_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_POPPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B0084C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_PUSHPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B007F20)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_VISITBLOCK_OFFSET UNITYSDK_OFFSET(0x1B007E00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_VISITCATCHBLOCK_OFFSET UNITYSDK_OFFSET(0x1B008A30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_VISITPARAMETER_OFFSET UNITYSDK_OFFSET(0x1B007D40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B006C00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE4E00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_POPPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1EDE66C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_PUSHPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1EDE6120)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_VISITBLOCK_OFFSET UNITYSDK_OFFSET(0x1EDE6000)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_VISITCATCHBLOCK_OFFSET UNITYSDK_OFFSET(0x1EDE6C30)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_VISITPARAMETER_OFFSET UNITYSDK_OFFSET(0x1EDE5F40)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LightCompiler_QuoteVisitor_TypeDefinitionIndex = 3485;
+	inline static constexpr unsigned int LightCompiler_QuoteVisitor_TypeDefinitionIndex = 3486;
 
 	class LightCompiler_QuoteVisitor : public ::System::Linq::Expressions::ExpressionVisitor
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Int32>* _definedParameters; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>* _hoistedParameters; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* a1)
@@ -57,5 +54,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER_QUOTEVISITOR_POPPARAMETERS_OFFSET))(this, a1);
 		}
+
 	};
 }

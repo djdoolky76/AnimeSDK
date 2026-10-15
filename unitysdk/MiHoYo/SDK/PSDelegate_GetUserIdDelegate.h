@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B370)
-#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B3A0)
-#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B360)
-#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7B2F0)
+#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53FA0)
+#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF53F20)
+#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53FD0)
+#define MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53F90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_GetUserIdDelegate_TypeDefinitionIndex = 7685;
+	inline static constexpr unsigned int PSDelegate_GetUserIdDelegate_TypeDefinitionIndex = 7729;
 
 	class PSDelegate_GetUserIdDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETUSERIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

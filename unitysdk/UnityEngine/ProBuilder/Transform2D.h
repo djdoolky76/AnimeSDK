@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19241770)
-#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TRANSFORMPOINT_OFFSET UNITYSDK_OFFSET(0x192416E0)
-#define UNITYENGINE_PROBUILDER_TRANSFORM2D__CTOR_OFFSET UNITYSDK_OFFSET(0x192416D0)
+#define UNITYENGINE_PROBUILDER_TRANSFORM2D_CTOR_OFFSET UNITYSDK_OFFSET(0x1F25FB30)
+#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F25FBD0)
+#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TRANSFORMPOINT_OFFSET UNITYSDK_OFFSET(0x1F25FB40)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Transform2D_TypeDefinitionIndex = 43249;
+	inline static constexpr unsigned int Transform2D_TypeDefinitionIndex = 44441;
 
 	class Transform2D : public ::System::Object
 	{
@@ -19,10 +18,9 @@ namespace UnityEngine::ProBuilder
 		::UnityEngine::Vector2 scale; // 0x10
 		::System::Single rotation; // 0x18
 		::UnityEngine::Vector2 position; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRANSFORM2D__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRANSFORM2D_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 a1)
@@ -34,5 +32,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRANSFORM2D_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

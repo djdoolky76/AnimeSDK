@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchAdvLineup; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_1D16703FADC2ED58_OFFSET UNITYSDK_OFFSET(0x1E167600)
-#define RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_7B8B6759E625362D_OFFSET UNITYSDK_OFFSET(0x1E167660)
-#define RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_90F41F38147C10E0_OFFSET UNITYSDK_OFFSET(0x1E167680)
-#define RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_F4BB4FC9958C5ABD_OFFSET UNITYSDK_OFFSET(0x1E167580)
-#define RPG_GAMECORE_TARGETFETCHADVLINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1675F0)
+#define RPG_GAMECORE_TARGETFETCHADVLINEUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2D730)
+#define RPG_GAMECORE_TARGETFETCHADVLINEUP_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB2D7C0)
+#define RPG_GAMECORE_TARGETFETCHADVLINEUP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB2D7A0)
+#define RPG_GAMECORE_TARGETFETCHADVLINEUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB2D740)
+#define RPG_GAMECORE_TARGETFETCHADVLINEUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB2D6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvLineup_TypeDefinitionIndex = 23651;
+	inline static constexpr unsigned int TargetFetchAdvLineup_TypeDefinitionIndex = 23925;
 
 	class TargetFetchAdvLineup : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F4BB4FC9958C5ABD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvLineup*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvLineup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvLineup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_F4BB4FC9958C5ABD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1D16703FADC2ED58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvLineup* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvLineup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_1D16703FADC2ED58_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7B8B6759E625362D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLineup*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLineup* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLineup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_7B8B6759E625362D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_90F41F38147C10E0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLineup* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLineup* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_METHOD_4_90F41F38147C10E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLINEUP_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

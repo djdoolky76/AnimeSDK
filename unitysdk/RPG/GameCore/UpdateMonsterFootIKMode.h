@@ -2,36 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EFootIKMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UpdateMonsterFootIKMode; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_METHOD_3_08A25BE316AA0B29_OFFSET UNITYSDK_OFFSET(0x1D2B3BF0)
-#define RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_METHOD_3_C3E51B37E7CF5FEC_OFFSET UNITYSDK_OFFSET(0x1D2B3BB0)
-#define RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B3BE0)
+#define RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4B080)
+#define RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC4B090)
+#define RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4B050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UpdateMonsterFootIKMode_TypeDefinitionIndex = 22171;
+	inline static constexpr unsigned int UpdateMonsterFootIKMode_TypeDefinitionIndex = 22420;
 
 	class UpdateMonsterFootIKMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean FromHitAngle; // 0x18
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::EFootIKMode NewIKMode; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C3E51B37E7CF5FEC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UpdateMonsterFootIKMode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UpdateMonsterFootIKMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UpdateMonsterFootIKMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_METHOD_3_C3E51B37E7CF5FEC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UpdateMonsterFootIKMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_08A25BE316AA0B29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UpdateMonsterFootIKMode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::UpdateMonsterFootIKMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UpdateMonsterFootIKMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_METHOD_3_08A25BE316AA0B29_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UpdateMonsterFootIKMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATEMONSTERFOOTIKMODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

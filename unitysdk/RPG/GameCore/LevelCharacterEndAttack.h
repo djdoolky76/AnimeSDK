@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterEndAttack; }
 
-#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x18452A20)
-#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18452AC0)
-#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18452A70)
-#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_INIT_OFFSET UNITYSDK_OFFSET(0x184529D0)
-#define RPG_GAMECORE_LEVELCHARACTERENDATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18452B10)
+#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6D8260)
+#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D8350)
+#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D8300)
+#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D82B0)
+#define RPG_GAMECORE_LEVELCHARACTERENDATTACK_INIT_OFFSET UNITYSDK_OFFSET(0xE6D8210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterEndAttack_TypeDefinitionIndex = 56965;
+	inline static constexpr unsigned int LevelCharacterEndAttack_TypeDefinitionIndex = 56786;
 
-	class LevelCharacterEndAttack : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterEndAttack : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* Attacker; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERENDATTACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERENDATTACK_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterEndAttack* Init(::RPG::GameCore::GameEntity* a1)
@@ -44,5 +43,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERENDATTACK_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

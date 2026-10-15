@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VRControllerAxis_t.h"
+#include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VRControllerState_t.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x3C98DA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x3C98D70)
+#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_CTOR_OFFSET UNITYSDK_OFFSET(0x3C95580)
+#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x3C955B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRControllerState_t_Packed_TypeDefinitionIndex = 38010;
+	inline static constexpr unsigned int VRControllerState_t_Packed_TypeDefinitionIndex = 39307;
 
 	struct alignas(4) VRControllerState_t_Packed
 	{
@@ -20,19 +20,15 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		::ZenFulcrum::VR::OpenVRBinding::VRControllerAxis_t rAxis2; // 0x34
 		::ZenFulcrum::VR::OpenVRBinding::VRControllerAxis_t rAxis3; // 0x3C
 		::ZenFulcrum::VR::OpenVRBinding::VRControllerAxis_t rAxis4; // 0x44
-
-		/*
 		::System::Void _ctor(::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_CTOR_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
-		::System::Void Unpack(::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& a1)
+		::System::Void Unpack(::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_UNPACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_UNPACK_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

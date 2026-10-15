@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+namespace System { class Object; }
 namespace System { class RuntimeType; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -11,15 +11,15 @@ namespace System::Reflection { class Missing; }
 namespace System::Reflection { class RuntimeAssembly; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_ADDELEMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1EEB19A0)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1EEB2900)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEB2960)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETUNITYSERIALIZATIONINFO_1_OFFSET UNITYSDK_OFFSET(0x1EEB20A0)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETUNITYSERIALIZATIONINFO_2_OFFSET UNITYSDK_OFFSET(0x1EEB23E0)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETUNITYSERIALIZATIONINFO_OFFSET UNITYSDK_OFFSET(0x1EEB18D0)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_MAKEELEMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1EEB1E30)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER_THROWINSUFFICIENTINFORMATION_OFFSET UNITYSDK_OFFSET(0x1EEB2860)
-#define SYSTEM_UNITYSERIALIZATIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB2580)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_ADDELEMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1C15DE10)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C15E9F0)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C15ED70)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1C15EDD0)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETUNITYSERIALIZATIONINFO_1_OFFSET UNITYSDK_OFFSET(0x1C15E510)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETUNITYSERIALIZATIONINFO_2_OFFSET UNITYSDK_OFFSET(0x1C15E850)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_GETUNITYSERIALIZATIONINFO_OFFSET UNITYSDK_OFFSET(0x1C15DD40)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_MAKEELEMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1C15E2A0)
+#define SYSTEM_UNITYSERIALIZATIONHOLDER_THROWINSUFFICIENTINFORMATION_OFFSET UNITYSDK_OFFSET(0x1C15ECD0)
 
 namespace System
 {
@@ -28,18 +28,17 @@ namespace System
 	class UnitySerializationHolder : public ::System::Object
 	{
 	public:
-		::System::Reflection::MethodBase* m_declaringMethod; // 0x10
-		::Il2CppArray<::System::Type*>* m_instantiation; // 0x18
-		::System::Type* m_declaringType; // 0x20
-		::Il2CppArray<::System::Int32>* m_elementTypes; // 0x28
-		::System::String* m_assemblyName; // 0x30
-		::System::String* m_data; // 0x38
-		::System::Int32 m_unityType; // 0x40
-		::System::Int32 m_genericParameterPosition; // 0x44
-
+		::Il2CppArray<::System::Type*>* m_instantiation; // 0x10
+		::System::String* m_assemblyName; // 0x18
+		::Il2CppArray<::System::Int32>* m_elementTypes; // 0x20
+		::System::Type* m_declaringType; // 0x28
+		::System::String* m_data; // 0x30
+		::System::Reflection::MethodBase* m_declaringMethod; // 0x38
+		::System::Int32 m_genericParameterPosition; // 0x40
+		::System::Int32 m_unityType; // 0x44
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_UNITYSERIALIZATIONHOLDER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_UNITYSERIALIZATIONHOLDER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Reflection::Missing* a2)
@@ -81,5 +80,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_UNITYSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET))(this, a1);
 		}
+
 	};
 }

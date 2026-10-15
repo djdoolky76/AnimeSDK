@@ -4,34 +4,33 @@
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+namespace System { class Object; }
 
-namespace RPG::Client { class Effect_ScreenCrack_MatTexItem; }
-
-#define RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_2F381734DBBAB430_OFFSET UNITYSDK_OFFSET(0x15E96EF0)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_4ADE96F0541BC427_OFFSET UNITYSDK_OFFSET(0x15E97100)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_99D848AEA005759A_OFFSET UNITYSDK_OFFSET(0x15E97230)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x15E96A20)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_FA0119DD445A672F_OFFSET UNITYSDK_OFFSET(0x15E970A0)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15E96E60)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15E96CA0)
-#define RPG_CLIENT_EFFECT_SCREENCRACK_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E969C0)
-#define RPG_CLIENT_EFFECT_SCREENCRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15E97430)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_AENBMEGIGLB_OFFSET UNITYSDK_OFFSET(0xCD5D6C0)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xCD5DA50)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_EFBCIMCABLC_OFFSET UNITYSDK_OFFSET(0xCD5D850)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_FANKOLBNJDE_OFFSET UNITYSDK_OFFSET(0xCD5D040)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_JNEBFJDGHMD_OFFSET UNITYSDK_OFFSET(0xCD5D510)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_OICHBKFOPKO_OFFSET UNITYSDK_OFFSET(0xCD5D720)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD5D480)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD5D2C0)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD5CFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ScreenCrack_TypeDefinitionIndex = 70514;
+	inline static constexpr unsigned int Effect_ScreenCrack_TypeDefinitionIndex = 70550;
 
 	class Effect_ScreenCrack : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::RPG::Client::Effect_ScreenCrack_MatTexItem*>* MatTexMapping; // 0x18
+		::Il2CppArray<::System::Object*>* MatTexMapping; // 0x18
 		::System::Boolean IsFrameCapture; // 0x20
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 IGJIBAIEPCK; // 0x24
 		::System::Boolean OJGMDHEHCMM; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -49,29 +48,30 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EDFD49C942C75D6C()
+		::System::Void FANKOLBNJDE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_EDFD49C942C75D6C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_FANKOLBNJDE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_4ADE96F0541BC427(::RPG::CustomRP::FrameCapture_CaptureType a1, ::RPG::CustomRP::FrameCapture_CaptureFeature a2)
+		::System::Boolean OICHBKFOPKO(::RPG::CustomRP::FrameCapture_CaptureType a1, ::RPG::CustomRP::FrameCapture_CaptureFeature a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::FrameCapture_CaptureType, ::RPG::CustomRP::FrameCapture_CaptureFeature))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_4ADE96F0541BC427_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::FrameCapture_CaptureType, ::RPG::CustomRP::FrameCapture_CaptureFeature))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_OICHBKFOPKO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_FA0119DD445A672F()
+		::System::Void AENBMEGIGLB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_FA0119DD445A672F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_AENBMEGIGLB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_99D848AEA005759A()
+		::System::Void EFBCIMCABLC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_99D848AEA005759A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_EFBCIMCABLC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2F381734DBBAB430()
+		::System::Void JNEBFJDGHMD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_METHOD_5_2F381734DBBAB430_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SCREENCRACK_JNEBFJDGHMD_OFFSET))(this);
 		}
+
 	};
 }

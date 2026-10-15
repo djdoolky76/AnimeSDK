@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CD1C950)
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1CD1CB00)
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CD1C960)
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1C990)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F293F20)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F293EE0)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F294090)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F293EF0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FloatRangeParameter_TypeDefinitionIndex = 34972;
+	inline static constexpr unsigned int FloatRangeParameter_TypeDefinitionIndex = 35641;
 
-	class FloatRangeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector2>
+	class FloatRangeParameter
 	{
 	public:
 		::System::Single min; // 0x20
 		::System::Single max; // 0x24
-
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Vector2 get_value()
@@ -37,5 +35,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

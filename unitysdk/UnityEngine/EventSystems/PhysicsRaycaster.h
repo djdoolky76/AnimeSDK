@@ -1,43 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/BaseRaycaster.h"
-#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
-#include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
-
+#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
+#include "unitysdk/UnityEngine/Ray.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_COMPUTERAYANDDISTANCE_OFFSET UNITYSDK_OFFSET(0x1B76B8B0)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_DEPTH_OFFSET UNITYSDK_OFFSET(0x1B76C0A0)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1B76C000)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_EVENTMASK_OFFSET UNITYSDK_OFFSET(0x1B76C1E0)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_FINALEVENTMASK_OFFSET UNITYSDK_OFFSET(0x1B76BEC0)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_MAXRAYINTERSECTIONS_OFFSET UNITYSDK_OFFSET(0x1B76C200)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1B76C220)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_SET_EVENTMASK_OFFSET UNITYSDK_OFFSET(0x1B76C1F0)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_SET_MAXRAYINTERSECTIONS_OFFSET UNITYSDK_OFFSET(0x1B76C210)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76B0C0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_COMPUTERAYANDDISTANCE_OFFSET UNITYSDK_OFFSET(0x1F4A7190)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A69A0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_DEPTH_OFFSET UNITYSDK_OFFSET(0x1F4A7980)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1F4A78E0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_EVENTMASK_OFFSET UNITYSDK_OFFSET(0x1F4A7AC0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_FINALEVENTMASK_OFFSET UNITYSDK_OFFSET(0x1F4A77A0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_GET_MAXRAYINTERSECTIONS_OFFSET UNITYSDK_OFFSET(0x1F4A7AE0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1F4A7B00)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_SET_EVENTMASK_OFFSET UNITYSDK_OFFSET(0x1F4A7AD0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_SET_MAXRAYINTERSECTIONS_OFFSET UNITYSDK_OFFSET(0x1F4A7AF0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PhysicsRaycaster_TypeDefinitionIndex = 6943;
+	inline static constexpr unsigned int PhysicsRaycaster_TypeDefinitionIndex = 6952;
 
 	class PhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster
 	{
 	public:
-		// static const ::System::Int32 kNoEventMaskSet = 0xFFFFFFFF; // 0x0
 		::UnityEngine::Camera* m_EventCamera; // 0x20
 		::UnityEngine::LayerMask m_EventMask; // 0x28
 		::System::Int32 m_MaxRayIntersections; // 0x2C
 		::System::Int32 m_LastMaxRayIntersections; // 0x30
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::RaycastHit>* m_Hits; // 0x38
-
+		// static const ::System::Object kNoEventMaskSet; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Camera* get_eventCamera()
@@ -75,14 +74,15 @@ namespace UnityEngine::EventSystems
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_SET_MAXRAYINTERSECTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ComputeRayAndDistance(::UnityEngine::EventSystems::PointerEventData* a1, ::UnityEngine::Ray& a2, ::System::Int32& a3, ::System::Single& a4)
+		::System::Boolean ComputeRayAndDistance(::UnityEngine::EventSystems::PointerEventData* a1, ::UnityEngine::Ray a2, ::System::Int32 a3, ::System::Single a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Ray&, ::System::Int32&, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_COMPUTERAYANDDISTANCE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Ray, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_COMPUTERAYANDDISTANCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Raycast(::UnityEngine::EventSystems::PointerEventData* a1, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCAST_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

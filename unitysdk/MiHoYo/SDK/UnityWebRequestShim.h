@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
 
-#define MIHOYO_SDK_UNITYWEBREQUESTSHIM_DISPOSEEX_OFFSET UNITYSDK_OFFSET(0x1CD743E0)
-#define MIHOYO_SDK_UNITYWEBREQUESTSHIM_SENDWEBREQUESTEX_OFFSET UNITYSDK_OFFSET(0x1CD74410)
-#define MIHOYO_SDK_UNITYWEBREQUESTSHIM_SETREQUESTHEADEREX_OFFSET UNITYSDK_OFFSET(0x1CD743F0)
+#define MIHOYO_SDK_UNITYWEBREQUESTSHIM_DISPOSEEX_OFFSET UNITYSDK_OFFSET(0x1BFE8180)
+#define MIHOYO_SDK_UNITYWEBREQUESTSHIM_SENDWEBREQUESTEX_OFFSET UNITYSDK_OFFSET(0x1BFE81B0)
+#define MIHOYO_SDK_UNITYWEBREQUESTSHIM_SETREQUESTHEADEREX_OFFSET UNITYSDK_OFFSET(0x1BFE8190)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UnityWebRequestShim_TypeDefinitionIndex = 7938;
+	inline static constexpr unsigned int UnityWebRequestShim_TypeDefinitionIndex = 7981;
 
 	class UnityWebRequestShim : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::UnityEngine::Networking::UnityWebRequestAsyncOperation*(*)(::UnityEngine::Networking::UnityWebRequest*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNITYWEBREQUESTSHIM_SENDWEBREQUESTEX_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18290F90)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18290FC0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x18290F80)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18290E90)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F08C040)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08BF40)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F08C070)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F08C030)
 
 namespace System::Text::RegularExpressions
 {
@@ -22,7 +21,7 @@ namespace System::Text::RegularExpressions
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke(::System::Text::RegularExpressions::Match* a1)
@@ -39,5 +38,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

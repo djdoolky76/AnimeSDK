@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim_TypeDefinitionIndex = 69214;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim_TypeDefinitionIndex = 69250;
 
 	struct alignas(8) PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim
 	{

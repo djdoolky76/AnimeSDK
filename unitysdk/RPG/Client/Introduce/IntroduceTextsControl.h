@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::Introduce { class IntroduceViewModel; }
 
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x19850190)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x198501D0)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_TRYSETCONTENTBYINTROID_OFFSET UNITYSDK_OFFSET(0x19850370)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19850630)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0x19850230)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD34EB90)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD34E6F0)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD34E730)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_TRYSETCONTENTBYINTROID_OFFSET UNITYSDK_OFFSET(0xD34E8D0)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xD34E790)
 
 namespace RPG::Client::Introduce
 {
-	inline static constexpr unsigned int IntroduceTextsControl_TypeDefinitionIndex = 79156;
+	inline static constexpr unsigned int IntroduceTextsControl_TypeDefinitionIndex = 80479;
 
 	class IntroduceTextsControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,10 +20,9 @@ namespace RPG::Client::Introduce
 		::RPG::Client::Introduce::IntroduceViewModel* _Content; // 0x18
 		::RPG::Client::LocalizedText* _TextTitle; // 0x20
 		::RPG::Client::LocalizedText* _TextDesc; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Introduce::IntroduceViewModel* get_Content()
@@ -46,5 +44,6 @@ namespace RPG::Client::Introduce
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Introduce::IntroduceViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__REFRESH_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UINPCWarningTipsContainer_WaypointStatus.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class GamePlayLockTargetFunc; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class NPCWarningTipConfig; }
 namespace RPG::Client { class UIAdventureWaypointsSafeZone; }
 namespace RPG::Client { class UINPCWarningTipsContainer_Waypoint; }
-namespace RPG::Client { class UINPCWarningTipsContainer_WaypointPool; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -16,24 +14,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B674F0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17B670F0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_REFRESH_OFFSET UNITYSDK_OFFSET(0x17B68A70)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHEANIMTIME_OFFSET UNITYSDK_OFFSET(0x17B69CE0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHESTATUS_OFFSET UNITYSDK_OFFSET(0x17B69C40)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_START_OFFSET UNITYSDK_OFFSET(0x17B66E80)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B6A260)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DESTORYWAYPOINT_OFFSET UNITYSDK_OFFSET(0x17B681B0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DOLOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0x17B69D90)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__LOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0x17B67010)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONALLINTERNALRESOURCEREADY_OFFSET UNITYSDK_OFFSET(0x17B69EE0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONMAZEMONSTERATTACK_OFFSET UNITYSDK_OFFSET(0x17B6A0B0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__SPAWNWAYPOINT_OFFSET UNITYSDK_OFFSET(0x17B694D0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET UNITYSDK_OFFSET(0x17B6A430)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0xE3C68F0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE3C3C50)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE3C3850)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_REFRESH_OFFSET UNITYSDK_OFFSET(0xE3C5160)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHEANIMTIME_OFFSET UNITYSDK_OFFSET(0xE3C6300)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHESTATUS_OFFSET UNITYSDK_OFFSET(0xE3C6240)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_START_OFFSET UNITYSDK_OFFSET(0xE3C3600)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DESTORYWAYPOINT_OFFSET UNITYSDK_OFFSET(0xE3C4910)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DOLOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0xE3C63D0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__LOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0xE3C3770)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONALLINTERNALRESOURCEREADY_OFFSET UNITYSDK_OFFSET(0xE3C6520)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONMAZEMONSTERATTACK_OFFSET UNITYSDK_OFFSET(0xE3C6740)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__SPAWNWAYPOINT_OFFSET UNITYSDK_OFFSET(0xE3C5BE0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET UNITYSDK_OFFSET(0xE3C6AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINPCWarningTipsContainer_TypeDefinitionIndex = 69068;
+	inline static constexpr unsigned int UINPCWarningTipsContainer_TypeDefinitionIndex = 69104;
 
 	class UINPCWarningTipsContainer : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,20 +39,20 @@ namespace RPG::Client
 		::RPG::Client::UIAdventureWaypointsSafeZone* SafeZone; // 0x18
 		::System::String* _PrefabPath; // 0x20
 		::UnityEngine::RectTransform* _CanvasRect; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::UINPCWarningTipsContainer_Waypoint*>* _ActiveWaypoints; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::UINPCWarningTipsContainer_WaypointPool*>* _WaypointPools; // 0x38
+		::System::Collections::Generic::List_1<::System::Object*>* _ActiveWaypoints; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _WaypointPools; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::NPCWarningTipConfig*>* _ToAddList; // 0x40
 		::RPG::Client::IAssetOperation* _PrefabLoadOpration; // 0x48
 		::RPG::Client::GamePlayLockTargetFunc* _PlayerControl; // 0x50
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _StatusCacheQueue; // 0x58
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::Client::UINPCWarningTipsContainer_WaypointStatus>* _StatusCacheDict; // 0x60
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>* _StatusCacheDict; // 0x60
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Single>* _AnimTimeCacheDict; // 0x68
 		::System::Boolean _AllInternalResourcesReady; // 0x70
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::RPG::Client::NPCWarningTipConfig*>* _LastRefreshWaypointConfigs; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -121,5 +119,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET))(this, a1);
 		}
+
 	};
 }

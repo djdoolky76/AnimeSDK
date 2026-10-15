@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_UNITYENGINEMODULEASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00F970)
+#define UNITYENGINE_UNITYENGINEMODULEASSEMBLY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46F550)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UnityEngineModuleAssembly_TypeDefinitionIndex = 3715;
+	inline static constexpr unsigned int UnityEngineModuleAssembly_TypeDefinitionIndex = 3716;
 
 	class UnityEngineModuleAssembly : public ::System::Attribute
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UNITYENGINEMODULEASSEMBLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UNITYENGINEMODULEASSEMBLY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

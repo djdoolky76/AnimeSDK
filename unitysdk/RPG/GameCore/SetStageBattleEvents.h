@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetStageBattleEvents; }
 namespace RPG::GameCore { class StageBattleEventConfig; }
 
-#define RPG_GAMECORE_SETSTAGEBATTLEEVENTS_METHOD_3_2F992C677B0DAF11_OFFSET UNITYSDK_OFFSET(0x1E08E4D0)
-#define RPG_GAMECORE_SETSTAGEBATTLEEVENTS_METHOD_3_7ED315CA0E623432_OFFSET UNITYSDK_OFFSET(0x1E08E510)
-#define RPG_GAMECORE_SETSTAGEBATTLEEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E08E500)
+#define RPG_GAMECORE_SETSTAGEBATTLEEVENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA95040)
+#define RPG_GAMECORE_SETSTAGEBATTLEEVENTS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA95050)
+#define RPG_GAMECORE_SETSTAGEBATTLEEVENTS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA95010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetStageBattleEvents_TypeDefinitionIndex = 23193;
+	inline static constexpr unsigned int SetStageBattleEvents_TypeDefinitionIndex = 23458;
 
 	class SetStageBattleEvents : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::StageBattleEventConfig*>* EventList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEBATTLEEVENTS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEBATTLEEVENTS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2F992C677B0DAF11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStageBattleEvents*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetStageBattleEvents* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetStageBattleEvents*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEBATTLEEVENTS_METHOD_3_2F992C677B0DAF11_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetStageBattleEvents*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEBATTLEEVENTS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7ED315CA0E623432(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStageBattleEvents* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetStageBattleEvents* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetStageBattleEvents*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEBATTLEEVENTS_METHOD_3_7ED315CA0E623432_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetStageBattleEvents*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEBATTLEEVENTS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockableList_1_TypeDefinitionIndex = 53919;
+	inline static constexpr unsigned int LockableList_1_TypeDefinitionIndex = 53705;
 
 	template <typename T>
 	class LockableList_1 : public ::System::Object

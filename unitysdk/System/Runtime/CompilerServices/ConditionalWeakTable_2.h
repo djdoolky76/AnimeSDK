@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/CompilerServices/Ephemeron.h"
-
-namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2_CreateValueCallback; }
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
 namespace System::Runtime::CompilerServices
 {
 	inline static constexpr unsigned int ConditionalWeakTable_2_TypeDefinitionIndex = 1399;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class ConditionalWeakTable_2 : public ::System::Object
 	{
 	public:

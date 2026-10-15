@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropCurveMoveStartMode.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class PropCurveMoveStartMode_TargetPoint; }
 
-#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_METHOD_3_4B87BDBF1A8B9694_OFFSET UNITYSDK_OFFSET(0x1D1769A0)
-#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_METHOD_3_F071B12625B78CD1_OFFSET UNITYSDK_OFFSET(0x1D1766E0)
-#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1766D0)
+#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91A690)
+#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91A6A0)
+#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91A960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveMoveStartMode_TargetPoint_TypeDefinitionIndex = 20767;
+	inline static constexpr unsigned int PropCurveMoveStartMode_TargetPoint_TypeDefinitionIndex = 21005;
 
 	class PropCurveMoveStartMode_TargetPoint : public ::RPG::GameCore::PropCurveMoveStartMode
 	{
 	public:
 		::RPG::GameCore::DynamicString* TargetPointIndex; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B87BDBF1A8B9694(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_METHOD_3_4B87BDBF1A8B9694_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F071B12625B78CD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_METHOD_3_F071B12625B78CD1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveMoveStartMode_TargetPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_TARGETPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

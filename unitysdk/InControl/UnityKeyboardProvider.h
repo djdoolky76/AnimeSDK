@@ -1,66 +1,70 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/Key.h"
-#include "unitysdk/InControl/UnityKeyboardProvider_KeyMapping.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/KeyCode.h"
-
 namespace InControl { class KeyboardLayoutWatcher; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define INCONTROL_UNITYKEYBOARDPROVIDER_ANYKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0xC154330)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYBOARDLAYOUTTYPE_OFFSET UNITYSDK_OFFSET(0xC154700)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0xC154340)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYWASPRESSED_OFFSET UNITYSDK_OFFSET(0xC1544F0)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETNAMEFORKEY_OFFSET UNITYSDK_OFFSET(0xC154420)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETUINTYKEY_OFFSET UNITYSDK_OFFSET(0xC1545D0)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_ONKEYBOARDCHANGED_OFFSET UNITYSDK_OFFSET(0xC154640)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_RESET_OFFSET UNITYSDK_OFFSET(0xC154310)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_SETUP_OFFSET UNITYSDK_OFFSET(0xC154240)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC154320)
-#define INCONTROL_UNITYKEYBOARDPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC154740)
-#define INCONTROL_UNITYKEYBOARDPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC154730)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_ANYKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB34620)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB34A30)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB34A20)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYBOARDLAYOUTTYPE_OFFSET UNITYSDK_OFFSET(0x1BB349F0)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB34630)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYWASPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB347E0)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETNAMEFORKEY_OFFSET UNITYSDK_OFFSET(0x1BB34710)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETUINTYKEY_OFFSET UNITYSDK_OFFSET(0x1BB348C0)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_ONKEYBOARDCHANGED_OFFSET UNITYSDK_OFFSET(0x1BB34930)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_RESET_OFFSET UNITYSDK_OFFSET(0x1BB34600)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_SETUP_OFFSET UNITYSDK_OFFSET(0x1BB34530)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB34610)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnityKeyboardProvider_TypeDefinitionIndex = 39561;
+	inline static constexpr unsigned int UnityKeyboardProvider_TypeDefinitionIndex = 40858;
 
 	class UnityKeyboardProvider : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>** StaticGet_GermanKeyMappings()
+		static ::Il2CppArray<::System::Object*>** StaticGet_KeyMappings()
 		{
-			return (::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>**)Il2CppClass::FromTypeDefinitionIndex(UnityKeyboardProvider_TypeDefinitionIndex)->GetStaticField(0xE0C0);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x116E0);
 		}
-		static ::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>** StaticGet_KeyMappings()
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_FrenchKeyMappings()
 		{
-			return (::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>**)Il2CppClass::FromTypeDefinitionIndex(UnityKeyboardProvider_TypeDefinitionIndex)->GetStaticField(0xE0C8);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x116E8);
 		}
-		static ::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>** StaticGet_FrenchKeyMappings()
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_GermanKeyMappings()
 		{
-			return (::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>**)Il2CppClass::FromTypeDefinitionIndex(UnityKeyboardProvider_TypeDefinitionIndex)->GetStaticField(0xE0D0);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x116F0);
 		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet__CurrentKeyMappings()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x116F8);
+		}
+
 		static ::InControl::KeyboardLayoutWatcher** StaticGet_LayoutWatcher()
 		{
-			return (::InControl::KeyboardLayoutWatcher**)Il2CppClass::FromTypeDefinitionIndex(UnityKeyboardProvider_TypeDefinitionIndex)->GetStaticField(0xE0D8);
+			return (::InControl::KeyboardLayoutWatcher**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x11700);
 		}
-		static ::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>** StaticGet__CurrentKeyMappings()
-		{
-			return (::Il2CppArray<::InControl::UnityKeyboardProvider_KeyMapping>**)Il2CppClass::FromTypeDefinitionIndex(UnityKeyboardProvider_TypeDefinitionIndex)->GetStaticField(0xE0E0);
-		}
+
 		static ::System::Int32* StaticGet__CurrentLayout()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnityKeyboardProvider_TypeDefinitionIndex)->GetStaticField(0x4400);
+			return (::System::Int32*)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x38B0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYKEYBOARDPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYKEYBOARDPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_UNITYKEYBOARDPROVIDER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_UNITYKEYBOARDPROVIDER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Setup()
@@ -112,5 +116,6 @@ namespace InControl
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYBOARDLAYOUTTYPE_OFFSET))(this);
 		}
+
 	};
 }

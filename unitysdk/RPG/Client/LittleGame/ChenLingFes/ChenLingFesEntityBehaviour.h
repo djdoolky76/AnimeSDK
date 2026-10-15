@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/VisualDebugging/Unity/EntityBehaviour.h"
-
-class Class_1_A4633252561E9217;
-class Class_2_360C00D6092F4D31;
-class Class_2_5436AF4270279182;
+class HDIAALCMDNG;
+class IJHPDDHMEHA;
+class NGFHCJIAOLH;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
+namespace Entitas::VisualDebugging::Unity { class EntityBehaviour; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x1AC23060)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_METHOD_6_3D2B77EBCAE390AB_OFFSET UNITYSDK_OFFSET(0x1AC23510)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_METHOD_6_4D1AEFF22FC4A62A_1_OFFSET UNITYSDK_OFFSET(0x1AC23F00)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_METHOD_6_4D1AEFF22FC4A62A_OFFSET UNITYSDK_OFFSET(0x1AC23D80)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AC23BC0)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x1AC23A10)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AC23260)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC24080)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xD40E040)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_HJAGKGDHELE_OFFSET UNITYSDK_OFFSET(0xD40DD40)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0xD40D020)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_NPONPKJEJAO_OFFSET UNITYSDK_OFFSET(0xD40DEC0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_OHCFJMEEDMO_OFFSET UNITYSDK_OFFSET(0xD40D4D0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD40DB80)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0xD40D9D0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0xD40D220)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesEntityBehaviour_TypeDefinitionIndex = 77246;
+	inline static constexpr unsigned int ChenLingFesEntityBehaviour_TypeDefinitionIndex = 77717;
 
 	class ChenLingFesEntityBehaviour : public ::Entitas::VisualDebugging::Unity::EntityBehaviour
 	{
 	public:
+		::NGFHCJIAOLH* KAKEIDJDNHJ; // 0x38
+		::HDIAALCMDNG* EEFMDEHLLFI; // 0x40
+		::IJHPDDHMEHA* DODNHKCLIGO; // 0x48
 		static ::System::Boolean* StaticGet_s_ShowDebugBillBoard()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesEntityBehaviour_TypeDefinitionIndex)->GetStaticField(0x13660);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "ChenLingFesEntityBehaviour")->GetStaticField(0x78E0);
 		}
-		// static const ::System::Single DFOHPAMBNFF; // 0x0
-		::Class_2_5436AF4270279182* KAKEIDJDNHJ; // 0x38
-		::Class_2_360C00D6092F4D31* EEFMDEHLLFI; // 0x40
-		::Class_1_A4633252561E9217* DODNHKCLIGO; // 0x48
 
+		// static const ::System::Object DFOHPAMBNFF; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::Entitas::IContext* a1, ::Entitas::IEntity* a2, ::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>* a3)
@@ -50,9 +50,9 @@ namespace RPG::Client::LittleGame::ChenLingFes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3D2B77EBCAE390AB()
+		::System::Void OHCFJMEEDMO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_METHOD_6_3D2B77EBCAE390AB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_OHCFJMEEDMO_OFFSET))(this);
 		}
 
 		::System::Void onEntityReleased(::Entitas::IEntity* a1)
@@ -65,14 +65,15 @@ namespace RPG::Client::LittleGame::ChenLingFes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_6_4D1AEFF22FC4A62A(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
+		::System::Void HJAGKGDHELE(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_METHOD_6_4D1AEFF22FC4A62A_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_HJAGKGDHELE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_6_4D1AEFF22FC4A62A_1(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
+		::System::Void NPONPKJEJAO(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_METHOD_6_4D1AEFF22FC4A62A_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESENTITYBEHAVIOUR_NPONPKJEJAO_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

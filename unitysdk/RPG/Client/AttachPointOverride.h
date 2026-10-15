@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ATTACHPOINTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33C110)
+#define RPG_CLIENT_ATTACHPOINTOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A3710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachPointOverride_TypeDefinitionIndex = 68329;
+	inline static constexpr unsigned int AttachPointOverride_TypeDefinitionIndex = 68362;
 
 	class AttachPointOverride : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* BasePointTransform; // 0x10
 		::UnityEngine::Transform* OverridePointTransform; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTOVERRIDE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTOVERRIDE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

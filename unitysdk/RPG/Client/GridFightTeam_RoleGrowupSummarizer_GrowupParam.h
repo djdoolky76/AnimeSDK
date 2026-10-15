@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_GROWUPPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5CFD70)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_GROWUPPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD293B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer_GrowupParam_TypeDefinitionIndex = 65221;
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer_GrowupParam_TypeDefinitionIndex = 65161;
 
 	class GridFightTeam_RoleGrowupSummarizer_GrowupParam : public ::System::Object
 	{
@@ -17,10 +16,10 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* LevelIntervals; // 0x10
 		::System::String* ValueName; // 0x18
 		::System::UInt32 RoleID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_GROWUPPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_GROWUPPARAM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

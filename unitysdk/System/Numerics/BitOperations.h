@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 
-#define SYSTEM_NUMERICS_BITOPERATIONS_GET_LOG2DEBRUIJN_OFFSET UNITYSDK_OFFSET(0x1F007AF0)
-#define SYSTEM_NUMERICS_BITOPERATIONS_LOG2SOFTWAREFALLBACK_OFFSET UNITYSDK_OFFSET(0x1F007C40)
-#define SYSTEM_NUMERICS_BITOPERATIONS_LOG2_OFFSET UNITYSDK_OFFSET(0x1F007B90)
-#define SYSTEM_NUMERICS_BITOPERATIONS_ROUNDUPTOPOWEROF2_OFFSET UNITYSDK_OFFSET(0x1F007AC0)
+#define SYSTEM_NUMERICS_BITOPERATIONS_GET_LOG2DEBRUIJN_OFFSET UNITYSDK_OFFSET(0x1F663270)
+#define SYSTEM_NUMERICS_BITOPERATIONS_LOG2SOFTWAREFALLBACK_OFFSET UNITYSDK_OFFSET(0x1F6633C0)
+#define SYSTEM_NUMERICS_BITOPERATIONS_LOG2_OFFSET UNITYSDK_OFFSET(0x1F663310)
+#define SYSTEM_NUMERICS_BITOPERATIONS_ROUNDUPTOPOWEROF2_OFFSET UNITYSDK_OFFSET(0x1F663240)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int BitOperations_TypeDefinitionIndex = 6079;
+	inline static constexpr unsigned int BitOperations_TypeDefinitionIndex = 6087;
 
 	class BitOperations : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace System::Numerics
 			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BITOPERATIONS_ROUNDUPTOPOWEROF2_OFFSET))(a1);
 		}
 
-		static ::System::ReadOnlySpan_1<::System::Byte> get_Log2DeBruijn()
+		static ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> get_Log2DeBruijn()
 		{
-			return ((::System::ReadOnlySpan_1<::System::Byte>(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BITOPERATIONS_GET_LOG2DEBRUIJN_OFFSET))();
+			return ((::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BITOPERATIONS_GET_LOG2DEBRUIJN_OFFSET))();
 		}
 
 		static ::System::Int32 Log2(::System::UInt32 a1)
@@ -34,5 +34,6 @@ namespace System::Numerics
 		{
 			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BITOPERATIONS_LOG2SOFTWAREFALLBACK_OFFSET))(a1);
 		}
+
 	};
 }

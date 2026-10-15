@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetEffectAnimatorSyncWithTimeLine; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_METHOD_3_5A37024B48BC3A3D_OFFSET UNITYSDK_OFFSET(0x1E826FC0)
-#define RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_METHOD_3_66F2252AAD13AEA0_OFFSET UNITYSDK_OFFSET(0x1E827000)
-#define RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E826FF0)
+#define RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA81400)
+#define RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA81410)
+#define RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA813D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEffectAnimatorSyncWithTimeLine_TypeDefinitionIndex = 22206;
+	inline static constexpr unsigned int SetEffectAnimatorSyncWithTimeLine_TypeDefinitionIndex = 22455;
 
 	class SetEffectAnimatorSyncWithTimeLine : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::System::String* UniqueEffectName; // 0x18
 		::System::String* TimelineName; // 0x20
 		::System::Single TrackTriggerNormalizedTime; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5A37024B48BC3A3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_METHOD_3_5A37024B48BC3A3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_66F2252AAD13AEA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_METHOD_3_66F2252AAD13AEA0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORSYNCWITHTIMELINE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

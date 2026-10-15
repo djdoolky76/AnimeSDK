@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoopWaitEnterScene; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_7A4733B0087E7C96_OFFSET UNITYSDK_OFFSET(0x1D48AF00)
-#define RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_E57E1A5E5CFBC63A_OFFSET UNITYSDK_OFFSET(0x1D48AEB0)
-#define RPG_GAMECORE_LOOPWAITENTERSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48AEF0)
+#define RPG_GAMECORE_LOOPWAITENTERSCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C8CD0)
+#define RPG_GAMECORE_LOOPWAITENTERSCENE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C8CE0)
+#define RPG_GAMECORE_LOOPWAITENTERSCENE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C8C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitEnterScene_TypeDefinitionIndex = 20939;
+	inline static constexpr unsigned int LoopWaitEnterScene_TypeDefinitionIndex = 21185;
 
 	class LoopWaitEnterScene : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E57E1A5E5CFBC63A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitEnterScene*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitEnterScene* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitEnterScene*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_E57E1A5E5CFBC63A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitEnterScene*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7A4733B0087E7C96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitEnterScene* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitEnterScene* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitEnterScene*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_7A4733B0087E7C96_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitEnterScene*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

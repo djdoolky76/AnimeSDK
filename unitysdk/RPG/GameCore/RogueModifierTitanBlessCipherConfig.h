@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierTitanBlessCipherConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_METHOD_3_1B634E97E1176420_OFFSET UNITYSDK_OFFSET(0x1E5356D0)
-#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_METHOD_3_1E0B2D4B06C58A9C_OFFSET UNITYSDK_OFFSET(0x1E535720)
-#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E535710)
+#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ED280)
+#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9ED290)
+#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ED240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierTitanBlessCipherConfig_TypeDefinitionIndex = 17547;
+	inline static constexpr unsigned int RogueModifierTitanBlessCipherConfig_TypeDefinitionIndex = 17759;
 
 	class RogueModifierTitanBlessCipherConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1B634E97E1176420(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_METHOD_3_1B634E97E1176420_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1E0B2D4B06C58A9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_METHOD_3_1E0B2D4B06C58A9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierTitanBlessCipherConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSCIPHERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

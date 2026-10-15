@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ClusterLightingSettings_TypeDefinitionIndex = 4854;
+	inline static constexpr unsigned int ClusterLightingSettings_TypeDefinitionIndex = 4860;
 
 	struct alignas(4) ClusterLightingSettings
 	{

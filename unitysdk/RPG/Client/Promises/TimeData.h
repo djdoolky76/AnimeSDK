@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 9844;
+	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 9902;
 
 	struct alignas(4) TimeData
 	{

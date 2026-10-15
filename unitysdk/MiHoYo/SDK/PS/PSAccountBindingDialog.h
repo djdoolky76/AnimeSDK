@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSDialogBase.h"
 #include "unitysdk/UnityEngine/Color.h"
-
+namespace MiHoYo::SDK::PS { class PSAccountBindingDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -11,73 +11,41 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ABFFB30)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1AC050E0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CAPTCHACODEVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AC043A0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1ABFFAC0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CLEARCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1ABE7620)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1ABE1CE0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1ABE59B0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1ABE41D0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_MAILINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AC04330)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONAGREEMENTTOGGLECLICKED_OFFSET UNITYSDK_OFFSET(0x1AC04E10)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONBINDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1AC04F70)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONCAPTCHARESENDCOUNTDOWNEND_OFFSET UNITYSDK_OFFSET(0x1AC04690)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AC04280)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONGETCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1AC03EB0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET UNITYSDK_OFFSET(0x1AC04960)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONREFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1AC04190)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_PHONEINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AC042A0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETBOTTOMBUTTONSENABLE_OFFSET UNITYSDK_OFFSET(0x1ABFEF50)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1ABE47D0)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1ABE5A60)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETSENDCAPTCHABUTTONENABLE_OFFSET UNITYSDK_OFFSET(0x1ABFF350)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1ABE2020)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_STARTCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1ABE7150)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1AC03730)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_UPDATECAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1AC04510)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AC03940)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC05140)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF36200)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF3B790)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CAPTCHACODEVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BF3AA70)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BF36190)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CLEARCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BF1DD30)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3B7F0)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF18400)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BF1C0C0)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1BF1A8E0)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_MAILINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BF3AA00)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONAGREEMENTTOGGLECLICKED_OFFSET UNITYSDK_OFFSET(0x1BF3B4C0)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONBINDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BF3B620)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONCAPTCHARESENDCOUNTDOWNEND_OFFSET UNITYSDK_OFFSET(0x1BF3AD60)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF3A950)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONGETCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BF3A580)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET UNITYSDK_OFFSET(0x1BF3B030)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_ONREFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BF3A860)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_PHONEINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BF3A970)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETBOTTOMBUTTONSENABLE_OFFSET UNITYSDK_OFFSET(0x1BF35620)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BF1AEE0)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BF1C170)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SETSENDCAPTCHABUTTONENABLE_OFFSET UNITYSDK_OFFSET(0x1BF35A20)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF18730)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_STARTCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BF1D860)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BF39E00)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_UPDATECAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BF3ABE0)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF3A010)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSAccountBindingDialog_TypeDefinitionIndex = 8870;
+	inline static constexpr unsigned int PSAccountBindingDialog_TypeDefinitionIndex = 8931;
 
 	class PSAccountBindingDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::PS::PSAccountBindingDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::PS::PSAccountBindingDialog**)Il2CppClass::FromTypeDefinitionIndex(PSAccountBindingDialog_TypeDefinitionIndex)->GetStaticField(0x1F420);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::Int32 CAPTCHA_RESEND_SECONDS = 0x3C; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* ManualBindTitleTextPath; // 0x0
-		// static const ::System::String* MailInputPath; // 0x0
-		// static const ::System::String* PhoneInputPath; // 0x0
-		// static const ::System::String* CodeInputPath; // 0x0
-		// static const ::System::String* CaptchaCountdownTextPath; // 0x0
-		// static const ::System::String* CaptchaCountdownImagePath; // 0x0
-		// static const ::System::String* ViewUserAgreementTextPath; // 0x0
-		// static const ::System::String* ViewPrivacyPolicyTextPath; // 0x0
-		// static const ::System::String* AgreementCheckboxPath; // 0x0
-		// static const ::System::String* AgreementCheckboxTextPath; // 0x0
-		// static const ::System::String* BindButtonPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* BindButtonTipsPath; // 0x0
-		// static const ::System::String* BindButtonTipsTextPath; // 0x0
-		// static const ::System::String* BindButtonOutlinePath; // 0x0
-		// static const ::System::String* QRBindTitleTextPath; // 0x0
-		// static const ::System::String* QRImagePath; // 0x0
-		// static const ::System::String* QRLoadingPanelPath; // 0x0
-		// static const ::System::String* QRExpiredPanelPath; // 0x0
-		// static const ::System::String* QRRefreshTipsTextPath; // 0x0
-		// static const ::System::String* QRStatusTipsTextPath; // 0x0
-		// static const ::System::String* ScanInstructionTextPath; // 0x0
-		// static const ::System::String* SendCaptchaBtnTextPath; // 0x0
-		// static const ::System::String* SendCaptchaBtnImagePath; // 0x0
 		::UnityEngine::Color ENABLED_COLOR; // 0xB0
 		::UnityEngine::Color DISABLED_COLOR; // 0xC0
 		::System::Action* OnUserAgreementClicked; // 0xD0
@@ -106,11 +74,44 @@ namespace MiHoYo::SDK::PS
 		::System::Boolean SendCaptchaBtnEnabled; // 0x184
 		::System::Boolean Interactable; // 0x185
 		::System::Boolean IsQRCodeExpired; // 0x186
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Coroutine* CaptchaCountdownCoroutine; // 0x188
+		static ::MiHoYo::SDK::PS::PSAccountBindingDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::PS::PSAccountBindingDialog**)UnitySDK::FromName("MiHoYo.SDK.PS", "PSAccountBindingDialog")->GetStaticField(0x1D9B0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::Object CAPTCHA_RESEND_SECONDS; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* ManualBindTitleTextPath; // 0x0
+		// static const ::System::String* MailInputPath; // 0x0
+		// static const ::System::String* PhoneInputPath; // 0x0
+		// static const ::System::String* CodeInputPath; // 0x0
+		// static const ::System::String* CaptchaCountdownTextPath; // 0x0
+		// static const ::System::String* CaptchaCountdownImagePath; // 0x0
+		// static const ::System::String* ViewUserAgreementTextPath; // 0x0
+		// static const ::System::String* ViewPrivacyPolicyTextPath; // 0x0
+		// static const ::System::String* AgreementCheckboxPath; // 0x0
+		// static const ::System::String* AgreementCheckboxTextPath; // 0x0
+		// static const ::System::String* BindButtonPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* BindButtonTipsPath; // 0x0
+		// static const ::System::String* BindButtonTipsTextPath; // 0x0
+		// static const ::System::String* BindButtonOutlinePath; // 0x0
+		// static const ::System::String* QRBindTitleTextPath; // 0x0
+		// static const ::System::String* QRImagePath; // 0x0
+		// static const ::System::String* QRLoadingPanelPath; // 0x0
+		// static const ::System::String* QRExpiredPanelPath; // 0x0
+		// static const ::System::String* QRRefreshTipsTextPath; // 0x0
+		// static const ::System::String* QRStatusTipsTextPath; // 0x0
+		// static const ::System::String* ScanInstructionTextPath; // 0x0
+		// static const ::System::String* SendCaptchaBtnTextPath; // 0x0
+		// static const ::System::String* SendCaptchaBtnImagePath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -242,5 +243,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG_CANCELDIALOG_OFFSET))(this);
 		}
+
 	};
 }

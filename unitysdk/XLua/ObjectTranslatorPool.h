@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace XLua { class ObjectTranslator; }
+namespace XLua { class ObjectTranslatorPool; }
 
-#define XLUA_OBJECTTRANSLATORPOOL_ADD_OFFSET UNITYSDK_OFFSET(0xF9FE600)
-#define XLUA_OBJECTTRANSLATORPOOL_FIND_OFFSET UNITYSDK_OFFSET(0xF9FE610)
-#define XLUA_OBJECTTRANSLATORPOOL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xF9FE5B0)
-#define XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0xF9FE620)
-#define XLUA_OBJECTTRANSLATORPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xF9FE5F0)
+#define XLUA_OBJECTTRANSLATORPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x152B7D40)
+#define XLUA_OBJECTTRANSLATORPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x152B7D30)
+#define XLUA_OBJECTTRANSLATORPOOL_FIND_OFFSET UNITYSDK_OFFSET(0x152B7D50)
+#define XLUA_OBJECTTRANSLATORPOOL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x152B7CF0)
+#define XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x152B7D60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslatorPool_TypeDefinitionIndex = 50584;
+	inline static constexpr unsigned int ObjectTranslatorPool_TypeDefinitionIndex = 50253;
 
 	class ObjectTranslatorPool : public ::System::Object
 	{
 	public:
 		::XLua::ObjectTranslator* lastTranslator; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_CTOR_OFFSET))(this);
 		}
 
 		static ::XLua::ObjectTranslatorPool* get_Instance()
@@ -43,5 +42,6 @@ namespace XLua
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET))(this, a1);
 		}
+
 	};
 }

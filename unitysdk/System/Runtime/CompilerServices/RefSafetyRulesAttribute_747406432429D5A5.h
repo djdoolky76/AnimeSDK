@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+
+#define SYSTEM_RUNTIME_COMPILERSERVICES_REFSAFETYRULESATTRIBUTE_747406432429D5A5_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1360F0)
+
+namespace System::Runtime::CompilerServices
+{
+	inline static constexpr unsigned int RefSafetyRulesAttribute_747406432429D5A5_TypeDefinitionIndex = 45751;
+
+	class RefSafetyRulesAttribute_747406432429D5A5 : public ::System::Attribute
+	{
+	public:
+		::System::Int32 Version; // 0x10
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_REFSAFETYRULESATTRIBUTE_747406432429D5A5_CTOR_OFFSET))(this, a1);
+		}
+
+	};
+}

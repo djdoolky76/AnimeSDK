@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IOOperation.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class IOAsyncCallback; }
 namespace System { class IOAsyncResult; }
 namespace System::Threading { class ThreadAbortException; }
 
-#define SYSTEM_IOSELECTORJOB_MARKDISPOSED_OFFSET UNITYSDK_OFFSET(0x1AB39FC0)
-#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1AB39F80)
-#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1AB39FB0)
-#define SYSTEM_IOSELECTORJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB39F70)
+#define SYSTEM_IOSELECTORJOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEB670)
+#define SYSTEM_IOSELECTORJOB_MARKDISPOSED_OFFSET UNITYSDK_OFFSET(0x1EFEB6C0)
+#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1EFEB680)
+#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1EFEB6B0)
 
 namespace System
 {
@@ -20,12 +19,12 @@ namespace System
 	{
 	public:
 		::System::IOOperation operation; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::IOAsyncCallback* callback; // 0x18
 		::System::IOAsyncResult* state; // 0x20
-
 		::System::Void _ctor(::System::IOOperation a1, ::System::IOAsyncCallback* a2, ::System::IOAsyncResult* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IOOperation, ::System::IOAsyncCallback*, ::System::IOAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::IOOperation, ::System::IOAsyncCallback*, ::System::IOAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem()
@@ -42,5 +41,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB_MARKDISPOSED_OFFSET))(this);
 		}
+
 	};
 }

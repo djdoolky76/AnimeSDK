@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 4098;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 4099;
 
 	struct alignas(4) Sphere
 	{

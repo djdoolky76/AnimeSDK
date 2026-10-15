@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x1B0443C0)
-#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1B044390)
-#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x1B0443D0)
-#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x1B0443B0)
-#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1B0443A0)
-#define SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B011B90)
+#define SYSTEM_NET_IPHOSTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F008470)
+#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x1F03AA70)
+#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1F03AA40)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x1F03AA80)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x1F03AA60)
+#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1F03AA50)
 
 namespace System::Net
 {
@@ -19,14 +18,13 @@ namespace System::Net
 	class IPHostEntry : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* aliases; // 0x10
-		::Il2CppArray<::System::Net::IPAddress*>* addressList; // 0x18
-		::System::String* hostName; // 0x20
+		::System::String* hostName; // 0x10
+		::Il2CppArray<::System::String*>* aliases; // 0x18
+		::Il2CppArray<::System::Net::IPAddress*>* addressList; // 0x20
 		::System::Boolean isTrustedHost; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_HostName()
@@ -53,5 +51,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Net::IPAddress*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET))(this, a1);
 		}
+
 	};
 }

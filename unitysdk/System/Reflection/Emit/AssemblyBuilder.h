@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Reflection/Assembly.h"
 #include "unitysdk/System/Reflection/Emit/AssemblyBuilderAccess.h"
-
+#include "unitysdk/System/Reflection/Assembly.h"
 namespace System { class String; }
 namespace System::Reflection { class AssemblyName; }
+namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class CustomAttributeBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1CC19A00)
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICMODULE_OFFSET UNITYSDK_OFFSET(0x1CC19A50)
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_SETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1CC19AA0)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1C26DA40)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICMODULE_OFFSET UNITYSDK_OFFSET(0x1C26DA90)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_SETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C26DAE0)
 
 namespace System::Reflection::Emit
 {
@@ -33,5 +33,6 @@ namespace System::Reflection::Emit
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::CustomAttributeBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_SETCUSTOMATTRIBUTE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CONVERTHELPER_TOINT32NONULL_OFFSET UNITYSDK_OFFSET(0x1AFD3780)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CONVERTHELPER_TOINT32NONULL_OFFSET UNITYSDK_OFFSET(0x1EDB1A20)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ConvertHelper_TypeDefinitionIndex = 3314;
+	inline static constexpr unsigned int ConvertHelper_TypeDefinitionIndex = 3315;
 
 	class ConvertHelper : public ::System::Object
 	{
@@ -15,5 +16,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CONVERTHELPER_TOINT32NONULL_OFFSET))(a1);
 		}
+
 	};
 }

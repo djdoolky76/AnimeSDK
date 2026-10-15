@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Match3/Match3ConditionBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore::Match3 { class RoundAfterCondition; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_4A72E966D2C09A8B_OFFSET UNITYSDK_OFFSET(0x1D2637C0)
-#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_7231ADB9A53E8301_OFFSET UNITYSDK_OFFSET(0x1D2604E0)
-#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2604D0)
+#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81FC30)
+#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D81FC40)
+#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8229A0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int RoundAfterCondition_TypeDefinitionIndex = 24605;
+	inline static constexpr unsigned int RoundAfterCondition_TypeDefinitionIndex = 24887;
 
 	class RoundAfterCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:
 		::System::UInt32 TargetRound; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_4A72E966D2C09A8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::RoundAfterCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::RoundAfterCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::RoundAfterCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_4A72E966D2C09A8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::RoundAfterCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_7231ADB9A53E8301(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::RoundAfterCondition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::RoundAfterCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::RoundAfterCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_7231ADB9A53E8301_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::RoundAfterCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

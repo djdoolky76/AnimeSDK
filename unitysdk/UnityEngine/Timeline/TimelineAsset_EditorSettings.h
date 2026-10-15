@@ -2,40 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_GET_FPS_OFFSET UNITYSDK_OFFSET(0x1BF75450)
-#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_SET_FPS_OFFSET UNITYSDK_OFFSET(0x1BF717C0)
-#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF75460)
-#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF74800)
+#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F36C8A0)
+#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F36BC60)
+#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_GET_FPS_OFFSET UNITYSDK_OFFSET(0x1F36C890)
+#define UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_SET_FPS_OFFSET UNITYSDK_OFFSET(0x1F368C20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineAsset_EditorSettings_TypeDefinitionIndex = 37497;
+	inline static constexpr unsigned int TimelineAsset_EditorSettings_TypeDefinitionIndex = 38794;
 
 	class TimelineAsset_EditorSettings : public ::System::Object
 	{
 	public:
+		::System::Single m_Framerate; // 0x10
 		static ::System::Single* StaticGet_kMinFps()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TimelineAsset_EditorSettings_TypeDefinitionIndex)->GetStaticField(0x103B0);
+			return (::System::Single*)UnitySDK::FromName("UnityEngine.Timeline", "EditorSettings")->GetStaticField(0xEE80);
 		}
+
 		static ::System::Single* StaticGet_kMaxFps()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TimelineAsset_EditorSettings_TypeDefinitionIndex)->GetStaticField(0x103B4);
+			return (::System::Single*)UnitySDK::FromName("UnityEngine.Timeline", "EditorSettings")->GetStaticField(0xEE84);
 		}
+
 		static ::System::Single* StaticGet_kDefaultFps()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TimelineAsset_EditorSettings_TypeDefinitionIndex)->GetStaticField(0x103B8);
+			return (::System::Single*)UnitySDK::FromName("UnityEngine.Timeline", "EditorSettings")->GetStaticField(0xEE88);
 		}
-		::System::Single m_Framerate; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_CCTOR_OFFSET))();
 		}
 
 		::System::Single get_fps()
@@ -47,5 +49,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINEASSET_EDITORSETTINGS_SET_FPS_OFFSET))(this, a1);
 		}
+
 	};
 }

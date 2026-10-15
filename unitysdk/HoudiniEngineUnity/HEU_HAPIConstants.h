@@ -2,28 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HAPIConstants_TypeDefinitionIndex = 39147;
+	inline static constexpr unsigned int HEU_HAPIConstants_TypeDefinitionIndex = 40444;
 
 	class HEU_HAPIConstants : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 HAPI_POSITION_VECTOR_SIZE = 0x3; // 0x0
-		// static const ::System::Int32 HAPI_SCALE_VECTOR_SIZE = 0x3; // 0x0
-		// static const ::System::Int32 HAPI_SHEAR_VECTOR_SIZE = 0x3; // 0x0
-		// static const ::System::Int32 HAPI_NORMAL_VECTOR_SIZE = 0x3; // 0x0
-		// static const ::System::Int32 HAPI_QUATERNION_VECTOR_SIZE = 0x4; // 0x0
-		// static const ::System::Int32 HAPI_EULER_VECTOR_SIZE = 0x3; // 0x0
-		// static const ::System::Int32 HAPI_UV_VECTOR_SIZE = 0x2; // 0x0
-		// static const ::System::Int32 HAPI_COLOR_VECTOR_SIZE = 0x4; // 0x0
-		// static const ::System::Int32 HAPI_CV_VECTOR_SIZE = 0x4; // 0x0
-		// static const ::System::Int32 HAPI_PRIM_MIN_VERTEX_COUNT = 0x1; // 0x0
-		// static const ::System::Int32 HAPI_PRIM_MAX_VERTEX_COUNT = 0x10; // 0x0
-		// static const ::System::Int32 HAPI_INVALID_PARM_ID = 0xFFFFFFFF; // 0x0
-		// static const ::System::Int32 HAPI_MAX_NUM_CONNECTIONS = 0x80; // 0x0
+		// static const ::System::Object HAPI_POSITION_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_SCALE_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_SHEAR_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_NORMAL_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_QUATERNION_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_EULER_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_UV_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_COLOR_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_CV_VECTOR_SIZE; // 0x0
+		// static const ::System::Object HAPI_PRIM_MIN_VERTEX_COUNT; // 0x0
+		// static const ::System::Object HAPI_PRIM_MAX_VERTEX_COUNT; // 0x0
+		// static const ::System::Object HAPI_INVALID_PARM_ID; // 0x0
+		// static const ::System::Object HAPI_MAX_NUM_CONNECTIONS; // 0x0
 		// static const ::System::String* HAPI_ATTRIB_POSITION; // 0x0
 		// static const ::System::String* HAPI_ATTRIB_UV; // 0x0
 		// static const ::System::String* HAPI_ATTRIB_UV2; // 0x0

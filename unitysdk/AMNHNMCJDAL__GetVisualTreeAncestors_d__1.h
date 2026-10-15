@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class NHBPBPEINCA;
+namespace System { class Object; }
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC354F0)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EC35DA0)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SOFA_CORE_IVISUALTREEELEMENT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC35FD0)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SOFA_CORE_IVISUALTREEELEMENT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC35F60)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC36050)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC35FC0)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EC35F70)
+#define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC35D90)
+
+inline static constexpr unsigned int AMNHNMCJDAL__GetVisualTreeAncestors_d__1_TypeDefinitionIndex = 44102;
+
+	template <typename T>
+	class AMNHNMCJDAL__GetVisualTreeAncestors_d__1 : public ::System::Object
+	{
+	public:
+		::NHBPBPEINCA* element; // 0x10
+		::NHBPBPEINCA* _parent_5__2; // 0x18
+		::NHBPBPEINCA* __2__current; // 0x20
+		::NHBPBPEINCA* __3__element; // 0x28
+		::System::Int32 __l__initialThreadId; // 0x30
+		::System::Int32 __1__state; // 0x34
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_MOVENEXT_OFFSET))(this);
+		}
+
+		::NHBPBPEINCA* System_Collections_Generic_IEnumerator_Sofa_Core_IVisualTreeElement__get_Current()
+		{
+			return ((::NHBPBPEINCA*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SOFA_CORE_IVISUALTREEELEMENT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::NHBPBPEINCA*>* System_Collections_Generic_IEnumerable_Sofa_Core_IVisualTreeElement__GetEnumerator()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::NHBPBPEINCA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SOFA_CORE_IVISUALTREEELEMENT__GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+
+	};

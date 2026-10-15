@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Bindings/NativeMethodAttribute.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F00F260)
-#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F00F2A0)
-#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00F240)
+#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F46EE40)
+#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F46EE80)
+#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46EE20)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int FreeFunctionAttribute_TypeDefinitionIndex = 3731;
+	inline static constexpr unsigned int FreeFunctionAttribute_TypeDefinitionIndex = 3732;
 
 	class FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE_CTOR_2_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

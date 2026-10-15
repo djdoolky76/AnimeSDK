@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class NLBPGICIMJJ;
+namespace System { class Object; }
+
+#define NLBPGICIMJJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB35B90)
+#define NLBPGICIMJJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB35BD0)
+#define NLBPGICIMJJ___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB35BE0)
+
+inline static constexpr unsigned int NLBPGICIMJJ___c_TypeDefinitionIndex = 31228;
+
+	class NLBPGICIMJJ___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69C50);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NLBPGICIMJJ___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLBPGICIMJJ___C_CTOR_OFFSET))(this);
+		}
+
+		::NLBPGICIMJJ* __cctor_b__33_0()
+		{
+			return ((::NLBPGICIMJJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + NLBPGICIMJJ___C___CCTOR_B__33_0_OFFSET))(this);
+		}
+
+	};

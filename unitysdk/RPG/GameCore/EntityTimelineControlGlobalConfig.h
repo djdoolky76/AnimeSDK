@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureHitConfig; }
+namespace RPG::GameCore { class EntityTimelineControlGlobalConfig; }
 namespace RPG::GameCore { class PlayerLockRangeConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TimeRewindAchievement; }
@@ -17,12 +17,12 @@ namespace RPG::GameCore { class TimeRewindPreloadConfig; }
 namespace RPG::GameCore { class TimeRewindSpecularStateDurationConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7C69E0)
-#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C7C60)
+#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64D640)
+#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D64C330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTimelineControlGlobalConfig_TypeDefinitionIndex = 16415;
+	inline static constexpr unsigned int EntityTimelineControlGlobalConfig_TypeDefinitionIndex = 16591;
 
 	class EntityTimelineControlGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,6 +38,7 @@ namespace RPG::GameCore
 		::System::Single ScanSpeed; // 0x34
 		::System::String* ScanStartAttachPoint; // 0x38
 		::System::Single ScanHighlightDuration; // 0x40
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID RewindOverTimeToast; // 0x48
 		::System::Single TimeRewindCameraShakeFadeTime; // 0x58
 		::System::Single FoundationRotateSpeed; // 0x5C
@@ -69,6 +70,7 @@ namespace RPG::GameCore
 		::System::String* TimeRewindEntityHitMonsterSoundEvent; // 0x128
 		::System::String* TimeRewindEntityHitPlayerSoundEvent; // 0x130
 		::System::Single TimeRewindMotionEmmisionEffFadeTime; // 0x138
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::RPG::GameCore::TimeRewindAttachEff*>* NormalControlAttachPlayerEff; // 0x140
 		::Il2CppArray<::RPG::GameCore::TimeRewindAttachEff*>* SpecialControlAttachPlayerEff; // 0x148
 		::Il2CppArray<::RPG::GameCore::TimeRewindAttachEff*>* TimeRewindSwitcherResidentEff; // 0x150
@@ -88,20 +90,23 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* TimeRewindFinishQuestID; // 0x1C0
 		::RPG::GameCore::TimeRewindCameraConfig* CameraConfig; // 0x1C8
 		::System::Single TimeRewindExitControlPerformTime; // 0x1D0
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::TimeRewindAchievement* AchievementConfig; // 0x1D8
 		::System::Single TriggerPlayerControlTurnInPlaceAngle; // 0x1E0
+		::System::Byte _padding3[0x4];
 		::RPG::GameCore::TimeRewindPreloadConfig* PreloadConfig; // 0x1E8
 		::System::Single StaticOverTimeRewindToastCD; // 0x1F0
+		::System::Byte _padding4[0x4];
 		::Il2CppArray<::System::UInt32>* IgnoreTimeRewindHitWhiteList; // 0x1F8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityTimelineControlGlobalConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::EntityTimelineControlGlobalConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityTimelineControlGlobalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EntityTimelineControlGlobalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

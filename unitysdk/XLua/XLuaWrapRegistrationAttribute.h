@@ -3,26 +3,26 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/XLua/XLuaWrapRegistrationKind.h"
 
-#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_GET_REGISTRATIONKIND_OFFSET UNITYSDK_OFFSET(0xCDFBD60)
-#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFBD70)
+#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x153CD2A0)
+#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_GET_REGISTRATIONKIND_OFFSET UNITYSDK_OFFSET(0x153CD290)
 
 namespace XLua
 {
-	inline static constexpr unsigned int XLuaWrapRegistrationAttribute_TypeDefinitionIndex = 50613;
+	inline static constexpr unsigned int XLuaWrapRegistrationAttribute_TypeDefinitionIndex = 50282;
 
 	class XLuaWrapRegistrationAttribute : public ::System::Attribute
 	{
 	public:
 		::XLua::XLuaWrapRegistrationKind _RegistrationKind_k__BackingField; // 0x10
-
 		::System::Void _ctor(::XLua::XLuaWrapRegistrationKind a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::XLuaWrapRegistrationKind))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPREGISTRATIONATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::XLua::XLuaWrapRegistrationKind))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::XLua::XLuaWrapRegistrationKind get_RegistrationKind()
 		{
 			return ((::XLua::XLuaWrapRegistrationKind(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_GET_REGISTRATIONKIND_OFFSET))(this);
 		}
+
 	};
 }

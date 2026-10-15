@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorBlock; }
 namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorCategorySubVersion; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCATEGORY__CTOR_OFFSET UNITYSDK_OFFSET(0x16846810)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCATEGORY_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A03F0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorCategory_TypeDefinitionIndex = 52357;
+	inline static constexpr unsigned int EnvEditorCategory_TypeDefinitionIndex = 52070;
 
 	class EnvEditorCategory : public ::System::Object
 	{
@@ -19,10 +18,10 @@ namespace RPG::Editor::EnvironmentSystemV2Editor
 		::System::String* CategoryName; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock*>* Blocks; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorCategorySubVersion*>* SubVersions; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCATEGORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCATEGORY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

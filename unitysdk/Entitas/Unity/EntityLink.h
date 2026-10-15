@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Entitas { class IEntity; }
 namespace System { class String; }
 
-#define ENTITAS_UNITY_ENTITYLINK_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x1EECE0D0)
-#define ENTITAS_UNITY_ENTITYLINK_LINK_OFFSET UNITYSDK_OFFSET(0x1EECE0E0)
-#define ENTITAS_UNITY_ENTITYLINK_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1EECE530)
-#define ENTITAS_UNITY_ENTITYLINK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1EECE3E0)
-#define ENTITAS_UNITY_ENTITYLINK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EECE540)
-#define ENTITAS_UNITY_ENTITYLINK_UNLINK_OFFSET UNITYSDK_OFFSET(0x1EECE280)
-#define ENTITAS_UNITY_ENTITYLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EECE5B0)
+#define ENTITAS_UNITY_ENTITYLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1674F4B0)
+#define ENTITAS_UNITY_ENTITYLINK_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x1674EFD0)
+#define ENTITAS_UNITY_ENTITYLINK_LINK_OFFSET UNITYSDK_OFFSET(0x1674EFE0)
+#define ENTITAS_UNITY_ENTITYLINK_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1674F430)
+#define ENTITAS_UNITY_ENTITYLINK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1674F2E0)
+#define ENTITAS_UNITY_ENTITYLINK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1674F440)
+#define ENTITAS_UNITY_ENTITYLINK_UNLINK_OFFSET UNITYSDK_OFFSET(0x1674F180)
 
 namespace Entitas::Unity
 {
-	inline static constexpr unsigned int EntityLink_TypeDefinitionIndex = 10009;
+	inline static constexpr unsigned int EntityLink_TypeDefinitionIndex = 10067;
 
 	class EntityLink : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Entitas::IEntity* _entity; // 0x18
 		::System::Boolean _applicationIsQuitting; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINK_CTOR_OFFSET))(this);
 		}
 
 		::Entitas::IEntity* get_entity()
@@ -57,5 +55,6 @@ namespace Entitas::Unity
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINK_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

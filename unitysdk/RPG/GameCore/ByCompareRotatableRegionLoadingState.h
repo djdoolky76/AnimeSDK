@@ -2,50 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/RotatableRegionLoadingState.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareRotatableRegionLoadingState; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_8A1789E91CA00C3B_OFFSET UNITYSDK_OFFSET(0x1BBB67C0)
-#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_9C9A3D24403A53D5_OFFSET UNITYSDK_OFFSET(0x1BBB6A20)
-#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_B8BEA7E4BC5A0852_OFFSET UNITYSDK_OFFSET(0x1BBB6A50)
-#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_CCB8B5B5406629EA_OFFSET UNITYSDK_OFFSET(0x1BBB6800)
-#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB67F0)
+#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A2920)
+#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4A2B80)
+#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4A2B50)
+#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4A2930)
+#define RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4A28F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareRotatableRegionLoadingState_TypeDefinitionIndex = 20675;
+	inline static constexpr unsigned int ByCompareRotatableRegionLoadingState_TypeDefinitionIndex = 20914;
 
 	class ByCompareRotatableRegionLoadingState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* RegionIndex; // 0x20
 		::RPG::GameCore::RotatableRegionLoadingState CompareState; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8A1789E91CA00C3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_8A1789E91CA00C3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CCB8B5B5406629EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_CCB8B5B5406629EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9C9A3D24403A53D5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_9C9A3D24403A53D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B8BEA7E4BC5A0852(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareRotatableRegionLoadingState* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_METHOD_4_B8BEA7E4BC5A0852_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareRotatableRegionLoadingState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREROTATABLEREGIONLOADINGSTATE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

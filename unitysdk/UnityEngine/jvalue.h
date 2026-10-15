@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int jvalue_TypeDefinitionIndex = 5677;
+	inline static constexpr unsigned int jvalue_TypeDefinitionIndex = 5685;
 
-	struct alignas(8) jvalue
+	struct alignas(4) jvalue
 	{
 		::System::Boolean z; // 0x10
 		::System::SByte b; // 0x10

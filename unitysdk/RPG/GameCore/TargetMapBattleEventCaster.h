@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetMapBattleEventCaster; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_05BED5382E8D10E7_OFFSET UNITYSDK_OFFSET(0x1E1BB0F0)
-#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_85C8DEF69D2C2595_OFFSET UNITYSDK_OFFSET(0x1E1BB050)
-#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_896A481A17C20163_OFFSET UNITYSDK_OFFSET(0x1E1BB0B0)
-#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_D4C38696BD0D4A90_OFFSET UNITYSDK_OFFSET(0x1E1BAFB0)
-#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BB040)
+#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3C400)
+#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB3C4B0)
+#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB3C470)
+#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB3C410)
+#define RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB3C370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapBattleEventCaster_TypeDefinitionIndex = 23655;
+	inline static constexpr unsigned int TargetMapBattleEventCaster_TypeDefinitionIndex = 23929;
 
 	class TargetMapBattleEventCaster : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D4C38696BD0D4A90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapBattleEventCaster*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapBattleEventCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_D4C38696BD0D4A90_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_85C8DEF69D2C2595(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapBattleEventCaster* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_85C8DEF69D2C2595_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_896A481A17C20163(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapBattleEventCaster*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapBattleEventCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_896A481A17C20163_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_05BED5382E8D10E7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapBattleEventCaster* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_METHOD_3_05BED5382E8D10E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBATTLEEVENTCASTER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

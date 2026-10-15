@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define BMBCAILHNBB___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA86570)
+#define BMBCAILHNBB___C__DISPLAYCLASS13_0__SORTACCESSORYLIST_B__0_OFFSET UNITYSDK_OFFSET(0xBA867B0)
+
+inline static constexpr unsigned int BMBCAILHNBB___c__DisplayClass13_0_TypeDefinitionIndex = 53581;
+
+	class BMBCAILHNBB___c__DisplayClass13_0 : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* resonanceGearIDs; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BMBCAILHNBB___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _SortAccessoryList_b__0(::RPG::GameCore::EvolveBuildGearEquipInfo* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EvolveBuildGearEquipInfo*))((::PBYTE)hIl2Cpp + BMBCAILHNBB___C__DISPLAYCLASS13_0__SORTACCESSORYLIST_B__0_OFFSET))(this, a1);
+		}
+
+	};

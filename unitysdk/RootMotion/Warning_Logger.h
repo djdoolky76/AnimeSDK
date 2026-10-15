@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ROOTMOTION_WARNING_LOGGER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFEADE0)
-#define ROOTMOTION_WARNING_LOGGER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFEAE10)
-#define ROOTMOTION_WARNING_LOGGER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFEAD30)
-#define ROOTMOTION_WARNING_LOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEAD70)
+#define ROOTMOTION_WARNING_LOGGER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB0BD540)
+#define ROOTMOTION_WARNING_LOGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BD4D0)
+#define ROOTMOTION_WARNING_LOGGER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB0BD570)
+#define ROOTMOTION_WARNING_LOGGER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB0BD4C0)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Warning_Logger_TypeDefinitionIndex = 44843;
+	inline static constexpr unsigned int Warning_Logger_TypeDefinitionIndex = 45982;
 
 	class Warning_Logger : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOGGER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOGGER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace RootMotion
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOGGER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

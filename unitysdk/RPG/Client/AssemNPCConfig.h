@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client { class AssemNPC; }
 namespace RPG::Client { class IdentityData; }
 namespace System { class String; }
@@ -9,18 +8,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_2C59D1D0CBDC6514_OFFSET UNITYSDK_OFFSET(0x1B32EE60)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_758732BD37F8618C_OFFSET UNITYSDK_OFFSET(0x1B32EC30)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_8217D0BE55D652BA_OFFSET UNITYSDK_OFFSET(0x1B32E620)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x1B32F130)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_A74BD9120F7FD2AB_OFFSET UNITYSDK_OFFSET(0x1B32EA40)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0x1B32DD40)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x1B32D6A0)
-#define RPG_CLIENT_ASSEMNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32F1C0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC6960E0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_DAIFBIGIMHD_OFFSET UNITYSDK_OFFSET(0xC695D80)
+#define RPG_CLIENT_ASSEMNPCCONFIG_DEFPONAHHEO_OFFSET UNITYSDK_OFFSET(0xC695B50)
+#define RPG_CLIENT_ASSEMNPCCONFIG_GKGBNLAOFLE_OFFSET UNITYSDK_OFFSET(0xC6945B0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC696050)
+#define RPG_CLIENT_ASSEMNPCCONFIG_HLACMMMBAAC_OFFSET UNITYSDK_OFFSET(0xC695540)
+#define RPG_CLIENT_ASSEMNPCCONFIG_LFFEIGAGLLB_OFFSET UNITYSDK_OFFSET(0xC694C50)
+#define RPG_CLIENT_ASSEMNPCCONFIG_OHCHIBCOGAN_OFFSET UNITYSDK_OFFSET(0xC695960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCConfig_TypeDefinitionIndex = 60141;
+	inline static constexpr unsigned int AssemNPCConfig_TypeDefinitionIndex = 60004;
 
 	class AssemNPCConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -28,45 +27,45 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::IdentityData*>* IdentityData; // 0x18
 		::UnityEngine::AnimationCurve* EmittrRatioCurve; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::Client::AssemNPC*>*>* AssemNpcFeatureDic; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_EAD10B3E55E2C4C5()
+		::System::Void GKGBNLAOFLE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_EAD10B3E55E2C4C5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_GKGBNLAOFLE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_DB67EEFB041425EC()
+		::System::Void LFFEIGAGLLB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_DB67EEFB041425EC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_LFFEIGAGLLB_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8217D0BE55D652BA(::System::String* a1, ::RPG::Client::AssemNPC* a2)
+		::System::Void HLACMMMBAAC(::System::String* a1, ::RPG::Client::AssemNPC* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_8217D0BE55D652BA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_HLACMMMBAAC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_3_A74BD9120F7FD2AB(::System::String* a1, ::System::String* a2, ::RPG::Client::AssemNPC* a3)
+		::System::Boolean OHCHIBCOGAN(::System::String* a1, ::System::String* a2, ::RPG::Client::AssemNPC* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_A74BD9120F7FD2AB_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_OHCHIBCOGAN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_758732BD37F8618C(::System::String* a1, ::RPG::Client::AssemNPC* a2)
+		::System::Void DEFPONAHHEO(::System::String* a1, ::RPG::Client::AssemNPC* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_758732BD37F8618C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_DEFPONAHHEO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_3_2C59D1D0CBDC6514(::System::String* a1, ::System::String* a2, ::RPG::Client::AssemNPC* a3)
+		::System::Boolean DAIFBIGIMHD(::System::String* a1, ::System::String* a2, ::RPG::Client::AssemNPC* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_2C59D1D0CBDC6514_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_DAIFBIGIMHD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_89D1F247B9D324EE()
+		::System::Void HADOHLNHHGB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_89D1F247B9D324EE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_HADOHLNHHGB_OFFSET))(this);
 		}
+
 	};
 }

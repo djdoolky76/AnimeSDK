@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class FinishMazePuzzleChallenge; }
 
-#define RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_METHOD_3_05D17D2E7A6ECCAF_OFFSET UNITYSDK_OFFSET(0x1E0DBC60)
-#define RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_METHOD_3_E5234038175D3994_OFFSET UNITYSDK_OFFSET(0x1E0DBC20)
-#define RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DBC50)
+#define RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67BB60)
+#define RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D67BB70)
+#define RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67BB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishMazePuzzleChallenge_TypeDefinitionIndex = 21762;
+	inline static constexpr unsigned int FinishMazePuzzleChallenge_TypeDefinitionIndex = 22010;
 
 	class FinishMazePuzzleChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* MazePuzzleChallengeID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E5234038175D3994(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishMazePuzzleChallenge*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishMazePuzzleChallenge* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishMazePuzzleChallenge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_METHOD_3_E5234038175D3994_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishMazePuzzleChallenge*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_05D17D2E7A6ECCAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishMazePuzzleChallenge* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishMazePuzzleChallenge* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishMazePuzzleChallenge*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_METHOD_3_05D17D2E7A6ECCAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishMazePuzzleChallenge*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHMAZEPUZZLECHALLENGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

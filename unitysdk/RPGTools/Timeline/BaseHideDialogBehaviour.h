@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x1D12A250)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_UINAME_OFFSET UNITYSDK_OFFSET(0x1D12A230)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1D12A270)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x1D12A260)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_UINAME_OFFSET UNITYSDK_OFFSET(0x1D12A240)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12A300)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8AA8E0)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0xE8AA830)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_UINAME_OFFSET UNITYSDK_OFFSET(0xE8AA810)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8AA850)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0xE8AA840)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_UINAME_OFFSET UNITYSDK_OFFSET(0xE8AA820)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BaseHideDialogBehaviour_TypeDefinitionIndex = 48753;
+	inline static constexpr unsigned int BaseHideDialogBehaviour_TypeDefinitionIndex = 48293;
 
 	class BaseHideDialogBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::String* _UIName_k__BackingField; // 0x10
 		::RPG::Client::NotifyType _CloseNotifyType_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_UIName()
@@ -53,5 +51,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

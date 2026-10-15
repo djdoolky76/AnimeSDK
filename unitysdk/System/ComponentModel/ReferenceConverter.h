@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/TypeConverter.h"
-
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB12BC0)
+#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC4210)
 
 namespace System::ComponentModel
 {
@@ -15,12 +14,13 @@ namespace System::ComponentModel
 	public:
 		static ::System::String** StaticGet_none()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ReferenceConverter_TypeDefinitionIndex)->GetStaticField(0x34B20);
+			return (::System::String**)UnitySDK::FromName("System.ComponentModel", "ReferenceConverter")->GetStaticField(0x2C130);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFERENCECONVERTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_CCTOR_OFFSET))();
 		}
+
 	};
 }

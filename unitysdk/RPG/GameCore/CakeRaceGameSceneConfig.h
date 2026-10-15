@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceGameSceneConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEGAMESCENECONFIG_METHOD_2_2D2DAD87552E8596_OFFSET UNITYSDK_OFFSET(0x1D1015E0)
-#define RPG_GAMECORE_CAKERACEGAMESCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D102040)
+#define RPG_GAMECORE_CAKERACEGAMESCENECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D522D90)
+#define RPG_GAMECORE_CAKERACEGAMESCENECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D522330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceGameSceneConfig_TypeDefinitionIndex = 18184;
+	inline static constexpr unsigned int CakeRaceGameSceneConfig_TypeDefinitionIndex = 18399;
 
 	class CakeRaceGameSceneConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,15 +27,15 @@ namespace RPG::GameCore
 		::System::Int32 GravityAcce; // 0x38
 		::System::UInt32 SystemMaxSpeed; // 0x3C
 		::System::UInt32 PredicateFrameCount; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMESCENECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMESCENECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2D2DAD87552E8596(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameSceneConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceGameSceneConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameSceneConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMESCENECONFIG_METHOD_2_2D2DAD87552E8596_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceGameSceneConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMESCENECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClusterPage_TypeDefinitionIndex = 4104;
+	inline static constexpr unsigned int ClusterPage_TypeDefinitionIndex = 4105;
 
 	struct alignas(4) ClusterPage
 	{

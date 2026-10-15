@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x194FAA90)
-#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x194FAAC0)
-#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x194FA970)
-#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x194FAA20)
+#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD38B0B0)
+#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0xD38B040)
+#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD38B0E0)
+#define RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0xD38AF80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightCone3D_UpdateFunc_TypeDefinitionIndex = 72885;
+	inline static constexpr unsigned int LightCone3D_UpdateFunc_TypeDefinitionIndex = 72968;
 
 	class LightCone3D_UpdateFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_UPDATEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

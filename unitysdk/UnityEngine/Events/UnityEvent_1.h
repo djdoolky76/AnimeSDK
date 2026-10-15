@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEventBase.h"
-
 namespace System { class Object; }
-namespace System { class String; }
-namespace System::Reflection { class MethodInfo; }
-namespace UnityEngine::Events { class BaseInvokableCall; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityEvent_1_TypeDefinitionIndex = 4490;
+	inline static constexpr unsigned int UnityEvent_1_TypeDefinitionIndex = 4494;
 
-	template <typename T0>
+	template <typename T>
 	class UnityEvent_1 : public ::UnityEngine::Events::UnityEventBase
 	{
 	public:

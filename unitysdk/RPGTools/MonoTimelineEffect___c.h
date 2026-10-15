@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define RPGTOOLS_MONOTIMELINEEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B525DB0)
-#define RPGTOOLS_MONOTIMELINEEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B525DE0)
-#define RPGTOOLS_MONOTIMELINEEFFECT___C__ONENABALEPOSM_B__47_0_OFFSET UNITYSDK_OFFSET(0x1B525DF0)
+#define RPGTOOLS_MONOTIMELINEEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE89AED0)
+#define RPGTOOLS_MONOTIMELINEEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE89AF00)
+#define RPGTOOLS_MONOTIMELINEEFFECT___C__ONENABALEPOSM_B__47_0_OFFSET UNITYSDK_OFFSET(0xE89AF10)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int MonoTimelineEffect___c_TypeDefinitionIndex = 48239;
+	inline static constexpr unsigned int MonoTimelineEffect___c_TypeDefinitionIndex = 47780;
 
 	class MonoTimelineEffect___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__47_0()
 		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoTimelineEffect___c_TypeDefinitionIndex)->GetStaticField(0x32120);
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)UnitySDK::FromName("RPGTools", "<>c")->GetStaticField(0x6F7C0);
 		}
-		static ::RPGTools::MonoTimelineEffect___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPGTools::MonoTimelineEffect___c**)Il2CppClass::FromTypeDefinitionIndex(MonoTimelineEffect___c_TypeDefinitionIndex)->GetStaticField(0x32128);
+			return (::System::Object**)UnitySDK::FromName("RPGTools", "<>c")->GetStaticField(0x6F7C8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _OnEnabalePOSM_b__47_0(::UnityEngine::Renderer* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT___C__ONENABALEPOSM_B__47_0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,14 +3,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleAnimMoveOption_TypeDefinitionIndex = 24520;
+	inline static constexpr unsigned int RtBattleAnimMoveOption_TypeDefinitionIndex = 24802;
 
 	enum class RtBattleAnimMoveOption : ::System::UInt32
 	{
-		None = 0x0,
-		IgnoreRadius = 0x1,
-		IsBehindTarget = 0x2,
-		TraceTargetPos = 0x4,
-		CollisionStop = 0x8,
+		None = 0,
+		IgnoreRadius = 1,
+		IsBehindTarget = 2,
+		TraceTargetPos = 4,
+		CollisionStop = 8,
 	};
 }

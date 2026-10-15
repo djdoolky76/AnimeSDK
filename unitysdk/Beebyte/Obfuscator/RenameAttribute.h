@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1DB55A60)
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DB55A50)
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB55A40)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF0E030)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF0E020)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET UNITYSDK_OFFSET(0xAF0E040)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 47496;
+	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 47036;
 
 	class RenameAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* target; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* GetTarget()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET))(this);
 		}
+
 	};
 }

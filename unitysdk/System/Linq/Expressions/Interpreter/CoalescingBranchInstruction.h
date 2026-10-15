@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/OffsetInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1AFD3620)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1AFD36D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AFD3690)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1AFD36E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1AFD36F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD3770)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDB1A10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1EDB18C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDB1970)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDB1930)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDB1980)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDB1990)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int CoalescingBranchInstruction_TypeDefinitionIndex = 3323;
+	inline static constexpr unsigned int CoalescingBranchInstruction_TypeDefinitionIndex = 3324;
 
 	class CoalescingBranchInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction
 	{
 	public:
 		static ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>** StaticGet_s_cache()
 		{
-			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>**)Il2CppClass::FromTypeDefinitionIndex(CoalescingBranchInstruction_TypeDefinitionIndex)->GetStaticField(0x319A0);
+			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CoalescingBranchInstruction")->GetStaticField(0x3AD20);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>* get_Cache()
@@ -54,5 +53,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_COALESCINGBRANCHINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

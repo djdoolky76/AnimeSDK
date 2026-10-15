@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DECCCE0)
-#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DECCCF0)
-#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_RESET_OFFSET UNITYSDK_OFFSET(0x1DECCD70)
-#define UNITYENGINE_CUSTOMYIELDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DECCD80)
+#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AFD80)
+#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F3AFCE0)
+#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F3AFCF0)
+#define UNITYENGINE_CUSTOMYIELDINSTRUCTION_RESET_OFFSET UNITYSDK_OFFSET(0x1F3AFD70)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CustomYieldInstruction_TypeDefinitionIndex = 4320;
+	inline static constexpr unsigned int CustomYieldInstruction_TypeDefinitionIndex = 4323;
 
 	class CustomYieldInstruction : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CUSTOMYIELDINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CUSTOMYIELDINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Object* get_Current()
@@ -33,5 +34,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CUSTOMYIELDINSTRUCTION_RESET_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/PadsPuzzleTriggerPad.h"
-
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_INITSTATE_OFFSET UNITYSDK_OFFSET(0x1661A450)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLEENTER_OFFSET UNITYSDK_OFFSET(0x1661A6D0)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0x1661A830)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0x1661A7C0)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1661AA00)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_CTOR_OFFSET UNITYSDK_OFFSET(0xDD59940)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_INITSTATE_OFFSET UNITYSDK_OFFSET(0xDD59390)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLEENTER_OFFSET UNITYSDK_OFFSET(0xDD59610)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0xDD59770)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0xDD59700)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadsPuzzleStartPad_TypeDefinitionIndex = 78275;
+	inline static constexpr unsigned int PadsPuzzleStartPad_TypeDefinitionIndex = 78746;
 
 	class PadsPuzzleStartPad : public ::RPG::Client::Prop::PadsPuzzleTriggerPad
 	{
@@ -23,10 +22,9 @@ namespace RPG::Client::Prop
 		::UnityEngine::GameObject* FIAKAEBFOGO; // 0x80
 		::UnityEngine::GameObject* OBIODAHPKCB; // 0x88
 		::UnityEngine::Animator* FALOCKLLNPK; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLESTARTPAD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitState()
@@ -48,5 +46,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLERESET_OFFSET))(this);
 		}
+
 	};
 }

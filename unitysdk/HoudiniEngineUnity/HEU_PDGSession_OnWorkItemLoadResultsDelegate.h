@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HoudiniEngineUnity { class HEU_SyncedEventData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11A780B0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11A780E0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x11A780A0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A77FB0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B935B00)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B935A00)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B935B30)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B935AF0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGSession_OnWorkItemLoadResultsDelegate_TypeDefinitionIndex = 39247;
+	inline static constexpr unsigned int HEU_PDGSession_OnWorkItemLoadResultsDelegate_TypeDefinitionIndex = 40544;
 
 	class HEU_PDGSession_OnWorkItemLoadResultsDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HoudiniEngineUnity::HEU_SyncedEventData* a1)
@@ -38,5 +37,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

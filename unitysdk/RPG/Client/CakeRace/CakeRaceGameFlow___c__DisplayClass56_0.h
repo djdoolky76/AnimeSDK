@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C624A60)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1C6282E0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x1C628320)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EF360)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC8F06B0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0xC8F06F0)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass56_0_TypeDefinitionIndex = 75969;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass56_0_TypeDefinitionIndex = 76446;
 
 	class CakeRaceGameFlow___c__DisplayClass56_0 : public ::System::Object
 	{
@@ -20,10 +19,9 @@ namespace RPG::Client::CakeRace
 		::RPG::Client::Promises::Promise* promise; // 0x10
 		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x18
 		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __HandleShowLoanConfirmDialog_b__0(::System::Boolean a1)
@@ -35,5 +33,6 @@ namespace RPG::Client::CakeRace
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET))(this);
 		}
+
 	};
 }

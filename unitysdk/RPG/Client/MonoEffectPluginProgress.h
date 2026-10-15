@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
-
-class Class_2_9A1E7A71D3759A93;
-namespace RPG::Client { class MonoEffectPluginProgress_ModifyMaterialParam; }
-namespace RPG::Client { class MonoEffectPluginProgress_ModifyTransformParam; }
+class LMGBJIFBAAN;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B391D80)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B391E40)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B391CF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x1B391F00)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1B391F90)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B391C00)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B391FA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7FD2E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0xD7FD500)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7FD3A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7FD250)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xD7FD460)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD7FD4F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7FD160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginProgress_TypeDefinitionIndex = 70062;
+	inline static constexpr unsigned int MonoEffectPluginProgress_TypeDefinitionIndex = 70097;
 
 	class MonoEffectPluginProgress : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
 		::System::Single CurrentProgress; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginProgress_ModifyMaterialParam*>* ModifyMaterialParams; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginProgress_ModifyTransformParam*>* ModifyTransformParams; // 0x38
-		::Class_2_9A1E7A71D3759A93* KADDKEGNCHE; // 0x40
-
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* ModifyMaterialParams; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* ModifyTransformParams; // 0x38
+		::LMGBJIFBAAN* KADDKEGNCHE; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetPlugin()
@@ -57,9 +55,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_ENDOFLATETICK_OFFSET))(this, a1);
 		}
 
-		::Class_2_9A1E7A71D3759A93* get_Behavior()
+		::LMGBJIFBAAN* get_Behavior()
 		{
-			return ((::Class_2_9A1E7A71D3759A93*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_GET_BEHAVIOR_OFFSET))(this);
+			return ((::LMGBJIFBAAN*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_GET_BEHAVIOR_OFFSET))(this);
 		}
+
 	};
 }

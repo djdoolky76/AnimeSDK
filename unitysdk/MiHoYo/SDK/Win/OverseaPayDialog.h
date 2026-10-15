@@ -3,82 +3,48 @@
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/PayVendor.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
+namespace MiHoYo::SDK::Win { class OverseaPayDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1876E640)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_BACK_OFFSET UNITYSDK_OFFSET(0x18770E00)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKAMEXVENDOR_OFFSET UNITYSDK_OFFSET(0x18770CA0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKECMCVENDOR_OFFSET UNITYSDK_OFFSET(0x18770C90)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKJCBVENDOR_OFFSET UNITYSDK_OFFSET(0x18770CB0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYBUTTON_OFFSET UNITYSDK_OFFSET(0x18770CD0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYPALVENDOR_OFFSET UNITYSDK_OFFSET(0x18770CC0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYSUCCESSBUTTON_OFFSET UNITYSDK_OFFSET(0x18770D60)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYTYPEBUTTON_OFFSET UNITYSDK_OFFSET(0x18770C70)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKVISAVENDOR_OFFSET UNITYSDK_OFFSET(0x18770C80)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_HIDEBUYLOADING_OFFSET UNITYSDK_OFFSET(0x18770BA0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1876C9C0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18770F40)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_REFRESHPAYINFO_OFFSET UNITYSDK_OFFSET(0x1876CB30)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_REFRESH_OFFSET UNITYSDK_OFFSET(0x18770C50)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SETVENDORS_OFFSET UNITYSDK_OFFSET(0x18770B90)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOWBUYLOADING_OFFSET UNITYSDK_OFFSET(0x18770D30)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x18770BD0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOWPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x18770D80)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1876C8A0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1876CAB0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x187703A0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG__BACK_B__87_0_OFFSET UNITYSDK_OFFSET(0x18770FB0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x18770F60)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD8D330)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_BACK_OFFSET UNITYSDK_OFFSET(0x1BD8FAF0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKAMEXVENDOR_OFFSET UNITYSDK_OFFSET(0x1BD8F990)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKECMCVENDOR_OFFSET UNITYSDK_OFFSET(0x1BD8F980)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKJCBVENDOR_OFFSET UNITYSDK_OFFSET(0x1BD8F9A0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD8F9C0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYPALVENDOR_OFFSET UNITYSDK_OFFSET(0x1BD8F9B0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYSUCCESSBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD8FA50)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKPAYTYPEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD8F960)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CLICKVISAVENDOR_OFFSET UNITYSDK_OFFSET(0x1BD8F970)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8FC50)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_HIDEBUYLOADING_OFFSET UNITYSDK_OFFSET(0x1BD8F890)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD8B6B0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD8FC30)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_REFRESHPAYINFO_OFFSET UNITYSDK_OFFSET(0x1BD8B820)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_REFRESH_OFFSET UNITYSDK_OFFSET(0x1BD8F940)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SETVENDORS_OFFSET UNITYSDK_OFFSET(0x1BD8F880)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOWBUYLOADING_OFFSET UNITYSDK_OFFSET(0x1BD8FA20)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1BD8F8C0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOWPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x1BD8FA70)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD8B590)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BD8B7A0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD8F090)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG__BACK_B__87_0_OFFSET UNITYSDK_OFFSET(0x1BD8FCA0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayDialog_TypeDefinitionIndex = 9496;
+	inline static constexpr unsigned int OverseaPayDialog_TypeDefinitionIndex = 9554;
 
 	class OverseaPayDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::OverseaPayDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::OverseaPayDialog**)Il2CppClass::FromTypeDefinitionIndex(OverseaPayDialog_TypeDefinitionIndex)->GetStaticField(0x37F40);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* GoodsContentGameObjectPath; // 0x0
-		// static const ::System::String* GoodsNameTextPath; // 0x0
-		// static const ::System::String* GoodsPriceTextPath; // 0x0
-		// static const ::System::String* PayTypeTitleTextPath; // 0x0
-		// static const ::System::String* PayTypeBtnPath; // 0x0
-		// static const ::System::String* PayTypeBtnTextPath; // 0x0
-		// static const ::System::String* SubPayTypeTitleTextPath; // 0x0
-		// static const ::System::String* VisaBtnPath; // 0x0
-		// static const ::System::String* MasterCardBtnPath; // 0x0
-		// static const ::System::String* AmericanExpressBtnPath; // 0x0
-		// static const ::System::String* JCBBtnPath; // 0x0
-		// static const ::System::String* PayPalBtnPath; // 0x0
-		// static const ::System::String* PayButtonPath; // 0x0
-		// static const ::System::String* PayButtonTitlePath; // 0x0
-		// static const ::System::String* PayButtonLoadingObjectPath; // 0x0
-		// static const ::System::String* PayStatusObjectPath; // 0x0
-		// static const ::System::String* PaySuccessObjectPath; // 0x0
-		// static const ::System::String* PaySuccessTitleTextPath; // 0x0
-		// static const ::System::String* PaySuccessTipsTextPath; // 0x0
-		// static const ::System::String* PaySuccessButtonPath; // 0x0
-		// static const ::System::String* PaySuccessButtonTextPath; // 0x0
-		// static const ::System::String* PayFailObjectPath; // 0x0
-		// static const ::System::String* PayFailTitleTextPath; // 0x0
-		// static const ::System::String* PayFailTipsTextPath; // 0x0
-		// static const ::System::String* PayFailButtonPath; // 0x0
-		// static const ::System::String* PayFailButtonTextPath; // 0x0
 		::System::Action* OnBack; // 0x58
 		::System::Action* OnRefresh; // 0x60
 		::System::Action_1<::MiHoYo::SDK::PayVendor>* OnPay; // 0x68
@@ -116,10 +82,43 @@ namespace MiHoYo::SDK::Win
 		::MiHoYo::SDK::PayVendor selectVendor; // 0x168
 		::MiHoYo::SDK::PayVendor defaultPayVendor; // 0x16C
 		::System::Boolean isPaying; // 0x170
+		static ::MiHoYo::SDK::Win::OverseaPayDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::OverseaPayDialog**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaPayDialog")->GetStaticField(0x2BDD0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* GoodsContentGameObjectPath; // 0x0
+		// static const ::System::String* GoodsNameTextPath; // 0x0
+		// static const ::System::String* GoodsPriceTextPath; // 0x0
+		// static const ::System::String* PayTypeTitleTextPath; // 0x0
+		// static const ::System::String* PayTypeBtnPath; // 0x0
+		// static const ::System::String* PayTypeBtnTextPath; // 0x0
+		// static const ::System::String* SubPayTypeTitleTextPath; // 0x0
+		// static const ::System::String* VisaBtnPath; // 0x0
+		// static const ::System::String* MasterCardBtnPath; // 0x0
+		// static const ::System::String* AmericanExpressBtnPath; // 0x0
+		// static const ::System::String* JCBBtnPath; // 0x0
+		// static const ::System::String* PayPalBtnPath; // 0x0
+		// static const ::System::String* PayButtonPath; // 0x0
+		// static const ::System::String* PayButtonTitlePath; // 0x0
+		// static const ::System::String* PayButtonLoadingObjectPath; // 0x0
+		// static const ::System::String* PayStatusObjectPath; // 0x0
+		// static const ::System::String* PaySuccessObjectPath; // 0x0
+		// static const ::System::String* PaySuccessTitleTextPath; // 0x0
+		// static const ::System::String* PaySuccessTipsTextPath; // 0x0
+		// static const ::System::String* PaySuccessButtonPath; // 0x0
+		// static const ::System::String* PaySuccessButtonTextPath; // 0x0
+		// static const ::System::String* PayFailObjectPath; // 0x0
+		// static const ::System::String* PayFailTitleTextPath; // 0x0
+		// static const ::System::String* PayFailTipsTextPath; // 0x0
+		// static const ::System::String* PayFailButtonPath; // 0x0
+		// static const ::System::String* PayFailButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::MiHoYo::SDK::JSONNode* a1, ::MiHoYo::SDK::JSONObject* a2, ::MiHoYo::SDK::PayVendor a3)
@@ -236,5 +235,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYDIALOG__BACK_B__87_0_OFFSET))(this, a1);
 		}
+
 	};
 }

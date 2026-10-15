@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAISource.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAISourceIsCombatPowerWeightedRandomTarget; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_METHOD_3_209E395D263BD62E_OFFSET UNITYSDK_OFFSET(0x1D9AB3C0)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_METHOD_3_CD215A6E5E9C21B8_OFFSET UNITYSDK_OFFSET(0x1D9AB370)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AB3B0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A2AD0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A2AE0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A2A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISourceIsCombatPowerWeightedRandomTarget_TypeDefinitionIndex = 15375;
+	inline static constexpr unsigned int ComplexSkillAISourceIsCombatPowerWeightedRandomTarget_TypeDefinitionIndex = 15546;
 
 	class ComplexSkillAISourceIsCombatPowerWeightedRandomTarget : public ::RPG::GameCore::ComplexSkillAISource
 	{
@@ -23,20 +23,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint PowerOfDamageCarry; // 0x28
 		::System::Boolean OneMinusAITag; // 0x30
 		::System::Boolean SumUpServantDamageCarry; // 0x31
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CD215A6E5E9C21B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_METHOD_3_CD215A6E5E9C21B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_209E395D263BD62E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_METHOD_3_209E395D263BD62E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceIsCombatPowerWeightedRandomTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEISCOMBATPOWERWEIGHTEDRANDOMTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

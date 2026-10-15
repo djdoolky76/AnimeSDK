@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaPropBase.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0x116BA880)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116BA8F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR__CTOR_OFFSET UNITYSDK_OFFSET(0x116BAC50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_CTOR_OFFSET UNITYSDK_OFFSET(0xD7DE5C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0xD7DE1F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7DE260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropRefSpecular_TypeDefinitionIndex = 69941;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropRefSpecular_TypeDefinitionIndex = 69975;
 
 	class MonoEffectPluginCharaPropRefSpecular : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:
 		::System::Boolean _EnableRefSpecular; // 0x40
 		::System::Boolean Toggle_SpecularCubeMap; // 0x41
+		::System::Byte _padding0[0x6];
 		::UnityEngine::Texture* _SpecularCubeMap; // 0x48
 		::System::Boolean Toggle_RefRangeTex; // 0x50
+		::System::Byte _padding1[0x7];
 		::UnityEngine::Texture2D* _RefRangeTex; // 0x58
 		::System::Boolean Toggle_RefIntensity; // 0x60
+		::System::Byte _padding2[0x3];
 		::System::Single _RefIntensity; // 0x64
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::String*>* GetBaseCharacterFilter()
@@ -41,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_UPDATEPROPERTY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

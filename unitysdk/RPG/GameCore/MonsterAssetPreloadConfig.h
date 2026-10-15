@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DeviceSettingConfigItemBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_METHOD_3_DA6D5D3DD89E4227_OFFSET UNITYSDK_OFFSET(0x1D1D2510)
-#define RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_METHOD_3_E14F076DE95C2190_OFFSET UNITYSDK_OFFSET(0x1D1D24D0)
-#define RPG_GAMECORE_MONSTERASSETPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D2500)
+#define RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D880850)
+#define RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D880860)
+#define RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D880820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterAssetPreloadConfig_TypeDefinitionIndex = 16300;
+	inline static constexpr unsigned int MonsterAssetPreloadConfig_TypeDefinitionIndex = 16473;
 
 	class MonsterAssetPreloadConfig : public ::RPG::GameCore::DeviceSettingConfigItemBase
 	{
 	public:
 		::System::Boolean PreloadEffectPaths; // 0x18
 		::System::Boolean PreloadOptionalEffectPaths; // 0x19
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERASSETPRELOADCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E14F076DE95C2190(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterAssetPreloadConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonsterAssetPreloadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterAssetPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_METHOD_3_E14F076DE95C2190_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonsterAssetPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DA6D5D3DD89E4227(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterAssetPreloadConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonsterAssetPreloadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterAssetPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_METHOD_3_DA6D5D3DD89E4227_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonsterAssetPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERASSETPRELOADCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

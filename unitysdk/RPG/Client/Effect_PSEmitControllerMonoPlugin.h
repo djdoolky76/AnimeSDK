@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Effect_PSEmitControllerBehavior_ParticleEmitData.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client { class Effect_PSEmitControllerBehavior; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PSEMITCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7E960)
+#define RPG_CLIENT_EFFECT_PSEMITCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD452E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PSEmitControllerMonoPlugin_TypeDefinitionIndex = 70482;
+	inline static constexpr unsigned int Effect_PSEmitControllerMonoPlugin_TypeDefinitionIndex = 70518;
 
-	class Effect_PSEmitControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_PSEmitControllerBehavior*>
+	class Effect_PSEmitControllerMonoPlugin
 	{
 	public:
-		::Il2CppArray<::RPG::Client::Effect_PSEmitControllerBehavior_ParticleEmitData>* EmitList; // 0x30
+		::Il2CppArray<::System::Object*>* EmitList; // 0x30
 		::UnityEngine::ParticleSystem* MainEmitter; // 0x38
 		::System::Single ScaleMultiplier; // 0x40
+		::System::Byte _padding0[0x4];
 		::System::String* ConfigPath; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PSEMITCONTROLLERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PSEMITCONTROLLERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

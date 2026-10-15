@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/IRI2/IRIClusterVolumeInfo.h"
 #include "unitysdk/PipelineCmdSlot.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/IRI2/IRIClusterVolumeInfo.h"
 #include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
-
+namespace IRIClusterBuilder { class IRI2Simulator; }
 namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 namespace IRIClusterBuilder { class IRIClusterBuildConfig; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
@@ -16,32 +16,28 @@ namespace UnityEngine { class Texture2DArray; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_CLEAR_OFFSET UNITYSDK_OFFSET(0x18E626C0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18E63440)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x18E634E0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_INITVOLUME_OFFSET UNITYSDK_OFFSET(0x18E62BA0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_INIT_1_OFFSET UNITYSDK_OFFSET(0x18E62B60)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_INIT_OFFSET UNITYSDK_OFFSET(0x18E62660)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_2DFA1DA1AC6AFB6B_OFFSET UNITYSDK_OFFSET(0x18E63840)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_432C0DCC61B3C2C3_OFFSET UNITYSDK_OFFSET(0x18E63390)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_5A124CAF1E48B74F_OFFSET UNITYSDK_OFFSET(0x18E64CF0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_BC53702D3AE2B6AE_OFFSET UNITYSDK_OFFSET(0x18E64720)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18E626B0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_START_OFFSET UNITYSDK_OFFSET(0x18E625F0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x18E634F0)
-#define IRICLUSTERBUILDER_IRI2SIMULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18E65030)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_ACJHNEGEBNL_OFFSET UNITYSDK_OFFSET(0x1651D940)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_CLEAR_OFFSET UNITYSDK_OFFSET(0x1651B8E0)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1651E250)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_DKIKCPHNPOO_OFFSET UNITYSDK_OFFSET(0x1651DF10)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_EPDEINLINKE_OFFSET UNITYSDK_OFFSET(0x1651C5B0)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1651C660)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1651C700)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_GFOCELIIOPC_OFFSET UNITYSDK_OFFSET(0x1651CA60)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_INITVOLUME_OFFSET UNITYSDK_OFFSET(0x1651BDC0)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_INIT_1_OFFSET UNITYSDK_OFFSET(0x1651BD80)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_INIT_OFFSET UNITYSDK_OFFSET(0x1651B880)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1651B8D0)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_START_OFFSET UNITYSDK_OFFSET(0x1651B810)
+#define IRICLUSTERBUILDER_IRI2SIMULATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1651C710)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRI2Simulator_TypeDefinitionIndex = 48196;
+	inline static constexpr unsigned int IRI2Simulator_TypeDefinitionIndex = 47737;
 
 	class IRI2Simulator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::IRIClusterBuilder::IRI2Simulator** StaticGet_Instance()
-		{
-			return (::IRIClusterBuilder::IRI2Simulator**)Il2CppClass::FromTypeDefinitionIndex(IRI2Simulator_TypeDefinitionIndex)->GetStaticField(0x46070);
-		}
 		::UnityEngine::ComputeBuffer* LJDDGLNPNGN; // 0x18
 		::UnityEngine::ComputeBuffer* COGBJBCGJPH; // 0x20
 		::UnityEngine::ComputeBuffer* NGEDGIJMBMG; // 0x28
@@ -59,13 +55,18 @@ namespace IRIClusterBuilder
 		::System::Int32 IEECGAFHABM; // 0x80
 		::System::Int32 NMKCKIJLHKC; // 0x84
 		::PipelineCmdSlot PDIECHCNEGC; // 0x88
+		::System::Byte _padding0[0x4];
 		::IRIClusterBuilder::IRI2VolumeTemplate* VolumeTemplate; // 0x90
 		::IRIClusterBuilder::IRIClusterBuildConfig* Config; // 0x98
 		::UnityEngine::Material* Material; // 0xA0
+		static ::IRIClusterBuilder::IRI2Simulator** StaticGet_Instance()
+		{
+			return (::IRIClusterBuilder::IRI2Simulator**)UnitySDK::FromName("IRIClusterBuilder", "IRI2Simulator")->GetStaticField(0x6A0D0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -88,14 +89,14 @@ namespace IRIClusterBuilder
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_432C0DCC61B3C2C3(::UnityEngine::ComputeBuffer*& a1)
+		::System::Void EPDEINLINKE(::UnityEngine::ComputeBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeBuffer*&))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_432C0DCC61B3C2C3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_EPDEINLINKE_OFFSET))(this, a1);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_EXECUTE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Key()
@@ -113,14 +114,14 @@ namespace IRIClusterBuilder
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::IRIClusterBuilder::IRIClusterBuildConfig*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_INIT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_2DFA1DA1AC6AFB6B(::IRI2::IRIClusterVolumeInfo a1)
+		::System::Void GFOCELIIOPC(::IRI2::IRIClusterVolumeInfo a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IRI2::IRIClusterVolumeInfo))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_2DFA1DA1AC6AFB6B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IRI2::IRIClusterVolumeInfo))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_GFOCELIIOPC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_BC53702D3AE2B6AE(::IRI2::IRIClusterVolumeInfo a1)
+		::System::Void ACJHNEGEBNL(::IRI2::IRIClusterVolumeInfo a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IRI2::IRIClusterVolumeInfo))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_BC53702D3AE2B6AE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IRI2::IRIClusterVolumeInfo))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_ACJHNEGEBNL_OFFSET))(this, a1);
 		}
 
 		::System::Void InitVolume(::IRIClusterBuilder::IRI2VolumeTemplate* a1)
@@ -128,9 +129,10 @@ namespace IRIClusterBuilder
 			return ((::System::Void(*)(::PVOID, ::IRIClusterBuilder::IRI2VolumeTemplate*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_INITVOLUME_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_5A124CAF1E48B74F()
+		::System::Void DKIKCPHNPOO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_METHOD_5_5A124CAF1E48B74F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_IRI2SIMULATOR_DKIKCPHNPOO_OFFSET))(this);
 		}
+
 	};
 }

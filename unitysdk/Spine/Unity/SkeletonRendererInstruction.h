@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/SubmeshInstruction.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class Attachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
+namespace Spine::Unity { class SkeletonRendererInstruction; }
 
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x18315850)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18336990)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x183285D0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x18331E20)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x183288F0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1831D550)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ECDA8E0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE2640)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ECFB790)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1ECED410)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x1ECF6C30)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x1ECED700)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 43893;
+	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 45085;
 
 	class SkeletonRendererInstruction : public ::System::Object
 	{
@@ -25,10 +25,9 @@ namespace Spine::Unity
 		::System::Int32 rawVertexCount; // 0x20
 		::System::Boolean immutableTriangles; // 0x24
 		::System::Boolean hasActiveClipping; // 0x25
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERERINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
@@ -55,5 +54,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Boolean(*)(::Spine::Unity::SkeletonRendererInstruction*, ::Spine::Unity::SkeletonRendererInstruction*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ConvinceSplitLine; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_19DDA9977D547F3B_OFFSET UNITYSDK_OFFSET(0x1D9BAF40)
-#define RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_6EB264BA1FDBC068_OFFSET UNITYSDK_OFFSET(0x1D9BAF00)
-#define RPG_GAMECORE_CONVINCESPLITLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BAF30)
+#define RPG_GAMECORE_CONVINCESPLITLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B1F00)
+#define RPG_GAMECORE_CONVINCESPLITLINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B1F10)
+#define RPG_GAMECORE_CONVINCESPLITLINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B1ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceSplitLine_TypeDefinitionIndex = 21585;
+	inline static constexpr unsigned int ConvinceSplitLine_TypeDefinitionIndex = 21833;
 
 	class ConvinceSplitLine : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Single Pos; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6EB264BA1FDBC068(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceSplitLine*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConvinceSplitLine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceSplitLine*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_6EB264BA1FDBC068_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConvinceSplitLine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_19DDA9977D547F3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceSplitLine* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConvinceSplitLine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceSplitLine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_19DDA9977D547F3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConvinceSplitLine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

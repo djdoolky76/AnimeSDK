@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_INITLIGHT_OFFSET UNITYSDK_OFFSET(0x17B0C4D0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_SETSELECTEDNUMBER_OFFSET UNITYSDK_OFFSET(0x17B0C5D0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B0C6E0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB1050)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_INITLIGHT_OFFSET UNITYSDK_OFFSET(0xDDB0E40)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_SETSELECTEDNUMBER_OFFSET UNITYSDK_OFFSET(0xDDB0F40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzleLight_TypeDefinitionIndex = 78401;
+	inline static constexpr unsigned int StableSystemPuzzleLight_TypeDefinitionIndex = 78872;
 
 	class StableSystemPuzzleLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitLight()
@@ -31,5 +29,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_SETSELECTEDNUMBER_OFFSET))(this, a1);
 		}
+
 	};
 }

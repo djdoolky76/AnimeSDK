@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_16.h"
+#include "unitysdk/NKAFNCBDJAH.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/Object.h"
+class EMPHNEBCEIE;
+class FNNMLBJJPBJ;
+class MBBEBLGELAP;
+namespace RPG::GameCore { class BattleGridFightEquipData; }
 
-class Class_0_16E4307DCC419505_417;
-class Class_1_715991DD7016B4FF;
-class Class_1_875BEA528A5E9FE8;
-
-#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x1B62B200)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_GETEQUIPSHOWSTATUSCOUNT_OFFSET UNITYSDK_OFFSET(0x1B62B660)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_GETFINALPARAMLIST_OFFSET UNITYSDK_OFFSET(0x1B62B410)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_SETUPABILITYINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B62B4B0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B62B370)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA__ONSELFCUSTOMDYNAMICVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B62B5C0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE5B6880)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xE5B6710)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_GETEQUIPSHOWSTATUSCOUNT_OFFSET UNITYSDK_OFFSET(0xE5B6B70)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_GETFINALPARAMLIST_OFFSET UNITYSDK_OFFSET(0xE5B6920)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_SETUPABILITYINSTANCE_OFFSET UNITYSDK_OFFSET(0xE5B69C0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA__ONSELFCUSTOMDYNAMICVALUECHANGED_OFFSET UNITYSDK_OFFSET(0xE5B6AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleGridFightEquipData_TypeDefinitionIndex = 56475;
+	inline static constexpr unsigned int BattleGridFightEquipData_TypeDefinitionIndex = 56288;
 
 	class BattleGridFightEquipData : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_417* _AbilityInstance; // 0x10
-		::Class_1_715991DD7016B4FF* AdditionalParamProtoMap; // 0x18
-		::Class_1_875BEA528A5E9FE8* AdditionalPropertyMap; // 0x20
-		::System::Boolean IsDynamicCreate; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::Enum_3_0A3761FE34514D6C_16 SrcType; // 0x30
-		::System::UInt32 UniqueID; // 0x34
-
+		::EMPHNEBCEIE* AdditionalParamProtoMap; // 0x10
+		::MBBEBLGELAP* _AbilityInstance; // 0x18
+		::FNNMLBJJPBJ* AdditionalPropertyMap; // 0x20
+		::NKAFNCBDJAH SrcType; // 0x28
+		::System::UInt32 UniqueID; // 0x2C
+		::System::Boolean IsDynamicCreate; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::UInt32 ID; // 0x34
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::BattleGridFightEquipData* DeepClone()
@@ -47,9 +47,9 @@ namespace RPG::GameCore
 			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_GETFINALPARAMLIST_OFFSET))(this);
 		}
 
-		::System::Void SetupAbilityInstance(::Class_0_16E4307DCC419505_417* a1)
+		::System::Void SetupAbilityInstance(::MBBEBLGELAP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_417*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_SETUPABILITYINSTANCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MBBEBLGELAP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_SETUPABILITYINSTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnSelfCustomDynamicValueChanged(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
@@ -61,5 +61,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTEQUIPDATA_GETEQUIPSHOWSTATUSCOUNT_OFFSET))(this);
 		}
+
 	};
 }

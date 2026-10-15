@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET UNITYSDK_OFFSET(0x1B2A4FE0)
-#define RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x1B2A50A0)
-#define RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A4FD0)
+#define RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE2F9820)
+#define RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET UNITYSDK_OFFSET(0xE2F9830)
+#define RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0xE2F98F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyResidentActivityData_TypeDefinitionIndex = 68153;
+	inline static constexpr unsigned int TrainPartyResidentActivityData_TypeDefinitionIndex = 68161;
 
 	class TrainPartyResidentActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
-		// static const ::System::UInt32 GIFTS_ROLE_QUEST_ID = 0x5C0012; // 0x0
-
+		// static const ::System::Object GIFTS_ROLE_QUEST_ID; // 0x0
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsShowMappingInfoNewContentRedDot()
@@ -29,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYRESIDENTACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
 		}
+
 	};
 }

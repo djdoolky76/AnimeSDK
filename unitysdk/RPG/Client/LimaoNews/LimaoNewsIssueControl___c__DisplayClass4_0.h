@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::Client::LimaoNews { class LimaoNewsIssueControl; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C53D860)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__0_OFFSET UNITYSDK_OFFSET(0x1C53D8F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET UNITYSDK_OFFSET(0x1C53DBB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3AB040)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__0_OFFSET UNITYSDK_OFFSET(0xD3AB0D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET UNITYSDK_OFFSET(0xD3AB320)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 79065;
+	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 80388;
 
 	class LimaoNewsIssueControl___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RPGAnimationEvent* animationEvent; // 0x10
+		::RPG::Client::LimaoNews::LimaoNewsIssueControl* __4__this; // 0x10
 		::System::Action* __9__1; // 0x18
-		::RPG::Client::LimaoNews::LimaoNewsIssueControl* __4__this; // 0x20
+		::RPG::Client::RPGAnimationEvent* animationEvent; // 0x20
 		::System::UInt32 blockID; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnLimaoNewsSubmitIssue_b__0()
@@ -36,5 +34,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET))(this);
 		}
+
 	};
 }

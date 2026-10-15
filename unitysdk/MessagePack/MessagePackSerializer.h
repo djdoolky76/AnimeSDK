@@ -1,68 +1,68 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/MessagePackCompression.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlyMemory_1.h"
-#include "unitysdk/System/Span_1.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
-
+#include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack { class MessagePackSerializer_CompiledMethods; }
 namespace MessagePack { class MessagePackSerializer_LZ4Transform; }
 namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
-namespace System::IO { class Stream; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET UNITYSDK_OFFSET(0x1D561FD0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1D55FAF0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET UNITYSDK_OFFSET(0x1D5621F0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET UNITYSDK_OFFSET(0x1D55FBF0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1D55FBB0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET UNITYSDK_OFFSET(0x1D560FD0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET UNITYSDK_OFFSET(0x1D5600E0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET UNITYSDK_OFFSET(0x1D562080)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5623D0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBA4B50)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET UNITYSDK_OFFSET(0x1BBA4770)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BBA22E0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET UNITYSDK_OFFSET(0x1BBA4970)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET UNITYSDK_OFFSET(0x1BBA23E0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BBA23A0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET UNITYSDK_OFFSET(0x1BBA37C0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET UNITYSDK_OFFSET(0x1BBA28D0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET UNITYSDK_OFFSET(0x1BBA4820)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_TypeDefinitionIndex = 7159;
+	inline static constexpr unsigned int MessagePackSerializer_TypeDefinitionIndex = 7213;
 
 	class MessagePackSerializer : public ::System::Object
 	{
 	public:
-		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecEncode()
-		{
-			return (::MessagePack::MessagePackSerializer_LZ4Transform**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x18CD0);
-		}
-		static ::System::Func_2<::System::Type*, ::MessagePack::MessagePackSerializer_CompiledMethods*>** StaticGet_CreateCompiledMethods()
-		{
-			return (::System::Func_2<::System::Type*, ::MessagePack::MessagePackSerializer_CompiledMethods*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x18CD8);
-		}
-		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecDecode()
-		{
-			return (::MessagePack::MessagePackSerializer_LZ4Transform**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x18CE0);
-		}
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_defaultOptions()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x18CE8);
+			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x15020);
 		}
-		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::MessagePackSerializer_CompiledMethods*>** StaticGet_Serializes()
+
+		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>** StaticGet_Serializes()
 		{
-			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::MessagePackSerializer_CompiledMethods*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x18CF0);
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x15028);
 		}
+
+		static ::System::Func_2<::System::Type*, ::System::Object*>** StaticGet_CreateCompiledMethods()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x15030);
+		}
+
+		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecEncode()
+		{
+			return (::MessagePack::MessagePackSerializer_LZ4Transform**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x15038);
+		}
+
+		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecDecode()
+		{
+			return (::MessagePack::MessagePackSerializer_LZ4Transform**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x15040);
+		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_scratchArray()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CCTOR_OFFSET))();
 		}
 
 		static ::MessagePack::MessagePackSerializerOptions* get_DefaultOptions()
@@ -75,19 +75,19 @@ namespace MessagePack
 			return ((::System::Void(*)(::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET))(a1);
 		}
 
-		static ::System::Int32 LZ4Operation(::System::Buffers::ReadOnlySequence_1<::System::Byte>& a1, ::System::Span_1<::System::Byte> a2, ::MessagePack::MessagePackSerializer_LZ4Transform* a3)
+		static ::System::Int32 LZ4Operation(::System::Object* a1, ::System::Span_1_0C0D59FF8BC7380B<::System::Byte> a2, ::MessagePack::MessagePackSerializer_LZ4Transform* a3)
 		{
-			return ((::System::Int32(*)(::System::Buffers::ReadOnlySequence_1<::System::Byte>&, ::System::Span_1<::System::Byte>, ::MessagePack::MessagePackSerializer_LZ4Transform*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET))(a1, a2, a3);
+			return ((::System::Int32(*)(::System::Object*, ::System::Span_1_0C0D59FF8BC7380B<::System::Byte>, ::MessagePack::MessagePackSerializer_LZ4Transform*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryDecompress(::MessagePack::MessagePackReader& a1, ::System::Buffers::IBufferWriter_1<::System::Byte>* a2)
+		static ::System::Boolean TryDecompress(::MessagePack::MessagePackReader a1, ::System::Buffers::IBufferWriter_1<::System::Byte>* a2)
 		{
-			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::System::Buffers::IBufferWriter_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader, ::System::Buffers::IBufferWriter_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ToLZ4BinaryCore(::System::Buffers::ReadOnlySequence_1<::System::Byte>& a1, ::MessagePack::MessagePackWriter& a2, ::MessagePack::MessagePackCompression a3, ::System::Int32 a4)
+		static ::System::Void ToLZ4BinaryCore(::System::Object* a1, ::MessagePack::MessagePackWriter a2, ::MessagePack::MessagePackCompression a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::Buffers::ReadOnlySequence_1<::System::Byte>&, ::MessagePack::MessagePackWriter&, ::MessagePack::MessagePackCompression, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Object*, ::MessagePack::MessagePackWriter, ::MessagePack::MessagePackCompression, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Int32 GetUInt32WriteSize(::System::UInt32 a1)
@@ -95,14 +95,15 @@ namespace MessagePack
 			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET))(a1);
 		}
 
-		static ::System::Void WriteBin32Header(::System::UInt32 a1, ::System::Span_1<::System::Byte> a2)
+		static ::System::Void WriteBin32Header(::System::UInt32 a1, ::System::Span_1_0C0D59FF8BC7380B<::System::Byte> a2)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::UInt32, ::System::Span_1_0C0D59FF8BC7380B<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean IsMessagePackFixedSizePrimitiveTypeHelper(::System::Type* a1)
 		{
 			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET))(a1);
 		}
+
 	};
 }

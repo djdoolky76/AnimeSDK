@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1B39F170)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1B39F030)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_E068CA3AB067589D_OFFSET UNITYSDK_OFFSET(0x1B39F0A0)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B39F280)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B39F2F0)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39F620)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD80AEE0)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_FBPCJAPIDDC_OFFSET UNITYSDK_OFFSET(0xD80A8F0)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_FNELMPMJPCF_OFFSET UNITYSDK_OFFSET(0xD80A960)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD80AB40)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_PMOAEBKCINL_OFFSET UNITYSDK_OFFSET(0xD80AA30)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD80ABB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectSerialBellControl_TypeDefinitionIndex = 70702;
+	inline static constexpr unsigned int MonoEffectSerialBellControl_TypeDefinitionIndex = 70738;
 
 	class MonoEffectSerialBellControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -44,25 +43,24 @@ namespace RPG::Client
 		::System::Single JHLBCECAOCF; // 0x78
 		::System::Single GPODLAPNFKM; // 0x7C
 		::System::Single IJAFEBFHHAL; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void FBPCJAPIDDC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_FBPCJAPIDDC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E068CA3AB067589D(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5)
+		::System::Void FNELMPMJPCF(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_E068CA3AB067589D_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_FNELMPMJPCF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF()
+		::System::Void PMOAEBKCINL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_PMOAEBKCINL_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -74,5 +72,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtBattleConst; }
 namespace RPG::GameCore { class RtBattleUnitRow; }
 namespace RPG::GameCore { class RtBehaviorFlagStateAction; }
 namespace RPG::GameCore { class RtDamageConstConfig; }
@@ -13,22 +13,18 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_0EA072BBD5F3CC4C_OFFSET UNITYSDK_OFFSET(0x1CCD6A50)
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1CCD7960)
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1CCD79E0)
-#define RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD7290)
+#define RPG_GAMECORE_RTBATTLECONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1FC10)
+#define RPG_GAMECORE_RTBATTLECONST_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1DA202E0)
+#define RPG_GAMECORE_RTBATTLECONST_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x1DA20360)
+#define RPG_GAMECORE_RTBATTLECONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1F3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 17832;
+	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 18044;
 
 	class RtBattleConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		static ::RPG::GameCore::RtBattleConst** StaticGet_Config()
-		{
-			return (::RPG::GameCore::RtBattleConst**)Il2CppClass::FromTypeDefinitionIndex(RtBattleConst_TypeDefinitionIndex)->GetStaticField(0x65B0);
-		}
 		::System::String* MainLevelGraphPath; // 0x10
 		::RPG::GameCore::FixPoint BaseTimeScale; // 0x18
 		::RPG::GameCore::FixPoint TeamUltraMaxSP; // 0x20
@@ -49,28 +45,34 @@ namespace RPG::GameCore
 		::System::Single CameraLoopSwitchInterval; // 0x80
 		::System::Single BreakMoveEndNormalizedTime; // 0x84
 		::System::Single BreakMoveMinSpeed; // 0x88
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtDamageTextConfigGroup*>* DamageTextConfigGroups; // 0x90
 		::RPG::GameCore::RtDamageConstConfig* DamageConst; // 0x98
 		::Il2CppArray<::RPG::GameCore::RtAbilityProperty>* SummonCharacterInheritPropertyList; // 0xA0
+		static ::RPG::GameCore::RtBattleConst** StaticGet_Config()
+		{
+			return (::RPG::GameCore::RtBattleConst**)UnitySDK::FromName("RPG.GameCore", "RtBattleConst")->GetStaticField(0x10AB0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0EA072BBD5F3CC4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleConst*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleConst* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_METHOD_2_0EA072BBD5F3CC4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleConst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_5790A55946AA509D()
+		static ::System::Void HCFINLKPIHL()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_METHOD_2_5790A55946AA509D_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_HCFINLKPIHL_OFFSET))();
 		}
 
-		static ::System::Void Method_2_832295EC279E5994()
+		static ::System::Void LMEAHGFFMIB()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_METHOD_2_832295EC279E5994_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_LMEAHGFFMIB_OFFSET))();
 		}
+
 	};
 }

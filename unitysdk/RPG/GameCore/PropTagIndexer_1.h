@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class HoyoTag; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTagIndexer_1_TypeDefinitionIndex = 57959;
+	inline static constexpr unsigned int PropTagIndexer_1_TypeDefinitionIndex = 57806;
 
 	template <typename T>
 	class PropTagIndexer_1 : public ::System::Object
@@ -14,7 +13,8 @@ namespace RPG::GameCore
 	public:
 		static ::RPG::GameCore::HoyoTag** StaticGet_Tag()
 		{
-			return (::RPG::GameCore::HoyoTag**)Il2CppClass::FromTypeDefinitionIndex(PropTagIndexer_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::RPG::GameCore::HoyoTag**)UnitySDK::FromName("RPG.GameCore", "PropTagIndexer`1")->GetStaticField(0x0);
 		}
+
 	};
 }

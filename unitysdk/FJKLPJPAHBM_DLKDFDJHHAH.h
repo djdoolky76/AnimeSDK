@@ -1,0 +1,224 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FiveDimCameraPriority.h"
+#include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/HGBCMFANCOE.h"
+#include "unitysdk/HPKDNHLINPC.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class GLAKFODMCPH;
+class HFDDNMNGKNC;
+class HIOEAKHGILF;
+class KFJGDFIDKOI;
+class NDDFLGNNMDK;
+class PEEDLCHFAFL;
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
+namespace RPG::GameCore { class FiveDimGlobalCameraConfig; }
+namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
+namespace RPG::GameCore { class FiveDimMoveConfig; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class ICollection_1; }
+
+#define FJKLPJPAHBM_DLKDFDJHHAH_CANPLAYERUSECAMERAOBSERVE_OFFSET UNITYSDK_OFFSET(0x157CCB50)
+#define FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERATRIGGERCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x157CC810)
+#define FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERATRIGGER_OFFSET UNITYSDK_OFFSET(0x157CC9E0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERAVIEW_OFFSET UNITYSDK_OFFSET(0x157CC960)
+#define FJKLPJPAHBM_DLKDFDJHHAH_CREATEEMPTYENTITY_OFFSET UNITYSDK_OFFSET(0x157CC110)
+#define FJKLPJPAHBM_DLKDFDJHHAH_CTOR_OFFSET UNITYSDK_OFFSET(0x157C6920)
+#define FJKLPJPAHBM_DLKDFDJHHAH_DESTROYENTITY_OFFSET UNITYSDK_OFFSET(0x157CC170)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERABOUNDSENTITY_OFFSET UNITYSDK_OFFSET(0x157CC2D0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERAGRAVITYDIRECTION_OFFSET UNITYSDK_OFFSET(0x157CD100)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERAGROUP_OFFSET UNITYSDK_OFFSET(0x157CC690)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERATRIGGERGROUP_OFFSET UNITYSDK_OFFSET(0x157CC750)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETENTITIESWITHCAMERAPRIORITY_OFFSET UNITYSDK_OFFSET(0x157CC900)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETENTITYBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x157CC1D0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETENTITYBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x157CC0B0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETFIRSTCHILD_OFFSET UNITYSDK_OFFSET(0x157CC500)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETPARENT_OFFSET UNITYSDK_OFFSET(0x157CC270)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GETPLAYERMOVEBLACKBOARD_OFFSET UNITYSDK_OFFSET(0x157CCA90)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_GLOBALCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x157CCD30)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_LEVELUNITLENGTH_OFFSET UNITYSDK_OFFSET(0x157CCF40)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_MOVEBAKEDCONFIG_OFFSET UNITYSDK_OFFSET(0x157CCEA0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_MOVECONFIG_OFFSET UNITYSDK_OFFSET(0x157CCDE0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_OWNERGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x157CD000)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_PLAYERENTITY_OFFSET UNITYSDK_OFFSET(0x157CCA70)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_ROOTENTITY_OFFSET UNITYSDK_OFFSET(0x157CCFE0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_TIMESERVICE_OFFSET UNITYSDK_OFFSET(0x157CCBC0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_GET_TOPCAMERARUNTIMEID_OFFSET UNITYSDK_OFFSET(0x157CCBE0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_HASGAMEPLAYMODE_OFFSET UNITYSDK_OFFSET(0x157CD0A0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_ISPLAYERGRAVITYOPPOSITETOCAMERA_OFFSET UNITYSDK_OFFSET(0x157CCB00)
+#define FJKLPJPAHBM_DLKDFDJHHAH_LOGERROR_OFFSET UNITYSDK_OFFSET(0x157CD190)
+#define FJKLPJPAHBM_DLKDFDJHHAH_SETLOCALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x157CC5C0)
+#define FJKLPJPAHBM_DLKDFDJHHAH_SETPARENT_OFFSET UNITYSDK_OFFSET(0x157CC560)
+#define FJKLPJPAHBM_DLKDFDJHHAH_SET_TOPCAMERARUNTIMEID_OFFSET UNITYSDK_OFFSET(0x157CCC80)
+
+inline static constexpr unsigned int FJKLPJPAHBM_DLKDFDJHHAH_TypeDefinitionIndex = 76915;
+
+	class FJKLPJPAHBM_DLKDFDJHHAH : public ::System::Object
+	{
+	public:
+		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
+		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
+		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::HIOEAKHGILF* GetEntityByRuntimeID(::System::Int32 a1)
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETENTITYBYRUNTIMEID_OFFSET))(this, a1);
+		}
+
+		::HIOEAKHGILF* CreateEmptyEntity(::System::String* a1)
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CREATEEMPTYENTITY_OFFSET))(this, a1);
+		}
+
+		::System::Void DestroyEntity(::HIOEAKHGILF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_DESTROYENTITY_OFFSET))(this, a1);
+		}
+
+		::HIOEAKHGILF* GetEntityByConfigID(::System::UInt32 a1)
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETENTITYBYCONFIGID_OFFSET))(this, a1);
+		}
+
+		::HIOEAKHGILF* GetParent(::HFDDNMNGKNC* a1)
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID, ::HFDDNMNGKNC*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETPARENT_OFFSET))(this, a1);
+		}
+
+		::HIOEAKHGILF* GetCameraBoundsEntity(::HFDDNMNGKNC* a1)
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID, ::HFDDNMNGKNC*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERABOUNDSENTITY_OFFSET))(this, a1);
+		}
+
+		::HIOEAKHGILF* GetFirstChild(::HIOEAKHGILF* a1)
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETFIRSTCHILD_OFFSET))(this, a1);
+		}
+
+		::System::Void SetParent(::HIOEAKHGILF* a1, ::HIOEAKHGILF* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_SETPARENT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetLocalTransform(::HIOEAKHGILF* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_SETLOCALTRANSFORM_OFFSET))(this, a1, a2, a3);
+		}
+
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GetCameraGroup()
+		{
+			return ((::Entitas::IGroup_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERAGROUP_OFFSET))(this);
+		}
+
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GetCameraTriggerGroup()
+		{
+			return ((::Entitas::IGroup_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERATRIGGERGROUP_OFFSET))(this);
+		}
+
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* CreateCameraTriggerCollector()
+		{
+			return ((::Entitas::ICollector_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERATRIGGERCOLLECTOR_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::ICollection_1<::HIOEAKHGILF*>* GetEntitiesWithCameraPriority(::RPG::GameCore::FiveDimCameraPriority a1)
+		{
+			return ((::System::Collections::Generic::ICollection_1<::HIOEAKHGILF*>*(*)(::PVOID, ::RPG::GameCore::FiveDimCameraPriority))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETENTITIESWITHCAMERAPRIORITY_OFFSET))(this, a1);
+		}
+
+		::System::Void CreateCameraView(::HIOEAKHGILF* a1, ::System::String* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERAVIEW_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void CreateCameraTrigger(::HIOEAKHGILF* a1, ::HPKDNHLINPC a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::HPKDNHLINPC))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERATRIGGER_OFFSET))(this, a1, a2);
+		}
+
+		::HIOEAKHGILF* get_PlayerEntity()
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_PLAYERENTITY_OFFSET))(this);
+		}
+
+		::HGBCMFANCOE GetPlayerMoveBlackBoard()
+		{
+			return ((::HGBCMFANCOE(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETPLAYERMOVEBLACKBOARD_OFFSET))(this);
+		}
+
+		::System::Boolean IsPlayerGravityOppositeToCamera()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_ISPLAYERGRAVITYOPPOSITETOCAMERA_OFFSET))(this);
+		}
+
+		::System::Boolean CanPlayerUseCameraObserve(::HGBCMFANCOE a1, ::System::Boolean a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HGBCMFANCOE, ::System::Boolean))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CANPLAYERUSECAMERAOBSERVE_OFFSET))(this, a1, a2);
+		}
+
+		::KFJGDFIDKOI* get_TimeService()
+		{
+			return ((::KFJGDFIDKOI*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_TIMESERVICE_OFFSET))(this);
+		}
+
+		::System::Int32 get_TopCameraRuntimeID()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_TOPCAMERARUNTIMEID_OFFSET))(this);
+		}
+
+		::System::Void set_TopCameraRuntimeID(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_SET_TOPCAMERARUNTIMEID_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FiveDimGlobalCameraConfig* get_GlobalCameraConfig()
+		{
+			return ((::RPG::GameCore::FiveDimGlobalCameraConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_GLOBALCAMERACONFIG_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FiveDimMoveConfig* get_MoveConfig()
+		{
+			return ((::RPG::GameCore::FiveDimMoveConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_MOVECONFIG_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FiveDimMoveBakedConfig* get_MoveBakedConfig()
+		{
+			return ((::RPG::GameCore::FiveDimMoveBakedConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_MOVEBAKEDCONFIG_OFFSET))(this);
+		}
+
+		::System::Single get_LevelUnitLength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_LEVELUNITLENGTH_OFFSET))(this);
+		}
+
+		::HIOEAKHGILF* get_RootEntity()
+		{
+			return ((::HIOEAKHGILF*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_ROOTENTITY_OFFSET))(this);
+		}
+
+		::GLAKFODMCPH* get_OwnerGameEntity()
+		{
+			return ((::GLAKFODMCPH*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GET_OWNERGAMEENTITY_OFFSET))(this);
+		}
+
+		::System::Boolean HasGameplayMode(::RPG::GameCore::FiveDimGameplayMode a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FiveDimGameplayMode))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_HASGAMEPLAYMODE_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 GetCameraGravityDirection(::System::Int32 a1, ::HIOEAKHGILF* a2)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERAGRAVITYDIRECTION_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void LogError(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_LOGERROR_OFFSET))(this, a1);
+		}
+
+	};

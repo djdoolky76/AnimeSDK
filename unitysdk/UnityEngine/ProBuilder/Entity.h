@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/ProBuilder/EntityType.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_PROBUILDER_ENTITY_AWAKE_OFFSET UNITYSDK_OFFSET(0xCF946A0)
-#define UNITYENGINE_PROBUILDER_ENTITY_GET_ENTITYTYPE_OFFSET UNITYSDK_OFFSET(0xCF94690)
-#define UNITYENGINE_PROBUILDER_ENTITY_SETENTITY_OFFSET UNITYSDK_OFFSET(0xCF94740)
-#define UNITYENGINE_PROBUILDER_ENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0xCF94750)
+#define UNITYENGINE_PROBUILDER_ENTITY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F1AA650)
+#define UNITYENGINE_PROBUILDER_ENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1AA700)
+#define UNITYENGINE_PROBUILDER_ENTITY_GET_ENTITYTYPE_OFFSET UNITYSDK_OFFSET(0x1F1AA640)
+#define UNITYENGINE_PROBUILDER_ENTITY_SETENTITY_OFFSET UNITYSDK_OFFSET(0x1F1AA6F0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Entity_TypeDefinitionIndex = 43164;
+	inline static constexpr unsigned int Entity_TypeDefinitionIndex = 44356;
 
 	class Entity : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::ProBuilder::EntityType m_EntityType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_ENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_ENTITY_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::ProBuilder::EntityType get_entityType()
@@ -36,5 +35,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::EntityType))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_ENTITY_SETENTITY_OFFSET))(this, a1);
 		}
+
 	};
 }

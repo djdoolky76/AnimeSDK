@@ -3,8 +3,8 @@
 #include "unitysdk/System/RuntimeType.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
-#define SYSTEM_REFLECTIONONLYTYPE_GET_TYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x1C4419D0)
-#define SYSTEM_REFLECTIONONLYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4419A0)
+#define SYSTEM_REFLECTIONONLYTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2843B0)
+#define SYSTEM_REFLECTIONONLYTYPE_GET_TYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x1C2843E0)
 
 namespace System
 {
@@ -15,12 +15,13 @@ namespace System
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTIONONLYTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTIONONLYTYPE_CTOR_OFFSET))(this);
 		}
 
 		::System::RuntimeTypeHandle get_TypeHandle()
 		{
 			return ((::System::RuntimeTypeHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTIONONLYTYPE_GET_TYPEHANDLE_OFFSET))(this);
 		}
+
 	};
 }

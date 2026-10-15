@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class LevelAudioTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184514E0)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18451520)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18451630)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_TICK_OFFSET UNITYSDK_OFFSET(0x18451680)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x184514D0)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D6CD0)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6D6CE0)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6D6D20)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6D6E30)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6D6E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioTriggerTask_TypeDefinitionIndex = 58334;
+	inline static constexpr unsigned int LevelAudioTriggerTask_TypeDefinitionIndex = 58182;
 
-	class LevelAudioTriggerTask : public ::Class_1_5F51D4049EA87B7B
+	class LevelAudioTriggerTask : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::LevelAudioTrigger* _ConfigRef; // 0x18
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
-
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::LevelAudioTrigger* _ConfigRef; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelAudioTrigger* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGERTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -45,5 +43,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

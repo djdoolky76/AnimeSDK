@@ -5,7 +5,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int DefaultArrayPoolSource_1_Bucket_TypeDefinitionIndex = 5082;
+	inline static constexpr unsigned int DefaultArrayPoolSource_1_Bucket_TypeDefinitionIndex = 5089;
 
 	template <typename T>
 	class DefaultArrayPoolSource_1_Bucket : public ::System::Object
@@ -16,8 +16,8 @@ namespace Collections::Pooled
 		::System::Int32 _arrLength; // 0x0
 		::System::Int32 _index; // 0x0
 		::System::Int32 _minimumCount; // 0x0
-		// static const ::System::Int32 DefaultMinimum = 0x10; // 0x0
-		// static const ::System::Int32 DefaultDropReservedNum = 0x80; // 0x0
 		::System::Boolean _isExtending; // 0x0
+		// static const ::System::Object DefaultMinimum; // 0x0
+		// static const ::System::Object DefaultDropReservedNum; // 0x0
 	};
 }

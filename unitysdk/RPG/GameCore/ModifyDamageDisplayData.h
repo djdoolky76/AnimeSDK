@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ModifyDamageDisplayData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_METHOD_3_01F104D8A4E53611_OFFSET UNITYSDK_OFFSET(0x1D1BAAE0)
-#define RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_METHOD_3_5BFCFE10C01DBEC8_OFFSET UNITYSDK_OFFSET(0x1D1BAA80)
-#define RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BAAC0)
+#define RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D868B60)
+#define RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D868B80)
+#define RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D868B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyDamageDisplayData_TypeDefinitionIndex = 22820;
+	inline static constexpr unsigned int ModifyDamageDisplayData_TypeDefinitionIndex = 23078;
 
 	class ModifyDamageDisplayData : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::System::Single Scale; // 0x1C
 		::RPG::Client::TextID ExtraDesc; // 0x20
 		::System::String* UIAnim; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5BFCFE10C01DBEC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyDamageDisplayData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyDamageDisplayData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyDamageDisplayData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_METHOD_3_5BFCFE10C01DBEC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyDamageDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_01F104D8A4E53611(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyDamageDisplayData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyDamageDisplayData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyDamageDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_METHOD_3_01F104D8A4E53611_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyDamageDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDAMAGEDISPLAYDATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

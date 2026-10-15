@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EntityTag.h"
 #include "unitysdk/RPG/GameCore/VisionBaseConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VisionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VISIONCONFIG_METHOD_3_02A3043353945C24_OFFSET UNITYSDK_OFFSET(0x1DEB0A40)
-#define RPG_GAMECORE_VISIONCONFIG_METHOD_3_950440BE461B50B0_OFFSET UNITYSDK_OFFSET(0x1DEB0720)
-#define RPG_GAMECORE_VISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB06E0)
+#define RPG_GAMECORE_VISIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC62E80)
+#define RPG_GAMECORE_VISIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC62EC0)
+#define RPG_GAMECORE_VISIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC631E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VisionConfig_TypeDefinitionIndex = 17316;
+	inline static constexpr unsigned int VisionConfig_TypeDefinitionIndex = 17512;
 
 	class VisionConfig : public ::RPG::GameCore::VisionBaseConfig
 	{
@@ -26,20 +26,20 @@ namespace RPG::GameCore
 		::System::String* RayStartPointName; // 0x30
 		::System::String* RayEndPointName; // 0x38
 		::Il2CppArray<::RPG::GameCore::EntityTag>* ExcludeEntityTags; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VISIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VISIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_02A3043353945C24(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VisionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VisionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VisionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VISIONCONFIG_METHOD_3_02A3043353945C24_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VisionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VISIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_950440BE461B50B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VisionConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VisionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VisionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VISIONCONFIG_METHOD_3_950440BE461B50B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VisionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VISIONCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

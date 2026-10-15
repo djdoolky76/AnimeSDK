@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_HDALIGHTNING_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A0440A0)
-#define RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET UNITYSDK_OFFSET(0x1A044290)
-#define RPG_CLIENT_HDALIGHTNING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A044200)
-#define RPG_CLIENT_HDALIGHTNING_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A044170)
-#define RPG_CLIENT_HDALIGHTNING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0444C0)
+#define RPG_CLIENT_HDALIGHTNING_AWAKE_OFFSET UNITYSDK_OFFSET(0xD2DC240)
+#define RPG_CLIENT_HDALIGHTNING_CTOR_OFFSET UNITYSDK_OFFSET(0xD2DC660)
+#define RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET UNITYSDK_OFFSET(0xD2DC430)
+#define RPG_CLIENT_HDALIGHTNING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD2DC3A0)
+#define RPG_CLIENT_HDALIGHTNING_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD2DC310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HDALightning_TypeDefinitionIndex = 70571;
+	inline static constexpr unsigned int HDALightning_TypeDefinitionIndex = 70607;
 
 	class HDALightning : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,15 +21,16 @@ namespace RPG::Client
 		::UnityEngine::Color BloomColor; // 0x28
 		::System::Single BloomIntensity; // 0x38
 		::System::Boolean UseDissolve; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::Single DissolveValue; // 0x40
 		::System::Boolean Show; // 0x44
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Material* IMOHCDHKBAJ; // 0x48
 		::System::Boolean NIJFGCPDBIC; // 0x50
 		::System::Boolean CCLHPIFFMCP; // 0x51
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HDALIGHTNING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HDALIGHTNING_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -52,5 +52,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET))(this, a1);
 		}
+
 	};
 }

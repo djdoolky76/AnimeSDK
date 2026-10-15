@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class PNHCOJNOCHP;
+namespace RPG::Client { class MapDataKey; }
+namespace System { class Object; }
 
-class Class_1_24BE2DDB450DE83C;
-
-#define RPG_CLIENT_MAPDATAKEY_COMPARETO_OFFSET UNITYSDK_OFFSET(0x174CB420)
-#define RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET UNITYSDK_OFFSET(0x174CB210)
-#define RPG_CLIENT_MAPDATAKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x174CB4D0)
-#define RPG_CLIENT_MAPDATAKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x174CB340)
-#define RPG_CLIENT_MAPDATAKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x174CB590)
-#define RPG_CLIENT_MAPDATAKEY_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x174CB610)
-#define RPG_CLIENT_MAPDATAKEY_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x174CB5F0)
-#define RPG_CLIENT_MAPDATAKEY_GET_ISCURRENTMAP_OFFSET UNITYSDK_OFFSET(0x174CB1C0)
-#define RPG_CLIENT_MAPDATAKEY_GET_ISINONLINEPLAYROOM_OFFSET UNITYSDK_OFFSET(0x174CB620)
-#define RPG_CLIENT_MAPDATAKEY_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x174CB600)
-#define RPG_CLIENT_MAPDATAKEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x174CB290)
-#define RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x174CB630)
-#define RPG_CLIENT_MAPDATAKEY_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x174CB3C0)
-#define RPG_CLIENT_MAPDATAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x174CB1A0)
+#define RPG_CLIENT_MAPDATAKEY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD5244F0)
+#define RPG_CLIENT_MAPDATAKEY_CTOR_OFFSET UNITYSDK_OFFSET(0xD524270)
+#define RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET UNITYSDK_OFFSET(0xD5242E0)
+#define RPG_CLIENT_MAPDATAKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xD5245A0)
+#define RPG_CLIENT_MAPDATAKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xD524410)
+#define RPG_CLIENT_MAPDATAKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xD524660)
+#define RPG_CLIENT_MAPDATAKEY_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xD5246E0)
+#define RPG_CLIENT_MAPDATAKEY_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0xD5246C0)
+#define RPG_CLIENT_MAPDATAKEY_GET_ISCURRENTMAP_OFFSET UNITYSDK_OFFSET(0xD524290)
+#define RPG_CLIENT_MAPDATAKEY_GET_ISINONLINEPLAYROOM_OFFSET UNITYSDK_OFFSET(0xD5246F0)
+#define RPG_CLIENT_MAPDATAKEY_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0xD5246D0)
+#define RPG_CLIENT_MAPDATAKEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xD524360)
+#define RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0xD524700)
+#define RPG_CLIENT_MAPDATAKEY_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xD524490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDataKey_TypeDefinitionIndex = 66411;
+	inline static constexpr unsigned int MapDataKey_TypeDefinitionIndex = 66371;
 
 	class MapDataKey : public ::System::Object
 	{
 	public:
-		::System::UInt32 _FloorID_k__BackingField; // 0x10
-		::System::UInt32 _StoryLineID_k__BackingField; // 0x14
-		::System::Boolean _IsInOnlinePlayRoom_k__BackingField; // 0x18
+		::System::UInt32 _StoryLineID_k__BackingField; // 0x10
+		::System::Boolean _IsInOnlinePlayRoom_k__BackingField; // 0x14
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _FloorID_k__BackingField; // 0x18
 		::System::UInt32 _ContentID_k__BackingField; // 0x1C
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_IsCurrentMap()
@@ -41,9 +42,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_GET_ISCURRENTMAP_OFFSET))(this);
 		}
 
-		::System::Void Deconstruct(::System::UInt32& a1, ::System::UInt32& a2, ::System::UInt32& a3, ::System::Boolean& a4)
+		::System::Void Deconstruct(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean op_Equality(::RPG::Client::MapDataKey* a1, ::RPG::Client::MapDataKey* a2)
@@ -96,9 +97,10 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_GET_ISINONLINEPLAYROOM_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MapDataKey* op_Explicit(::Class_1_24BE2DDB450DE83C* a1)
+		static ::RPG::Client::MapDataKey* op_Explicit(::PNHCOJNOCHP* a1)
 		{
-			return ((::RPG::Client::MapDataKey*(*)(::Class_1_24BE2DDB450DE83C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET))(a1);
+			return ((::RPG::Client::MapDataKey*(*)(::PNHCOJNOCHP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET))(a1);
 		}
+
 	};
 }

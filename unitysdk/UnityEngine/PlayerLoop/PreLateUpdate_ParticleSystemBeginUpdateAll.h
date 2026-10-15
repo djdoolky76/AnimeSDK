@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_ParticleSystemBeginUpdateAll_TypeDefinitionIndex = 4620;
+	inline static constexpr unsigned int PreLateUpdate_ParticleSystemBeginUpdateAll_TypeDefinitionIndex = 4624;
 
-	struct alignas(1) PreLateUpdate_ParticleSystemBeginUpdateAll
+	struct alignas(4) PreLateUpdate_ParticleSystemBeginUpdateAll
 	{
 	};
 }

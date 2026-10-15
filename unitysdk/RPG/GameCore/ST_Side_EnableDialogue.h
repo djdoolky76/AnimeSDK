@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Side_EnableDialogue; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A2B80F9F16B7FDCD_OFFSET UNITYSDK_OFFSET(0x1DB41F40)
-#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A8AC9FFC61C5F58E_OFFSET UNITYSDK_OFFSET(0x1DB41F80)
-#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41F70)
+#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA559E0)
+#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA559F0)
+#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA559B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_EnableDialogue_TypeDefinitionIndex = 19909;
+	inline static constexpr unsigned int ST_Side_EnableDialogue_TypeDefinitionIndex = 20145;
 
 	class ST_Side_EnableDialogue : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Boolean Inverse; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A2B80F9F16B7FDCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_EnableDialogue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Side_EnableDialogue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_EnableDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A2B80F9F16B7FDCD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Side_EnableDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A8AC9FFC61C5F58E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_EnableDialogue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Side_EnableDialogue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_EnableDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A8AC9FFC61C5F58E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Side_EnableDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

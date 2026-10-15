@@ -3,14 +3,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraFollowClampMask_TypeDefinitionIndex = 18403;
+	inline static constexpr unsigned int FiveDimCameraFollowClampMask_TypeDefinitionIndex = 18614;
 
 	enum class FiveDimCameraFollowClampMask : ::System::UInt32
 	{
-		None = 0x0,
-		Left = 0x1,
-		Down = 0x2,
-		Right = 0x4,
-		Up = 0x8,
+		None = 0,
+		Left = 1,
+		Down = 2,
+		Right = 4,
+		Up = 8,
 	};
 }

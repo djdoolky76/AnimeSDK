@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Billboard { class BillboardIdentifier; }
+namespace RPG::Client::Billboard { class EntityTemporaryBillboardHost; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CREATE_OFFSET UNITYSDK_OFFSET(0x1BD8BE70)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETATTACHTRANS_OFFSET UNITYSDK_OFFSET(0x1BD8C220)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETCURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x1BD8C030)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1BD8C020)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x1BD8C420)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8BF70)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__ONENTITYDISPOSED_OFFSET UNITYSDK_OFFSET(0x1BD8C490)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CREATE_OFFSET UNITYSDK_OFFSET(0xC87A540)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CTOR_OFFSET UNITYSDK_OFFSET(0xC87A640)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETATTACHTRANS_OFFSET UNITYSDK_OFFSET(0xC87A900)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETCURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0xC87A710)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xC87A700)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xC87AB00)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__ONENTITYDISPOSED_OFFSET UNITYSDK_OFFSET(0xC87AB70)
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int EntityTemporaryBillboardHost_TypeDefinitionIndex = 74682;
+	inline static constexpr unsigned int EntityTemporaryBillboardHost_TypeDefinitionIndex = 74973;
 
 	class EntityTemporaryBillboardHost : public ::System::Object
 	{
 	public:
-		::RPG::Client::Billboard::BillboardIdentifier* _Identifier_k__BackingField; // 0x10
-		::RPG::GameCore::GameEntity* _OwnerRef; // 0x18
-		::UnityEngine::Transform* _AttachTrans; // 0x20
-
+		::UnityEngine::Transform* _AttachTrans; // 0x10
+		::RPG::Client::Billboard::BillboardIdentifier* _Identifier_k__BackingField; // 0x18
+		::RPG::GameCore::GameEntity* _OwnerRef; // 0x20
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::Billboard::EntityTemporaryBillboardHost* Create(::RPG::GameCore::GameEntity* a1)
@@ -59,5 +58,6 @@ namespace RPG::Client::Billboard
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__ONENTITYDISPOSED_OFFSET))(this, a1);
 		}
+
 	};
 }

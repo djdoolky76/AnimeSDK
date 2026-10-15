@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CaseContainerBase.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropStateCaseContainer; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PROPSTATECASECONTAINER_METHOD_3_18B2B0489BD6381D_OFFSET UNITYSDK_OFFSET(0x1D1860C0)
-#define RPG_GAMECORE_PROPSTATECASECONTAINER_METHOD_3_A80055AD47D35142_OFFSET UNITYSDK_OFFSET(0x1D186100)
-#define RPG_GAMECORE_PROPSTATECASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1860F0)
+#define RPG_GAMECORE_PROPSTATECASECONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92AB60)
+#define RPG_GAMECORE_PROPSTATECASECONTAINER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92AB70)
+#define RPG_GAMECORE_PROPSTATECASECONTAINER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92AB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateCaseContainer_TypeDefinitionIndex = 17340;
+	inline static constexpr unsigned int PropStateCaseContainer_TypeDefinitionIndex = 17536;
 
 	class PropStateCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
 	public:
 		::RPG::GameCore::PropState Case; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECASECONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECASECONTAINER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_18B2B0489BD6381D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateCaseContainer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropStateCaseContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECASECONTAINER_METHOD_3_18B2B0489BD6381D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropStateCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECASECONTAINER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A80055AD47D35142(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateCaseContainer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropStateCaseContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECASECONTAINER_METHOD_3_A80055AD47D35142_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropStateCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECASECONTAINER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_INCREMENTALREADDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACD790)
+#define SYSTEM_XML_INCREMENTALREADDECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE77DA0)
 
 namespace System::Xml
 {
@@ -13,7 +13,8 @@ namespace System::Xml
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_INCREMENTALREADDECODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_INCREMENTALREADDECODER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

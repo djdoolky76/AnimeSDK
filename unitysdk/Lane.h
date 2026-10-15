@@ -5,48 +5,49 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 class CarFlowIntersectionRule;
 class CarFlowRoad;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LANE_METHOD_1_38E9BC70BF28BB8A_OFFSET UNITYSDK_OFFSET(0x1A47A730)
-#define LANE_METHOD_1_760A499C0F97691D_OFFSET UNITYSDK_OFFSET(0x1A47ABB0)
-#define LANE_METHOD_1_7C1B6B35D7575FE1_OFFSET UNITYSDK_OFFSET(0x1A47A900)
-#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47AE30)
+#define LANE_CBHCBKNDPAM_OFFSET UNITYSDK_OFFSET(0xB8305F0)
+#define LANE_CTOR_OFFSET UNITYSDK_OFFSET(0xB830B20)
+#define LANE_DCCOFIEJIAA_OFFSET UNITYSDK_OFFSET(0xB8308A0)
+#define LANE_FDFLDCEFDOE_OFFSET UNITYSDK_OFFSET(0xB830420)
 
-inline static constexpr unsigned int Lane_TypeDefinitionIndex = 47540;
+inline static constexpr unsigned int Lane_TypeDefinitionIndex = 47080;
 
-class Lane : public ::System::Object
-{
-public:
-	::System::Single LaneWidth; // 0x10
-	::System::Single PositionOffset; // 0x14
-	::System::Boolean IsSameWay; // 0x18
-	::System::Single Weight; // 0x1C
-	::LaneSpecialType LaneType; // 0x20
-	::System::Collections::Generic::List_1<::CarFlowIntersectionRule*>* Rules; // 0x28
-	::CarFlowRoad* ParentRoad; // 0x30
-	::System::Single SpawnTimer; // 0x38
-	::System::Single NextSpawnInterval; // 0x3C
-
-	::System::Void _ctor()
+	class Lane : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Single LaneWidth; // 0x10
+		::System::Single PositionOffset; // 0x14
+		::System::Boolean IsSameWay; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single Weight; // 0x1C
+		::LaneSpecialType LaneType; // 0x20
+		::System::Byte _padding1[0x4];
+		::System::Collections::Generic::List_1<::CarFlowIntersectionRule*>* Rules; // 0x28
+		::CarFlowRoad* ParentRoad; // 0x30
+		::System::Single SpawnTimer; // 0x38
+		::System::Single NextSpawnInterval; // 0x3C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_CTOR_OFFSET))(this);
+		}
 
-	::UnityEngine::Vector3 Method_1_38E9BC70BF28BB8A(::System::Single a1)
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_38E9BC70BF28BB8A_OFFSET))(this, a1);
-	}
+		::UnityEngine::Vector3 FDFLDCEFDOE(::System::Single a1)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_FDFLDCEFDOE_OFFSET))(this, a1);
+		}
 
-	::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> Method_1_7C1B6B35D7575FE1(::System::Single a1)
-	{
-		return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_7C1B6B35D7575FE1_OFFSET))(this, a1);
-	}
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> CBHCBKNDPAM(::System::Single a1)
+		{
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_CBHCBKNDPAM_OFFSET))(this, a1);
+		}
 
-	::System::Int32 Method_1_760A499C0F97691D()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_METHOD_1_760A499C0F97691D_OFFSET))(this);
-	}
-};
+		::System::Int32 DCCOFIEJIAA()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_DCCOFIEJIAA_OFFSET))(this);
+		}
+
+	};

@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
+class FCOEMCEDLNL;
+class NHIBHAEEOOE;
+namespace RPG::GameCore { class PerformanceSkipPackRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-class Class_1_7A8FB7EDAFC5C8F4;
-
-#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D42BF50)
-#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D42C090)
-#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D42BEE0)
-#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D42BF40)
-#define RPG_GAMECORE_PERFORMANCESKIPPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42C1E0)
+#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D8E50)
+#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D8D8BC0)
+#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8D8D00)
+#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D8D8B50)
+#define RPG_GAMECORE_PERFORMANCESKIPPACKROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D8D8BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipPackRow_TypeDefinitionIndex = 14261;
+	inline static constexpr unsigned int PerformanceSkipPackRow_TypeDefinitionIndex = 14368;
 
 	class PerformanceSkipPackRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_7A8FB7EDAFC5C8F4*>* PackList; // 0x10
+		::Il2CppArray<::NHIBHAEEOOE*>* PackList; // 0x10
 		::System::UInt32 PackID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
@@ -37,14 +36,15 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSkipPackRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::PerformanceSkipPackRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipPackRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PerformanceSkipPackRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSkipPackRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PerformanceSkipPackRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipPackRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PerformanceSkipPackRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPPACKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

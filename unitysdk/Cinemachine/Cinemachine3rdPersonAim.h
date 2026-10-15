@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace Cinemachine { class ICinemachineCamera; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_DRAWRETICLE_OFFSET UNITYSDK_OFFSET(0x18C387E0)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_GETLOOKATPOINT_OFFSET UNITYSDK_OFFSET(0x18C392D0)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x18C38680)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18C38640)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x18C39630)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_RESET_OFFSET UNITYSDK_OFFSET(0x18C38650)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C39710)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x16655BC0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_DRAWRETICLE_OFFSET UNITYSDK_OFFSET(0x16654C90)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_GETLOOKATPOINT_OFFSET UNITYSDK_OFFSET(0x16655780)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x16654B30)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x16654AF0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x16655AE0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_RESET_OFFSET UNITYSDK_OFFSET(0x16654B00)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int Cinemachine3rdPersonAim_TypeDefinitionIndex = 38417;
+	inline static constexpr unsigned int Cinemachine3rdPersonAim_TypeDefinitionIndex = 39714;
 
 	class Cinemachine3rdPersonAim : public ::Cinemachine::CinemachineExtension
 	{
 	public:
 		::UnityEngine::LayerMask AimCollisionFilter; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* IgnoreTag; // 0x30
 		::System::Single AimDistance; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::RectTransform* AimTargetReticle; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnValidate()
@@ -57,14 +57,15 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_DRAWRETICLE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GetLookAtPoint(::Cinemachine::CameraState& a1)
+		::UnityEngine::Vector3 GetLookAtPoint(::Cinemachine::CameraState a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_GETLOOKATPOINT_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_GETLOOKATPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

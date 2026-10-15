@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CumulativeConsumptionTierState.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class CumulativeConsumptionActivity; }
+namespace RPG::Client { class CumulativeConsumptionTier; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::GameCore { class RechargeBenefitDataRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET UNITYSDK_OFFSET(0x1A2AC2B0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x1A2AD200)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A2AD050)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A2AD0A0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1A2AD110)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_TARGETQUANTITY_OFFSET UNITYSDK_OFFSET(0x1A2AB720)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0x1A2AD290)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2AD1B0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET UNITYSDK_OFFSET(0xCBCE3B0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBCE480)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET UNITYSDK_OFFSET(0xCBCE4D0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xCBCE200)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCBCE250)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xCBCE310)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_TARGETQUANTITY_OFFSET UNITYSDK_OFFSET(0xCBCE2C0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xCBCE560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 63603;
+	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 63541;
 
 	class CumulativeConsumptionTier : public ::System::Object
 	{
 	public:
 		::RPG::Client::CumulativeConsumptionActivity* _Owner; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems; // 0x18
-		::RPG::GameCore::RechargeBenefitDataRow* _Meta; // 0x20
-
+		::RPG::GameCore::RechargeBenefitDataRow* _Meta; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems; // 0x20
 		::System::Void _ctor(::RPG::GameCore::RechargeBenefitDataRow* a1, ::RPG::Client::CumulativeConsumptionActivity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RechargeBenefitDataRow*, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RechargeBenefitDataRow*, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -68,5 +67,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET))(this);
 		}
+
 	};
 }

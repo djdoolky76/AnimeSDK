@@ -3,26 +3,26 @@
 #include "unitysdk/RefGPUParticleSystem_ValueMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define FLOATCURVEBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D967170)
+#define FLOATCURVEBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB90260)
 
-inline static constexpr unsigned int FloatCurveBundle_TypeDefinitionIndex = 42292;
+inline static constexpr unsigned int FloatCurveBundle_TypeDefinitionIndex = 43979;
 
-class FloatCurveBundle : public ::System::Object
-{
-public:
-	::RefGPUParticleSystem_ValueMode mode; // 0x10
-	::System::Single value1; // 0x14
-	::System::Single value2; // 0x18
-	::UnityEngine::AnimationCurve* curve1; // 0x20
-	::UnityEngine::AnimationCurve* curve2; // 0x28
-	::UnityEngine::Vector2 minMax; // 0x30
-	::System::Single seed; // 0x38
-
-	::System::Void _ctor(::System::Single a1, ::System::Single a2)
+	class FloatCurveBundle : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + FLOATCURVEBUNDLE__CTOR_OFFSET))(this, a1, a2);
-	}
-};
+	public:
+		::RefGPUParticleSystem_ValueMode mode; // 0x10
+		::System::Single value1; // 0x14
+		::System::Single value2; // 0x18
+		::System::Byte _padding0[0x4];
+		::UnityEngine::AnimationCurve* curve1; // 0x20
+		::UnityEngine::AnimationCurve* curve2; // 0x28
+		::UnityEngine::Vector2 minMax; // 0x30
+		::System::Single seed; // 0x38
+		::System::Void _ctor(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + FLOATCURVEBUNDLE_CTOR_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -3,17 +3,18 @@
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/RPG/GameCore/FollowMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvNpcFollowPlayer; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_CC9AEFF5AD4DE287_OFFSET UNITYSDK_OFFSET(0x1D6BFAC0)
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_E8CFB935859B4E13_OFFSET UNITYSDK_OFFSET(0x1D6BFA00)
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BFA70)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D379340)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D379390)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3792D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 19753;
+	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 19987;
 
 	class AdvNpcFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,6 +31,7 @@ namespace RPG::GameCore
 		::System::Single ProtectTransferDistance; // 0x40
 		::System::Boolean NoAutoDisableTalk; // 0x44
 		::System::Boolean NeedAvoid; // 0x45
+		::System::Byte _padding0[0x2];
 		::System::Single StartAvoidDistance; // 0x48
 		::System::Single StartAvoidTime; // 0x4C
 		::System::Single KeepDistance; // 0x50
@@ -39,23 +41,24 @@ namespace RPG::GameCore
 		::System::Single PuppyKeepAngle; // 0x60
 		::System::Single PuppyKeepAngleExclude; // 0x64
 		::System::Single PuppyEnterFollowOffset; // 0x68
+		::System::Byte _padding1[0x4];
 		::System::String* PuppySpeedCurveAsset; // 0x70
 		::System::Single PuppyAcceleration; // 0x78
 		::System::Single NavigationTestThreshold; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E8CFB935859B4E13(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNpcFollowPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_E8CFB935859B4E13_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNpcFollowPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CC9AEFF5AD4DE287(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNpcFollowPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_CC9AEFF5AD4DE287_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNpcFollowPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

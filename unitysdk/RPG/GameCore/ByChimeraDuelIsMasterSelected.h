@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByChimeraDuelIsMasterSelected; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_1DAA222659CC2643_OFFSET UNITYSDK_OFFSET(0x1C305D70)
-#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_525B4DA2CD16C60C_OFFSET UNITYSDK_OFFSET(0x1C305DA0)
-#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_D7DAAC50D7F0DDFA_OFFSET UNITYSDK_OFFSET(0x1C305BC0)
-#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_DD6DF32DC627F547_OFFSET UNITYSDK_OFFSET(0x1C305C00)
-#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C305BF0)
+#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D46AAF0)
+#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D46ACA0)
+#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D46AC70)
+#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D46AB00)
+#define RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D46AAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByChimeraDuelIsMasterSelected_TypeDefinitionIndex = 24030;
+	inline static constexpr unsigned int ByChimeraDuelIsMasterSelected_TypeDefinitionIndex = 24305;
 
 	class ByChimeraDuelIsMasterSelected : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::UInt32 MasterID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D7DAAC50D7F0DDFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_D7DAAC50D7F0DDFA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DD6DF32DC627F547(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_DD6DF32DC627F547_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1DAA222659CC2643(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_1DAA222659CC2643_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_525B4DA2CD16C60C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByChimeraDuelIsMasterSelected* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_METHOD_4_525B4DA2CD16C60C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByChimeraDuelIsMasterSelected*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHIMERADUELISMASTERSELECTED_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class EventArgs; }
+namespace System { class Object; }
 namespace System::Net { class WebConnection; }
 
-#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET UNITYSDK_OFFSET(0x1B980290)
-#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9774C0)
+#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET UNITYSDK_OFFSET(0x1F0699C0)
+#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F060D10)
 
 namespace System::Net
 {
@@ -16,15 +16,15 @@ namespace System::Net
 	{
 	public:
 		::System::Net::WebConnection* Connection; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_ABORTHELPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Abort(::System::Object* a1, ::System::EventArgs* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::EventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

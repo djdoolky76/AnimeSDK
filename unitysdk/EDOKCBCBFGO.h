@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/SubMissionState.h"
+namespace RPG { template <typename T> class PoolHashSet_1; }
+namespace RPG::Client { class MapDef; }
+namespace RPG::Client { class MissionModule; }
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class WaitSubMissionStateChange; }
+
+#define EDOKCBCBFGO_CKADGNFLODD_OFFSET UNITYSDK_OFFSET(0x13329A40)
+#define EDOKCBCBFGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13329350)
+#define EDOKCBCBFGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13329700)
+#define EDOKCBCBFGO__PREPAREDATA_OFFSET UNITYSDK_OFFSET(0x13329770)
+#define EDOKCBCBFGO__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x133298C0)
+#define EDOKCBCBFGO__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x13329980)
+
+inline static constexpr unsigned int EDOKCBCBFGO_TypeDefinitionIndex = 53495;
+
+	class EDOKCBCBFGO
+	{
+	public:
+		::RPG::PoolHashSet_1<::System::UInt32>* LKAKKKHGMHK; // 0x68
+		::RPG::Client::MapDef* KKKADHHBMLD; // 0x70
+		::RPG::Client::MissionModule* JOMIMCLABPL; // 0x78
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitSubMissionStateChange* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitSubMissionStateChange*))((::PBYTE)hIl2Cpp + EDOKCBCBFGO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDOKCBCBFGO_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean _PrepareData()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EDOKCBCBFGO__PREPAREDATA_OFFSET))(this);
+		}
+
+		::System::Void _RegisterEventCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDOKCBCBFGO__REGISTEREVENTCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void _UnregisterEventCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDOKCBCBFGO__UNREGISTEREVENTCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void CKADGNFLODD(::System::UInt32 a1, ::RPG::GameCore::SubMissionState a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::SubMissionState, ::System::Boolean))((::PBYTE)hIl2Cpp + EDOKCBCBFGO_CKADGNFLODD_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

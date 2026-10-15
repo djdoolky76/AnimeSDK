@@ -1,42 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
-class Class_3_7E850DDB8FBC5CC5;
+class MDHKPOLCNOK;
 namespace RPGTools::Timeline { class CumulativeScoreBoardClipData; }
 namespace RPGTools::Timeline { class ShowCumulativeScoreBoardClip; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B0C1850)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_METHOD_2_700EA064073BB2CC_OFFSET UNITYSDK_OFFSET(0x1B0C1A60)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B0C1870)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B0C1860)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0C1C00)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C1BF0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92E470)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE92E460)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE92E0C0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_IHFNBHEIIAI_OFFSET UNITYSDK_OFFSET(0xE92E2D0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE92E0E0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE92E0D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowCumulativeScoreBoardBehaviour_TypeDefinitionIndex = 48736;
+	inline static constexpr unsigned int ShowCumulativeScoreBoardBehaviour_TypeDefinitionIndex = 48276;
 
 	class ShowCumulativeScoreBoardBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
+		::RPGTools::Timeline::ShowCumulativeScoreBoardClip* _Clip_k__BackingField; // 0x10
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowCumulativeScoreBoardBehaviour_TypeDefinitionIndex)->GetStaticField(0x46300);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowCumulativeScoreBoardBehaviour")->GetStaticField(0x6FE10);
 		}
-		::RPGTools::Timeline::ShowCumulativeScoreBoardClip* _Clip_k__BackingField; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_CCTOR_OFFSET))();
 		}
 
 		::RPGTools::Timeline::ShowCumulativeScoreBoardClip* get_Clip()
@@ -54,9 +53,10 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::Class_3_7E850DDB8FBC5CC5* Method_2_700EA064073BB2CC(::RPGTools::Timeline::CumulativeScoreBoardClipData* a1)
+		::MDHKPOLCNOK* IHFNBHEIIAI(::RPGTools::Timeline::CumulativeScoreBoardClipData* a1)
 		{
-			return ((::Class_3_7E850DDB8FBC5CC5*(*)(::PVOID, ::RPGTools::Timeline::CumulativeScoreBoardClipData*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_METHOD_2_700EA064073BB2CC_OFFSET))(this, a1);
+			return ((::MDHKPOLCNOK*(*)(::PVOID, ::RPGTools::Timeline::CumulativeScoreBoardClipData*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDBEHAVIOUR_IHFNBHEIIAI_OFFSET))(this, a1);
 		}
+
 	};
 }

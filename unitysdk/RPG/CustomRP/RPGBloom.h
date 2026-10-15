@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class AllBloomStageParameter; }
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class Vector4Parameter; }
 
-#define RPG_CUSTOMRP_RPGBLOOM_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x185861F0)
-#define RPG_CUSTOMRP_RPGBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x185862D0)
+#define RPG_CUSTOMRP_RPGBLOOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0EBC0)
+#define RPG_CUSTOMRP_RPGBLOOM_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC0EAE0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGBloom_TypeDefinitionIndex = 37105;
+	inline static constexpr unsigned int RPGBloom_TypeDefinitionIndex = 37790;
 
 	class RPGBloom : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -26,15 +25,15 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::Vector4Parameter* QualityScale; // 0x68
 		::UnityEngine::Rendering::Vector4Parameter* FixedRTHeight; // 0x70
 		::UnityEngine::Rendering::BoolParameter* UseFixedRTHeight; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGBLOOM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGBLOOM_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsActiveImpl()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGBLOOM_ISACTIVEIMPL_OFFSET))(this);
 		}
+
 	};
 }

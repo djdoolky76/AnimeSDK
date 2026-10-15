@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7BC80)
-#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7BCB0)
-#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7BC70)
-#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7BC00)
+#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF548B0)
+#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF54830)
+#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF548E0)
+#define MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF548A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_PS5FriendDelegate_TypeDefinitionIndex = 7705;
+	inline static constexpr unsigned int PSDelegate_PS5FriendDelegate_TypeDefinitionIndex = 7749;
 
 	class PSDelegate_PS5FriendDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_PS5FRIENDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

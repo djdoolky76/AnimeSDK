@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriFsInstallRequest.h"
-
 namespace CriWare { class CriFsBinder; }
 namespace CriWare { class CriFsInstaller; }
 namespace CriWare { class CriFsRequest_DoneDelegate; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D388FF0)
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_STOP_OFFSET UNITYSDK_OFFSET(0x1D388690)
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D388B90)
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3887A0)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_CTOR_OFFSET UNITYSDK_OFFSET(0x16703ED0)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16704720)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_STOP_OFFSET UNITYSDK_OFFSET(0x16703DC0)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_UPDATE_OFFSET UNITYSDK_OFFSET(0x167042C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstallRequestLegacy_TypeDefinitionIndex = 38815;
+	inline static constexpr unsigned int CriFsInstallRequestLegacy_TypeDefinitionIndex = 40112;
 
 	class CriFsInstallRequestLegacy : public ::CriWare::CriFsInstallRequest
 	{
 	public:
 		::CriWare::CriFsInstaller* installer; // 0x50
-
 		::System::Void _ctor(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::String* a3, ::CriWare::CriFsRequest_DoneDelegate* a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::CriWare::CriFsRequest_DoneDelegate*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUESTLEGACY__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::CriWare::CriFsRequest_DoneDelegate*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUESTLEGACY_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Stop()
@@ -40,5 +38,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUESTLEGACY_DISPOSE_OFFSET))(this, a1);
 		}
+
 	};
 }

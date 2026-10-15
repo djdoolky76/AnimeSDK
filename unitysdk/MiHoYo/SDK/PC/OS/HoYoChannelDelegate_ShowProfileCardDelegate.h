@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowProfileCardParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowProfileCardResult; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ABC81F0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ABC8230)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ABC81E0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABC80F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF9020)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF8F20)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF9060)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF9010)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_ShowProfileCardDelegate_TypeDefinitionIndex = 8498;
+	inline static constexpr unsigned int HoYoChannelDelegate_ShowProfileCardDelegate_TypeDefinitionIndex = 8558;
 
 	class HoYoChannelDelegate_ShowProfileCardDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardResult*>* a2)
@@ -40,5 +39,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SHOWPROFILECARDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

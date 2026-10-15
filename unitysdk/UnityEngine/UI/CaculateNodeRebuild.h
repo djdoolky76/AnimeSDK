@@ -1,51 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine::UI { class CaculateNodeData; }
+namespace UnityEngine::UI { class CaculateNodeRebuild; }
 namespace UnityEngine::UI { class TextScanner; }
 
-#define UNITYENGINE_UI_CACULATENODEREBUILD_MERGETOPOPERATOR_OFFSET UNITYSDK_OFFSET(0x1B7785B0)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B777BC0)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READCACULATENODE_OFFSET UNITYSDK_OFFSET(0x1B777A50)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READDIGITS_OFFSET UNITYSDK_OFFSET(0x1B778CA0)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READNUMBER_OFFSET UNITYSDK_OFFSET(0x1B778750)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1B778670)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READOPERATOR_OFFSET UNITYSDK_OFFSET(0x1B778480)
-#define UNITYENGINE_UI_CACULATENODEREBUILD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B779290)
-#define UNITYENGINE_UI_CACULATENODEREBUILD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B779130)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4B48B0)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B4750)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_MERGETOPOPERATOR_OFFSET UNITYSDK_OFFSET(0x1F4B3BD0)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F4B31E0)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READCACULATENODE_OFFSET UNITYSDK_OFFSET(0x1F4B3070)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READDIGITS_OFFSET UNITYSDK_OFFSET(0x1F4B42C0)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READNUMBER_OFFSET UNITYSDK_OFFSET(0x1F4B3D70)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4B3C90)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READOPERATOR_OFFSET UNITYSDK_OFFSET(0x1F4B3AA0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CaculateNodeRebuild_TypeDefinitionIndex = 6747;
+	inline static constexpr unsigned int CaculateNodeRebuild_TypeDefinitionIndex = 6756;
 
 	class CaculateNodeRebuild : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::CaculateNodeRebuild** StaticGet_NodeBuilder()
-		{
-			return (::UnityEngine::UI::CaculateNodeRebuild**)Il2CppClass::FromTypeDefinitionIndex(CaculateNodeRebuild_TypeDefinitionIndex)->GetStaticField(0x2AF70);
-		}
-		static ::UnityEngine::UI::TextScanner** StaticGet_scanner()
-		{
-			return (::UnityEngine::UI::TextScanner**)Il2CppClass::FromTypeDefinitionIndex(CaculateNodeRebuild_TypeDefinitionIndex)->GetStaticField(0x2AF78);
-		}
 		::System::Text::StringBuilder* builder; // 0x10
 		::System::Collections::Generic::Stack_1<::System::Int32>* mBrackets; // 0x18
 		::System::Collections::Generic::Stack_1<::UnityEngine::UI::CaculateNodeData*>* mValueStack; // 0x20
 		::System::Collections::Generic::Stack_1<::UnityEngine::UI::CaculateNodeData*>* mOpStack; // 0x28
+		static ::UnityEngine::UI::CaculateNodeRebuild** StaticGet_NodeBuilder()
+		{
+			return (::UnityEngine::UI::CaculateNodeRebuild**)UnitySDK::FromName("UnityEngine.UI", "CaculateNodeRebuild")->GetStaticField(0x303D0);
+		}
+
+		static ::UnityEngine::UI::TextScanner** StaticGet_scanner()
+		{
+			return (::UnityEngine::UI::TextScanner**)UnitySDK::FromName("UnityEngine.UI", "CaculateNodeRebuild")->GetStaticField(0x303D8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEREBUILD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEREBUILD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEREBUILD__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEREBUILD_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::UI::CaculateNodeData* ReadCaculateNode(::System::String* a1)
@@ -82,5 +83,6 @@ namespace UnityEngine::UI
 		{
 			return ((::UnityEngine::UI::CaculateNodeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEREBUILD_READOPERATOR_OFFSET))(this);
 		}
+
 	};
 }

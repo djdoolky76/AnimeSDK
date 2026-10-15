@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HBFIBDGJLHE_APICCADOKMH;
+namespace System { class String; }
+
+#define HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15BF55A0)
+#define HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_GET_INTERSECTIONNAME_OFFSET UNITYSDK_OFFSET(0x15BF5BC0)
+#define HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_GET_INTERSECTION_OFFSET UNITYSDK_OFFSET(0x15BF5BE0)
+#define HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0x15BF55B0)
+#define HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_SET_INTERSECTIONNAME_OFFSET UNITYSDK_OFFSET(0x15BF5BD0)
+#define HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_SET_INTERSECTION_OFFSET UNITYSDK_OFFSET(0x15BF5BF0)
+
+inline static constexpr unsigned int HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_TypeDefinitionIndex = 82180;
+
+	class HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH : public ::System::Object
+	{
+	public:
+		::System::String* _IntersectionName_k__BackingField; // 0x10
+		::HBFIBDGJLHE_APICCADOKMH* _Intersection_k__BackingField; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_IntersectionName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_GET_INTERSECTIONNAME_OFFSET))(this);
+		}
+
+		::System::Void set_IntersectionName(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_SET_INTERSECTIONNAME_OFFSET))(this, a1);
+		}
+
+		::HBFIBDGJLHE_APICCADOKMH* get_Intersection()
+		{
+			return ((::HBFIBDGJLHE_APICCADOKMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_GET_INTERSECTION_OFFSET))(this);
+		}
+
+		::System::Void set_Intersection(::HBFIBDGJLHE_APICCADOKMH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HBFIBDGJLHE_APICCADOKMH*))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_SET_INTERSECTION_OFFSET))(this, a1);
+		}
+
+		::System::Single NHONNHCIOOJ()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_NOIHNPGDCDL_BCGAEDNPJKH_NHONNHCIOOJ_OFFSET))(this);
+		}
+
+	};

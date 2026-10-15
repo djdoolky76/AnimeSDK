@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int SpeedEffectPartOffset_TypeDefinitionIndex = 75466;
+	inline static constexpr unsigned int SpeedEffectPartOffset_TypeDefinitionIndex = 75881;
 
 	struct alignas(4) SpeedEffectPartOffset
 	{

@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_RECTINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C024A0)
-#define UNITYENGINE_RECTINT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x784470)
-#define UNITYENGINE_RECTINT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x12370)
-#define UNITYENGINE_RECTINT_GET_X_OFFSET UNITYSDK_OFFSET(0x19050)
-#define UNITYENGINE_RECTINT_GET_Y_OFFSET UNITYSDK_OFFSET(0x784260)
-#define UNITYENGINE_RECTINT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x3B8DEC0)
-#define UNITYENGINE_RECTINT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x379F970)
-#define UNITYENGINE_RECTINT_SET_X_OFFSET UNITYSDK_OFFSET(0x18EB0)
-#define UNITYENGINE_RECTINT_SET_Y_OFFSET UNITYSDK_OFFSET(0xB596A0)
-#define UNITYENGINE_RECTINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C64C10)
-#define UNITYENGINE_RECTINT__CTOR_OFFSET UNITYSDK_OFFSET(0x784430)
+#define UNITYENGINE_RECTINT_CTOR_OFFSET UNITYSDK_OFFSET(0x21D60)
+#define UNITYENGINE_RECTINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C72FD0)
+#define UNITYENGINE_RECTINT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x21140)
+#define UNITYENGINE_RECTINT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define UNITYENGINE_RECTINT_GET_X_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_RECTINT_GET_Y_OFFSET UNITYSDK_OFFSET(0xFDF0)
+#define UNITYENGINE_RECTINT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xE3080)
+#define UNITYENGINE_RECTINT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0xACF0)
+#define UNITYENGINE_RECTINT_SET_X_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define UNITYENGINE_RECTINT_SET_Y_OFFSET UNITYSDK_OFFSET(0xFE00)
+#define UNITYENGINE_RECTINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C72FC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectInt_TypeDefinitionIndex = 4081;
+	inline static constexpr unsigned int RectInt_TypeDefinitionIndex = 4082;
 
 	struct alignas(4) RectInt
 	{
@@ -26,10 +24,9 @@ namespace UnityEngine
 		::System::Int32 m_YMin; // 0x14
 		::System::Int32 m_Width; // 0x18
 		::System::Int32 m_Height; // 0x1C
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_x()
@@ -77,9 +74,12 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::RectInt a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RectInt))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_EQUALS_OFFSET))(this, a1);
 		}
+		*/
+
 	};
 }

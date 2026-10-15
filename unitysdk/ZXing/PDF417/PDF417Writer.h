@@ -3,28 +3,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::PDF417::Internal { class PDF417; }
 
-#define ZXING_PDF417_PDF417WRITER_BITMATRIXFROMBITARRAY_OFFSET UNITYSDK_OFFSET(0x16D71810)
-#define ZXING_PDF417_PDF417WRITER_BITMATRIXFROMENCODER_OFFSET UNITYSDK_OFFSET(0x16D714C0)
-#define ZXING_PDF417_PDF417WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16D6F7B0)
-#define ZXING_PDF417_PDF417WRITER_ROTATEARRAY_OFFSET UNITYSDK_OFFSET(0x16D715F0)
-#define ZXING_PDF417_PDF417WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D56E90)
+#define ZXING_PDF417_PDF417WRITER_BITMATRIXFROMBITARRAY_OFFSET UNITYSDK_OFFSET(0x1F6A40B0)
+#define ZXING_PDF417_PDF417WRITER_BITMATRIXFROMENCODER_OFFSET UNITYSDK_OFFSET(0x1F6A3D60)
+#define ZXING_PDF417_PDF417WRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F689790)
+#define ZXING_PDF417_PDF417WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6A2110)
+#define ZXING_PDF417_PDF417WRITER_ROTATEARRAY_OFFSET UNITYSDK_OFFSET(0x1F6A3E90)
 
 namespace ZXing::PDF417
 {
-	inline static constexpr unsigned int PDF417Writer_TypeDefinitionIndex = 7040;
+	inline static constexpr unsigned int PDF417Writer_TypeDefinitionIndex = 7049;
 
 	class PDF417Writer : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_PDF417_PDF417WRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_PDF417_PDF417WRITER_CTOR_OFFSET))(this);
 		}
 
 		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
@@ -46,5 +46,6 @@ namespace ZXing::PDF417
 		{
 			return ((::Il2CppArray<::Il2CppArray<::System::SByte>*>*(*)(::Il2CppArray<::Il2CppArray<::System::SByte>*>*))((::PBYTE)hIl2Cpp + ZXING_PDF417_PDF417WRITER_ROTATEARRAY_OFFSET))(a1);
 		}
+
 	};
 }

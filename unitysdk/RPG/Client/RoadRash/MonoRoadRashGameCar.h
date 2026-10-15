@@ -4,12 +4,11 @@
 #include "unitysdk/RPG/Client/RoadRash/MonoEffectConfig.h"
 #include "unitysdk/RPG/Client/RoadRash/MonoSpeedEffectConfig.h"
 #include "unitysdk/RPG/Client/RoadRash/RoadRashGameSettingsConfigure_ImpactEffectConfig.h"
-#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_230F5EDDB35DAEBA;
-class Class_3_CD59F26A5F0E803D;
+#include "unitysdk/System/ValueTuple_2.h"
+class GHMGGIHEHJE;
+class KPDKCEAFBHI;
 namespace RPG::Client { class NamedCurve; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -19,24 +18,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_AWAKE_OFFSET UNITYSDK_OFFSET(0x17994C90)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_BIND_OFFSET UNITYSDK_OFFSET(0x17994E30)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_COLLECTALLREFASSETPATH_OFFSET UNITYSDK_OFFSET(0x17994C00)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_FINDCURVE_OFFSET UNITYSDK_OFFSET(0x17994AB0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_BINDENTITY_OFFSET UNITYSDK_OFFSET(0x17994DF0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x17994E10)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_METHOD_5_4621217FC8B9E707_OFFSET UNITYSDK_OFFSET(0x17995540)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_METHOD_5_B53EC24F73349D5B_OFFSET UNITYSDK_OFFSET(0x17994F30)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x17994EE0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_ONTRIGGERSTAY_OFFSET UNITYSDK_OFFSET(0x179954F0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_BINDENTITY_OFFSET UNITYSDK_OFFSET(0x17994E00)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0x17994E20)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_UNBIND_OFFSET UNITYSDK_OFFSET(0x17994E90)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR__CTOR_OFFSET UNITYSDK_OFFSET(0x179955A0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_AWAKE_OFFSET UNITYSDK_OFFSET(0xDEC60F0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_BIND_OFFSET UNITYSDK_OFFSET(0xDEC6290)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_COLLECTALLREFASSETPATH_OFFSET UNITYSDK_OFFSET(0xDEC6060)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_CTOR_OFFSET UNITYSDK_OFFSET(0xDEC6A10)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_FINDCURVE_OFFSET UNITYSDK_OFFSET(0xDEC5F10)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_BINDENTITY_OFFSET UNITYSDK_OFFSET(0xDEC6250)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0xDEC6270)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_JHPDFKCJANG_OFFSET UNITYSDK_OFFSET(0xDEC69B0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_MMNMOFJBNJH_OFFSET UNITYSDK_OFFSET(0xDEC6390)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xDEC6340)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_ONTRIGGERSTAY_OFFSET UNITYSDK_OFFSET(0xDEC6960)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_BINDENTITY_OFFSET UNITYSDK_OFFSET(0xDEC6260)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0xDEC6280)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_UNBIND_OFFSET UNITYSDK_OFFSET(0xDEC62F0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGameCar_TypeDefinitionIndex = 75437;
+	inline static constexpr unsigned int MonoRoadRashGameCar_TypeDefinitionIndex = 75852;
 
 	class MonoRoadRashGameCar : public ::UnityEngine::MonoBehaviour
 	{
@@ -100,12 +99,11 @@ namespace RPG::Client::RoadRash
 		::Il2CppArray<::RPG::Client::RoadRash::MonoEffectConfig>* UltimateRecolorEffectConfigs; // 0x4C8
 		::RPG::Client::RoadRash::MonoEffectConfig SpeedLineDefaultEffectConfig; // 0x4D0
 		::RPG::Client::RoadRash::MonoEffectConfig SpeedLineBoostEffectConfig; // 0x500
-		::Class_2_230F5EDDB35DAEBA* _BindEntity_k__BackingField; // 0x530
-		::Class_3_CD59F26A5F0E803D* _Services_k__BackingField; // 0x538
-
+		::GHMGGIHEHJE* _BindEntity_k__BackingField; // 0x530
+		::KPDKCEAFBHI* _Services_k__BackingField; // 0x538
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::AnimationCurve* FindCurve(::System::String* a1)
@@ -123,29 +121,29 @@ namespace RPG::Client::RoadRash
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_AWAKE_OFFSET))(this);
 		}
 
-		::Class_2_230F5EDDB35DAEBA* get_BindEntity()
+		::GHMGGIHEHJE* get_BindEntity()
 		{
-			return ((::Class_2_230F5EDDB35DAEBA*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_BINDENTITY_OFFSET))(this);
+			return ((::GHMGGIHEHJE*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_BINDENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_BindEntity(::Class_2_230F5EDDB35DAEBA* a1)
+		::System::Void set_BindEntity(::GHMGGIHEHJE* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_BINDENTITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::GHMGGIHEHJE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_BINDENTITY_OFFSET))(this, a1);
 		}
 
-		::Class_3_CD59F26A5F0E803D* get_Services()
+		::KPDKCEAFBHI* get_Services()
 		{
-			return ((::Class_3_CD59F26A5F0E803D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_SERVICES_OFFSET))(this);
+			return ((::KPDKCEAFBHI*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_GET_SERVICES_OFFSET))(this);
 		}
 
-		::System::Void set_Services(::Class_3_CD59F26A5F0E803D* a1)
+		::System::Void set_Services(::KPDKCEAFBHI* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_CD59F26A5F0E803D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_SERVICES_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::KPDKCEAFBHI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_SET_SERVICES_OFFSET))(this, a1);
 		}
 
-		::System::Void Bind(::Class_2_230F5EDDB35DAEBA* a1, ::Class_3_CD59F26A5F0E803D* a2)
+		::System::Void Bind(::GHMGGIHEHJE* a1, ::KPDKCEAFBHI* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::Class_3_CD59F26A5F0E803D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_BIND_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::GHMGGIHEHJE*, ::KPDKCEAFBHI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_BIND_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Unbind()
@@ -163,14 +161,15 @@ namespace RPG::Client::RoadRash
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_ONTRIGGERSTAY_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_B53EC24F73349D5B(::UnityEngine::Collider* a1)
+		::System::Void MMNMOFJBNJH(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_METHOD_5_B53EC24F73349D5B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_MMNMOFJBNJH_OFFSET))(this, a1);
 		}
 
-		static ::System::ValueTuple_2<::System::Boolean, ::System::Boolean> Method_5_4621217FC8B9E707(::RPG::Client::B51Racing::RoadRashGameHitSource a1, ::RPG::Client::B51Racing::RoadRashGameHitSource a2)
+		static ::System::ValueTuple_2<::System::Boolean, ::System::Boolean> JHPDFKCJANG(::RPG::Client::B51Racing::RoadRashGameHitSource a1, ::RPG::Client::B51Racing::RoadRashGameHitSource a2)
 		{
-			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::RPG::Client::B51Racing::RoadRashGameHitSource, ::RPG::Client::B51Racing::RoadRashGameHitSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_METHOD_5_4621217FC8B9E707_OFFSET))(a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::RPG::Client::B51Racing::RoadRashGameHitSource, ::RPG::Client::B51Racing::RoadRashGameHitSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_JHPDFKCJANG_OFFSET))(a1, a2);
 		}
+
 	};
 }

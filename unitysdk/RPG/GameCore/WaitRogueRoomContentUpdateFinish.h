@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitRogueRoomContentUpdateFinish; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_METHOD_3_08DD46527C11EEFE_OFFSET UNITYSDK_OFFSET(0x1DEC0000)
-#define RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_METHOD_3_0FE51C3D1A5882BA_OFFSET UNITYSDK_OFFSET(0x1DEC0050)
-#define RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC0040)
+#define RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC727A0)
+#define RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC727B0)
+#define RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC72760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitRogueRoomContentUpdateFinish_TypeDefinitionIndex = 20576;
+	inline static constexpr unsigned int WaitRogueRoomContentUpdateFinish_TypeDefinitionIndex = 20815;
 
 	class WaitRogueRoomContentUpdateFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_08DD46527C11EEFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_METHOD_3_08DD46527C11EEFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0FE51C3D1A5882BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_METHOD_3_0FE51C3D1A5882BA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitRogueRoomContentUpdateFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUEROOMCONTENTUPDATEFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

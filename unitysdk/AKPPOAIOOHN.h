@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define AKPPOAIOOHN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C29970)
+#define AKPPOAIOOHN_CTOR_OFFSET UNITYSDK_OFFSET(0x3C29930)
+#define AKPPOAIOOHN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C299B0)
+#define AKPPOAIOOHN_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C29980)
+#define AKPPOAIOOHN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C29A80)
+#define AKPPOAIOOHN_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0xE620)
+
+inline static constexpr unsigned int AKPPOAIOOHN_TypeDefinitionIndex = 36396;
+
+	struct alignas(4) AKPPOAIOOHN
+	{
+		::System::Int32 JGEJHLKFPOA; // 0x10
+		::System::Int32 FGNKGMKHAIL; // 0x14
+		::System::Int32 HEAMMDKBHOG; // 0x18
+		::System::Int32 IHNHKFMECFJ; // 0x1C
+		::System::Int32 KNDFJPKHIIF; // 0x20
+		::System::Int32 HEFKPBBGLEF; // 0x24
+		::System::Int32 DDMNMHKBMDL; // 0x28
+		::System::Int32 PBKMJMFACIM; // 0x2C
+		::System::Int32 MEHGOMBAAPC; // 0x30
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + AKPPOAIOOHN_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+		}
+
+		::System::Void _ctor_1(::System::Collections::Generic::IReadOnlyList_1<::System::Int32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + AKPPOAIOOHN_CTOR_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 HIDEJDELEEB()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPPOAIOOHN_HIDEJDELEEB_OFFSET))(this);
+		}
+
+		/*
+		::System::Boolean Equals(::AKPPOAIOOHN a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::AKPPOAIOOHN))((::PBYTE)hIl2Cpp + AKPPOAIOOHN_EQUALS_OFFSET))(this, a1);
+		}
+		*/
+
+		::System::Boolean Equals_1(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + AKPPOAIOOHN_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPPOAIOOHN_GETHASHCODE_OFFSET))(this);
+		}
+
+	};

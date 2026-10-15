@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
+namespace System::Security::Cryptography { class MD5; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CREATE_OFFSET UNITYSDK_OFFSET(0x19BC1C10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC1C00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CREATE_OFFSET UNITYSDK_OFFSET(0x1C337450)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CTOR_OFFSET UNITYSDK_OFFSET(0x1C337440)
 
 namespace System::Security::Cryptography
 {
@@ -14,12 +15,13 @@ namespace System::Security::Cryptography
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_MD5__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Security::Cryptography::MD5* Create()
 		{
 			return ((::System::Security::Cryptography::MD5*(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CREATE_OFFSET))();
 		}
+
 	};
 }

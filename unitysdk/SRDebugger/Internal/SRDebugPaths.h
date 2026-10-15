@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebugPaths_TypeDefinitionIndex = 37412;
+	inline static constexpr unsigned int SRDebugPaths_TypeDefinitionIndex = 38105;
 
 	class SRDebugPaths : public ::System::Object
 	{

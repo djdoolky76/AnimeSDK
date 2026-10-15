@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_THREADPOOLTASK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD3AF30)
-#define MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD3AF60)
-#define MIHOYO_SDK_THREADPOOLTASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD3A5D0)
-#define MIHOYO_SDK_THREADPOOLTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD3AE40)
+#define MIHOYO_SDK_THREADPOOLTASK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB050EB0)
+#define MIHOYO_SDK_THREADPOOLTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xB050DC0)
+#define MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB050EE0)
+#define MIHOYO_SDK_THREADPOOLTASK_INVOKE_OFFSET UNITYSDK_OFFSET(0xB050550)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadPoolTask_TypeDefinitionIndex = 46948;
+	inline static constexpr unsigned int ThreadPoolTask_TypeDefinitionIndex = 46488;
 
 	class ThreadPoolTask : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

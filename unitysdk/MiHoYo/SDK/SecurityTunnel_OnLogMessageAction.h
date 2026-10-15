@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33CC0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33CF0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD336D0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD33C50)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB04AF50)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB04AEE0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB04AF80)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB04AAC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_OnLogMessageAction_TypeDefinitionIndex = 46863;
+	inline static constexpr unsigned int SecurityTunnel_OnLogMessageAction_TypeDefinitionIndex = 46403;
 
 	class SecurityTunnel_OnLogMessageAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

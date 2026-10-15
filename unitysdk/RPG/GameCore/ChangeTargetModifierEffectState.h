@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChangeTargetModifierEffectState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_5A978C4B9A5F455B_OFFSET UNITYSDK_OFFSET(0x1D119680)
-#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_63FB9728C0AB9912_OFFSET UNITYSDK_OFFSET(0x1D119630)
-#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D119670)
+#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53AB20)
+#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D53AB30)
+#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53AAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeTargetModifierEffectState_TypeDefinitionIndex = 22207;
+	inline static constexpr unsigned int ChangeTargetModifierEffectState_TypeDefinitionIndex = 22456;
 
 	class ChangeTargetModifierEffectState : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean OnlyModifierEffects; // 0x20
 		::System::Boolean IsHide; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_63FB9728C0AB9912(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTargetModifierEffectState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeTargetModifierEffectState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeTargetModifierEffectState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_63FB9728C0AB9912_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeTargetModifierEffectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5A978C4B9A5F455B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTargetModifierEffectState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeTargetModifierEffectState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeTargetModifierEffectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_5A978C4B9A5F455B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeTargetModifierEffectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

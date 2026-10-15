@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MazeDragCameraConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_METHOD_2_BE472612B613C70B_OFFSET UNITYSDK_OFFSET(0x1D277E20)
-#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2783D0)
+#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D837C20)
+#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D837670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeDragCameraConfig_TypeDefinitionIndex = 17416;
+	inline static constexpr unsigned int MazeDragCameraConfig_TypeDefinitionIndex = 17628;
 
 	class MazeDragCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,15 +19,15 @@ namespace RPG::GameCore
 		::System::Single CameraDragFactor; // 0x18
 		::System::Single RecoverDampTime; // 0x1C
 		::System::Single CameraSpringArmDefaultLength; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEDRAGCAMERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEDRAGCAMERACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BE472612B613C70B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeDragCameraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MazeDragCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeDragCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEDRAGCAMERACONFIG_METHOD_2_BE472612B613C70B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MazeDragCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEDRAGCAMERACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

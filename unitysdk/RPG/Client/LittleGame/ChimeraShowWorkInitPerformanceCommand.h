@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraAbilityProgressBase; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AC30570)
-#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC30530)
-#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__EXECUTE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1AC306B0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xD41A480)
+#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD41A4C0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__EXECUTE_B__3_0_OFFSET UNITYSDK_OFFSET(0xD41A600)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraShowWorkInitPerformanceCommand_TypeDefinitionIndex = 76169;
+	inline static constexpr unsigned int ChimeraShowWorkInitPerformanceCommand_TypeDefinitionIndex = 76646;
 
 	class ChimeraShowWorkInitPerformanceCommand : public ::System::Object
 	{
 	public:
-		::System::Action* _FinishCallback; // 0x10
-		::RPG::GameCore::ChimeraAbilityProgressBase* _Config; // 0x18
-
+		::RPG::GameCore::ChimeraAbilityProgressBase* _Config; // 0x10
+		::System::Action* _FinishCallback; // 0x18
 		::System::Void _ctor(::RPG::GameCore::ChimeraAbilityProgressBase* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraAbilityProgressBase*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraAbilityProgressBase*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Execute(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a1, ::System::Action* a2)
@@ -34,5 +32,6 @@ namespace RPG::Client::LittleGame
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__EXECUTE_B__3_0_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x183B4360)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183B43E0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x183AF4A0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x183B4270)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C4E10C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E0FD0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C4E1140)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C4DC250)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurve_IterationCallback_TypeDefinitionIndex = 35306;
+	inline static constexpr unsigned int BGCurve_IterationCallback_TypeDefinitionIndex = 35993;
 
 	class BGCurve_IterationCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::BansheeGz::BGSpline::Curve::BGCurvePointI* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

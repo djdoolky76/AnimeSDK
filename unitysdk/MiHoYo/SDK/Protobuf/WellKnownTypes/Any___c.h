@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class Any; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF826E0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF82720)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1EF82730)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF52D0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF5310)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1BBF5320)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 35069;
+	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 35738;
 
 	class Any___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Protobuf::WellKnownTypes::Any___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Any___c**)Il2CppClass::FromTypeDefinitionIndex(Any___c_TypeDefinitionIndex)->GetStaticField(0xBE0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x8B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C_CTOR_OFFSET))(this);
 		}
 
 		::MiHoYo::SDK::Protobuf::WellKnownTypes::Any* __cctor_b__35_0()
 		{
 			return ((::MiHoYo::SDK::Protobuf::WellKnownTypes::Any*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__35_0_OFFSET))(this);
 		}
+
 	};
 }

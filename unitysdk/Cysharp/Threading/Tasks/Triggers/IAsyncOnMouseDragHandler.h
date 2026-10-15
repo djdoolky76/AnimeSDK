@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnMouseDragHandler_TypeDefinitionIndex = 42973;
+	inline static constexpr unsigned int IAsyncOnMouseDragHandler_TypeDefinitionIndex = 38558;
 
 	class IAsyncOnMouseDragHandler
 	{

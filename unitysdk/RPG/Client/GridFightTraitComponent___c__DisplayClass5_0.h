@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB01550)
-#define RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__GETTRAITCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1BB03860)
-#define RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__GETTRAITCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x1BB03890)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A93A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__GETTRAITCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xD2AB210)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__GETTRAITCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0xD2AB240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitComponent___c__DisplayClass5_0_TypeDefinitionIndex = 65504;
+	inline static constexpr unsigned int GridFightTraitComponent___c__DisplayClass5_0_TypeDefinitionIndex = 65444;
 
 	class GridFightTraitComponent___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 traitID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetTraitCount_b__0(::RPG::Client::GridFightTrait* a1)
@@ -32,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOMPONENT___C__DISPLAYCLASS5_0__GETTRAITCOUNT_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

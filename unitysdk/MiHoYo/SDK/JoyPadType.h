@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_JOYPADTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A61A780)
+#define MIHOYO_SDK_JOYPADTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE5E570)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7522;
+	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7576;
 
 	class JoyPadType : public ::System::Object
 	{
@@ -17,10 +15,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* SONY; // 0x0
 		// static const ::System::String* XBOX; // 0x0
 		// static const ::System::String* SONYPS5; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADTYPE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

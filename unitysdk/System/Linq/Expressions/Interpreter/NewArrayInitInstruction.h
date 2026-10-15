@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/Instruction.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF3AAD0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1DF3AAF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF3AAE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1DF3AB30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3AAC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF0030)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF0040)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDF0060)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF0050)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDF00A0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NewArrayInitInstruction_TypeDefinitionIndex = 3308;
+	inline static constexpr unsigned int NewArrayInitInstruction_TypeDefinitionIndex = 3309;
 
 	class NewArrayInitInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		::System::Type* _elementType; // 0x10
 		::System::Int32 _elementCount; // 0x18
-
 		::System::Void _ctor(::System::Type* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -46,5 +44,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYINITINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Reflection { class MethodBase; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_LISTMETHODWRAPCREATOR_CHECKARGS_OFFSET UNITYSDK_OFFSET(0x118581F0)
-#define XLUA_LISTMETHODWRAPCREATOR_CREATEWRAP_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x118583B0)
-#define XLUA_LISTMETHODWRAPCREATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x11858100)
+#define XLUA_LISTMETHODWRAPCREATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x14DAA7E0)
+#define XLUA_LISTMETHODWRAPCREATOR_CHECKARGS_OFFSET UNITYSDK_OFFSET(0x14DAA8D0)
+#define XLUA_LISTMETHODWRAPCREATOR_CREATEWRAP_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x14DAAA90)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ListMethodWrapCreator_TypeDefinitionIndex = 50559;
+	inline static constexpr unsigned int ListMethodWrapCreator_TypeDefinitionIndex = 50228;
 
 	class ListMethodWrapCreator : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet__ValidTypes()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ListMethodWrapCreator_TypeDefinitionIndex)->GetStaticField(0x65B00);
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)UnitySDK::FromName("XLua", "ListMethodWrapCreator")->GetStaticField(0x42470);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_LISTMETHODWRAPCREATOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_LISTMETHODWRAPCREATOR_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean CheckArgs(::System::Type* a1)
@@ -38,5 +37,6 @@ namespace XLua
 		{
 			return ((::XLua::OverloadMethodWrap*(*)(::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + XLUA_LISTMETHODWRAPCREATOR_CREATEWRAP_GETCOUNT_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

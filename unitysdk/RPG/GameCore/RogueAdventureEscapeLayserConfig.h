@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueAdventureConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueAdventureEscapeLayserConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_METHOD_3_6CE1927FA819F5BC_OFFSET UNITYSDK_OFFSET(0x1EE8B260)
-#define RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_METHOD_3_B40029D695B915C0_OFFSET UNITYSDK_OFFSET(0x1EE8B2F0)
-#define RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8B250)
+#define RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D976230)
+#define RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D976240)
+#define RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9762D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureEscapeLayserConfig_TypeDefinitionIndex = 17683;
+	inline static constexpr unsigned int RogueAdventureEscapeLayserConfig_TypeDefinitionIndex = 17895;
 
 	class RogueAdventureEscapeLayserConfig : public ::RPG::GameCore::RogueAdventureConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B40029D695B915C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureEscapeLayserConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureEscapeLayserConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureEscapeLayserConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_METHOD_3_B40029D695B915C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureEscapeLayserConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6CE1927FA819F5BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureEscapeLayserConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureEscapeLayserConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureEscapeLayserConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_METHOD_3_6CE1927FA819F5BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureEscapeLayserConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREESCAPELAYSERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

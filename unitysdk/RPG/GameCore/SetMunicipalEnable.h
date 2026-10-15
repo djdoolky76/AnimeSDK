@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetMunicipalEnable; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETMUNICIPALENABLE_METHOD_3_191241DA845E9E06_OFFSET UNITYSDK_OFFSET(0x1E088C90)
-#define RPG_GAMECORE_SETMUNICIPALENABLE_METHOD_3_89876657E1CA9DC5_OFFSET UNITYSDK_OFFSET(0x1E088CD0)
-#define RPG_GAMECORE_SETMUNICIPALENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E088CC0)
+#define RPG_GAMECORE_SETMUNICIPALENABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8F5F0)
+#define RPG_GAMECORE_SETMUNICIPALENABLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8F600)
+#define RPG_GAMECORE_SETMUNICIPALENABLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8F5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMunicipalEnable_TypeDefinitionIndex = 20086;
+	inline static constexpr unsigned int SetMunicipalEnable_TypeDefinitionIndex = 20323;
 
 	class SetMunicipalEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Visible; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMUNICIPALENABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMUNICIPALENABLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_191241DA845E9E06(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMunicipalEnable*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetMunicipalEnable* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMunicipalEnable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMUNICIPALENABLE_METHOD_3_191241DA845E9E06_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetMunicipalEnable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMUNICIPALENABLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_89876657E1CA9DC5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMunicipalEnable* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetMunicipalEnable* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMunicipalEnable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMUNICIPALENABLE_METHOD_3_89876657E1CA9DC5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetMunicipalEnable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMUNICIPALENABLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

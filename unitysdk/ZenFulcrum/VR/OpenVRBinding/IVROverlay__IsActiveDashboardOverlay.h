@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDAF10)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDAF60)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDAF00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDAE90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F655490)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F655410)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6554E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F655480)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__IsActiveDashboardOverlay_TypeDefinitionIndex = 37828;
+	inline static constexpr unsigned int IVROverlay__IsActiveDashboardOverlay_TypeDefinitionIndex = 39125;
 
 	class IVROverlay__IsActiveDashboardOverlay : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::UInt64 a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISACTIVEDASHBOARDOVERLAY_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD2CE80)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__UPDATEWAITTRACKEQUIPIDS_B__0_OFFSET UNITYSDK_OFFSET(0x1BD2D610)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__UPDATEWAITTRACKEQUIPIDS_B__1_OFFSET UNITYSDK_OFFSET(0x1BD2D6C0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1153F0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__UPDATEWAITTRACKEQUIPIDS_B__0_OFFSET UNITYSDK_OFFSET(0xD115930)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__UPDATEWAITTRACKEQUIPIDS_B__1_OFFSET UNITYSDK_OFFSET(0xD1159E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrack___c__DisplayClass15_0_TypeDefinitionIndex = 65378;
+	inline static constexpr unsigned int GridFightEquipTrack___c__DisplayClass15_0_TypeDefinitionIndex = 65318;
 
 	class GridFightEquipTrack___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 baseEquipID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _UpdateWaitTrackEquipIDs_b__0(::System::UInt32 a1)
@@ -29,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACK___C__DISPLAYCLASS15_0__UPDATEWAITTRACKEQUIPIDS_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

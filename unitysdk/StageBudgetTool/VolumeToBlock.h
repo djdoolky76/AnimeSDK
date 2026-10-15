@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StageBudgetTool/VolumeToBlockQuality.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int VolumeToBlock_TypeDefinitionIndex = 48177;
+	inline static constexpr unsigned int VolumeToBlock_TypeDefinitionIndex = 47718;
 
 	struct alignas(8) VolumeToBlock
 	{

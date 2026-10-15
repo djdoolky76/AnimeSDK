@@ -3,32 +3,32 @@
 #include "unitysdk/RPG/GameCore/CeilingType.h"
 #include "unitysdk/RPG/GameCore/GachaType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GachaCeilingConfigRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCC1FF0)
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC2610)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CD510)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CCEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 13248;
+	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 13354;
 
 	class GachaCeilingConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CeilingItemList; // 0x10
-		::RPG::GameCore::GachaType GachaType; // 0x18
-		::System::UInt32 CeilingNum; // 0x1C
-		::RPG::GameCore::CeilingType CeilingType; // 0x20
-
+		::RPG::GameCore::CeilingType CeilingType; // 0x18
+		::RPG::GameCore::GachaType GachaType; // 0x1C
+		::System::UInt32 CeilingNum; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHACEILINGCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHACEILINGCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GachaCeilingConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GachaCeilingConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaCeilingConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GachaCeilingConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

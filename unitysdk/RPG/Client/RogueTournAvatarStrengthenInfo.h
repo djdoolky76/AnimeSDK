@@ -4,32 +4,30 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IAvatarComparer; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CREATESTRENGTHENEDAVATARCOMPARER_OFFSET UNITYSDK_OFFSET(0x1AEF1440)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AEF13B0)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENEDAVATARS_OFFSET UNITYSDK_OFFSET(0x1AEF17A0)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET UNITYSDK_OFFSET(0x1AEF1C50)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1AEF1150)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEF10D0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CREATESTRENGTHENEDAVATARCOMPARER_OFFSET UNITYSDK_OFFSET(0xDF73220)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDF72EB0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDF73190)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENEDAVATARS_OFFSET UNITYSDK_OFFSET(0xDF73580)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET UNITYSDK_OFFSET(0xDF73A30)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_INIT_OFFSET UNITYSDK_OFFSET(0xDF72F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo_TypeDefinitionIndex = 67498;
+	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo_TypeDefinitionIndex = 67500;
 
 	class RogueTournAvatarStrengthenInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*>>* _AvatarID2StrengthenTextAndParam; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -56,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET))(this, a1);
 		}
+
 	};
 }

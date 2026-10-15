@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/SkeletonLoader.h"
 #include "unitysdk/Spine/TransformMode.h"
-
 namespace Spine { class Animation; }
 namespace Spine { class Atlas; }
 namespace Spine { class Attachment; }
@@ -19,72 +18,72 @@ namespace Spine { class Timeline; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define SPINE_SKELETONBINARY_GETVERSIONSTRING_OFFSET UNITYSDK_OFFSET(0x1606BB40)
-#define SPINE_SKELETONBINARY_READANIMATION_OFFSET UNITYSDK_OFFSET(0x1606D560)
-#define SPINE_SKELETONBINARY_READATTACHMENT_OFFSET UNITYSDK_OFFSET(0x16077670)
-#define SPINE_SKELETONBINARY_READFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x160793B0)
-#define SPINE_SKELETONBINARY_READSEQUENCE_OFFSET UNITYSDK_OFFSET(0x16078A80)
-#define SPINE_SKELETONBINARY_READSHORTARRAY_OFFSET UNITYSDK_OFFSET(0x16079490)
-#define SPINE_SKELETONBINARY_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x16068F50)
-#define SPINE_SKELETONBINARY_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x16068DC0)
-#define SPINE_SKELETONBINARY_READSKIN_OFFSET UNITYSDK_OFFSET(0x1606CC80)
-#define SPINE_SKELETONBINARY_READTIMELINE_1_OFFSET UNITYSDK_OFFSET(0x16079B60)
-#define SPINE_SKELETONBINARY_READTIMELINE_OFFSET UNITYSDK_OFFSET(0x16079800)
-#define SPINE_SKELETONBINARY_READVERTICES_OFFSET UNITYSDK_OFFSET(0x16078B90)
-#define SPINE_SKELETONBINARY_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x160796F0)
-#define SPINE_SKELETONBINARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x16079FB0)
-#define SPINE_SKELETONBINARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16068D20)
-#define SPINE_SKELETONBINARY__CTOR_OFFSET UNITYSDK_OFFSET(0x16068C20)
+#define SPINE_SKELETONBINARY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC9A0E0)
+#define SPINE_SKELETONBINARY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC88E30)
+#define SPINE_SKELETONBINARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC88D30)
+#define SPINE_SKELETONBINARY_GETVERSIONSTRING_OFFSET UNITYSDK_OFFSET(0x1EC8BC40)
+#define SPINE_SKELETONBINARY_READANIMATION_OFFSET UNITYSDK_OFFSET(0x1EC8D660)
+#define SPINE_SKELETONBINARY_READATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1EC97770)
+#define SPINE_SKELETONBINARY_READFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x1EC994E0)
+#define SPINE_SKELETONBINARY_READSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1EC98BB0)
+#define SPINE_SKELETONBINARY_READSHORTARRAY_OFFSET UNITYSDK_OFFSET(0x1EC995C0)
+#define SPINE_SKELETONBINARY_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x1EC89060)
+#define SPINE_SKELETONBINARY_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1EC88ED0)
+#define SPINE_SKELETONBINARY_READSKIN_OFFSET UNITYSDK_OFFSET(0x1EC8CD80)
+#define SPINE_SKELETONBINARY_READTIMELINE_1_OFFSET UNITYSDK_OFFSET(0x1EC99C90)
+#define SPINE_SKELETONBINARY_READTIMELINE_OFFSET UNITYSDK_OFFSET(0x1EC99930)
+#define SPINE_SKELETONBINARY_READVERTICES_OFFSET UNITYSDK_OFFSET(0x1EC98CC0)
+#define SPINE_SKELETONBINARY_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1EC99820)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonBinary_TypeDefinitionIndex = 38389;
+	inline static constexpr unsigned int SkeletonBinary_TypeDefinitionIndex = 39686;
 
 	class SkeletonBinary : public ::Spine::SkeletonLoader
 	{
 	public:
 		static ::Il2CppArray<::Spine::TransformMode>** StaticGet_TransformModeValues()
 		{
-			return (::Il2CppArray<::Spine::TransformMode>**)Il2CppClass::FromTypeDefinitionIndex(SkeletonBinary_TypeDefinitionIndex)->GetStaticField(0x53370);
+			return (::Il2CppArray<::Spine::TransformMode>**)UnitySDK::FromName("Spine", "SkeletonBinary")->GetStaticField(0x4D6E0);
 		}
-		// static const ::System::Int32 BONE_ROTATE = 0x0; // 0x0
-		// static const ::System::Int32 BONE_TRANSLATE = 0x1; // 0x0
-		// static const ::System::Int32 BONE_TRANSLATEX = 0x2; // 0x0
-		// static const ::System::Int32 BONE_TRANSLATEY = 0x3; // 0x0
-		// static const ::System::Int32 BONE_SCALE = 0x4; // 0x0
-		// static const ::System::Int32 BONE_SCALEX = 0x5; // 0x0
-		// static const ::System::Int32 BONE_SCALEY = 0x6; // 0x0
-		// static const ::System::Int32 BONE_SHEAR = 0x7; // 0x0
-		// static const ::System::Int32 BONE_SHEARX = 0x8; // 0x0
-		// static const ::System::Int32 BONE_SHEARY = 0x9; // 0x0
-		// static const ::System::Int32 SLOT_ATTACHMENT = 0x0; // 0x0
-		// static const ::System::Int32 SLOT_RGBA = 0x1; // 0x0
-		// static const ::System::Int32 SLOT_RGB = 0x2; // 0x0
-		// static const ::System::Int32 SLOT_RGBA2 = 0x3; // 0x0
-		// static const ::System::Int32 SLOT_RGB2 = 0x4; // 0x0
-		// static const ::System::Int32 SLOT_ALPHA = 0x5; // 0x0
-		// static const ::System::Int32 ATTACHMENT_DEFORM = 0x0; // 0x0
-		// static const ::System::Int32 ATTACHMENT_SEQUENCE = 0x1; // 0x0
-		// static const ::System::Int32 PATH_POSITION = 0x0; // 0x0
-		// static const ::System::Int32 PATH_SPACING = 0x1; // 0x0
-		// static const ::System::Int32 PATH_MIX = 0x2; // 0x0
-		// static const ::System::Int32 CURVE_LINEAR = 0x0; // 0x0
-		// static const ::System::Int32 CURVE_STEPPED = 0x1; // 0x0
-		// static const ::System::Int32 CURVE_BEZIER = 0x2; // 0x0
 
+		// static const ::System::Object BONE_ROTATE; // 0x0
+		// static const ::System::Object BONE_TRANSLATE; // 0x0
+		// static const ::System::Object BONE_TRANSLATEX; // 0x0
+		// static const ::System::Object BONE_TRANSLATEY; // 0x0
+		// static const ::System::Object BONE_SCALE; // 0x0
+		// static const ::System::Object BONE_SCALEX; // 0x0
+		// static const ::System::Object BONE_SCALEY; // 0x0
+		// static const ::System::Object BONE_SHEAR; // 0x0
+		// static const ::System::Object BONE_SHEARX; // 0x0
+		// static const ::System::Object BONE_SHEARY; // 0x0
+		// static const ::System::Object SLOT_ATTACHMENT; // 0x0
+		// static const ::System::Object SLOT_RGBA; // 0x0
+		// static const ::System::Object SLOT_RGB; // 0x0
+		// static const ::System::Object SLOT_RGBA2; // 0x0
+		// static const ::System::Object SLOT_RGB2; // 0x0
+		// static const ::System::Object SLOT_ALPHA; // 0x0
+		// static const ::System::Object ATTACHMENT_DEFORM; // 0x0
+		// static const ::System::Object ATTACHMENT_SEQUENCE; // 0x0
+		// static const ::System::Object PATH_POSITION; // 0x0
+		// static const ::System::Object PATH_SPACING; // 0x0
+		// static const ::System::Object PATH_MIX; // 0x0
+		// static const ::System::Object CURVE_LINEAR; // 0x0
+		// static const ::System::Object CURVE_STEPPED; // 0x0
+		// static const ::System::Object CURVE_BEZIER; // 0x0
 		::System::Void _ctor(::Spine::AttachmentLoader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::Il2CppArray<::Spine::Atlas*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_CCTOR_OFFSET))();
 		}
 
 		::Spine::SkeletonData* ReadSkeletonData(::System::String* a1)
@@ -151,5 +150,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_SETBEZIER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
+
 	};
 }

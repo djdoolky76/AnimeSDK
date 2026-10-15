@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/XmlCharacterData.h"
 #include "unitysdk/System/Xml/XmlNodeType.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLCOMMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x17C80420)
-#define SYSTEM_XML_XMLCOMMENT_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17C803F0)
-#define SYSTEM_XML_XMLCOMMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17C803D0)
-#define SYSTEM_XML_XMLCOMMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x17C80410)
-#define SYSTEM_XML_XMLCOMMENT_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x17C80580)
-#define SYSTEM_XML_XMLCOMMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x17C804D0)
-#define SYSTEM_XML_XMLCOMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17C80350)
+#define SYSTEM_XML_XMLCOMMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EF1F0C0)
+#define SYSTEM_XML_XMLCOMMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF1EFF0)
+#define SYSTEM_XML_XMLCOMMENT_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1EF1F090)
+#define SYSTEM_XML_XMLCOMMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EF1F070)
+#define SYSTEM_XML_XMLCOMMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EF1F0B0)
+#define SYSTEM_XML_XMLCOMMENT_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1EF1F220)
+#define SYSTEM_XML_XMLCOMMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EF1F170)
 
 namespace System::Xml
 {
@@ -25,7 +24,7 @@ namespace System::Xml
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::Xml::XmlDocument* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCOMMENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCOMMENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -57,5 +56,6 @@ namespace System::Xml
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCOMMENT_WRITECONTENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

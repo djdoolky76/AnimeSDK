@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/AvatarEffectInfo_EExecutionOrder.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0x193C05B0)
-#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x193C2770)
+#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_CTOR_OFFSET UNITYSDK_OFFSET(0xC6CD0D0)
+#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0xC6CAF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 70212;
+	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 70248;
 
 	class AvatarEffectRendererBehavior_AvatarEffectMat : public ::System::Object
 	{
@@ -23,17 +22,19 @@ namespace RPG::Client
 		::System::Boolean AfterTransparent; // 0x2C
 		::System::Boolean IgnoreMPB; // 0x2D
 		::System::Boolean DrawMeshMode; // 0x2E
+		::System::Byte _padding0[0x1];
 		::System::UInt32 RenderingLayerMask; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Material* _MaterialInstance; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Material* get_MaterialInstance()
 		{
 			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET))(this);
 		}
+
 	};
 }

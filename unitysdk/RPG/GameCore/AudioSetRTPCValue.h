@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AudioSetRTPCValue; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUDIOSETRTPCVALUE_METHOD_3_C68FCD99CEC4658B_OFFSET UNITYSDK_OFFSET(0x1C581E70)
-#define RPG_GAMECORE_AUDIOSETRTPCVALUE_METHOD_3_DAD22F0FB571C142_OFFSET UNITYSDK_OFFSET(0x1C581E30)
-#define RPG_GAMECORE_AUDIOSETRTPCVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C581E60)
+#define RPG_GAMECORE_AUDIOSETRTPCVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DB6B0)
+#define RPG_GAMECORE_AUDIOSETRTPCVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3DB6C0)
+#define RPG_GAMECORE_AUDIOSETRTPCVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3DB680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioSetRTPCValue_TypeDefinitionIndex = 20374;
+	inline static constexpr unsigned int AudioSetRTPCValue_TypeDefinitionIndex = 20613;
 
 	class AudioSetRTPCValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::System::String* RTPCName; // 0x18
 		::RPG::GameCore::DynamicFloat* Value; // 0x20
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOSETRTPCVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOSETRTPCVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DAD22F0FB571C142(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AudioSetRTPCValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AudioSetRTPCValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AudioSetRTPCValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOSETRTPCVALUE_METHOD_3_DAD22F0FB571C142_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AudioSetRTPCValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOSETRTPCVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C68FCD99CEC4658B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AudioSetRTPCValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AudioSetRTPCValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AudioSetRTPCValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOSETRTPCVALUE_METHOD_3_C68FCD99CEC4658B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AudioSetRTPCValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOSETRTPCVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -5,37 +5,36 @@
 #include "unitysdk/RPG/GameCore/SenderType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MessageItemRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MESSAGEITEMROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D1A00A0)
-#define RPG_GAMECORE_MESSAGEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A0400)
-#define RPG_GAMECORE_MESSAGEITEMROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D1A0020)
-#define RPG_GAMECORE_MESSAGEITEMROW_GET_CANBESENT_OFFSET UNITYSDK_OFFSET(0x1D1A07C0)
-#define RPG_GAMECORE_MESSAGEITEMROW_GET_ISEND_OFFSET UNITYSDK_OFFSET(0x1D1A07A0)
-#define RPG_GAMECORE_MESSAGEITEMROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D1A0080)
-#define RPG_GAMECORE_MESSAGEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A0790)
+#define RPG_GAMECORE_MESSAGEITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84E4F0)
+#define RPG_GAMECORE_MESSAGEITEMROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D84C090)
+#define RPG_GAMECORE_MESSAGEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D84C400)
+#define RPG_GAMECORE_MESSAGEITEMROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D84E470)
+#define RPG_GAMECORE_MESSAGEITEMROW_GET_CANBESENT_OFFSET UNITYSDK_OFFSET(0x1D84E520)
+#define RPG_GAMECORE_MESSAGEITEMROW_GET_ISEND_OFFSET UNITYSDK_OFFSET(0x1D84E500)
+#define RPG_GAMECORE_MESSAGEITEMROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D84E4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageItemRow_TypeDefinitionIndex = 14298;
+	inline static constexpr unsigned int MessageItemRow_TypeDefinitionIndex = 14463;
 
 	class MessageItemRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* NextItemIDList; // 0x10
-		::RPG::Client::TextID OptionText; // 0x18
-		::System::UInt32 SectionID; // 0x28
-		::System::UInt32 ID; // 0x2C
+		::RPG::GameCore::MessageItemType ItemType; // 0x18
+		::System::UInt32 ContactsID; // 0x1C
+		::System::UInt32 SectionID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::RPG::GameCore::SenderType Sender; // 0x28
+		::System::UInt32 ItemContentID; // 0x2C
 		::RPG::Client::TextID MainText; // 0x30
-		::System::UInt32 ItemContentID; // 0x40
-		::RPG::GameCore::MessageItemType ItemType; // 0x44
-		::RPG::GameCore::SenderType Sender; // 0x48
-		::System::UInt32 ContactsID; // 0x4C
-
+		::RPG::Client::TextID OptionText; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
@@ -48,14 +47,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MessageItemRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::MessageItemRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MessageItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MessageItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MessageItemRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MessageItemRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MessageItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MessageItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean get_IsEnd()
@@ -67,5 +66,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGEITEMROW_GET_CANBESENT_OFFSET))(this);
 		}
+
 	};
 }

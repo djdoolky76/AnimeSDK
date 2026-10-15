@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class ReflectionProbe; }
 namespace UnityEngine { class Texture; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroReflectionProbeProperty_EnviroReflectionProbe_TypeDefinitionIndex = 50050;
+	inline static constexpr unsigned int EnviroReflectionProbeProperty_EnviroReflectionProbe_TypeDefinitionIndex = 49625;
 
 	struct alignas(8) EnviroReflectionProbeProperty_EnviroReflectionProbe
 	{
@@ -22,10 +20,12 @@ namespace EnviromentSystem
 		::System::Int32 m_Importance; // 0x30
 		::System::Single m_Intensity; // 0x34
 		::System::Boolean m_BoxProjection; // 0x38
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Bounds m_Bounds; // 0x3C
 		::UnityEngine::Vector3 m_Position; // 0x54
 		::UnityEngine::Quaternion m_Rotation; // 0x60
 		::System::Boolean m_IsGlobal; // 0x70
+		::System::Byte _padding1[0x3];
 		::System::Single m_Weight; // 0x74
 		::System::Single m_BlendDistance; // 0x78
 	};

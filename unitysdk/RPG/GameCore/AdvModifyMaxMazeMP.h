@@ -2,37 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvModifyMaxMazeMP; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVMODIFYMAXMAZEMP_METHOD_3_F4FBEBCC4B349CF3_OFFSET UNITYSDK_OFFSET(0x1D6BC6E0)
-#define RPG_GAMECORE_ADVMODIFYMAXMAZEMP_METHOD_3_FA4010E4583902E0_OFFSET UNITYSDK_OFFSET(0x1D6BC5E0)
-#define RPG_GAMECORE_ADVMODIFYMAXMAZEMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BC670)
+#define RPG_GAMECORE_ADVMODIFYMAXMAZEMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D375EC0)
+#define RPG_GAMECORE_ADVMODIFYMAXMAZEMP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D375F30)
+#define RPG_GAMECORE_ADVMODIFYMAXMAZEMP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D375E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvModifyMaxMazeMP_TypeDefinitionIndex = 21575;
+	inline static constexpr unsigned int AdvModifyMaxMazeMP_TypeDefinitionIndex = 21823;
 
 	class AdvModifyMaxMazeMP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::PropertyModifyFunction ModifyFunction; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* ModifyValue; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMODIFYMAXMAZEMP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMODIFYMAXMAZEMP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FA4010E4583902E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvModifyMaxMazeMP*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvModifyMaxMazeMP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvModifyMaxMazeMP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMODIFYMAXMAZEMP_METHOD_3_FA4010E4583902E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvModifyMaxMazeMP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMODIFYMAXMAZEMP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F4FBEBCC4B349CF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvModifyMaxMazeMP* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvModifyMaxMazeMP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvModifyMaxMazeMP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMODIFYMAXMAZEMP_METHOD_3_F4FBEBCC4B349CF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvModifyMaxMazeMP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMODIFYMAXMAZEMP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D15E990)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D15E9C0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A7E0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15E8A0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x167399E0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x167398F0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16739A10)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16735800)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_DragEndHandler_TypeDefinitionIndex = 39004;
+	inline static constexpr unsigned int EasyTouch_DragEndHandler_TypeDefinitionIndex = 40301;
 
 	class EasyTouch_DragEndHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGENDHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AEAE270)
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AEAE2A0)
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AEADFA0)
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEAE200)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE55470)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE55400)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE554A0)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE551A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ImageCache_TextureAvailable_TypeDefinitionIndex = 7935;
+	inline static constexpr unsigned int ImageCache_TextureAvailable_TypeDefinitionIndex = 7978;
 
 	class ImageCache_TextureAvailable : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Texture2D* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

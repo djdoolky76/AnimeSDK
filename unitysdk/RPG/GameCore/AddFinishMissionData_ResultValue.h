@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddFinishMissionData_ResultValue; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_METHOD_3_B7CEC4C5E028EE47_OFFSET UNITYSDK_OFFSET(0x1D6A08C0)
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_METHOD_3_C6DED8A55521D326_OFFSET UNITYSDK_OFFSET(0x1D6A0880)
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A08B0)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D359AF0)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D359B00)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D359AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddFinishMissionData_ResultValue_TypeDefinitionIndex = 21330;
+	inline static constexpr unsigned int AddFinishMissionData_ResultValue_TypeDefinitionIndex = 21576;
 
 	class AddFinishMissionData_ResultValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 SubmissionID; // 0x18
 		::System::UInt32 MissionResultValue; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C6DED8A55521D326(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_ResultValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddFinishMissionData_ResultValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_ResultValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_METHOD_3_C6DED8A55521D326_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddFinishMissionData_ResultValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B7CEC4C5E028EE47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_ResultValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddFinishMissionData_ResultValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_ResultValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_METHOD_3_B7CEC4C5E028EE47_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddFinishMissionData_ResultValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_RESULTVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

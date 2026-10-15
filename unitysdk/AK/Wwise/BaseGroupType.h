@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AK/Wwise/BaseType.h"
-#include "unitysdk/WwiseObjectType.h"
-
 class WwiseObjectReference;
 
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1D577BA0)
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_1_OFFSET UNITYSDK_OFFSET(0x1D577B60)
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1D577A70)
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPWWISEOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D577900)
-#define AK_WWISE_BASEGROUPTYPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1D577AB0)
-#define AK_WWISE_BASEGROUPTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D577D20)
+#define AK_WWISE_BASEGROUPTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F53FEE0)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1F53FD60)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1F53FC30)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1F53FD20)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPWWISEOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F53FAC0)
+#define AK_WWISE_BASEGROUPTYPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F53FC70)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int BaseGroupType_TypeDefinitionIndex = 43786;
+	inline static constexpr unsigned int BaseGroupType_TypeDefinitionIndex = 44978;
 
 	class BaseGroupType : public ::AK::Wwise::BaseType
 	{
 	public:
 		::System::Int32 groupIdInternal; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* groupGuidInternal; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_CTOR_OFFSET))(this);
 		}
 
 		::WwiseObjectReference* get_GroupWwiseObjectReference()
@@ -42,14 +40,15 @@ namespace AK::Wwise
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_ISVALID_OFFSET))(this);
 		}
 
-		::System::Int32 get_groupID_1()
+		::System::Int32 get_groupID()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_GET_GROUPID_1_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Byte>* get_groupGuid()
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_GET_GROUPGUID_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::Client::PixAir { class PixAirEquipControl; }
 namespace RPG::Client::PixAir { class PixAirEquipOverviewViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1BD12FD0)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__BINDEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x1BD12D20)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__CLEAREQUIPCONTROLS_OFFSET UNITYSDK_OFFSET(0x1BD13080)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD13220)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1BD12CD0)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1BD12C10)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB5EBA0)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB5E950)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__BINDEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0xDB5E6A0)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__CLEAREQUIPCONTROLS_OFFSET UNITYSDK_OFFSET(0xDB5EA00)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB5E650)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB5E590)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirPlayerEquipOverviewControl_TypeDefinitionIndex = 78766;
+	inline static constexpr unsigned int PixAirPlayerEquipOverviewControl_TypeDefinitionIndex = 79247;
 
 	class PixAirPlayerEquipOverviewControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::PrefabLoadMeta* _EquipLoadMeta; // 0x38
-		::UnityEngine::Transform* _Container; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipControl*>* _EquipControls; // 0x48
-
+		::RPG::Client::PrefabLoadMeta* _EquipLoadMeta; // 0x40
+		::UnityEngine::Transform* _Container; // 0x48
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipControl*>* _EquipControls; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -55,5 +53,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::RPG::Client::PixAir::PixAirEquipOverviewViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRPLAYEREQUIPOVERVIEWCONTROL_GET__VIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitBPEqual; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITBPEQUAL_METHOD_3_7E431DADC16A7CFE_OFFSET UNITYSDK_OFFSET(0x1DEB4520)
-#define RPG_GAMECORE_WAITBPEQUAL_METHOD_3_CB4E5B3C0B86BF35_OFFSET UNITYSDK_OFFSET(0x1DEB4560)
-#define RPG_GAMECORE_WAITBPEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB4550)
+#define RPG_GAMECORE_WAITBPEQUAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC66CE0)
+#define RPG_GAMECORE_WAITBPEQUAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC66CF0)
+#define RPG_GAMECORE_WAITBPEQUAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC66CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBPEqual_TypeDefinitionIndex = 24080;
+	inline static constexpr unsigned int WaitBPEqual_TypeDefinitionIndex = 24359;
 
 	class WaitBPEqual : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 Count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBPEQUAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBPEQUAL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7E431DADC16A7CFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBPEqual*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitBPEqual* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBPEqual*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBPEQUAL_METHOD_3_7E431DADC16A7CFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitBPEqual*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBPEQUAL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CB4E5B3C0B86BF35(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBPEqual* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitBPEqual* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBPEqual*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBPEQUAL_METHOD_3_CB4E5B3C0B86BF35_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitBPEqual*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBPEQUAL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

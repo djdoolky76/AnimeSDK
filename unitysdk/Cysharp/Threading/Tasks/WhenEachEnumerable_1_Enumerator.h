@@ -1,21 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/WhenEachResult_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/WhenEachState.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
+#include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class Channel_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace Cysharp::Threading::Tasks { template <typename T> class WhenEachEnumerable_1_Enumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int WhenEachEnumerable_1_Enumerator_TypeDefinitionIndex = 42793;
+	inline static constexpr unsigned int WhenEachEnumerable_1_Enumerator_TypeDefinitionIndex = 38378;
 
 	template <typename T>
 	class WhenEachEnumerable_1_Enumerator : public ::System::Object

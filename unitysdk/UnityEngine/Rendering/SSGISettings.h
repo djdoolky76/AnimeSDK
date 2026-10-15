@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/SSGIApplyMode.h"
 #include "unitysdk/UnityEngine/Rendering/SSGIDisocclusionFixMethod.h"
 #include "unitysdk/UnityEngine/Rendering/SSGIRayMarchingMethod.h"
@@ -8,16 +7,18 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSGISettings_TypeDefinitionIndex = 4846;
+	inline static constexpr unsigned int SSGISettings_TypeDefinitionIndex = 4852;
 
 	struct alignas(4) SSGISettings
 	{
 		::System::Boolean Enable; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single RenderScale; // 0x14
 		::System::Int32 RenderHeightClamp; // 0x18
 		::System::Single ScreenFadeDist; // 0x1C
 		::System::Int32 SpatialFilterIterCount; // 0x20
 		::System::Boolean SpatialFilterJitter; // 0x24
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Rendering::SSGIDisocclusionFixMethod DisocclusionFixMethod; // 0x28
 		::System::Int32 TemporalSampleCount; // 0x2C
 		::System::Int32 TemporalSampleCountFast; // 0x30
@@ -28,10 +29,13 @@ namespace UnityEngine::Rendering
 		::System::Single ResultBrightnessLimit; // 0x44
 		::System::Boolean Denoise; // 0x48
 		::System::Boolean DenoiseEnablePrePostTransform; // 0x49
+		::System::Byte _padding2[0x2];
 		::System::Single ObjectThickness; // 0x4C
 		::System::Boolean PostTAA; // 0x50
+		::System::Byte _padding3[0x3];
 		::System::Single PostTAAWeight; // 0x54
 		::System::Boolean Upscale; // 0x58
+		::System::Byte _padding4[0x3];
 		::System::Int32 UpscaleResolutionHeight; // 0x5C
 		::System::Single EmissionIndirectBoost; // 0x60
 		::System::Single MainLightIndirectBoost; // 0x64

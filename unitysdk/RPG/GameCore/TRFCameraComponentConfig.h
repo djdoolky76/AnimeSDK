@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 #include "unitysdk/RPG/MVector3.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TRFCameraComponentConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_METHOD_3_2207D189A8976569_OFFSET UNITYSDK_OFFSET(0x1E15FB30)
-#define RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_METHOD_3_5DC2B11252038013_OFFSET UNITYSDK_OFFSET(0x1E15FB90)
-#define RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15FB80)
+#define RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB25B70)
+#define RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB25B80)
+#define RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB25B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TRFCameraComponentConfig_TypeDefinitionIndex = 18685;
+	inline static constexpr unsigned int TRFCameraComponentConfig_TypeDefinitionIndex = 18907;
 
 	class TRFCameraComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::MVector3 Rotation; // 0x1C
 		::RPG::MVector3 MoveRange; // 0x28
 		::System::Single OrthographicSize; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2207D189A8976569(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFCameraComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TRFCameraComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFCameraComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_METHOD_3_2207D189A8976569_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TRFCameraComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5DC2B11252038013(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFCameraComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TRFCameraComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFCameraComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_METHOD_3_5DC2B11252038013_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TRFCameraComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFCAMERACOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

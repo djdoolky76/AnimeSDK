@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 class BGCurveExtention;
 namespace RPG::Client::ParkourGame { class MonoParkourCurveMoveItem; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C4DAC30)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_METHOD_5_5EA00B7C45AF82A4_OFFSET UNITYSDK_OFFSET(0x1C4DACD0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DB100)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6AF70)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_HAOBJNHJFGM_OFFSET UNITYSDK_OFFSET(0xDA6AB40)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDA6AAA0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourCurveMove_TypeDefinitionIndex = 74035;
+	inline static constexpr unsigned int MonoParkourCurveMove_TypeDefinitionIndex = 74134;
 
 	class MonoParkourCurveMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::RPG::Client::ParkourGame::MonoParkourCurveMoveItem*>* Items; // 0x18
 		::BGCurveExtention* Curve; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()
@@ -29,9 +27,10 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_5EA00B7C45AF82A4(::RPG::Client::ParkourGame::MonoParkourCurveMoveItem* a1)
+		::System::Void HAOBJNHJFGM(::RPG::Client::ParkourGame::MonoParkourCurveMoveItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourCurveMoveItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_METHOD_5_5EA00B7C45AF82A4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourCurveMoveItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVE_HAOBJNHJFGM_OFFSET))(this, a1);
 		}
+
 	};
 }

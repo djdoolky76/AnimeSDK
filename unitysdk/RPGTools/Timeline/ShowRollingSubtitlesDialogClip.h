@@ -1,49 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0C2A60)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0C2A50)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0C2CE0)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C2C70)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92F550)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92F2D0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92F4E0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92F2C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 48760;
+	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 48300;
 
 	class ShowRollingSubtitlesDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		static ::System::String** StaticGet_UI_LUA_PATH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x3F8E0);
-		}
-		static ::System::String** StaticGet_UI_NAME()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x3F8E8);
-		}
-		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
-		{
-			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0xFB30);
-		}
 		::System::String* UILuaPath; // 0x18
 		::System::String* ConfigPath; // 0x20
+		static ::System::String** StaticGet_UI_LUA_PATH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x6FCB0);
+		}
+
+		static ::System::String** StaticGet_UI_NAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x6FCB8);
+		}
+
+		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
+		{
+			return (::RPG::Client::NotifyType*)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x15B30);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -55,5 +56,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

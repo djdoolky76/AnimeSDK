@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::Emotion { class EmoDiscussionMouthBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B57F140)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B57F130)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57F2E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E43B0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E4550)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E43A0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionMouthClip_TypeDefinitionIndex = 49214;
+	inline static constexpr unsigned int EmoDiscussionMouthClip_TypeDefinitionIndex = 48760;
 
 	class EmoDiscussionMouthClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::RPGTools::Timeline::Emotion::EmoDiscussionMouthBehaviour* template_; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +35,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

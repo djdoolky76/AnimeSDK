@@ -3,17 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x19C4A920)
-#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x19C4A9E0)
-#define RPG_CLIENT_AIMVIRTUALTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4AB00)
+#define RPG_CLIENT_AIMVIRTUALTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xC636100)
+#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xC635F20)
+#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xC635FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimVirtualTransform_TypeDefinitionIndex = 68456;
+	inline static constexpr unsigned int AimVirtualTransform_TypeDefinitionIndex = 68489;
 
 	class AimVirtualTransform : public ::System::Object
 	{
@@ -22,10 +21,9 @@ namespace RPG::Client
 		::UnityEngine::Transform* OriginTransform; // 0x18
 		::UnityEngine::Vector3 LocalPosition; // 0x20
 		::UnityEngine::Quaternion LocalRotation; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMVIRTUALTRANSFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMVIRTUALTRANSFORM_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_Position()
@@ -37,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_ROTATION_OFFSET))(this);
 		}
+
 	};
 }

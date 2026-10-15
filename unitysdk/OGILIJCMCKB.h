@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/TRFOccupyType.h"
+#include "unitysdk/RPG/GameCore/TRFCubeType.h"
+#include "unitysdk/System/Object.h"
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define OGILIJCMCKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95ED80)
+
+inline static constexpr unsigned int OGILIJCMCKB_TypeDefinitionIndex = 42452;
+
+	class OGILIJCMCKB : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* GJLHEEOPDLK; // 0x10
+		::System::Int32 ENGJKOLALOB; // 0x18
+		::System::Int32 OMADOHLFMHP; // 0x1C
+		::System::Boolean HMAIEJIODHO; // 0x20
+		::System::Byte _padding0[0x3];
+		::RPG::Client::LittleGame::TRFOccupyType BIMECHCKKFA; // 0x24
+		::RPG::GameCore::TRFCubeType DOELLHMOEED; // 0x28
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OGILIJCMCKB_CTOR_OFFSET))(this);
+		}
+
+	};

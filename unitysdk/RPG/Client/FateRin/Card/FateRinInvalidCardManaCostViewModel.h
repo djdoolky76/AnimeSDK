@@ -1,34 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
-
+namespace RPG::Client::FateRin::Card { class FateRinInvalidCardManaCostViewModel; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CBEBA80)
-#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_MANACOST_OFFSET UNITYSDK_OFFSET(0x1CBEBB20)
-#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_UISTATE_OFFSET UNITYSDK_OFFSET(0x1CBEBB60)
-#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEBA70)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCEE96F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCEE97A0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCEE9700)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_MANACOST_OFFSET UNITYSDK_OFFSET(0xCEE97E0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_UISTATE_OFFSET UNITYSDK_OFFSET(0xCEE9820)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinInvalidCardManaCostViewModel_TypeDefinitionIndex = 79840;
+	inline static constexpr unsigned int FateRinInvalidCardManaCostViewModel_TypeDefinitionIndex = 81164;
 
 	class FateRinInvalidCardManaCostViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:
 		static ::RPG::Client::FateRin::Card::FateRinInvalidCardManaCostViewModel** StaticGet__Instance()
 		{
-			return (::RPG::Client::FateRin::Card::FateRinInvalidCardManaCostViewModel**)Il2CppClass::FromTypeDefinitionIndex(FateRinInvalidCardManaCostViewModel_TypeDefinitionIndex)->GetStaticField(0x39C0);
+			return (::RPG::Client::FateRin::Card::FateRinInvalidCardManaCostViewModel**)UnitySDK::FromName("RPG.Client.FateRin.Card", "FateRinInvalidCardManaCostViewModel")->GetStaticField(0x54F40);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::FateRin::Card::FateRinInvalidCardManaCostViewModel* get_Instance()
 		{
 			return ((::RPG::Client::FateRin::Card::FateRinInvalidCardManaCostViewModel*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_INSTANCE_OFFSET))();
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_DISPOSE_OFFSET))(this);
 		}
 
 		::System::Int32 get_ManaCost()
@@ -40,5 +46,6 @@ namespace RPG::Client::FateRin::Card
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDMANACOSTVIEWMODEL_GET_UISTATE_OFFSET))(this);
 		}
+
 	};
 }

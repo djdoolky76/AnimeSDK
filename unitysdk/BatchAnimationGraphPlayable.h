@@ -3,21 +3,22 @@
 #include "unitysdk/BatchAnimPlayState.h"
 #include "unitysdk/System/Object.h"
 
-#define BATCHANIMATIONGRAPHPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19293350)
+#define BATCHANIMATIONGRAPHPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB9470)
 
-inline static constexpr unsigned int BatchAnimationGraphPlayable_TypeDefinitionIndex = 36773;
+inline static constexpr unsigned int BatchAnimationGraphPlayable_TypeDefinitionIndex = 37460;
 
-class BatchAnimationGraphPlayable : public ::System::Object
-{
-public:
-	::System::Int32 clipIndex; // 0x10
-	::System::Single speed; // 0x14
-	::System::Boolean cache; // 0x18
-	::System::Int32 fadeInFrame; // 0x1C
-	::BatchAnimPlayState playState; // 0x20
-
-	::System::Void _ctor()
+	class BatchAnimationGraphPlayable : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BATCHANIMATIONGRAPHPLAYABLE__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Int32 clipIndex; // 0x10
+		::System::Single speed; // 0x14
+		::System::Boolean cache; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 fadeInFrame; // 0x1C
+		::BatchAnimPlayState playState; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BATCHANIMATIONGRAPHPLAYABLE_CTOR_OFFSET))(this);
+		}
+
+	};

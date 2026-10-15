@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD194B0)
-#define RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD19500)
-#define RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD19550)
+#define RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D92C0)
+#define RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D9220)
+#define RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D9270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCreatePlayerTeamFinish_TypeDefinitionIndex = 56907;
+	inline static constexpr unsigned int LevelCreatePlayerTeamFinish_TypeDefinitionIndex = 56728;
 
 	class LevelCreatePlayerTeamFinish : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCREATEPLAYERTEAMFINISH_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

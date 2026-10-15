@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierWithRemovedCardPropertyConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_METHOD_3_8CFB7C7E9FCBBDFB_OFFSET UNITYSDK_OFFSET(0x1E5358A0)
-#define RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_METHOD_3_D60D74B2F4A65317_OFFSET UNITYSDK_OFFSET(0x1E535850)
-#define RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E535890)
+#define RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ED400)
+#define RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9ED410)
+#define RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ED3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierWithRemovedCardPropertyConfig_TypeDefinitionIndex = 17651;
+	inline static constexpr unsigned int RogueModifierWithRemovedCardPropertyConfig_TypeDefinitionIndex = 17863;
 
 	class RogueModifierWithRemovedCardPropertyConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D60D74B2F4A65317(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_METHOD_3_D60D74B2F4A65317_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8CFB7C7E9FCBBDFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_METHOD_3_8CFB7C7E9FCBBDFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierWithRemovedCardPropertyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERWITHREMOVEDCARDPROPERTYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

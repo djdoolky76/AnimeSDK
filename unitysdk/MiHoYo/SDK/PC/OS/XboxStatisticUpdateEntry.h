@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXSTATISTICUPDATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE1280)
+#define MIHOYO_SDK_PC_OS_XBOXSTATISTICUPDATEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF179A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxStatisticUpdateEntry_TypeDefinitionIndex = 8621;
+	inline static constexpr unsigned int XboxStatisticUpdateEntry_TypeDefinitionIndex = 8682;
 
 	class XboxStatisticUpdateEntry : public ::System::Object
 	{
@@ -16,10 +15,10 @@ namespace MiHoYo::SDK::PC::OS
 		::System::String* name; // 0x10
 		::System::String* type; // 0x18
 		::System::String* value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_XBOXSTATISTICUPDATEENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_XBOXSTATISTICUPDATEENTRY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

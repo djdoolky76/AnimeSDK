@@ -2,25 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1E2B0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD4083F0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 77362;
+	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 77833;
 
 	class ChenLingShowToastData : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Anchor; // 0x10
-		::System::Single Param; // 0x18
-		::RPG::Client::TextID Text; // 0x20
-
+		::RPG::Client::TextID Text; // 0x18
+		::System::Single Param; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

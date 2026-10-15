@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FourRotateVoxelGuideHintBillboardConfig; }
 namespace RPG::GameCore { class FourRotateVoxelLevelVarConditionSet; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_METHOD_3_6C1656916F918F45_OFFSET UNITYSDK_OFFSET(0x1DCB6DE0)
-#define RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_METHOD_3_A6BF69BA1BD8A2C6_OFFSET UNITYSDK_OFFSET(0x1DCB6D80)
-#define RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB6DD0)
+#define RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C1C70)
+#define RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C1C80)
+#define RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C1C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelGuideHintBillboardConfig_TypeDefinitionIndex = 16604;
+	inline static constexpr unsigned int FourRotateVoxelGuideHintBillboardConfig_TypeDefinitionIndex = 16780;
 
 	class FourRotateVoxelGuideHintBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsGuideHintBillboard; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* AttachPointName; // 0x18
 		::RPG::GameCore::FourRotateVoxelLevelVarConditionSet* ActiveCondition; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A6BF69BA1BD8A2C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_METHOD_3_A6BF69BA1BD8A2C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6C1656916F918F45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_METHOD_3_6C1656916F918F45_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGUIDEHINTBILLBOARDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

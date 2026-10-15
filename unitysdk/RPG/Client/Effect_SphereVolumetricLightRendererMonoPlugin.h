@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-namespace RPG::Client { class Effect_SphereVolumetricLightRendererBehavior; }
-
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTRENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E9DF70)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTRENDERERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD64510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightRendererMonoPlugin_TypeDefinitionIndex = 70524;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightRendererMonoPlugin_TypeDefinitionIndex = 70560;
 
-	class Effect_SphereVolumetricLightRendererMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_SphereVolumetricLightRendererBehavior*>
+	class Effect_SphereVolumetricLightRendererMonoPlugin
 	{
 	public:
 		::System::Int32 ExampleProperty; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTRENDERERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTRENDERERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

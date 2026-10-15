@@ -2,10 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TokenType.h"
-
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TOKENHASHVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7F700)
+#define SYSTEM_GLOBALIZATION_TOKENHASHVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1F96E0)
 
 namespace System::Globalization
 {
@@ -15,12 +14,12 @@ namespace System::Globalization
 	{
 	public:
 		::System::String* tokenString; // 0x10
-		::System::TokenType tokenType; // 0x18
-		::System::Int32 tokenValue; // 0x1C
-
+		::System::Int32 tokenValue; // 0x18
+		::System::TokenType tokenType; // 0x1C
 		::System::Void _ctor(::System::String* a1, ::System::TokenType a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::TokenType, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TOKENHASHVALUE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::TokenType, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TOKENHASHVALUE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkBankContent_TypeDefinitionIndex = 43529;
+inline static constexpr unsigned int AkBankContent_TypeDefinitionIndex = 44721;
 
-enum class AkBankContent : ::System::Int32
-{
-	AkBankContent_StructureOnly = 0,
-	AkBankContent_All = 1,
-};
+	enum class AkBankContent : ::System::Int32
+	{
+		AkBankContent_StructureOnly = 0,
+		AkBankContent_All = 1,
+	};

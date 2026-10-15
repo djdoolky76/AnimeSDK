@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOGINDATAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A628910)
+#define MIHOYO_SDK_LOGINDATAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6CB00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginDataModel_TypeDefinitionIndex = 7821;
+	inline static constexpr unsigned int LoginDataModel_TypeDefinitionIndex = 7865;
 
 	class LoginDataModel : public ::System::Object
 	{
@@ -19,11 +18,12 @@ namespace MiHoYo::SDK
 		::System::Boolean safe_moblie_required; // 0x19
 		::System::Boolean realperson_required; // 0x1A
 		::System::Boolean reactivate_required; // 0x1B
+		::System::Byte _padding0[0x4];
 		::System::String* realname_operation; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LOGINDATAMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LOGINDATAMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

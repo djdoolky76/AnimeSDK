@@ -3,29 +3,27 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B57E5D0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B57E6D0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_METHOD_7_2776DE49AA80CEE7_OFFSET UNITYSDK_OFFSET(0x1B57EB30)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B57E560)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57EE30)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E37D0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E38D0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E4030)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E3760)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_PPPFHPHAHEM_OFFSET UNITYSDK_OFFSET(0xE8E3D30)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionBlendShapeTrack_TypeDefinitionIndex = 49211;
+	inline static constexpr unsigned int EmoDiscussionBlendShapeTrack_TypeDefinitionIndex = 48757;
 
 	class EmoDiscussionBlendShapeTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::RPG::Client::MonoEmoBlendShapesController* _controller; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
@@ -43,9 +41,10 @@ namespace RPGTools::Timeline::Emotion
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_7_2776DE49AA80CEE7(::UnityEngine::GameObject* a1)
+		::System::Void PPPFHPHAHEM(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_METHOD_7_2776DE49AA80CEE7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK_PPPFHPHAHEM_OFFSET))(this, a1);
 		}
+
 	};
 }

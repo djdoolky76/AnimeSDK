@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Rendering/ObjectPool_1_PooledObject.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DictionaryPool_2_TypeDefinitionIndex = 34828;
+	inline static constexpr unsigned int DictionaryPool_2_TypeDefinitionIndex = 35497;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class DictionaryPool_2 : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::ObjectPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>** StaticGet_s_Pool()
+		static ::UnityEngine::Rendering::ObjectPool_1<::System::Collections::Generic::Dictionary_2<T1, T2>*>** StaticGet_s_Pool()
 		{
-			return (::UnityEngine::Rendering::ObjectPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryPool_2_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::UnityEngine::Rendering::ObjectPool_1<::System::Collections::Generic::Dictionary_2<T1, T2>*>**)UnitySDK::FromName("UnityEngine.Rendering", "DictionaryPool`2")->GetStaticField(0x0);
 		}
+
 	};
 }

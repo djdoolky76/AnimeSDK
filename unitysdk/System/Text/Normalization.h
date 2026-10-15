@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Text/NormalizationCheck.h"
 #include "unitysdk/System/Text/NormalizationForm.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_TEXT_NORMALIZATION_CHARMAPIDX_OFFSET UNITYSDK_OFFSET(0x1B3C3D90)
-#define SYSTEM_TEXT_NORMALIZATION_COMBINEHANGUL_OFFSET UNITYSDK_OFFSET(0x1B3C4C20)
-#define SYSTEM_TEXT_NORMALIZATION_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x1B3C4580)
-#define SYSTEM_TEXT_NORMALIZATION_COMBINE_OFFSET UNITYSDK_OFFSET(0x1B3C43F0)
-#define SYSTEM_TEXT_NORMALIZATION_COMPOSE_OFFSET UNITYSDK_OFFSET(0x1B3C4180)
-#define SYSTEM_TEXT_NORMALIZATION_DECOMPOSECHAR_OFFSET UNITYSDK_OFFSET(0x1B3C6300)
-#define SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_1_OFFSET UNITYSDK_OFFSET(0x1B3C4260)
-#define SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x1B3C6270)
-#define SYSTEM_TEXT_NORMALIZATION_FETCH_OFFSET UNITYSDK_OFFSET(0x1B3C5C40)
-#define SYSTEM_TEXT_NORMALIZATION_GETCANONICALHANGUL_OFFSET UNITYSDK_OFFSET(0x1B3C7680)
-#define SYSTEM_TEXT_NORMALIZATION_GETCANONICAL_OFFSET UNITYSDK_OFFSET(0x1B3C7340)
-#define SYSTEM_TEXT_NORMALIZATION_GETCOMBININGCLASS_OFFSET UNITYSDK_OFFSET(0x1B3C3E20)
-#define SYSTEM_TEXT_NORMALIZATION_GETPRIMARYCOMPOSITEFROMMAPINDEX_OFFSET UNITYSDK_OFFSET(0x1B3C3F40)
-#define SYSTEM_TEXT_NORMALIZATION_GETPRIMARYCOMPOSITEHELPERINDEX_OFFSET UNITYSDK_OFFSET(0x1B3C4060)
-#define SYSTEM_TEXT_NORMALIZATION_ISNORMALIZED_1_OFFSET UNITYSDK_OFFSET(0x1B3C7800)
-#define SYSTEM_TEXT_NORMALIZATION_ISNORMALIZED_OFFSET UNITYSDK_OFFSET(0x1B3C7770)
-#define SYSTEM_TEXT_NORMALIZATION_LOAD_NORMALIZATION_RESOURCE_OFFSET UNITYSDK_OFFSET(0x1B3C7F40)
-#define SYSTEM_TEXT_NORMALIZATION_NORMALIZE_1_OFFSET UNITYSDK_OFFSET(0x1B3C7C70)
-#define SYSTEM_TEXT_NORMALIZATION_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1B3C7D90)
-#define SYSTEM_TEXT_NORMALIZATION_PROPVALUE_OFFSET UNITYSDK_OFFSET(0x1B3C3D00)
-#define SYSTEM_TEXT_NORMALIZATION_QUICKCHECK_OFFSET UNITYSDK_OFFSET(0x1B3C47B0)
-#define SYSTEM_TEXT_NORMALIZATION_REORDERCANONICAL_OFFSET UNITYSDK_OFFSET(0x1B3C6B40)
-#define SYSTEM_TEXT_NORMALIZATION_TRYCOMPOSEWITHPREVIOUSSTARTER_OFFSET UNITYSDK_OFFSET(0x1B3C5000)
-#define SYSTEM_TEXT_NORMALIZATION_TRYCOMPOSE_OFFSET UNITYSDK_OFFSET(0x1B3C5EE0)
-#define SYSTEM_TEXT_NORMALIZATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3C7F90)
+#define SYSTEM_TEXT_NORMALIZATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0FB440)
+#define SYSTEM_TEXT_NORMALIZATION_CHARMAPIDX_OFFSET UNITYSDK_OFFSET(0x1C0F7240)
+#define SYSTEM_TEXT_NORMALIZATION_COMBINEHANGUL_OFFSET UNITYSDK_OFFSET(0x1C0F80D0)
+#define SYSTEM_TEXT_NORMALIZATION_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x1C0F7A30)
+#define SYSTEM_TEXT_NORMALIZATION_COMBINE_OFFSET UNITYSDK_OFFSET(0x1C0F78A0)
+#define SYSTEM_TEXT_NORMALIZATION_COMPOSE_OFFSET UNITYSDK_OFFSET(0x1C0F7630)
+#define SYSTEM_TEXT_NORMALIZATION_DECOMPOSECHAR_OFFSET UNITYSDK_OFFSET(0x1C0F97B0)
+#define SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_1_OFFSET UNITYSDK_OFFSET(0x1C0F7710)
+#define SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x1C0F9720)
+#define SYSTEM_TEXT_NORMALIZATION_FETCH_OFFSET UNITYSDK_OFFSET(0x1C0F90F0)
+#define SYSTEM_TEXT_NORMALIZATION_GETCANONICALHANGUL_OFFSET UNITYSDK_OFFSET(0x1C0FAB30)
+#define SYSTEM_TEXT_NORMALIZATION_GETCANONICAL_OFFSET UNITYSDK_OFFSET(0x1C0FA7F0)
+#define SYSTEM_TEXT_NORMALIZATION_GETCOMBININGCLASS_OFFSET UNITYSDK_OFFSET(0x1C0F72D0)
+#define SYSTEM_TEXT_NORMALIZATION_GETPRIMARYCOMPOSITEFROMMAPINDEX_OFFSET UNITYSDK_OFFSET(0x1C0F73F0)
+#define SYSTEM_TEXT_NORMALIZATION_GETPRIMARYCOMPOSITEHELPERINDEX_OFFSET UNITYSDK_OFFSET(0x1C0F7510)
+#define SYSTEM_TEXT_NORMALIZATION_ISNORMALIZED_1_OFFSET UNITYSDK_OFFSET(0x1C0FACB0)
+#define SYSTEM_TEXT_NORMALIZATION_ISNORMALIZED_OFFSET UNITYSDK_OFFSET(0x1C0FAC20)
+#define SYSTEM_TEXT_NORMALIZATION_LOAD_NORMALIZATION_RESOURCE_OFFSET UNITYSDK_OFFSET(0x1C0FB3F0)
+#define SYSTEM_TEXT_NORMALIZATION_NORMALIZE_1_OFFSET UNITYSDK_OFFSET(0x1C0FB120)
+#define SYSTEM_TEXT_NORMALIZATION_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1C0FB240)
+#define SYSTEM_TEXT_NORMALIZATION_PROPVALUE_OFFSET UNITYSDK_OFFSET(0x1C0F71B0)
+#define SYSTEM_TEXT_NORMALIZATION_QUICKCHECK_OFFSET UNITYSDK_OFFSET(0x1C0F7C60)
+#define SYSTEM_TEXT_NORMALIZATION_REORDERCANONICAL_OFFSET UNITYSDK_OFFSET(0x1C0F9FF0)
+#define SYSTEM_TEXT_NORMALIZATION_TRYCOMPOSEWITHPREVIOUSSTARTER_OFFSET UNITYSDK_OFFSET(0x1C0F84B0)
+#define SYSTEM_TEXT_NORMALIZATION_TRYCOMPOSE_OFFSET UNITYSDK_OFFSET(0x1C0F9390)
 
 namespace System::Text
 {
@@ -42,40 +42,47 @@ namespace System::Text
 	public:
 		static ::System::Object** StaticGet_forLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x12780);
+			return (::System::Object**)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x23DF0);
 		}
-		static ::System::Int16** StaticGet_helperIndex()
+
+		static ::PVOID* StaticGet_helperIndex()
 		{
-			return (::System::Int16**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79A0);
+			return (::PVOID*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7BF0);
 		}
-		static ::System::UInt16** StaticGet_mapIdxToComposite()
+
+		static ::PVOID* StaticGet_mappedChars()
 		{
-			return (::System::UInt16**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79A8);
+			return (::PVOID*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7BF8);
 		}
-		static ::System::Int16** StaticGet_charMapIndex()
+
+		static ::PVOID* StaticGet_combiningClass()
 		{
-			return (::System::Int16**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79B0);
+			return (::PVOID*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7C00);
 		}
+
 		static ::System::Boolean* StaticGet_isReady()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79B8);
+			return (::System::Boolean*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7C08);
 		}
-		static ::System::Int32** StaticGet_mappedChars()
+
+		static ::PVOID* StaticGet_charMapIndex()
 		{
-			return (::System::Int32**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79C0);
+			return (::PVOID*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7C10);
 		}
-		static ::System::Byte** StaticGet_combiningClass()
+
+		static ::PVOID* StaticGet_props()
 		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79C8);
+			return (::PVOID*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7C18);
 		}
-		static ::System::Byte** StaticGet_props()
+
+		static ::PVOID* StaticGet_mapIdxToComposite()
 		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(Normalization_TypeDefinitionIndex)->GetStaticField(0x79D0);
+			return (::PVOID*)UnitySDK::FromName("System.Text", "Normalization")->GetStaticField(0x7C20);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_CCTOR_OFFSET))();
 		}
 
 		static ::System::UInt32 PropValue(::System::Int32 a1)
@@ -143,19 +150,19 @@ namespace System::Text
 			return ((::System::String*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Decompose_1(::System::String* a1, ::System::Text::StringBuilder*& a2, ::System::Int32 a3)
+		static ::System::Void Decompose_1(::System::String* a1, ::System::Text::StringBuilder* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Text::StringBuilder*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_1_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_DECOMPOSE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ReorderCanonical(::System::String* a1, ::System::Text::StringBuilder*& a2, ::System::Int32 a3)
+		static ::System::Void ReorderCanonical(::System::String* a1, ::System::Text::StringBuilder* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Text::StringBuilder*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_REORDERCANONICAL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_REORDERCANONICAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DecomposeChar(::System::Text::StringBuilder*& a1, ::Il2CppArray<::System::Int32>*& a2, ::System::String* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32& a6)
+		static ::System::Void DecomposeChar(::System::Text::StringBuilder* a1, ::System::Object* a2, ::System::String* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*&, ::Il2CppArray<::System::Int32>*&, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_DECOMPOSECHAR_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Object*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_DECOMPOSECHAR_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Text::NormalizationCheck QuickCheck(::System::Char a1, ::System::Int32 a2)
@@ -193,9 +200,10 @@ namespace System::Text
 			return ((::System::String*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_NORMALIZE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void load_normalization_resource(::System::IntPtr& a1, ::System::IntPtr& a2, ::System::IntPtr& a3, ::System::IntPtr& a4, ::System::IntPtr& a5, ::System::IntPtr& a6)
+		static ::System::Void load_normalization_resource(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::IntPtr a5, ::System::IntPtr a6)
 		{
-			return ((::System::Void(*)(::System::IntPtr&, ::System::IntPtr&, ::System::IntPtr&, ::System::IntPtr&, ::System::IntPtr&, ::System::IntPtr&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_LOAD_NORMALIZATION_RESOURCE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_NORMALIZATION_LOAD_NORMALIZATION_RESOURCE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
+
 	};
 }

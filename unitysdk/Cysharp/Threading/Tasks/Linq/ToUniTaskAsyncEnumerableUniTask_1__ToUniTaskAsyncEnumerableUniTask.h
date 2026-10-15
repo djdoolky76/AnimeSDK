@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToUniTaskAsyncEnumerableUniTask_1__ToUniTaskAsyncEnumerableUniTask_TypeDefinitionIndex = 44569;
+	inline static constexpr unsigned int ToUniTaskAsyncEnumerableUniTask_1__ToUniTaskAsyncEnumerableUniTask_TypeDefinitionIndex = 45708;
 
 	template <typename T>
 	class ToUniTaskAsyncEnumerableUniTask_1__ToUniTaskAsyncEnumerableUniTask : public ::System::Object

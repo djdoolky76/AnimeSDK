@@ -2,23 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomQueryType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define LIGHTRATIOCONFIG_LIGHTRATIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47BE40)
+#define LIGHTRATIOCONFIG_LIGHTRATIOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xB831B30)
 
-inline static constexpr unsigned int LightRatioConfig_LightRatioClip_TypeDefinitionIndex = 48022;
+inline static constexpr unsigned int LightRatioConfig_LightRatioClip_TypeDefinitionIndex = 47562;
 
-class LightRatioConfig_LightRatioClip : public ::System::Object
-{
-public:
-	::System::String* name; // 0x10
-	::RPG::CustomRP::CustomQueryType queryType; // 0x18
-	::System::Single lightRatioPerScreen; // 0x1C
-	::System::Single lightRatioPerScreenHighEnd; // 0x20
-
-	::System::Void _ctor()
+	class LightRatioConfig_LightRatioClip : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIGHTRATIOCONFIG_LIGHTRATIOCLIP__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::String* name; // 0x10
+		::RPG::CustomRP::CustomQueryType queryType; // 0x18
+		::System::Single lightRatioPerScreen; // 0x1C
+		::System::Single lightRatioPerScreenHighEnd; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIGHTRATIOCONFIG_LIGHTRATIOCLIP_CTOR_OFFSET))(this);
+		}
+
+	};

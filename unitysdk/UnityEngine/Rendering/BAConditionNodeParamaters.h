@@ -1,38 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/UnityEngine/Rendering/BANodeHash.h"
+#include "unitysdk/UnityEngine/Rendering/BAParamRef.h"
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 
-#define UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_ADDCONDITION_OFFSET UNITYSDK_OFFSET(0x1EAC5660)
-#define UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_RESETCONDITION_OFFSET UNITYSDK_OFFSET(0x1EAC5650)
-#define UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_SETCONDITIONOUTNODE_OFFSET UNITYSDK_OFFSET(0x1EAC5670)
+#define UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_ADDCONDITION_OFFSET UNITYSDK_OFFSET(0x1F3ECD40)
+#define UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_RESETCONDITION_OFFSET UNITYSDK_OFFSET(0x1F3ECD30)
+#define UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_SETCONDITIONOUTNODE_OFFSET UNITYSDK_OFFSET(0x1F3ECD50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAConditionNodeParamaters_TypeDefinitionIndex = 4794;
+	inline static constexpr unsigned int BAConditionNodeParamaters_TypeDefinitionIndex = 4799;
 
-	struct alignas(1) BAConditionNodeParamaters
+	struct alignas(4) BAConditionNodeParamaters
 	{
-		/*
-		static ::System::Void ResetCondition(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash& a2)
+		static ::System::Void ResetCondition(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphAsset*, ::UnityEngine::Rendering::BANodeHash&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_RESETCONDITION_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphAsset*, ::UnityEngine::Rendering::BANodeHash))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_RESETCONDITION_OFFSET))(a1, a2);
 		}
-		*/
 
-		/*
-		static ::System::Void AddCondition(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::UnityEngine::Rendering::BAParamRef& a6)
+		static ::System::Void AddCondition(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::UnityEngine::Rendering::BAParamRef a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphAsset*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Int32, ::System::Single, ::UnityEngine::Rendering::BAParamRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_ADDCONDITION_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphAsset*, ::UnityEngine::Rendering::BANodeHash, ::System::Int32, ::System::Int32, ::System::Single, ::UnityEngine::Rendering::BAParamRef))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_ADDCONDITION_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
-		*/
 
-		/*
-		static ::System::Void SetConditionOutNode(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::System::Int32 a3)
+		static ::System::Void SetConditionOutNode(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphAsset*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_SETCONDITIONOUTNODE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphAsset*, ::UnityEngine::Rendering::BANodeHash, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACONDITIONNODEPARAMATERS_SETCONDITIONOUTNODE_OFFSET))(a1, a2, a3);
 		}
-		*/
+
 	};
 }

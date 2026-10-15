@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
+namespace RPG::GameCore { class ChimeraBattlePostEvent; }
+
+#define MHCGPDHFBDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB929D50)
+#define MHCGPDHFBDE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB929D90)
+#define MHCGPDHFBDE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB929DD0)
+
+inline static constexpr unsigned int MHCGPDHFBDE_TypeDefinitionIndex = 78401;
+
+	class MHCGPDHFBDE : public ::System::Object
+	{
+	public:
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
+		::RPG::GameCore::ChimeraBattlePostEvent* IGHAHBNLIJA; // 0x18
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
+		::System::UInt32 LEKGODGIMCH; // 0x28
+		::System::UInt32 AJLJMGEEKOJ; // 0x2C
+		::System::Void _ctor(::RPG::GameCore::ChimeraBattlePostEvent* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattlePostEvent*, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MHCGPDHFBDE_CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::RPG::Client::Promises::Promise* KMFNKDMEJBC()
+		{
+			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + MHCGPDHFBDE_KMFNKDMEJBC_OFFSET))(this);
+		}
+
+		::System::Void NPAFMEBNFOB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MHCGPDHFBDE_NPAFMEBNFOB_OFFSET))(this);
+		}
+
+	};

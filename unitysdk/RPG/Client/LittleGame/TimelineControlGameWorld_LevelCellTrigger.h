@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellTrigger_TypeDefinitionIndex = 41216;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellTrigger_TypeDefinitionIndex = 42505;
 
 	struct alignas(8) TimelineControlGameWorld_LevelCellTrigger
 	{

@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/AdventureAbilityPropertyRatio.h"
 #include "unitysdk/RPG/GameCore/MinMaxType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByIsPropertyValueMinOrMax; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_6A331EDF297F9DDE_OFFSET UNITYSDK_OFFSET(0x1CBAF5A0)
-#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_73E9B03DBC619962_OFFSET UNITYSDK_OFFSET(0x1CBAF9D0)
-#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_7C225C23CDB335F8_OFFSET UNITYSDK_OFFSET(0x1CBAF640)
-#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_BB13A1B529766043_OFFSET UNITYSDK_OFFSET(0x1CBAF970)
-#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBAF600)
+#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D390830)
+#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D390C00)
+#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D390BA0)
+#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D390870)
+#define RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3907D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByIsPropertyValueMinOrMax_TypeDefinitionIndex = 20011;
+	inline static constexpr unsigned int AdventureByIsPropertyValueMinOrMax_TypeDefinitionIndex = 20248;
 
 	class AdventureByIsPropertyValueMinOrMax : public ::RPG::GameCore::PredicateConfig
 	{
@@ -25,33 +25,34 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::TargetEvaluator* CompareTargetType; // 0x28
 		::System::Boolean AliveOnly; // 0x30
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::MinMaxType MinOrMax; // 0x34
 		::RPG::GameCore::AdventureAbilityProperty PropertyType; // 0x38
 		::RPG::GameCore::AdventureAbilityPropertyRatio PropertyRatioType; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_6A331EDF297F9DDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_6A331EDF297F9DDE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7C225C23CDB335F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_7C225C23CDB335F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BB13A1B529766043(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_BB13A1B529766043_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_73E9B03DBC619962(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_METHOD_4_73E9B03DBC619962_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISPROPERTYVALUEMINORMAX_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

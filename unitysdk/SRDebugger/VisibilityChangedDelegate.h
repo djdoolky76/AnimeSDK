@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFD5A00)
-#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFD5A50)
-#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFD59F0)
-#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5980)
+#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED425F0)
+#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED42570)
+#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED42640)
+#define SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED425E0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int VisibilityChangedDelegate_TypeDefinitionIndex = 37272;
+	inline static constexpr unsigned int VisibilityChangedDelegate_TypeDefinitionIndex = 37965;
 
 	class VisibilityChangedDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_VISIBILITYCHANGEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +36,6 @@ namespace SRDebugger
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_VISIBILITYCHANGEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

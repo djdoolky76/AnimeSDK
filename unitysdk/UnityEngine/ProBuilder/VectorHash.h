@@ -5,20 +5,19 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1921C420)
-#define UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_2_OFFSET UNITYSDK_OFFSET(0x19246940)
-#define UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x192468B0)
-#define UNITYENGINE_PROBUILDER_VECTORHASH_HASHFLOAT_OFFSET UNITYSDK_OFFSET(0x19246870)
+#define UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1F23A620)
+#define UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_2_OFFSET UNITYSDK_OFFSET(0x1F264E50)
+#define UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F264DC0)
+#define UNITYENGINE_PROBUILDER_VECTORHASH_HASHFLOAT_OFFSET UNITYSDK_OFFSET(0x1F264D80)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int VectorHash_TypeDefinitionIndex = 43257;
+	inline static constexpr unsigned int VectorHash_TypeDefinitionIndex = 44449;
 
 	class VectorHash : public ::System::Object
 	{
 	public:
-		// static const ::System::Single FltCompareResolution; // 0x0
-
+		// static const ::System::Object FltCompareResolution; // 0x0
 		static ::System::Int32 HashFloat(::System::Single a1)
 		{
 			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VECTORHASH_HASHFLOAT_OFFSET))(a1);
@@ -38,5 +37,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Int32(*)(::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VECTORHASH_GETHASHCODE_2_OFFSET))(a1);
 		}
+
 	};
 }

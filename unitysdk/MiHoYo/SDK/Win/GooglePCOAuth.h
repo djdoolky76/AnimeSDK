@@ -2,50 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class GooglePCOAuth; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_AWAKE_OFFSET UNITYSDK_OFFSET(0x15D40A10)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_BACK_OFFSET UNITYSDK_OFFSET(0x15D42070)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x15D41C90)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_CONTINUEAUTH_OFFSET UNITYSDK_OFFSET(0x15D422D0)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_FINISHAUTH_OFFSET UNITYSDK_OFFSET(0x15D421B0)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_HIDE_OFFSET UNITYSDK_OFFSET(0x15D3A8D0)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x15D41E40)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15D42360)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_REAUTH_OFFSET UNITYSDK_OFFSET(0x15D42240)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_SETAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x15D41850)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_SHOW_OFFSET UNITYSDK_OFFSET(0x15D3E220)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_SUBMIT_OFFSET UNITYSDK_OFFSET(0x15D42120)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x15D412F0)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CLICKBACKBUTTON_B__30_0_OFFSET UNITYSDK_OFFSET(0x15D423C0)
-#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CTOR_OFFSET UNITYSDK_OFFSET(0x15D42380)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD1CA70)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_BACK_OFFSET UNITYSDK_OFFSET(0x1BD1E0D0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD1DCF0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_CONTINUEAUTH_OFFSET UNITYSDK_OFFSET(0x1BD1E330)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD1E3E0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_FINISHAUTH_OFFSET UNITYSDK_OFFSET(0x1BD1E210)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD16930)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1BD1DEA0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD1E3C0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_REAUTH_OFFSET UNITYSDK_OFFSET(0x1BD1E2A0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_SETAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x1BD1D8B0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD1A280)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BD1E180)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD1D350)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CLICKBACKBUTTON_B__30_0_OFFSET UNITYSDK_OFFSET(0x1BD1E420)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCOAuth_TypeDefinitionIndex = 9430;
+	inline static constexpr unsigned int GooglePCOAuth_TypeDefinitionIndex = 9488;
 
 	class GooglePCOAuth : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::GooglePCOAuth** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::GooglePCOAuth**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth_TypeDefinitionIndex)->GetStaticField(0x30320);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* QuestionButtonPath; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* SubmitButtonTextPath; // 0x0
-		// static const ::System::String* CheckButtonPath; // 0x0
-		// static const ::System::String* CheckButtonTextPath; // 0x0
-		// static const ::System::String* ReAuthButtonPath; // 0x0
-		// static const ::System::String* ReAuthButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* backButton; // 0x58
 		::UnityEngine::UI::Button* questionButton; // 0x60
 		::UnityEngine::UI::Button* submitButton; // 0x68
@@ -59,10 +43,25 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnBack; // 0xA8
 		::System::Action* OnAuth; // 0xB0
 		::System::Action* OnCheck; // 0xB8
+		static ::MiHoYo::SDK::Win::GooglePCOAuth** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::GooglePCOAuth**)UnitySDK::FromName("MiHoYo.SDK.Win", "GooglePCOAuth")->GetStaticField(0x314B0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* QuestionButtonPath; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* SubmitButtonTextPath; // 0x0
+		// static const ::System::String* CheckButtonPath; // 0x0
+		// static const ::System::String* CheckButtonTextPath; // 0x0
+		// static const ::System::String* ReAuthButtonPath; // 0x0
+		// static const ::System::String* ReAuthButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -134,5 +133,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CLICKBACKBUTTON_B__30_0_OFFSET))(this, a1);
 		}
+
 	};
 }

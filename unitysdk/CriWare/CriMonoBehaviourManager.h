@@ -1,45 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace CriWare { class CriMonoBehaviour; }
+namespace CriWare { class CriMonoBehaviourManager; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1DC530A0)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1DC52DA0)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1DC52E90)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1DC52850)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1DC53370)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1DC52960)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1DC52BC0)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DC53130)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC535C0)
-#define CRIWARE_CRIMONOBEHAVIOURMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC535B0)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x16724420)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x16724940)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x16724120)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x16724930)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_GETINDEX_OFFSET UNITYSDK_OFFSET(0x16724210)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16723BD0)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x167246F0)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x16723CE0)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x16723F40)
+#define CRIWARE_CRIMONOBEHAVIOURMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x167244B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriMonoBehaviourManager_TypeDefinitionIndex = 38903;
+	inline static constexpr unsigned int CriMonoBehaviourManager_TypeDefinitionIndex = 40200;
 
 	class CriMonoBehaviourManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::CriWare::CriMonoBehaviourManager** StaticGet__instance()
-		{
-			return (::CriWare::CriMonoBehaviourManager**)Il2CppClass::FromTypeDefinitionIndex(CriMonoBehaviourManager_TypeDefinitionIndex)->GetStaticField(0x5E690);
-		}
 		static ::System::Collections::Generic::List_1<::CriWare::CriMonoBehaviour*>** StaticGet_criMonoBehaviourList()
 		{
-			return (::System::Collections::Generic::List_1<::CriWare::CriMonoBehaviour*>**)Il2CppClass::FromTypeDefinitionIndex(CriMonoBehaviourManager_TypeDefinitionIndex)->GetStaticField(0x5E698);
+			return (::System::Collections::Generic::List_1<::CriWare::CriMonoBehaviour*>**)UnitySDK::FromName("CriWare", "CriMonoBehaviourManager")->GetStaticField(0x59420);
+		}
+
+		static ::CriWare::CriMonoBehaviourManager** StaticGet__instance()
+		{
+			return (::CriWare::CriMonoBehaviourManager**)UnitySDK::FromName("CriWare", "CriMonoBehaviourManager")->GetStaticField(0x59428);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOURMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOURMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOURMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOURMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::CriWare::CriMonoBehaviourManager* get_instance()
@@ -81,5 +82,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOURMANAGER_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

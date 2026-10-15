@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class ConsoleCancelEventArgs; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_CONSOLECANCELEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A51DAD0)
-#define SYSTEM_CONSOLECANCELEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A51DB10)
-#define SYSTEM_CONSOLECANCELEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A51D620)
-#define SYSTEM_CONSOLECANCELEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A51D9E0)
+#define SYSTEM_CONSOLECANCELEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C1675B0)
+#define SYSTEM_CONSOLECANCELEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1674C0)
+#define SYSTEM_CONSOLECANCELEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C1675F0)
+#define SYSTEM_CONSOLECANCELEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C167100)
 
 namespace System
 {
@@ -21,7 +20,7 @@ namespace System
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLECANCELEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLECANCELEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::ConsoleCancelEventArgs* a2)
@@ -38,5 +37,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLECANCELEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

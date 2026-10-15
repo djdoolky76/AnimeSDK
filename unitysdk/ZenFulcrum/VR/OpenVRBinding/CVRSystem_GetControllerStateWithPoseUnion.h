@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class CVRSystem__GetControllerStateWithPosePacked; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__GetControllerStateWithPose; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRSystem_GetControllerStateWithPoseUnion_TypeDefinitionIndex = 37898;
+	inline static constexpr unsigned int CVRSystem_GetControllerStateWithPoseUnion_TypeDefinitionIndex = 39195;
 
 	struct alignas(8) CVRSystem_GetControllerStateWithPoseUnion
 	{

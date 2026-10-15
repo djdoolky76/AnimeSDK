@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GlobalShowBillboard; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GLOBALSHOWBILLBOARD_METHOD_3_48D2A9D9888C9BF7_OFFSET UNITYSDK_OFFSET(0x1D95B270)
-#define RPG_GAMECORE_GLOBALSHOWBILLBOARD_METHOD_3_C32D990F154127BC_OFFSET UNITYSDK_OFFSET(0x1D95B230)
-#define RPG_GAMECORE_GLOBALSHOWBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95B260)
+#define RPG_GAMECORE_GLOBALSHOWBILLBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F2040)
+#define RPG_GAMECORE_GLOBALSHOWBILLBOARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F2050)
+#define RPG_GAMECORE_GLOBALSHOWBILLBOARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F2010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalShowBillboard_TypeDefinitionIndex = 20226;
+	inline static constexpr unsigned int GlobalShowBillboard_TypeDefinitionIndex = 20464;
 
 	class GlobalShowBillboard : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsShow; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSHOWBILLBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSHOWBILLBOARD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C32D990F154127BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalShowBillboard*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GlobalShowBillboard* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalShowBillboard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSHOWBILLBOARD_METHOD_3_C32D990F154127BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GlobalShowBillboard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSHOWBILLBOARD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_48D2A9D9888C9BF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalShowBillboard* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GlobalShowBillboard* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalShowBillboard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSHOWBILLBOARD_METHOD_3_48D2A9D9888C9BF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GlobalShowBillboard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALSHOWBILLBOARD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

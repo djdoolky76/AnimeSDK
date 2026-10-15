@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
+namespace RPG::GameCore { class AbilityTriggerLimbo; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x11257060)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x112570F0)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x112570B0)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0x11227B60)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x11257140)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0xE533D40)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_CTOR_OFFSET UNITYSDK_OFFSET(0xE533E20)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE533DD0)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE533D90)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0xE533CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityTriggerLimbo_TypeDefinitionIndex = 56759;
+	inline static constexpr unsigned int AbilityTriggerLimbo_TypeDefinitionIndex = 56580;
 
-	class AbilityTriggerLimbo : public ::Class_1_BF7A075734D15E98
+	class AbilityTriggerLimbo : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* TargetEntity; // 0x18
 		::System::UInt32 _SourceEntityRuntimeID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTRIGGERLIMBO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTRIGGERLIMBO_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AbilityTriggerLimbo* Init(::System::UInt32 a1, ::RPG::GameCore::GameEntity* a2)
@@ -45,5 +44,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

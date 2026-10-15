@@ -3,28 +3,27 @@
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath_Field.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionPointInfo; }
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_GETFIELD_OFFSET UNITYSDK_OFFSET(0x183BF040)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_LERPTO_OFFSET UNITYSDK_OFFSET(0x183BF120)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x183BF1D0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x183B5F90)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E2CF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1C4EBD80)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_LERPTO_OFFSET UNITYSDK_OFFSET(0x1C4EBE70)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4EBF20)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveBaseMath_SectionPointInfo_TypeDefinitionIndex = 35315;
+	inline static constexpr unsigned int BGCurveBaseMath_SectionPointInfo_TypeDefinitionIndex = 36002;
 
 	class BGCurveBaseMath_SectionPointInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 Tangent; // 0x10
-		::System::Single DistanceToSectionStart; // 0x1C
-		::UnityEngine::Vector3 Position; // 0x20
-
+		::System::Single DistanceToSectionStart; // 0x10
+		::UnityEngine::Vector3 Position; // 0x14
+		::UnityEngine::Vector3 Tangent; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 GetField(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Field a1)
@@ -41,5 +40,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_SECTIONPOINTINFO_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1861C3C0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1861C3F0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1861C3B0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1861C2C0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD492FF0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0xD492EF0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD493020)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_INVOKE_OFFSET UNITYSDK_OFFSET(0xD492FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalizationManager_OnUITextSwitch_TypeDefinitionIndex = 61447;
+	inline static constexpr unsigned int LocalizationManager_OnUITextSwitch_TypeDefinitionIndex = 61353;
 
 	class LocalizationManager_OnUITextSwitch : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTSWITCH_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

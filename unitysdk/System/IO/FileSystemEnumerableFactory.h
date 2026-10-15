@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/SearchOption.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define SYSTEM_IO_FILESYSTEMENUMERABLEFACTORY_CREATEFILENAMEITERATOR_OFFSET UNITYSDK_OFFSET(0x1D463FB0)
+#define SYSTEM_IO_FILESYSTEMENUMERABLEFACTORY_CREATEFILENAMEITERATOR_OFFSET UNITYSDK_OFFSET(0x1C230410)
 
 namespace System::IO
 {
@@ -19,5 +18,6 @@ namespace System::IO
 		{
 			return ((::System::Collections::Generic::IEnumerable_1<::System::String*>*(*)(::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::IO::SearchOption, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESYSTEMENUMERABLEFACTORY_CREATEFILENAMEITERATOR_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

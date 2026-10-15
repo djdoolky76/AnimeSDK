@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_ReplaySaveData_TypeDefinitionIndex = 68712;
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_ReplaySaveData_TypeDefinitionIndex = 68746;
 
 	struct alignas(4) WolfBroGunPlayPuzzleBoard_ReplaySaveData
 	{

@@ -1,34 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::PostProcessing { class LipLineFixScaleTimelineBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0AE1E0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_GET_AUTORESET_OFFSET UNITYSDK_OFFSET(0x1B0AE1B0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0AE1D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_SET_AUTORESET_OFFSET UNITYSDK_OFFSET(0x1B0AE1C0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AE380)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE91AF40)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE91B0B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_GET_AUTORESET_OFFSET UNITYSDK_OFFSET(0xE91AF10)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE91AF30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_SET_AUTORESET_OFFSET UNITYSDK_OFFSET(0xE91AF20)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LipLineFixScaleTimelineClip_TypeDefinitionIndex = 49036;
+	inline static constexpr unsigned int LipLineFixScaleTimelineClip_TypeDefinitionIndex = 48582;
 
 	class LipLineFixScaleTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::System::Boolean _AutoReset_k__BackingField; // 0x20
+		::System::Byte _padding0[0x7];
 		::RPGTools::Timeline::PostProcessing::LipLineFixScaleTimelineBehaviour* Template; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_AutoReset()
@@ -50,5 +49,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

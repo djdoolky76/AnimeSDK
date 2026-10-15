@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+namespace System { class Exception; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C65C120)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C667680)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6675E0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C123EE0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C12F440)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12F3A0)
 
 namespace System::Threading::Tasks
 {
@@ -18,17 +18,18 @@ namespace System::Threading::Tasks
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKSCHEDULEREXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

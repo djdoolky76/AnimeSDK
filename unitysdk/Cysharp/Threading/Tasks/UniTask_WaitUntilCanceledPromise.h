@@ -4,59 +4,61 @@
 #include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-
+#include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
+namespace Cysharp::Threading::Tasks { class UniTask_WaitUntilCanceledPromise; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1CE0A020)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE11560)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE11760)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1CE11440)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CE118E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CE11880)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1CE116C0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE11830)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE11450)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE11550)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11D340)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F115EC0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11D440)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F11D450)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11D630)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F11D330)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F11D7B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F11D750)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F11D5A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11D700)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilCanceledPromise_TypeDefinitionIndex = 42675;
+	inline static constexpr unsigned int UniTask_WaitUntilCanceledPromise_TypeDefinitionIndex = 38260;
 
 	class UniTask_WaitUntilCanceledPromise : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise*>* StaticGet_pool()
-		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitUntilCanceledPromise_TypeDefinitionIndex)->GetStaticField(0x62810);
-		}
-		::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise* nextNode; // 0x10
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x58
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x10
+		::System::Byte _padding0[0x20];
+		::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise* nextNode; // 0x38
+		::System::Threading::CancellationToken cancellationToken; // 0x40
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x48
 		::System::Boolean cancelImmediately; // 0x60
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
+		{
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilCanceledPromise")->GetStaticField(0x39F50);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CTOR_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise*& get_NextNode()
+		::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise* get_NextNode()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise*&(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GET_NEXTNODE_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_GET_NEXTNODE_OFFSET))(this);
 		}
 
-		static ::Cysharp::Threading::Tasks::IUniTaskSource* Create(::System::Threading::CancellationToken a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::Boolean a3, ::System::Int16& a4)
+		static ::Cysharp::Threading::Tasks::IUniTaskSource* Create(::System::Threading::CancellationToken a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::Boolean a3, ::System::Int16 a4)
 		{
-			return ((::Cysharp::Threading::Tasks::IUniTaskSource*(*)(::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Int16&))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CREATE_OFFSET))(a1, a2, a3, a4);
+			return ((::Cysharp::Threading::Tasks::IUniTaskSource*(*)(::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void GetResult(::System::Int16 a1)
@@ -88,5 +90,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_TRYRETURN_OFFSET))(this);
 		}
+
 	};
 }

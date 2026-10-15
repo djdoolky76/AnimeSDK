@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AstraFX/AstraFXDataPropertyDescription.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataNodeDescription_TypeDefinitionIndex = 73571;
+	inline static constexpr unsigned int AstraFXDataNodeDescription_TypeDefinitionIndex = 73678;
 
 	struct alignas(8) AstraFXDataNodeDescription
 	{

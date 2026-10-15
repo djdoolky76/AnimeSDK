@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Net { class TransportContext; }
@@ -12,35 +11,34 @@ namespace System::Text { class Encoding; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET UNITYSDK_OFFSET(0x1E7EE410)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET UNITYSDK_OFFSET(0x1E7EE350)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTO_OFFSET UNITYSDK_OFFSET(0x1E7EE3E0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_CREATEFIXEDMEMORYSTREAM_OFFSET UNITYSDK_OFFSET(0x1E7EE500)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E7EE630)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E7EE5B0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x1E7EE8E0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1E7EB940)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET UNITYSDK_OFFSET(0x1E7DAB70)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET UNITYSDK_OFFSET(0x1E7EA470)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_OFFSET UNITYSDK_OFFSET(0x1E7EE6D0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET UNITYSDK_OFFSET(0x1E7EE830)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1E7EEC70)
-#define SYSTEM_NET_HTTP_HTTPCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D58C0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EE352A0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET UNITYSDK_OFFSET(0x1EE351E0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EE35270)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_CREATEFIXEDMEMORYSTREAM_OFFSET UNITYSDK_OFFSET(0x1EE35390)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE1C600)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1EE354C0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EE35440)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x1EE35790)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1EE32710)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET UNITYSDK_OFFSET(0x1EE218B0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EE312C0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_OFFSET UNITYSDK_OFFSET(0x1EE35560)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET UNITYSDK_OFFSET(0x1EE356E0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1EE35B20)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpContent_TypeDefinitionIndex = 3764;
+	inline static constexpr unsigned int HttpContent_TypeDefinitionIndex = 3765;
 
 	class HttpContent : public ::System::Object
 	{
 	public:
-		::System::Net::Http::HttpContent_FixedMemoryStream* buffer; // 0x10
-		::System::Net::Http::Headers::HttpContentHeaders* headers; // 0x18
+		::System::Net::Http::Headers::HttpContentHeaders* headers; // 0x10
+		::System::Net::Http::HttpContent_FixedMemoryStream* buffer; // 0x18
 		::System::Boolean disposed; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Net::Http::Headers::HttpContentHeaders* get_Headers()
@@ -98,14 +96,15 @@ namespace System::Net::Http
 			return ((::System::Threading::Tasks::Task_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET))(this);
 		}
 
-		static ::System::Text::Encoding* GetEncodingFromBuffer(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32& a3)
+		static ::System::Text::Encoding* GetEncodingFromBuffer(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Text::Encoding*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET))(a1, a2, a3);
+			return ((::System::Text::Encoding*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Int32 StartsWith(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::Il2CppArray<::System::Byte>* a3)
 		{
 			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

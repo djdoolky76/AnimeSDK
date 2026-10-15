@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class LockAnimatorSpeed; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LOCKANIMATORSPEED_METHOD_3_6972E62D32B1EFF5_OFFSET UNITYSDK_OFFSET(0x1DD77420)
-#define RPG_GAMECORE_LOCKANIMATORSPEED_METHOD_3_6B00C186441F1590_OFFSET UNITYSDK_OFFSET(0x1DD77460)
-#define RPG_GAMECORE_LOCKANIMATORSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD77450)
+#define RPG_GAMECORE_LOCKANIMATORSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2340)
+#define RPG_GAMECORE_LOCKANIMATORSPEED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C2350)
+#define RPG_GAMECORE_LOCKANIMATORSPEED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C2310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockAnimatorSpeed_TypeDefinitionIndex = 22975;
+	inline static constexpr unsigned int LockAnimatorSpeed_TypeDefinitionIndex = 23237;
 
 	class LockAnimatorSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsReset; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::DynamicFloat* LockSpeed; // 0x20
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKANIMATORSPEED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKANIMATORSPEED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6972E62D32B1EFF5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockAnimatorSpeed*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LockAnimatorSpeed* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockAnimatorSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKANIMATORSPEED_METHOD_3_6972E62D32B1EFF5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LockAnimatorSpeed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKANIMATORSPEED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6B00C186441F1590(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockAnimatorSpeed* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LockAnimatorSpeed* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockAnimatorSpeed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKANIMATORSPEED_METHOD_3_6B00C186441F1590_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LockAnimatorSpeed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKANIMATORSPEED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

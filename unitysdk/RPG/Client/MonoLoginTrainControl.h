@@ -2,36 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACF0AA0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET UNITYSDK_OFFSET(0x1ACF00B0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_7FBAA229ED524F8E_OFFSET UNITYSDK_OFFSET(0x1ACF04C0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_9B1F2653496E5C47_OFFSET UNITYSDK_OFFSET(0x1ACF02E0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ACF0D00)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ACEFBD0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ACF0D80)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF0D50)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CCFNGFBMHKO_OFFSET UNITYSDK_OFFSET(0xD83CD50)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD83D7F0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD83D7C0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_FEGBLLOFDHA_OFFSET UNITYSDK_OFFSET(0xD83CB20)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_HNJCLJMEAJJ_OFFSET UNITYSDK_OFFSET(0xD83CF30)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD83D510)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD83D770)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD83C640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 70119;
+	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 70155;
 
 	class MonoLoginTrainControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_GEANMPPJPDK()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0x86F0);
-		}
-		static ::System::Int32* StaticGet_MCFKPLLFPBH()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0x86F4);
-		}
 		::UnityEngine::GameObject* train; // 0x18
 		::UnityEngine::GameObject* train02; // 0x20
 		::UnityEngine::Transform* dissolveQuad; // 0x28
@@ -39,17 +30,27 @@ namespace RPG::Client
 		::UnityEngine::Vector3 quadStartLocalPos; // 0x34
 		::UnityEngine::Vector3 quadEndLocalPos; // 0x40
 		::System::Boolean CKHOFPKMKLC; // 0x4C
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* JDDAANCPKHO; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* EEFPGBGALJI; // 0x58
+		static ::System::Int32* StaticGet_MCFKPLLFPBH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoLoginTrainControl")->GetStaticField(0x14F90);
+		}
+
+		static ::System::Int32* StaticGet_GEANMPPJPDK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoLoginTrainControl")->GetStaticField(0x14F94);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_CCTOR_OFFSET))();
 		}
 
 		::System::Void OnEnable()
@@ -57,19 +58,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_70CD9A040B4290BE()
+		::System::Void FEGBLLOFDHA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_FEGBLLOFDHA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9B1F2653496E5C47()
+		::System::Void CCFNGFBMHKO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_9B1F2653496E5C47_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_CCFNGFBMHKO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7FBAA229ED524F8E()
+		::System::Void HNJCLJMEAJJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_7FBAA229ED524F8E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_HNJCLJMEAJJ_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()
@@ -81,5 +82,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

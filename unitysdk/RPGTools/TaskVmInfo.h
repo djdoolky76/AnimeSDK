@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int TaskVmInfo_TypeDefinitionIndex = 47388;
+	inline static constexpr unsigned int TaskVmInfo_TypeDefinitionIndex = 46928;
 
-	struct alignas(8) TaskVmInfo
+	struct alignas(4) TaskVmInfo
 	{
 		::System::UInt64 virtual_size; // 0x10
 		::System::Int32 region_count; // 0x18
@@ -53,6 +52,7 @@ namespace RPGTools
 		::System::Int64 ledger_tag_neural_nofootprint_compressed; // 0x158
 		::System::UInt64 limit_bytes_remaining; // 0x160
 		::System::Int32 decompressions; // 0x168
+		::System::Byte _padding0[0x4];
 		::System::Int64 ledger_swapins; // 0x170
 	};
 }

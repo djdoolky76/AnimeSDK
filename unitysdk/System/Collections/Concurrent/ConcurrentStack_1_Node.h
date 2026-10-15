@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections::Concurrent { template <typename T> class ConcurrentStack_1_Node; }
+namespace System { class Object; }
 
 namespace System::Collections::Concurrent
 {
@@ -13,6 +12,6 @@ namespace System::Collections::Concurrent
 	{
 	public:
 		T _value; // 0x0
-		::System::Collections::Concurrent::ConcurrentStack_1_Node<T>* _next; // 0x0
+		::System::Object* _next; // 0x0
 	};
 }

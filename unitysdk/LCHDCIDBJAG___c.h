@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_3.h"
+class GHLNPFDIJLF;
+class IJFIHJJPHNA;
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+#define LCHDCIDBJAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C70A290)
+#define LCHDCIDBJAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70A2D0)
+#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_0_OFFSET UNITYSDK_OFFSET(0x1C70A330)
+#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_1_OFFSET UNITYSDK_OFFSET(0x1C70A310)
+#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_2_OFFSET UNITYSDK_OFFSET(0x1C70A320)
+#define LCHDCIDBJAG___C___APPLYTACTICSCARDMODIFIER_B__73_0_OFFSET UNITYSDK_OFFSET(0x1C70A2E0)
+
+inline static constexpr unsigned int LCHDCIDBJAG___c_TypeDefinitionIndex = 36480;
+
+	class LCHDCIDBJAG___c : public ::System::Object
+	{
+	public:
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__74_2()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13F30);
+		}
+
+		static ::System::Func_2<::System::Int32, ::RPG::GameCore::FixPoint>** StaticGet___9__73_0()
+		{
+			return (::System::Func_2<::System::Int32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13F38);
+		}
+
+		static ::System::Func_2<::GHLNPFDIJLF*, ::System::String*>** StaticGet___9__74_0()
+		{
+			return (::System::Func_2<::GHLNPFDIJLF*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13F40);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13F48);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>** StaticGet___9__74_1()
+		{
+			return (::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13F50);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C_CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint __ApplyTacticsCardModifier_b__73_0(::System::Int32 a1)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C___APPLYTACTICSCARDMODIFIER_B__73_0_OFFSET))(this, a1);
+		}
+
+		::System::Int32 _UseTacticsCard_b__74_1(::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*> a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C__USETACTICSCARD_B__74_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 _UseTacticsCard_b__74_2(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C__USETACTICSCARD_B__74_2_OFFSET))(this, a1);
+		}
+
+		::System::String* _UseTacticsCard_b__74_0(::GHLNPFDIJLF* a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::GHLNPFDIJLF*))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C__USETACTICSCARD_B__74_0_OFFSET))(this, a1);
+		}
+
+	};

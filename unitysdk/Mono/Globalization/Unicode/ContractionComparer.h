@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Globalization::Unicode { class Contraction; }
+namespace Mono::Globalization::Unicode { class ContractionComparer; }
 
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x16DE08D0)
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DE09A0)
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DE0990)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C029A50)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C029980)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C029A40)
 
 namespace Mono::Globalization::Unicode
 {
@@ -17,22 +17,23 @@ namespace Mono::Globalization::Unicode
 	public:
 		static ::Mono::Globalization::Unicode::ContractionComparer** StaticGet_Instance()
 		{
-			return (::Mono::Globalization::Unicode::ContractionComparer**)Il2CppClass::FromTypeDefinitionIndex(ContractionComparer_TypeDefinitionIndex)->GetStaticField(0x2FE0);
+			return (::Mono::Globalization::Unicode::ContractionComparer**)UnitySDK::FromName("Mono.Globalization.Unicode", "ContractionComparer")->GetStaticField(0x2800);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 Compare(::Mono::Globalization::Unicode::Contraction* a1, ::Mono::Globalization::Unicode::Contraction* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Mono::Globalization::Unicode::Contraction*, ::Mono::Globalization::Unicode::Contraction*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

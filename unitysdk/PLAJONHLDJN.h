@@ -1,0 +1,368 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AEKIOONKCIB.h"
+#include "unitysdk/RPG/LittleGameShare/DiceCombatCore/GameMode/DiceCombatGameMode.h"
+#include "unitysdk/NDGBEEKKHFI.h"
+class AEHPHKBKPJA;
+class AHLKNNCGEIH;
+class AIMNKMEFBKE;
+class AKNPMJGCKOM;
+class AONBKHCHAHK;
+class CGNDHCFAAPM;
+class CKECEKNEAGP;
+class DCHHELPJHJJ;
+class FFOMBAHCGLE;
+class FJGEMOHFHGI;
+class GDPHGHOPGOH;
+class GHADLBDBHNA;
+class GHNMNFHDCME;
+class GMAHGAAKIOK;
+class GNEGKIBNHLD;
+class HAFCMNPMFGO;
+class HAILIPBNAJL;
+class HBAHBGCOOML;
+class HLPKDNOKBBM;
+class HNJJOFBLHCN;
+class IJFIHJJPHNA;
+class JCLBAEHIBLA;
+class JLNOLMNPIGN;
+class JNIJALGPGDD;
+class KLMDNMJMGBK;
+class LAALMAHICIC;
+class LCHDCIDBJAG;
+class LDBKEIPCNGA;
+class LLNHPBBCIPH;
+class MGJHLLCENKL;
+class MPDLPOCLIDP;
+class NEOLEBDHNPG;
+class OIHECABGFIM;
+class OKNFDGKFBNB;
+class OKODLKPDEAG;
+class PMMIGNNAIJB;
+namespace System { class Random; }
+namespace System { class String; }
+namespace System::IO { class FileStream; }
+
+#define PLAJONHLDJN_ADJJDANMKJG_OFFSET UNITYSDK_OFFSET(0x1C7C4360)
+#define PLAJONHLDJN_AFDGCKPBBGI_OFFSET UNITYSDK_OFFSET(0x1C7C1D60)
+#define PLAJONHLDJN_AONEHEHFGEK_OFFSET UNITYSDK_OFFSET(0x1C7C20E0)
+#define PLAJONHLDJN_BFFPCEKMJOJ_OFFSET UNITYSDK_OFFSET(0x1C7C4750)
+#define PLAJONHLDJN_CCCGEPNADFP_OFFSET UNITYSDK_OFFSET(0x1C7C11D0)
+#define PLAJONHLDJN_CIDOABEAMKI_OFFSET UNITYSDK_OFFSET(0x1C7C4FC0)
+#define PLAJONHLDJN_CJAPDKBAEEA_OFFSET UNITYSDK_OFFSET(0x1C7C13D0)
+#define PLAJONHLDJN_CJBCILMPPOH_OFFSET UNITYSDK_OFFSET(0x1C7C0420)
+#define PLAJONHLDJN_CLNOMPEGNOI_OFFSET UNITYSDK_OFFSET(0x1C7C63D0)
+#define PLAJONHLDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C5370)
+#define PLAJONHLDJN_DCADIANHPFD_OFFSET UNITYSDK_OFFSET(0x1C7A0160)
+#define PLAJONHLDJN_DGPJNOEICIA_OFFSET UNITYSDK_OFFSET(0x1C7C4990)
+#define PLAJONHLDJN_DNKKFNBMKPF_OFFSET UNITYSDK_OFFSET(0x1C7C09B0)
+#define PLAJONHLDJN_EIICOONHEIL_OFFSET UNITYSDK_OFFSET(0x1C7C64C0)
+#define PLAJONHLDJN_EJAHEDDMHCF_OFFSET UNITYSDK_OFFSET(0x1C7C5A60)
+#define PLAJONHLDJN_EKGIJDIDFFD_OFFSET UNITYSDK_OFFSET(0x1C7C46F0)
+#define PLAJONHLDJN_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x1C7A1980)
+#define PLAJONHLDJN_FEENDADPINC_OFFSET UNITYSDK_OFFSET(0x1C7C0DD0)
+#define PLAJONHLDJN_FJFHEKECLCP_OFFSET UNITYSDK_OFFSET(0x1C7BFEA0)
+#define PLAJONHLDJN_FNACALDOOIF_OFFSET UNITYSDK_OFFSET(0x1C7C6040)
+#define PLAJONHLDJN_FOGKDLEIAKP_OFFSET UNITYSDK_OFFSET(0x1C7C0FD0)
+#define PLAJONHLDJN_GBFOCPBCPDA_OFFSET UNITYSDK_OFFSET(0x1C7C5F60)
+#define PLAJONHLDJN_GDDBAEGLBAA_OFFSET UNITYSDK_OFFSET(0x1C7C3960)
+#define PLAJONHLDJN_GET_ISFRIENDROOM_OFFSET UNITYSDK_OFFSET(0x1C7C5350)
+#define PLAJONHLDJN_GET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x1C7C5330)
+#define PLAJONHLDJN_GMJDJKBDDKO_OFFSET UNITYSDK_OFFSET(0x1C7C6470)
+#define PLAJONHLDJN_GPLAKFBJAMC_OFFSET UNITYSDK_OFFSET(0x1C7C4800)
+#define PLAJONHLDJN_HAJEFNDDNON_OFFSET UNITYSDK_OFFSET(0x1C7C01F0)
+#define PLAJONHLDJN_HFPODBLDFOI_OFFSET UNITYSDK_OFFSET(0x1C7A80E0)
+#define PLAJONHLDJN_HHKEGCGIKMA_OFFSET UNITYSDK_OFFSET(0x1C7C24A0)
+#define PLAJONHLDJN_JDPBHAEPJBJ_OFFSET UNITYSDK_OFFSET(0x1C7C5A00)
+#define PLAJONHLDJN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C7C5EA0)
+#define PLAJONHLDJN_KEMOLAPKEHB_OFFSET UNITYSDK_OFFSET(0x1C7C3160)
+#define PLAJONHLDJN_KFGKAFCEPNB_OFFSET UNITYSDK_OFFSET(0x1C7C2960)
+#define PLAJONHLDJN_KHMBLLGEEEL_OFFSET UNITYSDK_OFFSET(0x1C7C6320)
+#define PLAJONHLDJN_LGIBJEDJLCJ_OFFSET UNITYSDK_OFFSET(0x1C7A58F0)
+#define PLAJONHLDJN_MGHANOFGPHM_OFFSET UNITYSDK_OFFSET(0x1C7C5920)
+#define PLAJONHLDJN_NAFJICONCNI_OFFSET UNITYSDK_OFFSET(0x1C7C6510)
+#define PLAJONHLDJN_OANIFGLJOLI_OFFSET UNITYSDK_OFFSET(0x1C7C6380)
+#define PLAJONHLDJN_OCFECKDNHHF_OFFSET UNITYSDK_OFFSET(0x1C7C6420)
+#define PLAJONHLDJN_OCOACGHIKDM_OFFSET UNITYSDK_OFFSET(0x1C7C6090)
+#define PLAJONHLDJN_OECIHKHGCFD_OFFSET UNITYSDK_OFFSET(0x1C7C6560)
+#define PLAJONHLDJN_ONOKPKIDFHB_OFFSET UNITYSDK_OFFSET(0x1C7C0110)
+#define PLAJONHLDJN_PAFKJAHJMCE_OFFSET UNITYSDK_OFFSET(0x1C7C6650)
+#define PLAJONHLDJN_PBPLEJKOCON_OFFSET UNITYSDK_OFFSET(0x1C7C51B0)
+#define PLAJONHLDJN_PFFIABKBCLL_OFFSET UNITYSDK_OFFSET(0x1C7A1C90)
+#define PLAJONHLDJN_SET_ISFRIENDROOM_OFFSET UNITYSDK_OFFSET(0x1C7C5360)
+#define PLAJONHLDJN_SET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x1C7C5340)
+
+inline static constexpr unsigned int PLAJONHLDJN_TypeDefinitionIndex = 36266;
+
+	class PLAJONHLDJN : public ::AEKIOONKCIB
+	{
+	public:
+		::HLPKDNOKBBM* IFMIPHPNJEF; // 0xD0
+		::LDBKEIPCNGA* PGLEOFCIJAL; // 0xD8
+		::FFOMBAHCGLE* LDAIHPGHJJK; // 0xE0
+		::AEHPHKBKPJA* JBMDOCDAKMH; // 0xE8
+		::AKNPMJGCKOM* KOILCMMJKFL; // 0xF0
+		::OIHECABGFIM* KJPPMIJBBND; // 0xF8
+		::FJGEMOHFHGI* GBMJJHNOPKP; // 0x100
+		::MGJHLLCENKL* PKDGLFOONPH; // 0x108
+		::GDPHGHOPGOH* ONDPLNLICJM; // 0x110
+		::AHLKNNCGEIH* JBICMJIPCJL; // 0x118
+		::AIMNKMEFBKE* BKIFMPHBIAK; // 0x120
+		::HBAHBGCOOML* EIEOCLOHHIF; // 0x128
+		::HNJJOFBLHCN* CACELHMGMID; // 0x130
+		::OKNFDGKFBNB* KPENPBOOGIJ; // 0x138
+		::System::IO::FileStream* FGOONPBHDJF; // 0x140
+		::AONBKHCHAHK* DEMLNLEOEAH; // 0x148
+		::CKECEKNEAGP* BFADCNLCPFC; // 0x150
+		::LLNHPBBCIPH* KKCABDCPJDC; // 0x158
+		::LAALMAHICIC* CEMFAIPLEFG; // 0x160
+		::HAILIPBNAJL* NKFLKBCHOMJ; // 0x168
+		::LCHDCIDBJAG* EGMLHPGCCDC; // 0x170
+		::MPDLPOCLIDP* HOFKFKFFKHH; // 0x178
+		::System::Random* PLNDAGLIMKM; // 0x180
+		::System::UInt64 _RoomUid_k__BackingField; // 0x188
+		::System::Boolean NDKNKNAGAEP; // 0x190
+		::System::Boolean _IsFriendRoom_k__BackingField; // 0x191
+		::System::Byte _padding0[0x2];
+		::System::Int32 HOGEMAHFFEF; // 0x194
+		::System::Void _ctor(::NDGBEEKKHFI a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NDGBEEKKHFI))((::PBYTE)hIl2Cpp + PLAJONHLDJN_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void FJFHEKECLCP(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_FJFHEKECLCP_OFFSET))(this, a1);
+		}
+
+		::System::Void ONOKPKIDFHB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_ONOKPKIDFHB_OFFSET))(this);
+		}
+
+		::System::Void HAJEFNDDNON(::KLMDNMJMGBK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KLMDNMJMGBK*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_HAJEFNDDNON_OFFSET))(this, a1);
+		}
+
+		::System::Void CJBCILMPPOH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_CJBCILMPPOH_OFFSET))(this);
+		}
+
+		::System::Void DNKKFNBMKPF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_DNKKFNBMKPF_OFFSET))(this);
+		}
+
+		::System::Void FEENDADPINC(::IJFIHJJPHNA* a1, ::GHNMNFHDCME* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::GHNMNFHDCME*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_FEENDADPINC_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void FOGKDLEIAKP(::IJFIHJJPHNA* a1, ::GHNMNFHDCME* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::GHNMNFHDCME*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_FOGKDLEIAKP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void CCCGEPNADFP(::IJFIHJJPHNA* a1, ::GHNMNFHDCME* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::GHNMNFHDCME*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_CCCGEPNADFP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void CJAPDKBAEEA(::IJFIHJJPHNA* a1, ::IJFIHJJPHNA* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::IJFIHJJPHNA*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_CJAPDKBAEEA_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void AFDGCKPBBGI(::IJFIHJJPHNA* a1, ::IJFIHJJPHNA* a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::IJFIHJJPHNA*, ::System::Int32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_AFDGCKPBBGI_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void AONEHEHFGEK(::IJFIHJJPHNA* a1, ::IJFIHJJPHNA* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::IJFIHJJPHNA*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_AONEHEHFGEK_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void HHKEGCGIKMA(::IJFIHJJPHNA* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Int32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_HHKEGCGIKMA_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void KFGKAFCEPNB(::IJFIHJJPHNA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_KFGKAFCEPNB_OFFSET))(this, a1);
+		}
+
+		::System::Void KEMOLAPKEHB(::IJFIHJJPHNA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_KEMOLAPKEHB_OFFSET))(this, a1);
+		}
+
+		::System::Void GDDBAEGLBAA(::IJFIHJJPHNA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_GDDBAEGLBAA_OFFSET))(this, a1);
+		}
+
+		::System::Void ADJJDANMKJG(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_ADJJDANMKJG_OFFSET))(this, a1);
+		}
+
+		::System::Void EKGIJDIDFFD(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_EKGIJDIDFFD_OFFSET))(this, a1);
+		}
+
+		::System::Void BFFPCEKMJOJ(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_BFFPCEKMJOJ_OFFSET))(this, a1);
+		}
+
+		::JLNOLMNPIGN* GPLAKFBJAMC()
+		{
+			return ((::JLNOLMNPIGN*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_GPLAKFBJAMC_OFFSET))(this);
+		}
+
+		::HAFCMNPMFGO* PBPLEJKOCON(::IJFIHJJPHNA* a1)
+		{
+			return ((::HAFCMNPMFGO*(*)(::PVOID, ::IJFIHJJPHNA*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_PBPLEJKOCON_OFFSET))(this, a1);
+		}
+
+		::JCLBAEHIBLA* DGPJNOEICIA()
+		{
+			return ((::JCLBAEHIBLA*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_DGPJNOEICIA_OFFSET))(this);
+		}
+
+		::System::Void CIDOABEAMKI(::System::UInt32 a1, ::OKODLKPDEAG* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::OKODLKPDEAG*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_CIDOABEAMKI_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode HFPODBLDFOI()
+		{
+			return ((::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_HFPODBLDFOI_OFFSET))(this);
+		}
+
+		::System::UInt64 get_RoomUid()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_GET_ROOMUID_OFFSET))(this);
+		}
+
+		::System::Void set_RoomUid(::System::UInt64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + PLAJONHLDJN_SET_ROOMUID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsFriendRoom()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_GET_ISFRIENDROOM_OFFSET))(this);
+		}
+
+		::System::Void set_IsFriendRoom(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PLAJONHLDJN_SET_ISFRIENDROOM_OFFSET))(this, a1);
+		}
+
+		::System::Void MGHANOFGPHM(::NDGBEEKKHFI a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NDGBEEKKHFI))((::PBYTE)hIl2Cpp + PLAJONHLDJN_MGHANOFGPHM_OFFSET))(this, a1);
+		}
+
+		::System::Void JDPBHAEPJBJ(::NDGBEEKKHFI a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NDGBEEKKHFI))((::PBYTE)hIl2Cpp + PLAJONHLDJN_JDPBHAEPJBJ_OFFSET))(this, a1);
+		}
+
+		::System::Void EJAHEDDMHCF(::GHADLBDBHNA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GHADLBDBHNA*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_EJAHEDDMHCF_OFFSET))(this, a1);
+		}
+
+		::System::Void JLANKNHFKCN(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PLAJONHLDJN_JLANKNHFKCN_OFFSET))(this, a1);
+		}
+
+		::System::Void GBFOCPBCPDA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_GBFOCPBCPDA_OFFSET))(this);
+		}
+
+		::System::Void FNACALDOOIF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_FNACALDOOIF_OFFSET))(this);
+		}
+
+		::System::Void OCOACGHIKDM(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PLAJONHLDJN_OCOACGHIKDM_OFFSET))(this, a1);
+		}
+
+		::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode KHMBLLGEEEL()
+		{
+			return ((::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_KHMBLLGEEEL_OFFSET))(this);
+		}
+
+		::CGNDHCFAAPM* OANIFGLJOLI()
+		{
+			return ((::CGNDHCFAAPM*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_OANIFGLJOLI_OFFSET))(this);
+		}
+
+		::PMMIGNNAIJB* CLNOMPEGNOI()
+		{
+			return ((::PMMIGNNAIJB*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_CLNOMPEGNOI_OFFSET))(this);
+		}
+
+		::DCHHELPJHJJ* OCFECKDNHHF()
+		{
+			return ((::DCHHELPJHJJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_OCFECKDNHHF_OFFSET))(this);
+		}
+
+		::NEOLEBDHNPG* PFFIABKBCLL()
+		{
+			return ((::NEOLEBDHNPG*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_PFFIABKBCLL_OFFSET))(this);
+		}
+
+		::GNEGKIBNHLD* LGIBJEDJLCJ()
+		{
+			return ((::GNEGKIBNHLD*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_LGIBJEDJLCJ_OFFSET))(this);
+		}
+
+		::JNIJALGPGDD* GMJDJKBDDKO()
+		{
+			return ((::JNIJALGPGDD*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_GMJDJKBDDKO_OFFSET))(this);
+		}
+
+		::GMAHGAAKIOK* EIICOONHEIL()
+		{
+			return ((::GMAHGAAKIOK*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_EIICOONHEIL_OFFSET))(this);
+		}
+
+		::HBAHBGCOOML* NAFJICONCNI()
+		{
+			return ((::HBAHBGCOOML*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_NAFJICONCNI_OFFSET))(this);
+		}
+
+		::System::Void ELEPDOMDAGA(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_ELEPDOMDAGA_OFFSET))(this, a1);
+		}
+
+		::System::Void DCADIANHPFD(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_DCADIANHPFD_OFFSET))(this, a1);
+		}
+
+		::System::Void OECIHKHGCFD(::System::Boolean a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + PLAJONHLDJN_OECIHKHGCFD_OFFSET))(this, a1, a2);
+		}
+
+		::System::String* PAFKJAHJMCE()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLAJONHLDJN_PAFKJAHJMCE_OFFSET))(this);
+		}
+
+	};

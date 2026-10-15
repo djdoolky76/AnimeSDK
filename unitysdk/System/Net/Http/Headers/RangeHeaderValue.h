@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Net::Http::Headers { class RangeHeaderValue; }
 namespace System::Net::Http::Headers { class RangeItemHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7E4F80)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7E50A0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GET_RANGES_OFFSET UNITYSDK_OFFSET(0x1E7E4EB0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GET_UNIT_OFFSET UNITYSDK_OFFSET(0x1E7E4F20)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7E4F30)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E59C0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7E5190)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7E4C10)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E4C00)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE2BA10)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2BA00)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE2BD80)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE2BEA0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GET_RANGES_OFFSET UNITYSDK_OFFSET(0x1EE2BCB0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GET_UNIT_OFFSET UNITYSDK_OFFSET(0x1EE2BD20)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE2BD30)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE2C7C0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2BF90)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int RangeHeaderValue_TypeDefinitionIndex = 3822;
+	inline static constexpr unsigned int RangeHeaderValue_TypeDefinitionIndex = 3823;
 
 	class RangeHeaderValue : public ::System::Object
 	{
 	public:
 		::System::String* unit; // 0x10
 		::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* ranges; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Net::Http::Headers::RangeHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::RangeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::RangeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges()
@@ -62,14 +62,15 @@ namespace System::Net::Http::Headers
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::RangeHeaderValue*& a2)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::RangeHeaderValue* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::RangeHeaderValue*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::RangeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

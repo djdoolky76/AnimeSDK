@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashLapCompleteData_TypeDefinitionIndex = 80344;
+	inline static constexpr unsigned int RoadRashLapCompleteData_TypeDefinitionIndex = 81672;
 
 	struct alignas(4) RoadRashLapCompleteData
 	{

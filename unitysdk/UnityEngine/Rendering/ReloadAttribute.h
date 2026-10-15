@@ -4,33 +4,33 @@
 #include "unitysdk/UnityEngine/Rendering/ReloadAttribute_Package.h"
 #include "unitysdk/UnityEngine/Rendering/StripPlatform.h"
 #include "unitysdk/UnityEngine/Rendering/StripTarget.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DE253B0)
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DE253C0)
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE253A0)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F29C460)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F29C470)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F29C450)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReloadAttribute_TypeDefinitionIndex = 34938;
+	inline static constexpr unsigned int ReloadAttribute_TypeDefinitionIndex = 35607;
 
 	class ReloadAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Rendering::StripPlatform a2, ::UnityEngine::Rendering::StripTarget a3, ::UnityEngine::Rendering::ReloadAttribute_Package a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Rendering::StripPlatform a2, ::UnityEngine::Rendering::StripTarget a3, ::UnityEngine::Rendering::ReloadAttribute_Package a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Rendering::ReloadAttribute_Package a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

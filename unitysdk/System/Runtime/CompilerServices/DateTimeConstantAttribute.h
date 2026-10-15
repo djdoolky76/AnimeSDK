@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Runtime/CompilerServices/CustomConstantAttribute.h"
-
+#include "unitysdk/System/DateTime.h"
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DATETIMECONSTANTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C43A050)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DATETIMECONSTANTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C27CA60)
 
 namespace System::Runtime::CompilerServices
 {
@@ -15,10 +14,10 @@ namespace System::Runtime::CompilerServices
 	{
 	public:
 		::System::DateTime date; // 0x10
-
 		::System::Object* get_Value()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_DATETIMECONSTANTATTRIBUTE_GET_VALUE_OFFSET))(this);
 		}
+
 	};
 }

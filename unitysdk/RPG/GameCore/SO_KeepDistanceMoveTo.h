@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/RPG/GameCore/SOTaskConfig.h"
 #include "unitysdk/RPG/GameCore/SO_PositionType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SO_KeepDistanceMoveTo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_METHOD_4_21D8F2B7BE8BA54E_OFFSET UNITYSDK_OFFSET(0x1DB2FCB0)
-#define RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_METHOD_4_6781C6220E925787_OFFSET UNITYSDK_OFFSET(0x1DB2EB50)
-#define RPG_GAMECORE_SO_KEEPDISTANCEMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2EB30)
+#define RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA422F0)
+#define RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA42310)
+#define RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA43410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_KeepDistanceMoveTo_TypeDefinitionIndex = 19829;
+	inline static constexpr unsigned int SO_KeepDistanceMoveTo_TypeDefinitionIndex = 20063;
 
 	class SO_KeepDistanceMoveTo : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -26,20 +26,20 @@ namespace RPG::GameCore
 		::System::Single TransitionTime; // 0x30
 		::System::Single PlayerSpeedRatio; // 0x34
 		::System::Single ScaleStep; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_KEEPDISTANCEMOVETO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_21D8F2B7BE8BA54E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_KeepDistanceMoveTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SO_KeepDistanceMoveTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_KeepDistanceMoveTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_METHOD_4_21D8F2B7BE8BA54E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SO_KeepDistanceMoveTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6781C6220E925787(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_KeepDistanceMoveTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SO_KeepDistanceMoveTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_KeepDistanceMoveTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_METHOD_4_6781C6220E925787_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SO_KeepDistanceMoveTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_KEEPDISTANCEMOVETO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

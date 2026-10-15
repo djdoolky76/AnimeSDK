@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_Gradient; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
 
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EEEB6D0)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EEEB7F0)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEEB690)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B990840)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B990960)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B990800)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Gradient_Extensions_TypeDefinitionIndex = 39449;
+	inline static constexpr unsigned int Test_Gradient_Extensions_TypeDefinitionIndex = 40746;
 
 	class Test_Gradient_Extensions : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

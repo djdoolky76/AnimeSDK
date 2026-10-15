@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRCompositorError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6D60)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6D90)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6D50)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED6CE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6512E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F651260)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F651310)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6512D0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__SubmitExplicitTimingData_TypeDefinitionIndex = 37760;
+	inline static constexpr unsigned int IVRCompositor__SubmitExplicitTimingData_TypeDefinitionIndex = 39057;
 
 	class IVRCompositor__SubmitExplicitTimingData : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Invoke()
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUBMITEXPLICITTIMINGDATA_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

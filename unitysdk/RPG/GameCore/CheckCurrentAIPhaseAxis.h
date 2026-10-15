@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ConsiderationAxisConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CheckCurrentAIPhaseAxis; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_METHOD_3_528DD7560B2ECB77_OFFSET UNITYSDK_OFFSET(0x1E002B10)
-#define RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_METHOD_3_8FD17B09EF06DB82_OFFSET UNITYSDK_OFFSET(0x1E002AD0)
-#define RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E002B00)
+#define RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54D9D0)
+#define RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D54D9E0)
+#define RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54D9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckCurrentAIPhaseAxis_TypeDefinitionIndex = 15331;
+	inline static constexpr unsigned int CheckCurrentAIPhaseAxis_TypeDefinitionIndex = 15502;
 
 	class CheckCurrentAIPhaseAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* CurrentPhaseRef; // 0x10
 		::System::String* TargetPhaseName; // 0x18
 		::RPG::GameCore::FixPoint CheckScore; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8FD17B09EF06DB82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckCurrentAIPhaseAxis*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CheckCurrentAIPhaseAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckCurrentAIPhaseAxis*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_METHOD_3_8FD17B09EF06DB82_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CheckCurrentAIPhaseAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_528DD7560B2ECB77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckCurrentAIPhaseAxis* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CheckCurrentAIPhaseAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckCurrentAIPhaseAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_METHOD_3_528DD7560B2ECB77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CheckCurrentAIPhaseAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKCURRENTAIPHASEAXIS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

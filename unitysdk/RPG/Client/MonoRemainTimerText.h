@@ -4,22 +4,21 @@
 #include "unitysdk/RPG/Client/MonoRemainTimerText_ApplyModeEnum.h"
 #include "unitysdk/RPG/Client/MonoRemainTimerText_UnitTextPaletteModeEnum.h"
 #include "unitysdk/System/TimeSpan.h"
-
 namespace RPG::Client { class UITextUtils_RemainTimeUnitTextPalette; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_MONOREMAINTIMERTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AD08540)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD08A70)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__LOADPALETTE_OFFSET UNITYSDK_OFFSET(0x1AD08690)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0x1AD08A00)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEUPDATED_OFFSET UNITYSDK_OFFSET(0x1AD08800)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0x1AD08860)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__TRYINITPALETTE_OFFSET UNITYSDK_OFFSET(0x1AD08630)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0xD855310)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xD855870)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__LOADPALETTE_OFFSET UNITYSDK_OFFSET(0xD855490)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0xD855800)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEUPDATED_OFFSET UNITYSDK_OFFSET(0xD855600)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0xD855660)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__TRYINITPALETTE_OFFSET UNITYSDK_OFFSET(0xD855430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimerText_TypeDefinitionIndex = 72525;
+	inline static constexpr unsigned int MonoRemainTimerText_TypeDefinitionIndex = 72599;
 
 	class MonoRemainTimerText : public ::RPG::Client::MonoRemainTimerEvent
 	{
@@ -27,6 +26,7 @@ namespace RPG::Client
 		::UnityEngine::UI::Text* _Text; // 0x38
 		::RPG::Client::UITextUtils_RemainTimeUnitTextPalette* UnitTextPalette; // 0x40
 		::RPG::Client::MonoRemainTimerText_UnitTextPaletteModeEnum _UnitTextPaletteMode; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::String* _DayTextID; // 0x50
 		::System::String* _HourTextID; // 0x58
 		::System::String* _MinuteTextID; // 0x60
@@ -35,10 +35,9 @@ namespace RPG::Client
 		::RPG::Client::MonoRemainTimerText_ApplyModeEnum ApplyMode; // 0x74
 		::System::String* TemplateTextID; // 0x78
 		::System::Boolean AutoDeactivateOnComplete; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -70,5 +69,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

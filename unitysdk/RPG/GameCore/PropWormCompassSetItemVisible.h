@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropWormCompassSetItemVisible; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class WormCompassItemXY; }
 
-#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_55DE3D911F6FD048_OFFSET UNITYSDK_OFFSET(0x1D189EE0)
-#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_8F724AB677A885B8_OFFSET UNITYSDK_OFFSET(0x1D189F60)
-#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D189F30)
+#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92EB40)
+#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92EB70)
+#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92EAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropWormCompassSetItemVisible_TypeDefinitionIndex = 21919;
+	inline static constexpr unsigned int PropWormCompassSetItemVisible_TypeDefinitionIndex = 22167;
 
 	class PropWormCompassSetItemVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::WormCompassItemXY*>* Items; // 0x20
 		::Il2CppArray<::RPG::GameCore::WormCompassItemXY*>* Blocks; // 0x28
 		::System::Boolean Visible; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_55DE3D911F6FD048(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropWormCompassSetItemVisible*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropWormCompassSetItemVisible* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropWormCompassSetItemVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_55DE3D911F6FD048_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropWormCompassSetItemVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8F724AB677A885B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropWormCompassSetItemVisible* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropWormCompassSetItemVisible* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropWormCompassSetItemVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_8F724AB677A885B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropWormCompassSetItemVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

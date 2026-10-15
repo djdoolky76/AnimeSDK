@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraDuelMainPuzzleMonoStateView.h"
-
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_MotionConfig; }
 namespace RPG::Client::Prop { class ChimeraBillboardCanvasAdaptingScaler; }
 namespace RPG::Client::Prop { class ChimeraDuelShopDraggedChimeraSlotView; }
@@ -11,15 +10,15 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x189F35D0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_GETTEAMMEMBERSLOTS_OFFSET UNITYSDK_OFFSET(0x189F2D00)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x189F3C00)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x189F3CF0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x189F3D80)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xDC63680)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xDC64050)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_GETTEAMMEMBERSLOTS_OFFSET UNITYSDK_OFFSET(0xDC62C10)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xDC63ED0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xDC63FC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopView_TypeDefinitionIndex = 77917;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopView_TypeDefinitionIndex = 78388;
 
 	class ChimeraDuelMainPuzzleShopView : public ::RPG::Client::Prop::ChimeraDuelMainPuzzleMonoStateView
 	{
@@ -31,10 +30,9 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig* _SwapMotion; // 0x48
 		::UnityEngine::Transform* KeyMapAnchor; // 0x50
 		::System::Action_1<::System::Single>* OnUpdate; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void add_OnUpdate(::System::Action_1<::System::Single>* a1)
@@ -56,5 +54,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_GETTEAMMEMBERSLOTS_OFFSET))(this);
 		}
+
 	};
 }

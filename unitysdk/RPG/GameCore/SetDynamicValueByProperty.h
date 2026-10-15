@@ -3,47 +3,48 @@
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E821600)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_METHOD_4_79592DE3421A5CF6_OFFSET UNITYSDK_OFFSET(0x1E821210)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_METHOD_4_AF07DF4CCC2B992F_OFFSET UNITYSDK_OFFSET(0x1E8210B0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E821200)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7B610)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DA7BA10)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7B620)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7B4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByProperty_TypeDefinitionIndex = 22824;
+	inline static constexpr unsigned int SetDynamicValueByProperty_TypeDefinitionIndex = 23082;
 
 	class SetDynamicValueByProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
 		::System::String* DynamicKey; // 0x18
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* ReadTargetType; // 0x28
 		::RPG::GameCore::AbilityProperty Value; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_AF07DF4CCC2B992F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_METHOD_4_AF07DF4CCC2B992F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_79592DE3421A5CF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_METHOD_4_79592DE3421A5CF6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPROPERTY_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

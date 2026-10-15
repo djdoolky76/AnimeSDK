@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/TypeConverter_SimplePropertyDescriptor.h"
-
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C493470)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB2C60)
 
 namespace System::ComponentModel
 {
@@ -14,10 +13,10 @@ namespace System::ComponentModel
 	{
 	public:
 		::System::Int32 index; // 0x90
-
 		::System::Void _ctor(::System::Type* a1, ::System::Type* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR_CTOR_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline::Audio { class WwiseMutePropAudioClip; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x1D128870)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1D128890)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x1D128880)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D128B80)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A93F0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xE8A90E0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8A9100)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xE8A90F0)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseMutePropAudioBehaviour_TypeDefinitionIndex = 49303;
+	inline static constexpr unsigned int WwiseMutePropAudioBehaviour_TypeDefinitionIndex = 48857;
 
 	class WwiseMutePropAudioBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::Audio::WwiseMutePropAudioClip* _Owner_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::Audio::WwiseMutePropAudioClip* get_Owner()
@@ -39,5 +37,6 @@ namespace RPGTools::Timeline::Audio
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEPROPAUDIOBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

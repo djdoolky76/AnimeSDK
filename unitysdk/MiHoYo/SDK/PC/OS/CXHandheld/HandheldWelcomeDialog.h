@@ -3,46 +3,32 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/CXHandheld/HandheldWelcomeDialog_DisplayStage.h"
 #include "unitysdk/MiHoYo/SDK/ReportType.h"
-
+namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldWelcomeDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A24C4D0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1A24DCF0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1A24DD20)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1A24DD90)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1A24DD10)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1A24C460)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A24D540)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A24D510)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1A24D0E0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1A24D560)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1A24C300)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A24DDC0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BECEDD0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BED05F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BED0620)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BED0690)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BED0610)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED06C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BECED60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BECFE40)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BECFE10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1BECF9E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1BECFE60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BECEC00)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldWelcomeDialog_TypeDefinitionIndex = 8762;
+	inline static constexpr unsigned int HandheldWelcomeDialog_TypeDefinitionIndex = 8823;
 
 	class HandheldWelcomeDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog**)Il2CppClass::FromTypeDefinitionIndex(HandheldWelcomeDialog_TypeDefinitionIndex)->GetStaticField(0x19EF0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* TitlePath; // 0x0
-		// static const ::System::String* ContentPath; // 0x0
-		// static const ::System::String* BindExistingAccountBtnPath; // 0x0
-		// static const ::System::String* CreateAndBindNewAccountBtnPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* SkipButtonTextPath; // 0x0
-		// static const ::System::String* ConsoleUserNamePath; // 0x0
-		// static const ::System::String* ConsoleUserPanelPath; // 0x0
 		::UnityEngine::UI::Text* titleText; // 0xC0
 		::UnityEngine::UI::Text* contentText; // 0xC8
 		::UnityEngine::UI::Text* bindExistingAccountButtonText; // 0xD0
@@ -58,10 +44,23 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		::System::Action* OnCancelBinding; // 0x120
 		::MiHoYo::SDK::ReportType SDKReportType; // 0x128
 		::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog_DisplayStage displayStage; // 0x12C
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "HandheldWelcomeDialog")->GetStaticField(0x16EF0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* TitlePath; // 0x0
+		// static const ::System::String* ContentPath; // 0x0
+		// static const ::System::String* BindExistingAccountBtnPath; // 0x0
+		// static const ::System::String* CreateAndBindNewAccountBtnPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* SkipButtonTextPath; // 0x0
+		// static const ::System::String* ConsoleUserNamePath; // 0x0
+		// static const ::System::String* ConsoleUserPanelPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -118,5 +117,6 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG_CONFIRMDIALOG_OFFSET))(this);
 		}
+
 	};
 }

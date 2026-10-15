@@ -1,16 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-
-namespace RPG::GameCore { class DynamicFloat; }
-namespace System { class Action; }
-namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimLevelVarService_1_TypeDefinitionIndex = 41959;
+	inline static constexpr unsigned int IFiveDimLevelVarService_1_TypeDefinitionIndex = 43601;
 
-	template <typename TEntity>
+	template <typename T>
 	class IFiveDimLevelVarService_1
 	{
 	public:

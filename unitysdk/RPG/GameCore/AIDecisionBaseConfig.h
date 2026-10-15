@@ -3,38 +3,39 @@
 #include "unitysdk/RPG/GameCore/AIDecisionUnitConfig.h"
 #include "unitysdk/RPG/GameCore/DSEType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AIDecisionBaseConfig; }
 namespace RPG::GameCore { class ConsiderationAxisConfig; }
 
-#define RPG_GAMECORE_AIDECISIONBASECONFIG_METHOD_3_317B8487F57CE9A8_OFFSET UNITYSDK_OFFSET(0x1D322A60)
-#define RPG_GAMECORE_AIDECISIONBASECONFIG_METHOD_3_DE285A7BDE43B1BC_OFFSET UNITYSDK_OFFSET(0x1D3220F0)
-#define RPG_GAMECORE_AIDECISIONBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D322C00)
+#define RPG_GAMECORE_AIDECISIONBASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30B7E0)
+#define RPG_GAMECORE_AIDECISIONBASECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D30B640)
+#define RPG_GAMECORE_AIDECISIONBASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30ACD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIDecisionBaseConfig_TypeDefinitionIndex = 15310;
+	inline static constexpr unsigned int AIDecisionBaseConfig_TypeDefinitionIndex = 15481;
 
 	class AIDecisionBaseConfig : public ::RPG::GameCore::AIDecisionUnitConfig
 	{
 	public:
 		::RPG::GameCore::DSEType ScoreEvaluatorType; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint Weight; // 0x18
 		::Il2CppArray<::RPG::GameCore::ConsiderationAxisConfig*>* ConsiderAxisList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONBASECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONBASECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DE285A7BDE43B1BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIDecisionBaseConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AIDecisionBaseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIDecisionBaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONBASECONFIG_METHOD_3_DE285A7BDE43B1BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AIDecisionBaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONBASECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_317B8487F57CE9A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIDecisionBaseConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AIDecisionBaseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIDecisionBaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONBASECONFIG_METHOD_3_317B8487F57CE9A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AIDecisionBaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONBASECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

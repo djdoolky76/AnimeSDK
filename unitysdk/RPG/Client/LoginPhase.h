@@ -4,42 +4,39 @@
 #include "unitysdk/RPG/Client/LoginNodeType.h"
 #include "unitysdk/RPG/Client/LoginPanelFunction.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
-
-class Class_2_819E7966739ABB7B;
+class EHBKEOKCMOF;
 namespace RPG::Client { class NotifyHandler; }
-namespace RPG::Client { class RspHandler; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_LOGINPHASE_CHANGENODESTATE_OFFSET UNITYSDK_OFFSET(0x18628AD0)
-#define RPG_CLIENT_LOGINPHASE_GET_LOGINCONTEXT_OFFSET UNITYSDK_OFFSET(0x18628880)
-#define RPG_CLIENT_LOGINPHASE_ISFUNCTIONOPEN_OFFSET UNITYSDK_OFFSET(0x186289C0)
-#define RPG_CLIENT_LOGINPHASE_ISOPEN_OFFSET UNITYSDK_OFFSET(0x186288C0)
-#define RPG_CLIENT_LOGINPHASE_ONENTER_OFFSET UNITYSDK_OFFSET(0x18628C70)
-#define RPG_CLIENT_LOGINPHASE_ONLEAVE_OFFSET UNITYSDK_OFFSET(0x18628EC0)
-#define RPG_CLIENT_LOGINPHASE_SETFUNCTIONOPEN_OFFSET UNITYSDK_OFFSET(0x18628A20)
-#define RPG_CLIENT_LOGINPHASE_SETPANELSTATE_OFFSET UNITYSDK_OFFSET(0x18628A80)
-#define RPG_CLIENT_LOGINPHASE__ADDNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x18628E60)
-#define RPG_CLIENT_LOGINPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18628800)
+#define RPG_CLIENT_LOGINPHASE_CHANGENODESTATE_OFFSET UNITYSDK_OFFSET(0xD49F8C0)
+#define RPG_CLIENT_LOGINPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD49F5F0)
+#define RPG_CLIENT_LOGINPHASE_GET_LOGINCONTEXT_OFFSET UNITYSDK_OFFSET(0xD49F670)
+#define RPG_CLIENT_LOGINPHASE_ISFUNCTIONOPEN_OFFSET UNITYSDK_OFFSET(0xD49F7B0)
+#define RPG_CLIENT_LOGINPHASE_ISOPEN_OFFSET UNITYSDK_OFFSET(0xD49F6B0)
+#define RPG_CLIENT_LOGINPHASE_ONENTER_OFFSET UNITYSDK_OFFSET(0xD49FA60)
+#define RPG_CLIENT_LOGINPHASE_ONLEAVE_OFFSET UNITYSDK_OFFSET(0xD49FCB0)
+#define RPG_CLIENT_LOGINPHASE_SETFUNCTIONOPEN_OFFSET UNITYSDK_OFFSET(0xD49F810)
+#define RPG_CLIENT_LOGINPHASE_SETPANELSTATE_OFFSET UNITYSDK_OFFSET(0xD49F870)
+#define RPG_CLIENT_LOGINPHASE__ADDNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xD49FC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginPhase_TypeDefinitionIndex = 61251;
+	inline static constexpr unsigned int LoginPhase_TypeDefinitionIndex = 61156;
 
 	class LoginPhase : public ::RPG::Client::BasePhase
 	{
 	public:
-		// static const ::System::UInt32 DefaultPanelState = 0xFFFFFFFF; // 0x0
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LoginNodeType, ::System::Boolean>* states; // 0x18
 		::System::UInt32 PanelState; // 0x20
-
+		// static const ::System::Object DefaultPanelState; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINPHASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINPHASE_CTOR_OFFSET))(this);
 		}
 
-		::Class_2_819E7966739ABB7B* get_loginContext()
+		::EHBKEOKCMOF* get_loginContext()
 		{
-			return ((::Class_2_819E7966739ABB7B*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINPHASE_GET_LOGINCONTEXT_OFFSET))(this);
+			return ((::EHBKEOKCMOF*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINPHASE_GET_LOGINCONTEXT_OFFSET))(this);
 		}
 
 		::System::Boolean IsOpen(::RPG::Client::LoginNodeType a1)
@@ -81,5 +78,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINPHASE_ONLEAVE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCIntersectArguments_TypeDefinitionIndex = 47490;
+	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCIntersectArguments_TypeDefinitionIndex = 47030;
 
-	struct alignas(8) EmbreeWrapperUnsafe_RTCIntersectArguments
+	struct alignas(4) EmbreeWrapperUnsafe_RTCIntersectArguments
 	{
 		::System::UInt32 flags; // 0x10
 		::System::UInt32 feature_mask; // 0x14

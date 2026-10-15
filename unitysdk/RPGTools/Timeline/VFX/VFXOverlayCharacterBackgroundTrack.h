@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF35E70)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1BF35FA0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_GET_GENDERTYPE_OFFSET UNITYSDK_OFFSET(0x1BF360C0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1BF35DB0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF360D0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE94BDF0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE94BEF0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE94C020)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_GET_GENDERTYPE_OFFSET UNITYSDK_OFFSET(0xE94C010)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE94BD30)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayCharacterBackgroundTrack_TypeDefinitionIndex = 49128;
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundTrack_TypeDefinitionIndex = 48674;
 
 	class VFXOverlayCharacterBackgroundTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
-		// static const ::System::String* EFFECT_PATH; // 0x0
 		::RPG::GameCore::GenderType _genderType; // 0xC8
-
+		// static const ::System::String* EFFECT_PATH; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
@@ -49,5 +46,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::RPG::GameCore::GenderType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDTRACK_GET_GENDERTYPE_OFFSET))(this);
 		}
+
 	};
 }

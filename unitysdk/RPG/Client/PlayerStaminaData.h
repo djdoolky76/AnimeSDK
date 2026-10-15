@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerStaminaData_TypeDefinitionIndex = 66709;
+	inline static constexpr unsigned int PlayerStaminaData_TypeDefinitionIndex = 66678;
 
-	struct alignas(8) PlayerStaminaData
+	struct alignas(4) PlayerStaminaData
 	{
 		::System::UInt32 Stamina; // 0x10
 		::System::UInt32 ReserveStamina; // 0x14

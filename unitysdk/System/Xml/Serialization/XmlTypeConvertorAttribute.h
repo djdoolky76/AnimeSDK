@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x17C6E200)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x17C6E210)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17C6E220)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF0CF00)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1EF0CEE0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x1EF0CEF0)
 
 namespace System::Xml::Serialization
 {
@@ -16,10 +15,9 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::String* _Method_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Method()
@@ -31,5 +29,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Xml::Schema
 {
 	inline static constexpr unsigned int XmlAtomicValue_Union_TypeDefinitionIndex = 2181;
 
-	struct alignas(8) XmlAtomicValue_Union
+	struct alignas(4) XmlAtomicValue_Union
 	{
 		::System::Boolean boolVal; // 0x10
 		::System::Double dblVal; // 0x10

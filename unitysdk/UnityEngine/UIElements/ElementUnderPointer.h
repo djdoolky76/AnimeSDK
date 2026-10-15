@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class EventDispatcher; }
 namespace UnityEngine::UIElements { class IMouseEvent; }
 namespace UnityEngine::UIElements { class IPointerEvent; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_COMMITELEMENTUNDERPOINTERS_OFFSET UNITYSDK_OFFSET(0x1D6053A0)
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETEVENTPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1D60A6C0)
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETTOPELEMENTUNDERPOINTER_1_OFFSET UNITYSDK_OFFSET(0x1D6052D0)
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETTOPELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1D60A650)
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_SETELEMENTUNDERPOINTER_1_OFFSET UNITYSDK_OFFSET(0x1D60AA60)
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_SETELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1D605320)
-#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_SETTEMPORARYELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1D605360)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_COMMITELEMENTUNDERPOINTERS_OFFSET UNITYSDK_OFFSET(0x1F47C9A0)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETEVENTPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1F481CC0)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETTOPELEMENTUNDERPOINTER_1_OFFSET UNITYSDK_OFFSET(0x1F47C8D0)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETTOPELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1F481C50)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_SETELEMENTUNDERPOINTER_1_OFFSET UNITYSDK_OFFSET(0x1F482060)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_SETELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1F47C920)
+#define UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_SETTEMPORARYELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1F47C960)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ElementUnderPointer_TypeDefinitionIndex = 5920;
+	inline static constexpr unsigned int ElementUnderPointer_TypeDefinitionIndex = 5928;
 
 	class ElementUnderPointer : public ::System::Object
 	{
@@ -30,10 +29,9 @@ namespace UnityEngine::UIElements
 		::Il2CppArray<::UnityEngine::UIElements::IMouseEvent*>* m_TriggerMouseEvent; // 0x28
 		::Il2CppArray<::UnityEngine::Vector2>* m_PickingPointerPositions; // 0x30
 		::Il2CppArray<::System::Boolean>* m_IsPickingPointerTemporaries; // 0x38
-
-		::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(::System::Int32 a1, ::UnityEngine::Vector2& a2, ::System::Boolean& a3)
+		::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(::System::Int32 a1, ::UnityEngine::Vector2 a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::UIElements::VisualElement*(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2&, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETTOPELEMENTUNDERPOINTER_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::UIElements::VisualElement*(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_GETTOPELEMENTUNDERPOINTER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer_1(::System::Int32 a1)
@@ -65,5 +63,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventDispatcher*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_ELEMENTUNDERPOINTER_COMMITELEMENTUNDERPOINTERS_OFFSET))(this, a1);
 		}
+
 	};
 }

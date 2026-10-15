@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class ChimeraDuelBattlePrefabConfig_Master; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189EAF50)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0___LOADMASTERNPCMODEL_B__0_OFFSET UNITYSDK_OFFSET(0x189EC490)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC59E50)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0___LOADMASTERNPCMODEL_B__0_OFFSET UNITYSDK_OFFSET(0xDC5B370)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass22_0_TypeDefinitionIndex = 77901;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass22_0_TypeDefinitionIndex = 78372;
 
 	class ChimeraDuelMainPuzzleBattleView___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 masterID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __LoadMasterNpcModel_b__0(::RPG::Client::Prop::ChimeraDuelBattlePrefabConfig_Master* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelBattlePrefabConfig_Master*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS22_0___LOADMASTERNPCMODEL_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

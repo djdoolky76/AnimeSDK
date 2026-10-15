@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReportFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E23B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E2410)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CD390)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E2340)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F624FD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F624F60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F625030)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F60F8E0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerReportCallback_TypeDefinitionIndex = 38135;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerReportCallback_TypeDefinitionIndex = 39432;
 
 	class BrowserNative_Calltype_zfb_registerReportCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc* a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERREPORTCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

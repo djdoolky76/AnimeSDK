@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Memory_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ArrayMemoryPool_1_ArrayMemoryPoolBuffer_TypeDefinitionIndex = 4985;
+	inline static constexpr unsigned int ArrayMemoryPool_1_ArrayMemoryPoolBuffer_TypeDefinitionIndex = 4992;
 
 	template <typename T>
 	class ArrayMemoryPool_1_ArrayMemoryPoolBuffer : public ::System::Object

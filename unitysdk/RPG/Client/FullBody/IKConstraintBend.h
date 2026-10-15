@@ -3,26 +3,25 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client::FullBody { class IKSolverFullBody; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_GET_INITIATED_OFFSET UNITYSDK_OFFSET(0x19378BF0)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_2787325FBE894674_OFFSET UNITYSDK_OFFSET(0x19378F70)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_35EDB68198B7034F_OFFSET UNITYSDK_OFFSET(0x19369770)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_6C6B39C825927D70_1_OFFSET UNITYSDK_OFFSET(0x19378E60)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_6C6B39C825927D70_OFFSET UNITYSDK_OFFSET(0x19378D40)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_CDB9356E62DEB3C0_OFFSET UNITYSDK_OFFSET(0x19378810)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_D945CEAD343B5366_OFFSET UNITYSDK_OFFSET(0x193697E0)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_E77295995B04931B_OFFSET UNITYSDK_OFFSET(0x1936B0F0)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_F552CBD036D44B0E_OFFSET UNITYSDK_OFFSET(0x19379230)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_SET_INITIATED_OFFSET UNITYSDK_OFFSET(0x19378C00)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19378C10)
-#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND__CTOR_OFFSET UNITYSDK_OFFSET(0x19368990)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_ACDPBPKPKGE_OFFSET UNITYSDK_OFFSET(0xD05ABB0)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD069F40)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_CTOR_OFFSET UNITYSDK_OFFSET(0xD059D60)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_GET_INITIATED_OFFSET UNITYSDK_OFFSET(0xD069F20)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_GLOKDICMKJA_OFFSET UNITYSDK_OFFSET(0xD06A070)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_JBBHEIBJEAO_OFFSET UNITYSDK_OFFSET(0xD06A560)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_KBFGMNLDELH_OFFSET UNITYSDK_OFFSET(0xD06A2A0)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_KGCBBNEFDOB_OFFSET UNITYSDK_OFFSET(0xD05AB40)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xD069B40)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_LDMNMPAJOKH_OFFSET UNITYSDK_OFFSET(0xD06A190)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_NHDFLDHJFPA_OFFSET UNITYSDK_OFFSET(0xD05C4C0)
+#define RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_SET_INITIATED_OFFSET UNITYSDK_OFFSET(0xD069F30)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKConstraintBend_TypeDefinitionIndex = 74147;
+	inline static constexpr unsigned int IKConstraintBend_TypeDefinitionIndex = 74246;
 
 	class IKConstraintBend : public ::System::Object
 	{
@@ -45,20 +44,19 @@ namespace RPG::Client::FullBody
 		::System::Int32 nodeIndex3; // 0x80
 		::System::Boolean _initiated_k__BackingField; // 0x84
 		::System::Boolean limbOrientationsSet; // 0x85
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_1_CDB9356E62DEB3C0(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::System::Boolean KKKIONIDKFA(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_CDB9356E62DEB3C0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_KKKIONIDKFA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_initiated()
@@ -71,39 +69,40 @@ namespace RPG::Client::FullBody
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_SET_INITIATED_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_35EDB68198B7034F(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
+		::System::Void KGCBBNEFDOB(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_35EDB68198B7034F_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_KGCBBNEFDOB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_D945CEAD343B5366(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::System::Void ACDPBPKPKGE(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_D945CEAD343B5366_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_ACDPBPKPKGE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_2787325FBE894674(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
+		::System::Void KBFGMNLDELH(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_2787325FBE894674_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_KBFGMNLDELH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_F552CBD036D44B0E(::System::Single a1, ::System::Single a2)
+		::System::Void JBBHEIBJEAO(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_F552CBD036D44B0E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_JBBHEIBJEAO_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 Method_1_E77295995B04931B(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::UnityEngine::Vector3 NHDFLDHJFPA(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_E77295995B04931B_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_NHDFLDHJFPA_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_1_6C6B39C825927D70(::RPG::Client::FullBody::IKSolverFullBody* a1, ::UnityEngine::Vector3 a2)
+		::UnityEngine::Vector3 GLOKDICMKJA(::RPG::Client::FullBody::IKSolverFullBody* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_6C6B39C825927D70_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_GLOKDICMKJA_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 Method_1_6C6B39C825927D70_1(::RPG::Client::FullBody::IKSolverFullBody* a1, ::UnityEngine::Vector3 a2)
+		::UnityEngine::Vector3 LDMNMPAJOKH(::RPG::Client::FullBody::IKSolverFullBody* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_METHOD_1_6C6B39C825927D70_1_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKCONSTRAINTBEND_LDMNMPAJOKH_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

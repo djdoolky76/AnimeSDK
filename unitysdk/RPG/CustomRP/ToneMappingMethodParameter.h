@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/ToneMappingMethod.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_TONEMAPPINGMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE594F0)
+#define RPG_CUSTOMRP_TONEMAPPINGMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4B280)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ToneMappingMethodParameter_TypeDefinitionIndex = 37162;
+	inline static constexpr unsigned int ToneMappingMethodParameter_TypeDefinitionIndex = 37848;
 
-	class ToneMappingMethodParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::ToneMappingMethod>
+	class ToneMappingMethodParameter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_TONEMAPPINGMETHODPARAMETER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_TONEMAPPINGMETHODPARAMETER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

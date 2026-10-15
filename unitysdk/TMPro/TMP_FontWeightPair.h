@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace TMPro { class TMP_FontAsset; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontWeightPair_TypeDefinitionIndex = 43383;
+	inline static constexpr unsigned int TMP_FontWeightPair_TypeDefinitionIndex = 44575;
 
 	struct alignas(8) TMP_FontWeightPair
 	{

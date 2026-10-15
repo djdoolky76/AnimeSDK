@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D160200)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D160230)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A800)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D160110)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673B250)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673B160)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673B280)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16735820)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_SwipeHandler_TypeDefinitionIndex = 39006;
+	inline static constexpr unsigned int EasyTouch_SwipeHandler_TypeDefinitionIndex = 40303;
 
 	class EasyTouch_SwipeHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SWIPEHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

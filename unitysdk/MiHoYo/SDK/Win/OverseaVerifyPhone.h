@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class OverseaVerifyPhone; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -12,45 +12,29 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x187817C0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_BACK_OFFSET UNITYSDK_OFFSET(0x18782CC0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_CLOSE_OFFSET UNITYSDK_OFFSET(0x18782CA0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x18782D60)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_HIDE_OFFSET UNITYSDK_OFFSET(0x18782C30)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18782FC0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x18782F80)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x18782DC0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_SHOW_OFFSET UNITYSDK_OFFSET(0x18782B30)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x18782CE0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_START_OFFSET UNITYSDK_OFFSET(0x18782950)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_SUBMIT_OFFSET UNITYSDK_OFFSET(0x18782DE0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x187827C0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x18782DD0)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE__CTOR_OFFSET UNITYSDK_OFFSET(0x18782FE0)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDA0540)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_BACK_OFFSET UNITYSDK_OFFSET(0x1BDA1A40)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BDA1A20)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDA1AE0)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA1D60)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDA19B0)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDA1D40)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDA1D00)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDA1B40)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDA18B0)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDA1A60)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_START_OFFSET UNITYSDK_OFFSET(0x1BDA16D0)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BDA1B60)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BDA1540)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x1BDA1B50)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaVerifyPhone_TypeDefinitionIndex = 9455;
+	inline static constexpr unsigned int OverseaVerifyPhone_TypeDefinitionIndex = 9513;
 
 	class OverseaVerifyPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::OverseaVerifyPhone** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::OverseaVerifyPhone**)Il2CppClass::FromTypeDefinitionIndex(OverseaVerifyPhone_TypeDefinitionIndex)->GetStaticField(0x26910);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* ContentTitlePath; // 0x0
-		// static const ::System::String* ContentTextPath; // 0x0
-		// static const ::System::String* VerifyCodeInputPath; // 0x0
-		// static const ::System::String* VerifyCodeInputTextPath; // 0x0
-		// static const ::System::String* VerifyCodeInputTipsPath; // 0x0
-		// static const ::System::String* RequestCodeButtonPath; // 0x0
-		// static const ::System::String* RequestCodeTextPath; // 0x0
-		// static const ::System::String* NextButtonPath; // 0x0
-		// static const ::System::String* NextButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* backButton; // 0x58
 		::UnityEngine::GameObject* closeButtonObject; // 0x60
 		::UnityEngine::UI::Button* closeButton; // 0x68
@@ -66,13 +50,31 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnGetCode; // 0xB8
 		::System::Action_1<::System::String*>* OnVerify; // 0xC0
 		::System::Boolean isRequestVerifyCode; // 0xC8
+		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xCC
 		::System::Boolean retrieveFlag; // 0xD0
+		::System::Byte _padding1[0x7];
 		::MiHoYo::SDK::AccountModel* account; // 0xD8
+		static ::MiHoYo::SDK::Win::OverseaVerifyPhone** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::OverseaVerifyPhone**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaVerifyPhone")->GetStaticField(0x2C9D0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* ContentTitlePath; // 0x0
+		// static const ::System::String* ContentTextPath; // 0x0
+		// static const ::System::String* VerifyCodeInputPath; // 0x0
+		// static const ::System::String* VerifyCodeInputTextPath; // 0x0
+		// static const ::System::String* VerifyCodeInputTipsPath; // 0x0
+		// static const ::System::String* RequestCodeButtonPath; // 0x0
+		// static const ::System::String* RequestCodeTextPath; // 0x0
+		// static const ::System::String* NextButtonPath; // 0x0
+		// static const ::System::String* NextButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -144,5 +146,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

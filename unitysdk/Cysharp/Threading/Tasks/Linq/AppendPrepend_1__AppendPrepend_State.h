@@ -3,13 +3,13 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_State_TypeDefinitionIndex = 44086;
+	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_State_TypeDefinitionIndex = 45225;
 
 	enum class AppendPrepend_1__AppendPrepend_State : ::System::Byte
 	{
-		None = 0x0,
-		RequirePrepend = 0x1,
-		RequireAppend = 0x2,
-		Completed = 0x3,
+		None = 0,
+		RequirePrepend = 1,
+		RequireAppend = 2,
+		Completed = 3,
 	};
 }

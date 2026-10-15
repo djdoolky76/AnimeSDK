@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_METHOD_3_F4D2952B3E22E36B_OFFSET UNITYSDK_OFFSET(0x1DB04D50)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_METHOD_3_FEF0B6C3C6C8BD29_OFFSET UNITYSDK_OFFSET(0x1DB04C50)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB04D40)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E38D0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E38E0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E37E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint_TypeDefinitionIndex = 15870;
+	inline static constexpr unsigned int DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint_TypeDefinitionIndex = 16043;
 
 	class DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* Point; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FEF0B6C3C6C8BD29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_METHOD_3_FEF0B6C3C6C8BD29_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F4D2952B3E22E36B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_METHOD_3_F4D2952B3E22E36B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKEFFECT_IGNOREDEFENDPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

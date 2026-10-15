@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActChangeRogueMiracleToRogueMiracleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_METHOD_6_887AF71BB4F08A49_OFFSET UNITYSDK_OFFSET(0x1EE84EE0)
-#define RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_METHOD_6_D87CCD3E99B0C64D_OFFSET UNITYSDK_OFFSET(0x1EE84F30)
-#define RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE84F20)
+#define RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96FEF0)
+#define RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D96FF00)
+#define RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96FEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActChangeRogueMiracleToRogueMiracleConfig_TypeDefinitionIndex = 19384;
+	inline static constexpr unsigned int RogueActChangeRogueMiracleToRogueMiracleConfig_TypeDefinitionIndex = 19614;
 
 	class RogueActChangeRogueMiracleToRogueMiracleConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_887AF71BB4F08A49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_METHOD_6_887AF71BB4F08A49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_D87CCD3E99B0C64D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_METHOD_6_D87CCD3E99B0C64D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActChangeRogueMiracleToRogueMiracleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTCHANGEROGUEMIRACLETOROGUEMIRACLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

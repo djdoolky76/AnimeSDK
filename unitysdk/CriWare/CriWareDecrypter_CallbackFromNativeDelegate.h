@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC53980)
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC539D0)
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC53970)
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC53900)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16724D00)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x16724C80)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16724D50)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16724CF0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareDecrypter_CallbackFromNativeDelegate_TypeDefinitionIndex = 38844;
+	inline static constexpr unsigned int CriWareDecrypter_CallbackFromNativeDelegate_TypeDefinitionIndex = 40141;
 
 	class CriWareDecrypter_CallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke(::System::IntPtr a1)
@@ -37,5 +36,6 @@ namespace CriWare
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,35 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/RubikCubeFrameFace.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client::Prop { class LightRubikCubePuzzleConditionObj; }
 namespace RPG::Client::Prop { class LightRubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0x1611E780)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1611E1F0)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1611E6D0)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_INITCONDITIONGROUP_OFFSET UNITYSDK_OFFSET(0x1611C740)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0x1611E3E0)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1611ECB0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0xDD187F0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xDD18D20)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD18260)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD18740)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_INITCONDITIONGROUP_OFFSET UNITYSDK_OFFSET(0xDD167B0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0xDD18450)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LightRubikCubePuzzleConditionGroup_TypeDefinitionIndex = 78209;
+	inline static constexpr unsigned int LightRubikCubePuzzleConditionGroup_TypeDefinitionIndex = 78680;
 
 	class LightRubikCubePuzzleConditionGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* SubObj; // 0x18
 		::RPG::Client::Prop::RubikCubeFrameFace FaceGroup; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::Client::Prop::LightRubikCubePuzzleCube* FNHJKBEIKOA; // 0x28
-		::Il2CppArray<::RPG::Client::Prop::LightRubikCubePuzzleConditionObj*>* LMNAODMFONI; // 0x30
-
+		::System::Object* LMNAODMFONI; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -57,5 +56,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUP_GET_ISCOMPLETE_OFFSET))(this);
 		}
+
 	};
 }

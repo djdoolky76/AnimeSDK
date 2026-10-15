@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/WeLing/SDK/GyroType.h"
-
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace WeLing::SDK { class PipeWrapper_OnReceiveData; }
 namespace WeLing::SDK { class PipeWrapper_OnSensorCallbackFun; }
 
-#define WELING_SDK_PIPEWRAPPER_INITGYRO_OFFSET UNITYSDK_OFFSET(0x1F00ADE0)
-#define WELING_SDK_PIPEWRAPPER_INITPIPE_OFFSET UNITYSDK_OFFSET(0x1F00ACF0)
-#define WELING_SDK_PIPEWRAPPER_INIT_OFFSET UNITYSDK_OFFSET(0x1F00AB40)
-#define WELING_SDK_PIPEWRAPPER_ONSENSORIMP_OFFSET UNITYSDK_OFFSET(0x1F00A910)
-#define WELING_SDK_PIPEWRAPPER_SENDDATASTRING_OFFSET UNITYSDK_OFFSET(0x1F00AF60)
-#define WELING_SDK_PIPEWRAPPER_SENDDATATOPIPE_OFFSET UNITYSDK_OFFSET(0x1F00AED0)
-#define WELING_SDK_PIPEWRAPPER_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1F00ABD0)
-#define WELING_SDK_PIPEWRAPPER_SETONSENSORCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F00AC60)
-#define WELING_SDK_PIPEWRAPPER_SIMPLECALLBACKIMP_OFFSET UNITYSDK_OFFSET(0x1F00A9A0)
-#define WELING_SDK_PIPEWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00B120)
+#define WELING_SDK_PIPEWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDEE210)
+#define WELING_SDK_PIPEWRAPPER_INITGYRO_OFFSET UNITYSDK_OFFSET(0x1BDEDED0)
+#define WELING_SDK_PIPEWRAPPER_INITPIPE_OFFSET UNITYSDK_OFFSET(0x1BDEDDE0)
+#define WELING_SDK_PIPEWRAPPER_INIT_OFFSET UNITYSDK_OFFSET(0x1BDEDC30)
+#define WELING_SDK_PIPEWRAPPER_ONSENSORIMP_OFFSET UNITYSDK_OFFSET(0x1BDEDA00)
+#define WELING_SDK_PIPEWRAPPER_SENDDATASTRING_OFFSET UNITYSDK_OFFSET(0x1BDEE050)
+#define WELING_SDK_PIPEWRAPPER_SENDDATATOPIPE_OFFSET UNITYSDK_OFFSET(0x1BDEDFC0)
+#define WELING_SDK_PIPEWRAPPER_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1BDEDCC0)
+#define WELING_SDK_PIPEWRAPPER_SETONSENSORCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BDEDD50)
+#define WELING_SDK_PIPEWRAPPER_SIMPLECALLBACKIMP_OFFSET UNITYSDK_OFFSET(0x1BDEDA90)
 
 namespace WeLing::SDK
 {
-	inline static constexpr unsigned int PipeWrapper_TypeDefinitionIndex = 7483;
+	inline static constexpr unsigned int PipeWrapper_TypeDefinitionIndex = 7537;
 
 	class PipeWrapper : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet_OnReceiveDataEvent()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PipeWrapper_TypeDefinitionIndex)->GetStaticField(0x510);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("WeLing.SDK", "PipeWrapper")->GetStaticField(0x620);
 		}
+
 		static ::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>** StaticGet_OnSensorEvent()
 		{
-			return (::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(PipeWrapper_TypeDefinitionIndex)->GetStaticField(0x518);
+			return (::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>**)UnitySDK::FromName("WeLing.SDK", "PipeWrapper")->GetStaticField(0x628);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean Init(::WeLing::SDK::PipeWrapper_OnReceiveData* a1)
@@ -56,14 +56,14 @@ namespace WeLing::SDK
 			return ((::System::Boolean(*)(::WeLing::SDK::PipeWrapper_OnSensorCallbackFun*))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_SETONSENSORCALLBACK_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSensorImp(::System::Int32& a1, ::System::IntPtr a2, ::System::Int32& a3)
+		static ::System::Void OnSensorImp(::System::Int32 a1, ::System::IntPtr a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Int32&, ::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONSENSORIMP_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONSENSORIMP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SimpleCallBackImp(::System::IntPtr a1, ::System::Int32& a2)
+		static ::System::Void SimpleCallBackImp(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_SIMPLECALLBACKIMP_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_SIMPLECALLBACKIMP_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean InitPipe()
@@ -85,5 +85,6 @@ namespace WeLing::SDK
 		{
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_SENDDATASTRING_OFFSET))(a1);
 		}
+
 	};
 }

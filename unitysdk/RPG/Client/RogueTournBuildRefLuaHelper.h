@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/MongoObjectId.h"
 #include "unitysdk/RPG/Client/RogueTournBuildRefUnionIndex.h"
-#include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEOBJECTIDUINTDICT_OFFSET UNITYSDK_OFFSET(0x1AEF9A00)
-#define RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEUNIONINDEXDOUBLEDICT_OFFSET UNITYSDK_OFFSET(0x1AEF9AF0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEUNIONINDEXUINTDICT_OFFSET UNITYSDK_OFFSET(0x1AEF9BE0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEOBJECTIDUINTDICT_OFFSET UNITYSDK_OFFSET(0xDF7B800)
+#define RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEUNIONINDEXDOUBLEDICT_OFFSET UNITYSDK_OFFSET(0xDF7B8F0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEUNIONINDEXUINTDICT_OFFSET UNITYSDK_OFFSET(0xDF7B9E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefLuaHelper_TypeDefinitionIndex = 67529;
+	inline static constexpr unsigned int RogueTournBuildRefLuaHelper_TypeDefinitionIndex = 67531;
 
 	class RogueTournBuildRefLuaHelper : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::Dictionary_2<::RPG::Client::RogueTournBuildRefUnionIndex, ::System::UInt32>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFLUAHELPER_CREATEUNIONINDEXUINTDICT_OFFSET))();
 		}
+
 	};
 }

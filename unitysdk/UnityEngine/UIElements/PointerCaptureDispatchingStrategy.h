@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1D617D30)
-#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1D617D90)
-#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60DBE0)
+#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1F48F330)
+#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4851E0)
+#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1F48F390)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerCaptureDispatchingStrategy_TypeDefinitionIndex = 5965;
+	inline static constexpr unsigned int PointerCaptureDispatchingStrategy_TypeDefinitionIndex = 5973;
 
 	class PointerCaptureDispatchingStrategy : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* a1)
@@ -30,5 +29,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERCAPTUREDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

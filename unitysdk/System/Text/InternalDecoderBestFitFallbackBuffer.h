@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Text/DecoderFallbackBuffer.h"
-
 namespace System { class Object; }
 namespace System::Text { class InternalDecoderBestFitFallback; }
 
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1B3C1F90)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1B3C2160)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1B3C1F10)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x1B3C2180)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x1B3C21A0)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1B3C2190)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_TRYBESTFIT_OFFSET UNITYSDK_OFFSET(0x1B3C1FE0)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C1B30)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F4FC0)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1C0F5420)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1C0F55F0)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1C0F53A0)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x1C0F5610)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C0F5630)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1C0F5620)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_TRYBESTFIT_OFFSET UNITYSDK_OFFSET(0x1C0F5470)
 
 namespace System::Text
 {
@@ -21,18 +20,19 @@ namespace System::Text
 	class InternalDecoderBestFitFallbackBuffer : public ::System::Text::DecoderFallbackBuffer
 	{
 	public:
+		::System::Text::InternalDecoderBestFitFallback* oFallback; // 0x20
+		::System::Int32 iCount; // 0x28
+		::System::Char cBestFit; // 0x2C
+		::System::Byte _padding0[0x2];
+		::System::Int32 iSize; // 0x30
 		static ::System::Object** StaticGet_s_InternalSyncObject()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(InternalDecoderBestFitFallbackBuffer_TypeDefinitionIndex)->GetStaticField(0x12320);
+			return (::System::Object**)UnitySDK::FromName("System.Text", "InternalDecoderBestFitFallbackBuffer")->GetStaticField(0x23C20);
 		}
-		::System::Text::InternalDecoderBestFitFallback* oFallback; // 0x20
-		::System::Char cBestFit; // 0x28
-		::System::Int32 iCount; // 0x2C
-		::System::Int32 iSize; // 0x30
 
 		::System::Void _ctor(::System::Text::InternalDecoderBestFitFallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::InternalDecoderBestFitFallback*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::InternalDecoderBestFitFallback*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Object* get_InternalSyncObject()
@@ -60,14 +60,15 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 InternalFallback(::Il2CppArray<::System::Byte>* a1, ::System::Byte* a2)
+		::System::Int32 InternalFallback(::Il2CppArray<::System::Byte>* a1, ::PVOID a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char TryBestFit(::Il2CppArray<::System::Byte>* a1)
 		{
 			return ((::System::Char(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACKBUFFER_TRYBESTFIT_OFFSET))(this, a1);
 		}
+
 	};
 }

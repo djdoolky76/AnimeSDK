@@ -2,14 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
+inline static constexpr unsigned int __f__AnonymousType8_2_TypeDefinitionIndex = 47052;
 
-inline static constexpr unsigned int __f__AnonymousType8_2_TypeDefinitionIndex = 47512;
-
-template <typename _doc_id_j__TPar, typename _sheet_id_j__TPar>
-class __f__AnonymousType8_2 : public ::System::Object
-{
-public:
-	_doc_id_j__TPar _doc_id_i__Field; // 0x0
-	_sheet_id_j__TPar _sheet_id_i__Field; // 0x0
-};
+	template <typename T1, typename T2>
+	class __f__AnonymousType8_2 : public ::System::Object
+	{
+	public:
+		T1 _doc_id_i__Field; // 0x0
+		T2 _sheet_id_i__Field; // 0x0
+	};

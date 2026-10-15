@@ -4,7 +4,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int SingleSpan_SingleArray_1_TypeDefinitionIndex = 6147;
+	inline static constexpr unsigned int SingleSpan_SingleArray_1_TypeDefinitionIndex = 6156;
 
 	template <typename T>
 	class SingleSpan_SingleArray_1 : public ::System::Object
@@ -12,7 +12,8 @@ namespace ZLinq::Internal
 	public:
 		static ::Il2CppArray<T>** StaticGet_Array()
 		{
-			return (::Il2CppArray<T>**)Il2CppClass::FromTypeDefinitionIndex(SingleSpan_SingleArray_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<T>**)UnitySDK::FromName("ZLinq.Internal", "SingleArray`1")->GetStaticField(0x0);
 		}
+
 	};
 }

@@ -2,20 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape_EmitFromMode.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_GET_SHAPETOOBJSPACEM_OFFSET UNITYSDK_OFFSET(0x15E60940)
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_GET_SHAPETOOBJSPACENOSCALEM_OFFSET UNITYSDK_OFFSET(0x15E651B0)
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E616E0)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0xCD27F80)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_GET_SHAPETOOBJSPACEM_OFFSET UNITYSDK_OFFSET(0xCD271E0)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_GET_SHAPETOOBJSPACENOSCALEM_OFFSET UNITYSDK_OFFSET(0xCD2BA50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape_TypeDefinitionIndex = 70449;
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape_TypeDefinitionIndex = 70485;
 
 	class Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape : public ::System::Object
 	{
@@ -25,10 +22,9 @@ namespace RPG::Client
 		::UnityEngine::Vector3 Scale; // 0x2C
 		::RPG::Client::Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape_EmitFromMode EmitFrom; // 0x38
 		::System::UInt32 ScatterPointNum; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Matrix4x4 get_ShapeToObjSpaceM()
@@ -40,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_EMITSHAPE_GET_SHAPETOOBJSPACENOSCALEM_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class AFONHNKGNLD;
+namespace RPG::GameCore { class TaskContext; }
+
+#define CMECIAGAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA220A0)
+#define CMECIAGAHAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA220D0)
+
+inline static constexpr unsigned int CMECIAGAHAF_TypeDefinitionIndex = 58812;
+
+	class CMECIAGAHAF
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::AFONHNKGNLD* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::AFONHNKGNLD*))((::PBYTE)hIl2Cpp + CMECIAGAHAF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMECIAGAHAF_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

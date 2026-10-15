@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
+namespace UnityEngine::ProBuilder { class HSVColor; }
 
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0xCF99460)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0xCF99590)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCF994C0)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0xCF99440)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCF57AA0)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F1AF430)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F16DA60)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1F1AF450)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0x1F1AF580)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1AF4B0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 43155;
+	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 44347;
 
 	class HSVColor : public ::System::Object
 	{
 	public:
-		::System::Single s; // 0x10
-		::System::Single v; // 0x14
-		::System::Single h; // 0x18
-
+		::System::Single h; // 0x10
+		::System::Single s; // 0x14
+		::System::Single v; // 0x18
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color a1)
@@ -46,5 +45,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::ProBuilder::HSVColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET))(this, a1);
 		}
+
 	};
 }

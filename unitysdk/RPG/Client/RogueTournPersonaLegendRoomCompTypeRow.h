@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueTournPersonaLegendRowType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class RogueTournPersonaLegendRoomCompTypeRow; }
 namespace RPG::Client { class RogueTournPersonaRoomCompositionTypeData; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_CREATE_OFFSET UNITYSDK_OFFSET(0x1C79E930)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_GET_ROOMCOMPTYPEDATA_OFFSET UNITYSDK_OFFSET(0x1C79E840)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_GET_ROWTYPE_OFFSET UNITYSDK_OFFSET(0x1C79E7F0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79E9B0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_CREATE_OFFSET UNITYSDK_OFFSET(0xE0189C0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0xE018A40)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_GET_ROOMCOMPTYPEDATA_OFFSET UNITYSDK_OFFSET(0xE018960)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_GET_ROWTYPE_OFFSET UNITYSDK_OFFSET(0xE018910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaLegendRoomCompTypeRow_TypeDefinitionIndex = 72821;
+	inline static constexpr unsigned int RogueTournPersonaLegendRoomCompTypeRow_TypeDefinitionIndex = 72904;
 
 	class RogueTournPersonaLegendRoomCompTypeRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 _RoomCompType; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::RogueTournPersonaLegendRowType get_RowType()
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::RogueTournPersonaLegendRoomCompTypeRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDROOMCOMPTYPEROW_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

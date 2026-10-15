@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvTrackNpcLockAlert; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVTRACKNPCLOCKALERT_METHOD_3_270D8865533E308D_OFFSET UNITYSDK_OFFSET(0x1CBA4B80)
-#define RPG_GAMECORE_ADVTRACKNPCLOCKALERT_METHOD_3_7618B718EB0A65D0_OFFSET UNITYSDK_OFFSET(0x1CBA4AB0)
-#define RPG_GAMECORE_ADVTRACKNPCLOCKALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA4B70)
+#define RPG_GAMECORE_ADVTRACKNPCLOCKALERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3859F0)
+#define RPG_GAMECORE_ADVTRACKNPCLOCKALERT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D385A00)
+#define RPG_GAMECORE_ADVTRACKNPCLOCKALERT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D385930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTrackNpcLockAlert_TypeDefinitionIndex = 21941;
+	inline static constexpr unsigned int AdvTrackNpcLockAlert_TypeDefinitionIndex = 22189;
 
 	class AdvTrackNpcLockAlert : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRACKNPCLOCKALERT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRACKNPCLOCKALERT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7618B718EB0A65D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTrackNpcLockAlert*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvTrackNpcLockAlert* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTrackNpcLockAlert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRACKNPCLOCKALERT_METHOD_3_7618B718EB0A65D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvTrackNpcLockAlert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRACKNPCLOCKALERT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_270D8865533E308D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTrackNpcLockAlert* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvTrackNpcLockAlert* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTrackNpcLockAlert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRACKNPCLOCKALERT_METHOD_3_270D8865533E308D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvTrackNpcLockAlert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRACKNPCLOCKALERT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

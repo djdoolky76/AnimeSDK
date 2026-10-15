@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B976210)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F05FA50)
 
 namespace System::Net
 {
@@ -15,12 +14,13 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_m_Strings()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnsafeNclNativeMethods_HttpApi_TypeDefinitionIndex)->GetStaticField(0x1F9E0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "HttpApi")->GetStaticField(0x336B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_CCTOR_OFFSET))();
 		}
+
 	};
 }

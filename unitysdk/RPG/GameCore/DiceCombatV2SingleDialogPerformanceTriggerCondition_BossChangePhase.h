@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatV2SingleDialogPerformanceTriggerCondition.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_METHOD_3_5A6DB1817D0A4B20_OFFSET UNITYSDK_OFFSET(0x1DB09780)
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_METHOD_3_61B7F5FD6B22396C_OFFSET UNITYSDK_OFFSET(0x1DB09AA0)
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB09770)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8300)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E8310)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E8630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase_TypeDefinitionIndex = 16009;
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase_TypeDefinitionIndex = 16182;
 
 	class DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase : public ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition
 	{
 	public:
 		::System::Int32 Phase; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_61B7F5FD6B22396C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_METHOD_3_61B7F5FD6B22396C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5A6DB1817D0A4B20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_METHOD_3_5A6DB1817D0A4B20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCETRIGGERCONDITION_BOSSCHANGEPHASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

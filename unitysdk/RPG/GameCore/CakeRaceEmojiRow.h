@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1002C0)
-#define RPG_GAMECORE_CAKERACEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D100430)
+#define RPG_GAMECORE_CAKERACEEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D521180)
+#define RPG_GAMECORE_CAKERACEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D521010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceEmojiRow_TypeDefinitionIndex = 10989;
+	inline static constexpr unsigned int CakeRaceEmojiRow_TypeDefinitionIndex = 11005;
 
 	class CakeRaceEmojiRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::Boolean CanPlayerUse; // 0x18
-		::System::UInt32 EmojiID; // 0x1C
-
+		::System::UInt32 EmojiID; // 0x18
+		::System::Boolean CanPlayerUse; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEMOJIROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEMOJIROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceEmojiRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceEmojiRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceEmojiRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceEmojiRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

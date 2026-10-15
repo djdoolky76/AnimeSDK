@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::TrainParty { class TrainPartyPassengerDiaryData; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_GET_DIARYDATALIST_OFFSET UNITYSDK_OFFSET(0x1BDFDD50)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_RESET_OFFSET UNITYSDK_OFFSET(0x1BDFDD70)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_SET_DIARYDATALIST_OFFSET UNITYSDK_OFFSET(0x1BDFDD60)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x1BDFCC10)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDFC920)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE2E92C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_GET_DIARYDATALIST_OFFSET UNITYSDK_OFFSET(0xE2EAAE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_RESET_OFFSET UNITYSDK_OFFSET(0xE2EAB00)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_SET_DIARYDATALIST_OFFSET UNITYSDK_OFFSET(0xE2EAAF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xE2E95B0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyPassengerDiaryInfo_TypeDefinitionIndex = 74244;
+	inline static constexpr unsigned int TrainPartyPassengerDiaryInfo_TypeDefinitionIndex = 74343;
 
 	class TrainPartyPassengerDiaryInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerDiaryData*>* _DiaryDataList_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerDiaryData*>* get_DiaryDataList()
@@ -45,5 +43,6 @@ namespace RPG::Client::TrainParty
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDIARYINFO_RESET_OFFSET))(this);
 		}
+
 	};
 }

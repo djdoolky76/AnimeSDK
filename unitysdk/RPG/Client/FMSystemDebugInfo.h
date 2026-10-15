@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FMSYSTEMDEBUGINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B8A7000)
-#define RPG_CLIENT_FMSYSTEMDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A70D0)
+#define RPG_CLIENT_FMSYSTEMDEBUGINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE59DB0)
+#define RPG_CLIENT_FMSYSTEMDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCE59E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMSystemDebugInfo_TypeDefinitionIndex = 68319;
+	inline static constexpr unsigned int FMSystemDebugInfo_TypeDefinitionIndex = 68352;
 
 	class FMSystemDebugInfo : public ::UnityEngine::MonoBehaviour
 	{
@@ -18,15 +17,15 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* AllChannelSources; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* AllActiveChannelSources; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* AllChannelClients; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FMSYSTEMDEBUGINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FMSYSTEMDEBUGINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FMSYSTEMDEBUGINFO_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

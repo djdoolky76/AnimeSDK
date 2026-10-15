@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-#include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_METHOD_2_A21DF4AAA5CC5DBC_OFFSET UNITYSDK_OFFSET(0x1B58CD00)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B58C900)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B58C980)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58CD90)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F21C0)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_DFMOAHHOJKG_OFFSET UNITYSDK_OFFSET(0xE8F2130)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8F1CF0)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8F1D70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FresnelRimMaterialAnimateBehaviour_TypeDefinitionIndex = 48531;
+	inline static constexpr unsigned int FresnelRimMaterialAnimateBehaviour_TypeDefinitionIndex = 48071;
 
 	class FresnelRimMaterialAnimateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -26,12 +25,12 @@ namespace RPGTools::Timeline
 		::UnityEngine::Color FresnelColor; // 0x10
 		::UnityEngine::Vector4 FresnelBSI; // 0x20
 		::System::Single FresnelColorStrength; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::String*>* TargetRenderers; // 0x38
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _MaterialList; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -44,9 +43,10 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_2_A21DF4AAA5CC5DBC(::System::String* a1)
+		::System::Boolean DFMOAHHOJKG(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_METHOD_2_A21DF4AAA5CC5DBC_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_DFMOAHHOJKG_OFFSET))(this, a1);
 		}
+
 	};
 }

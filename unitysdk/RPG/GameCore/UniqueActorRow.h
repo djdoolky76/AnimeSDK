@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UniqueActorRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNIQUEACTORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2AE010)
-#define RPG_GAMECORE_UNIQUEACTORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AE140)
+#define RPG_GAMECORE_UNIQUEACTORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC45500)
+#define RPG_GAMECORE_UNIQUEACTORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC453D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniqueActorRow_TypeDefinitionIndex = 13001;
+	inline static constexpr unsigned int UniqueActorRow_TypeDefinitionIndex = 13107;
 
 	class UniqueActorRow : public ::System::Object
 	{
 	public:
-		::System::String* ActorID; // 0x10
-		::System::String* UniqueName; // 0x18
-
+		::System::String* UniqueName; // 0x10
+		::System::String* ActorID; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIQUEACTORROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIQUEACTORROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniqueActorRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::UniqueActorRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniqueActorRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIQUEACTORROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UniqueActorRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIQUEACTORROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

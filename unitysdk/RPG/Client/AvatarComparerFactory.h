@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IAvatarComparer; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET UNITYSDK_OFFSET(0x193BD180)
-#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x193BD010)
-#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0x193BCEC0)
-#define RPG_CLIENT_AVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x193BD2F0)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC6C7C50)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET UNITYSDK_OFFSET(0xC6C7AE0)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xC6C7970)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0xC6C7820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparerFactory_TypeDefinitionIndex = 62875;
+	inline static constexpr unsigned int AvatarComparerFactory_TypeDefinitionIndex = 62808;
 
 	class AvatarComparerFactory : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::IAvatarComparer* GetDefault()
@@ -37,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::IAvatarComparer*(*)(::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET))(a1);
 		}
+
 	};
 }

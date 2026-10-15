@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BFBCFAIOIEK_TypeDefinitionIndex = 25192;
+
+	enum class BFBCFAIOIEK : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		AENODINHEMF = 1,
+		NBEJNAKBEBI = 2,
+		AHDPEAKFJAK = 3,
+		PLMCCCKELKL = 4,
+		AKGPBGOHCJL = 5,
+		ADBNPHDPPIH = 6,
+		AOCLCEKPBKI = 7,
+		JGGEFHENCID = 8,
+		OFAMBKJOEEN = 9,
+		MJIEABMBEDP = 10,
+		CGMPJEGGEED = 11,
+		EJOEHKNHGDM = 12,
+	};

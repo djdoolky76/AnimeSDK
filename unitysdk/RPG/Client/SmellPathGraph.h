@@ -2,30 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_9E5113866ECE6B3A;
+class CFPKCJOOPCA;
 namespace RPG::GameCore { class PropSmellPathComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SMELLPATHGRAPH_FADEOUT_OFFSET UNITYSDK_OFFSET(0x196D6770)
-#define RPG_CLIENT_SMELLPATHGRAPH_GETDIJKSTRAPATH_OFFSET UNITYSDK_OFFSET(0x196D67C0)
-#define RPG_CLIENT_SMELLPATHGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x196D6650)
-#define RPG_CLIENT_SMELLPATHGRAPH_REFRESH_OFFSET UNITYSDK_OFFSET(0x196D66F0)
-#define RPG_CLIENT_SMELLPATHGRAPH_UNINIT_OFFSET UNITYSDK_OFFSET(0x196D6830)
-#define RPG_CLIENT_SMELLPATHGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6890)
+#define RPG_CLIENT_SMELLPATHGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E0BC0)
+#define RPG_CLIENT_SMELLPATHGRAPH_FADEOUT_OFFSET UNITYSDK_OFFSET(0xE0E0AA0)
+#define RPG_CLIENT_SMELLPATHGRAPH_GETDIJKSTRAPATH_OFFSET UNITYSDK_OFFSET(0xE0E0AF0)
+#define RPG_CLIENT_SMELLPATHGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0xE0E0980)
+#define RPG_CLIENT_SMELLPATHGRAPH_REFRESH_OFFSET UNITYSDK_OFFSET(0xE0E0A20)
+#define RPG_CLIENT_SMELLPATHGRAPH_UNINIT_OFFSET UNITYSDK_OFFSET(0xE0E0B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SmellPathGraph_TypeDefinitionIndex = 61044;
+	inline static constexpr unsigned int SmellPathGraph_TypeDefinitionIndex = 60947;
 
 	class SmellPathGraph : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_9E5113866ECE6B3A* KADDKEGNCHE; // 0x18
-
+		::CFPKCJOOPCA* KADDKEGNCHE; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMELLPATHGRAPH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMELLPATHGRAPH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::GameCore::PropSmellPathComponent* a1)
@@ -52,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMELLPATHGRAPH_UNINIT_OFFSET))(this);
 		}
+
 	};
 }

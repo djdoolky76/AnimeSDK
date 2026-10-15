@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E2F10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E2F80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CE9B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E2EA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F625B30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_CTOR_OFFSET UNITYSDK_OFFSET(0x1F625AC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F625BA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F610EA0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setFocused_TypeDefinitionIndex = 38142;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setFocused_TypeDefinitionIndex = 39439;
 
 	class BrowserNative_Calltype_zfb_setFocused : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Boolean a2)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETFOCUSED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

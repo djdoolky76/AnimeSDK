@@ -2,50 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UI/OS/ChannelProtocolDisplayType.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI { class ChannelProtocolDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1B9CB7A0)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B9C9E50)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_CANCEL_OFFSET UNITYSDK_OFFSET(0x1B9CB780)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B9CB700)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B9CBD10)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_ONAGREEMENTCHECKBOXTOGGLECLICKED_OFFSET UNITYSDK_OFFSET(0x1B9CB760)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B9CB7C0)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B9CB8C0)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_VIEWPRIVACYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1B9CB740)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_VIEWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x1B9CB720)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CBD80)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1BFC76F0)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC5DA0)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_CANCEL_OFFSET UNITYSDK_OFFSET(0x1BFC76D0)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BFC7650)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC7CD0)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFC7C60)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_ONAGREEMENTCHECKBOXTOGGLECLICKED_OFFSET UNITYSDK_OFFSET(0x1BFC76B0)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFC7710)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BFC7810)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_VIEWPRIVACYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1BFC7690)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_VIEWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x1BFC7670)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int ChannelProtocolDialog_TypeDefinitionIndex = 8349;
+	inline static constexpr unsigned int ChannelProtocolDialog_TypeDefinitionIndex = 8392;
 
 	class ChannelProtocolDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::ChannelProtocolDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::ChannelProtocolDialog**)Il2CppClass::FromTypeDefinitionIndex(ChannelProtocolDialog_TypeDefinitionIndex)->GetStaticField(0x20D40);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* closeBtnPath; // 0x0
-		// static const ::System::String* titlePath; // 0x0
-		// static const ::System::String* contentPath; // 0x0
-		// static const ::System::String* viewUserAgreementLabelTextPath; // 0x0
-		// static const ::System::String* viewUserAgreementBtnPath; // 0x0
-		// static const ::System::String* viewPrivacyProtocolLabelTextPath; // 0x0
-		// static const ::System::String* viewPrivacyProtocolBtnPath; // 0x0
-		// static const ::System::String* agreementCheckboxTextPath; // 0x0
-		// static const ::System::String* agreementCheckboxPath; // 0x0
-		// static const ::System::String* cancelBtnPath; // 0x0
-		// static const ::System::String* cancelBtnTextPath; // 0x0
-		// static const ::System::String* acceptBtnPath; // 0x0
-		// static const ::System::String* acceptBtnTextPath; // 0x0
 		::UnityEngine::UI::Text* titleText; // 0x58
 		::UnityEngine::UI::Text* contentText; // 0x60
 		::UnityEngine::UI::Text* viewUserAgreementLabelText; // 0x68
@@ -65,10 +46,28 @@ namespace MiHoYo::SDK::UI
 		::System::Action* OnViewUserAgreementBtnClicked; // 0xD8
 		::System::Action* OnViewPrivacyProtocolBtnClicked; // 0xE0
 		::MiHoYo::SDK::UI::OS::ChannelProtocolDisplayType channelProtocolDisplayType; // 0xE8
+		static ::MiHoYo::SDK::UI::ChannelProtocolDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::ChannelProtocolDialog**)UnitySDK::FromName("MiHoYo.SDK.UI", "ChannelProtocolDialog")->GetStaticField(0x2AE80);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* closeBtnPath; // 0x0
+		// static const ::System::String* titlePath; // 0x0
+		// static const ::System::String* contentPath; // 0x0
+		// static const ::System::String* viewUserAgreementLabelTextPath; // 0x0
+		// static const ::System::String* viewUserAgreementBtnPath; // 0x0
+		// static const ::System::String* viewPrivacyProtocolLabelTextPath; // 0x0
+		// static const ::System::String* viewPrivacyProtocolBtnPath; // 0x0
+		// static const ::System::String* agreementCheckboxTextPath; // 0x0
+		// static const ::System::String* agreementCheckboxPath; // 0x0
+		// static const ::System::String* cancelBtnPath; // 0x0
+		// static const ::System::String* cancelBtnTextPath; // 0x0
+		// static const ::System::String* acceptBtnPath; // 0x0
+		// static const ::System::String* acceptBtnTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -120,5 +119,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG_HIDE_OFFSET))();
 		}
+
 	};
 }

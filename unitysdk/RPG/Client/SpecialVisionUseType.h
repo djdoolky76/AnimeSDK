@@ -3,11 +3,11 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpecialVisionUseType_TypeDefinitionIndex = 61034;
+	inline static constexpr unsigned int SpecialVisionUseType_TypeDefinitionIndex = 60937;
 
 	enum class SpecialVisionUseType : ::System::UInt32
 	{
-		Times = 0x0,
-		CD = 0x1,
+		Times = 0,
+		CD = 1,
 	};
 }

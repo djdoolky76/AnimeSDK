@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class DACEDJLJOGK;
+class DNKONAKNCOL;
 
-class Class_1_3EEDB4263A2F6FE3;
-class Class_1_80E89104401E1D26;
-
-#define RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EEE990)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0___GETSELECTEDITEMINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x19EEF140)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC72D130)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0___GETSELECTEDITEMINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xC72D8E0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYDecoPanelControl___c__DisplayClass16_0_TypeDefinitionIndex = 80444;
+	inline static constexpr unsigned int B51RacingDIYDecoPanelControl___c__DisplayClass16_0_TypeDefinitionIndex = 81772;
 
 	class B51RacingDIYDecoPanelControl___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::Class_1_80E89104401E1D26* vm; // 0x10
-
+		::DNKONAKNCOL* vm; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetSelectedItemIndex_b__0(::Class_1_3EEDB4263A2F6FE3* a1)
+		::System::Boolean __GetSelectedItemIndex_b__0(::DACEDJLJOGK* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_3EEDB4263A2F6FE3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0___GETSELECTEDITEMINDEX_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::DACEDJLJOGK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYDECOPANELCONTROL___C__DISPLAYCLASS16_0___GETSELECTEDITEMINDEX_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

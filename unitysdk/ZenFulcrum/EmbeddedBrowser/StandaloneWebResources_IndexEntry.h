@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneWebResources_IndexEntry_TypeDefinitionIndex = 38267;
+	inline static constexpr unsigned int StandaloneWebResources_IndexEntry_TypeDefinitionIndex = 39564;
 
 	struct alignas(8) StandaloneWebResources_IndexEntry
 	{

@@ -4,16 +4,16 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CommerceDialogMode_TypeDefinitionIndex = 8074;
+	inline static constexpr unsigned int CommerceDialogMode_TypeDefinitionIndex = 8117;
 
 	class CommerceDialogMode : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 CATEGORY = 0x0; // 0x0
-		// static const ::System::Int32 PRODUCT = 0x1; // 0x0
-		// static const ::System::Int32 PRODUCT_CODE = 0x2; // 0x0
-		// static const ::System::Int32 CHECKOUT = 0x3; // 0x0
-		// static const ::System::Int32 DOWNLOADLIST = 0x4; // 0x0
-		// static const ::System::Int32 PLUS = 0x5; // 0x0
+		// static const ::System::Object CATEGORY; // 0x0
+		// static const ::System::Object PRODUCT; // 0x0
+		// static const ::System::Object PRODUCT_CODE; // 0x0
+		// static const ::System::Object CHECKOUT; // 0x0
+		// static const ::System::Object DOWNLOADLIST; // 0x0
+		// static const ::System::Object PLUS; // 0x0
 	};
 }

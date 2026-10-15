@@ -7,7 +7,7 @@ namespace System::Runtime::Remoting::Messaging
 
 	enum class ArgInfoType : ::System::Byte
 	{
-		In = 0x0,
-		Out = 0x1,
+		In = 0,
+		Out = 1,
 	};
 }

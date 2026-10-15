@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 
-#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_PLAYANIM_OFFSET UNITYSDK_OFFSET(0x1C989B90)
-#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_STOPANIM_OFFSET UNITYSDK_OFFSET(0x1C989C40)
-#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C989C80)
-#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C989D10)
+#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_CTOR_OFFSET UNITYSDK_OFFSET(0xD5A2050)
+#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_PLAYANIM_OFFSET UNITYSDK_OFFSET(0xD5A1ED0)
+#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_STOPANIM_OFFSET UNITYSDK_OFFSET(0xD5A1F80)
+#define RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD5A1FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreePowerNumberAnim_TypeDefinitionIndex = 66008;
+	inline static constexpr unsigned int MatchThreePowerNumberAnim_TypeDefinitionIndex = 65962;
 
 	class MatchThreePowerNumberAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,11 +19,11 @@ namespace RPG::Client
 		::System::Int32 _Start; // 0x1C
 		::System::Int32 _End; // 0x20
 		::System::Boolean _Playing; // 0x24
+		::System::Byte _padding0[0x3];
 		::RPG::Client::LocalizedText* _Text; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void PlayAnim(::System::Int32 a1, ::System::Int32 a2)
@@ -41,5 +40,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPOWERNUMBERANIM_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GBMLMONHJME;
+class NJMLJBNICND;
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class Queue_1; }
+
+#define NMEOAGDPKEO_APFBHJOIOBK_OFFSET UNITYSDK_OFFSET(0xBC7B630)
+#define NMEOAGDPKEO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC7B970)
+#define NMEOAGDPKEO_GET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xBC7B4E0)
+#define NMEOAGDPKEO_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBC7B740)
+#define NMEOAGDPKEO_LCNGKEDDMGH_OFFSET UNITYSDK_OFFSET(0xBC7B6A0)
+#define NMEOAGDPKEO_PEKGGDMDKMI_OFFSET UNITYSDK_OFFSET(0xBC7B500)
+#define NMEOAGDPKEO_SET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xBC7B4F0)
+#define NMEOAGDPKEO__TICK_B__11_0_OFFSET UNITYSDK_OFFSET(0xBC7B980)
+
+inline static constexpr unsigned int NMEOAGDPKEO_TypeDefinitionIndex = 78338;
+
+	class NMEOAGDPKEO : public ::System::Object
+	{
+	public:
+		::GBMLMONHJME* MLAEBDBIGLD; // 0x10
+		::System::Collections::Generic::Queue_1<::GBMLMONHJME*>* OJFECHILFHG; // 0x18
+		::NJMLJBNICND* NIHJGJMOEGB; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* HDKMCJLGOFI; // 0x28
+		::System::Boolean _IsStopped_k__BackingField; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsStopped()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_GET_ISSTOPPED_OFFSET))(this);
+		}
+
+		::System::Void set_IsStopped(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_SET_ISSTOPPED_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* PEKGGDMDKMI(::NJMLJBNICND* a1, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>* a2)
+		{
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::NJMLJBNICND*, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>*))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_PEKGGDMDKMI_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void APFBHJOIOBK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_APFBHJOIOBK_OFFSET))(this);
+		}
+
+		::System::Void LCNGKEDDMGH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_LCNGKEDDMGH_OFFSET))(this);
+		}
+
+		::System::Void JLANKNHFKCN(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_JLANKNHFKCN_OFFSET))(this, a1);
+		}
+
+		::System::Void _Tick_b__11_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMEOAGDPKEO__TICK_B__11_0_OFFSET))(this);
+		}
+
+	};

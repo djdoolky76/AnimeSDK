@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGEGETGAMEOBJECTS_READ_OFFSET UNITYSDK_OFFSET(0x10F00)
-#define HDG_RDTTCPMESSAGEGETGAMEOBJECTS_WRITE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define HDG_RDTTCPMESSAGEGETGAMEOBJECTS_READ_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define HDG_RDTTCPMESSAGEGETGAMEOBJECTS_WRITE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageGetGameObjects_TypeDefinitionIndex = 47445;
+	inline static constexpr unsigned int rdtTcpMessageGetGameObjects_TypeDefinitionIndex = 46985;
 
-	struct alignas(1) rdtTcpMessageGetGameObjects
+	struct alignas(4) rdtTcpMessageGetGameObjects
 	{
 		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
@@ -23,5 +21,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEGETGAMEOBJECTS_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

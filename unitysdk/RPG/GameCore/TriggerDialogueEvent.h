@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerDialogueEvent; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERDIALOGUEEVENT_METHOD_3_423129201CC278BD_OFFSET UNITYSDK_OFFSET(0x1D54A4D0)
-#define RPG_GAMECORE_TRIGGERDIALOGUEEVENT_METHOD_3_E7EAAB6675C356A6_OFFSET UNITYSDK_OFFSET(0x1D54A510)
-#define RPG_GAMECORE_TRIGGERDIALOGUEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54A500)
+#define RPG_GAMECORE_TRIGGERDIALOGUEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC18730)
+#define RPG_GAMECORE_TRIGGERDIALOGUEEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC18740)
+#define RPG_GAMECORE_TRIGGERDIALOGUEEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC18700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerDialogueEvent_TypeDefinitionIndex = 20613;
+	inline static constexpr unsigned int TriggerDialogueEvent_TypeDefinitionIndex = 20852;
 
 	class TriggerDialogueEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 DialogueEventID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDIALOGUEEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDIALOGUEEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_423129201CC278BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerDialogueEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerDialogueEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerDialogueEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDIALOGUEEVENT_METHOD_3_423129201CC278BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerDialogueEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDIALOGUEEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E7EAAB6675C356A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerDialogueEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerDialogueEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerDialogueEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDIALOGUEEVENT_METHOD_3_E7EAAB6675C356A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerDialogueEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERDIALOGUEEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATELAYERMIXER_OFFSET UNITYSDK_OFFSET(0x1BF283C0)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF284C0)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1BF285E0)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_UNITYENGINE_TIMELINE_ILAYERABLE_SHOWDEFAULTLAYEREDTRACKCOMMANDS_OFFSET UNITYSDK_OFFSET(0x1BF28480)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF286B0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATELAYERMIXER_OFFSET UNITYSDK_OFFSET(0xE93E3F0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93E4F0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE93E610)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE93E6E0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_UNITYENGINE_TIMELINE_ILAYERABLE_SHOWDEFAULTLAYEREDTRACKCOMMANDS_OFFSET UNITYSDK_OFFSET(0xE93E4B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBackgroundCGTrack_TypeDefinitionIndex = 48831;
+	inline static constexpr unsigned int TalkBackgroundCGTrack_TypeDefinitionIndex = 48377;
 
 	class TalkBackgroundCGTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateLayerMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -44,5 +43,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

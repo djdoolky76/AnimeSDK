@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Threading/LazyThreadSafetyMode.h"
-
 namespace RPG { template <typename T> class GCFreeLazy_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int System_LazyDebugView_1_TypeDefinitionIndex = 6362;
+	inline static constexpr unsigned int System_LazyDebugView_1_TypeDefinitionIndex = 6371;
 
 	template <typename T>
 	class System_LazyDebugView_1 : public ::System::Object

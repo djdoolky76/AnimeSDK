@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CUSTOMRP_CAPTURESETUPCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x192BE6D0)
-#define RPG_CUSTOMRP_CAPTURESETUPCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x192BE700)
-#define RPG_CUSTOMRP_CAPTURESETUPCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x192BE6C0)
-#define RPG_CUSTOMRP_CAPTURESETUPCB__CTOR_OFFSET UNITYSDK_OFFSET(0x192BE650)
+#define RPG_CUSTOMRP_CAPTURESETUPCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CBE4A40)
+#define RPG_CUSTOMRP_CAPTURESETUPCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE49C0)
+#define RPG_CUSTOMRP_CAPTURESETUPCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CBE4A70)
+#define RPG_CUSTOMRP_CAPTURESETUPCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CBE4A30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureSetupCb_TypeDefinitionIndex = 36924;
+	inline static constexpr unsigned int CaptureSetupCb_TypeDefinitionIndex = 37609;
 
 	class CaptureSetupCb : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESETUPCB__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESETUPCB_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESETUPCB_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

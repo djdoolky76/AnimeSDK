@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class FAHDGLFOOAK;
+class NGFHCJIAOLH;
+namespace Entitas { template <typename T> class IMatcher_1; }
+namespace System { class String; }
+
+#define HDIAALCMDNG_AIEAKHKKAJA_OFFSET UNITYSDK_OFFSET(0x1CA8EF30)
+#define HDIAALCMDNG_AJLOHJJNMKK_OFFSET UNITYSDK_OFFSET(0x1CA8EE00)
+#define HDIAALCMDNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8F5A0)
+#define HDIAALCMDNG_FNDCNEAHGOP_OFFSET UNITYSDK_OFFSET(0x1CA8EFA0)
+#define HDIAALCMDNG_GETBILLBOARDMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F000)
+#define HDIAALCMDNG_GETENTITYCONFIGIDMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F500)
+#define HDIAALCMDNG_GETGENERICVIEWASSETLOADINGMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F140)
+#define HDIAALCMDNG_GETGENERICVIEWASSETMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F0A0)
+#define HDIAALCMDNG_GETGENERICVIEWBRIDGEMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F1E0)
+#define HDIAALCMDNG_GETGENERICVIEWLOADCALLBACKMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F280)
+#define HDIAALCMDNG_GETGENERICVIEWUNLOADCALLBACKMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F320)
+#define HDIAALCMDNG_GETSTATETREEMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F460)
+#define HDIAALCMDNG_GETTRANSFORMMATCHER_OFFSET UNITYSDK_OFFSET(0x1CA8F3C0)
+#define HDIAALCMDNG_IEKMDPJDJJD_OFFSET UNITYSDK_OFFSET(0x1CA8ECC0)
+#define HDIAALCMDNG_KIAOJGOIFJK_OFFSET UNITYSDK_OFFSET(0x1CA8EE20)
+#define HDIAALCMDNG_LPEHGMGDCIO_OFFSET UNITYSDK_OFFSET(0x1CA8EDA0)
+
+inline static constexpr unsigned int HDIAALCMDNG_TypeDefinitionIndex = 42567;
+
+	class HDIAALCMDNG
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_CTOR_OFFSET))(this);
+		}
+
+		::NGFHCJIAOLH* IEKMDPJDJJD()
+		{
+			return ((::NGFHCJIAOLH*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_IEKMDPJDJJD_OFFSET))(this);
+		}
+
+		::FAHDGLFOOAK* LPEHGMGDCIO()
+		{
+			return ((::FAHDGLFOOAK*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_LPEHGMGDCIO_OFFSET))(this);
+		}
+
+		::System::Boolean AJLOHJJNMKK()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_AJLOHJJNMKK_OFFSET))(this);
+		}
+
+		::NGFHCJIAOLH* KIAOJGOIFJK(::System::String* a1)
+		{
+			return ((::NGFHCJIAOLH*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDIAALCMDNG_KIAOJGOIFJK_OFFSET))(this, a1);
+		}
+
+		::System::Void AIEAKHKKAJA(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDIAALCMDNG_AIEAKHKKAJA_OFFSET))(this, a1);
+		}
+
+		::System::Void FNDCNEAHGOP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_FNDCNEAHGOP_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetBillBoardMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETBILLBOARDMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetGenericViewAssetMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETGENERICVIEWASSETMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetGenericViewAssetLoadingMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETGENERICVIEWASSETLOADINGMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetGenericViewBridgeMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETGENERICVIEWBRIDGEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetGenericViewLoadCallbackMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETGENERICVIEWLOADCALLBACKMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetGenericViewUnloadCallbackMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETGENERICVIEWUNLOADCALLBACKMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetTransformMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETTRANSFORMMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetStateTreeMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETSTATETREEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::NGFHCJIAOLH*>* GetEntityConfigIDMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::NGFHCJIAOLH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDIAALCMDNG_GETENTITYCONFIGIDMATCHER_OFFSET))(this);
+		}
+
+	};

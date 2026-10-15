@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::IO { class BinaryReader; }
-namespace System::IO { class BinaryWriter; }
-
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessage_TypeDefinitionIndex = 47436;
+	inline static constexpr unsigned int rdtTcpMessage_TypeDefinitionIndex = 46976;
 
 	class rdtTcpMessage
 	{

@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseContactEventSystem_1_TypeDefinitionIndex = 76599;
+	inline static constexpr unsigned int BaseContactEventSystem_1_TypeDefinitionIndex = 77070;
 
 	template <typename T>
 	class BaseContactEventSystem_1 : public ::System::Object

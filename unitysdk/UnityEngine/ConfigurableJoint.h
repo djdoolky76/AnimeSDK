@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/ConfigurableJointMotion.h"
 #include "unitysdk/UnityEngine/Joint.h"
 
-#define UNITYENGINE_CONFIGURABLEJOINT_SET_YMOTION_OFFSET UNITYSDK_OFFSET(0x1E8E4D60)
+#define UNITYENGINE_CONFIGURABLEJOINT_SET_YMOTION_OFFSET UNITYSDK_OFFSET(0x1F455EA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConfigurableJoint_TypeDefinitionIndex = 5315;
+	inline static constexpr unsigned int ConfigurableJoint_TypeDefinitionIndex = 5322;
 
 	class ConfigurableJoint : public ::UnityEngine::Joint
 	{
@@ -16,5 +16,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ConfigurableJointMotion))((::PBYTE)hIl2Cpp + UNITYENGINE_CONFIGURABLEJOINT_SET_YMOTION_OFFSET))(this, a1);
 		}
+
 	};
 }

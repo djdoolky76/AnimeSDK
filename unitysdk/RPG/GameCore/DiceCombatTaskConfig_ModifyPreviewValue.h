@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTaskConfig.h"
 #include "unitysdk/RPG/GameCore/DiceCombatValueOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatTaskConfig_ModifyPreviewValue; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_METHOD_3_52399EB291391AC9_OFFSET UNITYSDK_OFFSET(0x1DB067A0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_METHOD_3_83AFC2CE6CA289F9_OFFSET UNITYSDK_OFFSET(0x1DB06800)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB067F0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E5380)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E5390)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E5330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_ModifyPreviewValue_TypeDefinitionIndex = 15985;
+	inline static constexpr unsigned int DiceCombatTaskConfig_ModifyPreviewValue_TypeDefinitionIndex = 16158;
 
 	class DiceCombatTaskConfig_ModifyPreviewValue : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* Value; // 0x10
 		::RPG::GameCore::DiceCombatValueOperation Operation; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_52399EB291391AC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_METHOD_3_52399EB291391AC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_83AFC2CE6CA289F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_METHOD_3_83AFC2CE6CA289F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_ModifyPreviewValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MODIFYPREVIEWVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

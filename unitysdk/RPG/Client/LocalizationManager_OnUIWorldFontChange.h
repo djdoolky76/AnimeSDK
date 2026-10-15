@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1861C480)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1861C4D0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1861C470)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1861C400)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD4930B0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD493030)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD493100)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD4930A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalizationManager_OnUIWorldFontChange_TypeDefinitionIndex = 61448;
+	inline static constexpr unsigned int LocalizationManager_OnUIWorldFontChange_TypeDefinitionIndex = 61354;
 
 	class LocalizationManager_OnUIWorldFontChange : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

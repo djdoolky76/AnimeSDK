@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetReverse; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETREVERSE_METHOD_3_03858B82214BD0A1_OFFSET UNITYSDK_OFFSET(0x1E1BF120)
-#define RPG_GAMECORE_TARGETREVERSE_METHOD_3_2245CBE33D7FB5BE_OFFSET UNITYSDK_OFFSET(0x1E1BF180)
-#define RPG_GAMECORE_TARGETREVERSE_METHOD_3_9F195BB8308DE9EB_OFFSET UNITYSDK_OFFSET(0x1E1BF1A0)
-#define RPG_GAMECORE_TARGETREVERSE_METHOD_3_A68F969D306BF10C_OFFSET UNITYSDK_OFFSET(0x1E1BF0A0)
-#define RPG_GAMECORE_TARGETREVERSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BF110)
+#define RPG_GAMECORE_TARGETREVERSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB404D0)
+#define RPG_GAMECORE_TARGETREVERSE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB40560)
+#define RPG_GAMECORE_TARGETREVERSE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB40540)
+#define RPG_GAMECORE_TARGETREVERSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB404E0)
+#define RPG_GAMECORE_TARGETREVERSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB40460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetReverse_TypeDefinitionIndex = 23759;
+	inline static constexpr unsigned int TargetReverse_TypeDefinitionIndex = 24034;
 
 	class TargetReverse : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A68F969D306BF10C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetReverse*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetReverse* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetReverse*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_METHOD_3_A68F969D306BF10C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetReverse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_03858B82214BD0A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetReverse* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetReverse* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetReverse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_METHOD_3_03858B82214BD0A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetReverse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2245CBE33D7FB5BE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetReverse*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetReverse* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetReverse*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_METHOD_3_2245CBE33D7FB5BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetReverse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9F195BB8308DE9EB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetReverse* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetReverse* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetReverse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_METHOD_3_9F195BB8308DE9EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetReverse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETREVERSE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

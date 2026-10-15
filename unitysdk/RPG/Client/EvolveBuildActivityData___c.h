@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class EvolveBuildStage; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1993EEB0)
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1993EEF0)
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWMAPPINGINFONEWCONTENTREDDOT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1993F120)
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1993EF00)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE158F0)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE15930)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWMAPPINGINFONEWCONTENTREDDOT_B__4_0_OFFSET UNITYSDK_OFFSET(0xCE15960)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE15940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildActivityData___c_TypeDefinitionIndex = 63847;
+	inline static constexpr unsigned int EvolveBuildActivityData___c_TypeDefinitionIndex = 63785;
 
 	class EvolveBuildActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::EvolveBuildActivityData___c** StaticGet___9()
-		{
-			return (::RPG::Client::EvolveBuildActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildActivityData___c_TypeDefinitionIndex)->GetStaticField(0x64310);
-		}
-		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildActivityData___c_TypeDefinitionIndex)->GetStaticField(0x64318);
-		}
 		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildActivityData___c_TypeDefinitionIndex)->GetStaticField(0x64320);
+			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x429A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x429A8);
+		}
+
+		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x429B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _IsShowNormalRedDot_b__1_0(::RPG::Client::EvolveBuildStage* a1)
@@ -49,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EvolveBuildStage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWMAPPINGINFONEWCONTENTREDDOT_B__4_0_OFFSET))(this, a1);
 		}
+
 	};
 }

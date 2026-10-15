@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/ChimeraTalkConditionType.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class ChimeraGalleryTalkRow; }
 
-#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_CONDITIONTYPE_OFFSET UNITYSDK_OFFSET(0x1B5F9140)
-#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_NUMBEREDTITLE_OFFSET UNITYSDK_OFFSET(0x1B5F8F30)
-#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_SORT_OFFSET UNITYSDK_OFFSET(0x1B5F8C70)
-#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1B5F8E70)
-#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET__ROW_OFFSET UNITYSDK_OFFSET(0x1B5F9150)
-#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F7BB0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xCB42D60)
+#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_CONDITIONTYPE_OFFSET UNITYSDK_OFFSET(0xCB442F0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_NUMBEREDTITLE_OFFSET UNITYSDK_OFFSET(0xCB440E0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_SORT_OFFSET UNITYSDK_OFFSET(0xCB43E20)
+#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xCB44020)
+#define RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET__ROW_OFFSET UNITYSDK_OFFSET(0xCB44300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkGroupEntry_TypeDefinitionIndex = 63490;
+	inline static constexpr unsigned int ChimeraGalleryTalkGroupEntry_TypeDefinitionIndex = 63428;
 
 	class ChimeraGalleryTalkGroupEntry : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ChimeraTalkConditionType _ConditionType_k__BackingField; // 0x10
-
 		::System::Void _ctor(::RPG::GameCore::ChimeraTalkConditionType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraTalkConditionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraTalkConditionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ChimeraTalkConditionType get_ConditionType()
@@ -51,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKGROUPENTRY_GET_SORT_OFFSET))(this);
 		}
+
 	};
 }

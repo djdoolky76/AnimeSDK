@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_DirectorFixedSampleTime_TypeDefinitionIndex = 4581;
+	inline static constexpr unsigned int FixedUpdate_DirectorFixedSampleTime_TypeDefinitionIndex = 4585;
 
-	struct alignas(1) FixedUpdate_DirectorFixedSampleTime
+	struct alignas(4) FixedUpdate_DirectorFixedSampleTime
 	{
 	};
 }

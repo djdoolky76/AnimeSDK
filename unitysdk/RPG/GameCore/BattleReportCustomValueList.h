@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleReportCustomValue; }
+namespace RPG::GameCore { class BattleReportCustomValueList; }
 
-#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST_METHOD_2_F50C8818BE6D2419_OFFSET UNITYSDK_OFFSET(0x1B3053B0)
-#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B305470)
+#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4399B0)
+#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4398F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleReportCustomValueList_TypeDefinitionIndex = 16922;
+	inline static constexpr unsigned int BattleReportCustomValueList_TypeDefinitionIndex = 17117;
 
 	class BattleReportCustomValueList : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::BattleReportCustomValue*>* ReportList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F50C8818BE6D2419(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleReportCustomValueList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleReportCustomValueList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleReportCustomValueList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST_METHOD_2_F50C8818BE6D2419_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleReportCustomValueList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEREPORTCUSTOMVALUELIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

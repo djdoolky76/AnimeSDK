@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::EnvironmentSyetem { class EnviroSysTransitionBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B58A410)
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B58A4E0)
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1B58A4F0)
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58A550)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8EF3E0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EF520)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8EF4B0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_KFCHBNAJAJI_OFFSET UNITYSDK_OFFSET(0xE8EF4C0)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnviroSysTransitionClip_TypeDefinitionIndex = 49099;
+	inline static constexpr unsigned int EnviroSysTransitionClip_TypeDefinitionIndex = 48645;
 
 	class EnviroSysTransitionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::EnvironmentSyetem::EnviroSysTransitionBehaviour* template_; // 0x18
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -38,9 +36,10 @@ namespace RPGTools::Timeline::EnvironmentSyetem
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::System::Void Method_4_4343F372F34C05BF()
+		::System::Void KFCHBNAJAJI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_METHOD_4_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONCLIP_KFCHBNAJAJI_OFFSET))(this);
 		}
+
 	};
 }

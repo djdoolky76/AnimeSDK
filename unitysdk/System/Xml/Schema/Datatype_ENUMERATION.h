@@ -3,8 +3,8 @@
 #include "unitysdk/System/Xml/Schema/Datatype_NMTOKEN.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1BADAD60)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD7120)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE81710)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EE85350)
 
 namespace System::Xml::Schema
 {
@@ -15,12 +15,13 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::XmlTokenizedType get_TokenizedType()
 		{
 			return ((::System::Xml::XmlTokenizedType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_GET_TOKENIZEDTYPE_OFFSET))(this);
 		}
+
 	};
 }

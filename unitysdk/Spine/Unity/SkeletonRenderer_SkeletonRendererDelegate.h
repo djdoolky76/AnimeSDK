@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18335B30)
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18335B60)
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18333990)
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18335A40)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFA930)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFA840)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFA960)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF87A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer_SkeletonRendererDelegate_TypeDefinitionIndex = 43856;
+	inline static constexpr unsigned int SkeletonRenderer_SkeletonRendererDelegate_TypeDefinitionIndex = 45048;
 
 	class SkeletonRenderer_SkeletonRendererDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::SkeletonRenderer* a1)
@@ -38,5 +37,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

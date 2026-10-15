@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/BpChangeReason.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
+namespace RPG::GameCore { class AbilityTeamBoostPointChange; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x11256D80)
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETCHANGETEAM_OFFSET UNITYSDK_OFFSET(0x11256E60)
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x11256EA0)
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x11256E10)
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x11256DD0)
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x112229E0)
-#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x11256EE0)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE533970)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE533AD0)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETCHANGETEAM_OFFSET UNITYSDK_OFFSET(0xE533A50)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xE533A90)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE533A00)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE5339C0)
+#define RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE5338E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityTeamBoostPointChange_TypeDefinitionIndex = 56753;
+	inline static constexpr unsigned int AbilityTeamBoostPointChange_TypeDefinitionIndex = 56573;
 
-	class AbilityTeamBoostPointChange : public ::Class_1_BF7A075734D15E98
+	class AbilityTeamBoostPointChange : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* ModifySourceEntity; // 0x18
-		::RPG::GameCore::FixPoint _ChangeValue; // 0x20
-		::System::UInt32 _SourceEntityRuntimeID; // 0x28
-		::RPG::GameCore::TeamType _ChangeTeam; // 0x2C
+		::RPG::GameCore::TeamType _ChangeTeam; // 0x20
+		::System::UInt32 _SourceEntityRuntimeID; // 0x24
+		::RPG::GameCore::FixPoint _ChangeValue; // 0x28
 		::RPG::GameCore::BpChangeReason Reason; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AbilityTeamBoostPointChange* Init(::System::UInt32 a1, ::RPG::GameCore::TeamType a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::BpChangeReason a4, ::RPG::GameCore::GameEntity* a5)
@@ -63,5 +62,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTEAMBOOSTPOINTCHANGE_GETCHANGEVALUE_OFFSET))(this);
 		}
+
 	};
 }

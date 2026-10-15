@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPG::GameCore { class MiniEmoEffectOverride; }
 namespace RPGTools::Timeline::VFX { class MiniEmotionClip_MiniEmotionOverride; }
 namespace System { class String; }
@@ -12,13 +11,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF32120)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF32110)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF324E0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE948200)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9483A0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9481F0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int MiniEmotionClip_TypeDefinitionIndex = 49112;
+	inline static constexpr unsigned int MiniEmotionClip_TypeDefinitionIndex = 48658;
 
 	class MiniEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -27,15 +26,15 @@ namespace RPGTools::Timeline::VFX
 		::System::String* EffectPath; // 0x20
 		::System::String* UniqueName; // 0x28
 		::System::Boolean DestroyOnClipEnd; // 0x30
+		::System::Byte _padding0[0x7];
 		::System::String* CharacterUniqueName; // 0x38
 		::RPGTools::Timeline::VFX::MiniEmotionClip_MiniEmotionOverride* OverrideData; // 0x40
 		::RPG::GameCore::MiniEmoEffectOverride* ClientOverrideData; // 0x48
 		::UnityEngine::Timeline::TrackAsset* Track; // 0x50
 		::UnityEngine::Timeline::TimelineClip* Clip; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -47,5 +46,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

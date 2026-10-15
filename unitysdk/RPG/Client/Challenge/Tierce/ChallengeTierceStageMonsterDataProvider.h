@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Monster/MonsterDataProviderViewModelBase.h"
-
 namespace RPG::Client { class MonsterData; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETBOSSMONSTERBYSTAGEINDEX_OFFSET UNITYSDK_OFFSET(0x18BEB150)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETCOVERBOSSMONSTER_OFFSET UNITYSDK_OFFSET(0x18BEB300)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETMONSTERWAVESBYSTAGEINDEX_OFFSET UNITYSDK_OFFSET(0x18BEAA00)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETSTAGECOUNT_OFFSET UNITYSDK_OFFSET(0x18BEA9B0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEA9A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xC94D2D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETBOSSMONSTERBYSTAGEINDEX_OFFSET UNITYSDK_OFFSET(0xC94DA80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETCOVERBOSSMONSTER_OFFSET UNITYSDK_OFFSET(0xC94DC30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETMONSTERWAVESBYSTAGEINDEX_OFFSET UNITYSDK_OFFSET(0xC94D330)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETSTAGECOUNT_OFFSET UNITYSDK_OFFSET(0xC94D2E0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_TypeDefinitionIndex = 80245;
+	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_TypeDefinitionIndex = 81573;
 
 	class ChallengeTierceStageMonsterDataProvider : public ::RPG::Client::Monster::MonsterDataProviderViewModelBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MonsterData*>*>* _MonsterBatches; // 0x10
-
 		::System::Void _ctor(::System::Collections::Generic::List_1<::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MonsterData*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MonsterData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MonsterData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetStageCount()
@@ -45,5 +43,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::RPG::Client::MonsterData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_GETCOVERBOSSMONSTER_OFFSET))(this);
 		}
+
 	};
 }

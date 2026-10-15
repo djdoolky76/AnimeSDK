@@ -1,143 +1,145 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FullBody/IKSolver.h"
-
 namespace RPG::Client::FullBody { class FBIKChain; }
 namespace RPG::Client::FullBody { class IKEffector; }
 namespace RPG::Client::FullBody { class IKMappingBone; }
 namespace RPG::Client::FullBody { class IKMappingLimb; }
 namespace RPG::Client::FullBody { class IKMappingSpine; }
-namespace RPG::Client::FullBody { class IKSolver_Class_3_039EC88CFCC653F3_1; }
-namespace RPG::Client::FullBody { class IKSolver_Class_3_50D343C44D28BEFB_11; }
+namespace RPG::Client::FullBody { class IKSolver_GENEMKKJMHE; }
+namespace RPG::Client::FullBody { class IKSolver_MGKFICHLOIH; }
 namespace RPG::Client::FullBody { class IKSolver_Node; }
 namespace RPG::Client::FullBody { class IKSolver_Point; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_021031D9935F927E_OFFSET UNITYSDK_OFFSET(0x1936D280)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_0507EB8022711947_OFFSET UNITYSDK_OFFSET(0x19384640)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_0B7E3489D2C0938B_OFFSET UNITYSDK_OFFSET(0x19385810)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_16975C26AC475304_OFFSET UNITYSDK_OFFSET(0x193799F0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_26F5E793BB51FC71_OFFSET UNITYSDK_OFFSET(0x193843B0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_370B283A2686728C_OFFSET UNITYSDK_OFFSET(0x19378C90)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_388538BD99159606_OFFSET UNITYSDK_OFFSET(0x19384220)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_3BFE3B9EF8374F61_OFFSET UNITYSDK_OFFSET(0x19384CF0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_4805283D59625FD9_OFFSET UNITYSDK_OFFSET(0x19384B20)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_7142D89B39D12AB7_OFFSET UNITYSDK_OFFSET(0x19384330)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_79638E65BEE6EF1F_OFFSET UNITYSDK_OFFSET(0x19378950)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x193849E0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_921C3C3E09D59CD4_OFFSET UNITYSDK_OFFSET(0x19384860)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_9E610EF313D0CC32_OFFSET UNITYSDK_OFFSET(0x19385300)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_A59F33F8CA7F3A80_OFFSET UNITYSDK_OFFSET(0x19385020)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_D1305BC17A89C222_OFFSET UNITYSDK_OFFSET(0x193857A0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x193859B0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_AGHABIKPPNO_OFFSET UNITYSDK_OFFSET(0xD076020)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_BMOMBCHEEEI_OFFSET UNITYSDK_OFFSET(0xD069C80)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CFEMBBNLLDC_OFFSET UNITYSDK_OFFSET(0xD076B40)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CGBAMHBJPBK_OFFSET UNITYSDK_OFFSET(0xD075550)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xD076630)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CTOR_OFFSET UNITYSDK_OFFSET(0xD076CE0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_GKIAMADONGP_OFFSET UNITYSDK_OFFSET(0xD076AD0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_HHDKLKNHIDI_OFFSET UNITYSDK_OFFSET(0xD075660)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_IHGBABEACON_OFFSET UNITYSDK_OFFSET(0xD075E50)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_KKANJACCOGM_OFFSET UNITYSDK_OFFSET(0xD076350)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xD075970)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_KPKDAIGMCHM_OFFSET UNITYSDK_OFFSET(0xD075D10)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_LLNAPPLEBEL_OFFSET UNITYSDK_OFFSET(0xD075B90)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_MBFECCIOMGB_OFFSET UNITYSDK_OFFSET(0xD06AD20)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_OFCHHAPMALA_OFFSET UNITYSDK_OFFSET(0xD069FC0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_OMILLJFFGPC_OFFSET UNITYSDK_OFFSET(0xD0756E0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_PLPKAKNHJEN_OFFSET UNITYSDK_OFFSET(0xD05E650)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolverFullBody_TypeDefinitionIndex = 74161;
+	inline static constexpr unsigned int IKSolverFullBody_TypeDefinitionIndex = 74260;
 
 	class IKSolverFullBody : public ::RPG::Client::FullBody::IKSolver
 	{
 	public:
 		::System::Int32 iterations; // 0x58
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::Client::FullBody::FBIKChain*>* chain; // 0x60
 		::Il2CppArray<::RPG::Client::FullBody::IKEffector*>* effectors; // 0x68
 		::RPG::Client::FullBody::IKMappingSpine* spineMapping; // 0x70
 		::Il2CppArray<::RPG::Client::FullBody::IKMappingBone*>* boneMappings; // 0x78
 		::Il2CppArray<::RPG::Client::FullBody::IKMappingLimb*>* limbMappings; // 0x80
 		::System::Boolean FABRIKPass; // 0x88
-		::RPG::Client::FullBody::IKSolver_Class_3_50D343C44D28BEFB_11* OnPreRead; // 0x90
-		::RPG::Client::FullBody::IKSolver_Class_3_50D343C44D28BEFB_11* OnPreSolve; // 0x98
-		::RPG::Client::FullBody::IKSolver_Class_3_039EC88CFCC653F3_1* OnPreIteration; // 0xA0
-		::RPG::Client::FullBody::IKSolver_Class_3_039EC88CFCC653F3_1* OnPostIteration; // 0xA8
-		::RPG::Client::FullBody::IKSolver_Class_3_50D343C44D28BEFB_11* OnPreBend; // 0xB0
-		::RPG::Client::FullBody::IKSolver_Class_3_50D343C44D28BEFB_11* OnPostSolve; // 0xB8
-		::RPG::Client::FullBody::IKSolver_Class_3_50D343C44D28BEFB_11* OnStoreDefaultLocalState; // 0xC0
-		::RPG::Client::FullBody::IKSolver_Class_3_50D343C44D28BEFB_11* OnFixTransforms; // 0xC8
-
+		::System::Byte _padding1[0x7];
+		::RPG::Client::FullBody::IKSolver_GENEMKKJMHE* OnPreRead; // 0x90
+		::RPG::Client::FullBody::IKSolver_GENEMKKJMHE* OnPreSolve; // 0x98
+		::RPG::Client::FullBody::IKSolver_MGKFICHLOIH* OnPreIteration; // 0xA0
+		::RPG::Client::FullBody::IKSolver_MGKFICHLOIH* OnPostIteration; // 0xA8
+		::RPG::Client::FullBody::IKSolver_GENEMKKJMHE* OnPreBend; // 0xB0
+		::RPG::Client::FullBody::IKSolver_GENEMKKJMHE* OnPostSolve; // 0xB8
+		::RPG::Client::FullBody::IKSolver_GENEMKKJMHE* OnStoreDefaultLocalState; // 0xC0
+		::RPG::Client::FullBody::IKSolver_GENEMKKJMHE* OnFixTransforms; // 0xC8
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::FullBody::IKEffector* Method_2_388538BD99159606(::UnityEngine::Transform* a1)
+		::RPG::Client::FullBody::IKEffector* CGBAMHBJPBK(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::FullBody::IKEffector*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_388538BD99159606_OFFSET))(this, a1);
+			return ((::RPG::Client::FullBody::IKEffector*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CGBAMHBJPBK_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::FullBody::FBIKChain* Method_2_7142D89B39D12AB7(::UnityEngine::Transform* a1)
+		::RPG::Client::FullBody::FBIKChain* HHDKLKNHIDI(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::FullBody::FBIKChain*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_7142D89B39D12AB7_OFFSET))(this, a1);
+			return ((::RPG::Client::FullBody::FBIKChain*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_HHDKLKNHIDI_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Method_2_021031D9935F927E(::UnityEngine::Transform* a1)
+		::System::Int32 PLPKAKNHJEN(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_021031D9935F927E_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_PLPKAKNHJEN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::FullBody::IKSolver_Node* Method_2_16975C26AC475304(::System::Int32 a1, ::System::Int32 a2)
+		::RPG::Client::FullBody::IKSolver_Node* MBFECCIOMGB(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::FullBody::IKSolver_Node*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_16975C26AC475304_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::FullBody::IKSolver_Node*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_MBFECCIOMGB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_370B283A2686728C(::UnityEngine::Transform* a1, ::System::Int32& a2, ::System::Int32& a3)
+		::System::Void OFCHHAPMALA(::UnityEngine::Transform* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_370B283A2686728C_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_OFCHHAPMALA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::RPG::Client::FullBody::IKSolver_Point*>* Method_2_26F5E793BB51FC71()
+		::Il2CppArray<::System::Object*>* OMILLJFFGPC()
 		{
-			return ((::Il2CppArray<::RPG::Client::FullBody::IKSolver_Point*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_26F5E793BB51FC71_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_OMILLJFFGPC_OFFSET))(this);
 		}
 
-		::RPG::Client::FullBody::IKSolver_Point* Method_2_79638E65BEE6EF1F(::UnityEngine::Transform* a1)
+		::RPG::Client::FullBody::IKSolver_Point* BMOMBCHEEEI(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::FullBody::IKSolver_Point*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_79638E65BEE6EF1F_OFFSET))(this, a1);
+			return ((::RPG::Client::FullBody::IKSolver_Point*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_BMOMBCHEEEI_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_2_0507EB8022711947(::System::String*& a1)
+		::System::Boolean KKKIONIDKFA(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_0507EB8022711947_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_KKKIONIDKFA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_921C3C3E09D59CD4()
+		::System::Void LLNAPPLEBEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_921C3C3E09D59CD4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_LLNAPPLEBEL_OFFSET))(this);
 		}
 
-		::System::Void Method_2_84B92802FDAFF6C8()
+		::System::Void KPKDAIGMCHM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_84B92802FDAFF6C8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_KPKDAIGMCHM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_4805283D59625FD9()
+		::System::Void IHGBABEACON()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_4805283D59625FD9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_IHGBABEACON_OFFSET))(this);
 		}
 
-		::System::Void Method_2_3BFE3B9EF8374F61()
+		::System::Void AGHABIKPPNO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_3BFE3B9EF8374F61_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_AGHABIKPPNO_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A59F33F8CA7F3A80()
+		::System::Void KKANJACCOGM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_A59F33F8CA7F3A80_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_KKANJACCOGM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_9E610EF313D0CC32()
+		::System::Void CIJDJDICMMM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_9E610EF313D0CC32_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CIJDJDICMMM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_D1305BC17A89C222()
+		::System::Void GKIAMADONGP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_D1305BC17A89C222_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_GKIAMADONGP_OFFSET))(this);
 		}
 
-		::System::Void Method_2_0B7E3489D2C0938B()
+		::System::Void CFEMBBNLLDC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_METHOD_2_0B7E3489D2C0938B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERFULLBODY_CFEMBBNLLDC_OFFSET))(this);
 		}
+
 	};
 }

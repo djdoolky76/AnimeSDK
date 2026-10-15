@@ -2,23 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_AUTODESTROY_START_OFFSET UNITYSDK_OFFSET(0x193B53B0)
-#define RPG_CLIENT_AUTODESTROY_UPDATE_OFFSET UNITYSDK_OFFSET(0x193B5400)
-#define RPG_CLIENT_AUTODESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0x193B5490)
+#define RPG_CLIENT_AUTODESTROY_CTOR_OFFSET UNITYSDK_OFFSET(0xC6BFC40)
+#define RPG_CLIENT_AUTODESTROY_START_OFFSET UNITYSDK_OFFSET(0xC6BFB60)
+#define RPG_CLIENT_AUTODESTROY_UPDATE_OFFSET UNITYSDK_OFFSET(0xC6BFBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoDestroy_TypeDefinitionIndex = 68287;
+	inline static constexpr unsigned int AutoDestroy_TypeDefinitionIndex = 68318;
 
 	class AutoDestroy : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single _LifeTime; // 0x18
 		::System::Single GJKFLKDBCCC; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTODESTROY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTODESTROY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -30,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUTODESTROY_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Cinemachine { class CinemachineBrain; }
 namespace RPG::Client { class MonoExUICamera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ACD6BC0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_INIT_OFFSET UNITYSDK_OFFSET(0x1ACD69D0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ACD6CC0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET UNITYSDK_OFFSET(0x1ACD70F0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD71D0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0x1ACD6D10)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xD823C10)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD823600)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_INIT_OFFSET UNITYSDK_OFFSET(0xD823410)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD823700)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET UNITYSDK_OFFSET(0xD823B30)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0xD823750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICamera2DRetarget_TypeDefinitionIndex = 72901;
+	inline static constexpr unsigned int MonoExUICamera2DRetarget_TypeDefinitionIndex = 72984;
 
 	class MonoExUICamera2DRetarget : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,10 +25,9 @@ namespace RPG::Client
 		::System::Single _2DContentMinScale; // 0x28
 		::System::Single _2DContentMaxScale; // 0x2C
 		::UnityEngine::Transform* _AnchorPoint; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::Client::MonoExUICamera* a1, ::UnityEngine::RectTransform* a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Transform* a5)
@@ -56,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

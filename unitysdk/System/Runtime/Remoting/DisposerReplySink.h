@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class IDisposable; }
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C46C7F0)
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C46C5D0)
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46C5C0)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2AF050)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AEE20)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2AEE30)
 
 namespace System::Runtime::Remoting
 {
@@ -20,10 +19,9 @@ namespace System::Runtime::Remoting
 	public:
 		::System::Runtime::Remoting::Messaging::IMessageSink* _next; // 0x10
 		::System::IDisposable* _disposable; // 0x18
-
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* a1, ::System::IDisposable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessageSink*, ::System::IDisposable*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessageSink*, ::System::IDisposable*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1)
@@ -35,5 +33,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::Runtime::Remoting::Messaging::IMessageCtrl*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,35 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SummonUnitChildEffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_METHOD_2_5141F28796E81DBC_OFFSET UNITYSDK_OFFSET(0x1CB12BC0)
-#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB12E40)
+#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0E490)
+#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0E090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitChildEffectConfig_TypeDefinitionIndex = 20820;
+	inline static constexpr unsigned int SummonUnitChildEffectConfig_TypeDefinitionIndex = 21058;
 
 	class SummonUnitChildEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* EffectPath; // 0x10
 		::System::Boolean FollowTargetAlways; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* AttachPoint; // 0x20
 		::RPG::MVector3 PositionOffset; // 0x28
 		::RPG::MVector3 RotationOffset; // 0x34
 		::RPG::MVector3 Scale; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5141F28796E81DBC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitChildEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SummonUnitChildEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitChildEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_METHOD_2_5141F28796E81DBC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SummonUnitChildEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

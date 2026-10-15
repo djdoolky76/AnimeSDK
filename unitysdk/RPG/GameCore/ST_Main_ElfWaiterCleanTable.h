@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Main_ElfWaiterCleanTable; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_METHOD_4_1D97BAE459611154_OFFSET UNITYSDK_OFFSET(0x1DB3C340)
-#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_METHOD_4_24E432A557588A91_OFFSET UNITYSDK_OFFSET(0x1DB3C270)
-#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3C330)
+#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4FA90)
+#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA4FAA0)
+#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4F9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_ElfWaiterCleanTable_TypeDefinitionIndex = 21275;
+	inline static constexpr unsigned int ST_Main_ElfWaiterCleanTable_TypeDefinitionIndex = 21521;
 
 	class ST_Main_ElfWaiterCleanTable : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_24E432A557588A91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_METHOD_4_24E432A557588A91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1D97BAE459611154(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_METHOD_4_1D97BAE459611154_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANTABLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

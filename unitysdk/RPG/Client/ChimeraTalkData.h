@@ -2,44 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class ChimeraTalkContent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERATALKDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x1B611560)
-#define RPG_CLIENT_CHIMERATALKDATA_GET_EMOJIPATH_OFFSET UNITYSDK_OFFSET(0x1B6115A0)
-#define RPG_CLIENT_CHIMERATALKDATA_GET_EVPATH_OFFSET UNITYSDK_OFFSET(0x1B6115E0)
-#define RPG_CLIENT_CHIMERATALKDATA_GET_ISEMOJI_OFFSET UNITYSDK_OFFSET(0x1B611580)
-#define RPG_CLIENT_CHIMERATALKDATA_GET_TALKCONTENT_OFFSET UNITYSDK_OFFSET(0x1B6115C0)
-#define RPG_CLIENT_CHIMERATALKDATA_SET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x1B611570)
-#define RPG_CLIENT_CHIMERATALKDATA_SET_EMOJIPATH_OFFSET UNITYSDK_OFFSET(0x1B6115B0)
-#define RPG_CLIENT_CHIMERATALKDATA_SET_EVPATH_OFFSET UNITYSDK_OFFSET(0x1B6115F0)
-#define RPG_CLIENT_CHIMERATALKDATA_SET_ISEMOJI_OFFSET UNITYSDK_OFFSET(0x1B611590)
-#define RPG_CLIENT_CHIMERATALKDATA_SET_TALKCONTENT_OFFSET UNITYSDK_OFFSET(0x1B6115D0)
-#define RPG_CLIENT_CHIMERATALKDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B602F80)
-#define RPG_CLIENT_CHIMERATALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B602F60)
+#define RPG_CLIENT_CHIMERATALKDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0xCB4E090)
+#define RPG_CLIENT_CHIMERATALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4E070)
+#define RPG_CLIENT_CHIMERATALKDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xCB5C650)
+#define RPG_CLIENT_CHIMERATALKDATA_GET_EMOJIPATH_OFFSET UNITYSDK_OFFSET(0xCB5C690)
+#define RPG_CLIENT_CHIMERATALKDATA_GET_EVPATH_OFFSET UNITYSDK_OFFSET(0xCB5C6D0)
+#define RPG_CLIENT_CHIMERATALKDATA_GET_ISEMOJI_OFFSET UNITYSDK_OFFSET(0xCB5C670)
+#define RPG_CLIENT_CHIMERATALKDATA_GET_TALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCB5C6B0)
+#define RPG_CLIENT_CHIMERATALKDATA_SET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xCB5C660)
+#define RPG_CLIENT_CHIMERATALKDATA_SET_EMOJIPATH_OFFSET UNITYSDK_OFFSET(0xCB5C6A0)
+#define RPG_CLIENT_CHIMERATALKDATA_SET_EVPATH_OFFSET UNITYSDK_OFFSET(0xCB5C6E0)
+#define RPG_CLIENT_CHIMERATALKDATA_SET_ISEMOJI_OFFSET UNITYSDK_OFFSET(0xCB5C680)
+#define RPG_CLIENT_CHIMERATALKDATA_SET_TALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCB5C6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTalkData_TypeDefinitionIndex = 63562;
+	inline static constexpr unsigned int ChimeraTalkData_TypeDefinitionIndex = 63500;
 
 	class ChimeraTalkData : public ::System::Object
 	{
 	public:
-		::System::String* _EmojiPath_k__BackingField; // 0x10
-		::System::String* _EvPath_k__BackingField; // 0x18
+		::System::String* _EvPath_k__BackingField; // 0x10
+		::System::String* _EmojiPath_k__BackingField; // 0x18
 		::RPG::Client::TextID _TalkContent_k__BackingField; // 0x20
 		::System::Boolean _IsEmoji_k__BackingField; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::UInt32 _ChimeraID_k__BackingField; // 0x34
-
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::ChimeraTalkContent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChimeraTalkContent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChimeraTalkContent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKDATA__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKDATA_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 get_ChimeraID()
@@ -91,5 +90,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKDATA_SET_EVPATH_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddReShaReactProp; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDRESHAREACTPROP_METHOD_3_6FC47CF8DDBD1F9C_OFFSET UNITYSDK_OFFSET(0x1D6A43A0)
-#define RPG_GAMECORE_ADDRESHAREACTPROP_METHOD_3_74D7B50FA42428B4_OFFSET UNITYSDK_OFFSET(0x1D6A4420)
-#define RPG_GAMECORE_ADDRESHAREACTPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A43F0)
+#define RPG_GAMECORE_ADDRESHAREACTPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35D6C0)
+#define RPG_GAMECORE_ADDRESHAREACTPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35D6F0)
+#define RPG_GAMECORE_ADDRESHAREACTPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35D670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddReShaReactProp_TypeDefinitionIndex = 21785;
+	inline static constexpr unsigned int AddReShaReactProp_TypeDefinitionIndex = 22033;
 
 	class AddReShaReactProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAREACTPROP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAREACTPROP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6FC47CF8DDBD1F9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddReShaReactProp*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddReShaReactProp* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddReShaReactProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAREACTPROP_METHOD_3_6FC47CF8DDBD1F9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddReShaReactProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAREACTPROP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_74D7B50FA42428B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddReShaReactProp* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddReShaReactProp* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddReShaReactProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAREACTPROP_METHOD_3_74D7B50FA42428B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddReShaReactProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAREACTPROP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

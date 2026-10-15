@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTaskConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameAbility_FireProjectileCast; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_METHOD_4_2A733A8E5A7D6A1E_OFFSET UNITYSDK_OFFSET(0x1D315850)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_METHOD_4_84261CD49F75E1DC_OFFSET UNITYSDK_OFFSET(0x1D315890)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D315880)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FE460)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2FE470)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FE430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_FireProjectileCast_TypeDefinitionIndex = 10276;
+	inline static constexpr unsigned int RoadRashGameAbility_FireProjectileCast_TypeDefinitionIndex = 10290;
 
 	class RoadRashGameAbility_FireProjectileCast : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
@@ -22,20 +22,20 @@ namespace RPG::Client
 		::System::String* LV2ToggleName; // 0x28
 		::RPG::GameCore::FixPoint Lv2MaxTargetCount; // 0x30
 		::System::String* CurrentLevelAttributeName; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2A733A8E5A7D6A1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbility_FireProjectileCast*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbility_FireProjectileCast* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbility_FireProjectileCast*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_METHOD_4_2A733A8E5A7D6A1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbility_FireProjectileCast*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_84261CD49F75E1DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbility_FireProjectileCast* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbility_FireProjectileCast* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbility_FireProjectileCast*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_METHOD_4_84261CD49F75E1DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbility_FireProjectileCast*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILECAST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

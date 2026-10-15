@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
+namespace System::Security::Cryptography { class SHA256; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256_CREATE_OFFSET UNITYSDK_OFFSET(0x166C41E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256__CTOR_OFFSET UNITYSDK_OFFSET(0x166C41D0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256_CREATE_OFFSET UNITYSDK_OFFSET(0x1C0B0070)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0B0060)
 
 namespace System::Security::Cryptography
 {
@@ -14,12 +15,13 @@ namespace System::Security::Cryptography
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Security::Cryptography::SHA256* Create()
 		{
 			return ((::System::Security::Cryptography::SHA256*(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA256_CREATE_OFFSET))();
 		}
+
 	};
 }

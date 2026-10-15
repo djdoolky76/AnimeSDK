@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Concat_3_TypeDefinitionIndex = 6108;
+	inline static constexpr unsigned int Concat_3_TypeDefinitionIndex = 6116;
 
-	template <typename TEnumerator1, typename TEnumerator2, typename TSource>
-	struct Concat_3
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) Concat_3
 	{
-		TEnumerator1 first; // 0x0
-		TEnumerator2 second; // 0x0
+		T1 first; // 0x0
+		T2 second; // 0x0
 		::System::Boolean firstCompleted; // 0x0
 	};
 }

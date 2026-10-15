@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeParse_TM.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class DateTimeParse_MatchNumberDelegate; }
 namespace System::Globalization { class Calendar; }
 
-#define SYSTEM_PARSINGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x3BB1EE0)
+#define SYSTEM_PARSINGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x3C236A0)
 
 namespace System
 {
@@ -22,11 +20,12 @@ namespace System
 		::System::Boolean fAllowInnerWhite; // 0x22
 		::System::Boolean fAllowTrailingWhite; // 0x23
 		::System::Boolean fCustomNumberParser; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::DateTimeParse_MatchNumberDelegate* parseNumberDelegate; // 0x28
-
 		::System::Void Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARSINGINFO_INIT_OFFSET))(this);
 		}
+
 	};
 }

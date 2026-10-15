@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class StackSkillDesc; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define FBINCDIACGP_CTOR_OFFSET UNITYSDK_OFFSET(0x15695170)
+#define FBINCDIACGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156951A0)
+
+inline static constexpr unsigned int FBINCDIACGP_TypeDefinitionIndex = 55651;
+
+	class FBINCDIACGP
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackSkillDesc* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackSkillDesc*))((::PBYTE)hIl2Cpp + FBINCDIACGP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBINCDIACGP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

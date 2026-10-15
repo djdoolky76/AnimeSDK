@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_ITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197FAFD0)
+#define SUPERSCROLLVIEW_ITEMPREFABCONFDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE996210)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ItemPrefabConfData_TypeDefinitionIndex = 48121;
+	inline static constexpr unsigned int ItemPrefabConfData_TypeDefinitionIndex = 47661;
 
 	class ItemPrefabConfData : public ::System::Object
 	{
@@ -19,10 +18,10 @@ namespace SuperScrollView
 		::System::Single mStartPosOffset; // 0x20
 		::System::Single RedefineHeight; // 0x24
 		::System::Single RedefineWidth; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ITEMPREFABCONFDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ITEMPREFABCONFDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

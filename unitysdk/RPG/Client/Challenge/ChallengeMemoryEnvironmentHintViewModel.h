@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Challenge/ChallengeEnvironmentHintViewModelBase.h"
-
 namespace RPG::Client { class ChallengeInstance; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEMEMORYENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C860090)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEMEMORYENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC937040)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeMemoryEnvironmentHintViewModel_TypeDefinitionIndex = 80103;
+	inline static constexpr unsigned int ChallengeMemoryEnvironmentHintViewModel_TypeDefinitionIndex = 81431;
 
 	class ChallengeMemoryEnvironmentHintViewModel : public ::RPG::Client::Challenge::ChallengeEnvironmentHintViewModelBase
 	{
 	public:
 		::System::Void _ctor(::RPG::Client::ChallengeInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEMEMORYENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEMEMORYENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

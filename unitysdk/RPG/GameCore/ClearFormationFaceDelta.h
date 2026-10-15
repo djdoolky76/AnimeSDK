@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClearFormationFaceDelta; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARFORMATIONFACEDELTA_METHOD_3_4E74BA0020C53D2D_OFFSET UNITYSDK_OFFSET(0x1E347E40)
-#define RPG_GAMECORE_CLEARFORMATIONFACEDELTA_METHOD_3_BB64BB56ED7E78F8_OFFSET UNITYSDK_OFFSET(0x1E347E80)
-#define RPG_GAMECORE_CLEARFORMATIONFACEDELTA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E347E70)
+#define RPG_GAMECORE_CLEARFORMATIONFACEDELTA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D588A20)
+#define RPG_GAMECORE_CLEARFORMATIONFACEDELTA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D588A30)
+#define RPG_GAMECORE_CLEARFORMATIONFACEDELTA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5889F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearFormationFaceDelta_TypeDefinitionIndex = 23124;
+	inline static constexpr unsigned int ClearFormationFaceDelta_TypeDefinitionIndex = 23389;
 
 	class ClearFormationFaceDelta : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsReset; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::TargetEvaluator* PerformerType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARFORMATIONFACEDELTA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARFORMATIONFACEDELTA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E74BA0020C53D2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearFormationFaceDelta*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearFormationFaceDelta* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearFormationFaceDelta*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARFORMATIONFACEDELTA_METHOD_3_4E74BA0020C53D2D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearFormationFaceDelta*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARFORMATIONFACEDELTA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BB64BB56ED7E78F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearFormationFaceDelta* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearFormationFaceDelta* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearFormationFaceDelta*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARFORMATIONFACEDELTA_METHOD_3_BB64BB56ED7E78F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearFormationFaceDelta*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARFORMATIONFACEDELTA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

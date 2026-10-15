@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CRPPostprocessSubPass2.h"
-
 namespace RPG::CustomRP { class GaussianFilterKernel; }
 namespace RPG::CustomRP { class MaterialLibrary; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1859EFF0)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1859F0B0)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1859EF20)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC27F00)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC27FD0)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC28090)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGGaussianBlurRenderer_TypeDefinitionIndex = 37130;
+	inline static constexpr unsigned int RPGGaussianBlurRenderer_TypeDefinitionIndex = 37816;
 
 	class RPGGaussianBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
@@ -22,13 +21,12 @@ namespace RPG::CustomRP
 		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x28
 		::RPG::CustomRP::GaussianFilterKernel* _GaussianFilterKernel; // 0x30
 		::UnityEngine::Material* _Uber; // 0x38
-		::System::Int32 _GlobalGaussianBlurTex0; // 0x40
-		::System::Int32 _LightenTex; // 0x44
+		::System::Int32 _LightenTex; // 0x40
+		::System::Int32 _GlobalGaussianBlurTex0; // 0x44
 		::System::Int32 _GlobalGaussianBlurTex1; // 0x48
-
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1, ::UnityEngine::MaterialPropertyBlock* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* a1)
@@ -40,5 +38,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
+
 	};
 }

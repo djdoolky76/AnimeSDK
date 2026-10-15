@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GroupInitMemberEntityDynamicValues; }
 namespace RPG::GameCore { class SubLevelGraphDynamicOverrideSet; }
 
-#define RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_METHOD_3_AED621599B58995E_OFFSET UNITYSDK_OFFSET(0x1D3C28F0)
-#define RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_METHOD_3_EED64CC451E37AFD_OFFSET UNITYSDK_OFFSET(0x1D3C28B0)
-#define RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C28E0)
+#define RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71D910)
+#define RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D71D920)
+#define RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71D8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupInitMemberEntityDynamicValues_TypeDefinitionIndex = 20498;
+	inline static constexpr unsigned int GroupInitMemberEntityDynamicValues_TypeDefinitionIndex = 20737;
 
 	class GroupInitMemberEntityDynamicValues : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 EntityInstanceID; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::SubLevelGraphDynamicOverrideSet* InitDynamicValueSet; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EED64CC451E37AFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupInitMemberEntityDynamicValues*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GroupInitMemberEntityDynamicValues* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupInitMemberEntityDynamicValues*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_METHOD_3_EED64CC451E37AFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GroupInitMemberEntityDynamicValues*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AED621599B58995E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupInitMemberEntityDynamicValues* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GroupInitMemberEntityDynamicValues* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupInitMemberEntityDynamicValues*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_METHOD_3_AED621599B58995E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GroupInitMemberEntityDynamicValues*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPINITMEMBERENTITYDYNAMICVALUES_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

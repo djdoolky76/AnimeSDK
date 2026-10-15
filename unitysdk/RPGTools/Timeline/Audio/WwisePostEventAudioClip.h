@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D128D90)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D128D50)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D128F20)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8A9600)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A9790)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8A95C0)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwisePostEventAudioClip_TypeDefinitionIndex = 49305;
+	inline static constexpr unsigned int WwisePostEventAudioClip_TypeDefinitionIndex = 48859;
 
 	class WwisePostEventAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* EventName; // 0x18
 		::System::Boolean IsLoop; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -36,5 +34,6 @@ namespace RPGTools::Timeline::Audio
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEPOSTEVENTAUDIOCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

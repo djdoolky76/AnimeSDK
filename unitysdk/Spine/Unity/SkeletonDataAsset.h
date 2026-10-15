@@ -1,57 +1,59 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace Spine { class AnimationStateData; }
 namespace Spine { class Atlas; }
 namespace Spine { class AttachmentLoader; }
 namespace Spine { class SkeletonData; }
 namespace Spine::Unity { class AtlasAssetBase; }
 namespace Spine::Unity { class BlendModeMaterials; }
+namespace Spine::Unity { class SkeletonDataAsset; }
 namespace Spine::Unity { class SkeletonDataModifierAsset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 namespace UnityEngine { class TextAsset; }
 
-#define SPINE_UNITY_SKELETONDATAASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x183201D0)
-#define SPINE_UNITY_SKELETONDATAASSET_CREATERUNTIMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x183202F0)
-#define SPINE_UNITY_SKELETONDATAASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x183201E0)
-#define SPINE_UNITY_SKELETONDATAASSET_FILLSTATEDATA_OFFSET UNITYSDK_OFFSET(0x18320A30)
-#define SPINE_UNITY_SKELETONDATAASSET_GETANIMATIONSTATEDATA_OFFSET UNITYSDK_OFFSET(0x1831F920)
-#define SPINE_UNITY_SKELETONDATAASSET_GETATLASARRAY_OFFSET UNITYSDK_OFFSET(0x18320390)
-#define SPINE_UNITY_SKELETONDATAASSET_GETSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x183056A0)
-#define SPINE_UNITY_SKELETONDATAASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x183201B0)
-#define SPINE_UNITY_SKELETONDATAASSET_INITIALIZEWITHDATA_OFFSET UNITYSDK_OFFSET(0x183209F0)
-#define SPINE_UNITY_SKELETONDATAASSET_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x18320860)
-#define SPINE_UNITY_SKELETONDATAASSET_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x18320600)
-#define SPINE_UNITY_SKELETONDATAASSET_RESET_OFFSET UNITYSDK_OFFSET(0x183201C0)
-#define SPINE_UNITY_SKELETONDATAASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18320B20)
+#define SPINE_UNITY_SKELETONDATAASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ECE52E0)
+#define SPINE_UNITY_SKELETONDATAASSET_CREATERUNTIMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1ECE5400)
+#define SPINE_UNITY_SKELETONDATAASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1ECE52F0)
+#define SPINE_UNITY_SKELETONDATAASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE5C30)
+#define SPINE_UNITY_SKELETONDATAASSET_FILLSTATEDATA_OFFSET UNITYSDK_OFFSET(0x1ECE5B40)
+#define SPINE_UNITY_SKELETONDATAASSET_GETANIMATIONSTATEDATA_OFFSET UNITYSDK_OFFSET(0x1ECE4A30)
+#define SPINE_UNITY_SKELETONDATAASSET_GETATLASARRAY_OFFSET UNITYSDK_OFFSET(0x1ECE54A0)
+#define SPINE_UNITY_SKELETONDATAASSET_GETSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1ECCA6B0)
+#define SPINE_UNITY_SKELETONDATAASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1ECE52C0)
+#define SPINE_UNITY_SKELETONDATAASSET_INITIALIZEWITHDATA_OFFSET UNITYSDK_OFFSET(0x1ECE5B00)
+#define SPINE_UNITY_SKELETONDATAASSET_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x1ECE5970)
+#define SPINE_UNITY_SKELETONDATAASSET_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1ECE5710)
+#define SPINE_UNITY_SKELETONDATAASSET_RESET_OFFSET UNITYSDK_OFFSET(0x1ECE52D0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataAsset_TypeDefinitionIndex = 43810;
+	inline static constexpr unsigned int SkeletonDataAsset_TypeDefinitionIndex = 45002;
 
 	class SkeletonDataAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::Il2CppArray<::Spine::Unity::AtlasAssetBase*>* atlasAssets; // 0x18
 		::System::Single scale; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::TextAsset* skeletonJSON; // 0x28
 		::System::Boolean isUpgradingBlendModeMaterials; // 0x30
+		::System::Byte _padding1[0x7];
 		::Spine::Unity::BlendModeMaterials* blendModeMaterials; // 0x38
 		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonDataModifierAsset*>* skeletonDataModifiers; // 0x40
 		::Il2CppArray<::System::String*>* fromAnimation; // 0x48
 		::Il2CppArray<::System::String*>* toAnimation; // 0x50
 		::Il2CppArray<::System::Single>* duration; // 0x58
 		::System::Single defaultMix; // 0x60
+		::System::Byte _padding2[0x4];
 		::UnityEngine::RuntimeAnimatorController* controller; // 0x68
 		::Spine::SkeletonData* skeletonData; // 0x70
 		::Spine::AnimationStateData* stateData; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONDATAASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONDATAASSET_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsLoaded()
@@ -113,5 +115,6 @@ namespace Spine::Unity
 		{
 			return ((::Spine::SkeletonData*(*)(::System::String*, ::Spine::AttachmentLoader*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONDATAASSET_READSKELETONDATA_1_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

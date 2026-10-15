@@ -1,45 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class PayLimitTipsDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x18785E90)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_CLICKNOTTIPSTOGGLE_OFFSET UNITYSDK_OFFSET(0x18786C40)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_CLOSE_OFFSET UNITYSDK_OFFSET(0x18786A90)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x18785E20)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18786C60)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x18785CA0)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_SUBMIT_OFFSET UNITYSDK_OFFSET(0x18786B20)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x18786500)
-#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x18786C80)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDA5460)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_CLICKNOTTIPSTOGGLE_OFFSET UNITYSDK_OFFSET(0x1BDA6210)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BDA6060)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA6250)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDA53F0)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDA6230)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDA5270)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BDA60F0)
+#define MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BDA5AD0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayLimitTipsDialog_TypeDefinitionIndex = 9500;
+	inline static constexpr unsigned int PayLimitTipsDialog_TypeDefinitionIndex = 9558;
 
 	class PayLimitTipsDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::PayLimitTipsDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::PayLimitTipsDialog**)Il2CppClass::FromTypeDefinitionIndex(PayLimitTipsDialog_TypeDefinitionIndex)->GetStaticField(0x285B0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* DialogPath; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* ContentTextPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* ButtonTextPath; // 0x0
-		// static const ::System::String* TodayNotTipsPath; // 0x0
-		// static const ::System::String* TodayNotTipsTogglePath; // 0x0
-		// static const ::System::String* TodayNotTipsTextPath; // 0x0
 		::System::Action* OnSubmit; // 0x58
 		::System::Action* OnClose; // 0x60
 		::System::Action_1<::System::Boolean>* OnToggle; // 0x68
@@ -53,10 +39,23 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::GameObject* notTipsObject; // 0xA8
 		::System::Int32 noticeAmount; // 0xB0
 		::System::Boolean bShowNotTips; // 0xB4
+		static ::MiHoYo::SDK::Win::PayLimitTipsDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::PayLimitTipsDialog**)UnitySDK::FromName("MiHoYo.SDK.Win", "PayLimitTipsDialog")->GetStaticField(0x2CBC0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* DialogPath; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* ContentTextPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* ButtonTextPath; // 0x0
+		// static const ::System::String* TodayNotTipsPath; // 0x0
+		// static const ::System::String* TodayNotTipsTogglePath; // 0x0
+		// static const ::System::String* TodayNotTipsTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::Int32 a1, ::System::Boolean a2)
@@ -98,5 +97,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYLIMITTIPSDIALOG_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,21 +3,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_JIGSAWCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194F4660)
+#define RPG_CLIENT_JIGSAWCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD384BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int JigsawCommonConfig_TypeDefinitionIndex = 60180;
+	inline static constexpr unsigned int JigsawCommonConfig_TypeDefinitionIndex = 60043;
 
 	class JigsawCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::UnityEngine::AnimationCurve* ScaleAnimCurve; // 0x18
 		::System::Single ScaleAnimDuration; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* RoationAnimCurve; // 0x28
 		::System::Single RotationAnimDuration; // 0x30
 		::System::Single AbsorbMoveToDuration; // 0x34
@@ -55,10 +55,10 @@ namespace RPG::Client
 		::System::String* EvJigsawItemDropRight; // 0x128
 		::System::String* EvJigsawItemRotate; // 0x130
 		::System::String* EvJigsawFrameDissolve; // 0x138
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWCOMMONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWCOMMONCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

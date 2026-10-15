@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_TUPLEELEMENTNAMESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C457120)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_TUPLEELEMENTNAMESATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C299B30)
 
 namespace System::Runtime::CompilerServices
 {
@@ -14,10 +13,10 @@ namespace System::Runtime::CompilerServices
 	{
 	public:
 		::Il2CppArray<::System::String*>* _transformNames; // 0x10
-
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_TUPLEELEMENTNAMESATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_TUPLEELEMENTNAMESATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

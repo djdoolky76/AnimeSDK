@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class FCAFLGBOMFN;
+class HLMIJOKOPBN;
+class ODPGEKCDNCJ;
+namespace RPG::Client { class BattleShowUIPageParam; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class Coroutine; }
+
+#define HLMIJOKOPBN_BDJAMKKKPPA_OFFSET UNITYSDK_OFFSET(0x15D593C0)
+#define HLMIJOKOPBN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D58FC0)
+#define HLMIJOKOPBN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D59090)
+#define HLMIJOKOPBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D590A0)
+#define HLMIJOKOPBN_GET_PARAM_OFFSET UNITYSDK_OFFSET(0x15D59420)
+#define HLMIJOKOPBN_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15D59440)
+#define HLMIJOKOPBN_JGEDDJPLILF_OFFSET UNITYSDK_OFFSET(0x15D59170)
+#define HLMIJOKOPBN_LDGNLJGOMBL_OFFSET UNITYSDK_OFFSET(0x15D59290)
+#define HLMIJOKOPBN_OCCIFHOEJMI_OFFSET UNITYSDK_OFFSET(0x15D591D0)
+#define HLMIJOKOPBN_ONJICMEONGF_OFFSET UNITYSDK_OFFSET(0x15D59230)
+#define HLMIJOKOPBN_SET_PARAM_OFFSET UNITYSDK_OFFSET(0x15D59430)
+#define HLMIJOKOPBN_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15D59450)
+
+inline static constexpr unsigned int HLMIJOKOPBN_TypeDefinitionIndex = 71697;
+
+	class HLMIJOKOPBN : public ::System::Object
+	{
+	public:
+		::System::Action_1<::System::String*>* JFKMKCIPIGI; // 0x10
+		::UnityEngine::Coroutine* CGAEACAKGMP; // 0x18
+		::System::String* _UniqueName_k__BackingField; // 0x20
+		::System::Action_1<::FCAFLGBOMFN*>* OPHEBAAKIHB; // 0x28
+		::System::Action_1<::FCAFLGBOMFN*>* JLBLEBFNIIM; // 0x30
+		::RPG::Client::BattleShowUIPageParam* _Param_k__BackingField; // 0x38
+		::System::Single HIMIAAEICFA; // 0x40
+		// static const ::System::Object FOPMNAAAIDC; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_CTOR_OFFSET))(this);
+		}
+
+		static ::HLMIJOKOPBN* BPLPBPMEODA(::ODPGEKCDNCJ* a1, ::System::Action_1<::FCAFLGBOMFN*>* a2, ::System::Action_1<::FCAFLGBOMFN*>* a3, ::System::Action_1<::System::String*>* a4)
+		{
+			return ((::HLMIJOKOPBN*(*)(::ODPGEKCDNCJ*, ::System::Action_1<::FCAFLGBOMFN*>*, ::System::Action_1<::FCAFLGBOMFN*>*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_BPLPBPMEODA_OFFSET))(a1, a2, a3, a4);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void ONJICMEONGF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_ONJICMEONGF_OFFSET))(this);
+		}
+
+		::System::Void LDGNLJGOMBL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_LDGNLJGOMBL_OFFSET))(this);
+		}
+
+		::System::Void JGEDDJPLILF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_JGEDDJPLILF_OFFSET))(this);
+		}
+
+		::System::Void BDJAMKKKPPA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_BDJAMKKKPPA_OFFSET))(this);
+		}
+
+		::System::Void OCCIFHOEJMI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_OCCIFHOEJMI_OFFSET))(this);
+		}
+
+		::RPG::Client::BattleShowUIPageParam* get_Param()
+		{
+			return ((::RPG::Client::BattleShowUIPageParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_GET_PARAM_OFFSET))(this);
+		}
+
+		::System::Void set_Param(::RPG::Client::BattleShowUIPageParam* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleShowUIPageParam*))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_SET_PARAM_OFFSET))(this, a1);
+		}
+
+		::System::String* get_UniqueName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_GET_UNIQUENAME_OFFSET))(this);
+		}
+
+		::System::Void set_UniqueName(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_SET_UNIQUENAME_OFFSET))(this, a1);
+		}
+
+	};

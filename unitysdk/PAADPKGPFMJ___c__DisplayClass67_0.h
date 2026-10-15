@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class IAssetOperation; }
+namespace System { class Action; }
+
+#define PAADPKGPFMJ___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBABD0)
+#define PAADPKGPFMJ___C__DISPLAYCLASS67_0___LOADMOTIONCLIPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBFBCEA0)
+
+inline static constexpr unsigned int PAADPKGPFMJ___c__DisplayClass67_0_TypeDefinitionIndex = 57289;
+
+	class PAADPKGPFMJ___c__DisplayClass67_0 : public ::System::Object
+	{
+	public:
+		::System::Action* handler; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PAADPKGPFMJ___C__DISPLAYCLASS67_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean __LoadMotionClipAsync_b__0(::RPG::Client::IAssetOperation* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + PAADPKGPFMJ___C__DISPLAYCLASS67_0___LOADMOTIONCLIPASYNC_B__0_OFFSET))(this, a1);
+		}
+
+	};

@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD05D30)
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0___ISBUYBLOCKEDBYSLOTSFULL_B__0_OFFSET UNITYSDK_OFFSET(0x1BD0C950)
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0___ISBUYBLOCKEDBYSLOTSFULL_B__1_OFFSET UNITYSDK_OFFSET(0x1BD0C970)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB516F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0___ISBUYBLOCKEDBYSLOTSFULL_B__0_OFFSET UNITYSDK_OFFSET(0xDB582F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0___ISBUYBLOCKEDBYSLOTSFULL_B__1_OFFSET UNITYSDK_OFFSET(0xDB58310)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirModule___c__DisplayClass8_0_TypeDefinitionIndex = 78884;
+	inline static constexpr unsigned int PixAirModule___c__DisplayClass8_0_TypeDefinitionIndex = 79365;
 
 	class PixAirModule___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 equipId; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __IsBuyBlockedBySlotsFull_b__0(::RPG::Client::PixAir::PixAirEquipInstance* a1)
@@ -31,5 +29,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PixAir::PixAirEquipInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS8_0___ISBUYBLOCKEDBYSLOTSFULL_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

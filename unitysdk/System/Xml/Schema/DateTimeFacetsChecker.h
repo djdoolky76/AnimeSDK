@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Xml/Schema/FacetsChecker.h"
-
+#include "unitysdk/System/DateTime.h"
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1BAE5DC0)
-#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1BAE5C90)
-#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1BAE63D0)
-#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1BAE6680)
-#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD6280)
+#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1EE903B0)
+#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1EE90280)
+#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE80870)
+#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1EE909C0)
+#define SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1EE90C70)
 
 namespace System::Xml::Schema
 {
@@ -23,7 +22,7 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_CTOR_OFFSET))(this);
 		}
 
 		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
@@ -45,5 +44,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::DateTime, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATETIMEFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

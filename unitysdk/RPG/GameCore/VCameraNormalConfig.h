@@ -4,31 +4,35 @@
 #include "unitysdk/RPG/GameCore/VCameraAttackType.h"
 #include "unitysdk/RPG/GameCore/VCameraState.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class VCameraNormalConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERANORMALCONFIG_METHOD_2_52AC5AE5ED4C7F07_OFFSET UNITYSDK_OFFSET(0x1D2B62A0)
-#define RPG_GAMECORE_VCAMERANORMALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BA470)
+#define RPG_GAMECORE_VCAMERANORMALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC520E0)
+#define RPG_GAMECORE_VCAMERANORMALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4D840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraNormalConfig_TypeDefinitionIndex = 16233;
+	inline static constexpr unsigned int VCameraNormalConfig_TypeDefinitionIndex = 16406;
 
 	class VCameraNormalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Boolean ExportToJson; // 0x10
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::VCameraState CameraState; // 0x14
 		::System::String* TemplateName; // 0x18
 		::RPG::GameCore::VCameraAttackType AttackType; // 0x20
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::TargetEvaluator* AnchorTargetType; // 0x28
 		::System::Boolean IsLocalOffset; // 0x30
 		::System::Boolean UseLightTeamOffsetByTeamWidth; // 0x31
 		::System::Boolean UseDarkTeamOffsetByTeamWidth; // 0x32
+		::System::Byte _padding2[0x1];
 		::RPG::MVector3 AnchorOffset; // 0x34
 		::System::Single AnchorRatio; // 0x40
+		::System::Byte _padding3[0x4];
 		::RPG::GameCore::TargetEvaluator* AimTargetType; // 0x48
 		::RPG::MVector3 AimOffset; // 0x50
 		::System::Single AimRatio; // 0x5C
@@ -51,19 +55,21 @@ namespace RPG::GameCore
 		::System::Boolean UseSkillPerformIgnoreDynamicOffset; // 0x8E
 		::System::Boolean UseSkillPerformEnableCommonTeamWidthOffset; // 0x8F
 		::System::Boolean UseAimTargetToCameraFocus; // 0x90
+		::System::Byte _padding4[0x7];
 		::System::String* BattleFinishFallbackPerform; // 0x98
 		::System::Boolean UseSkillPerformIgnoreDynamicOffsetAtUltraDistance; // 0xA0
 		::System::Boolean EnableDampAtUltraDistance; // 0xA1
+		::System::Byte _padding5[0x2];
 		::System::Single DampTimeAtUltraDistance; // 0xA4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANORMALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANORMALCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_52AC5AE5ED4C7F07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraNormalConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VCameraNormalConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraNormalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANORMALCONFIG_METHOD_2_52AC5AE5ED4C7F07_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VCameraNormalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANORMALCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

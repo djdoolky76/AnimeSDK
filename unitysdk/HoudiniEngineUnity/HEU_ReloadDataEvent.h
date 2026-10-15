@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace HoudiniEngineUnity { class HEU_ReloadEventData; }
-
-#define HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B146E10)
+#define HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B95B960)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 39064;
+	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 40361;
 
-	class HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*>
+	class HEU_ReloadDataEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

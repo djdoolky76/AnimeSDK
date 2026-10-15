@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/CollectionBase.h"
-
 namespace System::Xml::Serialization { class XmlArrayItemAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1B095A80)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B095B90)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1EED6700)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED6810)
 
 namespace System::Xml::Serialization
 {
@@ -16,12 +15,13 @@ namespace System::Xml::Serialization
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 Add(::System::Xml::Serialization::XmlArrayItemAttribute* a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Xml::Serialization::XmlArrayItemAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_ADD_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Net/AuthenticationSchemes.h"
-
+#include "unitysdk/System/MulticastDelegate.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class HttpListenerRequest; }
 
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AB40600)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AB40630)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AB405F0)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB40580)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFF1D00)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF1C80)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFF1D30)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFF1CF0)
 
 namespace System::Net
 {
@@ -22,7 +21,7 @@ namespace System::Net
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* a1)
@@ -39,5 +38,6 @@ namespace System::Net
 		{
 			return ((::System::Net::AuthenticationSchemes(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

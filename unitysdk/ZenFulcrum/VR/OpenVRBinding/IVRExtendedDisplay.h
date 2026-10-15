@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRExtendedDisplay__GetDXGIOutputInfo; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRExtendedDisplay__GetEyeOutputViewport; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRExtendedDisplay__GetWindowBounds; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRExtendedDisplay_TypeDefinitionIndex = 37638;
+	inline static constexpr unsigned int IVRExtendedDisplay_TypeDefinitionIndex = 38935;
 
 	struct alignas(8) IVRExtendedDisplay
 	{

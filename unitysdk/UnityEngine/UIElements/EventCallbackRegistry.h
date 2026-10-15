@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class EventCallbackList; }
 namespace UnityEngine::UIElements { class EventCallbackListPool; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_GETCALLBACKLIST_OFFSET UNITYSDK_OFFSET(0x1D60D180)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_HASBUBBLEHANDLERS_OFFSET UNITYSDK_OFFSET(0x1D607B50)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_HASTRICKLEDOWNHANDLERS_OFFSET UNITYSDK_OFFSET(0x1D607B10)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_INVOKECALLBACKS_OFFSET UNITYSDK_OFFSET(0x1D607750)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_RELEASECALLBACKLIST_OFFSET UNITYSDK_OFFSET(0x1D60D200)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D60D280)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F484880)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_GETCALLBACKLIST_OFFSET UNITYSDK_OFFSET(0x1F484780)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_HASBUBBLEHANDLERS_OFFSET UNITYSDK_OFFSET(0x1F47F150)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_HASTRICKLEDOWNHANDLERS_OFFSET UNITYSDK_OFFSET(0x1F47F110)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_INVOKECALLBACKS_OFFSET UNITYSDK_OFFSET(0x1F47ED50)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_RELEASECALLBACKLIST_OFFSET UNITYSDK_OFFSET(0x1F484800)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventCallbackRegistry_TypeDefinitionIndex = 5929;
+	inline static constexpr unsigned int EventCallbackRegistry_TypeDefinitionIndex = 5937;
 
 	class EventCallbackRegistry : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::EventCallbackListPool** StaticGet_s_ListPool()
-		{
-			return (::UnityEngine::UIElements::EventCallbackListPool**)Il2CppClass::FromTypeDefinitionIndex(EventCallbackRegistry_TypeDefinitionIndex)->GetStaticField(0x1A890);
-		}
 		::UnityEngine::UIElements::EventCallbackList* m_Callbacks; // 0x10
 		::UnityEngine::UIElements::EventCallbackList* m_TemporaryCallbacks; // 0x18
 		::System::Int32 m_IsInvoking; // 0x20
+		static ::UnityEngine::UIElements::EventCallbackListPool** StaticGet_s_ListPool()
+		{
+			return (::UnityEngine::UIElements::EventCallbackListPool**)UnitySDK::FromName("UnityEngine.UIElements", "EventCallbackRegistry")->GetStaticField(0x2C290);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_CCTOR_OFFSET))();
 		}
 
 		static ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* a1)
@@ -57,5 +56,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKREGISTRY_HASBUBBLEHANDLERS_OFFSET))(this);
 		}
+
 	};
 }

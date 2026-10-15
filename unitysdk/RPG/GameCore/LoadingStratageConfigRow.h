@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LoadingStratageType.h"
 #include "unitysdk/System/Object.h"
+class BPANGADOKAM;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoadingStratageConfigRow; }
 
-class Class_1_0B20F1FA28B84337;
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DD744B0)
-#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD74740)
+#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BF330)
+#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BF0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingStratageConfigRow_TypeDefinitionIndex = 13888;
+	inline static constexpr unsigned int LoadingStratageConfigRow_TypeDefinitionIndex = 13995;
 
 	class LoadingStratageConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MissionIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* AvailableEntranceIDList; // 0x18
-		::Il2CppArray<::Class_1_0B20F1FA28B84337*>* FloorOperation; // 0x20
-		::RPG::GameCore::LoadingStratageType StratageType; // 0x28
-		::System::UInt32 LoadingID; // 0x2C
-		::System::UInt32 Priority; // 0x30
-		::System::UInt32 LoadingType; // 0x34
-
+		::Il2CppArray<::System::UInt32>* AvailableEntranceIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* MissionIDList; // 0x18
+		::Il2CppArray<::BPANGADOKAM*>* FloorOperation; // 0x20
+		::System::UInt32 LoadingType; // 0x28
+		::RPG::GameCore::LoadingStratageType StratageType; // 0x2C
+		::System::UInt32 LoadingID; // 0x30
+		::System::UInt32 Priority; // 0x34
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadingStratageConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoadingStratageConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingStratageConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoadingStratageConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

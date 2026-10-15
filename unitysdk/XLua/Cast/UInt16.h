@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/XLua/Cast/Any_1.h"
 
-#define XLUA_CAST_UINT16__CTOR_OFFSET UNITYSDK_OFFSET(0xE82CE80)
+#define XLUA_CAST_UINT16_CTOR_OFFSET UNITYSDK_OFFSET(0x14CB4450)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int UInt16_TypeDefinitionIndex = 50627;
+	inline static constexpr unsigned int UInt16_TypeDefinitionIndex = 50296;
 
-	class UInt16 : public ::XLua::Cast::Any_1<::System::UInt16>
+	class UInt16
 	{
 	public:
 		::System::Void _ctor(::System::UInt16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + XLUA_CAST_UINT16__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + XLUA_CAST_UINT16_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Resolution.h"
 
-#define RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x18044C50)
-#define RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18044CD0)
-#define RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x18044BA0)
+#define RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xDE1FEB0)
+#define RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0xDE1FF60)
+#define RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDE1FFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettings_ResolutionComparer_TypeDefinitionIndex = 67918;
+	inline static constexpr unsigned int RPGQualitySettings_ResolutionComparer_TypeDefinitionIndex = 67920;
 
 	class RPGQualitySettings_ResolutionComparer : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::UnityEngine::Resolution a1, ::UnityEngine::Resolution a2)
@@ -28,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Resolution))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGS_RESOLUTIONCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

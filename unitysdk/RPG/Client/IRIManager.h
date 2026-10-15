@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_B947D336595B4072;
+#include "unitysdk/UnityEngine/Bounds.h"
+class CFNALNFLBIN;
 namespace RPG::Client { class IRIRenderer; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RPGInstancedItemBlock; }
 
-#define RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET UNITYSDK_OFFSET(0x1982EFA0)
-#define RPG_CLIENT_IRIMANAGER_REMOVEVOLUME_OFFSET UNITYSDK_OFFSET(0x1982F310)
-#define RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1982F410)
-#define RPG_CLIENT_IRIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1982F490)
+#define RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET UNITYSDK_OFFSET(0xD332810)
+#define RPG_CLIENT_IRIMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xD332D00)
+#define RPG_CLIENT_IRIMANAGER_REMOVEVOLUME_OFFSET UNITYSDK_OFFSET(0xD332B80)
+#define RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET UNITYSDK_OFFSET(0xD332C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 68856;
+	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 68890;
 
 	class IRIManager : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,15 +23,14 @@ namespace RPG::Client
 		::UnityEngine::RPGInstancedItemBlock* GlobalVolume; // 0x18
 		::UnityEngine::GameObject* EAEAALPPFAF; // 0x20
 		::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>* IGOPPJKFNBD; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRIMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRIMANAGER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddVolume(::RPG::Client::IRIRenderer* a1, ::Class_1_B947D336595B4072* a2, ::UnityEngine::Bounds a3, ::System::UInt64& a4)
+		::System::Void AddVolume(::RPG::Client::IRIRenderer* a1, ::CFNALNFLBIN* a2, ::UnityEngine::Bounds a3, ::System::UInt64 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRIRenderer*, ::Class_1_B947D336595B4072*, ::UnityEngine::Bounds, ::System::UInt64&))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRIRenderer*, ::CFNALNFLBIN*, ::UnityEngine::Bounds, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean RemoveVolume(::RPG::Client::IRIRenderer* a1, ::System::UInt64 a2)
@@ -44,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

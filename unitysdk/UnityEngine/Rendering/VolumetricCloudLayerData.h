@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumetricCloudLayerData_TypeDefinitionIndex = 4853;
+	inline static constexpr unsigned int VolumetricCloudLayerData_TypeDefinitionIndex = 4859;
 
 	struct alignas(8) VolumetricCloudLayerData
 	{

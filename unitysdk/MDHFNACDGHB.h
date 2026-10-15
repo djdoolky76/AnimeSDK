@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class String; }
+
+#define MDHFNACDGHB_CCPGCKJDFAK_OFFSET UNITYSDK_OFFSET(0xB89E730)
+#define MDHFNACDGHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB89E7E0)
+
+inline static constexpr unsigned int MDHFNACDGHB_TypeDefinitionIndex = 49078;
+
+	class MDHFNACDGHB : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDHFNACDGHB_CTOR_OFFSET))(this);
+		}
+
+		static ::System::String* CCPGCKJDFAK(::System::String* a1)
+		{
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MDHFNACDGHB_CCPGCKJDFAK_OFFSET))(a1);
+		}
+
+	};

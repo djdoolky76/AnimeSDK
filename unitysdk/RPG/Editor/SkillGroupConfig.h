@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_EDITOR_SKILLGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16849830)
+#define RPG_EDITOR_SKILLGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A3410)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillGroupConfig_TypeDefinitionIndex = 52329;
+	inline static constexpr unsigned int SkillGroupConfig_TypeDefinitionIndex = 52042;
 
 	class SkillGroupConfig : public ::System::Object
 	{
@@ -16,10 +15,10 @@ namespace RPG::Editor
 		::UnityEngine::RectTransform* DecoGroup; // 0x10
 		::UnityEngine::RectTransform* LineGroup; // 0x18
 		::UnityEngine::RectTransform* SkillGroup; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLGROUPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLGROUPCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

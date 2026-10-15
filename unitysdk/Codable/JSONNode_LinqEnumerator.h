@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Codable/JSONNode_Enumerator.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace Codable { class JSONNode; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define CODABLE_JSONNODE_LINQENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DB5BEF0)
-#define CODABLE_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DB5BF10)
-#define CODABLE_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DB5BD20)
-#define CODABLE_JSONNODE_LINQENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DB5BE20)
-#define CODABLE_JSONNODE_LINQENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DB5BF60)
-#define CODABLE_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DB5C030)
-#define CODABLE_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DB5BD80)
-#define CODABLE_JSONNODE_LINQENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB58380)
+#define CODABLE_JSONNODE_LINQENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xAF10960)
+#define CODABLE_JSONNODE_LINQENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAF144D0)
+#define CODABLE_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xAF144F0)
+#define CODABLE_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAF14300)
+#define CODABLE_JSONNODE_LINQENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAF14400)
+#define CODABLE_JSONNODE_LINQENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xAF14540)
+#define CODABLE_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xAF14610)
+#define CODABLE_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAF14360)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNode_LinqEnumerator_TypeDefinitionIndex = 46521;
+	inline static constexpr unsigned int JSONNode_LinqEnumerator_TypeDefinitionIndex = 46072;
 
 	class JSONNode_LinqEnumerator : public ::System::Object
 	{
 	public:
-		::Codable::JSONNode_Enumerator m_Enumerator; // 0x10
-		::Codable::JSONNode* m_Node; // 0x58
-
+		::Codable::JSONNode* m_Node; // 0x10
+		::Codable::JSONNode_Enumerator m_Enumerator; // 0x18
 		::System::Void _ctor(::Codable::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_LINQENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_LINQENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*> get_Current()
@@ -67,5 +66,6 @@ namespace Codable
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client::Promises { class IPromiseInfo; }
+namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define BHPMNMMGLHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB48FDF0)
+#define BHPMNMMGLHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB48FCA0)
+#define BHPMNMMGLHI_OFBAIDIPKBI_OFFSET UNITYSDK_OFFSET(0xB48FB90)
+
+inline static constexpr unsigned int BHPMNMMGLHI_TypeDefinitionIndex = 49678;
+
+	class BHPMNMMGLHI : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::RPG::Client::Promises::IPromiseInfo*>* FIMFDOLGEBE; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt16, ::System::Object*>*>*>* HFAEJDDKEOJ; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPMNMMGLHI_CTOR_OFFSET))(this);
+		}
+
+		::System::Void OFBAIDIPKBI(::System::UInt16 a1, ::System::Object* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + BHPMNMMGLHI_OFBAIDIPKBI_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPMNMMGLHI_DISPOSE_OFFSET))(this);
+		}
+
+	};

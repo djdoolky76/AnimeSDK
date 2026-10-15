@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdditionalDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADDITIONALDISPLAYDATA_METHOD_2_640887368B77091F_OFFSET UNITYSDK_OFFSET(0x1D6A67A0)
-#define RPG_GAMECORE_ADDITIONALDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A6970)
+#define RPG_GAMECORE_ADDITIONALDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35FC40)
+#define RPG_GAMECORE_ADDITIONALDISPLAYDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35FA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdditionalDisplayData_TypeDefinitionIndex = 22325;
+	inline static constexpr unsigned int AdditionalDisplayData_TypeDefinitionIndex = 22576;
 
 	class AdditionalDisplayData : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* UIMessageHeight; // 0x10
 		::RPG::GameCore::DynamicFloat* DitherRangeX; // 0x18
 		::RPG::GameCore::DynamicFloat* DitherRangeY; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDITIONALDISPLAYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDITIONALDISPLAYDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_640887368B77091F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdditionalDisplayData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdditionalDisplayData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdditionalDisplayData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDITIONALDISPLAYDATA_METHOD_2_640887368B77091F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdditionalDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDITIONALDISPLAYDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

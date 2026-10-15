@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Memory_1.h"
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int IMemoryOwner_1_TypeDefinitionIndex = 4988;
+	inline static constexpr unsigned int IMemoryOwner_1_TypeDefinitionIndex = 4995;
 
 	template <typename T>
 	class IMemoryOwner_1

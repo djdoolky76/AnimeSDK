@@ -2,30 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionConfig.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+class JNKPPLPLFOM;
 
-class Class_1_482F3423DE650EAD;
-
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0x16811440)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x168114C0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B360)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_MoveByTime_TypeDefinitionIndex = 68675;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_MoveByTime_TypeDefinitionIndex = 68709;
 
 	class WolfBroGunPlayTargetActionConfig_MoveByTime : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
 	public:
 		::System::Single time; // 0x18
 		::UnityEngine::Vector2 target; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_482F3423DE650EAD* Method_2_47FCE72550F759BF()
+		::JNKPPLPLFOM* EINKGFCBAJI()
 		{
-			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_METHOD_2_47FCE72550F759BF_OFFSET))(this);
+			return ((::JNKPPLPLFOM*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_EINKGFCBAJI_OFFSET))(this);
 		}
+
 	};
 }

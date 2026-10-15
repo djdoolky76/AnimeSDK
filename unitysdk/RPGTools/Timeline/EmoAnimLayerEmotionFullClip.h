@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B56F6B0)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B56F6A0)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56F840)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D45C0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4750)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D45B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoAnimLayerEmotionFullClip_TypeDefinitionIndex = 48550;
+	inline static constexpr unsigned int EmoAnimLayerEmotionFullClip_TypeDefinitionIndex = 48090;
 
 	class EmoAnimLayerEmotionFullClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::System::Boolean UseDefaultEmotion; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::String* EmotionName; // 0x28
 		::System::Boolean IsLoop; // 0x30
+		::System::Byte _padding1[0x3];
 		::System::Single TransitTime; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -39,5 +39,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

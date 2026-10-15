@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ClearRegardAsAttackType; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define JGGNPDLOLMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB193A40)
+#define JGGNPDLOLMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB193A70)
+
+inline static constexpr unsigned int JGGNPDLOLMM_TypeDefinitionIndex = 54965;
+
+	class JGGNPDLOLMM
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ClearRegardAsAttackType* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ClearRegardAsAttackType*))((::PBYTE)hIl2Cpp + JGGNPDLOLMM_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JGGNPDLOLMM_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

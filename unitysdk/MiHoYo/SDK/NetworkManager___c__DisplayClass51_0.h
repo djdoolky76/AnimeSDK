@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class NetworkManager; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A642B20)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__GETREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x1A644CE0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__GETREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x1A644D30)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE870C0)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__GETREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x1BE89280)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__GETREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x1BE892D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass51_0_TypeDefinitionIndex = 8131;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass51_0_TypeDefinitionIndex = 8174;
 
 	class NetworkManager___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
 		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x10
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _GetRequestEx_g__onGetResponse_0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2)
@@ -36,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS51_0__GETREQUESTEX_G__ONGETTIMEOUT_1_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AcheronSpaceSlicer_SlicePlane.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_D0ED0CDEA61AA610;
+class JLGAPJLCIKO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 
-#define RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_2045BA2947DBDBCE_OFFSET UNITYSDK_OFFSET(0x1ABB55F0)
-#define RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0x1ABB5A90)
-#define RPG_CLIENT_ACHERONSPACESLICER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB5E00)
+#define RPG_CLIENT_ACHERONSPACESLICER_CAJFGOIOKGF_OFFSET UNITYSDK_OFFSET(0xC3A0850)
+#define RPG_CLIENT_ACHERONSPACESLICER_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A1070)
+#define RPG_CLIENT_ACHERONSPACESLICER_FOOPKKPADGM_OFFSET UNITYSDK_OFFSET(0xC3A0D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 70316;
+	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 70352;
 
 	class AcheronSpaceSlicer : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,22 +23,23 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* SliceTargets; // 0x38
 		::System::Single SliceDistance; // 0x40
 		::System::Boolean NeedHull; // 0x44
-		::Class_1_D0ED0CDEA61AA610* FMMDMJNDLPE; // 0x48
+		::System::Byte _padding0[0x3];
+		::JLGAPJLCIKO* FMMDMJNDLPE; // 0x48
 		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* MIPBBLIKBCD; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHERONSPACESLICER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHERONSPACESLICER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2045BA2947DBDBCE()
+		::System::Void CAJFGOIOKGF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_2045BA2947DBDBCE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHERONSPACESLICER_CAJFGOIOKGF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_81FEFD1B22CE37A2()
+		::System::Void FOOPKKPADGM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_81FEFD1B22CE37A2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHERONSPACESLICER_FOOPKKPADGM_OFFSET))(this);
 		}
+
 	};
 }

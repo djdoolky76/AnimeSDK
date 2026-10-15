@@ -2,31 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/TimeData.h"
-
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 namespace ZenFulcrum::EmbeddedBrowser { class PredicateWait; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D7F18C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITFOR_OFFSET UNITYSDK_OFFSET(0x1D7F1650)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1D7F1710)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1D7F1810)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F1B40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F640310)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F640090)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITFOR_OFFSET UNITYSDK_OFFSET(0x1F63FE20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1F63FEE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1F63FFE0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 38240;
+	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 39537;
 
 	class PromiseTimer : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::PredicateWait*>* waiting; // 0x10
 		::System::Single curTime; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_CTOR_OFFSET))(this);
 		}
 
 		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitFor(::System::Single a1)
@@ -48,5 +46,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET))(this, a1);
 		}
+
 	};
 }

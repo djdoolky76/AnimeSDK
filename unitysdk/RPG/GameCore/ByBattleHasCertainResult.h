@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByBattleHasCertainResult; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_05C7BF644F241414_OFFSET UNITYSDK_OFFSET(0x1C2F5D80)
-#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_33B01EED912CA497_OFFSET UNITYSDK_OFFSET(0x1C2F5C10)
-#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_A7DF2CC382FECBDC_OFFSET UNITYSDK_OFFSET(0x1C2F5BD0)
-#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_F353E43989B472FD_OFFSET UNITYSDK_OFFSET(0x1C2F5D50)
-#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F5C00)
+#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D459C90)
+#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D459E10)
+#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D459DE0)
+#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D459CA0)
+#define RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D459C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByBattleHasCertainResult_TypeDefinitionIndex = 22323;
+	inline static constexpr unsigned int ByBattleHasCertainResult_TypeDefinitionIndex = 22574;
 
 	class ByBattleHasCertainResult : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A7DF2CC382FECBDC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByBattleHasCertainResult*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByBattleHasCertainResult* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByBattleHasCertainResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_A7DF2CC382FECBDC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByBattleHasCertainResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_33B01EED912CA497(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByBattleHasCertainResult* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByBattleHasCertainResult* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByBattleHasCertainResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_33B01EED912CA497_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByBattleHasCertainResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F353E43989B472FD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBattleHasCertainResult*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBattleHasCertainResult* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBattleHasCertainResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_F353E43989B472FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBattleHasCertainResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_05C7BF644F241414(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBattleHasCertainResult* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBattleHasCertainResult* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBattleHasCertainResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_METHOD_4_05C7BF644F241414_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBattleHasCertainResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBATTLEHASCERTAINRESULT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

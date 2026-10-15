@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_44C800F73E4F1D6F;
-class Class_1_9E75A6F37EAB58DE;
+class LIOALDPOLJE;
+class LMDPKOELKFL;
+namespace RPG::Client { class BattleResulAutoDecomposeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_GETDECOMPOSEDELEMENT_OFFSET UNITYSDK_OFFSET(0x19F7C6D0)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_HASITEMDECOMPOSED_OFFSET UNITYSDK_OFFSET(0x19F7C250)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_ISITEMDECOMPOSED_OFFSET UNITYSDK_OFFSET(0x19F7C190)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_MERGE_OFFSET UNITYSDK_OFFSET(0x19F7BED0)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SETREWARDCOMPOSEDESCTEXT_OFFSET UNITYSDK_OFFSET(0x19F7C2B0)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x19F6BB80)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F7C770)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19F7BE50)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xC84D940)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC84CDF0)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_GETDECOMPOSEDELEMENT_OFFSET UNITYSDK_OFFSET(0xC84D8A0)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_HASITEMDECOMPOSED_OFFSET UNITYSDK_OFFSET(0xC84D420)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_ISITEMDECOMPOSED_OFFSET UNITYSDK_OFFSET(0xC84D360)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_MERGE_OFFSET UNITYSDK_OFFSET(0xC84D0A0)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SETREWARDCOMPOSEDESCTEXT_OFFSET UNITYSDK_OFFSET(0xC84D480)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC84CE70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleResulAutoDecomposeInfo_TypeDefinitionIndex = 62952;
+	inline static constexpr unsigned int BattleResulAutoDecomposeInfo_TypeDefinitionIndex = 62885;
 
 	class BattleResulAutoDecomposeInfo : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::List_1<::LIOALDPOLJE*>* DecomposeElements; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* DecomposedRelicIDs; // 0x18
+		::System::Boolean IsExceedLimit; // 0x20
 		static ::RPG::Client::BattleResulAutoDecomposeInfo** StaticGet_DefaultDecomposeInfo()
 		{
-			return (::RPG::Client::BattleResulAutoDecomposeInfo**)Il2CppClass::FromTypeDefinitionIndex(BattleResulAutoDecomposeInfo_TypeDefinitionIndex)->GetStaticField(0xD320);
+			return (::RPG::Client::BattleResulAutoDecomposeInfo**)UnitySDK::FromName("RPG.Client", "BattleResulAutoDecomposeInfo")->GetStaticField(0x607E0);
 		}
-		::System::Collections::Generic::List_1<::System::UInt32>* DecomposedRelicIDs; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_9E75A6F37EAB58DE*>* DecomposeElements; // 0x18
-		::System::Boolean IsExceedLimit; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_CCTOR_OFFSET))();
 		}
 
-		::System::Void Sync(::Class_1_44C800F73E4F1D6F* a1)
+		::System::Void Sync(::LMDPKOELKFL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_44C800F73E4F1D6F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LMDPKOELKFL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::Void Merge(::RPG::Client::BattleResulAutoDecomposeInfo* a1)
@@ -66,9 +66,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_SETREWARDCOMPOSEDESCTEXT_OFFSET))(this, a1);
 		}
 
-		::Class_1_9E75A6F37EAB58DE* GetDecomposedElement(::System::UInt32 a1)
+		::LIOALDPOLJE* GetDecomposedElement(::System::UInt32 a1)
 		{
-			return ((::Class_1_9E75A6F37EAB58DE*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_GETDECOMPOSEDELEMENT_OFFSET))(this, a1);
+			return ((::LIOALDPOLJE*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO_GETDECOMPOSEDELEMENT_OFFSET))(this, a1);
 		}
+
 	};
 }

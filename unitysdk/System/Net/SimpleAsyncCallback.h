@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class SimpleAsyncResult; }
 
-#define SYSTEM_NET_SIMPLEASYNCCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B962B40)
-#define SYSTEM_NET_SIMPLEASYNCCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B962B70)
-#define SYSTEM_NET_SIMPLEASYNCCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B962B30)
-#define SYSTEM_NET_SIMPLEASYNCCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B962A40)
+#define SYSTEM_NET_SIMPLEASYNCCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F04CE70)
+#define SYSTEM_NET_SIMPLEASYNCCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F04CD70)
+#define SYSTEM_NET_SIMPLEASYNCCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F04CEA0)
+#define SYSTEM_NET_SIMPLEASYNCCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F04CE60)
 
 namespace System::Net
 {
@@ -21,7 +20,7 @@ namespace System::Net
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_SIMPLEASYNCCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_SIMPLEASYNCCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Net::SimpleAsyncResult* a1)
@@ -38,5 +37,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SIMPLEASYNCCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

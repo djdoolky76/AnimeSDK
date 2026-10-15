@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FrameTiming_TypeDefinitionIndex = 4124;
+	inline static constexpr unsigned int FrameTiming_TypeDefinitionIndex = 4125;
 
-	struct alignas(8) FrameTiming
+	struct alignas(4) FrameTiming
 	{
 		::System::UInt64 cpuTimePresentCalled; // 0x10
 		::System::Double cpuFrameTime; // 0x18

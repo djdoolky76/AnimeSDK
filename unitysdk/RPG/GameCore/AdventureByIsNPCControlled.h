@@ -1,50 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByIsNPCControlled; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_8DE1721C7AA0E01A_OFFSET UNITYSDK_OFFSET(0x1CBAECB0)
-#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_E5AE9D4CDB9F93F3_OFFSET UNITYSDK_OFFSET(0x1CBAECF0)
-#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_ECF6AA591E326891_OFFSET UNITYSDK_OFFSET(0x1CBAEF30)
-#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_EDDD5A3A9B67128E_OFFSET UNITYSDK_OFFSET(0x1CBAEF00)
-#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBAECE0)
+#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38FF10)
+#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D390160)
+#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D390130)
+#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38FF20)
+#define RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38FEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByIsNPCControlled_TypeDefinitionIndex = 20551;
+	inline static constexpr unsigned int AdventureByIsNPCControlled_TypeDefinitionIndex = 20790;
 
 	class AdventureByIsNPCControlled : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Boolean Any; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::UInt32 GroupID; // 0x24
 		::System::UInt32 ID; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8DE1721C7AA0E01A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsNPCControlled*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsNPCControlled* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsNPCControlled*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_8DE1721C7AA0E01A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsNPCControlled*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E5AE9D4CDB9F93F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsNPCControlled* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsNPCControlled* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsNPCControlled*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_E5AE9D4CDB9F93F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsNPCControlled*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EDDD5A3A9B67128E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsNPCControlled*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsNPCControlled* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsNPCControlled*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_EDDD5A3A9B67128E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsNPCControlled*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_ECF6AA591E326891(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsNPCControlled* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsNPCControlled* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsNPCControlled*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_METHOD_4_ECF6AA591E326891_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsNPCControlled*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISNPCCONTROLLED_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,45 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LoopTowerAnimBehavior_TowerDirectionType.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client { class LoopTowerAnimBehavior; }
-namespace RPG::Client { class LoopTowerAnimBehavior_LoopTowerSlide; }
 namespace RPG::GameCore { class VCameraShakeV2; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1748C790)
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1748C7E0)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD4E5150)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD4E5100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 70888;
+	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 70921;
 
-	class LoopTowerAnimMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LoopTowerAnimBehavior*>
+	class LoopTowerAnimMonoPlugin
 	{
 	public:
 		::System::Single Speed; // 0x30
 		::System::Single TowerHeight; // 0x34
 		::System::Single BaseOffset; // 0x38
 		::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType TowerDirectionType; // 0x3C
-		::System::Collections::Generic::List_1<::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide*>* SliderTemplate; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* SliderTemplate; // 0x40
 		::System::Boolean PreviewMode; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Single SwayIntensity; // 0x4C
 		::System::Single SwaySpeed; // 0x50
 		::System::Single SinRollIntrnsity; // 0x54
 		::System::Single SinRollSpeed; // 0x58
 		::System::Single ShakeRange; // 0x5C
 		::RPG::GameCore::VCameraShakeV2* CameraShakeV2; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

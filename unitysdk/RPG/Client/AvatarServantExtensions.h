@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::AvatarSystem { class AvatarServant; }
 
-#define RPG_CLIENT_AVATARSERVANTEXTENSIONS_GETSERVANTID_OFFSET UNITYSDK_OFFSET(0x19ECBC40)
+#define RPG_CLIENT_AVATARSERVANTEXTENSIONS_GETSERVANTID_OFFSET UNITYSDK_OFFSET(0xC70ADC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarServantExtensions_TypeDefinitionIndex = 62660;
+	inline static constexpr unsigned int AvatarServantExtensions_TypeDefinitionIndex = 62578;
 
 	class AvatarServantExtensions : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::RPG::AvatarSystem::AvatarServant*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSERVANTEXTENSIONS_GETSERVANTID_OFFSET))(a1);
 		}
+
 	};
 }

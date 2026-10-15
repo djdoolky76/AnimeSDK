@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Newtonsoft::Json::Serialization { class JsonISerializableContract; }
 namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalReader; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x172E7F40)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x172E8230)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT32_OFFSET UNITYSDK_OFFSET(0x172E8240)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x172E8250)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x172E8260)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x172E8270)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x172E7E80)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1C3B5660)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B55A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1C3B5940)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT32_OFFSET UNITYSDK_OFFSET(0x1C3B5950)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x1C3B5960)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x1C3B5970)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C3B5980)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonFormatterConverter_TypeDefinitionIndex = 9638;
+	inline static constexpr unsigned int JsonFormatterConverter_TypeDefinitionIndex = 9696;
 
 	class JsonFormatterConverter : public ::System::Object
 	{
@@ -26,10 +26,9 @@ namespace Newtonsoft::Json::Serialization
 		::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _reader; // 0x10
 		::Newtonsoft::Json::Serialization::JsonProperty* _member; // 0x18
 		::Newtonsoft::Json::Serialization::JsonISerializableContract* _contract; // 0x20
-
 		::System::Void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* a1, ::Newtonsoft::Json::Serialization::JsonISerializableContract* a2, ::Newtonsoft::Json::Serialization::JsonProperty* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*, ::Newtonsoft::Json::Serialization::JsonISerializableContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*, ::Newtonsoft::Json::Serialization::JsonISerializableContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* Convert(::System::Object* a1, ::System::Type* a2)
@@ -61,5 +60,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSTRING_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,42 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerAdditiveAnimState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_METHOD_3_76058CEF25BFD97B_OFFSET UNITYSDK_OFFSET(0x1D5469B0)
-#define RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_METHOD_3_DA49682E385F71A9_OFFSET UNITYSDK_OFFSET(0x1D5467E0)
-#define RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5468E0)
+#define RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC14B10)
+#define RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC14BE0)
+#define RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC14A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAdditiveAnimState_TypeDefinitionIndex = 22618;
+	inline static constexpr unsigned int TriggerAdditiveAnimState_TypeDefinitionIndex = 22874;
 
 	class TriggerAdditiveAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Int32 LayerIndex; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* AnimStateName; // 0x28
 		::RPG::GameCore::DynamicFloat* NormalizedTimeStart; // 0x30
 		::RPG::GameCore::DynamicFloat* NormalizedTransitionDuration; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA49682E385F71A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAdditiveAnimState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerAdditiveAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAdditiveAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_METHOD_3_DA49682E385F71A9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerAdditiveAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76058CEF25BFD97B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAdditiveAnimState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerAdditiveAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAdditiveAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_METHOD_3_76058CEF25BFD97B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerAdditiveAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERADDITIVEANIMSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
-
-class Class_1_F11A264FAF28E2C5;
+#include "unitysdk/Cinemachine/CameraState.h"
+class JNAMFHKBIGF;
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace RPG::GameCore { class MazeDragCameraConfig; }
 
-#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_ENABLEUPDATE_OFFSET UNITYSDK_OFFSET(0x180334D0)
-#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x180336C0)
-#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_OVERRIDESWIPECONFIG_OFFSET UNITYSDK_OFFSET(0x18033550)
-#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x18033800)
-#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_START_OFFSET UNITYSDK_OFFSET(0x180335C0)
-#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18033950)
+#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xDE0EB50)
+#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_ENABLEUPDATE_OFFSET UNITYSDK_OFFSET(0xDE0E6D0)
+#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDE0E8C0)
+#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_OVERRIDESWIPECONFIG_OFFSET UNITYSDK_OFFSET(0xDE0E750)
+#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xDE0EA00)
+#define RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_START_OFFSET UNITYSDK_OFFSET(0xDE0E7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGCinemachineSwipeCamera_TypeDefinitionIndex = 69669;
+	inline static constexpr unsigned int RPGCinemachineSwipeCamera_TypeDefinitionIndex = 69706;
 
 	class RPGCinemachineSwipeCamera : public ::Cinemachine::CinemachineExtension
 	{
 	public:
-		::Class_1_F11A264FAF28E2C5* CINEAOLJBPJ; // 0x28
+		::JNAMFHKBIGF* CINEAOLJBPJ; // 0x28
 		::System::Boolean MHEAIOMEGCA; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINESWIPECAMERA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void EnableUpdate(::System::Boolean a1)
@@ -50,9 +48,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINESWIPECAMERA_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

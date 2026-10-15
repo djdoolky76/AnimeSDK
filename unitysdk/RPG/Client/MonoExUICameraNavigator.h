@@ -4,22 +4,23 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACD7460)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_GETGYROOFFSET_OFFSET UNITYSDK_OFFSET(0x1ACD74A0)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_METHOD_5_2A925B778BD82492_OFFSET UNITYSDK_OFFSET(0x1ACD7520)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_SETENABLE_OFFSET UNITYSDK_OFFSET(0x1ACD57C0)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_START_OFFSET UNITYSDK_OFFSET(0x1ACD71E0)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD75A0)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_CBFLAPKLELE_OFFSET UNITYSDK_OFFSET(0xD823EE0)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD823F60)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xD823EA0)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_GETGYROOFFSET_OFFSET UNITYSDK_OFFSET(0xD81DB30)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_SETENABLE_OFFSET UNITYSDK_OFFSET(0xD822260)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_START_OFFSET UNITYSDK_OFFSET(0xD823C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICameraNavigator_TypeDefinitionIndex = 72902;
+	inline static constexpr unsigned int MonoExUICameraNavigator_TypeDefinitionIndex = 72985;
 
 	class MonoExUICameraNavigator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Quaternion KDFBNBNECEK; // 0x18
 		::System::Boolean BAHOEONCBJD; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Single ParallexRange; // 0x2C
 		::System::Single ParallexSensitivity; // 0x30
 		::System::Single ParallexBoundHardness; // 0x34
@@ -27,10 +28,9 @@ namespace RPG::Client
 		::UnityEngine::Quaternion LALGHIKGNDE; // 0x3C
 		::UnityEngine::Vector3 MDKGDLJDCLC; // 0x4C
 		::UnityEngine::Vector3 FFJNGNNDFHI; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERANAVIGATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERANAVIGATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -53,9 +53,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERANAVIGATOR_SETENABLE_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Quaternion Method_5_2A925B778BD82492(::UnityEngine::Quaternion a1)
+		static ::UnityEngine::Quaternion CBFLAPKLELE(::UnityEngine::Quaternion a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERANAVIGATOR_METHOD_5_2A925B778BD82492_OFFSET))(a1);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERANAVIGATOR_CBFLAPKLELE_OFFSET))(a1);
 		}
+
 	};
 }

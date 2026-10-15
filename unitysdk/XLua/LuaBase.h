@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace XLua { class LuaEnv; }
 
-#define XLUA_LUABASE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x118588E0)
-#define XLUA_LUABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11858800)
-#define XLUA_LUABASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x11858BD0)
-#define XLUA_LUABASE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x11858730)
-#define XLUA_LUABASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x118591C0)
-#define XLUA_LUABASE_PUSH_OFFSET UNITYSDK_OFFSET(0x11859550)
-#define XLUA_LUABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x11858720)
+#define XLUA_LUABASE_CTOR_OFFSET UNITYSDK_OFFSET(0x14DAAE00)
+#define XLUA_LUABASE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x14DAAFC0)
+#define XLUA_LUABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14DAAEE0)
+#define XLUA_LUABASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x14DAB2B0)
+#define XLUA_LUABASE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x14DAAE10)
+#define XLUA_LUABASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x14DAB8A0)
+#define XLUA_LUABASE_PUSH_OFFSET UNITYSDK_OFFSET(0x14DABC30)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 50534;
+	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 50203;
 
 	class LuaBase : public ::System::Object
 	{
 	public:
 		::XLua::LuaEnv* luaEnv; // 0x10
-		::System::Int32 luaReference; // 0x18
-		::System::Boolean disposed; // 0x1C
-
+		::System::Boolean disposed; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 luaReference; // 0x1C
 		::System::Void _ctor(::System::Int32 a1, ::XLua::LuaEnv* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUABASE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUABASE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Finalize()
@@ -57,5 +57,6 @@ namespace XLua
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUABASE_PUSH_OFFSET))(this, a1);
 		}
+
 	};
 }

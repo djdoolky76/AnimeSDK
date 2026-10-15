@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard_IBMIJELKFCI; }
 
-namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1; }
-
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16149410)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1___BFS_B__1_OFFSET UNITYSDK_OFFSET(0x16149B10)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDD42C40)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1___BFS_B__1_OFFSET UNITYSDK_OFFSET(0xDD43340)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_1_TypeDefinitionIndex = 78235;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_1_TypeDefinitionIndex = 78706;
 
+	template <typename T>
 	class OpticalIllusionPuzzleBoard___c__DisplayClass100_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1* nextNode; // 0x10
-
+		::RPG::Client::Prop::OpticalIllusionPuzzleBoard_IBMIJELKFCI* nextNode; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __BFS_b__1(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_1___BFS_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

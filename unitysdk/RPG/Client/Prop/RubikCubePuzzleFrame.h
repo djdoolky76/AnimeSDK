@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::Client::Prop { class RubikCubePuzzleFrameData; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0x17B05420)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B04F40)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x17B05370)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITFRAME_OFFSET UNITYSDK_OFFSET(0x17B04FC0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITPREVIEWCUBE_OFFSET UNITYSDK_OFFSET(0x17B04F80)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0x17B05040)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x17B05790)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0xDDA9E40)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0xDDAA1B0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDA9960)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDDA9D90)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITFRAME_OFFSET UNITYSDK_OFFSET(0xDDA99E0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITPREVIEWCUBE_OFFSET UNITYSDK_OFFSET(0xDDA99A0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0xDDA9A60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleFrame_TypeDefinitionIndex = 78366;
+	inline static constexpr unsigned int RubikCubePuzzleFrame_TypeDefinitionIndex = 78837;
 
 	class RubikCubePuzzleFrame : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,12 +31,11 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FrameObj; // 0x38
 		::RPG::Client::Prop::RubikCubePuzzleCube* FNHJKBEIKOA; // 0x40
 		::RPG::Client::Prop::RubikCubePuzzleFrameData* JCDNGCBFABM; // 0x48
-		::Il2CppArray<::UnityEngine::GameObject*>* NPNPIGKIMNN; // 0x50
-		::Il2CppArray<::System::Int32>* LMNAODMFONI; // 0x58
-
+		::System::Object* NPNPIGKIMNN; // 0x50
+		::System::Object* LMNAODMFONI; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -68,5 +67,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_GET_ISCOMPLETE_OFFSET))(this);
 		}
+
 	};
 }

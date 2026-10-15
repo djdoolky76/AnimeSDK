@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchSnapshotEntityList; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_27371183311D8C1D_OFFSET UNITYSDK_OFFSET(0x1E1B6CC0)
-#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_8148AC2761DCBD98_OFFSET UNITYSDK_OFFSET(0x1E1B6BC0)
-#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_9016E0792E305DFD_OFFSET UNITYSDK_OFFSET(0x1E1B6C40)
-#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_B28ACBED93735610_OFFSET UNITYSDK_OFFSET(0x1E1B6CA0)
-#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B6C30)
+#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37F60)
+#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB37FF0)
+#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB37FD0)
+#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB37F70)
+#define RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB37EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchSnapshotEntityList_TypeDefinitionIndex = 23737;
+	inline static constexpr unsigned int TargetFetchSnapshotEntityList_TypeDefinitionIndex = 24011;
 
 	class TargetFetchSnapshotEntityList : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8148AC2761DCBD98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchSnapshotEntityList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_8148AC2761DCBD98_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchSnapshotEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9016E0792E305DFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchSnapshotEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_9016E0792E305DFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchSnapshotEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B28ACBED93735610(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchSnapshotEntityList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_B28ACBED93735610_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchSnapshotEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_27371183311D8C1D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchSnapshotEntityList* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchSnapshotEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_METHOD_4_27371183311D8C1D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchSnapshotEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSNAPSHOTENTITYLIST_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

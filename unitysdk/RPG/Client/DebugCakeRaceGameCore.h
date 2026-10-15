@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGCAKERACEGAMECORE__CTOR_OFFSET UNITYSDK_OFFSET(0x192DD9C0)
+#define RPG_CLIENT_DEBUGCAKERACEGAMECORE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE1F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugCakeRaceGameCore_TypeDefinitionIndex = 68294;
+	inline static constexpr unsigned int DebugCakeRaceGameCore_TypeDefinitionIndex = 68325;
 
 	class DebugCakeRaceGameCore : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGCAKERACEGAMECORE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGCAKERACEGAMECORE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

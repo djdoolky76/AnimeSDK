@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MICROSOFT_WIN32_EXPANDSTRING_EXPAND_OFFSET UNITYSDK_OFFSET(0x16DD55B0)
-#define MICROSOFT_WIN32_EXPANDSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16DD55A0)
-#define MICROSOFT_WIN32_EXPANDSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x16DD5590)
+#define MICROSOFT_WIN32_EXPANDSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01E650)
+#define MICROSOFT_WIN32_EXPANDSTRING_EXPAND_OFFSET UNITYSDK_OFFSET(0x1C01E670)
+#define MICROSOFT_WIN32_EXPANDSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C01E660)
 
 namespace Microsoft::Win32
 {
@@ -16,10 +15,9 @@ namespace Microsoft::Win32
 	{
 	public:
 		::System::String* value; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_EXPANDSTRING__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_EXPANDSTRING_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -31,5 +29,6 @@ namespace Microsoft::Win32
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_EXPANDSTRING_EXPAND_OFFSET))(this);
 		}
+
 	};
 }

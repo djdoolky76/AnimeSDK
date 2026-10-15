@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class ColorGradingMaskClip; }
 
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1D149060)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1D149080)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1D1492B0)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1D149070)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D149440)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C9FA0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8C9BC0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8C9BE0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE8C9E10)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8C9BD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskBehaviour_TypeDefinitionIndex = 48922;
+	inline static constexpr unsigned int ColorGradingMaskBehaviour_TypeDefinitionIndex = 48468;
 
 	class ColorGradingMaskBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::ColorGradingMaskClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::ColorGradingMaskClip* get_Clip()
@@ -45,5 +43,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
+
 	};
 }

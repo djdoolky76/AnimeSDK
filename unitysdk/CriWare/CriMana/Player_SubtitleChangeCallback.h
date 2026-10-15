@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4AE70)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4AEC0)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC47FF0)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4AE00)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1671C170)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1671C100)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1671C1C0)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x167192F0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_SubtitleChangeCallback_TypeDefinitionIndex = 38925;
+	inline static constexpr unsigned int Player_SubtitleChangeCallback_TypeDefinitionIndex = 40222;
 
 	class Player_SubtitleChangeCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1)
@@ -37,5 +36,6 @@ namespace CriWare::CriMana
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

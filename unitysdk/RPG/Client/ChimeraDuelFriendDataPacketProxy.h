@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class ChimeraDuelFriendDataPacketProxy; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0x1C1C57C0)
-#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1C5BC0)
-#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_SEND_OFFSET UNITYSDK_OFFSET(0x1C1C5840)
-#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C5830)
-#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY__ONRECEIVE_OFFSET UNITYSDK_OFFSET(0x1C1C5C40)
+#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0xCB18BE0)
+#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xCB18C50)
+#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB18FE0)
+#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_SEND_OFFSET UNITYSDK_OFFSET(0xCB18C60)
+#define RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY__ONRECEIVE_OFFSET UNITYSDK_OFFSET(0xCB19060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelFriendDataPacketProxy_TypeDefinitionIndex = 63400;
+	inline static constexpr unsigned int ChimeraDuelFriendDataPacketProxy_TypeDefinitionIndex = 63338;
 
 	class ChimeraDuelFriendDataPacketProxy : public ::System::Object
 	{
 	public:
 		::System::Action_1<::System::Boolean>* _FinishCallback; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ChimeraDuelFriendDataPacketProxy* Create()
@@ -43,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDDATAPACKETPROXY__ONRECEIVE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

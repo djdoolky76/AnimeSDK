@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/UI/Controls/DataBoundControl.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -9,40 +8,41 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1BDBB5D0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET UNITYSDK_OFFSET(0x1BDBB630)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1BDBAB70)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0x1BDBA540)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1BDBB0D0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1BDBA450)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDBB730)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBB720)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1ED2BB10)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED2BC70)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2BC60)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET UNITYSDK_OFFSET(0x1ED2BB70)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1ED2B0B0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED2AA80)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1ED2B610)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED2A990)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int StringArrayControl_TypeDefinitionIndex = 37354;
+	inline static constexpr unsigned int StringArrayControl_TypeDefinitionIndex = 38047;
 
 	class StringArrayControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:
-		static ::Il2CppArray<::System::Type*>** StaticGet_EnumeratorTypes()
-		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(StringArrayControl_TypeDefinitionIndex)->GetStaticField(0x40B50);
-		}
 		::Il2CppArray<::System::String*>* _selectValues; // 0x98
 		::System::Int32 _lastIndex; // 0xA0
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::GameObject*>* DisableOnReadOnly; // 0xA8
 		::UnityEngine::UI::Dropdown* DropdownButton; // 0xB0
 		::UnityEngine::UI::Text* Title; // 0xB8
+		static ::Il2CppArray<::System::Type*>** StaticGet_EnumeratorTypes()
+		{
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "StringArrayControl")->GetStaticField(0x34BA0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()
@@ -74,5 +74,6 @@ namespace SRDebugger::UI::Controls::Data
 		{
 			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayerApplyInMapTeleport; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_METHOD_3_1A765214F38C830A_OFFSET UNITYSDK_OFFSET(0x1D7AA470)
-#define RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_METHOD_3_7351301541F5FBA7_OFFSET UNITYSDK_OFFSET(0x1D7AA3A0)
-#define RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AA460)
+#define RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D905D20)
+#define RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D905D30)
+#define RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D905C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerApplyInMapTeleport_TypeDefinitionIndex = 20266;
+	inline static constexpr unsigned int PlayerApplyInMapTeleport_TypeDefinitionIndex = 20504;
 
 	class PlayerApplyInMapTeleport : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7351301541F5FBA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerApplyInMapTeleport*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayerApplyInMapTeleport* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerApplyInMapTeleport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_METHOD_3_7351301541F5FBA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayerApplyInMapTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1A765214F38C830A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerApplyInMapTeleport* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayerApplyInMapTeleport* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerApplyInMapTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_METHOD_3_1A765214F38C830A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayerApplyInMapTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERAPPLYINMAPTELEPORT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

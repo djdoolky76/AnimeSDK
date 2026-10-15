@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/AsyncOperationStatus.h"
 #include "unitysdk/Mono/Net/Security/AsyncProtocolRequest.h"
-
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
-#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1C474970)
-#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C474910)
+#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF94270)
+#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1EF942D0)
 
 namespace Mono::Net::Security
 {
@@ -17,12 +16,13 @@ namespace Mono::Net::Security
 	public:
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus a1)
 		{
 			return ((::Mono::Net::Security::AsyncOperationStatus(*)(::PVOID, ::Mono::Net::Security::AsyncOperationStatus))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

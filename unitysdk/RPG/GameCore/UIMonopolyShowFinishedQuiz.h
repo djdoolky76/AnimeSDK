@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UIMonopolyShowFinishedQuiz; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_METHOD_3_12AB465434261F9A_OFFSET UNITYSDK_OFFSET(0x1D2AAA30)
-#define RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_METHOD_3_80547D77780C35F7_OFFSET UNITYSDK_OFFSET(0x1D2AA960)
-#define RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AAA20)
+#define RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC41D60)
+#define RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC41D70)
+#define RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC41CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIMonopolyShowFinishedQuiz_TypeDefinitionIndex = 21483;
+	inline static constexpr unsigned int UIMonopolyShowFinishedQuiz_TypeDefinitionIndex = 21729;
 
 	class UIMonopolyShowFinishedQuiz : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_80547D77780C35F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UIMonopolyShowFinishedQuiz*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UIMonopolyShowFinishedQuiz* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UIMonopolyShowFinishedQuiz*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_METHOD_3_80547D77780C35F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UIMonopolyShowFinishedQuiz*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_12AB465434261F9A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UIMonopolyShowFinishedQuiz* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::UIMonopolyShowFinishedQuiz* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UIMonopolyShowFinishedQuiz*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_METHOD_3_12AB465434261F9A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UIMonopolyShowFinishedQuiz*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIMONOPOLYSHOWFINISHEDQUIZ_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/DisableYFollowMode.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector2.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimCameraFollowConfig; }
 namespace RPG::GameCore { class FiveDimCameraLookAheadConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_METHOD_2_8890243C95DA78A5_OFFSET UNITYSDK_OFFSET(0x1E0E3A40)
-#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E52C0)
+#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D686210)
+#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6848F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraFollowConfig_TypeDefinitionIndex = 18410;
+	inline static constexpr unsigned int FiveDimCameraFollowConfig_TypeDefinitionIndex = 18621;
 
 	class FiveDimCameraFollowConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,7 +28,9 @@ namespace RPG::GameCore
 		::System::Single DampingX; // 0x2C
 		::System::Single DampingZ; // 0x30
 		::System::Boolean UseDampingYCurve; // 0x34
+		::System::Byte _padding0[0x3];
 		::System::Single DampingY; // 0x38
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::FloatCurve* DampingYCurve; // 0x40
 		::System::Single BiasX; // 0x48
 		::System::Single BiasY; // 0x4C
@@ -36,21 +38,22 @@ namespace RPG::GameCore
 		::System::Single DeadZoneHeight; // 0x54
 		::System::Single DeadZoneDepth; // 0x58
 		::RPG::MVector2 FollowClampMargin; // 0x5C
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::FiveDimCameraLookAheadConfig* LookAheadConfig; // 0x68
 		::System::Single RotateDampingTime; // 0x70
 		::RPG::GameCore::DisableYFollowMode DisableYFollowMode; // 0x74
 		::System::Single VCameraPitch; // 0x78
 		::System::Boolean FollowPlayerGravity; // 0x7C
 		::System::Boolean FollowSurfaceMove; // 0x7D
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8890243C95DA78A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCameraFollowConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimCameraFollowConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCameraFollowConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_METHOD_2_8890243C95DA78A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimCameraFollowConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

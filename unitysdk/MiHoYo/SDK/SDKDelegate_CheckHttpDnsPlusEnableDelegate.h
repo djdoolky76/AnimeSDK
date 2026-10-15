@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA030)
-#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA060)
-#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA020)
-#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A9FB0)
+#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6130)
+#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA60B0)
+#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6160)
+#define MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6120)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_CheckHttpDnsPlusEnableDelegate_TypeDefinitionIndex = 7756;
+	inline static constexpr unsigned int SDKDelegate_CheckHttpDnsPlusEnableDelegate_TypeDefinitionIndex = 7800;
 
 	class SDKDelegate_CheckHttpDnsPlusEnableDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_CHECKHTTPDNSPLUSENABLEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

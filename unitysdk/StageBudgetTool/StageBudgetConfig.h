@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace StageBudgetTool { class Block; }
 namespace StageBudgetTool { class Passage; }
 namespace StageBudgetTool { class Room; }
 namespace StageBudgetTool { class Volume; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STAGEBUDGETTOOL_STAGEBUDGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197E56A0)
+#define STAGEBUDGETTOOL_STAGEBUDGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE980820)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int StageBudgetConfig_TypeDefinitionIndex = 48184;
+	inline static constexpr unsigned int StageBudgetConfig_TypeDefinitionIndex = 47725;
 
 	class StageBudgetConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -21,10 +20,10 @@ namespace StageBudgetTool
 		::System::Collections::Generic::List_1<::StageBudgetTool::Volume*>* VolumeList; // 0x20
 		::System::Collections::Generic::List_1<::StageBudgetTool::Passage*>* PassageList; // 0x28
 		::System::Collections::Generic::List_1<::StageBudgetTool::Room*>* RoomList; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_STAGEBUDGETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_STAGEBUDGETCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

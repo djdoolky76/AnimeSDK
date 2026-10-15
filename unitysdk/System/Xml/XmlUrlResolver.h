@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/XmlResolver.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -12,11 +11,11 @@ namespace System::Net::Cache { class RequestCachePolicy; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 namespace System::Xml { class XmlDownloadManager; }
 
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1E3CB360)
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1E3CB1A0)
-#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1E3CB0D0)
-#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1E3CB350)
-#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CB190)
+#define SYSTEM_XML_XMLURLRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7A580)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1EF7A750)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1EF7A590)
+#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1EF7A4C0)
+#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1EF7A740)
 
 namespace System::Xml
 {
@@ -25,17 +24,17 @@ namespace System::Xml
 	class XmlUrlResolver : public ::System::Xml::XmlResolver
 	{
 	public:
+		::System::Net::IWebProxy* _proxy; // 0x10
+		::System::Net::ICredentials* _credentials; // 0x18
+		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x20
 		static ::System::Object** StaticGet_s_DownloadManager()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x29E30);
+			return (::System::Object**)UnitySDK::FromName("System.Xml", "XmlUrlResolver")->GetStaticField(0x239C0);
 		}
-		::System::Net::ICredentials* _credentials; // 0x10
-		::System::Net::IWebProxy* _proxy; // 0x18
-		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Xml::XmlDownloadManager* get_DownloadManager()
@@ -57,5 +56,6 @@ namespace System::Xml
 		{
 			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

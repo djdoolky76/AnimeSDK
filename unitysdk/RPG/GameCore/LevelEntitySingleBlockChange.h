@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CHMCAGBDPJH.h"
+#include "unitysdk/CMPGEAFHHDC.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelEntitySingleBlockChange; }
+
+#define RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E2D10)
+#define RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E2E00)
+#define RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E2DB0)
+#define RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E2D60)
+#define RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6E2C60)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelEntitySingleBlockChange_TypeDefinitionIndex = 56839;
+
+	class LevelEntitySingleBlockChange : public ::CMPGEAFHHDC
+	{
+	public:
+		::CHMCAGBDPJH ChangeParams; // 0x18
+		::RPG::GameCore::GameEntity* Target; // 0x128
+		::RPG::GameCore::FixPoint ChangeValue; // 0x130
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LevelEntitySingleBlockChange* Init(::RPG::GameCore::GameEntity* a1, ::CHMCAGBDPJH a2, ::RPG::GameCore::FixPoint a3)
+		{
+			return ((::RPG::GameCore::LevelEntitySingleBlockChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_INIT_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_CLEAR_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSINGLEBLOCKCHANGE_GETEVENTTYPE_OFFSET))(this);
+		}
+
+	};
+}

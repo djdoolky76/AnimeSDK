@@ -1,40 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
+namespace Cysharp::Threading::Tasks { class UniTask_WhenAllPromise; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE12A50)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE12B00)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CE12C00)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_TRYINVOKECONTINUATION_OFFSET UNITYSDK_OFFSET(0x1CE12910)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE12BB0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0A400)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1162A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F11E930)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11E9E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F11EAE0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_TRYINVOKECONTINUATION_OFFSET UNITYSDK_OFFSET(0x1F11E7F0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11EA90)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAllPromise_TypeDefinitionIndex = 42711;
+	inline static constexpr unsigned int UniTask_WhenAllPromise_TypeDefinitionIndex = 38296;
 
 	class UniTask_WhenAllPromise : public ::System::Object
 	{
 	public:
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x10
+		::System::Byte _padding0[0x18];
 		::System::Int32 completeCount; // 0x30
 		::System::Int32 tasksLength; // 0x34
-
 		::System::Void _ctor(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void TryInvokeContinuation(::Cysharp::Threading::Tasks::UniTask_WhenAllPromise* a1, ::Cysharp::Threading::Tasks::UniTask_Awaiter& a2)
+		static ::System::Void TryInvokeContinuation(::Cysharp::Threading::Tasks::UniTask_WhenAllPromise* a1, ::Cysharp::Threading::Tasks::UniTask_Awaiter a2)
 		{
-			return ((::System::Void(*)(::Cysharp::Threading::Tasks::UniTask_WhenAllPromise*, ::Cysharp::Threading::Tasks::UniTask_Awaiter&))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_TRYINVOKECONTINUATION_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Cysharp::Threading::Tasks::UniTask_WhenAllPromise*, ::Cysharp::Threading::Tasks::UniTask_Awaiter))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_TRYINVOKECONTINUATION_OFFSET))(a1, a2);
 		}
 
 		::System::Void GetResult(::System::Int16 a1)
@@ -56,5 +57,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

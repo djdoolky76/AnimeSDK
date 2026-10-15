@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierAddMazeBuffOnEnterRoomConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_METHOD_3_630DAE7EA269BD4F_OFFSET UNITYSDK_OFFSET(0x1EEF76C0)
-#define RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_METHOD_3_FF041B991FC39613_OFFSET UNITYSDK_OFFSET(0x1EEF7710)
-#define RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF7700)
+#define RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AF960)
+#define RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9AF970)
+#define RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9AF920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierAddMazeBuffOnEnterRoomConfig_TypeDefinitionIndex = 17738;
+	inline static constexpr unsigned int RogueModifierAddMazeBuffOnEnterRoomConfig_TypeDefinitionIndex = 17950;
 
 	class RogueModifierAddMazeBuffOnEnterRoomConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_630DAE7EA269BD4F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_METHOD_3_630DAE7EA269BD4F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FF041B991FC39613(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_METHOD_3_FF041B991FC39613_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierAddMazeBuffOnEnterRoomConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDMAZEBUFFONENTERROOMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

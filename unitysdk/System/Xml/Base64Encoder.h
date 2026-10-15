@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BASE64ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BAB9ED0)
-#define SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1BABA2F0)
-#define SYSTEM_XML_BASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB9EA0)
+#define SYSTEM_XML_BASE64ENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE64760)
+#define SYSTEM_XML_BASE64ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EE64790)
+#define SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1EE64BB0)
 
 namespace System::Xml
 {
@@ -16,10 +16,9 @@ namespace System::Xml
 		::Il2CppArray<::System::Byte>* leftOverBytes; // 0x10
 		::Il2CppArray<::System::Char>* charsLine; // 0x18
 		::System::Int32 leftOverBytesCount; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_BASE64ENCODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_BASE64ENCODER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Encode(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -31,5 +30,6 @@ namespace System::Xml
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET))(this);
 		}
+
 	};
 }

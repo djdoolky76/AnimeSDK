@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/UI/DebugUIHandlerWidget.h"
-
 namespace UnityEngine::Rendering { class DebugUI_Value; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
+namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1DE34060)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1DE33EA0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1DE33EB0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1DE321B0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DE34210)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE343C0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AB3B0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1F2AB050)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F2AAE90)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1F2AAEA0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1F2A91A0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F2AB200)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerValue_TypeDefinitionIndex = 35030;
+	inline static constexpr unsigned int DebugUIHandlerValue_TypeDefinitionIndex = 35699;
 
 	class DebugUIHandlerValue : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
@@ -24,10 +24,9 @@ namespace UnityEngine::Rendering::UI
 		::UnityEngine::UI::Text* valueLabel; // 0x60
 		::UnityEngine::Rendering::DebugUI_Value* m_Field; // 0x68
 		::System::Single m_Timer; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -54,5 +53,6 @@ namespace UnityEngine::Rendering::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVALUE_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

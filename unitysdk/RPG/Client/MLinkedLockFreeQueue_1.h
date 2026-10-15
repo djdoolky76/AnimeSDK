@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { template <typename T> class MLinkedLockFreeQueueNode_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MLinkedLockFreeQueue_1_TypeDefinitionIndex = 34592;
+	inline static constexpr unsigned int MLinkedLockFreeQueue_1_TypeDefinitionIndex = 35256;
 
 	template <typename T>
 	class MLinkedLockFreeQueue_1 : public ::System::Object

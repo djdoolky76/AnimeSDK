@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B920)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B950)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B910)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7B8A0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF670)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF5F0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF6A0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF660)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_GetPlayerNameDelegate_TypeDefinitionIndex = 7663;
+	inline static constexpr unsigned int WeGameDelegate_GetPlayerNameDelegate_TypeDefinitionIndex = 7717;
 
 	class WeGameDelegate_GetPlayerNameDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

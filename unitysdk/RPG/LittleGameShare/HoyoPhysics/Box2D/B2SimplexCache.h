@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FixedArray3_1.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SimplexCache_TypeDefinitionIndex = 36086;
+	inline static constexpr unsigned int B2SimplexCache_TypeDefinitionIndex = 36773;
 
-	struct alignas(2) B2SimplexCache
+	struct alignas(8) B2SimplexCache
 	{
 		::System::UInt16 count; // 0x10
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray3_1<::System::Byte> indexA; // 0x12

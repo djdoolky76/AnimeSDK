@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define UNITYENGINE_UI_BUTTON_BUTTONCLICKEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7763D0)
+#define UNITYENGINE_UI_BUTTON_BUTTONCLICKEDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B19F0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Button_ButtonClickedEvent_TypeDefinitionIndex = 6683;
+	inline static constexpr unsigned int Button_ButtonClickedEvent_TypeDefinitionIndex = 6692;
 
 	class Button_ButtonClickedEvent : public ::UnityEngine::Events::UnityEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BUTTON_BUTTONCLICKEDEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BUTTON_BUTTONCLICKEDEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

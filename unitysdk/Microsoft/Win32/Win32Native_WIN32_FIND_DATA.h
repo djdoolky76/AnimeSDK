@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MICROSOFT_WIN32_WIN32NATIVE_WIN32_FIND_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16DDE6B0)
+#define MICROSOFT_WIN32_WIN32NATIVE_WIN32_FIND_DATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C027760)
 
 namespace Microsoft::Win32
 {
@@ -15,10 +14,10 @@ namespace Microsoft::Win32
 	public:
 		::System::String* cFileName; // 0x10
 		::System::Int32 dwFileAttributes; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32NATIVE_WIN32_FIND_DATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32NATIVE_WIN32_FIND_DATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

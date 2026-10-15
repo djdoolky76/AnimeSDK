@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_F3391C70DC37088D;
+class KDJNAAOFMMJ;
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class MazeChallengeData; }
@@ -10,74 +9,75 @@ namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_ADDMAZEPUZZLECHALLENGEFINPARAMLISTFINISH_OFFSET UNITYSDK_OFFSET(0x1B221550)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_CANCELMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B220F50)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_CLEAREXECUTER_OFFSET UNITYSDK_OFFSET(0x1B21FEE0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_CREATEMAZECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B220100)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B21FAF0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_FAILMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B21F2C0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_FINISHMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B21F3F0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_GETMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B2210D0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_GET_CURRENTEVENTDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1B222560)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_GET_TIMERLOCK_OFFSET UNITYSDK_OFFSET(0x1B222540)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0x1B21F980)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_PREPAREFINISHMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B221280)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_REMOVECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B221180)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_SETMAZECHALLENGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B2205B0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_SETMAZEPUZZLECHALLENGEFINPARAMLISTFINISH_OFFSET UNITYSDK_OFFSET(0x1B2215F0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_SETMAZEPUZZLECHALLENGEREMAINSTEP_OFFSET UNITYSDK_OFFSET(0x1B221410)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_SET_TIMERLOCK_OFFSET UNITYSDK_OFFSET(0x1B222550)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_SOLVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B222150)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_TICK_OFFSET UNITYSDK_OFFSET(0x1B221690)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM_WAITPREPAREENDMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B221310)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__CANCELMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0x1B220FD0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2227A0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21F4F0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONCHALLENGECANCEL_OFFSET UNITYSDK_OFFSET(0x1B222740)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONCHALLENGERESET_OFFSET UNITYSDK_OFFSET(0x1B2225F0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONSPECIALUICLOSE_OFFSET UNITYSDK_OFFSET(0x1B222570)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONUICHALLENGEENTER_OFFSET UNITYSDK_OFFSET(0x1B220DC0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__REGEVENT_OFFSET UNITYSDK_OFFSET(0x1B21F9D0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM__UNREGEVENT_OFFSET UNITYSDK_OFFSET(0x1B21FDC0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_ADDMAZEPUZZLECHALLENGEFINPARAMLISTFINISH_OFFSET UNITYSDK_OFFSET(0xD5DB4E0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_CANCELMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DAEE0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5DC730)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_CLEAREXECUTER_OFFSET UNITYSDK_OFFSET(0xD5D9E70)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_CREATEMAZECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DA090)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD5D9480)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD5D9A80)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_FAILMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5D9250)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_FINISHMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5D9380)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_GETMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DB060)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_GET_CURRENTEVENTDICTIONARY_OFFSET UNITYSDK_OFFSET(0xD5DC4F0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_GET_TIMERLOCK_OFFSET UNITYSDK_OFFSET(0xD5DC4D0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0xD5D9910)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_PREPAREFINISHMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DB210)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_REMOVECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DB110)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_SETMAZECHALLENGECALLBACK_OFFSET UNITYSDK_OFFSET(0xD5DA540)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_SETMAZEPUZZLECHALLENGEFINPARAMLISTFINISH_OFFSET UNITYSDK_OFFSET(0xD5DB580)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_SETMAZEPUZZLECHALLENGEREMAINSTEP_OFFSET UNITYSDK_OFFSET(0xD5DB3A0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_SET_TIMERLOCK_OFFSET UNITYSDK_OFFSET(0xD5DC4E0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_SOLVECALLBACK_OFFSET UNITYSDK_OFFSET(0xD5DC0E0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_TICK_OFFSET UNITYSDK_OFFSET(0xD5DB620)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM_WAITPREPAREENDMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DB2A0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__CANCELMAZEPUZZLECHALLENGE_OFFSET UNITYSDK_OFFSET(0xD5DAF60)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONCHALLENGECANCEL_OFFSET UNITYSDK_OFFSET(0xD5DC6D0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONCHALLENGERESET_OFFSET UNITYSDK_OFFSET(0xD5DC580)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONSPECIALUICLOSE_OFFSET UNITYSDK_OFFSET(0xD5DC500)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__ONUICHALLENGEENTER_OFFSET UNITYSDK_OFFSET(0xD5DAD50)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__REGEVENT_OFFSET UNITYSDK_OFFSET(0xD5D9960)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM__UNREGEVENT_OFFSET UNITYSDK_OFFSET(0xD5D9D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MazeChallengeSystem_TypeDefinitionIndex = 61004;
+	inline static constexpr unsigned int MazeChallengeSystem_TypeDefinitionIndex = 60907;
 
 	class MazeChallengeSystem : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::List_1<::System::UInt32>* _FailIdList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MazeChallengeData*>* _CurrentMazeChallengeDict; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _CachedRemovingMazeChallenge; // 0x20
+		::RPG::Client::LuaUIController* _UIController; // 0x28
+		::RPG::GameCore::GameWorld* _OwnerWorldRef; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::PropComponent*>* _CurrentPropCmpt; // 0x38
+		::System::Collections::Generic::List_1<::KDJNAAOFMMJ*>* _FinishAndDeleteList; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KDJNAAOFMMJ*>* _OnResetExecuter; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KDJNAAOFMMJ*>* _OnWaitPrepareEndExecuter; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KDJNAAOFMMJ*>* _OnFailExecuter; // 0x58
+		::RPG::Client::AdventurePhase* _AdventurePhaseRef; // 0x60
+		::System::Collections::Generic::List_1<::System::UInt32>* _SuccIdList; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KDJNAAOFMMJ*>* _OnUIEnterExecuter; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KDJNAAOFMMJ*>* _OnCancelExecuter; // 0x78
+		::System::Boolean _TimerLock; // 0x80
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__DeleteList()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MazeChallengeSystem_TypeDefinitionIndex)->GetStaticField(0x66560);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "MazeChallengeSystem")->GetStaticField(0x45110);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>* _OnUIEnterExecuter; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _CachedRemovingMazeChallenge; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>* _OnResetExecuter; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>* _OnFailExecuter; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MazeChallengeData*>* _CurrentMazeChallengeDict; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* _FailIdList; // 0x38
-		::RPG::Client::AdventurePhase* _AdventurePhaseRef; // 0x40
-		::RPG::GameCore::GameWorld* _OwnerWorldRef; // 0x48
-		::System::Collections::Generic::List_1<::Class_1_F3391C70DC37088D*>* _FinishAndDeleteList; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>* _OnWaitPrepareEndExecuter; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::PropComponent*>* _CurrentPropCmpt; // 0x60
-		::RPG::Client::LuaUIController* _UIController; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>* _OnCancelExecuter; // 0x70
-		::System::Collections::Generic::List_1<::System::UInt32>* _SuccIdList; // 0x78
-		::System::Boolean _TimerLock; // 0x80
 
 		::System::Void _ctor(::RPG::Client::AdventurePhase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AdventurePhase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AdventurePhase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_CCTOR_OFFSET))();
 		}
 
 		::System::Void Init()
@@ -160,9 +160,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void SolveCallback(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>*& a1, ::System::Single a2)
+		::System::Void SolveCallback(::System::Object* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>*&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_SOLVECALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_SOLVECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_TimerLock()
@@ -210,9 +210,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_REMOVECHALLENGE_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearExecuter(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>*& a1)
+		::System::Void ClearExecuter(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F3391C70DC37088D*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_CLEAREXECUTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZECHALLENGESYSTEM_CLEAREXECUTER_OFFSET))(this, a1);
 		}
+
 	};
 }

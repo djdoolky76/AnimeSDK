@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_C9DFE5EE7107C629_8;
+class CGMCMAKMJDK;
 namespace RPG::Client { class ChessRogueBoardCellDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A5BF0)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x1C1A8540)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCAF8F40)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xCAFB890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 66932;
+	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 66934;
 
 	class ChessRogueModule___c__DisplayClass77_0 : public ::System::Object
 	{
 	public:
-		::Class_1_C9DFE5EE7107C629_8* protoCell; // 0x10
-
+		::CGMCMAKMJDK* protoCell; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __OnCmdChessRogueCellUpdateNotify_b__0(::RPG::Client::ChessRogueBoardCellDataItem* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class ComputeShader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPCOMPUTERESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x192B3C10)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPCOMPUTERESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD9EA0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_CRPComputeResources_TypeDefinitionIndex = 37177;
+	inline static constexpr unsigned int CRPRendererData_CRPComputeResources_TypeDefinitionIndex = 37863;
 
 	class CRPRendererData_CRPComputeResources : public ::System::Object
 	{
@@ -32,12 +31,17 @@ namespace RPG::CustomRP
 		::UnityEngine::ComputeShader* GlobalSDFUpdateCS; // 0x90
 		::UnityEngine::ComputeShader* GPUSceneUpdateCS; // 0x98
 		::UnityEngine::ComputeShader* SSGICS; // 0xA0
-		::UnityEngine::ComputeShader* GPUParticlesManagementCS; // 0xA8
-		::UnityEngine::ComputeShader* BatchSkinningCS; // 0xB0
-
+		::UnityEngine::ComputeShader* SDFTraceEmitterUtilsCS; // 0xA8
+		::UnityEngine::ComputeShader* SDFTraceSSRFilterCS; // 0xB0
+		::UnityEngine::ComputeShader* SDFTraceBVHCS; // 0xB8
+		::UnityEngine::ComputeShader* SDFTraceSDFTracingCS; // 0xC0
+		::UnityEngine::ComputeShader* SDFTraceRelightingCS; // 0xC8
+		::UnityEngine::ComputeShader* GPUParticlesManagementCS; // 0xD0
+		::UnityEngine::ComputeShader* BatchSkinningCS; // 0xD8
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_CRPCOMPUTERESOURCES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_CRPCOMPUTERESOURCES_CTOR_OFFSET))(this);
 		}
+
 	};
 }

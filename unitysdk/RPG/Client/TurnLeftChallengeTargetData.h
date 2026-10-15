@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseChallengeTargetData.h"
 #include "unitysdk/RPG/Client/ChallengeTargetState.h"
-
 namespace RPG::GameCore { class ChallengeTargetConfigRow; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_CALCULATETARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1B106680)
-#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1B1066F0)
-#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_UPDATECHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1B1065B0)
-#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA__CONVERT_OFFSET UNITYSDK_OFFSET(0x1B106420)
-#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B106390)
+#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_CALCULATETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xE327950)
+#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE327660)
+#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xE3279C0)
+#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_UPDATECHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xE327880)
+#define RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA__CONVERT_OFFSET UNITYSDK_OFFSET(0xE3276F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TurnLeftChallengeTargetData_TypeDefinitionIndex = 63185;
+	inline static constexpr unsigned int TurnLeftChallengeTargetData_TypeDefinitionIndex = 63118;
 
 	class TurnLeftChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:
 		::System::Void _ctor(::RPG::GameCore::ChallengeTargetConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeTargetConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeTargetConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 _Convert(::System::Object* a1)
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TURNLEFTCHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

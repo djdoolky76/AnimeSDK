@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaConsentBannerManagePreferencesElementAttr_TypeDefinitionIndex = 9194;
+	inline static constexpr unsigned int PluginUIConstants_OverseaConsentBannerManagePreferencesElementAttr_TypeDefinitionIndex = 9255;
 
 	class PluginUIConstants_OverseaConsentBannerManagePreferencesElementAttr : public ::System::Object
 	{

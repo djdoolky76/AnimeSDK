@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MoveAnchor_TypeDefinitionIndex = 68738;
+	inline static constexpr unsigned int MoveAnchor_TypeDefinitionIndex = 68772;
 
 	struct alignas(8) MoveAnchor
 	{

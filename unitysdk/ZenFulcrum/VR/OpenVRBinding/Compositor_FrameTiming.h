@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/TrackedDevicePose_t.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int Compositor_FrameTiming_TypeDefinitionIndex = 38014;
+	inline static constexpr unsigned int Compositor_FrameTiming_TypeDefinitionIndex = 39311;
 
-	struct alignas(8) Compositor_FrameTiming
+	struct alignas(4) Compositor_FrameTiming
 	{
 		::System::UInt32 m_nSize; // 0x10
 		::System::UInt32 m_nFrameIndex; // 0x14

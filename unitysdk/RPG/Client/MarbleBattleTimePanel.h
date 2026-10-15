@@ -2,38 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class Object; }
-namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C24E880)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_CLEARCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1C24E680)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C24E9B0)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C24EA30)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_REFRESHCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1C24E710)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1C24E130)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C24EA80)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C24EC60)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL__ONSTARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1C24E810)
-#define RPG_CLIENT_MARBLEBATTLETIMEPANEL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1C24EB00)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD56A900)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_CLEARCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0xD56A700)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD56ACE0)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD56AA30)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD56AAB0)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_REFRESHCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0xD56A790)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0xD56A1B0)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD56AB00)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL__ONSTARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0xD56A890)
+#define RPG_CLIENT_MARBLEBATTLETIMEPANEL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xD56AB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleTimePanel_TypeDefinitionIndex = 65888;
+	inline static constexpr unsigned int MarbleBattleTimePanel_TypeDefinitionIndex = 65842;
 
 	class MarbleBattleTimePanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* FADE_IN_CLIP; // 0x0
-		// static const ::System::String* FADE_OUT_CLIP; // 0x0
-		// static const ::System::String* HINT_CLIP; // 0x0
 		::System::Single Seconds; // 0x18
 		::System::Int32 _DisplayIntSeconds; // 0x1C
 		::System::Int32 _CountDownThreshold; // 0x20
 		::System::Boolean _IsShowing; // 0x24
+		::System::Byte _padding0[0x3];
 		::UnityEngine::UI::Text* SecondText; // 0x28
 		::UnityEngine::UI::Image* SecondProgress; // 0x30
 		::UnityEngine::UI::Text* TipsText; // 0x38
@@ -46,10 +42,12 @@ namespace RPG::Client
 		::UnityEngine::Color EnemyProgressColor; // 0x88
 		::UnityEngine::Color EnemyTextBgColor; // 0x98
 		::UnityEngine::Color EnemySecondTextColor; // 0xA8
-
+		// static const ::System::String* FADE_IN_CLIP; // 0x0
+		// static const ::System::String* FADE_OUT_CLIP; // 0x0
+		// static const ::System::String* HINT_CLIP; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLETIMEPANEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLETIMEPANEL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void StartCountDown(::System::Single a1)
@@ -96,5 +94,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLETIMEPANEL__SETUPVIEW_OFFSET))(this, a1);
 		}
+
 	};
 }

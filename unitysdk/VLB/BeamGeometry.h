@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/GCFreeClosure/ActionClosure_2.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Plane.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
-#include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/VLB/MeshType.h"
-
-class Class_1_3B8D4E8FE7E2216A_Class_1_511D36723E750451;
+#include "unitysdk/UnityEngine/GCFreeClosure/ActionClosure_2.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+class IMCPKODGAEO_FLFPOKJBPOI;
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
@@ -18,49 +17,49 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Renderer; }
 namespace VLB { class VolumetricLightBeam; }
 
-#define VLB_BEAMGEOMETRY_GET_CONEMESH_OFFSET UNITYSDK_OFFSET(0x105022D0)
-#define VLB_BEAMGEOMETRY_GET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0x105022B0)
-#define VLB_BEAMGEOMETRY_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x10502290)
-#define VLB_BEAMGEOMETRY_GET_SORTINGLAYERID_OFFSET UNITYSDK_OFFSET(0x10502330)
-#define VLB_BEAMGEOMETRY_GET_SORTINGORDER_OFFSET UNITYSDK_OFFSET(0x10502380)
-#define VLB_BEAMGEOMETRY_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x105022F0)
-#define VLB_BEAMGEOMETRY_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x10502AE0)
-#define VLB_BEAMGEOMETRY_METHOD_5_0839ABB041C2D671_OFFSET UNITYSDK_OFFSET(0x105054D0)
-#define VLB_BEAMGEOMETRY_METHOD_5_318C71A4BA509D02_OFFSET UNITYSDK_OFFSET(0x10504E10)
-#define VLB_BEAMGEOMETRY_METHOD_5_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0x105050C0)
-#define VLB_BEAMGEOMETRY_METHOD_5_3F6DD32D583A9FCF_OFFSET UNITYSDK_OFFSET(0x10504CB0)
-#define VLB_BEAMGEOMETRY_METHOD_5_4912599A9CBB011C_OFFSET UNITYSDK_OFFSET(0x10504FF0)
-#define VLB_BEAMGEOMETRY_METHOD_5_7BCD4E2F1093FC06_OFFSET UNITYSDK_OFFSET(0x105054C0)
-#define VLB_BEAMGEOMETRY_METHOD_5_7C1FB31481CF83B2_OFFSET UNITYSDK_OFFSET(0x10504EB0)
-#define VLB_BEAMGEOMETRY_METHOD_5_8BA81D51FB5D5B30_OFFSET UNITYSDK_OFFSET(0x10502E70)
-#define VLB_BEAMGEOMETRY_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10504BB0)
-#define VLB_BEAMGEOMETRY_METHOD_5_CCED8C9A4E131333_OFFSET UNITYSDK_OFFSET(0x105025A0)
-#define VLB_BEAMGEOMETRY_METHOD_5_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x10504D80)
-#define VLB_BEAMGEOMETRY_METHOD_5_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x10502500)
-#define VLB_BEAMGEOMETRY_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x10504D50)
-#define VLB_BEAMGEOMETRY_METHOD_5_F760BA633AF61E98_OFFSET UNITYSDK_OFFSET(0x10504F50)
-#define VLB_BEAMGEOMETRY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x105024D0)
-#define VLB_BEAMGEOMETRY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x10502910)
-#define VLB_BEAMGEOMETRY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10502740)
-#define VLB_BEAMGEOMETRY_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x10505B50)
-#define VLB_BEAMGEOMETRY_REGENERATEMESH_OFFSET UNITYSDK_OFFSET(0x10503120)
-#define VLB_BEAMGEOMETRY_SETCLIPPINGPLANEOFF_OFFSET UNITYSDK_OFFSET(0x10505480)
-#define VLB_BEAMGEOMETRY_SETCLIPPINGPLANE_OFFSET UNITYSDK_OFFSET(0x10505430)
-#define VLB_BEAMGEOMETRY_SET_CONEMESH_OFFSET UNITYSDK_OFFSET(0x105022E0)
-#define VLB_BEAMGEOMETRY_SET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0x105022C0)
-#define VLB_BEAMGEOMETRY_SET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x105022A0)
-#define VLB_BEAMGEOMETRY_SET_SORTINGLAYERID_OFFSET UNITYSDK_OFFSET(0x10502350)
-#define VLB_BEAMGEOMETRY_SET_SORTINGORDER_OFFSET UNITYSDK_OFFSET(0x105023A0)
-#define VLB_BEAMGEOMETRY_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x10502310)
-#define VLB_BEAMGEOMETRY_START_OFFSET UNITYSDK_OFFSET(0x105023D0)
-#define VLB_BEAMGEOMETRY_SYNCMATERIAL_OFFSET UNITYSDK_OFFSET(0x10504DD0)
-#define VLB_BEAMGEOMETRY_UPDATEMATERIALANDBOUNDS_OFFSET UNITYSDK_OFFSET(0x105033E0)
-#define VLB_BEAMGEOMETRY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x10505180)
-#define VLB_BEAMGEOMETRY__CTOR_OFFSET UNITYSDK_OFFSET(0x10505E60)
+#define VLB_BEAMGEOMETRY_CAEPDOLLDHH_OFFSET UNITYSDK_OFFSET(0xE9E7DC0)
+#define VLB_BEAMGEOMETRY_CDFLFEIIHOH_OFFSET UNITYSDK_OFFSET(0xE9E5B70)
+#define VLB_BEAMGEOMETRY_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E8B60)
+#define VLB_BEAMGEOMETRY_DEALIHENNLG_OFFSET UNITYSDK_OFFSET(0xE9E81D0)
+#define VLB_BEAMGEOMETRY_GET_CONEMESH_OFFSET UNITYSDK_OFFSET(0xE9E4FD0)
+#define VLB_BEAMGEOMETRY_GET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0xE9E4FB0)
+#define VLB_BEAMGEOMETRY_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0xE9E4F90)
+#define VLB_BEAMGEOMETRY_GET_SORTINGLAYERID_OFFSET UNITYSDK_OFFSET(0xE9E5030)
+#define VLB_BEAMGEOMETRY_GET_SORTINGORDER_OFFSET UNITYSDK_OFFSET(0xE9E5080)
+#define VLB_BEAMGEOMETRY_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0xE9E4FF0)
+#define VLB_BEAMGEOMETRY_GOOLBIDODEO_OFFSET UNITYSDK_OFFSET(0xE9E7A50)
+#define VLB_BEAMGEOMETRY_HIHJMMLHOEH_OFFSET UNITYSDK_OFFSET(0xE9E5200)
+#define VLB_BEAMGEOMETRY_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE9E57E0)
+#define VLB_BEAMGEOMETRY_JIDPEMCFGDK_OFFSET UNITYSDK_OFFSET(0xE9E78B0)
+#define VLB_BEAMGEOMETRY_MCMMNBECLLD_OFFSET UNITYSDK_OFFSET(0xE9E81C0)
+#define VLB_BEAMGEOMETRY_MOPAIOCMEJC_OFFSET UNITYSDK_OFFSET(0xE9E52A0)
+#define VLB_BEAMGEOMETRY_NMLAICHECKA_1_OFFSET UNITYSDK_OFFSET(0xE9E7BB0)
+#define VLB_BEAMGEOMETRY_NMLAICHECKA_2_OFFSET UNITYSDK_OFFSET(0xE9E7C50)
+#define VLB_BEAMGEOMETRY_NMLAICHECKA_3_OFFSET UNITYSDK_OFFSET(0xE9E7CF0)
+#define VLB_BEAMGEOMETRY_NMLAICHECKA_OFFSET UNITYSDK_OFFSET(0xE9E7B10)
+#define VLB_BEAMGEOMETRY_OIPHAACIBNC_OFFSET UNITYSDK_OFFSET(0xE9E79B0)
+#define VLB_BEAMGEOMETRY_OJOMDAJNNKG_OFFSET UNITYSDK_OFFSET(0xE9E7A80)
+#define VLB_BEAMGEOMETRY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE9E51D0)
+#define VLB_BEAMGEOMETRY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE9E5610)
+#define VLB_BEAMGEOMETRY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE9E5440)
+#define VLB_BEAMGEOMETRY_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0xE9E8850)
+#define VLB_BEAMGEOMETRY_REGENERATEMESH_OFFSET UNITYSDK_OFFSET(0xE9E5E20)
+#define VLB_BEAMGEOMETRY_SETCLIPPINGPLANEOFF_OFFSET UNITYSDK_OFFSET(0xE9E8180)
+#define VLB_BEAMGEOMETRY_SETCLIPPINGPLANE_OFFSET UNITYSDK_OFFSET(0xE9E8130)
+#define VLB_BEAMGEOMETRY_SET_CONEMESH_OFFSET UNITYSDK_OFFSET(0xE9E4FE0)
+#define VLB_BEAMGEOMETRY_SET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0xE9E4FC0)
+#define VLB_BEAMGEOMETRY_SET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0xE9E4FA0)
+#define VLB_BEAMGEOMETRY_SET_SORTINGLAYERID_OFFSET UNITYSDK_OFFSET(0xE9E5050)
+#define VLB_BEAMGEOMETRY_SET_SORTINGORDER_OFFSET UNITYSDK_OFFSET(0xE9E50A0)
+#define VLB_BEAMGEOMETRY_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0xE9E5010)
+#define VLB_BEAMGEOMETRY_START_OFFSET UNITYSDK_OFFSET(0xE9E50D0)
+#define VLB_BEAMGEOMETRY_SYNCMATERIAL_OFFSET UNITYSDK_OFFSET(0xE9E7AD0)
+#define VLB_BEAMGEOMETRY_UPDATEMATERIALANDBOUNDS_OFFSET UNITYSDK_OFFSET(0xE9E60E0)
+#define VLB_BEAMGEOMETRY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xE9E7E80)
 
 namespace VLB
 {
-	inline static constexpr unsigned int BeamGeometry_TypeDefinitionIndex = 49409;
+	inline static constexpr unsigned int BeamGeometry_TypeDefinitionIndex = 48983;
 
 	class BeamGeometry : public ::UnityEngine::MonoBehaviour
 	{
@@ -68,16 +67,16 @@ namespace VLB
 		::VLB::VolumetricLightBeam* KNCIKKHBPPJ; // 0x18
 		::UnityEngine::Matrix4x4 GCLFIELNAEG; // 0x20
 		::VLB::MeshType MHGKGPLNFDK; // 0x60
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Material* OFEIJIAHFHI; // 0x68
 		::UnityEngine::MeshRenderer* _meshRenderer_k__BackingField; // 0x70
 		::UnityEngine::MeshFilter* _meshFilter_k__BackingField; // 0x78
 		::UnityEngine::Mesh* _coneMesh_k__BackingField; // 0x80
-		::Class_1_3B8D4E8FE7E2216A_Class_1_511D36723E750451* PHMBKJPIPCN; // 0x88
+		::IMCPKODGAEO_FLFPOKJBPOI* PHMBKJPIPCN; // 0x88
 		::UnityEngine::Plane BBKFDIMGPII; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::MeshRenderer* get_meshRenderer()
@@ -150,14 +149,14 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_ONDESTROY_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_5_CE34EA208837238D()
+		static ::System::Boolean HIHJMMLHOEH()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_CE34EA208837238D_OFFSET))();
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_HIHJMMLHOEH_OFFSET))();
 		}
 
-		::UnityEngine::GCFreeClosure::ActionClosure_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*> Method_5_CCED8C9A4E131333()
+		::UnityEngine::GCFreeClosure::ActionClosure_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*> MOPAIOCMEJC()
 		{
-			return ((::UnityEngine::GCFreeClosure::ActionClosure_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_CCED8C9A4E131333_OFFSET))(this);
+			return ((::UnityEngine::GCFreeClosure::ActionClosure_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_MOPAIOCMEJC_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -180,29 +179,29 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_REGENERATEMESH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void JIDPEMCFGDK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_JIDPEMCFGDK_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_3F6DD32D583A9FCF()
+		::System::Boolean OIPHAACIBNC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_3F6DD32D583A9FCF_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_OIPHAACIBNC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB()
+		::System::Boolean GOOLBIDODEO()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_GOOLBIDODEO_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_CE18697B63E52504()
+		::System::Boolean OJOMDAJNNKG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_CE18697B63E52504_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_OJOMDAJNNKG_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_8BA81D51FB5D5B30()
+		::System::Boolean CDFLFEIIHOH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_8BA81D51FB5D5B30_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_CDFLFEIIHOH_OFFSET))(this);
 		}
 
 		::System::Void SyncMaterial(::UnityEngine::Renderer* a1)
@@ -210,29 +209,29 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_SYNCMATERIAL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_318C71A4BA509D02(::System::Int32 a1, ::System::Single a2)
+		::System::Void NMLAICHECKA(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_318C71A4BA509D02_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_NMLAICHECKA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_7C1FB31481CF83B2(::System::Int32 a1, ::UnityEngine::Vector4 a2)
+		::System::Void NMLAICHECKA_1(::System::Int32 a1, ::UnityEngine::Vector4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_7C1FB31481CF83B2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_NMLAICHECKA_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_F760BA633AF61E98(::System::Int32 a1, ::UnityEngine::Color a2)
+		::System::Void NMLAICHECKA_2(::System::Int32 a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_F760BA633AF61E98_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_NMLAICHECKA_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_4912599A9CBB011C(::System::Int32 a1, ::UnityEngine::Matrix4x4 a2)
+		::System::Void NMLAICHECKA_3(::System::Int32 a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_4912599A9CBB011C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_NMLAICHECKA_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_3C56C1AF247AC1EC()
+		::System::Void CAEPDOLLDHH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_3C56C1AF247AC1EC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_CAEPDOLLDHH_OFFSET))(this);
 		}
 
 		::System::Void UpdateMaterial()
@@ -255,9 +254,9 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_SETCLIPPINGPLANEOFF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7BCD4E2F1093FC06(::UnityEngine::Rendering::ScriptableRenderContext a1, ::UnityEngine::Camera* a2)
+		::System::Void MCMMNBECLLD(::UnityEngine::Rendering::ScriptableRenderContext a1, ::UnityEngine::Camera* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_7BCD4E2F1093FC06_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_MCMMNBECLLD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnWillRenderObject()
@@ -265,9 +264,10 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_ONWILLRENDEROBJECT_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0839ABB041C2D671(::UnityEngine::Camera* a1)
+		::System::Void DEALIHENNLG(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_METHOD_5_0839ABB041C2D671_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY_DEALIHENNLG_OFFSET))(this, a1);
 		}
+
 	};
 }

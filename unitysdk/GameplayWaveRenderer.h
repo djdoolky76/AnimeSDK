@@ -8,177 +8,177 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-class GameplayWaveRenderer_WaveObjectEntry;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define GAMEPLAYWAVERENDERER_DISTANCETOCURVE_OFFSET UNITYSDK_OFFSET(0x17A3BE10)
-#define GAMEPLAYWAVERENDERER_ISONCURVE_OFFSET UNITYSDK_OFFSET(0x17A3B970)
-#define GAMEPLAYWAVERENDERER_METHOD_5_0A0D9CF4F55A5F8A_OFFSET UNITYSDK_OFFSET(0x17A3CBD0)
-#define GAMEPLAYWAVERENDERER_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x17A3AE40)
-#define GAMEPLAYWAVERENDERER_METHOD_5_22D0ADB352880F38_OFFSET UNITYSDK_OFFSET(0x17A3C840)
-#define GAMEPLAYWAVERENDERER_METHOD_5_23EC84018340F48F_OFFSET UNITYSDK_OFFSET(0x17A3C240)
-#define GAMEPLAYWAVERENDERER_METHOD_5_2F1BBD8275DBBFC1_OFFSET UNITYSDK_OFFSET(0x17A3BE80)
-#define GAMEPLAYWAVERENDERER_METHOD_5_43E290A0B26B39F6_OFFSET UNITYSDK_OFFSET(0x17A3BD70)
-#define GAMEPLAYWAVERENDERER_METHOD_5_53D756D4922CDE85_OFFSET UNITYSDK_OFFSET(0x17A3B860)
-#define GAMEPLAYWAVERENDERER_METHOD_5_6E10DBA521A04356_OFFSET UNITYSDK_OFFSET(0x17A3B060)
-#define GAMEPLAYWAVERENDERER_METHOD_5_7331A1455F3F12A1_OFFSET UNITYSDK_OFFSET(0x17A3CE40)
-#define GAMEPLAYWAVERENDERER_METHOD_5_756EBA0001D7C7DB_OFFSET UNITYSDK_OFFSET(0x17A3CA50)
-#define GAMEPLAYWAVERENDERER_METHOD_5_85E657E328490B3B_OFFSET UNITYSDK_OFFSET(0x17A3BD00)
-#define GAMEPLAYWAVERENDERER_METHOD_5_87CBD6057B3B766D_OFFSET UNITYSDK_OFFSET(0x17A3C710)
-#define GAMEPLAYWAVERENDERER_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x17A3A900)
-#define GAMEPLAYWAVERENDERER_METHOD_5_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0x17A3B820)
-#define GAMEPLAYWAVERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17A3AAF0)
-#define GAMEPLAYWAVERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17A3A8B0)
-#define GAMEPLAYWAVERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17A3A6C0)
-#define GAMEPLAYWAVERENDERER_PLACEATWAVECOORD_OFFSET UNITYSDK_OFFSET(0x17A3BFB0)
-#define GAMEPLAYWAVERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17A3AB40)
-#define GAMEPLAYWAVERENDERER_WORLDTOWAVESPACE_OFFSET UNITYSDK_OFFSET(0x17A3B8D0)
-#define GAMEPLAYWAVERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3CF10)
+#define GAMEPLAYWAVERENDERER_ABPBFJAMDLP_OFFSET UNITYSDK_OFFSET(0x15B60FF0)
+#define GAMEPLAYWAVERENDERER_AEMMBCAMLII_OFFSET UNITYSDK_OFFSET(0x15B5F700)
+#define GAMEPLAYWAVERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x15B617F0)
+#define GAMEPLAYWAVERENDERER_DBOKBKPAOFO_OFFSET UNITYSDK_OFFSET(0x15B5F920)
+#define GAMEPLAYWAVERENDERER_DIDPEDEONNI_OFFSET UNITYSDK_OFFSET(0x15B60760)
+#define GAMEPLAYWAVERENDERER_DISTANCETOCURVE_OFFSET UNITYSDK_OFFSET(0x15B606F0)
+#define GAMEPLAYWAVERENDERER_DJCGDCPHEIC_OFFSET UNITYSDK_OFFSET(0x15B605E0)
+#define GAMEPLAYWAVERENDERER_FMNDKMLGDHC_OFFSET UNITYSDK_OFFSET(0x15B61120)
+#define GAMEPLAYWAVERENDERER_GBAFMBJGELF_OFFSET UNITYSDK_OFFSET(0x15B61330)
+#define GAMEPLAYWAVERENDERER_HBEALPOHNIH_OFFSET UNITYSDK_OFFSET(0x15B60100)
+#define GAMEPLAYWAVERENDERER_HLFKCHIIIGM_OFFSET UNITYSDK_OFFSET(0x15B60B20)
+#define GAMEPLAYWAVERENDERER_ISONCURVE_OFFSET UNITYSDK_OFFSET(0x15B60250)
+#define GAMEPLAYWAVERENDERER_JMPDIOFAPAJ_OFFSET UNITYSDK_OFFSET(0x15B5F130)
+#define GAMEPLAYWAVERENDERER_NLDLDIJHIBF_OFFSET UNITYSDK_OFFSET(0x15B61720)
+#define GAMEPLAYWAVERENDERER_OFGLKFGGKIC_OFFSET UNITYSDK_OFFSET(0x15B60140)
+#define GAMEPLAYWAVERENDERER_OLKFPABBKCA_OFFSET UNITYSDK_OFFSET(0x15B614B0)
+#define GAMEPLAYWAVERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15B5F3B0)
+#define GAMEPLAYWAVERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15B5F0E0)
+#define GAMEPLAYWAVERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15B5EEF0)
+#define GAMEPLAYWAVERENDERER_PKFDCKFCGLL_OFFSET UNITYSDK_OFFSET(0x15B60650)
+#define GAMEPLAYWAVERENDERER_PLACEATWAVECOORD_OFFSET UNITYSDK_OFFSET(0x15B60890)
+#define GAMEPLAYWAVERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15B5F400)
+#define GAMEPLAYWAVERENDERER_WORLDTOWAVESPACE_OFFSET UNITYSDK_OFFSET(0x15B601B0)
 
-inline static constexpr unsigned int GameplayWaveRenderer_TypeDefinitionIndex = 47770;
+inline static constexpr unsigned int GameplayWaveRenderer_TypeDefinitionIndex = 47310;
 
-class GameplayWaveRenderer : public ::UnityEngine::MonoBehaviour
-{
-public:
-	// static const ::System::Int32 FEDCCDBGODG = 0x800; // 0x0
-	// static const ::System::Int32 CKEHCDOGPKP = 0x20; // 0x0
-	::UnityEngine::Material* material; // 0x18
-	::System::Int32 segmentCount; // 0x20
-	::System::Single lineLength; // 0x24
-	::System::Single lineWidth; // 0x28
-	::UnityEngine::Color color; // 0x2C
-	::GameplayWaveRenderer_WaveType waveType; // 0x3C
-	::GameplayWaveRenderer_WaveLayer layer0; // 0x40
-	::GameplayWaveRenderer_WaveLayer layer1; // 0x50
-	::GameplayWaveRenderer_WaveLayer layer2; // 0x60
-	::GameplayWaveRenderer_NoiseWaveParams noiseWave; // 0x70
-	::System::Collections::Generic::List_1<::GameplayWaveRenderer_WaveObjectEntry*>* waveObjects; // 0x90
-	::UnityEngine::ComputeShader* waveComputeShader; // 0x98
-	::UnityEngine::MaterialPropertyBlock* KFMLGOMBJHG; // 0xA0
-	::UnityEngine::ComputeBuffer* HKFJLIDOIJG; // 0xA8
-	::UnityEngine::ComputeBuffer* LHKNICEGFFM; // 0xB0
-	::UnityEngine::ComputeBuffer* LGDJKBBNDIA; // 0xB8
-	::Il2CppArray<::System::Int32>* AJPDHODIJHM; // 0xC0
-	::System::Int32 CCPNKHJJBEK; // 0xC8
-	::System::Int32 isOnCurveSamples; // 0xCC
-
-	::System::Void _ctor()
+	class GameplayWaveRenderer : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::Material* material; // 0x18
+		::System::Int32 segmentCount; // 0x20
+		::System::Single lineLength; // 0x24
+		::System::Single lineWidth; // 0x28
+		::UnityEngine::Color color; // 0x2C
+		::GameplayWaveRenderer_WaveType waveType; // 0x3C
+		::GameplayWaveRenderer_WaveLayer layer0; // 0x40
+		::GameplayWaveRenderer_WaveLayer layer1; // 0x50
+		::GameplayWaveRenderer_WaveLayer layer2; // 0x60
+		::GameplayWaveRenderer_NoiseWaveParams noiseWave; // 0x70
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* waveObjects; // 0x90
+		::UnityEngine::ComputeShader* waveComputeShader; // 0x98
+		::UnityEngine::MaterialPropertyBlock* KFMLGOMBJHG; // 0xA0
+		::UnityEngine::ComputeBuffer* HKFJLIDOIJG; // 0xA8
+		::UnityEngine::ComputeBuffer* LHKNICEGFFM; // 0xB0
+		::UnityEngine::ComputeBuffer* LGDJKBBNDIA; // 0xB8
+		::Il2CppArray<::System::Int32>* AJPDHODIJHM; // 0xC0
+		::System::Int32 CCPNKHJJBEK; // 0xC8
+		::System::Int32 isOnCurveSamples; // 0xCC
+		// static const ::System::Object FEDCCDBGODG; // 0x0
+		// static const ::System::Object CKEHCDOGPKP; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_CTOR_OFFSET))(this);
+		}
 
-	::System::Void OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ONENABLE_OFFSET))(this);
-	}
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ONENABLE_OFFSET))(this);
+		}
 
-	::System::Void OnDisable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ONDISABLE_OFFSET))(this);
-	}
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ONDISABLE_OFFSET))(this);
+		}
 
-	::System::Void OnDestroy()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ONDESTROY_OFFSET))(this);
-	}
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ONDESTROY_OFFSET))(this);
+		}
 
-	::System::Void Method_5_97D83E4CB3B11935()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
-	}
+		::System::Void JMPDIOFAPAJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_JMPDIOFAPAJ_OFFSET))(this);
+		}
 
-	::System::Void Update()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_UPDATE_OFFSET))(this);
-	}
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_UPDATE_OFFSET))(this);
+		}
 
-	::System::Void Method_5_6E10DBA521A04356()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_6E10DBA521A04356_OFFSET))(this);
-	}
+		::System::Void DBOKBKPAOFO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_DBOKBKPAOFO_OFFSET))(this);
+		}
 
-	::System::Void Method_5_1290EA767C459179()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_1290EA767C459179_OFFSET))(this);
-	}
+		::System::Void AEMMBCAMLII()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_AEMMBCAMLII_OFFSET))(this);
+		}
 
-	static ::UnityEngine::Vector4 Method_5_53D756D4922CDE85(::GameplayWaveRenderer_WaveLayer a1)
-	{
-		return ((::UnityEngine::Vector4(*)(::GameplayWaveRenderer_WaveLayer))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_53D756D4922CDE85_OFFSET))(a1);
-	}
+		static ::UnityEngine::Vector4 OFGLKFGGKIC(::GameplayWaveRenderer_WaveLayer a1)
+		{
+			return ((::UnityEngine::Vector4(*)(::GameplayWaveRenderer_WaveLayer))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_OFGLKFGGKIC_OFFSET))(a1);
+		}
 
-	::UnityEngine::Vector2 WorldToWaveSpace(::UnityEngine::Vector3 a1)
-	{
-		return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_WORLDTOWAVESPACE_OFFSET))(this, a1);
-	}
+		::UnityEngine::Vector2 WorldToWaveSpace(::UnityEngine::Vector3 a1)
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_WORLDTOWAVESPACE_OFFSET))(this, a1);
+		}
 
-	::System::Boolean IsOnCurve(::System::Int32 a1, ::System::Single a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ISONCURVE_OFFSET))(this, a1, a2);
-	}
+		::System::Boolean IsOnCurve(::System::Int32 a1, ::System::Single a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ISONCURVE_OFFSET))(this, a1, a2);
+		}
 
-	::System::Single DistanceToCurve(::UnityEngine::Vector3 a1)
-	{
-		return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_DISTANCETOCURVE_OFFSET))(this, a1);
-	}
+		::System::Single DistanceToCurve(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_DISTANCETOCURVE_OFFSET))(this, a1);
+		}
 
-	::System::Void PlaceAtWaveCoord(::System::Int32 a1, ::UnityEngine::Vector2 a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_PLACEATWAVECOORD_OFFSET))(this, a1, a2);
-	}
+		::System::Void PlaceAtWaveCoord(::System::Int32 a1, ::UnityEngine::Vector2 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_PLACEATWAVECOORD_OFFSET))(this, a1, a2);
+		}
 
-	::System::Boolean Method_5_85E657E328490B3B(::System::Int32 a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_85E657E328490B3B_OFFSET))(this, a1);
-	}
+		::System::Boolean DJCGDCPHEIC(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_DJCGDCPHEIC_OFFSET))(this, a1);
+		}
 
-	::UnityEngine::Vector2 Method_5_23EC84018340F48F(::UnityEngine::Vector2 a1, ::System::Single a2)
-	{
-		return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_23EC84018340F48F_OFFSET))(this, a1, a2);
-	}
+		::UnityEngine::Vector2 HLFKCHIIIGM(::UnityEngine::Vector2 a1, ::System::Single a2)
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_HLFKCHIIIGM_OFFSET))(this, a1, a2);
+		}
 
-	::System::Single Method_5_2F1BBD8275DBBFC1(::UnityEngine::Vector3 a1)
-	{
-		return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_2F1BBD8275DBBFC1_OFFSET))(this, a1);
-	}
+		::System::Single DIDPEDEONNI(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_DIDPEDEONNI_OFFSET))(this, a1);
+		}
 
-	::System::Single Method_5_43E290A0B26B39F6(::System::Single a1, ::System::Single a2)
-	{
-		return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_43E290A0B26B39F6_OFFSET))(this, a1, a2);
-	}
+		::System::Single PKFDCKFCGLL(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_PKFDCKFCGLL_OFFSET))(this, a1, a2);
+		}
 
-	::System::Single Method_5_87CBD6057B3B766D(::System::Single a1, ::System::Single a2)
-	{
-		return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_87CBD6057B3B766D_OFFSET))(this, a1, a2);
-	}
+		::System::Single ABPBFJAMDLP(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_ABPBFJAMDLP_OFFSET))(this, a1, a2);
+		}
 
-	::System::Void Method_5_756EBA0001D7C7DB(::System::Single& a1, ::GameplayWaveRenderer_WaveLayer a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single&, ::GameplayWaveRenderer_WaveLayer, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_756EBA0001D7C7DB_OFFSET))(this, a1, a2, a3, a4, a5, a6);
-	}
+		::System::Void GBAFMBJGELF(::System::Single a1, ::GameplayWaveRenderer_WaveLayer a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::GameplayWaveRenderer_WaveLayer, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_GBAFMBJGELF_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
 
-	::System::Single Method_5_22D0ADB352880F38(::System::Single a1, ::System::Single a2)
-	{
-		return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_22D0ADB352880F38_OFFSET))(this, a1, a2);
-	}
+		::System::Single FMNDKMLGDHC(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_FMNDKMLGDHC_OFFSET))(this, a1, a2);
+		}
 
-	static ::System::Single Method_5_7331A1455F3F12A1(::System::Single a1)
-	{
-		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_7331A1455F3F12A1_OFFSET))(a1);
-	}
+		static ::System::Single NLDLDIJHIBF(::System::Single a1)
+		{
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_NLDLDIJHIBF_OFFSET))(a1);
+		}
 
-	static ::System::Single Method_5_0A0D9CF4F55A5F8A(::System::Single a1)
-	{
-		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_0A0D9CF4F55A5F8A_OFFSET))(a1);
-	}
+		static ::System::Single OLKFPABBKCA(::System::Single a1)
+		{
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_OLKFPABBKCA_OFFSET))(a1);
+		}
 
-	static ::System::Single Method_5_FB4BE762B6186C23()
-	{
-		return ((::System::Single(*)())((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_METHOD_5_FB4BE762B6186C23_OFFSET))();
-	}
-};
+		static ::System::Single HBEALPOHNIH()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + GAMEPLAYWAVERENDERER_HBEALPOHNIH_OFFSET))();
+		}
+
+	};

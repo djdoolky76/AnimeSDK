@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B58D880)
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B58D870)
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_GET_END_OFFSET UNITYSDK_OFFSET(0x1B58D850)
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_SET_END_OFFSET UNITYSDK_OFFSET(0x1B58D860)
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58DA10)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F2CB0)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F2E40)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F2CA0)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_GET_END_OFFSET UNITYSDK_OFFSET(0xE8F2C80)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_SET_END_OFFSET UNITYSDK_OFFSET(0xE8F2C90)
 
 namespace RPGTools::Timeline::GamePlay
 {
-	inline static constexpr unsigned int GamePlayTimeRewindClip_TypeDefinitionIndex = 49107;
+	inline static constexpr unsigned int GamePlayTimeRewindClip_TypeDefinitionIndex = 48653;
 
 	class GamePlayTimeRewindClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -23,10 +22,9 @@ namespace RPGTools::Timeline::GamePlay
 		::System::UInt32 GroupID; // 0x18
 		::System::UInt32 PropID; // 0x1C
 		::System::Double _End_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_CTOR_OFFSET))(this);
 		}
 
 		::System::Double get_End()
@@ -48,5 +46,6 @@ namespace RPGTools::Timeline::GamePlay
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

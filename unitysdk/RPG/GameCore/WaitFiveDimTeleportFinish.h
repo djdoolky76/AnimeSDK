@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitFiveDimTeleportFinish; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_METHOD_3_5AF7370543C9E743_OFFSET UNITYSDK_OFFSET(0x1DEB7C20)
-#define RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_METHOD_3_8744FEB7414033C6_OFFSET UNITYSDK_OFFSET(0x1DEB7CF0)
-#define RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB7CE0)
+#define RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6A470)
+#define RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6A480)
+#define RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6A3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFiveDimTeleportFinish_TypeDefinitionIndex = 21037;
+	inline static constexpr unsigned int WaitFiveDimTeleportFinish_TypeDefinitionIndex = 21283;
 
 	class WaitFiveDimTeleportFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5AF7370543C9E743(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFiveDimTeleportFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitFiveDimTeleportFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFiveDimTeleportFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_METHOD_3_5AF7370543C9E743_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitFiveDimTeleportFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8744FEB7414033C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFiveDimTeleportFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitFiveDimTeleportFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFiveDimTeleportFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_METHOD_3_8744FEB7414033C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitFiveDimTeleportFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMTELEPORTFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

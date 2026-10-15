@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Color32.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+namespace System { class Object; }
+
+#define DGEPOBDMLDJ_BGFADDBMJAB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C46600)
+#define DGEPOBDMLDJ_BGFADDBMJAB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C46620)
+
+inline static constexpr unsigned int DGEPOBDMLDJ_BGFADDBMJAB_TypeDefinitionIndex = 6537;
+
+	struct alignas(4) DGEPOBDMLDJ_BGFADDBMJAB
+	{
+		::System::Boolean HOGICPACECN; // 0x10
+		::System::SByte MJMHAEKELII; // 0x10
+		::System::Byte CEKPPFDAKNP; // 0x10
+		::System::Char EHDGBALHHEF; // 0x10
+		::System::Int16 HILDDAPBOFF; // 0x10
+		::System::UInt16 ALEDPHNAOKN; // 0x10
+		::System::Int32 PFGLFOAIFCH; // 0x10
+		::System::UInt32 MJPALIMBHFK; // 0x10
+		::System::Int64 LCAAPLIOBON; // 0x10
+		::System::UInt64 PMDKNFNIFKA; // 0x10
+		::System::Single LFDCHJLKHBO; // 0x10
+		::System::Double LOABAABNLBP; // 0x10
+		::UnityEngine::Vector2 CGBJFLPDNAF; // 0x10
+		::UnityEngine::Vector3 HGHGKGHKFNE; // 0x10
+		::UnityEngine::Vector4 MMIFIBPICCI; // 0x10
+		::UnityEngine::Quaternion NPAEFOFGGIE; // 0x10
+		::UnityEngine::Color MIHFKBPAFGE; // 0x10
+		::UnityEngine::Color32 DCIDADFJMLM; // 0x10
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + DGEPOBDMLDJ_BGFADDBMJAB_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DGEPOBDMLDJ_BGFADDBMJAB_GETHASHCODE_OFFSET))(this);
+		}
+
+	};

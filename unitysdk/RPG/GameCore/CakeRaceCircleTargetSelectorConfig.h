@@ -4,16 +4,16 @@
 #include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
 #include "unitysdk/RPG/GameCore/DynamicRadiusType.h"
 #include "unitysdk/RPG/GameCore/SelectEntityType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceCircleTargetSelectorConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_METHOD_3_5B1949625F5A6A74_OFFSET UNITYSDK_OFFSET(0x1D0FFCC0)
-#define RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_METHOD_3_815831156BA113D9_OFFSET UNITYSDK_OFFSET(0x1D0FD710)
-#define RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD700)
+#define RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51E3F0)
+#define RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51E400)
+#define RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D520A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceCircleTargetSelectorConfig_TypeDefinitionIndex = 18174;
+	inline static constexpr unsigned int CakeRaceCircleTargetSelectorConfig_TypeDefinitionIndex = 18389;
 
 	class CakeRaceCircleTargetSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
@@ -22,20 +22,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::CakeRaceProperty DynamicRadiusProperty; // 0x14
 		::RPG::GameCore::DynamicRadiusType DynamicRadiusSetType; // 0x18
 		::RPG::GameCore::SelectEntityType EntityType; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5B1949625F5A6A74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_METHOD_3_5B1949625F5A6A74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_815831156BA113D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_METHOD_3_815831156BA113D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceCircleTargetSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACECIRCLETARGETSELECTORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NJMOBNILIHI_NHBOMANGKJO_TypeDefinitionIndex = 28941;
+
+	enum class NJMOBNILIHI_NHBOMANGKJO : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		DCODKLADIJM = 379,
+		ELJOEBBHDPB = 401,
+		ILHPFNCIOJN = 954,
+		KAJCFPKEGBP = 1587,
+		IIBJEGJMOKJ = 1974,
+		LNLDJDODOIL = 1981,
+		AGKKAFEFGOB = 1678,
+		IMILIFMDLBI = 1052,
+		BNNDODHIKCE = 632,
+		DHKCMBFCALH = 1780,
+	};

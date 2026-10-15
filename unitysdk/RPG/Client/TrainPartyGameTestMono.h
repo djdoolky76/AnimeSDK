@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B2A1D00)
-#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_OPEN_OFFSET UNITYSDK_OFFSET(0x1B2A1B70)
-#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_PREVIEW_OFFSET UNITYSDK_OFFSET(0x1B2A1E10)
-#define RPG_CLIENT_TRAINPARTYGAMETESTMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A2050)
+#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_CLOSE_OFFSET UNITYSDK_OFFSET(0xE2F63E0)
+#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xE2F6720)
+#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_OPEN_OFFSET UNITYSDK_OFFSET(0xE2F6250)
+#define RPG_CLIENT_TRAINPARTYGAMETESTMONO_PREVIEW_OFFSET UNITYSDK_OFFSET(0xE2F64E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyGameTestMono_TypeDefinitionIndex = 60361;
+	inline static constexpr unsigned int TrainPartyGameTestMono_TypeDefinitionIndex = 60249;
 
 	class TrainPartyGameTestMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYGAMETESTMONO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYGAMETESTMONO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Open()
@@ -33,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYGAMETESTMONO_PREVIEW_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

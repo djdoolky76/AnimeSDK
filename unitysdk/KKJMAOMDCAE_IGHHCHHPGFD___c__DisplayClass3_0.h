@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class KKJMAOMDCAE_OPIGALIJPOP;
+
+#define KKJMAOMDCAE_IGHHCHHPGFD___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4C7DF0)
+#define KKJMAOMDCAE_IGHHCHHPGFD___C__DISPLAYCLASS3_0__HASEQUIPRECOMMEND_B__0_OFFSET UNITYSDK_OFFSET(0xB4C7FB0)
+#define KKJMAOMDCAE_IGHHCHHPGFD___C__DISPLAYCLASS3_0__HASEQUIPRECOMMEND_B__1_OFFSET UNITYSDK_OFFSET(0xB4C7FF0)
+
+inline static constexpr unsigned int KKJMAOMDCAE_IGHHCHHPGFD___c__DisplayClass3_0_TypeDefinitionIndex = 64775;
+
+	class KKJMAOMDCAE_IGHHCHHPGFD___c__DisplayClass3_0 : public ::System::Object
+	{
+	public:
+		::System::UInt32 roleID; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _HasEquipRecommend_b__0(::KKJMAOMDCAE_OPIGALIJPOP* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::KKJMAOMDCAE_OPIGALIJPOP*))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD___C__DISPLAYCLASS3_0__HASEQUIPRECOMMEND_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _HasEquipRecommend_b__1(::KKJMAOMDCAE_OPIGALIJPOP* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::KKJMAOMDCAE_OPIGALIJPOP*))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD___C__DISPLAYCLASS3_0__HASEQUIPRECOMMEND_B__1_OFFSET))(this, a1);
+		}
+
+	};

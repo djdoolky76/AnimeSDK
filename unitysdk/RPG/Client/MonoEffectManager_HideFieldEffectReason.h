@@ -3,17 +3,17 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectManager_HideFieldEffectReason_TypeDefinitionIndex = 69817;
+	inline static constexpr unsigned int MonoEffectManager_HideFieldEffectReason_TypeDefinitionIndex = 69851;
 
 	enum class MonoEffectManager_HideFieldEffectReason : ::System::Byte
 	{
-		Default = 0x0,
-		UltraSkill = 0x1,
-		DarkTimelineSkill = 0x2,
-		Camera = 0x3,
-		Task = 0x4,
-		Performance = 0x5,
-		HideLevelStage = 0x6,
-		Count = 0x7,
+		Default = 0,
+		UltraSkill = 1,
+		DarkTimelineSkill = 2,
+		Camera = 3,
+		Task = 4,
+		Performance = 5,
+		HideLevelStage = 6,
+		Count = 7,
 	};
 }

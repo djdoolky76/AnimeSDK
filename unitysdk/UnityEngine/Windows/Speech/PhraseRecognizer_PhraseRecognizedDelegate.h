@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Windows/Speech/PhraseRecognizedEventArgs.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EED7C00)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EED7C70)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EED7980)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED7B90)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F413AE0)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F413A70)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F413B50)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F413860)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognizer_PhraseRecognizedDelegate_TypeDefinitionIndex = 4432;
+	inline static constexpr unsigned int PhraseRecognizer_PhraseRecognizedDelegate_TypeDefinitionIndex = 4436;
 
 	class PhraseRecognizer_PhraseRecognizedDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Windows::Speech::PhraseRecognizedEventArgs a1)
@@ -38,5 +37,6 @@ namespace UnityEngine::Windows::Speech
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_PHRASERECOGNIZEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

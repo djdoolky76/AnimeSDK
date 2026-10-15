@@ -2,45 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_8116AE3B07301E74;
+class PPAFCLJOBBM;
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1BDCFA10)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_METHOD_5_AECF8BEC293ED42A_OFFSET UNITYSDK_OFFSET(0x1BDCF950)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDCFDA0)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_START_OFFSET UNITYSDK_OFFSET(0x1BDCF690)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDCFE80)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCFE70)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2BD0E0)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0xE2BD0D0)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE2BCC70)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE2BD000)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_PDHLFFMCNLO_OFFSET UNITYSDK_OFFSET(0xE2BCBC0)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_START_OFFSET UNITYSDK_OFFSET(0xE2BC900)
 
 namespace RPG::Client::TrainParty::Mapping
 {
-	inline static constexpr unsigned int SlotBtnMapping_TypeDefinitionIndex = 74275;
+	inline static constexpr unsigned int SlotBtnMapping_TypeDefinitionIndex = 74374;
 
 	class SlotBtnMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Vector3* StaticGet_FIHGKAPBIKF()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SlotBtnMapping_TypeDefinitionIndex)->GetStaticField(0x12DD0);
-		}
 		::System::UInt32 _SlotID; // 0x18
 		::UnityEngine::Vector3 IKKNJMJCDOJ; // 0x1C
 		::UnityEngine::Transform* OJAHLJGABMJ; // 0x28
 		::UnityEngine::RectTransform* BDCKIHNMDDK; // 0x30
 		::UnityEngine::RectTransform* EODDCCMLIHH; // 0x38
 		::UnityEngine::Camera* DMBMOHJLNEN; // 0x40
+		static ::UnityEngine::Vector3* StaticGet_FIHGKAPBIKF()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.TrainParty.Mapping", "SlotBtnMapping")->GetStaticField(0x6020);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()
@@ -58,9 +57,10 @@ namespace RPG::Client::TrainParty::Mapping
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_ONDESTROY_OFFSET))(this);
 		}
 
-		::Class_1_8116AE3B07301E74* Method_5_AECF8BEC293ED42A()
+		::PPAFCLJOBBM* PDHLFFMCNLO()
 		{
-			return ((::Class_1_8116AE3B07301E74*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_METHOD_5_AECF8BEC293ED42A_OFFSET))(this);
+			return ((::PPAFCLJOBBM*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_PDHLFFMCNLO_OFFSET))(this);
 		}
+
 	};
 }

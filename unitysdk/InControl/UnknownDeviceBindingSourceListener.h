@@ -3,31 +3,29 @@
 #include "unitysdk/InControl/UnknownDeviceBindingSourceListener_DetectPhase.h"
 #include "unitysdk/InControl/UnknownDeviceControl.h"
 #include "unitysdk/System/Object.h"
-
 namespace InControl { class BindingListenOptions; }
 namespace InControl { class BindingSource; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0xC15A890)
-#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0xC15A8D0)
-#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0xC15A610)
-#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0xC15A430)
-#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_TAKESNAPSHOTONUNKNOWNDEVICES_OFFSET UNITYSDK_OFFSET(0xC15A4A0)
-#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0xC15AA50)
+#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3ACF0)
+#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB3AB30)
+#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x1BB3AB70)
+#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x1BB3A8B0)
+#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1BB3A6D0)
+#define INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_TAKESNAPSHOTONUNKNOWNDEVICES_OFFSET UNITYSDK_OFFSET(0x1BB3A740)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnknownDeviceBindingSourceListener_TypeDefinitionIndex = 39514;
+	inline static constexpr unsigned int UnknownDeviceBindingSourceListener_TypeDefinitionIndex = 40811;
 
 	class UnknownDeviceBindingSourceListener : public ::System::Object
 	{
 	public:
-		::InControl::UnknownDeviceBindingSourceListener_DetectPhase detectPhase; // 0x10
-		::InControl::UnknownDeviceControl detectFound; // 0x14
-
+		::InControl::UnknownDeviceControl detectFound; // 0x10
+		::InControl::UnknownDeviceBindingSourceListener_DetectPhase detectPhase; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -54,5 +52,6 @@ namespace InControl
 		{
 			return ((::InControl::UnknownDeviceControl(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

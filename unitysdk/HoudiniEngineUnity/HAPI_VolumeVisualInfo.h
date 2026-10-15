@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_VolumeVisualType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_VolumeVisualInfo_TypeDefinitionIndex = 39216;
+	inline static constexpr unsigned int HAPI_VolumeVisualInfo_TypeDefinitionIndex = 40513;
 
 	struct alignas(4) HAPI_VolumeVisualInfo
 	{

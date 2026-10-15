@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelSaveEntitySelectionConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
+namespace RPG::GameCore { class ChimeraDuelRepeatEntitySelectionConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_METHOD_3_11C56FE8C62799F7_OFFSET UNITYSDK_OFFSET(0x1E33B140)
-#define RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_METHOD_3_1F796C676422C4D5_OFFSET UNITYSDK_OFFSET(0x1E33B1A0)
-#define RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33B190)
+#define RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57B880)
+#define RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57B890)
+#define RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57B830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRepeatEntitySelectionConfig_TypeDefinitionIndex = 15728;
+	inline static constexpr unsigned int ChimeraDuelRepeatEntitySelectionConfig_TypeDefinitionIndex = 15901;
 
 	class ChimeraDuelRepeatEntitySelectionConfig : public ::RPG::GameCore::BaseChimeraDuelSaveEntitySelectionConfig
 	{
 	public:
 		::RPG::GameCore::BaseChimeraDuelValueGetter* RepeatTimesValueGetter; // 0x10
 		::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* Selector; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_11C56FE8C62799F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_METHOD_3_11C56FE8C62799F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1F796C676422C4D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_METHOD_3_1F796C676422C4D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelRepeatEntitySelectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPEATENTITYSELECTIONCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

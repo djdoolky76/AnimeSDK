@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPointsSample.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIPOINTS_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1CE432F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIPOINTS_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F14EF90)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiPoints_TypeDefinitionIndex = 44659;
+	inline static constexpr unsigned int NativeMethods_aiPoints_TypeDefinitionIndex = 45798;
 
-	struct alignas(1) NativeMethods_aiPoints
+	struct alignas(4) NativeMethods_aiPoints
 	{
-		/*
 		static ::UnityEngine::Formats::Alembic::Sdk::aiPointsSample aiSchemaGetSample(::System::IntPtr a1)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aiPointsSample(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIPOINTS_AISCHEMAGETSAMPLE_OFFSET))(a1);
 		}
-		*/
+
 	};
 }

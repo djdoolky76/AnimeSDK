@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceHandbookRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1020E0)
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1022C0)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D523010)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D522E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11009;
+	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11025;
 
 	class CakeRaceHandbookRow : public ::System::Object
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* AvatarTalkIDList; // 0x18
 		::System::UInt32 Order; // 0x20
 		::System::UInt32 CatID; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEHANDBOOKROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEHANDBOOKROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceHandbookRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceHandbookRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceHandbookRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceHandbookRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

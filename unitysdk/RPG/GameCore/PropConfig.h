@@ -4,14 +4,14 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PropLodTemplateName.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdvEffectConfig; }
 namespace RPG::GameCore { class AdvTriggerEffectList; }
 namespace RPG::GameCore { class AnimGroupEventConfig; }
 namespace RPG::GameCore { class CharacterAnimEventConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class PropButtonConfig; }
+namespace RPG::GameCore { class PropConfig; }
 namespace RPG::GameCore { class PropSoundConfig; }
 namespace RPG::GameCore { class PropStateConfig; }
 namespace RPG::GameCore { class PropTagComponentCollection; }
@@ -22,14 +22,14 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET UNITYSDK_OFFSET(0x1D174470)
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_A39AC06517AEB503_OFFSET UNITYSDK_OFFSET(0x1D1741A0)
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_CE571A0AD6B45B00_OFFSET UNITYSDK_OFFSET(0x1D174180)
-#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D174E80)
+#define RPG_GAMECORE_PROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D919200)
+#define RPG_GAMECORE_PROPCONFIG_HMDJDJIDNGB_OFFSET UNITYSDK_OFFSET(0x1D918490)
+#define RPG_GAMECORE_PROPCONFIG_KLJJFMKJOFE_OFFSET UNITYSDK_OFFSET(0x1D918470)
+#define RPG_GAMECORE_PROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D918760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 15304;
+	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 15475;
 
 	class PropConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,13 +40,17 @@ namespace RPG::GameCore
 		::RPG::GameCore::AdvTriggerEffectList* AdvResidentEffects; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDestruction; // 0x30
 		::System::Boolean SyncEffectOnDestruction; // 0x38
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::System::String*>* AnimEventConfigList; // 0x40
 		::System::Single TriggerHintRadius; // 0x48
+		::System::Byte _padding1[0x4];
 		::System::String* HintEffectPath; // 0x50
 		::System::String* HintEffectAttachPoint; // 0x58
 		::System::Single HintEffectScale; // 0x60
+		::System::Byte _padding2[0x4];
 		::Il2CppArray<::System::String*>* DisableAnimEventLayers; // 0x68
 		::System::Boolean TryUseSimpleAnimEvents; // 0x70
+		::System::Byte _padding3[0x7];
 		::Il2CppArray<::RPG::GameCore::SingleAnimEventConfig*>* AnimatorStateEvents; // 0x78
 		::Il2CppArray<::RPG::GameCore::AnimGroupEventConfig*>* AnimatorStateGroupEvents; // 0x80
 		::RPG::GameCore::PropSoundConfig* SoundConfig; // 0x88
@@ -62,29 +66,30 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::PropButtonConfig*>* PropButtonConfigs; // 0xC8
 		::RPG::GameCore::TriggerValidGuestConfig* TriggerValidGuest; // 0xD0
 		::RPG::MVector3 CenterOffset; // 0xD8
+		::System::Byte _padding4[0x4];
 		::RPG::GameCore::HoyoTagContainer* TagContainer; // 0xE8
 		::RPG::GameCore::PropTagComponentCollection* TagComponents; // 0xF0
 		::System::String* ReplaceMaterialKey; // 0xF8
 		::Il2CppArray<::RPG::GameCore::AdvEffectConfig*>* AdvEffectList; // 0x100
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_2_CE571A0AD6B45B00(::RPG::GameCore::AnimGroupEventConfig* a1)
+		static ::System::Boolean KLJJFMKJOFE(::RPG::GameCore::AnimGroupEventConfig* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::AnimGroupEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_CE571A0AD6B45B00_OFFSET))(a1);
+			return ((::System::Boolean(*)(::RPG::GameCore::AnimGroupEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_KLJJFMKJOFE_OFFSET))(a1);
 		}
 
-		::System::Boolean Method_2_A39AC06517AEB503()
+		::System::Boolean HMDJDJIDNGB()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_A39AC06517AEB503_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_HMDJDJIDNGB_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_894B217F2342BC66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

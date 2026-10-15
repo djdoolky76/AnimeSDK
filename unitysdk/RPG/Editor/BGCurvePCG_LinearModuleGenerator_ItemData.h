@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_ITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16842490)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_ITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE49C0A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_ItemData_TypeDefinitionIndex = 52313;
+	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_ItemData_TypeDefinitionIndex = 52026;
 
 	class BGCurvePCG_LinearModuleGenerator_ItemData : public ::System::Object
 	{
@@ -25,10 +25,10 @@ namespace RPG::Editor
 		::System::Single VertexOffsetXY1; // 0x44
 		::System::Single VertexOffsetYX1; // 0x48
 		::UnityEngine::Vector4 CustomDataEncode; // 0x4C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_ITEMDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_ITEMDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

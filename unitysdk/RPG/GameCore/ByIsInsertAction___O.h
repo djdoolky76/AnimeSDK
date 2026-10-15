@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/SkillType.h"
 #include "unitysdk/System/Object.h"
-
-template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
+namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 22314;
+	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 22565;
 
 	class ByIsInsertAction___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::SkillType>** StaticGet__0___FromJson()
+		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(ByIsInsertAction___O_TypeDefinitionIndex)->GetStaticField(0x116C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x10C40);
 		}
+
 	};
 }

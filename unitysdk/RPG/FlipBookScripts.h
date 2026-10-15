@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_FLIPBOOKSCRIPTS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16849FB0)
-#define RPG_FLIPBOOKSCRIPTS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16849E90)
-#define RPG_FLIPBOOKSCRIPTS_START_OFFSET UNITYSDK_OFFSET(0x16849DD0)
-#define RPG_FLIPBOOKSCRIPTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x16849EE0)
-#define RPG_FLIPBOOKSCRIPTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1684A000)
+#define RPG_FLIPBOOKSCRIPTS_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A3BE0)
+#define RPG_FLIPBOOKSCRIPTS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE4A3B90)
+#define RPG_FLIPBOOKSCRIPTS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE4A3A70)
+#define RPG_FLIPBOOKSCRIPTS_START_OFFSET UNITYSDK_OFFSET(0xE4A39B0)
+#define RPG_FLIPBOOKSCRIPTS_UPDATE_OFFSET UNITYSDK_OFFSET(0xE4A3AC0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int FlipBookScripts_TypeDefinitionIndex = 52010;
+	inline static constexpr unsigned int FlipBookScripts_TypeDefinitionIndex = 51715;
 
 	class FlipBookScripts : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +19,9 @@ namespace RPG
 		::UnityEngine::Material* UVMoveMat; // 0x18
 		::System::Single FlipNum; // 0x20
 		::System::Single MaxNum; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_FLIPBOOKSCRIPTS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_FLIPBOOKSCRIPTS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -45,5 +43,6 @@ namespace RPG
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_FLIPBOOKSCRIPTS_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class PlayTimelinePrefab; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYTIMELINEPREFAB_METHOD_3_13D938A48A1A9B06_OFFSET UNITYSDK_OFFSET(0x1D7A9410)
-#define RPG_GAMECORE_PLAYTIMELINEPREFAB_METHOD_3_D0C714BD86C09B03_OFFSET UNITYSDK_OFFSET(0x1D7A93D0)
-#define RPG_GAMECORE_PLAYTIMELINEPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A9400)
+#define RPG_GAMECORE_PLAYTIMELINEPREFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D904CC0)
+#define RPG_GAMECORE_PLAYTIMELINEPREFAB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D904CD0)
+#define RPG_GAMECORE_PLAYTIMELINEPREFAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D904C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayTimelinePrefab_TypeDefinitionIndex = 21677;
+	inline static constexpr unsigned int PlayTimelinePrefab_TypeDefinitionIndex = 21925;
 
 	class PlayTimelinePrefab : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* PrefabPath; // 0x18
 		::RPG::GameCore::DynamicString* AreaName; // 0x20
 		::RPG::GameCore::DynamicString* AnchorName; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINEPREFAB__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINEPREFAB_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D0C714BD86C09B03(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTimelinePrefab*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayTimelinePrefab* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTimelinePrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINEPREFAB_METHOD_3_D0C714BD86C09B03_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayTimelinePrefab*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINEPREFAB_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_13D938A48A1A9B06(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTimelinePrefab* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayTimelinePrefab* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTimelinePrefab*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINEPREFAB_METHOD_3_13D938A48A1A9B06_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayTimelinePrefab*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINEPREFAB_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

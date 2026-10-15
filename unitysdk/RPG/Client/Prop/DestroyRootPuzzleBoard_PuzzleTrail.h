@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DestroyRootPuzzleBoard_PuzzleTrail_TypeDefinitionIndex = 78072;
+	inline static constexpr unsigned int DestroyRootPuzzleBoard_PuzzleTrail_TypeDefinitionIndex = 78543;
 
 	struct alignas(8) DestroyRootPuzzleBoard_PuzzleTrail
 	{

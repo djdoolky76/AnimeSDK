@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterEmoConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEREMOCONFIG_METHOD_2_EF0F1CCF24E7E51E_OFFSET UNITYSDK_OFFSET(0x1D120B50)
-#define RPG_GAMECORE_CHARACTEREMOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D120D50)
+#define RPG_GAMECORE_CHARACTEREMOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5426F0)
+#define RPG_GAMECORE_CHARACTEREMOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5424F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEmoConfig_TypeDefinitionIndex = 16340;
+	inline static constexpr unsigned int CharacterEmoConfig_TypeDefinitionIndex = 16513;
 
 	class CharacterEmoConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,15 +20,15 @@ namespace RPG::GameCore
 		::System::String* EmoBlinkPath; // 0x20
 		::System::String* EmoStunPath; // 0x28
 		::System::String* EmoHitPath; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EF0F1CCF24E7E51E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEmoConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterEmoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEmoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONFIG_METHOD_2_EF0F1CCF24E7E51E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterEmoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceLayoutConfig_CrowdConfig_TypeDefinitionIndex = 69114;
+	inline static constexpr unsigned int AudienceLayoutConfig_CrowdConfig_TypeDefinitionIndex = 69150;
 
 	struct alignas(4) AudienceLayoutConfig_CrowdConfig
 	{

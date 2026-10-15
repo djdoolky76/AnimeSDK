@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKReportModel_DeviceInfo; }
 namespace MiHoYo::SDK { class MiHoYoSDKReportModel_LogInfo; }
 namespace MiHoYo::SDK { class MiHoYoSDKReportModel_UserInfo; }
 namespace MiHoYo::SDK { class MiHoYoSDKReportModel_VersionInfo; }
 
-#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_UPLOADCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x194A1700)
+#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_UPLOADCONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD4520)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKReportModel_UploadContent_TypeDefinitionIndex = 46814;
+	inline static constexpr unsigned int MiHoYoSDKReportModel_UploadContent_TypeDefinitionIndex = 46354;
 
 	class MiHoYoSDKReportModel_UploadContent : public ::System::Object
 	{
@@ -20,10 +19,10 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::MiHoYoSDKReportModel_UserInfo* userInfo; // 0x18
 		::MiHoYo::SDK::MiHoYoSDKReportModel_VersionInfo* versionInfo; // 0x20
 		::MiHoYo::SDK::MiHoYoSDKReportModel_LogInfo* logInfo; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREPORTMODEL_UPLOADCONTENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREPORTMODEL_UPLOADCONTENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

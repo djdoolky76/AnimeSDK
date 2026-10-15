@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Graphic.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_AUILINERENDER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1ABB1150)
-#define RPG_CLIENT_AUILINERENDER_METHOD_7_1E2ADA6EB660284B_OFFSET UNITYSDK_OFFSET(0x1ABB1E10)
-#define RPG_CLIENT_AUILINERENDER_METHOD_7_EE31827DE295EEA2_OFFSET UNITYSDK_OFFSET(0x1ABB1450)
-#define RPG_CLIENT_AUILINERENDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1ABB11A0)
-#define RPG_CLIENT_AUILINERENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB1F10)
+#define RPG_CLIENT_AUILINERENDER_AFMKJIIMBME_OFFSET UNITYSDK_OFFSET(0xC39D290)
+#define RPG_CLIENT_AUILINERENDER_CTOR_OFFSET UNITYSDK_OFFSET(0xC39D390)
+#define RPG_CLIENT_AUILINERENDER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xC39C620)
+#define RPG_CLIENT_AUILINERENDER_ODFMEADMDGO_OFFSET UNITYSDK_OFFSET(0xC39C8D0)
+#define RPG_CLIENT_AUILINERENDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xC39C670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AUiLineRender_TypeDefinitionIndex = 72420;
+	inline static constexpr unsigned int AUiLineRender_TypeDefinitionIndex = 72493;
 
 	class AUiLineRender : public ::UnityEngine::UI::Graphic
 	{
@@ -28,10 +27,9 @@ namespace RPG::Client
 		::System::Single MIFNGIMKFDN; // 0xBC
 		::UnityEngine::Vector2 INMBPBJIIIO; // 0xC0
 		::System::Single Thickness; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Texture* get_mainTexture()
@@ -44,14 +42,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_EE31827DE295EEA2(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Int32 a3, ::UnityEngine::UI::VertexHelper* a4)
+		::System::Void ODFMEADMDGO(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Int32 a3, ::UnityEngine::UI::VertexHelper* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Int32, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_METHOD_7_EE31827DE295EEA2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Int32, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_ODFMEADMDGO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector2 Method_7_1E2ADA6EB660284B(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Int32 a3)
+		::UnityEngine::Vector2 AFMKJIIMBME(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_METHOD_7_1E2ADA6EB660284B_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_AFMKJIIMBME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class ST_Parkour_ShutdownEngine; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_822A6E0CAFCAA04A_OFFSET UNITYSDK_OFFSET(0x1D320340)
-#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_FBB2A37C10765CE7_OFFSET UNITYSDK_OFFSET(0x1D320410)
-#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D320400)
+#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D308FE0)
+#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D308FF0)
+#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D308F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_ShutdownEngine_TypeDefinitionIndex = 10256;
+	inline static constexpr unsigned int ST_Parkour_ShutdownEngine_TypeDefinitionIndex = 10270;
 
 	class ST_Parkour_ShutdownEngine : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_822A6E0CAFCAA04A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ShutdownEngine*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::ST_Parkour_ShutdownEngine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ShutdownEngine*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_822A6E0CAFCAA04A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::ST_Parkour_ShutdownEngine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FBB2A37C10765CE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ShutdownEngine* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::ST_Parkour_ShutdownEngine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ShutdownEngine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_FBB2A37C10765CE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::ST_Parkour_ShutdownEngine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierRefreshBuffSelectGuaranteedAeonConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_METHOD_3_31549C5AFADA5ECB_OFFSET UNITYSDK_OFFSET(0x1EEFC5B0)
-#define RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_METHOD_3_85C7463ED3870ACF_OFFSET UNITYSDK_OFFSET(0x1EEFC600)
-#define RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFC5F0)
+#define RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9EBFE0)
+#define RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9EBFF0)
+#define RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9EBFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierRefreshBuffSelectGuaranteedAeonConfig_TypeDefinitionIndex = 17742;
+	inline static constexpr unsigned int RogueModifierRefreshBuffSelectGuaranteedAeonConfig_TypeDefinitionIndex = 17954;
 
 	class RogueModifierRefreshBuffSelectGuaranteedAeonConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_31549C5AFADA5ECB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_METHOD_3_31549C5AFADA5ECB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_85C7463ED3870ACF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_METHOD_3_85C7463ED3870ACF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierRefreshBuffSelectGuaranteedAeonConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERREFRESHBUFFSELECTGUARANTEEDAEONCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

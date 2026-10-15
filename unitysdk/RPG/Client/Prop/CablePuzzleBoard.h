@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/BlockScreenHexPuzzle.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace RPG::Client::Prop { class CablePuzzleItem; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
@@ -14,52 +13,50 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x189C1790)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0x189C16C0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x189C5D50)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITCONTROLLERMODE_OFFSET UNITYSDK_OFFSET(0x189C21C0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITITEMSPOSITION_OFFSET UNITYSDK_OFFSET(0x189C3430)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITITEMS_OFFSET UNITYSDK_OFFSET(0x189C2CF0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0x189C1410)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0x189C1740)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_627C7524E98F4AC5_1_OFFSET UNITYSDK_OFFSET(0x189C4CD0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_627C7524E98F4AC5_2_OFFSET UNITYSDK_OFFSET(0x189C5CC0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x189C2960)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_AEE7F196DE963C06_OFFSET UNITYSDK_OFFSET(0x189C11C0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_B8D56F983FF1867B_OFFSET UNITYSDK_OFFSET(0x189C45D0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_C20A7E9DF3996211_OFFSET UNITYSDK_OFFSET(0x189C29F0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_EB5D3509EE8249D5_OFFSET UNITYSDK_OFFSET(0x189C3A20)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_EBAFE4A8C3434D34_OFFSET UNITYSDK_OFFSET(0x189C3B60)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x189C4C10)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_F5B903EF64E6B73E_OFFSET UNITYSDK_OFFSET(0x189C4D60)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_F714A8A870B4D9F4_OFFSET UNITYSDK_OFFSET(0x189C4340)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONCONTROLLERJOYSTICKINPUT_OFFSET UNITYSDK_OFFSET(0x189C1EB0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONCONTROLLERPRESSMENUCONFIRM_OFFSET UNITYSDK_OFFSET(0x189C2400)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONFINISH_OFFSET UNITYSDK_OFFSET(0x189C43F0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONNOTIFYCLICKEXIT_OFFSET UNITYSDK_OFFSET(0x189C2470)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONNOTIFYCLICKRESET_OFFSET UNITYSDK_OFFSET(0x189C2590)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_REFRESHITEMSCONNECTIONRELATION_OFFSET UNITYSDK_OFFSET(0x189C36E0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_REPORTSTEP_OFFSET UNITYSDK_OFFSET(0x189C4690)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_START_OFFSET UNITYSDK_OFFSET(0x189C4B20)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0x189C09D0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x189C6160)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x189C5D60)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_AOBNMJOFAOA_OFFSET UNITYSDK_OFFSET(0xDC34420)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_BDADKCDPPHH_OFFSET UNITYSDK_OFFSET(0xDC34570)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC35970)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_CHNOGGODOIG_OFFSET UNITYSDK_OFFSET(0xDC32200)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDC35570)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC30F90)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_EKFPAHCFBIN_OFFSET UNITYSDK_OFFSET(0xDC344E0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0xDC30EC0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xDC35560)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITCONTROLLERMODE_OFFSET UNITYSDK_OFFSET(0xDC319D0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITITEMSPOSITION_OFFSET UNITYSDK_OFFSET(0xDC32C40)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITITEMS_OFFSET UNITYSDK_OFFSET(0xDC32500)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC30C10)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDC30F40)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_JKOKINCDHGD_OFFSET UNITYSDK_OFFSET(0xDC33B50)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_LPJLOBMKIFA_OFFSET UNITYSDK_OFFSET(0xDC33DE0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_MJLMMLCKBKH_OFFSET UNITYSDK_OFFSET(0xDC354D0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_NKGKCNKEDEF_OFFSET UNITYSDK_OFFSET(0xDC309C0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_OHHIIIANDDN_OFFSET UNITYSDK_OFFSET(0xDC32170)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_OJLKCPMNMJC_OFFSET UNITYSDK_OFFSET(0xDC33230)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONCONTROLLERJOYSTICKINPUT_OFFSET UNITYSDK_OFFSET(0xDC316C0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONCONTROLLERPRESSMENUCONFIRM_OFFSET UNITYSDK_OFFSET(0xDC31C10)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONFINISH_OFFSET UNITYSDK_OFFSET(0xDC33C00)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONNOTIFYCLICKEXIT_OFFSET UNITYSDK_OFFSET(0xDC31C80)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONNOTIFYCLICKRESET_OFFSET UNITYSDK_OFFSET(0xDC31DA0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_OPKMOKGFOAH_OFFSET UNITYSDK_OFFSET(0xDC33370)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_REFRESHITEMSCONNECTIONRELATION_OFFSET UNITYSDK_OFFSET(0xDC32EF0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_REPORTSTEP_OFFSET UNITYSDK_OFFSET(0xDC33EA0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_START_OFFSET UNITYSDK_OFFSET(0xDC34330)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDC301D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CablePuzzleBoard_TypeDefinitionIndex = 78130;
+	inline static constexpr unsigned int CablePuzzleBoard_TypeDefinitionIndex = 78601;
 
 	class CablePuzzleBoard : public ::RPG::Client::Prop::BlockScreenHexPuzzle
 	{
 	public:
-		static ::System::String** StaticGet_GameKey()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CablePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x601E0);
-		}
 		::System::Single RotateSpeed; // 0xF0
+		::System::Byte _padding0[0x4];
 		::System::String* ResetTriggerCustomString; // 0xF8
 		::UnityEngine::Vector2Int ControllerModeInitHighlightPos; // 0x100
 		::System::Single DelayResetTime; // 0x108
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* RotationSpeedCurve; // 0x110
 		::UnityEngine::AnimationCurve* InitAnimationCurve; // 0x118
 		::UnityEngine::Vector2Int CenterCoord; // 0x120
@@ -72,8 +69,10 @@ namespace RPG::Client::Prop
 		::System::String* FinishSoundEvent; // 0x148
 		::System::Int32 StartTime; // 0x150
 		::System::Boolean PIPLLENMLIM; // 0x154
+		::System::Byte _padding2[0x3];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* GIOGDLNKNLM; // 0x158
 		::System::Int32 KBDCCKCPCHH; // 0x160
+		::System::Byte _padding3[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* GCIKKMGIPIO; // 0x168
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* NKAKNMGMFGA; // 0x170
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* CIKDOOGLNDF; // 0x178
@@ -85,16 +84,21 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* BHKLPKOPFAE; // 0x1A8
 		::System::Boolean GBAHDJFPPBC; // 0x1B0
 		::System::Boolean PMMNGNJMOJP; // 0x1B1
+		::System::Byte _padding4[0x6];
 		::RPG::Client::Prop::CablePuzzleItem* HOIMBOJIOPB; // 0x1B8
+		static ::System::String** StaticGet_GameKey()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "CablePuzzleBoard")->GetStaticField(0x35130);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_CCTOR_OFFSET))();
 		}
 
 		::System::Void Update()
@@ -142,14 +146,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONNOTIFYCLICKRESET_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* Method_9_627C7524E98F4AC5()
+		::System::Collections::IEnumerator* OHHIIIANDDN()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_627C7524E98F4AC5_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_OHHIIIANDDN_OFFSET))(this);
 		}
 
-		::System::Void Method_9_C20A7E9DF3996211()
+		::System::Void CHNOGGODOIG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_C20A7E9DF3996211_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_CHNOGGODOIG_OFFSET))(this);
 		}
 
 		::System::Void InitItems()
@@ -182,9 +186,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_ONFINISH_OFFSET))(this);
 		}
 
-		::System::Void Method_9_AEE7F196DE963C06(::RPG::Client::Prop::CablePuzzleItem* a1)
+		::System::Void NKGKCNKEDEF(::RPG::Client::Prop::CablePuzzleItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_AEE7F196DE963C06_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_NKGKCNKEDEF_OFFSET))(this, a1);
 		}
 
 		::System::Void Start()
@@ -192,49 +196,50 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_START_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_9_627C7524E98F4AC5_1()
+		::System::Collections::IEnumerator* EKFPAHCFBIN()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_627C7524E98F4AC5_1_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_EKFPAHCFBIN_OFFSET))(this);
 		}
 
-		::System::Void Method_9_F5B903EF64E6B73E(::RPG::Client::Prop::CablePuzzleItem* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a3, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a4, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>* a5)
+		::System::Void BDADKCDPPHH(::RPG::Client::Prop::CablePuzzleItem* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a3, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a4, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_F5B903EF64E6B73E_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_BDADKCDPPHH_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Method_9_EB5D3509EE8249D5(::RPG::Client::Prop::CablePuzzleItem* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a3, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a4, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>* a5)
+		::System::Void OJLKCPMNMJC(::RPG::Client::Prop::CablePuzzleItem* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a3, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a4, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_EB5D3509EE8249D5_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_OJLKCPMNMJC_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean Method_9_EBAFE4A8C3434D34(::RPG::Client::Prop::CablePuzzleItem* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>* a2)
+		::System::Boolean OPKMOKGFOAH(::RPG::Client::Prop::CablePuzzleItem* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_EBAFE4A8C3434D34_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::CablePuzzleItem*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_OPKMOKGFOAH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_9_B8D56F983FF1867B(::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a1)
+		::System::Void LPJLOBMKIFA(::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_B8D56F983FF1867B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_LPJLOBMKIFA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_9_F714A8A870B4D9F4(::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a1)
+		::System::Void JKOKINCDHGD(::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_F714A8A870B4D9F4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::CablePuzzleItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_JKOKINCDHGD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_9_F0BD65B017F2AC0B()
+		::System::Void AOBNMJOFAOA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_F0BD65B017F2AC0B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_AOBNMJOFAOA_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_9_627C7524E98F4AC5_2()
+		::System::Collections::IEnumerator* MJLMMLCKBKH()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_METHOD_9_627C7524E98F4AC5_2_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_MJLMMLCKBKH_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsFinish()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD_GET_ISFINISH_OFFSET))(this);
 		}
+
 	};
 }

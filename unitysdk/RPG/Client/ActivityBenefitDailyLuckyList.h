@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityBenefitLuckyKoiInfo.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitDailyLuckyList_TypeDefinitionIndex = 61486;
+	inline static constexpr unsigned int ActivityBenefitDailyLuckyList_TypeDefinitionIndex = 61392;
 
 	struct alignas(8) ActivityBenefitDailyLuckyList
 	{

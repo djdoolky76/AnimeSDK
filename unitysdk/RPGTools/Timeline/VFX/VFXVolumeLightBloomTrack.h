@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1BF384B0)
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1BF38630)
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF386F0)
+#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE94E360)
+#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE94E570)
+#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE94E4B0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXVolumeLightBloomTrack_TypeDefinitionIndex = 49150;
+	inline static constexpr unsigned int VFXVolumeLightBloomTrack_TypeDefinitionIndex = 48696;
 
 	class VFXVolumeLightBloomTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

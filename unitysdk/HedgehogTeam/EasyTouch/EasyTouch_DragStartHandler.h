@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D15ED20)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D15ED50)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A7C0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15EC30)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16739D70)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x16739C80)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16739DA0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x167357E0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_DragStartHandler_TypeDefinitionIndex = 39002;
+	inline static constexpr unsigned int EasyTouch_DragStartHandler_TypeDefinitionIndex = 40299;
 
 	class EasyTouch_DragStartHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAGSTARTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

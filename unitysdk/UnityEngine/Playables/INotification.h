@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/PropertyName.h"
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int INotification_TypeDefinitionIndex = 4898;
+	inline static constexpr unsigned int INotification_TypeDefinitionIndex = 4905;
 
 	class INotification
 	{

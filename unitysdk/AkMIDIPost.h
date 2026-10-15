@@ -2,74 +2,74 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AKRESULT.h"
 #include "unitysdk/AkMIDIEvent.h"
-
+class AkMIDIPost;
 namespace UnityEngine { class GameObject; }
 
-#define AKMIDIPOST_CLONE_OFFSET UNITYSDK_OFFSET(0x1DA97AD0)
-#define AKMIDIPOST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DA97560)
-#define AKMIDIPOST_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1DA97410)
-#define AKMIDIPOST_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x1DA97BF0)
-#define AKMIDIPOST_GET_UOFFSET_OFFSET UNITYSDK_OFFSET(0x1DA97810)
-#define AKMIDIPOST_POSTONEVENT_OFFSET UNITYSDK_OFFSET(0x1DA978C0)
-#define AKMIDIPOST_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1DA97460)
-#define AKMIDIPOST_SET_UOFFSET_OFFSET UNITYSDK_OFFSET(0x1DA97750)
-#define AKMIDIPOST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DA97CA0)
-#define AKMIDIPOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA97380)
+#define AKMIDIPOST_CLONE_OFFSET UNITYSDK_OFFSET(0x1F576750)
+#define AKMIDIPOST_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F576920)
+#define AKMIDIPOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F576000)
+#define AKMIDIPOST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F5761E0)
+#define AKMIDIPOST_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F576090)
+#define AKMIDIPOST_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x1F576870)
+#define AKMIDIPOST_GET_UOFFSET_OFFSET UNITYSDK_OFFSET(0x1F576490)
+#define AKMIDIPOST_POSTONEVENT_OFFSET UNITYSDK_OFFSET(0x1F576540)
+#define AKMIDIPOST_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5760E0)
+#define AKMIDIPOST_SET_UOFFSET_OFFSET UNITYSDK_OFFSET(0x1F5763D0)
 
-inline static constexpr unsigned int AkMIDIPost_TypeDefinitionIndex = 43568;
+inline static constexpr unsigned int AkMIDIPost_TypeDefinitionIndex = 44760;
 
-class AkMIDIPost : public ::AkMIDIEvent
-{
-public:
-	::System::IntPtr swigCPtr; // 0x20
-
-	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+	class AkMIDIPost : public ::AkMIDIEvent
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIPOST__CTOR_OFFSET))(this, a1, a2);
-	}
+	public:
+		::System::IntPtr swigCPtr; // 0x20
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIPOST_CTOR_OFFSET))(this, a1, a2);
+		}
 
-	::System::Void _ctor_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIPOST__CTOR_1_OFFSET))(this);
-	}
+		::System::Void _ctor_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIPOST_CTOR_1_OFFSET))(this);
+		}
 
-	static ::System::IntPtr getCPtr(::AkMIDIPost* a1)
-	{
-		return ((::System::IntPtr(*)(::AkMIDIPost*))((::PBYTE)hIl2Cpp + AKMIDIPOST_GETCPTR_OFFSET))(a1);
-	}
+		static ::System::IntPtr getCPtr(::AkMIDIPost* a1)
+		{
+			return ((::System::IntPtr(*)(::AkMIDIPost*))((::PBYTE)hIl2Cpp + AKMIDIPOST_GETCPTR_OFFSET))(a1);
+		}
 
-	::System::Void setCPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKMIDIPOST_SETCPTR_OFFSET))(this, a1);
-	}
+		::System::Void setCPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKMIDIPOST_SETCPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void Dispose(::System::Boolean a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIPOST_DISPOSE_OFFSET))(this, a1);
-	}
+		::System::Void Dispose(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIPOST_DISPOSE_OFFSET))(this, a1);
+		}
 
-	::System::Void set_uOffset(::System::UInt32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKMIDIPOST_SET_UOFFSET_OFFSET))(this, a1);
-	}
+		::System::Void set_uOffset(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKMIDIPOST_SET_UOFFSET_OFFSET))(this, a1);
+		}
 
-	::System::UInt32 get_uOffset()
-	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIPOST_GET_UOFFSET_OFFSET))(this);
-	}
+		::System::UInt32 get_uOffset()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIPOST_GET_UOFFSET_OFFSET))(this);
+		}
 
-	::AKRESULT PostOnEvent(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::UInt32 a3)
-	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + AKMIDIPOST_POSTONEVENT_OFFSET))(this, a1, a2, a3);
-	}
+		::AKRESULT PostOnEvent(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::UInt32 a3)
+		{
+			return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + AKMIDIPOST_POSTONEVENT_OFFSET))(this, a1, a2, a3);
+		}
 
-	::System::Void Clone(::AkMIDIPost* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIPost*))((::PBYTE)hIl2Cpp + AKMIDIPOST_CLONE_OFFSET))(this, a1);
-	}
+		::System::Void Clone(::AkMIDIPost* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AkMIDIPost*))((::PBYTE)hIl2Cpp + AKMIDIPOST_CLONE_OFFSET))(this, a1);
+		}
 
-	static ::System::Int32 GetSizeOf()
-	{
-		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + AKMIDIPOST_GETSIZEOF_OFFSET))();
-	}
-};
+		static ::System::Int32 GetSizeOf()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + AKMIDIPOST_GETSIZEOF_OFFSET))();
+		}
+
+	};

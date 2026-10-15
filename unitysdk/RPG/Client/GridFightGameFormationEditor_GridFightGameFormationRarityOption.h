@@ -2,28 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption.h"
 #include "unitysdk/RPG/Client/TextID.h"
-
 namespace RPG::Client { class GridFightGameFormationEditor_Filter; }
 namespace RPG::Client { class GridFightRole; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETICON_OFFSET UNITYSDK_OFFSET(0x1BD64A30)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETNAME_OFFSET UNITYSDK_OFFSET(0x1BD64980)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_SATISFY_OFFSET UNITYSDK_OFFSET(0x1BD648E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD63ED0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD14C080)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETICON_OFFSET UNITYSDK_OFFSET(0xD14CC00)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETNAME_OFFSET UNITYSDK_OFFSET(0xD14CB50)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_SATISFY_OFFSET UNITYSDK_OFFSET(0xD14CAB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRarityOption_TypeDefinitionIndex = 64707;
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRarityOption_TypeDefinitionIndex = 64647;
 
 	class GridFightGameFormationEditor_GridFightGameFormationRarityOption : public ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption
 	{
 	public:
 		::System::UInt32 Rarity; // 0x18
-
 		::System::Void _ctor(::RPG::Client::GridFightGameFormationEditor_Filter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameFormationEditor_Filter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameFormationEditor_Filter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Satisfy(::RPG::Client::GridFightRole* a1)
@@ -40,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETICON_OFFSET))(this);
 		}
+
 	};
 }

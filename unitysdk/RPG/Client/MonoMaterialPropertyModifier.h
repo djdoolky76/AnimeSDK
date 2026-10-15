@@ -2,37 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoMaterialPropertyModifier_MBProperty.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ACF6B00)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACF6C80)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_METHOD_5_79830F666EE579C0_OFFSET UNITYSDK_OFFSET(0x1ACF6EA0)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ACF6C00)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF7010)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_AANJOJOELKE_OFFSET UNITYSDK_OFFSET(0xD843970)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD8435D0)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xD843AE0)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD843750)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8436D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaterialPropertyModifier_TypeDefinitionIndex = 68472;
+	inline static constexpr unsigned int MonoMaterialPropertyModifier_TypeDefinitionIndex = 68506;
 
 	class MonoMaterialPropertyModifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Renderer* Renderer; // 0x18
 		::System::Int32 MaterialIndex; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::Client::MonoMaterialPropertyModifier_MBProperty MBProperty1; // 0x28
 		::RPG::Client::MonoMaterialPropertyModifier_MBProperty MBProperty2; // 0x60
 		::RPG::Client::MonoMaterialPropertyModifier_MBProperty MBProperty3; // 0x98
 		::RPG::Client::MonoMaterialPropertyModifier_MBProperty MBProperty4; // 0xD0
 		::System::Boolean KValueIsOn; // 0x108
+		::System::Byte _padding1[0x7];
 		::UnityEngine::MaterialPropertyBlock* AMOGIBBMIEJ; // 0x110
 		::System::Boolean JGPHLKJJCPO; // 0x118
-		::Il2CppArray<::RPG::Client::MonoMaterialPropertyModifier_MBProperty>* CEJFMIKGHPP; // 0x120
-
+		::System::Byte _padding2[0x7];
+		::Il2CppArray<::System::Object*>* CEJFMIKGHPP; // 0x120
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -50,9 +52,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_79830F666EE579C0()
+		::System::Void AANJOJOELKE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_METHOD_5_79830F666EE579C0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_AANJOJOELKE_OFFSET))(this);
 		}
+
 	};
 }

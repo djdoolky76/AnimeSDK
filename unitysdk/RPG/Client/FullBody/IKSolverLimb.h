@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/FullBody/IKSolverLimb_AxisDirection.h"
 #include "unitysdk/RPG/Client/FullBody/IKSolverLimb_BendModifier.h"
 #include "unitysdk/RPG/Client/FullBody/IKSolverTrigonometric.h"
 #include "unitysdk/UnityEngine/AvatarIKGoal.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_GET_AXISDIRECTIONS_OFFSET UNITYSDK_OFFSET(0x1938D4F0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_06B2B8EE44199AB7_OFFSET UNITYSDK_OFFSET(0x1938BD30)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_0E142E3463F30350_OFFSET UNITYSDK_OFFSET(0x1938BEF0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_209AC60266898FC2_OFFSET UNITYSDK_OFFSET(0x1938C050)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x1938D190)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0x1938AFD0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1938AF40)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0x1938B8B0)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1938D470)
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB__CTOR_OFFSET UNITYSDK_OFFSET(0x1938D2B0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_CPHOCCHLJOJ_OFFSET UNITYSDK_OFFSET(0xD07E4C0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD07E7A0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_CTOR_OFFSET UNITYSDK_OFFSET(0xD07E5E0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_EFMBPPNCEAN_OFFSET UNITYSDK_OFFSET(0xD07D380)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_GET_AXISDIRECTIONS_OFFSET UNITYSDK_OFFSET(0xD07E820)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_IELOPFIKFBB_OFFSET UNITYSDK_OFFSET(0xD07CBE0)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_LAKJEIDOCAE_OFFSET UNITYSDK_OFFSET(0xD07D220)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_LJLNCOLHLJF_OFFSET UNITYSDK_OFFSET(0xD07C300)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_LLFCNLEAGLP_OFFSET UNITYSDK_OFFSET(0xD07C270)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_NEJALJCBDGA_OFFSET UNITYSDK_OFFSET(0xD07D060)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolverLimb_TypeDefinitionIndex = 74165;
+	inline static constexpr unsigned int IKSolverLimb_TypeDefinitionIndex = 74264;
 
 	class IKSolverLimb : public ::RPG::Client::FullBody::IKSolverTrigonometric
 	{
@@ -34,6 +33,7 @@ namespace RPG::Client::FullBody
 		::UnityEngine::Transform* bendGoal; // 0xB8
 		::System::Boolean maintainBendFor1Frame; // 0xC0
 		::System::Boolean maintainRotationFor1Frame; // 0xC1
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Quaternion defaultRootRotation; // 0xC4
 		::UnityEngine::Quaternion parentDefaultRotation; // 0xD4
 		::UnityEngine::Quaternion bone3RotationBeforeSolve; // 0xE4
@@ -41,57 +41,58 @@ namespace RPG::Client::FullBody
 		::UnityEngine::Quaternion bone3DefaultRotation; // 0x104
 		::UnityEngine::Vector3 _bendNormal; // 0x114
 		::UnityEngine::Vector3 animationNormal; // 0x120
-		::Il2CppArray<::RPG::Client::FullBody::IKSolverLimb_AxisDirection>* axisDirectionsLeft; // 0x130
-		::Il2CppArray<::RPG::Client::FullBody::IKSolverLimb_AxisDirection>* axisDirectionsRight; // 0x138
-
+		::System::Byte _padding1[0x4];
+		::Il2CppArray<::System::Object*>* axisDirectionsLeft; // 0x130
+		::Il2CppArray<::System::Object*>* axisDirectionsRight; // 0x138
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::AvatarIKGoal a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AvatarIKGoal))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AvatarIKGoal))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_B1936CE4DA97AA45()
+		::System::Void LLFCNLEAGLP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_LLFCNLEAGLP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_82E992240300FB30()
+		::System::Void LJLNCOLHLJF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_82E992240300FB30_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_LJLNCOLHLJF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_B768DA94E3FD91D9()
+		::System::Void IELOPFIKFBB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_B768DA94E3FD91D9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_IELOPFIKFBB_OFFSET))(this);
 		}
 
-		::System::Void Method_3_0E142E3463F30350()
+		::System::Void LAKJEIDOCAE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_0E142E3463F30350_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_LAKJEIDOCAE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_33ACA6CB2ABC73F7()
+		::System::Void CPHOCCHLJOJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_CPHOCCHLJOJ_OFFSET))(this);
 		}
 
-		::Il2CppArray<::RPG::Client::FullBody::IKSolverLimb_AxisDirection>* get_axisDirections()
+		::Il2CppArray<::System::Object*>* get_axisDirections()
 		{
-			return ((::Il2CppArray<::RPG::Client::FullBody::IKSolverLimb_AxisDirection>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_GET_AXISDIRECTIONS_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_GET_AXISDIRECTIONS_OFFSET))(this);
 		}
 
-		::System::Void Method_3_06B2B8EE44199AB7(::Il2CppArray<::RPG::Client::FullBody::IKSolverLimb_AxisDirection>*& a1)
+		::System::Void NEJALJCBDGA(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::FullBody::IKSolverLimb_AxisDirection>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_06B2B8EE44199AB7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_NEJALJCBDGA_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_3_209AC60266898FC2()
+		::UnityEngine::Vector3 EFMBPPNCEAN()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_METHOD_3_209AC60266898FC2_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKSOLVERLIMB_EFMBPPNCEAN_OFFSET))(this);
 		}
+
 	};
 }

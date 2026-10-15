@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class DrinkMakerCheersEngageRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_CHATTEXT_OFFSET UNITYSDK_OFFSET(0x1A66E410)
-#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0x1A66E3A0)
-#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_INGREDIENTID_OFFSET UNITYSDK_OFFSET(0x1A66E300)
-#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_MATCHGROUPID_OFFSET UNITYSDK_OFFSET(0x1A66E350)
-#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66E2F0)
+#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD6C70)
+#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_CHATTEXT_OFFSET UNITYSDK_OFFSET(0xCCD6D90)
+#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0xCCD6D20)
+#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_INGREDIENTID_OFFSET UNITYSDK_OFFSET(0xCCD6C80)
+#define RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_MATCHGROUPID_OFFSET UNITYSDK_OFFSET(0xCCD6CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCheersAddMatChatData_TypeDefinitionIndex = 63673;
+	inline static constexpr unsigned int DrinkMakerCheersAddMatChatData_TypeDefinitionIndex = 63611;
 
 	class DrinkMakerCheersAddMatChatData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::DrinkMakerCheersEngageRow* _Row; // 0x10
-
 		::System::Void _ctor(::RPG::GameCore::DrinkMakerCheersEngageRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DrinkMakerCheersEngageRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DrinkMakerCheersEngageRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_IngredientID()
@@ -45,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSADDMATCHATDATA_GET_CHATTEXT_OFFSET))(this);
 		}
+
 	};
 }

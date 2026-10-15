@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/Stream.h"
+namespace System::IO { class Stream; }
 
-#define SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B95D3B0)
-#define SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_GET_INNERSTREAM_OFFSET UNITYSDK_OFFSET(0x1B95D3A0)
-#define SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B95D150)
+#define SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F047410)
+#define SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F047670)
+#define SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_GET_INNERSTREAM_OFFSET UNITYSDK_OFFSET(0x1F047660)
 
 namespace System::Net::Security
 {
@@ -15,10 +16,9 @@ namespace System::Net::Security
 	public:
 		::System::IO::Stream* _InnerStream; // 0x28
 		::System::Boolean _LeaveStreamOpen; // 0x30
-
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IO::Stream* get_InnerStream()
@@ -30,5 +30,6 @@ namespace System::Net::Security
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_AUTHENTICATEDSTREAM_DISPOSE_OFFSET))(this, a1);
 		}
+
 	};
 }

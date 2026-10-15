@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BFFB20)
-#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BFFA60)
-#define UNITYENGINE_RENDERING_LODPARAMETERS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BFFC40)
+#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C785C0)
+#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C78500)
+#define UNITYENGINE_RENDERING_LODPARAMETERS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C786E0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LODParameters_TypeDefinitionIndex = 4753;
+	inline static constexpr unsigned int LODParameters_TypeDefinitionIndex = 4757;
 
 	struct alignas(4) LODParameters
 	{
@@ -20,11 +18,12 @@ namespace UnityEngine::Rendering
 		::System::Single m_FieldOfView; // 0x20
 		::System::Single m_OrthoSize; // 0x24
 		::System::Int32 m_CameraPixelHeight; // 0x28
-
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::LODParameters a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::LODParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -35,5 +34,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LODPARAMETERS_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

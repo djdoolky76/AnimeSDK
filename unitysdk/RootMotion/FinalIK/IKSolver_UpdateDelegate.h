@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x196AAA40)
-#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x196AAA70)
-#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x196A7630)
-#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x196AA9D0)
+#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB0B1E70)
+#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0B1E00)
+#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB0B1EA0)
+#define ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB0AEA60)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolver_UpdateDelegate_TypeDefinitionIndex = 44879;
+	inline static constexpr unsigned int IKSolver_UpdateDelegate_TypeDefinitionIndex = 46018;
 
 	class IKSolver_UpdateDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace RootMotion::FinalIK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_UPDATEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

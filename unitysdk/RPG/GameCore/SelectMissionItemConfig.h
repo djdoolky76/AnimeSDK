@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SelectMissionItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG_METHOD_2_B5932F766CCA8734_OFFSET UNITYSDK_OFFSET(0x1DB4AF30)
-#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4B0E0)
+#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5ED60)
+#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5EBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectMissionItemConfig_TypeDefinitionIndex = 20208;
+	inline static constexpr unsigned int SelectMissionItemConfig_TypeDefinitionIndex = 20446;
 
 	class SelectMissionItemConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,16 +18,17 @@ namespace RPG::GameCore
 		::System::UInt32 Item1; // 0x10
 		::System::UInt32 Item2; // 0x14
 		::System::UInt32 Item3; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* TriggerCustomString; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B5932F766CCA8734(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectMissionItemConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SelectMissionItemConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectMissionItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEMCONFIG_METHOD_2_B5932F766CCA8734_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SelectMissionItemConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x17015880)
-#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17014BE0)
+#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE38D530)
+#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xE38E1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDragEnterEventTrigger_InnerAreaInfo_TypeDefinitionIndex = 72971;
+	inline static constexpr unsigned int UIDragEnterEventTrigger_InnerAreaInfo_TypeDefinitionIndex = 73057;
 
 	class UIDragEnterEventTrigger_InnerAreaInfo : public ::System::Object
 	{
 	public:
-		::System::Object* UserObjectData; // 0x10
-		::UnityEngine::GameObject* GameObject; // 0x18
+		::UnityEngine::GameObject* GameObject; // 0x10
+		::System::Object* UserObjectData; // 0x18
 		::UnityEngine::Rect ScreenRect; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsActive()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_GET_ISACTIVE_OFFSET))(this);
 		}
+
 	};
 }

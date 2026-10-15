@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18B53F70)
-#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18B53FF0)
-#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B49800)
-#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B53EF0)
+#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F2E8180)
+#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E8100)
+#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F2E8200)
+#define TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F2DD2E0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_OnValidateInput_TypeDefinitionIndex = 43406;
+	inline static constexpr unsigned int TMP_InputField_OnValidateInput_TypeDefinitionIndex = 44598;
 
 	class TMP_InputField_OnValidateInput : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char Invoke(::System::String* a1, ::System::Int32 a2, ::System::Char a3)
@@ -38,5 +37,6 @@ namespace TMPro
 		{
 			return ((::System::Char(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + TMPRO_TMP_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

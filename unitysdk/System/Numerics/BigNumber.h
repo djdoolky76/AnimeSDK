@@ -1,47 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/NumberStyles.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Numerics/BigInteger.h"
 #include "unitysdk/System/Numerics/BigNumber_BigNumberBuffer.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 namespace System { class ArgumentException; }
 namespace System { class String; }
 namespace System::Globalization { class NumberFormatInfo; }
 
-#define SYSTEM_NUMERICS_BIGNUMBER_ASREADONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1E383A20)
-#define SYSTEM_NUMERICS_BIGNUMBER_FORMATBIGINTEGERTOHEXSTRING_OFFSET UNITYSDK_OFFSET(0x1E384070)
-#define SYSTEM_NUMERICS_BIGNUMBER_FORMATBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E37A040)
-#define SYSTEM_NUMERICS_BIGNUMBER_HEXNUMBERTOBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E383B80)
-#define SYSTEM_NUMERICS_BIGNUMBER_NUMBERTOBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E383D10)
-#define SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_1_OFFSET UNITYSDK_OFFSET(0x1E375640)
-#define SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E375120)
-#define SYSTEM_NUMERICS_BIGNUMBER_PARSEFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x1E383F80)
-#define SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_1_OFFSET UNITYSDK_OFFSET(0x1E375790)
-#define SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E3754F0)
-#define SYSTEM_NUMERICS_BIGNUMBER_TRYVALIDATEPARSESTYLEINTEGER_OFFSET UNITYSDK_OFFSET(0x1E383920)
+#define SYSTEM_NUMERICS_BIGNUMBER_ASREADONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1EE52570)
+#define SYSTEM_NUMERICS_BIGNUMBER_FORMATBIGINTEGERTOHEXSTRING_OFFSET UNITYSDK_OFFSET(0x1EE52BC0)
+#define SYSTEM_NUMERICS_BIGNUMBER_FORMATBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE48B90)
+#define SYSTEM_NUMERICS_BIGNUMBER_HEXNUMBERTOBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE526D0)
+#define SYSTEM_NUMERICS_BIGNUMBER_NUMBERTOBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE52860)
+#define SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_1_OFFSET UNITYSDK_OFFSET(0x1EE44190)
+#define SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE43C70)
+#define SYSTEM_NUMERICS_BIGNUMBER_PARSEFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x1EE52AD0)
+#define SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_1_OFFSET UNITYSDK_OFFSET(0x1EE442E0)
+#define SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE44040)
+#define SYSTEM_NUMERICS_BIGNUMBER_TRYVALIDATEPARSESTYLEINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE52470)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int BigNumber_TypeDefinitionIndex = 3839;
+	inline static constexpr unsigned int BigNumber_TypeDefinitionIndex = 3840;
 
 	class BigNumber : public ::System::Object
 	{
 	public:
-		static ::System::Boolean TryValidateParseStyleInteger(::System::Globalization::NumberStyles a1, ::System::ArgumentException*& a2)
+		static ::System::Boolean TryValidateParseStyleInteger(::System::Globalization::NumberStyles a1, ::System::ArgumentException* a2)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::NumberStyles, ::System::ArgumentException*&))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_TRYVALIDATEPARSESTYLEINTEGER_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Globalization::NumberStyles, ::System::ArgumentException*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_TRYVALIDATEPARSESTYLEINTEGER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseBigInteger(::System::String* a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3, ::System::Numerics::BigInteger& a4)
+		static ::System::Boolean TryParseBigInteger(::System::String* a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3, ::System::Numerics::BigInteger a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ::System::Numerics::BigInteger&))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryParseBigInteger_1(::System::ReadOnlySpan_1<::System::Char> a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3, ::System::Numerics::BigInteger& a4)
+		static ::System::Boolean TryParseBigInteger_1(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3, ::System::Numerics::BigInteger a4)
 		{
-			return ((::System::Boolean(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ::System::Numerics::BigInteger&))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_TRYPARSEBIGINTEGER_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Numerics::BigInteger ParseBigInteger(::System::String* a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3)
@@ -49,29 +48,29 @@ namespace System::Numerics
 			return ((::System::Numerics::BigInteger(*)(::System::String*, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::ReadOnlySpan_1<::System::Char> AsReadOnlySpan(::System::String* a1)
+		static ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> AsReadOnlySpan(::System::String* a1)
 		{
-			return ((::System::ReadOnlySpan_1<::System::Char>(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_ASREADONLYSPAN_OFFSET))(a1);
+			return ((::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_ASREADONLYSPAN_OFFSET))(a1);
 		}
 
-		static ::System::Numerics::BigInteger ParseBigInteger_1(::System::ReadOnlySpan_1<::System::Char> a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3)
+		static ::System::Numerics::BigInteger ParseBigInteger_1(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::NumberFormatInfo* a3)
 		{
-			return ((::System::Numerics::BigInteger(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_1_OFFSET))(a1, a2, a3);
+			return ((::System::Numerics::BigInteger(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_PARSEBIGINTEGER_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HexNumberToBigInteger(::System::Numerics::BigNumber_BigNumberBuffer& a1, ::System::Numerics::BigInteger& a2)
+		static ::System::Boolean HexNumberToBigInteger(::System::Numerics::BigNumber_BigNumberBuffer a1, ::System::Numerics::BigInteger a2)
 		{
-			return ((::System::Boolean(*)(::System::Numerics::BigNumber_BigNumberBuffer&, ::System::Numerics::BigInteger&))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_HEXNUMBERTOBIGINTEGER_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Numerics::BigNumber_BigNumberBuffer, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_HEXNUMBERTOBIGINTEGER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean NumberToBigInteger(::System::Numerics::BigNumber_BigNumberBuffer& a1, ::System::Numerics::BigInteger& a2)
+		static ::System::Boolean NumberToBigInteger(::System::Numerics::BigNumber_BigNumberBuffer a1, ::System::Numerics::BigInteger a2)
 		{
-			return ((::System::Boolean(*)(::System::Numerics::BigNumber_BigNumberBuffer&, ::System::Numerics::BigInteger&))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_NUMBERTOBIGINTEGER_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Numerics::BigNumber_BigNumberBuffer, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_NUMBERTOBIGINTEGER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Char ParseFormatSpecifier(::System::String* a1, ::System::Int32& a2)
+		static ::System::Char ParseFormatSpecifier(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Char(*)(::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_PARSEFORMATSPECIFIER_OFFSET))(a1, a2);
+			return ((::System::Char(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_PARSEFORMATSPECIFIER_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* FormatBigIntegerToHexString(::System::Numerics::BigInteger a1, ::System::Char a2, ::System::Int32 a3, ::System::Globalization::NumberFormatInfo* a4)
@@ -83,5 +82,6 @@ namespace System::Numerics
 		{
 			return ((::System::String*(*)(::System::Numerics::BigInteger, ::System::String*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGNUMBER_FORMATBIGINTEGER_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

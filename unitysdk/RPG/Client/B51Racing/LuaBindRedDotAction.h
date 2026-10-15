@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -9,21 +8,21 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF2D0)
-#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF320)
-#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF2A0)
-#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CF1B0)
+#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1EA0)
+#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B1D80)
+#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1EF0)
+#define RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1E70)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int LuaBindRedDotAction_TypeDefinitionIndex = 80428;
+	inline static constexpr unsigned int LuaBindRedDotAction_TypeDefinitionIndex = 81756;
 
 	class LuaBindRedDotAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDREDDOTACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::XLua::LuaTable* a1, ::System::String* a2, ::System::Object* a3, ::UnityEngine::Transform* a4)
@@ -40,5 +39,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDREDDOTACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

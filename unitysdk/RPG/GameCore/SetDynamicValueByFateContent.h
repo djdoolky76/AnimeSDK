@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/FateContentParamType.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByFateContent; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E81C900)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_METHOD_4_5A0E313287045A20_OFFSET UNITYSDK_OFFSET(0x1E81C720)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_METHOD_4_5BB702268A95CA4D_OFFSET UNITYSDK_OFFSET(0x1E81C6E0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81C710)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA76B50)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DA76D40)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA76B60)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA76B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByFateContent_TypeDefinitionIndex = 23019;
+	inline static constexpr unsigned int SetDynamicValueByFateContent_TypeDefinitionIndex = 23284;
 
 	class SetDynamicValueByFateContent : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -23,25 +23,25 @@ namespace RPG::GameCore
 		::System::String* DynamicKey; // 0x18
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
 		::RPG::GameCore::FateContentParamType ValueType; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5BB702268A95CA4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByFateContent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByFateContent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByFateContent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_METHOD_4_5BB702268A95CA4D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByFateContent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5A0E313287045A20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByFateContent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByFateContent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByFateContent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_METHOD_4_5A0E313287045A20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByFateContent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYFATECONTENT_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

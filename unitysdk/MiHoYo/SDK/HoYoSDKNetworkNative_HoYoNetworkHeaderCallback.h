@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F3A80)
-#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F3B30)
-#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F3960)
-#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F3A10)
+#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFAA360)
+#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAA2F0)
+#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFAA410)
+#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFAA240)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkNative_HoYoNetworkHeaderCallback_TypeDefinitionIndex = 46569;
+	inline static constexpr unsigned int HoYoSDKNetworkNative_HoYoNetworkHeaderCallback_TypeDefinitionIndex = 46120;
 
 	class HoYoSDKNetworkNative_HoYoNetworkHeaderCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke(::System::IntPtr a1, ::System::UInt64 a2, ::System::UInt64 a3, ::System::IntPtr a4)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HOYONETWORKHEADERCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

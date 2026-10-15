@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define UNITYENGINE_SETUPCOROUTINE_INVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1DCDA4B0)
-#define UNITYENGINE_SETUPCOROUTINE_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DCDA370)
+#define UNITYENGINE_SETUPCOROUTINE_INVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1F3FE500)
+#define UNITYENGINE_SETUPCOROUTINE_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F3FE3C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SetupCoroutine_TypeDefinitionIndex = 4319;
+	inline static constexpr unsigned int SetupCoroutine_TypeDefinitionIndex = 4322;
 
 	class SetupCoroutine : public ::System::Object
 	{
@@ -24,5 +24,6 @@ namespace UnityEngine
 		{
 			return ((::System::Object*(*)(::System::Object*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_SETUPCOROUTINE_INVOKEMEMBER_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

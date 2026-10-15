@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PinballPuzzleLaunch; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PINBALLPUZZLELAUNCH_METHOD_3_3CF7D1FE614814CC_OFFSET UNITYSDK_OFFSET(0x1D438670)
-#define RPG_GAMECORE_PINBALLPUZZLELAUNCH_METHOD_3_8FC78A66366AE287_OFFSET UNITYSDK_OFFSET(0x1D4386B0)
-#define RPG_GAMECORE_PINBALLPUZZLELAUNCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4386A0)
+#define RPG_GAMECORE_PINBALLPUZZLELAUNCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E71C0)
+#define RPG_GAMECORE_PINBALLPUZZLELAUNCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E71D0)
+#define RPG_GAMECORE_PINBALLPUZZLELAUNCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E7190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PinballPuzzleLaunch_TypeDefinitionIndex = 21759;
+	inline static constexpr unsigned int PinballPuzzleLaunch_TypeDefinitionIndex = 22007;
 
 	class PinballPuzzleLaunch : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLELAUNCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLELAUNCH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3CF7D1FE614814CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PinballPuzzleLaunch*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PinballPuzzleLaunch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PinballPuzzleLaunch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLELAUNCH_METHOD_3_3CF7D1FE614814CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PinballPuzzleLaunch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLELAUNCH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8FC78A66366AE287(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PinballPuzzleLaunch* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PinballPuzzleLaunch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PinballPuzzleLaunch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLELAUNCH_METHOD_3_8FC78A66366AE287_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PinballPuzzleLaunch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLELAUNCH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

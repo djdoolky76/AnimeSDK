@@ -2,56 +2,58 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RecordPropertyType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_E4E0EE0B8D84A8B2;
+class KOAIODKBPJG;
 namespace RPG::Client { class BinderIndex; }
 namespace RPG::Client { class PoolPropertyScriptableObject; }
+namespace RPG::Client { class PoolableBinder; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Behaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_POOLABLEBINDER_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1AE1C080)
-#define RPG_CLIENT_POOLABLEBINDER_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0x1AE1C270)
-#define RPG_CLIENT_POOLABLEBINDER_METHOD_5_336790322D186E73_OFFSET UNITYSDK_OFFSET(0x1AE1C190)
-#define RPG_CLIENT_POOLABLEBINDER_METHOD_5_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1AE1BB80)
-#define RPG_CLIENT_POOLABLEBINDER_METHOD_5_D7D030A2E17FBB84_OFFSET UNITYSDK_OFFSET(0x1AE1B870)
-#define RPG_CLIENT_POOLABLEBINDER_RECORDBEFOREPROPERTYSET_1_OFFSET UNITYSDK_OFFSET(0x1AE1B580)
-#define RPG_CLIENT_POOLABLEBINDER_RECORDBEFOREPROPERTYSET_OFFSET UNITYSDK_OFFSET(0x1AE1B360)
-#define RPG_CLIENT_POOLABLEBINDER_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1AE1BB30)
-#define RPG_CLIENT_POOLABLEBINDER_TRYRECORD_1_OFFSET UNITYSDK_OFFSET(0x1AE1BA30)
-#define RPG_CLIENT_POOLABLEBINDER_TRYRECORD_OFFSET UNITYSDK_OFFSET(0x1AE1B7A0)
-#define RPG_CLIENT_POOLABLEBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE1C380)
-#define RPG_CLIENT_POOLABLEBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1C300)
+#define RPG_CLIENT_POOLABLEBINDER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBFCA30)
+#define RPG_CLIENT_POOLABLEBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDBFC9B0)
+#define RPG_CLIENT_POOLABLEBINDER_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDBFC7C0)
+#define RPG_CLIENT_POOLABLEBINDER_ENAHBOHCHHI_OFFSET UNITYSDK_OFFSET(0xDBFBFB0)
+#define RPG_CLIENT_POOLABLEBINDER_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0xDBFC920)
+#define RPG_CLIENT_POOLABLEBINDER_MMODMEPNEFD_OFFSET UNITYSDK_OFFSET(0xDBFC840)
+#define RPG_CLIENT_POOLABLEBINDER_PPINDFCOEDP_OFFSET UNITYSDK_OFFSET(0xDBFC2C0)
+#define RPG_CLIENT_POOLABLEBINDER_RECORDBEFOREPROPERTYSET_1_OFFSET UNITYSDK_OFFSET(0xDBFBCC0)
+#define RPG_CLIENT_POOLABLEBINDER_RECORDBEFOREPROPERTYSET_OFFSET UNITYSDK_OFFSET(0xDBFBAA0)
+#define RPG_CLIENT_POOLABLEBINDER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDBFC270)
+#define RPG_CLIENT_POOLABLEBINDER_TRYRECORD_1_OFFSET UNITYSDK_OFFSET(0xDBFC170)
+#define RPG_CLIENT_POOLABLEBINDER_TRYRECORD_OFFSET UNITYSDK_OFFSET(0xDBFBEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PoolableBinder_TypeDefinitionIndex = 72555;
+	inline static constexpr unsigned int PoolableBinder_TypeDefinitionIndex = 72630;
 
 	class PoolableBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_PoolTag()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PoolableBinder_TypeDefinitionIndex)->GetStaticField(0x59F90);
-		}
-		static ::System::String** StaticGet_UnPoolTag()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PoolableBinder_TypeDefinitionIndex)->GetStaticField(0x59F98);
-		}
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_E4E0EE0B8D84A8B2*>* ECJCJHOPEIJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::KOAIODKBPJG*>* ECJCJHOPEIJ; // 0x18
 		::RPG::Client::PoolPropertyScriptableObject* m_poolPropertyRecord; // 0x20
 		::System::Boolean DHEHOKKAFKK; // 0x28
+		::System::Byte _padding0[0x7];
 		::RPG::Client::BinderIndex* NBOMCGPFIAE; // 0x30
+		static ::System::String** StaticGet_PoolTag()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PoolableBinder")->GetStaticField(0x2F980);
+		}
+
+		static ::System::String** StaticGet_UnPoolTag()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PoolableBinder")->GetStaticField(0x2F988);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_CCTOR_OFFSET))();
 		}
 
 		::System::Void RecordBeforePropertySet(::UnityEngine::GameObject* a1, ::RPG::Client::RecordPropertyType a2)
@@ -74,9 +76,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::UnityEngine::Behaviour*, ::RPG::Client::RecordPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_TRYRECORD_1_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::PoolableBinder* Method_5_D7D030A2E17FBB84(::UnityEngine::GameObject* a1)
+		static ::RPG::Client::PoolableBinder* ENAHBOHCHHI(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::Client::PoolableBinder*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_METHOD_5_D7D030A2E17FBB84_OFFSET))(a1);
+			return ((::RPG::Client::PoolableBinder*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_ENAHBOHCHHI_OFFSET))(a1);
 		}
 
 		::System::Void Spawned()
@@ -89,19 +91,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_DESPAWNED_OFFSET))(this);
 		}
 
-		::RPG::Client::BinderIndex* Method_5_336790322D186E73()
+		::RPG::Client::BinderIndex* MMODMEPNEFD()
 		{
-			return ((::RPG::Client::BinderIndex*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_METHOD_5_336790322D186E73_OFFSET))(this);
+			return ((::RPG::Client::BinderIndex*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_MMODMEPNEFD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_33E2FA8E6403B93D()
+		::System::Void PPINDFCOEDP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_METHOD_5_33E2FA8E6403B93D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_PPINDFCOEDP_OFFSET))(this);
 		}
 
 		::System::Boolean IsPoolable()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLABLEBINDER_ISPOOLABLE_OFFSET))(this);
 		}
+
 	};
 }

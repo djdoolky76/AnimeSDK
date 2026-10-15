@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NativeCookie; }
@@ -9,27 +8,27 @@ namespace ZenFulcrum::EmbeddedBrowser { class Cookie; }
 namespace ZenFulcrum::EmbeddedBrowser { class CookieManager_CookieFetch; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class IPromise_1; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CB_GETCOOKIEFUNC_OFFSET UNITYSDK_OFFSET(0x1C7E6900)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1C7E6E30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_GETCOOKIES_OFFSET UNITYSDK_OFFSET(0x1C7E6BC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CB760)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CB_GETCOOKIEFUNC_OFFSET UNITYSDK_OFFSET(0x1F6294D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1F629A00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60D9E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_GETCOOKIES_OFFSET UNITYSDK_OFFSET(0x1F629790)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int CookieManager_TypeDefinitionIndex = 38192;
+	inline static constexpr unsigned int CookieManager_TypeDefinitionIndex = 39489;
 
 	class CookieManager : public ::System::Object
 	{
 	public:
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
 		static ::ZenFulcrum::EmbeddedBrowser::CookieManager_CookieFetch** StaticGet_currentFetch()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::CookieManager_CookieFetch**)Il2CppClass::FromTypeDefinitionIndex(CookieManager_TypeDefinitionIndex)->GetStaticField(0x49370);
+			return (::ZenFulcrum::EmbeddedBrowser::CookieManager_CookieFetch**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "CookieManager")->GetStaticField(0x43F30);
 		}
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
 
 		::System::Void _ctor(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CTOR_OFFSET))(this, a1);
 		}
 
 		::ZenFulcrum::EmbeddedBrowser::IPromise_1<::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>*>* GetCookies()
@@ -46,5 +45,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CLEARALL_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Uri; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_FTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1B01FC80)
-#define SYSTEM_NET_FTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01FE30)
+#define SYSTEM_NET_FTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1F016470)
+#define SYSTEM_NET_FTPREQUESTCREATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F016620)
 
 namespace System::Net
 {
@@ -17,12 +16,13 @@ namespace System::Net
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPREQUESTCREATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPREQUESTCREATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Net::WebRequest* Create(::System::Uri* a1)
 		{
 			return ((::System::Net::WebRequest*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPREQUESTCREATOR_CREATE_OFFSET))(this, a1);
 		}
+
 	};
 }

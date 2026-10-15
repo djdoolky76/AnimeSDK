@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/RogueTournBuildRefTeamDisplayMember.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_984;
+#include "unitysdk/RPG/Client/RogueTournBuildRefTeamDisplayMember.h"
+class FJLMHMNAILH;
 namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 namespace RPG::Client { class RogueTournBuildRefTeamData; }
 namespace RPG::Client { class RogueTournBuildRefTeamRecomResult; }
@@ -11,29 +10,29 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_CLEARANDRELEASETEAMS_OFFSET UNITYSDK_OFFSET(0x1AF030B0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMDISPLAYMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AF039E0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AEFD000)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMRESULT_OFFSET UNITYSDK_OFFSET(0x1AF03660)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_ISALLSLOTHASRECOM_OFFSET UNITYSDK_OFFSET(0x1AF03780)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_ISCONTAINAVATAR_OFFSET UNITYSDK_OFFSET(0x1AEF2BE0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF03E90)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF85840)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_CLEARANDRELEASETEAMS_OFFSET UNITYSDK_OFFSET(0xDF84A60)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMDISPLAYMEMBERS_OFFSET UNITYSDK_OFFSET(0xDF85390)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMMEMBERS_OFFSET UNITYSDK_OFFSET(0xDF7E990)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMRESULT_OFFSET UNITYSDK_OFFSET(0xDF85010)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_ISALLSLOTHASRECOM_OFFSET UNITYSDK_OFFSET(0xDF85130)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_ISCONTAINAVATAR_OFFSET UNITYSDK_OFFSET(0xDF749B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefTeamDataExt_TypeDefinitionIndex = 67534;
+	inline static constexpr unsigned int RogueTournBuildRefTeamDataExt_TypeDefinitionIndex = 67536;
 
 	class RogueTournBuildRefTeamDataExt : public ::System::Object
 	{
 	public:
-		static ::Class_0_16E4307DCC419505_984** StaticGet__RecomStrategy()
+		static ::FJLMHMNAILH** StaticGet__RecomStrategy()
 		{
-			return (::Class_0_16E4307DCC419505_984**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamDataExt_TypeDefinitionIndex)->GetStaticField(0x10AC0);
+			return (::FJLMHMNAILH**)UnitySDK::FromName("RPG.Client", "RogueTournBuildRefTeamDataExt")->GetStaticField(0x69BE0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean IsContainAvatar(::RPG::Client::RogueTournBuildRefTeamData* a1, ::System::UInt32 a2)
@@ -65,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueTournBuildRefTeamDisplayMember>*(*)(::RPG::Client::RogueTournBuildRefTeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT_GETRECOMDISPLAYMEMBERS_OFFSET))(a1);
 		}
+
 	};
 }

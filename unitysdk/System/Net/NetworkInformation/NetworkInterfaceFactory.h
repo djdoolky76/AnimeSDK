@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System::Net::NetworkInformation { class NetworkInterfaceFactory; }
 
-namespace System::Net::NetworkInformation { class NetworkInterface; }
-
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1B0497A0)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B049960)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1F03FF90)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F040130)
 
 namespace System::Net::NetworkInformation
 {
@@ -16,12 +15,13 @@ namespace System::Net::NetworkInformation
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create()
 		{
 			return ((::System::Net::NetworkInformation::NetworkInterfaceFactory*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET))();
 		}
+
 	};
 }

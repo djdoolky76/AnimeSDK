@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Array; }
+namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class IEnumerator; }
 
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET UNITYSDK_OFFSET(0x166D2710)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x166D2970)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x166D25E0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x166D26F0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x166D2700)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x166D25D0)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET UNITYSDK_OFFSET(0x1C0BE5B0)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BE470)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C0BE810)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C0BE480)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1C0BE590)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1C0BE5A0)
 
 namespace System::Security::Policy
 {
@@ -20,13 +20,12 @@ namespace System::Security::Policy
 	class Evidence : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* assemblyEvidenceList; // 0x10
-		::System::Collections::ArrayList* hostEvidenceList; // 0x18
+		::System::Collections::ArrayList* hostEvidenceList; // 0x10
+		::System::Collections::ArrayList* assemblyEvidenceList; // 0x18
 		::System::Boolean _locked; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_POLICY_EVIDENCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_POLICY_EVIDENCE_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_Count()
@@ -53,5 +52,6 @@ namespace System::Security::Policy
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

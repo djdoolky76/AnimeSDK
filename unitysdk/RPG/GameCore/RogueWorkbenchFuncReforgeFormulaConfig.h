@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueWorkbenchFuncBaseConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueWorkbenchFuncReforgeFormulaConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_METHOD_3_4723B23C309C84D6_OFFSET UNITYSDK_OFFSET(0x1CCD0760)
-#define RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_METHOD_3_E103B19E5DAD35B2_OFFSET UNITYSDK_OFFSET(0x1CCD04A0)
-#define RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD0490)
+#define RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA189F0)
+#define RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA18A00)
+#define RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA18CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWorkbenchFuncReforgeFormulaConfig_TypeDefinitionIndex = 17811;
+	inline static constexpr unsigned int RogueWorkbenchFuncReforgeFormulaConfig_TypeDefinitionIndex = 18023;
 
 	class RogueWorkbenchFuncReforgeFormulaConfig : public ::RPG::GameCore::RogueWorkbenchFuncBaseConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4723B23C309C84D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_METHOD_3_4723B23C309C84D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E103B19E5DAD35B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_METHOD_3_E103B19E5DAD35B2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueWorkbenchFuncReforgeFormulaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWORKBENCHFUNCREFORGEFORMULACONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

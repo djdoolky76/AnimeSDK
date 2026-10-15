@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/RectTransform_Axis.h"
-
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class CanvasScaler; }
 namespace UnityEngine::UI { class LayoutElement; }
 
-#define SRF_UI_DRAGHANDLE_COMMITCURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1EC43840)
-#define SRF_UI_DRAGHANDLE_GETCURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1EC432C0)
-#define SRF_UI_DRAGHANDLE_GETMAXSIZE_OFFSET UNITYSDK_OFFSET(0x1EC43600)
-#define SRF_UI_DRAGHANDLE_GETMINSIZE_OFFSET UNITYSDK_OFFSET(0x1EC43520)
-#define SRF_UI_DRAGHANDLE_GET_MULT_OFFSET UNITYSDK_OFFSET(0x1EC43170)
-#define SRF_UI_DRAGHANDLE_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1EC43190)
-#define SRF_UI_DRAGHANDLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1EC43440)
-#define SRF_UI_DRAGHANDLE_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x1EC437E0)
-#define SRF_UI_DRAGHANDLE_SETCURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1EC43620)
-#define SRF_UI_DRAGHANDLE_START_OFFSET UNITYSDK_OFFSET(0x1EC439B0)
-#define SRF_UI_DRAGHANDLE_VERIFY_OFFSET UNITYSDK_OFFSET(0x1EC431C0)
-#define SRF_UI_DRAGHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC43A00)
+#define SRF_UI_DRAGHANDLE_COMMITCURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1ED4DE30)
+#define SRF_UI_DRAGHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4DFF0)
+#define SRF_UI_DRAGHANDLE_GETCURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1ED4D8B0)
+#define SRF_UI_DRAGHANDLE_GETMAXSIZE_OFFSET UNITYSDK_OFFSET(0x1ED4DBF0)
+#define SRF_UI_DRAGHANDLE_GETMINSIZE_OFFSET UNITYSDK_OFFSET(0x1ED4DB10)
+#define SRF_UI_DRAGHANDLE_GET_MULT_OFFSET UNITYSDK_OFFSET(0x1ED4D760)
+#define SRF_UI_DRAGHANDLE_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1ED4D780)
+#define SRF_UI_DRAGHANDLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1ED4DA30)
+#define SRF_UI_DRAGHANDLE_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x1ED4DDD0)
+#define SRF_UI_DRAGHANDLE_SETCURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1ED4DC10)
+#define SRF_UI_DRAGHANDLE_START_OFFSET UNITYSDK_OFFSET(0x1ED4DFA0)
+#define SRF_UI_DRAGHANDLE_VERIFY_OFFSET UNITYSDK_OFFSET(0x1ED4D7B0)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int DragHandle_TypeDefinitionIndex = 34710;
+	inline static constexpr unsigned int DragHandle_TypeDefinitionIndex = 35379;
 
 	class DragHandle : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,13 +32,14 @@ namespace SRF::UI
 		::System::Single _startValue; // 0x24
 		::UnityEngine::RectTransform_Axis Axis; // 0x28
 		::System::Boolean Invert; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single MaxSize; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::UI::LayoutElement* TargetLayoutElement; // 0x38
 		::UnityEngine::RectTransform* TargetRectTransform; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_DRAGHANDLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_DRAGHANDLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_Mult()
@@ -96,5 +96,6 @@ namespace SRF::UI
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_DRAGHANDLE_GETMAXSIZE_OFFSET))(this);
 		}
+
 	};
 }

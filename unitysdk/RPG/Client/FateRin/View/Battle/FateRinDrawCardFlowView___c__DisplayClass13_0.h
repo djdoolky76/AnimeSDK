@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5CBF70)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1B5CC0A0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC1D40)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFC1E70)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass13_0_TypeDefinitionIndex = 79361;
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass13_0_TypeDefinitionIndex = 80685;
 
 	class FateRinDrawCardFlowView___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* posCtrl; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __CreateCardAnimatorPlayActionCommand_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS13_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET))(this);
 		}
+
 	};
 }

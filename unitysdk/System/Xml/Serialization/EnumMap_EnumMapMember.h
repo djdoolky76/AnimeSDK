@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_ENUMNAME_OFFSET UNITYSDK_OFFSET(0x1B089B20)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B089B30)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_XMLNAME_OFFSET UNITYSDK_OFFSET(0x1B089B10)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B089B00)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EECA780)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_ENUMNAME_OFFSET UNITYSDK_OFFSET(0x1EECA7A0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EECA7B0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_XMLNAME_OFFSET UNITYSDK_OFFSET(0x1EECA790)
 
 namespace System::Xml::Serialization
 {
@@ -16,13 +15,12 @@ namespace System::Xml::Serialization
 	class EnumMap_EnumMapMember : public ::System::Object
 	{
 	public:
-		::System::String* _xmlName; // 0x10
-		::System::String* _enumName; // 0x18
+		::System::String* _enumName; // 0x10
+		::System::String* _xmlName; // 0x18
 		::System::Int64 _value; // 0x20
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_XmlName()
@@ -39,5 +37,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_VALUE_OFFSET))(this);
 		}
+
 	};
 }

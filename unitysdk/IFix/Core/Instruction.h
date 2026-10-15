@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IFix/Core/Code.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Instruction_TypeDefinitionIndex = 10044;
+	inline static constexpr unsigned int Instruction_TypeDefinitionIndex = 7111;
 
 	struct alignas(4) Instruction
 	{

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPPreDevConfig_TypeDefinitionIndex = 4862;
+	inline static constexpr unsigned int CRPPreDevConfig_TypeDefinitionIndex = 4868;
 
 	struct alignas(4) CRPPreDevConfig
 	{

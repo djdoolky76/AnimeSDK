@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_MIHOYO_ENGINEVERSION_GET_P4BRANCH_OFFSET UNITYSDK_OFFSET(0x1F015960)
-#define UNITYENGINE_MIHOYO_ENGINEVERSION_GET_P4COMMIT_OFFSET UNITYSDK_OFFSET(0x1F015950)
-#define UNITYENGINE_MIHOYO_ENGINEVERSION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F015970)
+#define UNITYENGINE_MIHOYO_ENGINEVERSION_GET_P4BRANCH_OFFSET UNITYSDK_OFFSET(0x1F443F90)
+#define UNITYENGINE_MIHOYO_ENGINEVERSION_GET_P4COMMIT_OFFSET UNITYSDK_OFFSET(0x1F443F80)
+#define UNITYENGINE_MIHOYO_ENGINEVERSION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F443FA0)
 
 namespace UnityEngine::miHoYo
 {
-	inline static constexpr unsigned int EngineVersion_TypeDefinitionIndex = 6055;
+	inline static constexpr unsigned int EngineVersion_TypeDefinitionIndex = 6063;
 
 	class EngineVersion : public ::System::Object
 	{
@@ -29,5 +28,6 @@ namespace UnityEngine::miHoYo
 		{
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MIHOYO_ENGINEVERSION_GET_VERSION_OFFSET))();
 		}
+
 	};
 }

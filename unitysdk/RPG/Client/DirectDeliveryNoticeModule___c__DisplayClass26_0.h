@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class DirectDeliveryNoticeData; }
 namespace RPG::Client { class DirectDeliveryNoticeModule; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E0BD0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0___TRIGGERTRYENQUEUETOAST_B__0_OFFSET UNITYSDK_OFFSET(0x1B8E1110)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC5850)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0___TRIGGERTRYENQUEUETOAST_B__0_OFFSET UNITYSDK_OFFSET(0xCCC5D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass26_0_TypeDefinitionIndex = 63641;
+	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass26_0_TypeDefinitionIndex = 63579;
 
 	class DirectDeliveryNoticeModule___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::DirectDeliveryNoticeModule* __4__this; // 0x10
 		::RPG::Client::DirectDeliveryNoticeData* notice; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __TriggerTryEnqueueToast_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS26_0___TRIGGERTRYENQUEUETOAST_B__0_OFFSET))(this);
 		}
+
 	};
 }

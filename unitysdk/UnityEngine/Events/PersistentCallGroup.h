@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class InvokableCallList; }
 namespace UnityEngine::Events { class PersistentCall; }
 namespace UnityEngine::Events { class UnityEventBase; }
 
-#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_GETLISTENER_OFFSET UNITYSDK_OFFSET(0x1DED8BB0)
-#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1DED8B90)
-#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1DED8C00)
-#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DED8B50)
+#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BB980)
+#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_GETLISTENER_OFFSET UNITYSDK_OFFSET(0x1F3BB9E0)
+#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F3BB9C0)
+#define UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F3BBA30)
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int PersistentCallGroup_TypeDefinitionIndex = 4484;
+	inline static constexpr unsigned int PersistentCallGroup_TypeDefinitionIndex = 4488;
 
 	class PersistentCallGroup : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_PERSISTENTCALLGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_Count()
@@ -40,5 +38,6 @@ namespace UnityEngine::Events
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::InvokableCallList*, ::UnityEngine::Events::UnityEventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_PERSISTENTCALLGROUP_INITIALIZE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

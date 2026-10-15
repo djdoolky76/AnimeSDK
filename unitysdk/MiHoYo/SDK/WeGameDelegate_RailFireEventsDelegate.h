@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B9E0)
-#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7BA10)
-#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B9D0)
-#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7B960)
+#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF730)
+#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF6B0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF760)
+#define MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_RailFireEventsDelegate_TypeDefinitionIndex = 7665;
+	inline static constexpr unsigned int WeGameDelegate_RailFireEventsDelegate_TypeDefinitionIndex = 7719;
 
 	class WeGameDelegate_RailFireEventsDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_RAILFIREEVENTSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

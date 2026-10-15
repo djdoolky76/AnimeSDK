@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGameSettings_RoadEventInfo_TypeDefinitionIndex = 75455;
+	inline static constexpr unsigned int MonoRoadRashGameSettings_RoadEventInfo_TypeDefinitionIndex = 75870;
 
 	struct alignas(8) MonoRoadRashGameSettings_RoadEventInfo
 	{

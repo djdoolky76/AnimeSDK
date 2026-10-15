@@ -2,35 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ElectricChainV2/Line.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class BezierCurve; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_0A99B5F334D75624_OFFSET UNITYSDK_OFFSET(0x1AC56D10)
-#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x1AC57050)
-#define RPG_CLIENT_ELECTRICCHAINV2_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC570D0)
+#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_CTOR_OFFSET UNITYSDK_OFFSET(0xCD738A0)
+#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0xCD734E0)
+#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_PMPNGLKHFMJ_OFFSET UNITYSDK_OFFSET(0xCD73820)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Curve_TypeDefinitionIndex = 73495;
+	inline static constexpr unsigned int Curve_TypeDefinitionIndex = 73602;
 
 	class Curve : public ::RPG::Client::ElectricChainV2::Line
 	{
 	public:
 		::RPG::Client::BezierCurve* curve; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_2_0A99B5F334D75624(::System::Single a1)
+		::UnityEngine::Vector3 LOICGIBKHMM(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_0A99B5F334D75624_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_LOICGIBKHMM_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_2_124E7DAB85EAFECD()
+		::System::Single PMPNGLKHFMJ()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_124E7DAB85EAFECD_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_PMPNGLKHFMJ_OFFSET))(this);
 		}
+
 	};
 }

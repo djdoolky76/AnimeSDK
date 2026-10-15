@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_protocol.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Mono::Unity
 {

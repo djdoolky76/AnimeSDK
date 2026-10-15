@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI2/PackVertexType.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+namespace System { class Object; }
 
-#define IRI2_MESHCLUSTERINFO_METHOD_2_55CDF35EA89BC4E5_OFFSET UNITYSDK_OFFSET(0x3AF0A50)
-#define IRI2_MESHCLUSTERINFO_METHOD_2_A311ABF890C2D610_OFFSET UNITYSDK_OFFSET(0x3AF0A40)
-#define IRI2_MESHCLUSTERINFO_METHOD_2_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0x3AF0A20)
+#define IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_1_OFFSET UNITYSDK_OFFSET(0x2E85510)
+#define IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_OFFSET UNITYSDK_OFFSET(0x2E85500)
+#define IRI2_MESHCLUSTERINFO_PLGIIKHDPJM_OFFSET UNITYSDK_OFFSET(0x2E854E0)
 
 namespace IRI2
 {
-	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 50088;
+	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 49663;
 
 	struct alignas(8) MeshClusterInfo
 	{
@@ -19,22 +19,20 @@ namespace IRI2
 		::Il2CppArray<::IRI2::PackVertexType>* ClusterVertexData; // 0x18
 		::UnityEngine::Bounds ClusterAABB; // 0x20
 		::UnityEngine::Vector4 ClusterConeNormal; // 0x38
-
-		::System::Int32 Method_2_F5599B7DA8E7E53C()
+		::System::Int32 PLGIIKHDPJM()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_METHOD_2_F5599B7DA8E7E53C_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_PLGIIKHDPJM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A311ABF890C2D610(::Il2CppArray<::UnityEngine::Vector4>* a1)
+		::System::Void NIOAMPCPLPM(::Il2CppArray<::UnityEngine::Vector4>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_METHOD_2_A311ABF890C2D610_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Void Method_2_55CDF35EA89BC4E5(::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>& a1, ::System::Int32 a2)
+		::System::Void NIOAMPCPLPM_1(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>&, ::System::Int32))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_METHOD_2_55CDF35EA89BC4E5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_1_OFFSET))(this, a1, a2);
 		}
-		*/
+
 	};
 }

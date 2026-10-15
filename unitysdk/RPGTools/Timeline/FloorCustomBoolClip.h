@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class FCVSimulationParam; }
+namespace RPGTools::Timeline { class FloorCustomBoolClip; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B58BA00)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B58B9F0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1B58BB90)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_METHOD_4_45B767B6C90F92B7_OFFSET UNITYSDK_OFFSET(0x1B58B810)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58BBF0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_AEFNNMLANNA_OFFSET UNITYSDK_OFFSET(0xE8F0CF0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CCKGKFBCHAM_OFFSET UNITYSDK_OFFSET(0xE8F1040)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F0EB0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F10A0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F0EA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FloorCustomBoolClip_TypeDefinitionIndex = 48584;
+	inline static constexpr unsigned int FloorCustomBoolClip_TypeDefinitionIndex = 48124;
 
 	class FloorCustomBoolClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -25,12 +25,12 @@ namespace RPGTools::Timeline
 		::System::String* Name; // 0x18
 		::System::Boolean Value; // 0x20
 		::System::Boolean RecoverWhenUnLock; // 0x21
+		::System::Byte _padding0[0x6];
 		::RPGTools::Timeline::FCVSimulationParam* Param; // 0x28
 		::System::String* FCVSimulationValue; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -43,14 +43,15 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_4343F372F34C05BF()
+		::System::Void CCKGKFBCHAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_METHOD_4_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_CCKGKFBCHAM_OFFSET))(this);
 		}
 
-		::System::Void Method_4_45B767B6C90F92B7(::RPGTools::Timeline::FloorCustomBoolClip* a1)
+		::System::Void AEFNNMLANNA(::RPGTools::Timeline::FloorCustomBoolClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::FloorCustomBoolClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_METHOD_4_45B767B6C90F92B7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::FloorCustomBoolClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLCLIP_AEFNNMLANNA_OFFSET))(this, a1);
 		}
+
 	};
 }

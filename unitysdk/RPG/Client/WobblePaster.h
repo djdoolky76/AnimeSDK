@@ -2,59 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0x16801B60)
-#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x16802040)
-#define RPG_CLIENT_WOBBLEPASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16803270)
-#define RPG_CLIENT_WOBBLEPASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16803210)
+#define RPG_CLIENT_WOBBLEPASTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE45D180)
+#define RPG_CLIENT_WOBBLEPASTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE45D120)
+#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0xE45BA70)
+#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE45BF50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 70241;
+	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 70277;
 
 	class WobblePaster : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_HEJJEJPOEJB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A60);
-		}
-		static ::System::Int32* StaticGet_CFBOCKJLFCK()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A64);
-		}
-		static ::System::Int32* StaticGet_OHNCIOPAJNL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A68);
-		}
-		static ::System::Int32* StaticGet_EMJKNNNJOLA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A6C);
-		}
-		static ::System::Int32* StaticGet_AAAPPKLCENA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A70);
-		}
-		static ::System::Int32* StaticGet_JNMEMOEDEMM()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A74);
-		}
-		static ::System::Int32* StaticGet_GKHLKFONLMJ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A78);
-		}
-		static ::System::Int32* StaticGet_DDADGDLKMJC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A7C);
-		}
-		static ::System::Int32* StaticGet_BKEDALEHLJF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14A80);
-		}
 		::UnityEngine::GameObject* ReferenceObject1; // 0x18
 		::UnityEngine::GameObject* ReferenceObject2; // 0x20
 		::UnityEngine::GameObject* ReferenceObject3; // 0x28
@@ -88,16 +51,61 @@ namespace RPG::Client
 		::System::Single JGFIMGIDLBJ; // 0x100
 		::System::Single KFEGBDBJJOB; // 0x104
 		::System::Single LLICGDGPMJL; // 0x108
+		::System::Byte _padding0[0x4];
 		::UnityEngine::MaterialPropertyBlock* HFCGFGDABGJ; // 0x110
+		static ::System::Int32* StaticGet_DDADGDLKMJC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF520);
+		}
+
+		static ::System::Int32* StaticGet_HEJJEJPOEJB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF524);
+		}
+
+		static ::System::Int32* StaticGet_GKHLKFONLMJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF528);
+		}
+
+		static ::System::Int32* StaticGet_JNMEMOEDEMM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF52C);
+		}
+
+		static ::System::Int32* StaticGet_EMJKNNNJOLA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF530);
+		}
+
+		static ::System::Int32* StaticGet_AAAPPKLCENA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF534);
+		}
+
+		static ::System::Int32* StaticGet_OHNCIOPAJNL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF538);
+		}
+
+		static ::System::Int32* StaticGet_CFBOCKJLFCK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF53C);
+		}
+
+		static ::System::Int32* StaticGet_BKEDALEHLJF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF540);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOBBLEPASTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOBBLEPASTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WOBBLEPASTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WOBBLEPASTER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()
@@ -109,5 +117,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

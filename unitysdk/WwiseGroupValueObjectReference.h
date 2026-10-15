@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/WwiseObjectReference.h"
-#include "unitysdk/WwiseObjectType.h"
-
 namespace System { class String; }
 
-#define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1D2F4D80)
-#define WWISEGROUPVALUEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F4E80)
+#define WWISEGROUPVALUEOBJECTREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6093B0)
+#define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1F6092B0)
 
-inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 43694;
+inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 44886;
 
-class WwiseGroupValueObjectReference : public ::WwiseObjectReference
-{
-public:
-	::System::Void _ctor()
+	class WwiseGroupValueObjectReference : public ::WwiseObjectReference
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEGROUPVALUEOBJECTREFERENCE__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEGROUPVALUEOBJECTREFERENCE_CTOR_OFFSET))(this);
+		}
 
-	::System::String* get_DisplayName()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET))(this);
-	}
-};
+		::System::String* get_DisplayName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET))(this);
+		}
+
+	};

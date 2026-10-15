@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x18585F30)
+#define RPG_CUSTOMRP_RPGBLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0E820)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGBlink_TypeDefinitionIndex = 37101;
+	inline static constexpr unsigned int RPGBlink_TypeDefinitionIndex = 37786;
 
 	class RPGBlink : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -33,10 +32,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* BlinkSpeedlineRange; // 0xB0
 		::UnityEngine::Rendering::FloatParameter* BlinkSpeedlineLength; // 0xB8
 		::UnityEngine::Rendering::FloatParameter* BlinkSpeedlineWidth; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGBLINK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGBLINK_CTOR_OFFSET))(this);
 		}
+
 	};
 }

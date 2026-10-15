@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE2250)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE2280)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE2240)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE21D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65C7D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65C750)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65C800)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65C7C0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetD3D9AdapterIndex_TypeDefinitionIndex = 37599;
+	inline static constexpr unsigned int IVRSystem__GetD3D9AdapterIndex_TypeDefinitionIndex = 38896;
 
 	class IVRSystem__GetD3D9AdapterIndex : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETD3D9ADAPTERINDEX_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

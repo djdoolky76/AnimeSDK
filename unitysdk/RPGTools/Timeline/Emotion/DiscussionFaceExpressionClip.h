@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B57A450)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B57A440)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57A5E0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DF390)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DF520)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DF380)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionFaceExpressionClip_TypeDefinitionIndex = 49180;
+	inline static constexpr unsigned int DiscussionFaceExpressionClip_TypeDefinitionIndex = 48726;
 
 	class DiscussionFaceExpressionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -22,10 +21,9 @@ namespace RPGTools::Timeline::Emotion
 		::System::String* CharacterUniqueName; // 0x18
 		::System::String* FaceExpressionKey; // 0x20
 		::System::Single FadeDuration; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +35,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

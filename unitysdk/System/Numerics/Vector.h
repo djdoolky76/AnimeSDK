@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Numerics/Vector_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Numerics/Vector_1.h"
 
-#define SYSTEM_NUMERICS_VECTOR_CONDITIONALSELECT_OFFSET UNITYSDK_OFFSET(0x1EF8BFD0)
-#define SYSTEM_NUMERICS_VECTOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EF8C0D0)
-#define SYSTEM_NUMERICS_VECTOR_GET_ISHARDWAREACCELERATED_OFFSET UNITYSDK_OFFSET(0x1EF8C210)
-#define SYSTEM_NUMERICS_VECTOR_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1EF8C170)
+#define SYSTEM_NUMERICS_VECTOR_CONDITIONALSELECT_OFFSET UNITYSDK_OFFSET(0x1EE3A190)
+#define SYSTEM_NUMERICS_VECTOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EE3A290)
+#define SYSTEM_NUMERICS_VECTOR_GET_ISHARDWAREACCELERATED_OFFSET UNITYSDK_OFFSET(0x1EE3A3D0)
+#define SYSTEM_NUMERICS_VECTOR_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1EE3A330)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector_TypeDefinitionIndex = 3862;
+	inline static constexpr unsigned int Vector_TypeDefinitionIndex = 3863;
 
 	class Vector : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace System::Numerics
 			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Int32>, ::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR_CONDITIONALSELECT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Numerics::Vector_1<::System::Int32> Equals(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
+		static ::System::Numerics::Vector_1<::System::Int32> Equals_1(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector_1<::System::Int32>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR_EQUALS_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Int32>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR_EQUALS_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Numerics::Vector_1<::System::Int32> GreaterThan(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
@@ -34,5 +34,6 @@ namespace System::Numerics
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR_GET_ISHARDWAREACCELERATED_OFFSET))();
 		}
+
 	};
 }

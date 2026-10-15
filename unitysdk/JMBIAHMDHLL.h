@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RedirectSkillTargetAffectTeam.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+#define JMBIAHMDHLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xB258080)
+#define JMBIAHMDHLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2580E0)
+
+inline static constexpr unsigned int JMBIAHMDHLL_TypeDefinitionIndex = 57693;
+
+	class JMBIAHMDHLL : public ::System::Object
+	{
+	public:
+		::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* JPHPCHAHHOF; // 0x10
+		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x18
+		::RPG::GameCore::GameEntity* BPLHBABBLIO; // 0x20
+		::RPG::GameCore::RedirectSkillTargetAffectTeam JKNCJPCLCCP; // 0x28
+		::System::Int32 JMBHCPLJNNM; // 0x2C
+		::RPG::GameCore::FixPoint MJEKNGAOGDI; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMBIAHMDHLL_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMBIAHMDHLL_CLEAR_OFFSET))(this);
+		}
+
+	};

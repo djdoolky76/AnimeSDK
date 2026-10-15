@@ -2,46 +2,47 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WaypointIdentifierType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class WaypointIdentifier; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET UNITYSDK_OFFSET(0x167FF200)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x167FF480)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET UNITYSDK_OFFSET(0x167FF400)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET UNITYSDK_OFFSET(0x167FF3A0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x167FF5A0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x167FF500)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x167FF630)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x167FF6A0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x167FF700)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x167FF760)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x167FF470)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE459660)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET UNITYSDK_OFFSET(0xE459100)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xE459380)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET UNITYSDK_OFFSET(0xE459300)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET UNITYSDK_OFFSET(0xE4592A0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE459370)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE4594A0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0xE459400)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE459530)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xE4595A0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xE459600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaypointIdentifier_TypeDefinitionIndex = 69035;
+	inline static constexpr unsigned int WaypointIdentifier_TypeDefinitionIndex = 69071;
 
 	class WaypointIdentifier : public ::System::Object
 	{
 	public:
+		::System::UInt32 RuntimeID; // 0x10
+		::System::UInt32 LittleGameEntityID; // 0x14
+		::System::UInt32 InstanceID; // 0x18
+		::System::UInt32 GroupID; // 0x1C
+		::RPG::Client::WaypointIdentifierType Type; // 0x20
 		static ::RPG::Client::WaypointIdentifier** StaticGet_Invalid()
 		{
-			return (::RPG::Client::WaypointIdentifier**)Il2CppClass::FromTypeDefinitionIndex(WaypointIdentifier_TypeDefinitionIndex)->GetStaticField(0xFE40);
+			return (::RPG::Client::WaypointIdentifier**)UnitySDK::FromName("RPG.Client", "WaypointIdentifier")->GetStaticField(0x40380);
 		}
-		::System::UInt32 InstanceID; // 0x10
-		::System::UInt32 RuntimeID; // 0x14
-		::RPG::Client::WaypointIdentifierType Type; // 0x18
-		::System::UInt32 LittleGameEntityID; // 0x1C
-		::System::UInt32 GroupID; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::WaypointIdentifier* CreateByEntity(::RPG::GameCore::GameEntity* a1)
@@ -88,5 +89,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::WaypointIdentifier*, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+
 	};
 }

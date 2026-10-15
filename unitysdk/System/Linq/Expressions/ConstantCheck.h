@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/AnalyzeTypeIsResult.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class TypeBinaryExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_1_OFFSET UNITYSDK_OFFSET(0x19A41DC0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_OFFSET UNITYSDK_OFFSET(0x19A41DA0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_1_OFFSET UNITYSDK_OFFSET(0x1ED76620)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_OFFSET UNITYSDK_OFFSET(0x1ED765F0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ConstantCheck_TypeDefinitionIndex = 3207;
+	inline static constexpr unsigned int ConstantCheck_TypeDefinitionIndex = 3208;
 
 	class ConstantCheck : public ::System::Object
 	{
@@ -26,5 +25,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::AnalyzeTypeIsResult(*)(::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_1_OFFSET))(a1, a2);
 		}
+
 	};
 }

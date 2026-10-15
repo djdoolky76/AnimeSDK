@@ -4,7 +4,6 @@
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationStateControllerBase.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance; }
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_Config; }
@@ -12,9 +11,9 @@ namespace RPG::Client::Prop { class ChimeraArrangementModelsPool; }
 namespace RPG::Client::Prop { class ChimeraArrangementSceneOperator; }
 namespace RPG::Client::Prop { class ChimeraArrangementSlot; }
 namespace RPG::Client::Prop { class ChimeraArrangementStageSlotView; }
-namespace RPG::Client::Prop { class ChimeraArrangementStateController_TeamMemberSlotsProfile; }
 namespace RPG::Client::Prop { class ChimeraArrangementTouchInputListener; }
 namespace RPG::Client::Prop { class ChimeraBillboardCanvasAdaptingScaler; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Canvas; }
@@ -22,26 +21,26 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_EXITPREPARATION_OFFSET UNITYSDK_OFFSET(0x189D38A0)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_GET_STATE_OFFSET UNITYSDK_OFFSET(0x189D1910)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_GET_TEAMMEMBERSLOTS_OFFSET UNITYSDK_OFFSET(0x189D1840)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_GOTOWORK_OFFSET UNITYSDK_OFFSET(0x189D3800)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_ONENTER_OFFSET UNITYSDK_OFFSET(0x189D2530)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_ONEXIT_OFFSET UNITYSDK_OFFSET(0x189D2B80)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_ONTICK_OFFSET UNITYSDK_OFFSET(0x189D2A70)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_PLAYTIMELINEENTER_OFFSET UNITYSDK_OFFSET(0x189D3260)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_REACTSHOWPANELS_OFFSET UNITYSDK_OFFSET(0x189D34E0)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_SETSTAGEVIEWVISIBILITY_OFFSET UNITYSDK_OFFSET(0x189D2F00)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_STARTSTAGEVIEWDITHERHIDE_OFFSET UNITYSDK_OFFSET(0x189D30D0)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__ALIGNSLOTSORIENTATION_OFFSET UNITYSDK_OFFSET(0x189D3900)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x189D44C0)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__HANDLEUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x189D2E60)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__INIT_OFFSET UNITYSDK_OFFSET(0x189D1960)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__ONTIMELINEENTEREND_OFFSET UNITYSDK_OFFSET(0x189D3610)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC43CE0)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_EXITPREPARATION_OFFSET UNITYSDK_OFFSET(0xDC430C0)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xDC41130)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_GET_TEAMMEMBERSLOTS_OFFSET UNITYSDK_OFFSET(0xDC41060)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_GOTOWORK_OFFSET UNITYSDK_OFFSET(0xDC43020)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_ONENTER_OFFSET UNITYSDK_OFFSET(0xDC41D50)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_ONEXIT_OFFSET UNITYSDK_OFFSET(0xDC423A0)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_ONTICK_OFFSET UNITYSDK_OFFSET(0xDC42290)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_PLAYTIMELINEENTER_OFFSET UNITYSDK_OFFSET(0xDC42A80)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_REACTSHOWPANELS_OFFSET UNITYSDK_OFFSET(0xDC42D00)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_SETSTAGEVIEWVISIBILITY_OFFSET UNITYSDK_OFFSET(0xDC42720)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_STARTSTAGEVIEWDITHERHIDE_OFFSET UNITYSDK_OFFSET(0xDC428F0)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__ALIGNSLOTSORIENTATION_OFFSET UNITYSDK_OFFSET(0xDC43120)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__HANDLEUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0xDC42680)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__INIT_OFFSET UNITYSDK_OFFSET(0xDC41180)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__ONTIMELINEENTEREND_OFFSET UNITYSDK_OFFSET(0xDC42E30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementStateController_TypeDefinitionIndex = 78018;
+	inline static constexpr unsigned int ChimeraArrangementStateController_TypeDefinitionIndex = 78489;
 
 	class ChimeraArrangementStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
@@ -53,7 +52,7 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraArrangementSlot*>* NewMemberSlots; // 0x58
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraArrangementModelInstance*>* NewMemberInstances; // 0x60
 		::UnityEngine::Transform* NoNewMembersHintAnchor; // 0x68
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraArrangementStateController_TeamMemberSlotsProfile*>* _TeamMemberSlotsProfiles; // 0x70
+		::System::Collections::Generic::List_1<::System::Object*>* _TeamMemberSlotsProfiles; // 0x70
 		::UnityEngine::Vector2 PickOffset; // 0x78
 		::System::Single _DragPlaneZ; // 0x80
 		::System::Single _DraggingScale; // 0x84
@@ -67,15 +66,15 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraArrangementSlot*>*>* _TeamMemberSlotsOfCount; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>* _TeamMemberPropsRootOfCount; // 0xB8
 		::System::Int32 _TeamMemberSlotCount; // 0xC0
+		::System::Byte _padding0[0x4];
 		::RPG::Client::Prop::ChimeraArrangementModelsPool* ChimeraModelPool; // 0xC8
 		::RPG::Client::Prop::ChimeraArrangementSceneOperator* SceneOperator; // 0xD0
 		::RPG::Client::Prop::ChimeraArrangementTouchInputListener* TouchInputListener; // 0xD8
 		::RPG::Client::LuaUIController* _LuaUIController; // 0xE0
 		::System::Nullable_1<::System::UInt32> _BlockID; // 0xE8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraArrangementSlot*>* get_TeamMemberSlots()
@@ -152,5 +151,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER__ALIGNSLOTSORIENTATION_OFFSET))(this);
 		}
+
 	};
 }

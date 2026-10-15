@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OINGMPMHDKF_HNDHKNMKMAM_TypeDefinitionIndex = 32147;
+
+	enum class OINGMPMHDKF_HNDHKNMKMAM : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		AACOEHCFNDB = 2,
+		DGCNHMIHFJB = 15,
+		FDHEPCKLCAM = 8,
+		DCJECFMMIBC = 7,
+		IOJEAOCOBBF = 11,
+		PFBHGAHAFMD = 3,
+		GNFDDPEMMFN = 13,
+		MAKOLELFLFH = 9,
+		NJAKOMDMFJD = 14,
+		OJPAODIHAJE = 10,
+		BOMGNMDOGLM = 497,
+		BBEEBBIDJHE = 555,
+		HGPFFGKNPFB = 380,
+		LNGHIJGFDKP = 1448,
+		GOKFNGFFMOB = 800,
+		CMFCOOEEECB = 1660,
+		EGLOIFDIDPK = 670,
+		ANKIDJJINEI = 1808,
+	};

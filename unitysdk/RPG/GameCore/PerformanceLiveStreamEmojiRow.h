@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PerformanceLiveStreamAtmosphereType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PerformanceLiveStreamEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4226E0)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D422D70)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CF850)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8CF1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLiveStreamEmojiRow_TypeDefinitionIndex = 14214;
+	inline static constexpr unsigned int PerformanceLiveStreamEmojiRow_TypeDefinitionIndex = 14321;
 
 	class PerformanceLiveStreamEmojiRow : public ::System::Object
 	{
 	public:
-		::System::String* MainEmojiPath; // 0x10
-		::System::String* SubEmojiPath1; // 0x18
+		::System::String* SubEmojiPath1; // 0x10
+		::System::String* MainEmojiPath; // 0x18
 		::System::String* SubEmojiPath2; // 0x20
 		::RPG::GameCore::PerformanceLiveStreamAtmosphereType Atmosphere; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PerformanceLiveStreamEmojiRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class FuncUnlockHint; }
 namespace RPG::GameCore { class FuncUnlockConfigRow; }
 
-#define RPG_CLIENT_FUNCUNLOCKDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x19393080)
-#define RPG_CLIENT_FUNCUNLOCKDATA_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x193930D0)
-#define RPG_CLIENT_FUNCUNLOCKDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0x193930F0)
-#define RPG_CLIENT_FUNCUNLOCKDATA_SET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x193930E0)
-#define RPG_CLIENT_FUNCUNLOCKDATA_SET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0x19393100)
-#define RPG_CLIENT_FUNCUNLOCKDATA_UPDATEUNLOCKSTATUS_OFFSET UNITYSDK_OFFSET(0x19393250)
-#define RPG_CLIENT_FUNCUNLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19393110)
+#define RPG_CLIENT_FUNCUNLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0843B0)
+#define RPG_CLIENT_FUNCUNLOCKDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xD084320)
+#define RPG_CLIENT_FUNCUNLOCKDATA_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0xD084370)
+#define RPG_CLIENT_FUNCUNLOCKDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xD084390)
+#define RPG_CLIENT_FUNCUNLOCKDATA_SET_ISOPEN_OFFSET UNITYSDK_OFFSET(0xD084380)
+#define RPG_CLIENT_FUNCUNLOCKDATA_SET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xD0843A0)
+#define RPG_CLIENT_FUNCUNLOCKDATA_UPDATEUNLOCKSTATUS_OFFSET UNITYSDK_OFFSET(0xD0844F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FuncUnlockData_TypeDefinitionIndex = 68010;
+	inline static constexpr unsigned int FuncUnlockData_TypeDefinitionIndex = 68015;
 
 	class FuncUnlockData : public ::System::Object
 	{
@@ -23,10 +22,9 @@ namespace RPG::Client
 		::RPG::GameCore::FuncUnlockConfigRow* _Meta; // 0x10
 		::RPG::Client::FuncUnlockHint* _UnlockHint_k__BackingField; // 0x18
 		::System::Boolean _IsOpen_k__BackingField; // 0x20
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -54,9 +52,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FuncUnlockHint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKDATA_SET_UNLOCKHINT_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateUnlockStatus(::System::Boolean& a1)
+		::System::Void UpdateUnlockStatus(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKDATA_UPDATEUNLOCKSTATUS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKDATA_UPDATEUNLOCKSTATUS_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_DRINKMAKERGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6820A0)
+#define RPG_CLIENT_DRINKMAKERGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCCE9F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerGlobalConfig_TypeDefinitionIndex = 63697;
+	inline static constexpr unsigned int DrinkMakerGlobalConfig_TypeDefinitionIndex = 63635;
 
 	class DrinkMakerGlobalConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single AddIngredientAnimationTime; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* AddIngredientHeightCurve; // 0x20
 		::System::Single AddIngredientDefaultMixAnimationTime; // 0x28
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* AddIngredientDefaultMixCurve; // 0x30
 		::System::Single AddIngredientDefaultMixFactor; // 0x38
 		::System::Single MixAnimationTime; // 0x3C
@@ -32,12 +33,13 @@ namespace RPG::Client
 		::System::Single MaxAddIngredientImpactScale; // 0x74
 		::UnityEngine::AnimationCurve* AddIngredientImpactForceCurve; // 0x78
 		::System::Single SurfaceDistrubedTime; // 0x80
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* SurfaceDistrubedCurveWhenAddIngredient; // 0x88
 		::UnityEngine::AnimationCurve* SurfaceDistrubedCurveWhenMix; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERGLOBALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERGLOBALCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

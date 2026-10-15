@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define SRF_UI_RESPONSIVEBASE_DOREFRESH_OFFSET UNITYSDK_OFFSET(0x1EC481D0)
-#define SRF_UI_RESPONSIVEBASE_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1EC480D0)
-#define SRF_UI_RESPONSIVEBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EC48120)
-#define SRF_UI_RESPONSIVEBASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x1EC48130)
-#define SRF_UI_RESPONSIVEBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC48140)
-#define SRF_UI_RESPONSIVEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48250)
+#define SRF_UI_RESPONSIVEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED52CA0)
+#define SRF_UI_RESPONSIVEBASE_DOREFRESH_OFFSET UNITYSDK_OFFSET(0x1ED52C20)
+#define SRF_UI_RESPONSIVEBASE_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1ED52B20)
+#define SRF_UI_RESPONSIVEBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED52B70)
+#define SRF_UI_RESPONSIVEBASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x1ED52B80)
+#define SRF_UI_RESPONSIVEBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED52B90)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveBase_TypeDefinitionIndex = 34714;
+	inline static constexpr unsigned int ResponsiveBase_TypeDefinitionIndex = 35383;
 
 	class ResponsiveBase : public ::SRF::SRMonoBehaviour
 	{
 	public:
 		::System::Boolean _queueRefresh; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_RESPONSIVEBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_RESPONSIVEBASE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::RectTransform* get_RectTransform()
@@ -49,5 +47,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_RESPONSIVEBASE_DOREFRESH_OFFSET))(this);
 		}
+
 	};
 }

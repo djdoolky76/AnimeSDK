@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueTakeInitialScore; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUETAKEINITIALSCORE_METHOD_3_C2AC8B3BB5B44EF8_OFFSET UNITYSDK_OFFSET(0x1E549C80)
-#define RPG_GAMECORE_ROGUETAKEINITIALSCORE_METHOD_3_DAFAC9E8BDB9E335_OFFSET UNITYSDK_OFFSET(0x1E549BB0)
-#define RPG_GAMECORE_ROGUETAKEINITIALSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E549C70)
+#define RPG_GAMECORE_ROGUETAKEINITIALSCORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA01660)
+#define RPG_GAMECORE_ROGUETAKEINITIALSCORE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA01670)
+#define RPG_GAMECORE_ROGUETAKEINITIALSCORE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA015A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTakeInitialScore_TypeDefinitionIndex = 22040;
+	inline static constexpr unsigned int RogueTakeInitialScore_TypeDefinitionIndex = 22288;
 
 	class RogueTakeInitialScore : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETAKEINITIALSCORE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETAKEINITIALSCORE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DAFAC9E8BDB9E335(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTakeInitialScore*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTakeInitialScore* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTakeInitialScore*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETAKEINITIALSCORE_METHOD_3_DAFAC9E8BDB9E335_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTakeInitialScore*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETAKEINITIALSCORE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C2AC8B3BB5B44EF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTakeInitialScore* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTakeInitialScore* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTakeInitialScore*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETAKEINITIALSCORE_METHOD_3_C2AC8B3BB5B44EF8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTakeInitialScore*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETAKEINITIALSCORE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

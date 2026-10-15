@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Action; }
-
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IDebugData_TypeDefinitionIndex = 34852;
+	inline static constexpr unsigned int IDebugData_TypeDefinitionIndex = 35521;
 
 	class IDebugData
 	{

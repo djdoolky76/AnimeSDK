@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AstraFX/Fireworks/LaunchMode.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-#include "unitysdk/Sirenix/OdinInspector/ValueDropdownItem_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace AstraFX::Fireworks { class AstraFX_FireworksEmitterBehavior; }
+#include "unitysdk/Sirenix/OdinInspector/ValueDropdownItem_1.h"
 namespace AstraFX::Fireworks { class AstraFX_FireworksMonoPlugin; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GETLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x17663C10)
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GETWORLDDIRECTION_OFFSET UNITYSDK_OFFSET(0x17663850)
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GET_NORMALIZEDDIRECTION_OFFSET UNITYSDK_OFFSET(0x17664D80)
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x17664E50)
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_METHOD_7_2358B445A246BBEC_OFFSET UNITYSDK_OFFSET(0x17664EB0)
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_METHOD_7_79FDDC589C22BB72_OFFSET UNITYSDK_OFFSET(0x17664EF0)
-#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17664F70)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0x15BBEB30)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GETLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x15BBD7C0)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GETWORLDDIRECTION_OFFSET UNITYSDK_OFFSET(0x15BBD400)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GET_NORMALIZEDDIRECTION_OFFSET UNITYSDK_OFFSET(0x15BBE940)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x15BBEA10)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_KLDIHHMDNIL_OFFSET UNITYSDK_OFFSET(0x15BBEAB0)
+#define ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_LDFCACPJHBF_OFFSET UNITYSDK_OFFSET(0x15BBEA70)
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int AstraFX_FireworksEmitter_TypeDefinitionIndex = 49452;
+	inline static constexpr unsigned int AstraFX_FireworksEmitter_TypeDefinitionIndex = 49026;
 
-	class AstraFX_FireworksEmitter : public ::RPG::Client::TAMonoPlugin_1<::AstraFX::Fireworks::AstraFX_FireworksEmitterBehavior*>
+	class AstraFX_FireworksEmitter
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Int32>* fireworkTypeIndices; // 0x30
@@ -35,10 +32,9 @@ namespace AstraFX::Fireworks
 		::System::Single weight; // 0x54
 		::System::Single timer; // 0x58
 		::System::Int32 sequenceIndex; // 0x5C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_NormalizedDirection()
@@ -61,14 +57,15 @@ namespace AstraFX::Fireworks
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_GETWORLDDIRECTION_OFFSET))(this);
 		}
 
-		::AstraFX::Fireworks::AstraFX_FireworksMonoPlugin* Method_7_2358B445A246BBEC()
+		::AstraFX::Fireworks::AstraFX_FireworksMonoPlugin* LDFCACPJHBF()
 		{
-			return ((::AstraFX::Fireworks::AstraFX_FireworksMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_METHOD_7_2358B445A246BBEC_OFFSET))(this);
+			return ((::AstraFX::Fireworks::AstraFX_FireworksMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_LDFCACPJHBF_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>* Method_7_79FDDC589C22BB72()
+		::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>* KLDIHHMDNIL()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_METHOD_7_79FDDC589C22BB72_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSEMITTER_KLDIHHMDNIL_OFFSET))(this);
 		}
+
 	};
 }

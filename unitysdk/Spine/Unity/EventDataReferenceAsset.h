@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace Spine { class EventData; }
+namespace Spine::Unity { class EventDataReferenceAsset; }
 namespace Spine::Unity { class SkeletonDataAsset; }
 namespace System { class String; }
 
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET_GET_EVENTDATA_OFFSET UNITYSDK_OFFSET(0x18313900)
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x18313930)
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x18313B20)
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18313B60)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD8BF0)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_GET_EVENTDATA_OFFSET UNITYSDK_OFFSET(0x1ECD8990)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECD89C0)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ECD8BB0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int EventDataReferenceAsset_TypeDefinitionIndex = 43808;
+	inline static constexpr unsigned int EventDataReferenceAsset_TypeDefinitionIndex = 45000;
 
 	class EventDataReferenceAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		// static const ::System::Boolean QuietSkeletonData; // 0x0
 		::Spine::Unity::SkeletonDataAsset* skeletonDataAsset; // 0x18
 		::System::String* eventName; // 0x20
 		::Spine::EventData* eventData; // 0x28
-
+		// static const ::System::Object QuietSkeletonData; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_EVENTDATAREFERENCEASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_EVENTDATAREFERENCEASSET_CTOR_OFFSET))(this);
 		}
 
 		::Spine::EventData* get_EventData()
@@ -42,5 +41,6 @@ namespace Spine::Unity
 		{
 			return ((::Spine::EventData*(*)(::Spine::Unity::EventDataReferenceAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class BJMIMCDCPME;
+
+#define HPPGEICLFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD7EA0)
+
+inline static constexpr unsigned int HPPGEICLFKB_TypeDefinitionIndex = 43214;
+
+	class HPPGEICLFKB : public ::System::Object
+	{
+	public:
+		::BJMIMCDCPME* MAHFJJMKBMD; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPPGEICLFKB_CTOR_OFFSET))(this);
+		}
+
+	};

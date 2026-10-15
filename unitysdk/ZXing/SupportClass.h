@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define ZXING_SUPPORTCLASS_TOBINARYSTRING_OFFSET UNITYSDK_OFFSET(0x16D42BF0)
+#define ZXING_SUPPORTCLASS_TOBINARYSTRING_OFFSET UNITYSDK_OFFSET(0x1F6754D0)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int SupportClass_TypeDefinitionIndex = 6972;
+	inline static constexpr unsigned int SupportClass_TypeDefinitionIndex = 6981;
 
 	class SupportClass : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace ZXing
 		{
 			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + ZXING_SUPPORTCLASS_TOBINARYSTRING_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraAbilityProgressBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraBattleSwapPosition; }
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
-#define RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_METHOD_3_138DB09CD1ABAE22_OFFSET UNITYSDK_OFFSET(0x1E01F980)
-#define RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_METHOD_3_3819C976B393FA92_OFFSET UNITYSDK_OFFSET(0x1E0206E0)
-#define RPG_GAMECORE_CHIMERABATTLESWAPPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E01F970)
+#define RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56B310)
+#define RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56B320)
+#define RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56C220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleSwapPosition_TypeDefinitionIndex = 15705;
+	inline static constexpr unsigned int ChimeraBattleSwapPosition_TypeDefinitionIndex = 15878;
 
 	class ChimeraBattleSwapPosition : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::ChimeraBattleTargetEvaluator* From; // 0x18
 		::RPG::GameCore::ChimeraBattleTargetEvaluator* To; // 0x20
 		::System::Single Time; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESWAPPOSITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3819C976B393FA92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleSwapPosition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraBattleSwapPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleSwapPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_METHOD_3_3819C976B393FA92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraBattleSwapPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_138DB09CD1ABAE22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleSwapPosition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraBattleSwapPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleSwapPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_METHOD_3_138DB09CD1ABAE22_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraBattleSwapPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESWAPPOSITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

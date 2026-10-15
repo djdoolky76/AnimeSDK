@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
-
+namespace MiHoYo::SDK::PC::OS { class HoYoChannelActivityResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxActivitiesExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1A273750)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1A273740)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A273790)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF6EF0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BEF6EB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BEF6EA0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelActivityResult_TypeDefinitionIndex = 8575;
+	inline static constexpr unsigned int HoYoChannelActivityResult_TypeDefinitionIndex = 8636;
 
 	class HoYoChannelActivityResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::XboxActivitiesExtension* xbox; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
@@ -32,5 +31,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYRESULT_FROMJSON_OFFSET))(a1);
 		}
+
 	};
 }

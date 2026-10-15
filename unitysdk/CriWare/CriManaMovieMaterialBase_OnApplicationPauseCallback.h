@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace CriWare { class CriManaMovieMaterialBase; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4F380)
-#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4F3E0)
-#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4EEE0)
-#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4F290)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16720700)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x16720610)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16720760)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x16720260)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaMovieMaterialBase_OnApplicationPauseCallback_TypeDefinitionIndex = 38836;
+	inline static constexpr unsigned int CriManaMovieMaterialBase_OnApplicationPauseCallback_TypeDefinitionIndex = 40133;
 
 	class CriManaMovieMaterialBase_OnApplicationPauseCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CriWare::CriManaMovieMaterialBase* a1, ::System::Boolean a2)
@@ -38,5 +37,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE_ONAPPLICATIONPAUSECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

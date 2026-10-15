@@ -1,24 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class GameRoleModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AE73AD0)
-#define MIHOYO_SDK_GAMEROLEMODEL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AE73CB0)
-#define MIHOYO_SDK_GAMEROLEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE73D90)
+#define MIHOYO_SDK_GAMEROLEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1AEB0)
+#define MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE1ABF0)
+#define MIHOYO_SDK_GAMEROLEMODEL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE1ADD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 7836;
+	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 7880;
 
 	class GameRoleModel : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::GameRoleModel** StaticGet__instance()
-		{
-			return (::MiHoYo::SDK::GameRoleModel**)Il2CppClass::FromTypeDefinitionIndex(GameRoleModel_TypeDefinitionIndex)->GetStaticField(0x12100);
-		}
 		::System::String* server_id; // 0x10
 		::System::String* server_name; // 0x18
 		::System::String* role_id; // 0x20
@@ -36,10 +32,14 @@ namespace MiHoYo::SDK
 		::System::String* party_role_id; // 0x80
 		::System::String* party_role_name; // 0x88
 		::System::String* account_id; // 0x90
+		static ::MiHoYo::SDK::GameRoleModel** StaticGet__instance()
+		{
+			return (::MiHoYo::SDK::GameRoleModel**)UnitySDK::FromName("MiHoYo.SDK", "GameRoleModel")->GetStaticField(0xE370);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GAMEROLEMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GAMEROLEMODEL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void set_Instance(::MiHoYo::SDK::GameRoleModel* a1)
@@ -51,5 +51,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::MiHoYo::SDK::GameRoleModel*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET))();
 		}
+
 	};
 }

@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvByHasMoveSinceLastTeleport; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_325DB3E34CA73EE7_OFFSET UNITYSDK_OFFSET(0x1D6AE9A0)
-#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_471BDE745F62F8B6_OFFSET UNITYSDK_OFFSET(0x1D6AE9E0)
-#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_BDA336B31C5E5D62_OFFSET UNITYSDK_OFFSET(0x1D6AEB60)
-#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_DEFA82F086D2F26C_OFFSET UNITYSDK_OFFSET(0x1D6AEB90)
-#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AE9D0)
+#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D367E50)
+#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D368010)
+#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D367FE0)
+#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D367E60)
+#define RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D367E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvByHasMoveSinceLastTeleport_TypeDefinitionIndex = 20352;
+	inline static constexpr unsigned int AdvByHasMoveSinceLastTeleport_TypeDefinitionIndex = 20591;
 
 	class AdvByHasMoveSinceLastTeleport : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_325DB3E34CA73EE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_325DB3E34CA73EE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_471BDE745F62F8B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_471BDE745F62F8B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BDA336B31C5E5D62(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_BDA336B31C5E5D62_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DEFA82F086D2F26C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_METHOD_4_DEFA82F086D2F26C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByHasMoveSinceLastTeleport*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYHASMOVESINCELASTTELEPORT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

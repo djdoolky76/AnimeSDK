@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace SRDebugger::Services { class IProfilerService; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_PROFILERFPSLABEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x1BDC79A0)
-#define SRDEBUGGER_UI_PROFILERFPSLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDC7970)
-#define SRDEBUGGER_UI_PROFILERFPSLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC7C40)
+#define SRDEBUGGER_UI_PROFILERFPSLABEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED37E90)
+#define SRDEBUGGER_UI_PROFILERFPSLABEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x1ED37C30)
+#define SRDEBUGGER_UI_PROFILERFPSLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED37C00)
 
 namespace SRDebugger::UI
 {
-	inline static constexpr unsigned int ProfilerFPSLabel_TypeDefinitionIndex = 37289;
+	inline static constexpr unsigned int ProfilerFPSLabel_TypeDefinitionIndex = 37982;
 
 	class ProfilerFPSLabel : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
 		::System::Single _nextUpdate; // 0x48
+		::System::Byte _padding0[0x4];
 		::SRDebugger::Services::IProfilerService* _profilerService; // 0x50
 		::System::Single UpdateFrequency; // 0x58
+		::System::Byte _padding1[0x4];
 		::UnityEngine::UI::Text* _text; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_PROFILERFPSLABEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_PROFILERFPSLABEL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -35,5 +35,6 @@ namespace SRDebugger::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_PROFILERFPSLABEL_REFRESH_OFFSET))(this);
 		}
+
 	};
 }

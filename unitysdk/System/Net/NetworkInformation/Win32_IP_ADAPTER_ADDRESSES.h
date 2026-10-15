@@ -4,8 +4,6 @@
 #include "unitysdk/System/Net/NetworkInformation/NetworkInterfaceType.h"
 #include "unitysdk/System/Net/NetworkInformation/OperationalStatus.h"
 #include "unitysdk/System/Net/NetworkInformation/Win32_SOCKET_ADDRESS.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace System::Net::NetworkInformation
@@ -42,6 +40,7 @@ namespace System::Net::NetworkInformation
 		::System::UInt64 Luid; // 0xB8
 		::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv4Server; // 0xC0
 		::System::UInt32 CompartmentId; // 0xD0
+		::System::Byte _padding0[0x4];
 		::System::UInt64 NetworkGuid; // 0xD8
 		::System::Int32 ConnectionType; // 0xE0
 		::System::Int32 TunnelType; // 0xE4

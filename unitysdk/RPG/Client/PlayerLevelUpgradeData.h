@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerLevelUpgradeData_TypeDefinitionIndex = 66711;
+	inline static constexpr unsigned int PlayerLevelUpgradeData_TypeDefinitionIndex = 66680;
 
 	struct alignas(4) PlayerLevelUpgradeData
 	{

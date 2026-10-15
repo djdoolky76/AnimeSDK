@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class ConsoleDelegate_ImeDialogCloseCallback; }
 namespace MiHoYo::SDK { class ConsoleDelegate_ImeDialogCompleteCallback; }
 namespace MiHoYo::SDK { class ConsoleImeInfo; }
@@ -9,21 +8,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FB4F0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FB530)
-#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5E3760)
-#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB400)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE17770)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE17680)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE177B0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDFF860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_ShowTextEntryDelegate_TypeDefinitionIndex = 7598;
+	inline static constexpr unsigned int ConsoleDelegate_ShowTextEntryDelegate_TypeDefinitionIndex = 7652;
 
 	class ConsoleDelegate_ShowTextEntryDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::ConsoleImeInfo* a1, ::MiHoYo::SDK::ConsoleDelegate_ImeDialogCloseCallback* a2, ::MiHoYo::SDK::ConsoleDelegate_ImeDialogCompleteCallback* a3)
@@ -40,5 +39,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_SHOWTEXTENTRYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

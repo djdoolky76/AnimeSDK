@@ -4,21 +4,20 @@
 #include "unitysdk/UnityEngine/Resolution.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class EventSystem; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_ONGUI_OFFSET UNITYSDK_OFFSET(0x104FE280)
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_PROCESS_OFFSET UNITYSDK_OFFSET(0x104FDCC0)
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_START_OFFSET UNITYSDK_OFFSET(0x104FDB90)
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x104FE570)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E1920)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_ONGUI_OFFSET UNITYSDK_OFFSET(0xE9E1630)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_PROCESS_OFFSET UNITYSDK_OFFSET(0xE9E1070)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_START_OFFSET UNITYSDK_OFFSET(0xE9E0F40)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int VirtualCursorInputModule_TypeDefinitionIndex = 48187;
+	inline static constexpr unsigned int VirtualCursorInputModule_TypeDefinitionIndex = 47728;
 
 	class VirtualCursorInputModule : public ::UnityEngine::EventSystems::PointerInputModule
 	{
@@ -29,14 +28,14 @@ namespace UnityEngine::EventSystems
 		::UnityEngine::Vector2 AGADKKGBPAP; // 0x70
 		::System::String* m_SubmitButton; // 0x78
 		::System::Int32 playerNumber; // 0x80
+		::System::Byte _padding0[0x4];
 		::UnityEngine::EventSystems::PointerEventData* OBPJAMFGFIP; // 0x88
 		::UnityEngine::Vector3 debugPos; // 0x90
 		::UnityEngine::Vector3 mousePos; // 0x9C
 		::UnityEngine::Resolution resolution; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -53,5 +52,6 @@ namespace UnityEngine::EventSystems
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_ONGUI_OFFSET))(this);
 		}
+
 	};
 }

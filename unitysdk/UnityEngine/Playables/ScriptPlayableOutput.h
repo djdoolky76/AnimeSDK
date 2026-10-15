@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutputHandle.h"
-
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+#include "unitysdk/UnityEngine/Playables/PlayableOutput.h"
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1ECC84F0)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x14A80)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1ECC8620)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ECC8610)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x3C6D2D0)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1F3DF1A0)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C71D60)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2E88BC0)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1F3DF2D0)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F3DF2C0)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 4921;
+	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 4928;
 
-	struct alignas(8) ScriptPlayableOutput
+	struct alignas(4) ScriptPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Playables::PlayableOutputHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CTOR_OFFSET))(this, a1);
 		}
 
 		/*
@@ -31,10 +30,12 @@ namespace UnityEngine::Playables
 		}
 		*/
 
+		/*
 		static ::UnityEngine::Playables::ScriptPlayableOutput get_Null()
 		{
 			return ((::UnityEngine::Playables::ScriptPlayableOutput(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET))();
 		}
+		*/
 
 		::UnityEngine::Playables::PlayableOutputHandle GetHandle()
 		{
@@ -47,5 +48,6 @@ namespace UnityEngine::Playables
 			return ((::UnityEngine::Playables::PlayableOutput(*)(::UnityEngine::Playables::ScriptPlayableOutput))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET))(a1);
 		}
 		*/
+
 	};
 }

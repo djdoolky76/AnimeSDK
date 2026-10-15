@@ -2,16 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-namespace System::Collections { class IComparer; }
-namespace System::Collections { class IEqualityComparer; }
-namespace System::Text { class StringBuilder; }
-
 namespace System
 {
 	inline static constexpr unsigned int Tuple_8_TypeDefinitionIndex = 150;
 
-	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class Tuple_8 : public ::System::Object
 	{
 	public:
@@ -22,6 +17,6 @@ namespace System
 		T5 m_Item5; // 0x0
 		T6 m_Item6; // 0x0
 		T7 m_Item7; // 0x0
-		TRest m_Rest; // 0x0
+		T8 m_Rest; // 0x0
 	};
 }

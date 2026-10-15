@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
 #include "unitysdk/System/Linq/Expressions/ExpressionType.h"
-
 namespace System { class String; }
 namespace System { class Type; }
+namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
+namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1DF4DFD0)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GETISBYREF_OFFSET UNITYSDK_OFFSET(0x1DF4DFC0)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_ISBYREF_OFFSET UNITYSDK_OFFSET(0x1DF4DF40)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DF4DF30)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1DF4DF20)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DF4DEF0)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_MAKE_OFFSET UNITYSDK_OFFSET(0x1DF4DA20)
-#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4D9C0)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1EE03590)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE02F80)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GETISBYREF_OFFSET UNITYSDK_OFFSET(0x1EE03580)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_ISBYREF_OFFSET UNITYSDK_OFFSET(0x1EE03500)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EE034F0)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE034E0)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EE034B0)
+#define SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_MAKE_OFFSET UNITYSDK_OFFSET(0x1EE02FE0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ParameterExpression_TypeDefinitionIndex = 3267;
+	inline static constexpr unsigned int ParameterExpression_TypeDefinitionIndex = 3268;
 
 	class ParameterExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Linq::Expressions::ParameterExpression* Make(::System::Type* a1, ::System::String* a2, ::System::Boolean a3)
@@ -64,5 +64,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ExpressionVisitor*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_PARAMETEREXPRESSION_ACCEPT_OFFSET))(this, a1);
 		}
+
 	};
 }

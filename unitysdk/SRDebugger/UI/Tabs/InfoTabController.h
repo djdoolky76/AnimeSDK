@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace SRDebugger { class InfoEntry; }
 namespace SRDebugger::UI::Controls { class InfoBlock; }
 namespace SRF::UI { class FlashGraphic; }
@@ -10,35 +9,34 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ACTIVATEREFRESHEVERYFRAME_OFFSET UNITYSDK_OFFSET(0x1BDCA7A0)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CREATEBLOCK_OFFSET UNITYSDK_OFFSET(0x1BDCA7D0)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_FILLINFOBLOCK_OFFSET UNITYSDK_OFFSET(0x1BDCA930)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_INTERNALREFRESH_OFFSET UNITYSDK_OFFSET(0x1BDC9FA0)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BDC9F60)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_REFRESH_OFFSET UNITYSDK_OFFSET(0x1BDCA760)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDCA790)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCBB70)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1BDCB920)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ACTIVATEREFRESHEVERYFRAME_OFFSET UNITYSDK_OFFSET(0x1ED3AA30)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CREATEBLOCK_OFFSET UNITYSDK_OFFSET(0x1ED3AA60)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3BE00)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_FILLINFOBLOCK_OFFSET UNITYSDK_OFFSET(0x1ED3ABC0)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_INTERNALREFRESH_OFFSET UNITYSDK_OFFSET(0x1ED3A230)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED3A1F0)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_REFRESH_OFFSET UNITYSDK_OFFSET(0x1ED3A9F0)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED3AA20)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1ED3BBB0)
 
 namespace SRDebugger::UI::Tabs
 {
-	inline static constexpr unsigned int InfoTabController_TypeDefinitionIndex = 37296;
+	inline static constexpr unsigned int InfoTabController_TypeDefinitionIndex = 37989;
 
 	class InfoTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
-		// static const ::System::Char Tick; // 0x0
-		// static const ::System::Char Cross; // 0x0
-		// static const ::System::String* NameColor; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::SRDebugger::UI::Controls::InfoBlock*>* _infoBlocks; // 0x48
 		::SRDebugger::UI::Controls::InfoBlock* InfoBlockPrefab; // 0x50
 		::UnityEngine::RectTransform* LayoutContainer; // 0x58
 		::SRF::UI::FlashGraphic* ToggleButton; // 0x60
 		::System::Boolean _updateEveryFrame; // 0x68
-
+		// static const ::System::Object Tick; // 0x0
+		// static const ::System::Object Cross; // 0x0
+		// static const ::System::String* NameColor; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -80,5 +78,6 @@ namespace SRDebugger::UI::Tabs
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET))(this, a1);
 		}
+
 	};
 }

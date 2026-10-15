@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/AsyncProtocolRequest.h"
-
 namespace Mono::Net::Security { class BufferOffsetSize; }
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace System { class String; }
 
-#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_GET_CURRENTSIZE_OFFSET UNITYSDK_OFFSET(0x1C476460)
-#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_GET_USERBUFFER_OFFSET UNITYSDK_OFFSET(0x1C476450)
-#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_SET_CURRENTSIZE_OFFSET UNITYSDK_OFFSET(0x1C476470)
-#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4765B0)
-#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C476480)
+#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF95B90)
+#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_GET_CURRENTSIZE_OFFSET UNITYSDK_OFFSET(0x1EF95B70)
+#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_GET_USERBUFFER_OFFSET UNITYSDK_OFFSET(0x1EF95B60)
+#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_SET_CURRENTSIZE_OFFSET UNITYSDK_OFFSET(0x1EF95B80)
+#define MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EF95CC0)
 
 namespace Mono::Net::Security
 {
@@ -21,10 +20,9 @@ namespace Mono::Net::Security
 	public:
 		::Mono::Net::Security::BufferOffsetSize* _UserBuffer_k__BackingField; // 0x38
 		::System::Int32 _CurrentSize_k__BackingField; // 0x40
-
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* a1, ::System::Boolean a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::Mono::Net::Security::BufferOffsetSize* get_UserBuffer()
@@ -46,5 +44,6 @@ namespace Mono::Net::Security
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCREADORWRITEREQUEST_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

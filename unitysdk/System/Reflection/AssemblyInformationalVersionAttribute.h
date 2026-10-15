@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE_GET_INFORMATIONALVERSION_OFFSET UNITYSDK_OFFSET(0x1CC14780)
-#define SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC14770)
+#define SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2687B0)
+#define SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE_GET_INFORMATIONALVERSION_OFFSET UNITYSDK_OFFSET(0x1C2687C0)
 
 namespace System::Reflection
 {
@@ -15,15 +14,15 @@ namespace System::Reflection
 	{
 	public:
 		::System::String* m_informationalVersion; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_InformationalVersion()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYINFORMATIONALVERSIONATTRIBUTE_GET_INFORMATIONALVERSION_OFFSET))(this);
 		}
+
 	};
 }

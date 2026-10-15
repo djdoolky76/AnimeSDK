@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateImpl; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_IMPORT_OFFSET UNITYSDK_OFFSET(0x1828BC80)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1828B9B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F086A70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_IMPORT_OFFSET UNITYSDK_OFFSET(0x1F086D40)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -17,12 +16,13 @@ namespace System::Security::Cryptography::X509Certificates
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* a1)
 		{
 			return ((::System::Security::Cryptography::X509Certificates::X509CertificateImpl*(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509Certificate*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_IMPORT_OFFSET))(this, a1);
 		}
+
 	};
 }

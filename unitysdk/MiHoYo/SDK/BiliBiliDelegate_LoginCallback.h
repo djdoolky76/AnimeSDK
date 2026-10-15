@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4930)
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4990)
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4920)
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A48A0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B0E0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B050)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B140)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B0D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_LoginCallback_TypeDefinitionIndex = 7549;
+	inline static constexpr unsigned int BiliBiliDelegate_LoginCallback_TypeDefinitionIndex = 7603;
 
 	class BiliBiliDelegate_LoginCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Int32 a2)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EED7450)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EED74B0)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EED72D0)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED73D0)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F413330)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4132B0)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F413390)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F4131B0)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int DictationRecognizer_DictationErrorHandler_TypeDefinitionIndex = 4437;
+	inline static constexpr unsigned int DictationRecognizer_DictationErrorHandler_TypeDefinitionIndex = 4441;
 
 	class DictationRecognizer_DictationErrorHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Int32 a2)
@@ -38,5 +37,6 @@ namespace UnityEngine::Windows::Speech
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONERRORHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

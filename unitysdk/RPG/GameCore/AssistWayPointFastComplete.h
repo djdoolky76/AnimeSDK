@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AssistWayPointFastComplete; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_228AB841E4BA32C5_OFFSET UNITYSDK_OFFSET(0x1C576320)
-#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_EA1AC2098441EF1B_OFFSET UNITYSDK_OFFSET(0x1C576120)
-#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C576310)
+#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CFB30)
+#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3CFB40)
+#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CF940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointFastComplete_TypeDefinitionIndex = 18780;
+	inline static constexpr unsigned int AssistWayPointFastComplete_TypeDefinitionIndex = 19004;
 
 	class AssistWayPointFastComplete : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,22 +19,23 @@ namespace RPG::GameCore
 		::System::UInt32 StartIndex; // 0x10
 		::System::UInt32 EndIndex; // 0x14
 		::System::Boolean UseOverrideTriggerTime; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single TriggerTime; // 0x1C
 		::System::UInt32 TeleportTargetID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EA1AC2098441EF1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointFastComplete*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AssistWayPointFastComplete* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointFastComplete*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_EA1AC2098441EF1B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AssistWayPointFastComplete*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_228AB841E4BA32C5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointFastComplete*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointFastComplete* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointFastComplete*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_228AB841E4BA32C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointFastComplete*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
+
 	};
 }

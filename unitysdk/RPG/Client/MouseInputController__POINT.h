@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MouseInputController__POINT_TypeDefinitionIndex = 61423;
+	inline static constexpr unsigned int MouseInputController__POINT_TypeDefinitionIndex = 61329;
 
 	struct alignas(4) MouseInputController__POINT
 	{

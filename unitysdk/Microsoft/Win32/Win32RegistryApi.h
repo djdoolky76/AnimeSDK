@@ -3,33 +3,33 @@
 #include "unitysdk/Microsoft/Win32/RegistryValueKind.h"
 #include "unitysdk/Microsoft/Win32/RegistryValueOptions.h"
 #include "unitysdk/System/Object.h"
-
 namespace Microsoft::Win32 { class RegistryKey; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_CLOSE_OFFSET UNITYSDK_OFFSET(0x16DE01B0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_COMBINENAME_OFFSET UNITYSDK_OFFSET(0x16DE0080)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_FLUSH_OFFSET UNITYSDK_OFFSET(0x16DE00B0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GENERATEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x16DDFAF0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETBINARYVALUE_OFFSET UNITYSDK_OFFSET(0x16DDFC70)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x16DDF300)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETSUBKEYNAMES_OFFSET UNITYSDK_OFFSET(0x16DE0350)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16DDF3A0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_ISHANDLEVALID_OFFSET UNITYSDK_OFFSET(0x16DDF380)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_OPENSUBKEY_OFFSET UNITYSDK_OFFSET(0x16DDFEC0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGCLOSEKEY_OFFSET UNITYSDK_OFFSET(0x16DDE6C0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGENUMKEYEX_OFFSET UNITYSDK_OFFSET(0x16DDE870)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGFLUSHKEY_OFFSET UNITYSDK_OFFSET(0x16DDE740)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGOPENKEYEX_OFFSET UNITYSDK_OFFSET(0x16DDE7C0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYINFOKEY_OFFSET UNITYSDK_OFFSET(0x16DDEFD0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_1_OFFSET UNITYSDK_OFFSET(0x16DDEBF0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_2_OFFSET UNITYSDK_OFFSET(0x16DDEE30)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_3_OFFSET UNITYSDK_OFFSET(0x16DDEF00)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_OFFSET UNITYSDK_OFFSET(0x16DDEB20)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_SUBKEYCOUNT_OFFSET UNITYSDK_OFFSET(0x16DDFD50)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16DE05F0)
-#define MICROSOFT_WIN32_WIN32REGISTRYAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x16DDC380)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_CLOSE_OFFSET UNITYSDK_OFFSET(0x1C029260)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_COMBINENAME_OFFSET UNITYSDK_OFFSET(0x1C029130)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C025440)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C029160)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GENERATEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C028BA0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETBINARYVALUE_OFFSET UNITYSDK_OFFSET(0x1C028D20)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1C0283B0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETSUBKEYNAMES_OFFSET UNITYSDK_OFFSET(0x1C029400)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1C028450)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_ISHANDLEVALID_OFFSET UNITYSDK_OFFSET(0x1C028430)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_OPENSUBKEY_OFFSET UNITYSDK_OFFSET(0x1C028F70)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGCLOSEKEY_OFFSET UNITYSDK_OFFSET(0x1C027770)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGENUMKEYEX_OFFSET UNITYSDK_OFFSET(0x1C027920)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGFLUSHKEY_OFFSET UNITYSDK_OFFSET(0x1C0277F0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGOPENKEYEX_OFFSET UNITYSDK_OFFSET(0x1C027870)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYINFOKEY_OFFSET UNITYSDK_OFFSET(0x1C028080)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_1_OFFSET UNITYSDK_OFFSET(0x1C027CA0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_2_OFFSET UNITYSDK_OFFSET(0x1C027EE0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_3_OFFSET UNITYSDK_OFFSET(0x1C027FB0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_OFFSET UNITYSDK_OFFSET(0x1C027BD0)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_SUBKEYCOUNT_OFFSET UNITYSDK_OFFSET(0x1C028E00)
+#define MICROSOFT_WIN32_WIN32REGISTRYAPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0296A0)
 
 namespace Microsoft::Win32
 {
@@ -39,10 +39,9 @@ namespace Microsoft::Win32
 	{
 	public:
 		::System::Int32 NativeBytesPerCharacter; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Int32 RegCloseKey(::System::IntPtr a1)
@@ -55,39 +54,39 @@ namespace Microsoft::Win32
 			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGFLUSHKEY_OFFSET))(a1);
 		}
 
-		static ::System::Int32 RegOpenKeyEx(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::System::Int32 a4, ::System::IntPtr& a5)
+		static ::System::Int32 RegOpenKeyEx(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::System::Int32 a4, ::System::IntPtr a5)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::IntPtr&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGOPENKEYEX_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGOPENKEYEX_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 RegEnumKeyEx(::System::IntPtr a1, ::System::Int32 a2, ::System::Char* a3, ::System::Int32& a4, ::Il2CppArray<::System::Int32>* a5, ::System::Text::StringBuilder* a6, ::Il2CppArray<::System::Int32>* a7, ::Il2CppArray<::System::Int64>* a8)
+		static ::System::Int32 RegEnumKeyEx(::System::IntPtr a1, ::System::Int32 a2, ::PVOID a3, ::System::Int32 a4, ::Il2CppArray<::System::Int32>* a5, ::System::Text::StringBuilder* a6, ::Il2CppArray<::System::Int32>* a7, ::Il2CppArray<::System::Int64>* a8)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32, ::System::Char*, ::System::Int32&, ::Il2CppArray<::System::Int32>*, ::System::Text::StringBuilder*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int64>*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGENUMKEYEX_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32, ::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Text::StringBuilder*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int64>*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGENUMKEYEX_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Int32 RegQueryValueEx(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind& a4, ::System::IntPtr a5, ::System::Int32& a6)
+		static ::System::Int32 RegQueryValueEx(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind a4, ::System::IntPtr a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind&, ::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 RegQueryValueEx_1(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind& a4, ::Il2CppArray<::System::Byte>* a5, ::System::Int32& a6)
+		static ::System::Int32 RegQueryValueEx_1(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind a4, ::Il2CppArray<::System::Byte>* a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind&, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 RegQueryValueEx_2(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind& a4, ::System::Int32& a5, ::System::Int32& a6)
+		static ::System::Int32 RegQueryValueEx_2(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_2_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 RegQueryValueEx_3(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind& a4, ::System::Int64& a5, ::System::Int32& a6)
+		static ::System::Int32 RegQueryValueEx_3(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::Microsoft::Win32::RegistryValueKind a4, ::System::Int64 a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind&, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_3_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::Microsoft::Win32::RegistryValueKind, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYVALUEEX_3_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 RegQueryInfoKey(::System::IntPtr a1, ::System::Text::StringBuilder* a2, ::Il2CppArray<::System::Int32>* a3, ::System::IntPtr a4, ::System::Int32& a5, ::Il2CppArray<::System::Int32>* a6, ::Il2CppArray<::System::Int32>* a7, ::System::Int32& a8, ::Il2CppArray<::System::Int32>* a9, ::Il2CppArray<::System::Int32>* a10, ::Il2CppArray<::System::Int32>* a11, ::Il2CppArray<::System::Int32>* a12)
+		static ::System::Int32 RegQueryInfoKey(::System::IntPtr a1, ::System::Text::StringBuilder* a2, ::Il2CppArray<::System::Int32>* a3, ::System::IntPtr a4, ::System::Int32 a5, ::Il2CppArray<::System::Int32>* a6, ::Il2CppArray<::System::Int32>* a7, ::System::Int32 a8, ::Il2CppArray<::System::Int32>* a9, ::Il2CppArray<::System::Int32>* a10, ::Il2CppArray<::System::Int32>* a11, ::Il2CppArray<::System::Int32>* a12)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Text::StringBuilder*, ::Il2CppArray<::System::Int32>*, ::System::IntPtr, ::System::Int32&, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::System::Int32&, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYINFOKEY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Text::StringBuilder*, ::Il2CppArray<::System::Int32>*, ::System::IntPtr, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_REGQUERYINFOKEY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
 		::System::IntPtr GetHandle(::Microsoft::Win32::RegistryKey* a1)
@@ -105,9 +104,9 @@ namespace Microsoft::Win32
 			return ((::System::Object*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Object*, ::Microsoft::Win32::RegistryValueOptions))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_GETVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 GetBinaryValue(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::Microsoft::Win32::RegistryValueKind a3, ::Il2CppArray<::System::Byte>*& a4, ::System::Int32 a5)
+		::System::Int32 GetBinaryValue(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::Microsoft::Win32::RegistryValueKind a3, ::System::Object* a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::Microsoft::Win32::RegistryValueKind, ::Il2CppArray<::System::Byte>*&, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_GETBINARYVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Int32(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::Microsoft::Win32::RegistryValueKind, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_GETBINARYVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Int32 SubKeyCount(::Microsoft::Win32::RegistryKey* a1)
@@ -149,5 +148,6 @@ namespace Microsoft::Win32
 		{
 			return ((::System::String*(*)(::Microsoft::Win32::RegistryKey*, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_WIN32REGISTRYAPI_COMBINENAME_OFFSET))(a1, a2);
 		}
+
 	};
 }

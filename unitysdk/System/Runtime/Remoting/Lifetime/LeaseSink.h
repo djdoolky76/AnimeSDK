@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x19432C60)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_RENEWLEASE_OFFSET UNITYSDK_OFFSET(0x19432AA0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x19432980)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK__CTOR_OFFSET UNITYSDK_OFFSET(0x19432970)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2B1A70)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B1780)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_RENEWLEASE_OFFSET UNITYSDK_OFFSET(0x1C2B18B0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2B1790)
 
 namespace System::Runtime::Remoting::Lifetime
 {
@@ -19,10 +18,9 @@ namespace System::Runtime::Remoting::Lifetime
 	{
 	public:
 		::System::Runtime::Remoting::Messaging::IMessageSink* _nextSink; // 0x10
-
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1)
@@ -39,5 +37,6 @@ namespace System::Runtime::Remoting::Lifetime
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_RENEWLEASE_OFFSET))(this, a1);
 		}
+
 	};
 }

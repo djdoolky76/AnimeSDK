@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineComponentBase.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 
-#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x18C70B50)
-#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x18C709F0)
-#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x18C70B40)
-#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x18C70B60)
-#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x18C70DF0)
+#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1668D280)
+#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1668CFE0)
+#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1668CE80)
+#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x1668CFD0)
+#define CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1668CFF0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineSameAsFollowTarget_TypeDefinitionIndex = 38491;
+	inline static constexpr unsigned int CinemachineSameAsFollowTarget_TypeDefinitionIndex = 39788;
 
 	class CinemachineSameAsFollowTarget : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:
 		::System::Single m_Damping; // 0x50
 		::UnityEngine::Quaternion m_PreviousReferenceOrientation; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsValid()
@@ -41,9 +40,10 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void MutateCameraState(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESAMEASFOLLOWTARGET_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

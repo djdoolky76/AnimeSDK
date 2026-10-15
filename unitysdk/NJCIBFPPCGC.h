@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ByComparePropAnimState; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define NJCIBFPPCGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC049C0)
+#define NJCIBFPPCGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC049F0)
+
+inline static constexpr unsigned int NJCIBFPPCGC_TypeDefinitionIndex = 52585;
+
+	class NJCIBFPPCGC
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByComparePropAnimState* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByComparePropAnimState*))((::PBYTE)hIl2Cpp + NJCIBFPPCGC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Evaluate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NJCIBFPPCGC_EVALUATE_OFFSET))(this);
+		}
+
+	};

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EFF9090)
-#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1EFF9080)
+#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F445CD0)
+#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1F445CC0)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 5013;
+	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 5020;
 
 	class NVUnityPlugin : public ::System::Object
 	{
@@ -23,5 +22,6 @@ namespace UnityEngine::NVIDIA
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET))(a1);
 		}
+
 	};
 }

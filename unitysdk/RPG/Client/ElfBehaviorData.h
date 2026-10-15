@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class ElfBehaviorData; }
 namespace RPG::GameCore { class RestaurantBehaviorConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ELFBEHAVIORDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1AC5FA90)
-#define RPG_CLIENT_ELFBEHAVIORDATA_GET_BEHAVIORID_OFFSET UNITYSDK_OFFSET(0x1AC5FB00)
-#define RPG_CLIENT_ELFBEHAVIORDATA_GET_BEHAVIORJSON_OFFSET UNITYSDK_OFFSET(0x1AC5FB20)
-#define RPG_CLIENT_ELFBEHAVIORDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x1AC5FBC0)
-#define RPG_CLIENT_ELFBEHAVIORDATA_SET_BEHAVIORID_OFFSET UNITYSDK_OFFSET(0x1AC5FB10)
-#define RPG_CLIENT_ELFBEHAVIORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5FAF0)
+#define RPG_CLIENT_ELFBEHAVIORDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCD7C320)
+#define RPG_CLIENT_ELFBEHAVIORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD7C380)
+#define RPG_CLIENT_ELFBEHAVIORDATA_GET_BEHAVIORID_OFFSET UNITYSDK_OFFSET(0xCD7C390)
+#define RPG_CLIENT_ELFBEHAVIORDATA_GET_BEHAVIORJSON_OFFSET UNITYSDK_OFFSET(0xCD7C3B0)
+#define RPG_CLIENT_ELFBEHAVIORDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xCD7C450)
+#define RPG_CLIENT_ELFBEHAVIORDATA_SET_BEHAVIORID_OFFSET UNITYSDK_OFFSET(0xCD7C3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfBehaviorData_TypeDefinitionIndex = 63717;
+	inline static constexpr unsigned int ElfBehaviorData_TypeDefinitionIndex = 63655;
 
 	class ElfBehaviorData : public ::System::Object
 	{
 	public:
 		::System::UInt32 _BehaviorID_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFBEHAVIORDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFBEHAVIORDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ElfBehaviorData* Create(::System::UInt32 a1)
@@ -50,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::RestaurantBehaviorConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFBEHAVIORDATA_GET__ROW_OFFSET))(this);
 		}
+
 	};
 }

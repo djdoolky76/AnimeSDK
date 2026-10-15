@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChooseDeliveryGroup; }
 namespace RPG::Client { class ChooseDeliveryToastConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1BBF9340)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1BBF9360)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x1BBF9380)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1BBF9350)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1BBF9370)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x1BBF9390)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF93A0)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xCB65D10)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0xCB65CB0)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0xCB65CD0)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0xCB65CF0)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0xCB65CC0)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_GROUPS_OFFSET UNITYSDK_OFFSET(0xCB65CE0)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0xCB65D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 63579;
+	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 63517;
 
 	class ChooseDeliveryEntry : public ::System::Object
 	{
@@ -24,10 +23,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::ChooseDeliveryGroup*>* _Groups_k__BackingField; // 0x10
 		::RPG::Client::ChooseDeliveryToastConfig* _ToastConfig_k__BackingField; // 0x18
 		::System::UInt32 _EntryID_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYENTRY_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_EntryID()
@@ -59,5 +57,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChooseDeliveryToastConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET))(this, a1);
 		}
+
 	};
 }

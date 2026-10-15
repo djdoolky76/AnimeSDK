@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Slider; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOSLIDERANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C27E840)
-#define RPG_CLIENT_MONOSLIDERANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1C27E6E0)
-#define RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET UNITYSDK_OFFSET(0x1C27E5E0)
-#define RPG_CLIENT_MONOSLIDERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C27EA10)
-#define RPG_CLIENT_MONOSLIDERANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C27EB70)
-#define RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0x1C27E740)
+#define RPG_CLIENT_MONOSLIDERANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0xD85B280)
+#define RPG_CLIENT_MONOSLIDERANIM_CTOR_OFFSET UNITYSDK_OFFSET(0xD85B5B0)
+#define RPG_CLIENT_MONOSLIDERANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0xD85B120)
+#define RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET UNITYSDK_OFFSET(0xD85B020)
+#define RPG_CLIENT_MONOSLIDERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD85B450)
+#define RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD85B180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSliderAnim_TypeDefinitionIndex = 72531;
+	inline static constexpr unsigned int MonoSliderAnim_TypeDefinitionIndex = 72605;
 
 	class MonoSliderAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,12 +29,12 @@ namespace RPG::Client
 		::XLua::LuaTable* _LuaTable; // 0x38
 		::System::Action_1<::XLua::LuaTable*>* _AnimEndCallback; // 0x40
 		::System::Boolean _updating; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Single _startTime; // 0x4C
 		::System::Boolean _NeedEasing; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void StartAnim(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Action_1<::XLua::LuaTable*>* a5, ::XLua::LuaTable* a6, ::System::Boolean a7)
@@ -62,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET))(this, a1);
 		}
+
 	};
 }

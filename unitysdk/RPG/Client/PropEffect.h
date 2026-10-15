@@ -4,21 +4,20 @@
 #include "unitysdk/RPG/Client/MaterialBlockEffectBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x17B45730)
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x17B45F00)
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_8F059A365E90744C_OFFSET UNITYSDK_OFFSET(0x17B45E10)
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_D0EAB95EE152A65F_OFFSET UNITYSDK_OFFSET(0x17B45B90)
-#define RPG_CLIENT_PROPEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17B45F50)
-#define RPG_CLIENT_PROPEFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x17B45EB0)
-#define RPG_CLIENT_PROPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B46000)
+#define RPG_CLIENT_PROPEFFECT_CCFEJGBEAJE_OFFSET UNITYSDK_OFFSET(0xDDEA010)
+#define RPG_CLIENT_PROPEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDDEA200)
+#define RPG_CLIENT_PROPEFFECT_DEAMMEKPNMK_OFFSET UNITYSDK_OFFSET(0xDDE9D90)
+#define RPG_CLIENT_PROPEFFECT_FOIAJHFKCNC_OFFSET UNITYSDK_OFFSET(0xDDE9930)
+#define RPG_CLIENT_PROPEFFECT_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xDDEA100)
+#define RPG_CLIENT_PROPEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDDEA150)
+#define RPG_CLIENT_PROPEFFECT_RESET_OFFSET UNITYSDK_OFFSET(0xDDEA0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropEffect_TypeDefinitionIndex = 70669;
+	inline static constexpr unsigned int PropEffect_TypeDefinitionIndex = 70705;
 
 	class PropEffect : public ::RPG::Client::MaterialBlockEffectBase
 	{
@@ -29,6 +28,7 @@ namespace RPG::Client
 		::UnityEngine::Color TargetEmissionColor2; // 0x90
 		::UnityEngine::Color TargetEmissionColor3; // 0xA0
 		::System::Boolean KeyEmissionColorIsOn; // 0xB0
+		::System::Byte _padding0[0x3];
 		::System::Single KeyEmissionColorLerpVal; // 0xB4
 		::System::Single KeyEmissionColorNightLerpVal; // 0xB8
 		::System::Single KeyEmissionIntensity; // 0xBC
@@ -39,32 +39,35 @@ namespace RPG::Client
 		::System::Single KeyEmissionColorLerpVal2; // 0xD0
 		::System::Single KeyEmissionColorLerpVal3; // 0xD4
 		::System::Boolean KeyEmissionRimFromNormal; // 0xD8
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Color FresnelColor; // 0xDC
 		::UnityEngine::Vector4 FresnelBSI; // 0xEC
 		::System::Single FresnelColorStrength; // 0xFC
 		::System::Boolean EFLDJDJGKMF; // 0x100
 		::System::Boolean KeyDissolveIsOn; // 0x101
+		::System::Byte _padding2[0x2];
 		::System::Single KeyDissolveBase; // 0x104
 		::System::Single KeyAlphaDistance; // 0x108
 		::System::Single KeyAlpha; // 0x10C
 		::System::Boolean KeyTillingOffset; // 0x110
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector4 TillingOffset; // 0x114
+		::System::Byte _padding4[0x4];
 		::UnityEngine::Animator* LCCKDHJPKHF; // 0x128
 		::Il2CppArray<::RPG::Client::CommonEffectMaterialBlockOne*>* CommonMaterialBlocks; // 0x130
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_7_25DEA5C65A602671()
+		::System::Void FOIAJHFKCNC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_METHOD_7_25DEA5C65A602671_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_FOIAJHFKCNC_OFFSET))(this);
 		}
 
-		::System::Void Method_7_D0EAB95EE152A65F()
+		::System::Void DEAMMEKPNMK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_METHOD_7_D0EAB95EE152A65F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_DEAMMEKPNMK_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -72,19 +75,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_RESET_OFFSET))(this);
 		}
 
-		::System::Void Method_7_60E1F7F58CCF739F()
+		::System::Void HADOHLNHHGB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_METHOD_7_60E1F7F58CCF739F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_HADOHLNHHGB_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_8F059A365E90744C()
+		::System::Boolean CCFEJGBEAJE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_METHOD_7_8F059A365E90744C_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_CCFEJGBEAJE_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPEFFECT_ONENABLE_OFFSET))(this);
 		}
+
 	};
 }

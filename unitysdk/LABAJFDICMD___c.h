@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class LABAJFDICMD;
+namespace System { class Object; }
+
+#define LABAJFDICMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8991F0)
+#define LABAJFDICMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E899230)
+#define LABAJFDICMD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E899240)
+
+inline static constexpr unsigned int LABAJFDICMD___c_TypeDefinitionIndex = 31657;
+
+	class LABAJFDICMD___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x240D0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LABAJFDICMD___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LABAJFDICMD___C_CTOR_OFFSET))(this);
+		}
+
+		::LABAJFDICMD* __cctor_b__28_0()
+		{
+			return ((::LABAJFDICMD*(*)(::PVOID))((::PBYTE)hIl2Cpp + LABAJFDICMD___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+
+	};

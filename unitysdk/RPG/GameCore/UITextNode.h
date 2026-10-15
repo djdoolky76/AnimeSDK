@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UITEXTNODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2AD260)
-#define RPG_GAMECORE_UITEXTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AD4C0)
+#define RPG_GAMECORE_UITEXTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC44800)
+#define RPG_GAMECORE_UITEXTNODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC445A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UITextNode_TypeDefinitionIndex = 23564;
+	inline static constexpr unsigned int UITextNode_TypeDefinitionIndex = 23838;
 
 	class UITextNode : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::RPG::Client::TextID TextContent; // 0x20
 		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* ParamList; // 0x30
 		::RPG::GameCore::DynamicFloat* TextDynamicValue; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITEXTNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITEXTNODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UITextNode*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::UITextNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UITextNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITEXTNODE_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UITextNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITEXTNODE_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

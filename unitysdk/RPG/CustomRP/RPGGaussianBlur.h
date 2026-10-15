@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class GaussianBlurGradualParameter; }
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class IntParameter; }
 
-#define RPG_CUSTOMRP_RPGGAUSSIANBLUR_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1859ECA0)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1859ED20)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC27D00)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLUR_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC27C80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGGaussianBlur_TypeDefinitionIndex = 37129;
+	inline static constexpr unsigned int RPGGaussianBlur_TypeDefinitionIndex = 37815;
 
 	class RPGGaussianBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -28,15 +27,15 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* StartRadius; // 0x78
 		::UnityEngine::Rendering::FloatParameter* BlendRadius; // 0x80
 		::UnityEngine::Rendering::FloatParameter* Angle; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsActiveImpl()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLUR_ISACTIVEIMPL_OFFSET))(this);
 		}
+
 	};
 }

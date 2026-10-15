@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticleInitialData_TypeDefinitionIndex = 70555;
+	inline static constexpr unsigned int ParticleInitialData_TypeDefinitionIndex = 70591;
 
 	struct alignas(8) ParticleInitialData
 	{

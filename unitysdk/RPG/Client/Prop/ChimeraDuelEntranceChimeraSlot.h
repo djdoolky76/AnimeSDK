@@ -3,14 +3,13 @@
 #include "unitysdk/RPG/GameCore/AnimatorParameterType.h"
 #include "unitysdk/RPG/GameCore/ChimeraBattleAnimationType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x189E5270)
+#define RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC54A70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelEntranceChimeraSlot_TypeDefinitionIndex = 77847;
+	inline static constexpr unsigned int ChimeraDuelEntranceChimeraSlot_TypeDefinitionIndex = 78318;
 
 	class ChimeraDuelEntranceChimeraSlot : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +19,10 @@ namespace RPG::Client::Prop
 		::System::String* ChimeraEyeAnimatorParamName; // 0x20
 		::RPG::GameCore::AnimatorParameterType EyeParamType; // 0x28
 		::System::Single EyeParamValue; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

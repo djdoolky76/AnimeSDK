@@ -6,8 +6,8 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PlaneType.h"
 #include "unitysdk/RPG/GameCore/UIAudioStage.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AudioConfig; }
 namespace RPG::GameCore { class AudioStateConfig; }
 namespace RPG::GameCore { class AvatarHeightRTPCConfig; }
 namespace RPG::GameCore { class BattleStageConfig; }
@@ -24,12 +24,12 @@ namespace RPG::GameCore { class VibrationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AUDIOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C57E3D0)
-#define RPG_GAMECORE_AUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5818B0)
+#define RPG_GAMECORE_AUDIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DB100)
+#define RPG_GAMECORE_AUDIOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D7C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioConfig_TypeDefinitionIndex = 16206;
+	inline static constexpr unsigned int AudioConfig_TypeDefinitionIndex = 16379;
 
 	class AudioConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -45,10 +45,12 @@ namespace RPG::GameCore
 		::System::UInt32 FullPckCount; // 0x50
 		::System::UInt32 FullPckCountPS; // 0x54
 		::System::UInt32 ExtraExternalPckCount; // 0x58
+		::System::Byte _padding0[0x4];
 		::System::String* MinimumPckName; // 0x60
 		::System::String* MinimumSoundBankName; // 0x68
 		::System::String* InitSoundBankName; // 0x70
 		::System::Boolean UsePCKMode; // 0x78
+		::System::Byte _padding1[0x7];
 		::System::String* MotionShareSet; // 0x80
 		::System::String* EventBGMMute; // 0x88
 		::System::String* EventBGMUnmute; // 0x90
@@ -90,6 +92,7 @@ namespace RPG::GameCore
 		::System::String* DeviceStateHeadphone; // 0x1B0
 		::System::String* DeviceStateSpeaker; // 0x1B8
 		::System::Single LightHitVODelayTime; // 0x1C0
+		::System::Byte _padding2[0x4];
 		::System::String* FootStepSurfaceSwitchGroup; // 0x1C8
 		::System::String* ShoesTypeSwitchGroup; // 0x1D0
 		::System::String* EventFootStepSurface; // 0x1D8
@@ -123,6 +126,7 @@ namespace RPG::GameCore
 		::System::String* EventUISliderPlus; // 0x2B8
 		::System::String* EventUISliderMinus; // 0x2C0
 		::System::Single UISliderCD; // 0x2C8
+		::System::Byte _padding3[0x4];
 		::System::String* UINavigationSoundEvent; // 0x2D0
 		::System::String* UINavigationChangeSoundEvent; // 0x2D8
 		::System::String* UIWheelChangeSoundEvent; // 0x2E0
@@ -156,6 +160,7 @@ namespace RPG::GameCore
 		::System::Int32 LookAtThreatCD; // 0x3B0
 		::System::Single OpenChestVOProb; // 0x3B4
 		::System::Single SolvePuzzleVOProb; // 0x3B8
+		::System::Byte _padding4[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* UIButtonSoundEventMap; // 0x3C0
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AudioGameState, ::System::String*>* AudioGameStateMap; // 0x3C8
 		::RPG::GameCore::PerformanceAudioEventConfig* PerformanceAudioEvents; // 0x3D0
@@ -166,6 +171,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::AvatarHeightRTPCConfig* AvatarHeightRTPCConfig; // 0x3F8
 		::System::String* CameraToAvatarRTPCName; // 0x400
 		::System::Single CameraToAvatarRTPCUpdateThreshold; // 0x408
+		::System::Byte _padding5[0x4];
 		::System::String* SeaLevelAltitudeRTPCName; // 0x410
 		::System::String* CharacterBodySizeRTPCName; // 0x418
 		::System::String* BattleMonsterStanceRTPCName; // 0x420
@@ -190,15 +196,15 @@ namespace RPG::GameCore
 		::System::String* EventEraFlipperDeviceSwitchEnd; // 0x4B8
 		::System::String* EraFlipperStateLightFollowPlayer; // 0x4C0
 		::System::Boolean DisableVibration; // 0x4C8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AudioConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::AudioConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AudioConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AudioConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class PerformanceSortedItem; }
 
-#define RPG_CLIENT_MISSIONUTILS_MAINMISSIONPERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19E152F0)
+#define RPG_CLIENT_MISSIONUTILS_MAINMISSIONPERFORMANCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD710A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils_MainMissionPerformanceInfo_TypeDefinitionIndex = 66231;
+	inline static constexpr unsigned int MissionUtils_MainMissionPerformanceInfo_TypeDefinitionIndex = 66192;
 
 	class MissionUtils_MainMissionPerformanceInfo : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::PerformanceSortedItem* performanceSortedItem; // 0x10
-		::System::UInt32 mainMissionID; // 0x18
-		::System::UInt32 subMissionID; // 0x1C
-
+		::System::UInt32 subMissionID; // 0x18
+		::System::UInt32 mainMissionID; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS_MAINMISSIONPERFORMANCEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS_MAINMISSIONPERFORMANCEINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

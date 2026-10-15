@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Challenge/Tierce/ChallengeTierceRecordBase.h"
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_GET_OBTAINEDSCORE_OFFSET UNITYSDK_OFFSET(0x1C86F2A0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_SET_OBTAINEDSCORE_OFFSET UNITYSDK_OFFSET(0x1C86F2B0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C86F2C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_CTOR_OFFSET UNITYSDK_OFFSET(0xC946140)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_GET_OBTAINEDSCORE_OFFSET UNITYSDK_OFFSET(0xC946120)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_SET_OBTAINEDSCORE_OFFSET UNITYSDK_OFFSET(0xC946130)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceRecordOfBoss_TypeDefinitionIndex = 80140;
+	inline static constexpr unsigned int ChallengeTierceRecordOfBoss_TypeDefinitionIndex = 81468;
 
 	class ChallengeTierceRecordOfBoss : public ::RPG::Client::Challenge::Tierce::ChallengeTierceRecordBase
 	{
 	public:
 		::System::Int32 _ObtainedScore_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_ObtainedScore()
@@ -29,5 +28,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDOFBOSS_SET_OBTAINEDSCORE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PlanetFesMiniGameRewardType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlanetFesGameRewardPoolRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79D6D0)
-#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79D880)
+#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F9180)
+#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F8FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameRewardPoolRow_TypeDefinitionIndex = 12163;
+	inline static constexpr unsigned int PlanetFesGameRewardPoolRow_TypeDefinitionIndex = 12244;
 
 	class PlanetFesGameRewardPoolRow : public ::System::Object
 	{
@@ -20,15 +20,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::PlanetFesMiniGameRewardType Type; // 0x18
 		::System::UInt32 RewardPoolID; // 0x1C
 		::System::UInt32 Order; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlanetFesGameRewardPoolRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlanetFesGameRewardPoolRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesGameRewardPoolRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlanetFesGameRewardPoolRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

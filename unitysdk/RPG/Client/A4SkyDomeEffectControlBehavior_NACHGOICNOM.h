@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace UnityEngine { class Material; }
+
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_NACHGOICNOM_CTOR_OFFSET UNITYSDK_OFFSET(0xC39A350)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_NACHGOICNOM_TypeDefinitionIndex = 70873;
+
+	class A4SkyDomeEffectControlBehavior_NACHGOICNOM : public ::System::Object
+	{
+	public:
+		::UnityEngine::Material* KHFINMBNGBE; // 0x10
+		::UnityEngine::Vector3 GEPMPMGEMFJ; // 0x18
+		::System::Single IEHPFADHJFD; // 0x24
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_NACHGOICNOM_CTOR_OFFSET))(this);
+		}
+
+	};
+}

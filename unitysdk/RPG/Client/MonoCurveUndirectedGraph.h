@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPG::Client { class CurveUndirectedEdge; }
 namespace RPG::Client { class CurveUndirectedEdgeSetting; }
 namespace RPG::Client { class MonoCurveTriggerManager; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E40C10)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_FINDEDGEBYCURVE_OFFSET UNITYSDK_OFFSET(0x19E41860)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_FINDEDGEBYNAME_OFFSET UNITYSDK_OFFSET(0x19E3EA40)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_METHOD_5_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x19E40CE0)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19E41780)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x19E41980)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_AWAKE_OFFSET UNITYSDK_OFFSET(0xD73C1B0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0xD73CF20)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_FINDEDGEBYCURVE_OFFSET UNITYSDK_OFFSET(0xD73CE00)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_FINDEDGEBYNAME_OFFSET UNITYSDK_OFFSET(0xD73A050)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_MKPAMKPIGLI_OFFSET UNITYSDK_OFFSET(0xD73C280)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD73CD20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph_TypeDefinitionIndex = 68539;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph_TypeDefinitionIndex = 68573;
 
 	class MonoCurveUndirectedGraph : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,10 +24,9 @@ namespace RPG::Client
 		::Il2CppArray<::RPG::Client::CurveUndirectedEdgeSetting*>* edgeSettings; // 0x18
 		::Il2CppArray<::RPG::Client::CurveUndirectedEdge*>* HNKJJCIBJGD; // 0x20
 		::RPG::Client::MonoCurveTriggerManager* BLBMEGEHHEC; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -51,9 +49,10 @@ namespace RPG::Client
 			return ((::RPG::Client::CurveUndirectedEdge*(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_FINDEDGEBYCURVE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_2566AD459572DFC3()
+		::System::Void MKPAMKPIGLI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_METHOD_5_2566AD459572DFC3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH_MKPAMKPIGLI_OFFSET))(this);
 		}
+
 	};
 }

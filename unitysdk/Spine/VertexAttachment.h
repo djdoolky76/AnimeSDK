@@ -1,60 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Attachment.h"
-
 namespace Spine { class Slot; }
+namespace Spine { class VertexAttachment; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SPINE_VERTEXATTACHMENT_COMPUTEWORLDVERTICES_1_OFFSET UNITYSDK_OFFSET(0x1EF65D70)
-#define SPINE_VERTEXATTACHMENT_COMPUTEWORLDVERTICES_OFFSET UNITYSDK_OFFSET(0x1EF65CB0)
-#define SPINE_VERTEXATTACHMENT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1EF65910)
-#define SPINE_VERTEXATTACHMENT_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EF65900)
-#define SPINE_VERTEXATTACHMENT_GET_TIMELINEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1EF65970)
-#define SPINE_VERTEXATTACHMENT_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1EF65930)
-#define SPINE_VERTEXATTACHMENT_GET_WORLDVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1EF65950)
-#define SPINE_VERTEXATTACHMENT_SET_BONES_OFFSET UNITYSDK_OFFSET(0x1EF65920)
-#define SPINE_VERTEXATTACHMENT_SET_TIMELINEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1EF65980)
-#define SPINE_VERTEXATTACHMENT_SET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1EF65940)
-#define SPINE_VERTEXATTACHMENT_SET_WORLDVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1EF65960)
-#define SPINE_VERTEXATTACHMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF66620)
-#define SPINE_VERTEXATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF65AD0)
-#define SPINE_VERTEXATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF65990)
+#define SPINE_VERTEXATTACHMENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECC41E0)
+#define SPINE_VERTEXATTACHMENT_COMPUTEWORLDVERTICES_1_OFFSET UNITYSDK_OFFSET(0x1ECC3930)
+#define SPINE_VERTEXATTACHMENT_COMPUTEWORLDVERTICES_OFFSET UNITYSDK_OFFSET(0x1ECC3870)
+#define SPINE_VERTEXATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECC3690)
+#define SPINE_VERTEXATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC3550)
+#define SPINE_VERTEXATTACHMENT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1ECC34D0)
+#define SPINE_VERTEXATTACHMENT_GET_ID_OFFSET UNITYSDK_OFFSET(0x1ECC34C0)
+#define SPINE_VERTEXATTACHMENT_GET_TIMELINEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECC3530)
+#define SPINE_VERTEXATTACHMENT_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1ECC34F0)
+#define SPINE_VERTEXATTACHMENT_GET_WORLDVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1ECC3510)
+#define SPINE_VERTEXATTACHMENT_SET_BONES_OFFSET UNITYSDK_OFFSET(0x1ECC34E0)
+#define SPINE_VERTEXATTACHMENT_SET_TIMELINEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECC3540)
+#define SPINE_VERTEXATTACHMENT_SET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1ECC3500)
+#define SPINE_VERTEXATTACHMENT_SET_WORLDVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1ECC3520)
 
 namespace Spine
 {
-	inline static constexpr unsigned int VertexAttachment_TypeDefinitionIndex = 38365;
+	inline static constexpr unsigned int VertexAttachment_TypeDefinitionIndex = 39662;
 
 	class VertexAttachment : public ::Spine::Attachment
 	{
 	public:
+		::Spine::VertexAttachment* timelineAttachment; // 0x18
+		::Il2CppArray<::System::Single>* vertices; // 0x20
+		::Il2CppArray<::System::Int32>* bones; // 0x28
+		::System::Int32 worldVerticesLength; // 0x30
+		::System::Int32 id; // 0x34
 		static ::System::Object** StaticGet_nextIdLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(VertexAttachment_TypeDefinitionIndex)->GetStaticField(0xE00);
+			return (::System::Object**)UnitySDK::FromName("Spine", "VertexAttachment")->GetStaticField(0xAE0);
 		}
+
 		static ::System::Int32* StaticGet_nextID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VertexAttachment_TypeDefinitionIndex)->GetStaticField(0x740);
+			return (::System::Int32*)UnitySDK::FromName("Spine", "VertexAttachment")->GetStaticField(0x580);
 		}
-		::Il2CppArray<::System::Single>* vertices; // 0x18
-		::Il2CppArray<::System::Int32>* bones; // 0x20
-		::Spine::VertexAttachment* timelineAttachment; // 0x28
-		::System::Int32 id; // 0x30
-		::System::Int32 worldVerticesLength; // 0x34
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::Spine::VertexAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_Id()
@@ -111,5 +112,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Slot*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_VERTEXATTACHMENT_COMPUTEWORLDVERTICES_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
+
 	};
 }

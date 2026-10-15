@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C230)
-#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C260)
-#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C220)
-#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7C1B0)
+#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54E60)
+#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF54DE0)
+#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54E90)
+#define MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54E50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ShowPsStoreIconDelegate_TypeDefinitionIndex = 7695;
+	inline static constexpr unsigned int PSDelegate_ShowPsStoreIconDelegate_TypeDefinitionIndex = 7739;
 
 	class PSDelegate_ShowPsStoreIconDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWPSSTOREICONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

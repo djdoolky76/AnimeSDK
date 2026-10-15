@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelValueGetter.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelExcelValueGetter; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_METHOD_3_4325527A68A21CC0_OFFSET UNITYSDK_OFFSET(0x1E333360)
-#define RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_METHOD_3_702E46222B296855_OFFSET UNITYSDK_OFFSET(0x1E333430)
-#define RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E333420)
+#define RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D573320)
+#define RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D573330)
+#define RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D573260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelExcelValueGetter_TypeDefinitionIndex = 15823;
+	inline static constexpr unsigned int ChimeraDuelExcelValueGetter_TypeDefinitionIndex = 15996;
 
 	class ChimeraDuelExcelValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:
 		::System::Int32 ParamIndex; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4325527A68A21CC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelExcelValueGetter*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelExcelValueGetter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelExcelValueGetter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_METHOD_3_4325527A68A21CC0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelExcelValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_702E46222B296855(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelExcelValueGetter* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelExcelValueGetter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelExcelValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_METHOD_3_702E46222B296855_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelExcelValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEXCELVALUEGETTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

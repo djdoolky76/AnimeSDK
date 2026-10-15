@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ValueEvaluatorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VE_Const; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VE_CONST_METHOD_3_3593A0A9A8F5724E_OFFSET UNITYSDK_OFFSET(0x1D2BAC50)
-#define RPG_GAMECORE_VE_CONST_METHOD_3_997BB0901E626151_OFFSET UNITYSDK_OFFSET(0x1D2BAE80)
-#define RPG_GAMECORE_VE_CONST_METHOD_3_F4B350DA6DDB0243_OFFSET UNITYSDK_OFFSET(0x1D2BAC90)
-#define RPG_GAMECORE_VE_CONST_METHOD_3_F97083C04A426BD7_OFFSET UNITYSDK_OFFSET(0x1D2BAE50)
-#define RPG_GAMECORE_VE_CONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BAC80)
+#define RPG_GAMECORE_VE_CONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC528F0)
+#define RPG_GAMECORE_VE_CONST_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC52AF0)
+#define RPG_GAMECORE_VE_CONST_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC52AC0)
+#define RPG_GAMECORE_VE_CONST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC52900)
+#define RPG_GAMECORE_VE_CONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC528C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_Const_TypeDefinitionIndex = 23765;
+	inline static constexpr unsigned int VE_Const_TypeDefinitionIndex = 24040;
 
 	class VE_Const : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:
 		::RPG::GameCore::FixPoint Value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3593A0A9A8F5724E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_Const*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_Const* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_Const*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_METHOD_3_3593A0A9A8F5724E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_Const*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F4B350DA6DDB0243(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_Const* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_Const* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_Const*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_METHOD_3_F4B350DA6DDB0243_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_Const*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F97083C04A426BD7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_Const*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_Const* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_Const*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_METHOD_3_F97083C04A426BD7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_Const*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_997BB0901E626151(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_Const* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_Const* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_Const*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_METHOD_3_997BB0901E626151_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_Const*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_CONST_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

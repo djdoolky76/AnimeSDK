@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREETEXTDIALOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9E090)
+#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREETEXTDIALOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DA600)
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int MatchThreeTextDialogInfo_TypeDefinitionIndex = 41404;
+	inline static constexpr unsigned int MatchThreeTextDialogInfo_TypeDefinitionIndex = 43016;
 
 	class MatchThreeTextDialogInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID TextID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREETEXTDIALOGINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREETEXTDIALOGINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

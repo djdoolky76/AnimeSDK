@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGameOverlayResult; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A275190)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A2751C0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A275180)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A275110)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF88F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF8870)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF8920)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF88E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate_TypeDefinitionIndex = 8490;
+	inline static constexpr unsigned int HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate_TypeDefinitionIndex = 8550;
 
 	class HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>* a1)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERGAMEOVERLAYCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

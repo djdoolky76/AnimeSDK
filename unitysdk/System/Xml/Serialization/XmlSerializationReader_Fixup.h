@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlSerializationFixupCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x17C52180)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_IDS_OFFSET UNITYSDK_OFFSET(0x17C52190)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x17C521A0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17C52150)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF0E50)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEF0E80)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_IDS_OFFSET UNITYSDK_OFFSET(0x1EEF0E90)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1EEF0EA0)
 
 namespace System::Xml::Serialization
 {
@@ -17,13 +17,12 @@ namespace System::Xml::Serialization
 	class XmlSerializationReader_Fixup : public ::System::Object
 	{
 	public:
-		::System::Object* source; // 0x10
-		::Il2CppArray<::System::String*>* ids; // 0x18
-		::System::Xml::Serialization::XmlSerializationFixupCallback* callback; // 0x20
-
+		::System::Xml::Serialization::XmlSerializationFixupCallback* callback; // 0x10
+		::System::Object* source; // 0x18
+		::Il2CppArray<::System::String*>* ids; // 0x20
 		::System::Void _ctor(::System::Object* a1, ::System::Xml::Serialization::XmlSerializationFixupCallback* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Xml::Serialization::XmlSerializationFixupCallback*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Xml::Serialization::XmlSerializationFixupCallback*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Xml::Serialization::XmlSerializationFixupCallback* get_Callback()
@@ -40,5 +39,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_SOURCE_OFFSET))(this);
 		}
+
 	};
 }

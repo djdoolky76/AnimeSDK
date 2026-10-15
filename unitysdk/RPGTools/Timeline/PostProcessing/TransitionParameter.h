@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_METHOD_2_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x3B78470)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_METHOD_2_A86D5792F2D697F7_OFFSET UNITYSDK_OFFSET(0x1B0B45F0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE9212E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF9240)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int TransitionParameter_TypeDefinitionIndex = 49078;
+	inline static constexpr unsigned int TransitionParameter_TypeDefinitionIndex = 48624;
 
 	struct alignas(4) TransitionParameter
 	{
@@ -24,15 +23,17 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Single DistortStrength; // 0x40
 		::System::Single DistortFreq; // 0x44
 		::System::Boolean IsActive; // 0x48
-
-		static ::RPGTools::Timeline::PostProcessing::TransitionParameter Method_2_A86D5792F2D697F7(::System::Boolean a1)
+		/*
+		static ::RPGTools::Timeline::PostProcessing::TransitionParameter JIHKKHMEKLO(::System::Boolean a1)
 		{
-			return ((::RPGTools::Timeline::PostProcessing::TransitionParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_METHOD_2_A86D5792F2D697F7_OFFSET))(a1);
+			return ((::RPGTools::Timeline::PostProcessing::TransitionParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_JIHKKHMEKLO_OFFSET))(a1);
+		}
+		*/
+
+		::System::Void KHGIKBFDLFB(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_KHGIKBFDLFB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_3E7178C5ECF017DB(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_METHOD_2_3E7178C5ECF017DB_OFFSET))(this, a1);
-		}
 	};
 }

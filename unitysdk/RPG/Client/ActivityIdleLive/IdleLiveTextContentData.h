@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDanmuContentData.h"
 #include "unitysdk/RPG/Client/TextID.h"
-
+namespace RPG::Client::ActivityIdleLive { class IdleLiveTextContentData; }
 namespace RPG::GameCore { class IdleLiveChatContentRow; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1BA5D930)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1BA5D910)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1BA5D920)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5D9E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC502310)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC5023C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC5022F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC502300)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTextContentData_TypeDefinitionIndex = 75052;
+	inline static constexpr unsigned int IdleLiveTextContentData_TypeDefinitionIndex = 75352;
 
 	class IdleLiveTextContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:
 		::RPG::Client::TextID _Content_k__BackingField; // 0x18
-
 		::System::Void _ctor(::RPG::GameCore::IdleLiveChatContentRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveChatContentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveChatContentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Content()
@@ -38,5 +37,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::RPG::Client::ActivityIdleLive::IdleLiveTextContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

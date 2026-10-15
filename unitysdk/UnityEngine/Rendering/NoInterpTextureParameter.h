@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
-
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_NOINTERPTEXTUREPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD20AB0)
+#define UNITYENGINE_RENDERING_NOINTERPTEXTUREPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F297FD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpTextureParameter_TypeDefinitionIndex = 34983;
+	inline static constexpr unsigned int NoInterpTextureParameter_TypeDefinitionIndex = 35652;
 
-	class NoInterpTextureParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Texture*>
+	class NoInterpTextureParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Texture* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPTEXTUREPARAMETER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPTEXTUREPARAMETER_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

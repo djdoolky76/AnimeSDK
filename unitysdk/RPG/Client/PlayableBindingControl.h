@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0x1C2DA750)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C2D9E10)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C2D9EF0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0x1C2D9FA0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0x1C2D9EB0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D9D90)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0xDBD83A0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0xDBD7A60)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDBD79E0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDBD7B40)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0xDBD7BF0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0xDBD7B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 69710;
+	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 69745;
 
 	class PlayableBindingControl : public ::System::Object
 	{
 	public:
 		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
@@ -54,5 +52,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_24961A8C7587026B_LightSystemOption.h"
+#include "unitysdk/DPFGFDPIIHP_LightSystemOption.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 class SceneLightStageData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_SCENELIGHTMANAGERCONFIGDATANEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF45FB0)
+#define SCENENLIGHTMANAGER_SCENELIGHTMANAGERCONFIGDATANEW_CTOR_OFFSET UNITYSDK_OFFSET(0xE95BFF0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int SceneLightManagerConfigDataNew_TypeDefinitionIndex = 49556;
+	inline static constexpr unsigned int SceneLightManagerConfigDataNew_TypeDefinitionIndex = 49130;
 
 	class SceneLightManagerConfigDataNew : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Boolean enbaleLightMangerV2; // 0x18
-		::Class_1_24961A8C7587026B_LightSystemOption useLightSystemOption; // 0x1C
+		::System::Byte _padding0[0x3];
+		::DPFGFDPIIHP_LightSystemOption useLightSystemOption; // 0x1C
 		::System::Boolean enableOutput; // 0x20
+		::System::Byte _padding1[0x3];
 		::System::Int32 maxSceneManagedLightGameObjectPoolCount; // 0x24
 		::System::Int32 maxSceneManagedLightPoolCount; // 0x28
 		::System::Int32 maxLoadBlockLRUCount; // 0x2C
@@ -29,11 +30,13 @@ namespace ScenenLightManager
 		::System::Single loadingDelayUpdateSpeed; // 0x44
 		::System::Boolean enablePVS; // 0x48
 		::System::Boolean enableNewLightVolume; // 0x49
+		::System::Boolean enableLightVolumeExportOrder; // 0x4A
+		::System::Byte _padding2[0x5];
 		::System::Collections::Generic::List_1<::SceneLightStageData*>* enableV2WhiteList; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_SCENELIGHTMANAGERCONFIGDATANEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_SCENELIGHTMANAGERCONFIGDATANEW_CTOR_OFFSET))(this);
 		}
+
 	};
 }

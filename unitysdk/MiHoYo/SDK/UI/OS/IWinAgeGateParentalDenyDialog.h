@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Action; }
-namespace System { class String; }
-
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinAgeGateParentalDenyDialog_TypeDefinitionIndex = 8405;
+	inline static constexpr unsigned int IWinAgeGateParentalDenyDialog_TypeDefinitionIndex = 8448;
 
 	class IWinAgeGateParentalDenyDialog
 	{

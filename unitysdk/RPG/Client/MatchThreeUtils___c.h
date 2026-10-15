@@ -1,50 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class LuaUIController; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C991AC0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0x1C991B10)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C991B00)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0x1C991BD0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C991BC0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5A9B80)
+#define RPG_CLIENT_MATCHTHREEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5A9BC0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0xD5A9BD0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0xD5A9C90)
+#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0xD5A9C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 66026;
+	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 65980;
 
 	class MatchThreeUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_3()
-		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x66010);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x66018);
-		}
-		static ::RPG::Client::MatchThreeUtils___c** StaticGet___9()
-		{
-			return (::RPG::Client::MatchThreeUtils___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x66020);
-		}
 		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x66028);
+			return (::System::Action_1<::RPG::Client::BaseLobby*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40E10);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40E18);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40E20);
+		}
+
+		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_3()
+		{
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40E28);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::LuaUIController* _CreateAndOpenLobby_b__2_3(::RPG::Client::BaseLobby* a1)
@@ -61,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET))(this, a1);
 		}
+
 	};
 }

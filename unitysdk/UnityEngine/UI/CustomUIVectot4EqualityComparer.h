@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B77E220)
-#define UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B77E300)
-#define UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B77E380)
+#define UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B9C00)
+#define UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F4B9AA0)
+#define UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F4B9B80)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CustomUIVectot4EqualityComparer_TypeDefinitionIndex = 6832;
+	inline static constexpr unsigned int CustomUIVectot4EqualityComparer_TypeDefinitionIndex = 6841;
 
 	class CustomUIVectot4EqualityComparer : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::UnityEngine::Vector4 a1, ::UnityEngine::Vector4 a2)
@@ -28,5 +28,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CUSTOMUIVECTOT4EQUALITYCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/Tasks/TaskScheduler.h"
-
 namespace System { class Object; }
 namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class SynchronizationContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_POSTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C659ED0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_QUEUETASK_OFFSET UNITYSDK_OFFSET(0x1C659CC0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_TRYEXECUTETASKINLINE_OFFSET UNITYSDK_OFFSET(0x1C659DC0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C65A0A0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C659B80)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C121E60)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C121940)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_POSTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C121C90)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_QUEUETASK_OFFSET UNITYSDK_OFFSET(0x1C121A80)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_TRYEXECUTETASKINLINE_OFFSET UNITYSDK_OFFSET(0x1C121B80)
 
 namespace System::Threading::Tasks
 {
@@ -20,20 +19,20 @@ namespace System::Threading::Tasks
 	class SynchronizationContextTaskScheduler : public ::System::Threading::Tasks::TaskScheduler
 	{
 	public:
+		::System::Threading::SynchronizationContext* m_synchronizationContext; // 0x18
 		static ::System::Threading::SendOrPostCallback** StaticGet_s_postCallback()
 		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x14D50);
+			return (::System::Threading::SendOrPostCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextTaskScheduler")->GetStaticField(0x26330);
 		}
-		::System::Threading::SynchronizationContext* m_synchronizationContext; // 0x18
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_CCTOR_OFFSET))();
 		}
 
 		::System::Void QueueTask(::System::Threading::Tasks::Task* a1)
@@ -50,5 +49,6 @@ namespace System::Threading::Tasks
 		{
 			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTTASKSCHEDULER_POSTCALLBACK_OFFSET))(a1);
 		}
+
 	};
 }

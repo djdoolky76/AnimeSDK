@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkInformation/in6_addr.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Net::NetworkInformation
 {
 	inline static constexpr unsigned int sockaddr_in6_TypeDefinitionIndex = 2948;
 
-	struct alignas(8) sockaddr_in6
+	struct alignas(4) sockaddr_in6
 	{
 		::System::UInt16 sin6_family; // 0x10
 		::System::UInt16 sin6_port; // 0x12

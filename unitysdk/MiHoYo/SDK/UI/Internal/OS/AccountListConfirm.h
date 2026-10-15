@@ -1,45 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI::Internal::OS { class AccountListConfirm; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CD60510)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1CD618B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1CD61860)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1CD618D0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1CD615D0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1CD610B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD61D40)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFD48D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1BFD5B40)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1BFD5AF0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD5BD0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFD5B60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFD5990)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BFD5470)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AccountListConfirm_TypeDefinitionIndex = 8393;
+	inline static constexpr unsigned int AccountListConfirm_TypeDefinitionIndex = 8436;
 
 	class AccountListConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm**)Il2CppClass::FromTypeDefinitionIndex(AccountListConfirm_TypeDefinitionIndex)->GetStaticField(0x25990);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* titlePath; // 0x0
-		// static const ::System::String* deleteAccountTogglePath; // 0x0
-		// static const ::System::String* deleteAccountHintTitlePath; // 0x0
-		// static const ::System::String* deleteAccountHintContentPath; // 0x0
-		// static const ::System::String* saveAccountTogglePath; // 0x0
-		// static const ::System::String* saveAccountHintTitlePath; // 0x0
-		// static const ::System::String* saveAccountHintContentPath; // 0x0
-		// static const ::System::String* cancelButtonPath; // 0x0
-		// static const ::System::String* cancelButtonTextPath; // 0x0
-		// static const ::System::String* confirmButtonPath; // 0x0
-		// static const ::System::String* confirmButtonTextPath; // 0x0
 		::UnityEngine::UI::Text* title; // 0x58
 		::UnityEngine::UI::Text* saveAccountHintTitle; // 0x60
 		::UnityEngine::UI::Text* saveAccountHintContent; // 0x68
@@ -53,10 +36,26 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::UnityEngine::UI::Text* confirmButtonText; // 0xA8
 		::System::Action* OnCancel; // 0xB0
 		::System::Action_1<::System::Boolean>* OnConfirm; // 0xB8
+		static ::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "AccountListConfirm")->GetStaticField(0x2B940);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* titlePath; // 0x0
+		// static const ::System::String* deleteAccountTogglePath; // 0x0
+		// static const ::System::String* deleteAccountHintTitlePath; // 0x0
+		// static const ::System::String* deleteAccountHintContentPath; // 0x0
+		// static const ::System::String* saveAccountTogglePath; // 0x0
+		// static const ::System::String* saveAccountHintTitlePath; // 0x0
+		// static const ::System::String* saveAccountHintContentPath; // 0x0
+		// static const ::System::String* cancelButtonPath; // 0x0
+		// static const ::System::String* cancelButtonTextPath; // 0x0
+		// static const ::System::String* confirmButtonPath; // 0x0
+		// static const ::System::String* confirmButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -88,5 +87,6 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_HIDE_OFFSET))();
 		}
+
 	};
 }

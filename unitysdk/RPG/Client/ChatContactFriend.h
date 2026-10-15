@@ -2,32 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChatContactData.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
+namespace RPG::Client { class ChatContactFriend; }
 namespace RPG::Client { class ChatMessageData; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHATCONTACTFRIEND_CREATE_OFFSET UNITYSDK_OFFSET(0x1B92BC80)
-#define RPG_CLIENT_CHATCONTACTFRIEND_MARKHISTORYDIRTY_OFFSET UNITYSDK_OFFSET(0x1B92C410)
-#define RPG_CLIENT_CHATCONTACTFRIEND_REQUESTHISTORY_OFFSET UNITYSDK_OFFSET(0x1B92BED0)
-#define RPG_CLIENT_CHATCONTACTFRIEND_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x1B92BD60)
-#define RPG_CLIENT_CHATCONTACTFRIEND__CANMERGEDIRTYHISTORY_OFFSET UNITYSDK_OFFSET(0x1B92C2E0)
-#define RPG_CLIENT_CHATCONTACTFRIEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92BBE0)
-#define RPG_CLIENT_CHATCONTACTFRIEND__ONCLEARMESSAGES_OFFSET UNITYSDK_OFFSET(0x1B92C3A0)
-#define RPG_CLIENT_CHATCONTACTFRIEND__ONSYNCHISTORY_OFFSET UNITYSDK_OFFSET(0x1B92C110)
+#define RPG_CLIENT_CHATCONTACTFRIEND_CREATE_OFFSET UNITYSDK_OFFSET(0xCA1ED50)
+#define RPG_CLIENT_CHATCONTACTFRIEND_CTOR_OFFSET UNITYSDK_OFFSET(0xCA1ECB0)
+#define RPG_CLIENT_CHATCONTACTFRIEND_MARKHISTORYDIRTY_OFFSET UNITYSDK_OFFSET(0xCA1F500)
+#define RPG_CLIENT_CHATCONTACTFRIEND_REQUESTHISTORY_OFFSET UNITYSDK_OFFSET(0xCA1EFA0)
+#define RPG_CLIENT_CHATCONTACTFRIEND_SENDMESSAGE_OFFSET UNITYSDK_OFFSET(0xCA1EE30)
+#define RPG_CLIENT_CHATCONTACTFRIEND__CANMERGEDIRTYHISTORY_OFFSET UNITYSDK_OFFSET(0xCA1F3B0)
+#define RPG_CLIENT_CHATCONTACTFRIEND__ONCLEARMESSAGES_OFFSET UNITYSDK_OFFSET(0xCA1F470)
+#define RPG_CLIENT_CHATCONTACTFRIEND__ONSYNCHISTORY_OFFSET UNITYSDK_OFFSET(0xCA1F1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactFriend_TypeDefinitionIndex = 63280;
+	inline static constexpr unsigned int ChatContactFriend_TypeDefinitionIndex = 63213;
 
 	class ChatContactFriend : public ::RPG::Client::ChatContactData
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* _DirtyHistoryMessages; // 0x28
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTFRIEND__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTFRIEND_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::ChatContactFriend* Create(::System::UInt32 a1)
@@ -35,9 +34,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChatContactFriend*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTFRIEND_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void SendMessage_(::RPG::Client::MessageContentBlock_BlockType a1, ::System::Object* a2)
+		::System::Void SendMessage(::RPG::Client::MessageContentBlock_BlockType a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContentBlock_BlockType, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTFRIEND_SENDMESSAGE__OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContentBlock_BlockType, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTFRIEND_SENDMESSAGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RequestHistory()
@@ -64,5 +63,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTFRIEND__CANMERGEDIRTYHISTORY_OFFSET))(this);
 		}
+
 	};
 }

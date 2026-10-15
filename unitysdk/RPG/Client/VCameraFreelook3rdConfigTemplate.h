@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client { class SingleVCameraFreelook3rdConfigTemplate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_VCAMERAFREELOOK3RDCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7FD930)
+#define RPG_CLIENT_VCAMERAFREELOOK3RDCONFIGTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4345A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 69719;
+	inline static constexpr unsigned int VCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 69754;
 
 	class VCameraFreelook3rdConfigTemplate : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::SingleVCameraFreelook3rdConfigTemplate*>* VCamFreelook3rdConfigChangeTemplate; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VCAMERAFREELOOK3RDCONFIGTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VCAMERAFREELOOK3RDCONFIGTEMPLATE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

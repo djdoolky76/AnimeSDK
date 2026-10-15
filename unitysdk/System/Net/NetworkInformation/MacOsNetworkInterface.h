@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkInformation/OperationalStatus.h"
 #include "unitysdk/System/Net/NetworkInformation/UnixNetworkInterface.h"
-
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x1B049290)
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B049230)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F03F980)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x1F03F9E0)
 
 namespace System::Net::NetworkInformation
 {
@@ -16,15 +15,15 @@ namespace System::Net::NetworkInformation
 	{
 	public:
 		::System::UInt32 _ifa_flags; // 0x30
-
 		::System::Void _ctor(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus()
 		{
 			return ((::System::Net::NetworkInformation::OperationalStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client::DiceCombat { class DiceCombatShopPageParam; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x1C40C890)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_GET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0x1C41BC60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0x1C41BC70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41BC50)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC1FB30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC2EF20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_GET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0xCC2EF30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0xCC2EF40)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatShopPageParam_TypeDefinitionIndex = 75651;
+	inline static constexpr unsigned int DiceCombatShopPageParam_TypeDefinitionIndex = 76128;
 
 	class DiceCombatShopPageParam : public ::System::Object
 	{
 	public:
 		::System::UInt32 _ShopItemID_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::DiceCombat::DiceCombatShopPageParam* Create(::System::UInt32 a1)
@@ -35,5 +35,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Rendering/VisibleLightFlags.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LightType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/Rendering/VisibleLightFlags.h"
-
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C02510)
-#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C024D0)
-#define UNITYENGINE_RENDERING_VISIBLELIGHT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C02590)
+#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C7AFA0)
+#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C7AF60)
+#define UNITYENGINE_RENDERING_VISIBLELIGHT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C7B020)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VisibleLight_TypeDefinitionIndex = 4774;
+	inline static constexpr unsigned int VisibleLight_TypeDefinitionIndex = 4778;
 
 	struct alignas(4) VisibleLight
 	{
@@ -29,11 +27,12 @@ namespace UnityEngine::Rendering
 		::System::Int32 m_InstanceId; // 0x7C
 		::UnityEngine::Rendering::VisibleLightFlags m_Flags; // 0x80
 		::UnityEngine::Bounds m_AABB; // 0x84
-
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::VisibleLight a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::VisibleLight))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -44,5 +43,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLELIGHT_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

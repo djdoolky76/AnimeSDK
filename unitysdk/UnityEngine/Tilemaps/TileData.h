@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Tilemaps/TileFlags.h"
 #include "unitysdk/UnityEngine/Tilemaps/Tile_ColliderType.h"
-
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x3C72340)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x3AE8340)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x3C72330)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x3A4C410)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x16050)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x3CA36F0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x3C81DD0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLOR_OFFSET UNITYSDK_OFFSET(0xF3640)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x3C81DC0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x2031B90)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x3C887E0)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int TileData_TypeDefinitionIndex = 5853;
+	inline static constexpr unsigned int TileData_TypeDefinitionIndex = 5861;
 
 	struct alignas(8) TileData
 	{
@@ -28,7 +26,6 @@ namespace UnityEngine::Tilemaps
 		::UnityEngine::GameObject* m_GameObject; // 0x68
 		::UnityEngine::Tilemaps::TileFlags m_Flags; // 0x70
 		::UnityEngine::Tilemaps::Tile_ColliderType m_ColliderType; // 0x74
-
 		::System::Void set_sprite(::UnityEngine::Sprite* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEDATA_SET_SPRITE_OFFSET))(this, a1);
@@ -58,5 +55,6 @@ namespace UnityEngine::Tilemaps
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Tilemaps::Tile_ColliderType))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEDATA_SET_COLLIDERTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

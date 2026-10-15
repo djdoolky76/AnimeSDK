@@ -1,39 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class DeviceManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_DEVICEMANAGER_CHECKINVALIDDEVICEID_OFFSET UNITYSDK_OFFSET(0x16A9DB50)
-#define MIHOYO_SDK_DEVICEMANAGER_GETDEVICEID_OFFSET UNITYSDK_OFFSET(0x16A9C8D0)
-#define MIHOYO_SDK_DEVICEMANAGER_ONDEVICEIDREADY_OFFSET UNITYSDK_OFFSET(0x16A9D9F0)
-#define MIHOYO_SDK_DEVICEMANAGER_SETDEVICEID_OFFSET UNITYSDK_OFFSET(0x16A9D950)
-#define MIHOYO_SDK_DEVICEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9DCF0)
-#define MIHOYO_SDK_DEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D940)
+#define MIHOYO_SDK_DEVICEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF763E0)
+#define MIHOYO_SDK_DEVICEMANAGER_CHECKINVALIDDEVICEID_OFFSET UNITYSDK_OFFSET(0xAF762F0)
+#define MIHOYO_SDK_DEVICEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF760E0)
+#define MIHOYO_SDK_DEVICEMANAGER_GETDEVICEID_OFFSET UNITYSDK_OFFSET(0xAF750F0)
+#define MIHOYO_SDK_DEVICEMANAGER_ONDEVICEIDREADY_OFFSET UNITYSDK_OFFSET(0xAF76190)
+#define MIHOYO_SDK_DEVICEMANAGER_SETDEVICEID_OFFSET UNITYSDK_OFFSET(0xAF760F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceManager_TypeDefinitionIndex = 46736;
+	inline static constexpr unsigned int DeviceManager_TypeDefinitionIndex = 46288;
 
 	class DeviceManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::DeviceManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DeviceManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceManager_TypeDefinitionIndex)->GetStaticField(0x44AE0);
+			return (::MiHoYo::SDK::DeviceManager**)UnitySDK::FromName("MiHoYo.SDK", "DeviceManager")->GetStaticField(0x20250);
 		}
+
 		// static const ::System::String* DEVICE_ID; // 0x0
 		// static const ::System::String* REGISTRY_KEY_NAME; // 0x0
 		// static const ::System::String* SOFTWARE; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Void SetDeviceID(::System::String* a1)
@@ -55,5 +55,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEMANAGER_CHECKINVALIDDEVICEID_OFFSET))(this, a1);
 		}
+
 	};
 }

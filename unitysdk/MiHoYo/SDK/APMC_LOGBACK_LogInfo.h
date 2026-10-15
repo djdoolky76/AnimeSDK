@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogInfo_TypeDefinitionIndex = 46965;
+	inline static constexpr unsigned int APMC_LOGBACK_LogInfo_TypeDefinitionIndex = 46505;
 
 	struct alignas(8) APMC_LOGBACK_LogInfo
 	{

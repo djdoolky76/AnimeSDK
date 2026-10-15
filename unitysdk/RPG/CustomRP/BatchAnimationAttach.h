@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/BAAttachPoint.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_ATTACHTRANS_OFFSET UNITYSDK_OFFSET(0x1929DF10)
-#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_DETACHTRANS_OFFSET UNITYSDK_OFFSET(0x1929E050)
-#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1929E230)
-#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1929E190)
-#define RPG_CUSTOMRP_BATCHANIMATIONATTACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1929E240)
+#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_ATTACHTRANS_OFFSET UNITYSDK_OFFSET(0x1CBC4060)
+#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBC4390)
+#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_DETACHTRANS_OFFSET UNITYSDK_OFFSET(0x1CBC41A0)
+#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CBC4380)
+#define RPG_CUSTOMRP_BATCHANIMATIONATTACH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CBC42E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BatchAnimationAttach_TypeDefinitionIndex = 36907;
+	inline static constexpr unsigned int BatchAnimationAttach_TypeDefinitionIndex = 37592;
 
 	class BatchAnimationAttach : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,10 +21,9 @@ namespace RPG::CustomRP
 		::RPG::CustomRP::BAAttachPoint attachPoint; // 0x18
 		::System::Collections::Generic::List_1<::RPG::CustomRP::BAAttachPoint>* attachPointEx; // 0x28
 		::UnityEngine::Rendering::BatchAnimationInstance* instance; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONATTACH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONATTACH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AttachTrans()
@@ -47,5 +45,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONATTACH_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

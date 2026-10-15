@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOneShotTrigger_TypeDefinitionIndex = 42917;
+	inline static constexpr unsigned int IAsyncOneShotTrigger_TypeDefinitionIndex = 38502;
 
 	class IAsyncOneShotTrigger
 	{

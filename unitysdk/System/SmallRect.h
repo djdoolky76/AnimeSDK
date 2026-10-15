@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System
 {
 	inline static constexpr unsigned int SmallRect_TypeDefinitionIndex = 459;
 
-	struct alignas(2) SmallRect
+	struct alignas(4) SmallRect
 	{
 		::System::Int16 Left; // 0x10
 		::System::Int16 Top; // 0x12

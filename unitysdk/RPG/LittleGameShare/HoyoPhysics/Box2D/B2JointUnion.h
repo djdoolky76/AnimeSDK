@@ -7,11 +7,10 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2RevoluteJoint.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WeldJoint.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WheelJoint.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointUnion_TypeDefinitionIndex = 36015;
+	inline static constexpr unsigned int B2JointUnion_TypeDefinitionIndex = 36702;
 
 	struct alignas(4) B2JointUnion
 	{

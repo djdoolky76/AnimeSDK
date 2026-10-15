@@ -4,9 +4,9 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int Services_1_TypeDefinitionIndex = 36318;
+	inline static constexpr unsigned int Services_1_TypeDefinitionIndex = 37005;
 
-	template <typename TEntity>
+	template <typename T>
 	class Services_1 : public ::System::Object
 	{
 	public:

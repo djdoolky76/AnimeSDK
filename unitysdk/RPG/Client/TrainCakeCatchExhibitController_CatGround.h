@@ -3,40 +3,38 @@
 #include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_CatGroundType.h"
 #include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_GroundSetType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TrainCakeCatchExhibitController; }
-namespace RPG::Client { class TrainCakeCatchExhibitController_Cat; }
 namespace RPG::GameCore { class AnchorInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197C3420)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_GET_ANCHOR_OFFSET UNITYSDK_OFFSET(0x197C29D0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETCAT_OFFSET UNITYSDK_OFFSET(0x197C2780)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETGROUNDTYPE_OFFSET UNITYSDK_OFFSET(0x197C2690)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_TICK_OFFSET UNITYSDK_OFFSET(0x197C1E80)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x197C30A0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__REFRESHLOCATION_OFFSET UNITYSDK_OFFSET(0x197C7360)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETONSAVE_OFFSET UNITYSDK_OFFSET(0x197C7550)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETPREFIX_OFFSET UNITYSDK_OFFSET(0x197C7190)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0xE2AEC80)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE2AF000)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_GET_ANCHOR_OFFSET UNITYSDK_OFFSET(0xE2AE5C0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETCAT_OFFSET UNITYSDK_OFFSET(0xE2AE360)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETGROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xE2AE270)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_TICK_OFFSET UNITYSDK_OFFSET(0xE2ADA60)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__REFRESHLOCATION_OFFSET UNITYSDK_OFFSET(0xE2B2F30)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETONSAVE_OFFSET UNITYSDK_OFFSET(0xE2B3120)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETPREFIX_OFFSET UNITYSDK_OFFSET(0xE2B2D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatGround_TypeDefinitionIndex = 60332;
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatGround_TypeDefinitionIndex = 60220;
 
 	class TrainCakeCatchExhibitController_CatGround : public ::System::Object
 	{
 	public:
-		::RPG::Client::TrainCakeCatchExhibitController* _Owner; // 0x10
-		::System::String* _AnchorName; // 0x18
-		::Il2CppArray<::RPG::Client::TrainCakeCatchExhibitController_Cat*>* Cats; // 0x20
-		::System::String* _AreaName; // 0x28
+		::Il2CppArray<::System::Object*>* Cats; // 0x10
+		::RPG::Client::TrainCakeCatchExhibitController* _Owner; // 0x18
+		::System::String* _AreaName; // 0x20
+		::System::String* _AnchorName; // 0x28
 		::System::Int32 _GroundIndex; // 0x30
 		::RPG::Client::TrainCakeCatchExhibitController_CatGroundType _GroundType; // 0x34
-
 		::System::Void _ctor(::RPG::Client::TrainCakeCatchExhibitController* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Dispose()
@@ -78,5 +76,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::AnchorInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_GET_ANCHOR_OFFSET))(this);
 		}
+
 	};
 }

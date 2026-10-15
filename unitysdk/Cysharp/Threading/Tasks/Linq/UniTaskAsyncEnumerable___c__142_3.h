@@ -2,25 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
-
-namespace Cysharp::Threading::Tasks::Linq { template <typename T1, typename T2, typename T3> class UniTaskAsyncEnumerable___c__142_3; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int UniTaskAsyncEnumerable___c__142_3_TypeDefinitionIndex = 44053;
+	inline static constexpr unsigned int UniTaskAsyncEnumerable___c__142_3_TypeDefinitionIndex = 45192;
 
-	template <typename TSource, typename TKey, typename TResult>
+	template <typename T1, typename T2, typename T3>
 	class UniTaskAsyncEnumerable___c__142_3 : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::Linq::UniTaskAsyncEnumerable___c__142_3<TSource, TKey, TResult>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::Linq::UniTaskAsyncEnumerable___c__142_3<TSource, TKey, TResult>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskAsyncEnumerable___c__142_3_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c__142`3")->GetStaticField(0x0);
 		}
-		static ::System::Func_2<TSource, ::Cysharp::Threading::Tasks::UniTask_1<TSource>>** StaticGet___9__142_0()
+
+		static ::System::Func_2<T1, ::Cysharp::Threading::Tasks::UniTask_1<T1>>** StaticGet___9__142_0()
 		{
-			return (::System::Func_2<TSource, ::Cysharp::Threading::Tasks::UniTask_1<TSource>>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskAsyncEnumerable___c__142_3_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Func_2<T1, ::Cysharp::Threading::Tasks::UniTask_1<T1>>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c__142`3")->GetStaticField(0x0);
 		}
+
 	};
 }

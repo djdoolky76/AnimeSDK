@@ -1,40 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/UIElements/StyleKeyword.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BD5AB0)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BD5A90)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BD5B20)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x19050)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3BD5A40)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D61B860)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D61B880)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BD5B60)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BD5A70)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x3BD5A50)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C89110)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C890F0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C89150)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C89130)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C891C0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3C890E0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F492E90)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F492EB0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C89200)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleFloat_TypeDefinitionIndex = 5993;
+	inline static constexpr unsigned int StyleFloat_TypeDefinitionIndex = 6001;
 
 	struct alignas(4) StyleFloat
 	{
 		::UnityEngine::UIElements::StyleKeyword m_Keyword; // 0x10
 		::System::Single m_Value; // 0x14
 		::System::Int32 m_Specificity; // 0x18
-
 		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Single a1, ::UnityEngine::UIElements::StyleKeyword a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_value()
@@ -47,20 +44,26 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_KEYWORD_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleFloat a1, ::UnityEngine::UIElements::StyleFloat a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleFloat, ::UnityEngine::UIElements::StyleFloat))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::UIElements::StyleFloat op_Implicit(::System::Single a1)
 		{
 			return ((::UnityEngine::UIElements::StyleFloat(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::UIElements::StyleFloat a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleFloat))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -76,5 +79,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

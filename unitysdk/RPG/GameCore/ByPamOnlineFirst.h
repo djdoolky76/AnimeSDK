@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByPamOnlineFirst; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_13DF4C4C98949419_OFFSET UNITYSDK_OFFSET(0x1CDBAC10)
-#define RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_80CB99BEB3FEBD50_OFFSET UNITYSDK_OFFSET(0x1CDBAC40)
-#define RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_999AE840531F2730_OFFSET UNITYSDK_OFFSET(0x1CDBAA90)
-#define RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_EA651D880F5B1E43_OFFSET UNITYSDK_OFFSET(0x1CDBAAD0)
-#define RPG_GAMECORE_BYPAMONLINEFIRST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBAAC0)
+#define RPG_GAMECORE_BYPAMONLINEFIRST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5019C0)
+#define RPG_GAMECORE_BYPAMONLINEFIRST_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D501B40)
+#define RPG_GAMECORE_BYPAMONLINEFIRST_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D501B10)
+#define RPG_GAMECORE_BYPAMONLINEFIRST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5019D0)
+#define RPG_GAMECORE_BYPAMONLINEFIRST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D501990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByPamOnlineFirst_TypeDefinitionIndex = 19776;
+	inline static constexpr unsigned int ByPamOnlineFirst_TypeDefinitionIndex = 20010;
 
 	class ByPamOnlineFirst : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_999AE840531F2730(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPamOnlineFirst*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPamOnlineFirst* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPamOnlineFirst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_999AE840531F2730_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPamOnlineFirst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EA651D880F5B1E43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPamOnlineFirst* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPamOnlineFirst* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPamOnlineFirst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_EA651D880F5B1E43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPamOnlineFirst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_13DF4C4C98949419(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamOnlineFirst*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamOnlineFirst* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamOnlineFirst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_13DF4C4C98949419_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamOnlineFirst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_80CB99BEB3FEBD50(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamOnlineFirst* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamOnlineFirst* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamOnlineFirst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_METHOD_4_80CB99BEB3FEBD50_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamOnlineFirst*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMONLINEFIRST_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

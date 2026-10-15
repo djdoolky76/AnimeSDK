@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x18EB9530)
-#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x149355C0)
+#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA03E40)
+#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA03B20)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int MadCatzMLGFightStickTEMacNativeProfile_TypeDefinitionIndex = 39881;
+	inline static constexpr unsigned int MadCatzMLGFightStickTEMacNativeProfile_TypeDefinitionIndex = 41178;
 
 	class MadCatzMLGFightStickTEMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Define()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_MADCATZMLGFIGHTSTICKTEMACNATIVEPROFILE_DEFINE_OFFSET))(this);
 		}
+
 	};
 }

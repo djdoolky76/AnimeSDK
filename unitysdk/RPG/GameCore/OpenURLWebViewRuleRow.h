@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OpenURLWebViewRuleRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE993E0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE99A90)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6400)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B5D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 13225;
+	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 13331;
 
 	class OpenURLWebViewRuleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Default; // 0x10
-		::System::UInt32 Android; // 0x14
-		::System::UInt32 iOS; // 0x18
-		::System::UInt32 Windows; // 0x1C
-		::System::UInt32 RuleID; // 0x20
-
+		::System::UInt32 RuleID; // 0x10
+		::System::UInt32 Windows; // 0x14
+		::System::UInt32 Default; // 0x18
+		::System::UInt32 Android; // 0x1C
+		::System::UInt32 iOS; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENURLWEBVIEWRULEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENURLWEBVIEWRULEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenURLWebViewRuleRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpenURLWebViewRuleRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenURLWebViewRuleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpenURLWebViewRuleRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

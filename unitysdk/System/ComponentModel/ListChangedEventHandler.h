@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::ComponentModel { class ListChangedEventArgs; }
 
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AB0DBF0)
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AB0DC30)
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AB0DBE0)
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0DAF0)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBF360)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBF260)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBF3A0)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBF350)
 
 namespace System::ComponentModel
 {
@@ -21,7 +20,7 @@ namespace System::ComponentModel
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::ComponentModel::ListChangedEventArgs* a2)
@@ -38,5 +37,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

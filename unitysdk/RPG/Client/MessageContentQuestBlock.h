@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
+namespace RPG::Client { class MessageContentBlock; }
 namespace RPG::Client { class QuestData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B23BD80)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_QUESTS_OFFSET UNITYSDK_OFFSET(0x1B23BED0)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B23BD20)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23BD70)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__GETQUESTS_OFFSET UNITYSDK_OFFSET(0x1B23BF20)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD698510)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD698520)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_QUESTS_OFFSET UNITYSDK_OFFSET(0xD698670)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD6984C0)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__GETQUESTS_OFFSET UNITYSDK_OFFSET(0xD6986C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentQuestBlock_TypeDefinitionIndex = 63329;
+	inline static constexpr unsigned int MessageContentQuestBlock_TypeDefinitionIndex = 63267;
 
 	class MessageContentQuestBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _QuestIDs; // 0x18
-
 		::System::Void _ctor(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -45,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::QuestData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__GETQUESTS_OFFSET))(this);
 		}
+
 	};
 }

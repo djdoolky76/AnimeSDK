@@ -1,53 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_ADJUST_OFFSET UNITYSDK_OFFSET(0x1D256EF0)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEIV_OFFSET UNITYSDK_OFFSET(0x1D24E300)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEKEY_OFFSET UNITYSDK_OFFSET(0x1D24E290)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEMAC_OFFSET UNITYSDK_OFFSET(0x1D250900)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVE_OFFSET UNITYSDK_OFFSET(0x1D256FB0)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_HASHNAME_OFFSET UNITYSDK_OFFSET(0x1D256ED0)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1D256EE0)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1D24E0B0)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_SALT_OFFSET UNITYSDK_OFFSET(0x1D24E1B0)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D257650)
-#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D24E0A0)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_ADJUST_OFFSET UNITYSDK_OFFSET(0x1C063D40)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0644A0)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C05B000)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEIV_OFFSET UNITYSDK_OFFSET(0x1C05B260)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEKEY_OFFSET UNITYSDK_OFFSET(0x1C05B1F0)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEMAC_OFFSET UNITYSDK_OFFSET(0x1C05D860)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVE_OFFSET UNITYSDK_OFFSET(0x1C063E00)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_HASHNAME_OFFSET UNITYSDK_OFFSET(0x1C063D20)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1C063D30)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1C05B010)
+#define MONO_SECURITY_X509_PKCS12_DERIVEBYTES_SET_SALT_OFFSET UNITYSDK_OFFSET(0x1C05B110)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int PKCS12_DeriveBytes_TypeDefinitionIndex = 2265;
+	inline static constexpr unsigned int PKCS12_DeriveBytes_TypeDefinitionIndex = 56;
 
 	class PKCS12_DeriveBytes : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_macDiversifier()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS12_DeriveBytes_TypeDefinitionIndex)->GetStaticField(0x2BD30);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_keyDiversifier()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS12_DeriveBytes_TypeDefinitionIndex)->GetStaticField(0x2BD38);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_ivDiversifier()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS12_DeriveBytes_TypeDefinitionIndex)->GetStaticField(0x2BD40);
-		}
-		::Il2CppArray<::System::Byte>* _salt; // 0x10
-		::Il2CppArray<::System::Byte>* _password; // 0x18
+		::Il2CppArray<::System::Byte>* _password; // 0x10
+		::Il2CppArray<::System::Byte>* _salt; // 0x18
 		::System::String* _hashName; // 0x20
 		::System::Int32 _iterations; // 0x28
+		static ::Il2CppArray<::System::Byte>** StaticGet_keyDiversifier()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "DeriveBytes")->GetStaticField(0xD810);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_ivDiversifier()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "DeriveBytes")->GetStaticField(0xD818);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_macDiversifier()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "DeriveBytes")->GetStaticField(0xD820);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_DERIVEBYTES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_DERIVEBYTES_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_DERIVEBYTES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_DERIVEBYTES_CCTOR_OFFSET))();
 		}
 
 		::System::Void set_HashName(::System::String* a1)
@@ -94,5 +95,6 @@ namespace Mono::Security::X509
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_DERIVEBYTES_DERIVEMAC_OFFSET))(this, a1);
 		}
+
 	};
 }

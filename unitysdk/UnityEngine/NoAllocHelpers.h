@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Array; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System { class Object; }
 
-#define UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET UNITYSDK_OFFSET(0x1ECC02B0)
-#define UNITYENGINE_NOALLOCHELPERS_INTERNAL_RESIZELIST_OFFSET UNITYSDK_OFFSET(0x1ECC5240)
-#define UNITYENGINE_NOALLOCHELPERS_SAFELENGTH_OFFSET UNITYSDK_OFFSET(0x1ECBC930)
+#define UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET UNITYSDK_OFFSET(0x1F3D70B0)
+#define UNITYENGINE_NOALLOCHELPERS_INTERNAL_RESIZELIST_OFFSET UNITYSDK_OFFSET(0x1F3DBEC0)
+#define UNITYENGINE_NOALLOCHELPERS_SAFELENGTH_OFFSET UNITYSDK_OFFSET(0x1F3D3730)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NoAllocHelpers_TypeDefinitionIndex = 4332;
+	inline static constexpr unsigned int NoAllocHelpers_TypeDefinitionIndex = 4335;
 
 	class NoAllocHelpers : public ::System::Object
 	{
@@ -30,5 +29,6 @@ namespace UnityEngine
 		{
 			return ((::System::Array*(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET))(a1);
 		}
+
 	};
 }

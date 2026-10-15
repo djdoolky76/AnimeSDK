@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Quaternion.h"
 namespace RPG::Client { class MapPropDef; }
 namespace RPG::Client { class MonoMap3DTouch; }
 namespace RPG::Client { class UIMap3DContainer; }
@@ -18,69 +17,75 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MAP3DUTILS_COMPUTEPLAYERWORLDROTATION_OFFSET UNITYSDK_OFFSET(0x174C9680)
-#define RPG_CLIENT_MAP3DUTILS_GETBYATTACH_OFFSET UNITYSDK_OFFSET(0x174CA900)
-#define RPG_CLIENT_MAP3DUTILS_GETMAINCAMERAWORLDROTATION_OFFSET UNITYSDK_OFFSET(0x174C9CF0)
-#define RPG_CLIENT_MAP3DUTILS_GETMAPROTATIONCHARGERMINIMAPICON_OFFSET UNITYSDK_OFFSET(0x174CA490)
-#define RPG_CLIENT_MAP3DUTILS_GETMAPROTATIONVOLUMEMINIMAPICON_OFFSET UNITYSDK_OFFSET(0x174C9F00)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONCIRCLEOPACITY_OFFSET UNITYSDK_OFFSET(0x174C81D0)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMCIRCLESCALE_OFFSET UNITYSDK_OFFSET(0x174C8C70)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMICONOPACITY_OFFSET UNITYSDK_OFFSET(0x174C8250)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMOPACITY_OFFSET UNITYSDK_OFFSET(0x174C7470)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDPOSITIONWITHOFFSET_OFFSET UNITYSDK_OFFSET(0x174C8890)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDPOSITION_1_OFFSET UNITYSDK_OFFSET(0x174C8740)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x174C85C0)
-#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDROTATION_OFFSET UNITYSDK_OFFSET(0x174C83A0)
-#define RPG_CLIENT_MAP3DUTILS_ISINCURFLOOR3DAREA_OFFSET UNITYSDK_OFFSET(0x174C7070)
-#define RPG_CLIENT_MAP3DUTILS_SHOULDSHOW3DMAP_OFFSET UNITYSDK_OFFSET(0x174C7320)
-#define RPG_CLIENT_MAP3DUTILS_SMOOTHLYSETOPACITY_OFFSET UNITYSDK_OFFSET(0x174C9190)
-#define RPG_CLIENT_MAP3DUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x174CAE30)
-#define RPG_CLIENT_MAP3DUTILS__GETOBJECTOPACITY_OFFSET UNITYSDK_OFFSET(0x174CAC40)
-#define RPG_CLIENT_MAP3DUTILS__GETPROPID_OFFSET UNITYSDK_OFFSET(0x174CAAD0)
-#define RPG_CLIENT_MAP3DUTILS__GETRAWOPACITY_OFFSET UNITYSDK_OFFSET(0x174C7640)
-#define RPG_CLIENT_MAP3DUTILS__SETOBJECTOPACITY_OFFSET UNITYSDK_OFFSET(0x174C9390)
-#define RPG_CLIENT_MAP3DUTILS__SHOULDOPACITYIGNOREPOSE_OFFSET UNITYSDK_OFFSET(0x174CAB70)
-#define RPG_CLIENT_MAP3DUTILS__SMOOTHLYSETOPACITY_OFFSET UNITYSDK_OFFSET(0x174C95F0)
+#define RPG_CLIENT_MAP3DUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD523F00)
+#define RPG_CLIENT_MAP3DUTILS_COMPUTEPLAYERWORLDROTATION_OFFSET UNITYSDK_OFFSET(0xD522660)
+#define RPG_CLIENT_MAP3DUTILS_GETBYATTACH_OFFSET UNITYSDK_OFFSET(0xD523970)
+#define RPG_CLIENT_MAP3DUTILS_GETMAINCAMERAWORLDROTATION_OFFSET UNITYSDK_OFFSET(0xD522CD0)
+#define RPG_CLIENT_MAP3DUTILS_GETMAPROTATIONCHARGERMINIMAPICON_OFFSET UNITYSDK_OFFSET(0xD5234C0)
+#define RPG_CLIENT_MAP3DUTILS_GETMAPROTATIONVOLUMEMINIMAPICON_OFFSET UNITYSDK_OFFSET(0xD522EE0)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONCIRCLEOPACITY_OFFSET UNITYSDK_OFFSET(0xD5211E0)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMCIRCLESCALE_OFFSET UNITYSDK_OFFSET(0xD521C80)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMICONOPACITY_OFFSET UNITYSDK_OFFSET(0xD521260)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMOPACITY_OFFSET UNITYSDK_OFFSET(0xD520460)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDPOSITIONWITHOFFSET_OFFSET UNITYSDK_OFFSET(0xD5218A0)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDPOSITION_1_OFFSET UNITYSDK_OFFSET(0xD521750)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xD5215D0)
+#define RPG_CLIENT_MAP3DUTILS_GETROTATABLEREGIONITEMWORLDROTATION_OFFSET UNITYSDK_OFFSET(0xD5213B0)
+#define RPG_CLIENT_MAP3DUTILS_ISINCURFLOOR3DAREA_OFFSET UNITYSDK_OFFSET(0xD51FF90)
+#define RPG_CLIENT_MAP3DUTILS_SHOULDSHOW3DMAP_OFFSET UNITYSDK_OFFSET(0xD520310)
+#define RPG_CLIENT_MAP3DUTILS_SMOOTHLYSETOPACITY_OFFSET UNITYSDK_OFFSET(0xD522190)
+#define RPG_CLIENT_MAP3DUTILS__GETOBJECTOPACITY_OFFSET UNITYSDK_OFFSET(0xD523CF0)
+#define RPG_CLIENT_MAP3DUTILS__GETPROPID_OFFSET UNITYSDK_OFFSET(0xD523B40)
+#define RPG_CLIENT_MAP3DUTILS__GETRAWOPACITY_OFFSET UNITYSDK_OFFSET(0xD520630)
+#define RPG_CLIENT_MAP3DUTILS__SETOBJECTOPACITY_OFFSET UNITYSDK_OFFSET(0xD522320)
+#define RPG_CLIENT_MAP3DUTILS__SHOULDOPACITYIGNOREPOSE_OFFSET UNITYSDK_OFFSET(0xD523BE0)
+#define RPG_CLIENT_MAP3DUTILS__SMOOTHLYSETOPACITY_OFFSET UNITYSDK_OFFSET(0xD5225B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Map3DUtils_TypeDefinitionIndex = 69003;
+	inline static constexpr unsigned int Map3DUtils_TypeDefinitionIndex = 69039;
 
 	class Map3DUtils : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::UIMap3DContainer** StaticGet_s_Map3DContainer()
-		{
-			return (::RPG::Client::UIMap3DContainer**)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x1CC0);
-		}
-		static ::UnityEngine::Transform** StaticGet_s_Map3DTransform()
-		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x1CC8);
-		}
-		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_s_RayHits()
-		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x1CD0);
-		}
 		static ::RPG::Client::MonoMap3DTouch** StaticGet_s_MonoMap3DTouch()
 		{
-			return (::RPG::Client::MonoMap3DTouch**)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x1CD8);
+			return (::RPG::Client::MonoMap3DTouch**)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0xC100);
 		}
-		static ::System::Int32* StaticGet_s_Opacity()
+
+		static ::UnityEngine::Transform** StaticGet_s_Map3DTransform()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x9B0);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0xC108);
 		}
+
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_s_RayHits()
+		{
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0xC110);
+		}
+
+		static ::RPG::Client::UIMap3DContainer** StaticGet_s_Map3DContainer()
+		{
+			return (::RPG::Client::UIMap3DContainer**)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0xC118);
+		}
+
 		static ::System::Int32* StaticGet_s_Color()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x9B4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0x2870);
 		}
+
 		static ::UnityEngine::Vector3* StaticGet_s_ScreenPosOffset()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Map3DUtils_TypeDefinitionIndex)->GetStaticField(0x9B8);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0x2874);
+		}
+
+		static ::System::Int32* StaticGet_s_Opacity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Map3DUtils")->GetStaticField(0x2880);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean IsInCurFloor3DArea(::System::Int32 a1)
@@ -163,9 +168,9 @@ namespace RPG::Client
 			return ((::System::Tuple_2<::System::UInt32, ::System::UInt32>*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS_GETBYATTACH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean _GetRawOpacity(::RPG::Client::NavMap::NavMap3DIconData* a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3, ::System::Single& a4)
+		static ::System::Boolean _GetRawOpacity(::RPG::Client::NavMap::NavMap3DIconData* a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::NavMap3DIconData*, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS__GETRAWOPACITY_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::NavMap3DIconData*, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS__GETRAWOPACITY_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean _ShouldOpacityIgnorePose(::System::UInt32 a1)
@@ -192,5 +197,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS__SETOBJECTOPACITY_OFFSET))(a1, a2);
 		}
+
 	};
 }

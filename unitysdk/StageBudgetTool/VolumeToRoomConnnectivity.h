@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StageBudgetTool/PassageConnectivity.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int VolumeToRoomConnnectivity_TypeDefinitionIndex = 48178;
+	inline static constexpr unsigned int VolumeToRoomConnnectivity_TypeDefinitionIndex = 47719;
 
 	struct alignas(8) VolumeToRoomConnnectivity
 	{

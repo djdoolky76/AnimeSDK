@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MatchThreeV2BirdRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D26EAF0)
-#define RPG_GAMECORE_MATCHTHREEV2BIRDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26EC40)
+#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82E3C0)
+#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82E270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2BirdRow_TypeDefinitionIndex = 11923;
+	inline static constexpr unsigned int MatchThreeV2BirdRow_TypeDefinitionIndex = 11946;
 
 	class MatchThreeV2BirdRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockLevelList; // 0x10
-		::System::UInt32 Order; // 0x18
-		::System::UInt32 BirdID; // 0x1C
-
+		::System::UInt32 BirdID; // 0x18
+		::System::UInt32 Order; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2BIRDROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2BIRDROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MatchThreeV2BirdRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MatchThreeV2BirdRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MatchThreeV2BirdRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2BIRDROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MatchThreeV2BirdRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2BIRDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

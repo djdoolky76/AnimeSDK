@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A772A0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A77310)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A77290)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A77220)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF4F690)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0xAF4F610)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF4F700)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF4F680)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogUploadProgress_TypeDefinitionIndex = 46957;
+	inline static constexpr unsigned int APMC_LOGBACK_LogUploadProgress_TypeDefinitionIndex = 46497;
 
 	class APMC_LOGBACK_LogUploadProgress : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::Int32 a2)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADPROGRESS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

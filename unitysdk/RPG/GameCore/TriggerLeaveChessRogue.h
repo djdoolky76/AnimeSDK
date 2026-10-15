@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerLeaveChessRogue; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_METHOD_3_0ABC57EB7E85382F_OFFSET UNITYSDK_OFFSET(0x1D28F790)
-#define RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_METHOD_3_9AFEF76AE47197B2_OFFSET UNITYSDK_OFFSET(0x1D28F860)
-#define RPG_GAMECORE_TRIGGERLEAVECHESSROGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28F850)
+#define RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC26700)
+#define RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC26710)
+#define RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC26640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerLeaveChessRogue_TypeDefinitionIndex = 21847;
+	inline static constexpr unsigned int TriggerLeaveChessRogue_TypeDefinitionIndex = 22095;
 
 	class TriggerLeaveChessRogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLEAVECHESSROGUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0ABC57EB7E85382F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerLeaveChessRogue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerLeaveChessRogue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerLeaveChessRogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_METHOD_3_0ABC57EB7E85382F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerLeaveChessRogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9AFEF76AE47197B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerLeaveChessRogue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerLeaveChessRogue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerLeaveChessRogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_METHOD_3_9AFEF76AE47197B2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerLeaveChessRogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLEAVECHESSROGUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

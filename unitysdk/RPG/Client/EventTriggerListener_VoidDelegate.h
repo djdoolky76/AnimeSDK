@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1993E5E0)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1993E620)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1993DD70)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1993E560)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCE15020)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCE14FA0)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCE15060)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCE147B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EventTriggerListener_VoidDelegate_TypeDefinitionIndex = 72456;
+	inline static constexpr unsigned int EventTriggerListener_VoidDelegate_TypeDefinitionIndex = 72529;
 
 	class EventTriggerListener_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
@@ -39,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

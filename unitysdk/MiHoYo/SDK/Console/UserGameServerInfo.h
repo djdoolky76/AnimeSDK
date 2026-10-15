@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_USERGAMESERVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F70C0)
+#define MIHOYO_SDK_CONSOLE_USERGAMESERVERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE13340)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int UserGameServerInfo_TypeDefinitionIndex = 8936;
+	inline static constexpr unsigned int UserGameServerInfo_TypeDefinitionIndex = 8997;
 
 	class UserGameServerInfo : public ::System::Object
 	{
@@ -17,11 +16,12 @@ namespace MiHoYo::SDK::Console
 		::System::String* game_uid; // 0x18
 		::System::String* nickname; // 0x20
 		::System::Int32 level; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* region_name; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_USERGAMESERVERINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_USERGAMESERVERINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

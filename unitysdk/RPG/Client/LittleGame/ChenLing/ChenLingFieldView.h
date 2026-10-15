@@ -3,23 +3,22 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingGameView.h"
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingSoldierTeamType.h"
 #include "unitysdk/RPG/GameCore/ChenLingBattleInitPosition.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_6B60059019300BAD;
+#include "unitysdk/UnityEngine/Quaternion.h"
+class ALMFLCJCHKP;
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDPOSITION_OFFSET UNITYSDK_OFFSET(0x1AC18340)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDROTATION_OFFSET UNITYSDK_OFFSET(0x1AC18790)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETQUARD_OFFSET UNITYSDK_OFFSET(0x1AC18170)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTPOSITION_OFFSET UNITYSDK_OFFSET(0x1AC18210)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTROTATION_OFFSET UNITYSDK_OFFSET(0x1AC18720)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC18C00)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD402DF0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDPOSITION_OFFSET UNITYSDK_OFFSET(0xD402530)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDROTATION_OFFSET UNITYSDK_OFFSET(0xD402980)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETQUARD_OFFSET UNITYSDK_OFFSET(0xD402360)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTPOSITION_OFFSET UNITYSDK_OFFSET(0xD402400)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTROTATION_OFFSET UNITYSDK_OFFSET(0xD402910)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingFieldView_TypeDefinitionIndex = 77499;
+	inline static constexpr unsigned int ChenLingFieldView_TypeDefinitionIndex = 77970;
 
 	class ChenLingFieldView : public ::RPG::Client::LittleGame::ChenLing::ChenLingGameView
 	{
@@ -35,10 +34,9 @@ namespace RPG::Client::LittleGame::ChenLing
 		::UnityEngine::Vector3 _AllyOffset; // 0x88
 		::UnityEngine::Vector3 _EnemyOffset; // 0x94
 		::System::Single _AdvanceInFormationSpeed; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::MeshFilter* GetQuard(::RPG::GameCore::ChenLingBattleInitPosition a1, ::RPG::Client::LittleGame::ChenLing::ChenLingSoldierTeamType a2)
@@ -46,24 +44,25 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::UnityEngine::MeshFilter*(*)(::PVOID, ::RPG::GameCore::ChenLingBattleInitPosition, ::RPG::Client::LittleGame::ChenLing::ChenLingSoldierTeamType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETQUARD_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 GetStartPosition(::Class_2_6B60059019300BAD* a1)
+		::UnityEngine::Vector3 GetStartPosition(::ALMFLCJCHKP* a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Class_2_6B60059019300BAD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTPOSITION_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTPOSITION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Quaternion GetStartRotation(::Class_2_6B60059019300BAD* a1)
+		::UnityEngine::Quaternion GetStartRotation(::ALMFLCJCHKP* a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::Class_2_6B60059019300BAD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTROTATION_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETSTARTROTATION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GetEndPosition(::Class_2_6B60059019300BAD* a1)
+		::UnityEngine::Vector3 GetEndPosition(::ALMFLCJCHKP* a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Class_2_6B60059019300BAD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDPOSITION_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDPOSITION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Quaternion GetEndRotation(::Class_2_6B60059019300BAD* a1)
+		::UnityEngine::Quaternion GetEndRotation(::ALMFLCJCHKP* a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::Class_2_6B60059019300BAD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDROTATION_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGFIELDVIEW_GETENDROTATION_OFFSET))(this, a1);
 		}
+
 	};
 }

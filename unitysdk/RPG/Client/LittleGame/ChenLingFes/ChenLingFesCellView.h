@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/ChenLingFes/ChenLingFesView.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_SETLOCKHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x1AC22DE0)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_SETPLACEHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x1AC22F40)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC23040)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD40D000)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_SETLOCKHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xD40CDA0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_SETPLACEHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xD40CF00)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesCellView_TypeDefinitionIndex = 77315;
+	inline static constexpr unsigned int ChenLingFesCellView_TypeDefinitionIndex = 77786;
 
 	class ChenLingFesCellView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{
@@ -22,10 +21,9 @@ namespace RPG::Client::LittleGame::ChenLingFes
 		::UnityEngine::Texture* HighlightTexture; // 0x68
 		::UnityEngine::GameObject* HighlightEffect; // 0x70
 		::UnityEngine::Texture* DarkTexture; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetLockHighlight(::System::Boolean a1)
@@ -37,5 +35,6 @@ namespace RPG::Client::LittleGame::ChenLingFes
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESCELLVIEW_SETPLACEHIGHLIGHT_OFFSET))(this, a1);
 		}
+
 	};
 }

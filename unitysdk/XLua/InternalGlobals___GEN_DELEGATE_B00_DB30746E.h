@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x118572F0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11857340)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_INVOKE_OFFSET UNITYSDK_OFFSET(0x118572E0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E__CTOR_OFFSET UNITYSDK_OFFSET(0x11857270)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA8F60)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA8EE0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA8FB0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA8F50)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_DB30746E_TypeDefinitionIndex = 50525;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_DB30746E_TypeDefinitionIndex = 50195;
 
 	class InternalGlobals___GEN_DELEGATE_B00_DB30746E : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::GameCore::TurnBasedModifierEvent a1)
@@ -38,5 +37,6 @@ namespace XLua
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_DB30746E_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

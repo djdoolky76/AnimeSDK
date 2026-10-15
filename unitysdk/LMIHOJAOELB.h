@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/RPG/GameCore/UnitStatus.h"
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+
+#define LMIHOJAOELB_AMAHNKJPOBM_OFFSET UNITYSDK_OFFSET(0xB77EBF0)
+#define LMIHOJAOELB_CTOR_OFFSET UNITYSDK_OFFSET(0xB77EF00)
+#define LMIHOJAOELB_DHJBFGBPDLA_OFFSET UNITYSDK_OFFSET(0xB77ED00)
+#define LMIHOJAOELB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB77EB60)
+#define LMIHOJAOELB_GAIKIHDIOBM_OFFSET UNITYSDK_OFFSET(0xB77EE20)
+#define LMIHOJAOELB_JBENBABCOGB_OFFSET UNITYSDK_OFFSET(0xB77EE10)
+#define LMIHOJAOELB_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB77EBB0)
+
+inline static constexpr unsigned int LMIHOJAOELB_TypeDefinitionIndex = 57556;
+
+	class LMIHOJAOELB : public ::RPG::GameCore::GameComponentBase
+	{
+	public:
+		::System::Action_1<::System::Boolean>* HDMPDMAPKJP; // 0x18
+		::System::Action_2<::RPG::GameCore::UnitStatus, ::RPG::GameCore::UnitStatus>* JIJMALNHDOG; // 0x20
+		::RPG::GameCore::UnitStatus CPPNFCBEJLK; // 0x28
+		::System::Boolean COFDOHGGLCG; // 0x2C
+		::System::Boolean KIBOPOOCEPL; // 0x2D
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void LMCEDCHJKFF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_LMCEDCHJKFF_OFFSET))(this);
+		}
+
+		::System::Void AMAHNKJPOBM()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_AMAHNKJPOBM_OFFSET))(this);
+		}
+
+		::System::Void DHJBFGBPDLA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_DHJBFGBPDLA_OFFSET))(this);
+		}
+
+		::RPG::GameCore::UnitStatus JBENBABCOGB()
+		{
+			return ((::RPG::GameCore::UnitStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_JBENBABCOGB_OFFSET))(this);
+		}
+
+		::System::Void GAIKIHDIOBM(::RPG::GameCore::UnitStatus a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::UnitStatus))((::PBYTE)hIl2Cpp + LMIHOJAOELB_GAIKIHDIOBM_OFFSET))(this, a1);
+		}
+
+	};

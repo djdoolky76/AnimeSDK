@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueWolfGunRandomCase; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_4233021C414BD2D9_OFFSET UNITYSDK_OFFSET(0x1CCCFCD0)
-#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_43AC646C4EFB20D2_OFFSET UNITYSDK_OFFSET(0x1CCCFC90)
-#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCFCC0)
+#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA18220)
+#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA18230)
+#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA181F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWolfGunRandomCase_TypeDefinitionIndex = 22065;
+	inline static constexpr unsigned int RogueWolfGunRandomCase_TypeDefinitionIndex = 22313;
 
 	class RogueWolfGunRandomCase : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* CustomStringList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_43AC646C4EFB20D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWolfGunRandomCase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueWolfGunRandomCase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueWolfGunRandomCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_43AC646C4EFB20D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueWolfGunRandomCase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4233021C414BD2D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWolfGunRandomCase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueWolfGunRandomCase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueWolfGunRandomCase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_4233021C414BD2D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueWolfGunRandomCase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class NotifyFarmUnlock; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_NOTIFYFARMUNLOCK_METHOD_3_2706F263F88A985A_OFFSET UNITYSDK_OFFSET(0x1CE90920)
-#define RPG_GAMECORE_NOTIFYFARMUNLOCK_METHOD_3_2AA13524BB0FDCB7_OFFSET UNITYSDK_OFFSET(0x1CE90850)
-#define RPG_GAMECORE_NOTIFYFARMUNLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE90910)
+#define RPG_GAMECORE_NOTIFYFARMUNLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AD060)
+#define RPG_GAMECORE_NOTIFYFARMUNLOCK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8AD070)
+#define RPG_GAMECORE_NOTIFYFARMUNLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8ACFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NotifyFarmUnlock_TypeDefinitionIndex = 21710;
+	inline static constexpr unsigned int NotifyFarmUnlock_TypeDefinitionIndex = 21958;
 
 	class NotifyFarmUnlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFARMUNLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFARMUNLOCK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2AA13524BB0FDCB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyFarmUnlock*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::NotifyFarmUnlock* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyFarmUnlock*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFARMUNLOCK_METHOD_3_2AA13524BB0FDCB7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NotifyFarmUnlock*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFARMUNLOCK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2706F263F88A985A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyFarmUnlock* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::NotifyFarmUnlock* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyFarmUnlock*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFARMUNLOCK_METHOD_3_2706F263F88A985A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NotifyFarmUnlock*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFARMUNLOCK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

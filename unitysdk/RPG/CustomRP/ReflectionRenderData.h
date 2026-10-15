@@ -3,22 +3,20 @@
 #include "unitysdk/RPG/CustomRP/BlurParam.h"
 #include "unitysdk/RPG/CustomRP/EPlaneReflectionMode.h"
 #include "unitysdk/RPG/CustomRP/ReflectionMode.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::CustomRP { class IPlaneReflection; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_REFLECTIONRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3AE1CC0)
+#define RPG_CUSTOMRP_REFLECTIONRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3C35F50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionRenderData_TypeDefinitionIndex = 36882;
+	inline static constexpr unsigned int ReflectionRenderData_TypeDefinitionIndex = 37567;
 
 	struct alignas(8) ReflectionRenderData
 	{
@@ -30,22 +28,25 @@ namespace RPG::CustomRP
 		::System::Int32 colorRT; // 0x30
 		::System::Single renderScale; // 0x34
 		::System::Boolean useTAA; // 0x38
+		::System::Byte _padding0[0x3];
 		::RPG::CustomRP::ReflectionMode mode; // 0x3C
 		::RPG::CustomRP::EPlaneReflectionMode PlaneReflectionMode; // 0x40
 		::RPG::CustomRP::BlurParam PlaneBlurParam; // 0x44
 		::System::Boolean needUpdate; // 0x4C
+		::System::Byte _padding1[0x3];
 		::RPG::CustomRP::IPlaneReflection* planeReflection; // 0x50
 		::System::Boolean cmdBufferOnly; // 0x58
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Plane plane; // 0x5C
 		::UnityEngine::Vector3 center; // 0x6C
 		::System::Single clipRange; // 0x78
 		::System::Single cullDistance; // 0x7C
 		::UnityEngine::Rect viewRect; // 0x80
 		::UnityEngine::Vector4 reflectionST; // 0x90
-
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONRENDERDATA_RESET_OFFSET))(this);
 		}
+
 	};
 }

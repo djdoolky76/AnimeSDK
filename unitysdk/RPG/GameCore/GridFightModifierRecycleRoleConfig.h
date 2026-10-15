@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierRecycleRoleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_METHOD_3_1FD5DF28DB93975D_OFFSET UNITYSDK_OFFSET(0x1EE6E8F0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_METHOD_3_B901E329E1E2A799_OFFSET UNITYSDK_OFFSET(0x1EE6E8A0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6E8E0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D707870)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D707880)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D707830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierRecycleRoleConfig_TypeDefinitionIndex = 19223;
+	inline static constexpr unsigned int GridFightModifierRecycleRoleConfig_TypeDefinitionIndex = 19453;
 
 	class GridFightModifierRecycleRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B901E329E1E2A799(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierRecycleRoleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierRecycleRoleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierRecycleRoleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_METHOD_3_B901E329E1E2A799_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierRecycleRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1FD5DF28DB93975D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierRecycleRoleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierRecycleRoleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierRecycleRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_METHOD_3_1FD5DF28DB93975D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierRecycleRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERRECYCLEROLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

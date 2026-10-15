@@ -2,41 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_GETPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1D60B010)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_GETPRESSEDBUTTONS_OFFSET UNITYSDK_OFFSET(0x1D619700)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_HASADDITIONALPRESSEDBUTTONS_OFFSET UNITYSDK_OFFSET(0x1D619790)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_PRESSBUTTON_OFFSET UNITYSDK_OFFSET(0x1D60A290)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_RELEASEALLBUTTONS_OFFSET UNITYSDK_OFFSET(0x1D6160E0)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_RELEASEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D609D40)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_SAVEPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1D6195E0)
-#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D619830)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F490E30)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_GETPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1F482610)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_GETPRESSEDBUTTONS_OFFSET UNITYSDK_OFFSET(0x1F490D00)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_HASADDITIONALPRESSEDBUTTONS_OFFSET UNITYSDK_OFFSET(0x1F490D90)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_PRESSBUTTON_OFFSET UNITYSDK_OFFSET(0x1F481890)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_RELEASEALLBUTTONS_OFFSET UNITYSDK_OFFSET(0x1F48D6E0)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_RELEASEBUTTON_OFFSET UNITYSDK_OFFSET(0x1F481340)
+#define UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_SAVEPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1F490BE0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerDeviceState_TypeDefinitionIndex = 5966;
+	inline static constexpr unsigned int PointerDeviceState_TypeDefinitionIndex = 5974;
 
 	class PointerDeviceState : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_m_PressedButtons()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PointerDeviceState_TypeDefinitionIndex)->GetStaticField(0x1BB30);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UIElements", "PointerDeviceState")->GetStaticField(0x2D3D0);
 		}
-		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_m_Positions()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(PointerDeviceState_TypeDefinitionIndex)->GetStaticField(0x1BB38);
-		}
+
 		static ::Il2CppArray<::UnityEngine::UIElements::IPanel*>** StaticGet_m_Panels()
 		{
-			return (::Il2CppArray<::UnityEngine::UIElements::IPanel*>**)Il2CppClass::FromTypeDefinitionIndex(PointerDeviceState_TypeDefinitionIndex)->GetStaticField(0x1BB40);
+			return (::Il2CppArray<::UnityEngine::UIElements::IPanel*>**)UnitySDK::FromName("UnityEngine.UIElements", "PointerDeviceState")->GetStaticField(0x2D3D8);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_m_Positions()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.UIElements", "PointerDeviceState")->GetStaticField(0x2D3E0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void SavePointerPosition(::System::Int32 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::UIElements::IPanel* a3)
@@ -73,5 +74,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Boolean(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERDEVICESTATE_HASADDITIONALPRESSEDBUTTONS_OFFSET))(a1, a2);
 		}
+
 	};
 }

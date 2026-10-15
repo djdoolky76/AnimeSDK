@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class RPGDepthOfField_CoCMethodParameter; }
 namespace RPG::CustomRP { class RPGDepthOfField_DepthOfFieldDebugMethodParameter; }
 namespace RPG::CustomRP { class RPGDepthOfField_DepthOfFieldMethodParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1858CCF0)
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1858CD50)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC15690)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC15630)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_TypeDefinitionIndex = 37113;
+	inline static constexpr unsigned int RPGDepthOfField_TypeDefinitionIndex = 37798;
 
 	class RPGDepthOfField : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -32,15 +31,15 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* DepthBlurAmount; // 0x98
 		::UnityEngine::Rendering::FloatParameter* maxForegroundRadius; // 0xA0
 		::UnityEngine::Rendering::FloatParameter* maxBackgroundRadius; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGDEPTHOFFIELD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGDEPTHOFFIELD_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsActiveImpl()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGDEPTHOFFIELD_ISACTIVEIMPL_OFFSET))(this);
 		}
+
 	};
 }

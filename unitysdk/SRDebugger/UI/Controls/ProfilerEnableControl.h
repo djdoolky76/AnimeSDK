@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_START_OFFSET UNITYSDK_OFFSET(0x1BDBD010)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_TOGGLEPROFILER_OFFSET UNITYSDK_OFFSET(0x1BDBD550)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_UPDATELABELS_OFFSET UNITYSDK_OFFSET(0x1BDBD280)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDBD520)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBD620)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2DB90)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED2D580)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_TOGGLEPROFILER_OFFSET UNITYSDK_OFFSET(0x1ED2DAC0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_UPDATELABELS_OFFSET UNITYSDK_OFFSET(0x1ED2D7F0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED2DA90)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerEnableControl_TypeDefinitionIndex = 37343;
+	inline static constexpr unsigned int ProfilerEnableControl_TypeDefinitionIndex = 38036;
 
 	class ProfilerEnableControl : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
 		::System::Boolean _previousState; // 0x48
+		::System::Byte _padding0[0x7];
 		::UnityEngine::UI::Text* ButtonText; // 0x50
 		::UnityEngine::UI::Button* EnableButton; // 0x58
 		::UnityEngine::UI::Text* Text; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -47,5 +46,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERENABLECONTROL_TOGGLEPROFILER_OFFSET))(this);
 		}
+
 	};
 }

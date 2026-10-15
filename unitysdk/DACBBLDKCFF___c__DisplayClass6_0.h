@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DACBBLDKCFF;
+class FKNABMFHPCN;
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define DACBBLDKCFF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB2620)
+#define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xDFB2850)
+#define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0xDFB2880)
+
+inline static constexpr unsigned int DACBBLDKCFF___c__DisplayClass6_0_TypeDefinitionIndex = 79646;
+
+	class DACBBLDKCFF___c__DisplayClass6_0 : public ::System::Object
+	{
+	public:
+		::DACBBLDKCFF* __4__this; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* sortedExamIDs; // 0x18
+		::System::UInt32 currentExamID; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DACBBLDKCFF___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);
+		}
+
+		::FKNABMFHPCN* _Create_b__0(::System::UInt32 a1)
+		{
+			return ((::FKNABMFHPCN*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _Create_b__1(::FKNABMFHPCN* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FKNABMFHPCN*))((::PBYTE)hIl2Cpp + DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__1_OFFSET))(this, a1);
+		}
+
+	};

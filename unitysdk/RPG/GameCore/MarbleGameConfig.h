@@ -1,19 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameConstConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarbleGameConfig; }
 namespace RPG::GameCore { class MarbleMainsubConfig; }
 namespace RPG::GameCore { class MarbleNpcConfig; }
+namespace RPG::GameCore { class PetMarbleGameConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D4A8570)
-#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4A8530)
-#define RPG_GAMECORE_MARBLEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A8560)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80FDD0)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D80FDE0)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D80FDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 18704;
+	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 18927;
 
 	class MarbleGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
@@ -59,6 +60,7 @@ namespace RPG::GameCore
 		::System::Single PreLaunchTime; // 0xB0
 		::System::Single PreRoundTime; // 0xB4
 		::System::Single AILaunchTime; // 0xB8
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* AILaunchBlankTime; // 0xC0
 		::System::Single AISwitchRate; // 0xC8
 		::System::Single AISwitchGap; // 0xCC
@@ -83,30 +85,33 @@ namespace RPG::GameCore
 		::System::UInt32 Achievement1; // 0x118
 		::System::UInt32 Achievement2; // 0x11C
 		::System::UInt32 Achievement3; // 0x120
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::MarbleNpcConfig* ANpcConfig; // 0x128
 		::RPG::GameCore::MarbleNpcConfig* BNpcConfig; // 0x130
 		::System::Single TriggerEventCd; // 0x138
 		::System::Single NormalKillRate; // 0x13C
 		::System::Int32 MassDamage; // 0x140
+		::System::Byte _padding2[0x4];
 		::System::String* NpcSealName1; // 0x148
 		::System::String* NpcSealName2; // 0x150
 		::RPG::GameCore::MarbleMainsubConfig* MarbleMainsubConfig; // 0x158
-		::Il2CppArray<::System::UInt32>* RankScoreInterval; // 0x160
-		::Il2CppArray<::System::UInt32>* RankInterval; // 0x168
-
+		::RPG::GameCore::PetMarbleGameConfig* PetMarbleGameConfig; // 0x160
+		::Il2CppArray<::System::UInt32>* RankScoreInterval; // 0x168
+		::Il2CppArray<::System::UInt32>* RankInterval; // 0x170
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleGameConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleGameConfig* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

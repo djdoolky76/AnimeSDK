@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
-
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace RPG::Client { class WalkStyleTranInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x1A506950)
-#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_351EF1ABA5191056_OFFSET UNITYSDK_OFFSET(0x1A506EC0)
-#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_B12D175E944C9C0C_OFFSET UNITYSDK_OFFSET(0x1A506C20)
-#define RPG_CLIENT_STATEWALKSTYLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A506900)
-#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x1A506A10)
-#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x1A506FB0)
-#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A506DB0)
-#define RPG_CLIENT_STATEWALKSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A507280)
+#define RPG_CLIENT_STATEWALKSTYLE_APNONENBDPE_OFFSET UNITYSDK_OFFSET(0xE12A7F0)
+#define RPG_CLIENT_STATEWALKSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE12ABB0)
+#define RPG_CLIENT_STATEWALKSTYLE_IBCCBCKNHDM_OFFSET UNITYSDK_OFFSET(0xE12A280)
+#define RPG_CLIENT_STATEWALKSTYLE_ONCEBAHPNLN_OFFSET UNITYSDK_OFFSET(0xE12A550)
+#define RPG_CLIENT_STATEWALKSTYLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE12A230)
+#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE12A340)
+#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE12A8E0)
+#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE12A6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateWalkStyle_TypeDefinitionIndex = 68817;
+	inline static constexpr unsigned int StateWalkStyle_TypeDefinitionIndex = 68851;
 
 	class StateWalkStyle : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:
 		::System::Single walkStyleChangeDuration; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::Client::WalkStyleTranInfo*>* WalkTranInfos; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::WalkStyleTranInfo*>* _walkStyleInfoDict; // 0x28
 		::System::Int32 _currentWalkStyleTo; // 0x30
@@ -33,10 +33,9 @@ namespace RPG::Client
 		::System::Single _transitionDuration; // 0x40
 		::System::Single _transitonTimer; // 0x44
 		::System::Boolean _isInExit; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -44,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_4_0865E94460F11643()
+		::System::Void IBCCBCKNHDM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_METHOD_4_0865E94460F11643_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_IBCCBCKNHDM_OFFSET))(this);
 		}
 
 		::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -64,14 +63,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_4_351EF1ABA5191056(::UnityEngine::Animator* a1)
+		::System::Void APNONENBDPE(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_METHOD_4_351EF1ABA5191056_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_APNONENBDPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_B12D175E944C9C0C(::UnityEngine::Animator* a1, ::System::Single a2)
+		::System::Void ONCEBAHPNLN(::UnityEngine::Animator* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_METHOD_4_B12D175E944C9C0C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_ONCEBAHPNLN_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F0280)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0__THENRACE_B__0_OFFSET UNITYSDK_OFFSET(0x1D7F1360)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F63EA50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0__THENRACE_B__0_OFFSET UNITYSDK_OFFSET(0x1F63FB30)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass55_0_TypeDefinitionIndex = 38262;
+	inline static constexpr unsigned int Promise___c__DisplayClass55_0_TypeDefinitionIndex = 39559;
 
 	class Promise___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
 		::System::Func_1<::System::Collections::Generic::IEnumerable_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*>* chain; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET))(this);
 		}
 
 		::ZenFulcrum::EmbeddedBrowser::IPromise* _ThenRace_b__0()
 		{
 			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS55_0__THENRACE_B__0_OFFSET))(this);
 		}
+
 	};
 }

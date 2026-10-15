@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2DIAGNOSTICS_B2_ASSERT_OFFSET UNITYSDK_OFFSET(0xC2F33A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2DIAGNOSTICS_B2_ASSERT_OFFSET UNITYSDK_OFFSET(0x1C7F6950)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Diagnostics_TypeDefinitionIndex = 35969;
+	inline static constexpr unsigned int B2Diagnostics_TypeDefinitionIndex = 36656;
 
 	class B2Diagnostics : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2DIAGNOSTICS_B2_ASSERT_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Math/Prime/ConfidenceFactor.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Math { class BigInteger; }
 
-#define MONO_MATH_PRIME_PRIMALITYTESTS_GETSPPROUNDS_OFFSET UNITYSDK_OFFSET(0x1D238810)
-#define MONO_MATH_PRIME_PRIMALITYTESTS_RABINMILLERTEST_OFFSET UNITYSDK_OFFSET(0x1D2389B0)
+#define MONO_MATH_PRIME_PRIMALITYTESTS_GETSPPROUNDS_OFFSET UNITYSDK_OFFSET(0x1C03D790)
+#define MONO_MATH_PRIME_PRIMALITYTESTS_RABINMILLERTEST_OFFSET UNITYSDK_OFFSET(0x1C03DE00)
+#define MONO_MATH_PRIME_PRIMALITYTESTS_SMALLPRIMESPPTEST_OFFSET UNITYSDK_OFFSET(0x1C03D930)
+#define MONO_MATH_PRIME_PRIMALITYTESTS_TEST_OFFSET UNITYSDK_OFFSET(0x1C03B800)
 
 namespace Mono::Math::Prime
 {
-	inline static constexpr unsigned int PrimalityTests_TypeDefinitionIndex = 2320;
+	inline static constexpr unsigned int PrimalityTests_TypeDefinitionIndex = 87;
 
 	class PrimalityTests : public ::System::Object
 	{
@@ -20,9 +21,20 @@ namespace Mono::Math::Prime
 			return ((::System::Int32(*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTESTS_GETSPPROUNDS_OFFSET))(a1, a2);
 		}
 
+		static ::System::Boolean Test(::Mono::Math::BigInteger* a1, ::Mono::Math::Prime::ConfidenceFactor a2)
+		{
+			return ((::System::Boolean(*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTESTS_TEST_OFFSET))(a1, a2);
+		}
+
 		static ::System::Boolean RabinMillerTest(::Mono::Math::BigInteger* a1, ::Mono::Math::Prime::ConfidenceFactor a2)
 		{
 			return ((::System::Boolean(*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTESTS_RABINMILLERTEST_OFFSET))(a1, a2);
 		}
+
+		static ::System::Boolean SmallPrimeSppTest(::Mono::Math::BigInteger* a1, ::Mono::Math::Prime::ConfidenceFactor a2)
+		{
+			return ((::System::Boolean(*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTESTS_SMALLPRIMESPPTEST_OFFSET))(a1, a2);
+		}
+
 	};
 }

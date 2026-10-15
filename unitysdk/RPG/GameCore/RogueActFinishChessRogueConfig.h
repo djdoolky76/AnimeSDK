@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActFinishChessRogueConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_METHOD_6_46A8EE3CAA033489_OFFSET UNITYSDK_OFFSET(0x1EE85240)
-#define RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_METHOD_6_547FC5146A0C128D_OFFSET UNITYSDK_OFFSET(0x1EE85290)
-#define RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE85280)
+#define RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D970250)
+#define RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D970260)
+#define RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D970210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActFinishChessRogueConfig_TypeDefinitionIndex = 19408;
+	inline static constexpr unsigned int RogueActFinishChessRogueConfig_TypeDefinitionIndex = 19638;
 
 	class RogueActFinishChessRogueConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_46A8EE3CAA033489(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActFinishChessRogueConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActFinishChessRogueConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActFinishChessRogueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_METHOD_6_46A8EE3CAA033489_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActFinishChessRogueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_547FC5146A0C128D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActFinishChessRogueConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActFinishChessRogueConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActFinishChessRogueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_METHOD_6_547FC5146A0C128D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActFinishChessRogueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTFINISHCHESSROGUECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

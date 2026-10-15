@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class ColorGradingGradualParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGADDITIONALCOLORGRADING__CTOR_OFFSET UNITYSDK_OFFSET(0x185859A0)
+#define RPG_CUSTOMRP_RPGADDITIONALCOLORGRADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0E290)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGAdditionalColorGrading_TypeDefinitionIndex = 37097;
+	inline static constexpr unsigned int RPGAdditionalColorGrading_TypeDefinitionIndex = 37782;
 
 	class RPGAdditionalColorGrading : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -29,10 +28,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* Roundness; // 0x88
 		::UnityEngine::Rendering::FloatParameter* BlendRadius; // 0x90
 		::UnityEngine::Rendering::FloatParameter* Angle; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGADDITIONALCOLORGRADING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGADDITIONALCOLORGRADING_CTOR_OFFSET))(this);
 		}
+
 	};
 }

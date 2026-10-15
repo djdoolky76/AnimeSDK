@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimEnableSimpleHitBoxAction; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_METHOD_3_7FDF117225D92464_OFFSET UNITYSDK_OFFSET(0x1D85B600)
-#define RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_METHOD_3_ECEBF97D9F9474E1_OFFSET UNITYSDK_OFFSET(0x1D85B520)
-#define RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85B5F0)
+#define RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68D8B0)
+#define RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D68D8C0)
+#define RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68D7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEnableSimpleHitBoxAction_TypeDefinitionIndex = 18579;
+	inline static constexpr unsigned int FiveDimEnableSimpleHitBoxAction_TypeDefinitionIndex = 18789;
 
 	class FiveDimEnableSimpleHitBoxAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::System::Boolean Enable; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ECEBF97D9F9474E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_METHOD_3_ECEBF97D9F9474E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7FDF117225D92464(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_METHOD_3_7FDF117225D92464_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimEnableSimpleHitBoxAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLESIMPLEHITBOXACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

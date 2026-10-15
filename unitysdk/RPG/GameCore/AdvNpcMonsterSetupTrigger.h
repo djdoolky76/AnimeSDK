@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvNpcMonsterSetupTrigger; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_51B2437A5F97F8A3_OFFSET UNITYSDK_OFFSET(0x1D6C0A00)
-#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_9C75C43FC7629CEE_OFFSET UNITYSDK_OFFSET(0x1D6C09B0)
-#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C09F0)
+#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37A2C0)
+#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37A2D0)
+#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37A280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMonsterSetupTrigger_TypeDefinitionIndex = 21969;
+	inline static constexpr unsigned int AdvNpcMonsterSetupTrigger_TypeDefinitionIndex = 22217;
 
 	class AdvNpcMonsterSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,21 +27,22 @@ namespace RPG::GameCore
 		::System::Boolean Enable; // 0x40
 		::System::Boolean ForceInteractInDanger; // 0x41
 		::System::Boolean ConsiderAngleLimit; // 0x42
+		::System::Byte _padding0[0x1];
 		::System::Single InteractAngleRange; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9C75C43FC7629CEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_9C75C43FC7629CEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_51B2437A5F97F8A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_51B2437A5F97F8A3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

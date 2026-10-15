@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Rendering/VoxelIrradianceCacheShadingFallback.h"
 #include "unitysdk/UnityEngine/Rendering/VoxelIrradianceCacheShadingPass.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_GET_RENDERSCALE_OFFSET UNITYSDK_OFFSET(0x192AEDF0)
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_SET_RENDERSCALE_OFFSET UNITYSDK_OFFSET(0x192AEE10)
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x192AEE20)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD5180)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_GET_RENDERSCALE_OFFSET UNITYSDK_OFFSET(0x1CBD5150)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_SET_RENDERSCALE_OFFSET UNITYSDK_OFFSET(0x1CBD5170)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_VoxelIrradianceCacheSettings_TypeDefinitionIndex = 36983;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_VoxelIrradianceCacheSettings_TypeDefinitionIndex = 37668;
 
 	class CRPGraphicsSettingsData_VoxelIrradianceCacheSettings : public ::System::Object
 	{
@@ -21,12 +21,12 @@ namespace RPG::CustomRP
 		::System::Boolean HDRAmbientTex; // 0x13
 		::System::Boolean SHCompression; // 0x14
 		::System::Boolean EvalSHSimple; // 0x15
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Rendering::VoxelIrradianceCacheShadingPass ShadingPass; // 0x18
 		::UnityEngine::Rendering::VoxelIrradianceCacheShadingFallback ShadingFallback; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_RenderScale()
@@ -38,5 +38,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOXELIRRADIANCECACHESETTINGS_SET_RENDERSCALE_OFFSET))(this, a1);
 		}
+
 	};
 }

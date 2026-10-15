@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MunicipalChatNodeTransitionInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO_METHOD_2_24742874CD621015_OFFSET UNITYSDK_OFFSET(0x1CE78B20)
-#define RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE78BD0)
+#define RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8942E0)
+#define RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D894230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatNodeTransitionInfo_TypeDefinitionIndex = 16737;
+	inline static constexpr unsigned int MunicipalChatNodeTransitionInfo_TypeDefinitionIndex = 16931;
 
 	class MunicipalChatNodeTransitionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* MunicipalNodeName; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_24742874CD621015(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatNodeTransitionInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MunicipalChatNodeTransitionInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatNodeTransitionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO_METHOD_2_24742874CD621015_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MunicipalChatNodeTransitionInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATNODETRANSITIONINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

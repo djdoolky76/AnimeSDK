@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/GCFreeClosure/Closure.h"
-
 namespace UnityEngine::GCFreeClosure { template <typename T1, typename T2> class ActionByRef_2; }
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ActionClosure_1_ActionClosureWrapper_1_TypeDefinitionIndex = 4446;
+	inline static constexpr unsigned int ActionClosure_1_ActionClosureWrapper_1_TypeDefinitionIndex = 4450;
 
-	template <typename TInput0, typename T>
+	template <typename T>
 	class ActionClosure_1_ActionClosureWrapper_1 : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::GCFreeClosure::ActionByRef_2<::UnityEngine::GCFreeClosure::Closure, TInput0>** StaticGet__default()
+		static ::UnityEngine::GCFreeClosure::ActionByRef_2<::UnityEngine::GCFreeClosure::Closure, T>** StaticGet__default()
 		{
-			return (::UnityEngine::GCFreeClosure::ActionByRef_2<::UnityEngine::GCFreeClosure::Closure, TInput0>**)Il2CppClass::FromTypeDefinitionIndex(ActionClosure_1_ActionClosureWrapper_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::UnityEngine::GCFreeClosure::ActionByRef_2<::UnityEngine::GCFreeClosure::Closure, T>**)UnitySDK::FromName("UnityEngine.GCFreeClosure", "ActionClosureWrapper`1")->GetStaticField(0x0);
 		}
+
 	};
 }

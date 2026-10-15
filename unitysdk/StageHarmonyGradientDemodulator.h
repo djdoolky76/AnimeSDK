@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DemodulatorOutPutType.h"
-#include "unitysdk/StageHarmonyBaseDemodulator_1.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace UnityEngine { class Gradient; }
 
-#define STAGEHARMONYGRADIENTDEMODULATOR_METHOD_3_39CA3A8D335F6DEC_OFFSET UNITYSDK_OFFSET(0x197EC540)
-#define STAGEHARMONYGRADIENTDEMODULATOR_METHOD_3_F4B1CC0F7E08D926_OFFSET UNITYSDK_OFFSET(0x197EC5E0)
-#define STAGEHARMONYGRADIENTDEMODULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197EC630)
+#define STAGEHARMONYGRADIENTDEMODULATOR_APAEIKPAHFH_OFFSET UNITYSDK_OFFSET(0xE987750)
+#define STAGEHARMONYGRADIENTDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9877A0)
+#define STAGEHARMONYGRADIENTDEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE9876B0)
 
-inline static constexpr unsigned int StageHarmonyGradientDemodulator_TypeDefinitionIndex = 47986;
+inline static constexpr unsigned int StageHarmonyGradientDemodulator_TypeDefinitionIndex = 47526;
 
-class StageHarmonyGradientDemodulator : public ::StageHarmonyBaseDemodulator_1<::UnityEngine::Color>
-{
-public:
-	::UnityEngine::Gradient* Gradient; // 0x30
-
-	::System::Void _ctor()
+	class StageHarmonyGradientDemodulator
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYGRADIENTDEMODULATOR__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::Gradient* Gradient; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYGRADIENTDEMODULATOR_CTOR_OFFSET))(this);
+		}
 
-	::UnityEngine::Color Method_3_39CA3A8D335F6DEC(::System::Single a1)
-	{
-		return ((::UnityEngine::Color(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYGRADIENTDEMODULATOR_METHOD_3_39CA3A8D335F6DEC_OFFSET))(this, a1);
-	}
+		::UnityEngine::Color FCDECODOKAK(::System::Single a1)
+		{
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYGRADIENTDEMODULATOR_FCDECODOKAK_OFFSET))(this, a1);
+		}
 
-	::DemodulatorOutPutType Method_3_F4B1CC0F7E08D926()
-	{
-		return ((::DemodulatorOutPutType(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYGRADIENTDEMODULATOR_METHOD_3_F4B1CC0F7E08D926_OFFSET))(this);
-	}
-};
+		::DemodulatorOutPutType APAEIKPAHFH()
+		{
+			return ((::DemodulatorOutPutType(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYGRADIENTDEMODULATOR_APAEIKPAHFH_OFFSET))(this);
+		}
+
+	};

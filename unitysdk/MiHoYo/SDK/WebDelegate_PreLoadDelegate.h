@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7FE40)
-#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7FEB0)
-#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7BFF0)
-#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7FDC0)
+#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3B40)
+#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3AC0)
+#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3BB0)
+#define MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEFD40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_PreLoadDelegate_TypeDefinitionIndex = 7768;
+	inline static constexpr unsigned int WebDelegate_PreLoadDelegate_TypeDefinitionIndex = 7812;
 
 	class WebDelegate_PreLoadDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_PRELOADDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

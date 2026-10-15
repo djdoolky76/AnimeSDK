@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCallbackType.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 class AkCallbackInfo;
-class Class_3_07C3C4D2990C49EE;
+class KFELGAIGHAP;
 namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::Client { class MonoEffectManager; }
 namespace RPG::Client { class MonoEffectSerialBellControl; }
@@ -13,36 +12,35 @@ namespace RPG::GameCore { class SerialBellsNoteConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190040C0)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19004280)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19004840)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK_TICK_OFFSET UNITYSDK_OFFSET(0x19004890)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x19004030)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK__DOPLAYSERIALBELLS_OFFSET UNITYSDK_OFFSET(0x19004610)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK__ONFINISH_OFFSET UNITYSDK_OFFSET(0x19004D50)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK__ONSTOPSERIALBELLS_OFFSET UNITYSDK_OFFSET(0x19005210)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK__SERIALBELLSCALLBACK_OFFSET UNITYSDK_OFFSET(0x190048F0)
-#define RPG_GAMECORE_PLAYSERIALBELLSTASK__TRIGGEREFFECT_OFFSET UNITYSDK_OFFSET(0x19004EC0)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE708E30)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE708EC0)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE709080)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE709640)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE709690)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK__DOPLAYSERIALBELLS_OFFSET UNITYSDK_OFFSET(0xE709410)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK__ONFINISH_OFFSET UNITYSDK_OFFSET(0xE709B50)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK__ONSTOPSERIALBELLS_OFFSET UNITYSDK_OFFSET(0xE70A010)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK__SERIALBELLSCALLBACK_OFFSET UNITYSDK_OFFSET(0xE7096F0)
+#define RPG_GAMECORE_PLAYSERIALBELLSTASK__TRIGGEREFFECT_OFFSET UNITYSDK_OFFSET(0xE709CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlaySerialBellsTask_TypeDefinitionIndex = 58433;
+	inline static constexpr unsigned int PlaySerialBellsTask_TypeDefinitionIndex = 58284;
 
-	class PlaySerialBellsTask : public ::Class_1_5F51D4049EA87B7B
+	class PlaySerialBellsTask : public ::GELIALJDFBL
 	{
 	public:
-		::Class_3_07C3C4D2990C49EE* _FinishSequence; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
 		::RPG::GameCore::PlaySerialBells* _ConfigRef; // 0x20
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x28
-		::RPG::Client::MonoEffectManager* _MonoEffectManager; // 0x30
-		::RPG::Client::AttachPointMapping* _AttachPoint; // 0x38
-		::RPG::Client::MonoEffectSerialBellControl* _SerialBellController; // 0x40
+		::KFELGAIGHAP* _FinishSequence; // 0x28
+		::RPG::Client::MonoEffectSerialBellControl* _SerialBellController; // 0x30
+		::RPG::Client::MonoEffectManager* _MonoEffectManager; // 0x38
+		::RPG::Client::AttachPointMapping* _AttachPoint; // 0x40
 		::System::UInt32 _PlayingEventID; // 0x48
 		::System::Int32 _LoopCount; // 0x4C
-
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlaySerialBells* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PlaySerialBells*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSERIALBELLSTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PlaySerialBells*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSERIALBELLSTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -89,5 +87,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SerialBellsNoteConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSERIALBELLSTASK__TRIGGEREFFECT_OFFSET))(this, a1);
 		}
+
 	};
 }

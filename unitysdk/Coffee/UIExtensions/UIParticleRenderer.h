@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/CombineInstance.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Rect.h"
 namespace Coffee::UIExtensions { class UIParticle; }
+namespace Coffee::UIExtensions { class UIParticleRenderer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
@@ -17,66 +17,49 @@ namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class Texture; }
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_ADDRENDERER_OFFSET UNITYSDK_OFFSET(0x1EE77C10)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_CULL_OFFSET UNITYSDK_OFFSET(0x1EE7F1F0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1EE7ACF0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETRENDERERWORLDBOUNDSRECT_OFFSET UNITYSDK_OFFSET(0x1EE7F640)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1EE7E680)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETWORLDSCALE_OFFSET UNITYSDK_OFFSET(0x1EE7B3C0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EE79C20)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0x1EE73A40)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_RAYCASTTARGET_OFFSET UNITYSDK_OFFSET(0x1EE79DB0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_ROOTCANVASRECT_OFFSET UNITYSDK_OFFSET(0x1EE79DC0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EE7ABB0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EE7AA10)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_RESET_OFFSET UNITYSDK_OFFSET(0x1EE76000)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_RESOLVERESOLUTIONCHANGE_OFFSET UNITYSDK_OFFSET(0x1EE7D930)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SETMATERIALDIRTY_OFFSET UNITYSDK_OFFSET(0x1EE77BA0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SETUPBAKEFALLBACK_OFFSET UNITYSDK_OFFSET(0x1EE7B810)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SETUPDRAWFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1EE7B6A0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SET_OFFSET UNITYSDK_OFFSET(0x1EE765B0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SHOULDUSEDRAWFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1EE7B360)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1EE7DDE0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1EE7F1E0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EE7D630)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMESHBAKEFALLBACK_OFFSET UNITYSDK_OFFSET(0x1EE7B9F0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMESHDRAWFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1EE7B8D0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMESH_OFFSET UNITYSDK_OFFSET(0x1EE77A50)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE7FE90)
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7FE10)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_ADDRENDERER_OFFSET UNITYSDK_OFFSET(0x166AB840)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x166B3AC0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x166B3A40)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_CULL_OFFSET UNITYSDK_OFFSET(0x166B2E20)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x166AE920)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETRENDERERWORLDBOUNDSRECT_OFFSET UNITYSDK_OFFSET(0x166B3270)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x166B22B0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GETWORLDSCALE_OFFSET UNITYSDK_OFFSET(0x166AEFF0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x166AD850)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0x166A76C0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_RAYCASTTARGET_OFFSET UNITYSDK_OFFSET(0x166AD9E0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_GET_ROOTCANVASRECT_OFFSET UNITYSDK_OFFSET(0x166AD9F0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x166AE7E0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x166AE640)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_RESET_OFFSET UNITYSDK_OFFSET(0x166A9C60)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_RESOLVERESOLUTIONCHANGE_OFFSET UNITYSDK_OFFSET(0x166B1560)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SETMATERIALDIRTY_OFFSET UNITYSDK_OFFSET(0x166AB7D0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SETUPBAKEFALLBACK_OFFSET UNITYSDK_OFFSET(0x166AF440)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SETUPDRAWFORCANVAS_OFFSET UNITYSDK_OFFSET(0x166AF2D0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SET_OFFSET UNITYSDK_OFFSET(0x166AA210)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SHOULDUSEDRAWFORCANVAS_OFFSET UNITYSDK_OFFSET(0x166AEF90)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x166B1A10)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x166B2E10)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x166B1260)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMESHBAKEFALLBACK_OFFSET UNITYSDK_OFFSET(0x166AF620)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMESHDRAWFORCANVAS_OFFSET UNITYSDK_OFFSET(0x166AF500)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMESH_OFFSET UNITYSDK_OFFSET(0x166AB680)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleRenderer_TypeDefinitionIndex = 43968;
+	inline static constexpr unsigned int UIParticleRenderer_TypeDefinitionIndex = 45160;
 
 	class UIParticleRenderer : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet_s_Mpb()
-		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(UIParticleRenderer_TypeDefinitionIndex)->GetStaticField(0x12A0);
-		}
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_Corners()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(UIParticleRenderer_TypeDefinitionIndex)->GetStaticField(0x12A8);
-		}
-		static ::Il2CppArray<::UnityEngine::CombineInstance>** StaticGet_s_CombineInstances()
-		{
-			return (::Il2CppArray<::UnityEngine::CombineInstance>**)Il2CppClass::FromTypeDefinitionIndex(UIParticleRenderer_TypeDefinitionIndex)->GetStaticField(0x12B0);
-		}
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_BoundsCorners()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(UIParticleRenderer_TypeDefinitionIndex)->GetStaticField(0x12B8);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_s_Materials()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticleRenderer_TypeDefinitionIndex)->GetStaticField(0x12C0);
-		}
 		::System::Boolean _delay; // 0xF0
+		::System::Byte _padding0[0x3];
 		::System::Int32 _index; // 0xF4
 		::System::Boolean _isPrevStored; // 0xF8
 		::System::Boolean _isTrail; // 0xF9
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Bounds _lastBounds; // 0xFC
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Material* _materialForRendering; // 0x118
 		::UnityEngine::Material* _modifiedMaterial; // 0x120
 		::Coffee::UIExtensions::UIParticle* _parent; // 0x128
@@ -86,18 +69,43 @@ namespace Coffee::UIExtensions
 		::UnityEngine::Vector3 _prevScale; // 0x148
 		::UnityEngine::Vector2Int _prevScreenSize; // 0x154
 		::System::Boolean _preWarm; // 0x15C
+		::System::Byte _padding3[0x3];
 		::UnityEngine::ParticleSystemRenderer* _renderer; // 0x160
 		::UnityEngine::ParticleSystem* _mainEmitter; // 0x168
 		::System::Boolean _useDrawForCanvas; // 0x170
+		static ::Il2CppArray<::UnityEngine::CombineInstance>** StaticGet_s_CombineInstances()
+		{
+			return (::Il2CppArray<::UnityEngine::CombineInstance>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleRenderer")->GetStaticField(0x1000);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_Corners()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleRenderer")->GetStaticField(0x1008);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_s_Materials()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleRenderer")->GetStaticField(0x1010);
+		}
+
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet_s_Mpb()
+		{
+			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleRenderer")->GetStaticField(0x1018);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_BoundsCorners()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleRenderer")->GetStaticField(0x1020);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Texture* get_mainTexture()
@@ -224,5 +232,6 @@ namespace Coffee::UIExtensions
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UPDATEMATERIALPROPERTIES_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CD20670)
-#define UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CD20680)
-#define UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD20690)
+#define UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F297BB0)
+#define UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F297B90)
+#define UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F297BA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpMinFloatParameter_TypeDefinitionIndex = 34967;
+	inline static constexpr unsigned int NoInterpMinFloatParameter_TypeDefinitionIndex = 35636;
 
-	class NoInterpMinFloatParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::System::Single>
+	class NoInterpMinFloatParameter
 	{
 	public:
 		::System::Single min; // 0x20
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Single get_value()
@@ -29,5 +27,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMINFLOATPARAMETER_SET_VALUE_OFFSET))(this, a1);
 		}
+
 	};
 }

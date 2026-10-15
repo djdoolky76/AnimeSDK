@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HLACKPFNIBD_TypeDefinitionIndex = 32577;
+
+	enum class HLACKPFNIBD : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		LIBFBFHOONI = 8255,
+		MMBGLIDPBIB = 8254,
+		MPHCKAJIMDK = 8266,
+		JKGDFMABJAJ = 8256,
+		FOAGMJKPMPG = 8260,
+		GDCIJLJGNEB = 8267,
+		KAJELKNPMLF = 8270,
+		BPJHENLKJPL = 8258,
+		EOKEKMFPINF = 8253,
+		CPJHDNNAIDP = 8263,
+		FCMMDJEHHFP = 8251,
+		GLNCPBGNDIG = 8257,
+		PGDKLOECDJF = 8252,
+		EHDHHNNJBML = 8264,
+		CPKIJENBJIC = 8265,
+	};

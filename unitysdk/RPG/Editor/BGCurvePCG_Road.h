@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 class BGCurveExtention;
 namespace RPG::Client { class LinearModuleRendererMonoPlugin; }
 namespace RPG::Editor { class BGCurvePCG_CurveScatter; }
@@ -14,24 +13,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_EDITOR_BGCURVEPCG_ROAD_BAKE_OFFSET UNITYSDK_OFFSET(0x168450D0)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_CLEAROBJECT_OFFSET UNITYSDK_OFFSET(0x16845090)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_GENERATE_OFFSET UNITYSDK_OFFSET(0x16844DB0)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_INIT_OFFSET UNITYSDK_OFFSET(0x16844480)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_0241A04558156449_OFFSET UNITYSDK_OFFSET(0x168461B0)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_3FC863B885E15ED5_OFFSET UNITYSDK_OFFSET(0x168445A0)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_7073B423B15F467A_OFFSET UNITYSDK_OFFSET(0x16844AC0)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_A90FA0B17EBA78B1_OFFSET UNITYSDK_OFFSET(0x16845890)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x16846460)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16844D70)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_D10C11ED0EFFCFF4_OFFSET UNITYSDK_OFFSET(0x16845F90)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x16845550)
-#define RPG_EDITOR_BGCURVEPCG_ROAD_ONTRACKGENERATORCHANGED_OFFSET UNITYSDK_OFFSET(0x16845820)
-#define RPG_EDITOR_BGCURVEPCG_ROAD__CTOR_OFFSET UNITYSDK_OFFSET(0x168464A0)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_BAKE_OFFSET UNITYSDK_OFFSET(0xE49ECB0)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_CLEAROBJECT_OFFSET UNITYSDK_OFFSET(0xE49EC70)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_CLEOMKNIALF_OFFSET UNITYSDK_OFFSET(0xE49E6A0)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_CNEHNNIIIIP_OFFSET UNITYSDK_OFFSET(0xE49FB70)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A0080)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_DIFNCDMLIBI_OFFSET UNITYSDK_OFFSET(0xE49F470)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_FLCPNLIJGPD_OFFSET UNITYSDK_OFFSET(0xE49E180)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_GENERATE_OFFSET UNITYSDK_OFFSET(0xE49E990)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_INIT_OFFSET UNITYSDK_OFFSET(0xE49E060)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_IPNFPCABKHC_OFFSET UNITYSDK_OFFSET(0xE4A0040)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_KIHOLKKHKON_OFFSET UNITYSDK_OFFSET(0xE49E950)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_NGGAHDFNDKA_OFFSET UNITYSDK_OFFSET(0xE49FD90)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xE49F130)
+#define RPG_EDITOR_BGCURVEPCG_ROAD_ONTRACKGENERATORCHANGED_OFFSET UNITYSDK_OFFSET(0xE49F400)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_Road_TypeDefinitionIndex = 52303;
+	inline static constexpr unsigned int BGCurvePCG_Road_TypeDefinitionIndex = 52016;
 
 	class BGCurvePCG_Road : public ::UnityEngine::MonoBehaviour
 	{
@@ -57,10 +56,9 @@ namespace RPG::Editor
 		::RPG::Editor::BGCurvePCG_MultSubMesh* ReducerGenarator; // 0xA0
 		::RPG::Editor::BGCurvePCG_LinearModuleGenerator* LinearModuleGenarator; // 0xA8
 		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_CurveScatter*>* CurveScatters; // 0xB0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -93,39 +91,40 @@ namespace RPG::Editor
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_ONTRACKGENERATORCHANGED_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A90FA0B17EBA78B1(::RPG::Client::LinearModuleRendererMonoPlugin*& a1, ::RPG::Client::LinearModuleRendererMonoPlugin*& a2, ::System::Int32 a3)
+		::System::Void DIFNCDMLIBI(::RPG::Client::LinearModuleRendererMonoPlugin* a1, ::RPG::Client::LinearModuleRendererMonoPlugin* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LinearModuleRendererMonoPlugin*&, ::RPG::Client::LinearModuleRendererMonoPlugin*&, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_A90FA0B17EBA78B1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LinearModuleRendererMonoPlugin*, ::RPG::Client::LinearModuleRendererMonoPlugin*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_DIFNCDMLIBI_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::GameObject* Method_5_D10C11ED0EFFCFF4(::System::String* a1)
+		::UnityEngine::GameObject* CNEHNNIIIIP(::System::String* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_D10C11ED0EFFCFF4_OFFSET))(this, a1);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_CNEHNNIIIIP_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::UnityEngine::Transform*>* Method_5_0241A04558156449(::UnityEngine::GameObject* a1)
+		::Il2CppArray<::UnityEngine::Transform*>* NGGAHDFNDKA(::UnityEngine::GameObject* a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::Transform*>*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_0241A04558156449_OFFSET))(this, a1);
+			return ((::Il2CppArray<::UnityEngine::Transform*>*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_NGGAHDFNDKA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void KIHOLKKHKON()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_KIHOLKKHKON_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598_1()
+		::System::Void IPNFPCABKHC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_IPNFPCABKHC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3FC863B885E15ED5()
+		::System::Void FLCPNLIJGPD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_3FC863B885E15ED5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_FLCPNLIJGPD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7073B423B15F467A()
+		::System::Void CLEOMKNIALF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_METHOD_5_7073B423B15F467A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD_CLEOMKNIALF_OFFSET))(this);
 		}
+
 	};
 }

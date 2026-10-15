@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_ANIMATORUTILITY_OPTIMIZETRANSFORMHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1EE9C270)
+#define UNITYENGINE_ANIMATORUTILITY_OPTIMIZETRANSFORMHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1F391E00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorUtility_TypeDefinitionIndex = 5709;
+	inline static constexpr unsigned int AnimatorUtility_TypeDefinitionIndex = 5717;
 
 	class AnimatorUtility : public ::System::Object
 	{
@@ -18,5 +17,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::UnityEngine::GameObject*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATORUTILITY_OPTIMIZETRANSFORMHIERARCHY_OFFSET))(a1, a2);
 		}
+
 	};
 }

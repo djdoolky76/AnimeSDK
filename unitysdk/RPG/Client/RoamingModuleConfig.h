@@ -4,15 +4,14 @@
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ROAMINGMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x1BC6B5F0)
-#define RPG_CLIENT_ROAMINGMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6B640)
+#define RPG_CLIENT_ROAMINGMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDBBC0)
+#define RPG_CLIENT_ROAMINGMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xDEDBB70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 69649;
+	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 69685;
 
 	class RoamingModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
@@ -34,19 +33,20 @@ namespace RPG::Client
 		::System::Single CutInBlendTime; // 0x54
 		::UnityEngine::AnimationCurve* CutInBlendCurve; // 0x58
 		::System::Single CutOutBlendTime; // 0x60
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* CutOutBlendCurve; // 0x68
 		::UnityEngine::Vector3 ResetSpericalPosThirdPerson; // 0x70
 		::UnityEngine::Vector3 ResetSpericalPosFirstPerson; // 0x7C
 		::UnityEngine::Vector2 ResetAxisValueThirdPersonLocked; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROAMINGMODULECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROAMINGMODULECONFIG_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::CameraModuleType Method_4_2BF4648671111A7E()
+		::RPG::Client::CameraModuleType JIGLNEDJDCC()
 		{
-			return ((::RPG::Client::CameraModuleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROAMINGMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET))(this);
+			return ((::RPG::Client::CameraModuleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROAMINGMODULECONFIG_JIGLNEDJDCC_OFFSET))(this);
 		}
+
 	};
 }

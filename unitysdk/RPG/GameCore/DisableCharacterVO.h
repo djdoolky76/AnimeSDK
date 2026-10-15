@@ -2,39 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterVOType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DisableCharacterVO; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DISABLECHARACTERVO_METHOD_3_6CD26B7818810531_OFFSET UNITYSDK_OFFSET(0x1DB0A550)
-#define RPG_GAMECORE_DISABLECHARACTERVO_METHOD_3_D9BA6F744648EAD4_OFFSET UNITYSDK_OFFSET(0x1DB0A500)
-#define RPG_GAMECORE_DISABLECHARACTERVO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0A540)
+#define RPG_GAMECORE_DISABLECHARACTERVO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E90D0)
+#define RPG_GAMECORE_DISABLECHARACTERVO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E90E0)
+#define RPG_GAMECORE_DISABLECHARACTERVO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E9090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableCharacterVO_TypeDefinitionIndex = 22648;
+	inline static constexpr unsigned int DisableCharacterVO_TypeDefinitionIndex = 22904;
 
 	class DisableCharacterVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean AllType; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::TargetEvaluator* SpecificTarget; // 0x20
 		::System::Boolean RestoreVO; // 0x28
+		::System::Byte _padding1[0x7];
 		::Il2CppArray<::RPG::GameCore::CharacterVOType>* VOTypes; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLECHARACTERVO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLECHARACTERVO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D9BA6F744648EAD4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableCharacterVO*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DisableCharacterVO* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DisableCharacterVO*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLECHARACTERVO_METHOD_3_D9BA6F744648EAD4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DisableCharacterVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLECHARACTERVO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6CD26B7818810531(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableCharacterVO* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DisableCharacterVO* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DisableCharacterVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLECHARACTERVO_METHOD_3_6CD26B7818810531_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DisableCharacterVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLECHARACTERVO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

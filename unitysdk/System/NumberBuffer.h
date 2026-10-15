@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 namespace System { class String; }
 
-#define SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x3C6EDC0)
-#define SYSTEM_NUMBERBUFFER_GET_NUMDIGITS_OFFSET UNITYSDK_OFFSET(0x3C6EEA0)
-#define SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET UNITYSDK_OFFSET(0x3C6EE90)
-#define SYSTEM_NUMBERBUFFER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C6EF80)
+#define SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x3C54E20)
+#define SYSTEM_NUMBERBUFFER_GET_NUMDIGITS_OFFSET UNITYSDK_OFFSET(0x3C54F00)
+#define SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET UNITYSDK_OFFSET(0x3C54EF0)
+#define SYSTEM_NUMBERBUFFER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C54FE0)
 
 namespace System
 {
-	inline static constexpr unsigned int NumberBuffer_TypeDefinitionIndex = 4966;
+	inline static constexpr unsigned int NumberBuffer_TypeDefinitionIndex = 4973;
 
 	struct alignas(4) NumberBuffer
 	{
@@ -68,17 +67,14 @@ namespace System
 		::System::Byte _b48; // 0x45
 		::System::Byte _b49; // 0x46
 		::System::Byte _b50; // 0x47
-
-		/*
-		::System::Span_1<::System::Byte> get_Digits()
+		::System::Span_1_0C0D59FF8BC7380B<::System::Byte> get_Digits()
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET))(this);
+			return ((::System::Span_1_0C0D59FF8BC7380B<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET))(this);
 		}
-		*/
 
-		::System::Byte* get_UnsafeDigits()
+		::PVOID get_UnsafeDigits()
 		{
-			return ((::System::Byte*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET))(this);
+			return ((::PVOID(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET))(this);
 		}
 
 		::System::Int32 get_NumDigits()
@@ -90,5 +86,6 @@ namespace System
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

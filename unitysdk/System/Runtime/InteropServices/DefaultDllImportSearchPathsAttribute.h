@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/DllImportSearchPath.h"
+#include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTDLLIMPORTSEARCHPATHSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4579B0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTDLLIMPORTSEARCHPATHSATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C29A3C0)
 
 namespace System::Runtime::InteropServices
 {
@@ -13,10 +13,10 @@ namespace System::Runtime::InteropServices
 	{
 	public:
 		::System::Runtime::InteropServices::DllImportSearchPath _paths; // 0x10
-
 		::System::Void _ctor(::System::Runtime::InteropServices::DllImportSearchPath a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::DllImportSearchPath))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTDLLIMPORTSEARCHPATHSATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::DllImportSearchPath))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTDLLIMPORTSEARCHPATHSATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

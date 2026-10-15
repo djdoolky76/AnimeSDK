@@ -2,41 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AvatarPanelShowType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowBattleAvatarPanel; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_METHOD_3_05CBF51A487B2BE6_OFFSET UNITYSDK_OFFSET(0x1E0A2C40)
-#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_METHOD_3_785F613C145EA72B_OFFSET UNITYSDK_OFFSET(0x1E0A2C80)
-#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A2C70)
+#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA9C30)
+#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA9C40)
+#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA9C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleAvatarPanel_TypeDefinitionIndex = 22560;
+	inline static constexpr unsigned int ShowBattleAvatarPanel_TypeDefinitionIndex = 22816;
 
 	class ShowBattleAvatarPanel : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::AvatarPanelShowType ShowType; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* CustomTargetType; // 0x20
 		::System::Boolean DisableNotShowPanelUltraBtn; // 0x28
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::TargetEvaluator* ShowWithAnimTargetType; // 0x30
 		::System::String* UniqueKey; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEAVATARPANEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEAVATARPANEL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_05CBF51A487B2BE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAvatarPanel*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowBattleAvatarPanel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAvatarPanel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEAVATARPANEL_METHOD_3_05CBF51A487B2BE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowBattleAvatarPanel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEAVATARPANEL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_785F613C145EA72B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAvatarPanel* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowBattleAvatarPanel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAvatarPanel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEAVATARPANEL_METHOD_3_785F613C145EA72B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowBattleAvatarPanel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEAVATARPANEL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

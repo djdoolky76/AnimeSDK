@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/TMPro/AtlasPopulationMode.h"
-#include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphRenderMode.h"
-
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_FONTASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190E5E30)
+#define RPG_CLIENT_FONTASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD043D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FontAssetConfig_TypeDefinitionIndex = 60177;
+	inline static constexpr unsigned int FontAssetConfig_TypeDefinitionIndex = 60040;
 
 	class FontAssetConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -24,11 +23,12 @@ namespace RPG::Client
 		::System::Int32 AtlasWidth; // 0x30
 		::System::Int32 AtlasHeight; // 0x34
 		::System::Boolean EnableMultiAtlasTextures; // 0x38
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Material* MaterialTemplate; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FONTASSETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FONTASSETCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

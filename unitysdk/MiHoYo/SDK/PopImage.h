@@ -1,57 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK { class PopImage; }
 namespace MiHoYo::SDK { class PopImageModel; }
 namespace MiHoYo::SDK { class PopImage_ClickImageDelegate; }
 namespace MiHoYo::SDK { class PopImage_CloseDelegate; }
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_POPIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19EA43A0)
-#define MIHOYO_SDK_POPIMAGE_CLICKIMAGE_OFFSET UNITYSDK_OFFSET(0x19EA5D70)
-#define MIHOYO_SDK_POPIMAGE_CLOSE_OFFSET UNITYSDK_OFFSET(0x19EA5E70)
-#define MIHOYO_SDK_POPIMAGE_GET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x19EA4380)
-#define MIHOYO_SDK_POPIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x19E71630)
-#define MIHOYO_SDK_POPIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19EA68E0)
-#define MIHOYO_SDK_POPIMAGE_ONGETTEXTURE_OFFSET UNITYSDK_OFFSET(0x19EA5EC0)
-#define MIHOYO_SDK_POPIMAGE_RESTJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x19EA67C0)
-#define MIHOYO_SDK_POPIMAGE_SET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x19E70C60)
-#define MIHOYO_SDK_POPIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x19E70B70)
-#define MIHOYO_SDK_POPIMAGE_UPDATEJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x19EA6490)
-#define MIHOYO_SDK_POPIMAGE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x19EA5230)
-#define MIHOYO_SDK_POPIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x19EA53D0)
-#define MIHOYO_SDK_POPIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA6900)
+#define MIHOYO_SDK_POPIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF7C670)
+#define MIHOYO_SDK_POPIMAGE_CLICKIMAGE_OFFSET UNITYSDK_OFFSET(0x1BF7E040)
+#define MIHOYO_SDK_POPIMAGE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BF7E140)
+#define MIHOYO_SDK_POPIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7EBD0)
+#define MIHOYO_SDK_POPIMAGE_GET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1BF7C650)
+#define MIHOYO_SDK_POPIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF4A1D0)
+#define MIHOYO_SDK_POPIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF7EBB0)
+#define MIHOYO_SDK_POPIMAGE_ONGETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BF7E190)
+#define MIHOYO_SDK_POPIMAGE_RESTJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x1BF7EA90)
+#define MIHOYO_SDK_POPIMAGE_SET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1BF49800)
+#define MIHOYO_SDK_POPIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF49710)
+#define MIHOYO_SDK_POPIMAGE_UPDATEJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x1BF7E760)
+#define MIHOYO_SDK_POPIMAGE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BF7D500)
+#define MIHOYO_SDK_POPIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF7D6A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopImage_TypeDefinitionIndex = 8212;
+	inline static constexpr unsigned int PopImage_TypeDefinitionIndex = 8255;
 
 	class PopImage : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::PopImage** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::PopImage**)Il2CppClass::FromTypeDefinitionIndex(PopImage_TypeDefinitionIndex)->GetStaticField(0xFED0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BGPath; // 0x0
-		// static const ::System::String* ImagePath; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* JoyPadButtonsPath; // 0x0
-		// static const ::System::String* JoyPadCloseButtonPath; // 0x0
-		// static const ::System::String* JoyPadWatchButtonPath; // 0x0
-		// static const ::System::String* JoyPadCloseButtonTextPath; // 0x0
-		// static const ::System::String* JoyPadWatchButtonTextPath; // 0x0
-		// static const ::System::String* JoyPadCircle; // 0x0
-		// static const ::System::String* JoyPadClose; // 0x0
-		// static const ::System::String* JoyPadXBoxA; // 0x0
-		// static const ::System::String* JoyPadXBoxB; // 0x0
-		// static const ::System::String* JoyPadPS5Circle; // 0x0
-		// static const ::System::String* JoyPadPS5Close; // 0x0
 		::UnityEngine::UI::Button* bgButton; // 0x58
 		::UnityEngine::GameObject* imageObject; // 0x60
 		::UnityEngine::GameObject* closeObject; // 0x68
@@ -74,10 +54,29 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::PopImage_ClickImageDelegate* OnClickImage; // 0xF0
 		::MiHoYo::SDK::PopImageModel* _popImageModel; // 0xF8
 		::System::Boolean isAnimaiton; // 0x100
+		static ::MiHoYo::SDK::PopImage** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::PopImage**)UnitySDK::FromName("MiHoYo.SDK", "PopImage")->GetStaticField(0x27F0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BGPath; // 0x0
+		// static const ::System::String* ImagePath; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* JoyPadButtonsPath; // 0x0
+		// static const ::System::String* JoyPadCloseButtonPath; // 0x0
+		// static const ::System::String* JoyPadWatchButtonPath; // 0x0
+		// static const ::System::String* JoyPadCloseButtonTextPath; // 0x0
+		// static const ::System::String* JoyPadWatchButtonTextPath; // 0x0
+		// static const ::System::String* JoyPadCircle; // 0x0
+		// static const ::System::String* JoyPadClose; // 0x0
+		// static const ::System::String* JoyPadXBoxA; // 0x0
+		// static const ::System::String* JoyPadXBoxB; // 0x0
+		// static const ::System::String* JoyPadPS5Circle; // 0x0
+		// static const ::System::String* JoyPadPS5Close; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_popImageModel(::MiHoYo::SDK::PopImageModel* a1)
@@ -144,5 +143,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

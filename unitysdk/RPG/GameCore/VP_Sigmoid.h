@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ValuePostProcessConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VP_Sigmoid; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_2012D6FFC937491B_OFFSET UNITYSDK_OFFSET(0x1DEAAF70)
-#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_99EC068108000D71_OFFSET UNITYSDK_OFFSET(0x1DEAAEF0)
-#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_A553363E7C1C00AE_OFFSET UNITYSDK_OFFSET(0x1DEAAF50)
-#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_CA1FAC7460F0171C_OFFSET UNITYSDK_OFFSET(0x1DEAAE70)
-#define RPG_GAMECORE_VP_SIGMOID__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAAEE0)
+#define RPG_GAMECORE_VP_SIGMOID_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC5CAF0)
+#define RPG_GAMECORE_VP_SIGMOID_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC5CB80)
+#define RPG_GAMECORE_VP_SIGMOID_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC5CB60)
+#define RPG_GAMECORE_VP_SIGMOID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC5CB00)
+#define RPG_GAMECORE_VP_SIGMOID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC5CA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VP_Sigmoid_TypeDefinitionIndex = 23785;
+	inline static constexpr unsigned int VP_Sigmoid_TypeDefinitionIndex = 24060;
 
 	class VP_Sigmoid : public ::RPG::GameCore::ValuePostProcessConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CA1FAC7460F0171C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VP_Sigmoid*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VP_Sigmoid* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VP_Sigmoid*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_CA1FAC7460F0171C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_99EC068108000D71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VP_Sigmoid* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VP_Sigmoid* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_99EC068108000D71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A553363E7C1C00AE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Sigmoid*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Sigmoid* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Sigmoid*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_A553363E7C1C00AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2012D6FFC937491B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Sigmoid* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Sigmoid* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_2012D6FFC937491B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

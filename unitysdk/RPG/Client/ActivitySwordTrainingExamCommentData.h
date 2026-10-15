@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client { class ActivitySwordTrainingExamCommentData; }
 namespace RPG::GameCore { class SwordTrainingExamCommentRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x196300E0)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET_COMMENT_OFFSET UNITYSDK_OFFSET(0x19630270)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET_IMGPATH_OFFSET UNITYSDK_OFFSET(0x19630170)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x19630210)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19630160)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5ABCE0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC5ABD60)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET_COMMENT_OFFSET UNITYSDK_OFFSET(0xC5ABE70)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET_IMGPATH_OFFSET UNITYSDK_OFFSET(0xC5ABD70)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xC5ABE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySwordTrainingExamCommentData_TypeDefinitionIndex = 62027;
+	inline static constexpr unsigned int ActivitySwordTrainingExamCommentData_TypeDefinitionIndex = 61943;
 
 	class ActivitySwordTrainingExamCommentData : public ::System::Object
 	{
 	public:
 		::System::UInt32 CommentID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ActivitySwordTrainingExamCommentData* Create(::System::UInt32 a1)
@@ -45,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::SwordTrainingExamCommentRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMCOMMENTDATA_GET__ROW_OFFSET))(this);
 		}
+
 	};
 }

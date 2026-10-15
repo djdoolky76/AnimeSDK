@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ByIsCurrentModifierAlive; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CPLCGJFELDH_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD2D40)
+#define CPLCGJFELDH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDCD2D70)
+
+inline static constexpr unsigned int CPLCGJFELDH_TypeDefinitionIndex = 54645;
+
+	class CPLCGJFELDH
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + CPLCGJFELDH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Evaluate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CPLCGJFELDH_EVALUATE_OFFSET))(this);
+		}
+
+	};

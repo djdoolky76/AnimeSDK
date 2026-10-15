@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF32A30)
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF32A20)
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF32B90)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE948B10)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE948C70)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE948B00)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXAnimatorCrossFadeClip_TypeDefinitionIndex = 49116;
+	inline static constexpr unsigned int VFXAnimatorCrossFadeClip_TypeDefinitionIndex = 48662;
 
 	class VFXAnimatorCrossFadeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -22,10 +21,9 @@ namespace RPGTools::Timeline::VFX
 		::System::String* StateName; // 0x18
 		::System::Single FadeDuration; // 0x20
 		::System::Int32 Layer; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +35,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

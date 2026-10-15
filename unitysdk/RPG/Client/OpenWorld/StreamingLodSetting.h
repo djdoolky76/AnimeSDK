@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_OPENWORLD_STREAMINGLODSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x191EF960)
+#define RPG_CLIENT_OPENWORLD_STREAMINGLODSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0xDA03590)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingLodSetting_TypeDefinitionIndex = 73653;
+	inline static constexpr unsigned int StreamingLodSetting_TypeDefinitionIndex = 73760;
 
 	class StreamingLodSetting : public ::System::Object
 	{
 	public:
 		::System::Single LodCheckGap; // 0x10
 		::System::Single LodCheckCameraDis; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGLODSETTING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGLODSETTING_CTOR_OFFSET))(this);
 		}
+
 	};
 }

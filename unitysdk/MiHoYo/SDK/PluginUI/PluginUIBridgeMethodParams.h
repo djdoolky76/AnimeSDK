@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIBridgeMethodParams_TypeDefinitionIndex = 9109;
+	inline static constexpr unsigned int PluginUIBridgeMethodParams_TypeDefinitionIndex = 9170;
 
 	class PluginUIBridgeMethodParams : public ::System::Object
 	{

@@ -5,20 +5,20 @@
 #include "unitysdk/RPG/GameCore/FollowTargetType.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
 #include "unitysdk/RPG/GameCore/ST_FollowMode.h"
-
-class Class_1_7A22A3DBEEDD1F80;
-class Class_2_93C60D7E85A35949;
+class FCOEMCEDLNL;
+class PDALKEOJELE;
+namespace RPG::GameCore { class ST_Main_FollowTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET UNITYSDK_OFFSET(0x1DB3D170)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x1DB3D260)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3D200)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA50960)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA509C0)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA508D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 19888;
+	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 20122;
 
 	class ST_Main_FollowTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -29,6 +29,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::CharacterMotionFlag MotionFlag; // 0x28
 		::System::Single WaitProtectTime; // 0x2C
 		::System::Single WaitActionTime; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TaskConfig* WaitActionTask; // 0x38
 		::System::Single TransferDistance; // 0x40
 		::System::Single EnterRushDistance; // 0x44
@@ -50,33 +51,38 @@ namespace RPG::GameCore
 		::System::Single StartFollowThreshold; // 0x88
 		::System::Single ChooseSideInterval; // 0x8C
 		::System::Single ChooseSlotInterval; // 0x90
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Int32>* PreferSlotIDs; // 0x98
 		::System::Single PredictTime; // 0xA0
 		::System::Single Halflife; // 0xA4
 		::System::Single TeleportDistance; // 0xA8
 		::System::Boolean NeedFaceToTarget; // 0xAC
+		::System::Byte _padding2[0x3];
 		::System::Single FaceToTargetInternal; // 0xB0
 		::System::Single FaceToTargetAngle; // 0xB4
-		::System::String* TeleportOnEnter; // 0xB8
-		::Class_2_93C60D7E85A35949* PacManFollowConfig; // 0xC0
-		::System::Boolean NeedAvoid; // 0xC8
-		::System::Single StartAvoidDistance; // 0xCC
-		::System::Single StartAvoidTime; // 0xD0
-		::System::Boolean NoTeleportInCamera; // 0xD4
-
+		::System::Boolean EnableFollowSpeedRootMotionCompensation; // 0xB8
+		::System::Byte _padding3[0x7];
+		::System::String* TeleportOnEnter; // 0xC0
+		::PDALKEOJELE* PacManFollowConfig; // 0xC8
+		::System::Boolean NeedAvoid; // 0xD0
+		::System::Byte _padding4[0x3];
+		::System::Single StartAvoidDistance; // 0xD4
+		::System::Single StartAvoidTime; // 0xD8
+		::System::Boolean NoTeleportInCamera; // 0xDC
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_264316AD54C25836(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_FollowTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_FollowTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_FollowTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F9500BFFD2643CF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_FollowTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_FollowTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_FollowTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

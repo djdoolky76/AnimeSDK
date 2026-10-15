@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/TimelineExposedReference.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF371E0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF371B0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x1BF37190)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1BF371C0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x1BF371A0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1BF371D0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF37280)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE94D130)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE94D1D0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE94D100)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xE94D0E0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xE94D110)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xE94D0F0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xE94D120)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 49141;
+	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 48687;
 
 	class VFXTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -31,25 +30,29 @@ namespace RPGTools::Timeline::VFX
 		::System::String* UniqueName; // 0x28
 		::System::Boolean DestroyOnClipEnd; // 0x30
 		::System::Boolean UseEffectPluginFollow; // 0x31
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector3 offsetPosition; // 0x34
 		::UnityEngine::Vector3 offsetRotation; // 0x40
 		::System::Single offsetScale; // 0x4C
 		::System::Boolean ignoreTargetRotation; // 0x50
 		::System::Boolean ignoreTargetScale; // 0x51
 		::System::Boolean onlyFirstFrame; // 0x52
+		::System::Byte _padding1[0x1];
 		::System::Single effectScaleOffset; // 0x54
 		::System::Boolean UseMonoEffectAttach; // 0x58
+		::System::Byte _padding2[0x7];
 		::RPGTools::Timeline::TimelineExposedReference character; // 0x60
 		::System::String* TargetEntity; // 0x80
 		::System::String* CastEntity; // 0x88
 		::System::Boolean useFixedRandomSeed; // 0x90
+		::System::Byte _padding3[0x3];
 		::System::UInt32 randomSeed; // 0x94
 		::System::Boolean SkipFadeIn; // 0x98
+		::System::Byte _padding4[0x7];
 		::UnityEngine::Timeline::TrackAsset* _parentTrack_k__BackingField; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::GameObject* get_effectPrefab()
@@ -81,5 +84,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

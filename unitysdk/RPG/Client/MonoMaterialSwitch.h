@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOMATERIALSWITCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ACF7130)
-#define RPG_CLIENT_MONOMATERIALSWITCH_RECOVERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ACF7260)
-#define RPG_CLIENT_MONOMATERIALSWITCH_START_OFFSET UNITYSDK_OFFSET(0x1ACF7020)
-#define RPG_CLIENT_MONOMATERIALSWITCH_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ACF7180)
-#define RPG_CLIENT_MONOMATERIALSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF7400)
-#define RPG_CLIENT_MONOMATERIALSWITCH__SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ACF7200)
-#define RPG_CLIENT_MONOMATERIALSWITCH__TRYCACHEUI_OFFSET UNITYSDK_OFFSET(0x1ACF72F0)
-#define RPG_CLIENT_MONOMATERIALSWITCH__UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ACF7070)
+#define RPG_CLIENT_MONOMATERIALSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0xD843EA0)
+#define RPG_CLIENT_MONOMATERIALSWITCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD843C00)
+#define RPG_CLIENT_MONOMATERIALSWITCH_RECOVERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD843D30)
+#define RPG_CLIENT_MONOMATERIALSWITCH_START_OFFSET UNITYSDK_OFFSET(0xD843AF0)
+#define RPG_CLIENT_MONOMATERIALSWITCH_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0xD843C50)
+#define RPG_CLIENT_MONOMATERIALSWITCH__SETMATERIAL_OFFSET UNITYSDK_OFFSET(0xD843CD0)
+#define RPG_CLIENT_MONOMATERIALSWITCH__TRYCACHEUI_OFFSET UNITYSDK_OFFSET(0xD843DC0)
+#define RPG_CLIENT_MONOMATERIALSWITCH__UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD843B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaterialSwitch_TypeDefinitionIndex = 72515;
+	inline static constexpr unsigned int MonoMaterialSwitch_TypeDefinitionIndex = 72589;
 
 	class MonoMaterialSwitch : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,11 +25,11 @@ namespace RPG::Client
 		::UnityEngine::Material* _OriginMaterial; // 0x20
 		::System::Int32 _CurrentMaterialIndex; // 0x28
 		::System::Boolean _IsDirty; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _Materials; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALSWITCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALSWITCH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -67,5 +66,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMATERIALSWITCH__TRYCACHEUI_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerParameter_AisacControl_TypeDefinitionIndex = 38693;
+	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerParameter_AisacControl_TypeDefinitionIndex = 39990;
 
 	struct alignas(4) CriAtomExCategory_ReactDuckerParameter_AisacControl
 	{

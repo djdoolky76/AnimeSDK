@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByMaxBP; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_METHOD_3_57731C99B27B1479_OFFSET UNITYSDK_OFFSET(0x1E81F350)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_METHOD_3_9790E6C24050D718_OFFSET UNITYSDK_OFFSET(0x1E81F3A0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81F390)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA797A0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA797B0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA79760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByMaxBP_TypeDefinitionIndex = 23315;
+	inline static constexpr unsigned int SetDynamicValueByMaxBP_TypeDefinitionIndex = 23582;
 
 	class SetDynamicValueByMaxBP : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,20 +22,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
 		::RPG::GameCore::TeamType Team; // 0x24
 		::System::Boolean GetRawMax; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_57731C99B27B1479(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMaxBP*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByMaxBP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByMaxBP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_METHOD_3_57731C99B27B1479_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByMaxBP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9790E6C24050D718(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMaxBP* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByMaxBP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByMaxBP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_METHOD_3_9790E6C24050D718_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByMaxBP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAXBP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

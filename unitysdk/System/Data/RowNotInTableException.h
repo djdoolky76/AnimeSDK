@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Data/DataException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F015800)
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0157B0)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE13220)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE131D0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 3755;
+	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 3756;
 
 	class RowNotInTableException : public ::System::Data::DataException
 	{
 	public:
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DATA_ROWNOTINTABLEEXCEPTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_ROWNOTINTABLEEXCEPTION_CTOR_1_OFFSET))(this);
 		}
+
 	};
 }

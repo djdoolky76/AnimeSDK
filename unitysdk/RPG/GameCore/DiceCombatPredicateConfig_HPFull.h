@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatPredicateConfig.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTarget.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatPredicateConfig_HPFull; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_METHOD_4_5DE1003DA9A65AE1_OFFSET UNITYSDK_OFFSET(0x1D829E50)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_METHOD_4_986F6C8E65EC87C8_OFFSET UNITYSDK_OFFSET(0x1D827A80)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D827A70)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DF830)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5DF840)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E1C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPredicateConfig_HPFull_TypeDefinitionIndex = 15932;
+	inline static constexpr unsigned int DiceCombatPredicateConfig_HPFull_TypeDefinitionIndex = 16105;
 
 	class DiceCombatPredicateConfig_HPFull : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:
 		::RPG::GameCore::DiceCombatTarget Target; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5DE1003DA9A65AE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_METHOD_4_5DE1003DA9A65AE1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_986F6C8E65EC87C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_METHOD_4_986F6C8E65EC87C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatPredicateConfig_HPFull*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HPFULL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

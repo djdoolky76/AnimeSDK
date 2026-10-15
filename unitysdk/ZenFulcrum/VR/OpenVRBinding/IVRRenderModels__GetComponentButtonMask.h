@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE470)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE4B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE460)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDE3E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6589F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F658960)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F658A30)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6589E0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__GetComponentButtonMask_TypeDefinitionIndex = 37855;
+	inline static constexpr unsigned int IVRRenderModels__GetComponentButtonMask_TypeDefinitionIndex = 39152;
 
 	class IVRRenderModels__GetComponentButtonMask : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke(::System::String* a1, ::System::String* a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTBUTTONMASK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

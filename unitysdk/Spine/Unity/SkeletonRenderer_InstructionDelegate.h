@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine::Unity { class SkeletonRendererInstruction; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18335A00)
-#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18335A30)
-#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18334A20)
-#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18335910)
+#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFA800)
+#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFA710)
+#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFA830)
+#define SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF9820)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer_InstructionDelegate_TypeDefinitionIndex = 43855;
+	inline static constexpr unsigned int SkeletonRenderer_InstructionDelegate_TypeDefinitionIndex = 45047;
 
 	class SkeletonRenderer_InstructionDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::SkeletonRendererInstruction* a1)
@@ -38,5 +37,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

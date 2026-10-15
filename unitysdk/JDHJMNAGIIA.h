@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JDHJMNAGIIA_TypeDefinitionIndex = 31603;
+
+	enum class JDHJMNAGIIA : ::System::Int32
+	{
+		CDCHHNPNPLN = 0,
+		EECEDOKMPPI = 1,
+		PGGEODDBMMK = 2,
+		PJGPLEAPECI = 3,
+		BFLLFGOJPCG = 4,
+		JAOLOFNICGD = 5,
+		KAPHNBBNHBP = 6,
+		DAJDHGGFJGK = 7,
+		KEDPGJCCLDC = 8,
+		MDMMEAKJNOC = 9,
+		CDKPJHAEMFE = 10,
+		CCJKIBNAFPJ = 11,
+		NIBDPFIMOFG = 12,
+		KGJCNJPFCNO = 13,
+		CPBNIGEIKJA = 14,
+	};

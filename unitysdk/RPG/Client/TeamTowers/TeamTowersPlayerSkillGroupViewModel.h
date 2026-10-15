@@ -2,29 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::TeamTowers { class TeamTowersPlayerSkillViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_ADDSKILLVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A3B67E0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_GET_SKILLS_OFFSET UNITYSDK_OFFSET(0x1A3B68E0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_GET_TITLETEXT_OFFSET UNITYSDK_OFFSET(0x1A3B68C0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_SET_TITLETEXT_OFFSET UNITYSDK_OFFSET(0x1A3B68D0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B68F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_ADDSKILLVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xE1F2770)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE1F2880)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_GET_SKILLS_OFFSET UNITYSDK_OFFSET(0xE1F2870)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_GET_TITLETEXT_OFFSET UNITYSDK_OFFSET(0xE1F2850)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_SET_TITLETEXT_OFFSET UNITYSDK_OFFSET(0xE1F2860)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersPlayerSkillGroupViewModel_TypeDefinitionIndex = 78611;
+	inline static constexpr unsigned int TeamTowersPlayerSkillGroupViewModel_TypeDefinitionIndex = 79082;
 
 	class TeamTowersPlayerSkillGroupViewModel : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* _Skills_k__BackingField; // 0x10
 		::RPG::Client::TextID _TitleText_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AddSkillViewModel(::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel* a1)
@@ -46,5 +44,6 @@ namespace RPG::Client::TeamTowers
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLGROUPVIEWMODEL_GET_SKILLS_OFFSET))(this);
 		}
+
 	};
 }

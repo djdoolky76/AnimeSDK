@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_PAIRVALUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D30D0)
+#define RPG_CLIENT_PAIRVALUEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xDA62F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PairValueEntry_TypeDefinitionIndex = 70981;
+	inline static constexpr unsigned int PairValueEntry_TypeDefinitionIndex = 71013;
 
 	class PairValueEntry : public ::System::Object
 	{
@@ -17,10 +16,10 @@ namespace RPG::Client
 		::System::String* DemodId; // 0x18
 		::System::String* StateA; // 0x20
 		::System::String* StateB; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAIRVALUEENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAIRVALUEENTRY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Mono/Security/Cryptography/MD4_FC7A27A7D0AD78DA.h"
+
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C000EE0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_DECODE_OFFSET UNITYSDK_OFFSET(0x1C001A90)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C001890)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_FF_OFFSET UNITYSDK_OFFSET(0x1C001A00)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_F_OFFSET UNITYSDK_OFFSET(0x1C0019C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_GG_OFFSET UNITYSDK_OFFSET(0x1C001A30)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_G_OFFSET UNITYSDK_OFFSET(0x1C0019D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1C001020)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1C0017C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_HH_OFFSET UNITYSDK_OFFSET(0x1C001A60)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_H_OFFSET UNITYSDK_OFFSET(0x1C0019E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C000F70)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_MD4TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C001140)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_PADDING_OFFSET UNITYSDK_OFFSET(0x1C001980)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_ROL_OFFSET UNITYSDK_OFFSET(0x1C0019F0)
+
+namespace Mono::Security::Cryptography
+{
+	inline static constexpr unsigned int MD4Managed_94B8A14696BF4CAA_TypeDefinitionIndex = 2305;
+
+	class MD4Managed_94B8A14696BF4CAA : public ::Mono::Security::Cryptography::MD4_FC7A27A7D0AD78DA
+	{
+	public:
+		::Il2CppArray<::System::Byte>* digest; // 0x28
+		::Il2CppArray<::System::UInt32>* x; // 0x30
+		::Il2CppArray<::System::UInt32>* count; // 0x38
+		::Il2CppArray<::System::Byte>* buffer; // 0x40
+		::Il2CppArray<::System::UInt32>* state; // 0x48
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Initialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_INITIALIZE_OFFSET))(this);
+		}
+
+		::System::Void HashCore(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_HASHCORE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::Il2CppArray<::System::Byte>* HashFinal()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_HASHFINAL_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Byte>* Padding(::System::Int32 a1)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_PADDING_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 F(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_F_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::UInt32 G(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_G_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::UInt32 H(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_H_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::UInt32 ROL(::System::UInt32 a1, ::System::Byte a2)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_ROL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void FF(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::Byte a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_FF_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void GG(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::Byte a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_GG_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void HH(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::Byte a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_HH_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void Encode(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::UInt32>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_ENCODE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Decode(::Il2CppArray<::System::UInt32>* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_DECODE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void MD4Transform(::Il2CppArray<::System::UInt32>* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD4MANAGED_94B8A14696BF4CAA_MD4TRANSFORM_OFFSET))(this, a1, a2, a3);
+		}
+
+	};
+}

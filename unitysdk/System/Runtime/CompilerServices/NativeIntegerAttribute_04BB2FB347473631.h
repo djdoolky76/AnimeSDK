@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+
+#define SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE_04BB2FB347473631_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC1EA90)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE_04BB2FB347473631_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1EA50)
+
+namespace System::Runtime::CompilerServices
+{
+	inline static constexpr unsigned int NativeIntegerAttribute_04BB2FB347473631_TypeDefinitionIndex = 35169;
+
+	class NativeIntegerAttribute_04BB2FB347473631 : public ::System::Attribute
+	{
+	public:
+		::Il2CppArray<::System::Boolean>* TransformFlags; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE_04BB2FB347473631_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::Il2CppArray<::System::Boolean>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE_04BB2FB347473631_CTOR_1_OFFSET))(this, a1);
+		}
+
+	};
+}

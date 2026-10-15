@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MARBLERECORDPANEL_REFRESHSEALPOS_OFFSET UNITYSDK_OFFSET(0x1A7FD150)
-#define MARBLERECORDPANEL_SETSEALHP_OFFSET UNITYSDK_OFFSET(0x1A7FC990)
-#define MARBLERECORDPANEL_SETSEALVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A7FCDC0)
-#define MARBLERECORDPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7FD210)
+#define MARBLERECORDPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA406E0)
+#define MARBLERECORDPANEL_REFRESHSEALPOS_OFFSET UNITYSDK_OFFSET(0xBA40620)
+#define MARBLERECORDPANEL_SETSEALHP_OFFSET UNITYSDK_OFFSET(0xBA3FE50)
+#define MARBLERECORDPANEL_SETSEALVISIBLE_OFFSET UNITYSDK_OFFSET(0xBA40290)
 
-inline static constexpr unsigned int MarbleRecordPanel_TypeDefinitionIndex = 47595;
+inline static constexpr unsigned int MarbleRecordPanel_TypeDefinitionIndex = 47135;
 
-class MarbleRecordPanel : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::System::UInt32 SealIndex; // 0x18
-	::System::Int32 Hp; // 0x1C
-	::System::Boolean IsVisible; // 0x20
-
-	::System::Void _ctor()
+	class MarbleRecordPanel : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::UInt32 SealIndex; // 0x18
+		::System::Int32 Hp; // 0x1C
+		::System::Boolean IsVisible; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_CTOR_OFFSET))(this);
+		}
 
-	::System::Void SetSealHp()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_SETSEALHP_OFFSET))(this);
-	}
+		::System::Void SetSealHp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_SETSEALHP_OFFSET))(this);
+		}
 
-	::System::Void SetSealVisible()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_SETSEALVISIBLE_OFFSET))(this);
-	}
+		::System::Void SetSealVisible()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_SETSEALVISIBLE_OFFSET))(this);
+		}
 
-	::System::Void RefreshSealPos()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_REFRESHSEALPOS_OFFSET))(this);
-	}
-};
+		::System::Void RefreshSealPos()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MARBLERECORDPANEL_REFRESHSEALPOS_OFFSET))(this);
+		}
+
+	};

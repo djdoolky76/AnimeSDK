@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_BEGINPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0x1AD87890)
-#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_ENDPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0x1AD87930)
+#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_BEGINPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0xD09C300)
+#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_ENDPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0xD09C3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameObjectPoolStatistics_TypeDefinitionIndex = 59515;
+	inline static constexpr unsigned int GameObjectPoolStatistics_TypeDefinitionIndex = 59370;
 
 	class GameObjectPoolStatistics : public ::System::Object
 	{
@@ -23,5 +22,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_ENDPRELOADPOOLRECORD_OFFSET))();
 		}
+
 	};
 }

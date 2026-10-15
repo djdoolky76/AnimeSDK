@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimView.h"
-
 namespace RPG::GameCore { class FiveDimPropBakedMoveConfig; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_METHOD_7_3FFD0D3E22A538D6_OFFSET UNITYSDK_OFFSET(0x1AC3CE40)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_METHOD_7_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0x1AC3CCF0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3D160)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_BOGNEMMLEBI_OFFSET UNITYSDK_OFFSET(0xD4264C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD426930)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_NHKKADGFBHA_OFFSET UNITYSDK_OFFSET(0xD426610)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimCleanerBotView_TypeDefinitionIndex = 76700;
+	inline static constexpr unsigned int FiveDimCleanerBotView_TypeDefinitionIndex = 77171;
 
 	class FiveDimCleanerBotView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_7_B43C848B078B3C34()
+		::System::Void BOGNEMMLEBI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_METHOD_7_B43C848B078B3C34_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_BOGNEMMLEBI_OFFSET))(this);
 		}
 
-		::System::Void Method_7_3FFD0D3E22A538D6(::UnityEngine::Transform* a1, ::RPG::GameCore::FiveDimPropBakedMoveConfig* a2)
+		::System::Void NHKKADGFBHA(::UnityEngine::Transform* a1, ::RPG::GameCore::FiveDimPropBakedMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::GameCore::FiveDimPropBakedMoveConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_METHOD_7_3FFD0D3E22A538D6_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::GameCore::FiveDimPropBakedMoveConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMCLEANERBOTVIEW_NHKKADGFBHA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

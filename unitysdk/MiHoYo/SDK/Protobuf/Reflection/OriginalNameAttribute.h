@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B0FEE90)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B0FEEA0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0FEEB0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEDFE0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBEDFC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBEDFD0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OriginalNameAttribute_TypeDefinitionIndex = 35176;
+	inline static constexpr unsigned int OriginalNameAttribute_TypeDefinitionIndex = 35845;
 
 	class OriginalNameAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -31,5 +29,6 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ORIGINALNAMEATTRIBUTE_SET_NAME_OFFSET))(this, a1);
 		}
+
 	};
 }

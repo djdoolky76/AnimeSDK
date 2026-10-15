@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
-
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define SRF_UI_UNSELECTABLE_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1EC4AA80)
-#define SRF_UI_UNSELECTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC4AA90)
-#define SRF_UI_UNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4ABB0)
+#define SRF_UI_UNSELECTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED555D0)
+#define SRF_UI_UNSELECTABLE_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1ED554A0)
+#define SRF_UI_UNSELECTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED554B0)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int Unselectable_TypeDefinitionIndex = 34732;
+	inline static constexpr unsigned int Unselectable_TypeDefinitionIndex = 35401;
 
 	class Unselectable : public ::SRF::SRMonoBehaviour
 	{
 	public:
 		::System::Boolean _suspectedSelected; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_UNSELECTABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_UNSELECTABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnSelect(::UnityEngine::EventSystems::BaseEventData* a1)
@@ -31,5 +29,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_UNSELECTABLE_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

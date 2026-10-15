@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIntroButton_ActivityIntroButtonConfig_TypeDefinitionIndex = 72423;
+	inline static constexpr unsigned int ActivityIntroButton_ActivityIntroButtonConfig_TypeDefinitionIndex = 72496;
 
 	struct alignas(4) ActivityIntroButton_ActivityIntroButtonConfig
 	{

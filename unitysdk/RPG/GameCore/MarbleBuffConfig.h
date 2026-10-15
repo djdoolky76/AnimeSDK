@@ -6,15 +6,16 @@
 #include "unitysdk/RPG/GameCore/MarbleLifeTime.h"
 #include "unitysdk/RPG/GameCore/MarbleOperation.h"
 #include "unitysdk/RPG/GameCore/MarbleValue.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarbleBuffConfig; }
+namespace System { class String; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MARBLEBUFFCONFIG_METHOD_2_065CC8A25FF1E45C_OFFSET UNITYSDK_OFFSET(0x1D4A34D0)
-#define RPG_GAMECORE_MARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A3840)
+#define RPG_GAMECORE_MARBLEBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80A070)
+#define RPG_GAMECORE_MARBLEBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D809C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 16711;
+	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 16904;
 
 	class MarbleBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,15 +29,18 @@ namespace RPG::GameCore
 		::RPG::GameCore::MarbleValue ValueType; // 0x28
 		::RPG::GameCore::MarbleOperation Operation; // 0x2C
 		::System::Single Value; // 0x30
-
+		::System::Byte _padding0[0x4];
+		::System::String* ValueDynamic; // 0x38
+		::System::Boolean RemoveOnSourceDeath; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_065CC8A25FF1E45C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleBuffConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleBuffConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFCONFIG_METHOD_2_065CC8A25FF1E45C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleBuffConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

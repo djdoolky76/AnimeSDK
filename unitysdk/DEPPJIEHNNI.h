@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define DEPPJIEHNNI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CCE58C0)
+
+inline static constexpr unsigned int DEPPJIEHNNI_TypeDefinitionIndex = 10688;
+
+	class DEPPJIEHNNI : public ::System::Object
+	{
+	public:
+		static ::System::Void AFKMOKOLLPC()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DEPPJIEHNNI_AFKMOKOLLPC_OFFSET))();
+		}
+
+	};

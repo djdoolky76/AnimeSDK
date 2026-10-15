@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GachaItemData.h"
-
 namespace RPG::GameCore { class AvatarRow; }
 
-#define RPG_CLIENT_GACHAAVATARITEMDATA_GET_AVATARROW_OFFSET UNITYSDK_OFFSET(0x19396FF0)
-#define RPG_CLIENT_GACHAAVATARITEMDATA_SETROW_OFFSET UNITYSDK_OFFSET(0x19396E60)
-#define RPG_CLIENT_GACHAAVATARITEMDATA_SET_AVATARROW_OFFSET UNITYSDK_OFFSET(0x19397000)
-#define RPG_CLIENT_GACHAAVATARITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19396E40)
+#define RPG_CLIENT_GACHAAVATARITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0880E0)
+#define RPG_CLIENT_GACHAAVATARITEMDATA_GET_AVATARROW_OFFSET UNITYSDK_OFFSET(0xD088290)
+#define RPG_CLIENT_GACHAAVATARITEMDATA_SETROW_OFFSET UNITYSDK_OFFSET(0xD088100)
+#define RPG_CLIENT_GACHAAVATARITEMDATA_SET_AVATARROW_OFFSET UNITYSDK_OFFSET(0xD0882A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaAvatarItemData_TypeDefinitionIndex = 64359;
+	inline static constexpr unsigned int GachaAvatarItemData_TypeDefinitionIndex = 64299;
 
 	class GachaAvatarItemData : public ::RPG::Client::GachaItemData
 	{
 	public:
 		::RPG::GameCore::AvatarRow* _AvatarRow_k__BackingField; // 0x30
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAAVATARITEMDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAAVATARITEMDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void SetRow(::System::UInt32 a1)
@@ -37,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAAVATARITEMDATA_SET_AVATARROW_OFFSET))(this, a1);
 		}
+
 	};
 }

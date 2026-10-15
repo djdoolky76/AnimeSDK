@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A2F0)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A320)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A2E0)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7A270)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF52F50)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF52ED0)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF52F80)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF52F40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ActivityResumeDelegate_TypeDefinitionIndex = 7713;
+	inline static constexpr unsigned int PSDelegate_ActivityResumeDelegate_TypeDefinitionIndex = 7757;
 
 	class PSDelegate_ActivityResumeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYRESUMEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

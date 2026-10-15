@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/StreamReader.h"
-
 namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CHECKEOL_OFFSET UNITYSDK_OFFSET(0x1D478E60)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1D478B00)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1D4790E0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1D479170)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1D478C20)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_OFFSET UNITYSDK_OFFSET(0x1D478B90)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4789B0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D478A90)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C244CF0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CHECKEOL_OFFSET UNITYSDK_OFFSET(0x1C2451A0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C244DD0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1C244E40)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1C245420)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1C2454B0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1C244F60)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_OFFSET UNITYSDK_OFFSET(0x1C244ED0)
 
 namespace System::IO
 {
@@ -24,21 +23,22 @@ namespace System::IO
 	public:
 		static ::Il2CppArray<::System::Boolean>** StaticGet_newline()
 		{
-			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnexceptionalStreamReader_TypeDefinitionIndex)->GetStaticField(0xD000);
+			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("System.IO", "UnexceptionalStreamReader")->GetStaticField(0x1AFB0);
 		}
+
 		static ::System::Char* StaticGet_newlineChar()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(UnexceptionalStreamReader_TypeDefinitionIndex)->GetStaticField(0x3F80);
+			return (::System::Char*)UnitySDK::FromName("System.IO", "UnexceptionalStreamReader")->GetStaticField(0x5E30);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Peek()
@@ -70,5 +70,6 @@ namespace System::IO
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READTOEND_OFFSET))(this);
 		}
+
 	};
 }

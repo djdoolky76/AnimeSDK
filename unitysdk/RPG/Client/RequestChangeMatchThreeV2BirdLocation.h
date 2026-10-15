@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RequestChangeMatchThreeV2BirdLocation; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_METHOD_3_CFF7579380403101_OFFSET UNITYSDK_OFFSET(0x1D3133F0)
-#define RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_METHOD_3_E59C3273AC041860_OFFSET UNITYSDK_OFFSET(0x1D3133B0)
-#define RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3133E0)
+#define RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FBFC0)
+#define RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2FBFD0)
+#define RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FBF90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RequestChangeMatchThreeV2BirdLocation_TypeDefinitionIndex = 10245;
+	inline static constexpr unsigned int RequestChangeMatchThreeV2BirdLocation_TypeDefinitionIndex = 10259;
 
 	class RequestChangeMatchThreeV2BirdLocation : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 BirdID; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* LocationID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E59C3273AC041860(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_METHOD_3_E59C3273AC041860_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CFF7579380403101(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_METHOD_3_CFF7579380403101_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REQUESTCHANGEMATCHTHREEV2BIRDLOCATION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

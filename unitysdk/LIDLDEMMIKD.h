@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JENIFGNJEPE.h"
+namespace System { class String; }
+
+#define LIDLDEMMIKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C16F0)
+#define LIDLDEMMIKD_FIAFKJOKGIP_OFFSET UNITYSDK_OFFSET(0xB6C1430)
+#define LIDLDEMMIKD_GET_ISADD_OFFSET UNITYSDK_OFFSET(0xB6C17D0)
+#define LIDLDEMMIKD_GET_MODIFIERNAME_OFFSET UNITYSDK_OFFSET(0xB6C1790)
+#define LIDLDEMMIKD_GET_MODIFIERTARGET_OFFSET UNITYSDK_OFFSET(0xB6C17B0)
+#define LIDLDEMMIKD_SET_ISADD_OFFSET UNITYSDK_OFFSET(0xB6C17E0)
+#define LIDLDEMMIKD_SET_MODIFIERNAME_OFFSET UNITYSDK_OFFSET(0xB6C17A0)
+#define LIDLDEMMIKD_SET_MODIFIERTARGET_OFFSET UNITYSDK_OFFSET(0xB6C17C0)
+
+inline static constexpr unsigned int LIDLDEMMIKD_TypeDefinitionIndex = 59001;
+
+	class LIDLDEMMIKD : public ::JENIFGNJEPE
+	{
+	public:
+		::System::String* _ModifierTarget_k__BackingField; // 0x10
+		::System::String* _ModifierName_k__BackingField; // 0x18
+		::System::Boolean _IsAdd_k__BackingField; // 0x20
+		::System::Void _ctor(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_CTOR_OFFSET))(this, a1);
+		}
+
+		static ::System::String* FIAFKJOKGIP(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
+		{
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_FIAFKJOKGIP_OFFSET))(a1, a2, a3);
+		}
+
+		::System::String* get_ModifierName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_GET_MODIFIERNAME_OFFSET))(this);
+		}
+
+		::System::Void set_ModifierName(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_SET_MODIFIERNAME_OFFSET))(this, a1);
+		}
+
+		::System::String* get_ModifierTarget()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_GET_MODIFIERTARGET_OFFSET))(this);
+		}
+
+		::System::Void set_ModifierTarget(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_SET_MODIFIERTARGET_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsAdd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_GET_ISADD_OFFSET))(this);
+		}
+
+		::System::Void set_IsAdd(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + LIDLDEMMIKD_SET_ISADD_OFFSET))(this, a1);
+		}
+
+	};

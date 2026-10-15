@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_SKINCOLORMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B8790)
+#define MIHOYO_SDK_SKINCOLORMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB4840)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SkinColorModel_TypeDefinitionIndex = 7843;
+	inline static constexpr unsigned int SkinColorModel_TypeDefinitionIndex = 7887;
 
 	class SkinColorModel : public ::System::Object
 	{
@@ -45,10 +44,10 @@ namespace MiHoYo::SDK
 		::System::String* switch_on_bg_d; // 0xF8
 		::System::String* switch_off_bg; // 0x100
 		::System::String* switch_circle_icon; // 0x108
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SKINCOLORMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SKINCOLORMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

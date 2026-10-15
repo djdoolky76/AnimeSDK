@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/IOException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D45E4F0)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_GET_FUSIONLOG_OFFSET UNITYSDK_OFFSET(0x1D45E4E0)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1D45DC10)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_SETMESSAGEFIELD_OFFSET UNITYSDK_OFFSET(0x1D45DCE0)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D45DDA0)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D45DB30)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D45DBA0)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D45E3E0)
-#define SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45DA90)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C22A010)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C22A080)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C22A8C0)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C229F70)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C22A9D0)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_GET_FUSIONLOG_OFFSET UNITYSDK_OFFSET(0x1C22A9C0)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C22A0F0)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_SETMESSAGEFIELD_OFFSET UNITYSDK_OFFSET(0x1C22A1C0)
+#define SYSTEM_IO_FILENOTFOUNDEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C22A280)
 
 namespace System::IO
 {
@@ -25,25 +24,24 @@ namespace System::IO
 	public:
 		::System::String* _fusionLog; // 0x90
 		::System::String* _fileName; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()
@@ -70,5 +68,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

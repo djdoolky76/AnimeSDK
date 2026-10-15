@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Xml::Schema { class ValidationEventArgs; }
 
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B05E7C0)
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B05E800)
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B05E7B0)
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05E6C0)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE9F450)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9F350)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE9F490)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE9F440)
 
 namespace System::Xml::Schema
 {
@@ -21,7 +20,7 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Xml::Schema::ValidationEventArgs* a2)
@@ -38,5 +37,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_VALIDATIONEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

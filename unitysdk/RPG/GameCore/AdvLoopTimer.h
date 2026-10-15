@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvLoopTimer; }
 namespace RPG::GameCore { class PredicateConfig; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_30E3B92AD161CEE7_OFFSET UNITYSDK_OFFSET(0x1D6BBE40)
-#define RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_48E8688EA3BADA31_OFFSET UNITYSDK_OFFSET(0x1D6BBE00)
-#define RPG_GAMECORE_ADVLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BBE30)
+#define RPG_GAMECORE_ADVLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D375680)
+#define RPG_GAMECORE_ADVLOOPTIMER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D375690)
+#define RPG_GAMECORE_ADVLOOPTIMER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D375650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 20983;
+	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 21229;
 
 	class AdvLoopTimer : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,22 +21,23 @@ namespace RPG::GameCore
 		::System::Boolean AllowRestart; // 0x1C
 		::System::Boolean ExecuteWhenStart; // 0x1D
 		::System::Boolean LoopUntilSuccess; // 0x1E
+		::System::Byte _padding0[0x1];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTimeUp; // 0x20
 		::RPG::GameCore::PredicateConfig* BreakCondition; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_48E8688EA3BADA31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLoopTimer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvLoopTimer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLoopTimer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_48E8688EA3BADA31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvLoopTimer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_30E3B92AD161CEE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLoopTimer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvLoopTimer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLoopTimer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_30E3B92AD161CEE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvLoopTimer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

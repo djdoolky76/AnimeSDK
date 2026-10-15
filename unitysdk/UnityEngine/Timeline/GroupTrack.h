@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
+#include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::Timeline { class CustomGroupTrackDataBase; }
 
-#define UNITYENGINE_TIMELINE_GROUPTRACK_CANCOMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x1BF66720)
-#define UNITYENGINE_TIMELINE_GROUPTRACK_CHECKGROUP_OFFSET UNITYSDK_OFFSET(0x1BF66760)
-#define UNITYENGINE_TIMELINE_GROUPTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1BF66730)
-#define UNITYENGINE_TIMELINE_GROUPTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF66770)
-#define UNITYENGINE_TIMELINE_GROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF66780)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_CANCOMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x1F35DB70)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_CHECKGROUP_OFFSET UNITYSDK_OFFSET(0x1F35DBB0)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F35DBD0)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1F35DB80)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F35DBC0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int GroupTrack_TypeDefinitionIndex = 37541;
+	inline static constexpr unsigned int GroupTrack_TypeDefinitionIndex = 38838;
 
 	class GroupTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::UnityEngine::Timeline::CustomGroupTrackDataBase* customData; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_GROUPTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_GROUPTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanCompileClips()
@@ -45,5 +43,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_GROUPTRACK_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

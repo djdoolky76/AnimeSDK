@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER_DATA_GET_POTENTIALLEAKCOUNT_OFFSET UNITYSDK_OFFSET(0x11866570)
-#define XLUA_LUAMEMORYLEAKCHECKER_DATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x118661D0)
-#define XLUA_LUAMEMORYLEAKCHECKER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11864440)
+#define XLUA_LUAMEMORYLEAKCHECKER_DATA_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB6B00)
+#define XLUA_LUAMEMORYLEAKCHECKER_DATA_GET_POTENTIALLEAKCOUNT_OFFSET UNITYSDK_OFFSET(0x14DB8C30)
+#define XLUA_LUAMEMORYLEAKCHECKER_DATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14DB8890)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker_Data_TypeDefinitionIndex = 50431;
+	inline static constexpr unsigned int LuaMemoryLeakChecker_Data_TypeDefinitionIndex = 50060;
 
 	class LuaMemoryLeakChecker_Data : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Int32>* TableSizes; // 0x10
 		::System::Int32 Memroy; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_DATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_DATA_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToString()
@@ -33,5 +31,6 @@ namespace XLua
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_DATA_GET_POTENTIALLEAKCOUNT_OFFSET))(this);
 		}
+
 	};
 }

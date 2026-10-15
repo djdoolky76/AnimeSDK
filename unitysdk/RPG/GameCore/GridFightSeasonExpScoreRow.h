@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightSeasonExpScoreRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B7C60)
-#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B7E80)
+#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D712D80)
+#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D712B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonExpScoreRow_TypeDefinitionIndex = 13470;
+	inline static constexpr unsigned int GridFightSeasonExpScoreRow_TypeDefinitionIndex = 13577;
 
 	class GridFightSeasonExpScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ScoreRuleID; // 0x10
-		::System::UInt32 ChapterID; // 0x14
-		::System::UInt32 WeeklyScore; // 0x18
+		::System::UInt32 WeeklyScore; // 0x10
+		::System::UInt32 DivisionID; // 0x14
+		::System::UInt32 SectionID; // 0x18
 		::System::UInt32 Exp; // 0x1C
-		::System::UInt32 SectionID; // 0x20
-		::System::UInt32 DivisionID; // 0x24
-
+		::System::UInt32 ChapterID; // 0x20
+		::System::UInt32 ScoreRuleID; // 0x24
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightSeasonExpScoreRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightSeasonExpScoreRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightSeasonExpScoreRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightSeasonExpScoreRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

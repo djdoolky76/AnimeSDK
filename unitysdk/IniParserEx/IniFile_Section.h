@@ -1,34 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace IniParserEx { class IniFile_SectionItem; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define INIPARSEREX_INIFILE_SECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E1DB790)
-#define INIPARSEREX_INIFILE_SECTION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E1DBAC0)
-#define INIPARSEREX_INIFILE_SECTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E1DBBD0)
-#define INIPARSEREX_INIFILE_SECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E1DBBE0)
-#define INIPARSEREX_INIFILE_SECTION_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E1DBB80)
-#define INIPARSEREX_INIFILE_SECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1DBA20)
+#define INIPARSEREX_INIFILE_SECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F399A90)
+#define INIPARSEREX_INIFILE_SECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F399800)
+#define INIPARSEREX_INIFILE_SECTION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F399B30)
+#define INIPARSEREX_INIFILE_SECTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F399C40)
+#define INIPARSEREX_INIFILE_SECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F399C50)
+#define INIPARSEREX_INIFILE_SECTION_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F399BF0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFile_Section_TypeDefinitionIndex = 3931;
+	inline static constexpr unsigned int IniFile_Section_TypeDefinitionIndex = 3932;
 
 	class IniFile_Section : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>* _Properties_k__BackingField; // 0x18
-
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _Properties_k__BackingField; // 0x18
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::IniParserEx::IniFile_SectionItem* get_Item(::System::String* a1)
@@ -36,9 +35,9 @@ namespace IniParserEx
 			return ((::IniParserEx::IniFile_SectionItem*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>>* GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>* GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
@@ -51,9 +50,10 @@ namespace IniParserEx
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>* get_Properties()
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_Properties()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_GET_PROPERTIES_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SECTION_GET_PROPERTIES_OFFSET))(this);
 		}
+
 	};
 }

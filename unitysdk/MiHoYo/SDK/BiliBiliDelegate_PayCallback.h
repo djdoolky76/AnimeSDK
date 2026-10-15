@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4A30)
-#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4A90)
-#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4A20)
-#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A49A0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B1E0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B150)
+#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B240)
+#define MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B1D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_PayCallback_TypeDefinitionIndex = 7550;
+	inline static constexpr unsigned int BiliBiliDelegate_PayCallback_TypeDefinitionIndex = 7604;
 
 	class BiliBiliDelegate_PayCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Int32 a2)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_PAYCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

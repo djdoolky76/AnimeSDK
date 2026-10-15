@@ -7,7 +7,7 @@ namespace System::Collections::Generic
 
 	enum class NodeColor : ::System::Byte
 	{
-		Black = 0x0,
-		Red = 0x1,
+		Black = 0,
+		Red = 1,
 	};
 }

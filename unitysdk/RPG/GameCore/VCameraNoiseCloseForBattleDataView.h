@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VCameraNoiseCloseForBattleDataView; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_METHOD_3_BD205A161E2521CF_OFFSET UNITYSDK_OFFSET(0x1D2BA2E0)
-#define RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_METHOD_3_DC6A9A0F7B1AA352_OFFSET UNITYSDK_OFFSET(0x1D2BA3B0)
-#define RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BA3A0)
+#define RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC52010)
+#define RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC52020)
+#define RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC51F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraNoiseCloseForBattleDataView_TypeDefinitionIndex = 23125;
+	inline static constexpr unsigned int VCameraNoiseCloseForBattleDataView_TypeDefinitionIndex = 23390;
 
 	class VCameraNoiseCloseForBattleDataView : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BD205A161E2521CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_METHOD_3_BD205A161E2521CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DC6A9A0F7B1AA352(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_METHOD_3_DC6A9A0F7B1AA352_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VCameraNoiseCloseForBattleDataView*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECLOSEFORBATTLEDATAVIEW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

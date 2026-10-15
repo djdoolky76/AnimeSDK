@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Networking/DownloadHandler.h"
-
 namespace System { class String; }
+namespace UnityEngine::Networking { class DownloadHandlerFile; }
 
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EF66E60)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EF66FD0)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1EF67020)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET UNITYSDK_OFFSET(0x1EF66E70)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF66F20)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F535350)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F535410)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F5354C0)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1F535510)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET UNITYSDK_OFFSET(0x1F535360)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int DownloadHandlerFile_TypeDefinitionIndex = 5355;
+	inline static constexpr unsigned int DownloadHandlerFile_TypeDefinitionIndex = 5362;
 
 	class DownloadHandlerFile : public ::UnityEngine::Networking::DownloadHandler
 	{
 	public:
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerFile* a1, ::System::String* a2, ::System::Boolean a3)
@@ -41,5 +41,6 @@ namespace UnityEngine::Networking
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class RoadRashGameAbilityConfig; }
 namespace RPG::GameCore { class RoadRashGameModifierConfig; }
+namespace RPG::GameCore { class RoadRashGameSkillConfig; }
 
-#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_METHOD_2_166604D15A3447A5_OFFSET UNITYSDK_OFFSET(0x1EE84200)
-#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE845F0)
+#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96F5D0)
+#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96F1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoadRashGameSkillConfig_TypeDefinitionIndex = 16814;
+	inline static constexpr unsigned int RoadRashGameSkillConfig_TypeDefinitionIndex = 17008;
 
 	class RoadRashGameSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,15 +27,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* FireTargetSelector; // 0x48
 		::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* SlamTargetSelector; // 0x50
 		::Il2CppArray<::RPG::GameCore::RoadRashGameModifierConfig*>* Modifiers; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROADRASHGAMESKILLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_166604D15A3447A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RoadRashGameSkillConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RoadRashGameSkillConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RoadRashGameSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_METHOD_2_166604D15A3447A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RoadRashGameSkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

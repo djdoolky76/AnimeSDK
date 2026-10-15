@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RtSkillPropertyType.h"
 #include "unitysdk/RPG/GameCore/ValueEvaluatorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class VE_RtSkillProperty; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_8B9A0A001834FA49_OFFSET UNITYSDK_OFFSET(0x1DEA7A20)
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_921C8603D092D850_OFFSET UNITYSDK_OFFSET(0x1DEA77E0)
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_A16ECDCA731A6571_OFFSET UNITYSDK_OFFSET(0x1DEA77A0)
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_D6776966E64E7D6E_OFFSET UNITYSDK_OFFSET(0x1DEA79F0)
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA77D0)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC593F0)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC59640)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC59610)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC59400)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC593C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_RtSkillProperty_TypeDefinitionIndex = 23997;
+	inline static constexpr unsigned int VE_RtSkillProperty_TypeDefinitionIndex = 24272;
 
 	class VE_RtSkillProperty : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
@@ -24,30 +24,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::String* SkillName; // 0x28
 		::RPG::GameCore::RtSkillPropertyType Property; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A16ECDCA731A6571(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtSkillProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtSkillProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_A16ECDCA731A6571_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_921C8603D092D850(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_921C8603D092D850_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D6776966E64E7D6E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtSkillProperty*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtSkillProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_D6776966E64E7D6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8B9A0A001834FA49(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_8B9A0A001834FA49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

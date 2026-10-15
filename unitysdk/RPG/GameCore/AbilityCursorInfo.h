@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityCursorInfo_TypeDefinitionIndex = 54611;
+	inline static constexpr unsigned int AbilityCursorInfo_TypeDefinitionIndex = 54397;
 
 	struct alignas(8) AbilityCursorInfo
 	{
 		::RPG::GameCore::GameEntity* PointEntity; // 0x10
 		::RPG::MVector3 PointMap; // 0x18
 		::System::Boolean IsCombo; // 0x24
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Transform* PointEntitySelectTransform; // 0x28
 		::RPG::MVector3 SkillPointPos; // 0x30
 	};

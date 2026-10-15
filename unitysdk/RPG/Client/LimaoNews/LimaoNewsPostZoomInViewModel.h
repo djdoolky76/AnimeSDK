@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
-
-class Class_1_5F4D64A4B97E38F9;
+class OBJANKHLNGO;
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0x1C4A9920)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0x1C4A9930)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A9860)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C4A9940)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3DA7D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0xD3DA890)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0xD3DA8A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD3DA8B0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 79155;
+	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 80478;
 
 	class LimaoNewsPostZoomInViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x20
-		::Sofa::Core::SimpleCommand* _OnBtnClose_k__BackingField; // 0x28
-		::System::String* PrefabPath; // 0x30
-
-		::System::Void _ctor(::System::String* a1, ::Class_1_5F4D64A4B97E38F9* a2)
+		::System::String* PrefabPath; // 0x20
+		::OBJANKHLNGO* _Messenger; // 0x28
+		::Sofa::Core::SimpleCommand* _OnBtnClose_k__BackingField; // 0x30
+		::System::Void _ctor(::System::String* a1, ::OBJANKHLNGO* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Sofa::Core::SimpleCommand* get_OnBtnClose()
@@ -41,5 +39,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET))(this);
 		}
+
 	};
 }

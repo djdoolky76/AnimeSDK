@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class StageMonsterRewardItem; }
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18432C20)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18432C60)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__GETMONSTERDROPREWARDDATA_B__73_0_OFFSET UNITYSDK_OFFSET(0x18432C70)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6B7560)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE6B75A0)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__GETMONSTERDROPREWARDDATA_B__91_0_OFFSET UNITYSDK_OFFSET(0xE6B75B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c_TypeDefinitionIndex = 59200;
+	inline static constexpr unsigned int GamePlayStatic___c_TypeDefinitionIndex = 59015;
 
 	class GamePlayStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>** StaticGet___9__73_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>**)Il2CppClass::FromTypeDefinitionIndex(GamePlayStatic___c_TypeDefinitionIndex)->GetStaticField(0x4600);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x62A20);
 		}
-		static ::RPG::GameCore::GamePlayStatic___c** StaticGet___9()
+
+		static ::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>** StaticGet___9__91_0()
 		{
-			return (::RPG::GameCore::GamePlayStatic___c**)Il2CppClass::FromTypeDefinitionIndex(GamePlayStatic___c_TypeDefinitionIndex)->GetStaticField(0x4608);
+			return (::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x62A28);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetMonsterDropRewardData_b__73_0(::RPG::GameCore::StageMonsterRewardItem* a1, ::RPG::GameCore::StageMonsterRewardItem* a2)
+		::System::Int32 _GetMonsterDropRewardData_b__91_0(::RPG::GameCore::StageMonsterRewardItem* a1, ::RPG::GameCore::StageMonsterRewardItem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::StageMonsterRewardItem*, ::RPG::GameCore::StageMonsterRewardItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__GETMONSTERDROPREWARDDATA_B__73_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::StageMonsterRewardItem*, ::RPG::GameCore::StageMonsterRewardItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__GETMONSTERDROPREWARDDATA_B__91_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

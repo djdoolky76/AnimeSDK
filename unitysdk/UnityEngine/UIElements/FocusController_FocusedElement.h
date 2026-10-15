@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine::UIElements { class Focusable; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int FocusController_FocusedElement_TypeDefinitionIndex = 5871;
+	inline static constexpr unsigned int FocusController_FocusedElement_TypeDefinitionIndex = 5879;
 
 	struct alignas(8) FocusController_FocusedElement
 	{

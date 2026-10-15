@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXENTITLEMENTSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABDA1D0)
+#define MIHOYO_SDK_PC_OS_XBOXENTITLEMENTSPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF10880)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxEntitlementsParam_TypeDefinitionIndex = 8599;
+	inline static constexpr unsigned int XboxEntitlementsParam_TypeDefinitionIndex = 8660;
 
 	class XboxEntitlementsParam : public ::System::Object
 	{
 	public:
 		::System::String* serviceTicket; // 0x10
 		::System::String* publisherUserId; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_XBOXENTITLEMENTSPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_XBOXENTITLEMENTSPARAM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

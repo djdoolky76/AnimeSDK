@@ -1,49 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AssistWayPointCondition.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AssistWayPointDistanceCondition; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_5693CC7851C09A3E_OFFSET UNITYSDK_OFFSET(0x1C572FB0)
-#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_64D8111335B81113_OFFSET UNITYSDK_OFFSET(0x1C573650)
-#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_8B282298D437722E_OFFSET UNITYSDK_OFFSET(0x1C5719D0)
-#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_D413F4A57216B8D0_OFFSET UNITYSDK_OFFSET(0x1C575530)
-#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C573640)
+#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CCBD0)
+#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D3CED50)
+#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3CE550)
+#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3CCBE0)
+#define RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointDistanceCondition_TypeDefinitionIndex = 18772;
+	inline static constexpr unsigned int AssistWayPointDistanceCondition_TypeDefinitionIndex = 18996;
 
 	class AssistWayPointDistanceCondition : public ::RPG::GameCore::AssistWayPointCondition
 	{
 	public:
 		::System::Boolean UseOverrideRangeMin; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 OverrideRangeMin; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B282298D437722E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointDistanceCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AssistWayPointDistanceCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointDistanceCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_8B282298D437722E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AssistWayPointDistanceCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_64D8111335B81113(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointDistanceCondition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AssistWayPointDistanceCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointDistanceCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_64D8111335B81113_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AssistWayPointDistanceCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5693CC7851C09A3E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointDistanceCondition*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointDistanceCondition* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointDistanceCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_5693CC7851C09A3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointDistanceCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D413F4A57216B8D0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointDistanceCondition* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointDistanceCondition* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointDistanceCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_METHOD_3_D413F4A57216B8D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointDistanceCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTDISTANCECONDITION_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
-#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/Rendering/DepthBufferFormat.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTextureFlags.h"
 #include "unitysdk/UnityEngine/Rendering/ShadowSamplingMode.h"
 #include "unitysdk/UnityEngine/Rendering/TextureDimension.h"
+#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/VRTextureUsage.h"
-
 namespace UnityEngine::Rendering { class GrowableBuffer; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3BB5A90)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3C67380)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 34891;
+	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 35560;
 
 	struct alignas(4) CommandBufferExt_RenderTextureDesc
 	{
@@ -32,10 +30,10 @@ namespace UnityEngine::Rendering
 		::UnityEngine::VRTextureUsage vrUsage; // 0x38
 		::UnityEngine::Rendering::RenderTextureFlags flags; // 0x3C
 		::UnityEngine::RenderTextureMemoryless memoryless; // 0x40
-
 		::System::Void Serialize(::UnityEngine::Rendering::GrowableBuffer* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET))(this, a1);
 		}
+
 	};
 }

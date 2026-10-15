@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Reflection { class MemberInfo; }
+namespace System { class Object; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1EC39510)
-#define SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1EC39640)
+#define SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1ED43AF0)
+#define SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1ED43C30)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 34762;
+	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 35431;
 
 	class SRReflection : public ::System::Object
 	{
@@ -24,5 +23,6 @@ namespace SRF::Helpers
 		{
 			return ((::System::Object*(*)(::System::Object*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET))(a1, a2);
 		}
+
 	};
 }

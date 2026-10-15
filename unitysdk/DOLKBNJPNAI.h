@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class ChenLingFesItemConfig; }
+namespace RPG::GameCore { class ChenLingFesPosition; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define DOLKBNJPNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA01750)
+
+inline static constexpr unsigned int DOLKBNJPNAI_TypeDefinitionIndex = 43717;
+
+	class DOLKBNJPNAI : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::Int32>* AACDGMCNIDL; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* CHFEJBFFPLD; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* KNNMFKMCKBP; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* AJPFKOLEMOL; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* OJFFPIIKPDJ; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* KEMEPBIGIAE; // 0x38
+		::RPG::GameCore::ChenLingFesItemConfig* EABKOHGCHFP; // 0x40
+		::RPG::GameCore::ChenLingFesPosition* FOCNBOANONM; // 0x48
+		::System::UInt32 PHFMCACHFIJ; // 0x50
+		::System::Single ICONGDFLKIP; // 0x54
+		::System::Single EEGAODGBDJF; // 0x58
+		::System::Single PLFMKDOCPLP; // 0x5C
+		::System::Single IKFHADBJEOC; // 0x60
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOLKBNJPNAI_CTOR_OFFSET))(this);
+		}
+
+	};

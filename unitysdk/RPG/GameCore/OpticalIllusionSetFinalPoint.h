@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OpticalIllusionSetFinalPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_METHOD_3_065CA320F770C685_OFFSET UNITYSDK_OFFSET(0x1CE9A3C0)
-#define RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_METHOD_3_5B490C41D9E5A1BF_OFFSET UNITYSDK_OFFSET(0x1CE9A340)
-#define RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9A390)
+#define RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6D00)
+#define RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8B6D30)
+#define RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B6CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpticalIllusionSetFinalPoint_TypeDefinitionIndex = 21973;
+	inline static constexpr unsigned int OpticalIllusionSetFinalPoint_TypeDefinitionIndex = 22221;
 
 	class OpticalIllusionSetFinalPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::String* ParamName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5B490C41D9E5A1BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSetFinalPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpticalIllusionSetFinalPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionSetFinalPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_METHOD_3_5B490C41D9E5A1BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpticalIllusionSetFinalPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_065CA320F770C685(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSetFinalPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpticalIllusionSetFinalPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionSetFinalPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_METHOD_3_065CA320F770C685_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpticalIllusionSetFinalPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETFINALPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/CookieVariant.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0x12370)
-#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6B82D0)
+#define SYSTEM_NET_HEADERVARIANTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x140C0)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0xACE0)
 
 namespace System::Net
 {
@@ -17,10 +15,9 @@ namespace System::Net
 	{
 		::System::String* m_name; // 0x10
 		::System::Net::CookieVariant m_variant; // 0x18
-
 		::System::Void _ctor(::System::String* a1, ::System::Net::CookieVariant a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::CookieVariant))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::CookieVariant))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERVARIANTINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -32,5 +29,6 @@ namespace System::Net
 		{
 			return ((::System::Net::CookieVariant(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET))(this);
 		}
+
 	};
 }

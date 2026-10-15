@@ -4,16 +4,17 @@
 #include "unitysdk/RPG/GameCore/ComplexSkillAIListCombineType.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAISource.h"
 #include "unitysdk/RPG/GameCore/TeamTypeMask.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAISource; }
+namespace RPG::GameCore { class ComplexSkillAISourceRetarget; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_METHOD_3_428871A8D54D7C0C_OFFSET UNITYSDK_OFFSET(0x1D9ACA00)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_METHOD_3_D75DB2ED5030EDF5_OFFSET UNITYSDK_OFFSET(0x1D9ACA50)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ACA40)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A4160)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A4170)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A4120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISourceRetarget_TypeDefinitionIndex = 15368;
+	inline static constexpr unsigned int ComplexSkillAISourceRetarget_TypeDefinitionIndex = 15539;
 
 	class ComplexSkillAISourceRetarget : public ::RPG::GameCore::ComplexSkillAISource
 	{
@@ -22,20 +23,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::TeamTypeMask TeamTypeMask; // 0x14
 		::RPG::GameCore::ComplexSkillAISource* Evaluator; // 0x18
 		::RPG::GameCore::ComplexSkillAIListCombineType ListCombineType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_428871A8D54D7C0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceRetarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceRetarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceRetarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_METHOD_3_428871A8D54D7C0C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceRetarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D75DB2ED5030EDF5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceRetarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceRetarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceRetarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_METHOD_3_D75DB2ED5030EDF5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceRetarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERETARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

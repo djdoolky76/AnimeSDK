@@ -3,25 +3,24 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UIROTATABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17B8E2D0)
-#define RPG_CLIENT_UIROTATABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0x17B8EA70)
-#define RPG_CLIENT_UIROTATABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x17B8E3C0)
-#define RPG_CLIENT_UIROTATABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x17B8EFA0)
-#define RPG_CLIENT_UIROTATABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0x17B8F030)
-#define RPG_CLIENT_UIROTATABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0x17B8F090)
-#define RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET UNITYSDK_OFFSET(0x17B8F0F0)
-#define RPG_CLIENT_UIROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B8F4E0)
+#define RPG_CLIENT_UIROTATABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE3E9E90)
+#define RPG_CLIENT_UIROTATABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3EB070)
+#define RPG_CLIENT_UIROTATABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE3EA600)
+#define RPG_CLIENT_UIROTATABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xE3E9F50)
+#define RPG_CLIENT_UIROTATABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xE3EAB30)
+#define RPG_CLIENT_UIROTATABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xE3EABC0)
+#define RPG_CLIENT_UIROTATABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE3EAC20)
+#define RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET UNITYSDK_OFFSET(0xE3EAC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIRotatable_TypeDefinitionIndex = 69076;
+	inline static constexpr unsigned int UIRotatable_TypeDefinitionIndex = 69112;
 
 	class UIRotatable : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +30,14 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _SyncReverseRotateBeginAngles; // 0x28
 		::UnityEngine::Vector2 _BeginRelativePosition; // 0x30
 		::UnityEngine::Vector3 _BeginLocalEulerAngle; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::Action_1<::System::Object*>* _PointerDownCallback; // 0x48
 		::System::Object* _PointerDownCallbackParam; // 0x50
 		::System::Action_1<::System::Object*>* _PointerUpCallback; // 0x58
 		::System::Object* _PointerUpCallbackParam; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -75,5 +74,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET))(this, a1);
 		}
+
 	};
 }

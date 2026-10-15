@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FireMultiProjectilesBase; }
 namespace RPG::GameCore { class ProjectileOnHitList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FIREMULTIPROJECTILESBASE_METHOD_3_9B5A7F13C4E06216_OFFSET UNITYSDK_OFFSET(0x1E0DE190)
-#define RPG_GAMECORE_FIREMULTIPROJECTILESBASE_METHOD_3_9B5CC274591D538B_OFFSET UNITYSDK_OFFSET(0x1E0DE340)
-#define RPG_GAMECORE_FIREMULTIPROJECTILESBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DE180)
+#define RPG_GAMECORE_FIREMULTIPROJECTILESBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67E0A0)
+#define RPG_GAMECORE_FIREMULTIPROJECTILESBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D67E260)
+#define RPG_GAMECORE_FIREMULTIPROJECTILESBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67E0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FireMultiProjectilesBase_TypeDefinitionIndex = 22337;
+	inline static constexpr unsigned int FireMultiProjectilesBase_TypeDefinitionIndex = 22588;
 
 	class FireMultiProjectilesBase : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,21 +20,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* CasterTargetType; // 0x18
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::Boolean WaitProjectileFinish; // 0x28
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::GameCore::ProjectileOnHitList*>* ProjectileOnHitList; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREMULTIPROJECTILESBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREMULTIPROJECTILESBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9B5A7F13C4E06216(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireMultiProjectilesBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FireMultiProjectilesBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FireMultiProjectilesBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREMULTIPROJECTILESBASE_METHOD_3_9B5A7F13C4E06216_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FireMultiProjectilesBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREMULTIPROJECTILESBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9B5CC274591D538B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireMultiProjectilesBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FireMultiProjectilesBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FireMultiProjectilesBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREMULTIPROJECTILESBASE_METHOD_3_9B5CC274591D538B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FireMultiProjectilesBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREMULTIPROJECTILESBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

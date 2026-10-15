@@ -3,17 +3,18 @@
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTargetSelectorConfig.h"
 #include "unitysdk/RPG/GameCore/LittleGameAbilityAttributeType.h"
 #include "unitysdk/RPG/GameCore/LittleGameValueCompareType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace RPG::GameCore { class LittleGameAbilityTargetSelectorFilterByAttributeConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_METHOD_3_700B59E31F8900F6_OFFSET UNITYSDK_OFFSET(0x1DD64330)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_METHOD_3_B7793F5BB23DFB7C_OFFSET UNITYSDK_OFFSET(0x1DD642D0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD64320)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ACB20)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7ACB30)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7ACAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityTargetSelectorFilterByAttributeConfig_TypeDefinitionIndex = 21135;
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorFilterByAttributeConfig_TypeDefinitionIndex = 21381;
 
 	class LittleGameAbilityTargetSelectorFilterByAttributeConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
@@ -22,20 +23,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::LittleGameAbilityAttributeType AttributeType; // 0x18
 		::RPG::GameCore::LittleGameValueCompareType CompareType; // 0x1C
 		::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* CompareValue; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B7793F5BB23DFB7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_METHOD_3_B7793F5BB23DFB7C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_700B59E31F8900F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_METHOD_3_700B59E31F8900F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTargetSelectorFilterByAttributeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORFILTERBYATTRIBUTECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

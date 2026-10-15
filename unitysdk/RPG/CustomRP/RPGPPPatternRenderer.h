@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CRPPostprocessSubPass2.h"
-
 namespace RPG::CustomRP { class MaterialLibrary; }
 namespace RPG::CustomRP { class RPGPPPattern; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x185A7990)
-#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_SETISOUTPUTTORT_OFFSET UNITYSDK_OFFSET(0x185A54E0)
-#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_SETPARAM_OFFSET UNITYSDK_OFFSET(0x185A54F0)
-#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x185A54D0)
-#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x185A5490)
-#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x185A5470)
+#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2E430)
+#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC30950)
+#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_SETISOUTPUTTORT_OFFSET UNITYSDK_OFFSET(0x1CC2E4A0)
+#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_SETPARAM_OFFSET UNITYSDK_OFFSET(0x1CC2E4B0)
+#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1CC2E490)
+#define RPG_CUSTOMRP_RPGPPPATTERNRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC2E450)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGPPPatternRenderer_TypeDefinitionIndex = 37151;
+	inline static constexpr unsigned int RPGPPPatternRenderer_TypeDefinitionIndex = 37837;
 
 	class RPGPPPatternRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
@@ -25,10 +24,9 @@ namespace RPG::CustomRP
 		::UnityEngine::Material* _PatternMat; // 0x30
 		::System::Int32 _RenderTarget; // 0x38
 		::System::Boolean isRenderToRT; // 0x3C
-
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPPATTERNRENDERER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPPATTERNRENDERER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Update()
@@ -55,5 +53,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPPATTERNRENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
+
 	};
 }

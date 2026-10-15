@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/B51RacingPartType.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class UIStateCtrl; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19EDC630)
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EEA090)
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__GETCARPARTIMAGE_OFFSET UNITYSDK_OFFSET(0x19EE9FB0)
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__GETCARPARTSMOOTHMASKIMAGE_OFFSET UNITYSDK_OFFSET(0x19EEA020)
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EE9DE0)
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__PARTTYPETOSTATENAME_OFFSET UNITYSDK_OFFSET(0x19EE9F20)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC728820)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC71B770)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__GETCARPARTIMAGE_OFFSET UNITYSDK_OFFSET(0xC728740)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__GETCARPARTSMOOTHMASKIMAGE_OFFSET UNITYSDK_OFFSET(0xC7287B0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC728570)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__PARTTYPETOSTATENAME_OFFSET UNITYSDK_OFFSET(0xC7286B0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarTargetPartIconControl_TypeDefinitionIndex = 80490;
+	inline static constexpr unsigned int B51RacingCarTargetPartIconControl_TypeDefinitionIndex = 81818;
 
 	class B51RacingCarTargetPartIconControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::UIStateCtrl* _CarStateCtrl; // 0x38
-		::UnityEngine::UI::Image* _HeadImage; // 0x40
-		::UnityEngine::UI::Image* _BodyImage; // 0x48
-		::UnityEngine::UI::Image* _WingImage; // 0x50
-		::UnityEngine::UI::SmoothMask* _HeadSmoothMaskImage; // 0x58
-		::UnityEngine::UI::SmoothMask* _BodySmoothMaskImage; // 0x60
-		::UnityEngine::UI::SmoothMask* _WingSmoothMaskImage; // 0x68
-
+		::RPG::Client::UIStateCtrl* _CarStateCtrl; // 0x40
+		::UnityEngine::UI::Image* _HeadImage; // 0x48
+		::UnityEngine::UI::Image* _BodyImage; // 0x50
+		::UnityEngine::UI::Image* _WingImage; // 0x58
+		::UnityEngine::UI::SmoothMask* _HeadSmoothMaskImage; // 0x60
+		::UnityEngine::UI::SmoothMask* _BodySmoothMaskImage; // 0x68
+		::UnityEngine::UI::SmoothMask* _WingSmoothMaskImage; // 0x70
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -59,5 +57,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::System::String*(*)(::RPG::GameCore::B51RacingPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONCONTROL__PARTTYPETOSTATENAME_OFFSET))(a1);
 		}
+
 	};
 }

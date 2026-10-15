@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C536390)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C535FF0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C535F00)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONNEWITEM_OFFSET UNITYSDK_OFFSET(0x1C536110)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A3EF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3A3B50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3A3A60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONNEWITEM_OFFSET UNITYSDK_OFFSET(0xD3A3C70)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInterviewDescListControl_TypeDefinitionIndex = 79050;
+	inline static constexpr unsigned int LimaoNewsInterviewDescListControl_TypeDefinitionIndex = 80373;
 
 	class LimaoNewsInterviewDescListControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::StaticListView* _ListView; // 0x38
-
+		::RPG::Client::StaticListView* _ListView; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -39,5 +37,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::RPG::Client::StaticListViewItem*(*)(::PVOID, ::XLua::LuaTable*, ::RPG::Client::StaticListView*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDESCLISTCONTROL__ONNEWITEM_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

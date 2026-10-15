@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class KMDEHNNGIDD;
+namespace RPG::Client { class BaseLobby; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+
+#define KMDEHNNGIDD___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB53C3A0)
+#define KMDEHNNGIDD___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xB53C950)
+
+inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass27_0_TypeDefinitionIndex = 63057;
+
+	class KMDEHNNGIDD___c__DisplayClass27_0 : public ::System::Object
+	{
+	public:
+		::KMDEHNNGIDD* __4__this; // 0x10
+		::System::UInt64 joinLobbyID; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* _TryJoinLobby_b__0()
+		{
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET))(this);
+		}
+
+	};

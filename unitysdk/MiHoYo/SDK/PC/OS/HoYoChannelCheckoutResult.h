@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
-
+namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckoutResult; }
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1A273970)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1A273960)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2739B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF7110)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BEF70D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BEF70C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelCheckoutResult_TypeDefinitionIndex = 8541;
+	inline static constexpr unsigned int HoYoChannelCheckoutResult_TypeDefinitionIndex = 8601;
 
 	class HoYoChannelCheckoutResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::PurchaseData* purchase; // 0x30
 		::System::Boolean canceled; // 0x38
-
+		// static const ::System::Object CHANNEL_PURCHASE_PROCESSING; // 0x0
+		// static const ::System::Object CHANNEL_CANCELLED; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
@@ -33,5 +34,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_FROMJSON_OFFSET))(a1);
 		}
+
 	};
 }

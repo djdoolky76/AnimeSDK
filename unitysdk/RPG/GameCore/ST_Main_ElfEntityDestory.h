@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Main_ElfEntityDestory; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_METHOD_4_5FA2B132F4A01D23_OFFSET UNITYSDK_OFFSET(0x1DB3B630)
-#define RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_METHOD_4_DB1B186147A74626_OFFSET UNITYSDK_OFFSET(0x1DB3B700)
-#define RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3B6F0)
+#define RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4EE50)
+#define RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA4EE60)
+#define RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4ED90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_ElfEntityDestory_TypeDefinitionIndex = 21301;
+	inline static constexpr unsigned int ST_Main_ElfEntityDestory_TypeDefinitionIndex = 21547;
 
 	class ST_Main_ElfEntityDestory : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5FA2B132F4A01D23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfEntityDestory*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfEntityDestory* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfEntityDestory*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_METHOD_4_5FA2B132F4A01D23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfEntityDestory*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DB1B186147A74626(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfEntityDestory* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfEntityDestory* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfEntityDestory*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_METHOD_4_DB1B186147A74626_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfEntityDestory*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFENTITYDESTORY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

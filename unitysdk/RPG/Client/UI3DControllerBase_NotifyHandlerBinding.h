@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NotifyGroup.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DControllerBase_NotifyHandlerBinding_TypeDefinitionIndex = 72916;
+	inline static constexpr unsigned int UI3DControllerBase_NotifyHandlerBinding_TypeDefinitionIndex = 72999;
 
 	struct alignas(8) UI3DControllerBase_NotifyHandlerBinding
 	{

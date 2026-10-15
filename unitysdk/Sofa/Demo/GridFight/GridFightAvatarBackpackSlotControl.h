@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FOMFNEIKBAO.h"
+#include "unitysdk/LFKBKMDMAEM.h"
+class ALAHCOICOLM;
+class HIKAAGHELPH;
+class JJLLMEENHJC;
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class PrefabLoadMeta; }
+namespace System { class Object; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE970020)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE96E510)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL__POPULATING_OFFSET UNITYSDK_OFFSET(0xE96F0D0)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_12_OFFSET UNITYSDK_OFFSET(0xE970070)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_13_OFFSET UNITYSDK_OFFSET(0xE970240)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_14_OFFSET UNITYSDK_OFFSET(0xE970120)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_15_OFFSET UNITYSDK_OFFSET(0xE9702F0)
+#define SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_5_OFFSET UNITYSDK_OFFSET(0xE970060)
+
+namespace Sofa::Demo::GridFight
+{
+	inline static constexpr unsigned int GridFightAvatarBackpackSlotControl_TypeDefinitionIndex = 49704;
+
+	class GridFightAvatarBackpackSlotControl
+	{
+	public:
+		::RPG::Client::AnimatorButton* _RootButton; // 0x70
+		::UnityEngine::RectTransform* _LockedRoot; // 0x78
+		::RPG::Client::PrefabLoadMeta* _AvatarLoadMeta; // 0x80
+		::RPG::Client::PrefabLoadMeta* _NotReleasedAvatarLoadMeta; // 0x88
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _Binding(::HIKAAGHELPH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIKAAGHELPH*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL__BINDING_OFFSET))(this, a1);
+		}
+
+		::System::Void _Populating(::JJLLMEENHJC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JJLLMEENHJC*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL__POPULATING_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Transform* __Populating_b__1_5(::LFKBKMDMAEM a1)
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::LFKBKMDMAEM))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_5_OFFSET))(this, a1);
+		}
+
+		::FOMFNEIKBAO __Populating_b__1_12(::FOMFNEIKBAO a1)
+		{
+			return ((::FOMFNEIKBAO(*)(::PVOID, ::FOMFNEIKBAO))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_12_OFFSET))(this, a1);
+		}
+
+		::System::Void __Populating_b__1_14(::LFKBKMDMAEM a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LFKBKMDMAEM))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_14_OFFSET))(this, a1);
+		}
+
+		::FOMFNEIKBAO __Populating_b__1_13(::FOMFNEIKBAO a1)
+		{
+			return ((::FOMFNEIKBAO(*)(::PVOID, ::FOMFNEIKBAO))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_13_OFFSET))(this, a1);
+		}
+
+		::System::Void __Populating_b__1_15(::LFKBKMDMAEM a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LFKBKMDMAEM))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKSLOTCONTROL___POPULATING_B__1_15_OFFSET))(this, a1);
+		}
+
+	};
+}

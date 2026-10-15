@@ -6,16 +6,15 @@
 #include "unitysdk/RPG/Client/StageDynamicLightBoxBehavior_SwitchMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXBEHAVIOR_DYNAMICLIGHTBOXTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x196F3F10)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXBEHAVIOR_DYNAMICLIGHTBOXTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE101270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageDynamicLightBoxBehavior_DynamicLightBoxTemplate_TypeDefinitionIndex = 70925;
+	inline static constexpr unsigned int StageDynamicLightBoxBehavior_DynamicLightBoxTemplate_TypeDefinitionIndex = 70957;
 
 	class StageDynamicLightBoxBehavior_DynamicLightBoxTemplate : public ::System::Object
 	{
@@ -28,6 +27,7 @@ namespace RPG::Client
 		::RPG::Client::StageDynamicLightBoxBehavior_Layout LayoutY; // 0x30
 		::UnityEngine::Vector2Int LightBoxDimension; // 0x34
 		::UnityEngine::Vector2Int FormationRepeateCount; // 0x3C
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Gradient* EmissionColor; // 0x48
 		::System::Single Threshold; // 0x50
 		::System::Single EmissionInt; // 0x54
@@ -39,12 +39,13 @@ namespace RPG::Client
 		::System::Single PlaySpeed; // 0x6C
 		::System::Single DurationTime; // 0x70
 		::System::Boolean IsLoop; // 0x74
+		::System::Byte _padding1[0x3];
 		::RPG::Client::StageDynamicLightBoxBehavior_FormationAdaptiveMode AdaptiveMode; // 0x78
 		::UnityEngine::Vector2Int FormationAdaptiveSize; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEDYNAMICLIGHTBOXBEHAVIOR_DYNAMICLIGHTBOXTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEDYNAMICLIGHTBOXBEHAVIOR_DYNAMICLIGHTBOXTEMPLATE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

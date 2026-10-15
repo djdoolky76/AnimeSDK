@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_ADDHEIGHT_OFFSET UNITYSDK_OFFSET(0x19E2EFA0)
-#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_CRITICALSPRINGDAMPERIMPLICIT_OFFSET UNITYSDK_OFFSET(0x19E2F100)
-#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_HALFLIFETODAMPING_OFFSET UNITYSDK_OFFSET(0x19E2F2A0)
-#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_RESET_OFFSET UNITYSDK_OFFSET(0x19E2EF50)
-#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_UPDATEROOT_OFFSET UNITYSDK_OFFSET(0x19E2F000)
-#define RPG_CLIENT_MONOCHARACTERROOTDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2F320)
+#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_ADDHEIGHT_OFFSET UNITYSDK_OFFSET(0xD72A630)
+#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_CRITICALSPRINGDAMPERIMPLICIT_OFFSET UNITYSDK_OFFSET(0xD72A790)
+#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_CTOR_OFFSET UNITYSDK_OFFSET(0xD72A9B0)
+#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_HALFLIFETODAMPING_OFFSET UNITYSDK_OFFSET(0xD72A930)
+#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_RESET_OFFSET UNITYSDK_OFFSET(0xD72A5E0)
+#define RPG_CLIENT_MONOCHARACTERROOTDAMPER_UPDATEROOT_OFFSET UNITYSDK_OFFSET(0xD72A690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCharacterRootDamper_TypeDefinitionIndex = 68502;
+	inline static constexpr unsigned int MonoCharacterRootDamper_TypeDefinitionIndex = 68536;
 
 	class MonoCharacterRootDamper : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,10 +21,9 @@ namespace RPG::Client
 		::System::Single height; // 0x20
 		::System::Single speed; // 0x24
 		::System::Single halfTime; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERROOTDAMPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERROOTDAMPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -43,14 +41,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERROOTDAMPER_UPDATEROOT_OFFSET))(this, a1);
 		}
 
-		::System::Void CriticalSpringDamperImplicit(::System::Single& a1, ::System::Single& a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		::System::Void CriticalSpringDamperImplicit(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERROOTDAMPER_CRITICALSPRINGDAMPERIMPLICIT_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERROOTDAMPER_CRITICALSPRINGDAMPERIMPLICIT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Single HalflifeToDamping(::System::Single a1, ::System::Single a2)
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERROOTDAMPER_HALFLIFETODAMPING_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

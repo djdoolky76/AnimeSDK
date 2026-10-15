@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class TryRequestEnterRegion; }
 
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_AAC5373C73794E50_OFFSET UNITYSDK_OFFSET(0x1D29C250)
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_CA25482A1E6F2C0B_OFFSET UNITYSDK_OFFSET(0x1D29C020)
-#define RPG_GAMECORE_TRYREQUESTENTERREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29C150)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33490)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC33590)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC33360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 20519;
+	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 20758;
 
 	class TryRequestEnterRegion : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +22,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* LoadingRate; // 0x28
 		::RPG::GameCore::DynamicFloat* CancelDelay; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* EnterFinishCallback; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CA25482A1E6F2C0B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryRequestEnterRegion*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TryRequestEnterRegion* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryRequestEnterRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_CA25482A1E6F2C0B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TryRequestEnterRegion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AAC5373C73794E50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryRequestEnterRegion* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TryRequestEnterRegion* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryRequestEnterRegion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_AAC5373C73794E50_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TryRequestEnterRegion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,41 +3,41 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client::FullBody { class IKMapping_BoneMap; }
 namespace RPG::Client::FullBody { class IKSolverFullBody; }
 namespace RPG::Client::FullBody { class IKSolver_Node; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_ISNODEBONE_OFFSET UNITYSDK_OFFSET(0x1937C020)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_LASTANIMATEDTARGETROTATION_OFFSET UNITYSDK_OFFSET(0x1937CB40)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_SWINGDIRECTION_OFFSET UNITYSDK_OFFSET(0x1937BD10)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_036297786760DCCD_OFFSET UNITYSDK_OFFSET(0x1937D300)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_1A473A8AF62E993A_OFFSET UNITYSDK_OFFSET(0x1937D4E0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_2A3A99221D05589B_OFFSET UNITYSDK_OFFSET(0x1937CF50)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x1937CE70)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x1937CEE0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1937CDF0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4A5B3C87906AE918_OFFSET UNITYSDK_OFFSET(0x1937C1D0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_5422D32F23CD1298_OFFSET UNITYSDK_OFFSET(0x1937E080)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_672E3DECEBB4A051_OFFSET UNITYSDK_OFFSET(0x1937C7D0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_6A3DFC5A5BD896B1_OFFSET UNITYSDK_OFFSET(0x1937C6E0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_7A012523248AE06A_OFFSET UNITYSDK_OFFSET(0x1937D570)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_871AC6DBEB0AF4F3_OFFSET UNITYSDK_OFFSET(0x1937C4E0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_89CEA643C7DC0619_OFFSET UNITYSDK_OFFSET(0x1937BC90)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x1937DF90)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1937BEC0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_9C550482A5467161_OFFSET UNITYSDK_OFFSET(0x1937C170)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_A03C765EBC5D1677_OFFSET UNITYSDK_OFFSET(0x1937D760)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_BF7FB88706E4AC65_OFFSET UNITYSDK_OFFSET(0x1937D0C0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_CFACABBC63158155_1_OFFSET UNITYSDK_OFFSET(0x1937DBF0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_CFACABBC63158155_OFFSET UNITYSDK_OFFSET(0x1937D850)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_F2FD171383AF1C78_OFFSET UNITYSDK_OFFSET(0x1937C030)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_FDE09C8D62639E3E_OFFSET UNITYSDK_OFFSET(0x1937BF80)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1937E230)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_ACDPBPKPKGE_OFFSET UNITYSDK_OFFSET(0xD06CFC0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_AMCIPPGOFPL_OFFSET UNITYSDK_OFFSET(0xD06E8A0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_BJPDBJFMBDA_1_OFFSET UNITYSDK_OFFSET(0xD06D500)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_BJPDBJFMBDA_OFFSET UNITYSDK_OFFSET(0xD06D4A0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xD06F560)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_DLPHBBLFDJP_OFFSET UNITYSDK_OFFSET(0xD06F2C0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_DPECFDGDKIE_OFFSET UNITYSDK_OFFSET(0xD06E120)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_EALGLOMCMFI_OFFSET UNITYSDK_OFFSET(0xD06D2B0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_FIKMKFDHKOL_OFFSET UNITYSDK_OFFSET(0xD06D810)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GAKIPIFIJDD_OFFSET UNITYSDK_OFFSET(0xD06DB00)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GELMHCEJDFF_OFFSET UNITYSDK_OFFSET(0xD06E630)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_ISNODEBONE_OFFSET UNITYSDK_OFFSET(0xD06D350)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_LASTANIMATEDTARGETROTATION_OFFSET UNITYSDK_OFFSET(0xD06DE70)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_SWINGDIRECTION_OFFSET UNITYSDK_OFFSET(0xD06D040)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_JIDPJJLOAOB_OFFSET UNITYSDK_OFFSET(0xD06EF20)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_LLFCNLEAGLP_OFFSET UNITYSDK_OFFSET(0xD06E1A0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_LLNAPPLEBEL_OFFSET UNITYSDK_OFFSET(0xD06D1F0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_MIPPKCKDDJE_OFFSET UNITYSDK_OFFSET(0xD06DA10)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NCCFBEHADDE_OFFSET UNITYSDK_OFFSET(0xD06D360)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NFPPDKANPBA_1_OFFSET UNITYSDK_OFFSET(0xD06EB80)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NFPPDKANPBA_OFFSET UNITYSDK_OFFSET(0xD06EA90)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NHJLPHDKABA_OFFSET UNITYSDK_OFFSET(0xD06E3F0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NJGGBGHAHLN_OFFSET UNITYSDK_OFFSET(0xD06E810)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NMBMNOJDDCI_OFFSET UNITYSDK_OFFSET(0xD06E280)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_OAFBLHICELO_OFFSET UNITYSDK_OFFSET(0xD06F3B0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_ONBKFPCDMBP_OFFSET UNITYSDK_OFFSET(0xD06E210)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKMapping_BoneMap_TypeDefinitionIndex = 74150;
+	inline static constexpr unsigned int IKMapping_BoneMap_TypeDefinitionIndex = 74249;
 
 	class IKMapping_BoneMap : public ::System::Object
 	{
@@ -64,15 +64,14 @@ namespace RPG::Client::FullBody
 		::System::Int32 plane2NodeIndex; // 0xC4
 		::System::Int32 plane3ChainIndex; // 0xC8
 		::System::Int32 plane3NodeIndex; // 0xCC
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_89CEA643C7DC0619(::UnityEngine::Transform* a1, ::RPG::Client::FullBody::IKSolverFullBody* a2)
+		::System::Void ACDPBPKPKGE(::UnityEngine::Transform* a1, ::RPG::Client::FullBody::IKSolverFullBody* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_89CEA643C7DC0619_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_ACDPBPKPKGE_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 get_swingDirection()
@@ -80,14 +79,14 @@ namespace RPG::Client::FullBody
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_SWINGDIRECTION_OFFSET))(this);
 		}
 
-		::System::Void Method_1_9681042564541CD6()
+		::System::Void LLNAPPLEBEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_LLNAPPLEBEL_OFFSET))(this);
 		}
 
-		::System::Void Method_1_FDE09C8D62639E3E(::System::Boolean a1)
+		::System::Void EALGLOMCMFI(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_FDE09C8D62639E3E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_EALGLOMCMFI_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_isNodeBone()
@@ -95,104 +94,105 @@ namespace RPG::Client::FullBody
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_ISNODEBONE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_F2FD171383AF1C78(::RPG::Client::FullBody::IKMapping_BoneMap* a1)
+		::System::Void NCCFBEHADDE(::RPG::Client::FullBody::IKMapping_BoneMap* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKMapping_BoneMap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_F2FD171383AF1C78_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKMapping_BoneMap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NCCFBEHADDE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_9C550482A5467161(::RPG::Client::FullBody::IKMapping_BoneMap* a1)
+		::System::Void BJPDBJFMBDA(::RPG::Client::FullBody::IKMapping_BoneMap* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKMapping_BoneMap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_9C550482A5467161_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKMapping_BoneMap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_BJPDBJFMBDA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_4A5B3C87906AE918(::RPG::Client::FullBody::IKMapping_BoneMap* a1, ::RPG::Client::FullBody::IKMapping_BoneMap* a2)
+		::System::Void BJPDBJFMBDA_1(::RPG::Client::FullBody::IKMapping_BoneMap* a1, ::RPG::Client::FullBody::IKMapping_BoneMap* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKMapping_BoneMap*, ::RPG::Client::FullBody::IKMapping_BoneMap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4A5B3C87906AE918_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKMapping_BoneMap*, ::RPG::Client::FullBody::IKMapping_BoneMap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_BJPDBJFMBDA_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_871AC6DBEB0AF4F3(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		::System::Void FIKMKFDHKOL(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_871AC6DBEB0AF4F3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_FIKMKFDHKOL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_6A3DFC5A5BD896B1(::RPG::Client::FullBody::IKSolverFullBody* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
+		::System::Void MIPPKCKDDJE(::RPG::Client::FullBody::IKSolverFullBody* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_6A3DFC5A5BD896B1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_MIPPKCKDDJE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_1_672E3DECEBB4A051(::System::Boolean a1, ::System::Boolean a2)
+		::System::Void GAKIPIFIJDD(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_672E3DECEBB4A051_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GAKIPIFIJDD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_4343F372F34C05BF()
+		::System::Void DPECFDGDKIE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_DPECFDGDKIE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4343F372F34C05BF_1()
+		::System::Void LLFCNLEAGLP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4343F372F34C05BF_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_LLFCNLEAGLP_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4343F372F34C05BF_2()
+		::System::Void ONBKFPCDMBP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_4343F372F34C05BF_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_ONBKFPCDMBP_OFFSET))(this);
 		}
 
-		::System::Void Method_1_2A3A99221D05589B(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Single a2, ::RPG::Client::FullBody::IKSolver_Node* a3)
+		::System::Void NMBMNOJDDCI(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Single a2, ::RPG::Client::FullBody::IKSolver_Node* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Single, ::RPG::Client::FullBody::IKSolver_Node*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_2A3A99221D05589B_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Single, ::RPG::Client::FullBody::IKSolver_Node*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NMBMNOJDDCI_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 Method_1_BF7FB88706E4AC65(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::UnityEngine::Vector3 NHJLPHDKABA(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_BF7FB88706E4AC65_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NHJLPHDKABA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_1A473A8AF62E993A(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::System::Void NJGGBGHAHLN(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_1A473A8AF62E993A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NJGGBGHAHLN_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_7A012523248AE06A(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Single a2)
+		::System::Void AMCIPPGOFPL(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_7A012523248AE06A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_AMCIPPGOFPL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_A03C765EBC5D1677(::UnityEngine::Vector3 a1, ::System::Single a2)
+		::System::Void NFPPDKANPBA(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_A03C765EBC5D1677_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NFPPDKANPBA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_CFACABBC63158155(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+		::System::Void NFPPDKANPBA_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_CFACABBC63158155_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_NFPPDKANPBA_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_CFACABBC63158155_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+		::System::Void JIDPJJLOAOB(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_CFACABBC63158155_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_JIDPJJLOAOB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_8C4AEC0BC1CA0CB4(::System::Single a1)
+		::System::Void DLPHBBLFDJP(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_DLPHBBLFDJP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_5422D32F23CD1298(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Single a2)
+		::System::Void OAFBLHICELO(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_5422D32F23CD1298_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_OAFBLHICELO_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Quaternion Method_1_036297786760DCCD(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::UnityEngine::Quaternion GELMHCEJDFF(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_METHOD_1_036297786760DCCD_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GELMHCEJDFF_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Quaternion get_lastAnimatedTargetRotation()
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_BONEMAP_GET_LASTANIMATEDTARGETROTATION_OFFSET))(this);
 		}
+
 	};
 }

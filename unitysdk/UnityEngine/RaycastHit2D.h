@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class Collider2D; }
 
-#define UNITYENGINE_RAYCASTHIT2D_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x3C9E620)
-#define UNITYENGINE_RAYCASTHIT2D_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0xB596C0)
-#define UNITYENGINE_RAYCASTHIT2D_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x84C7C0)
-#define UNITYENGINE_RAYCASTHIT2D_GET_POINT_OFFSET UNITYSDK_OFFSET(0x7846F0)
+#define UNITYENGINE_RAYCASTHIT2D_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x3C84FC0)
+#define UNITYENGINE_RAYCASTHIT2D_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x3C31AF0)
+#define UNITYENGINE_RAYCASTHIT2D_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x94D0)
+#define UNITYENGINE_RAYCASTHIT2D_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1D40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RaycastHit2D_TypeDefinitionIndex = 5803;
+	inline static constexpr unsigned int RaycastHit2D_TypeDefinitionIndex = 5811;
 
 	struct alignas(4) RaycastHit2D
 	{
@@ -22,7 +20,6 @@ namespace UnityEngine
 		::System::Single m_Distance; // 0x28
 		::System::Single m_Fraction; // 0x2C
 		::System::Int32 m_Collider; // 0x30
-
 		::UnityEngine::Vector2 get_point()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RAYCASTHIT2D_GET_POINT_OFFSET))(this);
@@ -42,5 +39,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::Collider2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RAYCASTHIT2D_GET_COLLIDER_OFFSET))(this);
 		}
+
 	};
 }

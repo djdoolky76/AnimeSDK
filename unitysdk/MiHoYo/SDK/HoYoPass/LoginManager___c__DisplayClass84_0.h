@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9A530)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x1AEA37D0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__1_OFFSET UNITYSDK_OFFSET(0x1AEA3890)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__2_OFFSET UNITYSDK_OFFSET(0x1AEA39B0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE416D0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x1BE4AA60)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__1_OFFSET UNITYSDK_OFFSET(0x1BE4AB20)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__2_OFFSET UNITYSDK_OFFSET(0x1BE4AC40)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass84_0_TypeDefinitionIndex = 8296;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass84_0_TypeDefinitionIndex = 8339;
 
 	class LoginManager___c__DisplayClass84_0 : public ::System::Object
 	{
 	public:
-		::System::Action* successCallback; // 0x10
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
-
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
+		::System::Action* successCallback; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _GooglePCOAuth_b__0()
@@ -40,5 +38,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS84_0__GOOGLEPCOAUTH_B__2_OFFSET))(this);
 		}
+
 	};
 }

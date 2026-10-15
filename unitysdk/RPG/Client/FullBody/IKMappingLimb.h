@@ -3,28 +3,27 @@
 #include "unitysdk/RPG/Client/FullBody/IKMapping.h"
 #include "unitysdk/RPG/Client/FullBody/IKMappingLimb_BoneMapType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client::FullBody { class IKMapping_BoneMap; }
 namespace RPG::Client::FullBody { class IKSolver; }
 namespace RPG::Client::FullBody { class IKSolverFullBody; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x1937F140)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_0B2BD75AED41F026_OFFSET UNITYSDK_OFFSET(0x1937E740)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_48E0E9D29DE90B49_OFFSET UNITYSDK_OFFSET(0x1937F0C0)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x1937F8C0)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0x1937F1E0)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_BA6EB7BC01785CBA_OFFSET UNITYSDK_OFFSET(0x1937F440)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_C2453B35E4DF9C3B_OFFSET UNITYSDK_OFFSET(0x1937E670)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_C2496B2D8317AC26_OFFSET UNITYSDK_OFFSET(0x1937F9C0)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_F9AF6F889DC1CC07_OFFSET UNITYSDK_OFFSET(0x1937E7B0)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1937EF80)
-#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB__CTOR_OFFSET UNITYSDK_OFFSET(0x1937EEA0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_ACDPBPKPKGE_OFFSET UNITYSDK_OFFSET(0xD070770)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_CFEMBBNLLDC_OFFSET UNITYSDK_OFFSET(0xD070CF0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD0702B0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_CTOR_OFFSET UNITYSDK_OFFSET(0xD0701D0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KBFGMNLDELH_OFFSET UNITYSDK_OFFSET(0xD06FAE0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KGCBBNEFDOB_OFFSET UNITYSDK_OFFSET(0xD0703F0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KKANJACCOGM_OFFSET UNITYSDK_OFFSET(0xD070BF0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xD06F9A0)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KPKDAIGMCHM_OFFSET UNITYSDK_OFFSET(0xD070510)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_LLNAPPLEBEL_OFFSET UNITYSDK_OFFSET(0xD070470)
+#define RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_PPJFHLIHJCC_OFFSET UNITYSDK_OFFSET(0xD06FA70)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKMappingLimb_TypeDefinitionIndex = 74152;
+	inline static constexpr unsigned int IKMappingLimb_TypeDefinitionIndex = 74251;
 
 	class IKMappingLimb : public ::RPG::Client::FullBody::IKMapping
 	{
@@ -36,64 +35,65 @@ namespace RPG::Client::FullBody
 		::System::Single maintainRotationWeight; // 0x30
 		::System::Single weight; // 0x34
 		::System::Boolean updatePlaneRotations; // 0x38
+		::System::Byte _padding0[0x7];
 		::RPG::Client::FullBody::IKMapping_BoneMap* boneMapParent; // 0x40
 		::RPG::Client::FullBody::IKMapping_BoneMap* boneMap1; // 0x48
 		::RPG::Client::FullBody::IKMapping_BoneMap* boneMap2; // 0x50
 		::RPG::Client::FullBody::IKMapping_BoneMap* boneMap3; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Method_2_C2453B35E4DF9C3B(::RPG::Client::FullBody::IKSolver* a1, ::System::String*& a2)
+		::System::Boolean KKKIONIDKFA(::RPG::Client::FullBody::IKSolver* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FullBody::IKSolver*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_C2453B35E4DF9C3B_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FullBody::IKSolver*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KKKIONIDKFA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::FullBody::IKMapping_BoneMap* Method_2_0B2BD75AED41F026(::RPG::Client::FullBody::IKMappingLimb_BoneMapType a1)
+		::RPG::Client::FullBody::IKMapping_BoneMap* PPJFHLIHJCC(::RPG::Client::FullBody::IKMappingLimb_BoneMapType a1)
 		{
-			return ((::RPG::Client::FullBody::IKMapping_BoneMap*(*)(::PVOID, ::RPG::Client::FullBody::IKMappingLimb_BoneMapType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_0B2BD75AED41F026_OFFSET))(this, a1);
+			return ((::RPG::Client::FullBody::IKMapping_BoneMap*(*)(::PVOID, ::RPG::Client::FullBody::IKMappingLimb_BoneMapType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_PPJFHLIHJCC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_F9AF6F889DC1CC07(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		::System::Void KBFGMNLDELH(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_F9AF6F889DC1CC07_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KBFGMNLDELH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_48E0E9D29DE90B49(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
+		::System::Void KGCBBNEFDOB(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_48E0E9D29DE90B49_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KGCBBNEFDOB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_2_06330CD58CB602B6()
+		::System::Void LLNAPPLEBEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_LLNAPPLEBEL_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A6544B958241856F()
+		::System::Void KPKDAIGMCHM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_A6544B958241856F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KPKDAIGMCHM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_BA6EB7BC01785CBA(::RPG::Client::FullBody::IKSolverFullBody* a1)
+		::System::Void ACDPBPKPKGE(::RPG::Client::FullBody::IKSolverFullBody* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_BA6EB7BC01785CBA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_ACDPBPKPKGE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_A1ADC999CFACEB89()
+		::System::Void KKANJACCOGM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_A1ADC999CFACEB89_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_KKANJACCOGM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_C2496B2D8317AC26(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Boolean a2)
+		::System::Void CFEMBBNLLDC(::RPG::Client::FullBody::IKSolverFullBody* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_METHOD_2_C2496B2D8317AC26_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPINGLIMB_CFEMBBNLLDC_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

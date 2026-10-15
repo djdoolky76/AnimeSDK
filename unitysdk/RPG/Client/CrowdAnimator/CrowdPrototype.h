@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/CrowdAnimator/CrowdPrototype_AnimationClipInfo.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client::CrowdAnimator { class BoneData; }
 namespace RPG::Client::CrowdAnimator { class ClipData; }
 namespace RPG::Client::CrowdAnimator { class SkinnedMeshData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_GET_ISBAKEREQUIRED_OFFSET UNITYSDK_OFFSET(0x1A2A2450)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_3FA8F4962E04AA53_OFFSET UNITYSDK_OFFSET(0x1A2A25E0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_9679BF1F01124F44_OFFSET UNITYSDK_OFFSET(0x1A2A24B0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A26F0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_BNDJCFINHCK_OFFSET UNITYSDK_OFFSET(0xCBC3920)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC3A30)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_GET_ISBAKEREQUIRED_OFFSET UNITYSDK_OFFSET(0xCBC3790)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_PLOEBGOINGM_OFFSET UNITYSDK_OFFSET(0xCBC37F0)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype_TypeDefinitionIndex = 73611;
+	inline static constexpr unsigned int CrowdPrototype_TypeDefinitionIndex = 73718;
 
 	class CrowdPrototype : public ::UnityEngine::ScriptableObject
 	{
@@ -28,7 +27,8 @@ namespace RPG::Client::CrowdAnimator
 		::System::String* rootBoneName; // 0x20
 		::System::Int32 frameRate; // 0x28
 		::System::Boolean useDualQuaternionSkinning; // 0x2C
-		::Il2CppArray<::RPG::Client::CrowdAnimator::CrowdPrototype_AnimationClipInfo>* clipInfos; // 0x30
+		::System::Byte _padding0[0x3];
+		::Il2CppArray<::System::Object*>* clipInfos; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::CrowdAnimator::ClipData*>* clipDataList; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::CrowdAnimator::SkinnedMeshData*>* skinnedMeshDataList; // 0x40
 		::System::Collections::Generic::List_1<::RPG::Client::CrowdAnimator::BoneData*>* boneDataList; // 0x48
@@ -38,10 +38,9 @@ namespace RPG::Client::CrowdAnimator
 		::System::Int32 totalFrameCount; // 0x70
 		::System::Int32 totalBoneCount; // 0x74
 		::UnityEngine::Vector2Int textureSize; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsBakeRequired()
@@ -49,14 +48,15 @@ namespace RPG::Client::CrowdAnimator
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_GET_ISBAKEREQUIRED_OFFSET))(this);
 		}
 
-		::RPG::Client::CrowdAnimator::BoneData* Method_3_9679BF1F01124F44(::System::String* a1)
+		::RPG::Client::CrowdAnimator::BoneData* PLOEBGOINGM(::System::String* a1)
 		{
-			return ((::RPG::Client::CrowdAnimator::BoneData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_9679BF1F01124F44_OFFSET))(this, a1);
+			return ((::RPG::Client::CrowdAnimator::BoneData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_PLOEBGOINGM_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CrowdAnimator::SkinnedMeshData* Method_3_3FA8F4962E04AA53(::System::String* a1)
+		::RPG::Client::CrowdAnimator::SkinnedMeshData* BNDJCFINHCK(::System::String* a1)
 		{
-			return ((::RPG::Client::CrowdAnimator::SkinnedMeshData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_3FA8F4962E04AA53_OFFSET))(this, a1);
+			return ((::RPG::Client::CrowdAnimator::SkinnedMeshData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_BNDJCFINHCK_OFFSET))(this, a1);
 		}
+
 	};
 }

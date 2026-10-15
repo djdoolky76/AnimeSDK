@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace MessagePack::Unity { class UnityResolver_WithStandardResolver; }
 
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
-
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF759A0)
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF75990)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB47AA0)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB47A90)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int UnityResolver_WithStandardResolver_TypeDefinitionIndex = 10131;
+	inline static constexpr unsigned int UnityResolver_WithStandardResolver_TypeDefinitionIndex = 10144;
 
 	class UnityResolver_WithStandardResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Unity::UnityResolver_WithStandardResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Unity::UnityResolver_WithStandardResolver**)Il2CppClass::FromTypeDefinitionIndex(UnityResolver_WithStandardResolver_TypeDefinitionIndex)->GetStaticField(0x7C0);
+			return (::MessagePack::Unity::UnityResolver_WithStandardResolver**)UnitySDK::FromName("MessagePack.Unity", "WithStandardResolver")->GetStaticField(0x7B0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CCTOR_OFFSET))();
 		}
+
 	};
 }

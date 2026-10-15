@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Threading { class IThreadPoolWorkItem; }
 namespace System::Threading { class ThreadPoolWorkQueueThreadLocals; }
 namespace System::Threading { class ThreadPoolWorkQueue_QueueSegment; }
-namespace System::Threading { class ThreadPoolWorkQueue_WorkStealingQueue; }
-namespace System::Threading { template <typename T> class ThreadPoolWorkQueue_SparseArray_1; }
 
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DEQUEUE_OFFSET UNITYSDK_OFFSET(0x1C66B600)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1C66BC40)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1C66A510)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURECURRENTTHREADHASQUEUE_OFFSET UNITYSDK_OFFSET(0x1C66A9E0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURETHREADREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C66AC20)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_LOCALFINDANDPOP_OFFSET UNITYSDK_OFFSET(0x1C66A6D0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_MARKTHREADREQUESTSATISFIED_OFFSET UNITYSDK_OFFSET(0x1C66AC80)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C66C310)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C66A960)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C133F50)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1325A0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DEQUEUE_OFFSET UNITYSDK_OFFSET(0x1C133240)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1C133880)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1C132150)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURECURRENTTHREADHASQUEUE_OFFSET UNITYSDK_OFFSET(0x1C132620)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURETHREADREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C132860)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_LOCALFINDANDPOP_OFFSET UNITYSDK_OFFSET(0x1C132310)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_MARKTHREADREQUESTSATISFIED_OFFSET UNITYSDK_OFFSET(0x1C1328C0)
 
 namespace System::Threading
 {
@@ -25,22 +23,22 @@ namespace System::Threading
 	class ThreadPoolWorkQueue : public ::System::Object
 	{
 	public:
-		static ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>** StaticGet_allThreadQueues()
-		{
-			return (::System::Threading::ThreadPoolWorkQueue_SparseArray_1<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolWorkQueue_TypeDefinitionIndex)->GetStaticField(0x15880);
-		}
-		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueHead; // 0x10
-		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueTail; // 0x18
+		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueTail; // 0x10
+		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueHead; // 0x18
 		::System::Int32 numOutstandingThreadRequests; // 0x20
+		static ::System::Object** StaticGet_allThreadQueues()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Threading", "ThreadPoolWorkQueue")->GetStaticField(0x2A940);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE_CCTOR_OFFSET))();
 		}
 
 		::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue()
@@ -68,14 +66,15 @@ namespace System::Threading
 			return ((::System::Boolean(*)(::PVOID, ::System::Threading::IThreadPoolWorkItem*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE_LOCALFINDANDPOP_OFFSET))(this, a1);
 		}
 
-		::System::Void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* a1, ::System::Threading::IThreadPoolWorkItem*& a2, ::System::Boolean& a3)
+		::System::Void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* a1, ::System::Threading::IThreadPoolWorkItem* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadPoolWorkQueueThreadLocals*, ::System::Threading::IThreadPoolWorkItem*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE_DEQUEUE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadPoolWorkQueueThreadLocals*, ::System::Threading::IThreadPoolWorkItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE_DEQUEUE_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Boolean Dispatch()
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUE_DISPATCH_OFFSET))();
 		}
+
 	};
 }

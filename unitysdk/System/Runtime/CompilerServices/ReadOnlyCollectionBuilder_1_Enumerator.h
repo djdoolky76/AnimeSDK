@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::CompilerServices { template <typename T> class ReadOnlyCollectionBuilder_1; }
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ReadOnlyCollectionBuilder_1_Enumerator_TypeDefinitionIndex = 3670;
+	inline static constexpr unsigned int ReadOnlyCollectionBuilder_1_Enumerator_TypeDefinitionIndex = 3671;
 
 	template <typename T>
 	class ReadOnlyCollectionBuilder_1_Enumerator : public ::System::Object

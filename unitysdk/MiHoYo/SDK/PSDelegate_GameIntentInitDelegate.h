@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7AC00)
-#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7AC30)
-#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7ABF0)
-#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7AB80)
+#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53850)
+#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF537D0)
+#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53880)
+#define MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53840)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_GameIntentInitDelegate_TypeDefinitionIndex = 7714;
+	inline static constexpr unsigned int PSDelegate_GameIntentInitDelegate_TypeDefinitionIndex = 7758;
 
 	class PSDelegate_GameIntentInitDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GAMEINTENTINITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

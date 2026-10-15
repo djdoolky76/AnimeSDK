@@ -1,52 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 class AkMemBankLoader;
+namespace System { class Object; }
 
-#define AKMEMBANKLOADER__LOADFILE_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DA99860)
-#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DA99CD0)
-#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DA99D30)
-#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DA99CE0)
-#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DA99850)
-#define AKMEMBANKLOADER__LOADFILE_D__14__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA995F0)
+#define AKMEMBANKLOADER__LOADFILE_D__14_CTOR_OFFSET UNITYSDK_OFFSET(0x1F578270)
+#define AKMEMBANKLOADER__LOADFILE_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F5784E0)
+#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F578950)
+#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F5789B0)
+#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F578960)
+#define AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F5784D0)
 
-inline static constexpr unsigned int AkMemBankLoader__LoadFile_d__14_TypeDefinitionIndex = 43745;
+inline static constexpr unsigned int AkMemBankLoader__LoadFile_d__14_TypeDefinitionIndex = 44937;
 
-class AkMemBankLoader__LoadFile_d__14 : public ::System::Object
-{
-public:
-	::System::Object* __2__current; // 0x10
-	::AkMemBankLoader* __4__this; // 0x18
-	::System::Int32 __1__state; // 0x20
-
-	::System::Void _ctor(::System::Int32 a1)
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14>
+	class AkMemBankLoader__LoadFile_d__14 : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14__CTOR_OFFSET))(this, a1);
-	}
+	public:
+		::System::Object* __2__current; // 0x10
+		::AkMemBankLoader* __4__this; // 0x18
+		::System::Int32 __1__state; // 0x20
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_CTOR_OFFSET))(this, a1);
+		}
 
-	::System::Void System_IDisposable_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
-	}
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
 
-	::System::Boolean MoveNext()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_MOVENEXT_OFFSET))(this);
-	}
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_MOVENEXT_OFFSET))(this);
+		}
 
-	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
-	{
-		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
-	}
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
 
-	::System::Void System_Collections_IEnumerator_Reset()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
-	}
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
 
-	::System::Object* System_Collections_IEnumerator_get_Current()
-	{
-		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
-	}
-};
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER__LOADFILE_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+	};

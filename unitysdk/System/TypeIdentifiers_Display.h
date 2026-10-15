@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/TypeNames_ATypeName.h"
-
 namespace System { class String; }
 
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GETINTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1C690060)
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1C690020)
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_INTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1C690030)
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C690010)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C157BE0)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GETINTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1C157C30)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1C157BF0)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_INTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1C157C00)
 
 namespace System
 {
@@ -16,12 +15,11 @@ namespace System
 	class TypeIdentifiers_Display : public ::System::TypeNames_ATypeName
 	{
 	public:
-		::System::String* displayName; // 0x10
-		::System::String* internal_name; // 0x18
-
+		::System::String* internal_name; // 0x10
+		::System::String* displayName; // 0x18
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEIDENTIFIERS_DISPLAY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEIDENTIFIERS_DISPLAY_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DisplayName()
@@ -38,5 +36,6 @@ namespace System
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TYPEIDENTIFIERS_DISPLAY_GETINTERNALNAME_OFFSET))(this);
 		}
+
 	};
 }

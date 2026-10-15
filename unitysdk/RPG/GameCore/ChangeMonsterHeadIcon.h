@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChangeMonsterHeadIcon; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_734658F2B4BA29B9_OFFSET UNITYSDK_OFFSET(0x1D118930)
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_E2F513FECD3F3858_OFFSET UNITYSDK_OFFSET(0x1D118970)
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D118960)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D539E10)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D539E20)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D539DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 23400;
+	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 23672;
 
 	class ChangeMonsterHeadIcon : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* IconFromTarget; // 0x20
 		::System::String* IconPath; // 0x28
 		::System::String* RoundIconPath; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_734658F2B4BA29B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMonsterHeadIcon*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeMonsterHeadIcon* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeMonsterHeadIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_734658F2B4BA29B9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeMonsterHeadIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E2F513FECD3F3858(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMonsterHeadIcon* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeMonsterHeadIcon* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeMonsterHeadIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_E2F513FECD3F3858_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeMonsterHeadIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

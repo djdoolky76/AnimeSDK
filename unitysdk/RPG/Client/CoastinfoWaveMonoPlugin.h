@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CoastinfoWaveMonoPlugin_TileMappingClipmapRings.h"
 #include "unitysdk/RPG/Client/CoastinfoWaveMonoPlugin_TileUVWrapMode.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
+#include "unitysdk/UnityEngine/Vector2.h"
 namespace OceanSystem { class OceanRenderer; }
-namespace RPG::Client { class CoastinfoWaveBehavior; }
 namespace RPG::Client { class CoastinfoWaveMonoPlugin_TileMeshCacheEntry; }
 namespace RPG::Client { class TileMaskZone; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
@@ -19,46 +17,50 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_FINDBAKEDTILEMESH_OFFSET UNITYSDK_OFFSET(0x1A275AA0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GETBAKEDTILEMESHCACHEHASH_OFFSET UNITYSDK_OFFSET(0x1A275B20)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1A276480)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER00LS_OFFSET UNITYSDK_OFFSET(0x1A275C90)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER01LS_OFFSET UNITYSDK_OFFSET(0x1A275CD0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER10LS_OFFSET UNITYSDK_OFFSET(0x1A275CB0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER11LS_OFFSET UNITYSDK_OFFSET(0x1A275CF0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNERBAKED_OFFSET UNITYSDK_OFFSET(0x1A275C80)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNERUV00_10_OFFSET UNITYSDK_OFFSET(0x1A275D10)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNERUV01_11_OFFSET UNITYSDK_OFFSET(0x1A275D20)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFMESHLOCALBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A275D80)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFUVAFFINEU_LS_OFFSET UNITYSDK_OFFSET(0x1A275D30)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFUVAFFINEVALID_OFFSET UNITYSDK_OFFSET(0x1A275D70)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFUVAFFINEV_LS_OFFSET UNITYSDK_OFFSET(0x1A275D50)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_METHOD_7_85DBA8328D0ACAE3_OFFSET UNITYSDK_OFFSET(0x1A276050)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_METHOD_7_A39F496E3AA1BA1F_OFFSET UNITYSDK_OFFSET(0x1A2759D0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_SETREFCORNERDATA_OFFSET UNITYSDK_OFFSET(0x1A275DA0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_SETUVAFFINECOEFFICIENTS_OFFSET UNITYSDK_OFFSET(0x1A275FB0)
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2764D0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCB93010)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_EPMDEFPMBPD_OFFSET UNITYSDK_OFFSET(0xCB92B90)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_FINDBAKEDTILEMESH_OFFSET UNITYSDK_OFFSET(0xCB8E7B0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GETBAKEDTILEMESHCACHEHASH_OFFSET UNITYSDK_OFFSET(0xCB8E650)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCB92FC0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER00LS_OFFSET UNITYSDK_OFFSET(0xCB927D0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER01LS_OFFSET UNITYSDK_OFFSET(0xCB92810)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER10LS_OFFSET UNITYSDK_OFFSET(0xCB927F0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNER11LS_OFFSET UNITYSDK_OFFSET(0xCB92830)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNERBAKED_OFFSET UNITYSDK_OFFSET(0xCB927C0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNERUV00_10_OFFSET UNITYSDK_OFFSET(0xCB92850)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFCORNERUV01_11_OFFSET UNITYSDK_OFFSET(0xCB92860)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFMESHLOCALBOUNDS_OFFSET UNITYSDK_OFFSET(0xCB928C0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFUVAFFINEU_LS_OFFSET UNITYSDK_OFFSET(0xCB92870)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFUVAFFINEVALID_OFFSET UNITYSDK_OFFSET(0xCB928B0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GET_REFUVAFFINEV_LS_OFFSET UNITYSDK_OFFSET(0xCB92890)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_LMGDKFOGNAG_OFFSET UNITYSDK_OFFSET(0xCB926F0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_SETREFCORNERDATA_OFFSET UNITYSDK_OFFSET(0xCB928E0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_SETUVAFFINECOEFFICIENTS_OFFSET UNITYSDK_OFFSET(0xCB92AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TypeDefinitionIndex = 70895;
+	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TypeDefinitionIndex = 70928;
 
-	class CoastinfoWaveMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CoastinfoWaveBehavior*>
+	class CoastinfoWaveMonoPlugin
 	{
 	public:
 		::UnityEngine::MeshRenderer* waterPlane; // 0x30
 		::OceanSystem::OceanRenderer* farOceanFftBakeTarget; // 0x38
 		::Il2CppArray<::UnityEngine::Material*>* _farOceanFftRestoreWaterMaterials; // 0x40
 		::System::Boolean UseTileMapping; // 0x48
-		::System::Collections::Generic::List_1<::RPG::Client::CoastinfoWaveMonoPlugin_TileMeshCacheEntry*>* TM_BakedTileMeshes; // 0x50
+		::System::Byte _padding0[0x7];
+		::System::Collections::Generic::List_1<::System::Object*>* TM_BakedTileMeshes; // 0x50
 		::System::String* TM_BakedMeshName; // 0x58
 		::System::String* TM_BakedMeshFolder; // 0x60
 		::System::Boolean TM_ShowLODMeshConfig; // 0x68
+		::System::Byte _padding1[0x3];
 		::System::Single TM_TileWorldSize; // 0x6C
 		::System::Boolean TM_AutoTileCount; // 0x70
+		::System::Byte _padding2[0x3];
 		::System::Int32 TM_TileCountX; // 0x74
 		::System::Int32 TM_TileCountZ; // 0x78
 		::System::Boolean TM_SnapToGrid; // 0x7C
+		::System::Byte _padding3[0x3];
 		::RPG::Client::CoastinfoWaveMonoPlugin_TileMappingClipmapRings TM_LODLevels; // 0x80
 		::System::Single TM_NearRingRadius; // 0x84
 		::System::Single TM_FarDistance; // 0x88
@@ -70,24 +72,32 @@ namespace RPG::Client
 		::UnityEngine::Camera* RT_TargetCamera; // 0xA0
 		::RPG::Client::CoastinfoWaveMonoPlugin_TileUVWrapMode TM_UVWrapMode; // 0xA8
 		::System::Boolean TM_FollowCamera; // 0xAC
+		::System::Byte _padding4[0x3];
 		::System::Int32 TM_TileResolution; // 0xB0
 		::System::Boolean TM_CustomLODResolutions; // 0xB4
+		::System::Byte _padding5[0x3];
 		::Il2CppArray<::System::Int32>* TM_LODMeshResolutions; // 0xB8
 		::System::Boolean TM_EnableGPUSeamSnap; // 0xC0
+		::System::Byte _padding6[0x3];
 		::System::Single TM_LODSkirtDepth; // 0xC4
 		::System::Boolean TM_GizmosPreview; // 0xC8
+		::System::Byte _padding7[0x3];
 		::System::Single TM_GizmosMaxViewDistance; // 0xCC
 		::System::Boolean TM_GizmosDrawInternalGrid; // 0xD0
+		::System::Byte _padding8[0x3];
 		::System::Int32 TM_GizmosGridStep; // 0xD4
 		::System::Boolean TM_GizmosDrawRealMesh; // 0xD8
+		::System::Byte _padding9[0x7];
 		::System::Collections::Generic::List_1<::RPG::Client::TileMaskZone*>* TM_MaskZones; // 0xE0
 		::System::Int32 TM_ClipEdgeRefineLevels; // 0xE8
 		::System::Single TM_ClipEdgeRefineRange; // 0xEC
 		::System::Int32 TM_SelectedMaskZone; // 0xF0
 		::System::Boolean TM_EditorRealtimePreview; // 0xF4
+		::System::Byte _padding10[0x3];
 		::UnityEngine::Mesh* FixedReferenceMesh; // 0xF8
 		::System::Boolean FixedRef_AutoFillWhenMeshMissing; // 0x100
 		::System::Boolean _refCornerBaked; // 0x101
+		::System::Byte _padding11[0x6];
 		::UnityEngine::Mesh* _refCornerSourceMesh; // 0x108
 		::UnityEngine::Bounds _refMeshLocalBounds; // 0x110
 		::UnityEngine::Vector3 _refCorner00LS; // 0x128
@@ -99,15 +109,14 @@ namespace RPG::Client
 		::UnityEngine::Vector3 _refUVAffineU_LS; // 0x178
 		::UnityEngine::Vector3 _refUVAffineV_LS; // 0x184
 		::System::Boolean _refUVAffineValid; // 0x190
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::CoastinfoWaveMonoPlugin_TileMeshCacheEntry* Method_7_A39F496E3AA1BA1F(::System::Int32 a1, ::System::Single a2)
+		::RPG::Client::CoastinfoWaveMonoPlugin_TileMeshCacheEntry* LMGDKFOGNAG(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::RPG::Client::CoastinfoWaveMonoPlugin_TileMeshCacheEntry*(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_METHOD_7_A39F496E3AA1BA1F_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::CoastinfoWaveMonoPlugin_TileMeshCacheEntry*(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_LMGDKFOGNAG_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Mesh* FindBakedTileMesh(::System::Int32 a1, ::System::Single a2)
@@ -185,14 +194,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_SETUVAFFINECOEFFICIENTS_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void Method_7_85DBA8328D0ACAE3(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::System::Int32 a3, ::UnityEngine::Vector3& a4, ::UnityEngine::Vector3& a5)
+		static ::System::Void EPMDEFPMBPD(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::System::Int32 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_METHOD_7_85DBA8328D0ACAE3_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_EPMDEFPMBPD_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

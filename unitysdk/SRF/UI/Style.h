@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
-
+namespace SRF::UI { class Style; }
 namespace UnityEngine { class Sprite; }
 
-#define SRF_UI_STYLE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1EC49DB0)
-#define SRF_UI_STYLE_COPY_OFFSET UNITYSDK_OFFSET(0x1EC49CF0)
-#define SRF_UI_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC49D90)
+#define SRF_UI_STYLE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1ED547A0)
+#define SRF_UI_STYLE_COPY_OFFSET UNITYSDK_OFFSET(0x1ED546E0)
+#define SRF_UI_STYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED54780)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int Style_TypeDefinitionIndex = 34730;
+	inline static constexpr unsigned int Style_TypeDefinitionIndex = 35399;
 
 	class Style : public ::System::Object
 	{
@@ -21,10 +21,9 @@ namespace SRF::UI
 		::UnityEngine::Color HoverColor; // 0x30
 		::UnityEngine::Sprite* Image; // 0x40
 		::UnityEngine::Color NormalColor; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLE_CTOR_OFFSET))(this);
 		}
 
 		::SRF::UI::Style* Copy()
@@ -36,5 +35,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID, ::SRF::UI::Style*))((::PBYTE)hIl2Cpp + SRF_UI_STYLE_COPYFROM_OFFSET))(this, a1);
 		}
+
 	};
 }

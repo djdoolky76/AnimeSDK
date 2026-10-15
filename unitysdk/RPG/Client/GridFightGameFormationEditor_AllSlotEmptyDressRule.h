@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0x1BD62D90)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1BD62CE0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD51240)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0xD149F50)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_CTOR_OFFSET UNITYSDK_OFFSET(0xD14A160)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0xD149EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_AllSlotEmptyDressRule_TypeDefinitionIndex = 64699;
+	inline static constexpr unsigned int GridFightGameFormationEditor_AllSlotEmptyDressRule_TypeDefinitionIndex = 64639;
 
 	class GridFightGameFormationEditor_AllSlotEmptyDressRule : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_Reason()
@@ -30,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE_CANDRESS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

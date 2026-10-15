@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class BiliBiliDelegate_PayCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4E90)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4ED0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4E80)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A4E00)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B640)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B5B0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B680)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1B630)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_SDKPayDelegate_TypeDefinitionIndex = 7555;
+	inline static constexpr unsigned int BiliBiliDelegate_SDKPayDelegate_TypeDefinitionIndex = 7609;
 
 	class BiliBiliDelegate_SDKPayDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::MiHoYo::SDK::BiliBiliDelegate_PayCallback* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKPAYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

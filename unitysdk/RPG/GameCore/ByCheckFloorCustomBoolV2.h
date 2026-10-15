@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCheckFloorCustomBoolV2; }
 namespace RPG::GameCore { class DynamicString; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_467AC909A012CF04_OFFSET UNITYSDK_OFFSET(0x1C2FD760)
-#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_961F003A16B98FEB_OFFSET UNITYSDK_OFFSET(0x1C2FD8F0)
-#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_A5158F2186BC2884_OFFSET UNITYSDK_OFFSET(0x1C2FD8C0)
-#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_D846DB6256948201_OFFSET UNITYSDK_OFFSET(0x1C2FD720)
-#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FD750)
+#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1D462650)
+#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4627F0)
+#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4627C0)
+#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D462660)
+#define RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D462620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckFloorCustomBoolV2_TypeDefinitionIndex = 20463;
+	inline static constexpr unsigned int ByCheckFloorCustomBoolV2_TypeDefinitionIndex = 20702;
 
 	class ByCheckFloorCustomBoolV2 : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* Name; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D846DB6256948201(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_D846DB6256948201_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_467AC909A012CF04(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_467AC909A012CF04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A5158F2186BC2884(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_A5158F2186BC2884_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_961F003A16B98FEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckFloorCustomBoolV2* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_METHOD_4_961F003A16B98FEB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckFloorCustomBoolV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFLOORCUSTOMBOOLV2_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

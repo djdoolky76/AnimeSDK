@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerParamModifierCustomEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_AD558FD3033603F8_OFFSET UNITYSDK_OFFSET(0x1D292780)
-#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_C47B4AAA008C68E9_OFFSET UNITYSDK_OFFSET(0x1D292740)
-#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D292770)
+#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC298B0)
+#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC298C0)
+#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC29880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerParamModifierCustomEvent_TypeDefinitionIndex = 23360;
+	inline static constexpr unsigned int TriggerParamModifierCustomEvent_TypeDefinitionIndex = 23630;
 
 	class TriggerParamModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,20 +25,20 @@ namespace RPG::GameCore
 		::System::String* DynamicKey; // 0x28
 		::RPG::GameCore::DynamicFloat* Value; // 0x30
 		::RPG::GameCore::PredicateConfig* PreCheck; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C47B4AAA008C68E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParamModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_C47B4AAA008C68E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerParamModifierCustomEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AD558FD3033603F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParamModifierCustomEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_AD558FD3033603F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerParamModifierCustomEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

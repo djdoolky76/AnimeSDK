@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/TypeEntry.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C45A570)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C45A580)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C45A3F0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C29CE50)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C29CFD0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C29CFE0)
 
 namespace System::Runtime::Remoting
 {
@@ -17,10 +16,9 @@ namespace System::Runtime::Remoting
 	{
 	public:
 		::System::Type* obj_type; // 0x20
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Type* get_ObjectType()
@@ -32,5 +30,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Reflection/BindingFlags.h"
 #include "unitysdk/System/Reflection/MemberTypes.h"
 #include "unitysdk/System/Reflection/MethodBase.h"
-
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Globalization { class CultureInfo; }
-namespace System::Reflection { class Binder; }
+namespace System::Reflection { class ConstructorInfo; }
 
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CC16880)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CC16890)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1CC167A0)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC167B0)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1CC168B0)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1CC168E0)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC16910)
-#define SYSTEM_REFLECTION_CONSTRUCTORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC16780)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C26A950)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C26A7C0)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C26A8C0)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C26A8D0)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C26A7E0)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C26A7F0)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C26A8F0)
+#define SYSTEM_REFLECTION_CONSTRUCTORINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C26A920)
 
 namespace System::Reflection
 {
@@ -27,21 +24,22 @@ namespace System::Reflection
 	public:
 		static ::System::String** StaticGet_ConstructorName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConstructorInfo_TypeDefinitionIndex)->GetStaticField(0xF1E0);
+			return (::System::String**)UnitySDK::FromName("System.Reflection", "ConstructorInfo")->GetStaticField(0x1D980);
 		}
+
 		static ::System::String** StaticGet_TypeConstructorName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConstructorInfo_TypeDefinitionIndex)->GetStaticField(0xF1E8);
+			return (::System::String**)UnitySDK::FromName("System.Reflection", "ConstructorInfo")->GetStaticField(0x1D988);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CONSTRUCTORINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CONSTRUCTORINFO_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CONSTRUCTORINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CONSTRUCTORINFO_CCTOR_OFFSET))();
 		}
 
 		::System::Reflection::MemberTypes get_MemberType()
@@ -73,5 +71,6 @@ namespace System::Reflection
 		{
 			return ((::System::Boolean(*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::ConstructorInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CONSTRUCTORINFO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+
 	};
 }

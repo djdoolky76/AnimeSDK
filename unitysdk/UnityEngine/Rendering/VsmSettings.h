@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/VsmPageSettings.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VsmSettings_TypeDefinitionIndex = 4886;
+	inline static constexpr unsigned int VsmSettings_TypeDefinitionIndex = 4892;
 
 	struct alignas(8) VsmSettings
 	{
 		::System::Boolean enable; // 0x10
 		::System::Boolean resetVsm; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::UInt32 physicTextureSize; // 0x14
 		::System::UInt32 textureDepthCount; // 0x18
 		::System::UInt32 overrideLayerMask; // 0x1C

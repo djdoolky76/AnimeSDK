@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABC30)
-#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABC60)
-#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABC20)
-#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9ABBB0)
+#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7D30)
+#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA7CB0)
+#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7D60)
+#define MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA7D20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_ResourcePathDelegate_TypeDefinitionIndex = 7735;
+	inline static constexpr unsigned int SDKDelegate_ResourcePathDelegate_TypeDefinitionIndex = 7779;
 
 	class SDKDelegate_ResourcePathDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_RESOURCEPATHDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

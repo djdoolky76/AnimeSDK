@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPDebugAsset__EngineProflieType_e__FixedBuffer_TypeDefinitionIndex = 4825;
+	inline static constexpr unsigned int CRPDebugAsset__EngineProflieType_e__FixedBuffer_TypeDefinitionIndex = 4831;
 
 	struct alignas(4) CRPDebugAsset__EngineProflieType_e__FixedBuffer
 	{
-		::System::Int32 data[16]; // 0x0
+		::System::Int32 FixedElementField; // 0x10
 	};
 }

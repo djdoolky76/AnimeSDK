@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define AGNDOGOHJDD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3C900)
+
+inline static constexpr unsigned int AGNDOGOHJDD_TypeDefinitionIndex = 63657;
+
+	class AGNDOGOHJDD : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGNDOGOHJDD_CTOR_OFFSET))(this);
+		}
+
+	};

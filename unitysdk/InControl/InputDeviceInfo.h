@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceDriverType.h"
 #include "unitysdk/InControl/InputDeviceTransportType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET UNITYSDK_OFFSET(0x3AF1870)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET UNITYSDK_OFFSET(0x3AF1850)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET UNITYSDK_OFFSET(0x3AF18A0)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET UNITYSDK_OFFSET(0x3AF1840)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x3AF1860)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET UNITYSDK_OFFSET(0x3C0C590)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET UNITYSDK_OFFSET(0x3C0C570)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET UNITYSDK_OFFSET(0x3C0C5C0)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET UNITYSDK_OFFSET(0x3C0C560)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x3C0C580)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceInfo_TypeDefinitionIndex = 39543;
+	inline static constexpr unsigned int InputDeviceInfo_TypeDefinitionIndex = 40840;
 
 	struct alignas(8) InputDeviceInfo
 	{
@@ -28,30 +26,40 @@ namespace InControl
 		::InControl::InputDeviceTransportType transportType; // 0x32
 		::System::UInt32 numButtons; // 0x34
 		::System::UInt32 numAnalogs; // 0x38
-
+		/*
 		::System::Boolean HasSameVendorID(::InControl::InputDeviceInfo a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		::System::Boolean HasSameProductID(::InControl::InputDeviceInfo a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		::System::Boolean HasSameVersionNumber(::InControl::InputDeviceInfo a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		::System::Boolean HasSameLocation(::InControl::InputDeviceInfo a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		::System::Boolean HasSameSerialNumber(::InControl::InputDeviceInfo a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET))(this, a1);
 		}
+		*/
+
 	};
 }

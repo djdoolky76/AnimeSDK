@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/ZXing/OneD/UPCEANWriter.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-#include "unitysdk/ZXing/OneD/UPCEANWriter.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_EAN8WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x16D60D70)
-#define ZXING_ONED_EAN8WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16D60CD0)
-#define ZXING_ONED_EAN8WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D56B60)
+#define ZXING_ONED_EAN8WRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F689460)
+#define ZXING_ONED_EAN8WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F693620)
+#define ZXING_ONED_EAN8WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F693580)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int EAN8Writer_TypeDefinitionIndex = 6977;
+	inline static constexpr unsigned int EAN8Writer_TypeDefinitionIndex = 6986;
 
 	class EAN8Writer : public ::ZXing::OneD::UPCEANWriter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_EAN8WRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_EAN8WRITER_CTOR_OFFSET))(this);
 		}
 
 		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
@@ -34,5 +33,6 @@ namespace ZXing::OneD
 		{
 			return ((::Il2CppArray<::System::Boolean>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_ONED_EAN8WRITER_ENCODE_1_OFFSET))(this, a1);
 		}
+
 	};
 }

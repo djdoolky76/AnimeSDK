@@ -1,41 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/Common/ECI.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
+namespace ZXing::Common { class CharacterSetECI; }
 
-#define ZXING_COMMON_CHARACTERSETECI_ADDCHARACTERSET_1_OFFSET UNITYSDK_OFFSET(0x16D45360)
-#define ZXING_COMMON_CHARACTERSETECI_ADDCHARACTERSET_OFFSET UNITYSDK_OFFSET(0x16D450D0)
-#define ZXING_COMMON_CHARACTERSETECI_GETCHARACTERSETECIBYNAME_OFFSET UNITYSDK_OFFSET(0x16D456D0)
-#define ZXING_COMMON_CHARACTERSETECI__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D446A0)
-#define ZXING_COMMON_CHARACTERSETECI__CTOR_OFFSET UNITYSDK_OFFSET(0x16D456B0)
+#define ZXING_COMMON_CHARACTERSETECI_ADDCHARACTERSET_1_OFFSET UNITYSDK_OFFSET(0x1F677C40)
+#define ZXING_COMMON_CHARACTERSETECI_ADDCHARACTERSET_OFFSET UNITYSDK_OFFSET(0x1F6779B0)
+#define ZXING_COMMON_CHARACTERSETECI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F676F80)
+#define ZXING_COMMON_CHARACTERSETECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F677F90)
+#define ZXING_COMMON_CHARACTERSETECI_GETCHARACTERSETECIBYNAME_OFFSET UNITYSDK_OFFSET(0x1F677FB0)
 
 namespace ZXing::Common
 {
-	inline static constexpr unsigned int CharacterSetECI_TypeDefinitionIndex = 6960;
+	inline static constexpr unsigned int CharacterSetECI_TypeDefinitionIndex = 6969;
 
 	class CharacterSetECI : public ::ZXing::Common::ECI
 	{
 	public:
+		::System::String* encodingName; // 0x18
 		static ::System::Collections::Generic::IDictionary_2<::System::Int32, ::ZXing::Common::CharacterSetECI*>** StaticGet_VALUE_TO_ECI()
 		{
-			return (::System::Collections::Generic::IDictionary_2<::System::Int32, ::ZXing::Common::CharacterSetECI*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterSetECI_TypeDefinitionIndex)->GetStaticField(0x304B0);
+			return (::System::Collections::Generic::IDictionary_2<::System::Int32, ::ZXing::Common::CharacterSetECI*>**)UnitySDK::FromName("ZXing.Common", "CharacterSetECI")->GetStaticField(0x44870);
 		}
+
 		static ::System::Collections::Generic::IDictionary_2<::System::String*, ::ZXing::Common::CharacterSetECI*>** StaticGet_NAME_TO_ECI()
 		{
-			return (::System::Collections::Generic::IDictionary_2<::System::String*, ::ZXing::Common::CharacterSetECI*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterSetECI_TypeDefinitionIndex)->GetStaticField(0x304B8);
+			return (::System::Collections::Generic::IDictionary_2<::System::String*, ::ZXing::Common::CharacterSetECI*>**)UnitySDK::FromName("ZXing.Common", "CharacterSetECI")->GetStaticField(0x44878);
 		}
-		::System::String* encodingName; // 0x18
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_COMMON_CHARACTERSETECI__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_COMMON_CHARACTERSETECI_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_CHARACTERSETECI__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_CHARACTERSETECI_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void addCharacterSet(::System::Int32 a1, ::System::String* a2)
@@ -52,5 +53,6 @@ namespace ZXing::Common
 		{
 			return ((::ZXing::Common::CharacterSetECI*(*)(::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_CHARACTERSETECI_GETCHARACTERSETECIBYNAME_OFFSET))(a1);
 		}
+
 	};
 }

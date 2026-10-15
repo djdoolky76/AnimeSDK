@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EnableRoleTrialChangeLineupLeader; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_METHOD_3_6B883E3706486E4E_OFFSET UNITYSDK_OFFSET(0x1D7BEB50)
-#define RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_METHOD_3_DCB339A7FFF3920D_OFFSET UNITYSDK_OFFSET(0x1D7BEB90)
-#define RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BEB80)
+#define RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D612E50)
+#define RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D612E60)
+#define RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D612E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableRoleTrialChangeLineupLeader_TypeDefinitionIndex = 23576;
+	inline static constexpr unsigned int EnableRoleTrialChangeLineupLeader_TypeDefinitionIndex = 23850;
 
 	class EnableRoleTrialChangeLineupLeader : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Enable; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6B883E3706486E4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_METHOD_3_6B883E3706486E4E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DCB339A7FFF3920D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_METHOD_3_DCB339A7FFF3920D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnableRoleTrialChangeLineupLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEROLETRIALCHANGELINEUPLEADER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

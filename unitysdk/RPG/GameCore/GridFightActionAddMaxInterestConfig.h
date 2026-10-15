@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightActionAddMaxInterestConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_METHOD_6_30EACC56E30EFCAB_OFFSET UNITYSDK_OFFSET(0x1D95F210)
-#define RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_METHOD_6_E6AE083B22FB5907_OFFSET UNITYSDK_OFFSET(0x1D95F1C0)
-#define RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95F200)
+#define RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F6670)
+#define RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F6680)
+#define RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F6630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActionAddMaxInterestConfig_TypeDefinitionIndex = 19071;
+	inline static constexpr unsigned int GridFightActionAddMaxInterestConfig_TypeDefinitionIndex = 19301;
 
 	class GridFightActionAddMaxInterestConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_E6AE083B22FB5907(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionAddMaxInterestConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightActionAddMaxInterestConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionAddMaxInterestConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_METHOD_6_E6AE083B22FB5907_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightActionAddMaxInterestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_30EACC56E30EFCAB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionAddMaxInterestConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightActionAddMaxInterestConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionAddMaxInterestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_METHOD_6_30EACC56E30EFCAB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightActionAddMaxInterestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONADDMAXINTERESTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

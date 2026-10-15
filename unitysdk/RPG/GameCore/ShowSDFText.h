@@ -2,25 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SDFTextAlignType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class ShowSDFText; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_1608696199732EF0_OFFSET UNITYSDK_OFFSET(0x1D099E80)
-#define RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_74B43B20CC77AA5C_OFFSET UNITYSDK_OFFSET(0x1D099D40)
-#define RPG_GAMECORE_SHOWSDFTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D099DF0)
+#define RPG_GAMECORE_SHOWSDFTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB66F0)
+#define RPG_GAMECORE_SHOWSDFTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB6760)
+#define RPG_GAMECORE_SHOWSDFTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB6660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 20671;
+	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 20910;
 
 	class ShowSDFText : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsShow; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::DynamicFloat* IsFaceToCamera; // 0x28
 		::RPG::GameCore::DynamicFloat* SDFTextID; // 0x30
@@ -34,20 +35,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* TallTypeScale; // 0x70
 		::RPG::GameCore::DynamicFloat* EnglishLikeScale; // 0x78
 		::RPG::GameCore::SDFTextAlignType OverrideAlignType; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_74B43B20CC77AA5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSDFText*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowSDFText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSDFText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_74B43B20CC77AA5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowSDFText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1608696199732EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSDFText* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowSDFText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSDFText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_1608696199732EF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowSDFText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

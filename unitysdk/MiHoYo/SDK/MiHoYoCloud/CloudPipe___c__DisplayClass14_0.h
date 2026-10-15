@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::MiHoYoCloud { class CloudPipe_PipeSendData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62DA60)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1A62E380)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x1A62E4A0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__2_OFFSET UNITYSDK_OFFSET(0x1A62E4F0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__3_OFFSET UNITYSDK_OFFSET(0x1A62E540)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE71D30)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1BE72740)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x1BE72930)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__2_OFFSET UNITYSDK_OFFSET(0x1BE72980)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__3_OFFSET UNITYSDK_OFFSET(0x1BE729D0)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe___c__DisplayClass14_0_TypeDefinitionIndex = 9079;
+	inline static constexpr unsigned int CloudPipe___c__DisplayClass14_0_TypeDefinitionIndex = 9140;
 
 	class CloudPipe___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::MiHoYoCloud::CloudPipe_PipeSendData* responseData; // 0x10
-		::System::String* f; // 0x18
-
+		::System::String* f; // 0x10
+		::MiHoYo::SDK::MiHoYoCloud::CloudPipe_PipeSendData* responseData; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnGetResponse_b__0()
@@ -45,5 +43,6 @@ namespace MiHoYo::SDK::MiHoYoCloud
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__DISPLAYCLASS14_0__ONGETRESPONSE_B__3_OFFSET))(this);
 		}
+
 	};
 }

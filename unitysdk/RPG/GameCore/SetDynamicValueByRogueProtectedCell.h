@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByRogueProtectedCell; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_METHOD_3_16C3B79778D08C09_OFFSET UNITYSDK_OFFSET(0x1E822440)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_METHOD_3_A77A660D2A69FA3C_OFFSET UNITYSDK_OFFSET(0x1E822480)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E822470)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7C880)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7C890)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7C850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByRogueProtectedCell_TypeDefinitionIndex = 21541;
+	inline static constexpr unsigned int SetDynamicValueByRogueProtectedCell_TypeDefinitionIndex = 21788;
 
 	class SetDynamicValueByRogueProtectedCell : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_16C3B79778D08C09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_METHOD_3_16C3B79778D08C09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A77A660D2A69FA3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_METHOD_3_A77A660D2A69FA3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRogueProtectedCell*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEPROTECTEDCELL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

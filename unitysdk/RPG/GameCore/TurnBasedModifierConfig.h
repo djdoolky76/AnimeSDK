@@ -7,8 +7,7 @@
 #include "unitysdk/RPG/GameCore/ModifierWorking.h"
 #include "unitysdk/RPG/GameCore/SkillTargetType.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AbilityPropertyRangeGroup; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
@@ -21,44 +20,33 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TurnBasedModifierAdditionConfig; }
 namespace RPG::GameCore { class TurnBasedModifierCallbackConfig; }
 namespace RPG::GameCore { class TurnBasedModifierCallbackPriority; }
+namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace RPG::GameCore { class TurnBasedModifierUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CHECKBEHAVIORFLAGLISTCONTAINS_OFFSET UNITYSDK_OFFSET(0x1D29EA40)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_1_OFFSET UNITYSDK_OFFSET(0x1D29EC20)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_2_OFFSET UNITYSDK_OFFSET(0x1D29ED90)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x1D29EB30)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D29DDA0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D29DC40)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACKINFO_OFFSET UNITYSDK_OFFSET(0x1D29EF10)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D29EF60)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x1D29F010)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIMINIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x1D29F030)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIPOSITION_OFFSET UNITYSDK_OFFSET(0x1D29F050)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_HASCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D29EFC0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D29F060)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29DD10)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC363C0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CHECKBEHAVIORFLAGLISTCONTAINS_OFFSET UNITYSDK_OFFSET(0x1DC35DA0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_1_OFFSET UNITYSDK_OFFSET(0x1DC35F80)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_2_OFFSET UNITYSDK_OFFSET(0x1DC360F0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x1DC35E90)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC35050)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1DC350E0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC34F80)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACKINFO_OFFSET UNITYSDK_OFFSET(0x1DC36270)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DC362C0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x1DC36370)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIMINIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x1DC36390)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIPOSITION_OFFSET UNITYSDK_OFFSET(0x1DC363B0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_HASCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DC36320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierConfig_TypeDefinitionIndex = 18015;
+	inline static constexpr unsigned int TurnBasedModifierConfig_TypeDefinitionIndex = 18229;
 
 	class TurnBasedModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet__ModifierEventNameList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x4FF0);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet__ModifierEventPriorityNameList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x4FF8);
-		}
-		static ::System::Boolean* StaticGet_EnableInlineCheck()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x17F0);
-		}
 		::System::Int32 LifeTime; // 0x38
 		::System::Int32 MaxLayer; // 0x3C
 		::RPG::GameCore::DynamicFloat* LayerAddWhenStack; // 0x40
@@ -68,8 +56,10 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetSelectRestrict; // 0x58
 		::RPG::GameCore::SkillTargetType TargetSelectRestrictType; // 0x60
 		::System::Boolean ApplyBehaviorFlagBindEffects; // 0x64
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* BehaviorFlagList; // 0x68
 		::System::Boolean UseSnapshotEntity; // 0x70
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::TurnBasedModifierUIConfig* UIConfig; // 0x78
 		::System::String* EffectPriority; // 0x80
 		::RPG::GameCore::ModifierAffectedPreshowConfig* ModifierAffectedPreshowConfig; // 0x88
@@ -82,25 +72,39 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TurnBasedModifierCallbackPriority*>* _PriorityList; // 0xC0
 		::RPG::GameCore::TurnBasedModifierAdditionConfig* AdditionConfig; // 0xC8
 		::System::Boolean IsGlobalModifier; // 0xD0
+		static ::Il2CppArray<::System::String*>** StaticGet__ModifierEventPriorityNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TurnBasedModifierConfig")->GetStaticField(0x25A80);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet__ModifierEventNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TurnBasedModifierConfig")->GetStaticField(0x25A88);
+		}
+
+		static ::System::Boolean* StaticGet_EnableInlineCheck()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TurnBasedModifierConfig")->GetStaticField(0x80F0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TurnBasedModifierConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TurnBasedModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierConfig* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::TurnBasedModifierConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TurnBasedModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean CheckBehaviorFlagListContains(::RPG::GameCore::ModifierBehaviorFlag a1)
@@ -152,5 +156,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::ModifierUIPosition(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIPOSITION_OFFSET))(this);
 		}
+
 	};
 }

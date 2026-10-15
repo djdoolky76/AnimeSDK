@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierModifyDiceSurfaceWeightByRarityConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_METHOD_3_2E5C277B61DD45FE_OFFSET UNITYSDK_OFFSET(0x1EEFA980)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_METHOD_3_F3EA8CC3EC5FE6E2_OFFSET UNITYSDK_OFFSET(0x1EEFA930)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFA970)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9EA360)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9EA370)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9EA320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierModifyDiceSurfaceWeightByRarityConfig_TypeDefinitionIndex = 17725;
+	inline static constexpr unsigned int RogueModifierModifyDiceSurfaceWeightByRarityConfig_TypeDefinitionIndex = 17937;
 
 	class RogueModifierModifyDiceSurfaceWeightByRarityConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3EA8CC3EC5FE6E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_METHOD_3_F3EA8CC3EC5FE6E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2E5C277B61DD45FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_METHOD_3_2E5C277B61DD45FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyDiceSurfaceWeightByRarityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYDICESURFACEWEIGHTBYRARITYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

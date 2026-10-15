@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7FD80)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7FDB0)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7BF90)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7FC90)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3A80)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3990)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3AB0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEFCE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_OnWebViewPopupBrowserCreate_TypeDefinitionIndex = 7777;
+	inline static constexpr unsigned int WebDelegate_OnWebViewPopupBrowserCreate_TypeDefinitionIndex = 7821;
 
 	class WebDelegate_OnWebViewPopupBrowserCreate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPOPUPBROWSERCREATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

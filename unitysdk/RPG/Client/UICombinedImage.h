@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
@@ -9,36 +8,35 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UICOMBINEDIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17004250)
-#define RPG_CLIENT_UICOMBINEDIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x17003F90)
-#define RPG_CLIENT_UICOMBINEDIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x170042B0)
-#define RPG_CLIENT_UICOMBINEDIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x17003A00)
-#define RPG_CLIENT_UICOMBINEDIMAGE__CLEARTEXTURES_OFFSET UNITYSDK_OFFSET(0x17003FE0)
-#define RPG_CLIENT_UICOMBINEDIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17004480)
-#define RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET UNITYSDK_OFFSET(0x17004310)
-#define RPG_CLIENT_UICOMBINEDIMAGE__LOADCOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0x17003C40)
-#define RPG_CLIENT_UICOMBINEDIMAGE__RELEASECOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0x17003B60)
-#define RPG_CLIENT_UICOMBINEDIMAGE__SAFEINIT_OFFSET UNITYSDK_OFFSET(0x17003A80)
-#define RPG_CLIENT_UICOMBINEDIMAGE__SETUPTEXTURES_OFFSET UNITYSDK_OFFSET(0x17003DC0)
+#define RPG_CLIENT_UICOMBINEDIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE37B590)
+#define RPG_CLIENT_UICOMBINEDIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE37B730)
+#define RPG_CLIENT_UICOMBINEDIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0xE37B2D0)
+#define RPG_CLIENT_UICOMBINEDIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE37B5F0)
+#define RPG_CLIENT_UICOMBINEDIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0xE37AD40)
+#define RPG_CLIENT_UICOMBINEDIMAGE__CLEARTEXTURES_OFFSET UNITYSDK_OFFSET(0xE37B320)
+#define RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET UNITYSDK_OFFSET(0xE37B650)
+#define RPG_CLIENT_UICOMBINEDIMAGE__LOADCOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0xE37AF80)
+#define RPG_CLIENT_UICOMBINEDIMAGE__RELEASECOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0xE37AEA0)
+#define RPG_CLIENT_UICOMBINEDIMAGE__SAFEINIT_OFFSET UNITYSDK_OFFSET(0xE37ADC0)
+#define RPG_CLIENT_UICOMBINEDIMAGE__SETUPTEXTURES_OFFSET UNITYSDK_OFFSET(0xE37B100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UICombinedImage_TypeDefinitionIndex = 69046;
+	inline static constexpr unsigned int UICombinedImage_TypeDefinitionIndex = 69082;
 
 	class UICombinedImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* _TEXTURE_POPERTY_PREFIX; // 0x0
-		// static const ::System::String* _SHADER_PATH; // 0x0
-		// static const ::System::Int32 _MAX_TEXTURE_COUNT = 0x7; // 0x0
 		::UnityEngine::UI::Image* _Image; // 0x18
 		::UnityEngine::Material* _Material; // 0x20
 		::UnityEngine::Shader* _Shader; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* _CombinedTextures; // 0x30
-
+		// static const ::System::String* _TEXTURE_POPERTY_PREFIX; // 0x0
+		// static const ::System::String* _SHADER_PATH; // 0x0
+		// static const ::System::Object _MAX_TEXTURE_COUNT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Show(::System::Collections::Generic::List_1<::System::String*>* a1)
@@ -90,5 +88,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET))(this, a1);
 		}
+
 	};
 }

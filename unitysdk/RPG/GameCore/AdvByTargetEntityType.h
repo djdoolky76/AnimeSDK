@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvByTargetEntityType; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVBYTARGETENTITYTYPE_METHOD_4_85EE051D6DA73AD9_OFFSET UNITYSDK_OFFSET(0x1D6B1B90)
-#define RPG_GAMECORE_ADVBYTARGETENTITYTYPE_METHOD_4_879DDE1EEF74150C_OFFSET UNITYSDK_OFFSET(0x1D6B1BD0)
-#define RPG_GAMECORE_ADVBYTARGETENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B1BC0)
+#define RPG_GAMECORE_ADVBYTARGETENTITYTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36B040)
+#define RPG_GAMECORE_ADVBYTARGETENTITYTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36B050)
+#define RPG_GAMECORE_ADVBYTARGETENTITYTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36B010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvByTargetEntityType_TypeDefinitionIndex = 20356;
+	inline static constexpr unsigned int AdvByTargetEntityType_TypeDefinitionIndex = 20595;
 
 	class AdvByTargetEntityType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYTARGETENTITYTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYTARGETENTITYTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_85EE051D6DA73AD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByTargetEntityType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvByTargetEntityType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByTargetEntityType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYTARGETENTITYTYPE_METHOD_4_85EE051D6DA73AD9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvByTargetEntityType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYTARGETENTITYTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_879DDE1EEF74150C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByTargetEntityType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvByTargetEntityType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByTargetEntityType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYTARGETENTITYTYPE_METHOD_4_879DDE1EEF74150C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvByTargetEntityType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYTARGETENTITYTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

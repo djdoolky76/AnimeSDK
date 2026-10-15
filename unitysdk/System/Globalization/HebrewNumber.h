@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Globalization/HebrewNumberParsingContext.h"
 #include "unitysdk/System/Globalization/HebrewNumberParsingState.h"
-#include "unitysdk/System/Globalization/HebrewNumber_HS.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Globalization/HebrewNumberParsingContext.h"
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Globalization { class HebrewNumber_HebrewValue; }
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x18D7EC00)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET UNITYSDK_OFFSET(0x18D7ED00)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18D8A040)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D8A5E0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C204570)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x1C1F8BE0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET UNITYSDK_OFFSET(0x1C1F8CE0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C203FD0)
 
 namespace System::Globalization
 {
@@ -20,22 +18,24 @@ namespace System::Globalization
 	class HebrewNumber : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Globalization::HebrewNumber_HebrewValue*>** StaticGet_HebrewValues()
+		static ::Il2CppArray<::Il2CppArray<::System::Object*>*>** StaticGet_NumberPasingState()
 		{
-			return (::Il2CppArray<::System::Globalization::HebrewNumber_HebrewValue*>**)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x8250);
+			return (::Il2CppArray<::Il2CppArray<::System::Object*>*>**)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x16E00);
 		}
-		static ::Il2CppArray<::Il2CppArray<::System::Globalization::HebrewNumber_HS>*>** StaticGet_NumberPasingState()
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_HebrewValues()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Globalization::HebrewNumber_HS>*>**)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x8258);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x16E08);
 		}
+
 		static ::System::Char* StaticGet_maxHebrewNumberCh()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x2240);
+			return (::System::Char*)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x4D70);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBER_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* ToString(::System::Int32 a1)
@@ -43,14 +43,15 @@ namespace System::Globalization
 			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET))(a1);
 		}
 
-		static ::System::Globalization::HebrewNumberParsingState ParseByChar(::System::Char a1, ::System::Globalization::HebrewNumberParsingContext& a2)
+		static ::System::Globalization::HebrewNumberParsingState ParseByChar(::System::Char a1, ::System::Globalization::HebrewNumberParsingContext a2)
 		{
-			return ((::System::Globalization::HebrewNumberParsingState(*)(::System::Char, ::System::Globalization::HebrewNumberParsingContext&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET))(a1, a2);
+			return ((::System::Globalization::HebrewNumberParsingState(*)(::System::Char, ::System::Globalization::HebrewNumberParsingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean IsDigit(::System::Char a1)
 		{
 			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET))(a1);
 		}
+
 	};
 }

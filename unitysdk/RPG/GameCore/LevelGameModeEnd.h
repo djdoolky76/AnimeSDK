@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelGameModeEnd; }
 
-#define RPG_GAMECORE_LEVELGAMEMODEEND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD24A00)
-#define RPG_GAMECORE_LEVELGAMEMODEEND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD249B0)
-#define RPG_GAMECORE_LEVELGAMEMODEEND_INIT_OFFSET UNITYSDK_OFFSET(0x1DD24970)
-#define RPG_GAMECORE_LEVELGAMEMODEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD24A50)
+#define RPG_GAMECORE_LEVELGAMEMODEEND_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E4350)
+#define RPG_GAMECORE_LEVELGAMEMODEEND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E4300)
+#define RPG_GAMECORE_LEVELGAMEMODEEND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E42B0)
+#define RPG_GAMECORE_LEVELGAMEMODEEND_INIT_OFFSET UNITYSDK_OFFSET(0xE6E4270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGameModeEnd_TypeDefinitionIndex = 56877;
+	inline static constexpr unsigned int LevelGameModeEnd_TypeDefinitionIndex = 56698;
 
-	class LevelGameModeEnd : public ::Class_1_BF7A075734D15E98
+	class LevelGameModeEnd : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODEEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODEEND_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelGameModeEnd* Init()
@@ -34,5 +35,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODEEND_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,39 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightBattleEventHintType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class GridFightShowBattleEventHint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_METHOD_3_9CFD50408E4DA2B5_OFFSET UNITYSDK_OFFSET(0x1D3B9400)
-#define RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_METHOD_3_ED47131FF80E09EC_OFFSET UNITYSDK_OFFSET(0x1D3B9440)
-#define RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B9430)
+#define RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D714330)
+#define RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D714340)
+#define RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D714300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowBattleEventHint_TypeDefinitionIndex = 22970;
+	inline static constexpr unsigned int GridFightShowBattleEventHint_TypeDefinitionIndex = 23232;
 
 	class GridFightShowBattleEventHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* ActionDelayChangeValue; // 0x18
 		::RPG::GameCore::GridFightBattleEventHintType HintType; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9CFD50408E4DA2B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightShowBattleEventHint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightShowBattleEventHint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightShowBattleEventHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_METHOD_3_9CFD50408E4DA2B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightShowBattleEventHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ED47131FF80E09EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightShowBattleEventHint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightShowBattleEventHint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightShowBattleEventHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_METHOD_3_ED47131FF80E09EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightShowBattleEventHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWBATTLEEVENTHINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatAIEffectEvaluatorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_METHOD_3_856B498FDBF1BAC8_OFFSET UNITYSDK_OFFSET(0x1D81EE10)
-#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_METHOD_3_F39D86E4542A59F4_OFFSET UNITYSDK_OFFSET(0x1D81F920)
-#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81EE00)
+#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D6B60)
+#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D6B70)
+#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D7680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind_TypeDefinitionIndex = 15996;
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind_TypeDefinitionIndex = 16169;
 
 	class DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
@@ -18,20 +18,20 @@ namespace RPG::GameCore
 		::System::UInt32 Num; // 0x10
 		::System::UInt32 Content; // 0x14
 		::System::UInt32 Count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F39D86E4542A59F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_METHOD_3_F39D86E4542A59F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_856B498FDBF1BAC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_METHOD_3_856B498FDBF1BAC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEHASNOFAKIND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

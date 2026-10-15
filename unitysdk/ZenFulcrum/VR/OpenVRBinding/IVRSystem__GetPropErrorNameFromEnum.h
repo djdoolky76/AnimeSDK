@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/ETrackedPropertyError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF59EA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF59F10)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE32D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE3260)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65D860)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65D7E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65D8D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65D850)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetPropErrorNameFromEnum_TypeDefinitionIndex = 37621;
+	inline static constexpr unsigned int IVRSystem__GetPropErrorNameFromEnum_TypeDefinitionIndex = 38918;
 
 	class IVRSystem__GetPropErrorNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke(::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROPERRORNAMEFROMENUM_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

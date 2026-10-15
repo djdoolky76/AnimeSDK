@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/OIPMNNAHIFP.h"
+class GBDODOMIMIF;
+class IPFNLCFACJH;
+
+#define LPOKMKKMGAL_ACFBHGPNMHG_OFFSET UNITYSDK_OFFSET(0xB82F510)
+#define LPOKMKKMGAL_AHKNIGNFOGC_OFFSET UNITYSDK_OFFSET(0xB82F5C0)
+#define LPOKMKKMGAL_BDIAJMKNMKM_OFFSET UNITYSDK_OFFSET(0xB82F610)
+#define LPOKMKKMGAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB82F410)
+#define LPOKMKKMGAL_LEAFDECAGPG_OFFSET UNITYSDK_OFFSET(0xB82F460)
+
+inline static constexpr unsigned int LPOKMKKMGAL_TypeDefinitionIndex = 62772;
+
+	class LPOKMKKMGAL : public ::System::Object
+	{
+	public:
+		::IPFNLCFACJH* AILJGGPJPFN; // 0x10
+		::System::Void _ctor(::IPFNLCFACJH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IPFNLCFACJH*))((::PBYTE)hIl2Cpp + LPOKMKKMGAL_CTOR_OFFSET))(this, a1);
+		}
+
+		::GBDODOMIMIF* LEAFDECAGPG(::OIPMNNAHIFP a1)
+		{
+			return ((::GBDODOMIMIF*(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + LPOKMKKMGAL_LEAFDECAGPG_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 ACFBHGPNMHG(::OIPMNNAHIFP a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + LPOKMKKMGAL_ACFBHGPNMHG_OFFSET))(this, a1);
+		}
+
+		::GBDODOMIMIF* AHKNIGNFOGC(::OIPMNNAHIFP a1)
+		{
+			return ((::GBDODOMIMIF*(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + LPOKMKKMGAL_AHKNIGNFOGC_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 BDIAJMKNMKM(::OIPMNNAHIFP a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + LPOKMKKMGAL_BDIAJMKNMKM_OFFSET))(this, a1);
+		}
+
+	};

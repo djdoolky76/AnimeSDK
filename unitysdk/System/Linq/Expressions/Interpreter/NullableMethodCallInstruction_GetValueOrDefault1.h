@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/NullableMethodCallInstruction.h"
-
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF3F0D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_RUN_OFFSET UNITYSDK_OFFSET(0x1DF3F0E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3EBB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF4120)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF4640)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_RUN_OFFSET UNITYSDK_OFFSET(0x1EDF4650)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NullableMethodCallInstruction_GetValueOrDefault1_TypeDefinitionIndex = 3647;
+	inline static constexpr unsigned int NullableMethodCallInstruction_GetValueOrDefault1_TypeDefinitionIndex = 3648;
 
 	class NullableMethodCallInstruction_GetValueOrDefault1 : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -29,5 +28,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GETVALUEORDEFAULT1_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

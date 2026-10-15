@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseGachaGroupData.h"
 #include "unitysdk/RPG/GameCore/GachaType.h"
-
 namespace RPG::Client { class BaseGachaPoolData; }
 
-#define RPG_CLIENT_GACHAGROUPDATA_GET_DEFAULTGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0x19398920)
-#define RPG_CLIENT_GACHAGROUPDATA_GET_GACHATYPE_OFFSET UNITYSDK_OFFSET(0x193989A0)
-#define RPG_CLIENT_GACHAGROUPDATA_GET_ISMULTIGROUPPOOL_OFFSET UNITYSDK_OFFSET(0x193988C0)
-#define RPG_CLIENT_GACHAGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19398840)
+#define RPG_CLIENT_GACHAGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD089A40)
+#define RPG_CLIENT_GACHAGROUPDATA_GET_DEFAULTGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0xD089B20)
+#define RPG_CLIENT_GACHAGROUPDATA_GET_GACHATYPE_OFFSET UNITYSDK_OFFSET(0xD089BA0)
+#define RPG_CLIENT_GACHAGROUPDATA_GET_ISMULTIGROUPPOOL_OFFSET UNITYSDK_OFFSET(0xD089AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaGroupData_TypeDefinitionIndex = 64378;
+	inline static constexpr unsigned int GachaGroupData_TypeDefinitionIndex = 64318;
 
 	class GachaGroupData : public ::RPG::Client::BaseGachaGroupData
 	{
 	public:
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAGROUPDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAGROUPDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMultiGroupPool()
@@ -36,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::GachaType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAGROUPDATA_GET_GACHATYPE_OFFSET))(this);
 		}
+
 	};
 }

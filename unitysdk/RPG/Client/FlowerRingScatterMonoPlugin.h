@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class FlowerRingScatterBehavior; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_FLOWERRINGSCATTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x190E3140)
+#define RPG_CLIENT_FLOWERRINGSCATTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD041010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlowerRingScatterMonoPlugin_TypeDefinitionIndex = 70570;
+	inline static constexpr unsigned int FlowerRingScatterMonoPlugin_TypeDefinitionIndex = 70606;
 
-	class FlowerRingScatterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FlowerRingScatterBehavior*>
+	class FlowerRingScatterMonoPlugin
 	{
 	public:
 		::UnityEngine::Material* ParticleMaterial; // 0x30
@@ -33,14 +30,15 @@ namespace RPG::Client
 		::System::Single RingThickness; // 0x9C
 		::System::Single GrowProgress; // 0xA0
 		::UnityEngine::Vector2 GrowRandomSpeed; // 0xA4
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture2D* DissolveTexture; // 0xB0
 		::System::Single DissolveTile; // 0xB8
 		::System::Single DissolveProgress; // 0xBC
 		::System::Single DissolveSmoothness; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

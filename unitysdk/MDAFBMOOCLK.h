@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class ANNAJHLHKLD;
+namespace RPG::GameCore { class TaskContext; }
+
+#define MDAFBMOOCLK_CTOR_OFFSET UNITYSDK_OFFSET(0xB886BC0)
+#define MDAFBMOOCLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB886BF0)
+
+inline static constexpr unsigned int MDAFBMOOCLK_TypeDefinitionIndex = 56393;
+
+	class MDAFBMOOCLK
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::ANNAJHLHKLD* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::ANNAJHLHKLD*))((::PBYTE)hIl2Cpp + MDAFBMOOCLK_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDAFBMOOCLK_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

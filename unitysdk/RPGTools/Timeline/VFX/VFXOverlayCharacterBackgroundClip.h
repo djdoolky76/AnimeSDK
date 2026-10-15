@@ -1,68 +1,71 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/VFX/VFXOverlayCharacterBackgroundClip_BackgroundImageMode.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundBehaviour; }
-namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundClip_BackgroundSwitchConfig; }
 namespace RPGTools::Timeline::VFX { class VFXOverlayDissolveConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF35A40)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF35A30)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x1BF359E0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_HASBACKGROUNDSWITCHLIST_OFFSET UNITYSDK_OFFSET(0x1BF35650)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_ISMULTIPLEBACKGROUNDMODE_OFFSET UNITYSDK_OFFSET(0x1BF35A20)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_ISSINGLEBACKGROUNDMODE_OFFSET UNITYSDK_OFFSET(0x1BF355D0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1BF35A00)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_METHOD_4_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x1BF355E0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x1BF359F0)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1BF35A10)
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF35BE0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE94BA10)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE94BB80)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE94BA00)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xE94B9B0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_HASBACKGROUNDSWITCHLIST_OFFSET UNITYSDK_OFFSET(0xE94B620)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_ISMULTIPLEBACKGROUNDMODE_OFFSET UNITYSDK_OFFSET(0xE94B9F0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_ISSINGLEBACKGROUNDMODE_OFFSET UNITYSDK_OFFSET(0xE94B5A0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xE94B9D0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_KBCBDMMJIEL_OFFSET UNITYSDK_OFFSET(0xE94B5B0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xE94B9C0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xE94B9E0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayCharacterBackgroundClip_TypeDefinitionIndex = 49125;
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundClip_TypeDefinitionIndex = 48671;
 
 	class VFXOverlayCharacterBackgroundClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		// static const ::System::String* BackgroundNodeName; // 0x0
-		// static const ::System::String* OverlayCopyNodeName; // 0x0
 		::UnityEngine::GameObject* _effectPrefab_k__BackingField; // 0x18
 		::System::String* effectPath; // 0x20
 		::System::String* UniqueName; // 0x28
 		::System::Boolean DestroyOnClipEnd; // 0x30
 		::System::Boolean UseEffectPluginFollow; // 0x31
+		::System::Byte _padding0[0x6];
 		::UnityEngine::Timeline::TrackAsset* _parentTrack_k__BackingField; // 0x38
 		::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip_BackgroundImageMode ImageMode; // 0x40
 		::UnityEngine::Color BackgroundColor; // 0x44
 		::System::Boolean IsPlayerInvolved; // 0x54
+		::System::Byte _padding1[0x3];
 		::System::String* TexturePath; // 0x58
 		::System::String* TexturePathMale; // 0x60
 		::System::String* TexturePathFemale; // 0x68
-		::System::Collections::Generic::List_1<::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip_BackgroundSwitchConfig*>* BackgroundSwitchList; // 0x70
+		::System::Collections::Generic::List_1<::System::Object*>* BackgroundSwitchList; // 0x70
 		::UnityEngine::Vector2 BackgroundAspect; // 0x78
 		::System::Single FadeInDuration; // 0x80
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* FadeInCurve; // 0x88
 		::System::Single FadeOutDuration; // 0x90
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* FadeOutCurve; // 0x98
 		::System::Boolean UseDissolve; // 0xA0
+		::System::Byte _padding4[0x7];
 		::RPGTools::Timeline::VFX::VFXOverlayDissolveConfig* DissolveConfig; // 0xA8
 		::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundBehaviour* template_; // 0xB0
-
+		// static const ::System::String* BackgroundNodeName; // 0x0
+		// static const ::System::String* OverlayCopyNodeName; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::GameObject* get_effectPrefab()
@@ -100,9 +103,9 @@ namespace RPGTools::Timeline::VFX
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_GET_HASBACKGROUNDSWITCHLIST_OFFSET))(this);
 		}
 
-		::System::String* Method_4_35EA095E1AFDD9C8()
+		::System::String* KBCBDMMJIEL()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_METHOD_4_35EA095E1AFDD9C8_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_KBCBDMMJIEL_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -114,5 +117,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

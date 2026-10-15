@@ -2,32 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
-class Class_1_EAA93C4FF12A6990;
+class ECCKHOLLPPC;
+namespace RPG::Client { class ChatMessageExtendData; }
 namespace RPG::Client { class ChatMessageInviteData; }
 namespace RPG::Client { class FriendBriefData; }
+namespace RPG::Client { class MessageContentBlock; }
 
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B23AE40)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0x1B23B010)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0x1B23AFF0)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B23AD30)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0x1B23B020)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0x1B23B000)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23AD80)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD6974B0)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD697570)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0xD697770)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0xD697750)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD697460)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_RPG_CLIENT_IMESSAGEEXTENDDATAGETTER_GETEXTENDDATA_OFFSET UNITYSDK_OFFSET(0xD697710)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0xD697780)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0xD697760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentInviteBlock_TypeDefinitionIndex = 63315;
+	inline static constexpr unsigned int MessageContentInviteBlock_TypeDefinitionIndex = 63250;
 
 	class MessageContentInviteBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
-		::RPG::Client::ChatMessageInviteData* _InviteData_k__BackingField; // 0x18
-		::RPG::Client::FriendBriefData* _FriendData_k__BackingField; // 0x20
-
-		::System::Void _ctor(::Class_1_EAA93C4FF12A6990* a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::RPG::Client::FriendBriefData* _FriendData_k__BackingField; // 0x18
+		::RPG::Client::ChatMessageInviteData* _InviteData_k__BackingField; // 0x20
+		::System::Void _ctor(::ECCKHOLLPPC* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_EAA93C4FF12A6990*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::ECCKHOLLPPC*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -38,6 +39,11 @@ namespace RPG::Client
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ChatMessageExtendData* RPG_Client_IMessageExtendDataGetter_GetExtendData()
+		{
+			return ((::RPG::Client::ChatMessageExtendData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_RPG_CLIENT_IMESSAGEEXTENDDATAGETTER_GETEXTENDDATA_OFFSET))(this);
 		}
 
 		::RPG::Client::ChatMessageInviteData* get_InviteData()
@@ -59,5 +65,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FriendBriefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

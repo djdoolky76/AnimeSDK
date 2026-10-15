@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDB010)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDB040)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDB000)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDAF90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F655590)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F655510)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6555C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F655580)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__IsDashboardVisible_TypeDefinitionIndex = 37827;
+	inline static constexpr unsigned int IVROverlay__IsDashboardVisible_TypeDefinitionIndex = 39124;
 
 	class IVROverlay__IsDashboardVisible : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__ISDASHBOARDVISIBLE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

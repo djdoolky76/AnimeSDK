@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsCurrentModifierAlive; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_32A68D292907F51C_OFFSET UNITYSDK_OFFSET(0x1CD9A810)
-#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_6D8C9DAC9F80C40F_OFFSET UNITYSDK_OFFSET(0x1CD9A6A0)
-#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_8CDDDC10D13EC1A5_OFFSET UNITYSDK_OFFSET(0x1CD9A7E0)
-#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_8D3D74FC74810EF4_OFFSET UNITYSDK_OFFSET(0x1CD9A660)
-#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9A690)
+#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E0560)
+#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4E06E0)
+#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4E06B0)
+#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4E0570)
+#define RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4E0530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsCurrentModifierAlive_TypeDefinitionIndex = 23436;
+	inline static constexpr unsigned int ByIsCurrentModifierAlive_TypeDefinitionIndex = 23709;
 
 	class ByIsCurrentModifierAlive : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8D3D74FC74810EF4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsCurrentModifierAlive*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsCurrentModifierAlive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_8D3D74FC74810EF4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6D8C9DAC9F80C40F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_6D8C9DAC9F80C40F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8CDDDC10D13EC1A5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsCurrentModifierAlive*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsCurrentModifierAlive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_8CDDDC10D13EC1A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_32A68D292907F51C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsCurrentModifierAlive* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_METHOD_4_32A68D292907F51C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsCurrentModifierAlive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCURRENTMODIFIERALIVE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

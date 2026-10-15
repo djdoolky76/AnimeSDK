@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_A794720E3EA5DFF0;
+class FMIHMGNLBPN;
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD240A0)
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD240E0)
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BD240F0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB6FAA0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB6FAE0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0xDB6FAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 66505;
+	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 66473;
 
 	class PlanetFesAssistantController___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PlanetFesAssistantController___c** StaticGet___9()
+		static ::System::Comparison_1<::FMIHMGNLBPN*>** StaticGet___9__6_0()
 		{
-			return (::RPG::Client::PlanetFesAssistantController___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x60E30);
+			return (::System::Comparison_1<::FMIHMGNLBPN*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22780);
 		}
-		static ::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>** StaticGet___9__6_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x60E38);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22788);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __InitMessages_b__6_0(::Class_1_A794720E3EA5DFF0* a1, ::Class_1_A794720E3EA5DFF0* a2)
+		::System::Int32 __InitMessages_b__6_0(::FMIHMGNLBPN* a1, ::FMIHMGNLBPN* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_A794720E3EA5DFF0*, ::Class_1_A794720E3EA5DFF0*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::FMIHMGNLBPN*, ::FMIHMGNLBPN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

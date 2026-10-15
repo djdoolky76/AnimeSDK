@@ -2,14 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Object.h"
-
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskSource_1; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_1_MemoizeSource_TypeDefinitionIndex = 42799;
+	inline static constexpr unsigned int UniTask_1_MemoizeSource_TypeDefinitionIndex = 38384;
 
 	template <typename T>
 	class UniTask_1_MemoizeSource : public ::System::Object

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABFC0)
-#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9ABFF0)
-#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9A9EC0)
-#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9ABED0)
+#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA80C0)
+#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA7FD0)
+#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA80F0)
+#define MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA5FC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_UnLoadAssetDelegate_TypeDefinitionIndex = 7739;
+	inline static constexpr unsigned int SDKDelegate_UnLoadAssetDelegate_TypeDefinitionIndex = 7783;
 
 	class SDKDelegate_UnLoadAssetDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Object* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_UNLOADASSETDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

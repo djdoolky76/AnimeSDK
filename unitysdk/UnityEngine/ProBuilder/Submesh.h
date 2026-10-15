@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/MeshTopology.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
+namespace UnityEngine::ProBuilder { class Submesh; }
 
-#define UNITYENGINE_PROBUILDER_SUBMESH_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x19241660)
-#define UNITYENGINE_PROBUILDER_SUBMESH_GETSUBMESHES_OFFSET UNITYSDK_OFFSET(0x19207E60)
-#define UNITYENGINE_PROBUILDER_SUBMESH_GET_INDEXES_OFFSET UNITYSDK_OFFSET(0x19241310)
-#define UNITYENGINE_PROBUILDER_SUBMESH_GET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x19241390)
-#define UNITYENGINE_PROBUILDER_SUBMESH_GET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x19241370)
-#define UNITYENGINE_PROBUILDER_SUBMESH_MAPFACEMATERIALSTOSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x19207B90)
-#define UNITYENGINE_PROBUILDER_SUBMESH_SET_INDEXES_OFFSET UNITYSDK_OFFSET(0x19241350)
-#define UNITYENGINE_PROBUILDER_SUBMESH_SET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x192413A0)
-#define UNITYENGINE_PROBUILDER_SUBMESH_SET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x19241380)
-#define UNITYENGINE_PROBUILDER_SUBMESH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19241500)
-#define UNITYENGINE_PROBUILDER_SUBMESH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19241440)
-#define UNITYENGINE_PROBUILDER_SUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x192413B0)
+#define UNITYENGINE_PROBUILDER_SUBMESH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F25F8A0)
+#define UNITYENGINE_PROBUILDER_SUBMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F25F790)
+#define UNITYENGINE_PROBUILDER_SUBMESH_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x1F25FAC0)
+#define UNITYENGINE_PROBUILDER_SUBMESH_GETSUBMESHES_OFFSET UNITYSDK_OFFSET(0x1F225E40)
+#define UNITYENGINE_PROBUILDER_SUBMESH_GET_INDEXES_OFFSET UNITYSDK_OFFSET(0x1F25F6F0)
+#define UNITYENGINE_PROBUILDER_SUBMESH_GET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1F25F770)
+#define UNITYENGINE_PROBUILDER_SUBMESH_GET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x1F25F750)
+#define UNITYENGINE_PROBUILDER_SUBMESH_MAPFACEMATERIALSTOSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1F225B70)
+#define UNITYENGINE_PROBUILDER_SUBMESH_SET_INDEXES_OFFSET UNITYSDK_OFFSET(0x1F25F730)
+#define UNITYENGINE_PROBUILDER_SUBMESH_SET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1F25F780)
+#define UNITYENGINE_PROBUILDER_SUBMESH_SET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x1F25F760)
+#define UNITYENGINE_PROBUILDER_SUBMESH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F25F960)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Submesh_TypeDefinitionIndex = 43248;
+	inline static constexpr unsigned int Submesh_TypeDefinitionIndex = 44440;
 
 	class Submesh : public ::System::Object
 	{
@@ -32,15 +32,14 @@ namespace UnityEngine::ProBuilder
 		::Il2CppArray<::System::Int32>* m_Indexes; // 0x10
 		::UnityEngine::MeshTopology m_Topology; // 0x18
 		::System::Int32 m_SubmeshIndex; // 0x1C
-
 		::System::Void _ctor(::System::Int32 a1, ::UnityEngine::MeshTopology a2, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::MeshTopology, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SUBMESH__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::MeshTopology, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SUBMESH_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Mesh* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SUBMESH__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SUBMESH_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::System::Int32>* get_indexes()
@@ -92,5 +91,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SUBMESH_MAPFACEMATERIALSTOSUBMESHINDEX_OFFSET))(a1);
 		}
+
 	};
 }

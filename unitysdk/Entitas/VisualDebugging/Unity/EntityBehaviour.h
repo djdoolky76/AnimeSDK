@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
+namespace Entitas::VisualDebugging::Unity { class EntityBehaviour; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1EED27E0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x1EED27F0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x1EED2800)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1EED3000)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x1EED2B50)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EED2E80)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED3270)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x16754190)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x16753700)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x16753710)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x16753720)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16753F20)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x16753A70)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x16753DA0)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 10007;
+	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 10065;
 
 	class EntityBehaviour : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,10 +26,9 @@ namespace Entitas::VisualDebugging::Unity
 		::Entitas::IEntity* _entity; // 0x20
 		::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>* _entityBehaviourPool; // 0x28
 		::System::String* _cachedName; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::Entitas::IContext* get_context()
@@ -61,5 +60,6 @@ namespace Entitas::VisualDebugging::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

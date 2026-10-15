@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7E370)
-#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7E3E0)
-#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7D120)
-#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7E280)
+#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF2070)
+#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF1F80)
+#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF20E0)
+#define MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF0E30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_CallJSFunctionDelegate_TypeDefinitionIndex = 7800;
+	inline static constexpr unsigned int WebDelegate_CallJSFunctionDelegate_TypeDefinitionIndex = 7844;
 
 	class WebDelegate_CallJSFunctionDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CALLJSFUNCTIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class LJOLNGEEKFE;
 
-class Class_1_F426C21C7E713E8A;
-
-#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19362350)
-#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET UNITYSDK_OFFSET(0x193674C0)
+#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD054880)
+#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD0594D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 64315;
+	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 64253;
 
 	class FriendModule___c__DisplayClass203_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 uid; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TryGetPlayerBriefData_b__0(::Class_1_F426C21C7E713E8A* a1)
+		::System::Boolean _TryGetPlayerBriefData_b__0(::LJOLNGEEKFE* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F426C21C7E713E8A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::LJOLNGEEKFE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

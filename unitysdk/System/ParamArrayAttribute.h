@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_PARAMARRAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0C980)
+#define SYSTEM_PARAMARRAYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2609C0)
 
 namespace System
 {
@@ -13,7 +13,8 @@ namespace System
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMARRAYATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMARRAYATTRIBUTE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

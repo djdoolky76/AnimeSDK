@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_BC45DABE355FCCD1;
+class IJDMNPNMMPI;
 namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class RogueTournRelicCocoonTeamSaveData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C7B6A30)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_GET_COCOONID_OFFSET UNITYSDK_OFFSET(0x1C7B71E0)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_SAVEDATA_OFFSET UNITYSDK_OFFSET(0x1C7B6AF0)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_SET_COCOONID_OFFSET UNITYSDK_OFFSET(0x1C7B71F0)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_TRYGETSAVEDATA_OFFSET UNITYSDK_OFFSET(0x1C7B68E0)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7B6F10)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA__INIT_OFFSET UNITYSDK_OFFSET(0x1C7B6F50)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE0302B0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0307C0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_GET_COCOONID_OFFSET UNITYSDK_OFFSET(0xE030A90)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_SAVEDATA_OFFSET UNITYSDK_OFFSET(0xE030370)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_SET_COCOONID_OFFSET UNITYSDK_OFFSET(0xE030AA0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_TRYGETSAVEDATA_OFFSET UNITYSDK_OFFSET(0xE030160)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA__INIT_OFFSET UNITYSDK_OFFSET(0xE030800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonTeamSaveData_TypeDefinitionIndex = 67770;
+	inline static constexpr unsigned int RogueTournRelicCocoonTeamSaveData_TypeDefinitionIndex = 67772;
 
 	class RogueTournRelicCocoonTeamSaveData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* AvatarList; // 0x10
 		::System::UInt32 _CocoonID_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::RogueTournRelicCocoonTeamSaveData* TryGetSaveData(::System::UInt32 a1)
@@ -39,14 +38,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_SAVEDATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::RogueTournRelicCocoonTeamSaveData* Create(::System::UInt32 a1, ::System::Collections::Generic::List_1<::Class_1_BC45DABE355FCCD1*>* a2)
+		static ::RPG::Client::RogueTournRelicCocoonTeamSaveData* Create(::System::UInt32 a1, ::System::Collections::Generic::List_1<::IJDMNPNMMPI*>* a2)
 		{
-			return ((::RPG::Client::RogueTournRelicCocoonTeamSaveData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_BC45DABE355FCCD1*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_CREATE_OFFSET))(a1, a2);
+			return ((::RPG::Client::RogueTournRelicCocoonTeamSaveData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::IJDMNPNMMPI*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void _Init(::System::Collections::Generic::List_1<::Class_1_BC45DABE355FCCD1*>* a1)
+		::System::Void _Init(::System::Collections::Generic::List_1<::IJDMNPNMMPI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_BC45DABE355FCCD1*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA__INIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::IJDMNPNMMPI*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA__INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CocoonID()
@@ -58,5 +57,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONTEAMSAVEDATA_SET_COCOONID_OFFSET))(this, a1);
 		}
+
 	};
 }

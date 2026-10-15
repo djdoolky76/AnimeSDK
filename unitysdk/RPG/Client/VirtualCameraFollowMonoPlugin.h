@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client { class VirtualCameraFollowBehavior; }
 namespace RPG::CustomRP { class CRPVirtualCameraVolumn; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C812320)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1C812380)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8123D0)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4493B0)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE449460)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE449410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 70313;
+	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 70349;
 
-	class VirtualCameraFollowMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VirtualCameraFollowBehavior*>
+	class VirtualCameraFollowMonoPlugin
 	{
 	public:
 		::System::Int32 ExampleProperty; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Rendering::CRPVirtualCamera* VC; // 0x38
 		::UnityEngine::Transform* targetObject; // 0x40
 		::UnityEngine::Transform* ScreenObject; // 0x48
 		::System::Boolean useRotateVC; // 0x50
 		::System::Boolean useAnimateBlend; // 0x51
+		::System::Byte _padding1[0x6];
 		::UnityEngine::Transform* ReferrenceCameraTrans; // 0x58
 		::UnityEngine::Transform* MainCamera; // 0x60
 		::System::Boolean UseFOVCorrection; // 0x68
+		::System::Byte _padding2[0x3];
 		::System::Single DefaultFOV; // 0x6C
 		::System::Single QuadRatio; // 0x70
 		::System::Boolean UseFakeRT; // 0x74
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Transform* ScreenCornerA; // 0x78
 		::UnityEngine::Transform* ScreenCornerB; // 0x80
 		::UnityEngine::Transform* ScreenCornerC; // 0x88
@@ -38,10 +39,9 @@ namespace RPG::Client
 		::RPG::CustomRP::CRPVirtualCameraVolumn* Volumn; // 0x98
 		::System::Int32 VCIndex; // 0xA0
 		::System::Single fadeRate; // 0xA4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
@@ -53,5 +53,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

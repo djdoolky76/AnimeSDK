@@ -1,71 +1,72 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class CityShopInfoScNotify; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_CITYSHOPINFOSCNOTIFY_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E058160)
-#define PROTO_CITYSHOPINFOSCNOTIFY_CLONE_OFFSET UNITYSDK_OFFSET(0x1E057D20)
-#define PROTO_CITYSHOPINFOSCNOTIFY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E057E40)
-#define PROTO_CITYSHOPINFOSCNOTIFY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E057DF0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E057F20)
-#define PROTO_CITYSHOPINFOSCNOTIFY_GET_EXP_OFFSET UNITYSDK_OFFSET(0x1E057D90)
-#define PROTO_CITYSHOPINFOSCNOTIFY_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1E057DB0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1E057C90)
-#define PROTO_CITYSHOPINFOSCNOTIFY_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1E057DD0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_GET_TAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x1E057D70)
-#define PROTO_CITYSHOPINFOSCNOTIFY_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E058400)
-#define PROTO_CITYSHOPINFOSCNOTIFY_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E0583B0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E057CC0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_SET_EXP_OFFSET UNITYSDK_OFFSET(0x1E057DA0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1E057DC0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1E057DE0)
-#define PROTO_CITYSHOPINFOSCNOTIFY_SET_TAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x1E057D80)
-#define PROTO_CITYSHOPINFOSCNOTIFY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E057F70)
-#define PROTO_CITYSHOPINFOSCNOTIFY_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E057FD0)
-#define PROTO_CITYSHOPINFOSCNOTIFY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0584A0)
-#define PROTO_CITYSHOPINFOSCNOTIFY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E057CE0)
-#define PROTO_CITYSHOPINFOSCNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E057CD0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFBC240)
+#define PROTO_CITYSHOPINFOSCNOTIFY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBC5A0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFBBE00)
+#define PROTO_CITYSHOPINFOSCNOTIFY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFBBDC0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBBDB0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFBBF20)
+#define PROTO_CITYSHOPINFOSCNOTIFY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFBBED0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFBC000)
+#define PROTO_CITYSHOPINFOSCNOTIFY_GET_EXP_OFFSET UNITYSDK_OFFSET(0x1DFBBE90)
+#define PROTO_CITYSHOPINFOSCNOTIFY_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1DFBBE50)
+#define PROTO_CITYSHOPINFOSCNOTIFY_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFBBD70)
+#define PROTO_CITYSHOPINFOSCNOTIFY_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1DFBBEB0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_GET_TAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x1DFBBE70)
+#define PROTO_CITYSHOPINFOSCNOTIFY_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFBC500)
+#define PROTO_CITYSHOPINFOSCNOTIFY_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFBC4B0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFBBDA0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_SET_EXP_OFFSET UNITYSDK_OFFSET(0x1DFBBEA0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1DFBBE60)
+#define PROTO_CITYSHOPINFOSCNOTIFY_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1DFBBEC0)
+#define PROTO_CITYSHOPINFOSCNOTIFY_SET_TAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x1DFBBE80)
+#define PROTO_CITYSHOPINFOSCNOTIFY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBC050)
+#define PROTO_CITYSHOPINFOSCNOTIFY_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBC0B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int CityShopInfoScNotify_TypeDefinitionIndex = 33533;
+	inline static constexpr unsigned int CityShopInfoScNotify_TypeDefinitionIndex = 34187;
 
 	class CityShopInfoScNotify : public ::System::Object
 	{
 	public:
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::System::UInt64 takenLevelReward_; // 0x18
+		::System::UInt32 shopId_; // 0x20
+		::System::UInt32 exp_; // 0x24
+		::System::UInt32 level_; // 0x28
 		static ::Google::Protobuf::MessageParser_1<::Proto::CityShopInfoScNotify*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::CityShopInfoScNotify*>**)Il2CppClass::FromTypeDefinitionIndex(CityShopInfoScNotify_TypeDefinitionIndex)->GetStaticField(0x59600);
+			return (::Google::Protobuf::MessageParser_1<::Proto::CityShopInfoScNotify*>**)UnitySDK::FromName("Proto", "CityShopInfoScNotify")->GetStaticField(0x419C0);
 		}
-		// static const ::System::Int32 TakenLevelRewardFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 ExpFieldNumber = 0x7; // 0x0
-		// static const ::System::Int32 LevelFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 ShopIdFieldNumber = 0x8; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 level_; // 0x18
-		::System::UInt32 shopId_; // 0x1C
-		::System::UInt32 exp_; // 0x20
-		::System::UInt64 takenLevelReward_; // 0x28
 
+		// static const ::System::Object LevelFieldNumber; // 0x0
+		// static const ::System::Object TakenLevelRewardFieldNumber; // 0x0
+		// static const ::System::Object ExpFieldNumber; // 0x0
+		// static const ::System::Object ShopIdFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::CityShopInfoScNotify* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::CityShopInfoScNotify*))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::CityShopInfoScNotify*))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::CityShopInfoScNotify*>* get_Parser()
@@ -81,6 +82,16 @@ namespace Proto
 		::Proto::CityShopInfoScNotify* Clone()
 		{
 			return ((::Proto::CityShopInfoScNotify*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_CLONE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_SET_LEVEL_OFFSET))(this, a1);
 		}
 
 		::System::UInt64 get_TakenLevelReward()
@@ -101,16 +112,6 @@ namespace Proto
 		::System::Void set_Exp(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_SET_EXP_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_Level()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_GET_LEVEL_OFFSET))(this);
-		}
-
-		::System::Void set_Level(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_SET_LEVEL_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ShopId()
@@ -162,5 +163,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

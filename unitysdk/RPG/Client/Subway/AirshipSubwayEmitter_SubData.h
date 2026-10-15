@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::Subway { class AirshipSubway; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirshipSubwayEmitter_SubData_TypeDefinitionIndex = 80830;
+	inline static constexpr unsigned int AirshipSubwayEmitter_SubData_TypeDefinitionIndex = 82210;
 
 	struct alignas(8) AirshipSubwayEmitter_SubData
 	{
 		::System::Single Distance; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::Client::Subway::AirshipSubway* Prefab; // 0x18
 	};
 }

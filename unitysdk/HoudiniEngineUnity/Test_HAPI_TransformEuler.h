@@ -2,27 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_TransformEuler.h"
 #include "unitysdk/System/Object.h"
+namespace HoudiniEngineUnity { class Test_HAPI_TransformEuler; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1EEECE50)
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEECE30)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B991FA0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B991FC0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_TransformEuler_TypeDefinitionIndex = 39409;
+	inline static constexpr unsigned int Test_HAPI_TransformEuler_TypeDefinitionIndex = 40706;
 
 	class Test_HAPI_TransformEuler : public ::System::Object
 	{
 	public:
 		::HoudiniEngineUnity::HAPI_TransformEuler self; // 0x10
-
 		::System::Void _ctor(::HoudiniEngineUnity::HAPI_TransformEuler a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HAPI_TransformEuler))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HAPI_TransformEuler))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_HAPI_TransformEuler*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

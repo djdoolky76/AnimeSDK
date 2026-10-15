@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace ZXing::Aztec::Internal { class Token; }
 
-namespace ZXing::Common { class BitArray; }
-
-#define ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET UNITYSDK_OFFSET(0x16D42E10)
-#define ZXING_AZTEC_INTERNAL_TOKEN_ADD_OFFSET UNITYSDK_OFFSET(0x16D42D70)
-#define ZXING_AZTEC_INTERNAL_TOKEN_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x16D43060)
-#define ZXING_AZTEC_INTERNAL_TOKEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D43070)
-#define ZXING_AZTEC_INTERNAL_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3C720)
+#define ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET UNITYSDK_OFFSET(0x1F6756F0)
+#define ZXING_AZTEC_INTERNAL_TOKEN_ADD_OFFSET UNITYSDK_OFFSET(0x1F675650)
+#define ZXING_AZTEC_INTERNAL_TOKEN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F675950)
+#define ZXING_AZTEC_INTERNAL_TOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F66F010)
+#define ZXING_AZTEC_INTERNAL_TOKEN_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x1F675940)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int Token_TypeDefinitionIndex = 7008;
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 7017;
 
 	class Token : public ::System::Object
 	{
 	public:
+		::ZXing::Aztec::Internal::Token* previous; // 0x10
 		static ::ZXing::Aztec::Internal::Token** StaticGet_EMPTY()
 		{
-			return (::ZXing::Aztec::Internal::Token**)Il2CppClass::FromTypeDefinitionIndex(Token_TypeDefinitionIndex)->GetStaticField(0x30240);
+			return (::ZXing::Aztec::Internal::Token**)UnitySDK::FromName("ZXing.Aztec.Internal", "Token")->GetStaticField(0x44500);
 		}
-		::ZXing::Aztec::Internal::Token* previous; // 0x10
 
 		::System::Void _ctor(::ZXing::Aztec::Internal::Token* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Aztec::Internal::Token*))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_TOKEN__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Aztec::Internal::Token*))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_TOKEN_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_TOKEN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_TOKEN_CCTOR_OFFSET))();
 		}
 
 		::ZXing::Aztec::Internal::Token* get_Previous()
@@ -47,5 +46,6 @@ namespace ZXing::Aztec::Internal
 		{
 			return ((::ZXing::Aztec::Internal::Token*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

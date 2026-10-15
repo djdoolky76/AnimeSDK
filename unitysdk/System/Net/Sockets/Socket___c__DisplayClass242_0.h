@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class IOAsyncResult; }
 
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0__BEGINSENDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1B9734E0)
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B96FB50)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F059580)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0__BEGINSENDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1F05CF10)
 
 namespace System::Net::Sockets
 {
@@ -15,15 +14,15 @@ namespace System::Net::Sockets
 	{
 	public:
 		::System::Int32 sent_so_far; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _BeginSendCallback_b__0(::System::IOAsyncResult* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IOAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS242_0__BEGINSENDCALLBACK_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

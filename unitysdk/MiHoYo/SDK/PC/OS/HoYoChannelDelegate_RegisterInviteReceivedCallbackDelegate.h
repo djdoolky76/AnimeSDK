@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelInviteReceivedResult; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ABC7B40)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ABC7B70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ABC7B30)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2751D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF89A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF8930)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF89D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF0C50)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_RegisterInviteReceivedCallbackDelegate_TypeDefinitionIndex = 8511;
+	inline static constexpr unsigned int HoYoChannelDelegate_RegisterInviteReceivedCallbackDelegate_TypeDefinitionIndex = 8571;
 
 	class HoYoChannelDelegate_RegisterInviteReceivedCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteReceivedResult*>* a1)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERINVITERECEIVEDCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

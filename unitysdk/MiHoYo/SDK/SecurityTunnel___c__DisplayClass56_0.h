@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/SecurityTunnel_PacketResponseCallback.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MiHoYo/SDK/SecurityTunnel_PacketResponseCallback.h"
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C9880)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__SAFEDEQUEUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1C6CE940)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB041FD0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__SAFEDEQUEUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xB048860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass56_0_TypeDefinitionIndex = 46883;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass56_0_TypeDefinitionIndex = 46423;
 
 	class SecurityTunnel___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
 		::System::UInt64 id; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _SafeDequeueCallback_b__0(::MiHoYo::SDK::SecurityTunnel_PacketResponseCallback a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketResponseCallback))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__SAFEDEQUEUECALLBACK_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

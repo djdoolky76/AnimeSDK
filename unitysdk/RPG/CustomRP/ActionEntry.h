@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 namespace UnityEngine { class MonoBehaviour; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ActionEntry_TypeDefinitionIndex = 37072;
+	inline static constexpr unsigned int ActionEntry_TypeDefinitionIndex = 37757;
 
 	struct alignas(8) ActionEntry
 	{

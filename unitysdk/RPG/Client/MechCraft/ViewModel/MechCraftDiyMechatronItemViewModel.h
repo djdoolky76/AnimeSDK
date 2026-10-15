@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+class APJDGABPDGH;
+class EJCLAFODBMD;
+namespace System { class String; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD673AF0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD673AC0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xD673AD0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_MECHATRONID_OFFSET UNITYSDK_OFFSET(0xD673AA0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xD673AB0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_SETSELECTED_OFFSET UNITYSDK_OFFSET(0xD673B20)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xD673AE0)
+
+namespace RPG::Client::MechCraft::ViewModel
+{
+	inline static constexpr unsigned int MechCraftDiyMechatronItemViewModel_TypeDefinitionIndex = 79627;
+
+	class MechCraftDiyMechatronItemViewModel : public ::System::Object
+	{
+	public:
+		::System::String* _IconPath_k__BackingField; // 0x10
+		::EJCLAFODBMD* _QueryUserPrefsService; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x20
+		::System::Boolean _IsSelected_k__BackingField; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _MechatronID_k__BackingField; // 0x34
+		::System::Void _ctor(::EJCLAFODBMD* a1, ::APJDGABPDGH* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::EJCLAFODBMD*, ::APJDGABPDGH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::UInt32 get_MechatronID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_MECHATRONID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSelected()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_GET_ISSELECTED_OFFSET))(this);
+		}
+
+		::System::Void set_IsSelected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_SET_ISSELECTED_OFFSET))(this, a1);
+		}
+
+		::System::Void SetSelected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONITEMVIEWMODEL_SETSELECTED_OFFSET))(this, a1);
+		}
+
+	};
+}

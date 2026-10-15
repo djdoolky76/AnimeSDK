@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayerTeamAppear; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_7E85B40EF69471E4_OFFSET UNITYSDK_OFFSET(0x1D7B3320)
-#define RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_A594AD8C7AC57AFF_OFFSET UNITYSDK_OFFSET(0x1D7B3360)
-#define RPG_GAMECORE_PLAYERTEAMAPPEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B3350)
+#define RPG_GAMECORE_PLAYERTEAMAPPEAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90ED60)
+#define RPG_GAMECORE_PLAYERTEAMAPPEAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D90ED70)
+#define RPG_GAMECORE_PLAYERTEAMAPPEAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90ED30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerTeamAppear_TypeDefinitionIndex = 22700;
+	inline static constexpr unsigned int PlayerTeamAppear_TypeDefinitionIndex = 22957;
 
 	class PlayerTeamAppear : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::Single>* DelayAppearTimeList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7E85B40EF69471E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerTeamAppear*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayerTeamAppear* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerTeamAppear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_7E85B40EF69471E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayerTeamAppear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A594AD8C7AC57AFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerTeamAppear* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayerTeamAppear* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerTeamAppear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_A594AD8C7AC57AFF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayerTeamAppear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

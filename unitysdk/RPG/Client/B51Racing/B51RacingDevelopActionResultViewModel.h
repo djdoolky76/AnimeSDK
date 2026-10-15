@@ -3,29 +3,29 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/B51RacingStatType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPACTIONRESULTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFC2E0)
+#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPACTIONRESULTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC78BD50)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDevelopActionResultViewModel_TypeDefinitionIndex = 80695;
+	inline static constexpr unsigned int B51RacingDevelopActionResultViewModel_TypeDefinitionIndex = 82023;
 
 	class B51RacingDevelopActionResultViewModel : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::B51RacingStatType>* BoostStatTypes; // 0x10
-		::Il2CppArray<::System::Single>* NewValues; // 0x18
-		::Il2CppArray<::RPG::Client::TextID>* ValueUpTexts; // 0x20
-		::System::String* CurrentSelectActionName; // 0x28
-		::Il2CppArray<::System::Single>* OldValues; // 0x30
+		::System::String* CurrentSelectActionName; // 0x10
+		::Il2CppArray<::System::Single>* OldValues; // 0x18
+		::Il2CppArray<::RPG::GameCore::B51RacingStatType>* BoostStatTypes; // 0x20
+		::Il2CppArray<::System::Single>* NewValues; // 0x28
+		::Il2CppArray<::RPG::Client::TextID>* ValueUpTexts; // 0x30
 		::System::Boolean IsSuperSuccess; // 0x38
+		::System::Byte _padding0[0x7];
 		::RPG::Client::TextID StatusText; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPACTIONRESULTVIEWMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPACTIONRESULTVIEWMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

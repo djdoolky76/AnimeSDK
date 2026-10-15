@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CloseRubbingUI; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CLOSERUBBINGUI_METHOD_3_7DAA4EBDE9A27CDA_OFFSET UNITYSDK_OFFSET(0x1D9A2DB0)
-#define RPG_GAMECORE_CLOSERUBBINGUI_METHOD_3_8144917EAC27C137_OFFSET UNITYSDK_OFFSET(0x1D9A2CE0)
-#define RPG_GAMECORE_CLOSERUBBINGUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A2DA0)
+#define RPG_GAMECORE_CLOSERUBBINGUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59A330)
+#define RPG_GAMECORE_CLOSERUBBINGUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59A340)
+#define RPG_GAMECORE_CLOSERUBBINGUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59A270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloseRubbingUI_TypeDefinitionIndex = 21925;
+	inline static constexpr unsigned int CloseRubbingUI_TypeDefinitionIndex = 22173;
 
 	class CloseRubbingUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSERUBBINGUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSERUBBINGUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8144917EAC27C137(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloseRubbingUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CloseRubbingUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CloseRubbingUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSERUBBINGUI_METHOD_3_8144917EAC27C137_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CloseRubbingUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSERUBBINGUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7DAA4EBDE9A27CDA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloseRubbingUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CloseRubbingUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CloseRubbingUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSERUBBINGUI_METHOD_3_7DAA4EBDE9A27CDA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CloseRubbingUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSERUBBINGUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

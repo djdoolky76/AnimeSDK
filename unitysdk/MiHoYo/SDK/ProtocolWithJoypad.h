@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/ProtocolWithJoypad_TipsVisbility.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class ILinkImageText; }
 namespace MiHoYo::SDK { class IMaxHeightLayoutController; }
+namespace MiHoYo::SDK { class ProtocolWithJoypad; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
@@ -13,35 +13,53 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_AWAKE_OFFSET UNITYSDK_OFFSET(0x19EBAD60)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x19EBBC90)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x19EBBC70)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_HIDE_OFFSET UNITYSDK_OFFSET(0x19EB8BF0)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19EBBCD0)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x19EBBCB0)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x19EB8E60)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETCONTENT_OFFSET UNITYSDK_OFFSET(0x19EB91F0)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETHIGHLIGHTCOLOR_OFFSET UNITYSDK_OFFSET(0x19EB91E0)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETJOYPADREADTIPS_OFFSET UNITYSDK_OFFSET(0x19EB9D70)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETJOYPADSTATUS_OFFSET UNITYSDK_OFFSET(0x19EBA150)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETTITLE_OFFSET UNITYSDK_OFFSET(0x19EB8C60)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SHOW_OFFSET UNITYSDK_OFFSET(0x19EB8A90)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_UPDATECOMPONENTHEIGHT_OFFSET UNITYSDK_OFFSET(0x19EB9C50)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_UPDATEJOYPADICON_OFFSET UNITYSDK_OFFSET(0x19EBA480)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x19EBB530)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBBCF0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF93390)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BF942C0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BF942A0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF94320)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF912A0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF94300)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1BF942E0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1BF91510)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETCONTENT_OFFSET UNITYSDK_OFFSET(0x1BF918A0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETHIGHLIGHTCOLOR_OFFSET UNITYSDK_OFFSET(0x1BF91890)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETJOYPADREADTIPS_OFFSET UNITYSDK_OFFSET(0x1BF923A0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETJOYPADSTATUS_OFFSET UNITYSDK_OFFSET(0x1BF92780)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SETTITLE_OFFSET UNITYSDK_OFFSET(0x1BF91310)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF91140)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_UPDATECOMPONENTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BF92280)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_UPDATEJOYPADICON_OFFSET UNITYSDK_OFFSET(0x1BF92AB0)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF93B60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolWithJoypad_TypeDefinitionIndex = 7984;
+	inline static constexpr unsigned int ProtocolWithJoypad_TypeDefinitionIndex = 8027;
 
 	class ProtocolWithJoypad : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::MiHoYo::SDK::ProtocolWithJoypad_TipsVisbility tipsVisbility; // 0x58
+		::System::Byte _padding0[0x4];
+		::UnityEngine::UI::Text* titleText; // 0x60
+		::MiHoYo::SDK::ILinkImageText* descText; // 0x68
+		::MiHoYo::SDK::IMaxHeightLayoutController* layoutController; // 0x70
+		::UnityEngine::GameObject* joypadL1Tips; // 0x78
+		::UnityEngine::GameObject* joypadR1Tips; // 0x80
+		::UnityEngine::UI::Button* refuseButton; // 0x88
+		::UnityEngine::UI::Button* acceptButton; // 0x90
+		::UnityEngine::GameObject* refuseButtonJoypadIcon; // 0x98
+		::UnityEngine::GameObject* acceptButtonJoypadIcon; // 0xA0
+		::System::Action_1<::System::Boolean>* OnAccept; // 0xA8
+		::System::Action_1<::System::Boolean>* OnRefuse; // 0xB0
+		::System::Action_2<::System::String*, ::System::Boolean>* OnHrefButtonClicked; // 0xB8
+		::System::String* highlightColor; // 0xC0
+		::System::String* m_joypadType; // 0xC8
+		::System::Boolean m_bJoypadExchange; // 0xD0
 		static ::MiHoYo::SDK::ProtocolWithJoypad** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ProtocolWithJoypad**)Il2CppClass::FromTypeDefinitionIndex(ProtocolWithJoypad_TypeDefinitionIndex)->GetStaticField(0x1D400);
+			return (::MiHoYo::SDK::ProtocolWithJoypad**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolWithJoypad")->GetStaticField(0x24580);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DialogPath; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -66,26 +84,9 @@ namespace MiHoYo::SDK
 		// static const ::System::String* LINK_ID_L1; // 0x0
 		// static const ::System::String* LINK_ID_R1; // 0x0
 		// static const ::System::String* BOLD_TEXT; // 0x0
-		::MiHoYo::SDK::ProtocolWithJoypad_TipsVisbility tipsVisbility; // 0x58
-		::UnityEngine::UI::Text* titleText; // 0x60
-		::MiHoYo::SDK::ILinkImageText* descText; // 0x68
-		::MiHoYo::SDK::IMaxHeightLayoutController* layoutController; // 0x70
-		::UnityEngine::GameObject* joypadL1Tips; // 0x78
-		::UnityEngine::GameObject* joypadR1Tips; // 0x80
-		::UnityEngine::UI::Button* refuseButton; // 0x88
-		::UnityEngine::UI::Button* acceptButton; // 0x90
-		::UnityEngine::GameObject* refuseButtonJoypadIcon; // 0x98
-		::UnityEngine::GameObject* acceptButtonJoypadIcon; // 0xA0
-		::System::Action_1<::System::Boolean>* OnAccept; // 0xA8
-		::System::Action_1<::System::Boolean>* OnRefuse; // 0xB0
-		::System::Action_2<::System::String*, ::System::Boolean>* OnHrefButtonClicked; // 0xB8
-		::System::String* highlightColor; // 0xC0
-		::System::String* m_joypadType; // 0xC8
-		::System::Boolean m_bJoypadExchange; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLWITHJOYPAD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLWITHJOYPAD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -167,5 +168,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLWITHJOYPAD_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

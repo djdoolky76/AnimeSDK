@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class Camera; }
-namespace UnityEngine { class PolygonCollider2D; }
+namespace UnityEngine { class Collider2D; }
 
-#define RPG_CLIENT_UICUSTOMCLICKAREA_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0x17014790)
-#define RPG_CLIENT_UICUSTOMCLICKAREA_METHOD_5_1A98FB043EC9FF2A_OFFSET UNITYSDK_OFFSET(0x17014880)
-#define RPG_CLIENT_UICUSTOMCLICKAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x17014960)
+#define RPG_CLIENT_UICUSTOMCLICKAREA_CTOR_OFFSET UNITYSDK_OFFSET(0xE38BC50)
+#define RPG_CLIENT_UICUSTOMCLICKAREA_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xE38BA80)
+#define RPG_CLIENT_UICUSTOMCLICKAREA_KLFPDAOHLAF_OFFSET UNITYSDK_OFFSET(0xE38BB70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UICustomClickArea_TypeDefinitionIndex = 72749;
+	inline static constexpr unsigned int UICustomClickArea_TypeDefinitionIndex = 72832;
 
 	class UICustomClickArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::PolygonCollider2D* ABAPKIBOGKH; // 0x18
+		::UnityEngine::Collider2D* IBJNKMEGPAP; // 0x18
 		::UnityEngine::Vector3 GPCBCGCMOPI; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICUSTOMCLICKAREA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICUSTOMCLICKAREA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsRaycastLocationValid(::UnityEngine::Vector2 a1, ::UnityEngine::Camera* a2)
@@ -31,9 +29,10 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICUSTOMCLICKAREA_ISRAYCASTLOCATIONVALID_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::PolygonCollider2D* Method_5_1A98FB043EC9FF2A()
+		::UnityEngine::Collider2D* KLFPDAOHLAF()
 		{
-			return ((::UnityEngine::PolygonCollider2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICUSTOMCLICKAREA_METHOD_5_1A98FB043EC9FF2A_OFFSET))(this);
+			return ((::UnityEngine::Collider2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICUSTOMCLICKAREA_KLFPDAOHLAF_OFFSET))(this);
 		}
+
 	};
 }

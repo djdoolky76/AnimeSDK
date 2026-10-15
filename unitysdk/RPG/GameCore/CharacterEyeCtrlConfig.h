@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_METHOD_2_9971E5FA12C1D8E2_OFFSET UNITYSDK_OFFSET(0x1D121260)
-#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1215F0)
+#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5434C0)
+#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D542C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17252;
+	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17448;
 
 	class CharacterEyeCtrlConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +25,15 @@ namespace RPG::GameCore
 		::RPG::MVector3 EyeEnd_R_01_Rotation; // 0x64
 		::RPG::MVector3 EyeEnd_L_01_Scale; // 0x70
 		::RPG::MVector3 EyeEnd_R_01_Scale; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9971E5FA12C1D8E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEyeCtrlConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterEyeCtrlConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEyeCtrlConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG_METHOD_2_9971E5FA12C1D8E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterEyeCtrlConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

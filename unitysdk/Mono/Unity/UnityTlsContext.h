@@ -1,18 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/MobileTlsContext.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_key.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_key_ref.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_tlsctx.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list_ref.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509name.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_x509verify_result.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
+#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list_ref.h"
 #include "unitysdk/System/ValueTuple_2.h"
-
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace Mono::Security::Interface { class MonoTlsConnectionInfo; }
 namespace Mono::Unity { class UnityTls_unitytls_tlsctx_certificate_callback; }
@@ -20,29 +13,30 @@ namespace Mono::Unity { class UnityTls_unitytls_tlsctx_read_callback; }
 namespace Mono::Unity { class UnityTls_unitytls_tlsctx_write_callback; }
 namespace Mono::Unity { class UnityTls_unitytls_tlsctx_x509verify_callback; }
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C485FC0)
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C484010)
-#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C485840)
-#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C485050)
-#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1C47A620)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1C485590)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C4855A0)
-#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1C47A3E0)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C485B60)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C483E50)
-#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1C47A7E0)
-#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1C4855B0)
-#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1C47A130)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C485E90)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C483F30)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C485940)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C483D70)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1C47AA10)
-#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C484100)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFA57D0)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFA3840)
+#define MONO_UNITY_UNITYTLSCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA3930)
+#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EFA5070)
+#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFA4880)
+#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EF99DB0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1EFA4DC0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFA4DD0)
+#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EF99B70)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFA5380)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFA3680)
+#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1EF99F70)
+#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1EFA4DE0)
+#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EF998C0)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFA56A0)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFA3760)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFA5160)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFA35A0)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1EF9A1A0)
 
 namespace Mono::Unity
 {
@@ -51,32 +45,32 @@ namespace Mono::Unity
 	class UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext
 	{
 	public:
-		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x48
-		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x50
+		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x48
+		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x50
 		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x58
-		::Il2CppArray<::System::Byte>* writeBuffer; // 0x60
-		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x68
-		::Il2CppArray<::System::Byte>* readBuffer; // 0x70
-		::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback; // 0x78
-		::System::Exception* lastException; // 0x80
-		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x88
-		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x90
-		::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext; // 0x98
-		::System::Runtime::InteropServices::GCHandle handle; // 0xA0
-		::System::Boolean hasContext; // 0xA4
-		::System::Boolean isAuthenticated; // 0xA5
-		::System::Boolean closedGraceful; // 0xA6
-		::Mono::Unity::UnityTls_unitytls_key* requestedClientKey; // 0xA8
-		::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain; // 0xB0
-
+		::Il2CppArray<::System::Byte>* readBuffer; // 0x60
+		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x68
+		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x70
+		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x78
+		::Il2CppArray<::System::Byte>* writeBuffer; // 0x80
+		::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback; // 0x88
+		::System::Exception* lastException; // 0x90
+		::PVOID requestedClientCertChain; // 0x98
+		::System::Boolean hasContext; // 0xA0
+		::System::Boolean isAuthenticated; // 0xA1
+		::System::Boolean closedGraceful; // 0xA2
+		::System::Byte _padding0[0x1];
+		::System::Runtime::InteropServices::GCHandle handle; // 0xA4
+		::PVOID tlsContext; // 0xA8
+		::PVOID requestedClientKey; // 0xB0
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* a1, ::System::Boolean a2, ::System::String* a3, ::System::Security::Authentication::SslProtocols a4, ::System::Security::Cryptography::X509Certificates::X509Certificate* a5, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean, ::System::String*, ::System::Security::Authentication::SslProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean, ::System::String*, ::System::Security::Authentication::SslProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* a1, ::Mono::Unity::UnityTls_unitytls_errorstate* a2, ::Mono::Unity::UnityTls_unitytls_x509list*& a3, ::Mono::Unity::UnityTls_unitytls_key*& a4)
+		static ::System::Void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* a1, ::PVOID a2, ::System::Object* a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::Mono::Unity::UnityTls_unitytls_x509list*&, ::Mono::Unity::UnityTls_unitytls_key*&))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, ::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_IsAuthenticated()
@@ -124,44 +118,45 @@ namespace Mono::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr WriteCallback(::System::Void* a1, ::System::Byte* a2, ::System::IntPtr a3, ::Mono::Unity::UnityTls_unitytls_errorstate* a4)
+		static ::System::IntPtr WriteCallback(::PVOID a1, ::PVOID a2, ::System::IntPtr a3, ::PVOID a4)
 		{
-			return ((::System::IntPtr(*)(::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET))(a1, a2, a3, a4);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::IntPtr WriteCallback_1(::System::Byte* a1, ::System::IntPtr a2, ::Mono::Unity::UnityTls_unitytls_errorstate* a3)
+		::System::IntPtr WriteCallback_1(::PVOID a1, ::System::IntPtr a2, ::PVOID a3)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::IntPtr ReadCallback(::System::Void* a1, ::System::Byte* a2, ::System::IntPtr a3, ::Mono::Unity::UnityTls_unitytls_errorstate* a4)
+		static ::System::IntPtr ReadCallback(::PVOID a1, ::PVOID a2, ::System::IntPtr a3, ::PVOID a4)
 		{
-			return ((::System::IntPtr(*)(::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET))(a1, a2, a3, a4);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::IntPtr ReadCallback_1(::System::Byte* a1, ::System::IntPtr a2, ::Mono::Unity::UnityTls_unitytls_errorstate* a3)
+		::System::IntPtr ReadCallback_1(::PVOID a1, ::System::IntPtr a2, ::PVOID a3)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::System::Void* a1, ::Mono::Unity::UnityTls_unitytls_x509list_ref a2, ::Mono::Unity::UnityTls_unitytls_errorstate* a3)
+		static ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::PVOID a1, ::Mono::Unity::UnityTls_unitytls_x509list_ref a2, ::PVOID a3)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::System::Void*, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET))(a1, a2, a3);
+			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET))(a1, a2, a3);
 		}
 
-		::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback_1(::Mono::Unity::UnityTls_unitytls_x509list_ref a1, ::Mono::Unity::UnityTls_unitytls_errorstate* a2)
+		::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback_1(::Mono::Unity::UnityTls_unitytls_x509list_ref a1, ::PVOID a2)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET))(this, a1, a2);
+			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void CertificateCallback(::System::Void* a1, ::Mono::Unity::UnityTls_unitytls_tlsctx* a2, ::System::Byte* a3, ::System::IntPtr a4, ::Mono::Unity::UnityTls_unitytls_x509name* a5, ::System::IntPtr a6, ::Mono::Unity::UnityTls_unitytls_x509list_ref* a7, ::Mono::Unity::UnityTls_unitytls_key_ref* a8, ::Mono::Unity::UnityTls_unitytls_errorstate* a9)
+		static ::System::Void CertificateCallback(::PVOID a1, ::PVOID a2, ::PVOID a3, ::System::IntPtr a4, ::PVOID a5, ::System::IntPtr a6, ::PVOID a7, ::PVOID a8, ::PVOID a9)
 		{
-			return ((::System::Void(*)(::System::Void*, ::Mono::Unity::UnityTls_unitytls_tlsctx*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509name*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509list_ref*, ::Mono::Unity::UnityTls_unitytls_key_ref*, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::IntPtr, ::PVOID, ::System::IntPtr, ::PVOID, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void CertificateCallback_1(::Mono::Unity::UnityTls_unitytls_tlsctx* a1, ::System::Byte* a2, ::System::IntPtr a3, ::Mono::Unity::UnityTls_unitytls_x509name* a4, ::System::IntPtr a5, ::Mono::Unity::UnityTls_unitytls_x509list_ref* a6, ::Mono::Unity::UnityTls_unitytls_key_ref* a7, ::Mono::Unity::UnityTls_unitytls_errorstate* a8)
+		::System::Void CertificateCallback_1(::PVOID a1, ::PVOID a2, ::System::IntPtr a3, ::PVOID a4, ::System::IntPtr a5, ::PVOID a6, ::PVOID a7, ::PVOID a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_tlsctx*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509name*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509list_ref*, ::Mono::Unity::UnityTls_unitytls_key_ref*, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::IntPtr, ::PVOID, ::System::IntPtr, ::PVOID, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
+
 	};
 }

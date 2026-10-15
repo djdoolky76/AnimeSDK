@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1861C280)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1861C2B0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1861C270)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1861C200)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD492EB0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD492E30)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD492EE0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD492EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalizationManager_OnUITextLanguageChange_TypeDefinitionIndex = 61445;
+	inline static constexpr unsigned int LocalizationManager_OnUITextLanguageChange_TypeDefinitionIndex = 61351;
 
 	class LocalizationManager_OnUITextLanguageChange : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUITEXTLANGUAGECHANGE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define SYSTEM_MONOASYNCCALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D482060)
+#define SYSTEM_MONOASYNCCALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C24E880)
 
 namespace System
 {
@@ -17,10 +18,10 @@ namespace System
 		::System::Object* state; // 0x28
 		::System::Object* res; // 0x30
 		::System::Object* out_args; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MONOASYNCCALL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MONOASYNCCALL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

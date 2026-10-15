@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7998E0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7999C0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C796B80)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C799870)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C847D20)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C847CB0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C847E00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C844FA0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2CastResultFcn_TypeDefinitionIndex = 35963;
+	inline static constexpr unsigned int b2CastResultFcn_TypeDefinitionIndex = 36650;
 
 	class b2CastResultFcn : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Invoke(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a3, ::System::Single a4, ::System::Object* a5)
@@ -39,5 +38,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CASTRESULTFCN_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

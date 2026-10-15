@@ -4,11 +4,10 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Softness.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Transform.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MouseJoint_TypeDefinitionIndex = 36028;
+	inline static constexpr unsigned int B2MouseJoint_TypeDefinitionIndex = 36715;
 
 	struct alignas(4) B2MouseJoint
 	{

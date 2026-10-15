@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_2EC3A5163E0CD5F4;
+#include "unitysdk/RPG/Client/TextID.h"
+class KELFJFLNAFI;
+namespace RPG::Client { class MatchThreeV2ChallengerData; }
 namespace RPG::Client { class MatchThreeV2LevelData; }
 namespace RPG::Client { class MatchThreeV2LevelInfos; }
 namespace RPG::Client { class MatchThreeV2StarTargetData; }
@@ -11,21 +11,21 @@ namespace RPG::GameCore { class MatchThreeV2ChallengerRow; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C997230)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_DEFEATREWARDPROPID_OFFSET UNITYSDK_OFFSET(0x1C997060)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1C996E50)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_GAMELEVELID_OFFSET UNITYSDK_OFFSET(0x1C996FB0)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_GAMELEVEL_OFFSET UNITYSDK_OFFSET(0x1C997050)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1C996F10)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C996D90)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_STARTARGETS_OFFSET UNITYSDK_OFFSET(0x1C997100)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_TOTALSTARTARGETCOUNT_OFFSET UNITYSDK_OFFSET(0x1C997110)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x1C996D30)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C997160)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD5AEFD0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD5AEF00)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_DEFEATREWARDPROPID_OFFSET UNITYSDK_OFFSET(0xD5AEE00)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xD5AEBF0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_GAMELEVELID_OFFSET UNITYSDK_OFFSET(0xD5AED50)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_GAMELEVEL_OFFSET UNITYSDK_OFFSET(0xD5AEDF0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xD5AECB0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xD5AEB30)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_STARTARGETS_OFFSET UNITYSDK_OFFSET(0xD5AEEA0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_TOTALSTARTARGETCOUNT_OFFSET UNITYSDK_OFFSET(0xD5AEEB0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xD5AEAD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2ChallengerData_TypeDefinitionIndex = 66044;
+	inline static constexpr unsigned int MatchThreeV2ChallengerData_TypeDefinitionIndex = 65998;
 
 	class MatchThreeV2ChallengerData : public ::System::Object
 	{
@@ -33,10 +33,9 @@ namespace RPG::Client
 		::RPG::Client::MatchThreeV2LevelData* _GameLevel_k__BackingField; // 0x10
 		::Il2CppArray<::RPG::Client::MatchThreeV2StarTargetData*>* _StarTargets_k__BackingField; // 0x18
 		::System::UInt32 ID; // 0x20
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::Func_2<::System::UInt32, ::RPG::Client::MatchThreeV2StarTargetData*>* a2, ::System::Func_2<::System::UInt32, ::RPG::Client::MatchThreeV2LevelData*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Func_2<::System::UInt32, ::RPG::Client::MatchThreeV2StarTargetData*>*, ::System::Func_2<::System::UInt32, ::RPG::Client::MatchThreeV2LevelData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Func_2<::System::UInt32, ::RPG::Client::MatchThreeV2StarTargetData*>*, ::System::Func_2<::System::UInt32, ::RPG::Client::MatchThreeV2LevelData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GameCore::MatchThreeV2ChallengerRow* get__Row()
@@ -84,9 +83,10 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_GET_TOTALSTARTARGETCOUNT_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MatchThreeV2ChallengerData* Create(::RPG::GameCore::MatchThreeV2ChallengerRow* a1, ::Class_1_2EC3A5163E0CD5F4* a2, ::RPG::Client::MatchThreeV2LevelInfos* a3)
+		static ::RPG::Client::MatchThreeV2ChallengerData* Create(::RPG::GameCore::MatchThreeV2ChallengerRow* a1, ::KELFJFLNAFI* a2, ::RPG::Client::MatchThreeV2LevelInfos* a3)
 		{
-			return ((::RPG::Client::MatchThreeV2ChallengerData*(*)(::RPG::GameCore::MatchThreeV2ChallengerRow*, ::Class_1_2EC3A5163E0CD5F4*, ::RPG::Client::MatchThreeV2LevelInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_CREATE_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::MatchThreeV2ChallengerData*(*)(::RPG::GameCore::MatchThreeV2ChallengerRow*, ::KELFJFLNAFI*, ::RPG::Client::MatchThreeV2LevelInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2CHALLENGERDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

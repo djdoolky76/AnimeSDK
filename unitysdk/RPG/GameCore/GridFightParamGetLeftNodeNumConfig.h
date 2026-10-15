@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightParamGetLeftNodeNumConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_METHOD_6_747ACD88340D5A12_OFFSET UNITYSDK_OFFSET(0x1EE719B0)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_METHOD_6_F48435C241017AAE_OFFSET UNITYSDK_OFFSET(0x1EE71A00)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE719F0)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70A980)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D70A990)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70A940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightParamGetLeftNodeNumConfig_TypeDefinitionIndex = 19311;
+	inline static constexpr unsigned int GridFightParamGetLeftNodeNumConfig_TypeDefinitionIndex = 19541;
 
 	class GridFightParamGetLeftNodeNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_747ACD88340D5A12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_METHOD_6_747ACD88340D5A12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_F48435C241017AAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_METHOD_6_F48435C241017AAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetLeftNodeNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETLEFTNODENUMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

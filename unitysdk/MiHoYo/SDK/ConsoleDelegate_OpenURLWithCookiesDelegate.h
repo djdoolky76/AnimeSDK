@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FA0E0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FA120)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F7820)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA060)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE16360)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE162E0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE163A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE13AA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_OpenURLWithCookiesDelegate_TypeDefinitionIndex = 7609;
+	inline static constexpr unsigned int ConsoleDelegate_OpenURLWithCookiesDelegate_TypeDefinitionIndex = 7663;
 
 	class ConsoleDelegate_OpenURLWithCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::Action* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

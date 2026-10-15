@@ -2,33 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Buffers/ArrayPoolEventSource_BufferAllocatedReason.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSource.h"
+namespace System::Buffers { class ArrayPoolEventSource; }
 
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERALLOCATED_OFFSET UNITYSDK_OFFSET(0x1F011790)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRENTED_OFFSET UNITYSDK_OFFSET(0x1F011640)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRETURNED_OFFSET UNITYSDK_OFFSET(0x1F0119A0)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F011B40)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F011B00)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERALLOCATED_OFFSET UNITYSDK_OFFSET(0x1ED58EF0)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRENTED_OFFSET UNITYSDK_OFFSET(0x1ED58DA0)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRETURNED_OFFSET UNITYSDK_OFFSET(0x1ED59100)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED592A0)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED59260)
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ArrayPoolEventSource_TypeDefinitionIndex = 3748;
+	inline static constexpr unsigned int ArrayPoolEventSource_TypeDefinitionIndex = 3749;
 
 	class ArrayPoolEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:
 		static ::System::Buffers::ArrayPoolEventSource** StaticGet_Log()
 		{
-			return (::System::Buffers::ArrayPoolEventSource**)Il2CppClass::FromTypeDefinitionIndex(ArrayPoolEventSource_TypeDefinitionIndex)->GetStaticField(0x60);
+			return (::System::Buffers::ArrayPoolEventSource**)UnitySDK::FromName("System.Buffers", "ArrayPoolEventSource")->GetStaticField(0x60);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_CCTOR_OFFSET))();
 		}
 
 		::System::Void BufferRented(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -45,5 +46,6 @@ namespace System::Buffers
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRETURNED_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

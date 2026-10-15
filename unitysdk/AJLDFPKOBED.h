@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AJLDFPKOBED_TypeDefinitionIndex = 26688;
+
+	enum class AJLDFPKOBED : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		EADICDFCBMF = 4239,
+		BMGEGHLMKBO = 4205,
+		MPBAFICCDLL = 4283,
+		PFOKACPCAHO = 4275,
+		HLJDFNPEJGC = 4260,
+		IIBDDINNJNE = 4261,
+		NICBGBEGGCE = 4256,
+		COEFCHBAPGA = 4242,
+		KHLIFCABOPK = 4216,
+		HCBGMOCOICN = 4264,
+		HFMFLEMKODD = 4208,
+		GMDCKJBMMFL = 4225,
+		MDHJKEOCMEM = 4234,
+		NBPNCHLHDGL = 4268,
+		BJFCBEOBELF = 4215,
+		GNABKJICADA = 4258,
+	};

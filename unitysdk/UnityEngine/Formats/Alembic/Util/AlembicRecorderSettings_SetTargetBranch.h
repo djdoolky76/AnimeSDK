@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F012FA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F012FD0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F012F90)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F012F20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F158380)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F158300)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F1583B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F158370)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorderSettings_SetTargetBranch_TypeDefinitionIndex = 44618;
+	inline static constexpr unsigned int AlembicRecorderSettings_SetTargetBranch_TypeDefinitionIndex = 45757;
 
 	class AlembicRecorderSettings_SetTargetBranch : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +37,6 @@ namespace UnityEngine::Formats::Alembic::Util
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SETTARGETBRANCH_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

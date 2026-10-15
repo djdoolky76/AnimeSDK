@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 #include "unitysdk/RPG/GameCore/PhysicsRigidBodyType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameRigidBody2DComponent; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_METHOD_3_1AE06EE1F16AF0C2_OFFSET UNITYSDK_OFFSET(0x1DD6DC10)
-#define RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_METHOD_3_5B3ECCC95A6A7F42_OFFSET UNITYSDK_OFFSET(0x1DD6DC70)
-#define RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6DC60)
+#define RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B84F0)
+#define RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7B8500)
+#define RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B84A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameRigidBody2DComponent_TypeDefinitionIndex = 18658;
+	inline static constexpr unsigned int LittleGameRigidBody2DComponent_TypeDefinitionIndex = 18880;
 
 	class LittleGameRigidBody2DComponent : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::System::Single LinearDamping; // 0x14
 		::System::Single AngularDamping; // 0x18
 		::System::Boolean AllowSleep; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1AE06EE1F16AF0C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameRigidBody2DComponent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameRigidBody2DComponent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameRigidBody2DComponent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_METHOD_3_1AE06EE1F16AF0C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameRigidBody2DComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5B3ECCC95A6A7F42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameRigidBody2DComponent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameRigidBody2DComponent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameRigidBody2DComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_METHOD_3_5B3ECCC95A6A7F42_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameRigidBody2DComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMERIGIDBODY2DCOMPONENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

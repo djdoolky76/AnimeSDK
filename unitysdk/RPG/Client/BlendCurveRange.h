@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define RPG_CLIENT_BLENDCURVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8FBD0)
+#define RPG_CLIENT_BLENDCURVERANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC87E480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 69685;
+	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 69720;
 
 	class BlendCurveRange : public ::System::Object
 	{
@@ -18,10 +17,10 @@ namespace RPG::Client
 		::UnityEngine::Vector2 AngleDelta; // 0x18
 		::RPG::Client::CameraBlendCurve* BlendCurve; // 0x20
 		::System::Single BlendTime; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLENDCURVERANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLENDCURVERANGE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class PSDelegate_AuthCodeCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C4E0)
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C520)
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C4D0)
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7C450)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF55110)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF55080)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF55150)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF55100)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_TryGetAuthCodeDelegate_TypeDefinitionIndex = 7679;
+	inline static constexpr unsigned int PSDelegate_TryGetAuthCodeDelegate_TypeDefinitionIndex = 7723;
 
 	class PSDelegate_TryGetAuthCodeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::MiHoYo::SDK::PSDelegate_AuthCodeCallback* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

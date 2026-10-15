@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1829C020)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F096FC0)
 
 namespace System::Text::RegularExpressions
 {
@@ -13,10 +13,10 @@ namespace System::Text::RegularExpressions
 	public:
 		::System::Char _first; // 0x10
 		::System::Char _last; // 0x12
-
 		::System::Void _ctor(::System::Char a1, ::System::Char a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

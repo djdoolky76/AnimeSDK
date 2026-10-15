@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierModifyBlackboardBaseConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierModifyBlackboardByRoomCardLevelChangeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_METHOD_4_A56BA30B8BA9645A_OFFSET UNITYSDK_OFFSET(0x1EEFA680)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_METHOD_4_F5A900F221D1601E_OFFSET UNITYSDK_OFFSET(0x1EEFA710)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFA670)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9EA060)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9EA070)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9EA100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierModifyBlackboardByRoomCardLevelChangeConfig_TypeDefinitionIndex = 17486;
+	inline static constexpr unsigned int RogueModifierModifyBlackboardByRoomCardLevelChangeConfig_TypeDefinitionIndex = 17698;
 
 	class RogueModifierModifyBlackboardByRoomCardLevelChangeConfig : public ::RPG::GameCore::RogueModifierModifyBlackboardBaseConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F5A900F221D1601E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_METHOD_4_F5A900F221D1601E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A56BA30B8BA9645A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_METHOD_4_A56BA30B8BA9645A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyBlackboardByRoomCardLevelChangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYBLACKBOARDBYROOMCARDLEVELCHANGECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

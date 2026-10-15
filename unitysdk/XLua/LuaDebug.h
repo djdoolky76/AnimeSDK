@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define XLUA_LUADEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1185F720)
+#define XLUA_LUADEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB1E00)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaDebug_TypeDefinitionIndex = 50582;
+	inline static constexpr unsigned int LuaDebug_TypeDefinitionIndex = 50251;
 
 	class LuaDebug : public ::System::Object
 	{
@@ -24,12 +23,13 @@ namespace XLua
 		::System::Char nups; // 0x40
 		::System::Char nparams; // 0x42
 		::System::Char isvararg; // 0x44
+		::System::Byte _padding0[0x2];
 		::System::IntPtr userdata; // 0x48
 		::Il2CppArray<::System::Byte>* ssbuf; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUADEBUG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUADEBUG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdMatrix34_t.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int RenderModel_ComponentState_t_TypeDefinitionIndex = 38021;
+	inline static constexpr unsigned int RenderModel_ComponentState_t_TypeDefinitionIndex = 39318;
 
 	struct alignas(4) RenderModel_ComponentState_t
 	{

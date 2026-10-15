@@ -7,18 +7,17 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_Permissions.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_PrmScriptType.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_RampType.h"
-#include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISFLOAT_OFFSET UNITYSDK_OFFSET(0x3A96530)
-#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISINT_OFFSET UNITYSDK_OFFSET(0x3A96510)
-#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISNODE_OFFSET UNITYSDK_OFFSET(0x3A96580)
-#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISNONVALUE_OFFSET UNITYSDK_OFFSET(0x3A96590)
-#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISPATH_OFFSET UNITYSDK_OFFSET(0x3A96560)
-#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISSTRING_OFFSET UNITYSDK_OFFSET(0x3A96540)
+#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISFLOAT_OFFSET UNITYSDK_OFFSET(0x304B760)
+#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISINT_OFFSET UNITYSDK_OFFSET(0x304B740)
+#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISNODE_OFFSET UNITYSDK_OFFSET(0x304B7B0)
+#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISNONVALUE_OFFSET UNITYSDK_OFFSET(0x304B7C0)
+#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISPATH_OFFSET UNITYSDK_OFFSET(0x304B790)
+#define HOUDINIENGINEUNITY_HAPI_PARMINFO_ISSTRING_OFFSET UNITYSDK_OFFSET(0x304B770)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ParmInfo_TypeDefinitionIndex = 39202;
+	inline static constexpr unsigned int HAPI_ParmInfo_TypeDefinitionIndex = 40499;
 
 	struct alignas(4) HAPI_ParmInfo
 	{
@@ -50,6 +49,7 @@ namespace HoudiniEngineUnity
 		::System::Boolean spare; // 0x62
 		::System::Boolean joinNext; // 0x63
 		::System::Boolean labelNone; // 0x64
+		::System::Byte _padding0[0x3];
 		::System::Int32 intValuesIndex; // 0x68
 		::System::Int32 floatValuesIndex; // 0x6C
 		::System::Int32 stringValuesIndex; // 0x70
@@ -57,6 +57,7 @@ namespace HoudiniEngineUnity
 		::HoudiniEngineUnity::HAPI_NodeType inputNodeType; // 0x78
 		::HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag; // 0x7C
 		::System::Boolean isChildOfMultiParm; // 0x80
+		::System::Byte _padding1[0x3];
 		::System::Int32 instanceNum; // 0x84
 		::System::Int32 instanceLength; // 0x88
 		::System::Int32 instanceCount; // 0x8C
@@ -65,7 +66,6 @@ namespace HoudiniEngineUnity
 		::System::Int32 visibilityConditionSH; // 0x98
 		::System::Int32 disabledConditionSH; // 0x9C
 		::System::Boolean useMenuItemTokenAsValue; // 0xA0
-
 		::System::Boolean isInt()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_PARMINFO_ISINT_OFFSET))(this);
@@ -95,5 +95,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_PARMINFO_ISNONVALUE_OFFSET))(this);
 		}
+
 	};
 }

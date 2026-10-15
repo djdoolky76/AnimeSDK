@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class EntityTimelineControlNode; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_METHOD_1_ED150F169DBA57DC_OFFSET UNITYSDK_OFFSET(0x1A182DA0)
-#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A182E60)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEC420)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCDEC360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityTimelineControlNode_TypeDefinitionIndex = 63830;
+	inline static constexpr unsigned int EntityTimelineControlNode_TypeDefinitionIndex = 63768;
 
 	class EntityTimelineControlNode : public ::System::Object
 	{
@@ -26,15 +26,15 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::AnimationCurve*>* RotationCurve; // 0x40
 		::System::String* ClipName; // 0x48
 		::System::Boolean IsLoop; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLNODE_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::EntityTimelineControlNode* Method_1_ED150F169DBA57DC()
+		::RPG::Client::EntityTimelineControlNode* NBHCPBBGAKA()
 		{
-			return ((::RPG::Client::EntityTimelineControlNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLNODE_METHOD_1_ED150F169DBA57DC_OFFSET))(this);
+			return ((::RPG::Client::EntityTimelineControlNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLNODE_NBHCPBBGAKA_OFFSET))(this);
 		}
+
 	};
 }

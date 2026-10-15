@@ -2,36 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelValueGetter.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelAttributeSelectorType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
+namespace RPG::GameCore { class ChimeraDuelChimeraCasterAttributeDivideValueGetter; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_METHOD_3_8231EE155C4D0476_OFFSET UNITYSDK_OFFSET(0x1E32E6E0)
-#define RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_METHOD_3_95FF1CD4927A3308_OFFSET UNITYSDK_OFFSET(0x1E32E740)
-#define RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32E730)
+#define RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56E7E0)
+#define RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56E7F0)
+#define RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56E790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraCasterAttributeDivideValueGetter_TypeDefinitionIndex = 15752;
+	inline static constexpr unsigned int ChimeraDuelChimeraCasterAttributeDivideValueGetter_TypeDefinitionIndex = 15925;
 
 	class ChimeraDuelChimeraCasterAttributeDivideValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:
 		::RPG::GameCore::ChimeraDuelAttributeSelectorType Attribute; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::BaseChimeraDuelValueGetter* DivideValueGetter; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8231EE155C4D0476(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_METHOD_3_8231EE155C4D0476_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_95FF1CD4927A3308(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_METHOD_3_95FF1CD4927A3308_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelChimeraCasterAttributeDivideValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERACASTERATTRIBUTEDIVIDEVALUEGETTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

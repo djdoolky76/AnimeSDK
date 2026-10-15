@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/DiscreteBar_DisplayMode.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DISCRETEBAR_GET_CURRATE_OFFSET UNITYSDK_OFFSET(0x1B8E2340)
-#define RPG_CLIENT_DISCRETEBAR_REFRESH_OFFSET UNITYSDK_OFFSET(0x1B8E2410)
-#define RPG_CLIENT_DISCRETEBAR_SET_CURRATE_OFFSET UNITYSDK_OFFSET(0x1B8E2390)
-#define RPG_CLIENT_DISCRETEBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E26A0)
+#define RPG_CLIENT_DISCRETEBAR_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC7320)
+#define RPG_CLIENT_DISCRETEBAR_GET_CURRATE_OFFSET UNITYSDK_OFFSET(0xCCC6FC0)
+#define RPG_CLIENT_DISCRETEBAR_REFRESH_OFFSET UNITYSDK_OFFSET(0xCCC7090)
+#define RPG_CLIENT_DISCRETEBAR_SET_CURRATE_OFFSET UNITYSDK_OFFSET(0xCCC7010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiscreteBar_TypeDefinitionIndex = 72451;
+	inline static constexpr unsigned int DiscreteBar_TypeDefinitionIndex = 72524;
 
 	class DiscreteBar : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::DiscreteBar_DisplayMode displayMode; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* BarNodes; // 0x20
 		::System::Single _CurRate; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISCRETEBAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISCRETEBAR_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_CurRate()
@@ -41,5 +40,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISCRETEBAR_REFRESH_OFFSET))(this);
 		}
+
 	};
 }

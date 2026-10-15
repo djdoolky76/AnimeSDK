@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/LittleGameSTTaskConfig.h"
 #include "unitysdk/RPG/Client/LittleGameShare/ST_TargetCatType.h"
+class FCOEMCEDLNL;
+namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseFoodItemDecision; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_METHOD_5_A818A74B86007B7A_OFFSET UNITYSDK_OFFSET(0x1D30D5E0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_METHOD_5_DD6700E70800D15E_OFFSET UNITYSDK_OFFSET(0x1D311D40)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30D5D0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F9BE0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2F9BF0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F9B90)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_Main_CakeRaceUseFoodItemDecision_TypeDefinitionIndex = 10329;
+	inline static constexpr unsigned int ST_Main_CakeRaceUseFoodItemDecision_TypeDefinitionIndex = 10344;
 
 	class ST_Main_CakeRaceUseFoodItemDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::Client::LittleGameShare
 		::System::Int32 TargetParam; // 0x1C
 		::System::UInt32 ForwardRange; // 0x20
 		::System::UInt32 SideRange; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_DD6700E70800D15E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_METHOD_5_DD6700E70800D15E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_A818A74B86007B7A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_METHOD_5_A818A74B86007B7A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Main_CakeRaceUseFoodItemDecision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_MAIN_CAKERACEUSEFOODITEMDECISION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

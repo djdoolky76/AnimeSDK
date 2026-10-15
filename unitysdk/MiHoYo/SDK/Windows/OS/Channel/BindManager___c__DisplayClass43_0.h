@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS::Channel { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187C6430)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x187C9B70)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x187CA370)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE59F0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BDE9130)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x1BDE9930)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass43_0_TypeDefinitionIndex = 8318;
+	inline static constexpr unsigned int BindManager___c__DisplayClass43_0_TypeDefinitionIndex = 8361;
 
 	class BindManager___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
 		::System::String* account; // 0x10
-		::System::Action_1<::System::String*>* __9__1; // 0x18
+		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x20
-		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x28
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x30
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x28
+		::System::Action_1<::System::String*>* __9__1; // 0x30
 		::System::Boolean forceTokenRefresh; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _GetCaptchaCode_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
@@ -40,5 +38,6 @@ namespace MiHoYo::SDK::Windows::OS::Channel
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

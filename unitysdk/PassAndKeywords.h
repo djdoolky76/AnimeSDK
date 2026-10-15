@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define PASSANDKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA8330)
+#define PASSANDKEYWORDS_CTOR_OFFSET UNITYSDK_OFFSET(0xC393900)
 
-inline static constexpr unsigned int PassAndKeywords_TypeDefinitionIndex = 47889;
+inline static constexpr unsigned int PassAndKeywords_TypeDefinitionIndex = 47429;
 
-class PassAndKeywords : public ::System::Object
-{
-public:
-	::System::Int32 PassIndex; // 0x10
-	::System::String* KeywordStr; // 0x18
-
-	::System::Void _ctor()
+	class PassAndKeywords : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PASSANDKEYWORDS__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Int32 PassIndex; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::String* KeywordStr; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PASSANDKEYWORDS_CTOR_OFFSET))(this);
+		}
+
+	};

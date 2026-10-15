@@ -2,29 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AK/Wwise/BaseType.h"
 #include "unitysdk/WwiseObjectType.h"
-
 class WwiseObjectReference;
 class WwiseTriggerReference;
 namespace UnityEngine { class GameObject; }
 
-#define AK_WWISE_TRIGGER_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D579400)
-#define AK_WWISE_TRIGGER_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1D579480)
-#define AK_WWISE_TRIGGER_POST_OFFSET UNITYSDK_OFFSET(0x1D579490)
-#define AK_WWISE_TRIGGER_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D579410)
-#define AK_WWISE_TRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D579550)
+#define AK_WWISE_TRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F541710)
+#define AK_WWISE_TRIGGER_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F5415C0)
+#define AK_WWISE_TRIGGER_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F541640)
+#define AK_WWISE_TRIGGER_POST_OFFSET UNITYSDK_OFFSET(0x1F541650)
+#define AK_WWISE_TRIGGER_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F5415D0)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int Trigger_TypeDefinitionIndex = 43793;
+	inline static constexpr unsigned int Trigger_TypeDefinitionIndex = 44985;
 
 	class Trigger : public ::AK::Wwise::BaseType
 	{
 	public:
 		::WwiseTriggerReference* WwiseObjectReference; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::WwiseObjectReference* get_ObjectReference()
@@ -46,5 +44,6 @@ namespace AK::Wwise
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_POST_OFFSET))(this, a1);
 		}
+
 	};
 }

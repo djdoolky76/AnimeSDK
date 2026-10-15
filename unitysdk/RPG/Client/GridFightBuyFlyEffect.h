@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class QuadricBezier; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -11,15 +10,15 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C958270)
-#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C957F90)
-#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x1C9582B0)
-#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C958230)
-#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C958570)
+#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E77A0)
+#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD0E74A0)
+#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD0E71C0)
+#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD0E74E0)
+#define RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD0E7460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBuyFlyEffect_TypeDefinitionIndex = 64533;
+	inline static constexpr unsigned int GridFightBuyFlyEffect_TypeDefinitionIndex = 64473;
 
 	class GridFightBuyFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,11 +29,11 @@ namespace RPG::Client
 		::UnityEngine::ParticleSystem* HDNJKMJLOOG; // 0x30
 		::UnityEngine::Animation* KCOAILOHDND; // 0x38
 		::System::Single HBDJCFFDGDD; // 0x40
+		::System::Byte _padding0[0x4];
 		::System::String* JHEOPCPGBDF; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreate(::System::Object* a1)
@@ -56,5 +55,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBUYFLYEFFECT_PLAY_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

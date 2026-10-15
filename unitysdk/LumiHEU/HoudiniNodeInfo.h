@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define LUMIHEU_HOUDININODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16A75CA0)
+#define LUMIHEU_HOUDININODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAF4E090)
 
 namespace LumiHEU
 {
-	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 47375;
+	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 46915;
 
 	class HoudiniNodeInfo : public ::UnityEngine::MonoBehaviour
 	{
@@ -17,14 +16,16 @@ namespace LumiHEU
 		::System::Int32 Id; // 0x18
 		::System::Int32 RootId; // 0x1C
 		::System::Int32 IsEmptyGO; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* Type; // 0x28
 		::System::String* DisplayName; // 0x30
 		::UnityEngine::Vector3 Position; // 0x38
+		::System::Byte _padding1[0x4];
 		::System::String* Script; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LUMIHEU_HOUDININODEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LUMIHEU_HOUDININODEINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color32.h"
-#include "unitysdk/ZXing/BarcodeWriterGeneric_1.h"
 
-#define ZXING_BARCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D43110)
+#define ZXING_BARCODEWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6759F0)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int BarcodeWriter_TypeDefinitionIndex = 6962;
+	inline static constexpr unsigned int BarcodeWriter_TypeDefinitionIndex = 6971;
 
-	class BarcodeWriter : public ::ZXing::BarcodeWriterGeneric_1<::Il2CppArray<::UnityEngine::Color32>*>
+	class BarcodeWriter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_BARCODEWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_BARCODEWRITER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

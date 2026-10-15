@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cinemachine/AxisState.h"
 #include "unitysdk/Cinemachine/AxisState_Recentering.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineOrbitalTransposer_Heading.h"
 #include "unitysdk/Cinemachine/CinemachineTransposer.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineVirtualCameraBase_TransitionParams.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineOrbitalTransposer_UpdateHeadingDelegate; }
 namespace Cinemachine { class ICinemachineCamera; }
 namespace Cinemachine::Utility { class HeadingTracker; }
@@ -17,29 +16,29 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x18C69560)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETAXISCLOSESTVALUE_OFFSET UNITYSDK_OFFSET(0x18C5CBB0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETFULLNAME_OFFSET UNITYSDK_OFFSET(0x18C6C0B0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETTARGETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x18C5E230)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETTARGETHEADING_OFFSET UNITYSDK_OFFSET(0x18C68150)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GET_LASTHEADING_OFFSET UNITYSDK_OFFSET(0x18C69CC0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GET_PREVIOUSTARGET_OFFSET UNITYSDK_OFFSET(0x18C68A20)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x18C69CE0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18C68900)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x18C68A40)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x18C69A00)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18C678E0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x18C68E40)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_SET_LASTHEADING_OFFSET UNITYSDK_OFFSET(0x18C69CD0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_SET_PREVIOUSTARGET_OFFSET UNITYSDK_OFFSET(0x18C68A30)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_1_OFFSET UNITYSDK_OFFSET(0x18C5F9F0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_OFFSET UNITYSDK_OFFSET(0x18C67A90)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x18C689A0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6C180)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_CTOR_OFFSET UNITYSDK_OFFSET(0x16688610)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x166859F0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETAXISCLOSESTVALUE_OFFSET UNITYSDK_OFFSET(0x16679070)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETFULLNAME_OFFSET UNITYSDK_OFFSET(0x16688540)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETTARGETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x1667A6F0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETTARGETHEADING_OFFSET UNITYSDK_OFFSET(0x166845E0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GET_LASTHEADING_OFFSET UNITYSDK_OFFSET(0x16686150)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GET_PREVIOUSTARGET_OFFSET UNITYSDK_OFFSET(0x16684EB0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x16686170)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16684D90)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x16684ED0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x16685E90)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x16683D70)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x166852D0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_SET_LASTHEADING_OFFSET UNITYSDK_OFFSET(0x16686160)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_SET_PREVIOUSTARGET_OFFSET UNITYSDK_OFFSET(0x16684EC0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_1_OFFSET UNITYSDK_OFFSET(0x1667BE80)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_OFFSET UNITYSDK_OFFSET(0x16683F20)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x16684E30)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer_TypeDefinitionIndex = 38484;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_TypeDefinitionIndex = 39781;
 
 	class CinemachineOrbitalTransposer : public ::Cinemachine::CinemachineTransposer
 	{
@@ -51,17 +50,18 @@ namespace Cinemachine
 		::System::Single m_LegacyHeightOffset; // 0x16C
 		::System::Single m_LegacyHeadingBias; // 0x170
 		::System::Boolean m_HeadingIsSlave; // 0x174
+		::System::Byte _padding0[0x3];
 		::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate* HeadingUpdater; // 0x178
 		::UnityEngine::Vector3 mLastTargetPosition; // 0x180
+		::System::Byte _padding1[0x4];
 		::Cinemachine::Utility::HeadingTracker* mHeadingTracker; // 0x190
 		::UnityEngine::Rigidbody* mTargetRigidBody; // 0x198
 		::UnityEngine::Transform* _PreviousTarget_k__BackingField; // 0x1A0
 		::UnityEngine::Vector3 mLastCameraPosition; // 0x1A8
 		::System::Single _LastHeading_k__BackingField; // 0x1B4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnValidate()
@@ -69,14 +69,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONVALIDATE_OFFSET))(this);
 		}
 
-		::System::Single UpdateHeading(::System::Single a1, ::UnityEngine::Vector3 a2, ::Cinemachine::AxisState& a3)
+		::System::Single UpdateHeading(::System::Single a1, ::UnityEngine::Vector3 a2, ::Cinemachine::AxisState a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::Cinemachine::AxisState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_OFFSET))(this, a1, a2, a3);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::Cinemachine::AxisState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single UpdateHeading_1(::System::Single a1, ::UnityEngine::Vector3 a2, ::Cinemachine::AxisState& a3, ::Cinemachine::AxisState_Recentering& a4, ::System::Boolean a5)
+		::System::Single UpdateHeading_1(::System::Single a1, ::UnityEngine::Vector3 a2, ::Cinemachine::AxisState a3, ::Cinemachine::AxisState_Recentering a4, ::System::Boolean a5)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::Cinemachine::AxisState&, ::Cinemachine::AxisState_Recentering&, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::Cinemachine::AxisState, ::Cinemachine::AxisState_Recentering, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADING_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void OnEnable()
@@ -114,9 +114,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams& a4)
+		::System::Boolean OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Single GetAxisClosestValue(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
@@ -134,9 +134,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_SET_LASTHEADING_OFFSET))(this, a1);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void MutateCameraState(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 GetTargetCameraPosition(::UnityEngine::Vector3 a1)
@@ -153,5 +153,6 @@ namespace Cinemachine
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_GETTARGETHEADING_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

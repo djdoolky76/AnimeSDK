@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelGroupRandomInitControl; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_METHOD_2_303495A52BB1781A_OFFSET UNITYSDK_OFFSET(0x1C118AB0)
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C118CE0)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D783F80)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D783D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupRandomInitControl_TypeDefinitionIndex = 17134;
+	inline static constexpr unsigned int LevelGroupRandomInitControl_TypeDefinitionIndex = 17329;
 
 	class LevelGroupRandomInitControl : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,15 +19,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* NPCIDList; // 0x18
 		::Il2CppArray<::System::UInt32>* PropIDList; // 0x20
 		::Il2CppArray<::System::UInt32>* CrowdIDList; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_303495A52BB1781A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupRandomInitControl*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelGroupRandomInitControl* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupRandomInitControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_METHOD_2_303495A52BB1781A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelGroupRandomInitControl*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

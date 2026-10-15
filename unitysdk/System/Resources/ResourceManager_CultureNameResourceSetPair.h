@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Resources { class ResourceSet; }
 
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C447200)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C289BD0)
 
 namespace System::Resources
 {
@@ -16,10 +15,10 @@ namespace System::Resources
 	public:
 		::System::String* lastCultureName; // 0x10
 		::System::Resources::ResourceSet* lastResourceSet; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR_CTOR_OFFSET))(this);
 		}
+
 	};
 }

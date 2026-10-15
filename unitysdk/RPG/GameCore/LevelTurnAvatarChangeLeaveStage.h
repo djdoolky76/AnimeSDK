@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2BE50)
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2BEA0)
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2BEF0)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EB7C0)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EB720)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EB770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnAvatarChangeLeaveStage_TypeDefinitionIndex = 56894;
+	inline static constexpr unsigned int LevelTurnAvatarChangeLeaveStage_TypeDefinitionIndex = 56715;
 
 	class LevelTurnAvatarChangeLeaveStage : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* SourceEntity; // 0x10
 		::System::UInt32 SourceAvatarID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -33,5 +31,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNAVATARCHANGELEAVESTAGE_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

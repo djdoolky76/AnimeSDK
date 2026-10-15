@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace MiHoYo::SDK { class Web; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x194B8B20)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x194B8B60)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x194B82C0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x194B8A30)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB980)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFEB890)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB9C0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB120)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebView_OnPopupBrowserCreateDelegate_TypeDefinitionIndex = 47061;
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnPopupBrowserCreateDelegate_TypeDefinitionIndex = 46601;
 
 	class MiHoYoSDKWebView_OnPopupBrowserCreateDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1, ::MiHoYo::SDK::Web* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONPOPUPBROWSERCREATEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

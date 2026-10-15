@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine::Rendering { template <typename T> class ListChangedEventHandler_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 34841;
+	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 35510;
 
 	template <typename T>
 	class ObservableList_1 : public ::System::Object

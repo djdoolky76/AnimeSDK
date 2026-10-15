@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EILNMPEFGOM.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
+class CBJKAEFGJIP;
+class HCFLAPPBPOP;
+class JBCHHGDHKIG;
+
+#define CBJKAEFGJIP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC4A7100)
+#define CBJKAEFGJIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A71B0)
+#define CBJKAEFGJIP_DGDJPPGAHNA_OFFSET UNITYSDK_OFFSET(0xC4A70B0)
+#define CBJKAEFGJIP_DMBGHKOJFMP_OFFSET UNITYSDK_OFFSET(0xC4A7010)
+#define CBJKAEFGJIP_GEIOCCDNIJP_OFFSET UNITYSDK_OFFSET(0xC4A6FC0)
+#define CBJKAEFGJIP_GPLCPLHKDNM_OFFSET UNITYSDK_OFFSET(0xC4A7060)
+#define CBJKAEFGJIP_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xC4A6F10)
+#define CBJKAEFGJIP_KLBIDFBNAJA_OFFSET UNITYSDK_OFFSET(0xC4A6F70)
+#define CBJKAEFGJIP_KNCKGIKIAPF_OFFSET UNITYSDK_OFFSET(0xC4A6F20)
+
+inline static constexpr unsigned int CBJKAEFGJIP_TypeDefinitionIndex = 78074;
+
+	class CBJKAEFGJIP
+	{
+	public:
+		::System::Void _ctor(::HCFLAPPBPOP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HCFLAPPBPOP*))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_CTOR_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId JOHPKPGOGHD()
+		{
+			return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_JOHPKPGOGHD_OFFSET))(this);
+		}
+
+		::EILNMPEFGOM KNCKGIKIAPF()
+		{
+			return ((::EILNMPEFGOM(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_KNCKGIKIAPF_OFFSET))(this);
+		}
+
+		::System::UInt32 KLBIDFBNAJA()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_KLBIDFBNAJA_OFFSET))(this);
+		}
+
+		::System::UInt32 GEIOCCDNIJP()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_GEIOCCDNIJP_OFFSET))(this);
+		}
+
+		::System::UInt32 DMBGHKOJFMP()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_DMBGHKOJFMP_OFFSET))(this);
+		}
+
+		::JBCHHGDHKIG* GPLCPLHKDNM()
+		{
+			return ((::JBCHHGDHKIG*(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_GPLCPLHKDNM_OFFSET))(this);
+		}
+
+		::System::UInt32 DGDJPPGAHNA()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_DGDJPPGAHNA_OFFSET))(this);
+		}
+
+		static ::CBJKAEFGJIP* BPLPBPMEODA(::HCFLAPPBPOP* a1)
+		{
+			return ((::CBJKAEFGJIP*(*)(::HCFLAPPBPOP*))((::PBYTE)hIl2Cpp + CBJKAEFGJIP_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+	};

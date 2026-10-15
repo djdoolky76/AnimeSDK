@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKLANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1949AF60)
+#define MIHOYO_SDK_MIHOYOSDKLANGUAGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xAFCDE90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLanguageModel_TypeDefinitionIndex = 46808;
+	inline static constexpr unsigned int MiHoYoSDKLanguageModel_TypeDefinitionIndex = 46348;
 
 	class MiHoYoSDKLanguageModel : public ::System::Object
 	{
@@ -307,10 +306,10 @@ namespace MiHoYo::SDK
 		::System::String* google_pc_pay_cancle; // 0x928
 		::System::String* google_pc_pay_finish; // 0x930
 		::System::String* google_pc_pay_no_order_find; // 0x938
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLANGUAGEMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLANGUAGEMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

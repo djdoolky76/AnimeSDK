@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class QuestGetReward; }
 
-#define RPG_GAMECORE_QUESTGETREWARD_METHOD_3_737C45B40060A617_OFFSET UNITYSDK_OFFSET(0x1D18E610)
-#define RPG_GAMECORE_QUESTGETREWARD_METHOD_3_E7AB5389F232CD5C_OFFSET UNITYSDK_OFFSET(0x1D18E5D0)
-#define RPG_GAMECORE_QUESTGETREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18E600)
+#define RPG_GAMECORE_QUESTGETREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D933210)
+#define RPG_GAMECORE_QUESTGETREWARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D933220)
+#define RPG_GAMECORE_QUESTGETREWARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9331E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestGetReward_TypeDefinitionIndex = 21636;
+	inline static constexpr unsigned int QuestGetReward_TypeDefinitionIndex = 21884;
 
 	class QuestGetReward : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* QuestIDList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QUESTGETREWARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QUESTGETREWARD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E7AB5389F232CD5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QuestGetReward*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::QuestGetReward* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QuestGetReward*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QUESTGETREWARD_METHOD_3_E7AB5389F232CD5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::QuestGetReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QUESTGETREWARD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_737C45B40060A617(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QuestGetReward* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::QuestGetReward* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QuestGetReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QUESTGETREWARD_METHOD_3_737C45B40060A617_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::QuestGetReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QUESTGETREWARD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,51 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_4E1537E8B0AE8FAE;
-class Class_1_7A22A3DBEEDD1F80;
+class BFCEADNKCKI;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCheckMonsterHurt; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_31675C6D34F789F1_OFFSET UNITYSDK_OFFSET(0x1C3029E0)
-#define RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_395066F922BEDEA5_OFFSET UNITYSDK_OFFSET(0x1C302BD0)
-#define RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_4267789D67B7BB52_OFFSET UNITYSDK_OFFSET(0x1C302BA0)
-#define RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_598BB7CBE5A6F830_OFFSET UNITYSDK_OFFSET(0x1C3029A0)
-#define RPG_GAMECORE_BYCHECKMONSTERHURT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3029D0)
+#define RPG_GAMECORE_BYCHECKMONSTERHURT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4678D0)
+#define RPG_GAMECORE_BYCHECKMONSTERHURT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D467AD0)
+#define RPG_GAMECORE_BYCHECKMONSTERHURT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D467AA0)
+#define RPG_GAMECORE_BYCHECKMONSTERHURT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4678E0)
+#define RPG_GAMECORE_BYCHECKMONSTERHURT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4678A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckMonsterHurt_TypeDefinitionIndex = 23173;
+	inline static constexpr unsigned int ByCheckMonsterHurt_TypeDefinitionIndex = 23438;
 
 	class ByCheckMonsterHurt : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::UInt32 MonsterID; // 0x20
 		::System::Single HpPercent; // 0x24
-		::Class_1_4E1537E8B0AE8FAE* OverrideConfig; // 0x28
-
+		::BFCEADNKCKI* OverrideConfig; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_598BB7CBE5A6F830(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckMonsterHurt*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckMonsterHurt* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckMonsterHurt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_598BB7CBE5A6F830_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckMonsterHurt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_31675C6D34F789F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckMonsterHurt* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckMonsterHurt* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckMonsterHurt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_31675C6D34F789F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckMonsterHurt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4267789D67B7BB52(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckMonsterHurt*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckMonsterHurt* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckMonsterHurt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_4267789D67B7BB52_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckMonsterHurt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_395066F922BEDEA5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckMonsterHurt* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckMonsterHurt* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckMonsterHurt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_METHOD_4_395066F922BEDEA5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckMonsterHurt*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMONSTERHURT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

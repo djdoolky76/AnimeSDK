@@ -3,35 +3,33 @@
 #include "unitysdk/RPG/Client/LittleGame/BaseMonoGenericView.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_47EE63CB5C4DC8FC_5;
-class Class_2_B9E8C2EEAA5C96EC;
-class Class_2_F47F7A3F5E97970D;
-class Class_3_1E4F9B0ED3BF21DE;
+class EFODGECFLLC;
+class EMJIDLCDFMI;
+class HIOEAKHGILF;
+class PEEDLCHFAFL;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CREATEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x1B1AAA20)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1B1AA8A0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B1AA8E0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B1AA9B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AAC50)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CREATEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xD444640)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD444870)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_GETENTITY_OFFSET UNITYSDK_OFFSET(0xD4444C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xD444500)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xD4445D0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimUnscaledEmptyView_TypeDefinitionIndex = 76718;
+	inline static constexpr unsigned int FiveDimUnscaledEmptyView_TypeDefinitionIndex = 77189;
 
 	class FiveDimUnscaledEmptyView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:
-		::Class_2_F47F7A3F5E97970D* EEFMDEHLLFI; // 0x20
-		::Class_3_1E4F9B0ED3BF21DE* PDENFEFCAGN; // 0x28
-		::Class_2_B9E8C2EEAA5C96EC* KAKEIDJDNHJ; // 0x30
-
+		::EFODGECFLLC* EEFMDEHLLFI; // 0x20
+		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28
+		::HIOEAKHGILF* KAKEIDJDNHJ; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CTOR_OFFSET))(this);
 		}
 
 		::Entitas::IEntity* GetEntity()
@@ -39,9 +37,9 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::Entitas::IEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_GETENTITY_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::Entitas::IContext* a1, ::Class_1_47EE63CB5C4DC8FC_5* a2, ::Entitas::IEntity* a3)
+		::System::Void Initialize(::Entitas::IContext* a1, ::EMJIDLCDFMI* a2, ::Entitas::IEntity* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Class_1_47EE63CB5C4DC8FC_5*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_INITIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::EMJIDLCDFMI*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_INITIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Release(::System::String* a1)
@@ -53,5 +51,6 @@ namespace RPG::Client::LittleGame::FiveDim
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CREATEATTACHPOINT_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class PlayerReturnInviteRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPlayerReturnModule___O_TypeDefinitionIndex = 61958;
+	inline static constexpr unsigned int ActivityPlayerReturnModule___O_TypeDefinitionIndex = 61868;
 
 	class ActivityPlayerReturnModule___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::Boolean>** StaticGet__0____IsInviteInSchedule()
 		{
-			return (::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___O_TypeDefinitionIndex)->GetStaticField(0x62450);
+			return (::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x315A0);
 		}
+
 	};
 }

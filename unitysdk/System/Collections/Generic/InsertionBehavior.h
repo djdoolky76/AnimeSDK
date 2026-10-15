@@ -7,8 +7,8 @@ namespace System::Collections::Generic
 
 	enum class InsertionBehavior : ::System::Byte
 	{
-		None = 0x0,
-		OverwriteExisting = 0x1,
-		ThrowOnExisting = 0x2,
+		None = 0,
+		OverwriteExisting = 1,
+		ThrowOnExisting = 2,
 	};
 }

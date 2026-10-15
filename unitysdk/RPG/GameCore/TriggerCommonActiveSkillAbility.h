@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerCommonActiveSkillAbility; }
 
-#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_759F334F1D297A1B_OFFSET UNITYSDK_OFFSET(0x1D549680)
-#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_FD422308C2686178_OFFSET UNITYSDK_OFFSET(0x1D5496C0)
-#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5496B0)
+#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC178E0)
+#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC178F0)
+#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC178B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCommonActiveSkillAbility_TypeDefinitionIndex = 22445;
+	inline static constexpr unsigned int TriggerCommonActiveSkillAbility_TypeDefinitionIndex = 22700;
 
 	class TriggerCommonActiveSkillAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_759F334F1D297A1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCommonActiveSkillAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_759F334F1D297A1B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerCommonActiveSkillAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FD422308C2686178(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCommonActiveSkillAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_FD422308C2686178_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerCommonActiveSkillAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

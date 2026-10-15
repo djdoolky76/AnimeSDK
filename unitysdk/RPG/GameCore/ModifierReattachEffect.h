@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ModifierReattachEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERREATTACHEFFECT_METHOD_3_128BE72D99351558_OFFSET UNITYSDK_OFFSET(0x1D1B3570)
-#define RPG_GAMECORE_MODIFIERREATTACHEFFECT_METHOD_3_990853E537AF706D_OFFSET UNITYSDK_OFFSET(0x1D1B3530)
-#define RPG_GAMECORE_MODIFIERREATTACHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B3560)
+#define RPG_GAMECORE_MODIFIERREATTACHEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8614C0)
+#define RPG_GAMECORE_MODIFIERREATTACHEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8614D0)
+#define RPG_GAMECORE_MODIFIERREATTACHEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D861490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierReattachEffect_TypeDefinitionIndex = 21497;
+	inline static constexpr unsigned int ModifierReattachEffect_TypeDefinitionIndex = 21744;
 
 	class ModifierReattachEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,21 +20,22 @@ namespace RPG::GameCore
 		::System::String* EffectPath; // 0x18
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::Boolean AddColliderHeightOffset; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Single ColliderHeightRatio; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERREATTACHEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERREATTACHEFFECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_990853E537AF706D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierReattachEffect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifierReattachEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierReattachEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERREATTACHEFFECT_METHOD_3_990853E537AF706D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifierReattachEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERREATTACHEFFECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_128BE72D99351558(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierReattachEffect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifierReattachEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierReattachEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERREATTACHEFFECT_METHOD_3_128BE72D99351558_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifierReattachEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERREATTACHEFFECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

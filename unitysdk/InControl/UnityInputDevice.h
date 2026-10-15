@@ -1,54 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDevice.h"
-#include "unitysdk/UnityEngine/KeyCode.h"
-
 namespace InControl { class InputDeviceProfile; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define INCONTROL_UNITYINPUTDEVICE_GET_ISKNOWN_OFFSET UNITYSDK_OFFSET(0xC1512F0)
-#define INCONTROL_UNITYINPUTDEVICE_GET_ISSUPPORTEDONTHISPLATFORM_OFFSET UNITYSDK_OFFSET(0xC151730)
-#define INCONTROL_UNITYINPUTDEVICE_GET_JOYSTICKID_OFFSET UNITYSDK_OFFSET(0xC150570)
-#define INCONTROL_UNITYINPUTDEVICE_GET_NUMUNKNOWNANALOGS_OFFSET UNITYSDK_OFFSET(0xC151310)
-#define INCONTROL_UNITYINPUTDEVICE_GET_NUMUNKNOWNBUTTONS_OFFSET UNITYSDK_OFFSET(0xC151300)
-#define INCONTROL_UNITYINPUTDEVICE_READRAWANALOGVALUE_OFFSET UNITYSDK_OFFSET(0xC1516C0)
-#define INCONTROL_UNITYINPUTDEVICE_READRAWBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0xC151650)
-#define INCONTROL_UNITYINPUTDEVICE_SETUPANALOGQUERIES_OFFSET UNITYSDK_OFFSET(0xC150E40)
-#define INCONTROL_UNITYINPUTDEVICE_SETUPBUTTONQUERIES_OFFSET UNITYSDK_OFFSET(0xC150F80)
-#define INCONTROL_UNITYINPUTDEVICE_SET_JOYSTICKID_OFFSET UNITYSDK_OFFSET(0xC150580)
-#define INCONTROL_UNITYINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC151320)
-#define INCONTROL_UNITYINPUTDEVICE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC1505A0)
-#define INCONTROL_UNITYINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xC150590)
+#define INCONTROL_UNITYINPUTDEVICE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB308B0)
+#define INCONTROL_UNITYINPUTDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB308A0)
+#define INCONTROL_UNITYINPUTDEVICE_GET_ISKNOWN_OFFSET UNITYSDK_OFFSET(0x1BB315E0)
+#define INCONTROL_UNITYINPUTDEVICE_GET_ISSUPPORTEDONTHISPLATFORM_OFFSET UNITYSDK_OFFSET(0x1BB31A20)
+#define INCONTROL_UNITYINPUTDEVICE_GET_JOYSTICKID_OFFSET UNITYSDK_OFFSET(0x1BB30880)
+#define INCONTROL_UNITYINPUTDEVICE_GET_NUMUNKNOWNANALOGS_OFFSET UNITYSDK_OFFSET(0x1BB31600)
+#define INCONTROL_UNITYINPUTDEVICE_GET_NUMUNKNOWNBUTTONS_OFFSET UNITYSDK_OFFSET(0x1BB315F0)
+#define INCONTROL_UNITYINPUTDEVICE_READRAWANALOGVALUE_OFFSET UNITYSDK_OFFSET(0x1BB319B0)
+#define INCONTROL_UNITYINPUTDEVICE_READRAWBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1BB31940)
+#define INCONTROL_UNITYINPUTDEVICE_SETUPANALOGQUERIES_OFFSET UNITYSDK_OFFSET(0x1BB31160)
+#define INCONTROL_UNITYINPUTDEVICE_SETUPBUTTONQUERIES_OFFSET UNITYSDK_OFFSET(0x1BB312A0)
+#define INCONTROL_UNITYINPUTDEVICE_SET_JOYSTICKID_OFFSET UNITYSDK_OFFSET(0x1BB30890)
+#define INCONTROL_UNITYINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB31610)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnityInputDevice_TypeDefinitionIndex = 39600;
+	inline static constexpr unsigned int UnityInputDevice_TypeDefinitionIndex = 40897;
 
 	class UnityInputDevice : public ::InControl::InputDevice
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_analogQueries()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnityInputDevice_TypeDefinitionIndex)->GetStaticField(0xDE00);
-		}
-		static ::Il2CppArray<::UnityEngine::KeyCode>** StaticGet_buttonQueries()
-		{
-			return (::Il2CppArray<::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(UnityInputDevice_TypeDefinitionIndex)->GetStaticField(0xDE08);
-		}
-		// static const ::System::Int32 MaxDevices = 0x8; // 0x0
-		// static const ::System::Int32 MaxButtons = 0x14; // 0x0
-		// static const ::System::Int32 MaxAnalogs = 0x14; // 0x0
 		::InControl::InputDeviceProfile* profile; // 0x198
 		::System::Int32 _JoystickId_k__BackingField; // 0x1A0
+		static ::System::Object** StaticGet_buttonQueries()
+		{
+			return (::System::Object**)UnitySDK::FromName("InControl", "UnityInputDevice")->GetStaticField(0x114B0);
+		}
 
+		static ::System::Object** StaticGet_analogQueries()
+		{
+			return (::System::Object**)UnitySDK::FromName("InControl", "UnityInputDevice")->GetStaticField(0x114B8);
+		}
+
+		// static const ::System::Object MaxDevices; // 0x0
+		// static const ::System::Object MaxButtons; // 0x0
+		// static const ::System::Object MaxAnalogs; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::InControl::InputDeviceProfile* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceProfile*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICE__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceProfile*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICE_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_JoystickId()
@@ -105,5 +105,6 @@ namespace InControl
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICE_GET_NUMUNKNOWNANALOGS_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1937F0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A193820)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1937E0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A193770)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC096B0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC09630)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC096E0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC096A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatformPlugin_Notification_TypeDefinitionIndex = 7926;
+	inline static constexpr unsigned int AccountPlatformPlugin_Notification_TypeDefinitionIndex = 7969;
 
 	class AccountPlatformPlugin_Notification : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

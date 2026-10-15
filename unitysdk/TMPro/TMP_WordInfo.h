@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_WORDINFO_GETWORD_OFFSET UNITYSDK_OFFSET(0x3A1E990)
+#define TMPRO_TMP_WORDINFO_GETWORD_OFFSET UNITYSDK_OFFSET(0x3C68B20)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_WordInfo_TypeDefinitionIndex = 43492;
+	inline static constexpr unsigned int TMP_WordInfo_TypeDefinitionIndex = 44684;
 
 	struct alignas(8) TMP_WordInfo
 	{
@@ -17,10 +15,10 @@ namespace TMPro
 		::System::Int32 firstCharacterIndex; // 0x18
 		::System::Int32 lastCharacterIndex; // 0x1C
 		::System::Int32 characterCount; // 0x20
-
 		::System::String* GetWord()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_WORDINFO_GETWORD_OFFSET))(this);
 		}
+
 	};
 }

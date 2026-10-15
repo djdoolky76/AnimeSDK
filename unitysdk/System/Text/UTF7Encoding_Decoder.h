@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Text/DecoderNLS.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class UTF7Encoding; }
 
-#define SYSTEM_TEXT_UTF7ENCODING_DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1B3D3990)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1B3D38F0)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1B3D3710)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3D33D0)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D3090)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C106900)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1065C0)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1C106EC0)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1C106E20)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C106C40)
 
 namespace System::Text
 {
@@ -20,17 +19,17 @@ namespace System::Text
 	{
 	public:
 		::System::Boolean firstByte; // 0x30
-		::System::Int32 bitCount; // 0x34
-		::System::Int32 bits; // 0x38
-
+		::System::Byte _padding0[0x3];
+		::System::Int32 bits; // 0x34
+		::System::Int32 bitCount; // 0x38
 		::System::Void _ctor(::System::Text::UTF7Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::UTF7Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::UTF7Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODER_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
@@ -47,5 +46,6 @@ namespace System::Text
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODER_GET_HASSTATE_OFFSET))(this);
 		}
+
 	};
 }

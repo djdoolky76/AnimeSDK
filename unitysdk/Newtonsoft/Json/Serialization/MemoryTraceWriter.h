@@ -2,30 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/TraceLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_GET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x173064E0)
-#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_SET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x173064F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x173067E0)
-#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_TRACE_OFFSET UNITYSDK_OFFSET(0x17306580)
-#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x17306500)
+#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D3C00)
+#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_GET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x1C3D3BE0)
+#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_SET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x1C3D3BF0)
+#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C3D3EC0)
+#define NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_TRACE_OFFSET UNITYSDK_OFFSET(0x1C3D3C60)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int MemoryTraceWriter_TypeDefinitionIndex = 9634;
+	inline static constexpr unsigned int MemoryTraceWriter_TypeDefinitionIndex = 9692;
 
 	class MemoryTraceWriter : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Queue_1<::System::String*>* _traceMessages; // 0x10
 		::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_CTOR_OFFSET))(this);
 		}
 
 		::System::Diagnostics::TraceLevel get_LevelFilter()
@@ -47,5 +45,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_MEMORYTRACEWRITER_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

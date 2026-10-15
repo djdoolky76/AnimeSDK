@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define AKHGJJKOKHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C55D830)
+
+inline static constexpr unsigned int AKHGJJKOKHO_TypeDefinitionIndex = 36842;
+
+	class AKHGJJKOKHO : public ::System::Object
+	{
+	public:
+		::System::UInt32 JCMHOLDHPPH; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKHGJJKOKHO_CTOR_OFFSET))(this);
+		}
+
+	};

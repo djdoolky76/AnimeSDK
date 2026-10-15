@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_VECTOR4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C91350)
-#define SYSTEM_NUMERICS_VECTOR4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C99E40)
-#define SYSTEM_NUMERICS_VECTOR4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C99D60)
-#define SYSTEM_NUMERICS_VECTOR4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C99F60)
-#define SYSTEM_NUMERICS_VECTOR4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C99ED0)
-#define SYSTEM_NUMERICS_VECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x3C99F70)
+#define SYSTEM_NUMERICS_VECTOR4_CTOR_OFFSET UNITYSDK_OFFSET(0x3C55DB0)
+#define SYSTEM_NUMERICS_VECTOR4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C556A0)
+#define SYSTEM_NUMERICS_VECTOR4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C55C80)
+#define SYSTEM_NUMERICS_VECTOR4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C55BA0)
+#define SYSTEM_NUMERICS_VECTOR4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C55DA0)
+#define SYSTEM_NUMERICS_VECTOR4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C55D10)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector4_TypeDefinitionIndex = 3865;
+	inline static constexpr unsigned int Vector4_TypeDefinitionIndex = 3866;
 
 	struct alignas(4) Vector4
 	{
@@ -23,10 +21,9 @@ namespace System::Numerics
 		::System::Single Y; // 0x14
 		::System::Single Z; // 0x18
 		::System::Single W; // 0x1C
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 GetHashCode()
@@ -49,9 +46,12 @@ namespace System::Numerics
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_TOSTRING_1_OFFSET))(this, a1, a2);
 		}
 
+		/*
 		::System::Boolean Equals_1(::System::Numerics::Vector4 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Vector4))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
+
 	};
 }

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int Compositor_CumulativeStats_TypeDefinitionIndex = 38015;
+	inline static constexpr unsigned int Compositor_CumulativeStats_TypeDefinitionIndex = 39312;
 
 	struct alignas(4) Compositor_CumulativeStats
 	{

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Promises/TimeData.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/Promises/TimeData.h"
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class PredicateWait; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISETIMER_CANCEL_OFFSET UNITYSDK_OFFSET(0x1EFDAD50)
-#define RPG_CLIENT_PROMISES_PROMISETIMER_FINDINWAITING_OFFSET UNITYSDK_OFFSET(0x1EFDAF40)
-#define RPG_CLIENT_PROMISES_PROMISETIMER_REMOVENODE_OFFSET UNITYSDK_OFFSET(0x1EFDB200)
-#define RPG_CLIENT_PROMISES_PROMISETIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EFDAFD0)
-#define RPG_CLIENT_PROMISES_PROMISETIMER_WAITFOR_OFFSET UNITYSDK_OFFSET(0x1EFDAB30)
-#define RPG_CLIENT_PROMISES_PROMISETIMER_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1EFDABF0)
-#define RPG_CLIENT_PROMISES_PROMISETIMER_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1EFDACA0)
-#define RPG_CLIENT_PROMISES_PROMISETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDB290)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_CANCEL_OFFSET UNITYSDK_OFFSET(0x1CBB6620)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB6B60)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_FINDINWAITING_OFFSET UNITYSDK_OFFSET(0x1CBB6810)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_REMOVENODE_OFFSET UNITYSDK_OFFSET(0x1CBB6AD0)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CBB68A0)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_WAITFOR_OFFSET UNITYSDK_OFFSET(0x1CBB6400)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1CBB64C0)
+#define RPG_CLIENT_PROMISES_PROMISETIMER_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1CBB6570)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 9846;
+	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 9904;
 
 	class PromiseTimer : public ::System::Object
 	{
@@ -28,10 +27,9 @@ namespace RPG::Client::Promises
 		::System::Collections::Generic::LinkedList_1<::RPG::Client::Promises::PredicateWait*>* waiting; // 0x10
 		::System::Single curTime; // 0x18
 		::System::Int32 curFrame; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISETIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISETIMER_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise* WaitFor(::System::Single a1)
@@ -68,5 +66,6 @@ namespace RPG::Client::Promises
 		{
 			return ((::System::Collections::Generic::LinkedListNode_1<::RPG::Client::Promises::PredicateWait*>*(*)(::PVOID, ::System::Collections::Generic::LinkedListNode_1<::RPG::Client::Promises::PredicateWait*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISETIMER_REMOVENODE_OFFSET))(this, a1);
 		}
+
 	};
 }

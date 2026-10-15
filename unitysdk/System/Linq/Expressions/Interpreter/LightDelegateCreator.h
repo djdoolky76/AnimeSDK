@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Delegate; }
 namespace System::Linq::Expressions { class LambdaExpression; }
 namespace System::Linq::Expressions::Interpreter { class Interpreter; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1AFD3B20)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1B008CC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1B008CB0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF08E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1EDB1DC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1EDE6EC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCEBD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1EDE6EB0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3493;
+	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3494;
 
 	class LightDelegateCreator : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x10
-		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x18
-
+		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x10
+		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* a1, ::System::Linq::Expressions::LambdaExpression* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::Interpreter*, ::System::Linq::Expressions::LambdaExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::Interpreter*, ::System::Linq::Expressions::LambdaExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Linq::Expressions::Interpreter::Interpreter* get_Interpreter()
@@ -41,5 +39,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Delegate*(*)(::PVOID, ::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET))(this, a1);
 		}
+
 	};
 }

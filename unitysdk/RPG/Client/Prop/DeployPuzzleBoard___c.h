@@ -1,53 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_8CF94E0F14A91ED3_4;
+class HCAOKGHPNLA;
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9060F0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A906130)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET UNITYSDK_OFFSET(0x1A9061C0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A906140)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC89FD0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC8A010)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET UNITYSDK_OFFSET(0xDC8A0A0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET UNITYSDK_OFFSET(0xDC8A020)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 78058;
+	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 78529;
 
 	class DeployPuzzleBoard___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>** StaticGet___9__31_0()
+		static ::System::Comparison_1<::HCAOKGHPNLA*>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x628B0);
+			return (::System::Comparison_1<::HCAOKGHPNLA*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x3D460);
 		}
-		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>** StaticGet___9__23_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x628B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x3D468);
 		}
-		static ::RPG::Client::Prop::DeployPuzzleBoard___c** StaticGet___9()
+
+		static ::System::Comparison_1<::HCAOKGHPNLA*>** StaticGet___9__31_0()
 		{
-			return (::RPG::Client::Prop::DeployPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x628C0);
+			return (::System::Comparison_1<::HCAOKGHPNLA*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x3D470);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __SetPuzzleAnswer_b__23_0(::Class_1_8CF94E0F14A91ED3_4* a1, ::Class_1_8CF94E0F14A91ED3_4* a2)
+		::System::Int32 __SetPuzzleAnswer_b__23_0(::HCAOKGHPNLA* a1, ::HCAOKGHPNLA* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_8CF94E0F14A91ED3_4*, ::Class_1_8CF94E0F14A91ED3_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::HCAOKGHPNLA*, ::HCAOKGHPNLA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 __CheckPuzzleFinish_b__31_0(::Class_1_8CF94E0F14A91ED3_4* a1, ::Class_1_8CF94E0F14A91ED3_4* a2)
+		::System::Int32 __CheckPuzzleFinish_b__31_0(::HCAOKGHPNLA* a1, ::HCAOKGHPNLA* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_8CF94E0F14A91ED3_4*, ::Class_1_8CF94E0F14A91ED3_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::HCAOKGHPNLA*, ::HCAOKGHPNLA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

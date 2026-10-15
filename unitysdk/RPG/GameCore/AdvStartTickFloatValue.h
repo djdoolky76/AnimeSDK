@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdvFloatValueTickType; }
+namespace RPG::GameCore { class AdvStartTickFloatValue; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_METHOD_3_2D1EB5FB598704A8_OFFSET UNITYSDK_OFFSET(0x1CBA4790)
-#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_METHOD_3_2FC844732E73495D_OFFSET UNITYSDK_OFFSET(0x1CBA4750)
-#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA4780)
+#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D385600)
+#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D385610)
+#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3855D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvStartTickFloatValue_TypeDefinitionIndex = 20786;
+	inline static constexpr unsigned int AdvStartTickFloatValue_TypeDefinitionIndex = 21024;
 
 	class AdvStartTickFloatValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* ConfigName; // 0x18
 		::RPG::GameCore::AdvFloatValueTickType* TickType; // 0x20
 		::RPG::GameCore::DynamicString* TargetDynamicValue; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTTICKFLOATVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2FC844732E73495D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvStartTickFloatValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvStartTickFloatValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvStartTickFloatValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_METHOD_3_2FC844732E73495D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvStartTickFloatValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2D1EB5FB598704A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvStartTickFloatValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvStartTickFloatValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvStartTickFloatValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_METHOD_3_2D1EB5FB598704A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvStartTickFloatValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

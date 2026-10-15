@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPTestConfig_TypeDefinitionIndex = 4864;
+	inline static constexpr unsigned int CRPTestConfig_TypeDefinitionIndex = 4870;
 
-	struct alignas(8) CRPTestConfig
+	struct alignas(4) CRPTestConfig
 	{
 		::System::UInt64 _Flag; // 0x10
 	};

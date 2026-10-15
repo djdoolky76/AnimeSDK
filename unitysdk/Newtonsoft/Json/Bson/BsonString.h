@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Bson/BsonValue.h"
-
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1811B760)
-#define NEWTONSOFT_JSON_BSON_BSONSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x18118E00)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3486C0)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1C34B000)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonString_TypeDefinitionIndex = 9797;
+	inline static constexpr unsigned int BsonString_TypeDefinitionIndex = 9855;
 
 	class BsonString : public ::Newtonsoft::Json::Bson::BsonValue
 	{
 	public:
 		::System::Boolean _IncludeLength_k__BackingField; // 0x28
-
 		::System::Void _ctor(::System::Object* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONSTRING__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONSTRING_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void set_IncludeLength(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET))(this, a1);
 		}
+
 	};
 }

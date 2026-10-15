@@ -1,74 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/NishastagaTriggerV2_GameState.h"
-#include "unitysdk/RPG/Client/Prop/NishastagaTriggerV2_Struct_2_92C12A5A5A66B2B9_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_0_16E4307DCC419505_460;
+class EKFMIDBJDIA;
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1612D120)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1612D170)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_GET_OWNENTITY_OFFSET UNITYSDK_OFFSET(0x1612DD70)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1612D3D0)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x1612FF20)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1612F300)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1612F720)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_56E076CBC69B0772_OFFSET UNITYSDK_OFFSET(0x1612E520)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_58FD8BDD015C3AAA_OFFSET UNITYSDK_OFFSET(0x1612FD50)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_C436A2848092EB88_OFFSET UNITYSDK_OFFSET(0x1612FBA0)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_D12268C88ECA46C9_OFFSET UNITYSDK_OFFSET(0x1612F360)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_E56F8427A428D42C_OFFSET UNITYSDK_OFFSET(0x1612DF50)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_E69AA2E64A20143D_OFFSET UNITYSDK_OFFSET(0x1612F410)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_F8B57AB93A05117D_OFFSET UNITYSDK_OFFSET(0x1612E940)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0x1612F800)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1612F770)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_RESETITEMATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x1612FB50)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_RESET_OFFSET UNITYSDK_OFFSET(0x1612CFA0)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_SETITEMATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x1612FA60)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1612CF50)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x161301F0)
-#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2__CTOR_OFFSET UNITYSDK_OFFSET(0x16130160)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_AMEJADBOFOE_OFFSET UNITYSDK_OFFSET(0xDD29820)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_AONFDEMLFAC_OFFSET UNITYSDK_OFFSET(0xDD29D70)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_BHLOCAIENGI_OFFSET UNITYSDK_OFFSET(0xDD29320)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_BNGBLAHKGGD_OFFSET UNITYSDK_OFFSET(0xDD28960)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD2A210)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_CTOR_OFFSET UNITYSDK_OFFSET(0xDD2A180)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDD27140)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD27190)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_FLGNDHEALIH_OFFSET UNITYSDK_OFFSET(0xDD29F40)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_FLHNLFFPHBE_OFFSET UNITYSDK_OFFSET(0xDD28540)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_GET_OWNENTITY_OFFSET UNITYSDK_OFFSET(0xDD27D90)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_HGFLGGAHAKJ_OFFSET UNITYSDK_OFFSET(0xDD27F70)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_HMKMFCBCMAC_OFFSET UNITYSDK_OFFSET(0xDD29430)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_IAHCFAPEIAK_OFFSET UNITYSDK_OFFSET(0xDD29380)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDD273F0)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_MOGJDBIAHBM_OFFSET UNITYSDK_OFFSET(0xDD29740)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_OJLAMMLLBHN_OFFSET UNITYSDK_OFFSET(0xDD29BC0)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDD29790)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_RESETITEMATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xDD29B70)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_RESET_OFFSET UNITYSDK_OFFSET(0xDD26FC0)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_SETITEMATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xDD29A80)
+#define RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDD26F70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int NishastagaTriggerV2_TypeDefinitionIndex = 78489;
+	inline static constexpr unsigned int NishastagaTriggerV2_TypeDefinitionIndex = 78960;
 
 	class NishastagaTriggerV2 : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_LBAGIMBMALC()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NishastagaTriggerV2_TypeDefinitionIndex)->GetStaticField(0x63E20);
-		}
-		static ::System::String** StaticGet_IJBDFEHKOEE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NishastagaTriggerV2_TypeDefinitionIndex)->GetStaticField(0x63E28);
-		}
-		static ::System::String** StaticGet_GEFAMCGHHKH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NishastagaTriggerV2_TypeDefinitionIndex)->GetStaticField(0x63E30);
-		}
-		static ::System::String** StaticGet_IFGMPPHODED()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NishastagaTriggerV2_TypeDefinitionIndex)->GetStaticField(0x63E38);
-		}
-		static ::System::String** StaticGet_EDBHFLBEFNC()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NishastagaTriggerV2_TypeDefinitionIndex)->GetStaticField(0x63E40);
-		}
-		static ::System::Int32* StaticGet_CMJDEJDJKBO()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NishastagaTriggerV2_TypeDefinitionIndex)->GetStaticField(0x14810);
-		}
 		::System::Single CamDistanceRangeX; // 0x18
 		::System::Single CamDistanceRangeY; // 0x1C
 		::System::Single CamDistanceRangeZ; // 0x20
@@ -76,16 +51,18 @@ namespace RPG::Client::Prop
 		::System::Single TriggerItemAlignAngleThresold; // 0x28
 		::System::Boolean IsInMatched; // 0x2C
 		::System::Boolean IsGameFinished; // 0x2D
+		::System::Byte _padding0[0x2];
 		::System::Collections::Generic::List_1<::System::String*>* PuzzleGameItemPaths; // 0x30
 		::System::String* PuzzleGameModelArtNodePath; // 0x38
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* PuzzleGameItems; // 0x40
-		::Il2CppArray<::RPG::Client::Prop::NishastagaTriggerV2_Struct_2_92C12A5A5A66B2B9_1>* PuzzleGameItemAttachPoints; // 0x48
+		::Il2CppArray<::System::Object*>* PuzzleGameItemAttachPoints; // 0x48
 		::UnityEngine::Transform* CameraTarget; // 0x50
 		::UnityEngine::Transform* TargetCamTrans; // 0x58
 		::System::Single MainColorScaleMin; // 0x60
 		::System::Single MainColorScaleMax; // 0x64
 		::System::Boolean IsAutoAdsorbOn; // 0x68
 		::System::Boolean ShowDebug; // 0x69
+		::System::Byte _padding1[0x2];
 		::System::Single ScreenDiffDistanceX; // 0x6C
 		::System::Single ScreenDiffDistanceY; // 0x70
 		::System::Single DJOLCDONJKD; // 0x74
@@ -107,15 +84,44 @@ namespace RPG::Client::Prop
 		::System::UInt32 AMMGGCGKHLM; // 0xD0
 		::System::Boolean NACAGOIKLFA; // 0xD4
 		::System::Boolean EGIFKCLEFKK; // 0xD5
+		static ::System::String** StaticGet_IFGMPPHODED()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "NishastagaTriggerV2")->GetStaticField(0x44C10);
+		}
+
+		static ::System::String** StaticGet_EDBHFLBEFNC()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "NishastagaTriggerV2")->GetStaticField(0x44C18);
+		}
+
+		static ::System::String** StaticGet_GEFAMCGHHKH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "NishastagaTriggerV2")->GetStaticField(0x44C20);
+		}
+
+		static ::System::String** StaticGet_LBAGIMBMALC()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "NishastagaTriggerV2")->GetStaticField(0x44C28);
+		}
+
+		static ::System::String** StaticGet_IJBDFEHKOEE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "NishastagaTriggerV2")->GetStaticField(0x44C30);
+		}
+
+		static ::System::Int32* StaticGet_CMJDEJDJKBO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "NishastagaTriggerV2")->GetStaticField(0x103D0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_CCTOR_OFFSET))();
 		}
 
 		::System::Void Spawned()
@@ -158,64 +164,65 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_RESETITEMATTACHPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_5_F8B57AB93A05117D()
+		::System::Single BNGBLAHKGGD()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_F8B57AB93A05117D_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_BNGBLAHKGGD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_391A84BCD9F51317()
+		::System::Boolean BHLOCAIENGI()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_BHLOCAIENGI_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_56E076CBC69B0772()
+		::System::Boolean FLHNLFFPHBE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_56E076CBC69B0772_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_FLHNLFFPHBE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C436A2848092EB88()
+		::System::Void OJLAMMLLBHN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_C436A2848092EB88_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_OJLAMMLLBHN_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_E56F8427A428D42C()
+		::System::Boolean HGFLGGAHAKJ()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_E56F8427A428D42C_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_HGFLGGAHAKJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF()
+		::System::Void MOGJDBIAHBM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_MOGJDBIAHBM_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D12268C88ECA46C9(::System::String* a1)
+		::System::Void IAHCFAPEIAK(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_D12268C88ECA46C9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_IAHCFAPEIAK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_58FD8BDD015C3AAA(::Class_0_16E4307DCC419505_460* a1)
+		::System::Void AONFDEMLFAC(::EKFMIDBJDIA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_58FD8BDD015C3AAA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_AONFDEMLFAC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_0FD0EC313FAAB75A()
+		::System::Void FLGNDHEALIH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_0FD0EC313FAAB75A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_FLGNDHEALIH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E69AA2E64A20143D()
+		::System::Void HMKMFCBCMAC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_E69AA2E64A20143D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_HMKMFCBCMAC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F978A1D172468895()
+		::System::Void AMEJADBOFOE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_METHOD_5_F978A1D172468895_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_AMEJADBOFOE_OFFSET))(this);
 		}
 
 		::RPG::GameCore::GameEntity* get_OwnEntity()
 		{
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_NISHASTAGATRIGGERV2_GET_OWNENTITY_OFFSET))(this);
 		}
+
 	};
 }

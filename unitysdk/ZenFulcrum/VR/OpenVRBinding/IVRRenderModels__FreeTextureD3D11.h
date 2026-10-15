@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE380)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE3D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE370)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDE300)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F658900)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_CTOR_OFFSET UNITYSDK_OFFSET(0x1F658880)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F658950)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6588F0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__FreeTextureD3D11_TypeDefinitionIndex = 37850;
+	inline static constexpr unsigned int IVRRenderModels__FreeTextureD3D11_TypeDefinitionIndex = 39147;
 
 	class IVRRenderModels__FreeTextureD3D11 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURED3D11_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

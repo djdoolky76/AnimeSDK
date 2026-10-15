@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { template <typename T> class INewsTickerPoolableItemCreator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTickerItemPool_1_TypeDefinitionIndex = 68968;
+	inline static constexpr unsigned int NewsTickerItemPool_1_TypeDefinitionIndex = 69004;
 
 	template <typename T>
 	class NewsTickerItemPool_1 : public ::System::Object

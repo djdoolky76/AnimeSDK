@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Container.h"
-
 namespace System { class Object; }
 namespace System { class String; }
-namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering { template <typename T> class ObservableList_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1CD1AE20)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x1CD1ADD0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1CD1ADC0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET UNITYSDK_OFFSET(0x1CD1AEF0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1CD1AE60)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x1CD1ADE0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_UNITYENGINE_RENDERING_DEBUGUI_IVALUEFIELD_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1CD1AE30)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CD1AEE0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD1AE00)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1ADF0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2923A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F292390)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1F2923C0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x1F292370)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1F292360)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET UNITYSDK_OFFSET(0x1F292490)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1F292400)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x1F292380)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_UNITYENGINE_RENDERING_DEBUGUI_IVALUEFIELD_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1F2923D0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1F292480)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Foldout_TypeDefinitionIndex = 34856;
+	inline static constexpr unsigned int DebugUI_Foldout_TypeDefinitionIndex = 35525;
 
 	class DebugUI_Foldout : public ::UnityEngine::Rendering::DebugUI_Container
 	{
 	public:
 		::Il2CppArray<::System::String*>* _columnLabels_k__BackingField; // 0x40
 		::System::Boolean opened; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* a2, ::Il2CppArray<::System::String*>* a3)
+		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Rendering::ObservableList_1<::System::Object*>* a2, ::Il2CppArray<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::ObservableList_1<::System::Object*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_isReadOnly()
@@ -77,5 +74,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET))(this, a1);
 		}
+
 	};
 }

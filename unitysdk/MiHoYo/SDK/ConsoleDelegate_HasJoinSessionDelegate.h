@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9620)
-#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9650)
-#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9610)
-#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F95A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE158A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE15820)
+#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE158D0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_HasJoinSessionDelegate_TypeDefinitionIndex = 7575;
+	inline static constexpr unsigned int ConsoleDelegate_HasJoinSessionDelegate_TypeDefinitionIndex = 7629;
 
 	class ConsoleDelegate_HasJoinSessionDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_HASJOINSESSIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

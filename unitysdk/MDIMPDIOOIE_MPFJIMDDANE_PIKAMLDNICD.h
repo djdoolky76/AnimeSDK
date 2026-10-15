@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class MDIMPDIOOIE;
+class NALGGFHJEBB;
+namespace System { class Object; }
+
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C48BEB0)
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C48BE40)
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C48C030)
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C48BFF0)
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C48C090)
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C48C000)
+#define MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C48C120)
+
+inline static constexpr unsigned int MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_TypeDefinitionIndex = 41557;
+
+	class MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD : public ::System::Object
+	{
+	public:
+		::MDIMPDIOOIE* CCGCJBBPAJN; // 0x10
+		::Il2CppArray<::System::UInt32>* FEOBCKNEKHO; // 0x18
+		::NALGGFHJEBB* DMAFEKFPOOE; // 0x20
+		::System::Int32 IIGDAFBBEMP; // 0x28
+		::System::UInt32 ELFDDLBMMPC; // 0x2C
+		::System::Int64 BBFOLEOPPPL; // 0x30
+		::System::UInt32 DEFBCHJCDGL; // 0x38
+		::System::Int32 DIOFGJKGHNF; // 0x3C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::MDIMPDIOOIE* a1, ::System::Int32 a2, ::NALGGFHJEBB* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::MDIMPDIOOIE*, ::System::Int32, ::NALGGFHJEBB*))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_CTOR_1_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Int32 get_Current()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDIMPDIOOIE_MPFJIMDDANE_PIKAMLDNICD_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+	};

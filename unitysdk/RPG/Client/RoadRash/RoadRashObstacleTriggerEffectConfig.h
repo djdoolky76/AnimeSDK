@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashObstacleTriggerEffectConfig_TypeDefinitionIndex = 75449;
+	inline static constexpr unsigned int RoadRashObstacleTriggerEffectConfig_TypeDefinitionIndex = 75864;
 
 	struct alignas(8) RoadRashObstacleTriggerEffectConfig
 	{

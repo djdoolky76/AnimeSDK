@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace XLua
 {
-	inline static constexpr unsigned int CastToInt_1_CastToIntFunc_TypeDefinitionIndex = 50588;
+	inline static constexpr unsigned int CastToInt_1_CastToIntFunc_TypeDefinitionIndex = 50257;
 
-	template <typename S>
+	template <typename T>
 	class CastToInt_1_CastToIntFunc : public ::System::MulticastDelegate
 	{
 	public:

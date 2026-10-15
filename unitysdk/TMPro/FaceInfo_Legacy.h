@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define TMPRO_FACEINFO_LEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x18B23EC0)
+#define TMPRO_FACEINFO_LEGACY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B7760)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 43380;
+	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 44572;
 
 	class FaceInfo_Legacy : public ::System::Object
 	{
@@ -34,10 +33,10 @@ namespace TMPro
 		::System::Single Padding; // 0x5C
 		::System::Single AtlasWidth; // 0x60
 		::System::Single AtlasHeight; // 0x64
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_FACEINFO_LEGACY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_FACEINFO_LEGACY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

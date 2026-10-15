@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/LogMessageType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int LogMessage_TypeDefinitionIndex = 39536;
+	inline static constexpr unsigned int LogMessage_TypeDefinitionIndex = 40833;
 
 	struct alignas(8) LogMessage
 	{

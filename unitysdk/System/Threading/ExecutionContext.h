@@ -1,61 +1,62 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Threading/ExecutionContext_CaptureOptions.h"
+#include "unitysdk/System/Threading/ExecutionContext_Flags.h"
+#include "unitysdk/System/Threading/StackCrawlMark.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Threading/AsyncFlowControl.h"
 #include "unitysdk/System/Threading/ExecutionContextSwitcher.h"
-#include "unitysdk/System/Threading/ExecutionContext_CaptureOptions.h"
-#include "unitysdk/System/Threading/ExecutionContext_Flags.h"
-#include "unitysdk/System/Threading/StackCrawlMark.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::Remoting::Messaging { class IllogicalCallContext; }
 namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Threading { class ContextCallback; }
+namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class IAsyncLocal; }
 namespace System::Threading { class SynchronizationContext; }
 namespace System::Threading { class Thread; }
 
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1B3DF860)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1B3E4CD0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x1B3E4850)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_CREATEMUTABLECOPY_OFFSET UNITYSDK_OFFSET(0x1B3E4980)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B3E3D30)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_1_OFFSET UNITYSDK_OFFSET(0x1B3E44C0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_OFFSET UNITYSDK_OFFSET(0x1B3E46E0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_FASTCAPTURE_OFFSET UNITYSDK_OFFSET(0x1B3E4D00)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GETLOCALVALUE_OFFSET UNITYSDK_OFFSET(0x1B3E2FB0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1B3E4D80)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ILLOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E3C90)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ISFLOWSUPPRESSED_OFFSET UNITYSDK_OFFSET(0x1B3E2F40)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ISNEWCAPTURE_OFFSET UNITYSDK_OFFSET(0x1B3E2F20)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ISPREALLOCATEDDEFAULT_OFFSET UNITYSDK_OFFSET(0x1B3E2F80)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_LOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E3C50)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_PREALLOCATEDDEFAULT_OFFSET UNITYSDK_OFFSET(0x1B3E2F50)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_SYNCHRONIZATIONCONTEXTNOFLOW_OFFSET UNITYSDK_OFFSET(0x1B3E3D10)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_SYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E3CF0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_ISDEFAULTFTCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E4330)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_ISFLOWSUPPRESSED_OFFSET UNITYSDK_OFFSET(0x1B3E4C40)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_ONASYNCLOCALCONTEXTCHANGED_OFFSET UNITYSDK_OFFSET(0x1B3E35D0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_RESTOREFLOW_OFFSET UNITYSDK_OFFSET(0x1B3DECB0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_RUNINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B3E3D90)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_RUN_1_OFFSET UNITYSDK_OFFSET(0x1B3E3D40)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_RUN_OFFSET UNITYSDK_OFFSET(0x1B3DF250)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SETEXECUTIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E44F0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SETLOCALVALUE_OFFSET UNITYSDK_OFFSET(0x1B3E3110)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_ILLOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E3CE0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_ISFLOWSUPPRESSED_OFFSET UNITYSDK_OFFSET(0x1B3DEA80)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_ISNEWCAPTURE_OFFSET UNITYSDK_OFFSET(0x1B3E2F30)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_LOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E3C80)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_SYNCHRONIZATIONCONTEXTNOFLOW_OFFSET UNITYSDK_OFFSET(0x1B3E3D20)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_SYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E3D00)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT_SUPPRESSFLOW_OFFSET UNITYSDK_OFFSET(0x1B3E4A70)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3E4FA0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3E2FA0)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B3E4E30)
-#define SYSTEM_THREADING_EXECUTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E2F90)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1C112D90)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1C1181E0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C118480)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x1C117D80)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CREATEMUTABLECOPY_OFFSET UNITYSDK_OFFSET(0x1C117EA0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1164D0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C118340)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1164C0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C117260)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_1_OFFSET UNITYSDK_OFFSET(0x1C1179F0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_OFFSET UNITYSDK_OFFSET(0x1C117C10)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_FASTCAPTURE_OFFSET UNITYSDK_OFFSET(0x1C118210)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GETLOCALVALUE_OFFSET UNITYSDK_OFFSET(0x1C1164E0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C118290)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ILLOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C1171C0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ISFLOWSUPPRESSED_OFFSET UNITYSDK_OFFSET(0x1C116470)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ISNEWCAPTURE_OFFSET UNITYSDK_OFFSET(0x1C116450)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_ISPREALLOCATEDDEFAULT_OFFSET UNITYSDK_OFFSET(0x1C1164B0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_LOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C117180)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_PREALLOCATEDDEFAULT_OFFSET UNITYSDK_OFFSET(0x1C116480)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_SYNCHRONIZATIONCONTEXTNOFLOW_OFFSET UNITYSDK_OFFSET(0x1C117240)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_GET_SYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C117220)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_ISDEFAULTFTCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C117860)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_ISFLOWSUPPRESSED_OFFSET UNITYSDK_OFFSET(0x1C118150)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_ONASYNCLOCALCONTEXTCHANGED_OFFSET UNITYSDK_OFFSET(0x1C116B00)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_RESTOREFLOW_OFFSET UNITYSDK_OFFSET(0x1C1121E0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_RUNINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C1172C0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_RUN_1_OFFSET UNITYSDK_OFFSET(0x1C117270)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_RUN_OFFSET UNITYSDK_OFFSET(0x1C112780)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SETEXECUTIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C117A20)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SETLOCALVALUE_OFFSET UNITYSDK_OFFSET(0x1C116640)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_ILLOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C117210)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_ISFLOWSUPPRESSED_OFFSET UNITYSDK_OFFSET(0x1C111FB0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_ISNEWCAPTURE_OFFSET UNITYSDK_OFFSET(0x1C116460)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_LOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C1171B0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_SYNCHRONIZATIONCONTEXTNOFLOW_OFFSET UNITYSDK_OFFSET(0x1C117250)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SET_SYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C117230)
+#define SYSTEM_THREADING_EXECUTIONCONTEXT_SUPPRESSFLOW_OFFSET UNITYSDK_OFFSET(0x1C117F80)
 
 namespace System::Threading
 {
@@ -64,36 +65,36 @@ namespace System::Threading
 	class ExecutionContext : public ::System::Object
 	{
 	public:
+		::System::Runtime::Remoting::Messaging::IllogicalCallContext* _illogicalCallContext; // 0x10
+		::System::Threading::SynchronizationContext* _syncContext; // 0x18
+		::System::Runtime::Remoting::Messaging::LogicalCallContext* _logicalCallContext; // 0x20
+		::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* _localChangeNotifications; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* _localValues; // 0x30
+		::System::Threading::SynchronizationContext* _syncContextNoFlow; // 0x38
+		::System::Threading::ExecutionContext_Flags _flags; // 0x40
 		static ::System::Threading::ExecutionContext** StaticGet_s_dummyDefaultEC()
 		{
-			return (::System::Threading::ExecutionContext**)Il2CppClass::FromTypeDefinitionIndex(ExecutionContext_TypeDefinitionIndex)->GetStaticField(0x13D40);
+			return (::System::Threading::ExecutionContext**)UnitySDK::FromName("System.Threading", "ExecutionContext")->GetStaticField(0x254C0);
 		}
-		::System::Threading::SynchronizationContext* _syncContextNoFlow; // 0x10
-		::System::Runtime::Remoting::Messaging::LogicalCallContext* _logicalCallContext; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* _localValues; // 0x20
-		::System::Threading::SynchronizationContext* _syncContext; // 0x28
-		::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* _localChangeNotifications; // 0x30
-		::System::Runtime::Remoting::Messaging::IllogicalCallContext* _illogicalCallContext; // 0x38
-		::System::Threading::ExecutionContext_Flags _flags; // 0x40
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_isNewCapture()
@@ -201,14 +202,14 @@ namespace System::Threading
 			return ((::System::Void(*)(::System::Threading::ExecutionContext*, ::System::Threading::ContextCallback*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_RUNINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void EstablishCopyOnWriteScope(::System::Threading::ExecutionContextSwitcher& a1)
+		static ::System::Void EstablishCopyOnWriteScope(::System::Threading::ExecutionContextSwitcher a1)
 		{
-			return ((::System::Void(*)(::System::Threading::ExecutionContextSwitcher&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Threading::ExecutionContextSwitcher))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_OFFSET))(a1);
 		}
 
-		static ::System::Void EstablishCopyOnWriteScope_1(::System::Threading::Thread* a1, ::System::Boolean a2, ::System::Threading::ExecutionContextSwitcher& a3)
+		static ::System::Void EstablishCopyOnWriteScope_1(::System::Threading::Thread* a1, ::System::Boolean a2, ::System::Threading::ExecutionContextSwitcher a3)
 		{
-			return ((::System::Void(*)(::System::Threading::Thread*, ::System::Boolean, ::System::Threading::ExecutionContextSwitcher&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_1_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Threading::Thread*, ::System::Boolean, ::System::Threading::ExecutionContextSwitcher))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_ESTABLISHCOPYONWRITESCOPE_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Threading::ExecutionContextSwitcher SetExecutionContext(::System::Threading::ExecutionContext* a1, ::System::Boolean a2)
@@ -251,9 +252,9 @@ namespace System::Threading
 			return ((::System::Threading::ExecutionContext*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_FASTCAPTURE_OFFSET))();
 		}
 
-		static ::System::Threading::ExecutionContext* Capture_1(::System::Threading::StackCrawlMark& a1, ::System::Threading::ExecutionContext_CaptureOptions a2)
+		static ::System::Threading::ExecutionContext* Capture_1(::System::Threading::StackCrawlMark a1, ::System::Threading::ExecutionContext_CaptureOptions a2)
 		{
-			return ((::System::Threading::ExecutionContext*(*)(::System::Threading::StackCrawlMark&, ::System::Threading::ExecutionContext_CaptureOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_CAPTURE_1_OFFSET))(a1, a2);
+			return ((::System::Threading::ExecutionContext*(*)(::System::Threading::StackCrawlMark, ::System::Threading::ExecutionContext_CaptureOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_CAPTURE_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
@@ -265,5 +266,6 @@ namespace System::Threading
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EXECUTIONCONTEXT_ISDEFAULTFTCONTEXT_OFFSET))(this, a1);
 		}
+
 	};
 }

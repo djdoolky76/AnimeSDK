@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterSteerTo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_0E31B757DD6200F1_OFFSET UNITYSDK_OFFSET(0x1E000A20)
-#define RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_58C6EB550C6ACD39_OFFSET UNITYSDK_OFFSET(0x1E0009D0)
-#define RPG_GAMECORE_CHARACTERSTEERTO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E000A10)
+#define RPG_GAMECORE_CHARACTERSTEERTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54BA60)
+#define RPG_GAMECORE_CHARACTERSTEERTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D54BA70)
+#define RPG_GAMECORE_CHARACTERSTEERTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54BA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSteerTo_TypeDefinitionIndex = 20630;
+	inline static constexpr unsigned int CharacterSteerTo_TypeDefinitionIndex = 20869;
 
 	class CharacterSteerTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,22 +20,23 @@ namespace RPG::GameCore
 		::System::String* AnchorName; // 0x20
 		::System::String* AreaName; // 0x28
 		::System::Single Duration; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* TargetCharacterUniqueName; // 0x38
 		::System::Boolean WaitUntilFinish; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_58C6EB550C6ACD39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSteerTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterSteerTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSteerTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_58C6EB550C6ACD39_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterSteerTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0E31B757DD6200F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSteerTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterSteerTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSteerTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_0E31B757DD6200F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterSteerTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

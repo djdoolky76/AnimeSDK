@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class KFELGAIGHAP;
+namespace RPG::GameCore { class InitGridFightStatisticsBinding; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define PLEJGOEALDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E8A30)
+#define PLEJGOEALDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2E8D50)
+#define PLEJGOEALDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E8B30)
+
+inline static constexpr unsigned int PLEJGOEALDJ_TypeDefinitionIndex = 55129;
+
+	class PLEJGOEALDJ
+	{
+	public:
+		::KFELGAIGHAP* JCLEENONPGI; // 0x28
+		::KFELGAIGHAP* KDMEBFOHHBM; // 0x30
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InitGridFightStatisticsBinding* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::InitGridFightStatisticsBinding*))((::PBYTE)hIl2Cpp + PLEJGOEALDJ_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLEJGOEALDJ_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLEJGOEALDJ_DISPOSE_OFFSET))(this);
+		}
+
+	};

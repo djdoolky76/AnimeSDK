@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DebateCostChangce; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DEBATECOSTCHANGCE_METHOD_3_128FA4F5F75C9227_OFFSET UNITYSDK_OFFSET(0x1D80FC60)
-#define RPG_GAMECORE_DEBATECOSTCHANGCE_METHOD_3_DAEC9597FB341A0C_OFFSET UNITYSDK_OFFSET(0x1D80FCC0)
-#define RPG_GAMECORE_DEBATECOSTCHANGCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80FCA0)
+#define RPG_GAMECORE_DEBATECOSTCHANGCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7950)
+#define RPG_GAMECORE_DEBATECOSTCHANGCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5C7970)
+#define RPG_GAMECORE_DEBATECOSTCHANGCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C7910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateCostChangce_TypeDefinitionIndex = 21684;
+	inline static constexpr unsigned int DebateCostChangce_TypeDefinitionIndex = 21932;
 
 	class DebateCostChangce : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Int32 CostNum; // 0x18
 		::System::Single WaitSecond; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATECOSTCHANGCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATECOSTCHANGCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_128FA4F5F75C9227(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateCostChangce*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DebateCostChangce* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebateCostChangce*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATECOSTCHANGCE_METHOD_3_128FA4F5F75C9227_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DebateCostChangce*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATECOSTCHANGCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DAEC9597FB341A0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateCostChangce* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DebateCostChangce* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebateCostChangce*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATECOSTCHANGCE_METHOD_3_DAEC9597FB341A0C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DebateCostChangce*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATECOSTCHANGCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

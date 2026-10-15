@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 namespace RPG::GameCore { class DiceCombatSkillAIEffectConfig; }
+namespace RPG::GameCore { class DiceCombatWeatherSkillConfig; }
 
-#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_METHOD_2_92FE4087C67E1EA3_OFFSET UNITYSDK_OFFSET(0x1DB09E70)
-#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB09FA0)
+#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8B30)
+#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E8A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatWeatherSkillConfig_TypeDefinitionIndex = 15988;
+	inline static constexpr unsigned int DiceCombatWeatherSkillConfig_TypeDefinitionIndex = 16161;
 
 	class DiceCombatWeatherSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::DiceCombatNotAvatarPreviewConfig*>* PreviewConfigs; // 0x10
 		::RPG::GameCore::DiceCombatSkillAIEffectConfig* AIEffect; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_92FE4087C67E1EA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatWeatherSkillConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatWeatherSkillConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatWeatherSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_METHOD_2_92FE4087C67E1EA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatWeatherSkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

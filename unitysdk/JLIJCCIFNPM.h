@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class LNAAGIHIKDJ;
+class MFLJIEBFMOF;
+namespace RPG::Client { class MonoDanmuItem; }
+
+#define JLIJCCIFNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB245B60)
+#define JLIJCCIFNPM_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB245980)
+#define JLIJCCIFNPM_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0xB2458C0)
+
+inline static constexpr unsigned int JLIJCCIFNPM_TypeDefinitionIndex = 68939;
+
+	class JLIJCCIFNPM : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JLIJCCIFNPM_CTOR_OFFSET))(this);
+		}
+
+		::System::Void JDEKJLHMPLG(::RPG::Client::MonoDanmuItem* a1, ::MFLJIEBFMOF* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoDanmuItem*, ::MFLJIEBFMOF*))((::PBYTE)hIl2Cpp + JLIJCCIFNPM_JDEKJLHMPLG_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void EKGCGIDIFJJ(::RPG::Client::MonoDanmuItem* a1, ::LNAAGIHIKDJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoDanmuItem*, ::LNAAGIHIKDJ*))((::PBYTE)hIl2Cpp + JLIJCCIFNPM_EKGCGIDIFJJ_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
-
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1811D8B0)
-#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1811D9E0)
-#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1811D210)
-#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1811D200)
-#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1811D9F0)
+#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1C34D1F0)
+#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C34D330)
+#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1C34D320)
+#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1C34CB50)
+#define NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1C34CB40)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int HashSetConverter_TypeDefinitionIndex = 9758;
+	inline static constexpr unsigned int HashSetConverter_TypeDefinitionIndex = 9816;
 
 	class HashSetConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
@@ -45,5 +44,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_HASHSETCONVERTER_GET_CANWRITE_OFFSET))(this);
 		}
+
 	};
 }

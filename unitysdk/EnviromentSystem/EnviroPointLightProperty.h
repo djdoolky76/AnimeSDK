@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystem/EnviroProperty.h"
-
+namespace EnviromentSystem { class EnviroPointLightProperty; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x106AA6D0)
-#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x106A2740)
+#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1560A1F0)
+#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x15602260)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroPointLightProperty_TypeDefinitionIndex = 50035;
+	inline static constexpr unsigned int EnviroPointLightProperty_TypeDefinitionIndex = 49610;
 
 	class EnviroPointLightProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::EnviromentSystem::EnviroPointLightProperty* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroPointLightProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroPointLightProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY_CTOR_1_OFFSET))(this, a1);
 		}
+
 	};
 }

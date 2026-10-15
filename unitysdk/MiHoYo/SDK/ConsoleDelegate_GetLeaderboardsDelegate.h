@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8CC0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8D00)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8CB0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F8C30)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE14F40)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE14EB0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE14F80)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE14F30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetLeaderboardsDelegate_TypeDefinitionIndex = 7627;
+	inline static constexpr unsigned int ConsoleDelegate_GetLeaderboardsDelegate_TypeDefinitionIndex = 7681;
 
 	class ConsoleDelegate_GetLeaderboardsDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Action_1<::System::String*>* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETLEADERBOARDSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

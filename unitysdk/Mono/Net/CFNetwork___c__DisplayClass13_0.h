@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Net { class CFProxy; }
 namespace Mono::Net { class CFRunLoop; }
 
-#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C470050)
-#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET UNITYSDK_OFFSET(0x1C470D20)
+#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8F9B0)
+#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET UNITYSDK_OFFSET(0x1EF90680)
 
 namespace Mono::Net
 {
@@ -17,15 +16,15 @@ namespace Mono::Net
 	public:
 		::Il2CppArray<::Mono::Net::CFProxy*>* proxies; // 0x10
 		::Mono::Net::CFRunLoop* runLoop; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ExecuteProxyAutoConfigurationURL_b__0(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

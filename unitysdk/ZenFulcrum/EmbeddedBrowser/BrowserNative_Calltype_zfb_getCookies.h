@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_GetCookieFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0B50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0BB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0B40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E0AD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F623770)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6236F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6237D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F623760)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getCookies_TypeDefinitionIndex = 38160;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getCookies_TypeDefinitionIndex = 39457;
 
 	class BrowserNative_Calltype_zfb_getCookies : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_GetCookieFunc* a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETCOOKIES_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

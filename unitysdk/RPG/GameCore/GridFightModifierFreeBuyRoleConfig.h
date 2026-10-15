@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierFreeBuyRoleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_METHOD_3_1DAD121E65710C0A_OFFSET UNITYSDK_OFFSET(0x1EE6DFB0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_METHOD_3_8422E1E3944CE266_OFFSET UNITYSDK_OFFSET(0x1EE6E000)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6DFF0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D706F80)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D706F90)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D706F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierFreeBuyRoleConfig_TypeDefinitionIndex = 19133;
+	inline static constexpr unsigned int GridFightModifierFreeBuyRoleConfig_TypeDefinitionIndex = 19363;
 
 	class GridFightModifierFreeBuyRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1DAD121E65710C0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_METHOD_3_1DAD121E65710C0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8422E1E3944CE266(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_METHOD_3_8422E1E3944CE266_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierFreeBuyRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERFREEBUYROLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

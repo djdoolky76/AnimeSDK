@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityValueGetterConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
+namespace RPG::GameCore { class LittleGameAbilityValueGetterCountTargetsConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_METHOD_3_98B281E9EC557F74_OFFSET UNITYSDK_OFFSET(0x1DD669C0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_METHOD_3_BFE48BBDE1F27288_OFFSET UNITYSDK_OFFSET(0x1DD668F0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD669B0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AF390)
+#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7AF3A0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7AF2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityValueGetterCountTargetsConfig_TypeDefinitionIndex = 21141;
+	inline static constexpr unsigned int LittleGameAbilityValueGetterCountTargetsConfig_TypeDefinitionIndex = 21387;
 
 	class LittleGameAbilityValueGetterCountTargetsConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:
 		::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* TargetSelector; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BFE48BBDE1F27288(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_METHOD_3_BFE48BBDE1F27288_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_98B281E9EC557F74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_METHOD_3_98B281E9EC557F74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityValueGetterCountTargetsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYVALUEGETTERCOUNTTARGETSCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/GridFightPreset.h"
 #include "unitysdk/RPG/GameCore/GridFightRegion.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client { class GridFightNPCConfig; }
 namespace RPG::GameCore { class GridFightNpcConfigRow; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1BC50450)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0x1BC517C0)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0x1BC518D0)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1BC516B0)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x1BC51690)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ISEQUIPPABLE_OFFSET UNITYSDK_OFFSET(0x1BC51880)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x1BC51750)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_POSITIONREGION_OFFSET UNITYSDK_OFFSET(0x1BC51830)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x1BC51700)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_SET_ID_OFFSET UNITYSDK_OFFSET(0x1BC516A0)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC51930)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD1BA810)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xD1B9390)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0xD1BA700)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0xD18C4B0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD1BA5F0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0xD1BA5D0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ISEQUIPPABLE_OFFSET UNITYSDK_OFFSET(0xD1BA7C0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xD1BA690)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_POSITIONREGION_OFFSET UNITYSDK_OFFSET(0xD1BA770)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xD1BA640)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_SET_ID_OFFSET UNITYSDK_OFFSET(0xD1BA5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightNPCConfig_TypeDefinitionIndex = 65124;
+	inline static constexpr unsigned int GridFightNPCConfig_TypeDefinitionIndex = 65064;
 
 	class GridFightNPCConfig : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>** StaticGet_GetConfigImpl()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightNPCConfig_TypeDefinitionIndex)->GetStaticField(0x35DF0);
-		}
 		::RPG::GameCore::GridFightNpcConfigRow* _Row; // 0x10
 		::System::UInt32 _ID_k__BackingField; // 0x18
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>** StaticGet_GetConfigImpl()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>**)UnitySDK::FromName("RPG.Client", "GridFightNPCConfig")->GetStaticField(0x6B020);
+		}
 
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::GridFightNPCConfig* GetConfig(::System::UInt32 a1)
@@ -89,5 +89,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::GridFightPreset(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_FRONTBACKTYPE_OFFSET))(this);
 		}
+
 	};
 }

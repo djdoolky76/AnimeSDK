@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Mono/Math/Prime/ConfidenceFactor_BC2964F1B0FE5128.h"
+#include "unitysdk/System/Object.h"
+namespace Mono::Math::Prime { class PrimalityTest_9F196201DC469BA4; }
+
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF9E90)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_GET_CONFIDENCE_OFFSET UNITYSDK_OFFSET(0x1BFF9E00)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_GET_PRIMALITYTEST_OFFSET UNITYSDK_OFFSET(0x1BFF9E10)
+#define MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_GET_TRIALDIVISIONBOUNDS_OFFSET UNITYSDK_OFFSET(0x1BFF9E80)
+
+namespace Mono::Math::Prime::Generator
+{
+	inline static constexpr unsigned int PrimeGeneratorBase_FC1326D37A88BDFE_TypeDefinitionIndex = 2321;
+
+	class PrimeGeneratorBase_FC1326D37A88BDFE : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_CTOR_OFFSET))(this);
+		}
+
+		::Mono::Math::Prime::ConfidenceFactor_BC2964F1B0FE5128 get_Confidence()
+		{
+			return ((::Mono::Math::Prime::ConfidenceFactor_BC2964F1B0FE5128(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_GET_CONFIDENCE_OFFSET))(this);
+		}
+
+		::Mono::Math::Prime::PrimalityTest_9F196201DC469BA4* get_PrimalityTest()
+		{
+			return ((::Mono::Math::Prime::PrimalityTest_9F196201DC469BA4*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_GET_PRIMALITYTEST_OFFSET))(this);
+		}
+
+		::System::Int32 get_TrialDivisionBounds()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_PRIMEGENERATORBASE_FC1326D37A88BDFE_GET_TRIALDIVISIONBOUNDS_OFFSET))(this);
+		}
+
+	};
+}

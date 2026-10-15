@@ -3,29 +3,30 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1EE09A40)
-#define UNITYENGINE_SYSTEMCLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE09AD0)
+#define UNITYENGINE_SYSTEMCLOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4046D0)
+#define UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1F404640)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SystemClock_TypeDefinitionIndex = 4391;
+	inline static constexpr unsigned int SystemClock_TypeDefinitionIndex = 4394;
 
 	class SystemClock : public ::System::Object
 	{
 	public:
 		static ::System::DateTime* StaticGet_s_Epoch()
 		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SystemClock_TypeDefinitionIndex)->GetStaticField(0x8A30);
+			return (::System::DateTime*)UnitySDK::FromName("UnityEngine", "SystemClock")->GetStaticField(0x4B60);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SYSTEMCLOCK__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SYSTEMCLOCK_CCTOR_OFFSET))();
 		}
 
 		static ::System::DateTime get_now()
 		{
 			return ((::System::DateTime(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET))();
 		}
+
 	};
 }

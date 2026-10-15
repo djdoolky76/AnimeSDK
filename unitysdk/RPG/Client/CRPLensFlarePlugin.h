@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::CustomRP { class LensFlareElement; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_079E5C91214C7EF3_OFFSET UNITYSDK_OFFSET(0x1A11CDB0)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x1A11D230)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A11C400)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A11D6C0)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_UPDATELENSFLARE_OFFSET UNITYSDK_OFFSET(0x1A11D680)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11D820)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C6050)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xC8C5A60)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_LHHDHNPLCFD_OFFSET UNITYSDK_OFFSET(0xC8C55E0)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC8C4C30)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC8C5EF0)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_UPDATELENSFLARE_OFFSET UNITYSDK_OFFSET(0xC8C5EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLensFlarePlugin_TypeDefinitionIndex = 70130;
+	inline static constexpr unsigned int CRPLensFlarePlugin_TypeDefinitionIndex = 70166;
 
 	class CRPLensFlarePlugin : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,11 +34,11 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* IKBNPKKLLBG; // 0x48
 		::System::Int32 IAHGFFLDNGH; // 0x50
 		::System::Boolean HDJOGGDMCIO; // 0x54
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareElement*>* LensFlareElements; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDisable()
@@ -47,14 +46,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_079E5C91214C7EF3()
+		::System::Void LHHDHNPLCFD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_079E5C91214C7EF3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_LHHDHNPLCFD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E41B6A823556FEEA()
+		::System::Void DIOEAJEHHND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_E41B6A823556FEEA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_DIOEAJEHHND_OFFSET))(this);
 		}
 
 		::System::Void UpdateLensFlare()
@@ -66,5 +65,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN_ONENABLE_OFFSET))(this);
 		}
+
 	};
 }

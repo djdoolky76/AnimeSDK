@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/MouseEventBase_1.h"
-
 namespace UnityEngine::UIElements { class IPointerEvent; }
+namespace UnityEngine::UIElements { class MouseUpEvent; }
 namespace UnityEngine::UIElements { class PointerCancelEvent; }
 namespace UnityEngine::UIElements { class PointerMoveEvent; }
 namespace UnityEngine::UIElements { class PointerUpEvent; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_1_OFFSET UNITYSDK_OFFSET(0x1D6166C0)
-#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_2_OFFSET UNITYSDK_OFFSET(0x1D6166D0)
-#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1D6166B0)
-#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_MAKEFROMPOINTEREVENT_OFFSET UNITYSDK_OFFSET(0x1D616430)
-#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6166E0)
+#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F48DCE0)
+#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_1_OFFSET UNITYSDK_OFFSET(0x1F48DCC0)
+#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_2_OFFSET UNITYSDK_OFFSET(0x1F48DCD0)
+#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1F48DCB0)
+#define UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_MAKEFROMPOINTEREVENT_OFFSET UNITYSDK_OFFSET(0x1F48DA30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseUpEvent_TypeDefinitionIndex = 5953;
+	inline static constexpr unsigned int MouseUpEvent_TypeDefinitionIndex = 5961;
 
-	class MouseUpEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseUpEvent*>
+	class MouseUpEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEUPEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_CTOR_OFFSET))(this);
 		}
 
 		static ::UnityEngine::UIElements::MouseUpEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* a1)
@@ -44,5 +43,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::UnityEngine::UIElements::MouseUpEvent*(*)(::UnityEngine::UIElements::PointerCancelEvent*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEUPEVENT_GETPOOLED_2_OFFSET))(a1);
 		}
+
 	};
 }

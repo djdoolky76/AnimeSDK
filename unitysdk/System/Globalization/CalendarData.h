@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
+namespace System::Globalization { class CalendarData; }
 
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_CALENDARIDTOCULTURENAME_OFFSET UNITYSDK_OFFSET(0x18D69880)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET UNITYSDK_OFFSET(0x18D69B70)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_GETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x18D67530)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEABBREVIATEDERANAMES_OFFSET UNITYSDK_OFFSET(0x18D69270)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEERANAMES_OFFSET UNITYSDK_OFFSET(0x18D68DF0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x18D68D70)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETTWODIGITYEARMAX_OFFSET UNITYSDK_OFFSET(0x18D67FC0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D67FE0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18D68620)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D67FD0)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_CALENDARIDTOCULTURENAME_OFFSET UNITYSDK_OFFSET(0x1C1E3970)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1E20D0)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1E2710)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E20C0)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET UNITYSDK_OFFSET(0x1C1E3C60)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_GETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x1C1E1620)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEABBREVIATEDERANAMES_OFFSET UNITYSDK_OFFSET(0x1C1E3360)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEERANAMES_OFFSET UNITYSDK_OFFSET(0x1C1E2EE0)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x1C1E2E60)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETTWODIGITYEARMAX_OFFSET UNITYSDK_OFFSET(0x1C1E20B0)
 
 namespace System::Globalization
 {
@@ -22,11 +22,6 @@ namespace System::Globalization
 	class CalendarData : public ::System::Object
 	{
 	public:
-		static ::System::Globalization::CalendarData** StaticGet_Invariant()
-		{
-			return (::System::Globalization::CalendarData**)Il2CppClass::FromTypeDefinitionIndex(CalendarData_TypeDefinitionIndex)->GetStaticField(0x7A60);
-		}
-		// static const ::System::Int32 MAX_CALENDARS = 0x17; // 0x0
 		::System::String* sNativeName; // 0x10
 		::Il2CppArray<::System::String*>* saShortDates; // 0x18
 		::Il2CppArray<::System::String*>* saYearMonths; // 0x20
@@ -46,20 +41,25 @@ namespace System::Globalization
 		::System::Int32 iTwoDigitYearMax; // 0x90
 		::System::Int32 iCurrentEra; // 0x94
 		::System::Boolean bUseUserOverrides; // 0x98
+		static ::System::Globalization::CalendarData** StaticGet_Invariant()
+		{
+			return (::System::Globalization::CalendarData**)UnitySDK::FromName("System.Globalization", "CalendarData")->GetStaticField(0x158C0);
+		}
 
+		// static const ::System::Object MAX_CALENDARS; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void InitializeEraNames(::System::String* a1, ::System::Int32 a2)
@@ -96,5 +96,6 @@ namespace System::Globalization
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,17 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { template <typename T> class Comparison_1; }
-namespace System { template <typename T> class Predicate_1; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::UI::Collections
 {
-	inline static constexpr unsigned int IndexedSet_1_TypeDefinitionIndex = 6885;
+	inline static constexpr unsigned int IndexedSet_1_TypeDefinitionIndex = 6894;
 
 	template <typename T>
 	class IndexedSet_1 : public ::System::Object

@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int WhereSelect_3_TypeDefinitionIndex = 6135;
+	inline static constexpr unsigned int WhereSelect_3_TypeDefinitionIndex = 6144;
 
-	template <typename TEnumerator, typename TSource, typename TResult>
-	struct WhereSelect_3
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) WhereSelect_3
 	{
-		::System::Func_2<TSource, ::System::Boolean>* _predicate_P; // 0x0
-		::System::Func_2<TSource, TResult>* _selector_P; // 0x0
-		TEnumerator source; // 0x0
+		::System::Func_2<T1, ::System::Boolean>* _predicate_P; // 0x0
+		::System::Func_2<T1, T2>* _selector_P; // 0x0
+		T3 source; // 0x0
 	};
 }

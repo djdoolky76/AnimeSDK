@@ -1,0 +1,222 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/Security/Cryptography/DSAParameters.h"
+namespace Mono::Security { class ASN1_6C67A52C6BBD45E0; }
+namespace Mono::Security { class PKCS7_183E832926C478BA_ContentInfo; }
+namespace Mono::Security { class PKCS7_183E832926C478BA_EncryptedData; }
+namespace Mono::Security::Cryptography { class PKCS8_378BF51D75BB8F46_PrivateKeyInfo; }
+namespace Mono::Security::X509 { class X509CertificateCollection_C543E27E371FC821; }
+namespace Mono::Security::X509 { class X509Certificate_571251C08D3E3BD3; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections { class ArrayList; }
+namespace System::Collections { class IDictionary; }
+namespace System::Security::Cryptography { class RandomNumberGenerator; }
+namespace System::Security::Cryptography { class SymmetricAlgorithm; }
+
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ADDCERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1C0177D0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ADDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C0174E0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ADDPRIVATEKEY_OFFSET UNITYSDK_OFFSET(0x1C010E60)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C018CE0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CERTIFICATESAFEBAG_OFFSET UNITYSDK_OFFSET(0x1C011110)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CLONE_OFFSET UNITYSDK_OFFSET(0x1C018AF0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C00D0A0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C00BE50)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C00CCF0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CTOR_OFFSET UNITYSDK_OFFSET(0x1C00BCA0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_DECODE_OFFSET UNITYSDK_OFFSET(0x1C00C160)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_DECRYPT_1_OFFSET UNITYSDK_OFFSET(0x1C00DCF0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_DECRYPT_OFFSET UNITYSDK_OFFSET(0x1C00EC40)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ENCRYPTEDCONTENTINFO_OFFSET UNITYSDK_OFFSET(0x1C0174F0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x1C0102A0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C00DE80)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1C0128A0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GETEXISTINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1C0104B0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GETSYMMETRICALGORITHM_OFFSET UNITYSDK_OFFSET(0x1C00F710)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1C00EEA0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1C00DF00)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1C00DF20)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_MAXIMUMPASSWORDLENGTH_OFFSET UNITYSDK_OFFSET(0x1C018C80)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1C00F6D0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_MAC_OFFSET UNITYSDK_OFFSET(0x1C00CD30)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_READSAFEBAG_OFFSET UNITYSDK_OFFSET(0x1C00D110)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_REMOVECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1C017CD0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_REMOVECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C0174D0)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_SET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1C00DF10)
+#define MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_SET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1C00BEC0)
+
+namespace Mono::Security::X509
+{
+	inline static constexpr unsigned int PKCS12_16AB12B131A4D249_TypeDefinitionIndex = 2264;
+
+	class PKCS12_16AB12B131A4D249 : public ::System::Object
+	{
+	public:
+		::System::Security::Cryptography::RandomNumberGenerator* _rng; // 0x10
+		::System::Collections::ArrayList* _keyBags; // 0x18
+		::System::Collections::ArrayList* _secretBags; // 0x20
+		::System::Collections::ArrayList* _safeBags; // 0x28
+		::Il2CppArray<::System::Byte>* _password; // 0x30
+		::Mono::Security::X509::X509CertificateCollection_C543E27E371FC821* _certs; // 0x38
+		::System::Int32 _iterations; // 0x40
+		::System::Boolean _certsChanged; // 0x44
+		::System::Boolean _keyBagsChanged; // 0x45
+		::System::Boolean _secretBagsChanged; // 0x46
+		static ::System::Int32* StaticGet_password_max_length()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Mono.Security.X509", "PKCS12")->GetStaticField(0x8130);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CTOR_1_OFFSET))(this, a1);
+		}
+
+		::System::Void _ctor_2(::Il2CppArray<::System::Byte>* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CTOR_2_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CCTOR_OFFSET))();
+		}
+
+		::System::Void Decode(::Il2CppArray<::System::Byte>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_DECODE_OFFSET))(this, a1);
+		}
+
+		::System::Void Finalize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_FINALIZE_OFFSET))(this);
+		}
+
+		::System::Void set_Password(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_SET_PASSWORD_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_IterationCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_ITERATIONCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_IterationCount(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_SET_ITERATIONCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Collections::ArrayList* get_Keys()
+		{
+			return ((::System::Collections::ArrayList*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_KEYS_OFFSET))(this);
+		}
+
+		::Mono::Security::X509::X509CertificateCollection_C543E27E371FC821* get_Certificates()
+		{
+			return ((::Mono::Security::X509::X509CertificateCollection_C543E27E371FC821*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_CERTIFICATES_OFFSET))(this);
+		}
+
+		::System::Security::Cryptography::RandomNumberGenerator* get_RNG()
+		{
+			return ((::System::Security::Cryptography::RandomNumberGenerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_RNG_OFFSET))(this);
+		}
+
+		::System::Boolean Compare(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_COMPARE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)
+		{
+			return ((::System::Security::Cryptography::SymmetricAlgorithm*(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GETSYMMETRICALGORITHM_OFFSET))(this, a1, a2, a3);
+		}
+
+		::Il2CppArray<::System::Byte>* Decrypt(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_DECRYPT_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::Il2CppArray<::System::Byte>* Decrypt_1(::Mono::Security::PKCS7_183E832926C478BA_EncryptedData* a1)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Mono::Security::PKCS7_183E832926C478BA_EncryptedData*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_DECRYPT_1_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::Byte>* Encrypt(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ENCRYPT_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Security::Cryptography::DSAParameters GetExistingParameters(::System::Boolean a1)
+		{
+			return ((::System::Security::Cryptography::DSAParameters(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GETEXISTINGPARAMETERS_OFFSET))(this, a1);
+		}
+
+		::System::Void AddPrivateKey(::Mono::Security::Cryptography::PKCS8_378BF51D75BB8F46_PrivateKeyInfo* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Cryptography::PKCS8_378BF51D75BB8F46_PrivateKeyInfo*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ADDPRIVATEKEY_OFFSET))(this, a1);
+		}
+
+		::System::Void ReadSafeBag(::Mono::Security::ASN1_6C67A52C6BBD45E0* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1_6C67A52C6BBD45E0*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_READSAFEBAG_OFFSET))(this, a1);
+		}
+
+		::Mono::Security::ASN1_6C67A52C6BBD45E0* CertificateSafeBag(::Mono::Security::X509::X509Certificate_571251C08D3E3BD3* a1, ::System::Collections::IDictionary* a2)
+		{
+			return ((::Mono::Security::ASN1_6C67A52C6BBD45E0*(*)(::PVOID, ::Mono::Security::X509::X509Certificate_571251C08D3E3BD3*, ::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CERTIFICATESAFEBAG_OFFSET))(this, a1, a2);
+		}
+
+		::Il2CppArray<::System::Byte>* MAC(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_MAC_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::Il2CppArray<::System::Byte>* GetBytes()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GETBYTES_OFFSET))(this);
+		}
+
+		::Mono::Security::PKCS7_183E832926C478BA_ContentInfo* EncryptedContentInfo(::Mono::Security::ASN1_6C67A52C6BBD45E0* a1, ::System::String* a2)
+		{
+			return ((::Mono::Security::PKCS7_183E832926C478BA_ContentInfo*(*)(::PVOID, ::Mono::Security::ASN1_6C67A52C6BBD45E0*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ENCRYPTEDCONTENTINFO_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void AddCertificate(::Mono::Security::X509::X509Certificate_571251C08D3E3BD3* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509Certificate_571251C08D3E3BD3*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ADDCERTIFICATE_OFFSET))(this, a1);
+		}
+
+		::System::Void AddCertificate_1(::Mono::Security::X509::X509Certificate_571251C08D3E3BD3* a1, ::System::Collections::IDictionary* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509Certificate_571251C08D3E3BD3*, ::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_ADDCERTIFICATE_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void RemoveCertificate(::Mono::Security::X509::X509Certificate_571251C08D3E3BD3* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509Certificate_571251C08D3E3BD3*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_REMOVECERTIFICATE_OFFSET))(this, a1);
+		}
+
+		::System::Void RemoveCertificate_1(::Mono::Security::X509::X509Certificate_571251C08D3E3BD3* a1, ::System::Collections::IDictionary* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509Certificate_571251C08D3E3BD3*, ::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_REMOVECERTIFICATE_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Object* Clone()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_CLONE_OFFSET))(this);
+		}
+
+		static ::System::Int32 get_MaximumPasswordLength()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_16AB12B131A4D249_GET_MAXIMUMPASSWORDLENGTH_OFFSET))();
+		}
+
+	};
+}

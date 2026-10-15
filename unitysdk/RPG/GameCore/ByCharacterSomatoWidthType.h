@@ -2,50 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterSomatoWidthType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCharacterSomatoWidthType; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_1BB4B594E0BF66E7_OFFSET UNITYSDK_OFFSET(0x1C2F8060)
-#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_57C3E83317068639_OFFSET UNITYSDK_OFFSET(0x1C2F8090)
-#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_BBDAD8407F9A41AB_OFFSET UNITYSDK_OFFSET(0x1C2F7E90)
-#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_E53B72343B8E0362_OFFSET UNITYSDK_OFFSET(0x1C2F7E50)
-#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F7E80)
+#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D45C780)
+#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D45C990)
+#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D45C960)
+#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D45C790)
+#define RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D45C750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCharacterSomatoWidthType_TypeDefinitionIndex = 23432;
+	inline static constexpr unsigned int ByCharacterSomatoWidthType_TypeDefinitionIndex = 23705;
 
 	class ByCharacterSomatoWidthType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::CharacterSomatoWidthType SomatoWidthType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E53B72343B8E0362(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCharacterSomatoWidthType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCharacterSomatoWidthType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCharacterSomatoWidthType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_E53B72343B8E0362_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCharacterSomatoWidthType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BBDAD8407F9A41AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCharacterSomatoWidthType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCharacterSomatoWidthType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCharacterSomatoWidthType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_BBDAD8407F9A41AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCharacterSomatoWidthType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1BB4B594E0BF66E7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCharacterSomatoWidthType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCharacterSomatoWidthType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCharacterSomatoWidthType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_1BB4B594E0BF66E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCharacterSomatoWidthType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_57C3E83317068639(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCharacterSomatoWidthType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCharacterSomatoWidthType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCharacterSomatoWidthType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_METHOD_4_57C3E83317068639_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCharacterSomatoWidthType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERSOMATOWIDTHTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

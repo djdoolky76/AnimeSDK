@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Security::Cryptography { class OidCollection; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B992D00)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B992DB0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B992CD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B992920)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07BF70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F07C350)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F07C400)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F07C320)
 
 namespace System::Security::Cryptography
 {
@@ -18,10 +18,9 @@ namespace System::Security::Cryptography
 	public:
 		::System::Security::Cryptography::OidCollection* m_oids; // 0x10
 		::System::Int32 m_current; // 0x18
-
 		::System::Void _ctor(::System::Security::Cryptography::OidCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::OidCollection*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::OidCollection*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* System_Collections_IEnumerator_get_Current()
@@ -38,5 +37,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_OIDENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

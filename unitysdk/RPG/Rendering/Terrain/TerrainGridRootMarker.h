@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_GETMARKEDBLOCKSFOREDITOR_OFFSET UNITYSDK_OFFSET(0x1B50A6E0)
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_GET_STAGENAME_OFFSET UNITYSDK_OFFSET(0x1B50A190)
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETBOXOFFSET_OFFSET UNITYSDK_OFFSET(0x1B50A270)
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETBOXSIZE_OFFSET UNITYSDK_OFFSET(0x1B50A210)
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETMARKEDBLOCKS_OFFSET UNITYSDK_OFFSET(0x1B50A2D0)
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETSTAGENAME_OFFSET UNITYSDK_OFFSET(0x1B50A1A0)
-#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50A770)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE87D4B0)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_GETMARKEDBLOCKSFOREDITOR_OFFSET UNITYSDK_OFFSET(0xE87D420)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_GET_STAGENAME_OFFSET UNITYSDK_OFFSET(0xE87CEE0)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETBOXOFFSET_OFFSET UNITYSDK_OFFSET(0xE87CFC0)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETBOXSIZE_OFFSET UNITYSDK_OFFSET(0xE87CF60)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETMARKEDBLOCKS_OFFSET UNITYSDK_OFFSET(0xE87D020)
+#define RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_SETSTAGENAME_OFFSET UNITYSDK_OFFSET(0xE87CEF0)
 
 namespace RPG::Rendering::Terrain
 {
-	inline static constexpr unsigned int TerrainGridRootMarker_TypeDefinitionIndex = 52097;
+	inline static constexpr unsigned int TerrainGridRootMarker_TypeDefinitionIndex = 51803;
 
 	class TerrainGridRootMarker : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,10 +27,9 @@ namespace RPG::Rendering::Terrain
 		::UnityEngine::Vector3 boxSize; // 0x20
 		::UnityEngine::Vector3 boxOffset; // 0x2C
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* markedBlocks; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_StageName()
@@ -63,5 +61,6 @@ namespace RPG::Rendering::Terrain
 		{
 			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_TERRAIN_TERRAINGRIDROOTMARKER_GETMARKEDBLOCKSFOREDITOR_OFFSET))(this);
 		}
+
 	};
 }

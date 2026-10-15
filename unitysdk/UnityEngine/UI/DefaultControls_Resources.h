@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int DefaultControls_Resources_TypeDefinitionIndex = 6697;
+	inline static constexpr unsigned int DefaultControls_Resources_TypeDefinitionIndex = 6706;
 
 	struct alignas(8) DefaultControls_Resources
 	{

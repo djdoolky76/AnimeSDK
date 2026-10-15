@@ -2,38 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FullBody/NewSolverManager.h"
 
-namespace RPG::Client::FullBody { class IKSolver; }
-
-#define RPG_CLIENT_FULLBODY_NEWIK_METHOD_6_0B7E3489D2C0938B_OFFSET UNITYSDK_OFFSET(0x19390660)
-#define RPG_CLIENT_FULLBODY_NEWIK_METHOD_6_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x193907B0)
-#define RPG_CLIENT_FULLBODY_NEWIK_METHOD_6_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x193908B0)
-#define RPG_CLIENT_FULLBODY_NEWIK__CTOR_OFFSET UNITYSDK_OFFSET(0x19390A20)
+#define RPG_CLIENT_FULLBODY_NEWIK_CTOR_OFFSET UNITYSDK_OFFSET(0xD081D50)
+#define RPG_CLIENT_FULLBODY_NEWIK_EFLLCMNJGPC_OFFSET UNITYSDK_OFFSET(0xD081990)
+#define RPG_CLIENT_FULLBODY_NEWIK_KPKDAIGMCHM_OFFSET UNITYSDK_OFFSET(0xD081BE0)
+#define RPG_CLIENT_FULLBODY_NEWIK_NHEEOHLLJMB_OFFSET UNITYSDK_OFFSET(0xD081AE0)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int NewIK_TypeDefinitionIndex = 74172;
+	inline static constexpr unsigned int NewIK_TypeDefinitionIndex = 74271;
 
 	class NewIK : public ::RPG::Client::FullBody::NewSolverManager
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_6_0B7E3489D2C0938B()
+		::System::Void EFLLCMNJGPC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_METHOD_6_0B7E3489D2C0938B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_EFLLCMNJGPC_OFFSET))(this);
 		}
 
-		::System::Void Method_6_33ACA6CB2ABC73F7()
+		::System::Void NHEEOHLLJMB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_METHOD_6_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_NHEEOHLLJMB_OFFSET))(this);
 		}
 
-		::System::Void Method_6_4307B2A4B4A12C1A()
+		::System::Void KPKDAIGMCHM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_METHOD_6_4307B2A4B4A12C1A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWIK_KPKDAIGMCHM_OFFSET))(this);
 		}
+
 	};
 }

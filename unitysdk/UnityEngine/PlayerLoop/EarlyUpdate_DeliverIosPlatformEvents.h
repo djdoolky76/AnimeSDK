@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_DeliverIosPlatformEvents_TypeDefinitionIndex = 4572;
+	inline static constexpr unsigned int EarlyUpdate_DeliverIosPlatformEvents_TypeDefinitionIndex = 4576;
 
-	struct alignas(1) EarlyUpdate_DeliverIosPlatformEvents
+	struct alignas(4) EarlyUpdate_DeliverIosPlatformEvents
 	{
 	};
 }

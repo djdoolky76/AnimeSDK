@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace CriWare { class CriFsRequest; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC36DC0)
-#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC36DF0)
-#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC36AD0)
-#define CRIWARE_CRIFSREQUEST_DONEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC36CD0)
+#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16708090)
+#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x16707FA0)
+#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x167080C0)
+#define CRIWARE_CRIFSREQUEST_DONEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16707DA0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsRequest_DoneDelegate_TypeDefinitionIndex = 38809;
+	inline static constexpr unsigned int CriFsRequest_DoneDelegate_TypeDefinitionIndex = 40106;
 
 	class CriFsRequest_DoneDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSREQUEST_DONEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSREQUEST_DONEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CriWare::CriFsRequest* a1)
@@ -38,5 +37,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSREQUEST_DONEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TeamMemberExpansionFightFormationConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_METHOD_2_3A7BF3A5C6EC57B5_OFFSET UNITYSDK_OFFSET(0x1E1CC920)
-#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CCC60)
+#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4E060)
+#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4DD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamMemberExpansionFightFormationConfig_TypeDefinitionIndex = 16404;
+	inline static constexpr unsigned int TeamMemberExpansionFightFormationConfig_TypeDefinitionIndex = 16579;
 
 	class TeamMemberExpansionFightFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::System::Single GridMaxInterval; // 0x24
 		::System::Single BackRowZOffset; // 0x28
 		::System::Single BackRowXOffset; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3A7BF3A5C6EC57B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamMemberExpansionFightFormationConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TeamMemberExpansionFightFormationConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamMemberExpansionFightFormationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_METHOD_2_3A7BF3A5C6EC57B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TeamMemberExpansionFightFormationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

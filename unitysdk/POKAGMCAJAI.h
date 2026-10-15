@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int POKAGMCAJAI_TypeDefinitionIndex = 34978;
+
+	enum class POKAGMCAJAI : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		FBFOMNAHIDP = 4464,
+		KNDCICFEIPB = 4434,
+		PDJKFPGAMEG = 4419,
+		GGOCBAJEOND = 4425,
+		BGACJNHKKCF = 4404,
+		KMIDJBAGJJE = 4439,
+		NGGIMBOLLBB = 4411,
+		DEMKADMCFIN = 4417,
+		NAPLHFMAEKJ = 4408,
+		DAIBCGNMGHH = 4438,
+		DCPDKIHCPKO = 4421,
+		CKEAHDMDJLO = 4442,
+		OFPJKEOMKKE = 4461,
+		EILMJJJMPBC = 4468,
+		OAGNOMLAAEF = 4478,
+		LOHOAAHAIPJ = 4412,
+	};

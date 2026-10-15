@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelNPCOverrideBehaviorParameter; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1C11EB50)
-#define RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11D9E0)
-#define RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11EB40)
+#define RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D78AD70)
+#define RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D78AD80)
+#define RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D789A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCOverrideBehaviorParameter_TypeDefinitionIndex = 17074;
+	inline static constexpr unsigned int LevelNPCOverrideBehaviorParameter_TypeDefinitionIndex = 17269;
 
 	class LevelNPCOverrideBehaviorParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCOverrideBehaviorParameter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCOVERRIDEBEHAVIORPARAMETER_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

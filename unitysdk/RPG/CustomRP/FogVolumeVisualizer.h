@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x18579720)
-#define RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x185796A0)
-#define RPG_CUSTOMRP_FOGVOLUMEVISUALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x18579A70)
+#define RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC02330)
+#define RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1CC01FE0)
+#define RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC01F60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FogVolumeVisualizer_TypeDefinitionIndex = 37049;
+	inline static constexpr unsigned int FogVolumeVisualizer_TypeDefinitionIndex = 37734;
 
 	class FogVolumeVisualizer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Color _gizmosColor; // 0x18
 		::System::Boolean _wireFrame; // 0x28
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Material* _fogVolumeMaterial; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FOGVOLUMEVISUALIZER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -34,5 +33,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FOGVOLUMEVISUALIZER_ONDRAWGIZMOSSELECTED_OFFSET))(this);
 		}
+
 	};
 }

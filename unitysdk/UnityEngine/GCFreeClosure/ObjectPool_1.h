@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 4452;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 4456;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object
@@ -14,7 +13,8 @@ namespace UnityEngine::GCFreeClosure
 	public:
 		static ::System::Collections::Generic::Queue_1<T>** StaticGet_objects()
 		{
-			return (::System::Collections::Generic::Queue_1<T>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPool_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Collections::Generic::Queue_1<T>**)UnitySDK::FromName("UnityEngine.GCFreeClosure", "ObjectPool`1")->GetStaticField(0x0);
 		}
+
 	};
 }

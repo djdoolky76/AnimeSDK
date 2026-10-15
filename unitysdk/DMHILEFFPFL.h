@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DMHILEFFPFL_TypeDefinitionIndex = 30354;
+
+	enum class DMHILEFFPFL : ::System::Int32
+	{
+		MCOJKNIBCLO = 0,
+		DOFCBFEKLAL = 1,
+		FOCGAGKJPMG = 2,
+		INFFFCPDCNA = 3,
+		OLIIPFOMGLI = 4,
+		MGJDOBCDNCK = 5,
+		PPDPIKLCBBP = 6,
+		KJENFKANOJG = 7,
+		GDKIGNFGAED = 8,
+		OEKAJCFMBCM = 9,
+		PJCGAHLMEJP = 11,
+		HPJHNAFCHJG = 12,
+		ENBMJCKFKIF = 13,
+		JBLOLDDHECI = 14,
+		EKBBHFPLHKC = 15,
+		GJCANDNEMBE = 16,
+		ILBEHFCCBBG = 17,
+		IOMPNOBDPIL = 18,
+		DCEPKLGOCEO = 19,
+		PFDNAOJIDEP = 20,
+	};

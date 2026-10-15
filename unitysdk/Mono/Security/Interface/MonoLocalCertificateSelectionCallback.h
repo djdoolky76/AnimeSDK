@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -9,10 +8,10 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D243160)
-#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D2431B0)
-#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D243130)
-#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2430B0)
+#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C005110)
+#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C005060)
+#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C005160)
+#define MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C0050E0)
 
 namespace Mono::Security::Interface
 {
@@ -23,7 +22,7 @@ namespace Mono::Security::Interface
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::System::String* a1, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::Il2CppArray<::System::String*>* a4)
@@ -40,5 +39,6 @@ namespace Mono::Security::Interface
 		{
 			return ((::System::Security::Cryptography::X509Certificates::X509Certificate*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOLOCALCERTIFICATESELECTIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

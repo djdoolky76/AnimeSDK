@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__AcknowledgeQuit_Exiting; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__AcknowledgeQuit_UserPrompt; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__ApplyTransform; }
@@ -50,7 +48,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__TriggerHapticPulse; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem_TypeDefinitionIndex = 37592;
+	inline static constexpr unsigned int IVRSystem_TypeDefinitionIndex = 38889;
 
 	struct alignas(8) IVRSystem
 	{

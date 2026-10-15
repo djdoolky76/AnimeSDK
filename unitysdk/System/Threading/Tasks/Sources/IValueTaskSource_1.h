@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Threading/Tasks/Sources/ValueTaskSourceStatus.h"
 
 namespace System::Threading::Tasks::Sources
 {
-	inline static constexpr unsigned int IValueTaskSource_1_TypeDefinitionIndex = 6670;
+	inline static constexpr unsigned int IValueTaskSource_1_TypeDefinitionIndex = 6679;
 
-	template <typename TResult>
+	template <typename T>
 	class IValueTaskSource_1
 	{
 	public:

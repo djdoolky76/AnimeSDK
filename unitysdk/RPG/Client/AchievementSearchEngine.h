@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class AchievementData; }
+namespace RPG::Client { class AchievementSearchEngine; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_BUILDTITLECACHE_OFFSET UNITYSDK_OFFSET(0x1ABBFFA0)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_CREATE_OFFSET UNITYSDK_OFFSET(0x1ABBFE30)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ABC0800)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_SEARCHBYNAME_OFFSET UNITYSDK_OFFSET(0x1ABC08F0)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABBFEB0)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE__ONTEXTLANGUAGECHANGE_OFFSET UNITYSDK_OFFSET(0x1ABC1230)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_BUILDTITLECACHE_OFFSET UNITYSDK_OFFSET(0xC3AB2A0)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_CREATE_OFFSET UNITYSDK_OFFSET(0xC3AB130)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_CTOR_OFFSET UNITYSDK_OFFSET(0xC3AB1B0)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3ABB00)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_SEARCHBYNAME_OFFSET UNITYSDK_OFFSET(0xC3ABBF0)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE__ONTEXTLANGUAGECHANGE_OFFSET UNITYSDK_OFFSET(0xC3AC530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AchievementSearchEngine_TypeDefinitionIndex = 61456;
+	inline static constexpr unsigned int AchievementSearchEngine_TypeDefinitionIndex = 61362;
 
 	class AchievementSearchEngine : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* _AchievementTitleCache; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTSEARCHENGINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTSEARCHENGINE_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::AchievementSearchEngine* Create()
@@ -52,5 +52,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTSEARCHENGINE__ONTEXTLANGUAGECHANGE_OFFSET))(this, a1);
 		}
+
 	};
 }

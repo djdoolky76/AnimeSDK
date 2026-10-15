@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarFlowIntersection_Rule; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_LANE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFE250)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_LANE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6AC80)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowIntersection_Lane_TypeDefinitionIndex = 80847;
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_Lane_TypeDefinitionIndex = 82227;
 
 	class MonoCityCarFlowIntersection_Lane : public ::System::Object
 	{
@@ -20,12 +19,14 @@ namespace RPG::Client::CityCarFlow
 		::System::Single Offset; // 0x20
 		::System::Boolean Positive; // 0x24
 		::System::Boolean IgnoreTrafficRules; // 0x25
+		::System::Byte _padding0[0x2];
 		::System::Single SpeedMultiplier; // 0x28
+		::System::Byte _padding1[0x4];
 		::RPG::Client::CityCarFlow::MonoCityCarFlowIntersection_Rule* Rule; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_LANE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_LANE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

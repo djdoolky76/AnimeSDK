@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_868;
+class FBLGAONBIFI;
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1BA42430)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA42A50)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA42A40)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET UNITYSDK_OFFSET(0x1BA42970)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xD18A6F0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD18A6E0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD18A0D0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET UNITYSDK_OFFSET(0xD18A610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_TypeDefinitionIndex = 64906;
+	inline static constexpr unsigned int GridFightGridOperationValidator_TypeDefinitionIndex = 64846;
 
 	class GridFightGridOperationValidator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_868*>** StaticGet__Constraits()
+		static ::System::Collections::Generic::List_1<::FBLGAONBIFI*>** StaticGet__Constraits()
 		{
-			return (::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_868*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridOperationValidator_TypeDefinitionIndex)->GetStaticField(0x33720);
+			return (::System::Collections::Generic::List_1<::FBLGAONBIFI*>**)UnitySDK::FromName("RPG.Client", "GridFightGridOperationValidator")->GetStaticField(0x6AD30);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CCTOR_OFFSET))();
 		}
 
 		::RPG::Client::GridFightGridMoveValidateResult* Validate(::System::UInt32 a1, ::System::UInt32 a2)
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D12B0C0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D12B300)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12B400)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8AB820)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8ABA30)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ABB00)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCameraTrack_TypeDefinitionIndex = 49246;
+	inline static constexpr unsigned int BPCameraTrack_TypeDefinitionIndex = 48795;
 
 	class BPCameraTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::BattlePerform
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERATRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

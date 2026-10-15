@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_COMPONENTNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC81D0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_COMPONENTNAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x167490C0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int ComponentNameAttribute_TypeDefinitionIndex = 10013;
+	inline static constexpr unsigned int ComponentNameAttribute_TypeDefinitionIndex = 10071;
 
 	class ComponentNameAttribute : public ::System::Attribute
 	{
 	public:
 		::Il2CppArray<::System::String*>* componentNames; // 0x10
-
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + ENTITAS_CODEGENERATION_ATTRIBUTES_COMPONENTNAMEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + ENTITAS_CODEGENERATION_ATTRIBUTES_COMPONENTNAMEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

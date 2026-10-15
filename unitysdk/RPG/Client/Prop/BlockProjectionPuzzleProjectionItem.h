@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/BlockProjectionItemState.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_SETPREVIEWSTATE_OFFSET UNITYSDK_OFFSET(0x189B1E30)
-#define RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_SETSTATE_OFFSET UNITYSDK_OFFSET(0x189B29B0)
-#define RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x189B2BD0)
+#define RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDC223D0)
+#define RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_SETPREVIEWSTATE_OFFSET UNITYSDK_OFFSET(0xDC21630)
+#define RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_SETSTATE_OFFSET UNITYSDK_OFFSET(0xDC221B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BlockProjectionPuzzleProjectionItem_TypeDefinitionIndex = 77744;
+	inline static constexpr unsigned int BlockProjectionPuzzleProjectionItem_TypeDefinitionIndex = 78215;
 
 	class BlockProjectionPuzzleProjectionItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,13 +18,13 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::BlockProjectionItemState ItemState; // 0x18
 		::System::Int32 x; // 0x1C
 		::System::Int32 y; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* _NormalItem; // 0x28
 		::UnityEngine::Transform* _SuccessItem; // 0x30
 		::Il2CppArray<::UnityEngine::Transform*>* _PointerItems; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetPreviewState(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -37,5 +36,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::BlockProjectionItemState))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPROJECTIONPUZZLEPROJECTIONITEM_SETSTATE_OFFSET))(this, a1);
 		}
+
 	};
 }

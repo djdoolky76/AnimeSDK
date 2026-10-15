@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MovementStoppedRootMotionBakedData_RootMotionCurve.h"
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace RPG::Client { class MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_3; }
+namespace RPG::Client { class MovementStoppedRootMotionBakedData_OAKCINDCPAJ; }
+namespace System { class Object; }
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_TypeDefinitionIndex = 68780;
+	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_TypeDefinitionIndex = 68814;
 
 	struct alignas(8) MovementStoppedRootMotionBakedData
 	{
 		::System::String* startStateName; // 0x10
 		::System::String* finishStateName; // 0x18
-		::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_3* Info; // 0x20
+		::RPG::Client::MovementStoppedRootMotionBakedData_OAKCINDCPAJ* Info; // 0x20
 		::RPG::GameCore::CharacterMotionFlag motionFlag; // 0x28
-		::Il2CppArray<::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve>* rootMotionCurves; // 0x30
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* rootMotionCurves; // 0x30
 	};
 }

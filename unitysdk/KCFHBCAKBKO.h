@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class EnableDynamicSkillTargetSelection; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define KCFHBCAKBKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB32DD30)
+#define KCFHBCAKBKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB32DD60)
+
+inline static constexpr unsigned int KCFHBCAKBKO_TypeDefinitionIndex = 55013;
+
+	class KCFHBCAKBKO
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableDynamicSkillTargetSelection* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnableDynamicSkillTargetSelection*))((::PBYTE)hIl2Cpp + KCFHBCAKBKO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KCFHBCAKBKO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

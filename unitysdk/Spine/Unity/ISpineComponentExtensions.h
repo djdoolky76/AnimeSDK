@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine::Unity { class ISpineComponent; }
 
-#define SPINE_UNITY_ISPINECOMPONENTEXTENSIONS_ISNULLORDESTROYED_OFFSET UNITYSDK_OFFSET(0x18314820)
+#define SPINE_UNITY_ISPINECOMPONENTEXTENSIONS_ISNULLORDESTROYED_OFFSET UNITYSDK_OFFSET(0x1ECD98B0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ISpineComponentExtensions_TypeDefinitionIndex = 43879;
+	inline static constexpr unsigned int ISpineComponentExtensions_TypeDefinitionIndex = 45071;
 
 	class ISpineComponentExtensions : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Boolean(*)(::Spine::Unity::ISpineComponent*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ISPINECOMPONENTEXTENSIONS_ISNULLORDESTROYED_OFFSET))(a1);
 		}
+
 	};
 }

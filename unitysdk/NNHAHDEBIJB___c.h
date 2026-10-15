@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HIOEAKHGILF;
+class NNHAHDEBIJB;
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace UnityEngine { class Collider; }
+
+#define NNHAHDEBIJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCA7910)
+#define NNHAHDEBIJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA7940)
+#define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_0_OFFSET UNITYSDK_OFFSET(0xBCA7950)
+#define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_1_OFFSET UNITYSDK_OFFSET(0xBCA7980)
+#define NNHAHDEBIJB___C___LISTENLEVELVAR_B__23_0_OFFSET UNITYSDK_OFFSET(0xBCA79B0)
+
+inline static constexpr unsigned int NNHAHDEBIJB___c_TypeDefinitionIndex = 77153;
+
+	class NNHAHDEBIJB___c : public ::System::Object
+	{
+	public:
+		static ::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__9_1()
+		{
+			return (::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D930);
+		}
+
+		static ::System::Action_3<::NNHAHDEBIJB*, ::System::Int32, ::System::String*>** StaticGet___9__23_0()
+		{
+			return (::System::Action_3<::NNHAHDEBIJB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D938);
+		}
+
+		static ::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__9_0()
+		{
+			return (::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D940);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D948);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NNHAHDEBIJB___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHAHDEBIJB___C_CTOR_OFFSET))(this);
+		}
+
+		::System::Void __DeploySpikeTrapTrigger_b__9_0(::NNHAHDEBIJB* a1, ::HIOEAKHGILF* a2, ::UnityEngine::Collider* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_0_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void __DeploySpikeTrapTrigger_b__9_1(::NNHAHDEBIJB* a1, ::HIOEAKHGILF* a2, ::UnityEngine::Collider* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_1_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void __ListenLevelVar_b__23_0(::NNHAHDEBIJB* a1, ::System::Int32 a2, ::System::String* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::NNHAHDEBIJB*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB___C___LISTENLEVELVAR_B__23_0_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

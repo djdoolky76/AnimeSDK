@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StartBattleScoringAbility; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STARTBATTLESCORINGABILITY_METHOD_3_3227AFA25849DBD9_OFFSET UNITYSDK_OFFSET(0x1CAF45D0)
-#define RPG_GAMECORE_STARTBATTLESCORINGABILITY_METHOD_3_C63CD54A9892DFDC_OFFSET UNITYSDK_OFFSET(0x1CAF46A0)
-#define RPG_GAMECORE_STARTBATTLESCORINGABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF4690)
+#define RPG_GAMECORE_STARTBATTLESCORINGABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEEA50)
+#define RPG_GAMECORE_STARTBATTLESCORINGABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAEEA60)
+#define RPG_GAMECORE_STARTBATTLESCORINGABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEE990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartBattleScoringAbility_TypeDefinitionIndex = 23157;
+	inline static constexpr unsigned int StartBattleScoringAbility_TypeDefinitionIndex = 23422;
 
 	class StartBattleScoringAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLESCORINGABILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLESCORINGABILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3227AFA25849DBD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleScoringAbility*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartBattleScoringAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleScoringAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLESCORINGABILITY_METHOD_3_3227AFA25849DBD9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartBattleScoringAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLESCORINGABILITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C63CD54A9892DFDC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleScoringAbility* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartBattleScoringAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleScoringAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLESCORINGABILITY_METHOD_3_C63CD54A9892DFDC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartBattleScoringAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLESCORINGABILITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

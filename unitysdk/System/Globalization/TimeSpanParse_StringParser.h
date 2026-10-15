@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanResult.h"
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x3AEE3E0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTNONDIGIT_OFFSET UNITYSDK_OFFSET(0x3AEE450)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET UNITYSDK_OFFSET(0x3AEE4F0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x3AEE500)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_SKIPBLANKS_OFFSET UNITYSDK_OFFSET(0x3AEE510)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x3AEE4E0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x3C21050)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTNONDIGIT_OFFSET UNITYSDK_OFFSET(0x3C210C0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET UNITYSDK_OFFSET(0x3C21160)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x3C21170)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_SKIPBLANKS_OFFSET UNITYSDK_OFFSET(0x3C21180)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x3C21150)
 
 namespace System::Globalization
 {
@@ -19,9 +18,9 @@ namespace System::Globalization
 	{
 		::System::String* str; // 0x10
 		::System::Char ch; // 0x18
+		::System::Byte _padding0[0x2];
 		::System::Int32 pos; // 0x1C
 		::System::Int32 len; // 0x20
-
 		::System::Void NextChar()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTCHAR_OFFSET))(this);
@@ -32,30 +31,25 @@ namespace System::Globalization
 			return ((::System::Char(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTNONDIGIT_OFFSET))(this);
 		}
 
-		/*
-		::System::Boolean TryParse(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
+		::System::Boolean TryParse(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanResult a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET))(this, a1, a2);
 		}
-		*/
 
-		/*
-		::System::Boolean ParseInt(::System::Int32 a1, ::System::Int32& a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		::System::Boolean ParseInt(::System::Int32 a1, ::System::Int32 a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET))(this, a1, a2, a3);
 		}
-		*/
 
-		/*
-		::System::Boolean ParseTime(::System::Int64& a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
+		::System::Boolean ParseTime(::System::Int64 a1, ::System::Globalization::TimeSpanParse_TimeSpanResult a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int64&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int64, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::Void SkipBlanks()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_SKIPBLANKS_OFFSET))(this);
 		}
+
 	};
 }

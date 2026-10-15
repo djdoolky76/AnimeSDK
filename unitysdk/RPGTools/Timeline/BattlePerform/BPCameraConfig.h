@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPGTools::Timeline::BattlePerform { class BPCameraBlendConfig; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12B0B0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE8AB810)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCameraConfig_TypeDefinitionIndex = 49242;
+	inline static constexpr unsigned int BPCameraConfig_TypeDefinitionIndex = 48791;
 
 	class BPCameraConfig : public ::System::Object
 	{
@@ -22,10 +21,10 @@ namespace RPGTools::Timeline::BattlePerform
 		::System::String* LookAtTargetAttachPoint; // 0x38
 		::System::String* LookAtTargetAnchorName; // 0x40
 		::RPGTools::Timeline::BattlePerform::BPCameraBlendConfig* BlendConfig; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERACONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

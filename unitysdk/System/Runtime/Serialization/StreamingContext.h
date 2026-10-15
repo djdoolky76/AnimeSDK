@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContextStates.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B01F70)
-#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x12370)
-#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GET_STATE_OFFSET UNITYSDK_OFFSET(0x12370)
-#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6B6730)
-#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B01F60)
+#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2F6E190)
+#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C24780)
+#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C24790)
+#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GET_STATE_OFFSET UNITYSDK_OFFSET(0xACE0)
 
 namespace System::Runtime::Serialization
 {
@@ -20,15 +18,14 @@ namespace System::Runtime::Serialization
 	{
 		::System::Object* m_additionalContext; // 0x10
 		::System::Runtime::Serialization::StreamingContextStates m_state; // 0x18
-
 		::System::Void _ctor(::System::Runtime::Serialization::StreamingContextStates a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContextStates))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContextStates))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::StreamingContextStates a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContextStates, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContextStates, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* get_Context()
@@ -50,5 +47,6 @@ namespace System::Runtime::Serialization
 		{
 			return ((::System::Runtime::Serialization::StreamingContextStates(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_STREAMINGCONTEXT_GET_STATE_OFFSET))(this);
 		}
+
 	};
 }

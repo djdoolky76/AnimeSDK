@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightParamGetSilverWolf999RoleIdConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_METHOD_6_1FE55AF2A7755C5A_OFFSET UNITYSDK_OFFSET(0x1EE72070)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_METHOD_6_B0B0514E735954B6_OFFSET UNITYSDK_OFFSET(0x1EE720C0)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE720B0)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70B040)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D70B050)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70B000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightParamGetSilverWolf999RoleIdConfig_TypeDefinitionIndex = 19321;
+	inline static constexpr unsigned int GridFightParamGetSilverWolf999RoleIdConfig_TypeDefinitionIndex = 19551;
 
 	class GridFightParamGetSilverWolf999RoleIdConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_1FE55AF2A7755C5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_METHOD_6_1FE55AF2A7755C5A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_B0B0514E735954B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_METHOD_6_B0B0514E735954B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetSilverWolf999RoleIdConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETSILVERWOLF999ROLEIDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,56 +2,75 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FDRIMatStateOperation.h"
 #include "unitysdk/UnityEngine/Color.h"
-
+#include "unitysdk/UnityEngine/Vector4.h"
 class FiveDimRenderingItem;
 
-#define EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_1_OFFSET UNITYSDK_OFFSET(0x10679050)
-#define EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_OFFSET UNITYSDK_OFFSET(0x10678C70)
-#define EMISSIONOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x10679350)
-#define EMISSIONOPERATION_METHOD_3_A4A57157C453DC3A_OFFSET UNITYSDK_OFFSET(0x10678F40)
-#define EMISSIONOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x106793C0)
-#define EMISSIONOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x106793A0)
+#define EMISSIONOPERATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x155D8B30)
+#define EMISSIONOPERATION_CDMHOOPINGE_OFFSET UNITYSDK_OFFSET(0x155D89A0)
+#define EMISSIONOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x155D8B10)
+#define EMISSIONOPERATION_DHFBDMHFNIK_OFFSET UNITYSDK_OFFSET(0x155D85D0)
+#define EMISSIONOPERATION_EKJKBOODCMO_OFFSET UNITYSDK_OFFSET(0x155D88D0)
+#define EMISSIONOPERATION_ILODBKMALJA_OFFSET UNITYSDK_OFFSET(0x155D8920)
+#define EMISSIONOPERATION_KBHGBHPFDFB_OFFSET UNITYSDK_OFFSET(0x155D89F0)
+#define EMISSIONOPERATION_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x155D84C0)
+#define EMISSIONOPERATION_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x155D81F0)
 
-inline static constexpr unsigned int EmissionOperation_TypeDefinitionIndex = 47577;
+inline static constexpr unsigned int EmissionOperation_TypeDefinitionIndex = 47117;
 
-class EmissionOperation : public ::FDRIMatStateOperation
-{
-public:
-	static ::System::Int32* StaticGet__EmissionUseCustomData()
+	class EmissionOperation : public ::FDRIMatStateOperation
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmissionOperation_TypeDefinitionIndex)->GetStaticField(0x14930);
-	}
-	::UnityEngine::Color EmissionColor; // 0x20
-	::System::Single EmissionIntensity; // 0x30
-	::System::Int32 TargetMaterialID; // 0x34
+	public:
+		::UnityEngine::Color EmissionColor; // 0x20
+		::System::Single EmissionIntensity; // 0x30
+		::System::Int32 TargetMaterialID; // 0x34
+		static ::System::Int32* StaticGet__EmissionUseCustomData()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "EmissionOperation")->GetStaticField(0x10AC0);
+		}
 
-	::System::Void _ctor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION__CTOR_OFFSET))(this);
-	}
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_CTOR_OFFSET))(this);
+		}
 
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + EMISSIONOPERATION__CCTOR_OFFSET))();
-	}
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + EMISSIONOPERATION_CCTOR_OFFSET))();
+		}
 
-	::System::Void Method_3_6454AD7212B2C6DE(::FiveDimRenderingItem* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_OFFSET))(this, a1);
-	}
+		::System::Void PKADDEPKJFN(::FiveDimRenderingItem* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_PKADDEPKJFN_OFFSET))(this, a1);
+		}
 
-	::System::Void Method_3_A4A57157C453DC3A(::FiveDimRenderingItem* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_A4A57157C453DC3A_OFFSET))(this, a1);
-	}
+		::System::Void LJBCDJNNBJH(::FiveDimRenderingItem* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_LJBCDJNNBJH_OFFSET))(this, a1);
+		}
 
-	::System::Void Method_3_6454AD7212B2C6DE_1(::FiveDimRenderingItem* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_1_OFFSET))(this, a1);
-	}
+		::System::Void DHFBDMHFNIK(::FiveDimRenderingItem* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_DHFBDMHFNIK_OFFSET))(this, a1);
+		}
 
-	::System::Int32 Method_3_A1D8CD775DEC3C21()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET))(this);
-	}
-};
+		::System::Int32 EKJKBOODCMO()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_EKJKBOODCMO_OFFSET))(this);
+		}
+
+		::System::Int32 ILODBKMALJA()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_ILODBKMALJA_OFFSET))(this);
+		}
+
+		::System::Int32 CDMHOOPINGE(::FiveDimRenderingItem* a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_CDMHOOPINGE_OFFSET))(this, a1);
+		}
+
+		::System::Void KBHGBHPFDFB(::UnityEngine::Vector4 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_KBHGBHPFDFB_OFFSET))(this, a1);
+		}
+
+	};

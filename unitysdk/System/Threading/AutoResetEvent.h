@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/EventWaitHandle.h"
 
-#define SYSTEM_THREADING_AUTORESETEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3DF0C0)
+#define SYSTEM_THREADING_AUTORESETEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1125F0)
 
 namespace System::Threading
 {
@@ -13,7 +13,8 @@ namespace System::Threading
 	public:
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_AUTORESETEVENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_AUTORESETEVENT_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

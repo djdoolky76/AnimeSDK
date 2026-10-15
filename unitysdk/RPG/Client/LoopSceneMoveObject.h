@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class LoopScene; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17487C30)
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_INIT_OFFSET UNITYSDK_OFFSET(0x17488B40)
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_MOVE_OFFSET UNITYSDK_OFFSET(0x17488870)
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_ROLLBACK_OFFSET UNITYSDK_OFFSET(0x17488970)
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_SETOWNERENTITY_OFFSET UNITYSDK_OFFSET(0x17488BF0)
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_SETOWNERLOOPSCENE_OFFSET UNITYSDK_OFFSET(0x17488C40)
-#define RPG_CLIENT_LOOPSCENEMOVEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17488C90)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD4E1530)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4E04D0)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_INIT_OFFSET UNITYSDK_OFFSET(0xD4E13E0)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_MOVE_OFFSET UNITYSDK_OFFSET(0xD4E1110)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_ROLLBACK_OFFSET UNITYSDK_OFFSET(0xD4E1210)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_SETOWNERENTITY_OFFSET UNITYSDK_OFFSET(0xD4E1490)
+#define RPG_CLIENT_LOOPSCENEMOVEOBJECT_SETOWNERLOOPSCENE_OFFSET UNITYSDK_OFFSET(0xD4E14E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopSceneMoveObject_TypeDefinitionIndex = 68834;
+	inline static constexpr unsigned int LoopSceneMoveObject_TypeDefinitionIndex = 68868;
 
 	class LoopSceneMoveObject : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,12 +25,12 @@ namespace RPG::Client
 		::System::Single Delay; // 0x28
 		::System::Single BNBDECPAGPP; // 0x2C
 		::System::Single NPINECOCALC; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::Client::LoopScene* _OwnerLoopSceneRef; // 0x38
 		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENEMOVEOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENEMOVEOBJECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4)
@@ -63,5 +62,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENEMOVEOBJECT_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

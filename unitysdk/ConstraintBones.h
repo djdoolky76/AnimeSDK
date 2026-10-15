@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Transform; }
 
-#define CONSTRAINTBONES__CTOR_OFFSET UNITYSDK_OFFSET(0x184AE3B0)
+#define CONSTRAINTBONES_CTOR_OFFSET UNITYSDK_OFFSET(0xDFA9F80)
 
-inline static constexpr unsigned int ConstraintBones_TypeDefinitionIndex = 47900;
+inline static constexpr unsigned int ConstraintBones_TypeDefinitionIndex = 47440;
 
-class ConstraintBones : public ::System::Object
-{
-public:
-	::Il2CppArray<::UnityEngine::Transform*>* AdjustBones; // 0x10
-
-	::System::Void _ctor()
+	class ConstraintBones : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CONSTRAINTBONES__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::Il2CppArray<::UnityEngine::Transform*>* AdjustBones; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CONSTRAINTBONES_CTOR_OFFSET))(this);
+		}
+
+	};

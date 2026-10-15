@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueParamPersonaCompositionTypeNumByCardCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_METHOD_6_71C253856B58A36D_OFFSET UNITYSDK_OFFSET(0x1E5458D0)
-#define RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_METHOD_6_A2B5E8EEFDA54AD1_OFFSET UNITYSDK_OFFSET(0x1E545920)
-#define RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E545910)
+#define RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FD340)
+#define RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FD350)
+#define RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FD300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamPersonaCompositionTypeNumByCardCountConfig_TypeDefinitionIndex = 19632;
+	inline static constexpr unsigned int RogueParamPersonaCompositionTypeNumByCardCountConfig_TypeDefinitionIndex = 19862;
 
 	class RogueParamPersonaCompositionTypeNumByCardCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_71C253856B58A36D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_METHOD_6_71C253856B58A36D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_A2B5E8EEFDA54AD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_METHOD_6_A2B5E8EEFDA54AD1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamPersonaCompositionTypeNumByCardCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMPERSONACOMPOSITIONTYPENUMBYCARDCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/StableSystemPuzzlePillarStatus.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::Prop { class StableSystemPuzzleBoard; }
 namespace RPG::Client::Prop { class StableSystemPuzzleLight; }
 namespace RPG::Client::Prop { class StableSystemPuzzlePedestal; }
 namespace RPG::Client::Prop { class StableSystemPuzzlePillar; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_GET_COLORSTATUS_OFFSET UNITYSDK_OFFSET(0x17B0C290)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_INITPILLARANDPEDESTAL_OFFSET UNITYSDK_OFFSET(0x17B0A8D0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_ONPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0x17B0C210)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SELECTPILLAR_OFFSET UNITYSDK_OFFSET(0x17B0D0D0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SETCOLORSTATUS_OFFSET UNITYSDK_OFFSET(0x17B0D7B0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SET_COLORSTATUS_OFFSET UNITYSDK_OFFSET(0x17B0D850)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x17B0D8C0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB2230)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_GET_COLORSTATUS_OFFSET UNITYSDK_OFFSET(0xDDB0C00)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_INITPILLARANDPEDESTAL_OFFSET UNITYSDK_OFFSET(0xDDAF240)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_ONPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDDB0B80)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SELECTPILLAR_OFFSET UNITYSDK_OFFSET(0xDDB1A40)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SETCOLORSTATUS_OFFSET UNITYSDK_OFFSET(0xDDB2120)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SET_COLORSTATUS_OFFSET UNITYSDK_OFFSET(0xDDB21C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzlePillarAndPedestal_TypeDefinitionIndex = 78407;
+	inline static constexpr unsigned int StableSystemPuzzlePillarAndPedestal_TypeDefinitionIndex = 78878;
 
 	class StableSystemPuzzlePillarAndPedestal : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,14 +27,15 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::StableSystemPuzzleLight* Light; // 0x20
 		::RPG::Client::Prop::StableSystemPuzzlePedestal* Pedestal; // 0x28
 		::System::Boolean CanInteract; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Int32 x; // 0x34
 		::System::Int32 y; // 0x38
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x40
 		::RPG::Client::Prop::StableSystemPuzzleBoard* MIPPNCGOJNM; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitPillarAndPedestal(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::StableSystemPuzzleBoard* a2)
@@ -67,5 +67,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::StableSystemPuzzlePillarStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLARANDPEDESTAL_SET_COLORSTATUS_OFFSET))(this, a1);
 		}
+
 	};
 }

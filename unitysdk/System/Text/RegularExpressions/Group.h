@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Text/RegularExpressions/Capture.h"
-
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
+namespace System::Text::RegularExpressions { class Group; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1828E430)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1828E420)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1828E490)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1828E510)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1828E3B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F089560)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0895E0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F089470)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1F089500)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1F0894F0)
 
 namespace System::Text::RegularExpressions
 {
@@ -18,28 +18,28 @@ namespace System::Text::RegularExpressions
 	class Group : public ::System::Text::RegularExpressions::Capture
 	{
 	public:
-		static ::System::Text::RegularExpressions::Group** StaticGet__emptygroup()
-		{
-			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x258F0);
-		}
-		::System::String* _name; // 0x20
-		::Il2CppArray<::System::Int32>* _caps; // 0x28
+		::Il2CppArray<::System::Int32>* _caps; // 0x20
+		::System::String* _name; // 0x28
 		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x30
 		::System::Int32 _capcount; // 0x38
+		static ::System::Text::RegularExpressions::Group** StaticGet__emptygroup()
+		{
+			return (::System::Text::RegularExpressions::Group**)UnitySDK::FromName("System.Text.RegularExpressions", "Group")->GetStaticField(0x35B80);
+		}
 
 		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_1_OFFSET))(this);
 		}
 
 		::System::Boolean get_Success()
@@ -51,5 +51,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::Text::RegularExpressions::CaptureCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Linq/XText.h"
 #include "unitysdk/System/Xml/XmlNodeType.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
+namespace System::Xml::Linq { class XCData; }
 namespace System::Xml::Linq { class XNode; }
 
-#define SYSTEM_XML_LINQ_XCDATA_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EE9FEE0)
-#define SYSTEM_XML_LINQ_XCDATA_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE9FDF0)
-#define SYSTEM_XML_LINQ_XCDATA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EE9FE00)
-#define SYSTEM_XML_LINQ_XCDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE9FD10)
-#define SYSTEM_XML_LINQ_XCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9FC30)
+#define SYSTEM_XML_LINQ_XCDATA_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EE56D00)
+#define SYSTEM_XML_LINQ_XCDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE56B30)
+#define SYSTEM_XML_LINQ_XCDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE56A50)
+#define SYSTEM_XML_LINQ_XCDATA_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE56C10)
+#define SYSTEM_XML_LINQ_XCDATA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EE56C20)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XCData_TypeDefinitionIndex = 3891;
+	inline static constexpr unsigned int XCData_TypeDefinitionIndex = 3892;
 
 	class XCData : public ::System::Xml::Linq::XText
 	{
 	public:
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Xml::Linq::XCData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XCData*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XCData*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNodeType get_NodeType()
@@ -44,5 +44,6 @@ namespace System::Xml::Linq
 		{
 			return ((::System::Xml::Linq::XNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA_CLONENODE_OFFSET))(this);
 		}
+
 	};
 }

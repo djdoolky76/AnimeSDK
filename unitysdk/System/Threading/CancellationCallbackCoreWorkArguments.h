@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System::Threading { class CancellationCallbackInfo; }
 namespace System::Threading { template <typename T> class SparselyPopulatedArrayFragment_1; }
 
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x6B82D0)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x140C0)
 
 namespace System::Threading
 {
@@ -15,10 +13,10 @@ namespace System::Threading
 	{
 		::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* m_currArrayFragment; // 0x10
 		::System::Int32 m_currArrayIndex; // 0x18
-
 		::System::Void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

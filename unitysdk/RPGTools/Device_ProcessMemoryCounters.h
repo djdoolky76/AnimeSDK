@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int Device_ProcessMemoryCounters_TypeDefinitionIndex = 47377;
+	inline static constexpr unsigned int Device_ProcessMemoryCounters_TypeDefinitionIndex = 46917;
 
-	struct alignas(8) Device_ProcessMemoryCounters
+	struct alignas(4) Device_ProcessMemoryCounters
 	{
 		::System::Int32 cb; // 0x10
 		::System::Int32 PageFaultCount; // 0x14

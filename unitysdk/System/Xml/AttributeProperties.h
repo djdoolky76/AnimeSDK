@@ -7,9 +7,9 @@ namespace System::Xml
 
 	enum class AttributeProperties : ::System::UInt32
 	{
-		DEFAULT = 0x0,
-		URI = 0x1,
-		BOOLEAN = 0x2,
-		NAME = 0x4,
+		DEFAULT = 0,
+		URI = 1,
+		BOOLEAN = 2,
+		NAME = 4,
 	};
 }

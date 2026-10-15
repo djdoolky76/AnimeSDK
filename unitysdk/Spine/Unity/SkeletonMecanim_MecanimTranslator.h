@@ -1,70 +1,68 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/Unity/SkeletonMecanim_MecanimTranslator_MixMode.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/AnimatorClipInfo.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
-
 namespace Spine { class Animation; }
 namespace Spine { class Skeleton; }
 namespace Spine::Unity { class SkeletonDataAsset; }
-namespace Spine::Unity { class SkeletonMecanim_MecanimTranslator_ClipInfos; }
 namespace Spine::Unity { class SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
 
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ADD_ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1832D9D0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ADD__ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1832D8D0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x1832E270)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLYANIMATION_OFFSET UNITYSDK_OFFSET(0x1832DD60)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLYINTERRUPTIONANIMATION_OFFSET UNITYSDK_OFFSET(0x1832E400)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLY_OFFSET UNITYSDK_OFFSET(0x1832B4A0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CLEARCLIPINFOSFORLAYERS_OFFSET UNITYSDK_OFFSET(0x1832DBE0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETACTIVEANIMATIONANDTIME_OFFSET UNITYSDK_OFFSET(0x1832EF00)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATION_OFFSET UNITYSDK_OFFSET(0x1832E070)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORCLIPINFOS_OFFSET UNITYSDK_OFFSET(0x1832ED30)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORSTATEINFOS_OFFSET UNITYSDK_OFFSET(0x1832EDD0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETMIXMODE_OFFSET UNITYSDK_OFFSET(0x1832EEA0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETSTATEUPDATESFROMANIMATOR_OFFSET UNITYSDK_OFFSET(0x1832E900)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x1832DAD0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GET_MECANIMLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x1832DAE0)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GET_MECANIMLAYERNAMES_OFFSET UNITYSDK_OFFSET(0x1832DB00)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INITCLIPINFOSFORLAYERS_OFFSET UNITYSDK_OFFSET(0x1832E790)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1832B040)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1832E300)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_REMOVE_ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1832DA50)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_REMOVE__ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1832D950)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_TOSPINEANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x1832F120)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1832AE70)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ADD_ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1ECF27C0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ADD__ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1ECF26C0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x1ECF3060)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLYANIMATION_OFFSET UNITYSDK_OFFSET(0x1ECF2B50)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLYINTERRUPTIONANIMATION_OFFSET UNITYSDK_OFFSET(0x1ECF31F0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECF0280)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CLEARCLIPINFOSFORLAYERS_OFFSET UNITYSDK_OFFSET(0x1ECF29D0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEFC50)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETACTIVEANIMATIONANDTIME_OFFSET UNITYSDK_OFFSET(0x1ECF3D10)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATION_OFFSET UNITYSDK_OFFSET(0x1ECF2E60)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORCLIPINFOS_OFFSET UNITYSDK_OFFSET(0x1ECF3B30)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORSTATEINFOS_OFFSET UNITYSDK_OFFSET(0x1ECF3BE0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETMIXMODE_OFFSET UNITYSDK_OFFSET(0x1ECF3CB0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETSTATEUPDATESFROMANIMATOR_OFFSET UNITYSDK_OFFSET(0x1ECF36F0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x1ECF28C0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GET_MECANIMLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x1ECF28D0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GET_MECANIMLAYERNAMES_OFFSET UNITYSDK_OFFSET(0x1ECF28F0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INITCLIPINFOSFORLAYERS_OFFSET UNITYSDK_OFFSET(0x1ECF3580)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECEFE20)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ONCLIPAPPLIEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1ECF30F0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_REMOVE_ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1ECF2840)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_REMOVE__ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1ECF2740)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_TOSPINEANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x1ECF3F30)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_TypeDefinitionIndex = 43844;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_TypeDefinitionIndex = 45036;
 
 	class SkeletonMecanim_MecanimTranslator : public ::System::Object
 	{
 	public:
-		// static const ::System::Single WeightEpsilon; // 0x0
 		::System::Boolean autoReset; // 0x10
 		::System::Boolean useCustomMixMode; // 0x11
-		::Il2CppArray<::Spine::Unity::SkeletonMecanim_MecanimTranslator_MixMode>* layerMixModes; // 0x18
+		::System::Byte _padding0[0x6];
+		::Il2CppArray<::System::Object*>* layerMixModes; // 0x18
 		::Il2CppArray<::Spine::MixBlend>* layerBlendModes; // 0x20
 		::Spine::Unity::SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate* _OnClipApplied; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Spine::Animation*>* animationTable; // 0x30
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::AnimationClip*, ::System::Int32>* clipNameHashCodeTable; // 0x38
 		::System::Collections::Generic::List_1<::Spine::Animation*>* previousAnimations; // 0x40
-		::Il2CppArray<::Spine::Unity::SkeletonMecanim_MecanimTranslator_ClipInfos*>* layerClipInfos; // 0x48
+		::Il2CppArray<::System::Object*>* layerClipInfos; // 0x48
 		::UnityEngine::Animator* animator; // 0x50
-
+		// static const ::System::Object WeightEpsilon; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void add__OnClipApplied(::Spine::Unity::SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate* a1)
@@ -162,19 +160,20 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETSTATEUPDATESFROMANIMATOR_OFFSET))(this, a1);
 		}
 
-		::System::Void GetAnimatorClipInfos(::System::Int32 a1, ::System::Boolean& a2, ::System::Int32& a3, ::System::Int32& a4, ::System::Int32& a5, ::System::Collections::Generic::IList_1<::UnityEngine::AnimatorClipInfo>*& a6, ::System::Collections::Generic::IList_1<::UnityEngine::AnimatorClipInfo>*& a7, ::System::Collections::Generic::IList_1<::UnityEngine::AnimatorClipInfo>*& a8, ::System::Boolean& a9)
+		::System::Void GetAnimatorClipInfos(::System::Int32 a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean&, ::System::Int32&, ::System::Int32&, ::System::Int32&, ::System::Collections::Generic::IList_1<::UnityEngine::AnimatorClipInfo>*&, ::System::Collections::Generic::IList_1<::UnityEngine::AnimatorClipInfo>*&, ::System::Collections::Generic::IList_1<::UnityEngine::AnimatorClipInfo>*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORCLIPINFOS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORCLIPINFOS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void GetAnimatorStateInfos(::System::Int32 a1, ::System::Boolean& a2, ::UnityEngine::AnimatorStateInfo& a3, ::UnityEngine::AnimatorStateInfo& a4, ::UnityEngine::AnimatorStateInfo& a5, ::System::Single& a6)
+		::System::Void GetAnimatorStateInfos(::System::Int32 a1, ::System::Boolean a2, ::UnityEngine::AnimatorStateInfo a3, ::UnityEngine::AnimatorStateInfo a4, ::UnityEngine::AnimatorStateInfo a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean&, ::UnityEngine::AnimatorStateInfo&, ::UnityEngine::AnimatorStateInfo&, ::UnityEngine::AnimatorStateInfo&, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORSTATEINFOS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorStateInfo, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATORSTATEINFOS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::Spine::Animation* GetAnimation(::UnityEngine::AnimationClip* a1)
 		{
 			return ((::Spine::Animation*(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETANIMATION_OFFSET))(this, a1);
 		}
+
 	};
 }

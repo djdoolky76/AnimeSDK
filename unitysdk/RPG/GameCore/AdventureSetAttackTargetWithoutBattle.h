@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureSetAttackTargetWithoutBattle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_METHOD_3_8F2F1EFA42439044_OFFSET UNITYSDK_OFFSET(0x1CBBE010)
-#define RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_METHOD_3_B40491D83480E3DF_OFFSET UNITYSDK_OFFSET(0x1CBBE050)
-#define RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBE040)
+#define RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39F730)
+#define RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39F740)
+#define RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39F700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSetAttackTargetWithoutBattle_TypeDefinitionIndex = 21516;
+	inline static constexpr unsigned int AdventureSetAttackTargetWithoutBattle_TypeDefinitionIndex = 21763;
 
 	class AdventureSetAttackTargetWithoutBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8F2F1EFA42439044(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_METHOD_3_8F2F1EFA42439044_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B40491D83480E3DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_METHOD_3_B40491D83480E3DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureSetAttackTargetWithoutBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESETATTACKTARGETWITHOUTBATTLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

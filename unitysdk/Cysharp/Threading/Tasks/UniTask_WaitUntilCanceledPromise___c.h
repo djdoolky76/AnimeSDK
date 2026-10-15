@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE119A0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CREATE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1CE11A50)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE119E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CE119F0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11D870)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11D8B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CREATE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1F11D920)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F11D8C0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilCanceledPromise___c_TypeDefinitionIndex = 42676;
+	inline static constexpr unsigned int UniTask_WaitUntilCanceledPromise___c_TypeDefinitionIndex = 38261;
 
 	class UniTask_WaitUntilCanceledPromise___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitUntilCanceledPromise___c_TypeDefinitionIndex)->GetStaticField(0x627B0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x39F10);
 		}
-		static ::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitUntilCanceledPromise___c_TypeDefinitionIndex)->GetStaticField(0x627B8);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x39F18);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 __cctor_b__4_0()
@@ -44,5 +45,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE___C__CREATE_B__10_0_OFFSET))(this, a1);
 		}
+
 	};
 }

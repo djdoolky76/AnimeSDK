@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HedgehogTeam::EasyTouch { class Finger; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_STOP_OFFSET UNITYSDK_OFFSET(0x1D15A6B0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D152360)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1672D300)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_STOP_OFFSET UNITYSDK_OFFSET(0x167356D0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_DoubleTap_TypeDefinitionIndex = 38990;
+	inline static constexpr unsigned int EasyTouch_DoubleTap_TypeDefinitionIndex = 40287;
 
 	class EasyTouch_DoubleTap : public ::System::Object
 	{
 	public:
 		::System::Boolean inDoubleTap; // 0x10
 		::System::Boolean inWait; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::Single time; // 0x14
 		::System::Int32 count; // 0x18
+		::System::Byte _padding1[0x4];
 		::HedgehogTeam::EasyTouch::Finger* finger; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Stop()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_STOP_OFFSET))(this);
 		}
+
 	};
 }

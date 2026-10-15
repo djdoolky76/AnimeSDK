@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByLevelLoseCheck; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_1B37D6C51D9FE809_OFFSET UNITYSDK_OFFSET(0x1CDB5C00)
-#define RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_8CDC38791FADB5C0_OFFSET UNITYSDK_OFFSET(0x1CDB5A80)
-#define RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_9FAE2967260A1280_OFFSET UNITYSDK_OFFSET(0x1CDB5C30)
-#define RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_A8202CAC86D4EF53_OFFSET UNITYSDK_OFFSET(0x1CDB5AC0)
-#define RPG_GAMECORE_BYLEVELLOSECHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB5AB0)
+#define RPG_GAMECORE_BYLEVELLOSECHECK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4FC9B0)
+#define RPG_GAMECORE_BYLEVELLOSECHECK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4FCB30)
+#define RPG_GAMECORE_BYLEVELLOSECHECK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4FCB00)
+#define RPG_GAMECORE_BYLEVELLOSECHECK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4FC9C0)
+#define RPG_GAMECORE_BYLEVELLOSECHECK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4FC980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByLevelLoseCheck_TypeDefinitionIndex = 23170;
+	inline static constexpr unsigned int ByLevelLoseCheck_TypeDefinitionIndex = 23435;
 
 	class ByLevelLoseCheck : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8CDC38791FADB5C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByLevelLoseCheck*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByLevelLoseCheck* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByLevelLoseCheck*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_8CDC38791FADB5C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByLevelLoseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A8202CAC86D4EF53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByLevelLoseCheck* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByLevelLoseCheck* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByLevelLoseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_A8202CAC86D4EF53_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByLevelLoseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1B37D6C51D9FE809(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLevelLoseCheck*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLevelLoseCheck* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLevelLoseCheck*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_1B37D6C51D9FE809_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLevelLoseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9FAE2967260A1280(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLevelLoseCheck* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLevelLoseCheck* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLevelLoseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_METHOD_4_9FAE2967260A1280_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLevelLoseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLEVELLOSECHECK_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

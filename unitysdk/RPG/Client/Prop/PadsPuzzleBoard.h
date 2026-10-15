@@ -7,7 +7,6 @@
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineFreeLook; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
@@ -27,83 +26,56 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_CANPUZZLEUNLOAD_OFFSET UNITYSDK_OFFSET(0x166140B0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x166155C0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_GET_PADSCAMERASTATUS_OFFSET UNITYSDK_OFFSET(0x16618890)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0x16613320)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0x16615570)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_07E567B3C6C3D7D7_OFFSET UNITYSDK_OFFSET(0x166144A0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_0C5A56C5ABCA1C03_OFFSET UNITYSDK_OFFSET(0x16616E80)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x16613EF0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_2DE13BE11F24F545_OFFSET UNITYSDK_OFFSET(0x16617B70)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_3059B53ABB8F8B7E_OFFSET UNITYSDK_OFFSET(0x16614F80)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_3BC8B8F2BB08C1C2_OFFSET UNITYSDK_OFFSET(0x166145D0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_3EA9C072A7A8B70A_OFFSET UNITYSDK_OFFSET(0x16617CD0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x16617050)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_8336E89DF737C001_OFFSET UNITYSDK_OFFSET(0x166183F0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_83869A492D1DD90A_OFFSET UNITYSDK_OFFSET(0x16616AD0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_9325E8B082CC0AD8_OFFSET UNITYSDK_OFFSET(0x166176E0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_B6BB704B01BCC35B_OFFSET UNITYSDK_OFFSET(0x166166A0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_BB881F05E41D3A04_OFFSET UNITYSDK_OFFSET(0x166143D0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_BC8C675A256260AC_OFFSET UNITYSDK_OFFSET(0x16614A70)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_BD3078E21D74E44F_OFFSET UNITYSDK_OFFSET(0x166174F0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_DC715239B8B98D9C_OFFSET UNITYSDK_OFFSET(0x166141D0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_DD8D3FEE4AB0EA3E_OFFSET UNITYSDK_OFFSET(0x16617970)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_FE268EA0D7E91617_OFFSET UNITYSDK_OFFSET(0x16618650)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONCHARACTERSTEPONCOLLIDERCHANGE_OFFSET UNITYSDK_OFFSET(0x16617F30)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONCHARACTERSTEPOUTCOLLIDERCHANGE_OFFSET UNITYSDK_OFFSET(0x16618230)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONTRANSPORTCALLBACK_OFFSET UNITYSDK_OFFSET(0x16614EE0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONTRANSPORT_OFFSET UNITYSDK_OFFSET(0x16614E20)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLERESETTELEPORTINSTANT_OFFSET UNITYSDK_OFFSET(0x16614C30)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLERESETTELEPORT_OFFSET UNITYSDK_OFFSET(0x16614940)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0x166147D0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLESETTLE_OFFSET UNITYSDK_OFFSET(0x166140F0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0x16614690)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_REGISTERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x16614D60)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_SDKREPORT_OFFSET UNITYSDK_OFFSET(0x166152B0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0x166138B0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0x16615CD0)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x16618A20)
-#define RPG_CLIENT_PROP_PADSPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x166188A0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ANIKINIPPGI_OFFSET UNITYSDK_OFFSET(0xDD537E0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_BOOHNKLDILL_OFFSET UNITYSDK_OFFSET(0xDD56260)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_BPBEDFCGPBN_OFFSET UNITYSDK_OFFSET(0xDD55CE0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_CANPUZZLEUNLOAD_OFFSET UNITYSDK_OFFSET(0xDD532C0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_CCIACIMIGBH_1_OFFSET UNITYSDK_OFFSET(0xDD53C80)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_CCIACIMIGBH_OFFSET UNITYSDK_OFFSET(0xDD56B80)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD57C30)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDD57AB0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DDGDNBALMHP_OFFSET UNITYSDK_OFFSET(0xDD56EE0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DDOKIKDHJLK_OFFSET UNITYSDK_OFFSET(0xDD56700)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DEFAKBNJHCM_OFFSET UNITYSDK_OFFSET(0xDD57860)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DHOJJBHLEHK_OFFSET UNITYSDK_OFFSET(0xDD536B0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD547D0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_DMCIDGBIEOB_OFFSET UNITYSDK_OFFSET(0xDD57600)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_FEIHGKFLMGL_OFFSET UNITYSDK_OFFSET(0xDD56D80)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_GET_PADSCAMERASTATUS_OFFSET UNITYSDK_OFFSET(0xDD57AA0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_GLJNGMHJMKD_OFFSET UNITYSDK_OFFSET(0xDD535E0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_GLNPHBHJMNJ_OFFSET UNITYSDK_OFFSET(0xDD53100)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_IHCCLGAJLON_OFFSET UNITYSDK_OFFSET(0xDD56090)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_IMHPNPGFKBM_OFFSET UNITYSDK_OFFSET(0xDD558B0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD52530)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDD54780)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONCHARACTERSTEPONCOLLIDERCHANGE_OFFSET UNITYSDK_OFFSET(0xDD57140)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONCHARACTERSTEPOUTCOLLIDERCHANGE_OFFSET UNITYSDK_OFFSET(0xDD57440)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONIAEMIOPFH_1_OFFSET UNITYSDK_OFFSET(0xDD568F0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONIAEMIOPFH_OFFSET UNITYSDK_OFFSET(0xDD54190)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONTRANSPORTCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD540F0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONTRANSPORT_OFFSET UNITYSDK_OFFSET(0xDD54030)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PKGLLCODHEP_OFFSET UNITYSDK_OFFSET(0xDD533E0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLERESETTELEPORTINSTANT_OFFSET UNITYSDK_OFFSET(0xDD53E40)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLERESETTELEPORT_OFFSET UNITYSDK_OFFSET(0xDD53B50)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0xDD539E0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLESETTLE_OFFSET UNITYSDK_OFFSET(0xDD53300)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0xDD538A0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_REGISTERCOLLIDER_OFFSET UNITYSDK_OFFSET(0xDD53F70)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_SDKREPORT_OFFSET UNITYSDK_OFFSET(0xDD544C0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD52AC0)
+#define RPG_CLIENT_PROP_PADSPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD54ED0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadsPuzzleBoard_TypeDefinitionIndex = 78280;
+	inline static constexpr unsigned int PadsPuzzleBoard_TypeDefinitionIndex = 78751;
 
 	class PadsPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
-		static ::System::String** StaticGet_CJDIFCBFIAB()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x64570);
-		}
-		static ::System::Single* StaticGet_PLPLDKPNNBP()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14910);
-		}
-		static ::System::Single* StaticGet_PCBDDHALGNA()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14914);
-		}
-		static ::System::Int32* StaticGet_ADADCANABMK()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14918);
-		}
-		static ::System::Single* StaticGet_OKPEGNGLACH()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x1491C);
-		}
-		static ::System::Int32* StaticGet_IIIHFJFMPIH()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14920);
-		}
-		static ::System::Single* StaticGet_HDCAOKHGOMC()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PadsPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14924);
-		}
 		::UnityEngine::Transform* FailAnchor; // 0x48
 		::UnityEngine::Transform* StartPad; // 0x50
 		::RPG::Client::Prop::PadsStatus status; // 0x58
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::Client::Prop::PadsPuzzlePadBase*>* OBJGBJBNDNG; // 0x60
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::PadsPuzzleTriggerPad*>* LNONPPFBGMB; // 0x68
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Collider*, ::RPG::Client::Prop::PadsPuzzleTriggerPad*>* PCLEJIICLBH; // 0x70
@@ -119,16 +91,51 @@ namespace RPG::Client::Prop
 		::System::Single KNDKNLLAJLB; // 0xB8
 		::System::Boolean GFEECMGFNLB; // 0xBC
 		::System::Boolean FJLHEAHNKMO; // 0xBD
+		::System::Byte _padding1[0x2];
 		::System::Int32 HGAHFGMDDKC; // 0xC0
+		static ::System::String** StaticGet_CJDIFCBFIAB()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x48520);
+		}
+
+		static ::System::Int32* StaticGet_ADADCANABMK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x10DB0);
+		}
+
+		static ::System::Single* StaticGet_PCBDDHALGNA()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x10DB4);
+		}
+
+		static ::System::Int32* StaticGet_IIIHFJFMPIH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x10DB8);
+		}
+
+		static ::System::Single* StaticGet_HDCAOKHGOMC()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x10DBC);
+		}
+
+		static ::System::Single* StaticGet_OKPEGNGLACH()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x10DC0);
+		}
+
+		static ::System::Single* StaticGet_PLPLDKPNNBP()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "PadsPuzzleBoard")->GetStaticField(0x10DC4);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_CCTOR_OFFSET))();
 		}
 
 		::System::Void InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
@@ -206,44 +213,44 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3059B53ABB8F8B7E(::UnityEngine::Vector3 a1, ::System::Boolean a2)
+		::System::Void ONIAEMIOPFH(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_3059B53ABB8F8B7E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONIAEMIOPFH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_9325E8B082CC0AD8(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3)
+		::System::Void ONIAEMIOPFH_1(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_9325E8B082CC0AD8_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONIAEMIOPFH_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_6_DD8D3FEE4AB0EA3E(::UnityEngine::Vector3 a1, ::System::Boolean a2)
+		::System::Void CCIACIMIGBH(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_DD8D3FEE4AB0EA3E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_CCIACIMIGBH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_BC8C675A256260AC(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3)
+		::System::Void CCIACIMIGBH_1(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_BC8C675A256260AC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_CCIACIMIGBH_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_6_737220D2233A9067()
+		::System::Void BOOHNKLDILL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_737220D2233A9067_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_BOOHNKLDILL_OFFSET))(this);
 		}
 
-		::System::Void Method_6_BD3078E21D74E44F()
+		::System::Void DDOKIKDHJLK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_BD3078E21D74E44F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_DDOKIKDHJLK_OFFSET))(this);
 		}
 
-		::System::Void Method_6_2DE13BE11F24F545(::System::Object* a1)
+		::System::Void FEIHGKFLMGL(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_2DE13BE11F24F545_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_FEIHGKFLMGL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_3EA9C072A7A8B70A(::System::Object* a1)
+		::System::Void DDGDNBALMHP(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_3EA9C072A7A8B70A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_DDGDNBALMHP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnCharacterStepOnColliderChange(::RPG::Client::Prop::PadsPuzzleTriggerPad* a1, ::UnityEngine::GameObject* a2)
@@ -256,59 +263,60 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PadsPuzzleTriggerPad*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_ONCHARACTERSTEPOUTCOLLIDERCHANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_0C5A56C5ABCA1C03(::RPG::Client::Prop::PadsCameraStatus a1)
+		::System::Void IHCCLGAJLON(::RPG::Client::Prop::PadsCameraStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PadsCameraStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_0C5A56C5ABCA1C03_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PadsCameraStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_IHCCLGAJLON_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Prop::PadsPuzzleSettleType Method_6_83869A492D1DD90A()
+		::RPG::Client::Prop::PadsPuzzleSettleType BPBEDFCGPBN()
 		{
-			return ((::RPG::Client::Prop::PadsPuzzleSettleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_83869A492D1DD90A_OFFSET))(this);
+			return ((::RPG::Client::Prop::PadsPuzzleSettleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_BPBEDFCGPBN_OFFSET))(this);
 		}
 
-		::System::UInt32 Method_6_2372762F4122DEB8()
+		::System::UInt32 GLNPHBHJMNJ()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_2372762F4122DEB8_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_GLNPHBHJMNJ_OFFSET))(this);
 		}
 
-		::System::Void Method_6_B6BB704B01BCC35B()
+		::System::Void IMHPNPGFKBM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_B6BB704B01BCC35B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_IMHPNPGFKBM_OFFSET))(this);
 		}
 
-		::System::Void Method_6_8336E89DF737C001()
+		::System::Void DMCIDGBIEOB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_8336E89DF737C001_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_DMCIDGBIEOB_OFFSET))(this);
 		}
 
-		::System::Void Method_6_FE268EA0D7E91617()
+		::System::Void DEFAKBNJHCM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_FE268EA0D7E91617_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_DEFAKBNJHCM_OFFSET))(this);
 		}
 
-		::System::Void Method_6_DC715239B8B98D9C()
+		::System::Void PKGLLCODHEP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_DC715239B8B98D9C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_PKGLLCODHEP_OFFSET))(this);
 		}
 
-		::System::Void Method_6_BB881F05E41D3A04()
+		::System::Void GLJNGMHJMKD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_BB881F05E41D3A04_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_GLJNGMHJMKD_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3BC8B8F2BB08C1C2()
+		::System::Void ANIKINIPPGI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_3BC8B8F2BB08C1C2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_ANIKINIPPGI_OFFSET))(this);
 		}
 
-		::System::Void Method_6_07E567B3C6C3D7D7()
+		::System::Void DHOJJBHLEHK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_METHOD_6_07E567B3C6C3D7D7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_DHOJJBHLEHK_OFFSET))(this);
 		}
 
 		::RPG::Client::Prop::PadsCameraStatus get_PadsCameraStatus()
 		{
 			return ((::RPG::Client::Prop::PadsCameraStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEBOARD_GET_PADSCAMERASTATUS_OFFSET))(this);
 		}
+
 	};
 }

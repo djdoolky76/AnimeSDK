@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16650B80)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDD8F690)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleFragmentData_TypeDefinitionIndex = 78333;
+	inline static constexpr unsigned int RotatePillarPuzzleFragmentData_TypeDefinitionIndex = 78804;
 
 	class RotatePillarPuzzleFragmentData : public ::System::Object
 	{
@@ -22,10 +21,10 @@ namespace RPG::Client::Prop
 		::System::String* CompleteTriggerCustomString; // 0x28
 		::System::Collections::Generic::List_1<::System::String*>* ChildFragment; // 0x30
 		::System::Single FollowDelay; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

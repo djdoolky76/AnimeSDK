@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class AHEFENOJHLH;
+class EDCJCHHBCPC;
+class JAANHJGOINJ_DBGHEJKBHCG;
+class MHHCKCECJIM;
+class NNLNAFIMCNO;
+namespace RPG::AvatarSystem { class Avatar; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define JAANHJGOINJ_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0x1652CD20)
+#define JAANHJGOINJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1652D400)
+#define JAANHJGOINJ_GEOHNBNJOBN_OFFSET UNITYSDK_OFFSET(0x1652CB50)
+#define JAANHJGOINJ_IKNCABBGGMJ_OFFSET UNITYSDK_OFFSET(0x1652C980)
+#define JAANHJGOINJ_KDOEKNFJFJD_OFFSET UNITYSDK_OFFSET(0x1652BFC0)
+#define JAANHJGOINJ_KJMHENOIEML_OFFSET UNITYSDK_OFFSET(0x1652C5D0)
+
+inline static constexpr unsigned int JAANHJGOINJ_TypeDefinitionIndex = 62583;
+
+	class JAANHJGOINJ : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::MHHCKCECJIM*>* DNJGNHOJGOC; // 0x10
+		::System::Collections::Generic::List_1<::EDCJCHHBCPC*>* JBGJNOGCOJC; // 0x18
+		::JAANHJGOINJ_DBGHEJKBHCG* CMGIJEHHCPH; // 0x20
+		::System::Collections::Generic::List_1<::NNLNAFIMCNO*>* AEMELNNIPFD; // 0x28
+		::System::Boolean EMHAACACFOM; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAANHJGOINJ_CTOR_OFFSET))(this);
+		}
+
+		::JAANHJGOINJ_DBGHEJKBHCG* KDOEKNFJFJD(::NNLNAFIMCNO* a1)
+		{
+			return ((::JAANHJGOINJ_DBGHEJKBHCG*(*)(::PVOID, ::NNLNAFIMCNO*))((::PBYTE)hIl2Cpp + JAANHJGOINJ_KDOEKNFJFJD_OFFSET))(this, a1);
+		}
+
+		::JAANHJGOINJ_DBGHEJKBHCG* KJMHENOIEML(::NNLNAFIMCNO* a1)
+		{
+			return ((::JAANHJGOINJ_DBGHEJKBHCG*(*)(::PVOID, ::NNLNAFIMCNO*))((::PBYTE)hIl2Cpp + JAANHJGOINJ_KJMHENOIEML_OFFSET))(this, a1);
+		}
+
+		::JAANHJGOINJ_DBGHEJKBHCG* IKNCABBGGMJ(::MHHCKCECJIM* a1)
+		{
+			return ((::JAANHJGOINJ_DBGHEJKBHCG*(*)(::PVOID, ::MHHCKCECJIM*))((::PBYTE)hIl2Cpp + JAANHJGOINJ_IKNCABBGGMJ_OFFSET))(this, a1);
+		}
+
+		::JAANHJGOINJ_DBGHEJKBHCG* GEOHNBNJOBN(::EDCJCHHBCPC* a1)
+		{
+			return ((::JAANHJGOINJ_DBGHEJKBHCG*(*)(::PVOID, ::EDCJCHHBCPC*))((::PBYTE)hIl2Cpp + JAANHJGOINJ_GEOHNBNJOBN_OFFSET))(this, a1);
+		}
+
+		::RPG::AvatarSystem::Avatar* AKJABINEGDJ(::AHEFENOJHLH* a1)
+		{
+			return ((::RPG::AvatarSystem::Avatar*(*)(::PVOID, ::AHEFENOJHLH*))((::PBYTE)hIl2Cpp + JAANHJGOINJ_AKJABINEGDJ_OFFSET))(this, a1);
+		}
+
+	};

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_MUTABLEDECIMAL_GET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0x3C6ECE0)
-#define SYSTEM_MUTABLEDECIMAL_GET_SCALE_OFFSET UNITYSDK_OFFSET(0xB59660)
-#define SYSTEM_MUTABLEDECIMAL_SET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0x3C6ECF0)
-#define SYSTEM_MUTABLEDECIMAL_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x3C6ED10)
+#define SYSTEM_MUTABLEDECIMAL_GET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0x3C0FDA0)
+#define SYSTEM_MUTABLEDECIMAL_GET_SCALE_OFFSET UNITYSDK_OFFSET(0xE75B0)
+#define SYSTEM_MUTABLEDECIMAL_SET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0x3C54D60)
+#define SYSTEM_MUTABLEDECIMAL_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x3C54D80)
 
 namespace System
 {
-	inline static constexpr unsigned int MutableDecimal_TypeDefinitionIndex = 4962;
+	inline static constexpr unsigned int MutableDecimal_TypeDefinitionIndex = 4969;
 
 	struct alignas(4) MutableDecimal
 	{
@@ -17,7 +16,6 @@ namespace System
 		::System::UInt32 High; // 0x14
 		::System::UInt32 Low; // 0x18
 		::System::UInt32 Mid; // 0x1C
-
 		::System::Boolean get_IsNegative()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MUTABLEDECIMAL_GET_ISNEGATIVE_OFFSET))(this);
@@ -37,5 +35,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_MUTABLEDECIMAL_SET_SCALE_OFFSET))(this, a1);
 		}
+
 	};
 }

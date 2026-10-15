@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0B3CD0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0B3CC0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B3E60)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9209C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE920B50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9209B0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int StopDOFEffectClip_TypeDefinitionIndex = 49073;
+	inline static constexpr unsigned int StopDOFEffectClip_TypeDefinitionIndex = 48619;
 
 	class StopDOFEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_STOPDOFEFFECTCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

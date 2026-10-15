@@ -1,43 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class Sample; }
+namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class SampleResult; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A374FA0)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3744A0)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CCTOR_OFFSET UNITYSDK_OFFSET(0xE872640)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE871B10)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 52120;
+	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 51826;
 
 	class SampleResult : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_EMPTY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SampleResult_TypeDefinitionIndex)->GetStaticField(0x2AB20);
-		}
 		::System::Int32 Name; // 0x10
 		::System::Int32 Source; // 0x14
 		::System::Int32 Line; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Int64 LuaTotal; // 0x20
 		::System::Int64 MonoTotal; // 0x28
 		::System::Int64 LuaSelf; // 0x30
 		::System::Int64 MonoSelf; // 0x38
 		::System::Int32 Count; // 0x40
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::RPG::QA::ProfilePipeline::RPGLuaProfiler::SampleResult*>* Children; // 0x48
+		static ::System::String** StaticGet_EMPTY()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.QA.ProfilePipeline.RPGLuaProfiler", "SampleResult")->GetStaticField(0x6F2D0);
+		}
 
 		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample* a1, ::System::Collections::Hashtable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CCTOR_OFFSET))();
 		}
+
 	};
 }

@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_SORTINGLAYER_GETLAYERVALUEFROMID_OFFSET UNITYSDK_OFFSET(0x1EE04C50)
-#define UNITYENGINE_SORTINGLAYER_IDTONAME_OFFSET UNITYSDK_OFFSET(0x1EE04C70)
-#define UNITYENGINE_SORTINGLAYER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EE04C80)
-#define UNITYENGINE_SORTINGLAYER_NAMETOID_OFFSET UNITYSDK_OFFSET(0x1EE04C60)
+#define UNITYENGINE_SORTINGLAYER_GETLAYERVALUEFROMID_OFFSET UNITYSDK_OFFSET(0x1F3FF880)
+#define UNITYENGINE_SORTINGLAYER_IDTONAME_OFFSET UNITYSDK_OFFSET(0x1F3FF8A0)
+#define UNITYENGINE_SORTINGLAYER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F3FF8B0)
+#define UNITYENGINE_SORTINGLAYER_NAMETOID_OFFSET UNITYSDK_OFFSET(0x1F3FF890)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SortingLayer_TypeDefinitionIndex = 4021;
+	inline static constexpr unsigned int SortingLayer_TypeDefinitionIndex = 4022;
 
 	struct alignas(4) SortingLayer
 	{
 		::System::Int32 m_Id; // 0x10
-
 		static ::System::Int32 GetLayerValueFromID(::System::Int32 a1)
 		{
 			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SORTINGLAYER_GETLAYERVALUEFROMID_OFFSET))(a1);
@@ -36,5 +33,6 @@ namespace UnityEngine
 		{
 			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SORTINGLAYER_ISVALID_OFFSET))(a1);
 		}
+
 	};
 }

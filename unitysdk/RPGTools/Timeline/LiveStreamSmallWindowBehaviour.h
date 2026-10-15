@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class LiveStreamSmallWindowClip; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B59BE70)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B59BE90)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B59BE80)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59BF60)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE901150)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE901060)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE901080)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE901070)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamSmallWindowBehaviour_TypeDefinitionIndex = 48636;
+	inline static constexpr unsigned int LiveStreamSmallWindowBehaviour_TypeDefinitionIndex = 48176;
 
 	class LiveStreamSmallWindowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::LiveStreamSmallWindowClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::LiveStreamSmallWindowClip* get_Clip()
@@ -39,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

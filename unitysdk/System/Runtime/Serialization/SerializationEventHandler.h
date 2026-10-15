@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19B99440)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19B994B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B96B90)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B993D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C30ECE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C30EC70)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C30ED50)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C30C430)
 
 namespace System::Runtime::Serialization
 {
@@ -21,7 +20,7 @@ namespace System::Runtime::Serialization
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Runtime::Serialization::StreamingContext a1)
@@ -38,5 +37,6 @@ namespace System::Runtime::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

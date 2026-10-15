@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetSortByGridFightPower; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_5C01214E3FBE39E0_OFFSET UNITYSDK_OFFSET(0x1E1C1F60)
-#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_9E0586056D3A677C_OFFSET UNITYSDK_OFFSET(0x1E1C1E50)
-#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_9E4B091EE7B7F8B0_OFFSET UNITYSDK_OFFSET(0x1E1C1D40)
-#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_CF6C3B0C17636C00_OFFSET UNITYSDK_OFFSET(0x1E1C1F10)
-#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C1E40)
+#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB43240)
+#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB43360)
+#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB43310)
+#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB43250)
+#define RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB43140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortByGridFightPower_TypeDefinitionIndex = 23720;
+	inline static constexpr unsigned int TargetSortByGridFightPower_TypeDefinitionIndex = 23994;
 
 	class TargetSortByGridFightPower : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Boolean HighestFirst; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E4B091EE7B7F8B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByGridFightPower*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortByGridFightPower* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByGridFightPower*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_9E4B091EE7B7F8B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9E0586056D3A677C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByGridFightPower* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortByGridFightPower* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_9E0586056D3A677C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CF6C3B0C17636C00(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByGridFightPower*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByGridFightPower* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByGridFightPower*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_CF6C3B0C17636C00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5C01214E3FBE39E0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByGridFightPower* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByGridFightPower* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_METHOD_3_5C01214E3FBE39E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYGRIDFIGHTPOWER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

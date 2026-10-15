@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::Client { class ElfRestaurantGameInstance; }
+namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
+namespace RPG::GameCore { class ST_Main_ElfTakeOutTakeOrder; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define HEJOBJLPCNL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4A5C0)
+#define HEJOBJLPCNL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C4ACF0)
+#define HEJOBJLPCNL_KPBODLMCDMI_OFFSET UNITYSDK_OFFSET(0x15C4AB80)
+#define HEJOBJLPCNL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C4A5F0)
+#define HEJOBJLPCNL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C4A840)
+#define HEJOBJLPCNL_TICK_OFFSET UNITYSDK_OFFSET(0x15C4A890)
+
+inline static constexpr unsigned int HEJOBJLPCNL_TypeDefinitionIndex = 52165;
+
+	class HEJOBJLPCNL
+	{
+	public:
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* HOPJIONMGFC; // 0x28
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
+		::System::Single FKHKAMDOPBE; // 0x38
+		::System::Boolean HJBDGPIFELM; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::Single PGMIOKKLHIE; // 0x40
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfTakeOutTakeOrder* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_ElfTakeOutTakeOrder*))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean KPBODLMCDMI()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_KPBODLMCDMI_OFFSET))(this);
+		}
+
+	};

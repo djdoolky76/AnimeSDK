@@ -9,8 +9,7 @@
 #include "unitysdk/RPG/GameCore/LevelNPCUseAnimationType.h"
 #include "unitysdk/RPG/GameCore/NamedLevelObjectInfo.h"
 #include "unitysdk/RPG/GameCore/TalkChosenType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AIConfigInfo; }
 namespace RPG::GameCore { class AIVariableValueSource; }
 namespace RPG::GameCore { class AdventureCharacterFloatingConfig; }
@@ -23,6 +22,7 @@ namespace RPG::GameCore { class LevelEntityReferenceInfo; }
 namespace RPG::GameCore { class LevelEntityVCameraConfig; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class LevelLookAtPositionInfo; }
+namespace RPG::GameCore { class LevelNPCInfo; }
 namespace RPG::GameCore { class LevelNPCModelPresetConfig; }
 namespace RPG::GameCore { class LevelNPCNearbyAnimConfig; }
 namespace RPG::GameCore { class LevelNPCNearbyConfig; }
@@ -35,35 +35,41 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class SOConfigInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1C11C060)
-#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11BF00)
-#define RPG_GAMECORE_LEVELNPCINFO_GETSERIESID_OFFSET UNITYSDK_OFFSET(0x1C11DDF0)
-#define RPG_GAMECORE_LEVELNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11BFC0)
+#define RPG_GAMECORE_LEVELNPCINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D787C80)
+#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D787D20)
+#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D787BC0)
+#define RPG_GAMECORE_LEVELNPCINFO_GETSERIESID_OFFSET UNITYSDK_OFFSET(0x1D789EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCInfo_TypeDefinitionIndex = 17082;
+	inline static constexpr unsigned int LevelNPCInfo_TypeDefinitionIndex = 17277;
 
 	class LevelNPCInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:
 		::RPG::GameCore::LevelNPCComplexity Complexity; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::String* StillGradeAnimID; // 0x40
 		::System::Boolean StillGradeStandOnGround; // 0x48
+		::System::Byte _padding1[0x3];
 		::System::Single RotX; // 0x4C
 		::System::Single RotZ; // 0x50
 		::System::UInt32 NPCID; // 0x54
 		::System::String* LevelGraph; // 0x58
 		::System::Boolean LoadOnInitial; // 0x60
+		::System::Byte _padding2[0x7];
 		::RPG::GameCore::LevelGraphValueSource* ValueSource; // 0x68
 		::System::UInt32 CampID; // 0x70
+		::System::Byte _padding3[0x4];
 		::RPG::GameCore::LevelTriggerInfo* Trigger; // 0x78
 		::RPG::GameCore::AIConfigInfo* AIConfig; // 0x80
 		::RPG::GameCore::AIVariableValueSource* AIVariableSource; // 0x88
 		::RPG::GameCore::SOConfigInfo* SOConfig; // 0x90
 		::System::Boolean StaticNPC; // 0x98
+		::System::Byte _padding4[0x3];
 		::RPG::GameCore::EntityLodTemplateName OverrideLodTemplate; // 0x9C
 		::System::UInt32 DialogueTriggerAngle; // 0xA0
+		::System::Byte _padding5[0x4];
 		::Il2CppArray<::System::UInt32>* DialogueGroups; // 0xA8
 		::Il2CppArray<::System::UInt32>* ServerInteractVerificationIDList; // 0xB0
 		::System::String* DefaultIdleStateName; // 0xB8
@@ -71,15 +77,19 @@ namespace RPG::GameCore
 		::System::String* BoneEmotionName; // 0xC8
 		::System::String* AtlasFaceSetKey; // 0xD0
 		::System::Boolean IsOverrideAtlasEmotion; // 0xD8
+		::System::Byte _padding6[0x7];
 		::RPG::GameCore::CharacterAtlasFaceEmotion* OverrideAtlasEmotion; // 0xE0
 		::RPG::GameCore::ENpcLookAtMode DefaultLookAtMode; // 0xE8
+		::System::Byte _padding7[0x4];
 		::RPG::GameCore::LevelNpcLookAtTargetInfo* DefaultLookAtTargetInfo; // 0xF0
 		::RPG::GameCore::LevelLookAtPositionInfo* DefaultLookAtPositionInfo; // 0xF8
 		::System::UInt32 MappingInfoID; // 0x100
 		::System::UInt32 SubMapID; // 0x104
 		::System::Boolean OverrideTriggerSound; // 0x108
+		::System::Byte _padding8[0x3];
 		::System::Single SoundRange; // 0x10C
 		::RPG::GameCore::LevelNPCLodType NPCLodType; // 0x110
+		::System::Byte _padding9[0x4];
 		::RPG::GameCore::LevelNPCPossessionInfo* PossessionConfig; // 0x118
 		::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* AdditivePossessionInfos; // 0x120
 		::Il2CppArray<::System::Int32>* BoardShowList; // 0x128
@@ -92,18 +102,23 @@ namespace RPG::GameCore
 		::System::UInt32 DefaultIdleFreeStyleMotionID; // 0x164
 		::System::String* FreeStyleAnimGraphName; // 0x168
 		::System::Boolean EnableExtendLayerFreeStyle; // 0x170
+		::System::Byte _padding10[0x7];
 		::System::String* ExtendLayerFreeStyleLayerName; // 0x178
 		::System::UInt32 ExtendLayerFreeStyleMotionID; // 0x180
+		::System::Byte _padding11[0x4];
 		::Il2CppArray<::RPG::GameCore::EffectConfig*>* AdditiveResidentEffect; // 0x188
 		::System::UInt32 OverrideSeriesID; // 0x190
 		::System::Boolean IsMapContent; // 0x194
+		::System::Byte _padding12[0x3];
 		::System::UInt32 MiniMapIconType; // 0x198
 		::System::Boolean IsNeedFade; // 0x19C
 		::System::Boolean IsInitialHidden; // 0x19D
+		::System::Byte _padding13[0x2];
 		::Il2CppArray<::System::String*>* InitialHiddenNodeList; // 0x1A0
 		::RPG::GameCore::LevelDialogInfo* Dialog; // 0x1A8
 		::RPG::GameCore::JsonEnum* InteractIconType; // 0x1B0
 		::System::Boolean DialogueTriggerSkipFakeAvatar; // 0x1B8
+		::System::Byte _padding14[0x3];
 		::RPG::GameCore::LevelNPCOverrideBehaviorType OverrideBehaviorType; // 0x1BC
 		::RPG::GameCore::LevelNPCOverrideBehaviorParameter* OverrideBehaviorParameter; // 0x1C0
 		::Il2CppArray<::System::String*>* OverrideReplaceMaterialKeyList; // 0x1C8
@@ -120,29 +135,31 @@ namespace RPG::GameCore
 		::RPG::GameCore::LevelNPCModelPresetConfig* ModelPresetConfig; // 0x218
 		::System::String* FloatingTemplateName; // 0x220
 		::System::Boolean IsFloatingOverride; // 0x228
+		::System::Byte _padding15[0x7];
 		::RPG::GameCore::AdventureCharacterFloatingConfig* FloatingConfig; // 0x230
 		::System::Boolean IsClientOnly; // 0x238
+		::System::Byte _padding16[0x3];
 		::System::UInt32 SoundProfileOverrideID; // 0x23C
 		::RPG::GameCore::LevelEntityHoyoTagContainerOverrideConfig* TagOverrideConfig; // 0x240
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCInfo*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCInfo* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNPCInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNPCInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 GetSeriesID()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFO_GETSERIESID_OFFSET))(this);
 		}
+
 	};
 }

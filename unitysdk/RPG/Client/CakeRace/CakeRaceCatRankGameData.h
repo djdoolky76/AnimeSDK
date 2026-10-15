@@ -3,27 +3,26 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client::CakeRace { class CakeRaceCatRankGameData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_ADDCATPOSITIONDATA_OFFSET UNITYSDK_OFFSET(0x1A1405F0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1A140430)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_GET_CATPOSITIONDATAS_OFFSET UNITYSDK_OFFSET(0x1A1403F0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_SORT_OFFSET UNITYSDK_OFFSET(0x1A1406D0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A140550)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_ADDCATPOSITIONDATA_OFFSET UNITYSDK_OFFSET(0xC8E8CD0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC8E8B10)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E8C30)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_GET_CATPOSITIONDATAS_OFFSET UNITYSDK_OFFSET(0xC8E8AD0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_SORT_OFFSET UNITYSDK_OFFSET(0xC8E8DB0)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatRankGameData_TypeDefinitionIndex = 75954;
+	inline static constexpr unsigned int CakeRaceCatRankGameData_TypeDefinitionIndex = 76431;
 
 	class CakeRaceCatRankGameData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>* _CatPositionDatas; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>* get_CatPositionDatas()
@@ -45,5 +44,6 @@ namespace RPG::Client::CakeRace
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_SORT_OFFSET))(this);
 		}
+
 	};
 }

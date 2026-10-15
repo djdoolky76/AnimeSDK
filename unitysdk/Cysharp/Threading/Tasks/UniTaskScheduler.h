@@ -2,48 +2,52 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LogType.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class SendOrPostCallback; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_ADD_UNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CE1C350)
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_INVOKEUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CE1C510)
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CE0F510)
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_REMOVE_UNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CE1C430)
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE1C5E0)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_ADD_UNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F128040)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1282D0)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_INVOKEUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F128200)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F11B420)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_REMOVE_UNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F128120)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskScheduler_TypeDefinitionIndex = 42860;
+	inline static constexpr unsigned int UniTaskScheduler_TypeDefinitionIndex = 38445;
 
 	class UniTaskScheduler : public ::System::Object
 	{
 	public:
-		static ::System::Threading::SendOrPostCallback** StaticGet_handleExceptionInvoke()
-		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x62D40);
-		}
 		static ::System::Action_1<::System::Exception*>** StaticGet_UnobservedTaskException()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x62D48);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0x3AE30);
 		}
+
+		static ::System::Threading::SendOrPostCallback** StaticGet_handleExceptionInvoke()
+		{
+			return (::System::Threading::SendOrPostCallback**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0x3AE38);
+		}
+
 		static ::UnityEngine::LogType* StaticGet_UnobservedExceptionWriteLogType()
 		{
-			return (::UnityEngine::LogType*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x144A0);
+			return (::UnityEngine::LogType*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0xBE10);
 		}
-		static ::System::Boolean* StaticGet_DispatchUnityMainThread()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x144A4);
-		}
+
 		static ::System::Boolean* StaticGet_PropagateOperationCanceledException()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x144A5);
+			return (::System::Boolean*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0xBE14);
+		}
+
+		static ::System::Boolean* StaticGet_DispatchUnityMainThread()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0xBE15);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void add_UnobservedTaskException(::System::Action_1<::System::Exception*>* a1)
@@ -65,5 +69,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::System::Exception*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET))(a1);
 		}
+
 	};
 }

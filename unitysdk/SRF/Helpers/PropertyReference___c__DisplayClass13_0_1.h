@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int PropertyReference___c__DisplayClass13_0_1_TypeDefinitionIndex = 34760;
+	inline static constexpr unsigned int PropertyReference___c__DisplayClass13_0_1_TypeDefinitionIndex = 35429;
 
 	template <typename T>
 	class PropertyReference___c__DisplayClass13_0_1 : public ::System::Object

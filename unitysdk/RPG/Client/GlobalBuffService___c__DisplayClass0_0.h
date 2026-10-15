@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class LineUpCharacter; }
 
-#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9A6D0)
-#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__GETAVATARFORGLOBALBUFFPROVIDER_B__0_OFFSET UNITYSDK_OFFSET(0x1AD9A6F0)
+#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD0AF210)
+#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__GETAVATARFORGLOBALBUFFPROVIDER_B__0_OFFSET UNITYSDK_OFFSET(0xD0AF230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalBuffService___c__DisplayClass0_0_TypeDefinitionIndex = 62830;
+	inline static constexpr unsigned int GlobalBuffService___c__DisplayClass0_0_TypeDefinitionIndex = 62763;
 
 	class GlobalBuffService___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 avatarID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetAvatarForGlobalBuffProvider_b__0(::RPG::GameCore::LineUpCharacter* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LineUpCharacter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__GETAVATARFORGLOBALBUFFPROVIDER_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Toggle.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1DE36D90)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET UNITYSDK_OFFSET(0x1DE36DA0)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x1DE36D80)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_START_OFFSET UNITYSDK_OFFSET(0x1DE36CE0)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE36F10)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2ADF00)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F2ADD80)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET UNITYSDK_OFFSET(0x1F2ADD90)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x1F2ADD70)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_START_OFFSET UNITYSDK_OFFSET(0x1F2ADCD0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int UIFoldout_TypeDefinitionIndex = 35035;
+	inline static constexpr unsigned int UIFoldout_TypeDefinitionIndex = 35704;
 
 	class UIFoldout : public ::UnityEngine::UI::Toggle
 	{
@@ -20,10 +19,9 @@ namespace UnityEngine::Rendering::UI
 		::UnityEngine::GameObject* content; // 0x138
 		::UnityEngine::GameObject* arrowOpened; // 0x140
 		::UnityEngine::GameObject* arrowClosed; // 0x148
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -45,5 +43,6 @@ namespace UnityEngine::Rendering::UI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

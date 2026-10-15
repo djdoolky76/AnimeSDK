@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumetricLightSettings_TypeDefinitionIndex = 4851;
+	inline static constexpr unsigned int VolumetricLightSettings_TypeDefinitionIndex = 4857;
 
 	struct alignas(4) VolumetricLightSettings
 	{

@@ -1,33 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/LookAheadXSide.h"
-#include "unitysdk/RPG/GameCore/FiveDimCameraFollowClampMask.h"
-#include "unitysdk/Struct_2_AACEDD85A6FDFBD8.h"
-#include "unitysdk/Struct_2_EAC1BB0F093534A5.h"
-#include "unitysdk/Struct_2_F31A7EC67A3AEEF7.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
-namespace RPG::Client::LittleGame::FiveDim { class FiveDimFollowCamera; }
-namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class ICameraSystemServices_1; }
 namespace RPG::GameCore { class FiveDimCameraDOFConfig; }
 namespace RPG::GameCore { class FiveDimCameraFollowConfig; }
 namespace RPG::GameCore { class FiveDimCameraLensConfig; }
-namespace RPG::GameCore { class FiveDimCameraLookAheadConfig; }
 namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseCameraSystem_1_TypeDefinitionIndex = 76432;
+	inline static constexpr unsigned int BaseCameraSystem_1_TypeDefinitionIndex = 76909;
 
 	template <typename T>
 	class BaseCameraSystem_1 : public ::System::Object

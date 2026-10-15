@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateOptions_TypeDefinitionIndex = 39299;
+	inline static constexpr unsigned int HEU_GenerateOptions_TypeDefinitionIndex = 40596;
 
-	struct alignas(1) HEU_GenerateOptions
+	struct alignas(4) HEU_GenerateOptions
 	{
 		::System::Boolean _generateUVs; // 0x10
 		::System::Boolean _generateTangents; // 0x11

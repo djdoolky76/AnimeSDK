@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelActionCountActive; }
 
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1844AB20)
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1844AAD0)
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_INIT_OFFSET UNITYSDK_OFFSET(0x1844AA80)
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1844AB70)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6CFD00)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6CFCB0)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6CFC60)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_INIT_OFFSET UNITYSDK_OFFSET(0xE6CFC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelActionCountActive_TypeDefinitionIndex = 56997;
+	inline static constexpr unsigned int LevelActionCountActive_TypeDefinitionIndex = 56818;
 
-	class LevelActionCountActive : public ::Class_1_BF7A075734D15E98
+	class LevelActionCountActive : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* ActiveEntity; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELACTIONCOUNTACTIVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelActionCountActive* Init(::RPG::GameCore::GameEntity* a1)
@@ -38,5 +37,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

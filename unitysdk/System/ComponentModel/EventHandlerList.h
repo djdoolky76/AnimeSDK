@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Delegate; }
+namespace System { class Object; }
 namespace System::ComponentModel { class Component; }
 namespace System::ComponentModel { class EventHandlerList_ListEntry; }
 
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET UNITYSDK_OFFSET(0x1AB0D530)
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1AB0D3C0)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET UNITYSDK_OFFSET(0x1EFBECA0)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EFBEB30)
 
 namespace System::ComponentModel
 {
@@ -18,7 +18,6 @@ namespace System::ComponentModel
 	public:
 		::System::ComponentModel::Component* parent; // 0x10
 		::System::ComponentModel::EventHandlerList_ListEntry* head; // 0x18
-
 		::System::Delegate* get_Item(::System::Object* a1)
 		{
 			return ((::System::Delegate*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET))(this, a1);
@@ -28,5 +27,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::ComponentModel::EventHandlerList_ListEntry*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class FCDPJHKCLAE;
+
+#define ODHLAJJAIJN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C95E210)
+#define ODHLAJJAIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95E290)
+
+inline static constexpr unsigned int ODHLAJJAIJN_TypeDefinitionIndex = 43495;
+
+	class ODHLAJJAIJN : public ::System::Object
+	{
+	public:
+		::FCDPJHKCLAE* BPAPBAFOMCH; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODHLAJJAIJN_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODHLAJJAIJN_CLEAR_OFFSET))(this);
+		}
+
+	};

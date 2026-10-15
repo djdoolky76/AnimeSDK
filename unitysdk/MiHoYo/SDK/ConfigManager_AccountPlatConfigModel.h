@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class AccountPlatABTestInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_ACCOUNTPLATCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C4DA0)
+#define MIHOYO_SDK_CONFIGMANAGER_ACCOUNTPLATCONFIGMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B8D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_AccountPlatConfigModel_TypeDefinitionIndex = 8160;
+	inline static constexpr unsigned int ConfigManager_AccountPlatConfigModel_TypeDefinitionIndex = 8203;
 
 	class ConfigManager_AccountPlatConfigModel : public ::System::Object
 	{
@@ -17,11 +16,12 @@ namespace MiHoYo::SDK
 		::System::Boolean available; // 0x10
 		::System::Boolean default_account_platform; // 0x11
 		::System::Boolean default_account_center; // 0x12
+		::System::Byte _padding0[0x5];
 		::System::Collections::Generic::List_1<::MiHoYo::SDK::AccountPlatABTestInfo*>* abtest; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIGMANAGER_ACCOUNTPLATCONFIGMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIGMANAGER_ACCOUNTPLATCONFIGMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

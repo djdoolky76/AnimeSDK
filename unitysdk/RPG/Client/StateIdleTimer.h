@@ -2,46 +2,45 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/StateCommonIdleTimer.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
-
 namespace RPG::Client { class EntityGameObjectConnection; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEIDLETIMER_METHOD_5_2F809989C4EE835D_OFFSET UNITYSDK_OFFSET(0x1A4FFB00)
-#define RPG_CLIENT_STATEIDLETIMER_METHOD_5_848FDD59AB054F3D_OFFSET UNITYSDK_OFFSET(0x1A4FFAA0)
-#define RPG_CLIENT_STATEIDLETIMER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x1A4FFBE0)
-#define RPG_CLIENT_STATEIDLETIMER_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x1A500060)
-#define RPG_CLIENT_STATEIDLETIMER_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0x1A500700)
-#define RPG_CLIENT_STATEIDLETIMER_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0x1A500690)
-#define RPG_CLIENT_STATEIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A500120)
-#define RPG_CLIENT_STATEIDLETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A500770)
+#define RPG_CLIENT_STATEIDLETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xE1240A0)
+#define RPG_CLIENT_STATEIDLETIMER_KFFBGNMGOOK_OFFSET UNITYSDK_OFFSET(0xE1233D0)
+#define RPG_CLIENT_STATEIDLETIMER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE123510)
+#define RPG_CLIENT_STATEIDLETIMER_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE123990)
+#define RPG_CLIENT_STATEIDLETIMER_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xE124030)
+#define RPG_CLIENT_STATEIDLETIMER_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xE123FC0)
+#define RPG_CLIENT_STATEIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE123A50)
+#define RPG_CLIENT_STATEIDLETIMER_PLDEAGHKJKO_OFFSET UNITYSDK_OFFSET(0xE123430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateIdleTimer_TypeDefinitionIndex = 68793;
+	inline static constexpr unsigned int StateIdleTimer_TypeDefinitionIndex = 68827;
 
 	class StateIdleTimer : public ::RPG::Client::StateCommonIdleTimer
 	{
 	public:
-		// static const ::System::Int32 CommonIdleValue = 0x3; // 0x0
 		::System::Boolean ResetTimeOnStoryMode; // 0x40
+		::System::Byte _padding0[0x7];
 		::RPG::Client::EntityGameObjectConnection* Connection; // 0x48
 		::System::WeakReference_1<::RPG::GameCore::GameEntity*>* EntityRef; // 0x50
-
+		// static const ::System::Object CommonIdleValue; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_848FDD59AB054F3D(::System::Boolean a1)
+		::System::Void KFFBGNMGOOK(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER_METHOD_5_848FDD59AB054F3D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER_KFFBGNMGOOK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_2F809989C4EE835D(::System::Int32 a1, ::System::Boolean a2)
+		::System::Void PLDEAGHKJKO(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER_METHOD_5_2F809989C4EE835D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER_PLDEAGHKJKO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -68,5 +67,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEIDLETIMER_ONSTATEIK_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

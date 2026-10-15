@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FJNNEOKOCJD.h"
+class BKOBHMFCKJH;
+class ECIIEBFKNMJ;
+class HAJDFCHFBGN;
+class KAKADGHNMFK;
+class LMJPODEEGKK;
+namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define HIKJCLDOFGF_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0x15CE8C00)
+#define HIKJCLDOFGF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE9330)
+#define HIKJCLDOFGF_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x15CE8CB0)
+#define HIKJCLDOFGF_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0x15CE8C60)
+
+inline static constexpr unsigned int HIKJCLDOFGF_TypeDefinitionIndex = 77478;
+
+	class HIKJCLDOFGF : public ::FJNNEOKOCJD
+	{
+	public:
+		::LMJPODEEGKK* FKINCGODJEP; // 0x10
+		::BKOBHMFCKJH* LGEFCADNPMN; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIKJCLDOFGF_CTOR_OFFSET))(this);
+		}
+
+		::System::Void CIJOLMCDLCI(::ECIIEBFKNMJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ECIIEBFKNMJ*))((::PBYTE)hIl2Cpp + HIKJCLDOFGF_CIJOLMCDLCI_OFFSET))(this, a1);
+		}
+
+		::System::Void JKAJCDHLOPO(::LMJPODEEGKK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LMJPODEEGKK*))((::PBYTE)hIl2Cpp + HIKJCLDOFGF_JKAJCDHLOPO_OFFSET))(this, a1);
+		}
+
+		::System::Boolean GICABFLDIPA(::HAJDFCHFBGN* a1, ::System::Collections::Generic::List_1<::KAKADGHNMFK*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HAJDFCHFBGN*, ::System::Collections::Generic::List_1<::KAKADGHNMFK*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*))((::PBYTE)hIl2Cpp + HIKJCLDOFGF_GICABFLDIPA_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

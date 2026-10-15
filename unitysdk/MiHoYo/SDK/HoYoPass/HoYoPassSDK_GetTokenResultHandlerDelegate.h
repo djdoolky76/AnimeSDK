@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/HoYoPass/HoYoPassSDK_ErrorCode.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AE83D30)
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AE83DD0)
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AE83D10)
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE83CA0)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE2AE50)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2ADC0)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE2AEF0)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE2AE30)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_GetTokenResultHandlerDelegate_TypeDefinitionIndex = 8254;
+	inline static constexpr unsigned int HoYoPassSDK_GetTokenResultHandlerDelegate_TypeDefinitionIndex = 8297;
 
 	class HoYoPassSDK_GetTokenResultHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt64 a3)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETTOKENRESULTHANDLERDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

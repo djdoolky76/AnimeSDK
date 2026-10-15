@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrainPartyConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyCondCardIdxBetweenConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_METHOD_5_A41BB61113CFA6A6_OFFSET UNITYSDK_OFFSET(0x1D5343A0)
-#define RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_METHOD_5_CAF938C4D11A8FC2_OFFSET UNITYSDK_OFFSET(0x1D5343F0)
-#define RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5343E0)
+#define RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC020D0)
+#define RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC020E0)
+#define RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC02090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCondCardIdxBetweenConfig_TypeDefinitionIndex = 17878;
+	inline static constexpr unsigned int TrainPartyCondCardIdxBetweenConfig_TypeDefinitionIndex = 18090;
 
 	class TrainPartyCondCardIdxBetweenConfig : public ::RPG::GameCore::TrainPartyConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_A41BB61113CFA6A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_METHOD_5_A41BB61113CFA6A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_CAF938C4D11A8FC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_METHOD_5_CAF938C4D11A8FC2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyCondCardIdxBetweenConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDCARDIDXBETWEENCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

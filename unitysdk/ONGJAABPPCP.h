@@ -1,0 +1,174 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class HPGLJFPJLMO;
+namespace Cinemachine { class CinemachineVirtualCameraBase; }
+namespace RPG::Client { class CameraDataAndFlags; }
+namespace RPG::Client { class CloseupShotData; }
+namespace RPG::Client { class PlayableBindingControl; }
+namespace RPG::GameCore { class TargetEvaluator; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Object; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::Playables { class PlayableDirector; }
+
+#define ONGJAABPPCP_AKOIHNHCOIA_OFFSET UNITYSDK_OFFSET(0xBF4F310)
+#define ONGJAABPPCP_ALMGCBHDHNK_OFFSET UNITYSDK_OFFSET(0xBF4F350)
+#define ONGJAABPPCP_CIHFGJDCHIA_OFFSET UNITYSDK_OFFSET(0xBF4DF70)
+#define ONGJAABPPCP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4A5F0)
+#define ONGJAABPPCP_DOENJHJGLGA_OFFSET UNITYSDK_OFFSET(0xBF4E8A0)
+#define ONGJAABPPCP_EAHPPEBENAO_OFFSET UNITYSDK_OFFSET(0xBF4DDD0)
+#define ONGJAABPPCP_FFLAOKPJGDJ_OFFSET UNITYSDK_OFFSET(0xBF4BD30)
+#define ONGJAABPPCP_FNOFNOADEPB_OFFSET UNITYSDK_OFFSET(0xBF4A700)
+#define ONGJAABPPCP_GHNMOODBJEL_OFFSET UNITYSDK_OFFSET(0xBF4D050)
+#define ONGJAABPPCP_HAHCGJEMFMN_OFFSET UNITYSDK_OFFSET(0xBF4F370)
+#define ONGJAABPPCP_HEKFHODGFLP_OFFSET UNITYSDK_OFFSET(0xBF4F270)
+#define ONGJAABPPCP_HNHKBFLDBJI_OFFSET UNITYSDK_OFFSET(0xBF4E470)
+#define ONGJAABPPCP_JAPHPJBKHNB_OFFSET UNITYSDK_OFFSET(0xBF4F330)
+#define ONGJAABPPCP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBF4D220)
+#define ONGJAABPPCP_KNJEDFFCBNN_OFFSET UNITYSDK_OFFSET(0xBF4E8F0)
+#define ONGJAABPPCP_LDKMIKEMHFO_OFFSET UNITYSDK_OFFSET(0xBF4F320)
+#define ONGJAABPPCP_LMAEOLOIKMH_OFFSET UNITYSDK_OFFSET(0xBF4F160)
+#define ONGJAABPPCP_MANBIHANJEL_OFFSET UNITYSDK_OFFSET(0xBF4EA90)
+#define ONGJAABPPCP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBF4A750)
+#define ONGJAABPPCP_OEJBGDFIGJG_OFFSET UNITYSDK_OFFSET(0xBF4E5D0)
+#define ONGJAABPPCP_PBBEINJGAOE_OFFSET UNITYSDK_OFFSET(0xBF4D0C0)
+
+inline static constexpr unsigned int ONGJAABPPCP_TypeDefinitionIndex = 69611;
+
+	class ONGJAABPPCP : public ::System::Object
+	{
+	public:
+		::UnityEngine::Transform* HHEFKGEMMKA; // 0x10
+		::UnityEngine::Object* CFLHDLPMJOD; // 0x18
+		::RPG::Client::PlayableBindingControl* IKINAOJEOFI; // 0x20
+		::UnityEngine::GameObject* AAKLLPLGHBN; // 0x28
+		::UnityEngine::Playables::PlayableDirector* FLHIOLOPKPM; // 0x30
+		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x38
+		::HPGLJFPJLMO* KDMOOAEBPDP; // 0x40
+		::Cinemachine::CinemachineVirtualCameraBase* EAJFHBDCFFO; // 0x48
+		::RPG::Client::CloseupShotData* JJHHGNJHFCB; // 0x50
+		::System::Int32 LBDCGECLEPM; // 0x58
+		::System::Nullable_1<::UnityEngine::Vector3> KOGCFJCMFLD; // 0x5C
+		::System::Byte _padding0[0x8];
+		::System::Boolean INJJGMIGFFD; // 0x6C
+		::System::Boolean EJDEKKEOHBE; // 0x6D
+		::System::Byte _padding1[0x2];
+		::System::Nullable_1<::System::Double> JBELDBONNIK; // 0x70
+		::System::Byte _padding2[0x8];
+		::System::Nullable_1<::System::Single> NJIOJEBJDEN; // 0x80
+		::System::Nullable_1<::UnityEngine::Vector3> FNOKLIMCJFE; // 0x88
+		::System::Byte _padding3[0x8];
+		::System::Int32 MJHPCLJCCNK; // 0x98
+		::System::Nullable_1<::UnityEngine::Quaternion> JMHPKMCKBJO; // 0x9C
+		::System::Void _ctor(::RPG::Client::CloseupShotData* a1, ::RPG::Client::CameraDataAndFlags* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::UnityEngine::Quaternion> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CloseupShotData*, ::RPG::Client::CameraDataAndFlags*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + ONGJAABPPCP_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Boolean FNOFNOADEPB()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_FNOFNOADEPB_OFFSET))(this);
+		}
+
+		::System::Void NPAFMEBNFOB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_NPAFMEBNFOB_OFFSET))(this);
+		}
+
+		::System::Void JLANKNHFKCN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_JLANKNHFKCN_OFFSET))(this);
+		}
+
+		::System::Void CIHFGJDCHIA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_CIHFGJDCHIA_OFFSET))(this);
+		}
+
+		::System::Boolean FFLAOKPJGDJ()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_FFLAOKPJGDJ_OFFSET))(this);
+		}
+
+		::System::Void PBBEINJGAOE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_PBBEINJGAOE_OFFSET))(this);
+		}
+
+		::System::Void HNHKBFLDBJI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HNHKBFLDBJI_OFFSET))(this);
+		}
+
+		::System::Void DOENJHJGLGA(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ONGJAABPPCP_DOENJHJGLGA_OFFSET))(this, a1);
+		}
+
+		::System::Void KNJEDFFCBNN(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ONGJAABPPCP_KNJEDFFCBNN_OFFSET))(this, a1);
+		}
+
+		::System::Void MANBIHANJEL(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ONGJAABPPCP_MANBIHANJEL_OFFSET))(this, a1);
+		}
+
+		::System::Void LMAEOLOIKMH(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ONGJAABPPCP_LMAEOLOIKMH_OFFSET))(this, a1);
+		}
+
+		::System::Boolean EAHPPEBENAO()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_EAHPPEBENAO_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Double> HEKFHODGFLP()
+		{
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HEKFHODGFLP_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* OEJBGDFIGJG(::RPG::GameCore::TargetEvaluator* a1)
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::RPG::GameCore::TargetEvaluator*))((::PBYTE)hIl2Cpp + ONGJAABPPCP_OEJBGDFIGJG_OFFSET))(this, a1);
+		}
+
+		::System::Boolean AKOIHNHCOIA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_AKOIHNHCOIA_OFFSET))(this);
+		}
+
+		::System::Boolean LDKMIKEMHFO()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_LDKMIKEMHFO_OFFSET))(this);
+		}
+
+		::System::Boolean GHNMOODBJEL()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_GHNMOODBJEL_OFFSET))(this);
+		}
+
+		::System::String* JAPHPJBKHNB()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_JAPHPJBKHNB_OFFSET))(this);
+		}
+
+		::System::Boolean ALMGCBHDHNK()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_ALMGCBHDHNK_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Single> HAHCGJEMFMN()
+		{
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HAHCGJEMFMN_OFFSET))(this);
+		}
+
+	};

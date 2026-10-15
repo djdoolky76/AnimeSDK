@@ -2,35 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BattleViewModeDarkInitData_TabType.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client { class BattleViewModeDarkInitData; }
 
-#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CREATEDEFAULT_OFFSET UNITYSDK_OFFSET(0x1BD78D20)
-#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1BD78C90)
-#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_GET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0x1BD78E20)
-#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_SET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0x1BD78E30)
-#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD78E40)
-#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD78D10)
+#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8673A0)
+#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CREATEDEFAULT_OFFSET UNITYSDK_OFFSET(0xC867280)
+#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC8671F0)
+#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC867270)
+#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_GET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0xC867380)
+#define RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_SET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0xC867390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleViewModeDarkInitData_TypeDefinitionIndex = 72018;
+	inline static constexpr unsigned int BattleViewModeDarkInitData_TypeDefinitionIndex = 72091;
 
 	class BattleViewModeDarkInitData : public ::System::Object
 	{
 	public:
+		::RPG::Client::BattleViewModeDarkInitData_TabType _InitTabType_k__BackingField; // 0x10
 		static ::RPG::Client::BattleViewModeDarkInitData_TabType* StaticGet_DefaultTabType()
 		{
-			return (::RPG::Client::BattleViewModeDarkInitData_TabType*)Il2CppClass::FromTypeDefinitionIndex(BattleViewModeDarkInitData_TypeDefinitionIndex)->GetStaticField(0x4850);
+			return (::RPG::Client::BattleViewModeDarkInitData_TabType*)UnitySDK::FromName("RPG.Client", "BattleViewModeDarkInitData")->GetStaticField(0x14090);
 		}
-		::RPG::Client::BattleViewModeDarkInitData_TabType _InitTabType_k__BackingField; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::BattleViewModeDarkInitData* Create(::RPG::Client::BattleViewModeDarkInitData_TabType a1)
@@ -52,5 +53,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleViewModeDarkInitData_TabType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEDARKINITDATA_SET_INITTABTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

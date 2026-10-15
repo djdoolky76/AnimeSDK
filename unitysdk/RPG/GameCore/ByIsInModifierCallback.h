@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsInModifierCallback; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_257CDDB0468C44BE_OFFSET UNITYSDK_OFFSET(0x1CDA5530)
-#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_5466F502779F9370_OFFSET UNITYSDK_OFFSET(0x1CDA5990)
-#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_75B9E4A48D442833_OFFSET UNITYSDK_OFFSET(0x1CDA5930)
-#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_B3CCBF41E346B124_OFFSET UNITYSDK_OFFSET(0x1CDA55D0)
-#define RPG_GAMECORE_BYISINMODIFIERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA5590)
+#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4EBE50)
+#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4EC250)
+#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4EC1F0)
+#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4EBE90)
+#define RPG_GAMECORE_BYISINMODIFIERCALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4EBDF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInModifierCallback_TypeDefinitionIndex = 23235;
+	inline static constexpr unsigned int ByIsInModifierCallback_TypeDefinitionIndex = 23500;
 
 	class ByIsInModifierCallback : public ::RPG::GameCore::PredicateConfig
 	{
@@ -29,30 +29,30 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::AbilityProperty>* PropertyTypes; // 0x40
 		::Il2CppArray<::System::String*>* DynamicValues; // 0x48
 		::System::Boolean IgnoreCurCallback; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_257CDDB0468C44BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInModifierCallback*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInModifierCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_257CDDB0468C44BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsInModifierCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B3CCBF41E346B124(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInModifierCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_B3CCBF41E346B124_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsInModifierCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_75B9E4A48D442833(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInModifierCallback*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInModifierCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_75B9E4A48D442833_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInModifierCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5466F502779F9370(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInModifierCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_METHOD_4_5466F502779F9370_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInModifierCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINMODIFIERCALLBACK_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

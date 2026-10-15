@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPGCamera { class IPriorityStackItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGCAMERA_COMMONPRIORITYSTACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x196765B0)
-#define RPGCAMERA_COMMONPRIORITYSTACK_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19672780)
-#define RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET UNITYSDK_OFFSET(0x19672EB0)
-#define RPGCAMERA_COMMONPRIORITYSTACK_POP_OFFSET UNITYSDK_OFFSET(0x19672B70)
-#define RPGCAMERA_COMMONPRIORITYSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x19672850)
-#define RPGCAMERA_COMMONPRIORITYSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19673080)
+#define RPGCAMERA_COMMONPRIORITYSTACK_CTOR_OFFSET UNITYSDK_OFFSET(0xB079B90)
+#define RPGCAMERA_COMMONPRIORITYSTACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xB07D100)
+#define RPGCAMERA_COMMONPRIORITYSTACK_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xB079290)
+#define RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET UNITYSDK_OFFSET(0xB0799C0)
+#define RPGCAMERA_COMMONPRIORITYSTACK_POP_OFFSET UNITYSDK_OFFSET(0xB079680)
+#define RPGCAMERA_COMMONPRIORITYSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0xB079360)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CommonPriorityStack_TypeDefinitionIndex = 44817;
+	inline static constexpr unsigned int CommonPriorityStack_TypeDefinitionIndex = 45956;
 
 	class CommonPriorityStack : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPGCamera::IPriorityStackItem*>*>* _priorityStacks; // 0x10
 		::System::Int32 _count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_Count()
@@ -51,5 +49,6 @@ namespace RPGCamera
 		{
 			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET))(this, a1);
 		}
+
 	};
 }

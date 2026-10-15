@@ -1,38 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/UIElements/LengthUnit.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BD5710)
-#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BD56F0)
-#define UNITYENGINE_UIELEMENTS_LENGTH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BD5780)
-#define UNITYENGINE_UIELEMENTS_LENGTH_GET_UNIT_OFFSET UNITYSDK_OFFSET(0x784260)
-#define UNITYENGINE_UIELEMENTS_LENGTH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x213E0)
-#define UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D613A60)
-#define UNITYENGINE_UIELEMENTS_LENGTH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BD57B0)
-#define UNITYENGINE_UIELEMENTS_LENGTH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6B9510)
-#define UNITYENGINE_UIELEMENTS_LENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x3BD56E0)
+#define UNITYENGINE_UIELEMENTS_LENGTH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E776B0)
+#define UNITYENGINE_UIELEMENTS_LENGTH_CTOR_OFFSET UNITYSDK_OFFSET(0x3C88D80)
+#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C88DB0)
+#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C88D90)
+#define UNITYENGINE_UIELEMENTS_LENGTH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C88E20)
+#define UNITYENGINE_UIELEMENTS_LENGTH_GET_UNIT_OFFSET UNITYSDK_OFFSET(0xFDF0)
+#define UNITYENGINE_UIELEMENTS_LENGTH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D00)
+#define UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F48B060)
+#define UNITYENGINE_UIELEMENTS_LENGTH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C88E50)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Length_TypeDefinitionIndex = 5990;
+	inline static constexpr unsigned int Length_TypeDefinitionIndex = 5998;
 
 	struct alignas(4) Length
 	{
 		::System::Single m_Value; // 0x10
 		::UnityEngine::UIElements::LengthUnit m_Unit; // 0x14
-
 		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Single a1, ::UnityEngine::UIElements::LengthUnit a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::LengthUnit))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::LengthUnit))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_value()
@@ -45,15 +42,19 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::LengthUnit(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_GET_UNIT_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UIElements::Length a1, ::UnityEngine::UIElements::Length a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::UIElements::Length a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::Length))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -69,5 +70,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

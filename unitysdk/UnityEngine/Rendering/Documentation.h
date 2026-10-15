@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/DocumentationInfo.h"
 
-namespace System { class String; }
-
-#define UNITYENGINE_RENDERING_DOCUMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1C120)
+#define UNITYENGINE_RENDERING_DOCUMENTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2936C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 34888;
+	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 35557;
 
 	class Documentation : public ::UnityEngine::Rendering::DocumentationInfo
 	{
@@ -18,10 +16,10 @@ namespace UnityEngine::Rendering
 		// static const ::System::String* endURL; // 0x0
 		// static const ::System::String* releaseVersion; // 0x0
 		// static const ::System::String* baseURLHDRP; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DOCUMENTATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DOCUMENTATION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

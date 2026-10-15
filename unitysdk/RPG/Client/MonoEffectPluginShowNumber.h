@@ -4,20 +4,19 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/Nullable_1.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B395EE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_86889F095D50CF32_OFFSET UNITYSDK_OFFSET(0x1B395B90)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_EA672F77F1086A27_OFFSET UNITYSDK_OFFSET(0x1B396060)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B395260)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3960F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_CTOR_OFFSET UNITYSDK_OFFSET(0xD8016A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD801490)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_LCJBFOCGBOI_OFFSET UNITYSDK_OFFSET(0xD801610)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_PBJAENMIKEJ_OFFSET UNITYSDK_OFFSET(0xD801140)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD800810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginShowNumber_TypeDefinitionIndex = 70075;
+	inline static constexpr unsigned int MonoEffectPluginShowNumber_TypeDefinitionIndex = 70110;
 
 	class MonoEffectPluginShowNumber : public ::RPG::Client::MonoEffectPluginBase
 	{
@@ -30,10 +29,9 @@ namespace RPG::Client
 		::UnityEngine::ParticleSystem* BLDCAHDJGNA; // 0x50
 		::System::UInt32 FLPHNONEHNE; // 0x58
 		::System::UInt32 KDKJHGLKGPK; // 0x5C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetPlugin()
@@ -46,14 +44,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_DISPOSEPLUGIN_OFFSET))(this);
 		}
 
-		::System::Void Method_6_EA672F77F1086A27(::RPG::GameCore::FixPoint a1)
+		::System::Void LCJBFOCGBOI(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_EA672F77F1086A27_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_LCJBFOCGBOI_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_86889F095D50CF32(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void PBJAENMIKEJ(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_86889F095D50CF32_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_PBJAENMIKEJ_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

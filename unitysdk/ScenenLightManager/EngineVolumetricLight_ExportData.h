@@ -3,14 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF43890)
+#define SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE959890)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 49527;
+	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 49101;
 
 	class EngineVolumetricLight_ExportData : public ::System::Object
 	{
@@ -26,6 +25,7 @@ namespace ScenenLightManager
 		::System::Single nearFade; // 0x30
 		::System::Single farFade; // 0x34
 		::System::Single legacyFalloff; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::String* noiseTex; // 0x40
 		::System::Single noiseIntensity; // 0x48
 		::System::Single noiseTiling; // 0x4C
@@ -33,10 +33,10 @@ namespace ScenenLightManager
 		::UnityEngine::Vector3 windDirection; // 0x54
 		::System::Single windSpeed; // 0x60
 		::System::Int32 customLightQualityFilter; // 0x64
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

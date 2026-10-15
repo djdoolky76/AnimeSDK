@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D138D60)
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1D138E60)
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D138ED0)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8B9860)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B99D0)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8B9960)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ChangePropLocationTrack_TypeDefinitionIndex = 48379;
+	inline static constexpr unsigned int ChangePropLocationTrack_TypeDefinitionIndex = 47919;
 
 	class ChangePropLocationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

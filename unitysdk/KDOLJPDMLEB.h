@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class KDOLJPDMLEB;
+namespace RPG::GameCore { class FiveDimMapSurfaceConfig; }
+
+#define KDOLJPDMLEB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB365260)
+#define KDOLJPDMLEB_CHBDNKMADFL_OFFSET UNITYSDK_OFFSET(0xB365390)
+#define KDOLJPDMLEB_CTOR_OFFSET UNITYSDK_OFFSET(0xB365300)
+#define KDOLJPDMLEB_GET_SURFACEID_OFFSET UNITYSDK_OFFSET(0xB365310)
+#define KDOLJPDMLEB_GET__CYLINDERSTARTOFFSETANGLE_OFFSET UNITYSDK_OFFSET(0xB365370)
+#define KDOLJPDMLEB_GET__CYLINDERUNITANGLE_OFFSET UNITYSDK_OFFSET(0xB365350)
+#define KDOLJPDMLEB_GET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0xB365330)
+#define KDOLJPDMLEB_SET_SURFACEID_OFFSET UNITYSDK_OFFSET(0xB365320)
+#define KDOLJPDMLEB_SET__CYLINDERSTARTOFFSETANGLE_OFFSET UNITYSDK_OFFSET(0xB365380)
+#define KDOLJPDMLEB_SET__CYLINDERUNITANGLE_OFFSET UNITYSDK_OFFSET(0xB365360)
+#define KDOLJPDMLEB_SET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0xB365340)
+
+inline static constexpr unsigned int KDOLJPDMLEB_TypeDefinitionIndex = 74666;
+
+	class KDOLJPDMLEB : public ::System::Object
+	{
+	public:
+		::System::Single __CylinderUnitAngle_k__BackingField; // 0x10
+		::System::Single __CylinderStartOffsetAngle_k__BackingField; // 0x14
+		::RPG::MVector2 __PositionInFace_k__BackingField; // 0x18
+		::System::UInt32 _SurfaceID_k__BackingField; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_CTOR_OFFSET))(this);
+		}
+
+		static ::KDOLJPDMLEB* BPLPBPMEODA(::RPG::GameCore::FiveDimMapSurfaceConfig* a1)
+		{
+			return ((::KDOLJPDMLEB*(*)(::RPG::GameCore::FiveDimMapSurfaceConfig*))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+		::System::UInt32 get_SurfaceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_GET_SURFACEID_OFFSET))(this);
+		}
+
+		::System::Void set_SurfaceID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_SET_SURFACEID_OFFSET))(this, a1);
+		}
+
+		::RPG::MVector2 get__PositionInFace()
+		{
+			return ((::RPG::MVector2(*)(::PVOID))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_GET__POSITIONINFACE_OFFSET))(this);
+		}
+
+		::System::Void set__PositionInFace(::RPG::MVector2 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::MVector2))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_SET__POSITIONINFACE_OFFSET))(this, a1);
+		}
+
+		::System::Single get__CylinderUnitAngle()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_GET__CYLINDERUNITANGLE_OFFSET))(this);
+		}
+
+		::System::Void set__CylinderUnitAngle(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_SET__CYLINDERUNITANGLE_OFFSET))(this, a1);
+		}
+
+		::System::Single get__CylinderStartOffsetAngle()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_GET__CYLINDERSTARTOFFSETANGLE_OFFSET))(this);
+		}
+
+		::System::Void set__CylinderStartOffsetAngle(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_SET__CYLINDERSTARTOFFSETANGLE_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 CHBDNKMADFL(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Int16 a3, ::UnityEngine::Vector2 a4)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Int16, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + KDOLJPDMLEB_CHBDNKMADFL_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+	};

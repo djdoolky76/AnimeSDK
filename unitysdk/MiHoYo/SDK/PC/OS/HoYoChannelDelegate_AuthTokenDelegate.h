@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelAuthTokenParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelAuthTokenResult; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A273E80)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A273EC0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A25DF60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A273D90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF75E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF74F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF7620)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEE0870)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_AuthTokenDelegate_TypeDefinitionIndex = 8484;
+	inline static constexpr unsigned int HoYoChannelDelegate_AuthTokenDelegate_TypeDefinitionIndex = 8544;
 
 	class HoYoChannelDelegate_AuthTokenDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* a2)
@@ -40,5 +39,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

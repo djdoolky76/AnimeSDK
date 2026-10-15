@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class LocalDataStoreMgr; }
 
-#define SYSTEM_LOCALDATASTORESLOT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D47FE80)
-#define SYSTEM_LOCALDATASTORESLOT_GET_COOKIE_OFFSET UNITYSDK_OFFSET(0x1D47FE70)
-#define SYSTEM_LOCALDATASTORESLOT_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1D47FE50)
-#define SYSTEM_LOCALDATASTORESLOT_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x1D47FE60)
-#define SYSTEM_LOCALDATASTORESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D47F890)
+#define SYSTEM_LOCALDATASTORESLOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C24C0E0)
+#define SYSTEM_LOCALDATASTORESLOT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C24C6D0)
+#define SYSTEM_LOCALDATASTORESLOT_GET_COOKIE_OFFSET UNITYSDK_OFFSET(0x1C24C6C0)
+#define SYSTEM_LOCALDATASTORESLOT_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1C24C6A0)
+#define SYSTEM_LOCALDATASTORESLOT_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x1C24C6B0)
 
 namespace System
 {
@@ -20,10 +19,9 @@ namespace System
 		::System::LocalDataStoreMgr* m_mgr; // 0x10
 		::System::Int64 m_cookie; // 0x18
 		::System::Int32 m_slot; // 0x20
-
 		::System::Void _ctor(::System::LocalDataStoreMgr* a1, ::System::Int32 a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreMgr*, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORESLOT__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreMgr*, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORESLOT_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::LocalDataStoreMgr* get_Manager()
@@ -45,5 +43,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORESLOT_FINALIZE_OFFSET))(this);
 		}
+
 	};
 }

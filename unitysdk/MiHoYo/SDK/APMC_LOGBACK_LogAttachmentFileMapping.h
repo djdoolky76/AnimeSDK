@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A77000)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A770A0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A76FD0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16A76F60)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF4F3F0)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0xAF4F350)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF4F490)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF4F3C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogAttachmentFileMapping_TypeDefinitionIndex = 46960;
+	inline static constexpr unsigned int APMC_LOGBACK_LogAttachmentFileMapping_TypeDefinitionIndex = 46500;
 
 	class APMC_LOGBACK_LogAttachmentFileMapping : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke(::System::IntPtr a1, ::System::String* a2, ::System::Int64 a3, ::System::Int64 a4)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTFILEMAPPING_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

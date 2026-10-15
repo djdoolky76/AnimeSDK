@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Action; }
 
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x10F00)
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x182D0)
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3BB8760)
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_UNSAFEONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3BB8760)
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB0)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x2E8D4B0)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C5F170)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_UNSAFEONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x3C5F170)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int YieldAwaitable_Awaiter_TypeDefinitionIndex = 42776;
+	inline static constexpr unsigned int YieldAwaitable_Awaiter_TypeDefinitionIndex = 38361;
 
 	struct alignas(4) YieldAwaitable_Awaiter
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x10
-
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::PlayerLoopTiming))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::PlayerLoopTiming))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsCompleted()
@@ -43,5 +40,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_YIELDAWAITABLE_AWAITER_UNSAFEONCOMPLETED_OFFSET))(this, a1);
 		}
+
 	};
 }

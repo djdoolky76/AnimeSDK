@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AssistWayPointPack; }
+namespace RPG::GameCore { class MainMissionInfoConfig; }
 namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValueGroupConfigPack; }
 namespace RPG::GameCore { class SubMissionInfoConfig; }
@@ -11,13 +11,13 @@ namespace RPG::GameCore { class SubMissionRelationConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_1374A289A4254508_OFFSET UNITYSDK_OFFSET(0x1D48E350)
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_55D23DDE3608023B_OFFSET UNITYSDK_OFFSET(0x1D48E880)
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48E870)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CC800)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D7CC810)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7CC2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 18797;
+	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 19021;
 
 	class MainMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,22 +34,23 @@ namespace RPG::GameCore
 		::System::Boolean IsShow; // 0x49
 		::System::Boolean UseAssistWayPoint; // 0x4A
 		::System::Boolean IsLegacyAssistWayPoint; // 0x4B
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::AssistWayPointPack*>* AssistWayPointPackList; // 0x50
 		::RPG::GameCore::MissionCustomValueGroupConfigPack* MissionCustomValueGroupConfigPack; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1374A289A4254508(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MainMissionInfoConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MainMissionInfoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MainMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_1374A289A4254508_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MainMissionInfoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_55D23DDE3608023B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MainMissionInfoConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MainMissionInfoConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MainMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_55D23DDE3608023B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MainMissionInfoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
+
 	};
 }

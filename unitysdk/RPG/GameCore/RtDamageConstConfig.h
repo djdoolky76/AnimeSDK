@@ -2,22 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleComboConfig; }
+namespace RPG::GameCore { class RtDamageConstConfig; }
 
-#define RPG_GAMECORE_RTDAMAGECONSTCONFIG_METHOD_2_20DF1D782C684035_OFFSET UNITYSDK_OFFSET(0x1CCD72C0)
-#define RPG_GAMECORE_RTDAMAGECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE3E00)
+#define RPG_GAMECORE_RTDAMAGECONSTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2CA80)
+#define RPG_GAMECORE_RTDAMAGECONSTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1FC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDamageConstConfig_TypeDefinitionIndex = 17432;
+	inline static constexpr unsigned int RtDamageConstConfig_TypeDefinitionIndex = 17644;
 
 	class RtDamageConstConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::FixPoint DamageTakenRatioMax; // 0x10
 		::System::Int32 MaxMonsterLevel; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint DamageRandomMin; // 0x20
 		::RPG::GameCore::FixPoint DamageRandomMax; // 0x28
 		::RPG::GameCore::FixPoint DefenceAdd; // 0x30
@@ -28,16 +29,17 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint OverallResistanceMax; // 0x58
 		::RPG::GameCore::FixPoint MinimumStanceLevelEffect; // 0x60
 		::System::Int32 ElationPointMax; // 0x68
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::BattleComboConfig* ComboConstConfig; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDAMAGECONSTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDAMAGECONSTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_20DF1D782C684035(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDamageConstConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtDamageConstConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDamageConstConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDAMAGECONSTCONFIG_METHOD_2_20DF1D782C684035_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtDamageConstConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDAMAGECONSTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

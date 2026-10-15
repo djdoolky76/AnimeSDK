@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
-
+namespace System { class Exception; }
 namespace System { class String; }
 
-#define BIGINTEGERLIBRARY_BIGINTEGEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16D356F0)
+#define BIGINTEGERLIBRARY_BIGINTEGEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F667F80)
 
 namespace BigIntegerLibrary
 {
-	inline static constexpr unsigned int BigIntegerException_TypeDefinitionIndex = 7024;
+	inline static constexpr unsigned int BigIntegerException_TypeDefinitionIndex = 7033;
 
 	class BigIntegerException : public ::System::Exception
 	{
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGEREXCEPTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGEREXCEPTION_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

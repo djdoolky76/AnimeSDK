@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/System/Object.h"
+
+#define AGBAHBKKMBC_CTOR_OFFSET UNITYSDK_OFFSET(0xCF1E470)
+#define AGBAHBKKMBC_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCF1E420)
+#define AGBAHBKKMBC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCF1E3D0)
+
+inline static constexpr unsigned int AGBAHBKKMBC_TypeDefinitionIndex = 56661;
+
+	class AGBAHBKKMBC : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGBAHBKKMBC_CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AGBAHBKKMBC_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + AGBAHBKKMBC_GETEVENTTYPE_OFFSET))(this);
+		}
+
+	};

@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class ChimeraDuelChimeraLevelInfo_LevelSkillMapping; }
 namespace RPG::Client { class IChimeraDuelChimeraLevelData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_CREATEFORCOREFLAMEVESSEL_OFFSET UNITYSDK_OFFSET(0x1C1C3C40)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_CREATEFORDEFAULT_OFFSET UNITYSDK_OFFSET(0x1C1C3110)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C1C41A0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C4330)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING__GETCHIMERALEVELKEY_OFFSET UNITYSDK_OFFSET(0x1C1C43B0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_CREATEFORCOREFLAMEVESSEL_OFFSET UNITYSDK_OFFSET(0xCB17050)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_CREATEFORDEFAULT_OFFSET UNITYSDK_OFFSET(0xCB16580)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0xCB17740)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_GETDATA_OFFSET UNITYSDK_OFFSET(0xCB175B0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING__GETCHIMERALEVELKEY_OFFSET UNITYSDK_OFFSET(0xCB177C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_LevelSkillMapping_TypeDefinitionIndex = 63412;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_LevelSkillMapping_TypeDefinitionIndex = 63350;
 
 	class ChimeraDuelChimeraLevelInfo_LevelSkillMapping : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::IChimeraDuelChimeraLevelData*>* _DataDict; // 0x10
 		::System::Int32 _MaxLevel; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* CreateForDefault(::System::Int32 a1)
@@ -45,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::IChimeraDuelChimeraLevelData*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_LEVELSKILLMAPPING_GETDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

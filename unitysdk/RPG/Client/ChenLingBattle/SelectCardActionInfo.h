@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/ActionInfo.h"
-
-class Class_1_8271AFF79E02658D;
+class BNHBDMIDFCL;
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_GET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0x1CC2C8C0)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_SET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0x1CC2C8D0)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2C430)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCA538A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_GET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0xCA53D30)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_SET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0xCA53D40)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectCardActionInfo_TypeDefinitionIndex = 75914;
+	inline static constexpr unsigned int SelectCardActionInfo_TypeDefinitionIndex = 76391;
 
 	class SelectCardActionInfo : public ::RPG::Client::ChenLingBattle::ActionInfo
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* _SelectableCards_k__BackingField; // 0x18
-
-		::System::Void _ctor(::Class_1_8271AFF79E02658D* a1)
+		::System::Void _ctor(::BNHBDMIDFCL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_8271AFF79E02658D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::BNHBDMIDFCL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* get_SelectableCards()
@@ -33,5 +31,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTIONINFO_SET_SELECTABLECARDS_OFFSET))(this, a1);
 		}
+
 	};
 }

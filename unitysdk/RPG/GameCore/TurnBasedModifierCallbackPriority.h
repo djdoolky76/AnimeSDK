@@ -2,32 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEventPriority.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TurnBasedModifierCallbackPriority; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_METHOD_2_7B92CA125B902AE2_OFFSET UNITYSDK_OFFSET(0x1D29DA90)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29DC30)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC34F70)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC34DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierCallbackPriority_TypeDefinitionIndex = 18022;
+	inline static constexpr unsigned int TurnBasedModifierCallbackPriority_TypeDefinitionIndex = 18236;
 
 	class TurnBasedModifierCallbackPriority : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::TurnBasedModifierEventPriority PriorityName; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Key; // 0x18
 		::System::Int32 Value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7B92CA125B902AE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierCallbackPriority*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TurnBasedModifierCallbackPriority* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierCallbackPriority*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_METHOD_2_7B92CA125B902AE2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TurnBasedModifierCallbackPriority*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

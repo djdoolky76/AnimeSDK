@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DGEPOBDMLDJ.h"
+#include "unitysdk/ICFEIEJDMIB.h"
+#include "unitysdk/System/Object.h"
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+inline static constexpr unsigned int CBPFNLKLFLJ_FuncClosureWrapper_VoidResult_1_TypeDefinitionIndex = 6490;
+
+	template <typename T>
+	class CBPFNLKLFLJ_FuncClosureWrapper_VoidResult_1 : public ::System::Object
+	{
+	public:
+		static ::System::Func_2<::ICFEIEJDMIB, ::DGEPOBDMLDJ>** StaticGet__default()
+		{
+			return (::System::Func_2<::ICFEIEJDMIB, ::DGEPOBDMLDJ>**)UnitySDK::FromName("", "FuncClosureWrapper_VoidResult`1")->GetStaticField(0x0);
+		}
+
+	};

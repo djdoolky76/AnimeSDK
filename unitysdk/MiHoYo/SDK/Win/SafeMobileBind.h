@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class SafeMobileBind; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -12,32 +12,48 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_AWAKE_OFFSET UNITYSDK_OFFSET(0x187A1C60)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_BIND_OFFSET UNITYSDK_OFFSET(0x187A2AE0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_CLOSE_OFFSET UNITYSDK_OFFSET(0x187A29C0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x187A2A60)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_HIDE_OFFSET UNITYSDK_OFFSET(0x187A2950)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187A2E10)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x187A2DA0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x187A2AC0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_SHOW_OFFSET UNITYSDK_OFFSET(0x187A2850)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x187A29E0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x187A25D0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x187A2AD0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__AWAKE_B__25_0_OFFSET UNITYSDK_OFFSET(0x187A2E70)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x187A2E30)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDC12A0)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_BIND_OFFSET UNITYSDK_OFFSET(0x1BDC2120)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BDC2000)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDC20A0)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC2470)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDC1F90)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDC2450)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDC23E0)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDC2100)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDC1E90)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BDC2020)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BDC1C10)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x1BDC2110)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__AWAKE_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BDC24B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SafeMobileBind_TypeDefinitionIndex = 9460;
+	inline static constexpr unsigned int SafeMobileBind_TypeDefinitionIndex = 9518;
 
 	class SafeMobileBind : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* backButton; // 0x58
+		::UnityEngine::UI::InputField* phoneInput; // 0x60
+		::UnityEngine::UI::InputField* codeInput; // 0x68
+		::UnityEngine::UI::Button* submitButton; // 0x70
+		::UnityEngine::UI::Button* requestCodeButton; // 0x78
+		::UnityEngine::UI::Text* requestCodeText; // 0x80
+		::System::Action* OnClose; // 0x88
+		::System::Action_1<::System::String*>* OnGetCode; // 0x90
+		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0x98
+		::System::Boolean isRequestVerifyCode; // 0xA0
+		::System::Byte _padding0[0x3];
+		::System::Single countDownTime; // 0xA4
+		::System::Boolean retrieveFlag; // 0xA8
+		::System::Byte _padding1[0x7];
+		::MiHoYo::SDK::AccountModel* account; // 0xB0
 		static ::MiHoYo::SDK::Win::SafeMobileBind** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::SafeMobileBind**)Il2CppClass::FromTypeDefinitionIndex(SafeMobileBind_TypeDefinitionIndex)->GetStaticField(0x3A6A0);
+			return (::MiHoYo::SDK::Win::SafeMobileBind**)UnitySDK::FromName("MiHoYo.SDK.Win", "SafeMobileBind")->GetStaticField(0x2E720);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BackButtonPath; // 0x0
 		// static const ::System::String* PhoneInputPath; // 0x0
@@ -49,23 +65,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* SubmitButtonPath; // 0x0
 		// static const ::System::String* RequestCodeButtonPath; // 0x0
 		// static const ::System::String* RequestCodeTextPath; // 0x0
-		::UnityEngine::UI::Button* backButton; // 0x58
-		::UnityEngine::UI::InputField* phoneInput; // 0x60
-		::UnityEngine::UI::InputField* codeInput; // 0x68
-		::UnityEngine::UI::Button* submitButton; // 0x70
-		::UnityEngine::UI::Button* requestCodeButton; // 0x78
-		::UnityEngine::UI::Text* requestCodeText; // 0x80
-		::System::Action* OnClose; // 0x88
-		::System::Action_1<::System::String*>* OnGetCode; // 0x90
-		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0x98
-		::System::Boolean isRequestVerifyCode; // 0xA0
-		::System::Single countDownTime; // 0xA4
-		::System::Boolean retrieveFlag; // 0xA8
-		::MiHoYo::SDK::AccountModel* account; // 0xB0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEMOBILEBIND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEMOBILEBIND_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -132,5 +134,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEMOBILEBIND__AWAKE_B__25_0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/LightVolumeInfo.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightInfoLocal_TypeDefinitionIndex = 4873;
+	inline static constexpr unsigned int CRPLightInfoLocal_TypeDefinitionIndex = 4879;
 
 	struct alignas(4) CRPLightInfoLocal
 	{

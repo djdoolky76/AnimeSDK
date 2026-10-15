@@ -2,29 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UILayer.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class UIController; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TUTORIALUIWRAPPER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B11C140)
-#define RPG_CLIENT_TUTORIALUIWRAPPER_GET_UILAYER_OFFSET UNITYSDK_OFFSET(0x1B11C160)
-#define RPG_CLIENT_TUTORIALUIWRAPPER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B11C150)
-#define RPG_CLIENT_TUTORIALUIWRAPPER_SET_UILAYER_OFFSET UNITYSDK_OFFSET(0x1B11C170)
-#define RPG_CLIENT_TUTORIALUIWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B112D10)
+#define RPG_CLIENT_TUTORIALUIWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0xE334020)
+#define RPG_CLIENT_TUTORIALUIWRAPPER_GET_NAME_OFFSET UNITYSDK_OFFSET(0xE33D650)
+#define RPG_CLIENT_TUTORIALUIWRAPPER_GET_UILAYER_OFFSET UNITYSDK_OFFSET(0xE33D670)
+#define RPG_CLIENT_TUTORIALUIWRAPPER_SET_NAME_OFFSET UNITYSDK_OFFSET(0xE33D660)
+#define RPG_CLIENT_TUTORIALUIWRAPPER_SET_UILAYER_OFFSET UNITYSDK_OFFSET(0xE33D680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialUIWrapper_TypeDefinitionIndex = 68241;
+	inline static constexpr unsigned int TutorialUIWrapper_TypeDefinitionIndex = 68249;
 
 	class TutorialUIWrapper : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
 		::RPG::Client::UILayer _UILayer_k__BackingField; // 0x18
-
 		::System::Void _ctor(::RPG::Client::UIController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALUIWRAPPER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALUIWRAPPER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -46,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UILayer))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALUIWRAPPER_SET_UILAYER_OFFSET))(this, a1);
 		}
+
 	};
 }

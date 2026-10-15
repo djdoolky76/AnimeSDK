@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChangeHeroType; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHANGEHEROTYPE_METHOD_3_92E6F04D53A09ACB_OFFSET UNITYSDK_OFFSET(0x1D1185A0)
-#define RPG_GAMECORE_CHANGEHEROTYPE_METHOD_3_E7599A312C4D46CF_OFFSET UNITYSDK_OFFSET(0x1D1185F0)
-#define RPG_GAMECORE_CHANGEHEROTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1185E0)
+#define RPG_GAMECORE_CHANGEHEROTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D539A90)
+#define RPG_GAMECORE_CHANGEHEROTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D539AA0)
+#define RPG_GAMECORE_CHANGEHEROTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D539A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeHeroType_TypeDefinitionIndex = 20221;
+	inline static constexpr unsigned int ChangeHeroType_TypeDefinitionIndex = 20459;
 
 	class ChangeHeroType : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_92E6F04D53A09ACB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeHeroType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeHeroType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeHeroType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROTYPE_METHOD_3_92E6F04D53A09ACB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeHeroType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E7599A312C4D46CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeHeroType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeHeroType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeHeroType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROTYPE_METHOD_3_E7599A312C4D46CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeHeroType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

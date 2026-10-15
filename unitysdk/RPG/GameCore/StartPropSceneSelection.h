@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StartPropSceneSelection; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STARTPROPSCENESELECTION_METHOD_3_8C03A9402CD9F962_OFFSET UNITYSDK_OFFSET(0x1CAF6130)
-#define RPG_GAMECORE_STARTPROPSCENESELECTION_METHOD_3_CBBCC56B66436ADB_OFFSET UNITYSDK_OFFSET(0x1CAF60E0)
-#define RPG_GAMECORE_STARTPROPSCENESELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF6120)
+#define RPG_GAMECORE_STARTPROPSCENESELECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF04E0)
+#define RPG_GAMECORE_STARTPROPSCENESELECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF04F0)
+#define RPG_GAMECORE_STARTPROPSCENESELECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF04A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartPropSceneSelection_TypeDefinitionIndex = 21778;
+	inline static constexpr unsigned int StartPropSceneSelection_TypeDefinitionIndex = 22026;
 
 	class StartPropSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean MultiSelect; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single ClickCd; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPSCENESELECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPSCENESELECTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CBBCC56B66436ADB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartPropSceneSelection*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartPropSceneSelection* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartPropSceneSelection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPSCENESELECTION_METHOD_3_CBBCC56B66436ADB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartPropSceneSelection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPSCENESELECTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8C03A9402CD9F962(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartPropSceneSelection* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartPropSceneSelection* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartPropSceneSelection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPSCENESELECTION_METHOD_3_8C03A9402CD9F962_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartPropSceneSelection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPSCENESELECTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

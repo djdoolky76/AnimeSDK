@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialChangeLockTarget; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_8B5562BBB66C9948_OFFSET UNITYSDK_OFFSET(0x1D2A1350)
-#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_963E8A4E94236465_OFFSET UNITYSDK_OFFSET(0x1D2A1310)
-#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A1340)
+#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC386A0)
+#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC386B0)
+#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC38670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialChangeLockTarget_TypeDefinitionIndex = 24072;
+	inline static constexpr unsigned int TutorialChangeLockTarget_TypeDefinitionIndex = 24351;
 
 	class TutorialChangeLockTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::System::String* MonsterTag; // 0x18
 		::System::UInt32 AvatarID; // 0x20
 		::System::Boolean IsLockTeammate; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_963E8A4E94236465(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialChangeLockTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialChangeLockTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialChangeLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_963E8A4E94236465_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialChangeLockTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8B5562BBB66C9948(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialChangeLockTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialChangeLockTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialChangeLockTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_8B5562BBB66C9948_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialChangeLockTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int ArraySelectWhere_2_TypeDefinitionIndex = 6127;
+	inline static constexpr unsigned int ArraySelectWhere_2_TypeDefinitionIndex = 6136;
 
-	template <typename TSource, typename TResult>
-	struct ArraySelectWhere_2
+	template <typename T1, typename T2>
+	struct alignas(8) ArraySelectWhere_2
 	{
-		::Il2CppArray<TSource>* source; // 0x0
-		::System::Func_2<TSource, TResult>* selector; // 0x0
-		::System::Func_2<TResult, ::System::Boolean>* predicate; // 0x0
+		::Il2CppArray<T1>* source; // 0x0
+		::System::Func_2<T1, T2>* selector; // 0x0
+		::System::Func_2<T2, ::System::Boolean>* predicate; // 0x0
 		::System::Int32 index; // 0x0
 	};
 }

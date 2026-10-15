@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
-class Class_1_469A5FF005CF3F5C;
+class KJCHLFOFENJ;
 namespace RPGTools::Timeline { class ConvinceDoubleScreenShakeNameClip; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1D149DC0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1D14A0B0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1D149DE0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1D149DD0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D14A140)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CACA0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8CA920)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8CAC10)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8CA940)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8CA930)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeNameBehaviour_TypeDefinitionIndex = 48500;
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeNameBehaviour_TypeDefinitionIndex = 48040;
 
 	class ConvinceDoubleScreenShakeNameBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip* _Clip_k__BackingField; // 0x10
-		::Class_1_469A5FF005CF3F5C* _ShakeSource; // 0x18
-
+		::KJCHLFOFENJ* _ShakeSource; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip* get_Clip()
@@ -47,5 +45,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

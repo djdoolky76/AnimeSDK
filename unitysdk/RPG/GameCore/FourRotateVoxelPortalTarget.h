@@ -1,32 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimPortalTarget; }
+namespace RPG::GameCore { class FourRotateVoxelPortalTarget; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_METHOD_2_1A91E51F7903E79F_OFFSET UNITYSDK_OFFSET(0x1DCB8B00)
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB8C50)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C3AD0)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C3980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPortalTarget_TypeDefinitionIndex = 16577;
+	inline static constexpr unsigned int FourRotateVoxelPortalTarget_TypeDefinitionIndex = 16753;
 
 	class FourRotateVoxelPortalTarget : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 TargetContainerID; // 0x10
 		::System::Boolean Is5D; // 0x14
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::FiveDimPortalTarget* Target; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1A91E51F7903E79F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPortalTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelPortalTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPortalTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_METHOD_2_1A91E51F7903E79F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelPortalTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

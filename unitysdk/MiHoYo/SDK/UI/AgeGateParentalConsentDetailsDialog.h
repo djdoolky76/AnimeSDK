@@ -1,42 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDetailsDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B9C3500)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_GET_ONBACK_OFFSET UNITYSDK_OFFSET(0x1B9C34E0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B9C4570)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_ONBACKBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1B9C4600)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_SET_ONBACK_OFFSET UNITYSDK_OFFSET(0x1B9C34F0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B9C4410)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B9C3E40)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C4620)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFBF590)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC06B0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_GET_ONBACK_OFFSET UNITYSDK_OFFSET(0x1BFBF570)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFC0600)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_ONBACKBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1BFC0690)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_SET_ONBACK_OFFSET UNITYSDK_OFFSET(0x1BFBF580)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFC04A0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BFBFED0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AgeGateParentalConsentDetailsDialog_TypeDefinitionIndex = 8333;
+	inline static constexpr unsigned int AgeGateParentalConsentDetailsDialog_TypeDefinitionIndex = 8376;
 
 	class AgeGateParentalConsentDetailsDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDetailsDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDetailsDialog**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDetailsDialog_TypeDefinitionIndex)->GetStaticField(0x20870);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* titleTextPath; // 0x0
-		// static const ::System::String* subTitleTextPath; // 0x0
-		// static const ::System::String* backBtnPath; // 0x0
-		// static const ::System::String* parentTitlePath; // 0x0
-		// static const ::System::String* parentContent1Path; // 0x0
-		// static const ::System::String* parentContent2Path; // 0x0
-		// static const ::System::String* parentContent3Path; // 0x0
-		// static const ::System::String* userTitlePath; // 0x0
-		// static const ::System::String* userContentPath; // 0x0
 		::UnityEngine::UI::Button* backBtn; // 0x58
 		::UnityEngine::UI::Text* title; // 0x60
 		::UnityEngine::UI::Text* subTitle; // 0x68
@@ -47,10 +32,24 @@ namespace MiHoYo::SDK::UI
 		::UnityEngine::UI::Text* userTitle; // 0x90
 		::UnityEngine::UI::Text* userContent; // 0x98
 		::System::Action* _OnBack_k__BackingField; // 0xA0
+		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDetailsDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDetailsDialog**)UnitySDK::FromName("MiHoYo.SDK.UI", "AgeGateParentalConsentDetailsDialog")->GetStaticField(0x2ABD0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* titleTextPath; // 0x0
+		// static const ::System::String* subTitleTextPath; // 0x0
+		// static const ::System::String* backBtnPath; // 0x0
+		// static const ::System::String* parentTitlePath; // 0x0
+		// static const ::System::String* parentContent1Path; // 0x0
+		// static const ::System::String* parentContent2Path; // 0x0
+		// static const ::System::String* parentContent3Path; // 0x0
+		// static const ::System::String* userTitlePath; // 0x0
+		// static const ::System::String* userContentPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_CTOR_OFFSET))(this);
 		}
 
 		::System::Action* get_OnBack()
@@ -87,5 +86,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDETAILSDIALOG_ONBACKBTNCLICK_OFFSET))(this);
 		}
+
 	};
 }

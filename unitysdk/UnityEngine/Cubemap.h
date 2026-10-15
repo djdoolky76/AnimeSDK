@@ -1,72 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/CubemapFace.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/DefaultFormat.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/TextureCreationFlags.h"
+#include "unitysdk/UnityEngine/CubemapFace.h"
 #include "unitysdk/UnityEngine/Texture.h"
 #include "unitysdk/UnityEngine/TextureFormat.h"
+#include "unitysdk/UnityEngine/Color.h"
+namespace UnityEngine { class Cubemap; }
 
-#define UNITYENGINE_CUBEMAP_APPLYIMPL_OFFSET UNITYSDK_OFFSET(0x1DECC080)
-#define UNITYENGINE_CUBEMAP_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1DECC580)
-#define UNITYENGINE_CUBEMAP_APPLY_OFFSET UNITYSDK_OFFSET(0x1DECC500)
-#define UNITYENGINE_CUBEMAP_GET_ISREADABLE_OFFSET UNITYSDK_OFFSET(0x1DECC090)
-#define UNITYENGINE_CUBEMAP_INTERNAL_CREATEIMPL_OFFSET UNITYSDK_OFFSET(0x1DECBFD0)
-#define UNITYENGINE_CUBEMAP_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1DECBFE0)
-#define UNITYENGINE_CUBEMAP_SETPIXELIMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1DECC0B0)
-#define UNITYENGINE_CUBEMAP_SETPIXELIMPL_OFFSET UNITYSDK_OFFSET(0x1DECC0A0)
-#define UNITYENGINE_CUBEMAP_SETPIXELS_1_OFFSET UNITYSDK_OFFSET(0x1DECC0D0)
-#define UNITYENGINE_CUBEMAP_SETPIXELS_OFFSET UNITYSDK_OFFSET(0x1DECC0C0)
-#define UNITYENGINE_CUBEMAP_SETPIXEL_OFFSET UNITYSDK_OFFSET(0x1DECC460)
-#define UNITYENGINE_CUBEMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DECC110)
-#define UNITYENGINE_CUBEMAP__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DECC1F0)
-#define UNITYENGINE_CUBEMAP__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DECC300)
-#define UNITYENGINE_CUBEMAP__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1DECC210)
-#define UNITYENGINE_CUBEMAP__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1DECC3F0)
-#define UNITYENGINE_CUBEMAP__CTOR_6_OFFSET UNITYSDK_OFFSET(0x1DECC420)
-#define UNITYENGINE_CUBEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DECC0E0)
+#define UNITYENGINE_CUBEMAP_APPLYIMPL_OFFSET UNITYSDK_OFFSET(0x1F3AF080)
+#define UNITYENGINE_CUBEMAP_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1F3AF580)
+#define UNITYENGINE_CUBEMAP_APPLY_OFFSET UNITYSDK_OFFSET(0x1F3AF500)
+#define UNITYENGINE_CUBEMAP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3AF110)
+#define UNITYENGINE_CUBEMAP_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F3AF1F0)
+#define UNITYENGINE_CUBEMAP_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F3AF300)
+#define UNITYENGINE_CUBEMAP_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1F3AF210)
+#define UNITYENGINE_CUBEMAP_CTOR_5_OFFSET UNITYSDK_OFFSET(0x1F3AF3F0)
+#define UNITYENGINE_CUBEMAP_CTOR_6_OFFSET UNITYSDK_OFFSET(0x1F3AF420)
+#define UNITYENGINE_CUBEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AF0E0)
+#define UNITYENGINE_CUBEMAP_GET_ISREADABLE_OFFSET UNITYSDK_OFFSET(0x1F3AF090)
+#define UNITYENGINE_CUBEMAP_INTERNAL_CREATEIMPL_OFFSET UNITYSDK_OFFSET(0x1F3AEFD0)
+#define UNITYENGINE_CUBEMAP_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1F3AEFE0)
+#define UNITYENGINE_CUBEMAP_SETPIXELIMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3AF0B0)
+#define UNITYENGINE_CUBEMAP_SETPIXELIMPL_OFFSET UNITYSDK_OFFSET(0x1F3AF0A0)
+#define UNITYENGINE_CUBEMAP_SETPIXELS_1_OFFSET UNITYSDK_OFFSET(0x1F3AF0D0)
+#define UNITYENGINE_CUBEMAP_SETPIXELS_OFFSET UNITYSDK_OFFSET(0x1F3AF0C0)
+#define UNITYENGINE_CUBEMAP_SETPIXEL_OFFSET UNITYSDK_OFFSET(0x1F3AF460)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Cubemap_TypeDefinitionIndex = 4197;
+	inline static constexpr unsigned int Cubemap_TypeDefinitionIndex = 4198;
 
 	class Cubemap : public ::UnityEngine::Texture
 	{
 	public:
 		::System::Void _ctor(::System::Int32 a1, ::UnityEngine::Experimental::Rendering::DefaultFormat a2, ::UnityEngine::Experimental::Rendering::TextureCreationFlags a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::DefaultFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::DefaultFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::UnityEngine::Experimental::Rendering::GraphicsFormat a2, ::UnityEngine::Experimental::Rendering::TextureCreationFlags a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_2(::System::Int32 a1, ::UnityEngine::TextureFormat a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_3(::System::Int32 a1, ::UnityEngine::Experimental::Rendering::GraphicsFormat a2, ::UnityEngine::Experimental::Rendering::TextureCreationFlags a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_3_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_3_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_4(::System::Int32 a1, ::UnityEngine::TextureFormat a2, ::System::Int32 a3, ::System::IntPtr a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_4_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_4_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_5(::System::Int32 a1, ::UnityEngine::TextureFormat a2, ::System::Boolean a3, ::System::IntPtr a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_5_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_5_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_6(::System::Int32 a1, ::UnityEngine::TextureFormat a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP__CTOR_6_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_CTOR_6_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Boolean Internal_CreateImpl(::UnityEngine::Cubemap* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Experimental::Rendering::GraphicsFormat a4, ::UnityEngine::Experimental::Rendering::TextureCreationFlags a5, ::System::IntPtr a6)
@@ -119,9 +120,10 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_APPLY_1_OFFSET))(this);
 		}
 
-		::System::Void SetPixelImpl_Injected(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Color& a4)
+		::System::Void SetPixelImpl_Injected(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Color a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_SETPIXELIMPL_INJECTED_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_CUBEMAP_SETPIXELIMPL_INJECTED_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class AccountList; }
 namespace MiHoYo::SDK::Win { class AccountList_AccountListItemsInfo; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -13,56 +13,38 @@ namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_AWAKE_OFFSET UNITYSDK_OFFSET(0x15CD3B60)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_CLOSE_OFFSET UNITYSDK_OFFSET(0x15CD6160)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_DELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x15CD5DC0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_HIDE_OFFSET UNITYSDK_OFFSET(0x15CD5D30)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_LOADACCOUNTINFODATA_OFFSET UNITYSDK_OFFSET(0x15CD4B50)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_LOGINOTHERACCOUNT_OFFSET UNITYSDK_OFFSET(0x15CD61A0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONACCOUNTSELECTED_OFFSET UNITYSDK_OFFSET(0x15CD5B30)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCHANGEACCOUNTLISTOPERABILITYSTATUS_OFFSET UNITYSDK_OFFSET(0x15CD5450)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCHANGEACCOUNTTEXT_OFFSET UNITYSDK_OFFSET(0x15CD5AE0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCHANGEACCOUNTTYPE_OFFSET UNITYSDK_OFFSET(0x15CD58F0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCOLLAPSELIST_OFFSET UNITYSDK_OFFSET(0x15CD5B10)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x15CD6180)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONDELETEBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x15CD5DA0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15CD61C0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONHIDEACCOUNTLIST_OFFSET UNITYSDK_OFFSET(0x15CD5430)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONNOTICEEXPANDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x15CD5AF0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONSHOWACCOUNTLIST_OFFSET UNITYSDK_OFFSET(0x15CD5410)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_SHOW_OFFSET UNITYSDK_OFFSET(0x15CD5100)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_START_OFFSET UNITYSDK_OFFSET(0x15CD47B0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATEACCOUNTLISTOPERABILITYSTATUS_OFFSET UNITYSDK_OFFSET(0x15CD5460)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATEDROPDOWNTITLE_OFFSET UNITYSDK_OFFSET(0x15CD53F0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATESELECTEDACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x15CD5900)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x15CD4990)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD61E0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BCB6FB0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BCB95F0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB9670)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_DELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BCB92A0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_HIDE_OFFSET UNITYSDK_OFFSET(0x1BCB9210)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_LOADACCOUNTINFODATA_OFFSET UNITYSDK_OFFSET(0x1BCB8030)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_LOGINOTHERACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BCB9630)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONACCOUNTSELECTED_OFFSET UNITYSDK_OFFSET(0x1BCB9010)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCHANGEACCOUNTLISTOPERABILITYSTATUS_OFFSET UNITYSDK_OFFSET(0x1BCB8930)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCHANGEACCOUNTTEXT_OFFSET UNITYSDK_OFFSET(0x1BCB8FC0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCHANGEACCOUNTTYPE_OFFSET UNITYSDK_OFFSET(0x1BCB8DD0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCOLLAPSELIST_OFFSET UNITYSDK_OFFSET(0x1BCB8FF0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONCONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BCB9610)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONDELETEBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BCB9280)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BCB9650)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONHIDEACCOUNTLIST_OFFSET UNITYSDK_OFFSET(0x1BCB8910)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONNOTICEEXPANDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BCB8FD0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ONSHOWACCOUNTLIST_OFFSET UNITYSDK_OFFSET(0x1BCB88F0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_SHOW_OFFSET UNITYSDK_OFFSET(0x1BCB85E0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_START_OFFSET UNITYSDK_OFFSET(0x1BCB7C00)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATEACCOUNTLISTOPERABILITYSTATUS_OFFSET UNITYSDK_OFFSET(0x1BCB8940)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATEDROPDOWNTITLE_OFFSET UNITYSDK_OFFSET(0x1BCB88D0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATESELECTEDACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x1BCB8DE0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BCB7DE0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountList_TypeDefinitionIndex = 9230;
+	inline static constexpr unsigned int AccountList_TypeDefinitionIndex = 9292;
 
 	class AccountList : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::AccountList** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::AccountList**)Il2CppClass::FromTypeDefinitionIndex(AccountList_TypeDefinitionIndex)->GetStaticField(0x25D60);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* DropDownPath; // 0x0
-		// static const ::System::String* AccountIconPath; // 0x0
-		// static const ::System::String* ShowTextPath; // 0x0
-		// static const ::System::String* ExpandButtonImagePath; // 0x0
-		// static const ::System::String* CollapseButtonImagePath; // 0x0
-		// static const ::System::String* DeleteButtonPath; // 0x0
-		// static const ::System::String* ExpandBackgroundPath; // 0x0
-		// static const ::System::String* CollapseBackgroundPath; // 0x0
-		// static const ::System::String* LoginButtonPath; // 0x0
-		// static const ::System::String* LoginButtonTextPath; // 0x0
-		// static const ::System::String* LoginOtherAccountButtonPath; // 0x0
-		// static const ::System::String* LoginAccountButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* closeButton; // 0x58
 		::UnityEngine::UI::Button* enterGameButton; // 0x60
 		::UnityEngine::UI::Text* enterGameButtonText; // 0x68
@@ -88,10 +70,28 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnDeleteAccountFullDelegate; // 0x108
 		::System::Action* OnNoticeExpandDropdownFullDelegate; // 0x110
 		::System::Action* OnCollapseListFullDelegate; // 0x118
+		static ::MiHoYo::SDK::Win::AccountList** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::AccountList**)UnitySDK::FromName("MiHoYo.SDK.Win", "AccountList")->GetStaticField(0x2C080);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* DropDownPath; // 0x0
+		// static const ::System::String* AccountIconPath; // 0x0
+		// static const ::System::String* ShowTextPath; // 0x0
+		// static const ::System::String* ExpandButtonImagePath; // 0x0
+		// static const ::System::String* CollapseButtonImagePath; // 0x0
+		// static const ::System::String* DeleteButtonPath; // 0x0
+		// static const ::System::String* ExpandBackgroundPath; // 0x0
+		// static const ::System::String* CollapseBackgroundPath; // 0x0
+		// static const ::System::String* LoginButtonPath; // 0x0
+		// static const ::System::String* LoginButtonTextPath; // 0x0
+		// static const ::System::String* LoginOtherAccountButtonPath; // 0x0
+		// static const ::System::String* LoginAccountButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -208,5 +208,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLIST_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

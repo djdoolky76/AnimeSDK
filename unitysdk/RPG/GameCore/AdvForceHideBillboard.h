@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvForceHideBillboard; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_759A11801B5F3ECA_OFFSET UNITYSDK_OFFSET(0x1D6B89C0)
-#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_DB6F38911A805D3D_OFFSET UNITYSDK_OFFSET(0x1D6B8A10)
-#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B8A00)
+#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D372250)
+#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D372260)
+#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D372210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvForceHideBillboard_TypeDefinitionIndex = 21503;
+	inline static constexpr unsigned int AdvForceHideBillboard_TypeDefinitionIndex = 21750;
 
 	class AdvForceHideBillboard : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Single Duration; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_759A11801B5F3ECA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvForceHideBillboard*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvForceHideBillboard* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvForceHideBillboard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_759A11801B5F3ECA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvForceHideBillboard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DB6F38911A805D3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvForceHideBillboard* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvForceHideBillboard* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvForceHideBillboard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_DB6F38911A805D3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvForceHideBillboard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

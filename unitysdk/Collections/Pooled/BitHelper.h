@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Span_1.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 
-#define COLLECTIONS_POOLED_BITHELPER_FINDFIRSTMARKED_OFFSET UNITYSDK_OFFSET(0x3CA0C70)
-#define COLLECTIONS_POOLED_BITHELPER_FINDFIRSTUNMARKED_OFFSET UNITYSDK_OFFSET(0x3CA0BB0)
-#define COLLECTIONS_POOLED_BITHELPER_ISMARKED_OFFSET UNITYSDK_OFFSET(0x3CA0B60)
-#define COLLECTIONS_POOLED_BITHELPER_MARKBIT_OFFSET UNITYSDK_OFFSET(0x3CA0B10)
-#define COLLECTIONS_POOLED_BITHELPER_TOINTARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1EFFE010)
-#define COLLECTIONS_POOLED_BITHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x3CA0AC0)
+#define COLLECTIONS_POOLED_BITHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x3C27130)
+#define COLLECTIONS_POOLED_BITHELPER_FINDFIRSTMARKED_OFFSET UNITYSDK_OFFSET(0x3C272E0)
+#define COLLECTIONS_POOLED_BITHELPER_FINDFIRSTUNMARKED_OFFSET UNITYSDK_OFFSET(0x3C27220)
+#define COLLECTIONS_POOLED_BITHELPER_ISMARKED_OFFSET UNITYSDK_OFFSET(0x3C271D0)
+#define COLLECTIONS_POOLED_BITHELPER_MARKBIT_OFFSET UNITYSDK_OFFSET(0x3C27180)
+#define COLLECTIONS_POOLED_BITHELPER_TOINTARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1C3F06A0)
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int BitHelper_TypeDefinitionIndex = 5078;
+	inline static constexpr unsigned int BitHelper_TypeDefinitionIndex = 5085;
 
 	struct alignas(8) BitHelper
 	{
-		// static const ::System::Int32 s_intSize = 0x20; // 0x0
-		::System::Span_1<::System::Int32> _span; // 0x10
-
-		::System::Void _ctor(::System::Span_1<::System::Int32> a1, ::System::Boolean a2)
+		::System::Span_1_0C0D59FF8BC7380B<::System::Int32> _span; // 0x10
+		// static const ::System::Object s_intSize; // 0x0
+		::System::Void _ctor(::System::Span_1_0C0D59FF8BC7380B<::System::Int32> a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Span_1<::System::Int32>, ::System::Boolean))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_BITHELPER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Span_1_0C0D59FF8BC7380B<::System::Int32>, ::System::Boolean))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_BITHELPER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void MarkBit(::System::Int32 a1)
@@ -48,5 +46,6 @@ namespace Collections::Pooled
 		{
 			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_BITHELPER_TOINTARRAYLENGTH_OFFSET))(a1);
 		}
+
 	};
 }

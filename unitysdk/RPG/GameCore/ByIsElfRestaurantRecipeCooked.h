@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsElfRestaurantRecipeCooked; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_4E07BC9D2F0A75AA_OFFSET UNITYSDK_OFFSET(0x1CD9D9C0)
-#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_67B73CFC2ED86E4D_OFFSET UNITYSDK_OFFSET(0x1CD9D9F0)
-#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_8CA52B3C7F57DB80_OFFSET UNITYSDK_OFFSET(0x1CD9D850)
-#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_F15C744215EA6391_OFFSET UNITYSDK_OFFSET(0x1CD9D810)
-#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9D840)
+#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E3710)
+#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4E38C0)
+#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4E3890)
+#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4E3720)
+#define RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4E36E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsElfRestaurantRecipeCooked_TypeDefinitionIndex = 24090;
+	inline static constexpr unsigned int ByIsElfRestaurantRecipeCooked_TypeDefinitionIndex = 24369;
 
 	class ByIsElfRestaurantRecipeCooked : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::UInt32 RecipeID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F15C744215EA6391(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_F15C744215EA6391_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8CA52B3C7F57DB80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_8CA52B3C7F57DB80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4E07BC9D2F0A75AA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_4E07BC9D2F0A75AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_67B73CFC2ED86E4D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_METHOD_4_67B73CFC2ED86E4D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsElfRestaurantRecipeCooked*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISELFRESTAURANTRECIPECOOKED_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

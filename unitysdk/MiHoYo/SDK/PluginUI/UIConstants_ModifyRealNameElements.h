@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_ModifyRealNameElements_TypeDefinitionIndex = 47293;
+	inline static constexpr unsigned int UIConstants_ModifyRealNameElements_TypeDefinitionIndex = 46833;
 
 	class UIConstants_ModifyRealNameElements : public ::System::Object
 	{

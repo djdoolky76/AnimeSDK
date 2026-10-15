@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CullingGroupEvent_TypeDefinitionIndex = 4047;
+	inline static constexpr unsigned int CullingGroupEvent_TypeDefinitionIndex = 4048;
 
 	struct alignas(4) CullingGroupEvent
 	{

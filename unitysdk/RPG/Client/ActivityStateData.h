@@ -3,51 +3,51 @@
 #include "unitysdk/RPG/Client/ActivityStateEnum.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ActivityPanelData; }
+namespace RPG::Client { class ActivityStateData; }
 namespace RPG::Client { class ConditionChecker; }
 namespace RPG::GameCore { class ActivityPanelConditionRow; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYSTATEDATA_COLLECTPREMISSIONS_OFFSET UNITYSDK_OFFSET(0x1B87A8F0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_COLLECTREQUIREDMISSION_OFFSET UNITYSDK_OFFSET(0x1B84FBE0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B84DCE0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_GETCURSTATEENDTIME_OFFSET UNITYSDK_OFFSET(0x1B87A520)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_GET_CONDITIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1B87B1D0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_GET_CURSTATE_OFFSET UNITYSDK_OFFSET(0x1B84F160)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_ISINDELAYEDFOREXCHANGE_OFFSET UNITYSDK_OFFSET(0x1B84F320)
-#define RPG_CLIENT_ACTIVITYSTATEDATA_SET_CONDITIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1B87B1E0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B87B1F0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87A3B0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA__INITCHECKERS_OFFSET UNITYSDK_OFFSET(0x1B87A3C0)
-#define RPG_CLIENT_ACTIVITYSTATEDATA__REFRESHSTATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B87AB80)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC59DAB0)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_COLLECTPREMISSIONS_OFFSET UNITYSDK_OFFSET(0xC59D1B0)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_COLLECTREQUIREDMISSION_OFFSET UNITYSDK_OFFSET(0xC572460)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5708D0)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC59CC70)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_GETCURSTATEENDTIME_OFFSET UNITYSDK_OFFSET(0xC59CDE0)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_GET_CONDITIONCONFIG_OFFSET UNITYSDK_OFFSET(0xC59DA90)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_GET_CURSTATE_OFFSET UNITYSDK_OFFSET(0xC571AD0)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_ISINDELAYEDFOREXCHANGE_OFFSET UNITYSDK_OFFSET(0xC571C90)
+#define RPG_CLIENT_ACTIVITYSTATEDATA_SET_CONDITIONCONFIG_OFFSET UNITYSDK_OFFSET(0xC59DAA0)
+#define RPG_CLIENT_ACTIVITYSTATEDATA__INITCHECKERS_OFFSET UNITYSDK_OFFSET(0xC59CC80)
+#define RPG_CLIENT_ACTIVITYSTATEDATA__REFRESHSTATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0xC59D440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStateData_TypeDefinitionIndex = 61843;
+	inline static constexpr unsigned int ActivityStateData_TypeDefinitionIndex = 61753;
 
 	class ActivityStateData : public ::System::Object
 	{
 	public:
+		::RPG::Client::ConditionChecker* _L2PChecker; // 0x10
+		::RPG::Client::ConditionChecker* _P2IChecker; // 0x18
+		::RPG::GameCore::ActivityPanelConditionRow* _ConditionConfig_k__BackingField; // 0x20
+		::RPG::Client::ActivityPanelData* _OwnerPanelRef; // 0x28
+		::RPG::Client::ActivityStateEnum _CurStateInternal; // 0x30
 		static ::RPG::Client::DateTimePro* StaticGet__ForeverEndDateTime()
 		{
-			return (::RPG::Client::DateTimePro*)Il2CppClass::FromTypeDefinitionIndex(ActivityStateData_TypeDefinitionIndex)->GetStaticField(0x14490);
+			return (::RPG::Client::DateTimePro*)UnitySDK::FromName("RPG.Client", "ActivityStateData")->GetStaticField(0xA560);
 		}
-		::RPG::Client::ConditionChecker* _P2IChecker; // 0x10
-		::RPG::Client::ActivityPanelData* _OwnerPanelRef; // 0x18
-		::RPG::Client::ConditionChecker* _L2PChecker; // 0x20
-		::RPG::GameCore::ActivityPanelConditionRow* _ConditionConfig_k__BackingField; // 0x28
-		::RPG::Client::ActivityStateEnum _CurStateInternal; // 0x30
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::ActivityStateData* Create(::RPG::Client::ActivityPanelData* a1)
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ActivityStateData*(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void CollectRequiredMission(::System::Collections::Generic::HashSet_1<::System::UInt32>*& a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>*& a2)
+		::System::Void CollectRequiredMission(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*&, ::System::Collections::Generic::HashSet_1<::System::UInt32>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA_COLLECTREQUIREDMISSION_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA_COLLECTREQUIREDMISSION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsInDelayedForExchange()
@@ -99,5 +99,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityPanelConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTATEDATA_SET_CONDITIONCONFIG_OFFSET))(this, a1);
 		}
+
 	};
 }

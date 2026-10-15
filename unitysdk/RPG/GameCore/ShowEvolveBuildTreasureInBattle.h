@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildTreasureType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowEvolveBuildTreasureInBattle; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_METHOD_3_242601D4CEE8293B_OFFSET UNITYSDK_OFFSET(0x1D091DC0)
-#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_METHOD_3_60DEF8162A56D360_OFFSET UNITYSDK_OFFSET(0x1D091D80)
-#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D091DB0)
+#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAE650)
+#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAE660)
+#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAE620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEvolveBuildTreasureInBattle_TypeDefinitionIndex = 22265;
+	inline static constexpr unsigned int ShowEvolveBuildTreasureInBattle_TypeDefinitionIndex = 22514;
 
 	class ShowEvolveBuildTreasureInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::EvolveBuildTreasureType TreasureType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_60DEF8162A56D360(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_METHOD_3_60DEF8162A56D360_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_242601D4CEE8293B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_METHOD_3_242601D4CEE8293B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

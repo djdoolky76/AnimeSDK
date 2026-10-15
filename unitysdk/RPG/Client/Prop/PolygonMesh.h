@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PROP_POLYGONMESH_METHOD_1_E8947406FBA55064_OFFSET UNITYSDK_OFFSET(0x1660F8B0)
-#define RPG_CLIENT_PROP_POLYGONMESH_METHOD_1_EA6474AC2169BCED_OFFSET UNITYSDK_OFFSET(0x16634DE0)
-#define RPG_CLIENT_PROP_POLYGONMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x16634FB0)
+#define RPG_CLIENT_PROP_POLYGONMESH_CTOR_OFFSET UNITYSDK_OFFSET(0xDD73CF0)
+#define RPG_CLIENT_PROP_POLYGONMESH_DHHOJJBOHMD_OFFSET UNITYSDK_OFFSET(0xDD73AE0)
+#define RPG_CLIENT_PROP_POLYGONMESH_HNPDGHFLFFA_OFFSET UNITYSDK_OFFSET(0xDD50120)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PolygonMesh_TypeDefinitionIndex = 78255;
+	inline static constexpr unsigned int PolygonMesh_TypeDefinitionIndex = 78726;
 
 	class PolygonMesh : public ::System::Object
 	{
@@ -18,20 +18,20 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::PolygonType PolygonType; // 0x10
 		::System::Int32 PolygonID; // 0x14
 		::Il2CppArray<::UnityEngine::Vector3>* Vertices; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_POLYGONMESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_POLYGONMESH_CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::Vector3>* Method_1_E8947406FBA55064()
+		::Il2CppArray<::UnityEngine::Vector3>* HNPDGHFLFFA()
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_POLYGONMESH_METHOD_1_E8947406FBA55064_OFFSET))(this);
+			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_POLYGONMESH_HNPDGHFLFFA_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::Vector3>* Method_1_EA6474AC2169BCED()
+		::Il2CppArray<::UnityEngine::Vector3>* DHHOJJBOHMD()
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_POLYGONMESH_METHOD_1_EA6474AC2169BCED_OFFSET))(this);
+			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_POLYGONMESH_DHHOJJBOHMD_OFFSET))(this);
 		}
+
 	};
 }

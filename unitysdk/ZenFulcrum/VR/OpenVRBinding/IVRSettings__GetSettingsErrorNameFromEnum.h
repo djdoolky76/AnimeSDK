@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRSettingsError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE0710)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE0780)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE0700)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE0690)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65AC90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65AC10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65AD00)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65AC80)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSettings__GetSettingsErrorNameFromEnum_TypeDefinitionIndex = 37866;
+	inline static constexpr unsigned int IVRSettings__GetSettingsErrorNameFromEnum_TypeDefinitionIndex = 39163;
 
 	class IVRSettings__GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke(::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__GETSETTINGSERRORNAMEFROMENUM_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_UTILS_WORLDNOSCALE_OFFSET UNITYSDK_OFFSET(0x1F0130A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_UTILS_WORLDNOSCALE_OFFSET UNITYSDK_OFFSET(0x1F158480)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 44639;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 45778;
 
 	class Utils : public ::System::Object
 	{
@@ -18,5 +17,6 @@ namespace UnityEngine::Formats::Alembic::Util
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_UTILS_WORLDNOSCALE_OFFSET))(a1);
 		}
+
 	};
 }

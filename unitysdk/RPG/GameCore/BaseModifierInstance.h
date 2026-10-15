@@ -1,5 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/CFJJFFMMEAF.h"
+#include "unitysdk/GODJKFFNCNI.h"
 #include "unitysdk/RPG/GameCore/ModifierAddReason.h"
 #include "unitysdk/RPG/GameCore/ModifierDeathSource.h"
 #include "unitysdk/RPG/GameCore/ModifierStackingFlag.h"
@@ -7,109 +9,105 @@
 #include "unitysdk/RPG/GameCore/ModifierValueBindType.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
-#include "unitysdk/Struct_2_ABC67D4EFBF3BD9A_1.h"
-#include "unitysdk/Struct_2_DF90B2BD73749811_1.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_417;
-class Class_0_16E4307DCC419505_460;
-class Class_1_1C30CE192ABE4C54;
-class Class_1_5469D397DAE62876;
-class Class_1_76D50EEEB128A93C;
-class Class_1_A2D8E5AB4B623162;
-class Class_3_07C3C4D2990C49EE;
+class EKFMIDBJDIA;
+class ENEIHJJPNPI;
+class HPICNGFLLCA;
+class KFELGAIGHAP;
+class LPNPMKNMMOK;
+class MBBEBLGELAP;
+class PGJINBJDAHN;
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
-namespace RPG::GameCore { class BaseModifierInstance_ModifierMutexEffectData; }
-namespace RPG::GameCore { class GameComponentBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifierConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TaskListTemplate; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B6223A0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_DETACHALLEFFECTS_OFFSET UNITYSDK_OFFSET(0x1B620C00)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6220D0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GETTASKLISTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1B622770)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_BASECONFIG_OFFSET UNITYSDK_OFFSET(0x1B623270)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_CASTERENTITY_OFFSET UNITYSDK_OFFSET(0x1B6232B0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B6233D0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DEATHSOURCE_OFFSET UNITYSDK_OFFSET(0x1B6233B0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DELAYREPLACECASTER_OFFSET UNITYSDK_OFFSET(0x1B623420)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DYNAMICSTRINGS_OFFSET UNITYSDK_OFFSET(0x1B623400)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DYNAMICVALUES_OFFSET UNITYSDK_OFFSET(0x1B6233E0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISACTIVATING_OFFSET UNITYSDK_OFFSET(0x1B623320)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISEXECUTINGIGNORETICKING_OFFSET UNITYSDK_OFFSET(0x1B623350)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISEXECUTING_OFFSET UNITYSDK_OFFSET(0x1B623340)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISPENDINGDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6233A0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_KEYFORSTATUSCONFIG_OFFSET UNITYSDK_OFFSET(0x1B623220)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B623200)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_STACKINGFLAG_OFFSET UNITYSDK_OFFSET(0x1B623250)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1B623230)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B623290)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_ONREPLACE_OFFSET UNITYSDK_OFFSET(0x1B622550)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICFLOATINJECTION_OFFSET UNITYSDK_OFFSET(0x1B621D40)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICSTRINGINJECTION_OFFSET UNITYSDK_OFFSET(0x1B621E80)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_BASECONFIG_OFFSET UNITYSDK_OFFSET(0x1B623280)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B622000)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DEATHSOURCE_OFFSET UNITYSDK_OFFSET(0x1B6233C0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DYNAMICSTRINGS_OFFSET UNITYSDK_OFFSET(0x1B623410)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DYNAMICVALUES_OFFSET UNITYSDK_OFFSET(0x1B6233F0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_ISACTIVATING_OFFSET UNITYSDK_OFFSET(0x1B623330)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B623210)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_STACKINGFLAG_OFFSET UNITYSDK_OFFSET(0x1B623260)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1B623240)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B6232A0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_TICK_OFFSET UNITYSDK_OFFSET(0x1B622340)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6216A0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__EXECUTEIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1B622950)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONATTACHEFFECTFADEOUTFINISH_OFFSET UNITYSDK_OFFSET(0x1B621230)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONMODIFIERVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B6231B0)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERATTACHEFFECTFADEOUTFINISH_OFFSET UNITYSDK_OFFSET(0x1B621590)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERDESTROY_OFFSET UNITYSDK_OFFSET(0x1B621480)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__SEQUENCEENDANDFLUSH_OFFSET UNITYSDK_OFFSET(0x1B623050)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__STARTTICKEDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1B622D60)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__TICKSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1B622E20)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE__TRYDESTORYMODIFIEREFFECT_OFFSET UNITYSDK_OFFSET(0x1B620D10)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xE5ADC20)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_DESTROY_OFFSET UNITYSDK_OFFSET(0xE5AE920)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_DETACHALLEFFECTS_OFFSET UNITYSDK_OFFSET(0xE5AD180)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5AE650)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GETTASKLISTTEMPLATE_OFFSET UNITYSDK_OFFSET(0xE5AECF0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_BASECONFIG_OFFSET UNITYSDK_OFFSET(0xE5AF7A0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_CASTERENTITY_OFFSET UNITYSDK_OFFSET(0xE5AF7E0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xE5AF900)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DEATHSOURCE_OFFSET UNITYSDK_OFFSET(0xE5AF8E0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DELAYREPLACECASTER_OFFSET UNITYSDK_OFFSET(0xE5AF950)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DYNAMICSTRINGS_OFFSET UNITYSDK_OFFSET(0xE5AF930)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DYNAMICVALUES_OFFSET UNITYSDK_OFFSET(0xE5AF910)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISACTIVATING_OFFSET UNITYSDK_OFFSET(0xE5AF850)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISEXECUTINGIGNORETICKING_OFFSET UNITYSDK_OFFSET(0xE5AF880)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISEXECUTING_OFFSET UNITYSDK_OFFSET(0xE5AF870)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_ISPENDINGDISPOSE_OFFSET UNITYSDK_OFFSET(0xE5AF8D0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_KEYFORSTATUSCONFIG_OFFSET UNITYSDK_OFFSET(0xE5AF750)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xE5AF730)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_STACKINGFLAG_OFFSET UNITYSDK_OFFSET(0xE5AF780)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_STATE_OFFSET UNITYSDK_OFFSET(0xE5AF760)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xE5AF7C0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_ONREPLACE_OFFSET UNITYSDK_OFFSET(0xE5AEAD0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICFLOATINJECTION_OFFSET UNITYSDK_OFFSET(0xE5AE2C0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICSTRINGINJECTION_OFFSET UNITYSDK_OFFSET(0xE5AE400)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_BASECONFIG_OFFSET UNITYSDK_OFFSET(0xE5AF7B0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xE5AE580)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DEATHSOURCE_OFFSET UNITYSDK_OFFSET(0xE5AF8F0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DYNAMICSTRINGS_OFFSET UNITYSDK_OFFSET(0xE5AF940)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DYNAMICVALUES_OFFSET UNITYSDK_OFFSET(0xE5AF920)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_ISACTIVATING_OFFSET UNITYSDK_OFFSET(0xE5AF860)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_NAME_OFFSET UNITYSDK_OFFSET(0xE5AF740)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_STACKINGFLAG_OFFSET UNITYSDK_OFFSET(0xE5AF790)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_STATE_OFFSET UNITYSDK_OFFSET(0xE5AF770)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xE5AF7D0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_TICK_OFFSET UNITYSDK_OFFSET(0xE5AE8C0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__EXECUTEIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xE5AEE80)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONATTACHEFFECTFADEOUTFINISH_OFFSET UNITYSDK_OFFSET(0xE5AD7B0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONMODIFIERVALUECHANGED_OFFSET UNITYSDK_OFFSET(0xE5AF6E0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERATTACHEFFECTFADEOUTFINISH_OFFSET UNITYSDK_OFFSET(0xE5ADB10)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERDESTROY_OFFSET UNITYSDK_OFFSET(0xE5ADA00)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__SEQUENCEENDANDFLUSH_OFFSET UNITYSDK_OFFSET(0xE5AF580)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__STARTTICKEDSEQUENCE_OFFSET UNITYSDK_OFFSET(0xE5AF290)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__TICKSEQUENCE_OFFSET UNITYSDK_OFFSET(0xE5AF350)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE__TRYDESTORYMODIFIEREFFECT_OFFSET UNITYSDK_OFFSET(0xE5AD290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseModifierInstance_TypeDefinitionIndex = 54643;
+	inline static constexpr unsigned int BaseModifierInstance_TypeDefinitionIndex = 54430;
 
 	class BaseModifierInstance : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ModifierConfig* _BaseConfig_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierMutexEffectData*>* _MutexEffectList; // 0x18
-		::Class_1_1C30CE192ABE4C54* _DynamicValues_k__BackingField; // 0x20
-		::RPG::GameCore::TaskContext* _TaskContext_k__BackingField; // 0x28
-		::RPG::GameCore::GameEntity* _CasterEntity; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* _EffectList; // 0x38
-		::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* _TmpEffectList; // 0x40
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* _DynamicStrings_k__BackingField; // 0x48
-		::System::Collections::Generic::List_1<::Struct_2_ABC67D4EFBF3BD9A_1>* InitDynamicStringsInjections; // 0x50
-		::System::String* _Name_k__BackingField; // 0x58
-		::Class_0_16E4307DCC419505_417* _DelayReplaceAbility; // 0x60
-		::System::Collections::Generic::List_1<::Struct_2_DF90B2BD73749811_1>* InitDynamicFloatInjections; // 0x68
-		::RPG::GameCore::TurnBasedModifierInstance* InfectSource; // 0x70
-		::RPG::GameCore::ModifierStackingFlag _StackingFlag_k__BackingField; // 0x78
-		::System::Int32 InitCount; // 0x7C
-		::System::Boolean _IsActivating_k__BackingField; // 0x80
-		::System::Boolean _IsPendingDispose; // 0x81
-		::System::Boolean SilenceAdd; // 0x82
-		::System::Int32 _ExecutingSequenceCount; // 0x84
-		::RPG::GameCore::ModifierAddReason AddReason; // 0x88
-		::System::Int32 _Count; // 0x8C
-		::System::Int32 _TickingSequenceCount; // 0x90
-		::RPG::GameCore::ModifierDeathSource _DeathSource_k__BackingField; // 0x94
-		::RPG::GameCore::ModifierState _State_k__BackingField; // 0x98
-
-		::System::Void _ctor(::System::String* a1, ::RPG::GameCore::ModifierConfig* a2, ::RPG::GameCore::GameEntity* a3, ::Class_1_A2D8E5AB4B623162* a4, ::Class_1_76D50EEEB128A93C* a5)
+		::RPG::GameCore::TaskContext* _TaskContext_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::GODJKFFNCNI>* InitDynamicStringsInjections; // 0x18
+		::System::Collections::Generic::List_1<::CFJJFFMMEAF>* InitDynamicFloatInjections; // 0x20
+		::RPG::GameCore::ModifierConfig* _BaseConfig_k__BackingField; // 0x28
+		::System::String* _Name_k__BackingField; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* _DynamicStrings_k__BackingField; // 0x38
+		::RPG::GameCore::TurnBasedModifierInstance* InfectSource; // 0x40
+		::MBBEBLGELAP* _DelayReplaceAbility; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* _EffectList; // 0x50
+		::RPG::GameCore::GameEntity* _CasterEntity; // 0x58
+		::System::Collections::Generic::List_1<::System::Object*>* _TmpEffectList; // 0x60
+		::ENEIHJJPNPI* _DynamicValues_k__BackingField; // 0x68
+		::System::Collections::Generic::List_1<::System::Object*>* _MutexEffectList; // 0x70
+		::RPG::GameCore::ModifierDeathSource _DeathSource_k__BackingField; // 0x78
+		::System::Int32 _TickingSequenceCount; // 0x7C
+		::System::Boolean _IsPendingDispose; // 0x80
+		::System::Boolean SilenceAdd; // 0x81
+		::System::Boolean _IsActivating_k__BackingField; // 0x82
+		::System::Byte _padding0[0x1];
+		::System::Int32 _Count; // 0x84
+		::RPG::GameCore::ModifierStackingFlag _StackingFlag_k__BackingField; // 0x88
+		::System::Int32 InitCount; // 0x8C
+		::RPG::GameCore::ModifierState _State_k__BackingField; // 0x90
+		::RPG::GameCore::ModifierAddReason AddReason; // 0x94
+		::System::Int32 _ExecutingSequenceCount; // 0x98
+		::System::Void _ctor(::System::String* a1, ::RPG::GameCore::ModifierConfig* a2, ::RPG::GameCore::GameEntity* a3, ::HPICNGFLLCA* a4, ::PGJINBJDAHN* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::ModifierConfig*, ::RPG::GameCore::GameEntity*, ::Class_1_A2D8E5AB4B623162*, ::Class_1_76D50EEEB128A93C*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::ModifierConfig*, ::RPG::GameCore::GameEntity*, ::HPICNGFLLCA*, ::PGJINBJDAHN*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void DetachAllEffects(::System::Boolean a1)
@@ -117,9 +115,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_DETACHALLEFFECTS_OFFSET))(this, a1);
 		}
 
-		::System::Void _TryDestoryModifierEffect(::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* a1, ::System::Boolean a2)
+		::System::Void _TryDestoryModifierEffect(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__TRYDESTORYMODIFIEREFFECT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__TRYDESTORYMODIFIEREFFECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnAttachEffectFadeOutFinish(::RPG::GameCore::BaseModifierInstance_ModifierEffectData* a1)
@@ -127,14 +125,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BaseModifierInstance_ModifierEffectData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__ONATTACHEFFECTFADEOUTFINISH_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnOtherModifierDestroy(::Class_0_16E4307DCC419505_460* a1)
+		::System::Void _OnOtherModifierDestroy(::EKFMIDBJDIA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERDESTROY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERDESTROY_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnOtherModifierAttachEffectFadeOutFinish(::Class_0_16E4307DCC419505_460* a1)
+		::System::Void _OnOtherModifierAttachEffectFadeOutFinish(::EKFMIDBJDIA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERATTACHEFFECTFADEOUTFINISH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__ONOTHERMODIFIERATTACHEFFECTFADEOUTFINISH_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -152,19 +150,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ModifierDeathSource))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_DESTROY_OFFSET))(this, a1);
 		}
 
-		::System::Void OnReplace(::Class_0_16E4307DCC419505_417* a1, ::Class_1_76D50EEEB128A93C* a2)
+		::System::Void OnReplace(::MBBEBLGELAP* a1, ::PGJINBJDAHN* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_417*, ::Class_1_76D50EEEB128A93C*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_ONREPLACE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MBBEBLGELAP*, ::PGJINBJDAHN*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_ONREPLACE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetupDynamicFloatInjection(::System::Collections::Generic::List_1<::Struct_2_DF90B2BD73749811_1>* a1)
+		::System::Void SetupDynamicFloatInjection(::System::Collections::Generic::List_1<::CFJJFFMMEAF>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_DF90B2BD73749811_1>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICFLOATINJECTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::CFJJFFMMEAF>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICFLOATINJECTION_OFFSET))(this, a1);
 		}
 
-		::System::Void SetupDynamicStringInjection(::System::Collections::Generic::List_1<::Struct_2_ABC67D4EFBF3BD9A_1>* a1)
+		::System::Void SetupDynamicStringInjection(::System::Collections::Generic::List_1<::GODJKFFNCNI>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_ABC67D4EFBF3BD9A_1>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICSTRINGINJECTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::GODJKFFNCNI>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SETUPDYNAMICSTRINGINJECTION_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::TaskListTemplate* GetTaskListTemplate(::System::String* a1)
@@ -172,19 +170,19 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TaskListTemplate*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_GETTASKLISTTEMPLATE_OFFSET))(this, a1);
 		}
 
-		::System::Void _ExecuteImmediately(::Class_3_07C3C4D2990C49EE* a1, ::Class_1_5469D397DAE62876* a2, ::System::Boolean a3, ::RPG::GameCore::TurnBasedModifierEvent a4)
+		::System::Void _ExecuteImmediately(::KFELGAIGHAP* a1, ::LPNPMKNMMOK* a2, ::System::Boolean a3, ::RPG::GameCore::TurnBasedModifierEvent a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_07C3C4D2990C49EE*, ::Class_1_5469D397DAE62876*, ::System::Boolean, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__EXECUTEIMMEDIATELY_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::KFELGAIGHAP*, ::LPNPMKNMMOK*, ::System::Boolean, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__EXECUTEIMMEDIATELY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _StartTickedSequence(::Class_3_07C3C4D2990C49EE* a1)
+		::System::Void _StartTickedSequence(::KFELGAIGHAP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_07C3C4D2990C49EE*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__STARTTICKEDSEQUENCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::KFELGAIGHAP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__STARTTICKEDSEQUENCE_OFFSET))(this, a1);
 		}
 
-		::System::Void _TickSequence(::Class_3_07C3C4D2990C49EE* a1, ::System::Single a2)
+		::System::Void _TickSequence(::KFELGAIGHAP* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_07C3C4D2990C49EE*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__TICKSEQUENCE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::KFELGAIGHAP*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE__TICKSEQUENCE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SequenceEndAndFlush()
@@ -302,14 +300,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_COUNT_OFFSET))(this, a1);
 		}
 
-		::Class_1_1C30CE192ABE4C54* get_DynamicValues()
+		::ENEIHJJPNPI* get_DynamicValues()
 		{
-			return ((::Class_1_1C30CE192ABE4C54*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DYNAMICVALUES_OFFSET))(this);
+			return ((::ENEIHJJPNPI*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DYNAMICVALUES_OFFSET))(this);
 		}
 
-		::System::Void set_DynamicValues(::Class_1_1C30CE192ABE4C54* a1)
+		::System::Void set_DynamicValues(::ENEIHJJPNPI* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_1C30CE192ABE4C54*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DYNAMICVALUES_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ENEIHJJPNPI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_SET_DYNAMICVALUES_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* get_DynamicStrings()
@@ -326,5 +324,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_GET_DELAYREPLACECASTER_OFFSET))(this);
 		}
+
 	};
 }

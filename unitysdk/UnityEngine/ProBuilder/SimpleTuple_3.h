@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SimpleTuple_3_TypeDefinitionIndex = 43244;
+	inline static constexpr unsigned int SimpleTuple_3_TypeDefinitionIndex = 44436;
 
 	template <typename T1, typename T2, typename T3>
-	struct SimpleTuple_3
+	struct alignas(8) SimpleTuple_3
 	{
 		T1 m_Item1; // 0x0
 		T2 m_Item2; // 0x0

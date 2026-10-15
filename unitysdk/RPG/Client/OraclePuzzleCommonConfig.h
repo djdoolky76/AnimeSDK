@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client::Prop { class PolygonMesh; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_GETPOLYGONMESH_OFFSET UNITYSDK_OFFSET(0x191FC260)
-#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191FC2F0)
+#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0FF10)
+#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_GETPOLYGONMESH_OFFSET UNITYSDK_OFFSET(0xDA0FE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OraclePuzzleCommonConfig_TypeDefinitionIndex = 60193;
+	inline static constexpr unsigned int OraclePuzzleCommonConfig_TypeDefinitionIndex = 60056;
 
 	class OraclePuzzleCommonConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -28,15 +27,15 @@ namespace RPG::Client
 		::Il2CppArray<::System::Int32>* TriangleIndexs; // 0x50
 		::Il2CppArray<::System::Int32>* QuadIndexs; // 0x58
 		::System::String* MeshOutPutPath; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Prop::PolygonMesh* GetPolygonMesh(::System::Int32 a1)
 		{
 			return ((::RPG::Client::Prop::PolygonMesh*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_GETPOLYGONMESH_OFFSET))(this, a1);
 		}
+
 	};
 }

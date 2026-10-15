@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B58DBA0)
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B58DA20)
-#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58DCE0)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F2FD0)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8F2E50)
+#define RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F3110)
 
 namespace RPGTools::Timeline::GamePlay
 {
-	inline static constexpr unsigned int GamePlayTimeRewindTrack_TypeDefinitionIndex = 49109;
+	inline static constexpr unsigned int GamePlayTimeRewindTrack_TypeDefinitionIndex = 48655;
 
 	class GamePlayTimeRewindTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::GamePlay
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GAMEPLAY_GAMEPLAYTIMEREWINDTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RPGGrassSetting_TypeDefinitionIndex = 4283;
+	inline static constexpr unsigned int RPGGrassSetting_TypeDefinitionIndex = 4286;
 
 	struct alignas(4) RPGGrassSetting
 	{
@@ -16,8 +15,10 @@ namespace UnityEngine
 		::System::Boolean EnableInOutFade; // 0x24
 		::System::Boolean EnableGrassLodFade; // 0x25
 		::System::Boolean EnableGrass; // 0x26
+		::System::Byte _padding0[0x1];
 		::System::Single OverallDensityFactor; // 0x28
 		::System::Boolean EnableGrassDensityReduce; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Single GrassMaxDistance; // 0x30
 		::System::Single GrassConstantDensityRangeFactor; // 0x34
 		::System::Single GrassDensityReduceFactor; // 0x38

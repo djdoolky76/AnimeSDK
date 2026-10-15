@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x15CD21E0)
-#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15CD2210)
-#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15CD21D0)
-#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD80E90)
+#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BCB5630)
+#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB55B0)
+#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BCB5660)
+#define MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BCB5620)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_SetGlobalUserAgentDelegate_TypeDefinitionIndex = 7793;
+	inline static constexpr unsigned int WebDelegate_SetGlobalUserAgentDelegate_TypeDefinitionIndex = 7837;
 
 	class WebDelegate_SetGlobalUserAgentDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETGLOBALUSERAGENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

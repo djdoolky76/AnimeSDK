@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace InControl { class InputDevice; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define INCONTROL_INPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x18E8D3D0)
-#define INCONTROL_INPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8D3E0)
+#define INCONTROL_INPUTDEVICEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9D7B10)
+#define INCONTROL_INPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B9D7B00)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceManager_TypeDefinitionIndex = 39544;
+	inline static constexpr unsigned int InputDeviceManager_TypeDefinitionIndex = 40841;
 
 	class InputDeviceManager : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::InControl::InputDevice*>* devices; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Destroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEMANAGER_DESTROY_OFFSET))(this);
 		}
+
 	};
 }

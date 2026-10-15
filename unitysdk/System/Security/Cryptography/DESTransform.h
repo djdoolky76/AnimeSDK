@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Cryptography/SymmetricTransform.h"
-
 namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_BSWAP_OFFSET UNITYSDK_OFFSET(0x19BBD270)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CIPHERFUNCT_OFFSET UNITYSDK_OFFSET(0x19BBCCE0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x19BBD680)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_GETSTRONGKEY_OFFSET UNITYSDK_OFFSET(0x19BBC300)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PERMUTATION_OFFSET UNITYSDK_OFFSET(0x19BBCF10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PROCESSBLOCK_OFFSET UNITYSDK_OFFSET(0x19BBD2E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_SETKEY_OFFSET UNITYSDK_OFFSET(0x19BBC640)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BBD700)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBB8F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_BSWAP_OFFSET UNITYSDK_OFFSET(0x1C332AE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C332F70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CIPHERFUNCT_OFFSET UNITYSDK_OFFSET(0x1C332550)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C331160)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1C332EF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_GETSTRONGKEY_OFFSET UNITYSDK_OFFSET(0x1C331B70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PERMUTATION_OFFSET UNITYSDK_OFFSET(0x1C332780)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PROCESSBLOCK_OFFSET UNITYSDK_OFFSET(0x1C332B50)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_SETKEY_OFFSET UNITYSDK_OFFSET(0x1C331EB0)
 
 namespace System::Security::Cryptography
 {
@@ -21,58 +20,67 @@ namespace System::Security::Cryptography
 	class DESTransform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_PC1()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xFB60);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_ipTab()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xFB68);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_leftRotTotal()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xFB70);
-		}
+		::Il2CppArray<::System::Byte>* keySchedule; // 0x50
+		::Il2CppArray<::System::Byte>* byteBuff; // 0x58
+		::Il2CppArray<::System::UInt32>* dwordBuff; // 0x60
 		static ::Il2CppArray<::System::UInt32>** StaticGet_spBoxes()
 		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xFB78);
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x206B0);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_PC2()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xFB80);
-		}
+
 		static ::Il2CppArray<::System::UInt32>** StaticGet_fpTab()
 		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xFB88);
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x206B8);
 		}
+
+		static ::Il2CppArray<::System::UInt32>** StaticGet_ipTab()
+		{
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x206C0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_PC1()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x206C8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_leftRotTotal()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x206D0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_PC2()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x206D8);
+		}
+
 		static ::System::Int32* StaticGet_BLOCK_BIT_SIZE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x72E0);
+			return (::System::Int32*)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x7410);
 		}
-		static ::System::Int32* StaticGet_KEY_BYTE_SIZE()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x72E4);
-		}
+
 		static ::System::Int32* StaticGet_KEY_BIT_SIZE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x72E8);
+			return (::System::Int32*)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x7414);
 		}
+
+		static ::System::Int32* StaticGet_KEY_BYTE_SIZE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x7418);
+		}
+
 		static ::System::Int32* StaticGet_BLOCK_BYTE_SIZE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x72EC);
+			return (::System::Int32*)UnitySDK::FromName("System.Security.Cryptography", "DESTransform")->GetStaticField(0x741C);
 		}
-		::Il2CppArray<::System::UInt32>* dwordBuff; // 0x50
-		::Il2CppArray<::System::Byte>* keySchedule; // 0x58
-		::Il2CppArray<::System::Byte>* byteBuff; // 0x60
 
 		::System::Void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* a1, ::System::Boolean a2, ::Il2CppArray<::System::Byte>* a3, ::Il2CppArray<::System::Byte>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::SymmetricAlgorithm*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::SymmetricAlgorithm*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CCTOR_OFFSET))();
 		}
 
 		::System::UInt32 CipherFunct(::System::UInt32 a1, ::System::Int32 a2)
@@ -109,5 +117,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_GETSTRONGKEY_OFFSET))();
 		}
+
 	};
 }

@@ -6,12 +6,13 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SyncMarkerTrack_TypeDefinitionIndex = 5725;
+	inline static constexpr unsigned int SyncMarkerTrack_TypeDefinitionIndex = 5733;
 
 	class SyncMarkerTrack : public ::System::Object
 	{
 	public:
 		::UnityEngine::StringID trackName; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::SyncMarker>* syncMarkers; // 0x18
 		::Il2CppArray<::System::Single>* markerTimes; // 0x20
 	};

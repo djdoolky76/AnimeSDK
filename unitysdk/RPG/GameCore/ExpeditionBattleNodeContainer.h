@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseExpeditionBattleNode; }
+namespace RPG::GameCore { class ExpeditionBattleNodeContainer; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_METHOD_2_910B45FA6EF5385C_OFFSET UNITYSDK_OFFSET(0x1D7DC6D0)
-#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DC7C0)
+#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6622F0)
+#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D662200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleNodeContainer_TypeDefinitionIndex = 16024;
+	inline static constexpr unsigned int ExpeditionBattleNodeContainer_TypeDefinitionIndex = 16197;
 
 	class ExpeditionBattleNodeContainer : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::BaseExpeditionBattleNode*>* Nodes; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_910B45FA6EF5385C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ExpeditionBattleNodeContainer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ExpeditionBattleNodeContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExpeditionBattleNodeContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_METHOD_2_910B45FA6EF5385C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ExpeditionBattleNodeContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

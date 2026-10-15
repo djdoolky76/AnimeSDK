@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
+namespace RPG::GameCore { class LevelModifierOnUnstackProperty; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD29C70)
-#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD29D10)
-#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD29CC0)
-#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_INIT_OFFSET UNITYSDK_OFFSET(0x1DD29C20)
-#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29D60)
+#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E9530)
+#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E9620)
+#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E95D0)
+#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E9580)
+#define RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_INIT_OFFSET UNITYSDK_OFFSET(0xE6E94E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelModifierOnUnstackProperty_TypeDefinitionIndex = 56957;
+	inline static constexpr unsigned int LevelModifierOnUnstackProperty_TypeDefinitionIndex = 56778;
 
-	class LevelModifierOnUnstackProperty : public ::Class_1_BF7A075734D15E98
+	class LevelModifierOnUnstackProperty : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::TurnBasedModifierInstance* ModifierInstance; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelModifierOnUnstackProperty* Init(::RPG::GameCore::TurnBasedModifierInstance* a1)
@@ -44,5 +43,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODIFIERONUNSTACKPROPERTY_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

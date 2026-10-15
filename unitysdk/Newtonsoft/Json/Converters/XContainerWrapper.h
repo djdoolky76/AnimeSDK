@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Converters/XObjectWrapper.h"
-
 namespace Newtonsoft::Json::Converters { class IXmlNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Xml::Linq { class XContainer; }
 namespace System::Xml::Linq { class XObject; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_APPENDCHILD_OFFSET UNITYSDK_OFFSET(0x181252F0)
-#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_GET_CHILDNODES_OFFSET UNITYSDK_OFFSET(0x18124940)
-#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_GET_CONTAINER_OFFSET UNITYSDK_OFFSET(0x18124870)
-#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x18124F30)
-#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_WRAPNODE_OFFSET UNITYSDK_OFFSET(0x18124130)
-#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x181248E0)
+#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_APPENDCHILD_OFFSET UNITYSDK_OFFSET(0x1C354C20)
+#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C354210)
+#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_GET_CHILDNODES_OFFSET UNITYSDK_OFFSET(0x1C354270)
+#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_GET_CONTAINER_OFFSET UNITYSDK_OFFSET(0x1C3541A0)
+#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1C354860)
+#define NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_WRAPNODE_OFFSET UNITYSDK_OFFSET(0x1C353A60)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int XContainerWrapper_TypeDefinitionIndex = 9783;
+	inline static constexpr unsigned int XContainerWrapper_TypeDefinitionIndex = 9841;
 
 	class XContainerWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:
 		::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes; // 0x18
-
 		::System::Void _ctor(::System::Xml::Linq::XContainer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XContainer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XContainer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XContainer* get_Container()
@@ -52,5 +50,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::Newtonsoft::Json::Converters::IXmlNode*(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XCONTAINERWRAPPER_APPENDCHILD_OFFSET))(this, a1);
 		}
+
 	};
 }

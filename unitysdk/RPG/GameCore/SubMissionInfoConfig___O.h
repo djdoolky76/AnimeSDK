@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/MissionVerseParam.h"
 #include "unitysdk/System/Object.h"
-
-template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
+namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionInfoConfig___O_TypeDefinitionIndex = 15302;
+	inline static constexpr unsigned int SubMissionInfoConfig___O_TypeDefinitionIndex = 15473;
 
 	class SubMissionInfoConfig___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::MissionVerseParam>** StaticGet__0___FromJson()
+		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::MissionVerseParam>**)Il2CppClass::FromTypeDefinitionIndex(SubMissionInfoConfig___O_TypeDefinitionIndex)->GetStaticField(0x232A0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1C810);
 		}
+
 	};
 }

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D139120)
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D139110)
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1392C0)
+#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B9C20)
+#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B9DC0)
+#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B9C10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ChangeStageItemLocationClip_TypeDefinitionIndex = 48380;
+	inline static constexpr unsigned int ChangeStageItemLocationClip_TypeDefinitionIndex = 47920;
 
 	class ChangeStageItemLocationClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -23,10 +22,9 @@ namespace RPGTools::Timeline
 		::System::String* BlockAlias; // 0x18
 		::System::String* PrefabAlias; // 0x20
 		::UnityEngine::Vector3 Position; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -38,5 +36,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

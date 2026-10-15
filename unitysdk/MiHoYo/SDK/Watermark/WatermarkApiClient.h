@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Watermark { class WatermarkRequest; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -10,22 +9,21 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_DOWNLOADWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x1CD750A0)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_REQUESTWATERMARKINFO_OFFSET UNITYSDK_OFFSET(0x1CD75010)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD75120)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8EC0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_DOWNLOADWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x1BFE8E40)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_REQUESTWATERMARKINFO_OFFSET UNITYSDK_OFFSET(0x1BFE8DB0)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkApiClient_TypeDefinitionIndex = 8800;
+	inline static constexpr unsigned int WatermarkApiClient_TypeDefinitionIndex = 8861;
 
 	class WatermarkApiClient : public ::System::Object
 	{
 	public:
-		// static const ::System::Single REQUEST_TIMEOUT_SECONDS; // 0x0
-
+		// static const ::System::Object REQUEST_TIMEOUT_SECONDS; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Collections::IEnumerator* RequestWatermarkInfo(::MiHoYo::SDK::Watermark::WatermarkRequest* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2, ::System::Action_1<::System::String*>* a3, ::System::Action* a4, ::System::Single a5)
@@ -37,5 +35,6 @@ namespace MiHoYo::SDK::Watermark
 		{
 			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>*, ::System::Action*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_DOWNLOADWATERMARKIMAGE_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

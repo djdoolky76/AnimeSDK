@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9B9ED0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9B9F40)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9B9EB0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B9E30)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB5F80)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB5EE0)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB5FF0)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB5F60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryDelegate_ReportToDataUploadDelegate_TypeDefinitionIndex = 7652;
+	inline static constexpr unsigned int TelemetryDelegate_ReportToDataUploadDelegate_TypeDefinitionIndex = 7706;
 
 	class TelemetryDelegate_ReportToDataUploadDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Int32 a2, ::System::String* a3)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_REPORTTODATAUPLOADDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

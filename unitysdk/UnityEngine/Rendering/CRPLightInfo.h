@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/GameLightType.h"
 #include "unitysdk/UnityEngine/Rendering/LightVolumeInfo.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightInfo_TypeDefinitionIndex = 4869;
+	inline static constexpr unsigned int CRPLightInfo_TypeDefinitionIndex = 4875;
 
 	struct alignas(4) CRPLightInfo
 	{

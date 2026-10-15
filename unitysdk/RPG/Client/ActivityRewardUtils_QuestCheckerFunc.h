@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class QuestData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B879A70)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B879AA0)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B879880)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B879980)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC59C330)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC59C240)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC59C360)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0xC59C140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils_QuestCheckerFunc_TypeDefinitionIndex = 61837;
+	inline static constexpr unsigned int ActivityRewardUtils_QuestCheckerFunc_TypeDefinitionIndex = 61747;
 
 	class ActivityRewardUtils_QuestCheckerFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::Client::QuestData* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_QUESTCHECKERFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

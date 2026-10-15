@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int HmdVector2_t_TypeDefinitionIndex = 37973;
+	inline static constexpr unsigned int HmdVector2_t_TypeDefinitionIndex = 39270;
 
 	struct alignas(4) HmdVector2_t
 	{

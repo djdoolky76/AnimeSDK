@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/PreviewSnapshot.h"
-
 namespace RPG::Client::ChenLingBattle { class SelectPolicyPhaseInfo; }
+namespace RPG::Client::ChenLingBattle { class SelectPolicyPreviewSnapshot; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_CREATESELECTPOLICYSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1CC312B0)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x1CC31340)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x1CC31350)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC31330)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_CREATESELECTPOLICYSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xCA58720)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0xCA587A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xCA587B0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xCA587C0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectPolicyPreviewSnapshot_TypeDefinitionIndex = 75818;
+	inline static constexpr unsigned int SelectPolicyPreviewSnapshot_TypeDefinitionIndex = 76295;
 
 	class SelectPolicyPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:
 		::RPG::Client::ChenLingBattle::SelectPolicyPhaseInfo* _PhaseInfo_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::ChenLingBattle::SelectPolicyPhaseInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::SelectPolicyPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::SelectPolicyPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::RPG::Client::ChenLingBattle::SelectPolicyPreviewSnapshot* CreateSelectPolicySnapshot(::System::Int32 a1, ::RPG::Client::ChenLingBattle::SelectPolicyPhaseInfo* a2)
@@ -37,5 +36,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::SelectPolicyPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

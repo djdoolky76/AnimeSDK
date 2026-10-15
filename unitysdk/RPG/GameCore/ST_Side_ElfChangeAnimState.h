@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Side_ElfChangeAnimState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_METHOD_4_29942FFC9CFF8F95_OFFSET UNITYSDK_OFFSET(0x1DB41A10)
-#define RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_METHOD_4_619117BBE6B7F6B8_OFFSET UNITYSDK_OFFSET(0x1DB41A50)
-#define RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41A40)
+#define RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA554B0)
+#define RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA554C0)
+#define RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA55480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_ElfChangeAnimState_TypeDefinitionIndex = 21295;
+	inline static constexpr unsigned int ST_Side_ElfChangeAnimState_TypeDefinitionIndex = 21541;
 
 	class ST_Side_ElfChangeAnimState : public ::RPG::GameCore::STTaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::System::Single Delay; // 0x18
 		::System::UInt32 State; // 0x1C
 		::System::String* AudioEventName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_29942FFC9CFF8F95(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ElfChangeAnimState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Side_ElfChangeAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_ElfChangeAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_METHOD_4_29942FFC9CFF8F95_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Side_ElfChangeAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_619117BBE6B7F6B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ElfChangeAnimState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Side_ElfChangeAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_ElfChangeAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_METHOD_4_619117BBE6B7F6B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Side_ElfChangeAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFCHANGEANIMSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

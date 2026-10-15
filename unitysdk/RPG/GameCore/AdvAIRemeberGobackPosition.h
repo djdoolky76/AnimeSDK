@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvAIRemeberGobackPosition; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_METHOD_3_16C40D1C16570335_OFFSET UNITYSDK_OFFSET(0x1D6A6D70)
-#define RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_METHOD_3_A367BBE3CABD57FD_OFFSET UNITYSDK_OFFSET(0x1D6A6DF0)
-#define RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A6DC0)
+#define RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D360120)
+#define RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D360150)
+#define RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3600D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvAIRemeberGobackPosition_TypeDefinitionIndex = 19770;
+	inline static constexpr unsigned int AdvAIRemeberGobackPosition_TypeDefinitionIndex = 20004;
 
 	class AdvAIRemeberGobackPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_16C40D1C16570335(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAIRemeberGobackPosition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvAIRemeberGobackPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAIRemeberGobackPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_METHOD_3_16C40D1C16570335_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvAIRemeberGobackPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A367BBE3CABD57FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAIRemeberGobackPosition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvAIRemeberGobackPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAIRemeberGobackPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_METHOD_3_A367BBE3CABD57FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvAIRemeberGobackPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAIREMEBERGOBACKPOSITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

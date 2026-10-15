@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateActDebugLogConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_METHOD_6_000F76E947E859FB_OFFSET UNITYSDK_OFFSET(0x1E0CC250)
-#define RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_METHOD_6_49216F1D9CC2EF17_OFFSET UNITYSDK_OFFSET(0x1E0CC200)
-#define RPG_GAMECORE_FATEACTDEBUGLOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CC240)
+#define RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66C210)
+#define RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66C220)
+#define RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66C1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateActDebugLogConfig_TypeDefinitionIndex = 18993;
+	inline static constexpr unsigned int FateActDebugLogConfig_TypeDefinitionIndex = 19223;
 
 	class FateActDebugLogConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTDEBUGLOGCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_49216F1D9CC2EF17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActDebugLogConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActDebugLogConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActDebugLogConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_METHOD_6_49216F1D9CC2EF17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActDebugLogConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_000F76E947E859FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActDebugLogConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActDebugLogConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActDebugLogConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_METHOD_6_000F76E947E859FB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActDebugLogConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTDEBUGLOGCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoopWaitRogueTournLevelChange; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_METHOD_3_6D81CB69BF0ACB4A_OFFSET UNITYSDK_OFFSET(0x1D48B020)
-#define RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_METHOD_3_7363549A14E78BA6_OFFSET UNITYSDK_OFFSET(0x1D48B070)
-#define RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48B060)
+#define RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C8E40)
+#define RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C8E50)
+#define RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C8E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitRogueTournLevelChange_TypeDefinitionIndex = 20991;
+	inline static constexpr unsigned int LoopWaitRogueTournLevelChange_TypeDefinitionIndex = 21237;
 
 	class LoopWaitRogueTournLevelChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6D81CB69BF0ACB4A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitRogueTournLevelChange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitRogueTournLevelChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitRogueTournLevelChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_METHOD_3_6D81CB69BF0ACB4A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitRogueTournLevelChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7363549A14E78BA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitRogueTournLevelChange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitRogueTournLevelChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitRogueTournLevelChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_METHOD_3_7363549A14E78BA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitRogueTournLevelChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITROGUETOURNLEVELCHANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

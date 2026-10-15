@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CommonEffectMatBlockType.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaterialPropertyModifier_MBProperty_TypeDefinitionIndex = 68473;
+	inline static constexpr unsigned int MonoMaterialPropertyModifier_MBProperty_TypeDefinitionIndex = 68507;
 
 	struct alignas(8) MonoMaterialPropertyModifier_MBProperty
 	{

@@ -2,42 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/RPG/Client/MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit.h"
-#include "unitysdk/System/TimeSpan.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/System/TimeSpan.h"
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AD07530)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_FORCEUPDATETIME_OFFSET UNITYSDK_OFFSET(0x1AD07320)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AD075D0)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_SETREMAINTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0x1AD07010)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_SETTARGETTIMEBYTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1AD06F20)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD07580)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD08310)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD08300)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__INITTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1AD07620)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETREMAINTIME_OFFSET UNITYSDK_OFFSET(0x1AD070B0)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTACTIVE_OFFSET UNITYSDK_OFFSET(0x1AD07F20)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTNUMANDTEXT_OFFSET UNITYSDK_OFFSET(0x1AD07FF0)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTSVIEW_OFFSET UNITYSDK_OFFSET(0x1AD07D30)
-#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__UPDATETIME_OFFSET UNITYSDK_OFFSET(0x1AD07370)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8550E0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_CLEAR_OFFSET UNITYSDK_OFFSET(0xD854300)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8550D0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_FORCEUPDATETIME_OFFSET UNITYSDK_OFFSET(0xD854060)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8543A0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_SETREMAINTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0xD853D50)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_SETTARGETTIMEBYTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xD853C30)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD854350)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__INITTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD8543F0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETREMAINTIME_OFFSET UNITYSDK_OFFSET(0xD853DF0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTACTIVE_OFFSET UNITYSDK_OFFSET(0xD854CF0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTNUMANDTEXT_OFFSET UNITYSDK_OFFSET(0xD854DC0)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTSVIEW_OFFSET UNITYSDK_OFFSET(0xD854B00)
+#define RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__UPDATETIME_OFFSET UNITYSDK_OFFSET(0xD8540B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimerPositionStyle_TypeDefinitionIndex = 72523;
+	inline static constexpr unsigned int MonoRemainTimerPositionStyle_TypeDefinitionIndex = 72597;
 
 	class MonoRemainTimerPositionStyle : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__TimeUnitTextIDs()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoRemainTimerPositionStyle_TypeDefinitionIndex)->GetStaticField(0x17930);
-		}
 		::System::Boolean _IsTransformInited; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Text*>* _NumberSlots; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Text*>* _TextSlots; // 0x28
 		::RPG::Client::DateTimePro _TargetTime; // 0x30
@@ -47,16 +43,21 @@ namespace RPG::Client
 		::RPG::Client::MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit _FirstDisplayedTimeUnit; // 0x4C
 		::System::Boolean _KeepFullDigits; // 0x50
 		::System::Boolean _IsUpdating; // 0x51
+		::System::Byte _padding1[0x6];
 		::System::Collections::Generic::List_1<::System::Int32>* _NumbersFromRemainTime; // 0x58
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__TimeUnitTextIDs()
+		{
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "MonoRemainTimerPositionStyle")->GetStaticField(0x69CC0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE_CCTOR_OFFSET))();
 		}
 
 		::System::Void SetTargetTimeByTimeStamp(::System::UInt32 a1, ::System::Action_1<::XLua::LuaTable*>* a2, ::XLua::LuaTable* a3, ::System::Int32 a4, ::RPG::Client::MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit a5, ::System::Boolean a6)
@@ -118,5 +119,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERPOSITIONSTYLE__SETSLOTACTIVE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_DirectorFixedUpdatePostPhysics_TypeDefinitionIndex = 4590;
+	inline static constexpr unsigned int FixedUpdate_DirectorFixedUpdatePostPhysics_TypeDefinitionIndex = 4594;
 
-	struct alignas(1) FixedUpdate_DirectorFixedUpdatePostPhysics
+	struct alignas(4) FixedUpdate_DirectorFixedUpdatePostPhysics
 	{
 	};
 }

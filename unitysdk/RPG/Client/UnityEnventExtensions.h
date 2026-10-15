@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_1_OFFSET UNITYSDK_OFFSET(0x1DDC2A00)
-#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_2_OFFSET UNITYSDK_OFFSET(0x1DDC2AB0)
-#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_3_OFFSET UNITYSDK_OFFSET(0x1DDC2B60)
-#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_4_OFFSET UNITYSDK_OFFSET(0x1DDC2C40)
-#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1DDC2960)
+#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_1_OFFSET UNITYSDK_OFFSET(0xE408FF0)
+#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_2_OFFSET UNITYSDK_OFFSET(0xE4090A0)
+#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_3_OFFSET UNITYSDK_OFFSET(0xE409150)
+#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_4_OFFSET UNITYSDK_OFFSET(0xE409230)
+#define RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_OFFSET UNITYSDK_OFFSET(0xE408F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UnityEnventExtensions_TypeDefinitionIndex = 72704;
+	inline static constexpr unsigned int UnityEnventExtensions_TypeDefinitionIndex = 72784;
 
 	class UnityEnventExtensions : public ::System::Object
 	{
@@ -45,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::Events::UnityEvent_1<::System::Boolean>*, ::UnityEngine::Events::UnityAction_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UNITYENVENTEXTENSIONS_SAFEADDLISTENER_4_OFFSET))(a1, a2);
 		}
+
 	};
 }

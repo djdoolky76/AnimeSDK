@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class RemoveFateHougu; }
 
-#define RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_1D32BA679475821D_OFFSET UNITYSDK_OFFSET(0x1DB8D630)
-#define RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_97E876498DF6DD56_OFFSET UNITYSDK_OFFSET(0x1DB8D710)
-#define RPG_GAMECORE_REMOVEFATEHOUGU__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8D6B0)
+#define RPG_GAMECORE_REMOVEFATEHOUGU_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957A00)
+#define RPG_GAMECORE_REMOVEFATEHOUGU_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D957A60)
+#define RPG_GAMECORE_REMOVEFATEHOUGU_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D957980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveFateHougu_TypeDefinitionIndex = 23022;
+	inline static constexpr unsigned int RemoveFateHougu_TypeDefinitionIndex = 23287;
 
 	class RemoveFateHougu : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* HouguID; // 0x18
 		::RPG::GameCore::DynamicFloat* RemoveCount; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D32BA679475821D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveFateHougu*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RemoveFateHougu* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveFateHougu*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_1D32BA679475821D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RemoveFateHougu*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_97E876498DF6DD56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveFateHougu* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RemoveFateHougu* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveFateHougu*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_97E876498DF6DD56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RemoveFateHougu*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

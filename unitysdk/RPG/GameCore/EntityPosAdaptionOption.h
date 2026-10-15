@@ -3,19 +3,19 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityPosAdaptionOption_TypeDefinitionIndex = 24219;
+	inline static constexpr unsigned int EntityPosAdaptionOption_TypeDefinitionIndex = 24498;
 
 	enum class EntityPosAdaptionOption : ::System::UInt32
 	{
-		None = 0x0,
-		RayCastCheck = 0x1,
-		GroundCheck = 0x2,
-		NavMeshCheck = 0x4,
-		PathCheck = 0x8,
-		AvoidanceCheck = 0x10,
-		StepGroundCheck = 0x20,
-		NavMeshEdgeAvoidance = 0x40,
-		Default = 0x20,
-		CharacterDefault = 0x1E,
+		None = 0,
+		RayCastCheck = 1,
+		GroundCheck = 2,
+		NavMeshCheck = 4,
+		PathCheck = 8,
+		AvoidanceCheck = 16,
+		StepGroundCheck = 32,
+		NavMeshEdgeAvoidance = 64,
+		Default = 32,
+		CharacterDefault = 30,
 	};
 }

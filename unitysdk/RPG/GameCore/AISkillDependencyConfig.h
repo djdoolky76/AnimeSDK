@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AISkillDependencyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_METHOD_2_A46AA0C89233FBC0_OFFSET UNITYSDK_OFFSET(0x1D324800)
-#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D324950)
+#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30D530)
+#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30D3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISkillDependencyConfig_TypeDefinitionIndex = 15442;
+	inline static constexpr unsigned int AISkillDependencyConfig_TypeDefinitionIndex = 15613;
 
 	class AISkillDependencyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* Name; // 0x10
 		::System::Int32 AfterUsedTurnCount; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISKILLDEPENDENCYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A46AA0C89233FBC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AISkillDependencyConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AISkillDependencyConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AISkillDependencyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_METHOD_2_A46AA0C89233FBC0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AISkillDependencyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

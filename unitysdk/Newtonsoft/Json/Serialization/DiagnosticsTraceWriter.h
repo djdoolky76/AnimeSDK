@@ -3,27 +3,25 @@
 #include "unitysdk/System/Diagnostics/TraceEventType.h"
 #include "unitysdk/System/Diagnostics/TraceLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GETTRACEEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x172E36F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x172E36E0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_TRACE_OFFSET UNITYSDK_OFFSET(0x172E3760)
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x172E3FF0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B1710)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GETTRACEEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C3B0E10)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x1C3B0E00)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_TRACE_OFFSET UNITYSDK_OFFSET(0x1C3B0E80)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DiagnosticsTraceWriter_TypeDefinitionIndex = 9630;
+	inline static constexpr unsigned int DiagnosticsTraceWriter_TypeDefinitionIndex = 9688;
 
 	class DiagnosticsTraceWriter : public ::System::Object
 	{
 	public:
 		::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_CTOR_OFFSET))(this);
 		}
 
 		::System::Diagnostics::TraceLevel get_LevelFilter()
@@ -40,5 +38,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::TraceLevel, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_TRACE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

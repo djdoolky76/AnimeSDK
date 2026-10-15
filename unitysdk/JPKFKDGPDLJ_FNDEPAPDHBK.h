@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define JPKFKDGPDLJ_FNDEPAPDHBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB79C00)
+#define JPKFKDGPDLJ_FNDEPAPDHBK_DCOIMNBGBCI_OFFSET UNITYSDK_OFFSET(0x1CB79D30)
+#define JPKFKDGPDLJ_FNDEPAPDHBK_EDDFOHAEEFN_OFFSET UNITYSDK_OFFSET(0x1CB79DB0)
+#define JPKFKDGPDLJ_FNDEPAPDHBK_EEHIAKDDIPJ_OFFSET UNITYSDK_OFFSET(0x1CB79E80)
+#define JPKFKDGPDLJ_FNDEPAPDHBK_FPLDAOMDHIP_OFFSET UNITYSDK_OFFSET(0x1CB79E10)
+#define JPKFKDGPDLJ_FNDEPAPDHBK_HIFAHCDEOJE_OFFSET UNITYSDK_OFFSET(0x1CB79C40)
+#define JPKFKDGPDLJ_FNDEPAPDHBK_IKPJCLHOJKF_OFFSET UNITYSDK_OFFSET(0x1CB79CC0)
+
+inline static constexpr unsigned int JPKFKDGPDLJ_FNDEPAPDHBK_TypeDefinitionIndex = 41948;
+
+	class JPKFKDGPDLJ_FNDEPAPDHBK : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::UInt32>* FJPPNBBEPBE; // 0x10
+		::Il2CppArray<::System::UInt32>* GAABKGJKBEG; // 0x18
+		::System::Boolean HDCHOJKMOJM; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 INOOIKDBDBM; // 0x24
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 HIFAHCDEOJE()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_HIFAHCDEOJE_OFFSET))(this);
+		}
+
+		::System::UInt32 IKPJCLHOJKF()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_IKPJCLHOJKF_OFFSET))(this);
+		}
+
+		::System::UInt32 DCOIMNBGBCI()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_DCOIMNBGBCI_OFFSET))(this);
+		}
+
+		::System::UInt32 EDDFOHAEEFN()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_EDDFOHAEEFN_OFFSET))(this);
+		}
+
+		::System::UInt32 FPLDAOMDHIP()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_FPLDAOMDHIP_OFFSET))(this);
+		}
+
+		::System::UInt32 EEHIAKDDIPJ()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKFKDGPDLJ_FNDEPAPDHBK_EEHIAKDDIPJ_OFFSET))(this);
+		}
+
+	};

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WaterLevelControllerInfo_TypeDefinitionIndex = 78445;
+	inline static constexpr unsigned int WaterLevelControllerInfo_TypeDefinitionIndex = 78916;
 
 	struct alignas(4) WaterLevelControllerInfo
 	{

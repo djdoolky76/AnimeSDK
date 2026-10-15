@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA590)
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA5C0)
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA580)
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AA510)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6690)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA6610)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA66C0)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6680)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_GetDiskTypeDelegate_TypeDefinitionIndex = 7757;
+	inline static constexpr unsigned int SDKDelegate_GetDiskTypeDelegate_TypeDefinitionIndex = 7801;
 
 	class SDKDelegate_GetDiskTypeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKTYPEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_RendererData_TypeDefinitionIndex = 70089;
+	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_RendererData_TypeDefinitionIndex = 70124;
 
 	struct alignas(8) MonoEffectPluginTilingByTargetID_RendererData
 	{

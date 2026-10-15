@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdventureCharacterVOType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventurePlayVO; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_136F2CFA50D25C17_OFFSET UNITYSDK_OFFSET(0x1CBBC0D0)
-#define RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_879E3AD042A4835C_OFFSET UNITYSDK_OFFSET(0x1CBBC090)
-#define RPG_GAMECORE_ADVENTUREPLAYVO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBC0C0)
+#define RPG_GAMECORE_ADVENTUREPLAYVO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39D7F0)
+#define RPG_GAMECORE_ADVENTUREPLAYVO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39D800)
+#define RPG_GAMECORE_ADVENTUREPLAYVO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39D7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePlayVO_TypeDefinitionIndex = 20510;
+	inline static constexpr unsigned int AdventurePlayVO_TypeDefinitionIndex = 20749;
 
 	class AdventurePlayVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::AdventureCharacterVOType VOType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_879E3AD042A4835C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventurePlayVO*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventurePlayVO* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventurePlayVO*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_879E3AD042A4835C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventurePlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_136F2CFA50D25C17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventurePlayVO* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventurePlayVO* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventurePlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_136F2CFA50D25C17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventurePlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

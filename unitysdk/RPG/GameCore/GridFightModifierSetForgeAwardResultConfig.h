@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierSetForgeAwardResultConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_METHOD_3_0B7BCED490A62815_OFFSET UNITYSDK_OFFSET(0x1EE6ED70)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_METHOD_3_282856FC34BE2DF1_OFFSET UNITYSDK_OFFSET(0x1EE6ED20)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6ED60)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D707CF0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D707D00)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D707CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierSetForgeAwardResultConfig_TypeDefinitionIndex = 19215;
+	inline static constexpr unsigned int GridFightModifierSetForgeAwardResultConfig_TypeDefinitionIndex = 19445;
 
 	class GridFightModifierSetForgeAwardResultConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_282856FC34BE2DF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_METHOD_3_282856FC34BE2DF1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0B7BCED490A62815(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_METHOD_3_0B7BCED490A62815_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierSetForgeAwardResultConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETFORGEAWARDRESULTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

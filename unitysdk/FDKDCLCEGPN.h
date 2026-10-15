@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ST_Main_Wait; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define FDKDCLCEGPN_CTOR_OFFSET UNITYSDK_OFFSET(0x156D2400)
+#define FDKDCLCEGPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D2440)
+#define FDKDCLCEGPN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156D2490)
+#define FDKDCLCEGPN_TICK_OFFSET UNITYSDK_OFFSET(0x156D24E0)
+
+inline static constexpr unsigned int FDKDCLCEGPN_TypeDefinitionIndex = 52224;
+
+	class FDKDCLCEGPN
+	{
+	public:
+		::System::Single PGMIOKKLHIE; // 0x28
+		::System::Single HBDJCFFDGDD; // 0x2C
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_Wait* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_Wait*))((::PBYTE)hIl2Cpp + FDKDCLCEGPN_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDKDCLCEGPN_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDKDCLCEGPN_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FDKDCLCEGPN_TICK_OFFSET))(this, a1);
+		}
+
+	};

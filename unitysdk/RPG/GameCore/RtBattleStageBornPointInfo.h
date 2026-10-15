@@ -3,30 +3,30 @@
 #include "unitysdk/RPG/GameCore/IVec2.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtBattleStageBornPointInfo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO_METHOD_2_5A1C92B128FEEB3F_OFFSET UNITYSDK_OFFSET(0x1CCD8540)
-#define RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD8680)
+#define RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA21000)
+#define RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA20EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleStageBornPointInfo_TypeDefinitionIndex = 17840;
+	inline static constexpr unsigned int RtBattleStageBornPointInfo_TypeDefinitionIndex = 18052;
 
 	class RtBattleStageBornPointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::TeamType Team; // 0x10
 		::RPG::GameCore::IVec2 Pos; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5A1C92B128FEEB3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleStageBornPointInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleStageBornPointInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleStageBornPointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO_METHOD_2_5A1C92B128FEEB3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleStageBornPointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGEBORNPOINTINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections::Immutable { template <typename T1, typename T2> class ImmutableSortedDictionary_2; }
-namespace System::Collections::Immutable { template <typename T1, typename T2> class ImmutableSortedDictionary_2_Builder; }
-
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedDictionary_TypeDefinitionIndex = 6637;
+	inline static constexpr unsigned int ImmutableSortedDictionary_TypeDefinitionIndex = 6646;
 
 	class ImmutableSortedDictionary : public ::System::Object
 	{

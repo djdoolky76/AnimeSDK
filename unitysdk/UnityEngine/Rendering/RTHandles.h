@@ -2,50 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
-#include "unitysdk/UnityEngine/FilterMode.h"
-#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/Rendering/DepthBits.h"
 #include "unitysdk/UnityEngine/Rendering/MSAASamples.h"
-#include "unitysdk/UnityEngine/Rendering/RTHandleProperties.h"
 #include "unitysdk/UnityEngine/Rendering/TextureDimension.h"
+#include "unitysdk/UnityEngine/FilterMode.h"
+#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/TextureWrapMode.h"
+#include "unitysdk/UnityEngine/Rendering/RTHandleProperties.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class RTHandle; }
 namespace UnityEngine::Rendering { class RTHandleSystem; }
 namespace UnityEngine::Rendering { class ScaleFunc; }
 
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_1_OFFSET UNITYSDK_OFFSET(0x1DE24B60)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_2_OFFSET UNITYSDK_OFFSET(0x1DE24CF0)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_3_OFFSET UNITYSDK_OFFSET(0x1DE24EE0)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_4_OFFSET UNITYSDK_OFFSET(0x1DE25060)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_OFFSET UNITYSDK_OFFSET(0x1DE249D0)
-#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1DE248B0)
-#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1DE24830)
-#define UNITYENGINE_RENDERING_RTHANDLES_GET_RTHANDLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1DE24930)
-#define UNITYENGINE_RENDERING_RTHANDLES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1DE25110)
-#define UNITYENGINE_RENDERING_RTHANDLES_RELEASE_OFFSET UNITYSDK_OFFSET(0x1DE251B0)
-#define UNITYENGINE_RENDERING_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1DE25240)
-#define UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x1DE252C0)
-#define UNITYENGINE_RENDERING_RTHANDLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE25350)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_1_OFFSET UNITYSDK_OFFSET(0x1F29BC10)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_2_OFFSET UNITYSDK_OFFSET(0x1F29BDA0)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_3_OFFSET UNITYSDK_OFFSET(0x1F29BF90)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_4_OFFSET UNITYSDK_OFFSET(0x1F29C110)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_OFFSET UNITYSDK_OFFSET(0x1F29BA80)
+#define UNITYENGINE_RENDERING_RTHANDLES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F29C400)
+#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F29B960)
+#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1F29B8E0)
+#define UNITYENGINE_RENDERING_RTHANDLES_GET_RTHANDLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F29B9E0)
+#define UNITYENGINE_RENDERING_RTHANDLES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F29C1C0)
+#define UNITYENGINE_RENDERING_RTHANDLES_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F29C260)
+#define UNITYENGINE_RENDERING_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1F29C2F0)
+#define UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x1F29C370)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 34917;
+	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 35586;
 
 	class RTHandles : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::RTHandleSystem** StaticGet_s_DefaultInstance()
 		{
-			return (::UnityEngine::Rendering::RTHandleSystem**)Il2CppClass::FromTypeDefinitionIndex(RTHandles_TypeDefinitionIndex)->GetStaticField(0x449E0);
+			return (::UnityEngine::Rendering::RTHandleSystem**)UnitySDK::FromName("UnityEngine.Rendering", "RTHandles")->GetStaticField(0x5C3F0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 get_maxWidth()
@@ -107,5 +106,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

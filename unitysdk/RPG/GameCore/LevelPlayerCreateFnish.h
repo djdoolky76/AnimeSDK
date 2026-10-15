@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelPlayerCreateFnish; }
 
-#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2A0B0)
-#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2A060)
-#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_INIT_OFFSET UNITYSDK_OFFSET(0x1DD2A020)
-#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2A100)
+#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E99C0)
+#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E9970)
+#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E9920)
+#define RPG_GAMECORE_LEVELPLAYERCREATEFNISH_INIT_OFFSET UNITYSDK_OFFSET(0xE6E98E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPlayerCreateFnish_TypeDefinitionIndex = 57027;
+	inline static constexpr unsigned int LevelPlayerCreateFnish_TypeDefinitionIndex = 56849;
 
-	class LevelPlayerCreateFnish : public ::Class_1_BF7A075734D15E98
+	class LevelPlayerCreateFnish : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYERCREATEFNISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYERCREATEFNISH_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelPlayerCreateFnish* Init()
@@ -34,5 +35,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYERCREATEFNISH_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

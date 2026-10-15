@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineComponentBase.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class NoiseSettings; }
 
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_FROZENOISECORRECTION_OFFSET UNITYSDK_OFFSET(0x18C3C0D0)
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x18C3B3C0)
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x18C3B400)
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x18C3BF60)
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x18C3B410)
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_RESEED_OFFSET UNITYSDK_OFFSET(0x18C3C0F0)
-#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3C190)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_CTOR_OFFSET UNITYSDK_OFFSET(0x16658640)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_FROZENOISECORRECTION_OFFSET UNITYSDK_OFFSET(0x16658580)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x16657870)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x166578B0)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16658410)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x166578C0)
+#define CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_RESEED_OFFSET UNITYSDK_OFFSET(0x166585A0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBasicMultiChannelPerlin_TypeDefinitionIndex = 38473;
+	inline static constexpr unsigned int CinemachineBasicMultiChannelPerlin_TypeDefinitionIndex = 39770;
 
 	class CinemachineBasicMultiChannelPerlin : public ::Cinemachine::CinemachineComponentBase
 	{
@@ -27,14 +26,15 @@ namespace Cinemachine
 		::System::Single m_AmplitudeGain; // 0x64
 		::System::Single m_FrequencyGain; // 0x68
 		::System::Boolean mInitialized; // 0x6C
+		::System::Byte _padding0[0x3];
 		::System::Single mNoiseTime; // 0x70
 		::System::Boolean mFrozen; // 0x74
+		::System::Byte _padding1[0x3];
 		::System::Single m_FrozenAmplitudeGain; // 0x78
 		::UnityEngine::Vector3 mNoiseOffsets; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsValid()
@@ -47,9 +47,9 @@ namespace Cinemachine
 			return ((::Cinemachine::CinemachineCore_Stage(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_GET_STAGE_OFFSET))(this);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void MutateCameraState(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FrozeNoiseCorrection(::System::Boolean a1)
@@ -66,5 +66,6 @@ namespace Cinemachine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBASICMULTICHANNELPERLIN_INITIALIZE_OFFSET))(this);
 		}
+
 	};
 }

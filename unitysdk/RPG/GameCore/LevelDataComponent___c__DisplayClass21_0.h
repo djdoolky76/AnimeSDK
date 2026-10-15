@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class PBNONKAIAMK;
 
-class Class_1_7AB88D713F5121B3_45;
-
-#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD1E560)
-#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1DD20D70)
+#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE6DDE90)
+#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET UNITYSDK_OFFSET(0xE6E04D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 57753;
+	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 57599;
 
 	class LevelDataComponent___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 id; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _StatisticBattleTargetList_b__0(::Class_1_7AB88D713F5121B3_45* a1)
+		::System::Boolean _StatisticBattleTargetList_b__0(::PBNONKAIAMK* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_7AB88D713F5121B3_45*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::PBNONKAIAMK*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

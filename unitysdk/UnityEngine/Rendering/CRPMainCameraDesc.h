@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPMainCameraDesc_TypeDefinitionIndex = 4802;
+	inline static constexpr unsigned int CRPMainCameraDesc_TypeDefinitionIndex = 4807;
 
 	struct alignas(4) CRPMainCameraDesc
 	{
 		::System::Boolean isInit; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 width; // 0x14
 		::System::Int32 height; // 0x18
 		::System::Int32 pixelWidth; // 0x1C
@@ -22,6 +22,7 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Vector3 forward; // 0x34
 		::System::Int32 cameraType; // 0x40
 		::System::Boolean finalRender2RT; // 0x44
+		::System::Byte _padding1[0x3];
 		::System::Int32 cullingMask; // 0x48
 		::System::Int32 srcID; // 0x4C
 		::System::Int32 desID; // 0x50

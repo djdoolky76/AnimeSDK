@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/IncrementalReadDecoder.h"
 
-#define SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET UNITYSDK_OFFSET(0x1BABA820)
-#define SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET UNITYSDK_OFFSET(0x1BABA5A0)
-#define SYSTEM_XML_BINHEXDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1BABA3C0)
-#define SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1BABA3B0)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET UNITYSDK_OFFSET(0x1EE650E0)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET UNITYSDK_OFFSET(0x1EE64E60)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1EE64C80)
+#define SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1EE64C70)
 
 namespace System::Xml
 {
@@ -15,11 +15,10 @@ namespace System::Xml
 	{
 	public:
 		::Il2CppArray<::System::Byte>* buffer; // 0x10
-		::System::Boolean hasHalfByteCached; // 0x18
-		::System::Byte cachedHalfByte; // 0x19
+		::System::Int32 curIndex; // 0x18
 		::System::Int32 endIndex; // 0x1C
-		::System::Int32 curIndex; // 0x20
-
+		::System::Boolean hasHalfByteCached; // 0x20
+		::System::Byte cachedHalfByte; // 0x21
 		::System::Boolean get_IsFull()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET))(this);
@@ -35,9 +34,10 @@ namespace System::Xml
 			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Char>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Decode_2(::System::Char* a1, ::System::Char* a2, ::System::Byte* a3, ::System::Byte* a4, ::System::Boolean& a5, ::System::Byte& a6, ::System::Int32& a7, ::System::Int32& a8)
+		static ::System::Void Decode_2(::PVOID a1, ::PVOID a2, ::PVOID a3, ::PVOID a4, ::System::Boolean a5, ::System::Byte a6, ::System::Int32 a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::System::Char*, ::System::Char*, ::System::Byte*, ::System::Byte*, ::System::Boolean&, ::System::Byte&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::PVOID, ::System::Boolean, ::System::Byte, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
+
 	};
 }

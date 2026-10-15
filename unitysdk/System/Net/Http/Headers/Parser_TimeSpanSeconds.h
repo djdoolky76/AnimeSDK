@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7E3500)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2A300)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 3817;
+	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 3818;
 
 	class Parser_TimeSpanSeconds : public ::System::Object
 	{
 	public:
-		static ::System::Boolean TryParse(::System::String* a1, ::System::TimeSpan& a2)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::TimeSpan a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET))(a1, a2);
 		}
+
 	};
 }

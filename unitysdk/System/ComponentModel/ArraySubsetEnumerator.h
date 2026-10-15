@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Array; }
+namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C493550)
-#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C493520)
-#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C493540)
-#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C493510)
+#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB2D00)
+#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EFB2D40)
+#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EFB2D10)
+#define SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EFB2D30)
 
 namespace System::ComponentModel
 {
@@ -17,12 +17,11 @@ namespace System::ComponentModel
 	{
 	public:
 		::System::Array* array; // 0x10
-		::System::Int32 total; // 0x18
-		::System::Int32 current; // 0x1C
-
+		::System::Int32 current; // 0x18
+		::System::Int32 total; // 0x1C
 		::System::Void _ctor(::System::Array* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean MoveNext()
@@ -39,5 +38,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYSUBSETENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

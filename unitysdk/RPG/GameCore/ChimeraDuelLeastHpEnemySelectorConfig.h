@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelEntitiesSelectorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelLeastHpEnemySelectorConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_METHOD_3_76E456C56F3388BE_OFFSET UNITYSDK_OFFSET(0x1E3359F0)
-#define RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_METHOD_3_BBC10D73A4DE00AF_OFFSET UNITYSDK_OFFSET(0x1E335A90)
-#define RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E335A80)
+#define RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D575B10)
+#define RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D575B20)
+#define RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D575A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelLeastHpEnemySelectorConfig_TypeDefinitionIndex = 15762;
+	inline static constexpr unsigned int ChimeraDuelLeastHpEnemySelectorConfig_TypeDefinitionIndex = 15935;
 
 	class ChimeraDuelLeastHpEnemySelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_76E456C56F3388BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_METHOD_3_76E456C56F3388BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BBC10D73A4DE00AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_METHOD_3_BBC10D73A4DE00AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelLeastHpEnemySelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEASTHPENEMYSELECTORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Rendering/AmbientVolumeType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/AmbientVolumeType.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1EAC5180)
-#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1EAC5190)
-#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_SETGLOBALAMBIENTDIRTY_OFFSET UNITYSDK_OFFSET(0x1EAC51A0)
+#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1F3EC910)
+#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1F3EC920)
+#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_SETGLOBALAMBIENTDIRTY_OFFSET UNITYSDK_OFFSET(0x1F3EC930)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AmbientVolumneData_TypeDefinitionIndex = 4806;
+	inline static constexpr unsigned int AmbientVolumneData_TypeDefinitionIndex = 4811;
 
 	struct alignas(4) AmbientVolumneData
 	{
@@ -30,11 +28,12 @@ namespace UnityEngine::Rendering
 		::System::Int16 Priority; // 0x7C
 		::System::Byte CustomLightQualityFilter; // 0x7E
 		::System::Boolean IsInverse; // 0x7F
-
-		static ::System::Void AddAmbientVolumne(::System::Int32 a1, ::UnityEngine::Rendering::AmbientVolumneData& a2, ::System::String* a3)
+		/*
+		static ::System::Void AddAmbientVolumne(::System::Int32 a1, ::UnityEngine::Rendering::AmbientVolumneData a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Rendering::AmbientVolumneData&, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Rendering::AmbientVolumneData, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET))(a1, a2, a3);
 		}
+		*/
 
 		static ::System::Void RemoveAmbientVolumne(::System::Int32 a1)
 		{
@@ -45,5 +44,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_SETGLOBALAMBIENTDIRTY_OFFSET))();
 		}
+
 	};
 }

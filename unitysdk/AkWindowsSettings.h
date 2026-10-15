@@ -1,43 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkWwiseInitializationSettings_PlatformSettings.h"
-
 class AkCommonAdvancedSettings;
 class AkCommonCommSettings;
 class AkCommonUserSettings;
 class AkWindowsSettings_PlatformAdvancedSettings;
 
-#define AKWINDOWSSETTINGS_GETADVANCEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D2D8A50)
-#define AKWINDOWSSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D2D8A90)
-#define AKWINDOWSSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D2D8A10)
-#define AKWINDOWSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D8AD0)
+#define AKWINDOWSSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5ECFE0)
+#define AKWINDOWSSETTINGS_GETADVANCEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ECF60)
+#define AKWINDOWSSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ECFA0)
+#define AKWINDOWSSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ECF20)
 
-inline static constexpr unsigned int AkWindowsSettings_TypeDefinitionIndex = 43707;
+inline static constexpr unsigned int AkWindowsSettings_TypeDefinitionIndex = 44899;
 
-class AkWindowsSettings : public ::AkWwiseInitializationSettings_PlatformSettings
-{
-public:
-	::AkCommonUserSettings* UserSettings; // 0x30
-	::AkWindowsSettings_PlatformAdvancedSettings* AdvancedSettings; // 0x38
-	::AkCommonCommSettings* CommsSettings; // 0x40
-
-	::System::Void _ctor()
+	class AkWindowsSettings : public ::AkWwiseInitializationSettings_PlatformSettings
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS__CTOR_OFFSET))(this);
-	}
+	public:
+		::AkCommonUserSettings* UserSettings; // 0x30
+		::AkWindowsSettings_PlatformAdvancedSettings* AdvancedSettings; // 0x38
+		::AkCommonCommSettings* CommsSettings; // 0x40
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_CTOR_OFFSET))(this);
+		}
 
-	::AkCommonUserSettings* GetUserSettings()
-	{
-		return ((::AkCommonUserSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_GETUSERSETTINGS_OFFSET))(this);
-	}
+		::AkCommonUserSettings* GetUserSettings()
+		{
+			return ((::AkCommonUserSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_GETUSERSETTINGS_OFFSET))(this);
+		}
 
-	::AkCommonAdvancedSettings* GetAdvancedSettings()
-	{
-		return ((::AkCommonAdvancedSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_GETADVANCEDSETTINGS_OFFSET))(this);
-	}
+		::AkCommonAdvancedSettings* GetAdvancedSettings()
+		{
+			return ((::AkCommonAdvancedSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_GETADVANCEDSETTINGS_OFFSET))(this);
+		}
 
-	::AkCommonCommSettings* GetCommsSettings()
-	{
-		return ((::AkCommonCommSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_GETCOMMSSETTINGS_OFFSET))(this);
-	}
-};
+		::AkCommonCommSettings* GetCommsSettings()
+		{
+			return ((::AkCommonCommSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_GETCOMMSSETTINGS_OFFSET))(this);
+		}
+
+	};

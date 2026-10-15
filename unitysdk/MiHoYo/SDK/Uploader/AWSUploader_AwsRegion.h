@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int AWSUploader_AwsRegion_TypeDefinitionIndex = 47131;
+	inline static constexpr unsigned int AWSUploader_AwsRegion_TypeDefinitionIndex = 46671;
 
 	class AWSUploader_AwsRegion : public ::System::Object
 	{

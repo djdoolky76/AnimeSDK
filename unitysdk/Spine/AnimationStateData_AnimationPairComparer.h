@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/AnimationStateData_AnimationPair.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Spine/AnimationStateData_AnimationPair.h"
+namespace Spine { class AnimationStateData_AnimationPairComparer; }
 
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__EQUALS_OFFSET UNITYSDK_OFFSET(0x1604D680)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1604D6A0)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1604D6F0)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1604D6E0)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6D840)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6D830)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__EQUALS_OFFSET UNITYSDK_OFFSET(0x1EC6D7D0)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EC6D7F0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_AnimationPairComparer_TypeDefinitionIndex = 38343;
+	inline static constexpr unsigned int AnimationStateData_AnimationPairComparer_TypeDefinitionIndex = 39640;
 
 	class AnimationStateData_AnimationPairComparer : public ::System::Object
 	{
 	public:
 		static ::Spine::AnimationStateData_AnimationPairComparer** StaticGet_Instance()
 		{
-			return (::Spine::AnimationStateData_AnimationPairComparer**)Il2CppClass::FromTypeDefinitionIndex(AnimationStateData_AnimationPairComparer_TypeDefinitionIndex)->GetStaticField(0x51350);
+			return (::Spine::AnimationStateData_AnimationPairComparer**)UnitySDK::FromName("Spine", "AnimationPairComparer")->GetStaticField(0x4B040);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean System_Collections_Generic_IEqualityComparer_Spine_AnimationStateData_AnimationPair__Equals(::Spine::AnimationStateData_AnimationPair a1, ::Spine::AnimationStateData_AnimationPair a2)
@@ -39,5 +40,6 @@ namespace Spine
 		{
 			return ((::System::Int32(*)(::PVOID, ::Spine::AnimationStateData_AnimationPair))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,380 +1,469 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Decimal.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LASTFIXPOINT_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3BD2430)
-#define RPG_GAMECORE_LASTFIXPOINT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x84C2D0)
-#define RPG_GAMECORE_LASTFIXPOINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C68F00)
-#define RPG_GAMECORE_LASTFIXPOINT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B67D00)
-#define RPG_GAMECORE_LASTFIXPOINT_GET_RAWVALUE_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_05A8CEBA1136902B_OFFSET UNITYSDK_OFFSET(0x1EC61700)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1634B374B620CAB5_OFFSET UNITYSDK_OFFSET(0x1EC60CD0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_17E7E136A54D4A03_OFFSET UNITYSDK_OFFSET(0x1EC60D20)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_19670C25E7A4C8C8_OFFSET UNITYSDK_OFFSET(0x1EC62860)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_1_OFFSET UNITYSDK_OFFSET(0x1EC60B30)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_2_OFFSET UNITYSDK_OFFSET(0x1EC60B40)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_3_OFFSET UNITYSDK_OFFSET(0x1EC60B70)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_4_OFFSET UNITYSDK_OFFSET(0x1EC60CA0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_5_OFFSET UNITYSDK_OFFSET(0x1EC63020)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_6_OFFSET UNITYSDK_OFFSET(0x1EC63030)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_OFFSET UNITYSDK_OFFSET(0x1EC4E410)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1ED86B30A0AA91F2_OFFSET UNITYSDK_OFFSET(0x1EC60F60)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2073A237D87A42BF_OFFSET UNITYSDK_OFFSET(0x1EC62AD0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2336B6B1CEFCB2DE_OFFSET UNITYSDK_OFFSET(0x1EC4E620)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23742EB8FCB2D68A_OFFSET UNITYSDK_OFFSET(0x1EC628D0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23A7695E09CAA22D_1_OFFSET UNITYSDK_OFFSET(0x1EC612A0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23A7695E09CAA22D_2_OFFSET UNITYSDK_OFFSET(0x1EC612B0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23A7695E09CAA22D_OFFSET UNITYSDK_OFFSET(0x1EC61A50)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_24A6A5AD9D094EF3_OFFSET UNITYSDK_OFFSET(0x1EC62890)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_1_OFFSET UNITYSDK_OFFSET(0x1EC60A70)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_2_OFFSET UNITYSDK_OFFSET(0x1EC4E400)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_3_OFFSET UNITYSDK_OFFSET(0x1EC61510)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_4_OFFSET UNITYSDK_OFFSET(0x1EC628B0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_OFFSET UNITYSDK_OFFSET(0x1EC60A60)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2FB33185CFAE7902_1_OFFSET UNITYSDK_OFFSET(0x1EC60A80)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2FB33185CFAE7902_2_OFFSET UNITYSDK_OFFSET(0x1EC60F80)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2FB33185CFAE7902_OFFSET UNITYSDK_OFFSET(0x1EC4E440)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_319BD92A411D59A6_OFFSET UNITYSDK_OFFSET(0x1EC62810)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_32B428A4DB5C30AD_OFFSET UNITYSDK_OFFSET(0x1EC60FF0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_481BDCDB20848274_OFFSET UNITYSDK_OFFSET(0x1EC61A80)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x3C68F40)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_5B1A9BC53BD5D0A7_OFFSET UNITYSDK_OFFSET(0x1EC60B80)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_6D2509FD3C7F75C4_1_OFFSET UNITYSDK_OFFSET(0x1EC61A70)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_6D2509FD3C7F75C4_OFFSET UNITYSDK_OFFSET(0x1EC61A60)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_8C8713C7EBF5C697_OFFSET UNITYSDK_OFFSET(0x1EC612C0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_A2172401030892FD_OFFSET UNITYSDK_OFFSET(0x1EC620B0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AB9519FD4B49C0AD_OFFSET UNITYSDK_OFFSET(0x1EC60BA0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_1_OFFSET UNITYSDK_OFFSET(0x1EC60FB0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_2_OFFSET UNITYSDK_OFFSET(0x1EC60FC0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_3_OFFSET UNITYSDK_OFFSET(0x1EC60FD0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_4_OFFSET UNITYSDK_OFFSET(0x1EC4E470)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_5_OFFSET UNITYSDK_OFFSET(0x1EC60FE0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_OFFSET UNITYSDK_OFFSET(0x1EC60FA0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_B14048237263DFDC_OFFSET UNITYSDK_OFFSET(0x1EC62920)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_BA0EA45EEE7FA614_OFFSET UNITYSDK_OFFSET(0x1EC60AD0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_BAAF49D24B1D585A_1_OFFSET UNITYSDK_OFFSET(0x1EC52C20)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_BAAF49D24B1D585A_OFFSET UNITYSDK_OFFSET(0x1EC52C30)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_CF667B25396A76F4_OFFSET UNITYSDK_OFFSET(0x1EC61B90)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_D826F5DC70436677_OFFSET UNITYSDK_OFFSET(0x1EC62980)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_EF16EBF6101689CB_OFFSET UNITYSDK_OFFSET(0x1EC61550)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F28E7BF4A80ED513_1_OFFSET UNITYSDK_OFFSET(0x1EC62800)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F28E7BF4A80ED513_OFFSET UNITYSDK_OFFSET(0x1EC61B20)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F631F7D557F488AA_1_OFFSET UNITYSDK_OFFSET(0x1EC630B0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F631F7D557F488AA_OFFSET UNITYSDK_OFFSET(0x1EC63040)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FABB3B05C850E193_1_OFFSET UNITYSDK_OFFSET(0x1EC61290)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FABB3B05C850E193_2_OFFSET UNITYSDK_OFFSET(0x1EC4E3F0)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FABB3B05C850E193_OFFSET UNITYSDK_OFFSET(0x1EC60A40)
-#define RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FC2A4D98E469130D_OFFSET UNITYSDK_OFFSET(0x1EC60F20)
-#define RPG_GAMECORE_LASTFIXPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C68F20)
-#define RPG_GAMECORE_LASTFIXPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC63120)
-#define RPG_GAMECORE_LASTFIXPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C68F30)
-#define RPG_GAMECORE_LASTFIXPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16050)
+#define RPG_GAMECORE_LASTFIXPOINT_AGKNDMPPMBJ_OFFSET UNITYSDK_OFFSET(0x1DCDA7C0)
+#define RPG_GAMECORE_LASTFIXPOINT_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0x1DCC7F60)
+#define RPG_GAMECORE_LASTFIXPOINT_BBNJCKPKPDN_1_OFFSET UNITYSDK_OFFSET(0x1DCDC310)
+#define RPG_GAMECORE_LASTFIXPOINT_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x1DCDADA0)
+#define RPG_GAMECORE_LASTFIXPOINT_BFOGFNPAJHI_OFFSET UNITYSDK_OFFSET(0x1DCDA7F0)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_1_OFFSET UNITYSDK_OFFSET(0x1DCDADB0)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_2_OFFSET UNITYSDK_OFFSET(0x1DCDB570)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_3_OFFSET UNITYSDK_OFFSET(0x1DCDB580)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_4_OFFSET UNITYSDK_OFFSET(0x1DCCC780)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_5_OFFSET UNITYSDK_OFFSET(0x1DCCC770)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_6_OFFSET UNITYSDK_OFFSET(0x1DCDB590)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_7_OFFSET UNITYSDK_OFFSET(0x1DCDB630)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_8_OFFSET UNITYSDK_OFFSET(0x1DCC8170)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_9_OFFSET UNITYSDK_OFFSET(0x1DCDCBC0)
+#define RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_OFFSET UNITYSDK_OFFSET(0x1DCDB560)
+#define RPG_GAMECORE_LASTFIXPOINT_BLJCAABCLNA_OFFSET UNITYSDK_OFFSET(0x1DCDADC0)
+#define RPG_GAMECORE_LASTFIXPOINT_CCKCPKPCNOL_OFFSET UNITYSDK_OFFSET(0x1DCDAA70)
+#define RPG_GAMECORE_LASTFIXPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCDCC30)
+#define RPG_GAMECORE_LASTFIXPOINT_CIJAKCBIJFF_OFFSET UNITYSDK_OFFSET(0x1DCDA6A0)
+#define RPG_GAMECORE_LASTFIXPOINT_CJIGHOGJGHJ_OFFSET UNITYSDK_OFFSET(0x1DCDA840)
+#define RPG_GAMECORE_LASTFIXPOINT_CNPGFLLNLNK_OFFSET UNITYSDK_OFFSET(0x1DCDC3A0)
+#define RPG_GAMECORE_LASTFIXPOINT_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3C22C80)
+#define RPG_GAMECORE_LASTFIXPOINT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C43210)
+#define RPG_GAMECORE_LASTFIXPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define RPG_GAMECORE_LASTFIXPOINT_DDHGIBADCLI_OFFSET UNITYSDK_OFFSET(0x1DCDB020)
+#define RPG_GAMECORE_LASTFIXPOINT_DIDAONAFBJN_OFFSET UNITYSDK_OFFSET(0x1DCDA650)
+#define RPG_GAMECORE_LASTFIXPOINT_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1DCDAAC0)
+#define RPG_GAMECORE_LASTFIXPOINT_DMALGOBCNGI_OFFSET UNITYSDK_OFFSET(0x1DCDC3C0)
+#define RPG_GAMECORE_LASTFIXPOINT_EBICBAFKJAM_OFFSET UNITYSDK_OFFSET(0x1DCDA580)
+#define RPG_GAMECORE_LASTFIXPOINT_EBKOAAPDLOD_OFFSET UNITYSDK_OFFSET(0x1DCDC370)
+#define RPG_GAMECORE_LASTFIXPOINT_EBLLCHBCJGG_OFFSET UNITYSDK_OFFSET(0x1DCDA6C0)
+#define RPG_GAMECORE_LASTFIXPOINT_EFNAJMADAHM_OFFSET UNITYSDK_OFFSET(0x1DCDCB40)
+#define RPG_GAMECORE_LASTFIXPOINT_EMPAMNAKAMB_OFFSET UNITYSDK_OFFSET(0x1DCDAAD0)
+#define RPG_GAMECORE_LASTFIXPOINT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2F0A270)
+#define RPG_GAMECORE_LASTFIXPOINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C431E0)
+#define RPG_GAMECORE_LASTFIXPOINT_FCFKGLPCPOP_OFFSET UNITYSDK_OFFSET(0x1DCDA560)
+#define RPG_GAMECORE_LASTFIXPOINT_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1DCDAAB0)
+#define RPG_GAMECORE_LASTFIXPOINT_FIDGBICAKHI_OFFSET UNITYSDK_OFFSET(0x1DCDAA30)
+#define RPG_GAMECORE_LASTFIXPOINT_FOGJJMFFHFE_OFFSET UNITYSDK_OFFSET(0x1DCDBBC0)
+#define RPG_GAMECORE_LASTFIXPOINT_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1DCDC5E0)
+#define RPG_GAMECORE_LASTFIXPOINT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF9460)
+#define RPG_GAMECORE_LASTFIXPOINT_GET_RAWVALUE_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define RPG_GAMECORE_LASTFIXPOINT_GGMFJICACKI_OFFSET UNITYSDK_OFFSET(0x3C43220)
+#define RPG_GAMECORE_LASTFIXPOINT_GIAOOPPHODF_OFFSET UNITYSDK_OFFSET(0x1DCDA660)
+#define RPG_GAMECORE_LASTFIXPOINT_IMNMEODDPJM_OFFSET UNITYSDK_OFFSET(0x1DCDB210)
+#define RPG_GAMECORE_LASTFIXPOINT_INIGNGNGMLC_OFFSET UNITYSDK_OFFSET(0x1DCC7F50)
+#define RPG_GAMECORE_LASTFIXPOINT_INJDLADGEMP_OFFSET UNITYSDK_OFFSET(0x1DCC7F40)
+#define RPG_GAMECORE_LASTFIXPOINT_JGKIKLLKHEM_OFFSET UNITYSDK_OFFSET(0x1DCDAB00)
+#define RPG_GAMECORE_LASTFIXPOINT_KCAOGOABEFN_OFFSET UNITYSDK_OFFSET(0x1DCDAAF0)
+#define RPG_GAMECORE_LASTFIXPOINT_KDMFMIFMBFI_OFFSET UNITYSDK_OFFSET(0x1DCDC320)
+#define RPG_GAMECORE_LASTFIXPOINT_KKNANAIFIOM_OFFSET UNITYSDK_OFFSET(0x1DCDAA90)
+#define RPG_GAMECORE_LASTFIXPOINT_KOHLLMMHBJA_OFFSET UNITYSDK_OFFSET(0x1DCC7FC0)
+#define RPG_GAMECORE_LASTFIXPOINT_LANBHJGNMFI_OFFSET UNITYSDK_OFFSET(0x1DCC7F90)
+#define RPG_GAMECORE_LASTFIXPOINT_LKEEMENAMMC_OFFSET UNITYSDK_OFFSET(0x1DCDA690)
+#define RPG_GAMECORE_LASTFIXPOINT_LPEHHMHPCMG_1_OFFSET UNITYSDK_OFFSET(0x1DCDC490)
+#define RPG_GAMECORE_LASTFIXPOINT_LPEHHMHPCMG_OFFSET UNITYSDK_OFFSET(0x1DCDA5F0)
+#define RPG_GAMECORE_LASTFIXPOINT_LPLLKOPJANP_OFFSET UNITYSDK_OFFSET(0x1DCDB6A0)
+#define RPG_GAMECORE_LASTFIXPOINT_MIAFMBHCMOG_OFFSET UNITYSDK_OFFSET(0x1DCDA590)
+#define RPG_GAMECORE_LASTFIXPOINT_MLMMOLELGHO_OFFSET UNITYSDK_OFFSET(0x1DCDCB50)
+#define RPG_GAMECORE_LASTFIXPOINT_NDCKJILGBGE_OFFSET UNITYSDK_OFFSET(0x1DCDC3E0)
+#define RPG_GAMECORE_LASTFIXPOINT_NGEDLFOBPJI_OFFSET UNITYSDK_OFFSET(0x1DCDADD0)
+#define RPG_GAMECORE_LASTFIXPOINT_NJHBPKGMDHJ_OFFSET UNITYSDK_OFFSET(0x1DCDA5A0)
+#define RPG_GAMECORE_LASTFIXPOINT_NKAACMGNNPK_OFFSET UNITYSDK_OFFSET(0x1DCDCB30)
+#define RPG_GAMECORE_LASTFIXPOINT_NMPBLGMCAFD_OFFSET UNITYSDK_OFFSET(0x1DCDB060)
+#define RPG_GAMECORE_LASTFIXPOINT_NNBPBHMNOJJ_OFFSET UNITYSDK_OFFSET(0x1DCDC430)
+#define RPG_GAMECORE_LASTFIXPOINT_PPOCGDIELHP_OFFSET UNITYSDK_OFFSET(0x1DCDAAE0)
+#define RPG_GAMECORE_LASTFIXPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C43200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LastFixPoint_TypeDefinitionIndex = 9888;
+	inline static constexpr unsigned int LastFixPoint_TypeDefinitionIndex = 9946;
 
-	struct alignas(8) LastFixPoint
+	struct alignas(4) LastFixPoint
 	{
-		static ::RPG::GameCore::LastFixPoint* StaticGet_InvalidLastFixPoint()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108C0);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_Log2Max()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108C8);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_MinValue()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108D0);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_LutInterval()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108D8);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_MaxValue()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108E0);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_Epsilon()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108E8);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_Pi()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108F0);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_Zero()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x108F8);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_PiTimes2()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10900);
-		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_One()
-		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10908);
-		}
-		static ::System::Decimal* StaticGet_Precision()
-		{
-			return (::System::Decimal*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10910);
-		}
+		::System::Int64 m_rawValue; // 0x10
 		static ::RPG::GameCore::LastFixPoint* StaticGet_PiInv()
 		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10920);
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB980);
 		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_Pi()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB988);
+		}
+
 		static ::RPG::GameCore::LastFixPoint* StaticGet_PiOver2Inv()
 		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10928);
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB990);
 		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_PiOver2()
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_MinValue()
 		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10930);
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB998);
 		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_Ln2()
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_One()
 		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10938);
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9A0);
 		}
-		static ::RPG::GameCore::LastFixPoint* StaticGet_s_FixEpsilon()
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_PiTimes2()
 		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10940);
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9A8);
 		}
+
 		static ::RPG::GameCore::LastFixPoint* StaticGet_Log2Min()
 		{
-			return (::RPG::GameCore::LastFixPoint*)Il2CppClass::FromTypeDefinitionIndex(LastFixPoint_TypeDefinitionIndex)->GetStaticField(0x10948);
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9B0);
 		}
-		// static const ::System::Int64 MAX_VALUE = 0x7FFFFFFFFFFFFFFF; // 0x0
-		// static const ::System::Int64 MIN_VALUE = 0x8000000000000000; // 0x0
-		// static const ::System::Int32 NUM_BITS = 0x40; // 0x0
-		// static const ::System::Int32 FRACTIONAL_SLIDE = 0x0; // 0x0
-		// static const ::System::Int32 FRACTIONAL_PLACES = 0x20; // 0x0
-		// static const ::System::Int64 ONE = 0x100000000; // 0x0
-		// static const ::System::Int64 PI_TIMES_2 = 0x6487ED511; // 0x0
-		// static const ::System::Int64 PI = 0x3243F6A88; // 0x0
-		// static const ::System::Int64 PI_OVER_2 = 0x1921FB544; // 0x0
-		// static const ::System::Int64 LN2 = 0xB17217F7; // 0x0
-		// static const ::System::Int64 LOG2MAX = 0x1F00000000; // 0x0
-		// static const ::System::Int64 LOG2MIN = 0xFFFFFFE000000000; // 0x0
-		// static const ::System::Int64 EPSILON = 0x1000; // 0x0
-		// static const ::System::Int32 LUT_SIZE = 0x3243F; // 0x0
-		// static const ::System::Int64 FRACTIONAL_CUT = 0xFFFFFFFF; // 0x0
-		// static const ::System::UInt64 INTEGER_CUT = 0xFFFFFFFF00000000; // 0x0
-		::System::Int64 m_rawValue; // 0x10
 
+		static ::RPG::GameCore::LastFixPoint* StaticGet_InvalidLastFixPoint()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9B8);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_Log2Max()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9C0);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_Ln2()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9C8);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_Zero()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9D0);
+		}
+
+		static ::System::Decimal* StaticGet_Precision()
+		{
+			return (::System::Decimal*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9D8);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_Epsilon()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9E8);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_MaxValue()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9F0);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_LutInterval()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xB9F8);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_PiOver2()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xBA00);
+		}
+
+		static ::RPG::GameCore::LastFixPoint* StaticGet_s_FixEpsilon()
+		{
+			return (::RPG::GameCore::LastFixPoint*)UnitySDK::FromName("RPG.GameCore", "LastFixPoint")->GetStaticField(0xBA08);
+		}
+
+		// static const ::System::Object MAX_VALUE; // 0x0
+		// static const ::System::Object MIN_VALUE; // 0x0
+		// static const ::System::Object NUM_BITS; // 0x0
+		// static const ::System::Object FRACTIONAL_SLIDE; // 0x0
+		// static const ::System::Object FRACTIONAL_PLACES; // 0x0
+		// static const ::System::Object ONE; // 0x0
+		// static const ::System::Object PI_TIMES_2; // 0x0
+		// static const ::System::Object PI; // 0x0
+		// static const ::System::Object PI_OVER_2; // 0x0
+		// static const ::System::Object LN2; // 0x0
+		// static const ::System::Object LOG2MAX; // 0x0
+		// static const ::System::Object LOG2MIN; // 0x0
+		// static const ::System::Object EPSILON; // 0x0
+		// static const ::System::Object LUT_SIZE; // 0x0
+		// static const ::System::Object FRACTIONAL_CUT; // 0x0
+		// static const ::System::Object INTEGER_CUT; // 0x0
 		::System::Void _ctor(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 Method_2_FABB3B05C850E193(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::System::Int32 FCFKGLPCPOP(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FABB3B05C850E193_OFFSET))(a1);
+			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_FCFKGLPCPOP_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint LANBHJGNMFI(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_LANBHJGNMFI_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint EBICBAFKJAM(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_EBICBAFKJAM_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint MIAFMBHCMOG(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_MIAFMBHCMOG_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint NJHBPKGMDHJ(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_NJHBPKGMDHJ_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint LPEHHMHPCMG(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_LPEHHMHPCMG_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint INIGNGNGMLC(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_INIGNGNGMLC_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint ALJJDGONFDD(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_ALJJDGONFDD_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint DIDAONAFBJN(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_DIDAONAFBJN_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint GIAOOPPHODF(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_GIAOOPPHODF_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint LKEEMENAMMC(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_LKEEMENAMMC_OFFSET))(a1, a2);
+		}
+		*/
+
+		static ::System::Int64 CIJAKCBIJFF(::System::Int64 a1, ::System::Int64 a2, ::System::Boolean a3)
+		{
+			return ((::System::Int64(*)(::System::Int64, ::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CIJAKCBIJFF_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::GameCore::LastFixPoint Method_2_2FB33185CFAE7902(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint EBLLCHBCJGG(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2FB33185CFAE7902_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_EBLLCHBCJGG_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint AGKNDMPPMBJ(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_AGKNDMPPMBJ_OFFSET))(a1, a2);
+		}
+		*/
+
+		static ::System::Int32 BFOGFNPAJHI(::System::UInt64 a1)
+		{
+			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BFOGFNPAJHI_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::LastFixPoint Method_2_2E1CA500ED272DCB(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint CJIGHOGJGHJ(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CJIGHOGJGHJ_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_2E1CA500ED272DCB_1(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint FIDGBICAKHI(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_1_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_FIDGBICAKHI_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_2FB33185CFAE7902_1(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint CCKCPKPCNOL(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2FB33185CFAE7902_1_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CCKCPKPCNOL_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_BA0EA45EEE7FA614(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint KKNANAIFIOM(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_BA0EA45EEE7FA614_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_KKNANAIFIOM_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_2E1CA500ED272DCB_2(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::System::Boolean FEIIDFFOICL(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_2_OFFSET))(a1);
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_FEIIDFFOICL_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::Boolean DLDBLNNPHKE(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_DLDBLNNPHKE_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B_1(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::Boolean EMPAMNAKAMB(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_1_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_EMPAMNAKAMB_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B_2(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::Boolean PPOCGDIELHP(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_2_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_PPOCGDIELHP_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B_3(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::Boolean KOHLLMMHBJA(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_3_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_KOHLLMMHBJA_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Int64 Method_2_5B1A9BC53BD5D0A7(::System::Int64 a1, ::System::Int64 a2, ::System::Boolean& a3)
+		/*
+		static ::System::Boolean KCAOGOABEFN(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::System::Int64(*)(::System::Int64, ::System::Int64, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_5B1A9BC53BD5D0A7_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_KCAOGOABEFN_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_AB9519FD4B49C0AD(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint JGKIKLLKHEM(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AB9519FD4B49C0AD_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_JGKIKLLKHEM_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B_4(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint NGEDLFOBPJI(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_4_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_NGEDLFOBPJI_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Int32 Method_2_1634B374B620CAB5(::System::UInt64 a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint DDHGIBADCLI(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1634B374B620CAB5_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_DDHGIBADCLI_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_17E7E136A54D4A03(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint NMPBLGMCAFD(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_17E7E136A54D4A03_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_NMPBLGMCAFD_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_FC2A4D98E469130D(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint IMNMEODDPJM(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FC2A4D98E469130D_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_IMNMEODDPJM_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_1ED86B30A0AA91F2(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint BIIMDAFMJNF(::System::Int64 a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1ED86B30A0AA91F2_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_2FB33185CFAE7902_2(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::System::Int64 BIIMDAFMJNF_1(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2FB33185CFAE7902_2_OFFSET))(a1);
+			return ((::System::Int64(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_1_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_AFF1A89C4884608F(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint BIIMDAFMJNF_2(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_2_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_AFF1A89C4884608F_1(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::Single BIIMDAFMJNF_3(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_1_OFFSET))(a1, a2);
+			return ((::System::Single(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_3_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_AFF1A89C4884608F_2(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint BIIMDAFMJNF_4(::System::Double a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_2_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::Double))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_4_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_AFF1A89C4884608F_3(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::Double BIIMDAFMJNF_5(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_3_OFFSET))(a1, a2);
+			return ((::System::Double(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_5_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_AFF1A89C4884608F_4(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::RPG::GameCore::LastFixPoint BIIMDAFMJNF_6(::System::Decimal a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_4_OFFSET))(a1, a2);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::Decimal))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_6_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_AFF1A89C4884608F_5(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		/*
+		static ::System::UInt32 BIIMDAFMJNF_7(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_AFF1A89C4884608F_5_OFFSET))(a1, a2);
+			return ((::System::UInt32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_7_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::LastFixPoint Method_2_32B428A4DB5C30AD(::RPG::GameCore::LastFixPoint a1)
+		/*
+		static ::System::Decimal BIIMDAFMJNF_8(::RPG::GameCore::LastFixPoint a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_32B428A4DB5C30AD_OFFSET))(a1);
+			return ((::System::Decimal(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_8_OFFSET))(a1);
 		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_8C8713C7EBF5C697(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_8C8713C7EBF5C697_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_2E1CA500ED272DCB_3(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_3_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_EF16EBF6101689CB(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_EF16EBF6101689CB_OFFSET))(a1, a2);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_05A8CEBA1136902B(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_05A8CEBA1136902B_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_23A7695E09CAA22D(::System::Int64 a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23A7695E09CAA22D_OFFSET))(a1);
-		}
-
-		static ::System::Int64 Method_2_23A7695E09CAA22D_1(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Int64(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23A7695E09CAA22D_1_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_6D2509FD3C7F75C4(::System::Single a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_6D2509FD3C7F75C4_OFFSET))(a1);
-		}
-
-		static ::System::Single Method_2_6D2509FD3C7F75C4_1(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Single(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_6D2509FD3C7F75C4_1_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_BAAF49D24B1D585A(::System::Double a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::Double))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_BAAF49D24B1D585A_OFFSET))(a1);
-		}
-
-		static ::System::Double Method_2_BAAF49D24B1D585A_1(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Double(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_BAAF49D24B1D585A_1_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_481BDCDB20848274(::System::Decimal a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::Decimal))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_481BDCDB20848274_OFFSET))(a1);
-		}
-
-		static ::System::UInt32 Method_2_F28E7BF4A80ED513(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::UInt32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F28E7BF4A80ED513_OFFSET))(a1);
-		}
-
-		static ::System::Decimal Method_2_2336B6B1CEFCB2DE(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Decimal(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2336B6B1CEFCB2DE_OFFSET))(a1);
-		}
+		*/
 
 		::System::Boolean Equals(::System::Object* a1)
 		{
@@ -386,34 +475,40 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals_1(::RPG::GameCore::LastFixPoint a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		::System::Int32 CompareTo(::RPG::GameCore::LastFixPoint a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_COMPARETO_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_TOSTRING_OFFSET))(this);
 		}
 
-		static ::RPG::GameCore::LastFixPoint Method_2_23A7695E09CAA22D_2(::System::Int64 a1)
+		/*
+		static ::RPG::GameCore::LastFixPoint BLJCAABCLNA(::System::Int64 a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23A7695E09CAA22D_2_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BLJCAABCLNA_OFFSET))(a1);
+		}
+		*/
+
+		static ::System::Void LPLLKOPJANP()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_LPLLKOPJANP_OFFSET))();
 		}
 
-		static ::System::Void Method_2_CF667B25396A76F4()
+		static ::System::Void FOGJJMFFHFE()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_CF667B25396A76F4_OFFSET))();
-		}
-
-		static ::System::Void Method_2_A2172401030892FD()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_A2172401030892FD_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_FOGJJMFFHFE_OFFSET))();
 		}
 
 		::System::Int64 get_RawValue()
@@ -421,88 +516,115 @@ namespace RPG::GameCore
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_GET_RAWVALUE_OFFSET))(this);
 		}
 
-		::System::Single Method_2_5323F2DF46A044DA()
+		::System::Single GGMFJICACKI()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_5323F2DF46A044DA_OFFSET))(this);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_FABB3B05C850E193_1(::System::Int32 a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FABB3B05C850E193_1_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_F28E7BF4A80ED513_1(::System::UInt32 a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F28E7BF4A80ED513_1_OFFSET))(a1);
-		}
-
-		static ::System::Boolean Method_2_319BD92A411D59A6(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
-		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_319BD92A411D59A6_OFFSET))(a1, a2);
-		}
-
-		static ::System::Boolean Method_2_19670C25E7A4C8C8(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_19670C25E7A4C8C8_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_24A6A5AD9D094EF3(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2, ::RPG::GameCore::LastFixPoint a3)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_24A6A5AD9D094EF3_OFFSET))(a1, a2, a3);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_2E1CA500ED272DCB_4(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2E1CA500ED272DCB_4_OFFSET))(a1);
-		}
-
-		static ::System::Int32 Method_2_23742EB8FCB2D68A(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_23742EB8FCB2D68A_OFFSET))(a1);
-		}
-
-		static ::System::Int32 Method_2_FABB3B05C850E193_2(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_FABB3B05C850E193_2_OFFSET))(a1);
-		}
-
-		static ::System::Int32 Method_2_B14048237263DFDC(::RPG::GameCore::LastFixPoint a1)
-		{
-			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_B14048237263DFDC_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_D826F5DC70436677(::RPG::GameCore::LastFixPoint a1, ::System::Int32 a2)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_D826F5DC70436677_OFFSET))(a1, a2);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_2073A237D87A42BF(::System::String* a1)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_2073A237D87A42BF_OFFSET))(a1);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B_5(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_5_OFFSET))(a1, a2);
-		}
-
-		static ::RPG::GameCore::LastFixPoint Method_2_1DFDF000E14C6D7B_6(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
-		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_1DFDF000E14C6D7B_6_OFFSET))(a1, a2);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_GGMFJICACKI_OFFSET))(this);
 		}
 
 		/*
-		static ::RPG::GameCore::LastFixPoint Method_2_F631F7D557F488AA(::RPG::GameCore::FixPoint a1)
+		static ::RPG::GameCore::LastFixPoint BBNJCKPKPDN(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F631F7D557F488AA_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BBNJCKPKPDN_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::RPG::GameCore::LastFixPoint Method_2_F631F7D557F488AA_1(::RPG::GameCore::FixPoint a1)
+		static ::RPG::GameCore::LastFixPoint BBNJCKPKPDN_1(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_METHOD_2_F631F7D557F488AA_1_OFFSET))(a1);
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BBNJCKPKPDN_1_OFFSET))(a1);
 		}
 		*/
+
+		/*
+		static ::System::Boolean KDMFMIFMBFI(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_KDMFMIFMBFI_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::System::Boolean EBKOAAPDLOD(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_EBKOAAPDLOD_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint CNPGFLLNLNK(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2, ::RPG::GameCore::LastFixPoint a3)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_CNPGFLLNLNK_OFFSET))(a1, a2, a3);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint DMALGOBCNGI(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_DMALGOBCNGI_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::System::Int32 NDCKJILGBGE(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_NDCKJILGBGE_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::System::Int32 INJDLADGEMP(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_INJDLADGEMP_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::System::Int32 NNBPBHMNOJJ(::RPG::GameCore::LastFixPoint a1)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_NNBPBHMNOJJ_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint LPEHHMHPCMG_1(::RPG::GameCore::LastFixPoint a1, ::System::Int32 a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_LPEHHMHPCMG_1_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint FPKLDCGAJGP(::System::String* a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_FPKLDCGAJGP_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint NKAACMGNNPK(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_NKAACMGNNPK_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint EFNAJMADAHM(::RPG::GameCore::LastFixPoint a1, ::RPG::GameCore::LastFixPoint a2)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::LastFixPoint, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_EFNAJMADAHM_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint MLMMOLELGHO(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_MLMMOLELGHO_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::RPG::GameCore::LastFixPoint BIIMDAFMJNF_9(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::RPG::GameCore::LastFixPoint(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LASTFIXPOINT_BIIMDAFMJNF_9_OFFSET))(a1);
+		}
+		*/
+
 	};
 }

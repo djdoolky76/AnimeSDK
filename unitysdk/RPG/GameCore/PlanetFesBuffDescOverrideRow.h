@@ -2,30 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlanetFesBuffDescOverrideRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79AB90)
-#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79AD10)
+#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F65D0)
+#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F6450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 12199;
+	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 12280;
 
 	class PlanetFesBuffDescOverrideRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Decription; // 0x10
-		::System::UInt32 ID; // 0x20
-
+		::System::UInt32 ID; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Decription; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlanetFesBuffDescOverrideRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlanetFesBuffDescOverrideRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesBuffDescOverrideRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlanetFesBuffDescOverrideRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class BattleActionEventRow; }
 namespace RPG::GameCore { class HeliobusSkillRow; }
 
-#define RPG_CLIENT_HELIOBUSSKILLDATA_GET_BATTLEACTIONDATA_OFFSET UNITYSDK_OFFSET(0x198179E0)
-#define RPG_CLIENT_HELIOBUSSKILLDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x19817A00)
-#define RPG_CLIENT_HELIOBUSSKILLDATA_GET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0x198179C0)
-#define RPG_CLIENT_HELIOBUSSKILLDATA_SETSKILLUNLOCK_OFFSET UNITYSDK_OFFSET(0x19817970)
-#define RPG_CLIENT_HELIOBUSSKILLDATA_SET_BATTLEACTIONDATA_OFFSET UNITYSDK_OFFSET(0x198179F0)
-#define RPG_CLIENT_HELIOBUSSKILLDATA_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x19817A10)
-#define RPG_CLIENT_HELIOBUSSKILLDATA_SET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0x198179D0)
-#define RPG_CLIENT_HELIOBUSSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19817900)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD312790)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_GET_BATTLEACTIONDATA_OFFSET UNITYSDK_OFFSET(0xD31ADA0)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xD31ADC0)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_GET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0xD31AD80)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_SETSKILLUNLOCK_OFFSET UNITYSDK_OFFSET(0xD312B00)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_SET_BATTLEACTIONDATA_OFFSET UNITYSDK_OFFSET(0xD31ADB0)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xD31ADD0)
+#define RPG_CLIENT_HELIOBUSSKILLDATA_SET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0xD31AD90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusSkillData_TypeDefinitionIndex = 65738;
+	inline static constexpr unsigned int HeliobusSkillData_TypeDefinitionIndex = 65673;
 
 	class HeliobusSkillData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BattleActionEventRow* _BattleActionData_k__BackingField; // 0x10
-		::RPG::GameCore::HeliobusSkillRow* _SkillData_k__BackingField; // 0x18
+		::RPG::GameCore::HeliobusSkillRow* _SkillData_k__BackingField; // 0x10
+		::RPG::GameCore::BattleActionEventRow* _BattleActionData_k__BackingField; // 0x18
 		::System::Boolean _IsUnlocked_k__BackingField; // 0x20
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSSKILLDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSSKILLDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void SetSkillUnlock(::System::Boolean a1)
@@ -64,5 +62,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSSKILLDATA_SET_ISUNLOCKED_OFFSET))(this, a1);
 		}
+
 	};
 }

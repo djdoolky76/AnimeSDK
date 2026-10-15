@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class KraterWorldShopUpgradeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_METHOD_2_81AB38B5B1B79088_OFFSET UNITYSDK_OFFSET(0x1C10A860)
-#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C10A930)
+#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7756B0)
+#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7755E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int KraterWorldShopUpgradeConfig_TypeDefinitionIndex = 16639;
+	inline static constexpr unsigned int KraterWorldShopUpgradeConfig_TypeDefinitionIndex = 16815;
 
 	class KraterWorldShopUpgradeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Single DelayTime; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_81AB38B5B1B79088(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::KraterWorldShopUpgradeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::KraterWorldShopUpgradeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::KraterWorldShopUpgradeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_METHOD_2_81AB38B5B1B79088_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::KraterWorldShopUpgradeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

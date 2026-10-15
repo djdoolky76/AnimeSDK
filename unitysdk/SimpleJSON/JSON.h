@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1EED8410)
+#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1EC26310)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9909;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9967;
 
 	class JSON : public ::System::Object
 	{
@@ -18,5 +17,6 @@ namespace SimpleJSON
 		{
 			return ((::SimpleJSON::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSON_PARSE_OFFSET))(a1);
 		}
+
 	};
 }

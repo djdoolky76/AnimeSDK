@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/Bootstring.h"
 
-#define SYSTEM_GLOBALIZATION_PUNYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D8BC60)
+#define SYSTEM_GLOBALIZATION_PUNYCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C205C00)
 
 namespace System::Globalization
 {
@@ -13,7 +13,8 @@ namespace System::Globalization
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_PUNYCODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_PUNYCODE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

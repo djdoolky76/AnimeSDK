@@ -2,50 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class ILinkImageText; }
+namespace MiHoYo::SDK { class Protocol; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PROTOCOL_AWAKE_OFFSET UNITYSDK_OFFSET(0x19EA8C50)
-#define MIHOYO_SDK_PROTOCOL_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x19EA9E00)
-#define MIHOYO_SDK_PROTOCOL_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x19EA9CC0)
-#define MIHOYO_SDK_PROTOCOL_HIDE_OFFSET UNITYSDK_OFFSET(0x19EA8BE0)
-#define MIHOYO_SDK_PROTOCOL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19EA9F70)
-#define MIHOYO_SDK_PROTOCOL_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x19EA9E20)
-#define MIHOYO_SDK_PROTOCOL_SHOW_1_OFFSET UNITYSDK_OFFSET(0x19EA8AE0)
-#define MIHOYO_SDK_PROTOCOL_SHOW_OFFSET UNITYSDK_OFFSET(0x19EA89E0)
-#define MIHOYO_SDK_PROTOCOL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x19EA91E0)
-#define MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET UNITYSDK_OFFSET(0x19EA9FE0)
-#define MIHOYO_SDK_PROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA9F90)
+#define MIHOYO_SDK_PROTOCOL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF80F50)
+#define MIHOYO_SDK_PROTOCOL_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BF821F0)
+#define MIHOYO_SDK_PROTOCOL_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BF820B0)
+#define MIHOYO_SDK_PROTOCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF82380)
+#define MIHOYO_SDK_PROTOCOL_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF80EE0)
+#define MIHOYO_SDK_PROTOCOL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF82360)
+#define MIHOYO_SDK_PROTOCOL_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1BF82210)
+#define MIHOYO_SDK_PROTOCOL_SHOW_1_OFFSET UNITYSDK_OFFSET(0x1BF80DE0)
+#define MIHOYO_SDK_PROTOCOL_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF80CE0)
+#define MIHOYO_SDK_PROTOCOL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BF814E0)
+#define MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET UNITYSDK_OFFSET(0x1BF823D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Protocol_TypeDefinitionIndex = 8205;
+	inline static constexpr unsigned int Protocol_TypeDefinitionIndex = 8248;
 
 	class Protocol : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Protocol** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Protocol**)Il2CppClass::FromTypeDefinitionIndex(Protocol_TypeDefinitionIndex)->GetStaticField(0x1B590);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* UserAgreementBtnPath; // 0x0
-		// static const ::System::String* PrivacyBtnPath; // 0x0
-		// static const ::System::String* RefuseBtnPath; // 0x0
-		// static const ::System::String* AcceptBtnPath; // 0x0
-		// static const ::System::String* TitlePath; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* RefuseBtnTextPath; // 0x0
-		// static const ::System::String* AcceptBtnTextPath; // 0x0
-		// static const ::System::String* LINK_ID_USERAGREEMENT; // 0x0
-		// static const ::System::String* LINK_ID_PRIVACY; // 0x0
-		// static const ::System::String* LINK_ID_MINORS; // 0x0
-		// static const ::System::String* LINK_ID_THIRDPRIVACY; // 0x0
 		::UnityEngine::UI::Button* refuseButton; // 0x58
 		::UnityEngine::UI::Button* acceptButton; // 0x60
 		::UnityEngine::GameObject* descTextObject; // 0x68
@@ -59,11 +42,29 @@ namespace MiHoYo::SDK
 		::System::Action* OnTeenagerUserAgreement; // 0xA8
 		::System::Action* OnThirdPrivacy; // 0xB0
 		::System::Boolean isUpdate; // 0xB8
+		::System::Byte _padding0[0x7];
 		::System::String* m_strTitle; // 0xC0
+		static ::MiHoYo::SDK::Protocol** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Protocol**)UnitySDK::FromName("MiHoYo.SDK", "Protocol")->GetStaticField(0x22F00);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* UserAgreementBtnPath; // 0x0
+		// static const ::System::String* PrivacyBtnPath; // 0x0
+		// static const ::System::String* RefuseBtnPath; // 0x0
+		// static const ::System::String* AcceptBtnPath; // 0x0
+		// static const ::System::String* TitlePath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* RefuseBtnTextPath; // 0x0
+		// static const ::System::String* AcceptBtnTextPath; // 0x0
+		// static const ::System::String* LINK_ID_USERAGREEMENT; // 0x0
+		// static const ::System::String* LINK_ID_PRIVACY; // 0x0
+		// static const ::System::String* LINK_ID_MINORS; // 0x0
+		// static const ::System::String* LINK_ID_THIRDPRIVACY; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::Boolean a1)
@@ -115,5 +116,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET))(this, a1);
 		}
+
 	};
 }

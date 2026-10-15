@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HipplenIncidentOptionConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_METHOD_2_A013EE34B62CF2D5_OFFSET UNITYSDK_OFFSET(0x1D203300)
-#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_METHOD_2_B9D536A79D8CFEAD_OFFSET UNITYSDK_OFFSET(0x1D2035E0)
-#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D202DC0)
+#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73F330)
+#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D73FB50)
+#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73F870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenIncidentOptionConfig_TypeDefinitionIndex = 16633;
+	inline static constexpr unsigned int HipplenIncidentOptionConfig_TypeDefinitionIndex = 16809;
 
 	class HipplenIncidentOptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 DialogID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A013EE34B62CF2D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenIncidentOptionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HipplenIncidentOptionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenIncidentOptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_METHOD_2_A013EE34B62CF2D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HipplenIncidentOptionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_B9D536A79D8CFEAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenIncidentOptionConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::HipplenIncidentOptionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenIncidentOptionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_METHOD_2_B9D536A79D8CFEAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HipplenIncidentOptionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINCIDENTOPTIONCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

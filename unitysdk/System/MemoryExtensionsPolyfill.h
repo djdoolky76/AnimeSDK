@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Span_1.h"
 
 namespace System
 {
-	inline static constexpr unsigned int MemoryExtensionsPolyfill_TypeDefinitionIndex = 6064;
+	inline static constexpr unsigned int MemoryExtensionsPolyfill_TypeDefinitionIndex = 6072;
 
 	class MemoryExtensionsPolyfill : public ::System::Object
 	{

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class MeshCollider; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleMeshAreaConfig_TypeDefinitionIndex = 78101;
+	inline static constexpr unsigned int DronesPuzzleMeshAreaConfig_TypeDefinitionIndex = 78572;
 
 	struct alignas(8) DronesPuzzleMeshAreaConfig
 	{

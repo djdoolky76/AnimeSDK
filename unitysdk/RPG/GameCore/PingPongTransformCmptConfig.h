@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongGridIndex; }
+namespace RPG::GameCore { class PingPongTransformCmptConfig; }
 
-#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_8D0B40C6CD967CC6_OFFSET UNITYSDK_OFFSET(0x1D78FC00)
-#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_D261B1130F33E1CC_OFFSET UNITYSDK_OFFSET(0x1D78FC60)
-#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78FC50)
+#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB3D0)
+#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8EB3E0)
+#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EB380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongTransformCmptConfig_TypeDefinitionIndex = 18708;
+	inline static constexpr unsigned int PingPongTransformCmptConfig_TypeDefinitionIndex = 18932;
 
 	class PingPongTransformCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::RPG::GameCore::PingPongGridIndex* GridIndex; // 0x10
 		::System::Single Angle; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8D0B40C6CD967CC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongTransformCmptConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongTransformCmptConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongTransformCmptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_8D0B40C6CD967CC6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongTransformCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D261B1130F33E1CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongTransformCmptConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongTransformCmptConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongTransformCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_D261B1130F33E1CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongTransformCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

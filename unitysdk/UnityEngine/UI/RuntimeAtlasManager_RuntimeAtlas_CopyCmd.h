@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmd_TypeDefinitionIndex = 6808;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmd_TypeDefinitionIndex = 6817;
 
 	struct alignas(8) RuntimeAtlasManager_RuntimeAtlas_CopyCmd
 	{

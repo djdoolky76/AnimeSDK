@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Type; }
 
-#define UNITYENGINE_RENDERING_HLSLARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1E130)
+#define UNITYENGINE_RENDERING_HLSLARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2956C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HLSLArray_TypeDefinitionIndex = 34907;
+	inline static constexpr unsigned int HLSLArray_TypeDefinitionIndex = 35576;
 
 	class HLSLArray : public ::System::Attribute
 	{
 	public:
 		::System::Type* elementType; // 0x10
 		::System::Int32 arraySize; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HLSLARRAY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HLSLARRAY_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

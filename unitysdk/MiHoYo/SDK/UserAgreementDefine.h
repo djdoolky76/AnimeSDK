@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_USERAGREEMENTDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD744D0)
+#define MIHOYO_SDK_USERAGREEMENTDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8270)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UserAgreementDefine_TypeDefinitionIndex = 7531;
+	inline static constexpr unsigned int UserAgreementDefine_TypeDefinitionIndex = 7585;
 
 	class UserAgreementDefine : public ::System::Object
 	{
@@ -16,10 +14,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* ENV; // 0x0
 		// static const ::System::String* LANGUAGE; // 0x0
 		// static const ::System::String* GAME_BIZ; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_USERAGREEMENTDEFINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_USERAGREEMENTDEFINE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

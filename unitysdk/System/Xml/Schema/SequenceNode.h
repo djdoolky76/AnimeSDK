@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/InteriorNode.h"
-
 namespace System::Xml::Schema { class BitSet; }
+namespace System::Xml::Schema { class InteriorNode; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1B05A5D0)
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1B05B320)
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1B05AFD0)
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05B330)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1EE9B2F0)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9C050)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1EE9C040)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1EE9BCF0)
 
 namespace System::Xml::Schema
 {
@@ -20,7 +20,7 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ConstructPos(::System::Xml::Schema::BitSet* a1, ::System::Xml::Schema::BitSet* a2, ::Il2CppArray<::System::Xml::Schema::BitSet*>* a3)
@@ -37,5 +37,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

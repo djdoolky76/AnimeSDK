@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByDistance; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYDISTANCE_METHOD_4_1344447CA47347D4_OFFSET UNITYSDK_OFFSET(0x1BBD5D90)
-#define RPG_GAMECORE_BYDISTANCE_METHOD_4_3AC116D65CDC79AB_OFFSET UNITYSDK_OFFSET(0x1BBD5A30)
-#define RPG_GAMECORE_BYDISTANCE_METHOD_4_3ED5690476160643_OFFSET UNITYSDK_OFFSET(0x1BBD5D50)
-#define RPG_GAMECORE_BYDISTANCE_METHOD_4_E839AE69916489E1_OFFSET UNITYSDK_OFFSET(0x1BBD5A80)
-#define RPG_GAMECORE_BYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD5A70)
+#define RPG_GAMECORE_BYDISTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C1BA0)
+#define RPG_GAMECORE_BYDISTANCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4C1EC0)
+#define RPG_GAMECORE_BYDISTANCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4C1E80)
+#define RPG_GAMECORE_BYDISTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4C1BB0)
+#define RPG_GAMECORE_BYDISTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4C1B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByDistance_TypeDefinitionIndex = 20534;
+	inline static constexpr unsigned int ByDistance_TypeDefinitionIndex = 20773;
 
 	class ByDistance : public ::RPG::GameCore::PredicateConfig
 	{
@@ -24,32 +24,33 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* From; // 0x20
 		::RPG::GameCore::TargetEvaluator* To; // 0x28
 		::RPG::GameCore::CompareType CompareType; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* CompareValue; // 0x38
 		::System::Boolean IgnoreRadius; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_3AC116D65CDC79AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByDistance*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByDistance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByDistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_METHOD_4_3AC116D65CDC79AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E839AE69916489E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByDistance* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByDistance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_METHOD_4_E839AE69916489E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3ED5690476160643(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDistance*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDistance* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_METHOD_4_3ED5690476160643_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1344447CA47347D4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDistance* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDistance* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_METHOD_4_1344447CA47347D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDISTANCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

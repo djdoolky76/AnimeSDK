@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cinemachine/CinemachineBlendDefinition.h"
+#include "unitysdk/Cinemachine/CinemachineVirtualCameraBase_BlendHint.h"
+#include "unitysdk/RPG/Client/CameraResultData.h"
+#include "unitysdk/System/Object.h"
+class PNDIOOHCBLB;
+namespace RPG::GameCore { class VCameraNoiseChange; }
+
+#define CJOJDEPDCBK_CLEAR_OFFSET UNITYSDK_OFFSET(0xD74AC10)
+#define CJOJDEPDCBK_CTOR_OFFSET UNITYSDK_OFFSET(0xD74ACB0)
+
+inline static constexpr unsigned int CJOJDEPDCBK_TypeDefinitionIndex = 69533;
+
+	class CJOJDEPDCBK : public ::System::Object
+	{
+	public:
+		::Cinemachine::CinemachineBlendDefinition MCOFPKAILOE; // 0x10
+		::RPG::GameCore::VCameraNoiseChange* FNPOMHPFKAO; // 0x20
+		::PNDIOOHCBLB* GKFANPLKAJP; // 0x28
+		::RPG::Client::CameraResultData LNGJLADJKKD; // 0x30
+		::System::Single IEHPFADHJFD; // 0xC8
+		::System::Single MHGCHGAMNJK; // 0xCC
+		::Cinemachine::CinemachineVirtualCameraBase_BlendHint DBEIPBLOIPC; // 0xD0
+		::System::Boolean FKIFAEOAGLL; // 0xD4
+		::System::Byte _padding0[0x3];
+		::System::Single IFEPJHGNCOI; // 0xD8
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJOJDEPDCBK_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJOJDEPDCBK_CLEAR_OFFSET))(this);
+		}
+
+	};

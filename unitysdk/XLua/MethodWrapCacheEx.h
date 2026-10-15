@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class PropertyInfo; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_METHODWRAPCACHEEX_CREATE_OFFSET UNITYSDK_OFFSET(0x11867700)
+#define XLUA_METHODWRAPCACHEEX_CREATE_OFFSET UNITYSDK_OFFSET(0x14DB9DC0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapCacheEx_TypeDefinitionIndex = 50560;
+	inline static constexpr unsigned int MethodWrapCacheEx_TypeDefinitionIndex = 50229;
 
 	class MethodWrapCacheEx : public ::System::Object
 	{
@@ -21,5 +20,6 @@ namespace XLua
 		{
 			return ((::XLua::OverloadMethodWrap*(*)(::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + XLUA_METHODWRAPCACHEEX_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

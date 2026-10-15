@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x192D7620)
+#define RPG_CLIENT_CUTSCENECACHEINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDBC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 59823;
+	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 59678;
 
 	class CutsceneCacheInitParams : public ::System::Object
 	{
 	public:
 		::System::String* CutsceneName; // 0x10
 		::RPG::GameCore::GenderType HeroGender; // 0x18
-
 		::System::Void _ctor(::System::String* a1, ::RPG::GameCore::GenderType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUTSCENECACHEINITPARAMS_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

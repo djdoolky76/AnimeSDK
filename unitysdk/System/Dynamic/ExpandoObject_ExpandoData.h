@@ -1,47 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Dynamic { class ExpandoClass; }
+namespace System::Dynamic { class ExpandoObject_ExpandoData; }
 
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GETALIGNEDSIZE_OFFSET UNITYSDK_OFFSET(0x19A2A4F0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19A278C0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x19A28710)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x19A2A460)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x19A28110)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_UPDATECLASS_OFFSET UNITYSDK_OFFSET(0x19A28750)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A2A500)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19A2A4E0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19A2A470)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED5E790)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED5E770)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5E700)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GETALIGNEDSIZE_OFFSET UNITYSDK_OFFSET(0x1ED5E780)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED5B9F0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1ED5C840)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1ED5E6F0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED5C240)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_UPDATECLASS_OFFSET UNITYSDK_OFFSET(0x1ED5C880)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoObject_ExpandoData_TypeDefinitionIndex = 3680;
+	inline static constexpr unsigned int ExpandoObject_ExpandoData_TypeDefinitionIndex = 3681;
 
 	class ExpandoObject_ExpandoData : public ::System::Object
 	{
 	public:
+		::Il2CppArray<::System::Object*>* _dataArray; // 0x10
+		::System::Dynamic::ExpandoClass* Class; // 0x18
+		::System::Int32 _version; // 0x20
 		static ::System::Dynamic::ExpandoObject_ExpandoData** StaticGet_Empty()
 		{
-			return (::System::Dynamic::ExpandoObject_ExpandoData**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_ExpandoData_TypeDefinitionIndex)->GetStaticField(0x2AAB0);
+			return (::System::Dynamic::ExpandoObject_ExpandoData**)UnitySDK::FromName("System.Dynamic", "ExpandoData")->GetStaticField(0x39240);
 		}
-		::System::Dynamic::ExpandoClass* Class; // 0x10
-		::Il2CppArray<::System::Object*>* _dataArray; // 0x18
-		::System::Int32 _version; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Dynamic::ExpandoClass* a1, ::Il2CppArray<::System::Object*>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Dynamic::ExpandoClass*, ::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Dynamic::ExpandoClass*, ::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CCTOR_OFFSET))();
 		}
 
 		::System::Object* get_Item(::System::Int32 a1)
@@ -73,5 +74,6 @@ namespace System::Dynamic
 		{
 			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GETALIGNEDSIZE_OFFSET))(a1);
 		}
+
 	};
 }

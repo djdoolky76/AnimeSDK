@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightGridMember; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AC240)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0__GETMEMBERSBYTRAITID_B__0_OFFSET UNITYSDK_OFFSET(0x1C5AED80)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD271270)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0__GETMEMBERSBYTRAITID_B__0_OFFSET UNITYSDK_OFFSET(0xD273DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass32_0_TypeDefinitionIndex = 65273;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass32_0_TypeDefinitionIndex = 65213;
 
 	class GridFightSettleRecord___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 traitID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetMembersByTraitID_b__0(::RPG::Client::GridFightGridMember* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS32_0__GETMEMBERSBYTRAITID_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

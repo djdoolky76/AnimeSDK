@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierSetCountByEnterCellTypeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_METHOD_3_62DB8516A35349A0_OFFSET UNITYSDK_OFFSET(0x1E535020)
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_METHOD_3_658363C9C901701C_OFFSET UNITYSDK_OFFSET(0x1E535070)
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E535060)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ECBD0)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9ECBE0)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ECB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierSetCountByEnterCellTypeConfig_TypeDefinitionIndex = 17506;
+	inline static constexpr unsigned int RogueModifierSetCountByEnterCellTypeConfig_TypeDefinitionIndex = 17718;
 
 	class RogueModifierSetCountByEnterCellTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_62DB8516A35349A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_METHOD_3_62DB8516A35349A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_658363C9C901701C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_METHOD_3_658363C9C901701C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetCountByEnterCellTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYENTERCELLTYPECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_Format.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_FormatInfo_TypeDefinitionIndex = 38667;
+	inline static constexpr unsigned int CriAtomEx_FormatInfo_TypeDefinitionIndex = 39964;
 
-	struct alignas(8) CriAtomEx_FormatInfo
+	struct alignas(4) CriAtomEx_FormatInfo
 	{
 		::CriWare::CriAtomEx_Format format; // 0x10
 		::System::Int32 samplingRate; // 0x14

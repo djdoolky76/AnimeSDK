@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x177241B0)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17724230)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x17712C10)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x17724130)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F4F2BE0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F2B60)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F4F2C60)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F4E1B50)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_OnValidateInput_TypeDefinitionIndex = 6735;
+	inline static constexpr unsigned int InputField_OnValidateInput_TypeDefinitionIndex = 6744;
 
 	class InputField_OnValidateInput : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char Invoke(::System::String* a1, ::System::Int32 a2, ::System::Char a3)
@@ -38,5 +37,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Char(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

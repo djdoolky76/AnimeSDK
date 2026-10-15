@@ -3,37 +3,35 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_MAPANCHORDEF_GET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0x174CB0C0)
-#define RPG_CLIENT_MAPANCHORDEF_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x174CB0E0)
-#define RPG_CLIENT_MAPANCHORDEF_GET_NAME_OFFSET UNITYSDK_OFFSET(0x174CB150)
-#define RPG_CLIENT_MAPANCHORDEF_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x174CB100)
-#define RPG_CLIENT_MAPANCHORDEF_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x174CB130)
-#define RPG_CLIENT_MAPANCHORDEF_SET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0x174CB0D0)
-#define RPG_CLIENT_MAPANCHORDEF_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x174CB0F0)
-#define RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET UNITYSDK_OFFSET(0x174CB160)
-#define RPG_CLIENT_MAPANCHORDEF_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x174CB120)
-#define RPG_CLIENT_MAPANCHORDEF_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x174CB140)
-#define RPG_CLIENT_MAPANCHORDEF__CTOR_OFFSET UNITYSDK_OFFSET(0x174CB170)
+#define RPG_CLIENT_MAPANCHORDEF_CTOR_OFFSET UNITYSDK_OFFSET(0xD524240)
+#define RPG_CLIENT_MAPANCHORDEF_GET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0xD524190)
+#define RPG_CLIENT_MAPANCHORDEF_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xD5241B0)
+#define RPG_CLIENT_MAPANCHORDEF_GET_NAME_OFFSET UNITYSDK_OFFSET(0xD524220)
+#define RPG_CLIENT_MAPANCHORDEF_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD5241D0)
+#define RPG_CLIENT_MAPANCHORDEF_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD524200)
+#define RPG_CLIENT_MAPANCHORDEF_SET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0xD5241A0)
+#define RPG_CLIENT_MAPANCHORDEF_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xD5241C0)
+#define RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET UNITYSDK_OFFSET(0xD524230)
+#define RPG_CLIENT_MAPANCHORDEF_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xD5241F0)
+#define RPG_CLIENT_MAPANCHORDEF_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD524210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapAnchorDef_TypeDefinitionIndex = 62161;
+	inline static constexpr unsigned int MapAnchorDef_TypeDefinitionIndex = 62077;
 
 	class MapAnchorDef : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::UnityEngine::Vector3 _Position_k__BackingField; // 0x18
-		::System::UInt32 _GroupInstanceID_k__BackingField; // 0x24
+		::UnityEngine::Quaternion _Rotation_k__BackingField; // 0x18
 		::System::UInt32 _InstanceID_k__BackingField; // 0x28
-		::UnityEngine::Quaternion _Rotation_k__BackingField; // 0x2C
-
+		::UnityEngine::Vector3 _Position_k__BackingField; // 0x2C
+		::System::UInt32 _GroupInstanceID_k__BackingField; // 0x38
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 get_GroupInstanceID()
@@ -85,5 +83,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET))(this, a1);
 		}
+
 	};
 }

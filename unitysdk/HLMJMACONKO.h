@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CEEGMMCFCBG;
+namespace RPG::Client { class UIDragScope; }
+namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+inline static constexpr unsigned int HLMJMACONKO_TypeDefinitionIndex = 49847;
+
+	class HLMJMACONKO : public ::System::Object
+	{
+	public:
+		::System::Func_2<::System::Object*, ::CEEGMMCFCBG*>* LMDHPABCOAB; // 0x0
+		::System::Func_3<::RPG::Client::UIDragScope*, ::System::Action*, ::System::Action*>* GMIJEMAHBKE; // 0x0
+	};

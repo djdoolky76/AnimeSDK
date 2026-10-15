@@ -1,46 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeOffset.h"
-#include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Net/Http/Headers/Token.h"
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
+namespace System::Net::Http::Headers { class WarningHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7E8470)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7E85C0)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_AGENT_OFFSET UNITYSDK_OFFSET(0x1E7E8330)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_CODE_OFFSET UNITYSDK_OFFSET(0x1E7E8350)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1E7E8370)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1E7E83A0)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_ISCODEVALID_OFFSET UNITYSDK_OFFSET(0x1E7E83C0)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_AGENT_OFFSET UNITYSDK_OFFSET(0x1E7E8340)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_CODE_OFFSET UNITYSDK_OFFSET(0x1E7E8360)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_DATE_OFFSET UNITYSDK_OFFSET(0x1E7E8390)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1E7E83B0)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7E83D0)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E8BC0)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E7E8830)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7E8790)
-#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E8320)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2F120)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE2F270)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE2F3C0)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_AGENT_OFFSET UNITYSDK_OFFSET(0x1EE2F130)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_CODE_OFFSET UNITYSDK_OFFSET(0x1EE2F150)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1EE2F170)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1EE2F1A0)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_ISCODEVALID_OFFSET UNITYSDK_OFFSET(0x1EE2F1C0)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_AGENT_OFFSET UNITYSDK_OFFSET(0x1EE2F140)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_CODE_OFFSET UNITYSDK_OFFSET(0x1EE2F160)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_DATE_OFFSET UNITYSDK_OFFSET(0x1EE2F190)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1EE2F1B0)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE2F1D0)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE2F9C0)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1EE2F630)
+#define SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2F590)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int WarningHeaderValue_TypeDefinitionIndex = 3829;
+	inline static constexpr unsigned int WarningHeaderValue_TypeDefinitionIndex = 3830;
 
 	class WarningHeaderValue : public ::System::Object
 	{
 	public:
-		::System::String* _Agent_k__BackingField; // 0x10
-		::System::String* _Text_k__BackingField; // 0x18
-		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x20
-		::System::Int32 _Code_k__BackingField; // 0x38
-
+		::System::String* _Text_k__BackingField; // 0x10
+		::System::String* _Agent_k__BackingField; // 0x18
+		::System::Int32 _Code_k__BackingField; // 0x20
+		::System::Byte _padding0[0x4];
+		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_Agent()
@@ -103,19 +103,20 @@ namespace System::Net::Http::Headers
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*& a3)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::WarningHeaderValue*& a2, ::System::Net::Http::Headers::Token& a3)
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::WarningHeaderValue* a2, ::System::Net::Http::Headers::Token a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::WarningHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::WarningHeaderValue*, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

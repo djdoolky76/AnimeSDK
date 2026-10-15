@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9BA300)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9BA330)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9BA2F0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BA280)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB63B0)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB6330)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB63E0)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFB63A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryDelegate_StartKibanaDelegate_TypeDefinitionIndex = 7653;
+	inline static constexpr unsigned int TelemetryDelegate_StartKibanaDelegate_TypeDefinitionIndex = 7707;
 
 	class TelemetryDelegate_StartKibanaDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

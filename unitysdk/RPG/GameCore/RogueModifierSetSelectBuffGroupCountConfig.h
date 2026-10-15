@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierSetSelectBuffGroupCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_METHOD_3_2866AD7D95FCEBD7_OFFSET UNITYSDK_OFFSET(0x1E5353C0)
-#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_METHOD_3_E4E5231ACC503393_OFFSET UNITYSDK_OFFSET(0x1E535370)
-#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5353B0)
+#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ECF20)
+#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9ECF30)
+#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ECEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierSetSelectBuffGroupCountConfig_TypeDefinitionIndex = 17758;
+	inline static constexpr unsigned int RogueModifierSetSelectBuffGroupCountConfig_TypeDefinitionIndex = 17970;
 
 	class RogueModifierSetSelectBuffGroupCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E4E5231ACC503393(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_METHOD_3_E4E5231ACC503393_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2866AD7D95FCEBD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_METHOD_3_2866AD7D95FCEBD7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetSelectBuffGroupCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFGROUPCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/FateGameMasterTalkRandomContext.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/FateGameMasterTalkRandomContext.h"
 namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GETRANDOMITEM_OFFSET UNITYSDK_OFFSET(0x1C189F70)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GET_MAXTALKCOUNTINOVERVIEWPAGE_OFFSET UNITYSDK_OFFSET(0x1C18A7A0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1C17E4F0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C17E2E0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCE82350)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GETRANDOMITEM_OFFSET UNITYSDK_OFFSET(0xCE8DE20)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GET_MAXTALKCOUNTINOVERVIEWPAGE_OFFSET UNITYSDK_OFFSET(0xCE8E650)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCE82520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfo_TypeDefinitionIndex = 64166;
+	inline static constexpr unsigned int FateGameMasterTalkInfo_TypeDefinitionIndex = 64104;
 
 	class FateGameMasterTalkInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::FateGameMasterTalkInfoItem*>* _AllTalkItems; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -39,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKINFO_GET_MAXTALKCOUNTINOVERVIEWPAGE_OFFSET))();
 		}
+
 	};
 }

@@ -1,51 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
-
+namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldBindingSuccessDialog; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1A23E030)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A23D770)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1A23E0A0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1A23D6D0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A23E080)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1A23D740)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1A23D5C0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x1A23DDA0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A23E1F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BEC08D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BEC0010)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BEC0940)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC0A90)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BEBFF70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BEC0920)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BEBFFE0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BEBFE60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x1BEC0640)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldBindingSuccessDialog_TypeDefinitionIndex = 8744;
+	inline static constexpr unsigned int HandheldBindingSuccessDialog_TypeDefinitionIndex = 8805;
 
 	class HandheldBindingSuccessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldBindingSuccessDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldBindingSuccessDialog**)Il2CppClass::FromTypeDefinitionIndex(HandheldBindingSuccessDialog_TypeDefinitionIndex)->GetStaticField(0x18B60);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* FooterTextPath; // 0x0
-		// static const ::System::Single AutoCloseTimeoutInSeconds; // 0x0
 		::UnityEngine::GameObject* FooterObj; // 0xC0
 		::System::Single autoCloseLeftSeconds; // 0xC8
+		::System::Byte _padding0[0x4];
 		::System::String* consoleAccount; // 0xD0
 		::System::String* hoyoAccount; // 0xD8
 		::System::Boolean interactable; // 0xE0
 		::System::Boolean confirmed; // 0xE1
+		::System::Byte _padding1[0x6];
 		::UnityEngine::Coroutine* autoCloseCoroutine; // 0xE8
 		::System::Action* OnConfirmed; // 0xF0
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldBindingSuccessDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldBindingSuccessDialog**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "HandheldBindingSuccessDialog")->GetStaticField(0x15580);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* FooterTextPath; // 0x0
+		// static const ::System::Object AutoCloseTimeoutInSeconds; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::String* a1, ::System::String* a2)
@@ -87,5 +89,6 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET))(this);
 		}
+
 	};
 }

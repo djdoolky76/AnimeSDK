@@ -2,20 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleEntityPromotionWhiteBoxData; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_METHOD_2_285D300A878863CE_OFFSET UNITYSDK_OFFSET(0x1B2F4390)
-#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F4FE0)
+#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D429140)
+#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4284F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEntityPromotionWhiteBoxData_TypeDefinitionIndex = 22497;
+	inline static constexpr unsigned int BattleEntityPromotionWhiteBoxData_TypeDefinitionIndex = 22752;
 
 	class BattleEntityPromotionWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 Promotion; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint AttackBase; // 0x18
 		::RPG::GameCore::FixPoint AttackAdd; // 0x20
 		::RPG::GameCore::FixPoint DefenceBase; // 0x28
@@ -38,15 +39,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint RankCriticalDamage; // 0xB0
 		::RPG::GameCore::FixPoint MinimumFatigueRatio; // 0xB8
 		::RPG::GameCore::FixPoint BaseAggro; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_285D300A878863CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEntityPromotionWhiteBoxData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleEntityPromotionWhiteBoxData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEntityPromotionWhiteBoxData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_METHOD_2_285D300A878863CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleEntityPromotionWhiteBoxData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

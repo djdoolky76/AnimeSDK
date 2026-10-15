@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/FormatException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_COOKIEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1B00C450)
-#define SYSTEM_NET_COOKIEEXCEPTION_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1B00C430)
-#define SYSTEM_NET_COOKIEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B00C300)
-#define SYSTEM_NET_COOKIEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B00C370)
-#define SYSTEM_NET_COOKIEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1B00C3E0)
-#define SYSTEM_NET_COOKIEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00C260)
+#define SYSTEM_NET_COOKIEEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F002CB0)
+#define SYSTEM_NET_COOKIEEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F002D20)
+#define SYSTEM_NET_COOKIEEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F002D90)
+#define SYSTEM_NET_COOKIEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F002C10)
+#define SYSTEM_NET_COOKIEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F002E00)
+#define SYSTEM_NET_COOKIEEXCEPTION_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F002DE0)
 
 namespace System::Net
 {
@@ -23,22 +22,22 @@ namespace System::Net
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
@@ -50,5 +49,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIEEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
+namespace UnityEngine::ProBuilder { class XYZColor; }
 
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET UNITYSDK_OFFSET(0x1924F420)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1924F3C0)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1924F640)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1924F3B0)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F26D8E0)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET UNITYSDK_OFFSET(0x1F26D950)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1F26D8F0)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F26DB70)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 43156;
+	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 44348;
 
 	class XYZColor : public ::System::Object
 	{
@@ -20,10 +20,9 @@ namespace UnityEngine::ProBuilder
 		::System::Single y; // 0x10
 		::System::Single x; // 0x14
 		::System::Single z; // 0x18
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color a1)
@@ -40,5 +39,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

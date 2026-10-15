@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClearDynamicSkillButtonInput; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_METHOD_3_05E1BC3BDE7F0DF7_OFFSET UNITYSDK_OFFSET(0x1E3476D0)
-#define RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_METHOD_3_803CAB716B3399BC_OFFSET UNITYSDK_OFFSET(0x1E347690)
-#define RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3476C0)
+#define RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D588270)
+#define RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D588280)
+#define RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D588240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearDynamicSkillButtonInput_TypeDefinitionIndex = 22591;
+	inline static constexpr unsigned int ClearDynamicSkillButtonInput_TypeDefinitionIndex = 22847;
 
 	class ClearDynamicSkillButtonInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ControlSkillType>* Slots; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_803CAB716B3399BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearDynamicSkillButtonInput*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearDynamicSkillButtonInput* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearDynamicSkillButtonInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_METHOD_3_803CAB716B3399BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearDynamicSkillButtonInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_05E1BC3BDE7F0DF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearDynamicSkillButtonInput* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearDynamicSkillButtonInput* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearDynamicSkillButtonInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_METHOD_3_05E1BC3BDE7F0DF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearDynamicSkillButtonInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARDYNAMICSKILLBUTTONINPUT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

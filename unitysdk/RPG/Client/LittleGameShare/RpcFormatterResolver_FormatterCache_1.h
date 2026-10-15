@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 36375;
+	inline static constexpr unsigned int RpcFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 37062;
 
 	template <typename T>
 	class RpcFormatterResolver_FormatterCache_1 : public ::System::Object
@@ -14,7 +13,8 @@ namespace RPG::Client::LittleGameShare
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<T>** StaticGet_Formatter()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<T>**)Il2CppClass::FromTypeDefinitionIndex(RpcFormatterResolver_FormatterCache_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<T>**)UnitySDK::FromName("RPG.Client.LittleGameShare", "FormatterCache`1")->GetStaticField(0x0);
 		}
+
 	};
 }

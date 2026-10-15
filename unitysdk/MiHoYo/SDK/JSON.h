@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1AE74900)
+#define MIHOYO_SDK_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1BE1BA20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8099;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8142;
 
 	class JSON : public ::System::Object
 	{
@@ -18,5 +17,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::MiHoYo::SDK::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSON_PARSE_OFFSET))(a1);
 		}
+
 	};
 }

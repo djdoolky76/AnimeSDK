@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::CityCarFlow { class MonoCityCar; }
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarEmitter_Rule_TypeDefinitionIndex = 80845;
+	inline static constexpr unsigned int MonoCityCarEmitter_Rule_TypeDefinitionIndex = 82225;
 
 	struct alignas(8) MonoCityCarEmitter_Rule
 	{

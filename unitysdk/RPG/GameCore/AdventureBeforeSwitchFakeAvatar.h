@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
+namespace RPG::GameCore { class AdventureBeforeSwitchFakeAvatar; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_CLEAR_OFFSET UNITYSDK_OFFSET(0x11262770)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x112627C0)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x11262810)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_INIT_OFFSET UNITYSDK_OFFSET(0x11262710)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x11262860)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_CLEAR_OFFSET UNITYSDK_OFFSET(0xE540B20)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_CTOR_OFFSET UNITYSDK_OFFSET(0xE540C10)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE540B70)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE540BC0)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_INIT_OFFSET UNITYSDK_OFFSET(0xE540AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBeforeSwitchFakeAvatar_TypeDefinitionIndex = 56790;
+	inline static constexpr unsigned int AdventureBeforeSwitchFakeAvatar_TypeDefinitionIndex = 56611;
 
-	class AdventureBeforeSwitchFakeAvatar : public ::Class_1_BF7A075734D15E98
+	class AdventureBeforeSwitchFakeAvatar : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* After; // 0x18
-		::RPG::GameCore::GameEntity* Before; // 0x20
-
+		::RPG::GameCore::GameEntity* Before; // 0x18
+		::RPG::GameCore::GameEntity* After; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AdventureBeforeSwitchFakeAvatar* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
@@ -45,5 +44,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,27 +3,27 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/WeLing/SDK/GyroType.h"
 
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AAD20)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__ONSENSOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A1ABB10)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC214D0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__ONSENSOR_B__0_OFFSET UNITYSDK_OFFSET(0x1BC222C0)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudPipe___c__DisplayClass7_0_TypeDefinitionIndex = 8825;
+	inline static constexpr unsigned int CloudPipe___c__DisplayClass7_0_TypeDefinitionIndex = 8886;
 
 	class CloudPipe___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* data; // 0x10
 		::WeLing::SDK::GyroType gyroType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnSensor_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__ONSENSOR_B__0_OFFSET))(this);
 		}
+
 	};
 }

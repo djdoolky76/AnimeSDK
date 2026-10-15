@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
+namespace RPG::Client::PixAir { class PixAirEquipUpgradeViewModel; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C843E80)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_GET_BEFOREINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C843E40)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_GET_CURRENTINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C843E60)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_SET_BEFOREINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C843E50)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_SET_CURRENTINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C843E70)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C843F20)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xDB3D400)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB3D4A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_GET_BEFOREINSTANCE_OFFSET UNITYSDK_OFFSET(0xDB3D3C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_GET_CURRENTINSTANCE_OFFSET UNITYSDK_OFFSET(0xDB3D3E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_SET_BEFOREINSTANCE_OFFSET UNITYSDK_OFFSET(0xDB3D3D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_SET_CURRENTINSTANCE_OFFSET UNITYSDK_OFFSET(0xDB3D3F0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipUpgradeViewModel_TypeDefinitionIndex = 78848;
+	inline static constexpr unsigned int PixAirEquipUpgradeViewModel_TypeDefinitionIndex = 79329;
 
 	class PixAirEquipUpgradeViewModel : public ::System::Object
 	{
 	public:
-		::RPG::Client::PixAir::PixAirEquipInstance* _CurrentInstance_k__BackingField; // 0x10
-		::RPG::Client::PixAir::PixAirEquipInstance* _BeforeInstance_k__BackingField; // 0x18
-
+		::RPG::Client::PixAir::PixAirEquipInstance* _BeforeInstance_k__BackingField; // 0x10
+		::RPG::Client::PixAir::PixAirEquipInstance* _CurrentInstance_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::PixAir::PixAirEquipInstance* get_BeforeInstance()
@@ -50,5 +49,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::RPG::Client::PixAir::PixAirEquipUpgradeViewModel*(*)(::RPG::Client::PixAir::PixAirEquipInstance*, ::RPG::Client::PixAir::PixAirEquipInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODEL_CREATE_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net { class IPHostEntry; }
 
-#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B0112E0)
-#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B011570)
-#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B012B40)
-#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B012AD0)
+#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F007C90)
+#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F009230)
+#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F007F20)
+#define SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F0092A0)
 
 namespace System::Net
 {
@@ -22,7 +21,7 @@ namespace System::Net
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::IPHostEntry* Invoke(::System::String* a1)
@@ -39,5 +38,6 @@ namespace System::Net
 		{
 			return ((::System::Net::IPHostEntry*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYNAMECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

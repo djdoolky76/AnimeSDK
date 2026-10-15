@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShakeDistanceAttenuation; }
+namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 
-#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_METHOD_2_0305883414FD161C_OFFSET UNITYSDK_OFFSET(0x1D2B7430)
-#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BA4F0)
+#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC52160)
+#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4EAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraOverrideShakeV2_TypeDefinitionIndex = 16245;
+	inline static constexpr unsigned int VCameraOverrideShakeV2_TypeDefinitionIndex = 16418;
 
 	class VCameraOverrideShakeV2 : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,17 +23,18 @@ namespace RPG::GameCore
 		::System::Single RangeAttenuationDelay; // 0x28
 		::System::Single RangeAttenuationTarget; // 0x2C
 		::System::Single RangeAttenuationDuration; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::ShakeDistanceAttenuation* DistanceAttenuation; // 0x38
 		::System::Boolean OnlyApplyInFreelook3rd; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0305883414FD161C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraOverrideShakeV2*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VCameraOverrideShakeV2* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraOverrideShakeV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_METHOD_2_0305883414FD161C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VCameraOverrideShakeV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

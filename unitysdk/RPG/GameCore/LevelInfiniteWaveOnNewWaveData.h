@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD28830)
-#define RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD28880)
-#define RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD288D0)
+#define RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E8190)
+#define RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E80F0)
+#define RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E8140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInfiniteWaveOnNewWaveData_TypeDefinitionIndex = 56910;
+	inline static constexpr unsigned int LevelInfiniteWaveOnNewWaveData_TypeDefinitionIndex = 56731;
 
-	class LevelInfiniteWaveOnNewWaveData : public ::Class_1_BF7A075734D15E98
+	class LevelInfiniteWaveOnNewWaveData : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEWAVEONNEWWAVEDATA_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

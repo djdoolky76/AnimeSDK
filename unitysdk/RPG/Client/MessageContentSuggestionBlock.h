@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
+namespace RPG::Client { class MessageContentBlock; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B23D250)
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_SUGGESTIONS_OFFSET UNITYSDK_OFFSET(0x1B23D400)
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B23D1F0)
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23D240)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD699D70)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD699D80)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_SUGGESTIONS_OFFSET UNITYSDK_OFFSET(0xD699F30)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD699D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentSuggestionBlock_TypeDefinitionIndex = 63330;
+	inline static constexpr unsigned int MessageContentSuggestionBlock_TypeDefinitionIndex = 63268;
 
 	class MessageContentSuggestionBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* _Suggestions_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -39,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_SUGGESTIONS_OFFSET))(this);
 		}
+
 	};
 }

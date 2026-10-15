@@ -1,50 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ValueEvaluatorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VE_FactorGroup; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_17EA2DF4BBB00E34_OFFSET UNITYSDK_OFFSET(0x1D2BB480)
-#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_1C4115E8560D9086_OFFSET UNITYSDK_OFFSET(0x1D2BB250)
-#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_9BED9ABE98A70F52_OFFSET UNITYSDK_OFFSET(0x1D2BB450)
-#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_D978056F5283E957_OFFSET UNITYSDK_OFFSET(0x1D2BB290)
-#define RPG_GAMECORE_VE_FACTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BB280)
+#define RPG_GAMECORE_VE_FACTORGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC52EF0)
+#define RPG_GAMECORE_VE_FACTORGROUP_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC530F0)
+#define RPG_GAMECORE_VE_FACTORGROUP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC530C0)
+#define RPG_GAMECORE_VE_FACTORGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC52F00)
+#define RPG_GAMECORE_VE_FACTORGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC52EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_FactorGroup_TypeDefinitionIndex = 23771;
+	inline static constexpr unsigned int VE_FactorGroup_TypeDefinitionIndex = 24046;
 
 	class VE_FactorGroup : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:
 		::System::String* GroupName; // 0x20
 		::System::String* ParamString; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1C4115E8560D9086(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_FactorGroup*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_FactorGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_FactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_1C4115E8560D9086_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D978056F5283E957(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_FactorGroup* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_FactorGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_D978056F5283E957_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9BED9ABE98A70F52(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_FactorGroup*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_FactorGroup* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_FactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_9BED9ABE98A70F52_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17EA2DF4BBB00E34(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_FactorGroup* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_FactorGroup* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_17EA2DF4BBB00E34_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

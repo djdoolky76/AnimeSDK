@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED8630)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED8690)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED8620)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED85A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F652BB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F652B20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F652C10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F652BA0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__GetKeyboardText_TypeDefinitionIndex = 37835;
+	inline static constexpr unsigned int IVROverlay__GetKeyboardText_TypeDefinitionIndex = 39132;
 
 	class IVROverlay__GetKeyboardText : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::Text::StringBuilder* a1, ::System::UInt32 a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

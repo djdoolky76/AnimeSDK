@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D12FBA0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D12FB90)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12FC80)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B0670)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B0730)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B0660)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPTalkPauseClip_TypeDefinitionIndex = 49276;
+	inline static constexpr unsigned int BPTalkPauseClip_TypeDefinitionIndex = 48830;
 
 	class BPTalkPauseClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::BattlePerform
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKPAUSECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

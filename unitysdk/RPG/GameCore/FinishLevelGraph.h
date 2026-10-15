@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FinishLevelGraph; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_77F525CACB6A5E3C_OFFSET UNITYSDK_OFFSET(0x1E0DBAA0)
-#define RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_FD9A36953EB5D277_OFFSET UNITYSDK_OFFSET(0x1E0DBAE0)
-#define RPG_GAMECORE_FINISHLEVELGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DBAD0)
+#define RPG_GAMECORE_FINISHLEVELGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67B9E0)
+#define RPG_GAMECORE_FINISHLEVELGRAPH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D67B9F0)
+#define RPG_GAMECORE_FINISHLEVELGRAPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67B9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishLevelGraph_TypeDefinitionIndex = 20386;
+	inline static constexpr unsigned int FinishLevelGraph_TypeDefinitionIndex = 20625;
 
 	class FinishLevelGraph : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean MakeOwnerEntityDie; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_77F525CACB6A5E3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishLevelGraph*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishLevelGraph* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishLevelGraph*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_77F525CACB6A5E3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishLevelGraph*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FD9A36953EB5D277(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishLevelGraph* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishLevelGraph* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishLevelGraph*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_FD9A36953EB5D277_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishLevelGraph*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

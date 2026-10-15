@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections { class IEnumerator; }
 
-#define SRF_COROUTINES_WAITFORSECONDSREALTIME_OFFSET UNITYSDK_OFFSET(0x1EC382F0)
+#define SRF_COROUTINES_WAITFORSECONDSREALTIME_OFFSET UNITYSDK_OFFSET(0x1ED42920)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Coroutines_TypeDefinitionIndex = 34697;
+	inline static constexpr unsigned int Coroutines_TypeDefinitionIndex = 35366;
 
 	class Coroutines : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace SRF
 		{
 			return ((::System::Collections::IEnumerator*(*)(::System::Single))((::PBYTE)hIl2Cpp + SRF_COROUTINES_WAITFORSECONDSREALTIME_OFFSET))(a1);
 		}
+
 	};
 }

@@ -2,25 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_GET_CURRENTCNT_OFFSET UNITYSDK_OFFSET(0x1C85D0D0)
-#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_GET_TARGETCNT_OFFSET UNITYSDK_OFFSET(0x1C85D0F0)
-#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_SET_CURRENTCNT_OFFSET UNITYSDK_OFFSET(0x1C85D0E0)
-#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_SET_TARGETCNT_OFFSET UNITYSDK_OFFSET(0x1C85D100)
-#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85D0C0)
+#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC934000)
+#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_GET_CURRENTCNT_OFFSET UNITYSDK_OFFSET(0xC934010)
+#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_GET_TARGETCNT_OFFSET UNITYSDK_OFFSET(0xC934030)
+#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_SET_CURRENTCNT_OFFSET UNITYSDK_OFFSET(0xC934020)
+#define RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_SET_TARGETCNT_OFFSET UNITYSDK_OFFSET(0xC934040)
 
 namespace RPG::Client::CatGod
 {
-	inline static constexpr unsigned int CatGodBubbleData_TypeDefinitionIndex = 80322;
+	inline static constexpr unsigned int CatGodBubbleData_TypeDefinitionIndex = 81650;
 
 	class CatGodBubbleData : public ::System::Object
 	{
 	public:
-		::System::UInt32 _TargetCnt_k__BackingField; // 0x10
-		::System::UInt32 _CurrentCnt_k__BackingField; // 0x14
-
+		::System::UInt32 _CurrentCnt_k__BackingField; // 0x10
+		::System::UInt32 _TargetCnt_k__BackingField; // 0x14
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODBUBBLEDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_CurrentCnt()
@@ -42,5 +41,6 @@ namespace RPG::Client::CatGod
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODBUBBLEDATA_SET_TARGETCNT_OFFSET))(this, a1);
 		}
+
 	};
 }

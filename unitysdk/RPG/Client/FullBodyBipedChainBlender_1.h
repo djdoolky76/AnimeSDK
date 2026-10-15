@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullBodyBipedChainBlender_1_TypeDefinitionIndex = 68562;
+	inline static constexpr unsigned int FullBodyBipedChainBlender_1_TypeDefinitionIndex = 68596;
 
 	template <typename T>
 	class FullBodyBipedChainBlender_1 : public ::System::Object

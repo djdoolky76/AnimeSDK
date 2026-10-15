@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TimeRewindSetResetPlayerAnchor; }
 
-#define RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_METHOD_3_243787FF977EA3B3_OFFSET UNITYSDK_OFFSET(0x1D5296C0)
-#define RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_METHOD_3_BF9B16684663828C_OFFSET UNITYSDK_OFFSET(0x1D529680)
-#define RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5296B0)
+#define RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5BAC0)
+#define RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5BAD0)
+#define RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5BA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSetResetPlayerAnchor_TypeDefinitionIndex = 20404;
+	inline static constexpr unsigned int TimeRewindSetResetPlayerAnchor_TypeDefinitionIndex = 20643;
 
 	class TimeRewindSetResetPlayerAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* Target; // 0x18
 		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* AnchorIDs; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF9B16684663828C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_METHOD_3_BF9B16684663828C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_243787FF977EA3B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_METHOD_3_243787FF977EA3B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRewindSetResetPlayerAnchor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETRESETPLAYERANCHOR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

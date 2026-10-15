@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/UI/DebugUIHandlerWidget.h"
-
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerContainer; }
+namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_NEXT_OFFSET UNITYSDK_OFFSET(0x1DE307D0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1DE30690)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1DE305F0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE30900)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A7920)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_NEXT_OFFSET UNITYSDK_OFFSET(0x1F2A77F0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1F2A76B0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1F2A7610)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerHBox_TypeDefinitionIndex = 35018;
+	inline static constexpr unsigned int DebugUIHandlerHBox_TypeDefinitionIndex = 35687;
 
 	class DebugUIHandlerHBox : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:
 		::UnityEngine::Rendering::UI::DebugUIHandlerContainer* m_Container; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
@@ -38,5 +37,6 @@ namespace UnityEngine::Rendering::UI
 		{
 			return ((::UnityEngine::Rendering::UI::DebugUIHandlerWidget*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERHBOX_NEXT_OFFSET))(this);
 		}
+
 	};
 }

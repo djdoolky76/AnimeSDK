@@ -6,20 +6,19 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15E97790)
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP_METHOD_5_C7AA0B5353D21688_OFFSET UNITYSDK_OFFSET(0x15E97720)
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP__CTOR_OFFSET UNITYSDK_OFFSET(0x15E97F50)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_CTOR_OFFSET UNITYSDK_OFFSET(0xCD5E570)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_HBJKGDAMEPP_OFFSET UNITYSDK_OFFSET(0xCD5DD40)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD5DDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 70517;
+	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 70553;
 
 	class Effect_SlowRaindrop : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,10 +34,12 @@ namespace RPG::Client
 		::System::Single RainEndime; // 0x54
 		::System::Single RainSliceTime; // 0x58
 		::System::Boolean RainSlice; // 0x5C
+		::System::Byte _padding0[0x3];
 		::System::Single RainTime; // 0x60
 		::System::Single RainSpeed; // 0x64
 		::System::Single RainAniTime; // 0x68
 		::System::Boolean EnableAttract; // 0x6C
+		::System::Byte _padding1[0x3];
 		::System::Single AttractStart; // 0x70
 		::System::Single AttractEnd; // 0x74
 		::System::Single AttractOffsetMax; // 0x78
@@ -54,6 +55,7 @@ namespace RPG::Client
 		::System::Single MatCapLerp; // 0xDC
 		::System::Boolean BBOMCPCHIJP; // 0xE0
 		::System::Boolean GFJJHNCNAOL; // 0xE1
+		::System::Byte _padding2[0x6];
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0xE8
 		::UnityEngine::MaterialPropertyBlock* OBIJMKMHMOH; // 0xF0
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _WorldMatrixArray; // 0xF8
@@ -70,20 +72,20 @@ namespace RPG::Client
 		::UnityEngine::Vector4 CGOEEPFMOHD; // 0x18C
 		::UnityEngine::Vector4 PBNNFDBHNIL; // 0x19C
 		::UnityEngine::Vector3 DHCOJGNIKKD; // 0x1AC
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SLOWRAINDROP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SLOWRAINDROP_CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_5_C7AA0B5353D21688()
+		::System::Single HBJKGDAMEPP()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SLOWRAINDROP_METHOD_5_C7AA0B5353D21688_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SLOWRAINDROP_HBJKGDAMEPP_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

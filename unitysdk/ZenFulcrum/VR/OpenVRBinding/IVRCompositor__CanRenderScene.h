@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED45C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED45F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED45B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED4540)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F64EB40)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64EAC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F64EB70)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F64EB30)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__CanRenderScene_TypeDefinitionIndex = 37742;
+	inline static constexpr unsigned int IVRCompositor__CanRenderScene_TypeDefinitionIndex = 39039;
 
 	class IVRCompositor__CanRenderScene : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__CANRENDERSCENE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

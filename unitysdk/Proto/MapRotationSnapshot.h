@@ -1,68 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class MapRotationSnapshot; }
 namespace Proto { class RotationMapInfoSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_MAPROTATIONSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD43F70)
-#define PROTO_MAPROTATIONSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD438C0)
-#define PROTO_MAPROTATIONSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD43AE0)
-#define PROTO_MAPROTATIONSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD439B0)
-#define PROTO_MAPROTATIONSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD43C70)
-#define PROTO_MAPROTATIONSNAPSHOT_GET_MAPINFO_OFFSET UNITYSDK_OFFSET(0x1DD43990)
-#define PROTO_MAPROTATIONSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD436A0)
-#define PROTO_MAPROTATIONSNAPSHOT_GET_POSEID_OFFSET UNITYSDK_OFFSET(0x1DD43970)
-#define PROTO_MAPROTATIONSNAPSHOT_GET_REGIONID_OFFSET UNITYSDK_OFFSET(0x1DD43950)
-#define PROTO_MAPROTATIONSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD442B0)
-#define PROTO_MAPROTATIONSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD440D0)
-#define PROTO_MAPROTATIONSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD43700)
-#define PROTO_MAPROTATIONSNAPSHOT_SET_MAPINFO_OFFSET UNITYSDK_OFFSET(0x1DD439A0)
-#define PROTO_MAPROTATIONSNAPSHOT_SET_POSEID_OFFSET UNITYSDK_OFFSET(0x1DD43980)
-#define PROTO_MAPROTATIONSNAPSHOT_SET_REGIONID_OFFSET UNITYSDK_OFFSET(0x1DD43960)
-#define PROTO_MAPROTATIONSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD43DB0)
-#define PROTO_MAPROTATIONSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD43E10)
-#define PROTO_MAPROTATIONSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD44500)
-#define PROTO_MAPROTATIONSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD43720)
-#define PROTO_MAPROTATIONSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD43710)
+#define PROTO_MAPROTATIONSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFD55F0)
+#define PROTO_MAPROTATIONSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD5A40)
+#define PROTO_MAPROTATIONSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFD5010)
+#define PROTO_MAPROTATIONSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFD4F90)
+#define PROTO_MAPROTATIONSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD4F80)
+#define PROTO_MAPROTATIONSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFD5260)
+#define PROTO_MAPROTATIONSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFD5130)
+#define PROTO_MAPROTATIONSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFD53F0)
+#define PROTO_MAPROTATIONSNAPSHOT_GET_MAPINFO_OFFSET UNITYSDK_OFFSET(0x1DFD5110)
+#define PROTO_MAPROTATIONSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFD4F10)
+#define PROTO_MAPROTATIONSNAPSHOT_GET_POSEID_OFFSET UNITYSDK_OFFSET(0x1DFD50F0)
+#define PROTO_MAPROTATIONSNAPSHOT_GET_REGIONID_OFFSET UNITYSDK_OFFSET(0x1DFD50D0)
+#define PROTO_MAPROTATIONSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFD57F0)
+#define PROTO_MAPROTATIONSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFD5750)
+#define PROTO_MAPROTATIONSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFD4F70)
+#define PROTO_MAPROTATIONSNAPSHOT_SET_MAPINFO_OFFSET UNITYSDK_OFFSET(0x1DFD5120)
+#define PROTO_MAPROTATIONSNAPSHOT_SET_POSEID_OFFSET UNITYSDK_OFFSET(0x1DFD5100)
+#define PROTO_MAPROTATIONSNAPSHOT_SET_REGIONID_OFFSET UNITYSDK_OFFSET(0x1DFD50E0)
+#define PROTO_MAPROTATIONSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD5430)
+#define PROTO_MAPROTATIONSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD5490)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MapRotationSnapshot_TypeDefinitionIndex = 25505;
+	inline static constexpr unsigned int MapRotationSnapshot_TypeDefinitionIndex = 25848;
 
 	class MapRotationSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::MapRotationSnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::MapRotationSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MapRotationSnapshot_TypeDefinitionIndex)->GetStaticField(0x5BE20);
-		}
-		// static const ::System::Int32 RegionIdFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 PoseIdFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 MapInfoFieldNumber = 0x3; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::Proto::RotationMapInfoSnapshot* mapInfo_; // 0x18
 		::System::UInt32 poseId_; // 0x20
 		::System::Int32 regionId_; // 0x24
+		static ::Google::Protobuf::MessageParser_1<::Proto::MapRotationSnapshot*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::MapRotationSnapshot*>**)UnitySDK::FromName("Proto", "MapRotationSnapshot")->GetStaticField(0x4C9C0);
+		}
 
+		// static const ::System::Object RegionIdFieldNumber; // 0x0
+		// static const ::System::Object PoseIdFieldNumber; // 0x0
+		// static const ::System::Object MapInfoFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::MapRotationSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::MapRotationSnapshot*))((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::MapRotationSnapshot*))((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::MapRotationSnapshot*>* get_Parser()
@@ -149,5 +150,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_MAPROTATIONSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

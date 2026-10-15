@@ -2,30 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETACTIONONEMORE_OFFSET UNITYSDK_OFFSET(0x1DD2BAD0)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0x1DD2BA50)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2BA00)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2B9B0)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0x1DD2BA90)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2B9A0)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EB270)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETACTIONONEMORE_OFFSET UNITYSDK_OFFSET(0xE6EB3A0)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xE6EB320)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EB2D0)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EB280)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0xE6EB360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnActionPhaseEnd_TypeDefinitionIndex = 56885;
+	inline static constexpr unsigned int LevelTurnActionPhaseEnd_TypeDefinitionIndex = 56706;
 
 	class LevelTurnActionPhaseEnd : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _ActiveEntity; // 0x10
-		::System::UInt32 _TurnCounter; // 0x18
-		::System::Boolean _ActionOneMore; // 0x1C
-
+		::System::Boolean _ActionOneMore; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _TurnCounter; // 0x1C
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEEND__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEEND_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -52,5 +51,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEEND_GETACTIONONEMORE_OFFSET))(this);
 		}
+
 	};
 }

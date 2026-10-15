@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class HPBar; }
 namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOHPBARANIM_ADDTWEENHANDLER_OFFSET UNITYSDK_OFFSET(0x1ACDE2A0)
-#define RPG_CLIENT_MONOHPBARANIM_SETVALUEWITHTWEEN_OFFSET UNITYSDK_OFFSET(0x1ACDDFD0)
-#define RPG_CLIENT_MONOHPBARANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1ACDE0B0)
-#define RPG_CLIENT_MONOHPBARANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ACDE300)
-#define RPG_CLIENT_MONOHPBARANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACDE610)
-#define RPG_CLIENT_MONOHPBARANIM__INVOKETWEENHANDLER_OFFSET UNITYSDK_OFFSET(0x1ACDE5B0)
-#define RPG_CLIENT_MONOHPBARANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0x1ACDE1C0)
+#define RPG_CLIENT_MONOHPBARANIM_ADDTWEENHANDLER_OFFSET UNITYSDK_OFFSET(0xD82ACD0)
+#define RPG_CLIENT_MONOHPBARANIM_CTOR_OFFSET UNITYSDK_OFFSET(0xD82B040)
+#define RPG_CLIENT_MONOHPBARANIM_SETVALUEWITHTWEEN_OFFSET UNITYSDK_OFFSET(0xD82AA00)
+#define RPG_CLIENT_MONOHPBARANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0xD82AAE0)
+#define RPG_CLIENT_MONOHPBARANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD82AD30)
+#define RPG_CLIENT_MONOHPBARANIM__INVOKETWEENHANDLER_OFFSET UNITYSDK_OFFSET(0xD82AFE0)
+#define RPG_CLIENT_MONOHPBARANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD82ABF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoHPBarAnim_TypeDefinitionIndex = 72505;
+	inline static constexpr unsigned int MonoHPBarAnim_TypeDefinitionIndex = 72579;
 
 	class MonoHPBarAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,13 +25,14 @@ namespace RPG::Client
 		::System::Single _to; // 0x24
 		::System::Single _duration; // 0x28
 		::System::Boolean _updating; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single _startTime; // 0x30
+		::System::Byte _padding1[0x4];
 		::XLua::LuaTable* _LuaTable; // 0x38
 		::System::Action_1<::XLua::LuaTable*>* _TweenHandler; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetValueWithTween(::System::Single a1, ::System::Single a2, ::System::Single a3)
@@ -64,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM__INVOKETWEENHANDLER_OFFSET))(this);
 		}
+
 	};
 }

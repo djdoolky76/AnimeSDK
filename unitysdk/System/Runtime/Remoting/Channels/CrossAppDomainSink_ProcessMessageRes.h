@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System::Runtime::Remoting::Messaging { class CADMethodReturnMessage; }
 
 namespace System::Runtime::Remoting::Channels

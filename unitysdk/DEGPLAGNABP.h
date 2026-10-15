@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Expression/Precedence.h"
+#include "unitysdk/System/Object.h"
+namespace System { class Action; }
+
+#define DEGPLAGNABP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE2EF0)
+
+inline static constexpr unsigned int DEGPLAGNABP_TypeDefinitionIndex = 10372;
+
+	class DEGPLAGNABP : public ::System::Object
+	{
+	public:
+		::System::Action* MMLNGGEKDEN; // 0x10
+		::System::Action* ECHFHBKOMLC; // 0x18
+		::RPG::Expression::Precedence BPCGJGFOAGM; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEGPLAGNABP_CTOR_OFFSET))(this);
+		}
+
+	};

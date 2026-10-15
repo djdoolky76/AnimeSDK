@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::Client::UI::UIStateCtrl { class BaseAction; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_GET_OWNERUISTATECTRL_OFFSET UNITYSDK_OFFSET(0x1B120280)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1B11FCD0)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_2FDE146A62E65189_OFFSET UNITYSDK_OFFSET(0x1B11F7C0)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_30615810974CEB89_OFFSET UNITYSDK_OFFSET(0x1B1201C0)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_3FC863B885E15ED5_OFFSET UNITYSDK_OFFSET(0x1B11FF30)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_6D22709430EDAB68_OFFSET UNITYSDK_OFFSET(0x1B11FD30)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_A07C2061B55C1547_OFFSET UNITYSDK_OFFSET(0x1B120020)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_SET_OWNERUISTATECTRL_OFFSET UNITYSDK_OFFSET(0x1B120290)
-#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1202A0)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_ADFBIFMIJHM_OFFSET UNITYSDK_OFFSET(0xE341D40)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0xE341AE0)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE3420B0)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_FNACALDOOIF_OFFSET UNITYSDK_OFFSET(0xE341E30)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_GET_OWNERUISTATECTRL_OFFSET UNITYSDK_OFFSET(0xE342090)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_HBFMDJAGMLL_OFFSET UNITYSDK_OFFSET(0xE341FD0)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_HDOFEPFEOEB_OFFSET UNITYSDK_OFFSET(0xE3415D0)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE341B40)
+#define RPG_CLIENT_UI_UISTATECTRL_STATEDATA_SET_OWNERUISTATECTRL_OFFSET UNITYSDK_OFFSET(0xE3420A0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int StateData_TypeDefinitionIndex = 73970;
+	inline static constexpr unsigned int StateData_TypeDefinitionIndex = 74069;
 
 	class StateData : public ::System::Object
 	{
@@ -27,40 +26,39 @@ namespace RPG::Client::UI::UIStateCtrl
 		::System::String* StateName; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::UI::UIStateCtrl::BaseAction*>* Actions; // 0x18
 		::RPG::Client::UIStateCtrl* _OwnerUIStateCtrl_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0()
+		::System::Boolean BPDIGKDIJKN()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_BPDIGKDIJKN_OFFSET))(this);
 		}
 
-		::System::Void Method_1_6D22709430EDAB68(::RPG::Client::UIStateCtrl* a1)
+		::System::Void KPJGDHLENIP(::RPG::Client::UIStateCtrl* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_6D22709430EDAB68_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_KPJGDHLENIP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_3FC863B885E15ED5()
+		::System::Void ADFBIFMIJHM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_3FC863B885E15ED5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_ADFBIFMIJHM_OFFSET))(this);
 		}
 
-		::System::Single Method_1_2FDE146A62E65189()
+		::System::Single HDOFEPFEOEB()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_2FDE146A62E65189_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_HDOFEPFEOEB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_A07C2061B55C1547()
+		::System::Void FNACALDOOIF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_A07C2061B55C1547_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_FNACALDOOIF_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_30615810974CEB89(::RPG::Client::UI::UIStateCtrl::BaseAction* a1, ::RPG::Client::UI::UIStateCtrl::BaseAction* a2)
+		::System::Int32 HBFMDJAGMLL(::RPG::Client::UI::UIStateCtrl::BaseAction* a1, ::RPG::Client::UI::UIStateCtrl::BaseAction* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::UI::UIStateCtrl::BaseAction*, ::RPG::Client::UI::UIStateCtrl::BaseAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_METHOD_1_30615810974CEB89_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::UI::UIStateCtrl::BaseAction*, ::RPG::Client::UI::UIStateCtrl::BaseAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_HBFMDJAGMLL_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::UIStateCtrl* get_OwnerUIStateCtrl()
@@ -72,5 +70,6 @@ namespace RPG::Client::UI::UIStateCtrl
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_STATEDATA_SET_OWNERUISTATECTRL_OFFSET))(this, a1);
 		}
+
 	};
 }

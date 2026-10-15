@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9C20)
-#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9C50)
-#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9C10)
-#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F9BA0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15EA0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE15E20)
+#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15ED0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15E90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_LeaveSessionDelegate_TypeDefinitionIndex = 7576;
+	inline static constexpr unsigned int ConsoleDelegate_LeaveSessionDelegate_TypeDefinitionIndex = 7630;
 
 	class ConsoleDelegate_LeaveSessionDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::Action_1<::System::String*>* a1)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_LEAVESESSIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

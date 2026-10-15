@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingMaskController_DrawItem_TypeDefinitionIndex = 37081;
+	inline static constexpr unsigned int ColorGradingMaskController_DrawItem_TypeDefinitionIndex = 37766;
 
 	struct alignas(8) ColorGradingMaskController_DrawItem
 	{

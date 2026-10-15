@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine { class Event; }
 namespace Spine { class TrackEntry; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1604D1F0)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1604D230)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16046650)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1604D100)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EC6D340)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6D250)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EC6D380)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EC66820)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationState_TrackEntryEventDelegate_TypeDefinitionIndex = 38333;
+	inline static constexpr unsigned int AnimationState_TrackEntryEventDelegate_TypeDefinitionIndex = 39630;
 
 	class AnimationState_TrackEntryEventDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::TrackEntry* a1, ::Spine::Event* a2)
@@ -39,5 +38,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYEVENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

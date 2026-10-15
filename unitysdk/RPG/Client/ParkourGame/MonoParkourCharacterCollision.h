@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_ONCHARACTERCOLLISION_OFFSET UNITYSDK_OFFSET(0x1C4DAB00)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C4DABA0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DAC20)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6AA90)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_ONCHARACTERCOLLISION_OFFSET UNITYSDK_OFFSET(0xDA6A970)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDA6AA10)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourCharacterCollision_TypeDefinitionIndex = 74034;
+	inline static constexpr unsigned int MonoParkourCharacterCollision_TypeDefinitionIndex = 74133;
 
 	class MonoParkourCharacterCollision : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::ParkourGame::MonoParkourCharacter* Character; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCharacterCollision(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
@@ -31,5 +29,6 @@ namespace RPG::Client::ParkourGame
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTERCOLLISION_ONENABLE_OFFSET))(this);
 		}
+
 	};
 }

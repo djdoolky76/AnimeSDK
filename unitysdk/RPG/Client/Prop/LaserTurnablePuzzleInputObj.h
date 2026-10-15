@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEINPUTOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x16118910)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEINPUTOBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDD12980)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LaserTurnablePuzzleInputObj_TypeDefinitionIndex = 78195;
+	inline static constexpr unsigned int LaserTurnablePuzzleInputObj_TypeDefinitionIndex = 78666;
 
 	class LaserTurnablePuzzleInputObj : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Int32 InitDegree; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LASERTURNABLEPUZZLEINPUTOBJ__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LASERTURNABLEPUZZLEINPUTOBJ_CTOR_OFFSET))(this);
 		}
+
 	};
 }

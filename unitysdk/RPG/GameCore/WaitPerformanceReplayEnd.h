@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitPerformanceReplayEnd; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_METHOD_3_3A7881AE355F21DE_OFFSET UNITYSDK_OFFSET(0x1DEBD280)
-#define RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_METHOD_3_BF43089FC37CC6DD_OFFSET UNITYSDK_OFFSET(0x1DEBD2C0)
-#define RPG_GAMECORE_WAITPERFORMANCEREPLAYEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBD2B0)
+#define RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6FA10)
+#define RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6FA20)
+#define RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6F9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPerformanceReplayEnd_TypeDefinitionIndex = 21601;
+	inline static constexpr unsigned int WaitPerformanceReplayEnd_TypeDefinitionIndex = 21849;
 
 	class WaitPerformanceReplayEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnEvent; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCEREPLAYEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3A7881AE355F21DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPerformanceReplayEnd*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPerformanceReplayEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPerformanceReplayEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_METHOD_3_3A7881AE355F21DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPerformanceReplayEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BF43089FC37CC6DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPerformanceReplayEnd* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPerformanceReplayEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPerformanceReplayEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_METHOD_3_BF43089FC37CC6DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPerformanceReplayEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCEREPLAYEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

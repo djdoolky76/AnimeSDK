@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class RogueTournDifficultyCompData; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT_DIFFICULTYCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0x1AF101F0)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT_DIFFICULTYCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0xDF91E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDifficultyCompDataExt_TypeDefinitionIndex = 67583;
+	inline static constexpr unsigned int RogueTournDifficultyCompDataExt_TypeDefinitionIndex = 67585;
 
 	class RogueTournDifficultyCompDataExt : public ::System::Object
 	{
@@ -18,5 +17,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueTournDifficultyCompData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT_DIFFICULTYCOMPLEVEL_OFFSET))(a1);
 		}
+
 	};
 }

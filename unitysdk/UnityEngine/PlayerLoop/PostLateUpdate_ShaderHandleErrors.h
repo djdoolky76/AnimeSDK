@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ShaderHandleErrors_TypeDefinitionIndex = 4656;
+	inline static constexpr unsigned int PostLateUpdate_ShaderHandleErrors_TypeDefinitionIndex = 4660;
 
-	struct alignas(1) PostLateUpdate_ShaderHandleErrors
+	struct alignas(4) PostLateUpdate_ShaderHandleErrors
 	{
 	};
 }

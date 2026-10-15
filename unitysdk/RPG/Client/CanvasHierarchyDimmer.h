@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class ParticleSystemGroup; }
 
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER_APPLYDIM_OFFSET UNITYSDK_OFFSET(0x1C85B550)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER_GET_COLORSCALE_OFFSET UNITYSDK_OFFSET(0x1C85BC90)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER_RESETDIM_OFFSET UNITYSDK_OFFSET(0x1C85BAC0)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER_START_OFFSET UNITYSDK_OFFSET(0x1C85B3D0)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C85BCC0)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85BCA0)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER__SETCOLORTOHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1C85B700)
-#define RPG_CLIENT_CANVASHIERARCHYDIMMER__TRYGETPARTICLEGROUPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C85B420)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER_APPLYDIM_OFFSET UNITYSDK_OFFSET(0xC9324C0)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC932C30)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER_CTOR_OFFSET UNITYSDK_OFFSET(0xC932C10)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER_GET_COLORSCALE_OFFSET UNITYSDK_OFFSET(0xC932C00)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER_RESETDIM_OFFSET UNITYSDK_OFFSET(0xC932A30)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER_START_OFFSET UNITYSDK_OFFSET(0xC932340)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER__SETCOLORTOHIERARCHY_OFFSET UNITYSDK_OFFSET(0xC932670)
+#define RPG_CLIENT_CANVASHIERARCHYDIMMER__TRYGETPARTICLEGROUPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC932390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CanvasHierarchyDimmer_TypeDefinitionIndex = 68884;
+	inline static constexpr unsigned int CanvasHierarchyDimmer_TypeDefinitionIndex = 68920;
 
 	class CanvasHierarchyDimmer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Color* StaticGet__DefaultColor()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(CanvasHierarchyDimmer_TypeDefinitionIndex)->GetStaticField(0x9530);
-		}
 		::UnityEngine::Color _ColorScale; // 0x18
 		::System::Boolean _IsSetParticlesAlpha; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Single _ParticlesAlpha; // 0x2C
 		::RPG::Client::ParticleSystemGroup* _ParticleGroup; // 0x30
 		::System::Single _InitParticleAlpha; // 0x38
+		static ::UnityEngine::Color* StaticGet__DefaultColor()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "CanvasHierarchyDimmer")->GetStaticField(0x15060);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CANVASHIERARCHYDIMMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CANVASHIERARCHYDIMMER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CANVASHIERARCHYDIMMER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CANVASHIERARCHYDIMMER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()
@@ -70,5 +70,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CANVASHIERARCHYDIMMER_GET_COLORSCALE_OFFSET))(this);
 		}
+
 	};
 }

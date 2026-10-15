@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 6869;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 6878;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object

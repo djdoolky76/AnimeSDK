@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitEntityServerEvent; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITENTITYSERVEREVENT_METHOD_3_6E4E4EA1CD2B3AAC_OFFSET UNITYSDK_OFFSET(0x1DEB74B0)
-#define RPG_GAMECORE_WAITENTITYSERVEREVENT_METHOD_3_DF3CA708204D14B0_OFFSET UNITYSDK_OFFSET(0x1DEB7460)
-#define RPG_GAMECORE_WAITENTITYSERVEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB74A0)
+#define RPG_GAMECORE_WAITENTITYSERVEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC69C30)
+#define RPG_GAMECORE_WAITENTITYSERVEREVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC69C40)
+#define RPG_GAMECORE_WAITENTITYSERVEREVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC69BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitEntityServerEvent_TypeDefinitionIndex = 21883;
+	inline static constexpr unsigned int WaitEntityServerEvent_TypeDefinitionIndex = 22131;
 
 	class WaitEntityServerEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYSERVEREVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYSERVEREVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DF3CA708204D14B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityServerEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitEntityServerEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitEntityServerEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYSERVEREVENT_METHOD_3_DF3CA708204D14B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitEntityServerEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYSERVEREVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6E4E4EA1CD2B3AAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityServerEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitEntityServerEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitEntityServerEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYSERVEREVENT_METHOD_3_6E4E4EA1CD2B3AAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitEntityServerEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYSERVEREVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

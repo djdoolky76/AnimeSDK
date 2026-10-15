@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateParamOwnerMasterAvatarIDConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_METHOD_6_F5ABBFCE6EECD076_OFFSET UNITYSDK_OFFSET(0x1E0CEEA0)
-#define RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_METHOD_6_FFE80165B70C7AD2_OFFSET UNITYSDK_OFFSET(0x1E0CEEF0)
-#define RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CEEE0)
+#define RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66ED30)
+#define RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66ED40)
+#define RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66ECF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateParamOwnerMasterAvatarIDConfig_TypeDefinitionIndex = 16453;
+	inline static constexpr unsigned int FateParamOwnerMasterAvatarIDConfig_TypeDefinitionIndex = 16629;
 
 	class FateParamOwnerMasterAvatarIDConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_F5ABBFCE6EECD076(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_METHOD_6_F5ABBFCE6EECD076_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_FFE80165B70C7AD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_METHOD_6_FFE80165B70C7AD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateParamOwnerMasterAvatarIDConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMOWNERMASTERAVATARIDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

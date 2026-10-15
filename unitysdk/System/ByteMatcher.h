@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TermInfoStrings.h"
-
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1C9C3180)
-#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1C9C3420)
-#define SYSTEM_BYTEMATCHER_SORT_OFFSET UNITYSDK_OFFSET(0x1C9C3360)
-#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1C9C3370)
-#define SYSTEM_BYTEMATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C3BD0)
+#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1C0846A0)
+#define SYSTEM_BYTEMATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0850F0)
+#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1C084940)
+#define SYSTEM_BYTEMATCHER_SORT_OFFSET UNITYSDK_OFFSET(0x1C084880)
+#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1C084890)
 
 namespace System
 {
@@ -20,10 +19,9 @@ namespace System
 	public:
 		::System::Collections::Hashtable* starts; // 0x10
 		::System::Collections::Hashtable* map; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BYTEMATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BYTEMATCHER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AddMapping(::System::TermInfoStrings a1, ::Il2CppArray<::System::Byte>* a2)
@@ -41,9 +39,10 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET))(this, a1);
 		}
 
-		::System::TermInfoStrings Match(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
+		::System::TermInfoStrings Match(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::TermInfoStrings(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_BYTEMATCHER_MATCH_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::TermInfoStrings(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BYTEMATCHER_MATCH_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

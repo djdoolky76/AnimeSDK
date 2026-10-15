@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_BatchModeUpdate_TypeDefinitionIndex = 4647;
+	inline static constexpr unsigned int PostLateUpdate_BatchModeUpdate_TypeDefinitionIndex = 4651;
 
-	struct alignas(1) PostLateUpdate_BatchModeUpdate
+	struct alignas(4) PostLateUpdate_BatchModeUpdate
 	{
 	};
 }

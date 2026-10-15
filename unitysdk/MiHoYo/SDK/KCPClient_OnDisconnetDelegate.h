@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class IKCPChannel; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C700AC0)
-#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C700AF0)
-#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7003A0)
-#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7009D0)
+#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFB7210)
+#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB7120)
+#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFB7240)
+#define MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFB6AF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KCPClient_OnDisconnetDelegate_TypeDefinitionIndex = 46580;
+	inline static constexpr unsigned int KCPClient_OnDisconnetDelegate_TypeDefinitionIndex = 46131;
 
 	class KCPClient_OnDisconnetDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::IKCPChannel* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCPCLIENT_ONDISCONNETDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

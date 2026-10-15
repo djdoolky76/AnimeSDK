@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtExtraConfig_TypeDefinitionIndex = 68283;
+	inline static constexpr unsigned int LookAtExtraConfig_TypeDefinitionIndex = 68314;
 
 	struct alignas(4) LookAtExtraConfig
 	{

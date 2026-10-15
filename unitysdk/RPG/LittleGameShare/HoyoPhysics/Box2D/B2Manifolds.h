@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2NormalType.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Capsule.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ChainSegment.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ChainSegmentParams.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Circle.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Manifold.h"
-#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2NormalType.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Polygon.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Segment.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SimplexCache.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Transform.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLASSIFYNORMAL_OFFSET UNITYSDK_OFFSET(0xC317460)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLIPPOLYGONS_OFFSET UNITYSDK_OFFSET(0xC315AD0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLIPSEGMENTS_OFFSET UNITYSDK_OFFSET(0xC316E20)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULEANDCIRCLE_OFFSET UNITYSDK_OFFSET(0xC2E6F90)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULES_OFFSET UNITYSDK_OFFSET(0xC2E7620)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCAPSULE_OFFSET UNITYSDK_OFFSET(0xC2EE460)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCIRCLE_OFFSET UNITYSDK_OFFSET(0xC2EDC10)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDPOLYGON_OFFSET UNITYSDK_OFFSET(0xC2EE660)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECIRCLES_OFFSET UNITYSDK_OFFSET(0xC2E69F0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCAPSULE_OFFSET UNITYSDK_OFFSET(0xC2EACB0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCIRCLE_OFFSET UNITYSDK_OFFSET(0xC2E9AF0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONS_OFFSET UNITYSDK_OFFSET(0xC2EAE90)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCAPSULE_OFFSET UNITYSDK_OFFSET(0xC2ED830)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCIRCLE_OFFSET UNITYSDK_OFFSET(0xC2ED6B0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDPOLYGON_OFFSET UNITYSDK_OFFSET(0xC2EDA30)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2FINDMAXSEPARATION_OFFSET UNITYSDK_OFFSET(0xC3167E0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2MAKECAPSULE_OFFSET UNITYSDK_OFFSET(0xC315720)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2_MAKE_ID_OFFSET UNITYSDK_OFFSET(0xC315710)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLASSIFYNORMAL_OFFSET UNITYSDK_OFFSET(0x1C81A9F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLIPPOLYGONS_OFFSET UNITYSDK_OFFSET(0x1C819060)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLIPSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1C81A3B0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULEANDCIRCLE_OFFSET UNITYSDK_OFFSET(0x1C7EA540)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULES_OFFSET UNITYSDK_OFFSET(0x1C7EABD0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCAPSULE_OFFSET UNITYSDK_OFFSET(0x1C7F1A40)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCIRCLE_OFFSET UNITYSDK_OFFSET(0x1C7F11E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDPOLYGON_OFFSET UNITYSDK_OFFSET(0x1C7F1C40)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECIRCLES_OFFSET UNITYSDK_OFFSET(0x1C7E9FA0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCAPSULE_OFFSET UNITYSDK_OFFSET(0x1C7EE260)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCIRCLE_OFFSET UNITYSDK_OFFSET(0x1C7ED0A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONS_OFFSET UNITYSDK_OFFSET(0x1C7EE440)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCAPSULE_OFFSET UNITYSDK_OFFSET(0x1C7F0E00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCIRCLE_OFFSET UNITYSDK_OFFSET(0x1C7F0C70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDPOLYGON_OFFSET UNITYSDK_OFFSET(0x1C7F1000)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2FINDMAXSEPARATION_OFFSET UNITYSDK_OFFSET(0x1C819D70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2MAKECAPSULE_OFFSET UNITYSDK_OFFSET(0x1C818CB0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2_MAKE_ID_OFFSET UNITYSDK_OFFSET(0x1C818CA0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Manifolds_TypeDefinitionIndex = 36019;
+	inline static constexpr unsigned int B2Manifolds_TypeDefinitionIndex = 36706;
 
 	class B2Manifolds : public ::System::Object
 	{
@@ -49,69 +49,69 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2MAKECAPSULE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideCircles(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideCircles(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECIRCLES_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECIRCLES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideCapsuleAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideCapsuleAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULEANDCIRCLE_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULEANDCIRCLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollidePolygonAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollidePolygonAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCIRCLE_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCIRCLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideCapsules(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideCapsules(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULES_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECAPSULES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideSegmentAndCapsule(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideSegmentAndCapsule(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCAPSULE_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCAPSULE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollidePolygonAndCapsule(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollidePolygonAndCapsule(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCAPSULE_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONANDCAPSULE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2ClipPolygons(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2ClipPolygons(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLIPPOLYGONS_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLIPPOLYGONS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Single b2FindMaxSeparation(::System::Int32& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a3)
+		static ::System::Single b2FindMaxSeparation(::System::Int32 a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a3)
 		{
-			return ((::System::Single(*)(::System::Int32&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2FINDMAXSEPARATION_OFFSET))(a1, a2, a3);
+			return ((::System::Single(*)(::System::Int32, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2FINDMAXSEPARATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollidePolygons(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollidePolygons(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONS_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDEPOLYGONS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideSegmentAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideSegmentAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCIRCLE_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDCIRCLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideSegmentAndPolygon(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideSegmentAndPolygon(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDPOLYGON_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Segment, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDESEGMENTANDPOLYGON_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideChainSegmentAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideChainSegmentAndCircle(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCIRCLE_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Circle, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCIRCLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideChainSegmentAndCapsule(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache& a5)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideChainSegmentAndCapsule(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache a5)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCAPSULE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDCAPSULE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2ClipSegments(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a5, ::System::Single a6, ::System::Single a7, ::System::UInt16 a8, ::System::UInt16 a9)
@@ -124,9 +124,10 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2NormalType(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegmentParams, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2CLASSIFYNORMAL_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideChainSegmentAndPolygon(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment& a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon& a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache& a5)
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold b2CollideChainSegmentAndPolygon(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache a5)
 		{
-			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDPOLYGON_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainSegment, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Polygon, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MANIFOLDS_B2COLLIDECHAINSEGMENTANDPOLYGON_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

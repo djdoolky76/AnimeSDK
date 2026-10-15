@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/Core/ObservableObject.h"
+#include "unitysdk/RPG/Client/TextID.h"
+class BCFAKEGJPKN;
+namespace System { class String; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD66DAF0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xD66D6D0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_HEADIMAGE_OFFSET UNITYSDK_OFFSET(0xD66D9F0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xD66D960)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_PORTRAITIMAGE_OFFSET UNITYSDK_OFFSET(0xD66DA70)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xD66D710)
+
+namespace RPG::Client::MechCraft::ViewModel
+{
+	inline static constexpr unsigned int MechCraftActorViewModel_TypeDefinitionIndex = 79655;
+
+	class MechCraftActorViewModel : public ::Sofa::Core::ObservableObject
+	{
+	public:
+		::BCFAKEGJPKN* _Config; // 0x18
+		::System::Void _ctor(::BCFAKEGJPKN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BCFAKEGJPKN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_CTOR_OFFSET))(this, a1);
+		}
+
+		::BCFAKEGJPKN* get_Config()
+		{
+			return ((::BCFAKEGJPKN*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_CONFIG_OFFSET))(this);
+		}
+
+		::System::Void set_Config(::BCFAKEGJPKN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BCFAKEGJPKN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_SET_CONFIG_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_HeadImage()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_HEADIMAGE_OFFSET))(this);
+		}
+
+		::System::String* get_PortraitImage()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_GET_PORTRAITIMAGE_OFFSET))(this);
+		}
+
+	};
+}

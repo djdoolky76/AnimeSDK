@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_1C30CE192ABE4C54;
-class Class_1_7A22A3DBEEDD1F80;
+class ENEIHJJPNPI;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SummonUnitAIConfig; }
 namespace RPG::GameCore { class SummonUnitBeAttackConfig; }
 namespace RPG::GameCore { class SummonUnitBlockBasedEffect; }
 namespace RPG::GameCore { class SummonUnitCharacterAnimConfig; }
+namespace RPG::GameCore { class SummonUnitConfig; }
 namespace RPG::GameCore { class SummonUnitGatherConfig; }
 namespace RPG::GameCore { class SummonUnitMiscConfig; }
 namespace RPG::GameCore { class SummonUnitMoveConfig; }
@@ -19,12 +19,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_9435D17CA7EA4F5D_OFFSET UNITYSDK_OFFSET(0x1CB12E60)
-#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB138F0)
+#define RPG_GAMECORE_SUMMONUNITCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F0B0)
+#define RPG_GAMECORE_SUMMONUNITCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0E4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 17393;
+	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 17605;
 
 	class SummonUnitConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,13 +38,16 @@ namespace RPG::GameCore
 		::System::Boolean ShowShadow; // 0x40
 		::System::Boolean ColliderIsTrigger; // 0x41
 		::System::Boolean AcceptMoneyTrigger; // 0x42
+		::System::Byte _padding0[0x5];
 		::System::String* AttachPoint; // 0x48
 		::RPG::MVector3 LocalPosition; // 0x50
 		::RPG::MVector3 LocalRotation; // 0x5C
 		::RPG::GameCore::DynamicFloat* Duration; // 0x68
 		::System::Single FadeoutTime; // 0x70
+		::System::Byte _padding1[0x4];
 		::System::String* FadeoutAnim; // 0x78
 		::System::Single ExtraDitherRadius; // 0x80
+		::System::Byte _padding2[0x4];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCreate; // 0x88
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDestroy; // 0x90
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeReplaced; // 0x98
@@ -62,16 +65,17 @@ namespace RPG::GameCore
 		::RPG::GameCore::SummonUnitBeAttackConfig* BeAttackConfig; // 0xF8
 		::RPG::GameCore::SummonUnitGatherConfig* GatherConfig; // 0x100
 		::RPG::GameCore::SummonUnitMiscConfig* MiscConfig; // 0x108
-		::Class_1_1C30CE192ABE4C54* DynamicValues; // 0x110
-
+		::ENEIHJJPNPI* DynamicValues; // 0x110
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x118
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9435D17CA7EA4F5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SummonUnitConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_9435D17CA7EA4F5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SummonUnitConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

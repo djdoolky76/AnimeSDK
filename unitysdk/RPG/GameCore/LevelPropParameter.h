@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelPropParameter; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELPROPPARAMETER_METHOD_2_BCDD42E36CBCCDA5_OFFSET UNITYSDK_OFFSET(0x1C12FDA0)
-#define RPG_GAMECORE_LEVELPROPPARAMETER_METHOD_2_CA31F153EA467F8E_OFFSET UNITYSDK_OFFSET(0x1C12F900)
-#define RPG_GAMECORE_LEVELPROPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C12F800)
+#define RPG_GAMECORE_LEVELPROPPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79D1F0)
+#define RPG_GAMECORE_LEVELPROPPARAMETER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D79D790)
+#define RPG_GAMECORE_LEVELPROPPARAMETER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D79D2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropParameter_TypeDefinitionIndex = 17058;
+	inline static constexpr unsigned int LevelPropParameter_TypeDefinitionIndex = 17253;
 
 	class LevelPropParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPPARAMETER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPPARAMETER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CA31F153EA467F8E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropParameter*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPropParameter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropParameter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPPARAMETER_METHOD_2_CA31F153EA467F8E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPropParameter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPPARAMETER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_BCDD42E36CBCCDA5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropParameter* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPropParameter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropParameter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPPARAMETER_METHOD_2_BCDD42E36CBCCDA5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPropParameter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPPARAMETER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

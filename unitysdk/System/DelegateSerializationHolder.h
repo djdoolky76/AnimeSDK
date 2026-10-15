@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class Delegate; }
+namespace System { class Object; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DELEGATESERIALIZATIONHOLDER_GETDELEGATEDATA_OFFSET UNITYSDK_OFFSET(0x1A558150)
-#define SYSTEM_DELEGATESERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1A5597F0)
-#define SYSTEM_DELEGATESERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1A559840)
-#define SYSTEM_DELEGATESERIALIZATIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A558B50)
+#define SYSTEM_DELEGATESERIALIZATIONHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A2820)
+#define SYSTEM_DELEGATESERIALIZATIONHOLDER_GETDELEGATEDATA_OFFSET UNITYSDK_OFFSET(0x1C1A1E20)
+#define SYSTEM_DELEGATESERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C1A34C0)
+#define SYSTEM_DELEGATESERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1C1A3510)
 
 namespace System
 {
@@ -19,10 +19,9 @@ namespace System
 	{
 	public:
 		::System::Delegate* _delegate; // 0x10
-
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DELEGATESERIALIZATIONHOLDER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DELEGATESERIALIZATIONHOLDER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void GetDelegateData(::System::Delegate* a1, ::System::Runtime::Serialization::SerializationInfo* a2, ::System::Runtime::Serialization::StreamingContext a3)
@@ -39,5 +38,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DELEGATESERIALIZATIONHOLDER_GETREALOBJECT_OFFSET))(this, a1);
 		}
+
 	};
 }

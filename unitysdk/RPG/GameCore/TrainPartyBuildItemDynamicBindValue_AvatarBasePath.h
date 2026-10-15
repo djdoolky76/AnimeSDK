@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrainPartyBuildItemDynamicBindValue.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyBuildItemDynamicBindValue_AvatarBasePath; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_METHOD_3_102EAB629F8014AD_OFFSET UNITYSDK_OFFSET(0x1D5330F0)
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_METHOD_3_F46F8977C130C201_OFFSET UNITYSDK_OFFSET(0x1D5333A0)
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5330E0)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC00A30)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC00A40)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC00CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 16096;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 16269;
 
 	class TrainPartyBuildItemDynamicBindValue_AvatarBasePath : public ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue
 	{
 	public:
 		::System::UInt32 MultiPathAvatarType; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F46F8977C130C201(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_METHOD_3_F46F8977C130C201_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_102EAB629F8014AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_METHOD_3_102EAB629F8014AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue_AvatarBasePath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

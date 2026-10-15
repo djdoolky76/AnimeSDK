@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A63EB30)
-#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A63EB70)
-#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A63BA70)
-#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A63EA40)
+#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE830D0)
+#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE82FE0)
+#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE83110)
+#define MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE80020)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil_ResponseCallback_TypeDefinitionIndex = 8140;
+	inline static constexpr unsigned int NetUtil_ResponseCallback_TypeDefinitionIndex = 8183;
 
 	class NetUtil_ResponseCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL_RESPONSECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL_RESPONSECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

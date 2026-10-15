@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rect.h"
-
-namespace UnityEngine { class Material; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Text_ITextIcons_TypeDefinitionIndex = 6855;
+	inline static constexpr unsigned int Text_ITextIcons_TypeDefinitionIndex = 6864;
 
 	class Text_ITextIcons
 	{

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class ShowReading; }
 
-#define RPG_GAMECORE_SHOWREADING_METHOD_3_2E0F76BD1A1A9192_OFFSET UNITYSDK_OFFSET(0x1D098EA0)
-#define RPG_GAMECORE_SHOWREADING_METHOD_3_ACA9B73707AECF83_OFFSET UNITYSDK_OFFSET(0x1D098E50)
-#define RPG_GAMECORE_SHOWREADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D098E90)
+#define RPG_GAMECORE_SHOWREADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB57B0)
+#define RPG_GAMECORE_SHOWREADING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB57C0)
+#define RPG_GAMECORE_SHOWREADING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB5770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 20652;
+	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 20891;
 
 	class ShowReading : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* BookID; // 0x18
 		::System::Boolean WaitForExit; // 0x20
 		::System::Boolean ShouldPauseGame; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ACA9B73707AECF83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowReading*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowReading* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowReading*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_METHOD_3_ACA9B73707AECF83_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowReading*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2E0F76BD1A1A9192(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowReading* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowReading* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowReading*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_METHOD_3_2E0F76BD1A1A9192_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowReading*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

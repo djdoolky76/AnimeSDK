@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerReplaceCharacterPresetEffect; }
 
-#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_92F8A44ECE5A2031_OFFSET UNITYSDK_OFFSET(0x1D293580)
-#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_E288DF4A51329FDB_OFFSET UNITYSDK_OFFSET(0x1D293600)
-#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2935D0)
+#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2A710)
+#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC2A740)
+#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC2A6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerReplaceCharacterPresetEffect_TypeDefinitionIndex = 20030;
+	inline static constexpr unsigned int TriggerReplaceCharacterPresetEffect_TypeDefinitionIndex = 20267;
 
 	class TriggerReplaceCharacterPresetEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DynamicString* Preset; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_92F8A44ECE5A2031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_92F8A44ECE5A2031_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E288DF4A51329FDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_E288DF4A51329FDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

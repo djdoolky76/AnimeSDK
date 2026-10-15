@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELUIOPENACTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18FEFF00)
-#define RPG_GAMECORE_LEVELUIOPENACTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18FEFF50)
-#define RPG_GAMECORE_LEVELUIOPENACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18FEFFA0)
+#define RPG_GAMECORE_LEVELUIOPENACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F4C10)
+#define RPG_GAMECORE_LEVELUIOPENACTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F4B70)
+#define RPG_GAMECORE_LEVELUIOPENACTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F4BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelUIOpenAction_TypeDefinitionIndex = 56892;
+	inline static constexpr unsigned int LevelUIOpenAction_TypeDefinitionIndex = 56713;
 
 	class LevelUIOpenAction : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUIOPENACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUIOPENACTION_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUIOPENACTION_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,8 @@
 #include "unitysdk/System/Xml/Schema/Datatype_normalizedStringV1Compat.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BAE3EF0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD89E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82FD0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE8E4E0)
 
 namespace System::Xml::Schema
 {
@@ -15,12 +15,13 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlTypeCode get_TypeCode()
 		{
 			return ((::System::Xml::Schema::XmlTypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_GET_TYPECODE_OFFSET))(this);
 		}
+
 	};
 }

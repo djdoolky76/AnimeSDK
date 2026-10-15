@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/WeightConfig.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9E0C0)
+#define RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DA630)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 41028;
+	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 42314;
 
 	class PlacementConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{
@@ -16,10 +15,10 @@ namespace RPG::Client::LittleGame
 		::System::String* Asset; // 0x18
 		::System::Single BoundSize; // 0x20
 		::System::Single Speed; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

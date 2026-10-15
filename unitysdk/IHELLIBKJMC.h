@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/StringHash.h"
+namespace RPG::GameCore { class SetDynamicValueByTeamFormationRow; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define IHELLIBKJMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1640D4E0)
+#define IHELLIBKJMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640D5C0)
+
+inline static constexpr unsigned int IHELLIBKJMC_TypeDefinitionIndex = 56403;
+
+	class IHELLIBKJMC
+	{
+	public:
+		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByTeamFormationRow* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*))((::PBYTE)hIl2Cpp + IHELLIBKJMC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHELLIBKJMC_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IAssetOperation; }
+namespace RPG::Client { class UIAsyncPrefabLoaderProxy; }
 namespace RPG::Client { class UIPrefabLoader; }
 
-#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0x16FFDC20)
-#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_TRYCANCELASYNCLOAD_OFFSET UNITYSDK_OFFSET(0x16FFDCA0)
-#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFDC90)
+#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0xE375260)
+#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xE3752D0)
+#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_TRYCANCELASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xE3752E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAsyncPrefabLoaderProxy_TypeDefinitionIndex = 72938;
+	inline static constexpr unsigned int UIAsyncPrefabLoaderProxy_TypeDefinitionIndex = 73021;
 
 	class UIAsyncPrefabLoaderProxy : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAssetOperation* _Operation; // 0x10
-		::RPG::Client::UIPrefabLoader* _Loader; // 0x18
-
+		::RPG::Client::UIPrefabLoader* _Loader; // 0x10
+		::RPG::Client::IAssetOperation* _Operation; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIASYNCPREFABLOADERPROXY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::UIAsyncPrefabLoaderProxy* Create(::RPG::Client::IAssetOperation* a1, ::RPG::Client::UIPrefabLoader* a2)
@@ -33,5 +32,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIASYNCPREFABLOADERPROXY_TRYCANCELASYNCLOAD_OFFSET))(this);
 		}
+
 	};
 }

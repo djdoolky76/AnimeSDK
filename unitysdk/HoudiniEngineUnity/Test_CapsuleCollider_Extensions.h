@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_CapsuleCollider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CapsuleCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EEEA6C0)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EEEA7E0)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEEA680)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B98F830)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B98F950)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B98F7F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_CapsuleCollider_Extensions_TypeDefinitionIndex = 39432;
+	inline static constexpr unsigned int Test_CapsuleCollider_Extensions_TypeDefinitionIndex = 40729;
 
 	class Test_CapsuleCollider_Extensions : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_CapsuleCollider*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::CapsuleCollider*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

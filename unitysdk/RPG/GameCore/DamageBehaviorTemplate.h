@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DamageBlockType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DamageBehaviorTemplate; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_GET_MUTEBUTTRIGGERBLOCKRESULT_OFFSET UNITYSDK_OFFSET(0x1D80A3E0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_METHOD_2_4EB8D065532CCC58_OFFSET UNITYSDK_OFFSET(0x1D80A0B0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_METHOD_2_C5EDEED341352265_OFFSET UNITYSDK_OFFSET(0x1D80A450)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80A3D0)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C2080)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_EEMBIGGKJKN_OFFSET UNITYSDK_OFFSET(0x1D5C2100)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_GET_MUTEBUTTRIGGERBLOCKRESULT_OFFSET UNITYSDK_OFFSET(0x1D5C2090)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C1D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageBehaviorTemplate_TypeDefinitionIndex = 15473;
+	inline static constexpr unsigned int DamageBehaviorTemplate_TypeDefinitionIndex = 15646;
 
 	class DamageBehaviorTemplate : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +25,14 @@ namespace RPG::GameCore
 		::System::Boolean MuteSplitHp; // 0x1B
 		::System::Boolean OnlyIsIndirectAttack; // 0x1C
 		::System::Boolean OnlyIsNotHit; // 0x1D
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4EB8D065532CCC58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageBehaviorTemplate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DamageBehaviorTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageBehaviorTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_METHOD_2_4EB8D065532CCC58_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DamageBehaviorTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean get_MuteButTriggerBlockResult()
@@ -41,9 +40,10 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_GET_MUTEBUTTRIGGERBLOCKRESULT_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_C5EDEED341352265(::RPG::GameCore::DamageBlockType a1)
+		::System::Boolean EEMBIGGKJKN(::RPG::GameCore::DamageBlockType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DamageBlockType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_METHOD_2_C5EDEED341352265_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DamageBlockType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATE_EEMBIGGKJKN_OFFSET))(this, a1);
 		}
+
 	};
 }

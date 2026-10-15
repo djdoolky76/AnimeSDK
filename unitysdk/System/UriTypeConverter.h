@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/TypeConverter.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_URITYPECONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x182C8AC0)
-#define SYSTEM_URITYPECONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x182C8B80)
-#define SYSTEM_URITYPECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x182C8A50)
-#define SYSTEM_URITYPECONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x182C8BF0)
-#define SYSTEM_URITYPECONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x182C8D90)
-#define SYSTEM_URITYPECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x182C8A40)
+#define SYSTEM_URITYPECONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1F0C3B70)
+#define SYSTEM_URITYPECONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1F0C3C30)
+#define SYSTEM_URITYPECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1F0C3B00)
+#define SYSTEM_URITYPECONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1F0C3CA0)
+#define SYSTEM_URITYPECONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1F0C3E40)
+#define SYSTEM_URITYPECONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0C3AF0)
 
 namespace System
 {
@@ -23,7 +22,7 @@ namespace System
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URITYPECONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URITYPECONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanConvert(::System::Type* a1)
@@ -50,5 +49,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_URITYPECONVERTER_CONVERTTO_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

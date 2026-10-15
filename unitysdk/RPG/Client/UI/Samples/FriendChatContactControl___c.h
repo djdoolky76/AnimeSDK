@@ -1,65 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+class GNAHJKHFMCA;
 namespace R3 { template <typename T> class Observable_1; }
-namespace RPG::Client::Ui::Samples { class FriendChatContactVM; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDBE070)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBE0B0)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_0_OFFSET UNITYSDK_OFFSET(0x1DDBE0C0)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_1_OFFSET UNITYSDK_OFFSET(0x1DDBE0E0)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_2_OFFSET UNITYSDK_OFFSET(0x1DDBE100)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4034C0)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE403500)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_0_OFFSET UNITYSDK_OFFSET(0xE403510)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_1_OFFSET UNITYSDK_OFFSET(0xE403530)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_2_OFFSET UNITYSDK_OFFSET(0xE403550)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int FriendChatContactControl___c_TypeDefinitionIndex = 73335;
+	inline static constexpr unsigned int FriendChatContactControl___c_TypeDefinitionIndex = 73433;
 
 	class FriendChatContactControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::Ui::Samples::FriendChatContactVM*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::Ui::Samples::FriendChatContactVM*, ::R3::Observable_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(FriendChatContactControl___c_TypeDefinitionIndex)->GetStaticField(0x637E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x36CE0);
 		}
-		static ::RPG::Client::Ui::Samples::FriendChatContactControl___c** StaticGet___9()
+
+		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_1()
 		{
-			return (::RPG::Client::Ui::Samples::FriendChatContactControl___c**)Il2CppClass::FromTypeDefinitionIndex(FriendChatContactControl___c_TypeDefinitionIndex)->GetStaticField(0x637E8);
+			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x36CE8);
 		}
-		static ::System::Func_2<::RPG::Client::Ui::Samples::FriendChatContactVM*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__4_2()
+
+		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::Ui::Samples::FriendChatContactVM*, ::R3::Observable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(FriendChatContactControl___c_TypeDefinitionIndex)->GetStaticField(0x637F0);
+			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x36CF0);
 		}
-		static ::System::Func_2<::RPG::Client::Ui::Samples::FriendChatContactVM*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_0()
+
+		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__4_2()
 		{
-			return (::System::Func_2<::RPG::Client::Ui::Samples::FriendChatContactVM*, ::R3::Observable_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(FriendChatContactControl___c_TypeDefinitionIndex)->GetStaticField(0x637F8);
+			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x36CF8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable_1<::System::String*>* __Binding_b__4_0(::RPG::Client::Ui::Samples::FriendChatContactVM* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__4_0(::GNAHJKHFMCA* a1)
 		{
-			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::RPG::Client::Ui::Samples::FriendChatContactVM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::System::String*>* __Binding_b__4_1(::RPG::Client::Ui::Samples::FriendChatContactVM* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__4_1(::GNAHJKHFMCA* a1)
 		{
-			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::RPG::Client::Ui::Samples::FriendChatContactVM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::System::Int32>* __Binding_b__4_2(::RPG::Client::Ui::Samples::FriendChatContactVM* a1)
+		::R3::Observable_1<::System::Int32>* __Binding_b__4_2(::GNAHJKHFMCA* a1)
 		{
-			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::RPG::Client::Ui::Samples::FriendChatContactVM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_2_OFFSET))(this, a1);
 		}
+
 	};
 }

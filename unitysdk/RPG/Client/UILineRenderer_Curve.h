@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UILineRenderer_Curve_TypeDefinitionIndex = 72619;
+	inline static constexpr unsigned int UILineRenderer_Curve_TypeDefinitionIndex = 72694;
 
 	struct alignas(4) UILineRenderer_Curve
 	{

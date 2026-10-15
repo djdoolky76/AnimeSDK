@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleUserAgreementDialog_DisplayMode.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Console { class ConsoleUserAgreementDialog; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17340850)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17343630)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC72FE0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BC75DC0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUserAgreementDialog___c__DisplayClass29_0_TypeDefinitionIndex = 8951;
+	inline static constexpr unsigned int ConsoleUserAgreementDialog___c__DisplayClass29_0_TypeDefinitionIndex = 9012;
 
 	class ConsoleUserAgreementDialog___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_DisplayMode mode; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Show_b__0(::MiHoYo::SDK::Console::ConsoleUserAgreementDialog* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleUserAgreementDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

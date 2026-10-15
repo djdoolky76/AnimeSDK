@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
-
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_METHOD_4_15BEFE33A35D6EF8_OFFSET UNITYSDK_OFFSET(0x1A4FF5E0)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x1A4FF680)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A4FF860)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FFA00)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_CBENHKLNMPE_OFFSET UNITYSDK_OFFSET(0xE122F10)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE123330)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE122FB0)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE123190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateFloatParamModifyByNormalizeTime_TypeDefinitionIndex = 68792;
+	inline static constexpr unsigned int StateFloatParamModifyByNormalizeTime_TypeDefinitionIndex = 68826;
 
 	class StateFloatParamModifyByNormalizeTime : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -24,15 +23,14 @@ namespace RPG::Client
 		::System::Single NormalizeEndValue; // 0x28
 		::System::Single _StartValue; // 0x2C
 		::System::Int32 _ParamHash; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_4_15BEFE33A35D6EF8(::UnityEngine::AnimatorStateInfo a1)
+		::System::Single CBENHKLNMPE(::UnityEngine::AnimatorStateInfo a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::AnimatorStateInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_METHOD_4_15BEFE33A35D6EF8_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::AnimatorStateInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_CBENHKLNMPE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -44,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

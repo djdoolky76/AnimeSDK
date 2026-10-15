@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraAbilityProgressBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraWaitSecond; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERAWAITSECOND_METHOD_3_48189F71CA6B8A14_OFFSET UNITYSDK_OFFSET(0x1E3426B0)
-#define RPG_GAMECORE_CHIMERAWAITSECOND_METHOD_3_EFDA6EC0796B956E_OFFSET UNITYSDK_OFFSET(0x1E342650)
-#define RPG_GAMECORE_CHIMERAWAITSECOND__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3426A0)
+#define RPG_GAMECORE_CHIMERAWAITSECOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5831A0)
+#define RPG_GAMECORE_CHIMERAWAITSECOND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5831B0)
+#define RPG_GAMECORE_CHIMERAWAITSECOND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D583150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWaitSecond_TypeDefinitionIndex = 15687;
+	inline static constexpr unsigned int ChimeraWaitSecond_TypeDefinitionIndex = 15860;
 
 	class ChimeraWaitSecond : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:
 		::System::Single WaitTime; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWAITSECOND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWAITSECOND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EFDA6EC0796B956E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraWaitSecond*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraWaitSecond* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraWaitSecond*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWAITSECOND_METHOD_3_EFDA6EC0796B956E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraWaitSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWAITSECOND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_48189F71CA6B8A14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraWaitSecond* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraWaitSecond* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraWaitSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWAITSECOND_METHOD_3_48189F71CA6B8A14_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraWaitSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWAITSECOND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

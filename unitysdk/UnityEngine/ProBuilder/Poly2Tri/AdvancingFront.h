@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class AdvancingFrontNode; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_ADDNODE_OFFSET UNITYSDK_OFFSET(0x1EF1EC70)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_FINDSEARCHNODE_OFFSET UNITYSDK_OFFSET(0x1EF1EDA0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATENODE_1_OFFSET UNITYSDK_OFFSET(0x1EF1EE40)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATENODE_OFFSET UNITYSDK_OFFSET(0x1EF1EDB0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATEPOINT_OFFSET UNITYSDK_OFFSET(0x1EF1EEB0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_REMOVENODE_OFFSET UNITYSDK_OFFSET(0x1EF1EC80)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EF1EC90)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF1EC60)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_ADDNODE_OFFSET UNITYSDK_OFFSET(0x1F158F10)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F158F00)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_FINDSEARCHNODE_OFFSET UNITYSDK_OFFSET(0x1F159040)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATENODE_1_OFFSET UNITYSDK_OFFSET(0x1F1590E0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATENODE_OFFSET UNITYSDK_OFFSET(0x1F159050)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATEPOINT_OFFSET UNITYSDK_OFFSET(0x1F159150)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_REMOVENODE_OFFSET UNITYSDK_OFFSET(0x1F158F20)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F158F30)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int AdvancingFront_TypeDefinitionIndex = 37441;
+	inline static constexpr unsigned int AdvancingFront_TypeDefinitionIndex = 38738;
 
 	class AdvancingFront : public ::System::Object
 	{
@@ -25,10 +24,9 @@ namespace UnityEngine::ProBuilder::Poly2Tri
 		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head; // 0x10
 		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search; // 0x18
 		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail; // 0x20
-
 		::System::Void _ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* a1, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* a1)
@@ -65,5 +63,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri
 		{
 			return ((::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONT_LOCATEPOINT_OFFSET))(this, a1);
 		}
+
 	};
 }

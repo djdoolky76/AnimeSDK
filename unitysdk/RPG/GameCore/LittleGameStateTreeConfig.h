@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AIVariableValueSource; }
+namespace RPG::GameCore { class LittleGameStateTreeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_77AA48EEF1F02CD7_OFFSET UNITYSDK_OFFSET(0x1DD6E860)
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_ED767096AF184840_OFFSET UNITYSDK_OFFSET(0x1DD6E820)
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6E850)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B91B0)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7B91C0)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B9180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameStateTreeConfig_TypeDefinitionIndex = 18638;
+	inline static constexpr unsigned int LittleGameStateTreeConfig_TypeDefinitionIndex = 18848;
 
 	class LittleGameStateTreeConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean EnableStateTree; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* AIConfigPath; // 0x18
 		::RPG::GameCore::AIVariableValueSource* OverrideVariables; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ED767096AF184840(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameStateTreeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameStateTreeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameStateTreeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_ED767096AF184840_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameStateTreeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_77AA48EEF1F02CD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameStateTreeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameStateTreeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameStateTreeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_77AA48EEF1F02CD7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameStateTreeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

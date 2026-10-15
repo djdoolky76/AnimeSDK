@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+#define KDGCGMKBFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB83310)
+
+inline static constexpr unsigned int KDGCGMKBFNG_TypeDefinitionIndex = 42285;
+
+	class KDGCGMKBFNG : public ::System::Object
+	{
+	public:
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> PPAKDOKNNGD; // 0x10
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> EJMABLPGKFF; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KDGCGMKBFNG_CTOR_OFFSET))(this);
+		}
+
+	};

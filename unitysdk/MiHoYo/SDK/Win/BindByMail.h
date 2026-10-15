@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class BindByMail; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -12,49 +12,30 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_BINDBYMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x15CE27F0)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x15CE3BF0)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_BIND_OFFSET UNITYSDK_OFFSET(0x15CE3D30)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_CLOSE_OFFSET UNITYSDK_OFFSET(0x15CE3C10)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x15CE3CC0)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x15CE2780)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15CE4020)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x15CE3FB0)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x15CE3C30)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x15CE2620)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x15CE3C40)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x15CE3970)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x15CE34A0)
-#define MIHOYO_SDK_WIN_BINDBYMAIL_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x15CE3D20)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__AWAKE_B__35_0_OFFSET UNITYSDK_OFFSET(0x15CE4080)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE4040)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BCC5C10)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x1BCC7040)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_BIND_OFFSET UNITYSDK_OFFSET(0x1BCC7180)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BCC7060)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BCC7110)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC7490)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x1BCC5BA0)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BCC7470)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BCC7400)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BCC7080)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x1BCC5A40)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BCC7090)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BCC6DC0)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BCC68C0)
+#define MIHOYO_SDK_WIN_BINDBYMAIL_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x1BCC7170)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__AWAKE_B__35_0_OFFSET UNITYSDK_OFFSET(0x1BCC74D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindByMail_TypeDefinitionIndex = 9447;
+	inline static constexpr unsigned int BindByMail_TypeDefinitionIndex = 9505;
 
 	class BindByMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::BindByMail** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::BindByMail**)Il2CppClass::FromTypeDefinitionIndex(BindByMail_TypeDefinitionIndex)->GetStaticField(0x266D0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* BindDescTextPath; // 0x0
-		// static const ::System::String* MailInputPath; // 0x0
-		// static const ::System::String* CodeInputPath; // 0x0
-		// static const ::System::String* MailInputTextPath; // 0x0
-		// static const ::System::String* CodeInputTextPath; // 0x0
-		// static const ::System::String* MailInputPlaceholderPath; // 0x0
-		// static const ::System::String* CodeInputPlaceholderPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* RequestCodeButtonPath; // 0x0
-		// static const ::System::String* RequestCodeTextPath; // 0x0
-		// static const ::System::String* BindTipsPath; // 0x0
-		// static const ::System::String* SubmitButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* backButton; // 0x58
 		::UnityEngine::UI::Button* closeButton; // 0x60
 		::UnityEngine::GameObject* closeButtonObject; // 0x68
@@ -70,12 +51,32 @@ namespace MiHoYo::SDK::Win
 		::System::Action_1<::System::String*>* OnGetCode; // 0xB8
 		::System::Action_2<::System::String*, ::System::String*>* OnSubmit; // 0xC0
 		::System::Boolean isRequestVerifyCode; // 0xC8
+		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xCC
 		::System::Boolean retrieveFlag; // 0xD0
+		static ::MiHoYo::SDK::Win::BindByMail** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::BindByMail**)UnitySDK::FromName("MiHoYo.SDK.Win", "BindByMail")->GetStaticField(0x2CC70);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* BindDescTextPath; // 0x0
+		// static const ::System::String* MailInputPath; // 0x0
+		// static const ::System::String* CodeInputPath; // 0x0
+		// static const ::System::String* MailInputTextPath; // 0x0
+		// static const ::System::String* CodeInputTextPath; // 0x0
+		// static const ::System::String* MailInputPlaceholderPath; // 0x0
+		// static const ::System::String* CodeInputPlaceholderPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* RequestCodeButtonPath; // 0x0
+		// static const ::System::String* RequestCodeTextPath; // 0x0
+		// static const ::System::String* BindTipsPath; // 0x0
+		// static const ::System::String* SubmitButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDBYMAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDBYMAIL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -152,5 +153,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDBYMAIL__AWAKE_B__35_0_OFFSET))(this, a1);
 		}
+
 	};
 }

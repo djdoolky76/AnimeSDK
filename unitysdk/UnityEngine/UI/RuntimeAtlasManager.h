@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/UI/SpriteElement.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Font; }
@@ -15,86 +15,91 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class Graphic; }
-namespace UnityEngine::UI { class RuntimeAtlasManager_FontTex; }
-namespace UnityEngine::UI { class RuntimeAtlasManager_PackedAtlas; }
-namespace UnityEngine::UI { class RuntimeAtlasManager_RuntimeAtlas; }
+namespace UnityEngine::UI { class RuntimeAtlasManager; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASEIMPL_OFFSET UNITYSDK_OFFSET(0x1773DC00)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASE_OFFSET UNITYSDK_OFFSET(0x1770DAB0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x17741E00)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERTIMPL_OFFSET UNITYSDK_OFFSET(0x1773D3A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERT_OFFSET UNITYSDK_OFFSET(0x1770DF90)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x1773DE70)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEX_OFFSET UNITYSDK_OFFSET(0x1773DDE0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RELEASE_OFFSET UNITYSDK_OFFSET(0x177407F0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x1773E340)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFO_OFFSET UNITYSDK_OFFSET(0x1773E290)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x1773D9B0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFO_OFFSET UNITYSDK_OFFSET(0x1770EA90)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEX_OFFSET UNITYSDK_OFFSET(0x177059A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UNLOADUNUSED_OFFSET UNITYSDK_OFFSET(0x177410F0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLEIMPL_OFFSET UNITYSDK_OFFSET(0x17741100)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x177416B0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x177421D0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x17741A00)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x177424A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1773E5B0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F510800)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F50CC00)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASEIMPL_OFFSET UNITYSDK_OFFSET(0x1F50C250)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASE_OFFSET UNITYSDK_OFFSET(0x1F4DCB70)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x1F510160)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERTIMPL_OFFSET UNITYSDK_OFFSET(0x1F50B9F0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERT_OFFSET UNITYSDK_OFFSET(0x1F4DD010)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x1F50C4C0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEX_OFFSET UNITYSDK_OFFSET(0x1F50C430)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F50EB50)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x1F50C990)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFO_OFFSET UNITYSDK_OFFSET(0x1F50C8E0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x1F50C000)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFO_OFFSET UNITYSDK_OFFSET(0x1F4DDAB0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEX_OFFSET UNITYSDK_OFFSET(0x1F4D4C10)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UNLOADUNUSED_OFFSET UNITYSDK_OFFSET(0x1F50F450)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLEIMPL_OFFSET UNITYSDK_OFFSET(0x1F50F460)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1F50FA10)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x1F510530)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F50FD60)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_TypeDefinitionIndex = 6803;
+	inline static constexpr unsigned int RuntimeAtlasManager_TypeDefinitionIndex = 6812;
 
 	class RuntimeAtlasManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Sprite** StaticGet_defaultSprite()
-		{
-			return (::UnityEngine::Sprite**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x25A80);
-		}
-		static ::UnityEngine::UI::RuntimeAtlasManager** StaticGet_s_Instance()
-		{
-			return (::UnityEngine::UI::RuntimeAtlasManager**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x25A88);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x25A90);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_InsertMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0xB530);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UploadTexMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0xB538);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_QueryMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0xB540);
-		}
-		// static const ::System::Int32 k_UpdateInterval = 0x12C; // 0x0
-		// static const ::System::Int32 k_RuntimeAtlasCount = 0x2; // 0x0
-		// static const ::System::Int32 k_PackedAtlasCount = 0x4; // 0x0
-		// static const ::System::Int32 k_FontTexCount = 0x2; // 0x0
 		::UnityEngine::ComputeShader* m_CopyShader; // 0x10
 		::UnityEngine::Material* m_CopyMat; // 0x18
 		::UnityEngine::Texture* m_ClearTex; // 0x20
 		::System::Int32 m_LastUpdateFrame; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Graphic*>* m_TrackedGraphic; // 0x30
 		::UnityEngine::Experimental::Rendering::GraphicsFormat m_DefaultFormat; // 0x38
-		::Il2CppArray<::UnityEngine::UI::RuntimeAtlasManager_PackedAtlas*>* m_PackedAtlas; // 0x40
-		::Il2CppArray<::UnityEngine::UI::RuntimeAtlasManager_FontTex*>* m_FontTex; // 0x48
-		::Il2CppArray<::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas*>* m_RuntimeAtlas; // 0x50
+		::System::Byte _padding1[0x4];
+		::Il2CppArray<::System::Object*>* m_PackedAtlas; // 0x40
+		::Il2CppArray<::System::Object*>* m_FontTex; // 0x48
+		::Il2CppArray<::System::Object*>* m_RuntimeAtlas; // 0x50
 		::Il2CppArray<::System::Int32>* k_PackedAtlasTexID; // 0x58
 		::Il2CppArray<::System::Int32>* k_FontTexID; // 0x60
+		static ::UnityEngine::UI::RuntimeAtlasManager** StaticGet_s_Instance()
+		{
+			return (::UnityEngine::UI::RuntimeAtlasManager**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlasManager")->GetStaticField(0x3D840);
+		}
 
+		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
+		{
+			return (::UnityEngine::Mesh**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlasManager")->GetStaticField(0x3D848);
+		}
+
+		static ::UnityEngine::Sprite** StaticGet_defaultSprite()
+		{
+			return (::UnityEngine::Sprite**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlasManager")->GetStaticField(0x3D850);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_QueryMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlasManager")->GetStaticField(0xE770);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_InsertMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlasManager")->GetStaticField(0xE778);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UploadTexMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlasManager")->GetStaticField(0xE780);
+		}
+
+		// static const ::System::Object k_UpdateInterval; // 0x0
+		// static const ::System::Object k_RuntimeAtlasCount; // 0x0
+		// static const ::System::Object k_PackedAtlasCount; // 0x0
+		// static const ::System::Object k_FontTexCount; // 0x0
 		::System::Void _ctor(::UnityEngine::ComputeShader* a1, ::UnityEngine::Material* a2, ::UnityEngine::Texture* a3, ::UnityEngine::Sprite* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*, ::UnityEngine::Material*, ::UnityEngine::Texture*, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*, ::UnityEngine::Material*, ::UnityEngine::Texture*, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean Insert(::UnityEngine::Sprite* a1, ::System::Boolean a2)
@@ -102,19 +107,19 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryGetTexInfo(::UnityEngine::UI::SpriteElement& a1, ::UnityEngine::Shader* a2, ::UnityEngine::UI::Graphic* a3, ::UnityEngine::Texture*& a4, ::UnityEngine::Vector2& a5, ::UnityEngine::Vector2& a6, ::System::Int32& a7)
+		static ::System::Boolean TryGetTexInfo(::UnityEngine::UI::SpriteElement a1, ::UnityEngine::Shader* a2, ::UnityEngine::UI::Graphic* a3, ::UnityEngine::Texture* a4, ::UnityEngine::Vector2 a5, ::UnityEngine::Vector2 a6, ::System::Int32 a7)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::UI::SpriteElement&, ::UnityEngine::Shader*, ::UnityEngine::UI::Graphic*, ::UnityEngine::Texture*&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::UnityEngine::UI::SpriteElement, ::UnityEngine::Shader*, ::UnityEngine::UI::Graphic*, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean TryGetTex(::UnityEngine::UI::SpriteElement& a1, ::UnityEngine::Texture*& a2)
+		static ::System::Boolean TryGetTex(::UnityEngine::UI::SpriteElement a1, ::UnityEngine::Texture* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::UI::SpriteElement&, ::UnityEngine::Texture*&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEX_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::UnityEngine::UI::SpriteElement, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Erase(::UnityEngine::UI::SpriteElement& a1, ::UnityEngine::UI::Graphic* a2)
+		static ::System::Void Erase(::UnityEngine::UI::SpriteElement a1, ::UnityEngine::UI::Graphic* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::SpriteElement&, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::UI::SpriteElement, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void RegisterFontTex(::UnityEngine::Font* a1)
@@ -122,9 +127,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEX_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryGetFontTexInfo(::UnityEngine::Font* a1, ::UnityEngine::Texture*& a2, ::System::Int32& a3)
+		static ::System::Boolean TryGetFontTexInfo(::UnityEngine::Font* a1, ::UnityEngine::Texture* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Font*, ::UnityEngine::Texture*&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFO_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::UnityEngine::Font*, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFO_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void Release()
@@ -157,14 +162,14 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPLOADTEXTURE_OFFSET))(this);
 		}
 
-		::System::Boolean TryGetTexInfoImpl(::UnityEngine::UI::SpriteElement& a1, ::UnityEngine::Texture*& a2, ::UnityEngine::Vector2& a3, ::UnityEngine::Vector2& a4, ::System::Int32& a5)
+		::System::Boolean TryGetTexInfoImpl(::UnityEngine::UI::SpriteElement a1, ::UnityEngine::Texture* a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&, ::UnityEngine::Texture*&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFOIMPL_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFOIMPL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EraseImpl(::UnityEngine::UI::SpriteElement& a1)
+		::System::Void EraseImpl(::UnityEngine::UI::SpriteElement a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::SpriteElement&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASEIMPL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::SpriteElement))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASEIMPL_OFFSET))(this, a1);
 		}
 
 		static ::UnityEngine::Mesh* get_fullscreenMesh()
@@ -182,9 +187,10 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEFONTTEXIMPL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetFontTexInfoImpl(::UnityEngine::Font* a1, ::UnityEngine::Texture*& a2, ::System::Int32& a3)
+		::System::Boolean TryGetFontTexInfoImpl(::UnityEngine::Font* a1, ::UnityEngine::Texture* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Font*, ::UnityEngine::Texture*&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFOIMPL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Font*, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFOIMPL_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

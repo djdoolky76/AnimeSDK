@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class Web; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7DA60)
-#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7DAC0)
-#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7CF10)
-#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7D970)
+#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF1760)
+#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF1670)
+#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF17C0)
+#define MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF0C20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Web_OnWebViewInputEnableStatus_TypeDefinitionIndex = 8178;
+	inline static constexpr unsigned int Web_OnWebViewInputEnableStatus_TypeDefinitionIndex = 8221;
 
 	class Web_OnWebViewInputEnableStatus : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::Web* a1, ::System::Boolean a2)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWINPUTENABLESTATUS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

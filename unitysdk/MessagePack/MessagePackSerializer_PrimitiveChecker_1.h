@@ -4,7 +4,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_PrimitiveChecker_1_TypeDefinitionIndex = 7161;
+	inline static constexpr unsigned int MessagePackSerializer_PrimitiveChecker_1_TypeDefinitionIndex = 7215;
 
 	template <typename T>
 	class MessagePackSerializer_PrimitiveChecker_1 : public ::System::Object
@@ -12,7 +12,8 @@ namespace MessagePack
 	public:
 		static ::System::Boolean* StaticGet_IsMessagePackFixedSizePrimitive()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_PrimitiveChecker_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Boolean*)UnitySDK::FromName("MessagePack", "PrimitiveChecker`1")->GetStaticField(0x0);
 		}
+
 	};
 }

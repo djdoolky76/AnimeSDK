@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreateAttachPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEATTACHPOINT_METHOD_3_C6D09A6E4263A73D_OFFSET UNITYSDK_OFFSET(0x1D9BBB80)
-#define RPG_GAMECORE_CREATEATTACHPOINT_METHOD_3_F4FFC26B08457FA6_OFFSET UNITYSDK_OFFSET(0x1D9BBAE0)
-#define RPG_GAMECORE_CREATEATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BBB40)
+#define RPG_GAMECORE_CREATEATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B2C10)
+#define RPG_GAMECORE_CREATEATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B2C50)
+#define RPG_GAMECORE_CREATEATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B2BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateAttachPoint_TypeDefinitionIndex = 22932;
+	inline static constexpr unsigned int CreateAttachPoint_TypeDefinitionIndex = 23193;
 
 	class CreateAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,20 +24,22 @@ namespace RPG::GameCore
 		::RPG::MVector3 Posffset; // 0x30
 		::RPG::MVector3 RotOffset; // 0x3C
 		::System::Boolean FollowSourcePoint; // 0x48
-
+		::System::Byte _padding0[0x7];
+		::System::String* SourceBoneName; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEATTACHPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEATTACHPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F4FFC26B08457FA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateAttachPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateAttachPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEATTACHPOINT_METHOD_3_F4FFC26B08457FA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateAttachPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEATTACHPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C6D09A6E4263A73D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateAttachPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateAttachPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateAttachPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEATTACHPOINT_METHOD_3_C6D09A6E4263A73D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateAttachPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEATTACHPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

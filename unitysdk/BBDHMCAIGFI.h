@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+#define BBDHMCAIGFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E786A0)
+
+inline static constexpr unsigned int BBDHMCAIGFI_TypeDefinitionIndex = 57630;
+
+	class BBDHMCAIGFI : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FixPoint FKOGJCPGFPD; // 0x10
+		::System::UInt32 INOIOGNMBMM; // 0x18
+		::System::UInt32 DGMAJPCPGNJ; // 0x1C
+		::System::UInt32 FFEPLIHOFLA; // 0x20
+		::System::UInt32 HEKPNDDKKMM; // 0x24
+		::RPG::GameCore::FixPoint PFIAONCIHOG; // 0x28
+		::System::UInt32 HHOPLLPEKKE; // 0x30
+		::System::UInt32 OHIDKMKBIGJ; // 0x34
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBDHMCAIGFI_CTOR_OFFSET))(this);
+		}
+
+	};

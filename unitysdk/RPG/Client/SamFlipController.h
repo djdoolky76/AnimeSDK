@@ -2,35 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_0_16E4307DCC419505_491;
+class COKICPIHPAC;
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SAMFLIPCONTROLLER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AF5A3B0)
-#define RPG_CLIENT_SAMFLIPCONTROLLER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1AF5A8F0)
-#define RPG_CLIENT_SAMFLIPCONTROLLER_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1AF5A670)
-#define RPG_CLIENT_SAMFLIPCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1AF5A3F0)
-#define RPG_CLIENT_SAMFLIPCONTROLLER_METHOD_5_0D262735D01CAB97_OFFSET UNITYSDK_OFFSET(0x1AF5A680)
-#define RPG_CLIENT_SAMFLIPCONTROLLER_PROCESS_OFFSET UNITYSDK_OFFSET(0x1AF5A490)
-#define RPG_CLIENT_SAMFLIPCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5AA20)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE0884D0)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_COMPARETO_OFFSET UNITYSDK_OFFSET(0xE088A10)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE088B40)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xE088790)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE088510)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_OKPABHAPFHP_OFFSET UNITYSDK_OFFSET(0xE0887A0)
+#define RPG_CLIENT_SAMFLIPCONTROLLER_PROCESS_OFFSET UNITYSDK_OFFSET(0xE0885B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SamFlipController_TypeDefinitionIndex = 70238;
+	inline static constexpr unsigned int SamFlipController_TypeDefinitionIndex = 70274;
 
 	class SamFlipController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean NeedScale; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* RootMNode; // 0x20
 		::UnityEngine::Transform* MirrorRootMNode; // 0x28
 		::UnityEngine::Transform* HeadMNode; // 0x30
 		::UnityEngine::Transform* MirrorHeadMNode; // 0x38
 		::UnityEngine::Vector3 NIDAPHBEMDE; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
@@ -53,14 +52,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER_PROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_0D262735D01CAB97(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
+		::System::Void OKPABHAPFHP(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER_METHOD_5_0D262735D01CAB97_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER_OKPABHAPFHP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 CompareTo(::Class_0_16E4307DCC419505_491* a1)
+		::System::Int32 CompareTo(::COKICPIHPAC* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_491*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER_COMPARETO_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::COKICPIHPAC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SAMFLIPCONTROLLER_COMPARETO_OFFSET))(this, a1);
 		}
+
 	};
 }

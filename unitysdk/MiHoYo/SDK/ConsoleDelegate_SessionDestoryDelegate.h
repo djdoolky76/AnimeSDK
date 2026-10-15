@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FAD80)
-#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FADB0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FAD70)
-#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FAD00)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE17000)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE16F80)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE17030)
+#define MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE16FF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_SessionDestoryDelegate_TypeDefinitionIndex = 7572;
+	inline static constexpr unsigned int ConsoleDelegate_SessionDestoryDelegate_TypeDefinitionIndex = 7626;
 
 	class ConsoleDelegate_SessionDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_SESSIONDESTORYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

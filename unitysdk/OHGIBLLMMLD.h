@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class HideEntity; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define OHGIBLLMMLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE62900)
+#define OHGIBLLMMLD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE62930)
+
+inline static constexpr unsigned int OHGIBLLMMLD_TypeDefinitionIndex = 55096;
+
+	class OHGIBLLMMLD
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HideEntity* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HideEntity*))((::PBYTE)hIl2Cpp + OHGIBLLMMLD_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OHGIBLLMMLD_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

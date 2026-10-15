@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceInfoManager_MEMORY_INFO_TypeDefinitionIndex = 46931;
+	inline static constexpr unsigned int DeviceInfoManager_MEMORY_INFO_TypeDefinitionIndex = 46471;
 
-	struct alignas(8) DeviceInfoManager_MEMORY_INFO
+	struct alignas(4) DeviceInfoManager_MEMORY_INFO
 	{
 		::System::UInt32 dwLength; // 0x10
 		::System::UInt32 dwMemoryLoad; // 0x14

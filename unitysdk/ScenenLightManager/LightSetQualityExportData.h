@@ -2,32 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/System/Object.h"
-
+namespace ScenenLightManager { class LightSetQualityExportData; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BF45160)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BF45440)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_METHOD_1_9C442F1EEC673542_OFFSET UNITYSDK_OFFSET(0x1BF44EA0)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF44E30)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE95AE70)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0xE95B1A0)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE95B480)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_GJMBIPMKLHP_OFFSET UNITYSDK_OFFSET(0xE95AEE0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightSetQualityExportData_TypeDefinitionIndex = 49588;
+	inline static constexpr unsigned int LightSetQualityExportData_TypeDefinitionIndex = 49162;
 
 	class LightSetQualityExportData : public ::System::Object
 	{
 	public:
 		::RPG::CustomRP::CustomLightQualityFilter name; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* ids; // 0x18
-
 		::System::Void _ctor(::RPG::CustomRP::CustomLightQualityFilter a1, ::System::Collections::Generic::List_1<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CustomLightQualityFilter, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CustomLightQualityFilter, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_1_9C442F1EEC673542(::ScenenLightManager::LightSetQualityExportData* a1)
+		::System::Boolean GJMBIPMKLHP(::ScenenLightManager::LightSetQualityExportData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightSetQualityExportData*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_METHOD_1_9C442F1EEC673542_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightSetQualityExportData*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_GJMBIPMKLHP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -39,5 +40,6 @@ namespace ScenenLightManager
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

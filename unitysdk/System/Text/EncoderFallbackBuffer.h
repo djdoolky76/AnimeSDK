@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Text { class EncoderNLS; }
 
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x1B3B66B0)
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALGETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1B3B6620)
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B3B65F0)
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALRESET_OFFSET UNITYSDK_OFFSET(0x1B3B6560)
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1B3B64D0)
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_THROWLASTCHARRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1B3B6880)
-#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B5B40)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E8F70)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C0E9AE0)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALGETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1C0E9A50)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C0E9A20)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALRESET_OFFSET UNITYSDK_OFFSET(0x1C0E9990)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1C0E9900)
+#define SYSTEM_TEXT_ENCODERFALLBACKBUFFER_THROWLASTCHARRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1C0E9CB0)
 
 namespace System::Text
 {
@@ -20,16 +20,16 @@ namespace System::Text
 	{
 	public:
 		::System::Text::EncoderNLS* encoder; // 0x10
-		::System::Char* charEnd; // 0x18
-		::System::Char* charStart; // 0x20
-		::System::Int32 iRecursionCount; // 0x28
-		::System::Boolean bFallingBack; // 0x2C
-		::System::Boolean setEncoder; // 0x2D
-		::System::Boolean bUsedEncoder; // 0x2E
-
+		::PVOID charEnd; // 0x18
+		::PVOID charStart; // 0x20
+		::System::Boolean setEncoder; // 0x28
+		::System::Boolean bFallingBack; // 0x29
+		::System::Boolean bUsedEncoder; // 0x2A
+		::System::Byte _padding0[0x1];
+		::System::Int32 iRecursionCount; // 0x2C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -42,9 +42,9 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALRESET_OFFSET))(this);
 		}
 
-		::System::Void InternalInitialize(::System::Char* a1, ::System::Char* a2, ::System::Text::EncoderNLS* a3, ::System::Boolean a4)
+		::System::Void InternalInitialize(::PVOID a1, ::PVOID a2, ::System::Text::EncoderNLS* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Char*, ::System::Text::EncoderNLS*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALINITIALIZE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::Text::EncoderNLS*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALINITIALIZE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Char InternalGetNextChar()
@@ -52,14 +52,15 @@ namespace System::Text
 			return ((::System::Char(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALGETNEXTCHAR_OFFSET))(this);
 		}
 
-		::System::Boolean InternalFallback(::System::Char a1, ::System::Char*& a2)
+		::System::Boolean InternalFallback(::System::Char a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::System::Char*&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ThrowLastCharRecursive(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKBUFFER_THROWLASTCHARRECURSIVE_OFFSET))(this, a1);
 		}
+
 	};
 }

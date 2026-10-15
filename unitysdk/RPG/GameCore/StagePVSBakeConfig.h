@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StagePVSBakeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STAGEPVSBAKECONFIG_METHOD_2_8D1AFC2E1FD56D26_OFFSET UNITYSDK_OFFSET(0x1CAE80B0)
-#define RPG_GAMECORE_STAGEPVSBAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE80F0)
+#define RPG_GAMECORE_STAGEPVSBAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE3C20)
+#define RPG_GAMECORE_STAGEPVSBAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE3BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSBakeConfig_TypeDefinitionIndex = 18950;
+	inline static constexpr unsigned int StagePVSBakeConfig_TypeDefinitionIndex = 19177;
 
 	class StagePVSBakeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSBAKECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSBAKECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8D1AFC2E1FD56D26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePVSBakeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StagePVSBakeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePVSBakeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSBAKECONFIG_METHOD_2_8D1AFC2E1FD56D26_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StagePVSBakeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSBAKECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

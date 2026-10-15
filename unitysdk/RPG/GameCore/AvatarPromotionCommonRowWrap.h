@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EAvatarPromotionCommonRowWrap.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class IAvatarPromotionCommonRowWrap; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0x1B612620)
-#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0x1B6123A0)
+#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE5A05B0)
+#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE5A0330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPromotionCommonRowWrap_TypeDefinitionIndex = 56728;
+	inline static constexpr unsigned int AvatarPromotionCommonRowWrap_TypeDefinitionIndex = 56547;
 
 	class AvatarPromotionCommonRowWrap : public ::System::Object
 	{
@@ -25,5 +24,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::IAvatarPromotionCommonRowWrap*>*(*)(::RPG::GameCore::EAvatarPromotionCommonRowWrap))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET))(a1);
 		}
+
 	};
 }

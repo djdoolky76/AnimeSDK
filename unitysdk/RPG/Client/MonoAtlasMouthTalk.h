@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOATLASMOUTHTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2AF90)
+#define RPG_CLIENT_MONOATLASMOUTHTALK_CTOR_OFFSET UNITYSDK_OFFSET(0xD726680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 68494;
+	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 68528;
 
 	class MonoAtlasMouthTalk : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +19,10 @@ namespace RPG::Client
 		::System::Int32 MiddleIndex; // 0x2C
 		::System::Single SeparateLoudness2; // 0x30
 		::System::Int32 OpenIndex; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATLASMOUTHTALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATLASMOUTHTALK_CTOR_OFFSET))(this);
 		}
+
 	};
 }

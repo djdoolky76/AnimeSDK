@@ -2,41 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOUIFOCUSHELPER_MOVE_OFFSET UNITYSDK_OFFSET(0x1C2958B0)
-#define RPG_CLIENT_MONOUIFOCUSHELPER_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C295D20)
-#define RPG_CLIENT_MONOUIFOCUSHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C295680)
-#define RPG_CLIENT_MONOUIFOCUSHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C295D80)
-#define RPG_CLIENT_MONOUIFOCUSHELPER__DOMOVE_OFFSET UNITYSDK_OFFSET(0x1C295740)
-#define RPG_CLIENT_MONOUIFOCUSHELPER__DOONFINISH_OFFSET UNITYSDK_OFFSET(0x1C295830)
-#define RPG_CLIENT_MONOUIFOCUSHELPER__DOONSTART_OFFSET UNITYSDK_OFFSET(0x1C295CC0)
+#define RPG_CLIENT_MONOUIFOCUSHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xD8727F0)
+#define RPG_CLIENT_MONOUIFOCUSHELPER_MOVE_OFFSET UNITYSDK_OFFSET(0xD872320)
+#define RPG_CLIENT_MONOUIFOCUSHELPER_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xD872790)
+#define RPG_CLIENT_MONOUIFOCUSHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8720F0)
+#define RPG_CLIENT_MONOUIFOCUSHELPER__DOMOVE_OFFSET UNITYSDK_OFFSET(0xD8721B0)
+#define RPG_CLIENT_MONOUIFOCUSHELPER__DOONFINISH_OFFSET UNITYSDK_OFFSET(0xD8722A0)
+#define RPG_CLIENT_MONOUIFOCUSHELPER__DOONSTART_OFFSET UNITYSDK_OFFSET(0xD872730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIFocusHelper_TypeDefinitionIndex = 72538;
+	inline static constexpr unsigned int MonoUIFocusHelper_TypeDefinitionIndex = 72612;
 
 	class MonoUIFocusHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::UI::ScrollRect* ScrollRectRef; // 0x18
 		::System::Single FocusInterval; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::RectTransform* _TargetRectTransform; // 0x28
 		::System::Boolean _CanMove; // 0x30
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector3 _StartContentLocalPosition; // 0x34
 		::UnityEngine::Vector3 _EndContentLocalPosition; // 0x40
 		::System::Single _CurTime; // 0x4C
 		::System::Single _TotalTime; // 0x50
+		::System::Byte _padding2[0x4];
 		::System::Action_1<::XLua::LuaTable*>* _OnPerformFinished; // 0x58
 		::XLua::LuaTable* _Table; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIFOCUSHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIFOCUSHELPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -68,5 +69,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIFOCUSHELPER__DOONSTART_OFFSET))(this);
 		}
+
 	};
 }

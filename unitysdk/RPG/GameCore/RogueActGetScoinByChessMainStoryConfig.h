@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActGetScoinByChessMainStoryConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_METHOD_6_0DC0514603D38FC3_OFFSET UNITYSDK_OFFSET(0x1EE85BF0)
-#define RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_METHOD_6_AC9CC560CAB223BF_OFFSET UNITYSDK_OFFSET(0x1EE85BA0)
-#define RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE85BE0)
+#define RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D970BC0)
+#define RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D970BD0)
+#define RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D970B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActGetScoinByChessMainStoryConfig_TypeDefinitionIndex = 19421;
+	inline static constexpr unsigned int RogueActGetScoinByChessMainStoryConfig_TypeDefinitionIndex = 19651;
 
 	class RogueActGetScoinByChessMainStoryConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_AC9CC560CAB223BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_METHOD_6_AC9CC560CAB223BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_0DC0514603D38FC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_METHOD_6_0DC0514603D38FC3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActGetScoinByChessMainStoryConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETSCOINBYCHESSMAINSTORYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

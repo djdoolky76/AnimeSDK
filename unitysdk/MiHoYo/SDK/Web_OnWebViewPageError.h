@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class Web; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7DF50)
-#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7DFD0)
-#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7CF60)
-#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7DE60)
+#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF1C50)
+#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF1B60)
+#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF1CD0)
+#define MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF0C70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Web_OnWebViewPageError_TypeDefinitionIndex = 8174;
+	inline static constexpr unsigned int Web_OnWebViewPageError_TypeDefinitionIndex = 8217;
 
 	class Web_OnWebViewPageError : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::Web* a1, ::System::String* a2, ::System::Int32 a3, ::System::String* a4)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWPAGEERROR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

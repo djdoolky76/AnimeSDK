@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropSetVisibility; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETVISIBILITY_METHOD_3_5ABDB6923F1580D3_OFFSET UNITYSDK_OFFSET(0x1D182720)
-#define RPG_GAMECORE_PROPSETVISIBILITY_METHOD_3_EC6C39C043541243_OFFSET UNITYSDK_OFFSET(0x1D1827A0)
-#define RPG_GAMECORE_PROPSETVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D182770)
+#define RPG_GAMECORE_PROPSETVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D926D20)
+#define RPG_GAMECORE_PROPSETVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D926D50)
+#define RPG_GAMECORE_PROPSETVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D926CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetVisibility_TypeDefinitionIndex = 20160;
+	inline static constexpr unsigned int PropSetVisibility_TypeDefinitionIndex = 20397;
 
 	class PropSetVisibility : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Visible; // 0x18
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::System::String*>* SpecifiedRelativePaths; // 0x20
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETVISIBILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETVISIBILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5ABDB6923F1580D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetVisibility*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropSetVisibility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetVisibility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETVISIBILITY_METHOD_3_5ABDB6923F1580D3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropSetVisibility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETVISIBILITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EC6C39C043541243(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetVisibility* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropSetVisibility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetVisibility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETVISIBILITY_METHOD_3_EC6C39C043541243_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropSetVisibility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETVISIBILITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CRPRectShadowSerialize_TypeDefinitionIndex = 4257;
+	inline static constexpr unsigned int CRPRectShadowSerialize_TypeDefinitionIndex = 4259;
 
 	struct alignas(4) CRPRectShadowSerialize
 	{

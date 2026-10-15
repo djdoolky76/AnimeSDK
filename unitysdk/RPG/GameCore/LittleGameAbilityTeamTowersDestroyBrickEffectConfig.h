@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityEffectConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameAbilityTeamTowersDestroyBrickEffectConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_METHOD_3_9C04F34769FB3D73_OFFSET UNITYSDK_OFFSET(0x1DD65390)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_METHOD_3_C9676A95E7FFB8F2_OFFSET UNITYSDK_OFFSET(0x1DD652F0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD65380)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ADD00)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7ADD10)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7ADC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityTeamTowersDestroyBrickEffectConfig_TypeDefinitionIndex = 21168;
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersDestroyBrickEffectConfig_TypeDefinitionIndex = 21414;
 
 	class LittleGameAbilityTeamTowersDestroyBrickEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C9676A95E7FFB8F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_METHOD_3_C9676A95E7FFB8F2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9C04F34769FB3D73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_METHOD_3_9C04F34769FB3D73_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTeamTowersDestroyBrickEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSDESTROYBRICKEFFECTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

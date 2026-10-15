@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x1BACF9B0)
+#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x1EE79FA0)
 
 namespace System::Xml
 {
@@ -17,5 +16,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_REF_EQUAL_OFFSET))(a1, a2);
 		}
+
 	};
 }

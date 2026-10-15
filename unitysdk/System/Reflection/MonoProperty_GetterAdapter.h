@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C43BB70)
-#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C43BBA0)
-#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C43BB60)
-#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C43BA70)
+#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C27E580)
+#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27E480)
+#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C27E5B0)
+#define SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C27E570)
 
 namespace System::Reflection
 {
@@ -20,7 +19,7 @@ namespace System::Reflection
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace System::Reflection
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPROPERTY_GETTERADAPTER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

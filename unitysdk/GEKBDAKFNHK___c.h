@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GEKBDAKFNHK;
+namespace System { class Object; }
+
+#define GEKBDAKFNHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E42D6D0)
+#define GEKBDAKFNHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E42D710)
+#define GEKBDAKFNHK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E42D720)
+
+inline static constexpr unsigned int GEKBDAKFNHK___c_TypeDefinitionIndex = 29400;
+
+	class GEKBDAKFNHK___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11E90);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GEKBDAKFNHK___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEKBDAKFNHK___C_CTOR_OFFSET))(this);
+		}
+
+		::GEKBDAKFNHK* __cctor_b__23_0()
+		{
+			return ((::GEKBDAKFNHK*(*)(::PVOID))((::PBYTE)hIl2Cpp + GEKBDAKFNHK___C___CCTOR_B__23_0_OFFSET))(this);
+		}
+
+	};

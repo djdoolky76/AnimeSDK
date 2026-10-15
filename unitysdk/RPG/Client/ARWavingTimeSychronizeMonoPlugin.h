@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class ARWavingTimeSychronizeBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1ABAFC00)
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABAFC50)
+#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC39B1F0)
+#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC39B1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ARWavingTimeSychronizeMonoPlugin_TypeDefinitionIndex = 70315;
+	inline static constexpr unsigned int ARWavingTimeSychronizeMonoPlugin_TypeDefinitionIndex = 70351;
 
-	class ARWavingTimeSychronizeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ARWavingTimeSychronizeBehavior*>
+	class ARWavingTimeSychronizeMonoPlugin
 	{
 	public:
 		::System::Single timeScale; // 0x30
@@ -29,15 +26,15 @@ namespace RPG::Client
 		::UnityEngine::GameObject* sychronizeTarget; // 0x70
 		::System::Single timer; // 0x78
 		::System::Boolean timerDebug; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

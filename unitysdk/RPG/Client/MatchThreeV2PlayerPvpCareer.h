@@ -1,42 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_63CAB6C405C6C7B1_2.h"
+#include "unitysdk/JHGPKBIJHDE.h"
 #include "unitysdk/RPG/Client/MatchThreeV2PlayerPvpCareer_GameMode.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_D17272E82AE804C2_113;
+class APAMFCKFHLL;
+namespace RPG::Client { class MatchThreeV2PlayerPvpCareer; }
 namespace RPG::Client { class MatchThreeV2RankData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_CREATE_OFFSET UNITYSDK_OFFSET(0x1C9A3D50)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GETSTATISTIC_OFFSET UNITYSDK_OFFSET(0x1C9A6AC0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_LASTRANKDATA_OFFSET UNITYSDK_OFFSET(0x1C9A69E0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_LASTSCORE_OFFSET UNITYSDK_OFFSET(0x1C9A68F0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_RANKDATA_OFFSET UNITYSDK_OFFSET(0x1C9A6910)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x1C9A68D0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SET_LASTSCORE_OFFSET UNITYSDK_OFFSET(0x1C9A6900)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SET_SCORE_OFFSET UNITYSDK_OFFSET(0x1C9A68E0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCARENASTATISTICS_OFFSET UNITYSDK_OFFSET(0x1C9A3650)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSCORE_OFFSET UNITYSDK_OFFSET(0x1C9A3390)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSOLOSTATISTICS_OFFSET UNITYSDK_OFFSET(0x1C9A33E0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A6AB0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_CREATE_OFFSET UNITYSDK_OFFSET(0xD5BB190)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_CTOR_OFFSET UNITYSDK_OFFSET(0xD5BDDC0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GETSTATISTIC_OFFSET UNITYSDK_OFFSET(0xD5BDDD0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_LASTRANKDATA_OFFSET UNITYSDK_OFFSET(0xD5BDCF0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_LASTSCORE_OFFSET UNITYSDK_OFFSET(0xD5BDC00)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_RANKDATA_OFFSET UNITYSDK_OFFSET(0xD5BDC20)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GET_SCORE_OFFSET UNITYSDK_OFFSET(0xD5BDBE0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SET_LASTSCORE_OFFSET UNITYSDK_OFFSET(0xD5BDC10)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SET_SCORE_OFFSET UNITYSDK_OFFSET(0xD5BDBF0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCARENASTATISTICS_OFFSET UNITYSDK_OFFSET(0xD5BAA90)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSCORE_OFFSET UNITYSDK_OFFSET(0xD5BA7D0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSOLOSTATISTICS_OFFSET UNITYSDK_OFFSET(0xD5BA820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer_TypeDefinitionIndex = 66057;
+	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer_TypeDefinitionIndex = 66011;
 
 	class MatchThreeV2PlayerPvpCareer : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::Enum_3_63CAB6C405C6C7B1_2, ::System::UInt32>* _SoloStatistics; // 0x10
-		::System::Collections::Generic::Dictionary_2<::Enum_3_63CAB6C405C6C7B1_2, ::System::UInt32>* _ArenaStatistics; // 0x18
+		::System::Collections::Generic::Dictionary_2<::JHGPKBIJHDE, ::System::UInt32>* _ArenaStatistics; // 0x10
+		::System::Collections::Generic::Dictionary_2<::JHGPKBIJHDE, ::System::UInt32>* _SoloStatistics; // 0x18
 		::System::UInt32 _Score_k__BackingField; // 0x20
 		::System::UInt32 _LastScore_k__BackingField; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_Score()
@@ -79,19 +78,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSCORE_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncSoloStatistics(::System::Collections::Generic::IEnumerable_1<::Class_1_D17272E82AE804C2_113*>* a1)
+		::System::Void SyncSoloStatistics(::System::Collections::Generic::IEnumerable_1<::APAMFCKFHLL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_D17272E82AE804C2_113*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSOLOSTATISTICS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::APAMFCKFHLL*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCSOLOSTATISTICS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncArenaStatistics(::System::Collections::Generic::IEnumerable_1<::Class_1_D17272E82AE804C2_113*>* a1)
+		::System::Void SyncArenaStatistics(::System::Collections::Generic::IEnumerable_1<::APAMFCKFHLL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_D17272E82AE804C2_113*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCARENASTATISTICS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::APAMFCKFHLL*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_SYNCARENASTATISTICS_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetStatistic(::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode a1, ::Enum_3_63CAB6C405C6C7B1_2 a2)
+		::System::Int32 GetStatistic(::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode a1, ::JHGPKBIJHDE a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode, ::Enum_3_63CAB6C405C6C7B1_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GETSTATISTIC_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode, ::JHGPKBIJHDE))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER_GETSTATISTIC_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

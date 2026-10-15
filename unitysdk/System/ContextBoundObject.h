@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MarshalByRefObject.h"
 
-#define SYSTEM_CONTEXTBOUNDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A51DE10)
+#define SYSTEM_CONTEXTBOUNDOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1678F0)
 
 namespace System
 {
@@ -13,7 +13,8 @@ namespace System
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONTEXTBOUNDOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONTEXTBOUNDOBJECT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

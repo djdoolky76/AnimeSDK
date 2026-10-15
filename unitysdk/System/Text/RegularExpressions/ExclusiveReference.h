@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Text::RegularExpressions { class RegexRunner; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET UNITYSDK_OFFSET(0x1828E2B0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1828E2E0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1828E3A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F089460)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET UNITYSDK_OFFSET(0x1F089370)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F0893A0)
 
 namespace System::Text::RegularExpressions
 {
@@ -18,10 +18,9 @@ namespace System::Text::RegularExpressions
 		::System::Object* _obj; // 0x10
 		::System::Text::RegularExpressions::RegexRunner* _ref; // 0x18
 		::System::Int32 _locked; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_CTOR_OFFSET))(this);
 		}
 
 		::System::Object* Get()
@@ -33,5 +32,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET))(this, a1);
 		}
+
 	};
 }

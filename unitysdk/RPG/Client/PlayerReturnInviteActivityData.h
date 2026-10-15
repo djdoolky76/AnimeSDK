@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x1AE12B90)
-#define RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x1AE12C30)
-#define RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE12B80)
+#define RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDBF3200)
+#define RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0xDBF3210)
+#define RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xDBF32B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerReturnInviteActivityData_TypeDefinitionIndex = 61742;
+	inline static constexpr unsigned int PlayerReturnInviteActivityData_TypeDefinitionIndex = 61651;
 
 	class PlayerReturnInviteActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsExtraCondSatisfy()
@@ -27,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNINVITEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
 		}
+
 	};
 }

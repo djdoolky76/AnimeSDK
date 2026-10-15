@@ -1,66 +1,67 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Globalization/Unicode/SimpleCollator_Context.h"
 #include "unitysdk/Mono/Globalization/Unicode/SimpleCollator_ExtenderType.h"
 #include "unitysdk/System/Globalization/CompareOptions.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Mono/Globalization/Unicode/SimpleCollator_Context.h"
 namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 namespace Mono::Globalization::Unicode { class Contraction; }
 namespace Mono::Globalization::Unicode { class Level2Map; }
+namespace Mono::Globalization::Unicode { class SimpleCollator; }
 namespace Mono::Globalization::Unicode { class SortKeyBuffer; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Globalization { class SortKey; }
 namespace System::Globalization { class TextInfo; }
 
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CATEGORY_OFFSET UNITYSDK_OFFSET(0x16DE39F0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CLEARBUFFER_OFFSET UNITYSDK_OFFSET(0x16DE5340)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPAREFLAGPAIR_OFFSET UNITYSDK_OFFSET(0x16DE8D10)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPAREINTERNAL_OFFSET UNITYSDK_OFFSET(0x16DE5F50)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPARE_OFFSET UNITYSDK_OFFSET(0x16DE5D40)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILLSORTKEYRAW_OFFSET UNITYSDK_OFFSET(0x16DE53D0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILLSURROGATESORTKEYRAW_OFFSET UNITYSDK_OFFSET(0x16DE5BC0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILTEREXTENDER_OFFSET UNITYSDK_OFFSET(0x16DE46B0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILTEROPTIONS_OFFSET UNITYSDK_OFFSET(0x16DE4460)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETCONTRACTION_1_OFFSET UNITYSDK_OFFSET(0x16DE3FC0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETCONTRACTION_OFFSET UNITYSDK_OFFSET(0x16DE3F50)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETEXTENDERTYPE_OFFSET UNITYSDK_OFFSET(0x16DE45C0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETNEUTRALCULTURE_OFFSET UNITYSDK_OFFSET(0x16DE37D0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETSORTKEY_1_OFFSET UNITYSDK_OFFSET(0x16DE48D0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETSORTKEY_2_OFFSET UNITYSDK_OFFSET(0x16DE4B30)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETSORTKEY_OFFSET UNITYSDK_OFFSET(0x16DE48A0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETTAILCONTRACTION_1_OFFSET UNITYSDK_OFFSET(0x16DE41F0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETTAILCONTRACTION_OFFSET UNITYSDK_OFFSET(0x16DE4180)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFORDINAL_1_OFFSET UNITYSDK_OFFSET(0x16DEA6A0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFORDINAL_OFFSET UNITYSDK_OFFSET(0x16DEA5A0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFSORTKEY_OFFSET UNITYSDK_OFFSET(0x16DEA730)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOF_1_OFFSET UNITYSDK_OFFSET(0x16DE9D20)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOF_OFFSET UNITYSDK_OFFSET(0x16DE97E0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISHALFKANA_OFFSET UNITYSDK_OFFSET(0x16DE3F30)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISIGNORABLE_OFFSET UNITYSDK_OFFSET(0x16DE4810)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_1_OFFSET UNITYSDK_OFFSET(0x16DE8D50)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_2_OFFSET UNITYSDK_OFFSET(0x16DE8F80)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x16DE8D20)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSAFE_OFFSET UNITYSDK_OFFSET(0x16DE4850)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSUFFIX_1_OFFSET UNITYSDK_OFFSET(0x16DE9090)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSUFFIX_OFFSET UNITYSDK_OFFSET(0x16DE9000)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFORDINAL_OFFSET UNITYSDK_OFFSET(0x16DEAA60)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFSORTKEY_OFFSET UNITYSDK_OFFSET(0x16DEB4C0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOF_1_OFFSET UNITYSDK_OFFSET(0x16DEAC10)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOF_OFFSET UNITYSDK_OFFSET(0x16DE9130)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LEVEL1_OFFSET UNITYSDK_OFFSET(0x16DE3B80)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LEVEL2_OFFSET UNITYSDK_OFFSET(0x16DE3D10)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARDCORE_OFFSET UNITYSDK_OFFSET(0x16DEC190)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARD_OFFSET UNITYSDK_OFFSET(0x16DEB560)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARDCORE_OFFSET UNITYSDK_OFFSET(0x16DEB7F0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARD_OFFSET UNITYSDK_OFFSET(0x16DEA7D0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x16DEBED0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_QUICKINDEXOF_OFFSET UNITYSDK_OFFSET(0x16DE95E0)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_SETCJKTABLE_OFFSET UNITYSDK_OFFSET(0x16DE3700)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_TODASHTYPEVALUE_OFFSET UNITYSDK_OFFSET(0x16DE4690)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DECA90)
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16DE30F0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1C02CAA0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C035B60)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CLEARBUFFER_OFFSET UNITYSDK_OFFSET(0x1C02E410)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPAREFLAGPAIR_OFFSET UNITYSDK_OFFSET(0x1C031DE0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPAREINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C02F020)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C02EE10)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02C1A0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILLSORTKEYRAW_OFFSET UNITYSDK_OFFSET(0x1C02E4A0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILLSURROGATESORTKEYRAW_OFFSET UNITYSDK_OFFSET(0x1C02EC90)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILTEREXTENDER_OFFSET UNITYSDK_OFFSET(0x1C02D760)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_FILTEROPTIONS_OFFSET UNITYSDK_OFFSET(0x1C02D510)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETCONTRACTION_1_OFFSET UNITYSDK_OFFSET(0x1C02D070)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETCONTRACTION_OFFSET UNITYSDK_OFFSET(0x1C02D000)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETEXTENDERTYPE_OFFSET UNITYSDK_OFFSET(0x1C02D670)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETNEUTRALCULTURE_OFFSET UNITYSDK_OFFSET(0x1C02C880)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETSORTKEY_1_OFFSET UNITYSDK_OFFSET(0x1C02D980)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETSORTKEY_2_OFFSET UNITYSDK_OFFSET(0x1C02DBF0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETSORTKEY_OFFSET UNITYSDK_OFFSET(0x1C02D950)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETTAILCONTRACTION_1_OFFSET UNITYSDK_OFFSET(0x1C02D2A0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_GETTAILCONTRACTION_OFFSET UNITYSDK_OFFSET(0x1C02D230)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFORDINAL_1_OFFSET UNITYSDK_OFFSET(0x1C033770)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFORDINAL_OFFSET UNITYSDK_OFFSET(0x1C033670)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFSORTKEY_OFFSET UNITYSDK_OFFSET(0x1C033800)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOF_1_OFFSET UNITYSDK_OFFSET(0x1C032DF0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1C0328B0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISHALFKANA_OFFSET UNITYSDK_OFFSET(0x1C02CFE0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISIGNORABLE_OFFSET UNITYSDK_OFFSET(0x1C02D8C0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_1_OFFSET UNITYSDK_OFFSET(0x1C031E20)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_2_OFFSET UNITYSDK_OFFSET(0x1C032050)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x1C031DF0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSAFE_OFFSET UNITYSDK_OFFSET(0x1C02D900)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSUFFIX_1_OFFSET UNITYSDK_OFFSET(0x1C032160)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSUFFIX_OFFSET UNITYSDK_OFFSET(0x1C0320D0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFORDINAL_OFFSET UNITYSDK_OFFSET(0x1C033B30)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFSORTKEY_OFFSET UNITYSDK_OFFSET(0x1C034590)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOF_1_OFFSET UNITYSDK_OFFSET(0x1C033CE0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOF_OFFSET UNITYSDK_OFFSET(0x1C032200)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LEVEL1_OFFSET UNITYSDK_OFFSET(0x1C02CC30)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LEVEL2_OFFSET UNITYSDK_OFFSET(0x1C02CDC0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARDCORE_OFFSET UNITYSDK_OFFSET(0x1C035260)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARD_OFFSET UNITYSDK_OFFSET(0x1C034630)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARDCORE_OFFSET UNITYSDK_OFFSET(0x1C0348C0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARD_OFFSET UNITYSDK_OFFSET(0x1C0338A0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1C034FA0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_QUICKINDEXOF_OFFSET UNITYSDK_OFFSET(0x1C0326B0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_SETCJKTABLE_OFFSET UNITYSDK_OFFSET(0x1C02C7B0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_TODASHTYPEVALUE_OFFSET UNITYSDK_OFFSET(0x1C02D740)
 
 namespace Mono::Globalization::Unicode
 {
@@ -69,39 +70,41 @@ namespace Mono::Globalization::Unicode
 	class SimpleCollator : public ::System::Object
 	{
 	public:
-		static ::Mono::Globalization::Unicode::SimpleCollator** StaticGet_invariant()
-		{
-			return (::Mono::Globalization::Unicode::SimpleCollator**)Il2CppClass::FromTypeDefinitionIndex(SimpleCollator_TypeDefinitionIndex)->GetStaticField(0x3370);
-		}
-		static ::System::Boolean* StaticGet_QuickCheckDisabled()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SimpleCollator_TypeDefinitionIndex)->GetStaticField(0x11A0);
-		}
-		::Mono::Globalization::Unicode::CodePointIndexer* cjkIndexer; // 0x10
+		::Mono::Globalization::Unicode::CodePointIndexer* cjkLv2Indexer; // 0x10
 		::Il2CppArray<::System::Byte>* unsafeFlags; // 0x18
 		::Il2CppArray<::Mono::Globalization::Unicode::Level2Map*>* level2Maps; // 0x20
 		::System::Globalization::TextInfo* textInfo; // 0x28
 		::Il2CppArray<::Mono::Globalization::Unicode::Contraction*>* contractions; // 0x30
-		::Mono::Globalization::Unicode::CodePointIndexer* cjkLv2Indexer; // 0x38
-		::System::Byte* cjkLv2Table; // 0x40
-		::System::Byte* cjkLv1Table; // 0x48
-		::System::Int32 lcid; // 0x50
-		::System::Boolean frenchSort; // 0x54
-		::System::Byte* cjkCatTable; // 0x58
+		::Mono::Globalization::Unicode::CodePointIndexer* cjkIndexer; // 0x38
+		::System::Int32 lcid; // 0x40
+		::System::Boolean frenchSort; // 0x44
+		::System::Byte _padding0[0x3];
+		::PVOID cjkCatTable; // 0x48
+		::PVOID cjkLv1Table; // 0x50
+		::PVOID cjkLv2Table; // 0x58
+		static ::Mono::Globalization::Unicode::SimpleCollator** StaticGet_invariant()
+		{
+			return (::Mono::Globalization::Unicode::SimpleCollator**)UnitySDK::FromName("Mono.Globalization.Unicode", "SimpleCollator")->GetStaticField(0x2B40);
+		}
+
+		static ::System::Boolean* StaticGet_QuickCheckDisabled()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Mono.Globalization.Unicode", "SimpleCollator")->GetStaticField(0x2280);
+		}
 
 		::System::Void _ctor(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CCTOR_OFFSET))();
 		}
 
-		::System::Void SetCJKTable(::System::Globalization::CultureInfo* a1, ::Mono::Globalization::Unicode::CodePointIndexer*& a2, ::System::Byte*& a3, ::System::Byte*& a4, ::Mono::Globalization::Unicode::CodePointIndexer*& a5, ::System::Byte*& a6)
+		::System::Void SetCJKTable(::System::Globalization::CultureInfo* a1, ::Mono::Globalization::Unicode::CodePointIndexer* a2, ::System::Object* a3, ::System::Object* a4, ::Mono::Globalization::Unicode::CodePointIndexer* a5, ::System::Object* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::Mono::Globalization::Unicode::CodePointIndexer*&, ::System::Byte*&, ::System::Byte*&, ::Mono::Globalization::Unicode::CodePointIndexer*&, ::System::Byte*&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_SETCJKTABLE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::Mono::Globalization::Unicode::CodePointIndexer*, ::System::Object*, ::System::Object*, ::Mono::Globalization::Unicode::CodePointIndexer*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_SETCJKTABLE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Globalization::CultureInfo* GetNeutralCulture(::System::Globalization::CultureInfo* a1)
@@ -209,14 +212,14 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPARE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void ClearBuffer(::System::Byte* a1, ::System::Int32 a2)
+		::System::Void ClearBuffer(::PVOID a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CLEARBUFFER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CLEARBUFFER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 CompareInternal(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean& a7, ::System::Boolean& a8, ::System::Boolean a9, ::System::Boolean a10, ::Mono::Globalization::Unicode::SimpleCollator_Context& a11)
+		::System::Int32 CompareInternal(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Boolean a9, ::System::Boolean a10, ::Mono::Globalization::Unicode::SimpleCollator_Context a11)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::Boolean&, ::System::Boolean, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPAREINTERNAL_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_COMPAREINTERNAL_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Int32 CompareFlagPair(::System::Boolean a1, ::System::Boolean a2)
@@ -234,9 +237,9 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean IsPrefix_2(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::Mono::Globalization::Unicode::SimpleCollator_Context& a6)
+		::System::Boolean IsPrefix_2(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::Mono::Globalization::Unicode::SimpleCollator_Context a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISPREFIX_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean IsSuffix(::System::String* a1, ::System::String* a2, ::System::Globalization::CompareOptions a3)
@@ -249,9 +252,9 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_ISSUFFIX_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 QuickIndexOf(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean& a5)
+		::System::Int32 QuickIndexOf(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_QUICKINDEXOF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_QUICKINDEXOF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Int32 IndexOf(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Globalization::CompareOptions a5)
@@ -269,14 +272,14 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Char, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFORDINAL_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 IndexOfSortKey(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Byte* a4, ::System::Char a5, ::System::Int32 a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_Context& a8)
+		::System::Int32 IndexOfSortKey(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::PVOID a4, ::System::Char a5, ::System::Int32 a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_Context a8)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Byte*, ::System::Char, ::System::Int32, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFSORTKEY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::PVOID, ::System::Char, ::System::Int32, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOFSORTKEY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Int32 IndexOf_1(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Byte* a5, ::Mono::Globalization::Unicode::SimpleCollator_Context& a6)
+		::System::Int32 IndexOf_1(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::PVOID a5, ::Mono::Globalization::Unicode::SimpleCollator_Context a6)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Byte*, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOF_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::PVOID, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_INDEXOF_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Int32 LastIndexOf(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Globalization::CompareOptions a5)
@@ -289,39 +292,40 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFORDINAL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 LastIndexOfSortKey(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Byte* a5, ::System::Int32 a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_Context& a8)
+		::System::Int32 LastIndexOfSortKey(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::PVOID a5, ::System::Int32 a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_Context a8)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFSORTKEY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::PVOID, ::System::Int32, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOFSORTKEY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Int32 LastIndexOf_1(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Byte* a5, ::Mono::Globalization::Unicode::SimpleCollator_Context& a6)
+		::System::Int32 LastIndexOf_1(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::PVOID a5, ::Mono::Globalization::Unicode::SimpleCollator_Context a6)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Byte*, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOF_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::PVOID, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_LASTINDEXOF_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean MatchesForward(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Byte* a5, ::System::Boolean a6, ::Mono::Globalization::Unicode::SimpleCollator_Context& a7)
+		::System::Boolean MatchesForward(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::PVOID a5, ::System::Boolean a6, ::Mono::Globalization::Unicode::SimpleCollator_Context a7)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Byte*, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::PVOID, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Boolean MatchesForwardCore(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Byte* a5, ::System::Boolean a6, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType a7, ::Mono::Globalization::Unicode::Contraction*& a8, ::Mono::Globalization::Unicode::SimpleCollator_Context& a9)
+		::System::Boolean MatchesForwardCore(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::PVOID a5, ::System::Boolean a6, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType a7, ::Mono::Globalization::Unicode::Contraction* a8, ::Mono::Globalization::Unicode::SimpleCollator_Context a9)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Byte*, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::Mono::Globalization::Unicode::Contraction*&, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARDCORE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::PVOID, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::Mono::Globalization::Unicode::Contraction*, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESFORWARDCORE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Boolean MatchesPrimitive(::System::Globalization::CompareOptions a1, ::System::Byte* a2, ::System::Int32 a3, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType a4, ::System::Byte* a5, ::System::Int32 a6, ::System::Boolean a7)
+		::System::Boolean MatchesPrimitive(::System::Globalization::CompareOptions a1, ::PVOID a2, ::System::Int32 a3, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType a4, ::PVOID a5, ::System::Int32 a6, ::System::Boolean a7)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::CompareOptions, ::System::Byte*, ::System::Int32, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESPRIMITIVE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::CompareOptions, ::PVOID, ::System::Int32, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESPRIMITIVE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Boolean MatchesBackward(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Byte* a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_Context& a8)
+		::System::Boolean MatchesBackward(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::PVOID a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_Context a8)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte*, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::PVOID, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Boolean MatchesBackwardCore(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Byte* a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType a8, ::Mono::Globalization::Unicode::Contraction*& a9, ::Mono::Globalization::Unicode::SimpleCollator_Context& a10)
+		::System::Boolean MatchesBackwardCore(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::PVOID a6, ::System::Boolean a7, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType a8, ::Mono::Globalization::Unicode::Contraction* a9, ::Mono::Globalization::Unicode::SimpleCollator_Context a10)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte*, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::Mono::Globalization::Unicode::Contraction*&, ::Mono::Globalization::Unicode::SimpleCollator_Context&))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARDCORE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::PVOID, ::System::Boolean, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::Mono::Globalization::Unicode::Contraction*, ::Mono::Globalization::Unicode::SimpleCollator_Context))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_MATCHESBACKWARDCORE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
+
 	};
 }

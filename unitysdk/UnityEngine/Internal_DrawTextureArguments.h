@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Internal_DrawTextureArguments_TypeDefinitionIndex = 4131;
+	inline static constexpr unsigned int Internal_DrawTextureArguments_TypeDefinitionIndex = 4132;
 
 	struct alignas(8) Internal_DrawTextureArguments
 	{
@@ -28,6 +26,7 @@ namespace UnityEngine
 		::UnityEngine::Vector4 borderWidths; // 0x90
 		::UnityEngine::Vector4 cornerRadiuses; // 0xA0
 		::System::Boolean smoothCorners; // 0xB0
+		::System::Byte _padding0[0x3];
 		::System::Int32 pass; // 0xB4
 		::UnityEngine::Texture* texture; // 0xB8
 		::UnityEngine::Material* mat; // 0xC0

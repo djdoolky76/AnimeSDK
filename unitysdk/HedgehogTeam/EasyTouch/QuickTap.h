@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HedgehogTeam/EasyTouch/QuickBase.h"
 #include "unitysdk/HedgehogTeam/EasyTouch/QuickTap_ActionTriggering.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickTap_OnTap; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET UNITYSDK_OFFSET(0x1D16C2C0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D16C1D0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16C140)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_CTOR_OFFSET UNITYSDK_OFFSET(0x16747170)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET UNITYSDK_OFFSET(0x167472E0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET UNITYSDK_OFFSET(0x16747200)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTap_TypeDefinitionIndex = 38976;
+	inline static constexpr unsigned int QuickTap_TypeDefinitionIndex = 40273;
 
 	class QuickTap : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
 	public:
 		::HedgehogTeam::EasyTouch::QuickTap_OnTap* onTap; // 0x70
 		::HedgehogTeam::EasyTouch::QuickTap_ActionTriggering actionTriggering; // 0x78
+		::System::Byte _padding0[0x4];
 		::HedgehogTeam::EasyTouch::Gesture* currentGesture; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -35,5 +34,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET))(this, a1);
 		}
+
 	};
 }

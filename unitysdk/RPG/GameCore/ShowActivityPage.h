@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowActivityPage; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWACTIVITYPAGE_METHOD_3_1ADD8FAEB9333027_OFFSET UNITYSDK_OFFSET(0x1E0A1B20)
-#define RPG_GAMECORE_SHOWACTIVITYPAGE_METHOD_3_7896F3262019F138_OFFSET UNITYSDK_OFFSET(0x1E0A1B60)
-#define RPG_GAMECORE_SHOWACTIVITYPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A1B50)
+#define RPG_GAMECORE_SHOWACTIVITYPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA8B10)
+#define RPG_GAMECORE_SHOWACTIVITYPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA8B20)
+#define RPG_GAMECORE_SHOWACTIVITYPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA8AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowActivityPage_TypeDefinitionIndex = 21454;
+	inline static constexpr unsigned int ShowActivityPage_TypeDefinitionIndex = 21700;
 
 	class ShowActivityPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PanelID; // 0x18
 		::System::Boolean WaitForExit; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIVITYPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIVITYPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1ADD8FAEB9333027(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowActivityPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowActivityPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowActivityPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIVITYPAGE_METHOD_3_1ADD8FAEB9333027_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowActivityPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIVITYPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7896F3262019F138(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowActivityPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowActivityPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowActivityPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIVITYPAGE_METHOD_3_7896F3262019F138_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowActivityPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWACTIVITYPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

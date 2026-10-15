@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class HEU_InputHDAInfo; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_COPYTO_OFFSET UNITYSDK_OFFSET(0x11A4D7C0)
-#define HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x11A4D7F0)
-#define HOUDINIENGINEUNITY_HEU_INPUTHDAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4D960)
+#define HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B90B8D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90BA70)
+#define HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B90B900)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputHDAInfo_TypeDefinitionIndex = 39111;
+	inline static constexpr unsigned int HEU_InputHDAInfo_TypeDefinitionIndex = 40408;
 
 	class HEU_InputHDAInfo : public ::System::Object
 	{
@@ -19,10 +19,9 @@ namespace HoudiniEngineUnity
 		::UnityEngine::GameObject* _connectedGO; // 0x18
 		::System::Int32 _connectedInputNodeID; // 0x20
 		::System::Int32 _connectedMergeNodeID; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTHDAINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* a1)
@@ -34,5 +33,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputHDAInfo*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTHDAINFO_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

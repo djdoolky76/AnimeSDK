@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent_CakeRaceAnimatorAudioEvent_TypeDefinitionIndex = 77511;
+	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent_CakeRaceAnimatorAudioEvent_TypeDefinitionIndex = 77982;
 
 	struct alignas(8) MonoCakeRaceAudioPostEvent_CakeRaceAnimatorAudioEvent
 	{

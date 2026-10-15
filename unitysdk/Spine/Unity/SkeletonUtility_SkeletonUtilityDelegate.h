@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1833F670)
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1833F6A0)
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1833DA20)
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1833F600)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED04510)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED044A0)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED04540)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED028B0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonUtility_SkeletonUtilityDelegate_TypeDefinitionIndex = 43869;
+	inline static constexpr unsigned int SkeletonUtility_SkeletonUtilityDelegate_TypeDefinitionIndex = 45061;
 
 	class SkeletonUtility_SkeletonUtilityDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

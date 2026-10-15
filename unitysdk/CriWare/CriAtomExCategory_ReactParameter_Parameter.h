@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExCategory_ReactAisacModulationParameter.h"
 #include "unitysdk/CriWare/CriAtomExCategory_ReactDuckerParameter.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactParameter_Parameter_TypeDefinitionIndex = 38697;
+	inline static constexpr unsigned int CriAtomExCategory_ReactParameter_Parameter_TypeDefinitionIndex = 39994;
 
 	struct alignas(4) CriAtomExCategory_ReactParameter_Parameter
 	{

@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DNLHKFILMLB_TypeDefinitionIndex = 28676;
+
+	enum class DNLHKFILMLB : ::System::Int32
+	{
+		JHICPCLLELB = 0,
+		GOCKJAONOPC = 1,
+		POFPAAJAFPC = 2,
+		OENGNIFBPGE = 3,
+		IDGLNHCHPEB = 4,
+		CHKMMMFCOIH = 5,
+		CIFDIEDPBHB = 6,
+		IHCIIAECGPO = 7,
+		FDDCFIIALGG = 8,
+		KDLBGPKGMGJ = 9,
+		GFGCHCLAPOB = 10,
+		EMBPPEMIGAD = 11,
+		PPNLKFJAGNC = 12,
+		INCFIPCBFLH = 13,
+		HFEHCCHFODI = 14,
+		MHMIHLMAFJL = 15,
+		CPNKAFCFHDE = 16,
+		HDBMGGJMLIN = 17,
+	};

@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BySwitchMascotCanShootTarget; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_1740694434AD743F_OFFSET UNITYSDK_OFFSET(0x1CDC35B0)
-#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_34C20FA81D0E2256_OFFSET UNITYSDK_OFFSET(0x1CDC3430)
-#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_7EA6035D060ABA92_OFFSET UNITYSDK_OFFSET(0x1CDC35E0)
-#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_901F70760B847E95_OFFSET UNITYSDK_OFFSET(0x1CDC3470)
-#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC3460)
+#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D50A360)
+#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D50A4E0)
+#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D50A4B0)
+#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D50A370)
+#define RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D50A330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BySwitchMascotCanShootTarget_TypeDefinitionIndex = 19940;
+	inline static constexpr unsigned int BySwitchMascotCanShootTarget_TypeDefinitionIndex = 20177;
 
 	class BySwitchMascotCanShootTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_34C20FA81D0E2256(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BySwitchMascotCanShootTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_34C20FA81D0E2256_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BySwitchMascotCanShootTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_901F70760B847E95(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BySwitchMascotCanShootTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_901F70760B847E95_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BySwitchMascotCanShootTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1740694434AD743F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::BySwitchMascotCanShootTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_1740694434AD743F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::BySwitchMascotCanShootTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7EA6035D060ABA92(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::BySwitchMascotCanShootTarget* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::BySwitchMascotCanShootTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_METHOD_4_7EA6035D060ABA92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::BySwitchMascotCanShootTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSWITCHMASCOTCANSHOOTTARGET_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

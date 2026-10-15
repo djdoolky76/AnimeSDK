@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExTween_Config_Target.h"
 #include "unitysdk/CriWare/CriAtomExTween_ParameterType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExTween_Config_TypeDefinitionIndex = 38771;
+	inline static constexpr unsigned int CriAtomExTween_Config_TypeDefinitionIndex = 40068;
 
 	struct alignas(4) CriAtomExTween_Config
 	{

@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FlipMode.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client { class UIAutoFlipBehavior; }
 namespace RPG::Client { class UIPageTurnMonoPlugin; }
 namespace System { class String; }
 
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x16FFFB60)
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFFBB0)
+#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE3771F0)
+#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE3771A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAutoFlipMonoPlugin_TypeDefinitionIndex = 71023;
+	inline static constexpr unsigned int UIAutoFlipMonoPlugin_TypeDefinitionIndex = 71055;
 
-	class UIAutoFlipMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::UIAutoFlipBehavior*>
+	class UIAutoFlipMonoPlugin
 	{
 	public:
 		::RPG::Client::UIPageTurnMonoPlugin* ControledBook; // 0x30
@@ -23,16 +20,17 @@ namespace RPG::Client
 		::System::Single DelayBeforeStart; // 0x40
 		::System::Single TimeBetweenPages; // 0x44
 		::System::Boolean AutoStartFlip; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Single YRatio; // 0x4C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LOKABAGIKFG.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TriggerSound; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define HFKELLCNMMF_BBPDBBMOBHK_OFFSET UNITYSDK_OFFSET(0x15C7B050)
+#define HFKELLCNMMF_BPLJKICILOP_OFFSET UNITYSDK_OFFSET(0x15C7B570)
+#define HFKELLCNMMF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7AE70)
+#define HFKELLCNMMF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C7AEA0)
+#define HFKELLCNMMF_KALGMIMLDBA_OFFSET UNITYSDK_OFFSET(0x15C7B0D0)
+#define HFKELLCNMMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C7AEE0)
+
+inline static constexpr unsigned int HFKELLCNMMF_TypeDefinitionIndex = 56472;
+
+	class HFKELLCNMMF
+	{
+	public:
+		::RPG::GameCore::GameEntity* ONIACPBDNMH; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerSound* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerSound*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFKELLCNMMF_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFKELLCNMMF_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		static ::LOKABAGIKFG BBPDBBMOBHK(::RPG::GameCore::TriggerSound* a1)
+		{
+			return ((::LOKABAGIKFG(*)(::RPG::GameCore::TriggerSound*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_BBPDBBMOBHK_OFFSET))(a1);
+		}
+
+		static ::System::Void KALGMIMLDBA(::LOKABAGIKFG a1, ::System::String* a2, ::RPG::GameCore::TaskContext* a3, ::RPG::GameCore::GameEntity* a4)
+		{
+			return ((::System::Void(*)(::LOKABAGIKFG, ::System::String*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_KALGMIMLDBA_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean BPLJKICILOP(::RPG::GameCore::TriggerSound* a1, ::System::String* a2, ::RPG::GameCore::GameEntity* a3, ::System::Action_1<::System::UInt32>* a4)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::TriggerSound*, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_BPLJKICILOP_OFFSET))(a1, a2, a3, a4);
+		}
+
+	};

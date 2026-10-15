@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/TextReader.h"
-
 namespace System { class String; }
 
-#define SYSTEM_IO_TEXTREADER_NULLTEXTREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1D475710)
-#define SYSTEM_IO_TEXTREADER_NULLTEXTREADER_READ_OFFSET UNITYSDK_OFFSET(0x1D475700)
-#define SYSTEM_IO_TEXTREADER_NULLTEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4754C0)
+#define SYSTEM_IO_TEXTREADER_NULLTEXTREADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C241800)
+#define SYSTEM_IO_TEXTREADER_NULLTEXTREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1C241A50)
+#define SYSTEM_IO_TEXTREADER_NULLTEXTREADER_READ_OFFSET UNITYSDK_OFFSET(0x1C241A40)
 
 namespace System::IO
 {
@@ -17,7 +16,7 @@ namespace System::IO
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_NULLTEXTREADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_NULLTEXTREADER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 Read(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -29,5 +28,6 @@ namespace System::IO
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_NULLTEXTREADER_READLINE_OFFSET))(this);
 		}
+
 	};
 }

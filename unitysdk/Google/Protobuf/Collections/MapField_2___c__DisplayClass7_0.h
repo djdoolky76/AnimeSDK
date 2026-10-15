@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2___c__DisplayClass7_0_TypeDefinitionIndex = 5578;
+	inline static constexpr unsigned int MapField_2___c__DisplayClass7_0_TypeDefinitionIndex = 5585;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class MapField_2___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		TValue value; // 0x0
+		T1 value; // 0x0
 	};
 }

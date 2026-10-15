@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SwitchHandCatchableStateSync; }
 
-#define RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_METHOD_3_0DA877B814979CC8_OFFSET UNITYSDK_OFFSET(0x1E14E620)
-#define RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_METHOD_3_F140AE5A7F71F2EB_OFFSET UNITYSDK_OFFSET(0x1E14E660)
-#define RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1E14E650)
+#define RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB14400)
+#define RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB14410)
+#define RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB143D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchHandCatchableStateSync_TypeDefinitionIndex = 20722;
+	inline static constexpr unsigned int SwitchHandCatchableStateSync_TypeDefinitionIndex = 20960;
 
 	class SwitchHandCatchableStateSync : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* ID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0DA877B814979CC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCatchableStateSync*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchHandCatchableStateSync* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCatchableStateSync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_METHOD_3_0DA877B814979CC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchHandCatchableStateSync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F140AE5A7F71F2EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCatchableStateSync* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchHandCatchableStateSync* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCatchableStateSync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_METHOD_3_F140AE5A7F71F2EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchHandCatchableStateSync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHABLESTATESYNC_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

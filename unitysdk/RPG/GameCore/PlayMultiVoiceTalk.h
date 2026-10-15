@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/MultiVoiceSelectType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayMultiVoiceTalk; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7A50F0)
-#define RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A50A0)
-#define RPG_GAMECORE_PLAYMULTIVOICETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A50E0)
+#define RPG_GAMECORE_PLAYMULTIVOICETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9009A0)
+#define RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D9009B0)
+#define RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D900960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayMultiVoiceTalk_TypeDefinitionIndex = 20878;
+	inline static constexpr unsigned int PlayMultiVoiceTalk_TypeDefinitionIndex = 21124;
 
 	class PlayMultiVoiceTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::System::UInt32 TalkSentenceID; // 0x18
 		::RPG::GameCore::MultiVoiceSelectType SelectType; // 0x1C
 		::System::Boolean KeepDisplay; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMULTIVOICETALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMULTIVOICETALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMultiVoiceTalk*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayMultiVoiceTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMultiVoiceTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayMultiVoiceTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMultiVoiceTalk* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayMultiVoiceTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMultiVoiceTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayMultiVoiceTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMULTIVOICETALK_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

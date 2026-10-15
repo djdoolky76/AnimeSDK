@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueParamRogueTournRoomLevelConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_METHOD_6_070C4115B9A1D81E_OFFSET UNITYSDK_OFFSET(0x1E546470)
-#define RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_METHOD_6_B6CEE32F2379DC5A_OFFSET UNITYSDK_OFFSET(0x1E5464C0)
-#define RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5464B0)
+#define RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FDEE0)
+#define RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FDEF0)
+#define RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FDEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamRogueTournRoomLevelConfig_TypeDefinitionIndex = 19623;
+	inline static constexpr unsigned int RogueParamRogueTournRoomLevelConfig_TypeDefinitionIndex = 19853;
 
 	class RogueParamRogueTournRoomLevelConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_070C4115B9A1D81E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_METHOD_6_070C4115B9A1D81E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_B6CEE32F2379DC5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_METHOD_6_B6CEE32F2379DC5A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueTournRoomLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUETOURNROOMLEVELCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

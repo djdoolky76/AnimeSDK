@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/ItemType.h"
 #include "unitysdk/RPG/Client/ParkourGame/MonoParkourItem.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1C4DC050)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x1C4DBFD0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DC060)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6BED0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xDA6BEC0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xDA6BE40)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItemSpeedUp_TypeDefinitionIndex = 74046;
+	inline static constexpr unsigned int MonoParkourItemSpeedUp_TypeDefinitionIndex = 74145;
 
 	class MonoParkourItemSpeedUp : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
 	public:
 		::System::Int32 Value; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnTriggered(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
@@ -32,5 +30,6 @@ namespace RPG::Client::ParkourGame
 		{
 			return ((::RPG::Client::ParkourGame::ItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSPEEDUP_GET_ITEMTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19505B70)
-#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19505BA0)
-#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x19505AE0)
-#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x19505B00)
+#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD396320)
+#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0xD3962B0)
+#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD396350)
+#define RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0xD396290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeZoom_UpdateFunc_TypeDefinitionIndex = 72480;
+	inline static constexpr unsigned int LightConeZoom_UpdateFunc_TypeDefinitionIndex = 72553;
 
 	class LightConeZoom_UpdateFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEZOOM_UPDATEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

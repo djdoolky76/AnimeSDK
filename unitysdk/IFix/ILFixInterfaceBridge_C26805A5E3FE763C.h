@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IFix/Core/AnonymousStorey.h"
+namespace IFix::Core { class VirtualMachine; }
+namespace System { class Object; }
+
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C470CC0)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C470050)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_REFASYNCBUILDERSTARTMETHOD_OFFSET UNITYSDK_OFFSET(0x1C470DF0)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_IBLOCKITEM__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C470600)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_OBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C470B10)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_IBLOCKITEM__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C470180)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C470960)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C4707B0)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C470450)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C470330)
+#define IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C46FF30)
+
+namespace IFix
+{
+	inline static constexpr unsigned int ILFixInterfaceBridge_C26805A5E3FE763C_TypeDefinitionIndex = 41601;
+
+	class ILFixInterfaceBridge_C26805A5E3FE763C : public ::IFix::Core::AnonymousStorey
+	{
+	public:
+		::System::Int32 methodId_1; // 0x40
+		::System::Int32 methodId_6; // 0x44
+		::System::Int32 methodId_8; // 0x48
+		::System::Int32 methodId_3; // 0x4C
+		::System::Int32 methodId_0; // 0x50
+		::System::Int32 methodId_2; // 0x54
+		::System::Int32 methodId_4; // 0x58
+		::System::Int32 methodId_5; // 0x5C
+		::System::Int32 methodId_7; // 0x60
+		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::Il2CppArray<::System::Int32>* a4, ::Il2CppArray<::System::Int32>* a5, ::IFix::Core::VirtualMachine* a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_RPG_Client_IBlockItem__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_IBLOCKITEM__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerable_RPG_Client_IBlockItem__GetEnumerator()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_IBLOCKITEM__GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerable_System_Object__GetEnumerator()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_OBJECT__GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Void RefAsyncBuilderStartMethod()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_C26805A5E3FE763C_REFASYNCBUILDERSTARTMETHOD_OFFSET))(this);
+		}
+
+	};
+}

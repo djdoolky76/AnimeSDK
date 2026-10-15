@@ -4,21 +4,18 @@
 #include "unitysdk/RPG/Client/ParameterCondition.h"
 #include "unitysdk/RPG/Client/ParticleInitialData.h"
 #include "unitysdk/RPG/Client/StretchMode.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class FixStretchParticleBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x190D7A60)
-#define RPG_CLIENT_FIXSTRETCHPARTICLE_METHOD_7_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x190D7A50)
-#define RPG_CLIENT_FIXSTRETCHPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x190D7AB0)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE_CTOR_OFFSET UNITYSDK_OFFSET(0xD0357D0)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD035780)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE_LAILPBJOEIN_OFFSET UNITYSDK_OFFSET(0xD035770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 70557;
+	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 70593;
 
-	class FixStretchParticle : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FixStretchParticleBehavior*>
+	class FixStretchParticle
 	{
 	public:
 		::RPG::Client::FixStrecthDimension Dimension; // 0x30
@@ -27,20 +24,20 @@ namespace RPG::Client
 		::UnityEngine::Vector3 InitialParticleScale; // 0x3C
 		::RPG::Client::ParticleInitialData _ParticleInitialData; // 0x48
 		::RPG::Client::ParameterCondition ParameterConditions; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_F0088C88851A7DFB()
+		::System::Boolean LAILPBJOEIN()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE_METHOD_7_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE_LAILPBJOEIN_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

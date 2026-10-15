@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class IDisposable; }
 
-#define R3_SINGLEASSIGNMENTDISPOSABLECORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C9ED80)
-#define R3_SINGLEASSIGNMENTDISPOSABLECORE_SET_DISPOSABLE_OFFSET UNITYSDK_OFFSET(0x3C9ED70)
-#define R3_SINGLEASSIGNMENTDISPOSABLECORE_THROWALREADYASSIGNMENT_OFFSET UNITYSDK_OFFSET(0x1EFBBE20)
+#define R3_SINGLEASSIGNMENTDISPOSABLECORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C276F0)
+#define R3_SINGLEASSIGNMENTDISPOSABLECORE_SET_DISPOSABLE_OFFSET UNITYSDK_OFFSET(0x3C276E0)
+#define R3_SINGLEASSIGNMENTDISPOSABLECORE_THROWALREADYASSIGNMENT_OFFSET UNITYSDK_OFFSET(0x1C3F6D80)
 
 namespace R3
 {
-	inline static constexpr unsigned int SingleAssignmentDisposableCore_TypeDefinitionIndex = 35282;
+	inline static constexpr unsigned int SingleAssignmentDisposableCore_TypeDefinitionIndex = 35969;
 
 	struct alignas(8) SingleAssignmentDisposableCore
 	{
 		::System::IDisposable* current; // 0x10
-
 		::System::Void set_Disposable(::System::IDisposable* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IDisposable*))((::PBYTE)hIl2Cpp + R3_SINGLEASSIGNMENTDISPOSABLECORE_SET_DISPOSABLE_OFFSET))(this, a1);
@@ -30,5 +27,6 @@ namespace R3
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + R3_SINGLEASSIGNMENTDISPOSABLECORE_THROWALREADYASSIGNMENT_OFFSET))();
 		}
+
 	};
 }

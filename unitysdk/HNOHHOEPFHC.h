@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HNOHHOEPFHC_TypeDefinitionIndex = 25273;
+
+	enum class HNOHHOEPFHC : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		LPDOIPOPKFO = 1001,
+		IPNECBKNAMI = 1224,
+		LMMEHMOKIDG = 8001,
+		CIONOPHIPKK = 8002,
+		IAELKAIGDIP = 8003,
+		EKPFIHOEEBB = 8004,
+		LHLDEDIEEJG = 8005,
+		ALNKHNBPPOP = 8006,
+		OKFOCJJDAFD = 8007,
+		ENPJIDCEBBB = 8008,
+		ABJJGFKFBOE = 8009,
+		MDHKDALJJBC = 8010,
+	};

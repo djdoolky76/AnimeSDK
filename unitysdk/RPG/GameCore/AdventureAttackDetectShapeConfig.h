@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_METHOD_2_249F6D388E30B97E_OFFSET UNITYSDK_OFFSET(0x1CBA8380)
-#define RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_METHOD_2_2A4A54B57813716F_OFFSET UNITYSDK_OFFSET(0x1CBA8570)
-#define RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA8120)
+#define RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3890A0)
+#define RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D389570)
+#define RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D389380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAttackDetectShapeConfig_TypeDefinitionIndex = 16100;
+	inline static constexpr unsigned int AdventureAttackDetectShapeConfig_TypeDefinitionIndex = 16273;
 
 	class AdventureAttackDetectShapeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::MVector3 Offset; // 0x10
 		::System::Single FaceDir; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_249F6D388E30B97E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAttackDetectShapeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureAttackDetectShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAttackDetectShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_METHOD_2_249F6D388E30B97E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureAttackDetectShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_2A4A54B57813716F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAttackDetectShapeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureAttackDetectShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAttackDetectShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_METHOD_2_2A4A54B57813716F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureAttackDetectShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREATTACKDETECTSHAPECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Skin_SkinEntry.h"
-#include "unitysdk/Spine/Skin_SkinKey.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class Attachment; }
 namespace Spine { class BoneData; }
 namespace Spine { class ConstraintData; }
 namespace Spine { class Skeleton; }
+namespace Spine { class Skin; }
 namespace Spine { template <typename T> class ExposedList_1; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_SKIN_ADDSKIN_OFFSET UNITYSDK_OFFSET(0x1609C470)
-#define SPINE_SKIN_ATTACHALL_OFFSET UNITYSDK_OFFSET(0x16067F80)
-#define SPINE_SKIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1609CF00)
-#define SPINE_SKIN_COPYSKIN_OFFSET UNITYSDK_OFFSET(0x1609C7C0)
-#define SPINE_SKIN_GETATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x1609CCE0)
-#define SPINE_SKIN_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x160681B0)
-#define SPINE_SKIN_GET_ATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x16067000)
-#define SPINE_SKIN_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1609C330)
-#define SPINE_SKIN_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1609C340)
-#define SPINE_SKIN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1609C320)
-#define SPINE_SKIN_REMOVEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1609CC80)
-#define SPINE_SKIN_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x16078930)
-#define SPINE_SKIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1609CFD0)
-#define SPINE_SKIN__CTOR_OFFSET UNITYSDK_OFFSET(0x16077520)
+#define SPINE_SKIN_ADDSKIN_OFFSET UNITYSDK_OFFSET(0x1ECBC3F0)
+#define SPINE_SKIN_ATTACHALL_OFFSET UNITYSDK_OFFSET(0x1EC880B0)
+#define SPINE_SKIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ECBCE80)
+#define SPINE_SKIN_COPYSKIN_OFFSET UNITYSDK_OFFSET(0x1ECBC740)
+#define SPINE_SKIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC97620)
+#define SPINE_SKIN_GETATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x1ECBCC60)
+#define SPINE_SKIN_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1EC882E0)
+#define SPINE_SKIN_GET_ATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x1EC87120)
+#define SPINE_SKIN_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1ECBC2B0)
+#define SPINE_SKIN_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1ECBC2C0)
+#define SPINE_SKIN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1ECBC2A0)
+#define SPINE_SKIN_REMOVEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECBCC00)
+#define SPINE_SKIN_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1EC98A60)
+#define SPINE_SKIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ECBCF50)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_TypeDefinitionIndex = 38399;
+	inline static constexpr unsigned int Skin_TypeDefinitionIndex = 39696;
 
 	class Skin : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::Spine::BoneData*>* bones; // 0x10
-		::System::String* name; // 0x18
-		::System::Collections::Generic::Dictionary_2<::Spine::Skin_SkinKey, ::Spine::Skin_SkinEntry>* attachments; // 0x20
-		::Spine::ExposedList_1<::Spine::ConstraintData*>* constraints; // 0x28
-
+		::System::String* name; // 0x10
+		::Spine::ExposedList_1<::Spine::BoneData*>* bones; // 0x18
+		::Spine::ExposedList_1<::Spine::ConstraintData*>* constraints; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* attachments; // 0x28
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -51,9 +49,9 @@ namespace Spine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKIN_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::ICollection_1<::Spine::Skin_SkinEntry>* get_Attachments()
+		::System::Collections::Generic::ICollection_1<::System::Object*>* get_Attachments()
 		{
-			return ((::System::Collections::Generic::ICollection_1<::Spine::Skin_SkinEntry>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKIN_GET_ATTACHMENTS_OFFSET))(this);
+			return ((::System::Collections::Generic::ICollection_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKIN_GET_ATTACHMENTS_OFFSET))(this);
 		}
 
 		::Spine::ExposedList_1<::Spine::BoneData*>* get_Bones()
@@ -91,9 +89,9 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN_REMOVEATTACHMENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetAttachments(::System::Int32 a1, ::System::Collections::Generic::List_1<::Spine::Skin_SkinEntry>* a2)
+		::System::Void GetAttachments(::System::Int32 a1, ::System::Collections::Generic::List_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::Spine::Skin_SkinEntry>*))((::PBYTE)hIl2Cpp + SPINE_SKIN_GETATTACHMENTS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + SPINE_SKIN_GETATTACHMENTS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()
@@ -110,5 +108,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::Spine::Skin*))((::PBYTE)hIl2Cpp + SPINE_SKIN_ATTACHALL_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LogicAnimEventTimelineTrack; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK_METHOD_2_6AB470FED6114195_OFFSET UNITYSDK_OFFSET(0x1D4886E0)
-#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D488720)
+#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C62D0)
+#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C6290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogicAnimEventTimelineTrack_TypeDefinitionIndex = 16123;
+	inline static constexpr unsigned int LogicAnimEventTimelineTrack_TypeDefinitionIndex = 16296;
 
 	class LogicAnimEventTimelineTrack : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6AB470FED6114195(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LogicAnimEventTimelineTrack*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LogicAnimEventTimelineTrack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LogicAnimEventTimelineTrack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK_METHOD_2_6AB470FED6114195_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LogicAnimEventTimelineTrack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

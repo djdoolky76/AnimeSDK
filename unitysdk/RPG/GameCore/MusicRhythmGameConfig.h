@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MColor.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MusicRhythmGameConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_METHOD_2_4A2FAF762F96365A_OFFSET UNITYSDK_OFFSET(0x1CE82590)
-#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE82820)
+#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89DEE0)
+#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D89DC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmGameConfig_TypeDefinitionIndex = 16752;
+	inline static constexpr unsigned int MusicRhythmGameConfig_TypeDefinitionIndex = 16946;
 
 	class MusicRhythmGameConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,15 +23,15 @@ namespace RPG::GameCore
 		::System::String* AdjustTimeline; // 0x20
 		::RPG::MColor TVOnColor; // 0x28
 		::RPG::MColor TVOffColor; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4A2FAF762F96365A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MusicRhythmGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MusicRhythmGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MusicRhythmGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_METHOD_2_4A2FAF762F96365A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MusicRhythmGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,58 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/AlchemyLogicType.h"
 #include "unitysdk/RPG/Client/Prop/AlchemyType.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace RPG::Client { class CommonEffectMaterialBlock; }
 namespace RPG::Client::Prop { class AlchemyPuzzleBoard; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_ALCHEMYITEM_ANIMCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1AE31260)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_CHANGEMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1AE30E80)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1AE310C0)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AE30990)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1AE31740)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_GET_LOGICCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x1AE31720)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_INIT_OFFSET UNITYSDK_OFFSET(0x1AE309F0)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_METHOD_5_5BD7124724445BA9_OFFSET UNITYSDK_OFFSET(0x1AE31330)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_METHOD_5_A60933A46248448C_OFFSET UNITYSDK_OFFSET(0x1AE31660)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_METHOD_5_DF1C0FC46B60C2C9_OFFSET UNITYSDK_OFFSET(0x1AE31600)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKCANSELECT_OFFSET UNITYSDK_OFFSET(0x1AE31540)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKDEFAULT_OFFSET UNITYSDK_OFFSET(0x1AE31480)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKSELECTED_OFFSET UNITYSDK_OFFSET(0x1AE313C0)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1AE31750)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_SET_LOGICCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x1AE31730)
-#define RPG_CLIENT_PROP_ALCHEMYITEM_SYNCDEFAULTSIZE_OFFSET UNITYSDK_OFFSET(0x1AE30E00)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE31770)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE31760)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_ANIMCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xDC12160)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC12660)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_CHANGEMAXVALUE_OFFSET UNITYSDK_OFFSET(0xDC11DD0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xDC11FC0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDC12650)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC11960)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0xDC12630)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_GET_LOGICCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xDC12610)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_INIT_OFFSET UNITYSDK_OFFSET(0xDC119C0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_JEICHOJIHFB_OFFSET UNITYSDK_OFFSET(0xDC12560)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_MPPIFDOMLJD_OFFSET UNITYSDK_OFFSET(0xDC12230)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_OKOMLBHGMNP_OFFSET UNITYSDK_OFFSET(0xDC12500)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKCANSELECT_OFFSET UNITYSDK_OFFSET(0xDC12440)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKDEFAULT_OFFSET UNITYSDK_OFFSET(0xDC12380)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKSELECTED_OFFSET UNITYSDK_OFFSET(0xDC122C0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0xDC12640)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_SET_LOGICCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xDC12620)
+#define RPG_CLIENT_PROP_ALCHEMYITEM_SYNCDEFAULTSIZE_OFFSET UNITYSDK_OFFSET(0xDC11D50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyItem_TypeDefinitionIndex = 77727;
+	inline static constexpr unsigned int AlchemyItem_TypeDefinitionIndex = 78198;
 
 	class AlchemyItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_CIILOGNKIDO()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AlchemyItem_TypeDefinitionIndex)->GetStaticField(0x13400);
-		}
-		static ::System::Int32* StaticGet_FBJCPADMHME()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AlchemyItem_TypeDefinitionIndex)->GetStaticField(0x13404);
-		}
-		static ::System::Int32* StaticGet_PDICBIJLKEB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AlchemyItem_TypeDefinitionIndex)->GetStaticField(0x13408);
-		}
 		::System::Int32 MaxValue; // 0x18
 		::System::Int32 InitValue; // 0x1C
 		::RPG::Client::Prop::AlchemyType ColorType; // 0x20
 		::System::Boolean IsTarget; // 0x24
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Transform* Liquid; // 0x28
 		::UnityEngine::Transform* Musk; // 0x30
 		::RPG::Client::Prop::AlchemyLogicType _LogicColorType_k__BackingField; // 0x38
@@ -66,15 +54,29 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::AlchemyPuzzleBoard* COAMCKILKPH; // 0x70
 		::RPG::Client::CommonEffectMaterialBlock* MIINHOECFJK; // 0x78
 		::UnityEngine::Animator* MNEIKEBFBPL; // 0x80
+		static ::System::Int32* StaticGet_PDICBIJLKEB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "AlchemyItem")->GetStaticField(0xA610);
+		}
+
+		static ::System::Int32* StaticGet_CIILOGNKIDO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "AlchemyItem")->GetStaticField(0xA614);
+		}
+
+		static ::System::Int32* StaticGet_FBJCPADMHME()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "AlchemyItem")->GetStaticField(0xA618);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_CCTOR_OFFSET))();
 		}
 
 		::System::Void Dispose()
@@ -122,19 +124,19 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_SETMUSKCANSELECT_OFFSET))(this);
 		}
 
-		::System::Void Method_5_DF1C0FC46B60C2C9(::UnityEngine::Color a1)
+		::System::Void OKOMLBHGMNP(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_METHOD_5_DF1C0FC46B60C2C9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_OKOMLBHGMNP_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Color Method_5_A60933A46248448C(::RPG::Client::Prop::AlchemyLogicType a1)
+		::UnityEngine::Color JEICHOJIHFB(::RPG::Client::Prop::AlchemyLogicType a1)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::RPG::Client::Prop::AlchemyLogicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_METHOD_5_A60933A46248448C_OFFSET))(this, a1);
+			return ((::UnityEngine::Color(*)(::PVOID, ::RPG::Client::Prop::AlchemyLogicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_JEICHOJIHFB_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* Method_5_5BD7124724445BA9(::System::Int32 a1, ::RPG::Client::Prop::AlchemyLogicType a2)
+		::System::Collections::IEnumerator* MPPIFDOMLJD(::System::Int32 a1, ::RPG::Client::Prop::AlchemyLogicType a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::RPG::Client::Prop::AlchemyLogicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_METHOD_5_5BD7124724445BA9_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::RPG::Client::Prop::AlchemyLogicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_MPPIFDOMLJD_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Prop::AlchemyLogicType get_LogicColorType()
@@ -156,5 +158,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM_SET_CURRENTVALUE_OFFSET))(this, a1);
 		}
+
 	};
 }

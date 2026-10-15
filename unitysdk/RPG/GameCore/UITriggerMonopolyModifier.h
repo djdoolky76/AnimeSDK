@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UITriggerMonopolyModifier; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_METHOD_3_672CED75576CFD85_OFFSET UNITYSDK_OFFSET(0x1D2AD5A0)
-#define RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_METHOD_3_76F13171E6439B08_OFFSET UNITYSDK_OFFSET(0x1D2AD4D0)
-#define RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AD590)
+#define RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC448D0)
+#define RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC448E0)
+#define RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC44810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UITriggerMonopolyModifier_TypeDefinitionIndex = 21479;
+	inline static constexpr unsigned int UITriggerMonopolyModifier_TypeDefinitionIndex = 21725;
 
 	class UITriggerMonopolyModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_76F13171E6439B08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UITriggerMonopolyModifier*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UITriggerMonopolyModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UITriggerMonopolyModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_METHOD_3_76F13171E6439B08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UITriggerMonopolyModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_672CED75576CFD85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UITriggerMonopolyModifier* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::UITriggerMonopolyModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UITriggerMonopolyModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_METHOD_3_672CED75576CFD85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UITriggerMonopolyModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UITRIGGERMONOPOLYMODIFIER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

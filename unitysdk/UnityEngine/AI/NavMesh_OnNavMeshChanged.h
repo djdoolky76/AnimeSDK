@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFAF2C0)
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFAF330)
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFAEE80)
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFAF250)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F37B5F0)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_CTOR_OFFSET UNITYSDK_OFFSET(0x1F37B580)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F37B660)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F37B110)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMesh_OnNavMeshChanged_TypeDefinitionIndex = 5651;
+	inline static constexpr unsigned int NavMesh_OnNavMeshChanged_TypeDefinitionIndex = 5659;
 
 	class NavMesh_OnNavMeshChanged : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Int32 a2)
@@ -37,5 +36,6 @@ namespace UnityEngine::AI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHCHANGED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

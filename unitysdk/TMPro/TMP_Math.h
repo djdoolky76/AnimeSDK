@@ -3,35 +3,36 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define TMPRO_TMP_MATH_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x18B57C10)
-#define TMPRO_TMP_MATH_MOD_OFFSET UNITYSDK_OFFSET(0x18B57C40)
-#define TMPRO_TMP_MATH__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B57C60)
+#define TMPRO_TMP_MATH_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1F2EBE10)
+#define TMPRO_TMP_MATH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2EBE60)
+#define TMPRO_TMP_MATH_MOD_OFFSET UNITYSDK_OFFSET(0x1F2EBE40)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Math_TypeDefinitionIndex = 43487;
+	inline static constexpr unsigned int TMP_Math_TypeDefinitionIndex = 44679;
 
 	class TMP_Math : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector2* StaticGet_MAX_16BIT()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_Math_TypeDefinitionIndex)->GetStaticField(0x1A90);
-		}
 		static ::UnityEngine::Vector2* StaticGet_MIN_16BIT()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_Math_TypeDefinitionIndex)->GetStaticField(0x1A98);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_Math")->GetStaticField(0x13200);
 		}
-		// static const ::System::Single FLOAT_MAX; // 0x0
-		// static const ::System::Single FLOAT_MIN; // 0x0
-		// static const ::System::Int32 INT_MAX = 0x7FFFFFFF; // 0x0
-		// static const ::System::Int32 INT_MIN = 0x80000001; // 0x0
-		// static const ::System::Single FLOAT_UNSET; // 0x0
-		// static const ::System::Int32 INT_UNSET = 0xFFFF8001; // 0x0
 
+		static ::UnityEngine::Vector2* StaticGet_MAX_16BIT()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_Math")->GetStaticField(0x13208);
+		}
+
+		// static const ::System::Object FLOAT_MAX; // 0x0
+		// static const ::System::Object FLOAT_MIN; // 0x0
+		// static const ::System::Object INT_MAX; // 0x0
+		// static const ::System::Object INT_MIN; // 0x0
+		// static const ::System::Object FLOAT_UNSET; // 0x0
+		// static const ::System::Object INT_UNSET; // 0x0
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_MATH__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_MATH_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean Approximately(::System::Single a1, ::System::Single a2)
@@ -43,5 +44,6 @@ namespace TMPro
 		{
 			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MATH_MOD_OFFSET))(a1, a2);
 		}
+
 	};
 }

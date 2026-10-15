@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class LevelCurveInfo; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x194279D0)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1940FAB0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE57A5D0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET UNITYSDK_OFFSET(0xE593EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass15_0_TypeDefinitionIndex = 59168;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass15_0_TypeDefinitionIndex = 59026;
 
 	class AdventureStatic___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 curveID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _ApplyLevelCurve_b__0(::RPG::GameCore::LevelCurveInfo* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

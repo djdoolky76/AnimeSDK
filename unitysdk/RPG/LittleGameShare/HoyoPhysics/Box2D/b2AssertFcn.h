@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7997D0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C799840)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7997B0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C799730)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C847C10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C847B70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C847C80)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C847BF0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2AssertFcn_TypeDefinitionIndex = 35954;
+	inline static constexpr unsigned int b2AssertFcn_TypeDefinitionIndex = 36641;
 
 	class b2AssertFcn : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::String* a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ASSERTFCN_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

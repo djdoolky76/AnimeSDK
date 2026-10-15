@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AvatarHeightRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_METHOD_2_754FB2AA9415C887_OFFSET UNITYSDK_OFFSET(0x1C581A00)
-#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C590800)
+#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EA110)
+#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3DB250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarHeightRTPCConfig_TypeDefinitionIndex = 16229;
+	inline static constexpr unsigned int AvatarHeightRTPCConfig_TypeDefinitionIndex = 16402;
 
 	class AvatarHeightRTPCConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,15 +19,15 @@ namespace RPG::GameCore
 		::System::Single UpdateInterval; // 0x18
 		::System::Single UpdateThreshold; // 0x1C
 		::System::Single AbsValue; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_754FB2AA9415C887(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarHeightRTPCConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AvatarHeightRTPCConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarHeightRTPCConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_METHOD_2_754FB2AA9415C887_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AvatarHeightRTPCConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

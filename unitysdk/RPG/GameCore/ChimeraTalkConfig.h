@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraTalk; }
+namespace RPG::GameCore { class ChimeraTalkConfig; }
 
-#define RPG_GAMECORE_CHIMERATALKCONFIG_METHOD_2_4337A68CA6352481_OFFSET UNITYSDK_OFFSET(0x1E32BEF0)
-#define RPG_GAMECORE_CHIMERATALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E340AF0)
+#define RPG_GAMECORE_CHIMERATALKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5815F0)
+#define RPG_GAMECORE_CHIMERATALKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D581500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTalkConfig_TypeDefinitionIndex = 15676;
+	inline static constexpr unsigned int ChimeraTalkConfig_TypeDefinitionIndex = 15849;
 
 	class ChimeraTalkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ChimeraTalk*>* TalkConfigs; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4337A68CA6352481(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTalkConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraTalkConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTalkConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG_METHOD_2_4337A68CA6352481_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraTalkConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

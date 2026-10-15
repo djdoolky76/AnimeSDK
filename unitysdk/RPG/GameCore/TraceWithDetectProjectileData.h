@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/NewProjectileConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class TraceWithDetectProjectileData; }
 
-#define RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_METHOD_3_2A6A1E8CF9DAAD82_OFFSET UNITYSDK_OFFSET(0x1D52D9D0)
-#define RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_METHOD_3_6A1F709BBE7A8581_OFFSET UNITYSDK_OFFSET(0x1D52DAF0)
-#define RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52DA70)
+#define RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFB1F0)
+#define RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DBFB270)
+#define RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFB150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TraceWithDetectProjectileData_TypeDefinitionIndex = 15496;
+	inline static constexpr unsigned int TraceWithDetectProjectileData_TypeDefinitionIndex = 15669;
 
 	class TraceWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
@@ -24,20 +24,20 @@ namespace RPG::GameCore
 		::System::Boolean TraceAttachPoint; // 0xD0
 		::System::Boolean MuteTraceIfTargetNotAlive; // 0xD1
 		::System::Boolean DelayMoveOneFrame; // 0xD2
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2A6A1E8CF9DAAD82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TraceWithDetectProjectileData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TraceWithDetectProjectileData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TraceWithDetectProjectileData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_METHOD_3_2A6A1E8CF9DAAD82_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TraceWithDetectProjectileData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6A1F709BBE7A8581(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TraceWithDetectProjectileData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TraceWithDetectProjectileData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TraceWithDetectProjectileData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_METHOD_3_6A1F709BBE7A8581_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TraceWithDetectProjectileData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEWITHDETECTPROJECTILEDATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

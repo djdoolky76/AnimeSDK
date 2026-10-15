@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelEntitiesSelectorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelEquipmentOwnerSelectorConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_METHOD_3_0B277CA1945401A6_OFFSET UNITYSDK_OFFSET(0x1E332D60)
-#define RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_METHOD_3_A5F460E2C5CD8F17_OFFSET UNITYSDK_OFFSET(0x1E332E00)
-#define RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E332DF0)
+#define RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D572CF0)
+#define RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D572D00)
+#define RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D572C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEquipmentOwnerSelectorConfig_TypeDefinitionIndex = 15741;
+	inline static constexpr unsigned int ChimeraDuelEquipmentOwnerSelectorConfig_TypeDefinitionIndex = 15914;
 
 	class ChimeraDuelEquipmentOwnerSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0B277CA1945401A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_METHOD_3_0B277CA1945401A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A5F460E2C5CD8F17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_METHOD_3_A5F460E2C5CD8F17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelEquipmentOwnerSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEQUIPMENTOWNERSELECTORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

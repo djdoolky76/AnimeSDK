@@ -2,52 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ComponentAssetSkinType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_GET_CURRENTSKINNAME_OFFSET UNITYSDK_OFFSET(0x1A289FE0)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_GET_CURRENTSKINPATH_OFFSET UNITYSDK_OFFSET(0x1A289FF0)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_GET_SKINRESMAP_OFFSET UNITYSDK_OFFSET(0x1A288C30)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_METHOD_1_4E6219BD0A8026FA_OFFSET UNITYSDK_OFFSET(0x1A2870A0)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_METHOD_1_6929C20FCC70C1A3_OFFSET UNITYSDK_OFFSET(0x1A289BF0)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_METHOD_1_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0x1A289C80)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM_SET_CURRENTSKINNAME_OFFSET UNITYSDK_OFFSET(0x1A286F80)
-#define RPG_CLIENT_COMPONENTASSETSKINITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A28A0D0)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAB2A0)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_GET_CURRENTSKINNAME_OFFSET UNITYSDK_OFFSET(0xCBAB1B0)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_GET_CURRENTSKINPATH_OFFSET UNITYSDK_OFFSET(0xCBAB1C0)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_GET_SKINRESMAP_OFFSET UNITYSDK_OFFSET(0xCBA9E00)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_GKOPFLLLILF_OFFSET UNITYSDK_OFFSET(0xCBAAE50)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_HNPCKPBKGDK_OFFSET UNITYSDK_OFFSET(0xCBAADC0)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_NAAIOIHONFJ_OFFSET UNITYSDK_OFFSET(0xCBA8290)
+#define RPG_CLIENT_COMPONENTASSETSKINITEM_SET_CURRENTSKINNAME_OFFSET UNITYSDK_OFFSET(0xCBA8170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetSkinItem_TypeDefinitionIndex = 68369;
+	inline static constexpr unsigned int ComponentAssetSkinItem_TypeDefinitionIndex = 68402;
 
 	class ComponentAssetSkinItem : public ::System::Object
 	{
 	public:
-		// static const ::System::String* EmptySkinName; // 0x0
-		// static const ::System::String* CustomSkinName; // 0x0
 		::RPG::Client::ComponentAssetSkinType SkinType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Filter; // 0x18
 		::System::String* DefaultSkinName; // 0x20
 		::System::String* _CurrentSkinName; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _SkinResMap; // 0x30
-
+		// static const ::System::String* EmptySkinName; // 0x0
+		// static const ::System::String* CustomSkinName; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_6929C20FCC70C1A3()
+		::System::String* HNPCKPBKGDK()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_METHOD_1_6929C20FCC70C1A3_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_HNPCKPBKGDK_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4E6219BD0A8026FA(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
+		::System::Void NAAIOIHONFJ(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_METHOD_1_4E6219BD0A8026FA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_NAAIOIHONFJ_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_EC2B405D0723571D()
+		::System::Void GKOPFLLLILF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_METHOD_1_EC2B405D0723571D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_GKOPFLLLILF_OFFSET))(this);
 		}
 
 		::System::String* get_CurrentSkinName()
@@ -69,5 +68,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETSKINITEM_GET_SKINRESMAP_OFFSET))(this);
 		}
+
 	};
 }

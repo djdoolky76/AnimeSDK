@@ -1,41 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client::UI3DGame { class ChimeraBattleNPCView_Class_1_F16F4B18C8432A77; }
+namespace RPG::Client::UI3DGame { class ChimeraBattleNPCView_EBAFJPCINHG; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_DITHER_OFFSET UNITYSDK_OFFSET(0x1B12D530)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_LEAVE_OFFSET UNITYSDK_OFFSET(0x1B12D0E0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B12D630)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B12D730)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B12D8C0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B12D8B0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xE34F260)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xE34F250)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_DITHER_OFFSET UNITYSDK_OFFSET(0xE34EED0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_LEAVE_OFFSET UNITYSDK_OFFSET(0xE34EA80)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE34EFD0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xE34F0D0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int ChimeraBattleNPCView_TypeDefinitionIndex = 75357;
+	inline static constexpr unsigned int ChimeraBattleNPCView_TypeDefinitionIndex = 75772;
 
 	class ChimeraBattleNPCView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		::UnityEngine::Animator* Animator; // 0x18
+		::RPG::Client::UI3DGame::ChimeraBattleNPCView_EBAFJPCINHG* MBOEDFCNCJF; // 0x20
+		::System::String* TurnAnimName; // 0x28
 		static ::System::Int32* StaticGet_KEBGEGKNBHP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleNPCView_TypeDefinitionIndex)->GetStaticField(0x133E0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleNPCView")->GetStaticField(0x9390);
 		}
-		::UnityEngine::Animator* Animator; // 0x18
-		::RPG::Client::UI3DGame::ChimeraBattleNPCView_Class_1_F16F4B18C8432A77* MBOEDFCNCJF; // 0x20
-		::System::String* TurnAnimName; // 0x28
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CCTOR_OFFSET))();
 		}
 
 		::System::Void Leave()
@@ -57,5 +56,6 @@ namespace RPG::Client::UI3DGame
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

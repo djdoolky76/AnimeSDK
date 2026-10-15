@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 namespace System { class String; }
 
-#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F00F180)
-#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSSTARTED_OFFSET UNITYSDK_OFFSET(0x1F00F0D0)
-#define UNITYENGINE_SUBSYSTEMMANAGER_REPORTSINGLESUBSYSTEMANALYTICS_OFFSET UNITYSDK_OFFSET(0x1F00E550)
-#define UNITYENGINE_SUBSYSTEMMANAGER_STATICCONSTRUCTSCRIPTINGCLASSMAP_OFFSET UNITYSDK_OFFSET(0x1F00F0C0)
-#define UNITYENGINE_SUBSYSTEMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F00F0B0)
+#define UNITYENGINE_SUBSYSTEMMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4705B0)
+#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F470680)
+#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSSTARTED_OFFSET UNITYSDK_OFFSET(0x1F4705D0)
+#define UNITYENGINE_SUBSYSTEMMANAGER_REPORTSINGLESUBSYSTEMANALYTICS_OFFSET UNITYSDK_OFFSET(0x1F46FA50)
+#define UNITYENGINE_SUBSYSTEMMANAGER_STATICCONSTRUCTSCRIPTINGCLASSMAP_OFFSET UNITYSDK_OFFSET(0x1F4705C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SubsystemManager_TypeDefinitionIndex = 5822;
+	inline static constexpr unsigned int SubsystemManager_TypeDefinitionIndex = 5830;
 
 	class SubsystemManager : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet_reloadSubsytemsCompleted()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SubsystemManager_TypeDefinitionIndex)->GetStaticField(0x3D0);
+			return (::System::Action**)UnitySDK::FromName("UnityEngine", "SubsystemManager")->GetStaticField(0x3D0);
 		}
+
 		static ::System::Action** StaticGet_reloadSubsytemsStarted()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SubsystemManager_TypeDefinitionIndex)->GetStaticField(0x3D8);
+			return (::System::Action**)UnitySDK::FromName("UnityEngine", "SubsystemManager")->GetStaticField(0x3D8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SUBSYSTEMMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SUBSYSTEMMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void ReportSingleSubsystemAnalytics(::System::String* a1)
@@ -51,5 +51,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSCOMPLETED_OFFSET))();
 		}
+
 	};
 }

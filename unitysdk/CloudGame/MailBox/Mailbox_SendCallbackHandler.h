@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A18A6B0)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A18A700)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A18A390)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18A640)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC003D0)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC00360)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC00420)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC000B0)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Mailbox_SendCallbackHandler_TypeDefinitionIndex = 7492;
+	inline static constexpr unsigned int Mailbox_SendCallbackHandler_TypeDefinitionIndex = 7546;
 
 	class Mailbox_SendCallbackHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int64 a1)
@@ -37,5 +36,6 @@ namespace CloudGame::MailBox
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

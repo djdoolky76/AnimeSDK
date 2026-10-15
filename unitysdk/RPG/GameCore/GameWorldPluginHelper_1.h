@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameWorldPluginHelper_1_TypeDefinitionIndex = 57989;
+	inline static constexpr unsigned int GameWorldPluginHelper_1_TypeDefinitionIndex = 57836;
 
 	template <typename T>
 	class GameWorldPluginHelper_1 : public ::System::Object
@@ -12,7 +12,8 @@ namespace RPG::GameCore
 	public:
 		static ::System::Int32* StaticGet_Index()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GameWorldPluginHelper_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "GameWorldPluginHelper`1")->GetStaticField(0x0);
 		}
+
 	};
 }

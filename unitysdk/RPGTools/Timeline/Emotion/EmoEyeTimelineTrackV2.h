@@ -2,39 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTimelineTrackV2.h"
 #include "unitysdk/RPGTools/Timeline/Emotion/EmoTrackType.h"
-
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_DEFAULTCLIP_OFFSET UNITYSDK_OFFSET(0x1B580780)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x1B580850)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0x1B580770)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_METHOD_8_2EF969CA271C0A1B_OFFSET UNITYSDK_OFFSET(0x1B5807E0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B5808E0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B580AC0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B580AB0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_CCAKILLMFNP_OFFSET UNITYSDK_OFFSET(0xE8E5A20)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E5BE0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E5BD0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_DEFAULTCLIP_OFFSET UNITYSDK_OFFSET(0xE8E59C0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0xE8E5A90)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0xE8E59B0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E5B20)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoEyeTimelineTrackV2_TypeDefinitionIndex = 49222;
+	inline static constexpr unsigned int EmoEyeTimelineTrackV2_TypeDefinitionIndex = 48768;
 
 	class EmoEyeTimelineTrackV2 : public ::RPGTools::Timeline::Emotion::BaseEmoTimelineTrackV2
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_k_Positions()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(EmoEyeTimelineTrackV2_TypeDefinitionIndex)->GetStaticField(0x3E3A0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "EmoEyeTimelineTrackV2")->GetStaticField(0x6FBF0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_CCTOR_OFFSET))();
 		}
 
 		::RPGTools::Timeline::Emotion::EmoTrackType get_TrackType()
@@ -47,9 +46,9 @@ namespace RPGTools::Timeline::Emotion
 			return ((::UnityEngine::AnimationClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_GET_DEFAULTCLIP_OFFSET))(this);
 		}
 
-		::UnityEngine::AvatarMask* Method_8_2EF969CA271C0A1B(::System::Int32 a1)
+		::UnityEngine::AvatarMask* CCAKILLMFNP(::System::Int32 a1)
 		{
-			return ((::UnityEngine::AvatarMask*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_METHOD_8_2EF969CA271C0A1B_OFFSET))(this, a1);
+			return ((::UnityEngine::AvatarMask*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_CCAKILLMFNP_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Int32>* get_Positions()
@@ -61,5 +60,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYETIMELINETRACKV2_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

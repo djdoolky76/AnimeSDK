@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_ROTATE_OFFSET UNITYSDK_OFFSET(0x18FF2CE0)
-#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_SYNCROOTPOS_OFFSET UNITYSDK_OFFSET(0x18FF2BA0)
-#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF2B90)
+#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F77F0)
+#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_ROTATE_OFFSET UNITYSDK_OFFSET(0xE6F7940)
+#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_SYNCROOTPOS_OFFSET UNITYSDK_OFFSET(0xE6F7800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleDragGuideConfig_TypeDefinitionIndex = 52586;
+	inline static constexpr unsigned int MarbleDragGuideConfig_TypeDefinitionIndex = 52306;
 
 	class MarbleDragGuideConfig : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 RootScreenPos; // 0x10
-		::System::Single RotationAngle; // 0x18
-
+		::System::Single RotationAngle; // 0x10
+		::UnityEngine::Vector2 RootScreenPos; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEDRAGGUIDECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SyncRootPos(::UnityEngine::RectTransform* a1)
@@ -33,5 +31,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_ROTATE_OFFSET))(this, a1);
 		}
+
 	};
 }

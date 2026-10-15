@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Security/CodeAccessPermission.h"
 #include "unitysdk/System/Security/Permissions/PermissionState.h"
 #include "unitysdk/System/Security/Permissions/SecurityPermissionFlag.h"
-
+#include "unitysdk/System/Security/CodeAccessPermission.h"
 namespace System::Security { class IPermission; }
 namespace System::Security { class SecurityElement; }
+namespace System::Security::Permissions { class SecurityPermission; }
 
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_CAST_OFFSET UNITYSDK_OFFSET(0x166D23F0)
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x166D2460)
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_ISSUBSETOF_OFFSET UNITYSDK_OFFSET(0x166D1DA0)
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_ISUNRESTRICTED_OFFSET UNITYSDK_OFFSET(0x166D23E0)
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_TOXML_OFFSET UNITYSDK_OFFSET(0x166D2470)
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x166D23B0)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_CAST_OFFSET UNITYSDK_OFFSET(0x1C0BE290)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BE250)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1C0BE300)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_ISSUBSETOF_OFFSET UNITYSDK_OFFSET(0x1C0BDC40)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_ISUNRESTRICTED_OFFSET UNITYSDK_OFFSET(0x1C0BE280)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_TOXML_OFFSET UNITYSDK_OFFSET(0x1C0BE310)
 
 namespace System::Security::Permissions
 {
@@ -22,10 +22,9 @@ namespace System::Security::Permissions
 	{
 	public:
 		::System::Security::Permissions::SecurityPermissionFlag flags; // 0x10
-
 		::System::Void _ctor(::System::Security::Permissions::PermissionState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Permissions::PermissionState))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Permissions::PermissionState))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsUnrestricted()
@@ -52,5 +51,6 @@ namespace System::Security::Permissions
 		{
 			return ((::System::Security::Permissions::SecurityPermission*(*)(::PVOID, ::System::Security::IPermission*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSION_CAST_OFFSET))(this, a1);
 		}
+
 	};
 }

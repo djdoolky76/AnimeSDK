@@ -4,22 +4,21 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_RampPointWrapper.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x167CEB50)
-#define HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x167CEB60)
-#define HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x167CEB70)
+#define HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B5FA0)
+#define HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B8B5F80)
+#define HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B8B5F90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ColorRampPointWrapper_TypeDefinitionIndex = 39276;
+	inline static constexpr unsigned int HEU_ColorRampPointWrapper_TypeDefinitionIndex = 40573;
 
 	class HEU_ColorRampPointWrapper : public ::HoudiniEngineUnity::HEU_RampPointWrapper
 	{
 	public:
 		::UnityEngine::Color _Value_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Single a1, ::UnityEngine::Color a2, ::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Color, ::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Color, ::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Color get_Value()
@@ -31,5 +30,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_COLORRAMPPOINTWRAPPER_SET_VALUE_OFFSET))(this, a1);
 		}
+
 	};
 }

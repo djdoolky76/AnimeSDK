@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Web::Util { class HttpEncoder; }
 
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182D0110)
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182D0150)
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x182D0160)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0CB1C0)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0CB200)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F0CB210)
 
 namespace System::Web::Util
 {
@@ -15,24 +15,25 @@ namespace System::Web::Util
 	class HttpEncoder___c : public ::System::Object
 	{
 	public:
-		static ::System::Web::Util::HttpEncoder___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Web::Util::HttpEncoder___c**)Il2CppClass::FromTypeDefinitionIndex(HttpEncoder___c_TypeDefinitionIndex)->GetStaticField(0x29FA0);
+			return (::System::Object**)UnitySDK::FromName("System.Web.Util", "<>c")->GetStaticField(0x387C0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HTTPENCODER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HTTPENCODER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HTTPENCODER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HTTPENCODER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Web::Util::HttpEncoder* __cctor_b__13_0()
 		{
 			return ((::System::Web::Util::HttpEncoder*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET))(this);
 		}
+
 	};
 }

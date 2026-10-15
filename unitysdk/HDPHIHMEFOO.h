@@ -1,0 +1,9 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HDPHIHMEFOO_TypeDefinitionIndex = 80706;
+
+	class HDPHIHMEFOO
+	{
+	public:
+	};

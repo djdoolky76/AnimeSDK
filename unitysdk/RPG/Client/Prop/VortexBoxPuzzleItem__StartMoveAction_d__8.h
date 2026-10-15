@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/BoxmanDir.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class VortexBoxPuzzleItem; }
+namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x17B20BE0)
-#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x17B21040)
-#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x17B210A0)
-#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x17B21050)
-#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B20BD0)
-#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8__CTOR_OFFSET UNITYSDK_OFFSET(0x17B20AA0)
+#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_CTOR_OFFSET UNITYSDK_OFFSET(0xDDC5390)
+#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDDC54D0)
+#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDDC5930)
+#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDDC5990)
+#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDDC5940)
+#define RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDC54C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int VortexBoxPuzzleItem__StartMoveAction_d__8_TypeDefinitionIndex = 78389;
+	inline static constexpr unsigned int VortexBoxPuzzleItem__StartMoveAction_d__8_TypeDefinitionIndex = 78860;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class VortexBoxPuzzleItem__StartMoveAction_d__8 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* _o_5__2; // 0x10
-		::System::Object* __2__current; // 0x18
+		::System::Object* __2__current; // 0x10
+		::UnityEngine::GameObject* _o_5__2; // 0x18
 		::RPG::Client::Prop::VortexBoxPuzzleItem* __4__this; // 0x20
-		::RPG::Client::Prop::BoxmanDir dir; // 0x28
-		::System::Int32 __1__state; // 0x2C
-		::System::Single _t_5__5; // 0x30
-		::System::Single _dist_5__3; // 0x34
-		::System::Single _totTime_5__4; // 0x38
-
+		::System::Single _dist_5__3; // 0x28
+		::System::Single _t_5__5; // 0x2C
+		::System::Int32 __1__state; // 0x30
+		::System::Single _totTime_5__4; // 0x34
+		::RPG::Client::Prop::BoxmanDir dir; // 0x38
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -58,5 +58,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_VORTEXBOXPUZZLEITEM__STARTMOVEACTION_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

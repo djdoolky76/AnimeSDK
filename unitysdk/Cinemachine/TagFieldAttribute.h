@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_TAGFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF0B740)
+#define CINEMACHINE_TAGFIELDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1669DE10)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 38532;
+	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 39829;
 
 	class TagFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_TAGFIELDATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_TAGFIELDATTRIBUTE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AvatarUpgradePart.h"
+#include "unitysdk/System/Object.h"
+class BKCGMKLGCGB;
+class GIDHOABFFFP;
+class PBIPFMHIGHO;
+class PBIPFMHIGHO_KHPIOJENIFE;
+
+#define PBIPFMHIGHO_KHPIOJENIFE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE9440)
+#define PBIPFMHIGHO_KHPIOJENIFE_DDKJIMBJBMH_OFFSET UNITYSDK_OFFSET(0xBFEA310)
+#define PBIPFMHIGHO_KHPIOJENIFE_JGJGGEPMFPJ_OFFSET UNITYSDK_OFFSET(0xBFE9490)
+#define PBIPFMHIGHO_KHPIOJENIFE_LCHLAAJDHHO_OFFSET UNITYSDK_OFFSET(0xBFE95C0)
+
+inline static constexpr unsigned int PBIPFMHIGHO_KHPIOJENIFE_TypeDefinitionIndex = 62833;
+
+	class PBIPFMHIGHO_KHPIOJENIFE : public ::System::Object
+	{
+	public:
+		::PBIPFMHIGHO* LIOJKFIGGIJ; // 0x10
+		::System::Void _ctor(::PBIPFMHIGHO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PBIPFMHIGHO*))((::PBYTE)hIl2Cpp + PBIPFMHIGHO_KHPIOJENIFE_CTOR_OFFSET))(this, a1);
+		}
+
+		::PBIPFMHIGHO_KHPIOJENIFE* JGJGGEPMFPJ(::RPG::Client::AvatarUpgradePart a1, ::BKCGMKLGCGB* a2)
+		{
+			return ((::PBIPFMHIGHO_KHPIOJENIFE*(*)(::PVOID, ::RPG::Client::AvatarUpgradePart, ::BKCGMKLGCGB*))((::PBYTE)hIl2Cpp + PBIPFMHIGHO_KHPIOJENIFE_JGJGGEPMFPJ_OFFSET))(this, a1, a2);
+		}
+
+		::PBIPFMHIGHO_KHPIOJENIFE* LCHLAAJDHHO(::GIDHOABFFFP* a1)
+		{
+			return ((::PBIPFMHIGHO_KHPIOJENIFE*(*)(::PVOID, ::GIDHOABFFFP*))((::PBYTE)hIl2Cpp + PBIPFMHIGHO_KHPIOJENIFE_LCHLAAJDHHO_OFFSET))(this, a1);
+		}
+
+		::System::Void DDKJIMBJBMH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBIPFMHIGHO_KHPIOJENIFE_DDKJIMBJBMH_OFFSET))(this);
+		}
+
+	};

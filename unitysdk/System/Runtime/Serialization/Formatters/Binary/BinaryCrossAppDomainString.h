@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_DUMP_OFFSET UNITYSDK_OFFSET(0x19466140)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_READ_OFFSET UNITYSDK_OFFSET(0x19466020)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x19466010)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E4C00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_DUMP_OFFSET UNITYSDK_OFFSET(0x1C2E4D40)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_READ_OFFSET UNITYSDK_OFFSET(0x1C2E4C10)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -15,12 +14,11 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class BinaryCrossAppDomainString : public ::System::Object
 	{
 	public:
-		::System::Int32 objectId; // 0x10
-		::System::Int32 value; // 0x14
-
+		::System::Int32 value; // 0x10
+		::System::Int32 objectId; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* a1)
@@ -32,5 +30,6 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINSTRING_DUMP_OFFSET))(this);
 		}
+
 	};
 }

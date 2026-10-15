@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookData_NPCProgressPair_TypeDefinitionIndex = 67651;
+	inline static constexpr unsigned int RogueTournHandbookData_NPCProgressPair_TypeDefinitionIndex = 67653;
 
 	struct alignas(4) RogueTournHandbookData_NPCProgressPair
 	{

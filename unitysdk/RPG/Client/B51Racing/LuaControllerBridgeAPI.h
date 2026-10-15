@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::B51Racing { class LuaAddOnBackPressedCallbackAction; }
 namespace RPG::Client::B51Racing { class LuaBindBtnAction; }
 namespace RPG::Client::B51Racing { class LuaBindBtnHoldAction; }
@@ -9,6 +8,7 @@ namespace RPG::Client::B51Racing { class LuaBindCustomFadeAnimNameAction; }
 namespace RPG::Client::B51Racing { class LuaBindRedDotAction; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class GameObject; }
@@ -16,65 +16,72 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_ADDONBACKPRESSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B6CFBD0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNHOLDTOCS_OFFSET UNITYSDK_OFFSET(0x1B6CF9B0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNRELEASETOCS_OFFSET UNITYSDK_OFFSET(0x1B6CFAC0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNSHORTDOWNCLICKTOCS_OFFSET UNITYSDK_OFFSET(0x1B6CFA40)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNTOCS_OFFSET UNITYSDK_OFFSET(0x1B6CF930)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDCUSTOMFADEINANIMNAME_OFFSET UNITYSDK_OFFSET(0x1B6CFC50)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDCUSTOMFADEOUTANIMNAME_OFFSET UNITYSDK_OFFSET(0x1B6CFCD0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDREDDOT_OFFSET UNITYSDK_OFFSET(0x1B6CFB40)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6CF5B0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_EXIT_OFFSET UNITYSDK_OFFSET(0x1B6CF610)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_NOTIFYFADEINANIMEND_OFFSET UNITYSDK_OFFSET(0x1B6CF7F0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERADDONBACKPRESSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B6CF4C0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTNHOLD_OFFSET UNITYSDK_OFFSET(0x1B6CF380)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTNRELEASE_OFFSET UNITYSDK_OFFSET(0x1B6CF420)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTNSHORTDOWNCLICK_OFFSET UNITYSDK_OFFSET(0x1B6CF3D0)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTN_OFFSET UNITYSDK_OFFSET(0x1B6CF330)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDCUSTOMFADEINANIMNAME_OFFSET UNITYSDK_OFFSET(0x1B6CF510)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDCUSTOMFADEOUTANIMNAME_OFFSET UNITYSDK_OFFSET(0x1B6CF560)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDREDDOT_OFFSET UNITYSDK_OFFSET(0x1B6CF470)
-#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_SETEXITAFTERTRANSITION_OFFSET UNITYSDK_OFFSET(0x1B6CF700)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_ADDONBACKPRESSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC7B27A0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNHOLDTOCS_OFFSET UNITYSDK_OFFSET(0xC7B2580)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNRELEASETOCS_OFFSET UNITYSDK_OFFSET(0xC7B2690)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNSHORTDOWNCLICKTOCS_OFFSET UNITYSDK_OFFSET(0xC7B2610)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDBTNTOCS_OFFSET UNITYSDK_OFFSET(0xC7B2500)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDCUSTOMFADEINANIMNAME_OFFSET UNITYSDK_OFFSET(0xC7B2820)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDCUSTOMFADEOUTANIMNAME_OFFSET UNITYSDK_OFFSET(0xC7B28A0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDREDDOT_OFFSET UNITYSDK_OFFSET(0xC7B2710)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7B2180)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_EXIT_OFFSET UNITYSDK_OFFSET(0xC7B21E0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_NOTIFYFADEINANIMEND_OFFSET UNITYSDK_OFFSET(0xC7B23C0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERADDONBACKPRESSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC7B2090)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTNHOLD_OFFSET UNITYSDK_OFFSET(0xC7B1F50)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTNRELEASE_OFFSET UNITYSDK_OFFSET(0xC7B1FF0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTNSHORTDOWNCLICK_OFFSET UNITYSDK_OFFSET(0xC7B1FA0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDBTN_OFFSET UNITYSDK_OFFSET(0xC7B1F00)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDCUSTOMFADEINANIMNAME_OFFSET UNITYSDK_OFFSET(0xC7B20E0)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDCUSTOMFADEOUTANIMNAME_OFFSET UNITYSDK_OFFSET(0xC7B2130)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_REGISTERBINDREDDOT_OFFSET UNITYSDK_OFFSET(0xC7B2040)
+#define RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_SETEXITAFTERTRANSITION_OFFSET UNITYSDK_OFFSET(0xC7B22D0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int LuaControllerBridgeAPI_TypeDefinitionIndex = 80431;
+	inline static constexpr unsigned int LuaControllerBridgeAPI_TypeDefinitionIndex = 81759;
 
 	class LuaControllerBridgeAPI : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::B51Racing::LuaBindBtnAction** StaticGet__BindBtnReleaseFunc()
-		{
-			return (::RPG::Client::B51Racing::LuaBindBtnAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C50);
-		}
-		static ::RPG::Client::B51Racing::LuaBindBtnAction** StaticGet__BindBtnShortDownClickFunc()
-		{
-			return (::RPG::Client::B51Racing::LuaBindBtnAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C58);
-		}
-		static ::RPG::Client::B51Racing::LuaBindBtnAction** StaticGet__BindBtnFunc()
-		{
-			return (::RPG::Client::B51Racing::LuaBindBtnAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C60);
-		}
-		static ::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction** StaticGet__BindCustomFadeInAnimNameFunc()
-		{
-			return (::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C68);
-		}
 		static ::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction** StaticGet__BindCustomFadeOutAnimNameFunc()
 		{
-			return (::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C70);
+			return (::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CB0);
 		}
-		static ::RPG::Client::B51Racing::LuaBindBtnHoldAction** StaticGet__BindBtnHoldFunc()
+
+		static ::RPG::Client::B51Racing::LuaBindBtnAction** StaticGet__BindBtnShortDownClickFunc()
 		{
-			return (::RPG::Client::B51Racing::LuaBindBtnHoldAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C78);
+			return (::RPG::Client::B51Racing::LuaBindBtnAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CB8);
 		}
-		static ::RPG::Client::B51Racing::LuaBindRedDotAction** StaticGet__BindRedDotFunc()
-		{
-			return (::RPG::Client::B51Racing::LuaBindRedDotAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C80);
-		}
+
 		static ::RPG::Client::B51Racing::LuaAddOnBackPressedCallbackAction** StaticGet__AddOnBackPressedCallbackFunc()
 		{
-			return (::RPG::Client::B51Racing::LuaAddOnBackPressedCallbackAction**)Il2CppClass::FromTypeDefinitionIndex(LuaControllerBridgeAPI_TypeDefinitionIndex)->GetStaticField(0x66C88);
+			return (::RPG::Client::B51Racing::LuaAddOnBackPressedCallbackAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CC0);
+		}
+
+		static ::RPG::Client::B51Racing::LuaBindBtnAction** StaticGet__BindBtnReleaseFunc()
+		{
+			return (::RPG::Client::B51Racing::LuaBindBtnAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CC8);
+		}
+
+		static ::RPG::Client::B51Racing::LuaBindRedDotAction** StaticGet__BindRedDotFunc()
+		{
+			return (::RPG::Client::B51Racing::LuaBindRedDotAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CD0);
+		}
+
+		static ::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction** StaticGet__BindCustomFadeInAnimNameFunc()
+		{
+			return (::RPG::Client::B51Racing::LuaBindCustomFadeAnimNameAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CD8);
+		}
+
+		static ::RPG::Client::B51Racing::LuaBindBtnAction** StaticGet__BindBtnFunc()
+		{
+			return (::RPG::Client::B51Racing::LuaBindBtnAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CE0);
+		}
+
+		static ::RPG::Client::B51Racing::LuaBindBtnHoldAction** StaticGet__BindBtnHoldFunc()
+		{
+			return (::RPG::Client::B51Racing::LuaBindBtnHoldAction**)UnitySDK::FromName("RPG.Client.B51Racing", "LuaControllerBridgeAPI")->GetStaticField(0x56CE8);
 		}
 
 		static ::System::Void RegisterBindBtn(::RPG::Client::B51Racing::LuaBindBtnAction* a1)
@@ -176,5 +183,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::System::Void(*)(::XLua::LuaTable*, ::System::Func_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUACONTROLLERBRIDGEAPI_BINDCUSTOMFADEOUTANIMNAME_OFFSET))(a1, a2);
 		}
+
 	};
 }

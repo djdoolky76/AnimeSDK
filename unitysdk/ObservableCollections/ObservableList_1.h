@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace ObservableCollections { template <typename T> class NotifyCollectionChangedEventHandler_1; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 35211;
+	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 35882;
 
 	template <typename T>
 	class ObservableList_1 : public ::System::Object

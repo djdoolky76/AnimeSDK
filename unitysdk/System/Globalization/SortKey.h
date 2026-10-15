@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/CompareOptions.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
+namespace System::Globalization { class SortKey; }
 
-#define SYSTEM_GLOBALIZATION_SORTKEY_COMPARE_OFFSET UNITYSDK_OFFSET(0x18D8F3B0)
-#define SYSTEM_GLOBALIZATION_SORTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x18D8F720)
-#define SYSTEM_GLOBALIZATION_SORTKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18D6D4B0)
-#define SYSTEM_GLOBALIZATION_SORTKEY_GET_KEYDATA_OFFSET UNITYSDK_OFFSET(0x18D8F710)
-#define SYSTEM_GLOBALIZATION_SORTKEY_GET_ORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x18D8F700)
-#define SYSTEM_GLOBALIZATION_SORTKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18D8F7B0)
-#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18D8F6E0)
-#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18D8FA50)
-#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x18D6D640)
+#define SYSTEM_GLOBALIZATION_SORTKEY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C209320)
+#define SYSTEM_GLOBALIZATION_SORTKEY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C209650)
+#define SYSTEM_GLOBALIZATION_SORTKEY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C2099C0)
+#define SYSTEM_GLOBALIZATION_SORTKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E7730)
+#define SYSTEM_GLOBALIZATION_SORTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C209690)
+#define SYSTEM_GLOBALIZATION_SORTKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C1E75A0)
+#define SYSTEM_GLOBALIZATION_SORTKEY_GET_KEYDATA_OFFSET UNITYSDK_OFFSET(0x1C209680)
+#define SYSTEM_GLOBALIZATION_SORTKEY_GET_ORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1C209670)
+#define SYSTEM_GLOBALIZATION_SORTKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C209720)
 
 namespace System::Globalization
 {
@@ -26,20 +27,19 @@ namespace System::Globalization
 		::Il2CppArray<::System::Byte>* key; // 0x18
 		::System::Globalization::CompareOptions options; // 0x20
 		::System::Int32 lcid; // 0x24
-
 		::System::Void _ctor(::System::Int32 a1, ::System::String* a2, ::System::Globalization::CompareOptions a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Globalization::CompareOptions a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::Int32 a12)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Globalization::CompareOptions, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Globalization::CompareOptions, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
 		::System::Void _ctor_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_CTOR_2_OFFSET))(this);
 		}
 
 		static ::System::Int32 Compare(::System::Globalization::SortKey* a1, ::System::Globalization::SortKey* a2)
@@ -71,5 +71,6 @@ namespace System::Globalization
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

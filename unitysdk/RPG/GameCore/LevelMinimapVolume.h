@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelMinimapLayerSpriteConfigCollection; }
 namespace RPG::GameCore { class LevelMinimapSection; }
+namespace RPG::GameCore { class LevelMinimapVolume; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_GAMECORE_LEVELMINIMAPVOLUME_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11A4A0)
-#define RPG_GAMECORE_LEVELMINIMAPVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11A960)
+#define RPG_GAMECORE_LEVELMINIMAPVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7861A0)
+#define RPG_GAMECORE_LEVELMINIMAPVOLUME_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D785B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapVolume_TypeDefinitionIndex = 17027;
+	inline static constexpr unsigned int LevelMinimapVolume_TypeDefinitionIndex = 17222;
 
 	class LevelMinimapVolume : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,18 +32,20 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ItemSpriteDict; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::LevelMinimapLayerSpriteConfigCollection*>* RoadMapSpriteConfigDict; // 0x60
 		::System::Boolean CombineLayerAutomatic; // 0x68
+		::System::Byte _padding0[0x3];
 		::System::Single Scale; // 0x6C
 		::System::Single CompleteScale; // 0x70
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Sprite* BackgroundMapSpriteInstance; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPVOLUME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPVOLUME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMinimapVolume*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelMinimapVolume* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMinimapVolume*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPVOLUME_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelMinimapVolume*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPVOLUME_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

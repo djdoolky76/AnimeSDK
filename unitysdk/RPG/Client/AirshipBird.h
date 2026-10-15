@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AirshipBirdAudio; }
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace RPG::Client { class Stage; }
@@ -13,40 +12,36 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_AIRSHIPBIRD_AWAKE_OFFSET UNITYSDK_OFFSET(0x19C597A0)
-#define RPG_CLIENT_AIRSHIPBIRD_DISSOLVE_OFFSET UNITYSDK_OFFSET(0x19C58AA0)
-#define RPG_CLIENT_AIRSHIPBIRD_LOADCARGO_OFFSET UNITYSDK_OFFSET(0x19C58B40)
-#define RPG_CLIENT_AIRSHIPBIRD_LOADMODEL_OFFSET UNITYSDK_OFFSET(0x19C591D0)
-#define RPG_CLIENT_AIRSHIPBIRD_METHOD_5_5713B8A224D0D751_OFFSET UNITYSDK_OFFSET(0x19C59E30)
-#define RPG_CLIENT_AIRSHIPBIRD_METHOD_5_5D4A30CB3BFFB6E6_OFFSET UNITYSDK_OFFSET(0x19C5A670)
-#define RPG_CLIENT_AIRSHIPBIRD_METHOD_5_A8B662A2CC4B2F7D_OFFSET UNITYSDK_OFFSET(0x19C598C0)
-#define RPG_CLIENT_AIRSHIPBIRD_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x19C5AA80)
-#define RPG_CLIENT_AIRSHIPBIRD_METHOD_5_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x19C5A560)
-#define RPG_CLIENT_AIRSHIPBIRD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19C59870)
-#define RPG_CLIENT_AIRSHIPBIRD_PLAYSTOPANIM_OFFSET UNITYSDK_OFFSET(0x19C59110)
-#define RPG_CLIENT_AIRSHIPBIRD_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0x19C594A0)
-#define RPG_CLIENT_AIRSHIPBIRD_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0x19C59710)
-#define RPG_CLIENT_AIRSHIPBIRD_TICK_OFFSET UNITYSDK_OFFSET(0x19C58A40)
-#define RPG_CLIENT_AIRSHIPBIRD_UNLOADCARGO_OFFSET UNITYSDK_OFFSET(0x19C58DC0)
-#define RPG_CLIENT_AIRSHIPBIRD__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C5AB50)
-#define RPG_CLIENT_AIRSHIPBIRD__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5AAD0)
-#define RPG_CLIENT_AIRSHIPBIRD__LOADCARGO_B__31_0_OFFSET UNITYSDK_OFFSET(0x19C5AB90)
-#define RPG_CLIENT_AIRSHIPBIRD__LOADCARGO_B__31_1_OFFSET UNITYSDK_OFFSET(0x19C5ABA0)
-#define RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_0_OFFSET UNITYSDK_OFFSET(0x19C5ABF0)
-#define RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_1_OFFSET UNITYSDK_OFFSET(0x19C5AC00)
-#define RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_2_OFFSET UNITYSDK_OFFSET(0x19C5AC10)
+#define RPG_CLIENT_AIRSHIPBIRD_AANLCPCOMDL_OFFSET UNITYSDK_OFFSET(0xC644EB0)
+#define RPG_CLIENT_AIRSHIPBIRD_AWAKE_OFFSET UNITYSDK_OFFSET(0xC644D90)
+#define RPG_CLIENT_AIRSHIPBIRD_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6460D0)
+#define RPG_CLIENT_AIRSHIPBIRD_CTOR_OFFSET UNITYSDK_OFFSET(0xC646050)
+#define RPG_CLIENT_AIRSHIPBIRD_DGJFMGBEDAC_OFFSET UNITYSDK_OFFSET(0xC645420)
+#define RPG_CLIENT_AIRSHIPBIRD_DISSOLVE_OFFSET UNITYSDK_OFFSET(0xC644090)
+#define RPG_CLIENT_AIRSHIPBIRD_FCLNNMANAMH_OFFSET UNITYSDK_OFFSET(0xC645AE0)
+#define RPG_CLIENT_AIRSHIPBIRD_HGGDPIMBDEE_OFFSET UNITYSDK_OFFSET(0xC645BF0)
+#define RPG_CLIENT_AIRSHIPBIRD_LOADCARGO_OFFSET UNITYSDK_OFFSET(0xC644130)
+#define RPG_CLIENT_AIRSHIPBIRD_LOADMODEL_OFFSET UNITYSDK_OFFSET(0xC6447C0)
+#define RPG_CLIENT_AIRSHIPBIRD_OKMHLHEMECP_OFFSET UNITYSDK_OFFSET(0xC646000)
+#define RPG_CLIENT_AIRSHIPBIRD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC644E60)
+#define RPG_CLIENT_AIRSHIPBIRD_PLAYSTOPANIM_OFFSET UNITYSDK_OFFSET(0xC644700)
+#define RPG_CLIENT_AIRSHIPBIRD_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0xC644A90)
+#define RPG_CLIENT_AIRSHIPBIRD_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0xC644D00)
+#define RPG_CLIENT_AIRSHIPBIRD_TICK_OFFSET UNITYSDK_OFFSET(0xC644030)
+#define RPG_CLIENT_AIRSHIPBIRD_UNLOADCARGO_OFFSET UNITYSDK_OFFSET(0xC6443B0)
+#define RPG_CLIENT_AIRSHIPBIRD__LOADCARGO_B__31_0_OFFSET UNITYSDK_OFFSET(0xC646110)
+#define RPG_CLIENT_AIRSHIPBIRD__LOADCARGO_B__31_1_OFFSET UNITYSDK_OFFSET(0xC646120)
+#define RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_0_OFFSET UNITYSDK_OFFSET(0xC646170)
+#define RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_1_OFFSET UNITYSDK_OFFSET(0xC646180)
+#define RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_2_OFFSET UNITYSDK_OFFSET(0xC646190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipBird_TypeDefinitionIndex = 59936;
+	inline static constexpr unsigned int AirshipBird_TypeDefinitionIndex = 59799;
 
 	class AirshipBird : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_ABLCIDHJJKK()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(AirshipBird_TypeDefinitionIndex)->GetStaticField(0x64B40);
-		}
 		::System::String* prefabPath; // 0x18
 		::UnityEngine::Vector3 prefabPositionOffset; // 0x20
 		::UnityEngine::Vector3 prefabRotationOffset; // 0x2C
@@ -55,6 +50,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 cargoRotationOffset; // 0x4C
 		::System::String* cargoEffectPath; // 0x58
 		::System::Single flyStopDistance; // 0x60
+		::System::Byte _padding0[0x4];
 		::System::String* flyStopAnimName; // 0x68
 		::System::Single dissolveTime; // 0x70
 		::System::Single dissolveWaitTime; // 0x74
@@ -63,27 +59,34 @@ namespace RPG::Client
 		::System::Single maxDeceleration; // 0x80
 		::System::Single maxRotationSpeed; // 0x84
 		::UnityEngine::Vector3 colliderCenter; // 0x88
+		::System::Byte _padding1[0x4];
 		::RPG::Client::AirshipBirdAudio* HJJMJLCIFNC; // 0x98
 		::RPG::Client::BaseShaderPropertyTransition* KNBIKJLEHMH; // 0xA0
 		::UnityEngine::GameObject* PGKENBMKDKA; // 0xA8
 		::UnityEngine::Animator* APPGGMLEPLN; // 0xB0
 		::System::Single ALLMMMCIHNO; // 0xB8
+		::System::Byte _padding2[0x4];
 		::UnityEngine::GameObject* GGGEGGMNIGL; // 0xC0
 		::System::Single AGCLGPJHEJB; // 0xC8
 		::System::Single OBJJIELNFLP; // 0xCC
 		::System::Boolean IOGNJIGJDOB; // 0xD0
+		::System::Byte _padding3[0x7];
 		::RPG::Client::OpenWorld::StreamingItemData* ILPCBBGKDHM; // 0xD8
 		::RPG::Client::OpenWorld::StreamingItemData* JNEGBKLBOAH; // 0xE0
 		::RPG::Client::Stage* PKLNPNKEJOO; // 0xE8
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_ABLCIDHJJKK()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client", "AirshipBird")->GetStaticField(0x40480);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_CCTOR_OFFSET))();
 		}
 
 		::System::Void Tick(::System::Single a1)
@@ -136,29 +139,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A8B662A2CC4B2F7D(::UnityEngine::GameObject* a1)
+		::System::Void AANLCPCOMDL(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_METHOD_5_A8B662A2CC4B2F7D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_AANLCPCOMDL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_5713B8A224D0D751(::UnityEngine::GameObject* a1)
+		::System::Void DGJFMGBEDAC(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_METHOD_5_5713B8A224D0D751_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_DGJFMGBEDAC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_E3DE31A03057E055()
+		::System::Void FCLNNMANAMH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_METHOD_5_E3DE31A03057E055_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_FCLNNMANAMH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_5D4A30CB3BFFB6E6(::UnityEngine::GameObject* a1)
+		::System::Void HGGDPIMBDEE(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_METHOD_5_5D4A30CB3BFFB6E6_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_HGGDPIMBDEE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void OKMHLHEMECP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD_OKMHLHEMECP_OFFSET))(this);
 		}
 
 		::System::Void _LoadCargo_b__31_0(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
@@ -185,5 +188,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPBIRD__LOADMODEL_B__34_2_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

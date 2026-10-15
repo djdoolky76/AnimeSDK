@@ -1,64 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class MotionInfoSnapshot; }
 namespace Proto { class VectorSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_MOTIONINFOSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD48850)
-#define PROTO_MOTIONINFOSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD48070)
-#define PROTO_MOTIONINFOSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD48450)
-#define PROTO_MOTIONINFOSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD48200)
-#define PROTO_MOTIONINFOSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD48680)
-#define PROTO_MOTIONINFOSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD47EF0)
-#define PROTO_MOTIONINFOSNAPSHOT_GET_POS_OFFSET UNITYSDK_OFFSET(0x1DD481C0)
-#define PROTO_MOTIONINFOSNAPSHOT_GET_ROT_OFFSET UNITYSDK_OFFSET(0x1DD481E0)
-#define PROTO_MOTIONINFOSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD48A10)
-#define PROTO_MOTIONINFOSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD488E0)
-#define PROTO_MOTIONINFOSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD47F50)
-#define PROTO_MOTIONINFOSNAPSHOT_SET_POS_OFFSET UNITYSDK_OFFSET(0x1DD481D0)
-#define PROTO_MOTIONINFOSNAPSHOT_SET_ROT_OFFSET UNITYSDK_OFFSET(0x1DD481F0)
-#define PROTO_MOTIONINFOSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD48710)
-#define PROTO_MOTIONINFOSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD48770)
-#define PROTO_MOTIONINFOSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD48BC0)
-#define PROTO_MOTIONINFOSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD47F70)
-#define PROTO_MOTIONINFOSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD47F60)
+#define PROTO_MOTIONINFOSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFD9BC0)
+#define PROTO_MOTIONINFOSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD9E00)
+#define PROTO_MOTIONINFOSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFC0DC0)
+#define PROTO_MOTIONINFOSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFD94C0)
+#define PROTO_MOTIONINFOSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC1BE0)
+#define PROTO_MOTIONINFOSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFD9850)
+#define PROTO_MOTIONINFOSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFD9600)
+#define PROTO_MOTIONINFOSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFC1430)
+#define PROTO_MOTIONINFOSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFD9450)
+#define PROTO_MOTIONINFOSNAPSHOT_GET_POS_OFFSET UNITYSDK_OFFSET(0x1DFD95C0)
+#define PROTO_MOTIONINFOSNAPSHOT_GET_ROT_OFFSET UNITYSDK_OFFSET(0x1DFD95E0)
+#define PROTO_MOTIONINFOSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFD9C50)
+#define PROTO_MOTIONINFOSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFC1BF0)
+#define PROTO_MOTIONINFOSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFD94B0)
+#define PROTO_MOTIONINFOSNAPSHOT_SET_POS_OFFSET UNITYSDK_OFFSET(0x1DFD95D0)
+#define PROTO_MOTIONINFOSNAPSHOT_SET_ROT_OFFSET UNITYSDK_OFFSET(0x1DFD95F0)
+#define PROTO_MOTIONINFOSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD9A80)
+#define PROTO_MOTIONINFOSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD9AE0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MotionInfoSnapshot_TypeDefinitionIndex = 25472;
+	inline static constexpr unsigned int MotionInfoSnapshot_TypeDefinitionIndex = 25815;
 
 	class MotionInfoSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MotionInfoSnapshot_TypeDefinitionIndex)->GetStaticField(0x5C400);
-		}
-		// static const ::System::Int32 PosFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 RotFieldNumber = 0x2; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::Proto::VectorSnapshot* pos_; // 0x18
 		::Proto::VectorSnapshot* rot_; // 0x20
+		static ::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>**)UnitySDK::FromName("Proto", "MotionInfoSnapshot")->GetStaticField(0x4D260);
+		}
 
+		// static const ::System::Object PosFieldNumber; // 0x0
+		// static const ::System::Object RotFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::MotionInfoSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::MotionInfoSnapshot*))((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::MotionInfoSnapshot*))((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>* get_Parser()
@@ -135,5 +136,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

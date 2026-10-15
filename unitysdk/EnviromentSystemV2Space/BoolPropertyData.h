@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EnviromentSystemV2Space/PropertyData_1.h"
+class GGJFAFONDHN;
 
-class Class_1_EAF7984A8FAD6BE4;
-
-#define ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA_METHOD_3_82ABFE24D5168B0C_OFFSET UNITYSDK_OFFSET(0x106C9320)
-#define ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x106C93B0)
+#define ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15628EB0)
+#define ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x15628E20)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int BoolPropertyData_TypeDefinitionIndex = 49811;
+	inline static constexpr unsigned int BoolPropertyData_TypeDefinitionIndex = 49386;
 
-	class BoolPropertyData : public ::EnviromentSystemV2Space::PropertyData_1<::System::Boolean>
+	class BoolPropertyData
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_EAF7984A8FAD6BE4* Method_3_82ABFE24D5168B0C()
+		::GGJFAFONDHN* FCMDLFKMBMH()
 		{
-			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA_METHOD_3_82ABFE24D5168B0C_OFFSET))(this);
+			return ((::GGJFAFONDHN*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_BOOLPROPERTYDATA_FCMDLFKMBMH_OFFSET))(this);
 		}
+
 	};
 }

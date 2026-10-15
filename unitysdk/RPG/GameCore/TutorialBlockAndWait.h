@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialBlockAndWait; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TUTORIALBLOCKANDWAIT_METHOD_3_DC54E1276EF1A4A7_OFFSET UNITYSDK_OFFSET(0x1D2A11B0)
-#define RPG_GAMECORE_TUTORIALBLOCKANDWAIT_METHOD_3_E3368B577FAF8410_OFFSET UNITYSDK_OFFSET(0x1D2A1150)
-#define RPG_GAMECORE_TUTORIALBLOCKANDWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A1190)
+#define RPG_GAMECORE_TUTORIALBLOCKANDWAIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC384F0)
+#define RPG_GAMECORE_TUTORIALBLOCKANDWAIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC38510)
+#define RPG_GAMECORE_TUTORIALBLOCKANDWAIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC384B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialBlockAndWait_TypeDefinitionIndex = 24101;
+	inline static constexpr unsigned int TutorialBlockAndWait_TypeDefinitionIndex = 24380;
 
 	class TutorialBlockAndWait : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Single WaitSecond; // 0x18
 		::System::Single MaxAdvencePerTick; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALBLOCKANDWAIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALBLOCKANDWAIT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E3368B577FAF8410(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialBlockAndWait*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialBlockAndWait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialBlockAndWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALBLOCKANDWAIT_METHOD_3_E3368B577FAF8410_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialBlockAndWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALBLOCKANDWAIT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DC54E1276EF1A4A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialBlockAndWait* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialBlockAndWait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialBlockAndWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALBLOCKANDWAIT_METHOD_3_DC54E1276EF1A4A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialBlockAndWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALBLOCKANDWAIT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

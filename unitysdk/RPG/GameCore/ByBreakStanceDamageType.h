@@ -2,50 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByBreakStanceDamageType; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_12C3053DB3D2BC85_OFFSET UNITYSDK_OFFSET(0x1C2F6760)
-#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_28B673B437078DC8_OFFSET UNITYSDK_OFFSET(0x1C2F6550)
-#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_B39AF4EDFE23280D_OFFSET UNITYSDK_OFFSET(0x1C2F6590)
-#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_E897B23609AB708B_OFFSET UNITYSDK_OFFSET(0x1C2F6790)
-#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F6580)
+#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D45A610)
+#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D45A820)
+#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D45A7F0)
+#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D45A620)
+#define RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D45A5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByBreakStanceDamageType_TypeDefinitionIndex = 23254;
+	inline static constexpr unsigned int ByBreakStanceDamageType_TypeDefinitionIndex = 23519;
 
 	class ByBreakStanceDamageType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::AttackDamageType DamageType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_28B673B437078DC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByBreakStanceDamageType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByBreakStanceDamageType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByBreakStanceDamageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_28B673B437078DC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByBreakStanceDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B39AF4EDFE23280D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByBreakStanceDamageType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByBreakStanceDamageType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByBreakStanceDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_B39AF4EDFE23280D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByBreakStanceDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_12C3053DB3D2BC85(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBreakStanceDamageType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBreakStanceDamageType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBreakStanceDamageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_12C3053DB3D2BC85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBreakStanceDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E897B23609AB708B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBreakStanceDamageType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByBreakStanceDamageType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBreakStanceDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_METHOD_4_E897B23609AB708B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByBreakStanceDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYBREAKSTANCEDAMAGETYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

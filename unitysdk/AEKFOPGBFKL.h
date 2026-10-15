@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AvatarUpgradePart.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+class DMFNPHABMEE;
+class KCLIKAPODAD;
+class MGLBNNIPDMC;
+class NNOALJAEMCG;
+class PBIPFMHIGHO;
+namespace RPG::AvatarSystem { class Avatar; }
+namespace RPG::AvatarSystem { class IAvatar; }
+
+#define AEKFOPGBFKL_BDMNGLCFLFJ_OFFSET UNITYSDK_OFFSET(0xCEF99D0)
+#define AEKFOPGBFKL_CTOR_OFFSET UNITYSDK_OFFSET(0xCEF9790)
+#define AEKFOPGBFKL_FHDILCJNFPJ_OFFSET UNITYSDK_OFFSET(0xCEF98E0)
+#define AEKFOPGBFKL_IFDDMGPJGNF_OFFSET UNITYSDK_OFFSET(0xCEF9960)
+
+inline static constexpr unsigned int AEKFOPGBFKL_TypeDefinitionIndex = 62840;
+
+	class AEKFOPGBFKL : public ::System::Object
+	{
+	public:
+		::PBIPFMHIGHO* FAGBIGDLJGA; // 0x10
+		::MGLBNNIPDMC* CEFLLELKFOP; // 0x18
+		::System::Void _ctor(::MGLBNNIPDMC* a1, ::DMFNPHABMEE* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::MGLBNNIPDMC*, ::DMFNPHABMEE*))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean FHDILCJNFPJ(::RPG::AvatarSystem::IAvatar* a1, ::KCLIKAPODAD* a2, ::RPG::Client::AvatarUpgradePart a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*, ::RPG::Client::AvatarUpgradePart))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_FHDILCJNFPJ_OFFSET))(this, a1, a2, a3);
+		}
+
+		::NNOALJAEMCG* IFDDMGPJGNF(::RPG::AvatarSystem::IAvatar* a1, ::KCLIKAPODAD* a2)
+		{
+			return ((::NNOALJAEMCG*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_IFDDMGPJGNF_OFFSET))(this, a1, a2);
+		}
+
+		::System::ValueTuple_2<::System::Boolean, ::RPG::AvatarSystem::Avatar*> BDMNGLCFLFJ(::RPG::AvatarSystem::IAvatar* a1, ::KCLIKAPODAD* a2)
+		{
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::AvatarSystem::Avatar*>(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_BDMNGLCFLFJ_OFFSET))(this, a1, a2);
+		}
+
+	};

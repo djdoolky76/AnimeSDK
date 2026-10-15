@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B467B90)
-#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B467BC0)
-#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4668C0)
-#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B467B20)
+#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE148ED0)
+#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE148E60)
+#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE148F00)
+#define RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xE147C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SuperDropDown_VoidDelegate_TypeDefinitionIndex = 72592;
+	inline static constexpr unsigned int SuperDropDown_VoidDelegate_TypeDefinitionIndex = 72667;
 
 	class SuperDropDown_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

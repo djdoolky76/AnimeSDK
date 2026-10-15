@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_METHOD_2_8AC8D44D25B8EBA1_OFFSET UNITYSDK_OFFSET(0x1D315EA0)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D316530)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FF110)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FEA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig_TypeDefinitionIndex = 10271;
+	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig_TypeDefinitionIndex = 10285;
 
 	class RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,15 +29,15 @@ namespace RPG::Client
 		::RPG::GameCore::FixPoint BlurRadius; // 0x60
 		::RPG::GameCore::FixPoint BlurStart; // 0x68
 		::RPG::GameCore::FixPoint BlurFeather; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8AC8D44D25B8EBA1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_METHOD_2_8AC8D44D25B8EBA1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

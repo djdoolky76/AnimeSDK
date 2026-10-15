@@ -3,11 +3,11 @@
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int BrickControlType_TypeDefinitionIndex = 78551;
+	inline static constexpr unsigned int BrickControlType_TypeDefinitionIndex = 79022;
 
 	enum class BrickControlType : ::System::UInt32
 	{
-		SwipeControl = 0x0,
-		ButtonControl = 0x1,
+		SwipeControl = 0,
+		ButtonControl = 1,
 	};
 }

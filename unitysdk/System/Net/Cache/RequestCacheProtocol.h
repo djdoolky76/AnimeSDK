@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB40DA0)
+#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF24A0)
 
 namespace System::Net::Cache
 {
@@ -13,7 +14,8 @@ namespace System::Net::Cache
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,17 +3,17 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinPreCalcPhase_TypeDefinitionIndex = 56156;
+	inline static constexpr unsigned int FateRinPreCalcPhase_TypeDefinitionIndex = 55968;
 
 	enum class FateRinPreCalcPhase : ::System::Byte
 	{
-		Begin = 0x0,
-		LightTeamRecover = 0x1,
-		LightTeamAttack = 0x2,
-		DarkTeamRecover = 0x3,
-		DarkTeamAttack = 0x4,
-		HandDiscard = 0x5,
-		End = 0x6,
-		Count = 0x7,
+		Begin = 0,
+		LightTeamRecover = 1,
+		LightTeamAttack = 2,
+		DarkTeamRecover = 3,
+		DarkTeamAttack = 4,
+		HandDiscard = 5,
+		End = 6,
+		Count = 7,
 	};
 }

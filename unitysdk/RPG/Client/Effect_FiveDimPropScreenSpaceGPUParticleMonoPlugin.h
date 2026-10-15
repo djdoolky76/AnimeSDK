@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Effect_PropScreenSpaceGPUParticleMonoPluginBase_1.h"
 
-class Class_4_0E22730FD35AB59E;
-
-#define RPG_CLIENT_EFFECT_FIVEDIMPROPSCREENSPACEGPUPARTICLEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5B860)
+#define RPG_CLIENT_EFFECT_FIVEDIMPROPSCREENSPACEGPUPARTICLEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD220C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FiveDimPropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 70437;
+	inline static constexpr unsigned int Effect_FiveDimPropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 70473;
 
-	class Effect_FiveDimPropScreenSpaceGPUParticleMonoPlugin : public ::RPG::Client::Effect_PropScreenSpaceGPUParticleMonoPluginBase_1<::Class_4_0E22730FD35AB59E*>
+	class Effect_FiveDimPropScreenSpaceGPUParticleMonoPlugin
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FIVEDIMPROPSCREENSPACEGPUPARTICLEMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FIVEDIMPROPSCREENSPACEGPUPARTICLEMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

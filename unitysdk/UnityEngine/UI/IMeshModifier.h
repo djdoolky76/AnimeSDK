@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class Mesh; }
-namespace UnityEngine::UI { class VertexHelper; }
-
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMeshModifier_TypeDefinitionIndex = 6881;
+	inline static constexpr unsigned int IMeshModifier_TypeDefinitionIndex = 6890;
 
 	class IMeshModifier
 	{

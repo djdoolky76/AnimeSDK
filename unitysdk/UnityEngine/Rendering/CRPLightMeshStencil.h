@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightMeshStencil_TypeDefinitionIndex = 4871;
+	inline static constexpr unsigned int CRPLightMeshStencil_TypeDefinitionIndex = 4877;
 
 	struct alignas(4) CRPLightMeshStencil
 	{

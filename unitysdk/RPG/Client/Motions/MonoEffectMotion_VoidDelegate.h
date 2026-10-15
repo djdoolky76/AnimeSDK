@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1960FC10)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1960FC40)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1960FB80)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1960FBA0)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD8B6D80)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B6D10)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD8B6DB0)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD8B6CF0)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoEffectMotion_VoidDelegate_TypeDefinitionIndex = 73389;
+	inline static constexpr unsigned int MonoEffectMotion_VoidDelegate_TypeDefinitionIndex = 73496;
 
 	class MonoEffectMotion_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client::Motions
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

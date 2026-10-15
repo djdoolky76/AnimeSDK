@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoSpeedEffectConfig_TypeDefinitionIndex = 75436;
+	inline static constexpr unsigned int MonoSpeedEffectConfig_TypeDefinitionIndex = 75851;
 
 	struct alignas(8) MonoSpeedEffectConfig
 	{
@@ -16,6 +14,7 @@ namespace RPG::Client::RoadRash
 		::System::Single Scale; // 0x20
 		::UnityEngine::Vector3 LocalPositionOffset; // 0x24
 		::UnityEngine::Vector3 LocalRotationOffset; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* StartTriggerName; // 0x40
 		::System::String* ChangeStateTriggerName; // 0x48
 		::System::String* ChangeStateValueName; // 0x50

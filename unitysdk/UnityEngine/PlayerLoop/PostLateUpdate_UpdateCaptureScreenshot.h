@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdateCaptureScreenshot_TypeDefinitionIndex = 4649;
+	inline static constexpr unsigned int PostLateUpdate_UpdateCaptureScreenshot_TypeDefinitionIndex = 4653;
 
-	struct alignas(1) PostLateUpdate_UpdateCaptureScreenshot
+	struct alignas(4) PostLateUpdate_UpdateCaptureScreenshot
 	{
 	};
 }

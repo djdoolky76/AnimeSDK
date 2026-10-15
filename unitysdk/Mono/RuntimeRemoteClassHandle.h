@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/RuntimeStructs_RemoteClass.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/Mono/RuntimeClassHandle.h"
 
-#define MONO_RUNTIMEREMOTECLASSHANDLE_GET_PROXYCLASS_OFFSET UNITYSDK_OFFSET(0x3AA64F0)
+#define MONO_RUNTIMEREMOTECLASSHANDLE_GET_PROXYCLASS_OFFSET UNITYSDK_OFFSET(0x3C14E10)
 
 namespace Mono
 {
@@ -11,13 +10,11 @@ namespace Mono
 
 	struct alignas(8) RuntimeRemoteClassHandle
 	{
-		::Mono::RuntimeStructs_RemoteClass* value; // 0x10
-
-		/*
+		::PVOID value; // 0x10
 		::Mono::RuntimeClassHandle get_ProxyClass()
 		{
 			return ((::Mono::RuntimeClassHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_RUNTIMEREMOTECLASSHANDLE_GET_PROXYCLASS_OFFSET))(this);
 		}
-		*/
+
 	};
 }

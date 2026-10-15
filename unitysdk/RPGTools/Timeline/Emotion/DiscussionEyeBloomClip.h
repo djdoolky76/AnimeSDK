@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B578E90)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B578E80)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B579020)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DDC20)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DDDB0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DDC10)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionEyeBloomClip_TypeDefinitionIndex = 49172;
+	inline static constexpr unsigned int DiscussionEyeBloomClip_TypeDefinitionIndex = 48718;
 
 	class DiscussionEyeBloomClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -22,10 +21,9 @@ namespace RPGTools::Timeline::Emotion
 		::System::String* CharacterUniqueName; // 0x18
 		::System::String* EyeBloomKey; // 0x20
 		::System::Single FadeDuration; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +35,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

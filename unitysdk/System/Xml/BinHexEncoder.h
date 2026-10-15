@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1BABAD60)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET UNITYSDK_OFFSET(0x1BABAC20)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BABA9E0)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1EE65620)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET UNITYSDK_OFFSET(0x1EE654E0)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EE652A0)
 
 namespace System::Xml
 {
@@ -30,5 +29,6 @@ namespace System::Xml
 		{
 			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Ucs4Encoding.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_UCS4ENCODING3412_GETPREAMBLE_OFFSET UNITYSDK_OFFSET(0x17C72340)
-#define SYSTEM_XML_UCS4ENCODING3412_GET_ENCODINGNAME_OFFSET UNITYSDK_OFFSET(0x17C72300)
-#define SYSTEM_XML_UCS4ENCODING3412__CTOR_OFFSET UNITYSDK_OFFSET(0x17C72000)
+#define SYSTEM_XML_UCS4ENCODING3412_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF10CB0)
+#define SYSTEM_XML_UCS4ENCODING3412_GETPREAMBLE_OFFSET UNITYSDK_OFFSET(0x1EF10FF0)
+#define SYSTEM_XML_UCS4ENCODING3412_GET_ENCODINGNAME_OFFSET UNITYSDK_OFFSET(0x1EF10FB0)
 
 namespace System::Xml
 {
@@ -17,7 +16,7 @@ namespace System::Xml
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING3412__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING3412_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_EncodingName()
@@ -29,5 +28,6 @@ namespace System::Xml
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING3412_GETPREAMBLE_OFFSET))(this);
 		}
+
 	};
 }

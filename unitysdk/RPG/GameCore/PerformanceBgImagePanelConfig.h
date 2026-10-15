@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PerformanceBgImagePanelConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_METHOD_2_DD01EE14A7B52EB1_OFFSET UNITYSDK_OFFSET(0x1D41CD30)
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41CE70)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C9940)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C9800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceBgImagePanelConfig_TypeDefinitionIndex = 18822;
+	inline static constexpr unsigned int PerformanceBgImagePanelConfig_TypeDefinitionIndex = 19046;
 
 	class PerformanceBgImagePanelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::System::String* Name; // 0x10
 		::System::String* Comment; // 0x18
 		::System::UInt32 PrefabLoadMetaIndex; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DD01EE14A7B52EB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceBgImagePanelConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PerformanceBgImagePanelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceBgImagePanelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_METHOD_2_DD01EE14A7B52EB1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PerformanceBgImagePanelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

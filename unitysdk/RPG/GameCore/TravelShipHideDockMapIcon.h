@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TravelShipHideDockMapIcon; }
 
-#define RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_METHOD_3_49D0E1CD4B84057F_OFFSET UNITYSDK_OFFSET(0x1D540600)
-#define RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_METHOD_3_DA32565E933C2E5F_OFFSET UNITYSDK_OFFSET(0x1D540680)
-#define RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D540650)
+#define RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0E840)
+#define RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC0E870)
+#define RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0E7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelShipHideDockMapIcon_TypeDefinitionIndex = 20739;
+	inline static constexpr unsigned int TravelShipHideDockMapIcon_TypeDefinitionIndex = 20977;
 
 	class TravelShipHideDockMapIcon : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsHide; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_49D0E1CD4B84057F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipHideDockMapIcon*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TravelShipHideDockMapIcon* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipHideDockMapIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_METHOD_3_49D0E1CD4B84057F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TravelShipHideDockMapIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DA32565E933C2E5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipHideDockMapIcon* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TravelShipHideDockMapIcon* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipHideDockMapIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_METHOD_3_DA32565E933C2E5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TravelShipHideDockMapIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPHIDEDOCKMAPICON_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

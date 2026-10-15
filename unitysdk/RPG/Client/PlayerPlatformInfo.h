@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7D0231C413D78CFA.h"
+#include "unitysdk/JFHILPANBNL.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_ISPSPLAYER_OFFSET UNITYSDK_OFFSET(0x1AE11E70)
-#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0x1AE11E50)
-#define RPG_CLIENT_PLAYERPLATFORMINFO_SET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0x1AE11E60)
-#define RPG_CLIENT_PLAYERPLATFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE051E0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDBE4AA0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_ISPSPLAYER_OFFSET UNITYSDK_OFFSET(0xDBF24F0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0xDBF24D0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_SET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0xDBF24E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerPlatformInfo_TypeDefinitionIndex = 66705;
+	inline static constexpr unsigned int PlayerPlatformInfo_TypeDefinitionIndex = 66674;
 
 	class PlayerPlatformInfo : public ::System::Object
 	{
 	public:
 		::System::String* _PlatformUUID_k__BackingField; // 0x10
-		::Enum_3_7D0231C413D78CFA PlatformType; // 0x18
-
+		::JFHILPANBNL PlatformType; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERPLATFORMINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERPLATFORMINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_PlatformUUID()
@@ -39,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERPLATFORMINFO_GET_ISPSPLAYER_OFFSET))(this);
 		}
+
 	};
 }

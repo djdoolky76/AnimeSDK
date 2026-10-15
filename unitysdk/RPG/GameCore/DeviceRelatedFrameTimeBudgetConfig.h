@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DeviceRelatedConfigBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DeviceRelatedFrameTimeBudgetConfig; }
 namespace RPG::GameCore { class FrameTimeBudgetInfo; }
 
-#define RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_METHOD_3_79D13B37C1CF0A00_OFFSET UNITYSDK_OFFSET(0x1D819B40)
-#define RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_METHOD_3_DCCC537F302CBEF6_OFFSET UNITYSDK_OFFSET(0x1D81A330)
-#define RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D819B30)
+#define RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D1890)
+#define RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D18A0)
+#define RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D2090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceRelatedFrameTimeBudgetConfig_TypeDefinitionIndex = 16304;
+	inline static constexpr unsigned int DeviceRelatedFrameTimeBudgetConfig_TypeDefinitionIndex = 16477;
 
 	class DeviceRelatedFrameTimeBudgetConfig : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:
 		::RPG::GameCore::FrameTimeBudgetInfo* Value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DCCC537F302CBEF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_METHOD_3_DCCC537F302CBEF6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_79D13B37C1CF0A00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_METHOD_3_79D13B37C1CF0A00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceRelatedFrameTimeBudgetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDFRAMETIMEBUDGETCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

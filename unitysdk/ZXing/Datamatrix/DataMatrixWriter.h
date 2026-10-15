@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
@@ -11,21 +11,21 @@ namespace ZXing::Datamatrix::Encoder { class DefaultPlacement; }
 namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 namespace ZXing::QrCode::Internal { class ByteMatrix; }
 
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET UNITYSDK_OFFSET(0x16D4BFC0)
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODELOWLEVEL_OFFSET UNITYSDK_OFFSET(0x16D4B3C0)
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16D484E0)
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4C1D0)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET UNITYSDK_OFFSET(0x1F67E880)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67EA90)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODELOWLEVEL_OFFSET UNITYSDK_OFFSET(0x1F67DC80)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F67ADC0)
 
 namespace ZXing::Datamatrix
 {
-	inline static constexpr unsigned int DataMatrixWriter_TypeDefinitionIndex = 7045;
+	inline static constexpr unsigned int DataMatrixWriter_TypeDefinitionIndex = 7054;
 
 	class DataMatrixWriter : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_CTOR_OFFSET))(this);
 		}
 
 		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
@@ -42,5 +42,6 @@ namespace ZXing::Datamatrix
 		{
 			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::QrCode::Internal::ByteMatrix*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET))(a1);
 		}
+
 	};
 }

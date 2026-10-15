@@ -2,37 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 #include "unitysdk/RPG/MVector2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FourRotateVoxelRotatePlatformConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_METHOD_3_8B2A09255960573A_OFFSET UNITYSDK_OFFSET(0x1DCB9230)
-#define RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_METHOD_3_9C8A9164C7862FEA_OFFSET UNITYSDK_OFFSET(0x1DCB91D0)
-#define RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB9220)
+#define RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C40A0)
+#define RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C40B0)
+#define RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C4050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelRotatePlatformConfig_TypeDefinitionIndex = 16584;
+	inline static constexpr unsigned int FourRotateVoxelRotatePlatformConfig_TypeDefinitionIndex = 16760;
 
 	class FourRotateVoxelRotatePlatformConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsRotatePlatform; // 0x10
 		::System::Boolean IsClockwise; // 0x11
+		::System::Byte _padding0[0x2];
 		::RPG::MVector2 RotateRandomInterval; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9C8A9164C7862FEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_METHOD_3_9C8A9164C7862FEA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8B2A09255960573A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_METHOD_3_8B2A09255960573A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelRotatePlatformConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROTATEPLATFORMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

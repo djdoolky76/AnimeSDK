@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK::Console::OS { class ABTestManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_GETABTESTKEY_OFFSET UNITYSDK_OFFSET(0x17356BD0)
-#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1734A2A0)
-#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_LOADALLABTESTINFO_OFFSET UNITYSDK_OFFSET(0x1734A310)
-#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_REQUESTALLABTESTINFO_OFFSET UNITYSDK_OFFSET(0x1734A320)
-#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_SAVEABRESULT_OFFSET UNITYSDK_OFFSET(0x17356CC0)
-#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17356BC0)
+#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC891E0)
+#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_GETABTESTKEY_OFFSET UNITYSDK_OFFSET(0x1BC891F0)
+#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC7CA10)
+#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_LOADALLABTESTINFO_OFFSET UNITYSDK_OFFSET(0x1BC7CA80)
+#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_REQUESTALLABTESTINFO_OFFSET UNITYSDK_OFFSET(0x1BC7CA90)
+#define MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_SAVEABRESULT_OFFSET UNITYSDK_OFFSET(0x1BC892E0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int ABTestManager_TypeDefinitionIndex = 8992;
+	inline static constexpr unsigned int ABTestManager_TypeDefinitionIndex = 9053;
 
 	class ABTestManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::OS::ABTestManager** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Console::OS::ABTestManager**)Il2CppClass::FromTypeDefinitionIndex(ABTestManager_TypeDefinitionIndex)->GetStaticField(0xCBE0);
+			return (::MiHoYo::SDK::Console::OS::ABTestManager**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "ABTestManager")->GetStaticField(0x57540);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::Console::OS::ABTestManager* get_Instance()
@@ -52,5 +52,6 @@ namespace MiHoYo::SDK::Console::OS
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_ABTESTMANAGER_SAVEABRESULT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

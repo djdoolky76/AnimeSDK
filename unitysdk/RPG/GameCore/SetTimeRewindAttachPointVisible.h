@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class SetTimeRewindAttachPointVisible; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_METHOD_3_2F141A3671A1F68A_OFFSET UNITYSDK_OFFSET(0x1E093340)
-#define RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_METHOD_3_FA258542EC69D347_OFFSET UNITYSDK_OFFSET(0x1E093380)
-#define RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E093370)
+#define RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9A120)
+#define RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9A130)
+#define RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9A0F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTimeRewindAttachPointVisible_TypeDefinitionIndex = 20436;
+	inline static constexpr unsigned int SetTimeRewindAttachPointVisible_TypeDefinitionIndex = 20675;
 
 	class SetTimeRewindAttachPointVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* AttachPointName; // 0x20
 		::System::Single TransitionTime; // 0x28
 		::System::Boolean Visible; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2F141A3671A1F68A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTimeRewindAttachPointVisible*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetTimeRewindAttachPointVisible* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTimeRewindAttachPointVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_METHOD_3_2F141A3671A1F68A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetTimeRewindAttachPointVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FA258542EC69D347(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTimeRewindAttachPointVisible* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetTimeRewindAttachPointVisible* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTimeRewindAttachPointVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_METHOD_3_FA258542EC69D347_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetTimeRewindAttachPointVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDATTACHPOINTVISIBLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

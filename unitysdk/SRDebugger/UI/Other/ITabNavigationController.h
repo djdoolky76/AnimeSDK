@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int ITabNavigationController_TypeDefinitionIndex = 37317;
+	inline static constexpr unsigned int ITabNavigationController_TypeDefinitionIndex = 38010;
 
 	class ITabNavigationController
 	{

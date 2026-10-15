@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace XLua { class DelegateBridge; }
 
-#define XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET UNITYSDK_OFFSET(0x12B18E70)
-#define XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET UNITYSDK_OFFSET(0x12B18ED0)
-#define XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET UNITYSDK_OFFSET(0x12B18DC0)
+#define XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET UNITYSDK_OFFSET(0x14D97E60)
+#define XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET UNITYSDK_OFFSET(0x14D97EC0)
+#define XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET UNITYSDK_OFFSET(0x14D97DB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 50464;
+	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 50093;
 
 	class HotfixDelegateBridge : public ::System::Object
 	{
@@ -29,5 +28,6 @@ namespace XLua
 		{
 			return ((::System::Void(*)(::System::Int32, ::XLua::DelegateBridge*))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET))(a1, a2);
 		}
+
 	};
 }

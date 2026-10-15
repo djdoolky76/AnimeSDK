@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_METHOD_3_014EC9CDCB233420_OFFSET UNITYSDK_OFFSET(0x1EEF7650)
-#define RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_METHOD_3_321999F2AFB31EE4_OFFSET UNITYSDK_OFFSET(0x1EEF7600)
-#define RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF7640)
+#define RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AF8A0)
+#define RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9AF8B0)
+#define RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9AF860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig_TypeDefinitionIndex = 17616;
+	inline static constexpr unsigned int RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig_TypeDefinitionIndex = 17828;
 
 	class RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_321999F2AFB31EE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_METHOD_3_321999F2AFB31EE4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_014EC9CDCB233420(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_METHOD_3_014EC9CDCB233420_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERADDBUFFWITHMOSTPATHNUMANDACTIVATEPATHECHOCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

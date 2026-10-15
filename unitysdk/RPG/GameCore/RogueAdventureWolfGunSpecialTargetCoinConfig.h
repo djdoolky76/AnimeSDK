@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueAdventureWolfGunSpecialTargetConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueAdventureWolfGunSpecialTargetCoinConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_METHOD_3_4AB4EC07D3FB4ADE_OFFSET UNITYSDK_OFFSET(0x1EE8BB00)
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_METHOD_3_A55142F5490F381A_OFFSET UNITYSDK_OFFSET(0x1EE8BB50)
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8BB40)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D976B20)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D976B30)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D976AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureWolfGunSpecialTargetCoinConfig_TypeDefinitionIndex = 17687;
+	inline static constexpr unsigned int RogueAdventureWolfGunSpecialTargetCoinConfig_TypeDefinitionIndex = 17899;
 
 	class RogueAdventureWolfGunSpecialTargetCoinConfig : public ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4AB4EC07D3FB4ADE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_METHOD_3_4AB4EC07D3FB4ADE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A55142F5490F381A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_METHOD_3_A55142F5490F381A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETCOINCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

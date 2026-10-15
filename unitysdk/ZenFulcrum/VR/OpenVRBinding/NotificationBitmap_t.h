@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int NotificationBitmap_t_TypeDefinitionIndex = 38028;
+	inline static constexpr unsigned int NotificationBitmap_t_TypeDefinitionIndex = 39325;
 
-	struct alignas(8) NotificationBitmap_t
+	struct alignas(4) NotificationBitmap_t
 	{
 		::System::IntPtr m_pImageData; // 0x10
 		::System::Int32 m_nWidth; // 0x18

@@ -3,21 +3,22 @@
 #include "unitysdk/WwiseObjectReference.h"
 #include "unitysdk/WwiseObjectType.h"
 
-#define WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1D2F4C50)
-#define WWISEACOUSTICTEXTUREREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F4C60)
+#define WWISEACOUSTICTEXTUREREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F609190)
+#define WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F609180)
 
-inline static constexpr unsigned int WwiseAcousticTextureReference_TypeDefinitionIndex = 43689;
+inline static constexpr unsigned int WwiseAcousticTextureReference_TypeDefinitionIndex = 44881;
 
-class WwiseAcousticTextureReference : public ::WwiseObjectReference
-{
-public:
-	::System::Void _ctor()
+	class WwiseAcousticTextureReference : public ::WwiseObjectReference
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEACOUSTICTEXTUREREFERENCE__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEACOUSTICTEXTUREREFERENCE_CTOR_OFFSET))(this);
+		}
 
-	::WwiseObjectType get_WwiseObjectType()
-	{
-		return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET))(this);
-	}
-};
+		::WwiseObjectType get_WwiseObjectType()
+		{
+			return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET))(this);
+		}
+
+	};

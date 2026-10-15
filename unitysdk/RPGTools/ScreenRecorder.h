@@ -4,33 +4,34 @@
 #include "unitysdk/UnityEngine/KeyCode.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Camera; }
 
-#define RPGTOOLS_SCREENRECORDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B5287B0)
-#define RPGTOOLS_SCREENRECORDER_ENDRECORD_OFFSET UNITYSDK_OFFSET(0x1B528BA0)
-#define RPGTOOLS_SCREENRECORDER_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x1B529210)
-#define RPGTOOLS_SCREENRECORDER_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1B5289C0)
-#define RPGTOOLS_SCREENRECORDER_METHOD_5_2CEBCCAF54FB984A_OFFSET UNITYSDK_OFFSET(0x1B528C50)
-#define RPGTOOLS_SCREENRECORDER_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x1B528B20)
-#define RPGTOOLS_SCREENRECORDER_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1B528A20)
-#define RPGTOOLS_SCREENRECORDER_STARTRECORD_OFFSET UNITYSDK_OFFSET(0x1B528BF0)
-#define RPGTOOLS_SCREENRECORDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B5287F0)
-#define RPGTOOLS_SCREENRECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5292E0)
+#define RPGTOOLS_SCREENRECORDER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE89D8D0)
+#define RPGTOOLS_SCREENRECORDER_BNEBAKJHCCH_OFFSET UNITYSDK_OFFSET(0xE89DAE0)
+#define RPGTOOLS_SCREENRECORDER_CKJCONOGIAC_OFFSET UNITYSDK_OFFSET(0xE89DB40)
+#define RPGTOOLS_SCREENRECORDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE89E400)
+#define RPGTOOLS_SCREENRECORDER_ENDRECORD_OFFSET UNITYSDK_OFFSET(0xE89DCC0)
+#define RPGTOOLS_SCREENRECORDER_IDCGICECPHO_OFFSET UNITYSDK_OFFSET(0xE89DC40)
+#define RPGTOOLS_SCREENRECORDER_LBAEHMAOIGP_OFFSET UNITYSDK_OFFSET(0xE89E330)
+#define RPGTOOLS_SCREENRECORDER_MOBPPCMNOPK_OFFSET UNITYSDK_OFFSET(0xE89DD70)
+#define RPGTOOLS_SCREENRECORDER_STARTRECORD_OFFSET UNITYSDK_OFFSET(0xE89DD10)
+#define RPGTOOLS_SCREENRECORDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE89D910)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int ScreenRecorder_TypeDefinitionIndex = 48236;
+	inline static constexpr unsigned int ScreenRecorder_TypeDefinitionIndex = 47777;
 
 	class ScreenRecorder : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single sizeScale; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* outputPath; // 0x20
 		::System::Single duration; // 0x28
 		::System::Boolean characterOnly; // 0x2C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::KeyCode startKey; // 0x30
 		::UnityEngine::CameraClearFlags BGKOGNIBBOG; // 0x34
 		::UnityEngine::LayerMask PMANBKLKBOM; // 0x38
@@ -45,10 +46,9 @@ namespace RPGTools
 		::System::Single KIKIMCMLLKN; // 0x60
 		::System::Boolean _isRunning; // 0x64
 		::System::Boolean BIPKNLCMINA; // 0x65
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -71,29 +71,30 @@ namespace RPGTools
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_ENDRECORD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void CKJCONOGIAC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_CKJCONOGIAC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_1D4018D4200358D0()
+		::System::Boolean BNEBAKJHCCH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_METHOD_5_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_BNEBAKJHCCH_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_5_627C7524E98F4AC5()
+		::System::Collections::IEnumerator* IDCGICECPHO()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_METHOD_5_627C7524E98F4AC5_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_IDCGICECPHO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2CEBCCAF54FB984A(::System::String* a1)
+		::System::Void MOBPPCMNOPK(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_METHOD_5_2CEBCCAF54FB984A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_MOBPPCMNOPK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_151E25A63D14DDB0()
+		::System::Void LBAEHMAOIGP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_METHOD_5_151E25A63D14DDB0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER_LBAEHMAOIGP_OFFSET))(this);
 		}
+
 	};
 }

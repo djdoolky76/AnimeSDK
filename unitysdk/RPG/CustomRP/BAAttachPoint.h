@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BAAttachPoint_TypeDefinitionIndex = 36906;
+	inline static constexpr unsigned int BAAttachPoint_TypeDefinitionIndex = 37591;
 
 	struct alignas(8) BAAttachPoint
 	{

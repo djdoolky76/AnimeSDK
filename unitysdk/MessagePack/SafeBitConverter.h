@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 
-#define MESSAGEPACK_SAFEBITCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x1D572EA0)
-#define MESSAGEPACK_SAFEBITCONVERTER_TOUINT16_OFFSET UNITYSDK_OFFSET(0x1D572EE0)
-#define MESSAGEPACK_SAFEBITCONVERTER_TOUINT32_OFFSET UNITYSDK_OFFSET(0x1D572F00)
-#define MESSAGEPACK_SAFEBITCONVERTER_TOUINT64_OFFSET UNITYSDK_OFFSET(0x1D572EC0)
+#define MESSAGEPACK_SAFEBITCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x1BBB4F60)
+#define MESSAGEPACK_SAFEBITCONVERTER_TOUINT16_OFFSET UNITYSDK_OFFSET(0x1BBB4FA0)
+#define MESSAGEPACK_SAFEBITCONVERTER_TOUINT32_OFFSET UNITYSDK_OFFSET(0x1BBB4FC0)
+#define MESSAGEPACK_SAFEBITCONVERTER_TOUINT64_OFFSET UNITYSDK_OFFSET(0x1BBB4F80)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SafeBitConverter_TypeDefinitionIndex = 7186;
+	inline static constexpr unsigned int SafeBitConverter_TypeDefinitionIndex = 7240;
 
 	class SafeBitConverter : public ::System::Object
 	{
 	public:
-		static ::System::Int64 ToInt64(::System::ReadOnlySpan_1<::System::Byte> a1)
+		static ::System::Int64 ToInt64(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::Int64(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOINT64_OFFSET))(a1);
+			return ((::System::Int64(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOINT64_OFFSET))(a1);
 		}
 
-		static ::System::UInt64 ToUInt64(::System::ReadOnlySpan_1<::System::Byte> a1)
+		static ::System::UInt64 ToUInt64(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::UInt64(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOUINT64_OFFSET))(a1);
+			return ((::System::UInt64(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOUINT64_OFFSET))(a1);
 		}
 
-		static ::System::UInt16 ToUInt16(::System::ReadOnlySpan_1<::System::Byte> a1)
+		static ::System::UInt16 ToUInt16(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::UInt16(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOUINT16_OFFSET))(a1);
+			return ((::System::UInt16(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOUINT16_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 ToUInt32(::System::ReadOnlySpan_1<::System::Byte> a1)
+		static ::System::UInt32 ToUInt32(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::UInt32(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOUINT32_OFFSET))(a1);
+			return ((::System::UInt32(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SAFEBITCONVERTER_TOUINT32_OFFSET))(a1);
 		}
+
 	};
 }

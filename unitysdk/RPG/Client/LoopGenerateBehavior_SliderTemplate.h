@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x84C7C0)
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET UNITYSDK_OFFSET(0xB596B0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x94D0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x94E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_SliderTemplate_TypeDefinitionIndex = 70874;
+	inline static constexpr unsigned int LoopGenerateBehavior_SliderTemplate_TypeDefinitionIndex = 70907;
 
 	struct alignas(8) LoopGenerateBehavior_SliderTemplate
 	{
@@ -20,7 +18,6 @@ namespace RPG::Client
 		::UnityEngine::GameObject* _TargetGo_k__BackingField; // 0x20
 		::UnityEngine::Bounds RendererBounds; // 0x28
 		::System::Int32 Index; // 0x40
-
 		::UnityEngine::GameObject* get_TargetGo()
 		{
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET))(this);
@@ -30,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET))(this, a1);
 		}
+
 	};
 }

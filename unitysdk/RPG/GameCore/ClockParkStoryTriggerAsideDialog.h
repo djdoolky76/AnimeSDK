@@ -2,36 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClockParkStoryTriggerAsideDialog; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_METHOD_3_887BBE431CE16B51_OFFSET UNITYSDK_OFFSET(0x1D9A0D10)
-#define RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_METHOD_3_E07008660ECC0B40_OFFSET UNITYSDK_OFFSET(0x1D9A0D60)
-#define RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A0D50)
+#define RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5982E0)
+#define RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5982F0)
+#define RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5982A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryTriggerAsideDialog_TypeDefinitionIndex = 20708;
+	inline static constexpr unsigned int ClockParkStoryTriggerAsideDialog_TypeDefinitionIndex = 20946;
 
 	class ClockParkStoryTriggerAsideDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsAside; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::Client::TextID TextID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_887BBE431CE16B51(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_METHOD_3_887BBE431CE16B51_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E07008660ECC0B40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_METHOD_3_E07008660ECC0B40_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClockParkStoryTriggerAsideDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYTRIGGERASIDEDIALOG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

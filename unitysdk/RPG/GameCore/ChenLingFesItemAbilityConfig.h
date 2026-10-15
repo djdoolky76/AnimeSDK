@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingFesAbilityConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingFesItemAbilityConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_METHOD_3_35E9E444541C4974_OFFSET UNITYSDK_OFFSET(0x1E0139A0)
-#define RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_METHOD_3_D3445AFCF4B46B4D_OFFSET UNITYSDK_OFFSET(0x1E015040)
-#define RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E013990)
+#define RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55F040)
+#define RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D55F050)
+#define RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D560800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemAbilityConfig_TypeDefinitionIndex = 18231;
+	inline static constexpr unsigned int ChenLingFesItemAbilityConfig_TypeDefinitionIndex = 18446;
 
 	class ChenLingFesItemAbilityConfig : public ::RPG::GameCore::ChenLingFesAbilityConfig
 	{
@@ -26,20 +26,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnLeaveItem; // 0x50
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnEnterFever; // 0x58
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnExitFever; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D3445AFCF4B46B4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesItemAbilityConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesItemAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesItemAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_METHOD_3_D3445AFCF4B46B4D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesItemAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_35E9E444541C4974(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesItemAbilityConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesItemAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesItemAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_METHOD_3_35E9E444541C4974_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesItemAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMABILITYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

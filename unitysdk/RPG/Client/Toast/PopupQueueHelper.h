@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define RPG_CLIENT_TOAST_POPUPQUEUEHELPER_ISSOFAWINDOW_OFFSET UNITYSDK_OFFSET(0x197BA2E0)
+#define RPG_CLIENT_TOAST_POPUPQUEUEHELPER_ISSOFAWINDOW_OFFSET UNITYSDK_OFFSET(0xE2A5EC0)
 
 namespace RPG::Client::Toast
 {
-	inline static constexpr unsigned int PopupQueueHelper_TypeDefinitionIndex = 78531;
+	inline static constexpr unsigned int PopupQueueHelper_TypeDefinitionIndex = 79002;
 
 	class PopupQueueHelper : public ::System::Object
 	{
@@ -15,5 +16,6 @@ namespace RPG::Client::Toast
 		{
 			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOAST_POPUPQUEUEHELPER_ISSOFAWINDOW_OFFSET))(a1);
 		}
+
 	};
 }

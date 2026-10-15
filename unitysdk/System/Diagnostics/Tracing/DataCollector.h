@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventSource_EventData.h"
-#include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Array; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDARRAY_OFFSET UNITYSDK_OFFSET(0x3B670B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDBINARY_1_OFFSET UNITYSDK_OFFSET(0x3B670A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDBINARY_OFFSET UNITYSDK_OFFSET(0x3B67090)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x3B67080)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_BEGINBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x3B670C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_BEGINBUFFERED_OFFSET UNITYSDK_OFFSET(0x3B67160)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_DISABLE_OFFSET UNITYSDK_OFFSET(0x3B66FE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENABLE_OFFSET UNITYSDK_OFFSET(0x3B66F90)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENDBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x3B67150)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENDBUFFERED_OFFSET UNITYSDK_OFFSET(0x3B671E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENSUREBUFFER_1_OFFSET UNITYSDK_OFFSET(0x3B67290)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENSUREBUFFER_OFFSET UNITYSDK_OFFSET(0x3B67260)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_FINISH_OFFSET UNITYSDK_OFFSET(0x3B67000)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_GROWBUFFER_OFFSET UNITYSDK_OFFSET(0x3B672C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_PINARRAY_OFFSET UNITYSDK_OFFSET(0x3B672F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_SCALARSBEGIN_OFFSET UNITYSDK_OFFSET(0x3B67300)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_SCALARSEND_OFFSET UNITYSDK_OFFSET(0x3B67310)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDARRAY_OFFSET UNITYSDK_OFFSET(0x3C1F4E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDBINARY_1_OFFSET UNITYSDK_OFFSET(0x3C1F4D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDBINARY_OFFSET UNITYSDK_OFFSET(0x3C1F4C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x3C1F4B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_BEGINBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x3C1F4F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_BEGINBUFFERED_OFFSET UNITYSDK_OFFSET(0x3C1F590)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_DISABLE_OFFSET UNITYSDK_OFFSET(0x3C1F410)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENABLE_OFFSET UNITYSDK_OFFSET(0x3C1F3C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENDBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x3C1F580)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENDBUFFERED_OFFSET UNITYSDK_OFFSET(0x3C1F610)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENSUREBUFFER_1_OFFSET UNITYSDK_OFFSET(0x3C1F6C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENSUREBUFFER_OFFSET UNITYSDK_OFFSET(0x3C1F690)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_FINISH_OFFSET UNITYSDK_OFFSET(0x3C1F430)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_GROWBUFFER_OFFSET UNITYSDK_OFFSET(0x3C1F6F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_PINARRAY_OFFSET UNITYSDK_OFFSET(0x3C1F720)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_SCALARSBEGIN_OFFSET UNITYSDK_OFFSET(0x3C1F730)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_SCALARSEND_OFFSET UNITYSDK_OFFSET(0x3C1F740)
 
 namespace System::Diagnostics::Tracing
 {
@@ -32,25 +28,25 @@ namespace System::Diagnostics::Tracing
 
 	struct alignas(8) DataCollector
 	{
-		static ::System::Diagnostics::Tracing::DataCollector* StaticGet_ThreadInstance()
-		{
-			return (::System::Diagnostics::Tracing::DataCollector*)Il2CppClass::FromTypeDefinitionIndex(DataCollector_TypeDefinitionIndex)->GetStaticField(0x0);
-		}
-		::System::Byte* scratchEnd; // 0x10
-		::System::Diagnostics::Tracing::EventSource_EventData* datasEnd; // 0x18
-		::System::Runtime::InteropServices::GCHandle* pinsEnd; // 0x20
-		::System::Diagnostics::Tracing::EventSource_EventData* datasStart; // 0x28
-		::System::Byte* scratch; // 0x30
-		::System::Diagnostics::Tracing::EventSource_EventData* datas; // 0x38
-		::System::Runtime::InteropServices::GCHandle* pins; // 0x40
+		::PVOID scratchEnd; // 0x10
+		::PVOID datasEnd; // 0x18
+		::PVOID pinsEnd; // 0x20
+		::PVOID datasStart; // 0x28
+		::PVOID scratch; // 0x30
+		::PVOID datas; // 0x38
+		::PVOID pins; // 0x40
 		::Il2CppArray<::System::Byte>* buffer; // 0x48
 		::System::Int32 bufferPos; // 0x50
 		::System::Int32 bufferNesting; // 0x54
 		::System::Boolean writingScalars; // 0x58
-
-		::System::Void Enable(::System::Byte* a1, ::System::Int32 a2, ::System::Diagnostics::Tracing::EventSource_EventData* a3, ::System::Int32 a4, ::System::Runtime::InteropServices::GCHandle* a5, ::System::Int32 a6)
+		static ::System::Diagnostics::Tracing::DataCollector* StaticGet_ThreadInstance()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Diagnostics::Tracing::EventSource_EventData*, ::System::Int32, ::System::Runtime::InteropServices::GCHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENABLE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return (::System::Diagnostics::Tracing::DataCollector*)UnitySDK::FromName("System.Diagnostics.Tracing", "DataCollector")->GetStaticField(0x0);
+		}
+
+		::System::Void Enable(::PVOID a1, ::System::Int32 a2, ::PVOID a3, ::System::Int32 a4, ::PVOID a5, ::System::Int32 a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ENABLE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void Disable()
@@ -58,14 +54,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_DISABLE_OFFSET))(this);
 		}
 
-		::System::Diagnostics::Tracing::EventSource_EventData* Finish()
+		::PVOID Finish()
 		{
-			return ((::System::Diagnostics::Tracing::EventSource_EventData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_FINISH_OFFSET))(this);
+			return ((::PVOID(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_FINISH_OFFSET))(this);
 		}
 
-		::System::Void AddScalar(::System::Void* a1, ::System::Int32 a2)
+		::System::Void AddScalar(::PVOID a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDSCALAR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_ADDSCALAR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AddBinary(::System::String* a1, ::System::Int32 a2)
@@ -132,5 +128,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DATACOLLECTOR_SCALARSEND_OFFSET))(this);
 		}
+
 	};
 }

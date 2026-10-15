@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MESSAGEPACK_INTERNAL_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x166A9F10)
+#define MESSAGEPACK_INTERNAL_PRESERVEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB8B330)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7243;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7297;
 
 	class PreserveAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_PRESERVEATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_PRESERVEATTRIBUTE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

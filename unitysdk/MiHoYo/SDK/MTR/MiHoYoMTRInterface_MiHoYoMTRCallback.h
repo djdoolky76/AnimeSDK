@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1947BF70)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1947BFD0)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1947BF60)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1947BEF0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFC0B70)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC0B00)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFC0BD0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFC0AB0)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface_MiHoYoMTRCallback_TypeDefinitionIndex = 47137;
+	inline static constexpr unsigned int MiHoYoMTRInterface_MiHoYoMTRCallback_TypeDefinitionIndex = 46677;
 
 	class MiHoYoMTRInterface_MiHoYoMTRCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK::MTR
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYOMTRCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

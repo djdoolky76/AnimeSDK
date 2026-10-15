@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_METHOD_2_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x3B78060)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_METHOD_2_DF84F9773DC0FC4C_OFFSET UNITYSDK_OFFSET(0x1B0AEA50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE91B710)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF8E30)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PPFilterParameter_TypeDefinitionIndex = 49042;
+	inline static constexpr unsigned int PPFilterParameter_TypeDefinitionIndex = 48588;
 
 	struct alignas(8) PPFilterParameter
 	{
 		::System::Single Duration; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* AssetPath; // 0x18
 		::System::Boolean IsActive; // 0x20
-
-		static ::RPGTools::Timeline::PostProcessing::PPFilterParameter Method_2_DF84F9773DC0FC4C(::System::Boolean a1)
+		/*
+		static ::RPGTools::Timeline::PostProcessing::PPFilterParameter JIHKKHMEKLO(::System::Boolean a1)
 		{
-			return ((::RPGTools::Timeline::PostProcessing::PPFilterParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_METHOD_2_DF84F9773DC0FC4C_OFFSET))(a1);
+			return ((::RPGTools::Timeline::PostProcessing::PPFilterParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_JIHKKHMEKLO_OFFSET))(a1);
+		}
+		*/
+
+		::System::Void KHGIKBFDLFB(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_KHGIKBFDLFB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_3E7178C5ECF017DB(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_METHOD_2_3E7178C5ECF017DB_OFFSET))(this, a1);
-		}
 	};
 }

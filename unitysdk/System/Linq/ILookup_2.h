@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-
 namespace System::Linq
 {
-	inline static constexpr unsigned int ILookup_2_TypeDefinitionIndex = 3168;
+	inline static constexpr unsigned int ILookup_2_TypeDefinitionIndex = 3169;
 
-	template <typename TKey, typename TElement>
+	template <typename T1, typename T2>
 	class ILookup_2
 	{
 	public:

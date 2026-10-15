@@ -3,8 +3,8 @@
 #include "unitysdk/System/Net/NetworkInformation/Win32_FIXED_INFO.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET UNITYSDK_OFFSET(0x1B04D030)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET UNITYSDK_OFFSET(0x1B04CC40)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET UNITYSDK_OFFSET(0x1F043800)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET UNITYSDK_OFFSET(0x1F043410)
 
 namespace System::Net::NetworkInformation
 {
@@ -15,21 +15,23 @@ namespace System::Net::NetworkInformation
 	public:
 		static ::System::Net::NetworkInformation::Win32_FIXED_INFO* StaticGet_fixedInfo()
 		{
-			return (::System::Net::NetworkInformation::Win32_FIXED_INFO*)Il2CppClass::FromTypeDefinitionIndex(Win32NetworkInterface_TypeDefinitionIndex)->GetStaticField(0x1D350);
-		}
-		static ::System::Boolean* StaticGet_initialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Win32NetworkInterface_TypeDefinitionIndex)->GetStaticField(0x9E70);
+			return (::System::Net::NetworkInformation::Win32_FIXED_INFO*)UnitySDK::FromName("System.Net.NetworkInformation", "Win32NetworkInterface")->GetStaticField(0x31C30);
 		}
 
-		static ::System::Int32 GetNetworkParams(::System::IntPtr a1, ::System::Int32& a2)
+		static ::System::Boolean* StaticGet_initialized()
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET))(a1, a2);
+			return (::System::Boolean*)UnitySDK::FromName("System.Net.NetworkInformation", "Win32NetworkInterface")->GetStaticField(0xA3F0);
+		}
+
+		static ::System::Int32 GetNetworkParams(::System::IntPtr a1, ::System::Int32 a2)
+		{
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET))(a1, a2);
 		}
 
 		static ::System::Net::NetworkInformation::Win32_FIXED_INFO get_FixedInfo()
 		{
 			return ((::System::Net::NetworkInformation::Win32_FIXED_INFO(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET))();
 		}
+
 	};
 }

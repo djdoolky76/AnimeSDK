@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/AutoReleaseReferenceState.h"
-#include "unitysdk/System/Collections/Generic/List_1.h"
+namespace RPG::GameCore { class GameEntityList; }
 
-namespace RPG::GameCore { class GameEntity; }
-
-#define RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0x184231F0)
-#define RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET UNITYSDK_OFFSET(0x184232C0)
-#define RPG_GAMECORE_GAMEENTITYLIST_ONALLOC_OFFSET UNITYSDK_OFFSET(0x18423210)
-#define RPG_GAMECORE_GAMEENTITYLIST_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x18423270)
-#define RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0x18423200)
-#define RPG_GAMECORE_GAMEENTITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18423310)
+#define RPG_GAMECORE_GAMEENTITYLIST_CTOR_OFFSET UNITYSDK_OFFSET(0xE6A55C0)
+#define RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xE6A54A0)
+#define RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET UNITYSDK_OFFSET(0xE6A5570)
+#define RPG_GAMECORE_GAMEENTITYLIST_ONALLOC_OFFSET UNITYSDK_OFFSET(0xE6A54C0)
+#define RPG_GAMECORE_GAMEENTITYLIST_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xE6A5520)
+#define RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xE6A54B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntityList_TypeDefinitionIndex = 59340;
+	inline static constexpr unsigned int GameEntityList_TypeDefinitionIndex = 59193;
 
-	class GameEntityList : public ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>
+	class GameEntityList
 	{
 	public:
 		::RPG::AutoReleaseReferenceState _ReferenceState_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_CTOR_OFFSET))(this);
 		}
 
 		::RPG::AutoReleaseReferenceState get_ReferenceState()
@@ -50,5 +47,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::GameEntityList*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET))(this);
 		}
+
 	};
 }

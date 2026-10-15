@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/WaitHandle.h"
-
 namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
-#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2C360)
+#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDD9B0)
 
 namespace System::Diagnostics
 {
@@ -15,7 +14,8 @@ namespace System::Diagnostics
 	public:
 		::System::Void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

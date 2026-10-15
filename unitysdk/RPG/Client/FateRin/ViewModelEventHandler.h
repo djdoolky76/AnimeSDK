@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B5D19C0)
-#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5D19F0)
-#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5A0F70)
-#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D1950)
+#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCFC7AB0)
+#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC7A30)
+#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCFC7AE0)
+#define RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xCFC7AA0)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int ViewModelEventHandler_TypeDefinitionIndex = 79304;
+	inline static constexpr unsigned int ViewModelEventHandler_TypeDefinitionIndex = 80628;
 
 	class ViewModelEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace RPG::Client::FateRin
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEWMODELEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

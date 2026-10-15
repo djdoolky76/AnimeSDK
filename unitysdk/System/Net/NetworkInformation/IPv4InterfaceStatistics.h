@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPV4INTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B048A40)
+#define SYSTEM_NET_NETWORKINFORMATION_IPV4INTERFACESTATISTICS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F03F190)
 
 namespace System::Net::NetworkInformation
 {
@@ -13,7 +13,8 @@ namespace System::Net::NetworkInformation
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_IPV4INTERFACESTATISTICS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_IPV4INTERFACESTATISTICS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

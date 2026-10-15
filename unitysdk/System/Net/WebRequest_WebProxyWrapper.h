@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/WebRequest_WebProxyWrapperOpaque.h"
-
 namespace System::Net { class WebProxy; }
 
-#define SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET UNITYSDK_OFFSET(0x1B98E240)
+#define SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET UNITYSDK_OFFSET(0x1F0778B0)
 
 namespace System::Net
 {
@@ -17,5 +16,6 @@ namespace System::Net
 		{
 			return ((::System::Net::WebProxy*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET))(this);
 		}
+
 	};
 }

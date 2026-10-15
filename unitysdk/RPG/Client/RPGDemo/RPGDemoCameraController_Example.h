@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x180376F0)
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18037950)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE12BF0)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDE12990)
 
 namespace RPG::Client::RPGDemo
 {
-	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 75530;
+	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 75945;
 
 	class RPGDemoCameraController_Example : public ::UnityEngine::MonoBehaviour
 	{
@@ -18,18 +17,19 @@ namespace RPG::Client::RPGDemo
 		::UnityEngine::Vector3 HCEDBBGKJKI; // 0x18
 		::System::Single OJCHFPNNIHH; // 0x24
 		::System::Single IIKCEOGEIKL; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* CameraFollow; // 0x30
 		::UnityEngine::Transform* CameraLookAt; // 0x38
 		::UnityEngine::Transform* PlayerBall; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchCurrentInsertTurnSource; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_8282431C7543F54D_OFFSET UNITYSDK_OFFSET(0x1E16E060)
-#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_8CA0371C76095050_OFFSET UNITYSDK_OFFSET(0x1E16E160)
-#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_C46C96AAA9CDFCE8_OFFSET UNITYSDK_OFFSET(0x1E16E0E0)
-#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_EE3CFC16C9C93C5D_OFFSET UNITYSDK_OFFSET(0x1E16E140)
-#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E16E0D0)
+#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB34360)
+#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB343F0)
+#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB343D0)
+#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB34370)
+#define RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB342F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchCurrentInsertTurnSource_TypeDefinitionIndex = 23757;
+	inline static constexpr unsigned int TargetFetchCurrentInsertTurnSource_TypeDefinitionIndex = 24032;
 
 	class TargetFetchCurrentInsertTurnSource : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8282431C7543F54D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_8282431C7543F54D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C46C96AAA9CDFCE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_C46C96AAA9CDFCE8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EE3CFC16C9C93C5D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_EE3CFC16C9C93C5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8CA0371C76095050(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_METHOD_4_8CA0371C76095050_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchCurrentInsertTurnSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHCURRENTINSERTTURNSOURCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

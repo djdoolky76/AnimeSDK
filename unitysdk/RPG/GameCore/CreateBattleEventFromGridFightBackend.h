@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CreateBattleEvent.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreateBattleEventFromGridFightBackend; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_METHOD_4_01BF5F6B4654BBE6_OFFSET UNITYSDK_OFFSET(0x1D9BD6C0)
-#define RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_METHOD_4_37555E70B2C84805_OFFSET UNITYSDK_OFFSET(0x1D9BD060)
-#define RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BD040)
+#define RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B4250)
+#define RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B4270)
+#define RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B48D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleEventFromGridFightBackend_TypeDefinitionIndex = 23162;
+	inline static constexpr unsigned int CreateBattleEventFromGridFightBackend_TypeDefinitionIndex = 23427;
 
 	class CreateBattleEventFromGridFightBackend : public ::RPG::GameCore::CreateBattleEvent
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::System::Boolean OnlyAllowHealBySelf; // 0x61
 		::System::Boolean TreatAsRoleWhenByCompareCharacterID; // 0x62
 		::System::Boolean TriggerRedBreakCallbacks; // 0x63
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_01BF5F6B4654BBE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventFromGridFightBackend*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateBattleEventFromGridFightBackend* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleEventFromGridFightBackend*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_METHOD_4_01BF5F6B4654BBE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateBattleEventFromGridFightBackend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_37555E70B2C84805(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventFromGridFightBackend* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateBattleEventFromGridFightBackend* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleEventFromGridFightBackend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_METHOD_4_37555E70B2C84805_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateBattleEventFromGridFightBackend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTFROMGRIDFIGHTBACKEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise_1___c__DisplayClass35_0_TypeDefinitionIndex = 9819;
+	inline static constexpr unsigned int Promise_1___c__DisplayClass35_0_TypeDefinitionIndex = 9877;
 
-	template <typename PromisedT>
+	template <typename T>
 	class Promise_1___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

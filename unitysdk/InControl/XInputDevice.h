@@ -2,33 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDevice.h"
 #include "unitysdk/XInputDotNetPure/GamePadState.h"
-
 namespace InControl { class XInputDeviceManager; }
 
-#define INCONTROL_XINPUTDEVICE_GETSTATE_OFFSET UNITYSDK_OFFSET(0xC15E220)
-#define INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0xC15D3F0)
-#define INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xC15E4A0)
-#define INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0xC15D400)
-#define INCONTROL_XINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC15D840)
-#define INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET UNITYSDK_OFFSET(0xC15E2D0)
-#define INCONTROL_XINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xC15D410)
+#define INCONTROL_XINPUTDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3D720)
+#define INCONTROL_XINPUTDEVICE_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1BB3E500)
+#define INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x1BB3D700)
+#define INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1BB3E780)
+#define INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x1BB3D710)
+#define INCONTROL_XINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB3DB50)
+#define INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET UNITYSDK_OFFSET(0x1BB3E5B0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 39622;
+	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 40919;
 
 	class XInputDevice : public ::InControl::InputDevice
 	{
 	public:
-		// static const ::System::Single LowerDeadZone; // 0x0
-		// static const ::System::Single UpperDeadZone; // 0x0
 		::InControl::XInputDeviceManager* owner; // 0x198
-		::XInputDotNetPure::GamePadState state; // 0x1A0
-		::System::Int32 _DeviceIndex_k__BackingField; // 0x1F8
-
+		::System::Int32 _DeviceIndex_k__BackingField; // 0x1A0
+		::XInputDotNetPure::GamePadState state; // 0x1A4
+		// static const ::System::Object LowerDeadZone; // 0x0
+		// static const ::System::Object UpperDeadZone; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::InControl::XInputDeviceManager* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::InControl::XInputDeviceManager*))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::InControl::XInputDeviceManager*))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_DeviceIndex()
@@ -60,5 +58,6 @@ namespace InControl
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET))(this);
 		}
+
 	};
 }

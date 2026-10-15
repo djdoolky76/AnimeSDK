@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EraFlipperBattleAreaOverrideConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_METHOD_2_610744A499980B69_OFFSET UNITYSDK_OFFSET(0x1D7CDB20)
-#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CDC90)
+#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D653670)
+#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D653500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraFlipperBattleAreaOverrideConfig_TypeDefinitionIndex = 16441;
+	inline static constexpr unsigned int EraFlipperBattleAreaOverrideConfig_TypeDefinitionIndex = 16617;
 
 	class EraFlipperBattleAreaOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::EraStateType AffectEraState; // 0x10
 		::System::UInt32 AffectBattleAreaID; // 0x14
 		::System::UInt32 OverrideConfigID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_610744A499980B69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EraFlipperBattleAreaOverrideConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EraFlipperBattleAreaOverrideConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EraFlipperBattleAreaOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_METHOD_2_610744A499980B69_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EraFlipperBattleAreaOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

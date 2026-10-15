@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaBindEmailActionParam_TypeDefinitionIndex = 47325;
+	inline static constexpr unsigned int UIConstants_OverseaBindEmailActionParam_TypeDefinitionIndex = 46865;
 
 	class UIConstants_OverseaBindEmailActionParam : public ::System::Object
 	{

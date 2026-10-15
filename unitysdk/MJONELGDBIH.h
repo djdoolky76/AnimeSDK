@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class MNOMFMNFDDH;
+namespace RPG::GameCore { class TaskContext; }
+
+#define MJONELGDBIH_CTOR_OFFSET UNITYSDK_OFFSET(0xB974F70)
+#define MJONELGDBIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB974FA0)
+#define MJONELGDBIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB975490)
+#define MJONELGDBIH_POPLKHDAOPL_OFFSET UNITYSDK_OFFSET(0xB975010)
+
+inline static constexpr unsigned int MJONELGDBIH_TypeDefinitionIndex = 53647;
+
+	class MJONELGDBIH
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::MNOMFMNFDDH* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::MNOMFMNFDDH*))((::PBYTE)hIl2Cpp + MJONELGDBIH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJONELGDBIH_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJONELGDBIH_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void POPLKHDAOPL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJONELGDBIH_POPLKHDAOPL_OFFSET))(this);
+		}
+
+	};

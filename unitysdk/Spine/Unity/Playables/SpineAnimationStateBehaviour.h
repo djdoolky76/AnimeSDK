@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace Spine::Unity { class AnimationReferenceAsset; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBD640)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC46C0)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineAnimationStateBehaviour_TypeDefinitionIndex = 44768;
+	inline static constexpr unsigned int SpineAnimationStateBehaviour_TypeDefinitionIndex = 45907;
 
 	class SpineAnimationStateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -24,15 +23,16 @@ namespace Spine::Unity::Playables
 		::System::Boolean holdPrevious; // 0x28
 		::System::Boolean dontPauseWithDirector; // 0x29
 		::System::Boolean dontEndWithClip; // 0x2A
+		::System::Byte _padding0[0x1];
 		::System::Single endMixOutDuration; // 0x2C
 		::System::Single attachmentThreshold; // 0x30
 		::System::Single eventThreshold; // 0x34
 		::System::Single drawOrderThreshold; // 0x38
 		::System::Single alpha; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
+
 	};
 }

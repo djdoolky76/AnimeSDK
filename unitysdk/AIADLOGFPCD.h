@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JEBPFBNCALB.h"
+class AIADLOGFPCD_LPPEFOOHLMF;
+class ALDMDBEKHPL;
+class FJOADPKDFLC;
+class GJBMIABGPFP;
+namespace System { class Action; }
+namespace System { class Object; }
+
+#define AIADLOGFPCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C50F6B0)
+#define AIADLOGFPCD_GET_CONTRIBUTIONRULE_OFFSET UNITYSDK_OFFSET(0x1C50F650)
+#define AIADLOGFPCD_GET_TARGETTRAITS_OFFSET UNITYSDK_OFFSET(0x1C50F640)
+#define AIADLOGFPCD_INJJGMIGFFD_OFFSET UNITYSDK_OFFSET(0x1C50FDA0)
+#define AIADLOGFPCD_JGHDBJLBEEG_1_OFFSET UNITYSDK_OFFSET(0x1C50F9D0)
+#define AIADLOGFPCD_JGHDBJLBEEG_OFFSET UNITYSDK_OFFSET(0x1C50F760)
+#define AIADLOGFPCD_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x1C50FB60)
+#define AIADLOGFPCD_LGMDENKHIFJ_OFFSET UNITYSDK_OFFSET(0x1C50FBC0)
+#define AIADLOGFPCD_PFABKAHHLDA_OFFSET UNITYSDK_OFFSET(0x1C50F660)
+
+inline static constexpr unsigned int AIADLOGFPCD_TypeDefinitionIndex = 41852;
+
+	class AIADLOGFPCD : public ::JEBPFBNCALB
+	{
+	public:
+		::FJOADPKDFLC* _TargetTraits_k__BackingField; // 0x28
+		::ALDMDBEKHPL* _ContributionRule_k__BackingField; // 0x30
+		::AIADLOGFPCD_LPPEFOOHLMF* PCKNJEDAMIM; // 0x38
+		::System::Void _ctor(::FJOADPKDFLC* a1, ::ALDMDBEKHPL* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::FJOADPKDFLC*, ::ALDMDBEKHPL*))((::PBYTE)hIl2Cpp + AIADLOGFPCD_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::FJOADPKDFLC* get_TargetTraits()
+		{
+			return ((::FJOADPKDFLC*(*)(::PVOID))((::PBYTE)hIl2Cpp + AIADLOGFPCD_GET_TARGETTRAITS_OFFSET))(this);
+		}
+
+		::ALDMDBEKHPL* get_ContributionRule()
+		{
+			return ((::ALDMDBEKHPL*(*)(::PVOID))((::PBYTE)hIl2Cpp + AIADLOGFPCD_GET_CONTRIBUTIONRULE_OFFSET))(this);
+		}
+
+		::GJBMIABGPFP* PFABKAHHLDA()
+		{
+			return ((::GJBMIABGPFP*(*)(::PVOID))((::PBYTE)hIl2Cpp + AIADLOGFPCD_PFABKAHHLDA_OFFSET))(this);
+		}
+
+		::System::Action* JGHDBJLBEEG(::System::Object* a1)
+		{
+			return ((::System::Action*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + AIADLOGFPCD_JGHDBJLBEEG_OFFSET))(this, a1);
+		}
+
+		::System::Action* JGHDBJLBEEG_1(::AIADLOGFPCD_LPPEFOOHLMF* a1)
+		{
+			return ((::System::Action*(*)(::PVOID, ::AIADLOGFPCD_LPPEFOOHLMF*))((::PBYTE)hIl2Cpp + AIADLOGFPCD_JGHDBJLBEEG_1_OFFSET))(this, a1);
+		}
+
+		::System::Void LGMDENKHIFJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AIADLOGFPCD_LGMDENKHIFJ_OFFSET))(this);
+		}
+
+		::System::Void KANMCJHEFJJ(::AIADLOGFPCD_LPPEFOOHLMF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AIADLOGFPCD_LPPEFOOHLMF*))((::PBYTE)hIl2Cpp + AIADLOGFPCD_KANMCJHEFJJ_OFFSET))(this, a1);
+		}
+
+		::System::Boolean INJJGMIGFFD(::AIADLOGFPCD_LPPEFOOHLMF* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::AIADLOGFPCD_LPPEFOOHLMF*))((::PBYTE)hIl2Cpp + AIADLOGFPCD_INJJGMIGFFD_OFFSET))(this, a1);
+		}
+
+	};

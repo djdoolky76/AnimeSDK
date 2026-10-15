@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/AttachmentTools/AtlasUtilities_IntAndAtlasRegionKey.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/TextureFormat.h"
-
+#include "unitysdk/UnityEngine/Rect.h"
 namespace Spine { class AtlasPage; }
 namespace Spine { class AtlasRegion; }
 namespace Spine { class Attachment; }
 namespace Spine { class Skin; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -17,91 +16,98 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture2D; }
 
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_CLEARCACHE_OFFSET UNITYSDK_OFFSET(0x183064B0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_COPYTEXTUREAPPLYPMA_OFFSET UNITYSDK_OFFSET(0x1830B5E0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_COPYTEXTUREATTRIBUTESFROM_OFFSET UNITYSDK_OFFSET(0x18309E40)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_COPYTEXTURE_OFFSET UNITYSDK_OFFSET(0x1830B7A0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETCLONE_OFFSET UNITYSDK_OFFSET(0x18306C50)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETMAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1830B3F0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_1_OFFSET UNITYSDK_OFFSET(0x18307D20)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x18307BB0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_1_OFFSET UNITYSDK_OFFSET(0x1830A4F0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_OFFSET UNITYSDK_OFFSET(0x1830A3F0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETSPINEATLASRECT_OFFSET UNITYSDK_OFFSET(0x1830BA60)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1830B560)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1830BB80)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETUNITYRECT_1_OFFSET UNITYSDK_OFFSET(0x1830BAC0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETUNITYRECT_OFFSET UNITYSDK_OFFSET(0x1830B4B0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INIT_OFFSET UNITYSDK_OFFSET(0x18306480)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INVERSELERP_OFFSET UNITYSDK_OFFSET(0x18306A10)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_ISRENDERABLE_OFFSET UNITYSDK_OFFSET(0x1830BA20)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_SPINEUNITYFLIPRECT_OFFSET UNITYSDK_OFFSET(0x18307AC0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TEXTURERECTTOUVRECT_OFFSET UNITYSDK_OFFSET(0x18307AE0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_1_OFFSET UNITYSDK_OFFSET(0x18306A90)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_2_OFFSET UNITYSDK_OFFSET(0x183073F0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_3_OFFSET UNITYSDK_OFFSET(0x18307460)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_OFFSET UNITYSDK_OFFSET(0x18306A20)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_1_OFFSET UNITYSDK_OFFSET(0x183066D0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_2_OFFSET UNITYSDK_OFFSET(0x18306E30)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_3_OFFSET UNITYSDK_OFFSET(0x183073A0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_4_OFFSET UNITYSDK_OFFSET(0x18306EC0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_OFFSET UNITYSDK_OFFSET(0x18306670)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOSPINEATLASPAGE_OFFSET UNITYSDK_OFFSET(0x183068A0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOSPRITE_OFFSET UNITYSDK_OFFSET(0x1830B2D0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x18307610)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOTEXTURE_OFFSET UNITYSDK_OFFSET(0x183098C0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_UVRECTTOATLASREGION_OFFSET UNITYSDK_OFFSET(0x18309ED0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_UVRECTTOTEXTURERECT_OFFSET UNITYSDK_OFFSET(0x1830BB50)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1830BC20)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECD0C90)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_CLEARCACHE_OFFSET UNITYSDK_OFFSET(0x1ECCB4C0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_COPYTEXTUREAPPLYPMA_OFFSET UNITYSDK_OFFSET(0x1ECD0650)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_COPYTEXTUREATTRIBUTESFROM_OFFSET UNITYSDK_OFFSET(0x1ECCEE80)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_COPYTEXTURE_OFFSET UNITYSDK_OFFSET(0x1ECD0810)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETCLONE_OFFSET UNITYSDK_OFFSET(0x1ECCBC90)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETMAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1ECD0460)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_1_OFFSET UNITYSDK_OFFSET(0x1ECCCD60)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x1ECCCBF0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_1_OFFSET UNITYSDK_OFFSET(0x1ECCF560)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_OFFSET UNITYSDK_OFFSET(0x1ECCF460)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETSPINEATLASRECT_OFFSET UNITYSDK_OFFSET(0x1ECD0AD0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1ECD05D0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1ECD0BF0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETUNITYRECT_1_OFFSET UNITYSDK_OFFSET(0x1ECD0B30)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETUNITYRECT_OFFSET UNITYSDK_OFFSET(0x1ECD0520)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INIT_OFFSET UNITYSDK_OFFSET(0x1ECCB490)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INVERSELERP_OFFSET UNITYSDK_OFFSET(0x1ECCBA50)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_ISRENDERABLE_OFFSET UNITYSDK_OFFSET(0x1ECD0A90)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_SPINEUNITYFLIPRECT_OFFSET UNITYSDK_OFFSET(0x1ECCCB00)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TEXTURERECTTOUVRECT_OFFSET UNITYSDK_OFFSET(0x1ECCCB20)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_1_OFFSET UNITYSDK_OFFSET(0x1ECCBAD0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_2_OFFSET UNITYSDK_OFFSET(0x1ECCC430)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_3_OFFSET UNITYSDK_OFFSET(0x1ECCC4A0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGIONPMACLONE_OFFSET UNITYSDK_OFFSET(0x1ECCBA60)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_1_OFFSET UNITYSDK_OFFSET(0x1ECCB6E0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_2_OFFSET UNITYSDK_OFFSET(0x1ECCBE70)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_3_OFFSET UNITYSDK_OFFSET(0x1ECCC3E0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_4_OFFSET UNITYSDK_OFFSET(0x1ECCBF00)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_OFFSET UNITYSDK_OFFSET(0x1ECCB680)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOSPINEATLASPAGE_OFFSET UNITYSDK_OFFSET(0x1ECCB8E0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOSPRITE_OFFSET UNITYSDK_OFFSET(0x1ECD0340)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1ECCC650)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1ECCE900)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_UVRECTTOATLASREGION_OFFSET UNITYSDK_OFFSET(0x1ECCEF10)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_UVRECTTOTEXTURERECT_OFFSET UNITYSDK_OFFSET(0x1ECD0BC0)
 
 namespace Spine::Unity::AttachmentTools
 {
-	inline static constexpr unsigned int AtlasUtilities_TypeDefinitionIndex = 43920;
+	inline static constexpr unsigned int AtlasUtilities_TypeDefinitionIndex = 45112;
 
 	class AtlasUtilities : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Spine::Attachment*>** StaticGet_inoutAttachments()
-		{
-			return (::System::Collections::Generic::List_1<::Spine::Attachment*>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19300);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::Spine::Unity::AttachmentTools::AtlasUtilities_IntAndAtlasRegionKey, ::UnityEngine::Texture2D*>** StaticGet_CachedRegionTextures()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::Spine::Unity::AttachmentTools::AtlasUtilities_IntAndAtlasRegionKey, ::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19308);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>** StaticGet_CachedRegionTexturesList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19310);
-		}
-		static ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>** StaticGet_originalRegions()
-		{
-			return (::System::Collections::Generic::List_1<::Spine::AtlasRegion*>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19318);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::Spine::AtlasRegion*, ::System::Int32>** StaticGet_existingRegions()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::Spine::AtlasRegion*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19320);
-		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_regionIndices()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19328);
-		}
-		static ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>** StaticGet_repackedRegions()
-		{
-			return (::System::Collections::Generic::List_1<::Spine::AtlasRegion*>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19330);
-		}
 		static ::Il2CppArray<::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>*>** StaticGet_texturesToPackAtParam()
 		{
-			return (::Il2CppArray<::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>*>**)Il2CppClass::FromTypeDefinitionIndex(AtlasUtilities_TypeDefinitionIndex)->GetStaticField(0x19338);
+			return (::Il2CppArray<::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>*>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13E90);
 		}
-		// static const ::UnityEngine::TextureFormat SpineTextureFormat; // 0x0
-		// static const ::System::Single DefaultMipmapBias; // 0x0
-		// static const ::System::Boolean UseMipMaps; // 0x0
-		// static const ::System::Single DefaultScale; // 0x0
-		// static const ::System::Int32 NonrenderingRegion = 0xFFFFFFFF; // 0x0
 
+		static ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>** StaticGet_repackedRegions()
+		{
+			return (::System::Collections::Generic::List_1<::Spine::AtlasRegion*>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13E98);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>** StaticGet_CachedRegionTexturesList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13EA0);
+		}
+
+		static ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>** StaticGet_originalRegions()
+		{
+			return (::System::Collections::Generic::List_1<::Spine::AtlasRegion*>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13EA8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::Texture2D*>** StaticGet_CachedRegionTextures()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::Texture2D*>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13EB0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::Spine::AtlasRegion*, ::System::Int32>** StaticGet_existingRegions()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::Spine::AtlasRegion*, ::System::Int32>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13EB8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_regionIndices()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13EC0);
+		}
+
+		static ::System::Collections::Generic::List_1<::Spine::Attachment*>** StaticGet_inoutAttachments()
+		{
+			return (::System::Collections::Generic::List_1<::Spine::Attachment*>**)UnitySDK::FromName("Spine.Unity.AttachmentTools", "AtlasUtilities")->GetStaticField(0x13EC8);
+		}
+
+		// static const ::System::Object SpineTextureFormat; // 0x0
+		// static const ::System::Object DefaultMipmapBias; // 0x0
+		// static const ::System::Object UseMipMaps; // 0x0
+		// static const ::System::Object DefaultScale; // 0x0
+		// static const ::System::Object NonrenderingRegion; // 0x0
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void Init()
@@ -159,24 +165,24 @@ namespace Spine::Unity::AttachmentTools
 			return ((::Spine::AtlasRegion*(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_TOATLASREGION_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void GetRepackedAttachments(::System::Collections::Generic::List_1<::Spine::Attachment*>* a1, ::System::Collections::Generic::List_1<::Spine::Attachment*>* a2, ::UnityEngine::Material* a3, ::UnityEngine::Material*& a4, ::UnityEngine::Texture2D*& a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::System::String* a10, ::System::Boolean a11, ::System::Boolean a12, ::Il2CppArray<::System::Int32>* a13, ::Il2CppArray<::UnityEngine::Texture2D*>* a14, ::Il2CppArray<::UnityEngine::TextureFormat>* a15, ::Il2CppArray<::System::Boolean>* a16)
+		static ::System::Void GetRepackedAttachments(::System::Collections::Generic::List_1<::Spine::Attachment*>* a1, ::System::Collections::Generic::List_1<::Spine::Attachment*>* a2, ::UnityEngine::Material* a3, ::UnityEngine::Material* a4, ::UnityEngine::Texture2D* a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::System::String* a10, ::System::Boolean a11, ::System::Boolean a12, ::Il2CppArray<::System::Int32>* a13, ::Il2CppArray<::UnityEngine::Texture2D*>* a14, ::Il2CppArray<::UnityEngine::TextureFormat>* a15, ::Il2CppArray<::System::Boolean>* a16)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::UnityEngine::Material*, ::UnityEngine::Material*&, ::UnityEngine::Texture2D*&, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::String*, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::UnityEngine::Material*, ::UnityEngine::Material*, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::String*, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
 		}
 
-		static ::System::Void GetRepackedAttachments_1(::System::Collections::Generic::List_1<::Spine::Attachment*>* a1, ::System::Collections::Generic::List_1<::Spine::Attachment*>* a2, ::UnityEngine::Shader* a3, ::UnityEngine::Material*& a4, ::UnityEngine::Texture2D*& a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::System::String* a10, ::UnityEngine::Material* a11, ::System::Boolean a12, ::System::Boolean a13, ::Il2CppArray<::System::Int32>* a14, ::Il2CppArray<::UnityEngine::Texture2D*>* a15, ::Il2CppArray<::UnityEngine::TextureFormat>* a16, ::Il2CppArray<::System::Boolean>* a17)
+		static ::System::Void GetRepackedAttachments_1(::System::Collections::Generic::List_1<::Spine::Attachment*>* a1, ::System::Collections::Generic::List_1<::Spine::Attachment*>* a2, ::UnityEngine::Shader* a3, ::UnityEngine::Material* a4, ::UnityEngine::Texture2D* a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::System::String* a10, ::UnityEngine::Material* a11, ::System::Boolean a12, ::System::Boolean a13, ::Il2CppArray<::System::Int32>* a14, ::Il2CppArray<::UnityEngine::Texture2D*>* a15, ::Il2CppArray<::UnityEngine::TextureFormat>* a16, ::Il2CppArray<::System::Boolean>* a17)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::UnityEngine::Shader*, ::UnityEngine::Material*&, ::UnityEngine::Texture2D*&, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::String*, ::UnityEngine::Material*, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::System::Collections::Generic::List_1<::Spine::Attachment*>*, ::UnityEngine::Shader*, ::UnityEngine::Material*, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::String*, ::UnityEngine::Material*, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDATTACHMENTS_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17);
 		}
 
-		static ::Spine::Skin* GetRepackedSkin(::Spine::Skin* a1, ::System::String* a2, ::UnityEngine::Material* a3, ::UnityEngine::Material*& a4, ::UnityEngine::Texture2D*& a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::Il2CppArray<::System::Int32>* a12, ::Il2CppArray<::UnityEngine::Texture2D*>* a13, ::Il2CppArray<::UnityEngine::TextureFormat>* a14, ::Il2CppArray<::System::Boolean>* a15)
+		static ::Spine::Skin* GetRepackedSkin(::Spine::Skin* a1, ::System::String* a2, ::UnityEngine::Material* a3, ::UnityEngine::Material* a4, ::UnityEngine::Texture2D* a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::Il2CppArray<::System::Int32>* a12, ::Il2CppArray<::UnityEngine::Texture2D*>* a13, ::Il2CppArray<::UnityEngine::TextureFormat>* a14, ::Il2CppArray<::System::Boolean>* a15)
 		{
-			return ((::Spine::Skin*(*)(::Spine::Skin*, ::System::String*, ::UnityEngine::Material*, ::UnityEngine::Material*&, ::UnityEngine::Texture2D*&, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
+			return ((::Spine::Skin*(*)(::Spine::Skin*, ::System::String*, ::UnityEngine::Material*, ::UnityEngine::Material*, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
 		}
 
-		static ::Spine::Skin* GetRepackedSkin_1(::Spine::Skin* a1, ::System::String* a2, ::UnityEngine::Shader* a3, ::UnityEngine::Material*& a4, ::UnityEngine::Texture2D*& a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::UnityEngine::Material* a10, ::System::Boolean a11, ::System::Boolean a12, ::Il2CppArray<::System::Int32>* a13, ::Il2CppArray<::UnityEngine::Texture2D*>* a14, ::Il2CppArray<::UnityEngine::TextureFormat>* a15, ::Il2CppArray<::System::Boolean>* a16)
+		static ::Spine::Skin* GetRepackedSkin_1(::Spine::Skin* a1, ::System::String* a2, ::UnityEngine::Shader* a3, ::UnityEngine::Material* a4, ::UnityEngine::Texture2D* a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextureFormat a8, ::System::Boolean a9, ::UnityEngine::Material* a10, ::System::Boolean a11, ::System::Boolean a12, ::Il2CppArray<::System::Int32>* a13, ::Il2CppArray<::UnityEngine::Texture2D*>* a14, ::Il2CppArray<::UnityEngine::TextureFormat>* a15, ::Il2CppArray<::System::Boolean>* a16)
 		{
-			return ((::Spine::Skin*(*)(::Spine::Skin*, ::System::String*, ::UnityEngine::Shader*, ::UnityEngine::Material*&, ::UnityEngine::Texture2D*&, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::UnityEngine::Material*, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
+			return ((::Spine::Skin*(*)(::Spine::Skin*, ::System::String*, ::UnityEngine::Shader*, ::UnityEngine::Material*, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::System::Boolean, ::UnityEngine::Material*, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::Il2CppArray<::UnityEngine::TextureFormat>*, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_GETREPACKEDSKIN_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
 		}
 
 		static ::UnityEngine::Sprite* ToSprite(::Spine::AtlasRegion* a1, ::System::Single a2)
@@ -278,5 +284,6 @@ namespace Spine::Unity::AttachmentTools
 		{
 			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INVERSELERP_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

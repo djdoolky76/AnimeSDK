@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_CAMERA_CAMERACALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DEC6A60)
-#define UNITYENGINE_CAMERA_CAMERACALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DEC6A90)
-#define UNITYENGINE_CAMERA_CAMERACALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DEC65D0)
-#define UNITYENGINE_CAMERA_CAMERACALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC69F0)
+#define UNITYENGINE_CAMERA_CAMERACALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3A9AA0)
+#define UNITYENGINE_CAMERA_CAMERACALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A9A30)
+#define UNITYENGINE_CAMERA_CAMERACALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3A9AD0)
+#define UNITYENGINE_CAMERA_CAMERACALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3A9610)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Camera_CameraCallback_TypeDefinitionIndex = 4045;
+	inline static constexpr unsigned int Camera_CameraCallback_TypeDefinitionIndex = 4046;
 
 	class Camera_CameraCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_CAMERA_CAMERACALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_CAMERA_CAMERACALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Camera* a1)
@@ -38,5 +37,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_CAMERA_CAMERACALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+#define NEKPAIMIIBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB699C0)
+
+inline static constexpr unsigned int NEKPAIMIIBA_TypeDefinitionIndex = 57545;
+
+	class NEKPAIMIIBA : public ::System::Object
+	{
+	public:
+		::System::Boolean ABFIGOPLJEB; // 0x10
+		::System::Boolean LLPKBMADFLH; // 0x11
+		::System::Boolean FBLFFCNGHIH; // 0x12
+		::System::Boolean HAIJMANJPFL; // 0x13
+		::UnityEngine::Vector2 BACEJJFFPOL; // 0x14
+		::System::Boolean DNJPLJFGEFK; // 0x1C
+		::System::Boolean KEKMKCBCMGG; // 0x1D
+		::System::Boolean OCCFDKHILOP; // 0x1E
+		::System::Boolean LKFPCBFPPGP; // 0x1F
+		::System::Single EKMEAGHNCDH; // 0x20
+		::UnityEngine::Vector2 ODFEMKDMJCK; // 0x24
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEKPAIMIIBA_CTOR_OFFSET))(this);
+		}
+
+	};

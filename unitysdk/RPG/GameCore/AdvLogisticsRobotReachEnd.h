@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvLogisticsRobotReachEnd; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_METHOD_3_3E542A1D2088B362_OFFSET UNITYSDK_OFFSET(0x1D6BBAE0)
-#define RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_METHOD_3_B8A0B926F0D3DA1F_OFFSET UNITYSDK_OFFSET(0x1D6BBBB0)
-#define RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BBBA0)
+#define RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3753F0)
+#define RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D375400)
+#define RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D375330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvLogisticsRobotReachEnd_TypeDefinitionIndex = 20956;
+	inline static constexpr unsigned int AdvLogisticsRobotReachEnd_TypeDefinitionIndex = 21202;
 
 	class AdvLogisticsRobotReachEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3E542A1D2088B362(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLogisticsRobotReachEnd*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvLogisticsRobotReachEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLogisticsRobotReachEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_METHOD_3_3E542A1D2088B362_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvLogisticsRobotReachEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B8A0B926F0D3DA1F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLogisticsRobotReachEnd* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvLogisticsRobotReachEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLogisticsRobotReachEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_METHOD_3_B8A0B926F0D3DA1F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvLogisticsRobotReachEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOGISTICSROBOTREACHEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

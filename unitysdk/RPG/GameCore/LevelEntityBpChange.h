@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelEntityBpChange; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD22260)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD22300)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD222B0)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x1DD221F0)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD22350)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E19C0)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E1AB0)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E1A60)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E1A10)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6E1950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityBpChange_TypeDefinitionIndex = 56922;
+	inline static constexpr unsigned int LevelEntityBpChange_TypeDefinitionIndex = 56743;
 
-	class LevelEntityBpChange : public ::Class_1_BF7A075734D15E98
+	class LevelEntityBpChange : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* EntityRef; // 0x18
 		::System::String* Reason; // 0x20
 		::System::Int32 BPChange; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBPCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBPCHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelEntityBpChange* Init(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::System::String* a3)
@@ -47,5 +46,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBPCHANGE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

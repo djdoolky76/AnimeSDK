@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x194B8780)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x194B87B0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x194B8340)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x194B8690)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB5E0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFEB4F0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB610)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFEB1A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeCloseDelegate_TypeDefinitionIndex = 47063;
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeCloseDelegate_TypeDefinitionIndex = 46603;
 
 	class MiHoYoSDKWebView_OnBeforeCloseDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORECLOSEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

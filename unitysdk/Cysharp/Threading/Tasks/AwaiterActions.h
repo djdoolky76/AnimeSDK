@@ -1,32 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_AWAITERACTIONS_CONTINUATION_OFFSET UNITYSDK_OFFSET(0x1D7457A0)
-#define CYSHARP_THREADING_TASKS_AWAITERACTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7457E0)
+#define CYSHARP_THREADING_TASKS_AWAITERACTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E74E0)
+#define CYSHARP_THREADING_TASKS_AWAITERACTIONS_CONTINUATION_OFFSET UNITYSDK_OFFSET(0x1F0E74A0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AwaiterActions_TypeDefinitionIndex = 42796;
+	inline static constexpr unsigned int AwaiterActions_TypeDefinitionIndex = 38381;
 
 	class AwaiterActions : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet_InvokeContinuationDelegate()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AwaiterActions_TypeDefinitionIndex)->GetStaticField(0x1500);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AwaiterActions")->GetStaticField(0x11D0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_AWAITERACTIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_AWAITERACTIONS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void Continuation(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_AWAITERACTIONS_CONTINUATION_OFFSET))(a1);
 		}
+
 	};
 }

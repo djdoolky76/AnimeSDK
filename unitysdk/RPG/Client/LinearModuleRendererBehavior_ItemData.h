@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LinearModuleRendererBehavior_ItemData_TypeDefinitionIndex = 70869;
+	inline static constexpr unsigned int LinearModuleRendererBehavior_ItemData_TypeDefinitionIndex = 70902;
 
 	struct alignas(4) LinearModuleRendererBehavior_ItemData
 	{

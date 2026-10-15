@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelBaseCurvePointInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1C10D950)
-#define RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C10D6F0)
-#define RPG_GAMECORE_LEVELBASECURVEPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C10D940)
+#define RPG_GAMECORE_LEVELBASECURVEPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D778B70)
+#define RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D778B80)
+#define RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D778920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBaseCurvePointInfo_TypeDefinitionIndex = 17178;
+	inline static constexpr unsigned int LevelBaseCurvePointInfo_TypeDefinitionIndex = 17373;
 
 	class LevelBaseCurvePointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* Alias; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBASECURVEPOINTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBASECURVEPOINTINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelBaseCurvePointInfo*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelBaseCurvePointInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelBaseCurvePointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelBaseCurvePointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelBaseCurvePointInfo* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelBaseCurvePointInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelBaseCurvePointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelBaseCurvePointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBASECURVEPOINTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,29 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/VCMask.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_CUSTOMCRPSAMPLESETINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x192D3720)
+#define RPG_CLIENT_CUSTOMCRPSAMPLESETINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD7D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 70077;
+	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 70112;
 
 	class CustomCRPSampleSetings : public ::System::Object
 	{
 	public:
 		::System::String* RenderMaskEffectUniqueName; // 0x10
 		::System::Boolean UseSampleCamera; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Camera* SampleCamera; // 0x20
 		::System::String* SampleCameraAnimPath; // 0x28
 		::System::Boolean SyncFromMainCamera; // 0x30
+		::System::Byte _padding1[0x3];
 		::RPG::CustomRP::VCMask BindVCMask; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMCRPSAMPLESETINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMCRPSAMPLESETINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

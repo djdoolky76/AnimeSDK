@@ -2,29 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityIntroButton_ActivityIntroButtonConfig.h"
 #include "unitysdk/RPG/Client/AnimatorButton.h"
-
 namespace RPG::Client { class ActivityPanelData; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_ACTIVITYINTROBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1AF8CA90)
-#define RPG_CLIENT_ACTIVITYINTROBUTTON_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0x1AF8CD20)
-#define RPG_CLIENT_ACTIVITYINTROBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF8D1B0)
-#define RPG_CLIENT_ACTIVITYINTROBUTTON__GETAVAILABLEACTIVITYPANELDATA_OFFSET UNITYSDK_OFFSET(0x1AF8CD80)
-#define RPG_CLIENT_ACTIVITYINTROBUTTON__SHOWINTRO_OFFSET UNITYSDK_OFFSET(0x1AF8CAF0)
+#define RPG_CLIENT_ACTIVITYINTROBUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0xC5254F0)
+#define RPG_CLIENT_ACTIVITYINTROBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xC524DC0)
+#define RPG_CLIENT_ACTIVITYINTROBUTTON_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0xC525050)
+#define RPG_CLIENT_ACTIVITYINTROBUTTON__GETAVAILABLEACTIVITYPANELDATA_OFFSET UNITYSDK_OFFSET(0xC5250B0)
+#define RPG_CLIENT_ACTIVITYINTROBUTTON__SHOWINTRO_OFFSET UNITYSDK_OFFSET(0xC524E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIntroButton_TypeDefinitionIndex = 72422;
+	inline static constexpr unsigned int ActivityIntroButton_TypeDefinitionIndex = 72495;
 
 	class ActivityIntroButton : public ::RPG::Client::AnimatorButton
 	{
 	public:
 		::RPG::Client::ActivityIntroButton_ActivityIntroButtonConfig Config; // 0x1C8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYINTROBUTTON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYINTROBUTTON_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -46,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::ActivityPanelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYINTROBUTTON__GETAVAILABLEACTIVITYPANELDATA_OFFSET))(this);
 		}
+
 	};
 }

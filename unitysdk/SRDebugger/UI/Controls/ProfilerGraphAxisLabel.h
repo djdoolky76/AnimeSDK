@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
 #include "unitysdk/System/Nullable_1.h"
-
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BDBD660)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1BDBD9D0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDBD630)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBDA10)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2DF40)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1ED2DBD0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1ED2DF00)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED2DBA0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerGraphAxisLabel_TypeDefinitionIndex = 37344;
+	inline static constexpr unsigned int ProfilerGraphAxisLabel_TypeDefinitionIndex = 38037;
 
 	class ProfilerGraphAxisLabel : public ::SRF::SRMonoBehaviourEx
 	{
@@ -21,10 +20,9 @@ namespace SRDebugger::UI::Controls
 		::System::Nullable_1<::System::Single> _queuedFrameTime; // 0x4C
 		::System::Single _yPosition; // 0x54
 		::UnityEngine::UI::Text* Text; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -41,5 +39,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET))(this, a1);
 		}
+
 	};
 }

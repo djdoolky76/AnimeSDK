@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ImageFileFormat_TypeDefinitionIndex = 39211;
+	inline static constexpr unsigned int HAPI_ImageFileFormat_TypeDefinitionIndex = 40508;
 
 	struct alignas(4) HAPI_ImageFileFormat
 	{

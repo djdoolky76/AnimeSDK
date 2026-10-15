@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class TriggerEffectOnAnchorBehaviour; }
 namespace RPGTools::Timeline { class TriggerEffectOnAnchorData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF2E330)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF2E590)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2E5A0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE944360)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9445D0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9445C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectOnAnchorClip_TypeDefinitionIndex = 48797;
+	inline static constexpr unsigned int TriggerEffectOnAnchorClip_TypeDefinitionIndex = 48337;
 
 	class TriggerEffectOnAnchorClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::TriggerEffectOnAnchorData* Config; // 0x18
 		::RPGTools::Timeline::TriggerEffectOnAnchorBehaviour* template_; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -37,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

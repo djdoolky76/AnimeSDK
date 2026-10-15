@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class ConsoleDelegate_OnFriendInvitationNotifyCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FA860)
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FA890)
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5FA850)
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA7E0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE16AE0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE16A60)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE16B10)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE16AD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_RegisterFriendInvitationNotifyDelegate_TypeDefinitionIndex = 7633;
+	inline static constexpr unsigned int ConsoleDelegate_RegisterFriendInvitationNotifyDelegate_TypeDefinitionIndex = 7687;
 
 	class ConsoleDelegate_RegisterFriendInvitationNotifyDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::ConsoleDelegate_OnFriendInvitationNotifyCallback* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERFRIENDINVITATIONNOTIFYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

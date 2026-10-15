@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
 namespace RPG::GameCore { class BattleLineupEquipmentConfig; }
 namespace RPG::GameCore { class BattleLineupSkillTreePoint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_BF3719D9D3DEB1B5_OFFSET UNITYSDK_OFFSET(0x1C590C00)
-#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C591000)
+#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EA910)
+#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3EA510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 17922;
+	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 18134;
 
 	class AvatarLineupKeyLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,21 +21,22 @@ namespace RPG::GameCore
 		::System::Int32 Promotion; // 0x14
 		::System::Int32 Rank; // 0x18
 		::System::Boolean IsOnLine; // 0x1C
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::RPG::GameCore::BattleLineupSkillTreePoint*>* SkillTreePointList; // 0x20
 		::System::String* SkillTreePointPreset; // 0x28
 		::Il2CppArray<::RPG::GameCore::BattleLineupEquipmentConfig*>* EquipmentConfigList; // 0x30
 		::Il2CppArray<::System::UInt32>* RelicPropertyTypeList; // 0x38
 		::System::UInt32 RelicMainValue; // 0x40
 		::System::UInt32 RelicSubValue; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BF3719D9D3DEB1B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarLineupKeyLevelConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AvatarLineupKeyLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarLineupKeyLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_BF3719D9D3DEB1B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AvatarLineupKeyLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

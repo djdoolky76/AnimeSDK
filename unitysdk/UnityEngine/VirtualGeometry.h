@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/BVHNode.h"
 #include "unitysdk/UnityEngine/ClusterGroup.h"
 #include "unitysdk/UnityEngine/ClusterGroupPart.h"
 #include "unitysdk/UnityEngine/ClusterGroupPartInstance.h"
 #include "unitysdk/UnityEngine/ClusterPage.h"
-
 namespace UnityEngine { class Cluster; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VirtualGeometry_TypeDefinitionIndex = 4107;
+	inline static constexpr unsigned int VirtualGeometry_TypeDefinitionIndex = 4108;
 
 	struct alignas(8) VirtualGeometry
 	{

@@ -4,18 +4,18 @@
 #include "unitysdk/RPG/GameCore/ModifierValueType.h"
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetModifierValueByBehaviorFlag; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_909069C9F4498428_OFFSET UNITYSDK_OFFSET(0x1E086DC0)
-#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_A62DD75CCE8C61F3_OFFSET UNITYSDK_OFFSET(0x1E086CC0)
-#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E086D50)
+#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8D650)
+#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8D6C0)
+#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8D5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetModifierValueByBehaviorFlag_TypeDefinitionIndex = 22821;
+	inline static constexpr unsigned int SetModifierValueByBehaviorFlag_TypeDefinitionIndex = 23079;
 
 	class SetModifierValueByBehaviorFlag : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,20 +25,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::PropertyModifyFunction ModifyFunction; // 0x28
 		::RPG::GameCore::ModifierValueType ValueType; // 0x2C
 		::RPG::GameCore::DynamicFloat* Value; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A62DD75CCE8C61F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetModifierValueByBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_A62DD75CCE8C61F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetModifierValueByBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_909069C9F4498428(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetModifierValueByBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_909069C9F4498428_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetModifierValueByBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

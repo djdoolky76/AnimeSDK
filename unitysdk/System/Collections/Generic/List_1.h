@@ -1,19 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { class Array; }
-namespace System { template <typename T1, typename T2> class Converter_2; }
-namespace System { template <typename T> class Action_1; }
-namespace System { template <typename T> class Comparison_1; }
-namespace System { template <typename T> class Predicate_1; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IComparer_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
 namespace System::Collections::Generic
 {
@@ -28,7 +15,8 @@ namespace System::Collections::Generic
 		::System::Int32 _version; // 0x0
 		static ::Il2CppArray<T>** StaticGet__emptyArray()
 		{
-			return (::Il2CppArray<T>**)Il2CppClass::FromTypeDefinitionIndex(List_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<T>**)UnitySDK::FromName("System.Collections.Generic", "List`1")->GetStaticField(0x0);
 		}
+
 	};
 }

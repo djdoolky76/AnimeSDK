@@ -4,38 +4,38 @@
 #include "unitysdk/RPG/GameCore/CakeRaceBattleItemUseType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceBattleItemRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0FDE60)
-#define RPG_GAMECORE_CAKERACEBATTLEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FE250)
+#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51EF40)
+#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D51EB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceBattleItemRow_TypeDefinitionIndex = 10985;
+	inline static constexpr unsigned int CakeRaceBattleItemRow_TypeDefinitionIndex = 11001;
 
 	class CakeRaceBattleItemRow : public ::System::Object
 	{
 	public:
 		::System::String* BattleItemIcon; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* BattleItemEffectParamList; // 0x18
-		::System::String* AbilityJson; // 0x20
+		::System::String* AbilityJson; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* BattleItemEffectParamList; // 0x20
 		::System::String* BattleItemInvalidIcon; // 0x28
-		::System::UInt32 BattleItemID; // 0x30
-		::RPG::GameCore::CakeRaceBattleItemUseType BattleItemUseType; // 0x34
-		::RPG::Client::TextID BattleItemDesc; // 0x38
-		::RPG::Client::TextID BattleItemUseHint; // 0x48
-		::RPG::Client::TextID BattleItemName; // 0x58
-
+		::RPG::Client::TextID BattleItemUseHint; // 0x30
+		::RPG::Client::TextID BattleItemName; // 0x40
+		::System::UInt32 BattleItemID; // 0x50
+		::RPG::GameCore::CakeRaceBattleItemUseType BattleItemUseType; // 0x54
+		::RPG::Client::TextID BattleItemDesc; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBATTLEITEMROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBATTLEITEMROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceBattleItemRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceBattleItemRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceBattleItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBATTLEITEMROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceBattleItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBATTLEITEMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

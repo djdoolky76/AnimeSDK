@@ -1,24 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_3.h"
-
 namespace RPG::Client::LittleGame { template <typename T> class Services_1; }
-namespace RPG::GameCore { class VCameraOverrideShakeV2; }
-namespace RPG::GameCore { class VCameraShakeV2; }
-namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleCameraService_1_TypeDefinitionIndex = 76042;
+	inline static constexpr unsigned int SimpleCameraService_1_TypeDefinitionIndex = 76519;
 
-	template <typename TEntity>
+	template <typename T>
 	class SimpleCameraService_1 : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _Root; // 0x0
-		::RPG::Client::LittleGame::Services_1<TEntity>* _Services; // 0x0
+		::RPG::Client::LittleGame::Services_1<T>* _Services; // 0x0
 	};
 }

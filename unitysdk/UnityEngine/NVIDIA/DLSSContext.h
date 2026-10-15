@@ -3,41 +3,39 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/NVIDIA/DLSSCommandExecutionData.h"
 #include "unitysdk/UnityEngine/NVIDIA/DLSSCommandInitializationData.h"
-
 namespace UnityEngine::NVIDIA { template <typename T> class NativeData_1; }
 
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GETEXECUTECMDPTR_OFFSET UNITYSDK_OFFSET(0x1EFF7750)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GETINITCMDPTR_OFFSET UNITYSDK_OFFSET(0x1EFF7710)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_EXECUTEDATA_OFFSET UNITYSDK_OFFSET(0x1EFF7540)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_FEATURESLOT_OFFSET UNITYSDK_OFFSET(0x1EFF7560)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1EFF7520)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1EFF7680)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT_RESET_OFFSET UNITYSDK_OFFSET(0x1EFF76C0)
-#define UNITYENGINE_NVIDIA_DLSSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF7580)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4441C0)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GETEXECUTECMDPTR_OFFSET UNITYSDK_OFFSET(0x1F444390)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GETINITCMDPTR_OFFSET UNITYSDK_OFFSET(0x1F444350)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_EXECUTEDATA_OFFSET UNITYSDK_OFFSET(0x1F444180)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_FEATURESLOT_OFFSET UNITYSDK_OFFSET(0x1F4441A0)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F444160)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1F4442C0)
+#define UNITYENGINE_NVIDIA_DLSSCONTEXT_RESET_OFFSET UNITYSDK_OFFSET(0x1F444300)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int DLSSContext_TypeDefinitionIndex = 5025;
+	inline static constexpr unsigned int DLSSContext_TypeDefinitionIndex = 5032;
 
 	class DLSSContext : public ::System::Object
 	{
 	public:
 		::UnityEngine::NVIDIA::NativeData_1<::UnityEngine::NVIDIA::DLSSCommandInitializationData>* m_InitData; // 0x10
 		::UnityEngine::NVIDIA::NativeData_1<::UnityEngine::NVIDIA::DLSSCommandExecutionData>* m_ExecData; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::NVIDIA::DLSSCommandInitializationData& get_initData()
+		::UnityEngine::NVIDIA::DLSSCommandInitializationData get_initData()
 		{
-			return ((::UnityEngine::NVIDIA::DLSSCommandInitializationData&(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_INITDATA_OFFSET))(this);
+			return ((::UnityEngine::NVIDIA::DLSSCommandInitializationData(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_INITDATA_OFFSET))(this);
 		}
 
-		::UnityEngine::NVIDIA::DLSSCommandExecutionData& get_executeData()
+		::UnityEngine::NVIDIA::DLSSCommandExecutionData get_executeData()
 		{
-			return ((::UnityEngine::NVIDIA::DLSSCommandExecutionData&(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_EXECUTEDATA_OFFSET))(this);
+			return ((::UnityEngine::NVIDIA::DLSSCommandExecutionData(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT_GET_EXECUTEDATA_OFFSET))(this);
 		}
 
 		::System::UInt32 get_featureSlot()
@@ -64,5 +62,6 @@ namespace UnityEngine::NVIDIA
 		{
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_DLSSCONTEXT_GETEXECUTECMDPTR_OFFSET))(this);
 		}
+
 	};
 }

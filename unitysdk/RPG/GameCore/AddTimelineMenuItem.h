@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AddMenuItem.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddTimelineMenuItem; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADDTIMELINEMENUITEM_METHOD_4_9689A201D5B330D2_OFFSET UNITYSDK_OFFSET(0x1D6A61A0)
-#define RPG_GAMECORE_ADDTIMELINEMENUITEM_METHOD_4_BB89D521DDF4495C_OFFSET UNITYSDK_OFFSET(0x1D6A27F0)
-#define RPG_GAMECORE_ADDTIMELINEMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A27E0)
+#define RPG_GAMECORE_ADDTIMELINEMENUITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35BA20)
+#define RPG_GAMECORE_ADDTIMELINEMENUITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35BA30)
+#define RPG_GAMECORE_ADDTIMELINEMENUITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35F470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTimelineMenuItem_TypeDefinitionIndex = 20883;
+	inline static constexpr unsigned int AddTimelineMenuItem_TypeDefinitionIndex = 21129;
 
 	class AddTimelineMenuItem : public ::RPG::GameCore::AddMenuItem
 	{
 	public:
 		::System::UInt32 GroupID; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEMENUITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEMENUITEM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9689A201D5B330D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineMenuItem*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddTimelineMenuItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineMenuItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEMENUITEM_METHOD_4_9689A201D5B330D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddTimelineMenuItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEMENUITEM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BB89D521DDF4495C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineMenuItem* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddTimelineMenuItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineMenuItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEMENUITEM_METHOD_4_BB89D521DDF4495C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddTimelineMenuItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEMENUITEM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

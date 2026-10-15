@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B575620)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B5754A0)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B575790)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B575800)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DA170)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8DA020)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DA310)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8DA2A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmojiBubbleTrack_TypeDefinitionIndex = 48558;
+	inline static constexpr unsigned int EmojiBubbleTrack_TypeDefinitionIndex = 48098;
 
 	class EmojiBubbleTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLETRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

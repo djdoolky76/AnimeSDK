@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD17D80)
+#define UNITYENGINE_RENDERING_DEBUGUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F28F320)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_TypeDefinitionIndex = 34854;
+	inline static constexpr unsigned int DebugUI_TypeDefinitionIndex = 35523;
 
 	class DebugUI : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_CTOR_OFFSET))(this);
 		}
+
 	};
 }

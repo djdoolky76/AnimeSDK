@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TarotBookRevealedIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TAROTBOOKREVEALEDICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C8640)
-#define RPG_GAMECORE_TAROTBOOKREVEALEDICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C87D0)
+#define RPG_GAMECORE_TAROTBOOKREVEALEDICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB49BD0)
+#define RPG_GAMECORE_TAROTBOOKREVEALEDICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB49A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookRevealedIconRow_TypeDefinitionIndex = 15061;
+	inline static constexpr unsigned int TarotBookRevealedIconRow_TypeDefinitionIndex = 15232;
 
 	class TarotBookRevealedIconRow : public ::System::Object
 	{
 	public:
-		::System::String* NewRoundIconPath; // 0x10
-		::System::String* NewRectIconPath; // 0x18
+		::System::String* NewRectIconPath; // 0x10
+		::System::String* NewRoundIconPath; // 0x18
 		::System::UInt32 UnlockID; // 0x20
 		::System::UInt32 ID; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKREVEALEDICONROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKREVEALEDICONROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TarotBookRevealedIconRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TarotBookRevealedIconRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookRevealedIconRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKREVEALEDICONROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TarotBookRevealedIconRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKREVEALEDICONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

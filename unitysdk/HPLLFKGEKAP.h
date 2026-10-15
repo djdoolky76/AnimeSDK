@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HPLLFKGEKAP;
+class KBLELMJDBEA;
+class MFKLCJHKNBK;
+
+#define HPLLFKGEKAP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15DC6ED0)
+#define HPLLFKGEKAP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC6F60)
+#define HPLLFKGEKAP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15DC6F70)
+#define HPLLFKGEKAP_FAMNECIKHBC_OFFSET UNITYSDK_OFFSET(0x15DC7570)
+#define HPLLFKGEKAP_MNAEABGDHIH_OFFSET UNITYSDK_OFFSET(0x15DC72A0)
+#define HPLLFKGEKAP_OPKIJMMMNHK_OFFSET UNITYSDK_OFFSET(0x15DC79D0)
+
+inline static constexpr unsigned int HPLLFKGEKAP_TypeDefinitionIndex = 75753;
+
+	class HPLLFKGEKAP : public ::System::Object
+	{
+	public:
+		::MFKLCJHKNBK* FKINCGODJEP; // 0x10
+		::KBLELMJDBEA* PDENFEFCAGN; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPLLFKGEKAP_CTOR_OFFSET))(this);
+		}
+
+		static ::HPLLFKGEKAP* BPLPBPMEODA(::MFKLCJHKNBK* a1, ::KBLELMJDBEA* a2)
+		{
+			return ((::HPLLFKGEKAP*(*)(::MFKLCJHKNBK*, ::KBLELMJDBEA*))((::PBYTE)hIl2Cpp + HPLLFKGEKAP_BPLPBPMEODA_OFFSET))(a1, a2);
+		}
+
+		::System::Void Execute()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPLLFKGEKAP_EXECUTE_OFFSET))(this);
+		}
+
+		::System::Void FAMNECIKHBC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPLLFKGEKAP_FAMNECIKHBC_OFFSET))(this);
+		}
+
+		::System::Boolean MNAEABGDHIH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HPLLFKGEKAP_MNAEABGDHIH_OFFSET))(this);
+		}
+
+		::System::Boolean OPKIJMMMNHK()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HPLLFKGEKAP_OPKIJMMMNHK_OFFSET))(this);
+		}
+
+	};

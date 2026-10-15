@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client::DiceCombat { class DiceCombatV2GameLoadingParam; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x1C437920)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1C4379A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_SET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1C4379B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C437910)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC9B550)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC9B540)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xCC9B5D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_SET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xCC9B5E0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2GameLoadingParam_TypeDefinitionIndex = 75719;
+	inline static constexpr unsigned int DiceCombatV2GameLoadingParam_TypeDefinitionIndex = 76196;
 
 	class DiceCombatV2GameLoadingParam : public ::System::Object
 	{
 	public:
 		::System::Action* _Callback_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::DiceCombat::DiceCombatV2GameLoadingParam* Create(::System::Action* a1)
@@ -37,5 +36,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMELOADINGPARAM_SET_CALLBACK_OFFSET))(this, a1);
 		}
+
 	};
 }

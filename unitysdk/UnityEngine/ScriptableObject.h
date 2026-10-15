@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
-
 namespace System { class Type; }
+namespace UnityEngine { class ScriptableObject; }
 
-#define UNITYENGINE_SCRIPTABLEOBJECT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1DCDA080)
-#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET UNITYSDK_OFFSET(0x1DCDA090)
-#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECT_OFFSET UNITYSDK_OFFSET(0x1DCDA070)
-#define UNITYENGINE_SCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD34E0)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F3FE0D0)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET UNITYSDK_OFFSET(0x1F3FE0E0)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F3FE0C0)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F7500)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScriptableObject_TypeDefinitionIndex = 4336;
+	inline static constexpr unsigned int ScriptableObject_TypeDefinitionIndex = 4339;
 
 	class ScriptableObject : public ::UnityEngine::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CTOR_OFFSET))(this);
 		}
 
 		static ::UnityEngine::ScriptableObject* CreateInstance(::System::Type* a1)
@@ -35,5 +35,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::ScriptableObject*(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET))(a1, a2);
 		}
+
 	};
 }

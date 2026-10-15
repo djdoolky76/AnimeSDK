@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ConfirmDialogContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLECONFIRMDIALOGHELPER_SHOWBATTLEERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x1B88B220)
+#define RPG_CLIENT_EXPEDITIONBATTLECONFIRMDIALOGHELPER_SHOWBATTLEERRORDIALOG_OFFSET UNITYSDK_OFFSET(0xCE3DE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleConfirmDialogHelper_TypeDefinitionIndex = 63920;
+	inline static constexpr unsigned int ExpeditionBattleConfirmDialogHelper_TypeDefinitionIndex = 63858;
 
 	class ExpeditionBattleConfirmDialogHelper : public ::System::Object
 	{
@@ -18,5 +17,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLECONFIRMDIALOGHELPER_SHOWBATTLEERRORDIALOG_OFFSET))(a1);
 		}
+
 	};
 }

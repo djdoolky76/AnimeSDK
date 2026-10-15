@@ -1,21 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/UIElements/StyleEnum_1.h"
-#include "unitysdk/UnityEngine/UIElements/StyleFloat.h"
-#include "unitysdk/UnityEngine/UIElements/StyleInt.h"
-#include "unitysdk/UnityEngine/UIElements/StyleLength.h"
 #include "unitysdk/UnityEngine/UIElements/StyleSheets/StyleValue.h"
+#include "unitysdk/UnityEngine/UIElements/StyleFloat.h"
+#include "unitysdk/UnityEngine/UIElements/StyleLength.h"
 
-namespace System { class String; }
-namespace UnityEngine::UIElements { template <typename T> class IStyleValue_1; }
-
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET UNITYSDK_OFFSET(0x1D620890)
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET UNITYSDK_OFFSET(0x1D620870)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET UNITYSDK_OFFSET(0x1F497EC0)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET UNITYSDK_OFFSET(0x1F497EA0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 5999;
+	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 6007;
 
 	class StyleValueExtensions : public ::System::Object
 	{
@@ -29,5 +24,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::UnityEngine::UIElements::StyleFloat(*)(::UnityEngine::UIElements::StyleSheets::StyleValue))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET))(a1);
 		}
+
 	};
 }

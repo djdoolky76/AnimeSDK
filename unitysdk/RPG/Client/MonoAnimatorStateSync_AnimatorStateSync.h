@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSync_AnimatorStateSync_TypeDefinitionIndex = 68493;
+	inline static constexpr unsigned int MonoAnimatorStateSync_AnimatorStateSync_TypeDefinitionIndex = 68527;
 
 	struct alignas(8) MonoAnimatorStateSync_AnimatorStateSync
 	{

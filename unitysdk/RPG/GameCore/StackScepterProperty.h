@@ -2,39 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueMagicScepterPropertyType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class StackScepterProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKSCEPTERPROPERTY_METHOD_3_995998A102D7FE30_OFFSET UNITYSDK_OFFSET(0x1D0B9660)
-#define RPG_GAMECORE_STACKSCEPTERPROPERTY_METHOD_3_FA44F7FDBBF3841D_OFFSET UNITYSDK_OFFSET(0x1D0B96A0)
-#define RPG_GAMECORE_STACKSCEPTERPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B9690)
+#define RPG_GAMECORE_STACKSCEPTERPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD6480)
+#define RPG_GAMECORE_STACKSCEPTERPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD6490)
+#define RPG_GAMECORE_STACKSCEPTERPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD6450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackScepterProperty_TypeDefinitionIndex = 22845;
+	inline static constexpr unsigned int StackScepterProperty_TypeDefinitionIndex = 23104;
 
 	class StackScepterProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::RogueMagicScepterPropertyType Property; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* PropertyValue; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSCEPTERPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSCEPTERPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_995998A102D7FE30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackScepterProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StackScepterProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackScepterProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSCEPTERPROPERTY_METHOD_3_995998A102D7FE30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StackScepterProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSCEPTERPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FA44F7FDBBF3841D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackScepterProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StackScepterProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackScepterProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSCEPTERPROPERTY_METHOD_3_FA44F7FDBBF3841D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StackScepterProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSCEPTERPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

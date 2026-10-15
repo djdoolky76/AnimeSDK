@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AdventureMoveOnNavMeshFaceToType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace RPG::GameCore { class AdventureCharacterController; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+namespace UnityEngine { class Transform; }
+
+#define IDONOBAPJOI_AGADIADBNKI_OFFSET UNITYSDK_OFFSET(0x15ED7750)
+#define IDONOBAPJOI_CLEAR_OFFSET UNITYSDK_OFFSET(0x15ED76F0)
+#define IDONOBAPJOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED81B0)
+#define IDONOBAPJOI_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15ED8190)
+#define IDONOBAPJOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15ED7510)
+#define IDONOBAPJOI_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0x15ED7960)
+#define IDONOBAPJOI_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15ED81A0)
+
+inline static constexpr unsigned int IDONOBAPJOI_TypeDefinitionIndex = 57085;
+
+	class IDONOBAPJOI : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::Single>* FNKPDLLALIO; // 0x10
+		::UnityEngine::Transform* AFIBNIPMICJ; // 0x18
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x20
+		::RPG::GameCore::GameEntity* IDHIFEDLFDN; // 0x28
+		::Il2CppArray<::UnityEngine::Vector3>* FJKLKJCBJGC; // 0x30
+		::System::Single NPINECOCALC; // 0x38
+		::System::Single HPCHCEFOKJB; // 0x3C
+		::System::Single HGEMDOPMOPG; // 0x40
+		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType MLMEAGPKCIA; // 0x44
+		::System::Single MBPJEPNJHBA; // 0x48
+		::System::Single CLEHKNOLHMC; // 0x4C
+		::System::Boolean _IsActive_k__BackingField; // 0x50
+		::System::Byte _padding0[0x3];
+		::System::Int32 DPMIEOJHAGA; // 0x54
+		// static const ::System::Object BILJLIDLBIJ; // 0x0
+		// static const ::System::Object HIGKCDFBEON; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IDONOBAPJOI_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean KPJGDHLENIP(::RPG::GameCore::GameEntity* a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Object*))((::PBYTE)hIl2Cpp + IDONOBAPJOI_KPJGDHLENIP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IDONOBAPJOI_CLEAR_OFFSET))(this);
+		}
+
+		::System::Boolean ONKHPOCEODP(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::RPG::GameCore::AdventureCharacterController* a3, ::System::Boolean a4, ::UnityEngine::Vector3 a5)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single, ::RPG::GameCore::AdventureCharacterController*, ::System::Boolean, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IDONOBAPJOI_ONKHPOCEODP_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Boolean AGADIADBNKI(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IDONOBAPJOI_AGADIADBNKI_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean get_IsActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IDONOBAPJOI_GET_ISACTIVE_OFFSET))(this);
+		}
+
+		::System::Void set_IsActive(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IDONOBAPJOI_SET_ISACTIVE_OFFSET))(this, a1);
+		}
+
+	};

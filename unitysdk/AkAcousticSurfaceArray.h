@@ -1,42 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AkBaseArray_1.h"
-
 class AkAcousticSurface;
 
-#define AKACOUSTICSURFACEARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1D57A4A0)
-#define AKACOUSTICSURFACEARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1D57A420)
-#define AKACOUSTICSURFACEARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1D57A370)
-#define AKACOUSTICSURFACEARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1D57A2C0)
-#define AKACOUSTICSURFACEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57A280)
+#define AKACOUSTICSURFACEARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1F542660)
+#define AKACOUSTICSURFACEARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5425E0)
+#define AKACOUSTICSURFACEARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F542440)
+#define AKACOUSTICSURFACEARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F542530)
+#define AKACOUSTICSURFACEARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F542480)
 
-inline static constexpr unsigned int AkAcousticSurfaceArray_TypeDefinitionIndex = 43668;
+inline static constexpr unsigned int AkAcousticSurfaceArray_TypeDefinitionIndex = 44860;
 
-class AkAcousticSurfaceArray : public ::AkBaseArray_1<::AkAcousticSurface*>
-{
-public:
-	::System::Void _ctor(::System::Int32 a1)
+	class AkAcousticSurfaceArray
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY__CTOR_OFFSET))(this, a1);
-	}
+	public:
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_CTOR_OFFSET))(this, a1);
+		}
 
-	::System::Int32 get_StructureSize()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_GET_STRUCTURESIZE_OFFSET))(this);
-	}
+		::System::Int32 get_StructureSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_GET_STRUCTURESIZE_OFFSET))(this);
+		}
 
-	::System::Void DefaultConstructAtIntPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET))(this, a1);
-	}
+		::System::Void DefaultConstructAtIntPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET))(this, a1);
+		}
 
-	::AkAcousticSurface* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
-	{
-		return ((::AkAcousticSurface*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
-	}
+		::AkAcousticSurface* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
+		{
+			return ((::AkAcousticSurface*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkAcousticSurface* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkAcousticSurface*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkAcousticSurface* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkAcousticSurface*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACEARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
+		}
+
+	};

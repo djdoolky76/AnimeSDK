@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCommonAdvancedSettings.h"
 #include "unitysdk/AkWindowsSettings_PlatformAdvancedSettings_AudioAPI.h"
-
 class AkPlatformInitSettings;
 
-#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1D2D8B70)
-#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D8D30)
+#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5ED080)
+#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5ED240)
 
-inline static constexpr unsigned int AkWindowsSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 43708;
+inline static constexpr unsigned int AkWindowsSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 44900;
 
-class AkWindowsSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
-{
-public:
-	::AkWindowsSettings_PlatformAdvancedSettings_AudioAPI m_AudioAPI; // 0x58
-	::System::Boolean m_GlobalFocus; // 0x5C
-
-	::System::Void _ctor()
+	class AkWindowsSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET))(this);
-	}
+	public:
+		::AkWindowsSettings_PlatformAdvancedSettings_AudioAPI m_AudioAPI; // 0x58
+		::System::Boolean m_GlobalFocus; // 0x5C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET))(this);
+		}
 
-	::System::Void CopyTo(::AkPlatformInitSettings* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET))(this, a1);
-	}
-};
+		::System::Void CopyTo(::AkPlatformInitSettings* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET))(this, a1);
+		}
+
+	};

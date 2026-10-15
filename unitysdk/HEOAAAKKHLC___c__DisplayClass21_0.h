@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainMap; }
+
+#define HEOAAAKKHLC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA98780)
+#define HEOAAAKKHLC___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1CA991B0)
+
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass21_0_TypeDefinitionIndex = 43036;
+
+	class HEOAAAKKHLC___c__DisplayClass21_0 : public ::System::Object
+	{
+	public:
+		::System::Int32 priority; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___C__DISPLAYCLASS21_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean __GetPriorityRetainConfig_b__0(::RPG::GameCore::Match3::MatchThree1v1AIPriorityRetainMap* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::Match3::MatchThree1v1AIPriorityRetainMap*))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET))(this, a1);
+		}
+
+	};

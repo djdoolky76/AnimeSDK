@@ -1,30 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C53D8A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C53D8E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3AB080)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3AB0C0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsIssueControl___c_TypeDefinitionIndex = 79064;
+	inline static constexpr unsigned int LimaoNewsIssueControl___c_TypeDefinitionIndex = 80387;
 
 	class LimaoNewsIssueControl___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::LimaoNews::LimaoNewsIssueControl___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::LimaoNews::LimaoNewsIssueControl___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsIssueControl___c_TypeDefinitionIndex)->GetStaticField(0x5B570);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x1C4F0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C_CTOR_OFFSET))(this);
 		}
+
 	};
 }

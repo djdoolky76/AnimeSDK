@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActivityActiveConfigRow; }
 namespace RPG::GameCore { class DisplayItemConfig; }
 
-#define RPG_GAMECORE_ACTIVITYACTIVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9EE930)
-#define RPG_GAMECORE_ACTIVITYACTIVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9EEBB0)
+#define RPG_GAMECORE_ACTIVITYACTIVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31F910)
+#define RPG_GAMECORE_ACTIVITYACTIVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D31F690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityActiveConfigRow_TypeDefinitionIndex = 10879;
+	inline static constexpr unsigned int ActivityActiveConfigRow_TypeDefinitionIndex = 10895;
 
 	class ActivityActiveConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BenefitIDList; // 0x10
 		::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>* GiftShowList; // 0x18
-		::System::UInt32 PowerConsume; // 0x20
-		::System::UInt32 ActiveItemID; // 0x24
+		::System::UInt32 ItemLimit; // 0x20
+		::System::UInt32 PowerConsume; // 0x24
 		::System::UInt32 ActivityModuleID; // 0x28
-		::System::UInt32 ItemLimit; // 0x2C
-		::System::UInt32 ID; // 0x30
-
+		::System::UInt32 ID; // 0x2C
+		::System::UInt32 ActiveItemID; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYACTIVECONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYACTIVECONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityActiveConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActivityActiveConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityActiveConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYACTIVECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActivityActiveConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYACTIVECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

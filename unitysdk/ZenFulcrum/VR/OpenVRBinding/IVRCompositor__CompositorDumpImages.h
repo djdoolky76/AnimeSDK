@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED48E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED4910)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED48D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED4860)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F64EE60)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64EDE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F64EE90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F64EE50)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__CompositorDumpImages_TypeDefinitionIndex = 37746;
+	inline static constexpr unsigned int IVRCompositor__CompositorDumpImages_TypeDefinitionIndex = 39043;
 
 	class IVRCompositor__CompositorDumpImages : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__COMPOSITORDUMPIMAGES_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

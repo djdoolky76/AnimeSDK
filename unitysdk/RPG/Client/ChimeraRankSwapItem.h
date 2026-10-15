@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class UIValueChangeAnimation; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -9,17 +8,17 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::UI { class Slider; }
 
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B6055C0)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_DOSWAP_OFFSET UNITYSDK_OFFSET(0x1B604DD0)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_INITSWAPRANK_OFFSET UNITYSDK_OFFSET(0x1B605350)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_11D5322717FDFD9D_OFFSET UNITYSDK_OFFSET(0x1B605920)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x1B605840)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_SETITEMINDEX_OFFSET UNITYSDK_OFFSET(0x1B603F50)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B605A90)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB506D0)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCB50BA0)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_DOSWAP_OFFSET UNITYSDK_OFFSET(0xCB4FEE0)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_HJFNJJHDLIK_OFFSET UNITYSDK_OFFSET(0xCB50950)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_HKGEOLEHFGI_OFFSET UNITYSDK_OFFSET(0xCB50A30)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_INITSWAPRANK_OFFSET UNITYSDK_OFFSET(0xCB50460)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_SETITEMINDEX_OFFSET UNITYSDK_OFFSET(0xCB4F060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraRankSwapItem_TypeDefinitionIndex = 72407;
+	inline static constexpr unsigned int ChimeraRankSwapItem_TypeDefinitionIndex = 72480;
 
 	class ChimeraRankSwapItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,15 +27,16 @@ namespace RPG::Client
 		::UnityEngine::UI::Slider* RankValueSlider; // 0x20
 		::UnityEngine::UI::Slider* WorkValueSlider; // 0x28
 		::System::Single SwapTime; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* SwapCurve; // 0x38
 		::System::Boolean OJDMEFDLCCM; // 0x40
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::Queue_1<::System::Action_2<::System::Int32, ::System::Int32>*>* CIFOILLJFNF; // 0x48
 		::System::Int32 EDJPPPILDCB; // 0x50
 		::System::Single KDFKNDPFGNA; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -59,14 +59,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM_DOSWAP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_8C4AEC0BC1CA0CB4(::System::Single a1)
+		::System::Void HJFNJJHDLIK(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_8C4AEC0BC1CA0CB4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM_HJFNJJHDLIK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_11D5322717FDFD9D()
+		::System::Void HKGEOLEHFGI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_11D5322717FDFD9D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPITEM_HKGEOLEHFGI_OFFSET))(this);
 		}
+
 	};
 }

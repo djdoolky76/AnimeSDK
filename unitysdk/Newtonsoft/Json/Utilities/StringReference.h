@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_CHARS_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C93530)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x784470)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0x12370)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C93560)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x24E0)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x2F2C1B0)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_CHARS_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C270C0)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x21140)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_GET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C270F0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int StringReference_TypeDefinitionIndex = 9592;
+	inline static constexpr unsigned int StringReference_TypeDefinitionIndex = 9650;
 
 	struct alignas(8) StringReference
 	{
 		::Il2CppArray<::System::Char>* _chars; // 0x10
 		::System::Int32 _startIndex; // 0x18
 		::System::Int32 _length; // 0x1C
-
 		::System::Void _ctor(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Char get_Item(::System::Int32 a1)
@@ -50,5 +47,6 @@ namespace Newtonsoft::Json::Utilities
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

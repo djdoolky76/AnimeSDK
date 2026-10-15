@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Hdg/rdtTcpMessageUpdateGameObjectProperties_Flags.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET UNITYSDK_OFFSET(0x3A9B940)
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_READ_OFFSET UNITYSDK_OFFSET(0x3A9B910)
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_SETFLAG_OFFSET UNITYSDK_OFFSET(0x3A9B920)
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET UNITYSDK_OFFSET(0x3A9B900)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET UNITYSDK_OFFSET(0x3680)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_READ_OFFSET UNITYSDK_OFFSET(0x3650)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_SETFLAG_OFFSET UNITYSDK_OFFSET(0x3660)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET UNITYSDK_OFFSET(0x3640)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageUpdateGameObjectProperties_TypeDefinitionIndex = 47449;
+	inline static constexpr unsigned int rdtTcpMessageUpdateGameObjectProperties_TypeDefinitionIndex = 46989;
 
 	struct alignas(8) rdtTcpMessageUpdateGameObjectProperties
 	{
 		::System::Int32 m_instanceId; // 0x10
 		::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags m_flags; // 0x14
 		::System::Boolean m_enabled; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* m_tag; // 0x20
 		::System::Int32 m_layer; // 0x28
-
 		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET))(this, a1);
@@ -43,5 +41,6 @@ namespace Hdg
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LIGHCKCMMAD.h"
+class BJAKGOHEGBP;
+class KNGDGMPKJIF;
+class LIGHCKCMMAD;
+
+#define NLJMEMAMJLC_CENFKCOCJED_OFFSET UNITYSDK_OFFSET(0x1EC5C150)
+#define NLJMEMAMJLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48F30)
+#define NLJMEMAMJLC_LJPOKKKKHLH_OFFSET UNITYSDK_OFFSET(0x1EC5C090)
+#define NLJMEMAMJLC_NJNLDDOEGON_OFFSET UNITYSDK_OFFSET(0x1EC5BFF0)
+
+inline static constexpr unsigned int NLJMEMAMJLC_TypeDefinitionIndex = 44289;
+
+	class NLJMEMAMJLC : public ::LIGHCKCMMAD
+	{
+	public:
+		::System::Void _ctor(::BJAKGOHEGBP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BJAKGOHEGBP*))((::PBYTE)hIl2Cpp + NLJMEMAMJLC_CTOR_OFFSET))(this, a1);
+		}
+
+		::LIGHCKCMMAD* NJNLDDOEGON()
+		{
+			return ((::LIGHCKCMMAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + NLJMEMAMJLC_NJNLDDOEGON_OFFSET))(this);
+		}
+
+		::LIGHCKCMMAD* LJPOKKKKHLH()
+		{
+			return ((::LIGHCKCMMAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + NLJMEMAMJLC_LJPOKKKKHLH_OFFSET))(this);
+		}
+
+		::LIGHCKCMMAD* CENFKCOCJED(::KNGDGMPKJIF* a1)
+		{
+			return ((::LIGHCKCMMAD*(*)(::PVOID, ::KNGDGMPKJIF*))((::PBYTE)hIl2Cpp + NLJMEMAMJLC_CENFKCOCJED_OFFSET))(this, a1);
+		}
+
+	};

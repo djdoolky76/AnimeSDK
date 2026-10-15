@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B510)
-#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B540)
-#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B500)
-#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7B490)
+#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54140)
+#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF540C0)
+#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54170)
+#define MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54130)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ImeDialogCloseCallback_TypeDefinitionIndex = 7692;
+	inline static constexpr unsigned int PSDelegate_ImeDialogCloseCallback_TypeDefinitionIndex = 7736;
 
 	class PSDelegate_ImeDialogCloseCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_IMEDIALOGCLOSECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

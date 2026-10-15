@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::Promises { class IRejectable; }
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int ProgressHandler_TypeDefinitionIndex = 9854;
+	inline static constexpr unsigned int ProgressHandler_TypeDefinitionIndex = 9912;
 
 	struct alignas(8) ProgressHandler
 	{

@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_6E050B9DDF862710;
+class CGHDPJKLKJB;
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E96580)
-#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E966C0)
-#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15E965F0)
-#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E96650)
-#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E96770)
+#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD5CBC0)
+#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD5CD90)
+#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCD5CCE0)
+#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD5CC10)
+#define RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD5CC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_RunePositionPaster_TypeDefinitionIndex = 70512;
+	inline static constexpr unsigned int Effect_RunePositionPaster_TypeDefinitionIndex = 70548;
 
 	class Effect_RunePositionPaster : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Renderer* runRenderer; // 0x18
-		::Class_2_6E050B9DDF862710* _Behavior; // 0x20
-
+		::CGHDPJKLKJB* _Behavior; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -45,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_RUNEPOSITIONPASTER_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

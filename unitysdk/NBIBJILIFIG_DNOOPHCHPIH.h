@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGameShare/MsgRetcode.h"
+#include "unitysdk/System/MulticastDelegate.h"
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define NBIBJILIFIG_DNOOPHCHPIH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C757EA0)
+#define NBIBJILIFIG_DNOOPHCHPIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C757E20)
+#define NBIBJILIFIG_DNOOPHCHPIH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C757EF0)
+#define NBIBJILIFIG_DNOOPHCHPIH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C757E90)
+
+inline static constexpr unsigned int NBIBJILIFIG_DNOOPHCHPIH_TypeDefinitionIndex = 36958;
+
+	class NBIBJILIFIG_DNOOPHCHPIH : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NBIBJILIFIG_DNOOPHCHPIH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::LittleGameShare::MsgRetcode Invoke(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::LittleGameShare::MsgRetcode(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NBIBJILIFIG_DNOOPHCHPIH_INVOKE_OFFSET))(this, a1);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NBIBJILIFIG_DNOOPHCHPIH_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::Client::LittleGameShare::MsgRetcode EndInvoke(::System::IAsyncResult* a1)
+		{
+			return ((::RPG::Client::LittleGameShare::MsgRetcode(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NBIBJILIFIG_DNOOPHCHPIH_ENDINVOKE_OFFSET))(this, a1);
+		}
+
+	};

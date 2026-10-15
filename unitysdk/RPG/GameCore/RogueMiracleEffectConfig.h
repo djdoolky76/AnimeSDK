@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueMiracleEffectConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG_METHOD_2_D0A74B218E6CE8D6_OFFSET UNITYSDK_OFFSET(0x1EEF6260)
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF62A0)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AE500)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9AE4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleEffectConfig_TypeDefinitionIndex = 17717;
+	inline static constexpr unsigned int RogueMiracleEffectConfig_TypeDefinitionIndex = 17929;
 
 	class RogueMiracleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D0A74B218E6CE8D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMiracleEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueMiracleEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG_METHOD_2_D0A74B218E6CE8D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueMiracleEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

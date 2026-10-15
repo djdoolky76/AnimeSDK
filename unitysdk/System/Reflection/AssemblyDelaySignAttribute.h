@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_REFLECTION_ASSEMBLYDELAYSIGNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC146E0)
+#define SYSTEM_REFLECTION_ASSEMBLYDELAYSIGNATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C268720)
 
 namespace System::Reflection
 {
@@ -12,10 +12,10 @@ namespace System::Reflection
 	{
 	public:
 		::System::Boolean m_delaySign; // 0x10
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYDELAYSIGNATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYDELAYSIGNATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_EDITOR_SKILLLINEASSETCONFIG_ACTIVESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16849850)
+#define RPG_EDITOR_SKILLLINEASSETCONFIG_ACTIVESTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A3430)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillLineAssetConfig_ActiveState_TypeDefinitionIndex = 52326;
+	inline static constexpr unsigned int SkillLineAssetConfig_ActiveState_TypeDefinitionIndex = 52039;
 
 	class SkillLineAssetConfig_ActiveState : public ::System::Object
 	{
 	public:
 		::System::String* Path; // 0x10
 		::System::Boolean Active; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLLINEASSETCONFIG_ACTIVESTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLLINEASSETCONFIG_ACTIVESTATE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,60 +1,63 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
-#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueEscapeLaserConfigRow; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D931140)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D930FD0)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D930CC0)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D930F70)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D9312D0)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D930D40)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D931310)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9314E0)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D9317C0)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D931B30)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D931440)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D9313A0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D99DAF0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D99D100)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D99CF90)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D99CC80)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D99CF30)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D99D290)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D99CD00)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D99D2D0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99D4A0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D99D780)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D99D400)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D99D360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex = 14508;
+	inline static constexpr unsigned int RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex = 14673;
 
 	class RogueEscapeLaserConfigExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "RogueEscapeLaserConfigExcelTable")->GetStaticField(0xAC30);
+		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEscapeLaserConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEscapeLaserConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF50);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEscapeLaserConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "RogueEscapeLaserConfigExcelTable")->GetStaticField(0xAC38);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF58);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RogueEscapeLaserConfigExcelTable")->GetStaticField(0xAC40);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF60);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4390);
-		}
+
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueEscapeLaserConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4391);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "RogueEscapeLaserConfigExcelTable")->GetStaticField(0x24B0);
+		}
+
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "RogueEscapeLaserConfigExcelTable")->GetStaticField(0x24B1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE_CCTOR_OFFSET))();
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEscapeLaserConfigRow*>* get_dataDict()
@@ -97,19 +100,20 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean& a3)
+		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
+		static ::System::Void _AddItemFromBinary(::FCOEMCEDLNL* a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
 		}
 
 		static ::System::Void _AddItem(::RPG::GameCore::RogueEscapeLaserConfigRow* a1)
 		{
 			return ((::System::Void(*)(::RPG::GameCore::RogueEscapeLaserConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEESCAPELASERCONFIGEXCELTABLE__ADDITEM_OFFSET))(a1);
 		}
+
 	};
 }

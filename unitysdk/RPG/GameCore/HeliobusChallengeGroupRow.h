@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HeliobusChallengeGroupRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D1C60)
-#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D2280)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72D770)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72D110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengeGroupRow_TypeDefinitionIndex = 13656;
+	inline static constexpr unsigned int HeliobusChallengeGroupRow_TypeDefinitionIndex = 13763;
 
 	class HeliobusChallengeGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChallengeStageList; // 0x10
-		::RPG::Client::TextID ChallengeGroupName; // 0x18
-		::System::UInt32 ChallengeGroupID; // 0x28
-
+		::System::UInt32 ChallengeGroupID; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID ChallengeGroupName; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeliobusChallengeGroupRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::HeliobusChallengeGroupRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeliobusChallengeGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HeliobusChallengeGroupRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

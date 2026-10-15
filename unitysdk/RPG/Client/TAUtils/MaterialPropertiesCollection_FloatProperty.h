@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAUtils/MaterialPropertiesCollection_Property_1.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0x1B3FA430)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F7640)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE182FF0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE185DE0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_FloatProperty_TypeDefinitionIndex = 73509;
+	inline static constexpr unsigned int MaterialPropertiesCollection_FloatProperty_TypeDefinitionIndex = 73616;
 
-	class MaterialPropertiesCollection_FloatProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::System::Single>
+	class MaterialPropertiesCollection_FloatProperty
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_3B01BE9C2045A2D8(::UnityEngine::Material* a1)
+		::System::Void PKADDEPKJFN(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_PKADDEPKJFN_OFFSET))(this, a1);
 		}
+
 	};
 }

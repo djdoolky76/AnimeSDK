@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0x1BC27670)
-#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0x1BC277A0)
-#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GET_EQUIPCONFIG_OFFSET UNITYSDK_OFFSET(0x1BC276E0)
-#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GET_NEEDPLAYEFFECT_OFFSET UNITYSDK_OFFSET(0x1BC27630)
-#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC27620)
-#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT__GETEQUIPCONFIG_OFFSET UNITYSDK_OFFSET(0x1BC27750)
+#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD190720)
+#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0xD190770)
+#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0xD1908A0)
+#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GET_EQUIPCONFIG_OFFSET UNITYSDK_OFFSET(0xD1907E0)
+#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_GET_NEEDPLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xD190730)
+#define RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT__GETEQUIPCONFIG_OFFSET UNITYSDK_OFFSET(0xD190850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightHackEquipEffect_TypeDefinitionIndex = 65449;
+	inline static constexpr unsigned int GridFightHackEquipEffect_TypeDefinitionIndex = 65389;
 
 	class GridFightHackEquipEffect : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightEquipItemData* _EquipData; // 0x10
-
 		::System::Void _ctor(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_NeedPlayEffect()
@@ -52,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::GridFightEquipItemConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHACKEQUIPEFFECT__GETEQUIPCONFIG_OFFSET))(this);
 		}
+
 	};
 }

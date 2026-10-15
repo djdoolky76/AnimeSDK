@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByEntityCreated; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYENTITYCREATED_METHOD_4_01173AA443286B0E_OFFSET UNITYSDK_OFFSET(0x1BBD82E0)
-#define RPG_GAMECORE_BYENTITYCREATED_METHOD_4_11612723C649E99F_OFFSET UNITYSDK_OFFSET(0x1BBD82A0)
-#define RPG_GAMECORE_BYENTITYCREATED_METHOD_4_96A6C328835FC39A_OFFSET UNITYSDK_OFFSET(0x1BBD8470)
-#define RPG_GAMECORE_BYENTITYCREATED_METHOD_4_E283ECEA894AC17D_OFFSET UNITYSDK_OFFSET(0x1BBD84A0)
-#define RPG_GAMECORE_BYENTITYCREATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD82D0)
+#define RPG_GAMECORE_BYENTITYCREATED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C4400)
+#define RPG_GAMECORE_BYENTITYCREATED_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4C45D0)
+#define RPG_GAMECORE_BYENTITYCREATED_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4C45A0)
+#define RPG_GAMECORE_BYENTITYCREATED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4C4410)
+#define RPG_GAMECORE_BYENTITYCREATED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4C43D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByEntityCreated_TypeDefinitionIndex = 20488;
+	inline static constexpr unsigned int ByEntityCreated_TypeDefinitionIndex = 20727;
 
 	class ByEntityCreated : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* InstanceIDList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_11612723C649E99F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByEntityCreated*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByEntityCreated* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByEntityCreated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_METHOD_4_11612723C649E99F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByEntityCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_01173AA443286B0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByEntityCreated* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByEntityCreated* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByEntityCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_METHOD_4_01173AA443286B0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByEntityCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_96A6C328835FC39A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityCreated*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityCreated* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityCreated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_METHOD_4_96A6C328835FC39A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E283ECEA894AC17D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityCreated* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityCreated* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_METHOD_4_E283ECEA894AC17D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYCREATED_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_INGAMEPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB7C210)
+#define CRIWARE_CRIATOMCONFIG_INGAMEPREVIEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x166BE450)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_InGamePreviewConfig_TypeDefinitionIndex = 38859;
+	inline static constexpr unsigned int CriAtomConfig_InGamePreviewConfig_TypeDefinitionIndex = 40156;
 
 	class CriAtomConfig_InGamePreviewConfig : public ::System::Object
 	{
@@ -14,10 +14,10 @@ namespace CriWare
 		::System::Int32 maxPreviewObjects; // 0x10
 		::System::Int32 communicationBufferSize; // 0x14
 		::System::Int32 playbackPositionUpdateInterval; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCONFIG_INGAMEPREVIEWCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCONFIG_INGAMEPREVIEWCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

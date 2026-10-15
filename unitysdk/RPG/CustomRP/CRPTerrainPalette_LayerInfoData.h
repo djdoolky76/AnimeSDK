@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrainPalette_LayerInfoData_TypeDefinitionIndex = 37041;
+	inline static constexpr unsigned int CRPTerrainPalette_LayerInfoData_TypeDefinitionIndex = 37726;
 
 	struct alignas(4) CRPTerrainPalette_LayerInfoData
 	{

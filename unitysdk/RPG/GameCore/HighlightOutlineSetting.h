@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HighlightOutlineSetting; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_METHOD_2_12123BF3F4A917BA_OFFSET UNITYSDK_OFFSET(0x1D3E1360)
-#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E1580)
+#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73CAC0)
+#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73C8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 16952;
+	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 17147;
 
 	class HighlightOutlineSetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,15 +21,15 @@ namespace RPG::GameCore
 		::System::String* HightlightColor2; // 0x20
 		::System::Single Pow; // 0x28
 		::System::Single OutlineFadeout; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIGHLIGHTOUTLINESETTING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_12123BF3F4A917BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HighlightOutlineSetting*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HighlightOutlineSetting* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HighlightOutlineSetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_METHOD_2_12123BF3F4A917BA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HighlightOutlineSetting*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

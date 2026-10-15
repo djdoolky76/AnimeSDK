@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
+class AICDMFFGNIH;
 
-class Class_1_B3122B2B681EA91E;
-
-#define RPG_GAMECORE_LEVELAIDREADYSTART_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1844B3F0)
-#define RPG_GAMECORE_LEVELAIDREADYSTART_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1844B3A0)
-#define RPG_GAMECORE_LEVELAIDREADYSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1844B390)
+#define RPG_GAMECORE_LEVELAIDREADYSTART_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D0520)
+#define RPG_GAMECORE_LEVELAIDREADYSTART_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D0580)
+#define RPG_GAMECORE_LEVELAIDREADYSTART_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D0530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAidReadyStart_TypeDefinitionIndex = 56984;
+	inline static constexpr unsigned int LevelAidReadyStart_TypeDefinitionIndex = 56805;
 
 	class LevelAidReadyStart : public ::System::Object
 	{
 	public:
-		::Class_1_B3122B2B681EA91E* Detail; // 0x10
-
-		::System::Void _ctor(::Class_1_B3122B2B681EA91E* a1)
+		::AICDMFFGNIH* Detail; // 0x10
+		::System::Void _ctor(::AICDMFFGNIH* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B3122B2B681EA91E*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAIDREADYSTART__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::AICDMFFGNIH*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAIDREADYSTART_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -32,5 +30,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAIDREADYSTART_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

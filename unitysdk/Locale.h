@@ -1,18 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1D232830)
+#define LOCALE_GETTEXT_1_OFFSET UNITYSDK_OFFSET(0x1C01E1B0)
+#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1C01E1A0)
 
-inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2256;
+inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2;
 
-class Locale : public ::System::Object
-{
-public:
-	static ::System::String* GetText(::System::String* a1)
+	class Locale : public ::System::Object
 	{
-		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + LOCALE_GETTEXT_OFFSET))(a1);
-	}
-};
+	public:
+		static ::System::String* GetText(::System::String* a1)
+		{
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + LOCALE_GETTEXT_OFFSET))(a1);
+		}
+
+		static ::System::String* GetText_1(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
+		{
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + LOCALE_GETTEXT_1_OFFSET))(a1, a2);
+		}
+
+	};

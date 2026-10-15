@@ -2,35 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/VCameraBlendType.h"
 #include "unitysdk/System/Object.h"
-
 namespace Cinemachine { class CinemachineBrain; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define TRACKCAMERABLENDCONFIG_METHOD_1_074F48B2B8055A43_OFFSET UNITYSDK_OFFSET(0x104F4680)
-#define TRACKCAMERABLENDCONFIG_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x104F4630)
-#define TRACKCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x104F47D0)
+#define TRACKCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9D7B60)
+#define TRACKCAMERABLENDCONFIG_GIIEFOFHKDE_OFFSET UNITYSDK_OFFSET(0xE9D79C0)
+#define TRACKCAMERABLENDCONFIG_IMCECPDAODJ_OFFSET UNITYSDK_OFFSET(0xE9D7A10)
 
-inline static constexpr unsigned int TrackCameraBlendConfig_TypeDefinitionIndex = 47742;
+inline static constexpr unsigned int TrackCameraBlendConfig_TypeDefinitionIndex = 47282;
 
-class TrackCameraBlendConfig : public ::System::Object
-{
-public:
-	::RPG::GameCore::VCameraBlendType BlendType; // 0x10
-	::System::Single BlendTime; // 0x14
-	::UnityEngine::AnimationCurve* CustomCurve; // 0x18
-
-	::System::Void _ctor()
+	class TrackCameraBlendConfig : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TRACKCAMERABLENDCONFIG__CTOR_OFFSET))(this);
-	}
+	public:
+		::RPG::GameCore::VCameraBlendType BlendType; // 0x10
+		::System::Single BlendTime; // 0x14
+		::UnityEngine::AnimationCurve* CustomCurve; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TRACKCAMERABLENDCONFIG_CTOR_OFFSET))(this);
+		}
 
-	::System::Boolean Method_1_391A84BCD9F51317()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TRACKCAMERABLENDCONFIG_METHOD_1_391A84BCD9F51317_OFFSET))(this);
-	}
+		::System::Boolean GIIEFOFHKDE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TRACKCAMERABLENDCONFIG_GIIEFOFHKDE_OFFSET))(this);
+		}
 
-	::System::Void Method_1_074F48B2B8055A43(::Cinemachine::CinemachineBrain* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + TRACKCAMERABLENDCONFIG_METHOD_1_074F48B2B8055A43_OFFSET))(this, a1);
-	}
-};
+		::System::Void IMCECPDAODJ(::Cinemachine::CinemachineBrain* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + TRACKCAMERABLENDCONFIG_IMCECPDAODJ_OFFSET))(this, a1);
+		}
+
+	};

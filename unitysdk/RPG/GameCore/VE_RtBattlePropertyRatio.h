@@ -2,50 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
 #include "unitysdk/RPG/GameCore/ValueEvaluatorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class VE_RtBattlePropertyRatio; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_88AA6DB648D96BDB_OFFSET UNITYSDK_OFFSET(0x1DEA49A0)
-#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_B59FC1A98E42E518_OFFSET UNITYSDK_OFFSET(0x1DEA4760)
-#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_C19711F853CD008C_OFFSET UNITYSDK_OFFSET(0x1DEA4970)
-#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_CF7C2E37ADF8008D_OFFSET UNITYSDK_OFFSET(0x1DEA47A0)
-#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA4790)
+#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC563B0)
+#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC565C0)
+#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC56590)
+#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC563C0)
+#define RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC56380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_RtBattlePropertyRatio_TypeDefinitionIndex = 23995;
+	inline static constexpr unsigned int VE_RtBattlePropertyRatio_TypeDefinitionIndex = 24270;
 
 	class VE_RtBattlePropertyRatio : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::RtAbilityProperty Property; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B59FC1A98E42E518(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattlePropertyRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_B59FC1A98E42E518_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_RtBattlePropertyRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CF7C2E37ADF8008D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattlePropertyRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_CF7C2E37ADF8008D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_RtBattlePropertyRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C19711F853CD008C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattlePropertyRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_C19711F853CD008C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattlePropertyRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_88AA6DB648D96BDB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattlePropertyRatio* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattlePropertyRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_METHOD_3_88AA6DB648D96BDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattlePropertyRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEPROPERTYRATIO_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

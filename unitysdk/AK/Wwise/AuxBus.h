@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AK/Wwise/BaseType.h"
 #include "unitysdk/WwiseObjectType.h"
-
 class WwiseAuxBusReference;
 class WwiseObjectReference;
 
-#define AK_WWISE_AUXBUS_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D576A80)
-#define AK_WWISE_AUXBUS_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1D576B00)
-#define AK_WWISE_AUXBUS_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D576A90)
-#define AK_WWISE_AUXBUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D576B10)
+#define AK_WWISE_AUXBUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F53ECD0)
+#define AK_WWISE_AUXBUS_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F53EC40)
+#define AK_WWISE_AUXBUS_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F53ECC0)
+#define AK_WWISE_AUXBUS_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F53EC50)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int AuxBus_TypeDefinitionIndex = 43784;
+	inline static constexpr unsigned int AuxBus_TypeDefinitionIndex = 44976;
 
 	class AuxBus : public ::AK::Wwise::BaseType
 	{
 	public:
 		::WwiseAuxBusReference* WwiseObjectReference; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_AUXBUS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_AUXBUS_CTOR_OFFSET))(this);
 		}
 
 		::WwiseObjectReference* get_ObjectReference()
@@ -39,5 +37,6 @@ namespace AK::Wwise
 		{
 			return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_AUXBUS_GET_WWISEOBJECTTYPE_OFFSET))(this);
 		}
+
 	};
 }

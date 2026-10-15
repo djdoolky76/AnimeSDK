@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/TextureFormat.h"
-
 namespace Spine { class AtlasRegion; }
 namespace Spine { class Attachment; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Sprite; }
 
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_1_OFFSET UNITYSDK_OFFSET(0x1830C160)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_OFFSET UNITYSDK_OFFSET(0x1830BE80)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_1_OFFSET UNITYSDK_OFFSET(0x1ECD11E0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_OFFSET UNITYSDK_OFFSET(0x1ECD0EF0)
 
 namespace Spine::Unity::AttachmentTools
 {
-	inline static constexpr unsigned int AttachmentCloneExtensions_TypeDefinitionIndex = 43922;
+	inline static constexpr unsigned int AttachmentCloneExtensions_TypeDefinitionIndex = 45114;
 
 	class AttachmentCloneExtensions : public ::System::Object
 	{
@@ -27,5 +26,6 @@ namespace Spine::Unity::AttachmentTools
 		{
 			return ((::Spine::Attachment*(*)(::Spine::Attachment*, ::Spine::AtlasRegion*, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitPredicateSucc; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_69022AAB0E332A77_OFFSET UNITYSDK_OFFSET(0x1DEBE150)
-#define RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_C3739E134AA6FB2A_OFFSET UNITYSDK_OFFSET(0x1DEBE110)
-#define RPG_GAMECORE_WAITPREDICATESUCC__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBE140)
+#define RPG_GAMECORE_WAITPREDICATESUCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC708A0)
+#define RPG_GAMECORE_WAITPREDICATESUCC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC708B0)
+#define RPG_GAMECORE_WAITPREDICATESUCC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC70870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPredicateSucc_TypeDefinitionIndex = 21834;
+	inline static constexpr unsigned int WaitPredicateSucc_TypeDefinitionIndex = 22082;
 
 	class WaitPredicateSucc : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C3739E134AA6FB2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPredicateSucc*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPredicateSucc* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPredicateSucc*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_C3739E134AA6FB2A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPredicateSucc*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_69022AAB0E332A77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPredicateSucc* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPredicateSucc* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPredicateSucc*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_69022AAB0E332A77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPredicateSucc*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

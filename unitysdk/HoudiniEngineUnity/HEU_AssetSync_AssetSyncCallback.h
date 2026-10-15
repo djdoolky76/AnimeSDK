@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HoudiniEngineUnity { class HEU_AssetSync; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x167BFE00)
-#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x167BFE30)
-#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x167BF6D0)
-#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x167BFD10)
+#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B8A72D0)
+#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A71E0)
+#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B8A7300)
+#define HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8A6BA0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetSync_AssetSyncCallback_TypeDefinitionIndex = 39296;
+	inline static constexpr unsigned int HEU_AssetSync_AssetSyncCallback_TypeDefinitionIndex = 40593;
 
 	class HEU_AssetSync_AssetSyncCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HoudiniEngineUnity::HEU_AssetSync* a1)
@@ -38,5 +37,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETSYNC_ASSETSYNCCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

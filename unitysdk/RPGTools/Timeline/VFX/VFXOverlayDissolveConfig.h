@@ -4,14 +4,13 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF361B0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE94C100)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 49123;
+	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 48669;
 
 	class VFXOverlayDissolveConfig : public ::System::Object
 	{
@@ -28,10 +27,10 @@ namespace RPGTools::Timeline::VFX
 		::System::Single DissolveEdge1Offset; // 0x68
 		::UnityEngine::Color DissolveEdgeColor1; // 0x6C
 		::System::Int32 DissolveTarget; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

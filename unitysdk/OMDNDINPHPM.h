@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CBPDACMBHGL.h"
+#include "unitysdk/KHBEIDOCBCN.h"
+class AGJOIILGIHK;
+class ENDEBAMMJHJ;
+class HHCNMGNAIBG;
+class HHMGCCNGECJ;
+class MLNOEMIDHME;
+class POBLGKIGINE;
+
+#define OMDNDINPHPM_BOMAFICLJGJ_OFFSET UNITYSDK_OFFSET(0xBF1A6F0)
+#define OMDNDINPHPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF1A3E0)
+#define OMDNDINPHPM_DJHOMJHONLP_OFFSET UNITYSDK_OFFSET(0xBF1AA50)
+#define OMDNDINPHPM_HCJEKDPGABN_OFFSET UNITYSDK_OFFSET(0xBF1AAE0)
+#define OMDNDINPHPM_KOLNCFIJCKH_OFFSET UNITYSDK_OFFSET(0xBF1A430)
+#define OMDNDINPHPM_MCKBHJNIBMJ_OFFSET UNITYSDK_OFFSET(0xBF1A9A0)
+#define OMDNDINPHPM_NMHEGIKICBK_OFFSET UNITYSDK_OFFSET(0xBF1A4F0)
+
+inline static constexpr unsigned int OMDNDINPHPM_TypeDefinitionIndex = 74495;
+
+	class OMDNDINPHPM : public ::KHBEIDOCBCN
+	{
+	public:
+		::ENDEBAMMJHJ* OBDOFAHAOPK; // 0x20
+		::System::Void _ctor(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMDNDINPHPM_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void KOLNCFIJCKH(::HHMGCCNGECJ* a1, ::CBPDACMBHGL a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HHMGCCNGECJ*, ::CBPDACMBHGL))((::PBYTE)hIl2Cpp + OMDNDINPHPM_KOLNCFIJCKH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void BOMAFICLJGJ(::POBLGKIGINE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::POBLGKIGINE*))((::PBYTE)hIl2Cpp + OMDNDINPHPM_BOMAFICLJGJ_OFFSET))(this, a1);
+		}
+
+		::System::Void DJHOMJHONLP(::MLNOEMIDHME* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MLNOEMIDHME*))((::PBYTE)hIl2Cpp + OMDNDINPHPM_DJHOMJHONLP_OFFSET))(this, a1);
+		}
+
+		::AGJOIILGIHK* HCJEKDPGABN()
+		{
+			return ((::AGJOIILGIHK*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMDNDINPHPM_HCJEKDPGABN_OFFSET))(this);
+		}
+
+		::ENDEBAMMJHJ* MCKBHJNIBMJ()
+		{
+			return ((::ENDEBAMMJHJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMDNDINPHPM_MCKBHJNIBMJ_OFFSET))(this);
+		}
+
+		::System::Void NMHEGIKICBK(::HHCNMGNAIBG* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HHCNMGNAIBG*))((::PBYTE)hIl2Cpp + OMDNDINPHPM_NMHEGIKICBK_OFFSET))(this, a1);
+		}
+
+	};

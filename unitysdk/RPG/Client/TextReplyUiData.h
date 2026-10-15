@@ -3,23 +3,22 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEXTREPLYUIDATA_GET_MAINTEXT_OFFSET UNITYSDK_OFFSET(0x1ACB0120)
-#define RPG_CLIENT_TEXTREPLYUIDATA_GET_NEXTCONTENTID_OFFSET UNITYSDK_OFFSET(0x1ACB0130)
-#define RPG_CLIENT_TEXTREPLYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACB0140)
+#define RPG_CLIENT_TEXTREPLYUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE20FFE0)
+#define RPG_CLIENT_TEXTREPLYUIDATA_GET_MAINTEXT_OFFSET UNITYSDK_OFFSET(0xE20FFC0)
+#define RPG_CLIENT_TEXTREPLYUIDATA_GET_NEXTCONTENTID_OFFSET UNITYSDK_OFFSET(0xE20FFD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextReplyUiData_TypeDefinitionIndex = 61646;
+	inline static constexpr unsigned int TextReplyUiData_TypeDefinitionIndex = 61552;
 
 	class TextReplyUiData : public ::System::Object
 	{
 	public:
-		::System::UInt32 _NextContentId_k__BackingField; // 0x10
-		::RPG::Client::TextID _MainText_k__BackingField; // 0x18
-
+		::RPG::Client::TextID _MainText_k__BackingField; // 0x10
+		::System::UInt32 _NextContentId_k__BackingField; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::TextID a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTREPLYUIDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTREPLYUIDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::TextID get_MainText()
@@ -31,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTREPLYUIDATA_GET_NEXTCONTENTID_OFFSET))(this);
 		}
+
 	};
 }

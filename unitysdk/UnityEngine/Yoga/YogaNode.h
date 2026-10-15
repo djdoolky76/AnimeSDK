@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Yoga/YogaMeasureMode.h"
 #include "unitysdk/UnityEngine/Yoga/YogaSize.h"
-
 namespace UnityEngine::Yoga { class BaselineFunction; }
 namespace UnityEngine::Yoga { class MeasureFunction; }
+namespace UnityEngine::Yoga { class YogaNode; }
 
-#define UNITYENGINE_YOGA_YOGANODE_BASELINEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D625130)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1D622A00)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTWIDTH_OFFSET UNITYSDK_OFFSET(0x1D6229F0)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTX_OFFSET UNITYSDK_OFFSET(0x1D6229D0)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTY_OFFSET UNITYSDK_OFFSET(0x1D6229E0)
-#define UNITYENGINE_YOGA_YOGANODE_MEASUREINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D624FC0)
+#define UNITYENGINE_YOGA_YOGANODE_BASELINEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F49C760)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F49A030)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTWIDTH_OFFSET UNITYSDK_OFFSET(0x1F49A020)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTX_OFFSET UNITYSDK_OFFSET(0x1F49A000)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTY_OFFSET UNITYSDK_OFFSET(0x1F49A010)
+#define UNITYENGINE_YOGA_YOGANODE_MEASUREINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F49C5F0)
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int YogaNode_TypeDefinitionIndex = 5860;
+	inline static constexpr unsigned int YogaNode_TypeDefinitionIndex = 5868;
 
 	class YogaNode : public ::System::Object
 	{
@@ -24,7 +24,6 @@ namespace UnityEngine::Yoga
 		::System::IntPtr _ygNode; // 0x10
 		::UnityEngine::Yoga::MeasureFunction* _measureFunction; // 0x18
 		::UnityEngine::Yoga::BaselineFunction* _baselineFunction; // 0x20
-
 		::System::Single get_LayoutX()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTX_OFFSET))(this);
@@ -54,5 +53,6 @@ namespace UnityEngine::Yoga
 		{
 			return ((::System::Single(*)(::UnityEngine::Yoga::YogaNode*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_YOGANODE_BASELINEINTERNAL_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

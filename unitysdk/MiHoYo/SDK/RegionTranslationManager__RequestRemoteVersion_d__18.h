@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class RegionTranslationManager; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B99A590)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B99A7B0)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B99A810)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B99A7C0)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B99A580)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBDBE0)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF96190)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BF965F0)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BF96810)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BF96870)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BF96820)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BF965E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RegionTranslationManager__RequestRemoteVersion_d__18_TypeDefinitionIndex = 7917;
+	inline static constexpr unsigned int RegionTranslationManager__RequestRemoteVersion_d__18_TypeDefinitionIndex = 7960;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18>
 	class RegionTranslationManager__RequestRemoteVersion_d__18 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::System::Action* timeoutCallback; // 0x18
+		::System::Action* timeoutCallback; // 0x10
+		::MiHoYo::SDK::RegionTranslationManager* __4__this; // 0x18
 		::System::Action_1<::System::String*>* callback; // 0x20
-		::System::String* _url_5__1; // 0x28
-		::MiHoYo::SDK::RegionTranslationManager* __4__this; // 0x30
+		::System::Object* __2__current; // 0x28
+		::System::String* _url_5__1; // 0x30
 		::System::Int32 __1__state; // 0x38
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -57,5 +57,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

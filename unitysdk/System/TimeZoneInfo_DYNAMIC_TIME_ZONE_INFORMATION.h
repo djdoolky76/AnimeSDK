@@ -1,8 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/TimeZoneInfo_TIME_ZONE_INFORMATION.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace System

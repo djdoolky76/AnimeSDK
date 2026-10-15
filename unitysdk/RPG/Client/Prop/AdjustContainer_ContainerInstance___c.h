@@ -1,44 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE2C500)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE2C540)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET UNITYSDK_OFFSET(0x1AE2C550)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC0D460)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC0D4A0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET UNITYSDK_OFFSET(0xDC0D4B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_ContainerInstance___c_TypeDefinitionIndex = 77723;
+	inline static constexpr unsigned int AdjustContainer_ContainerInstance___c_TypeDefinitionIndex = 78194;
 
 	class AdjustContainer_ContainerInstance___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::AdjustContainer_ContainerInstance___c** StaticGet___9()
-		{
-			return (::RPG::Client::Prop::AdjustContainer_ContainerInstance___c**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_ContainerInstance___c_TypeDefinitionIndex)->GetStaticField(0x5F1E0);
-		}
 		static ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>** StaticGet___9__11_2()
 		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_ContainerInstance___c_TypeDefinitionIndex)->GetStaticField(0x5F1E8);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x325F0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x325F8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __ReGenerateNoReUse_b__11_2(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

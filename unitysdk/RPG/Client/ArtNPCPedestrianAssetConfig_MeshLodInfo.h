@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_MeshLodInfo_TypeDefinitionIndex = 69196;
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_MeshLodInfo_TypeDefinitionIndex = 69232;
 
 	struct alignas(8) ArtNPCPedestrianAssetConfig_MeshLodInfo
 	{

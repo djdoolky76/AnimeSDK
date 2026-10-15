@@ -3,25 +3,24 @@
 #include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0x1C6B6B90)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_MAINAVG_OFFSET UNITYSDK_OFFSET(0x1C6B6B70)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0x1C6B6BA0)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_MAINAVG_OFFSET UNITYSDK_OFFSET(0x1C6B6B80)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B6BB0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xB02CFB0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0xB02CF90)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_MAINAVG_OFFSET UNITYSDK_OFFSET(0xB02CF70)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0xB02CFA0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_MAINAVG_OFFSET UNITYSDK_OFFSET(0xB02CF80)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int AvgResult_TypeDefinitionIndex = 47100;
+	inline static constexpr unsigned int AvgResult_TypeDefinitionIndex = 46640;
 
 	class AvgResult : public ::System::Object
 	{
 	public:
-		::System::Decimal _FractionAvg_k__BackingField; // 0x10
-		::System::Decimal _MainAvg_k__BackingField; // 0x20
-
+		::System::Decimal _MainAvg_k__BackingField; // 0x10
+		::System::Decimal _FractionAvg_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::Decimal get_MainAvg()
@@ -43,5 +42,6 @@ namespace MiHoYo::SDK::ReporterUtil
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET))(this, a1);
 		}
+
 	};
 }

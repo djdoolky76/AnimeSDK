@@ -3,24 +3,23 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD19450)
-#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD19400)
-#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD194A0)
+#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D9210)
+#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D91C0)
+#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D9170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelComboChangeEvent_TypeDefinitionIndex = 56991;
+	inline static constexpr unsigned int LevelComboChangeEvent_TypeDefinitionIndex = 56812;
 
 	class LevelComboChangeEvent : public ::System::Object
 	{
 	public:
-		::System::Single ComboBarRatio; // 0x10
-		::System::Single DamageAddedRatio; // 0x14
-		::System::Int32 ComboGear; // 0x18
-
+		::System::Single DamageAddedRatio; // 0x10
+		::System::Int32 ComboGear; // 0x14
+		::System::Single ComboBarRatio; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCOMBOCHANGEEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -32,5 +31,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

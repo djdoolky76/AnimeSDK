@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Guid.h"
 
 namespace System::Runtime::InteropServices
 {

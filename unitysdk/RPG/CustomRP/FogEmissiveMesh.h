@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CUSTOMRP_FOGEMISSIVEMESH_START_OFFSET UNITYSDK_OFFSET(0x185790A0)
-#define RPG_CUSTOMRP_FOGEMISSIVEMESH_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18578E90)
-#define RPG_CUSTOMRP_FOGEMISSIVEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x185790E0)
+#define RPG_CUSTOMRP_FOGEMISSIVEMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC019A0)
+#define RPG_CUSTOMRP_FOGEMISSIVEMESH_START_OFFSET UNITYSDK_OFFSET(0x1CC01960)
+#define RPG_CUSTOMRP_FOGEMISSIVEMESH_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1CC01750)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FogEmissiveMesh_TypeDefinitionIndex = 37046;
+	inline static constexpr unsigned int FogEmissiveMesh_TypeDefinitionIndex = 37731;
 
 	class FogEmissiveMesh : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::MaterialPropertyBlock* _mpb; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FOGEMISSIVEMESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FOGEMISSIVEMESH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UpdateParameters()
@@ -31,5 +29,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FOGEMISSIVEMESH_START_OFFSET))(this);
 		}
+
 	};
 }

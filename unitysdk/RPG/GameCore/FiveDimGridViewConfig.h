@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimGridViewConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_METHOD_3_3659548039D2A080_OFFSET UNITYSDK_OFFSET(0x1D8651B0)
-#define RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_METHOD_3_6E67FEE663289395_OFFSET UNITYSDK_OFFSET(0x1D8651F0)
-#define RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8651E0)
+#define RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D696BA0)
+#define RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D696BB0)
+#define RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D696B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGridViewConfig_TypeDefinitionIndex = 18334;
+	inline static constexpr unsigned int FiveDimGridViewConfig_TypeDefinitionIndex = 18549;
 
 	class FiveDimGridViewConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsGridView; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 GridSizeX; // 0x14
 		::System::UInt32 GridSizeY; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3659548039D2A080(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGridViewConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimGridViewConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGridViewConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_METHOD_3_3659548039D2A080_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimGridViewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6E67FEE663289395(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGridViewConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimGridViewConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGridViewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_METHOD_3_6E67FEE663289395_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimGridViewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRIDVIEWCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

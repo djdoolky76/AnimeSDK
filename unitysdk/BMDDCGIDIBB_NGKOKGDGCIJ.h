@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BMDDCGIDIBB_DIMAABDMJBL.h"
+#include "unitysdk/BMDDCGIDIBB_NGKOKGDGCIJ_InboundStep.h"
+#include "unitysdk/RPG/Client/EPedestrianV2MotionState.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class BMDDCGIDIBB_DIMAABDMJBL;
+class PDIMNMMGAMA;
+
+#define BMDDCGIDIBB_NGKOKGDGCIJ_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xBD9D7B0)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_CHAHBFGGIDL_OFFSET UNITYSDK_OFFSET(0xBD9C3A0)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_CHJCBPNBNIE_OFFSET UNITYSDK_OFFSET(0xBD9D6C0)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBD9D940)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_DGOGIHDDKDG_OFFSET UNITYSDK_OFFSET(0xBD9C350)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_EAIGEGEGAEF_OFFSET UNITYSDK_OFFSET(0xBD9D3F0)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_EIJPOIHEOMC_OFFSET UNITYSDK_OFFSET(0xBD9C440)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_EONDOCCAHGP_OFFSET UNITYSDK_OFFSET(0xBD9D570)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_HDANFPANCNF_OFFSET UNITYSDK_OFFSET(0xBD9C290)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_IAKCEPJGNJC_OFFSET UNITYSDK_OFFSET(0xBD9D7C0)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xBD9BC70)
+#define BMDDCGIDIBB_NGKOKGDGCIJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBD9C4C0)
+
+inline static constexpr unsigned int BMDDCGIDIBB_NGKOKGDGCIJ_TypeDefinitionIndex = 69174;
+
+	class BMDDCGIDIBB_NGKOKGDGCIJ : public ::BMDDCGIDIBB_DIMAABDMJBL
+	{
+	public:
+		::BMDDCGIDIBB_NGKOKGDGCIJ_InboundStep EOMLMNOEKDJ; // 0x18
+		// static const ::System::Object BKGGNCBPLHA; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_CTOR_OFFSET))(this);
+		}
+
+		::System::Void KIGBILLGNOH(::BMDDCGIDIBB_DIMAABDMJBL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BMDDCGIDIBB_DIMAABDMJBL*))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_KIGBILLGNOH_OFFSET))(this, a1);
+		}
+
+		::System::Void CHAHBFGGIDL(::BMDDCGIDIBB_DIMAABDMJBL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BMDDCGIDIBB_DIMAABDMJBL*))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_CHAHBFGGIDL_OFFSET))(this, a1);
+		}
+
+		::System::Void PAGKOAEOLKA(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_PAGKOAEOLKA_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void DGOGIHDDKDG(::BMDDCGIDIBB_NGKOKGDGCIJ_InboundStep a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BMDDCGIDIBB_NGKOKGDGCIJ_InboundStep))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_DGOGIHDDKDG_OFFSET))(this, a1);
+		}
+
+		::System::Boolean EAIGEGEGAEF(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_EAIGEGEGAEF_OFFSET))(this, a1);
+		}
+
+		::System::Void EONDOCCAHGP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_EONDOCCAHGP_OFFSET))(this);
+		}
+
+		::System::Boolean CHJCBPNBNIE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_CHJCBPNBNIE_OFFSET))(this);
+		}
+
+		::RPG::Client::EPedestrianV2MotionState BGDKFHEBDFJ()
+		{
+			return ((::RPG::Client::EPedestrianV2MotionState(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_BGDKFHEBDFJ_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 IAKCEPJGNJC()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_IAKCEPJGNJC_OFFSET))(this);
+		}
+
+		::PDIMNMMGAMA* HDANFPANCNF()
+		{
+			return ((::PDIMNMMGAMA*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_HDANFPANCNF_OFFSET))(this);
+		}
+
+		::System::Void EIJPOIHEOMC(::PDIMNMMGAMA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PDIMNMMGAMA*))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_NGKOKGDGCIJ_EIJPOIHEOMC_OFFSET))(this, a1);
+		}
+
+	};

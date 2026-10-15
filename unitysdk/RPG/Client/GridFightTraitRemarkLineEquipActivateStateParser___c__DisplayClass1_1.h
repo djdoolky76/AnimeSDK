@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightNPC; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB10260)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1___GETISACTIVE_B__3_OFFSET UNITYSDK_OFFSET(0x1BB10270)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1___GETISACTIVE_B__4_OFFSET UNITYSDK_OFFSET(0x1BB102A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B7670)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1___GETISACTIVE_B__3_OFFSET UNITYSDK_OFFSET(0xD2B7680)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1___GETISACTIVE_B__4_OFFSET UNITYSDK_OFFSET(0xD2B76B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_1_TypeDefinitionIndex = 65549;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_1_TypeDefinitionIndex = 65489;
 
+	template <typename T>
 	class GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_1 : public ::System::Object
 	{
 	public:
 		::System::UInt32 equipID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __GetIsActive_b__3(::RPG::Client::GridFightRole* a1)
@@ -32,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_1___GETISACTIVE_B__4_OFFSET))(this, a1);
 		}
+
 	};
 }

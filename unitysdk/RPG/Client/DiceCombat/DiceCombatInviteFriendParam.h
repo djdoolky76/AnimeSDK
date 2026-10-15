@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client::DiceCombat { class DiceCombatInviteFriendParam; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x1C40D0B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_GET_UID_OFFSET UNITYSDK_OFFSET(0x1C40D140)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET UNITYSDK_OFFSET(0x1C40D150)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C40D130)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC20350)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC203D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_GET_UID_OFFSET UNITYSDK_OFFSET(0xCC203E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET UNITYSDK_OFFSET(0xCC203F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatInviteFriendParam_TypeDefinitionIndex = 75646;
+	inline static constexpr unsigned int DiceCombatInviteFriendParam_TypeDefinitionIndex = 76123;
 
 	class DiceCombatInviteFriendParam : public ::System::Object
 	{
 	public:
 		::System::UInt32 _UID_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::DiceCombat::DiceCombatInviteFriendParam* Create(::System::UInt32 a1)
@@ -35,5 +35,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D15E3A0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D15E3D0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A730)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15E2B0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x167393F0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x16739300)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16739420)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16735750)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_Cancel2FingersHandler_TypeDefinitionIndex = 38993;
+	inline static constexpr unsigned int EasyTouch_Cancel2FingersHandler_TypeDefinitionIndex = 40290;
 
 	class EasyTouch_Cancel2FingersHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_CANCEL2FINGERSHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

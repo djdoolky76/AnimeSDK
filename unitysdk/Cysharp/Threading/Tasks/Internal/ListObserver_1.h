@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class ImmutableList_1; }
-namespace System { class Exception; }
 namespace System { template <typename T> class IObserver_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ListObserver_1_TypeDefinitionIndex = 43112;
+	inline static constexpr unsigned int ListObserver_1_TypeDefinitionIndex = 38697;
 
 	template <typename T>
 	class ListObserver_1 : public ::System::Object

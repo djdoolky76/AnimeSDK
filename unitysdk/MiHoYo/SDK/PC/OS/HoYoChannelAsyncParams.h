@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELASYNCPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2736B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELASYNCPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF6E10)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAsyncParams_TypeDefinitionIndex = 8527;
+	inline static constexpr unsigned int HoYoChannelAsyncParams_TypeDefinitionIndex = 8587;
 
 	class HoYoChannelAsyncParams : public ::System::Object
 	{
 	public:
 		::System::String* requestId; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELASYNCPARAMS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELASYNCPARAMS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,31 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINEINTERNAL_MATHFINTERNAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EED82B0)
+#define UNITYENGINEINTERNAL_MATHFINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F414190)
 
 namespace UnityEngineInternal
 {
-	inline static constexpr unsigned int MathfInternal_TypeDefinitionIndex = 3917;
+	inline static constexpr unsigned int MathfInternal_TypeDefinitionIndex = 3918;
 
-	struct alignas(1) MathfInternal
+	struct alignas(4) MathfInternal
 	{
 		static ::System::Boolean* StaticGet_IsFlushToZeroEnabled()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x79F0);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3A50);
 		}
-		static ::System::Single* StaticGet_FloatMinDenormal()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x79F4);
-		}
+
 		static ::System::Single* StaticGet_FloatMinNormal()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x79F8);
+			return (::System::Single*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3A54);
+		}
+
+		static ::System::Single* StaticGet_FloatMinDenormal()
+		{
+			return (::System::Single*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3A58);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_MATHFINTERNAL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_MATHFINTERNAL_CCTOR_OFFSET))();
 		}
+
 	};
 }

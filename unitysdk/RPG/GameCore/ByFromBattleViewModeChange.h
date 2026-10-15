@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByFromBattleViewModeChange; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_2C594AE0A6BCDF01_OFFSET UNITYSDK_OFFSET(0x1BBD94A0)
-#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_B1D2B36CCD15BCF5_OFFSET UNITYSDK_OFFSET(0x1BBD9650)
-#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_D6C40DE65DEEA54A_OFFSET UNITYSDK_OFFSET(0x1BBD94E0)
-#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_E497AFC5DB920274_OFFSET UNITYSDK_OFFSET(0x1BBD9620)
-#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD94D0)
+#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C5600)
+#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4C5780)
+#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4C5750)
+#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4C5610)
+#define RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4C55D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByFromBattleViewModeChange_TypeDefinitionIndex = 22175;
+	inline static constexpr unsigned int ByFromBattleViewModeChange_TypeDefinitionIndex = 22424;
 
 	class ByFromBattleViewModeChange : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2C594AE0A6BCDF01(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByFromBattleViewModeChange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByFromBattleViewModeChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByFromBattleViewModeChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_2C594AE0A6BCDF01_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByFromBattleViewModeChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D6C40DE65DEEA54A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByFromBattleViewModeChange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByFromBattleViewModeChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByFromBattleViewModeChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_D6C40DE65DEEA54A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByFromBattleViewModeChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E497AFC5DB920274(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByFromBattleViewModeChange*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByFromBattleViewModeChange* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByFromBattleViewModeChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_E497AFC5DB920274_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByFromBattleViewModeChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B1D2B36CCD15BCF5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByFromBattleViewModeChange* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByFromBattleViewModeChange* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByFromBattleViewModeChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_METHOD_4_B1D2B36CCD15BCF5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByFromBattleViewModeChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYFROMBATTLEVIEWMODECHANGE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

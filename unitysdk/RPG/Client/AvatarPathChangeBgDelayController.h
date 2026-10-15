@@ -3,19 +3,18 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineBrain; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_METHOD_5_515934F910E07F75_OFFSET UNITYSDK_OFFSET(0x19EC0CF0)
-#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19EC0BF0)
-#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19EC0AF0)
-#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19EC0840)
-#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC11F0)
+#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC700350)
+#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_KPNGPAMGMDI_OFFSET UNITYSDK_OFFSET(0xC6FFE50)
+#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC6FFD50)
+#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC6FFC50)
+#define RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC6FF9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeBgDelayController_TypeDefinitionIndex = 71294;
+	inline static constexpr unsigned int AvatarPathChangeBgDelayController_TypeDefinitionIndex = 71332;
 
 	class AvatarPathChangeBgDelayController : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,12 +23,12 @@ namespace RPG::Client
 		::System::Single BgMoveRatio; // 0x20
 		::UnityEngine::Vector3 DFEMLLMOHMP; // 0x24
 		::System::Single IKKNJMJCDOJ; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* NKCMKABAAJI; // 0x38
 		::UnityEngine::Quaternion HGNJLAJAINK; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -47,9 +46,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_515934F910E07F75(::Cinemachine::CinemachineBrain* a1)
+		::System::Void KPNGPAMGMDI(::Cinemachine::CinemachineBrain* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_METHOD_5_515934F910E07F75_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGEBGDELAYCONTROLLER_KPNGPAMGMDI_OFFSET))(this, a1);
 		}
+
 	};
 }

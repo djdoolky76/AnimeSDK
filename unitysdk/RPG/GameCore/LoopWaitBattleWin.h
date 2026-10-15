@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoopWaitBattleWin; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_500D6F18D5E67AFE_OFFSET UNITYSDK_OFFSET(0x1D48ADF0)
-#define RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_57154503742D0EBA_OFFSET UNITYSDK_OFFSET(0x1D48AE40)
-#define RPG_GAMECORE_LOOPWAITBATTLEWIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48AE30)
+#define RPG_GAMECORE_LOOPWAITBATTLEWIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C8C10)
+#define RPG_GAMECORE_LOOPWAITBATTLEWIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C8C20)
+#define RPG_GAMECORE_LOOPWAITBATTLEWIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C8BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitBattleWin_TypeDefinitionIndex = 20931;
+	inline static constexpr unsigned int LoopWaitBattleWin_TypeDefinitionIndex = 21177;
 
 	class LoopWaitBattleWin : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_500D6F18D5E67AFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBattleWin*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitBattleWin* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitBattleWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_500D6F18D5E67AFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitBattleWin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_57154503742D0EBA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBattleWin* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitBattleWin* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitBattleWin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_57154503742D0EBA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitBattleWin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

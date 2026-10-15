@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceMonoView.h"
-
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCellWrapperMonoView; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_GET_WRAPPER_OFFSET UNITYSDK_OFFSET(0x1C4C9250)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_SETWRAPPER_OFFSET UNITYSDK_OFFSET(0x1C4C9270)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_SET_WRAPPER_OFFSET UNITYSDK_OFFSET(0x1C4C9260)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C92C0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD3FA8A0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_GET_WRAPPER_OFFSET UNITYSDK_OFFSET(0xD3FA830)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_SETWRAPPER_OFFSET UNITYSDK_OFFSET(0xD3FA850)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_SET_WRAPPER_OFFSET UNITYSDK_OFFSET(0xD3FA840)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCellMonoView_TypeDefinitionIndex = 77679;
+	inline static constexpr unsigned int CakeRaceCellMonoView_TypeDefinitionIndex = 78150;
 
 	class CakeRaceCellMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{
 	public:
 		::RPG::Client::LittleGame::CakeRace::CakeRaceCellWrapperMonoView* _Wrapper_k__BackingField; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::LittleGame::CakeRace::CakeRaceCellWrapperMonoView* get_Wrapper()
@@ -37,5 +35,6 @@ namespace RPG::Client::LittleGame::CakeRace
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::CakeRace::CakeRaceCellWrapperMonoView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECELLMONOVIEW_SETWRAPPER_OFFSET))(this, a1);
 		}
+
 	};
 }

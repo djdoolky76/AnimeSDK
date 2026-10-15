@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections { class ICollection; }
 namespace System::ComponentModel::Design { class ITypeDescriptorFilterService; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1AB242E0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB242F0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5850)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EFD5840)
 
 namespace System::ComponentModel
 {
@@ -15,17 +14,17 @@ namespace System::ComponentModel
 	class TypeDescriptor_FilterCacheItem : public ::System::Object
 	{
 	public:
-		::System::ComponentModel::Design::ITypeDescriptorFilterService* _filterService; // 0x10
-		::System::Collections::ICollection* FilteredMembers; // 0x18
-
+		::System::Collections::ICollection* FilteredMembers; // 0x10
+		::System::ComponentModel::Design::ITypeDescriptorFilterService* _filterService; // 0x18
 		::System::Void _ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* a1, ::System::Collections::ICollection* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::Design::ITypeDescriptorFilterService*, ::System::Collections::ICollection*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::Design::ITypeDescriptorFilterService*, ::System::Collections::ICollection*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsValid(::System::ComponentModel::Design::ITypeDescriptorFilterService* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::ComponentModel::Design::ITypeDescriptorFilterService*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_ISVALID_OFFSET))(this, a1);
 		}
+
 	};
 }

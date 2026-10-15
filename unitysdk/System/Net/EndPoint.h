@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Sockets/AddressFamily.h"
 #include "unitysdk/System/Object.h"
-
+namespace System::Net { class EndPoint; }
 namespace System::Net { class SocketAddress; }
 
-#define SYSTEM_NET_ENDPOINT_CREATE_OFFSET UNITYSDK_OFFSET(0x1B012D70)
-#define SYSTEM_NET_ENDPOINT_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x1B012B90)
-#define SYSTEM_NET_ENDPOINT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B012C80)
-#define SYSTEM_NET_ENDPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B012DC0)
+#define SYSTEM_NET_ENDPOINT_CREATE_OFFSET UNITYSDK_OFFSET(0x1F0094D0)
+#define SYSTEM_NET_ENDPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F009520)
+#define SYSTEM_NET_ENDPOINT_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x1F0092F0)
+#define SYSTEM_NET_ENDPOINT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F0093E0)
 
 namespace System::Net
 {
@@ -19,7 +19,7 @@ namespace System::Net
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINT_CTOR_OFFSET))(this);
 		}
 
 		::System::Net::Sockets::AddressFamily get_AddressFamily()
@@ -36,5 +36,6 @@ namespace System::Net
 		{
 			return ((::System::Net::EndPoint*(*)(::PVOID, ::System::Net::SocketAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINT_CREATE_OFFSET))(this, a1);
 		}
+
 	};
 }

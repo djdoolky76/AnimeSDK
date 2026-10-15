@@ -2,30 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PreloadGroupType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PreloadItemScoreRecordChildTask; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK_METHOD_2_BFE1D6F30F26580A_OFFSET UNITYSDK_OFFSET(0x1D16E4C0)
-#define RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16E610)
+#define RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D912470)
+#define RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItemScoreRecordChildTask_TypeDefinitionIndex = 16201;
+	inline static constexpr unsigned int PreloadItemScoreRecordChildTask_TypeDefinitionIndex = 16374;
 
 	class PreloadItemScoreRecordChildTask : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::PreloadGroupType RecordType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::UInt32>* RecordIds; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BFE1D6F30F26580A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadItemScoreRecordChildTask*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PreloadItemScoreRecordChildTask* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PreloadItemScoreRecordChildTask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK_METHOD_2_BFE1D6F30F26580A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PreloadItemScoreRecordChildTask*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEMSCORERECORDCHILDTASK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

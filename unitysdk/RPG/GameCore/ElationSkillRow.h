@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ElationSkillRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB26580)
-#define RPG_GAMECORE_ELATIONSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB26C60)
+#define RPG_GAMECORE_ELATIONSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D605E50)
+#define RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6057D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13113;
+	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13219;
 
 	class ElationSkillRow : public ::System::Object
 	{
 	public:
-		::System::Int32 PriorityValue; // 0x10
-		::System::UInt32 ElationSkillID; // 0x14
-
+		::System::UInt32 ElationSkillID; // 0x10
+		::System::Int32 PriorityValue; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationSkillRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElationSkillRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElationSkillRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

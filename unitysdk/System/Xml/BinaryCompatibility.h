@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x1BABAEA0)
-#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x1BABAF00)
-#define SYSTEM_XML_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BABB270)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE65B30)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x1EE65760)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x1EE657C0)
 
 namespace System::Xml
 {
@@ -17,12 +16,12 @@ namespace System::Xml
 	public:
 		static ::System::Boolean* StaticGet__targetsAtLeast_Desktop_V4_5_2()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x9180);
+			return (::System::Boolean*)UnitySDK::FromName("System.Xml", "BinaryCompatibility")->GetStaticField(0x9480);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_BINARYCOMPATIBILITY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_BINARYCOMPATIBILITY_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean get_TargetsAtLeast_Desktop_V4_5_2()
@@ -34,5 +33,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET))(a1);
 		}
+
 	};
 }

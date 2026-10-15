@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB6DAE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AB76FA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1AB6C080)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB76E60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1BFA70)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C1C8F20)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C1BE010)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C8DE0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -20,22 +20,23 @@ namespace System::Diagnostics::Tracing
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION__CTOR_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEEXCEPTION_CTOR_3_OFFSET))(this, a1);
 		}
+
 	};
 }

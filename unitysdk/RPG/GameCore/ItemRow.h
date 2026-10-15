@@ -8,49 +8,50 @@
 #include "unitysdk/RPG/GameCore/ItemUseMethod.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConfig; }
+namespace RPG::GameCore { class ItemRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D22C510)
-#define RPG_GAMECORE_ITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D22CC70)
-#define RPG_GAMECORE_ITEMROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D232190)
-#define RPG_GAMECORE_ITEMROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D2321F0)
-#define RPG_GAMECORE_ITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D232220)
+#define RPG_GAMECORE_ITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76EF10)
+#define RPG_GAMECORE_ITEMROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D7691A0)
+#define RPG_GAMECORE_ITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D769910)
+#define RPG_GAMECORE_ITEMROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D76EE70)
+#define RPG_GAMECORE_ITEMROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D76EED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemRow_TypeDefinitionIndex = 13754;
+	inline static constexpr unsigned int ItemRow_TypeDefinitionIndex = 13861;
 
 	class ItemRow : public ::System::Object
 	{
 	public:
 		::System::String* ItemCurrencyIconPath; // 0x10
 		::System::String* ItemIconPath; // 0x18
-		::Il2CppArray<::System::UInt32>* CustomDataList; // 0x20
-		::System::String* ItemAvatarIconPath; // 0x28
-		::System::String* ItemFigureIconPath; // 0x30
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ReturnItemIDList; // 0x38
-		::System::UInt32 InventoryDisplayTag; // 0x40
-		::RPG::GameCore::ItemMainType ItemMainType; // 0x44
-		::RPG::Client::TextID ItemName; // 0x48
-		::System::UInt32 ItemGroup; // 0x58
-		::System::UInt32 PileLimit; // 0x5C
-		::System::UInt32 ID; // 0x60
-		::RPG::GameCore::ItemRarity Rarity; // 0x64
-		::System::Boolean isVisible; // 0x68
-		::System::Boolean IsShowRedDot; // 0x69
-		::System::UInt32 PurposeType; // 0x6C
-		::RPG::GameCore::ItemSellType SellType; // 0x70
-		::RPG::GameCore::ItemUseMethod UseMethod; // 0x74
-		::RPG::GameCore::ItemSubType ItemSubType; // 0x78
-		::RPG::Client::TextID ItemDesc; // 0x80
-		::RPG::Client::TextID ItemBGDesc; // 0x90
-
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ReturnItemIDList; // 0x20
+		::System::String* ItemFigureIconPath; // 0x28
+		::System::String* ItemAvatarIconPath; // 0x30
+		::Il2CppArray<::System::UInt32>* CustomDataList; // 0x38
+		::RPG::GameCore::ItemMainType ItemMainType; // 0x40
+		::RPG::GameCore::ItemRarity Rarity; // 0x44
+		::System::UInt32 PileLimit; // 0x48
+		::System::Boolean isVisible; // 0x4C
+		::System::Boolean IsShowRedDot; // 0x4D
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::ItemSubType ItemSubType; // 0x50
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID ItemDesc; // 0x58
+		::RPG::Client::TextID ItemName; // 0x68
+		::System::UInt32 InventoryDisplayTag; // 0x78
+		::System::UInt32 ItemGroup; // 0x7C
+		::RPG::Client::TextID ItemBGDesc; // 0x80
+		::System::UInt32 ID; // 0x90
+		::System::UInt32 PurposeType; // 0x94
+		::RPG::GameCore::ItemSellType SellType; // 0x98
+		::RPG::GameCore::ItemUseMethod UseMethod; // 0x9C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
@@ -63,14 +64,15 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ItemRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::ItemRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ItemRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ItemRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ItemRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

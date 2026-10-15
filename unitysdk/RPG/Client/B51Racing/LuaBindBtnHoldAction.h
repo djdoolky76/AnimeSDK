@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
@@ -9,21 +8,21 @@ namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF000)
-#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF050)
-#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CEFD0)
-#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CEEE0)
+#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1BD0)
+#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B1AB0)
+#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1C20)
+#define RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1BA0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int LuaBindBtnHoldAction_TypeDefinitionIndex = 80427;
+	inline static constexpr unsigned int LuaBindBtnHoldAction_TypeDefinitionIndex = 81755;
 
 	class LuaBindBtnHoldAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::XLua::LuaTable* a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::System::Action* a4)
@@ -40,5 +39,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDBTNHOLDACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

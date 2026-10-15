@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/NullableMethodCallInstruction.h"
-
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF3EC40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET UNITYSDK_OFFSET(0x1DF3EC50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3EB00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF4070)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF41B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET UNITYSDK_OFFSET(0x1EDF41C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NullableMethodCallInstruction_EqualsClass_TypeDefinitionIndex = 3648;
+	inline static constexpr unsigned int NullableMethodCallInstruction_EqualsClass_TypeDefinitionIndex = 3649;
 
 	class NullableMethodCallInstruction_EqualsClass : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -29,5 +28,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

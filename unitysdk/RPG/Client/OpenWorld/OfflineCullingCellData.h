@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
+#include "unitysdk/UnityEngine/Bounds.h"
 namespace RPG::Client::OpenWorld { class OfflineCullingCellSerializeData; }
 namespace RPG::Client::OpenWorld { class OfflineCullingCellSubData; }
 namespace RPG::GameCore { class OfflineCullingIndex; }
@@ -10,49 +9,49 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_CELLBOUND_OFFSET UNITYSDK_OFFSET(0x191E00B0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_CELLSIZE_OFFSET UNITYSDK_OFFSET(0x191E0070)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_CELLSUBDATA_OFFSET UNITYSDK_OFFSET(0x191E0030)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x191E0150)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_LIGHTVISIBILITYDATA_OFFSET UNITYSDK_OFFSET(0x191E0190)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_USECOMPRESSION_OFFSET UNITYSDK_OFFSET(0x191E0110)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_02B8FAA3BE7582C4_OFFSET UNITYSDK_OFFSET(0x191E02C0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_1FCC3BCBD5E9F995_OFFSET UNITYSDK_OFFSET(0x191E01D0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_595E641DF1B4387D_OFFSET UNITYSDK_OFFSET(0x191E0370)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_9390D296E70A7430_OFFSET UNITYSDK_OFFSET(0x191E04C0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_F8F4A6517C8F0D4E_OFFSET UNITYSDK_OFFSET(0x191E12F0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_CELLBOUND_OFFSET UNITYSDK_OFFSET(0x191E00E0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_CELLSIZE_OFFSET UNITYSDK_OFFSET(0x191E0090)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_CELLSUBDATA_OFFSET UNITYSDK_OFFSET(0x191E0050)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x191E0170)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_LIGHTVISIBILITYDATA_OFFSET UNITYSDK_OFFSET(0x191E01B0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_USECOMPRESSION_OFFSET UNITYSDK_OFFSET(0x191E0130)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x191E14B0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191E1460)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0xD9F3F10)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9F5050)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD9F5000)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_DPPDABEPIJF_OFFSET UNITYSDK_OFFSET(0xD9F4E90)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_CELLBOUND_OFFSET UNITYSDK_OFFSET(0xD9F3C50)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_CELLSIZE_OFFSET UNITYSDK_OFFSET(0xD9F3C10)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_CELLSUBDATA_OFFSET UNITYSDK_OFFSET(0xD9F3BD0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xD9F3CF0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_LIGHTVISIBILITYDATA_OFFSET UNITYSDK_OFFSET(0xD9F3D30)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_GET_USECOMPRESSION_OFFSET UNITYSDK_OFFSET(0xD9F3CB0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_HFGAKMOEBCB_OFFSET UNITYSDK_OFFSET(0xD9F4060)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_JJHDOBJAAIH_OFFSET UNITYSDK_OFFSET(0xD9F3D70)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_PMJJDOCILAC_OFFSET UNITYSDK_OFFSET(0xD9F3E60)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_CELLBOUND_OFFSET UNITYSDK_OFFSET(0xD9F3C80)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_CELLSIZE_OFFSET UNITYSDK_OFFSET(0xD9F3C30)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_CELLSUBDATA_OFFSET UNITYSDK_OFFSET(0xD9F3BF0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xD9F3D10)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_LIGHTVISIBILITYDATA_OFFSET UNITYSDK_OFFSET(0xD9F3D50)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_USECOMPRESSION_OFFSET UNITYSDK_OFFSET(0xD9F3CD0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OfflineCullingCellData_TypeDefinitionIndex = 73650;
+	inline static constexpr unsigned int OfflineCullingCellData_TypeDefinitionIndex = 73757;
 
 	class OfflineCullingCellData : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::System::Int32* StaticGet_PartitionMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OfflineCullingCellData_TypeDefinitionIndex)->GetStaticField(0x10D00);
-		}
 		::RPG::Client::OpenWorld::OfflineCullingCellSerializeData* SelfData; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::OfflineCullingCellSerializeData*>* ChildData; // 0x20
 		::RPG::GameCore::OfflineCullingIndex* SelfIndex; // 0x28
+		static ::System::Int32* StaticGet_PartitionMask()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OfflineCullingCellData")->GetStaticField(0x2980);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_CCTOR_OFFSET))();
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::OfflineCullingCellSubData*>* get_CellSubData()
@@ -115,29 +114,30 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_SET_LIGHTVISIBILITYDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::OpenWorld::OfflineCullingCellSerializeData* Method_3_1FCC3BCBD5E9F995()
+		::RPG::Client::OpenWorld::OfflineCullingCellSerializeData* JJHDOBJAAIH()
 		{
-			return ((::RPG::Client::OpenWorld::OfflineCullingCellSerializeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_1FCC3BCBD5E9F995_OFFSET))(this);
+			return ((::RPG::Client::OpenWorld::OfflineCullingCellSerializeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_JJHDOBJAAIH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_02B8FAA3BE7582C4(::RPG::Client::OpenWorld::OfflineCullingCellSerializeData* a1)
+		::System::Void PMJJDOCILAC(::RPG::Client::OpenWorld::OfflineCullingCellSerializeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::OfflineCullingCellSerializeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_02B8FAA3BE7582C4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::OfflineCullingCellSerializeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_PMJJDOCILAC_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_595E641DF1B4387D()
+		::System::Boolean BPDIGKDIJKN()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_595E641DF1B4387D_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_BPDIGKDIJKN_OFFSET))(this);
 		}
 
-		::System::Void Method_3_9390D296E70A7430(::System::Int32 a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4)
+		::System::Void HFGAKMOEBCB(::System::Int32 a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_9390D296E70A7430_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_HFGAKMOEBCB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_3_F8F4A6517C8F0D4E(::System::Collections::Generic::List_1<::System::Single>* a1, ::System::Single a2)
+		::System::Void DPPDABEPIJF(::System::Collections::Generic::List_1<::System::Single>* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_METHOD_3_F8F4A6517C8F0D4E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLDATA_DPPDABEPIJF_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

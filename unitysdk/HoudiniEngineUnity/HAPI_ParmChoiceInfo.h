@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ParmChoiceInfo_TypeDefinitionIndex = 39203;
+	inline static constexpr unsigned int HAPI_ParmChoiceInfo_TypeDefinitionIndex = 40500;
 
 	struct alignas(4) HAPI_ParmChoiceInfo
 	{

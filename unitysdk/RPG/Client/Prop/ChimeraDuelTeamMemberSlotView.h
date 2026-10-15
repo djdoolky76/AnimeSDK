@@ -3,38 +3,36 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_MotionConfig; }
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstanceView; }
-namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023; }
+namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView_FOBDABJMCKM; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_0E077E62EF2EFC16_OFFSET UNITYSDK_OFFSET(0x1A8E6A60)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_5AFB73477BDE8482_OFFSET UNITYSDK_OFFSET(0x1A8E6480)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_7619D212F4D762A1_OFFSET UNITYSDK_OFFSET(0x1A8E6B00)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x1A8E67C0)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_B28695407764C700_OFFSET UNITYSDK_OFFSET(0x1A8E68B0)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A8E6AB0)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E6D80)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6B380)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_DDAIPBEGPJE_OFFSET UNITYSDK_OFFSET(0xDC6B100)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_EPCCCIKOHJI_OFFSET UNITYSDK_OFFSET(0xDC64250)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_GMFPJBHDMJF_OFFSET UNITYSDK_OFFSET(0xDC6AE10)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_IEFINBICOGM_OFFSET UNITYSDK_OFFSET(0xDC6AF00)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0xDC6AAD0)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xDC6B0B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_TypeDefinitionIndex = 77888;
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_TypeDefinitionIndex = 78359;
 
 	class ChimeraDuelTeamMemberSlotView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023* EPKIDMNCGAA; // 0x18
+		::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView_FOBDABJMCKM* EPKIDMNCGAA; // 0x18
 		::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig* CMKFBCIKJIC; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0E077E62EF2EFC16(::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig* a1)
+		::System::Void EPCCCIKOHJI(::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_0E077E62EF2EFC16_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_EPCCCIKOHJI_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -42,24 +40,25 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_UPDATE_OFFSET))(this);
 		}
 
-		::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView* Method_5_5AFB73477BDE8482()
+		::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView* KEBEIGGJIPA()
 		{
-			return ((::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_5AFB73477BDE8482_OFFSET))(this);
+			return ((::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_KEBEIGGJIPA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B28695407764C700(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Action* a3)
+		::System::Void IEFINBICOGM(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_B28695407764C700_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_IEFINBICOGM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_7619D212F4D762A1(::System::Single a1)
+		::System::Void DDAIPBEGPJE(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_7619D212F4D762A1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_DDAIPBEGPJE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_A1ADC999CFACEB89()
+		::System::Void GMFPJBHDMJF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_METHOD_5_A1ADC999CFACEB89_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_GMFPJBHDMJF_OFFSET))(this);
 		}
+
 	};
 }

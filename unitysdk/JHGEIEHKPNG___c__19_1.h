@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class LongPressEvent; }
+namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+
+inline static constexpr unsigned int JHGEIEHKPNG___c__19_1_TypeDefinitionIndex = 49889;
+
+	template <typename T>
+	class JHGEIEHKPNG___c__19_1 : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c__19`1")->GetStaticField(0x0);
+		}
+
+		static ::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction_1<::System::Single>*>** StaticGet___9__19_0()
+		{
+			return (::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction_1<::System::Single>*>**)UnitySDK::FromName("", "<>c__19`1")->GetStaticField(0x0);
+		}
+
+		static ::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction_1<::System::Single>*>** StaticGet___9__19_1()
+		{
+			return (::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction_1<::System::Single>*>**)UnitySDK::FromName("", "<>c__19`1")->GetStaticField(0x0);
+		}
+
+	};

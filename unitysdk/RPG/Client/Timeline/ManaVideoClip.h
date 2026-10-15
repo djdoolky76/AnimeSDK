@@ -1,58 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Timeline/ManaVideoClip_Struct_2_521121E86E6D773E.h"
-#include "unitysdk/Struct_2_BDD5FBBF6DBFFD8D.h"
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/IGCLGKCKACE.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace CriWare::CriMana { class MovieInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x197AE1F0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x197AE1E0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x197AE2E0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_ISMOVIEINFOREADY_OFFSET UNITYSDK_OFFSET(0x197AEA40)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_M_MOVIEPATH_OFFSET UNITYSDK_OFFSET(0x197ADF40)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_1E5FDA0F83BB7E46_OFFSET UNITYSDK_OFFSET(0x197AE8C0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_343AEE905EA1B6E3_OFFSET UNITYSDK_OFFSET(0x197AEA90)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_3C5D39652970A749_OFFSET UNITYSDK_OFFSET(0x197AE580)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x197ADFA0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_4F1F4CA10BA8F619_OFFSET UNITYSDK_OFFSET(0x197AE340)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_B3D8593DFBC7CE8E_OFFSET UNITYSDK_OFFSET(0x197AE810)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_SET_M_MOVIEPATH_OFFSET UNITYSDK_OFFSET(0x197AE1D0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x197AEC10)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_AAGOLMDGEBN_OFFSET UNITYSDK_OFFSET(0xE29A5D0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_AOFMBOMAPIM_OFFSET UNITYSDK_OFFSET(0xE299AE0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CALPFMELCJI_OFFSET UNITYSDK_OFFSET(0xE29A350)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CEOOBLCFDFA_OFFSET UNITYSDK_OFFSET(0xE299E80)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE299D30)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE29A750)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_DEGFCFFKFOI_OFFSET UNITYSDK_OFFSET(0xE29A400)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE299D20)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE299E20)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_ISMOVIEINFOREADY_OFFSET UNITYSDK_OFFSET(0xE29A580)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_M_MOVIEPATH_OFFSET UNITYSDK_OFFSET(0xE299A80)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GHIBPKDKMML_OFFSET UNITYSDK_OFFSET(0xE29A0C0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_SET_M_MOVIEPATH_OFFSET UNITYSDK_OFFSET(0xE299D10)
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoClip_TypeDefinitionIndex = 73250;
+	inline static constexpr unsigned int ManaVideoClip_TypeDefinitionIndex = 73346;
 
 	class ManaVideoClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Guid guid; // 0x18
 		::System::UInt32 m_videoID; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* _moviePath; // 0x30
 		::System::Boolean m_loopWithinClip; // 0x38
+		::System::Byte _padding1[0x7];
 		::System::Double m_movieFrameRate; // 0x40
 		::System::Double m_clipDuration; // 0x48
 		::System::Single m_fadeinDuration; // 0x50
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* m_fadeinCurve; // 0x58
 		::System::Single m_fadeoutDuration; // 0x60
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* m_fadeoutCurve; // 0x68
 		::System::Boolean m_fadeAudio; // 0x70
+		::System::Byte _padding4[0x7];
 		::UnityEngine::Timeline::TimelineClip* m_clip; // 0x78
-		::System::Nullable_1<::RPG::Client::Timeline::ManaVideoClip_Struct_2_521121E86E6D773E> m_movieInfoStruct; // 0x80
-
+		::System::Nullable_1<::System::Object*> m_movieInfoStruct; // 0x80
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_m_moviePath()
@@ -80,19 +83,19 @@ namespace RPG::Client::Timeline
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_DURATION_OFFSET))(this);
 		}
 
-		::Struct_2_BDD5FBBF6DBFFD8D Method_4_4F1F4CA10BA8F619()
+		::IGCLGKCKACE CEOOBLCFDFA()
 		{
-			return ((::Struct_2_BDD5FBBF6DBFFD8D(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_4F1F4CA10BA8F619_OFFSET))(this);
+			return ((::IGCLGKCKACE(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CEOOBLCFDFA_OFFSET))(this);
 		}
 
-		::System::Void Method_4_3C5D39652970A749(::CriWare::CriMana::MovieInfo* a1)
+		::System::Void GHIBPKDKMML(::CriWare::CriMana::MovieInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_3C5D39652970A749_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GHIBPKDKMML_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_4_1E5FDA0F83BB7E46(::CriWare::CriMana::MovieInfo* a1)
+		::System::Boolean DEGFCFFKFOI(::CriWare::CriMana::MovieInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_1E5FDA0F83BB7E46_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_DEGFCFFKFOI_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMovieInfoReady()
@@ -100,19 +103,20 @@ namespace RPG::Client::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_GET_ISMOVIEINFOREADY_OFFSET))(this);
 		}
 
-		::System::Int32 Method_4_343AEE905EA1B6E3(::System::Double a1, ::System::Boolean a2)
+		::System::Int32 AAGOLMDGEBN(::System::Double a1, ::System::Boolean a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_343AEE905EA1B6E3_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_AAGOLMDGEBN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable_1<::RPG::Client::Timeline::ManaVideoClip_Struct_2_521121E86E6D773E> Method_4_B3D8593DFBC7CE8E(::CriWare::CriMana::MovieInfo* a1)
+		::System::Nullable_1<::System::Object*> CALPFMELCJI(::CriWare::CriMana::MovieInfo* a1)
 		{
-			return ((::System::Nullable_1<::RPG::Client::Timeline::ManaVideoClip_Struct_2_521121E86E6D773E>(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_B3D8593DFBC7CE8E_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CALPFMELCJI_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_4307B2A4B4A12C1A()
+		::System::Void AOFMBOMAPIM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_METHOD_4_4307B2A4B4A12C1A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_AOFMBOMAPIM_OFFSET))(this);
 		}
+
 	};
 }

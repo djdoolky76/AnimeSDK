@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SwordTrainingEnterGame; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SWORDTRAININGENTERGAME_METHOD_3_DD91AAEA9E0B3B49_OFFSET UNITYSDK_OFFSET(0x1E1562B0)
-#define RPG_GAMECORE_SWORDTRAININGENTERGAME_METHOD_3_F18AE3C5EA4A534A_OFFSET UNITYSDK_OFFSET(0x1E156270)
-#define RPG_GAMECORE_SWORDTRAININGENTERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1562A0)
+#define RPG_GAMECORE_SWORDTRAININGENTERGAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1BEB0)
+#define RPG_GAMECORE_SWORDTRAININGENTERGAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1BEC0)
+#define RPG_GAMECORE_SWORDTRAININGENTERGAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1BE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingEnterGame_TypeDefinitionIndex = 20092;
+	inline static constexpr unsigned int SwordTrainingEnterGame_TypeDefinitionIndex = 20329;
 
 	class SwordTrainingEnterGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 StoryID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENTERGAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENTERGAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F18AE3C5EA4A534A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingEnterGame*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwordTrainingEnterGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingEnterGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENTERGAME_METHOD_3_F18AE3C5EA4A534A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwordTrainingEnterGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENTERGAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DD91AAEA9E0B3B49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingEnterGame* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwordTrainingEnterGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingEnterGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENTERGAME_METHOD_3_DD91AAEA9E0B3B49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwordTrainingEnterGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENTERGAME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

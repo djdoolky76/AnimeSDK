@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::CustomRP { class CRPProbe; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CUSTOMRP_PROBERENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3AE1950)
-#define RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET UNITYSDK_OFFSET(0x3AE1990)
-#define RPG_CUSTOMRP_PROBERENDERDATA_SET_OFFSET UNITYSDK_OFFSET(0x3AE1980)
+#define RPG_CUSTOMRP_PROBERENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3C35BE0)
+#define RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET UNITYSDK_OFFSET(0x3C35C20)
+#define RPG_CUSTOMRP_PROBERENDERDATA_SET_OFFSET UNITYSDK_OFFSET(0x3C35C10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ProbeRenderData_TypeDefinitionIndex = 36994;
+	inline static constexpr unsigned int ProbeRenderData_TypeDefinitionIndex = 37679;
 
 	struct alignas(8) ProbeRenderData
 	{
@@ -24,8 +22,8 @@ namespace RPG::CustomRP
 		::UnityEngine::Vector4 probeParam; // 0xA8
 		::UnityEngine::Texture* ramp; // 0xB8
 		::System::Boolean isBoxProj; // 0xC0
+		::System::Byte _padding0[0x7];
 		::RPG::CustomRP::CRPProbe* probeRef; // 0xC8
-
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_RESET_OFFSET))(this);
@@ -40,5 +38,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPProbe*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

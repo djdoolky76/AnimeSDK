@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ConvinceWaitAllTurnFinish; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_METHOD_3_1B95EB620359E3D1_OFFSET UNITYSDK_OFFSET(0x1D9BB1A0)
-#define RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_METHOD_3_76ABF7FAF82DED94_OFFSET UNITYSDK_OFFSET(0x1D9BB270)
-#define RPG_GAMECORE_CONVINCEWAITALLTURNFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BB260)
+#define RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B2230)
+#define RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B2240)
+#define RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B2170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceWaitAllTurnFinish_TypeDefinitionIndex = 21594;
+	inline static constexpr unsigned int ConvinceWaitAllTurnFinish_TypeDefinitionIndex = 21842;
 
 	class ConvinceWaitAllTurnFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITALLTURNFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1B95EB620359E3D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceWaitAllTurnFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConvinceWaitAllTurnFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceWaitAllTurnFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_METHOD_3_1B95EB620359E3D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConvinceWaitAllTurnFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76ABF7FAF82DED94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceWaitAllTurnFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConvinceWaitAllTurnFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceWaitAllTurnFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_METHOD_3_76ABF7FAF82DED94_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConvinceWaitAllTurnFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITALLTURNFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

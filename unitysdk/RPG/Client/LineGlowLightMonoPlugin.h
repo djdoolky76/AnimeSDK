@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode.h"
+#include "unitysdk/KPDABHOKLNM_LineGlowBlendingMode.h"
 #include "unitysdk/RPG/Client/LineGlowLightMonoPlugin_MaskChannle.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
-#include "unitysdk/ScenenLightManager/SceneManagedLightTAMonoPluginBase_1.h"
 #include "unitysdk/UnityEngine/Color.h"
-
-class Class_4_E87F0EF9CD288BB9;
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET UNITYSDK_OFFSET(0x1C4C02E0)
-#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C0360)
+#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD3EF6D0)
+#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET UNITYSDK_OFFSET(0xD3EF650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineGlowLightMonoPlugin_TypeDefinitionIndex = 70753;
+	inline static constexpr unsigned int LineGlowLightMonoPlugin_TypeDefinitionIndex = 70790;
 
-	class LineGlowLightMonoPlugin : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_E87F0EF9CD288BB9*>
+	class LineGlowLightMonoPlugin
 	{
 	public:
 		::UnityEngine::Color Color; // 0x30
@@ -29,20 +26,21 @@ namespace RPG::Client
 		::System::Single Deform; // 0x54
 		::System::Single FarDistanceFade; // 0x58
 		::RPG::Client::LineGlowLightMonoPlugin_MaskChannle Channle; // 0x5C
-		::Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode BlendingMode; // 0x60
+		::KPDABHOKLNM_LineGlowBlendingMode BlendingMode; // 0x60
 		::RPG::CustomRP::CustomLightQualityFilter LightQualityFilter; // 0x64
 		::System::Int32 LightQualityVersion; // 0x68
+		::System::Byte _padding0[0x4];
 		::System::String* CustomMatPath; // 0x70
 		::UnityEngine::Material* CustomMat; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetTSC(::System::Boolean a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

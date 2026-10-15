@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD28720)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD28680)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD286D0)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD28770)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E7FE0)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E8030)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E7F40)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E7F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInfiniteInfoChange_TypeDefinitionIndex = 56913;
+	inline static constexpr unsigned int LevelInfiniteInfoChange_TypeDefinitionIndex = 56734;
 
-	class LevelInfiniteInfoChange : public ::Class_1_BF7A075734D15E98
+	class LevelInfiniteInfoChange : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::Int32 TotalMonsterCount; // 0x18
-		::System::Int32 CurrentWaveIndex; // 0x1C
-		::System::Int32 TotalSummonCount; // 0x20
-
+		::System::Int32 TotalSummonCount; // 0x18
+		::System::Int32 TotalMonsterCount; // 0x1C
+		::System::Int32 CurrentWaveIndex; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEINFOCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -38,5 +37,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

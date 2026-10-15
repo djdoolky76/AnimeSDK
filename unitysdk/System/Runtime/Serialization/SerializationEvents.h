@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Runtime::Serialization { class SerializationEventHandler; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_ADDONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x19B971C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_ADDONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x19B99C70)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_GETMETHODSWITHATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19B994C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_GET_HASONSERIALIZINGEVENTS_OFFSET UNITYSDK_OFFSET(0x19B99A30)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_INVOKEONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x19B97450)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_INVOKEONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x19B97710)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_INVOKEONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x19B99A50)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B99950)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_ADDONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x1C30CA60)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_ADDONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1C30F510)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C30F1F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_GETMETHODSWITHATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C30ED60)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_GET_HASONSERIALIZINGEVENTS_OFFSET UNITYSDK_OFFSET(0x1C30F2D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_INVOKEONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x1C30CCF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_INVOKEONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x1C30CFB0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_INVOKEONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1C30F2F0)
 
 namespace System::Runtime::Serialization
 {
@@ -24,14 +24,13 @@ namespace System::Runtime::Serialization
 	class SerializationEvents : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnSerializedMethods; // 0x10
-		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnDeserializingMethods; // 0x18
-		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnSerializingMethods; // 0x20
-		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnDeserializedMethods; // 0x28
-
+		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnDeserializedMethods; // 0x10
+		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnSerializedMethods; // 0x18
+		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnDeserializingMethods; // 0x20
+		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* m_OnSerializingMethods; // 0x28
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* GetMethodsWithAttribute(::System::Type* a1, ::System::Type* a2)
@@ -68,5 +67,6 @@ namespace System::Runtime::Serialization
 		{
 			return ((::System::Runtime::Serialization::SerializationEventHandler*(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationEventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTS_ADDONDESERIALIZED_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

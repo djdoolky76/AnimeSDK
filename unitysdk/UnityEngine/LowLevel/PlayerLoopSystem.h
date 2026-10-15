@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Type; }
 namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
 namespace UnityEngine::LowLevel
 {
-	inline static constexpr unsigned int PlayerLoopSystem_TypeDefinitionIndex = 4536;
+	inline static constexpr unsigned int PlayerLoopSystem_TypeDefinitionIndex = 4540;
 
 	struct alignas(8) PlayerLoopSystem
 	{

@@ -3,23 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeProxy_Priority.h"
 
-#define UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1DE3F400)
-#define UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_REQUIRE_OFFSET UNITYSDK_OFFSET(0x1DE3EDB0)
-#define UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3E960)
+#define UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B5940)
+#define UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F2B63E0)
+#define UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_REQUIRE_OFFSET UNITYSDK_OFFSET(0x1F2B5D90)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProxy_ComponentState_TypeDefinitionIndex = 34995;
+	inline static constexpr unsigned int VolumeProxy_ComponentState_TypeDefinitionIndex = 35664;
 
 	class VolumeProxy_ComponentState : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Boolean>* Required; // 0x10
 		::UnityEngine::Rendering::VolumeProxy_Priority TopPriority; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Require(::UnityEngine::Rendering::VolumeProxy_Priority a1, ::System::Boolean a2)
@@ -31,5 +30,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::VolumeProxy_Priority))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROXY_COMPONENTSTATE_RELEASE_OFFSET))(this, a1);
 		}
+
 	};
 }

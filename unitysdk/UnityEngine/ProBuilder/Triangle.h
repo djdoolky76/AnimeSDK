@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/UnityEngine/ProBuilder/Edge.h"
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET UNITYSDK_OFFSET(0x3AF6310)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3AF6230)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3AF6210)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3AF6290)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_A_OFFSET UNITYSDK_OFFSET(0x19050)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_B_OFFSET UNITYSDK_OFFSET(0x784260)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_C_OFFSET UNITYSDK_OFFSET(0x12370)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_INDICES_OFFSET UNITYSDK_OFFSET(0x3AF61B0)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET UNITYSDK_OFFSET(0x3AF62B0)
-#define UNITYENGINE_PROBUILDER_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET UNITYSDK_OFFSET(0x3C64A80)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0xFDE0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C649A0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C64980)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C64A00)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_A_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_B_OFFSET UNITYSDK_OFFSET(0xFDF0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_C_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_INDICES_OFFSET UNITYSDK_OFFSET(0x3C64920)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET UNITYSDK_OFFSET(0x3C64A20)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 43251;
+	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 44443;
 
 	struct alignas(4) Triangle
 	{
 		::System::Int32 m_A; // 0x10
 		::System::Int32 m_B; // 0x14
 		::System::Int32 m_C; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_a()
@@ -51,10 +49,12 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_GET_INDICES_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::ProBuilder::Triangle a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Triangle))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -66,16 +66,17 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean IsAdjacent(::UnityEngine::ProBuilder::Triangle a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Triangle))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET))(this, a1);
 		}
+		*/
 
-		/*
 		::System::Boolean ContainsEdge(::UnityEngine::ProBuilder::Edge a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

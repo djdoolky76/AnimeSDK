@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class GroupSnapshot; }
+namespace System { class Object; }
 
-#define PROTO_GROUPSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3E450)
-#define PROTO_GROUPSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3E490)
-#define PROTO_GROUPSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DD3E4A0)
+#define PROTO_GROUPSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF6A0)
+#define PROTO_GROUPSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF6E0)
+#define PROTO_GROUPSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DFCF6F0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GroupSnapshot___c_TypeDefinitionIndex = 25484;
+	inline static constexpr unsigned int GroupSnapshot___c_TypeDefinitionIndex = 25827;
 
 	class GroupSnapshot___c : public ::System::Object
 	{
 	public:
-		static ::Proto::GroupSnapshot___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::GroupSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(GroupSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x5B970);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4C070);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::GroupSnapshot* __cctor_b__48_0()
 		{
 			return ((::Proto::GroupSnapshot*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT___C___CCTOR_B__48_0_OFFSET))(this);
 		}
+
 	};
 }

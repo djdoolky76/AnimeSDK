@@ -1,20 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddWeakByTeamAttackType; }
 namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_518B5A10F34C41C1_OFFSET UNITYSDK_OFFSET(0x1D6A6230)
-#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_965303BC94380155_OFFSET UNITYSDK_OFFSET(0x1D6A6270)
-#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A6260)
+#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35F530)
+#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35F540)
+#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35F500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddWeakByTeamAttackType_TypeDefinitionIndex = 23301;
+	inline static constexpr unsigned int AddWeakByTeamAttackType_TypeDefinitionIndex = 23567;
 
 	class AddWeakByTeamAttackType : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,22 +25,23 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* AddWeakCountMax; // 0x28
 		::Il2CppArray<::System::String*>* ReturnWeakType; // 0x30
 		::System::Boolean BlockUIRefresh; // 0x38
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnNoNewWeak; // 0x40
 		::RPG::GameCore::AttackDamageTypeConfig* PreferWeak; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_518B5A10F34C41C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakByTeamAttackType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddWeakByTeamAttackType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddWeakByTeamAttackType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_518B5A10F34C41C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddWeakByTeamAttackType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_965303BC94380155(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakByTeamAttackType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddWeakByTeamAttackType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddWeakByTeamAttackType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_965303BC94380155_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddWeakByTeamAttackType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

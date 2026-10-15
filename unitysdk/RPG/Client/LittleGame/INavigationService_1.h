@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::LittleGame { template <typename T> class NavigationRequest_1; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int INavigationService_1_TypeDefinitionIndex = 41128;
+	inline static constexpr unsigned int INavigationService_1_TypeDefinitionIndex = 42417;
 
-	template <typename TEntity>
+	template <typename T>
 	class INavigationService_1
 	{
 	public:

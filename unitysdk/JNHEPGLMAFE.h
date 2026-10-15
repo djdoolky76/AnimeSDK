@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class FPBFICAFCDO;
+class NNGOGBHIAFI;
+class OCCHJLMKMFL;
+
+#define JNHEPGLMAFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D87C0)
+#define JNHEPGLMAFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C6D8890)
+#define JNHEPGLMAFE_GET_RANDSERVICE_OFFSET UNITYSDK_OFFSET(0x1C6D88E0)
+#define JNHEPGLMAFE_GHDIJCNKKOM_OFFSET UNITYSDK_OFFSET(0x1C6D8900)
+#define JNHEPGLMAFE_HEHPJOPCKBM_OFFSET UNITYSDK_OFFSET(0x1C6D8910)
+#define JNHEPGLMAFE_SET_RANDSERVICE_OFFSET UNITYSDK_OFFSET(0x1C6D88F0)
+
+inline static constexpr unsigned int JNHEPGLMAFE_TypeDefinitionIndex = 37190;
+
+	class JNHEPGLMAFE
+	{
+	public:
+		::NNGOGBHIAFI* BHKMDAJAFFA; // 0x10
+		::FPBFICAFCDO* EEFMDEHLLFI; // 0x18
+		::OCCHJLMKMFL* _RandService_k__BackingField; // 0x20
+		::System::Int32 GDIIGDJODON; // 0x28
+		::System::Int32 PBNPPMGEGAF; // 0x2C
+		::System::Void _ctor(::NNGOGBHIAFI* a1, ::FPBFICAFCDO* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::NNGOGBHIAFI*, ::FPBFICAFCDO*))((::PBYTE)hIl2Cpp + JNHEPGLMAFE_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JNHEPGLMAFE_DISPOSE_OFFSET))(this);
+		}
+
+		::OCCHJLMKMFL* get_RandService()
+		{
+			return ((::OCCHJLMKMFL*(*)(::PVOID))((::PBYTE)hIl2Cpp + JNHEPGLMAFE_GET_RANDSERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_RandService(::OCCHJLMKMFL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OCCHJLMKMFL*))((::PBYTE)hIl2Cpp + JNHEPGLMAFE_SET_RANDSERVICE_OFFSET))(this, a1);
+		}
+
+		::FPBFICAFCDO* GHDIJCNKKOM()
+		{
+			return ((::FPBFICAFCDO*(*)(::PVOID))((::PBYTE)hIl2Cpp + JNHEPGLMAFE_GHDIJCNKKOM_OFFSET))(this);
+		}
+
+		::NNGOGBHIAFI* HEHPJOPCKBM()
+		{
+			return ((::NNGOGBHIAFI*(*)(::PVOID))((::PBYTE)hIl2Cpp + JNHEPGLMAFE_HEHPJOPCKBM_OFFSET))(this);
+		}
+
+	};

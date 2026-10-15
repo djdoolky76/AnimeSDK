@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class RtTargetMapGridOwner; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define DEPDDLDNIPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE51F310)
+#define DEPDDLDNIPJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xE51F330)
+
+inline static constexpr unsigned int DEPDDLDNIPJ_TypeDefinitionIndex = 53813;
+
+	class DEPDDLDNIPJ
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::RtTargetMapGridOwner* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RtTargetMapGridOwner*))((::PBYTE)hIl2Cpp + DEPDDLDNIPJ_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Transform(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + DEPDDLDNIPJ_TRANSFORM_OFFSET))(this, a1, a2);
+		}
+
+	};

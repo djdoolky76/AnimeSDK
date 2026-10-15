@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 class PATRenderer;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E7DA20)
-#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7DE80)
+#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD44810)
+#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD443B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 70479;
+	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 70515;
 
 	class Effect_PATChipsMatController : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,15 +31,15 @@ namespace RPG::Client
 		::UnityEngine::Vector4 FDFNDNBDHCO; // 0x58
 		::UnityEngine::Transform* CustomLight; // 0x68
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

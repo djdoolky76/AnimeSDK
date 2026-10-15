@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACEE3B0)
-#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ACEE260)
-#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEE490)
+#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_CTOR_OFFSET UNITYSDK_OFFSET(0xD83AF00)
+#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD83AE20)
+#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD83ACD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLineRendererWidthSetter_TypeDefinitionIndex = 71017;
+	inline static constexpr unsigned int MonoLineRendererWidthSetter_TypeDefinitionIndex = 71049;
 
 	class MonoLineRendererWidthSetter : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,10 +20,9 @@ namespace RPG::Client
 		::System::Single outlineMultiply; // 0x24
 		::UnityEngine::LineRenderer* AGPKOCFLNMJ; // 0x28
 		::UnityEngine::LineRenderer* GLACMPLALMM; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLINERENDERERWIDTHSETTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -36,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

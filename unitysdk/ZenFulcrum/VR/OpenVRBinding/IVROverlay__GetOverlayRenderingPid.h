@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED97F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED9840)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED97E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED9770)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F653D70)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_CTOR_OFFSET UNITYSDK_OFFSET(0x1F653CF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F653DC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F653D60)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__GetOverlayRenderingPid_TypeDefinitionIndex = 37773;
+	inline static constexpr unsigned int IVROverlay__GetOverlayRenderingPid_TypeDefinitionIndex = 39070;
 
 	class IVROverlay__GetOverlayRenderingPid : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::UInt64 a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYRENDERINGPID_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/Instruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
+namespace System::Linq::Expressions::Interpreter { class ValueTypeCopyInstruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF49A30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1DF49A50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1DF49A40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1DF49A90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF49C10)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF49C00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDFF180)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFF170)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDFEFA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDFEFC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDFEFB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDFF000)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ValueTypeCopyInstruction_TypeDefinitionIndex = 3507;
+	inline static constexpr unsigned int ValueTypeCopyInstruction_TypeDefinitionIndex = 3508;
 
 	class ValueTypeCopyInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction** StaticGet_Instruction()
 		{
-			return (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction**)Il2CppClass::FromTypeDefinitionIndex(ValueTypeCopyInstruction_TypeDefinitionIndex)->GetStaticField(0x33A0);
+			return (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ValueTypeCopyInstruction")->GetStaticField(0x3CDA0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -53,5 +53,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_VALUETYPECOPYINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

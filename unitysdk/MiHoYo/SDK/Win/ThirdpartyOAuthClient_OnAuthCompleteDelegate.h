@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x187B68E0)
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x187B6920)
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x187B59B0)
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x187B6860)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDD5EC0)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD5E40)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDD5F00)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDD4F90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ThirdpartyOAuthClient_OnAuthCompleteDelegate_TypeDefinitionIndex = 9202;
+	inline static constexpr unsigned int ThirdpartyOAuthClient_OnAuthCompleteDelegate_TypeDefinitionIndex = 9264;
 
 	class ThirdpartyOAuthClient_OnAuthCompleteDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::String* a2)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT_ONAUTHCOMPLETEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

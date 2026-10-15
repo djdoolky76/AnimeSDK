@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::TrainParty { class TrainPartyMeetingPassengerCardInfo; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDF9620)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF9660)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET UNITYSDK_OFFSET(0x1BDF9690)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__REROLL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1BDF9670)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2E4810)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2E4850)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET UNITYSDK_OFFSET(0xE2E4880)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__REROLL_B__7_0_OFFSET UNITYSDK_OFFSET(0xE2E4860)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 74233;
+	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 74332;
 
 	class TrainPartyMeetingData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TrainParty::TrainPartyMeetingData___c** StaticGet___9()
-		{
-			return (::RPG::Client::TrainParty::TrainPartyMeetingData___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x5F220);
-		}
-		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x5F228);
-		}
 		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x5F230);
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x1DB80);
+		}
+
+		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x1DB88);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x1DB90);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 _Reroll_b__7_0(::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo* a1)
@@ -49,5 +51,6 @@ namespace RPG::Client::TrainParty
 		{
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET))(this, a1);
 		}
+
 	};
 }

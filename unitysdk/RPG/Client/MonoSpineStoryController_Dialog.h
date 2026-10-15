@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSpineStoryController_Dialog_TypeDefinitionIndex = 60403;
+	inline static constexpr unsigned int MonoSpineStoryController_Dialog_TypeDefinitionIndex = 60291;
 
 	struct alignas(8) MonoSpineStoryController_Dialog
 	{

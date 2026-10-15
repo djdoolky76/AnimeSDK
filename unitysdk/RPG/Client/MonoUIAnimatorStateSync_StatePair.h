@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIAnimatorStateSync_StatePair_TypeDefinitionIndex = 68937;
+	inline static constexpr unsigned int MonoUIAnimatorStateSync_StatePair_TypeDefinitionIndex = 68973;
 
 	struct alignas(8) MonoUIAnimatorStateSync_StatePair
 	{

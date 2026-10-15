@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExOutputPort_Type.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1D367AB0)
+#define CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166E31E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 38754;
+	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 40051;
 
 	struct alignas(8) CriAtomExOutputPort_Config
 	{
 		::System::String* name; // 0x10
 		::CriWare::CriAtomExOutputPort_Type type; // 0x18
 		::System::UInt32 maxIgnoredCategories; // 0x1C
-
+		/*
 		static ::CriWare::CriAtomExOutputPort_Config Default()
 		{
 			return ((::CriWare::CriAtomExOutputPort_Config(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET))();
 		}
+		*/
+
 	};
 }

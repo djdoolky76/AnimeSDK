@@ -1,35 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateGeoCache___O_TypeDefinitionIndex = 39340;
+	inline static constexpr unsigned int HEU_GenerateGeoCache___O_TypeDefinitionIndex = 40637;
 
 	class HEU_GenerateGeoCache___O : public ::System::Object
 	{
 	public:
 		static ::System::Converter_2<::System::Int16, ::System::Single>** StaticGet__2___ToSingle()
 		{
-			return (::System::Converter_2<::System::Int16, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___O_TypeDefinitionIndex)->GetStaticField(0x512D0);
+			return (::System::Converter_2<::System::Int16, ::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>O")->GetStaticField(0x5C1F0);
 		}
-		static ::System::Converter_2<::System::Double, ::System::Single>** StaticGet__4___ToSingle()
-		{
-			return (::System::Converter_2<::System::Double, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___O_TypeDefinitionIndex)->GetStaticField(0x512D8);
-		}
-		static ::System::Converter_2<::System::SByte, ::System::Single>** StaticGet__1___ToSingle()
-		{
-			return (::System::Converter_2<::System::SByte, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___O_TypeDefinitionIndex)->GetStaticField(0x512E0);
-		}
-		static ::System::Converter_2<::System::Int64, ::System::Single>** StaticGet__3___ToSingle()
-		{
-			return (::System::Converter_2<::System::Int64, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___O_TypeDefinitionIndex)->GetStaticField(0x512E8);
-		}
+
 		static ::System::Converter_2<::System::Int32, ::System::Single>** StaticGet__0___ToSingle()
 		{
-			return (::System::Converter_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___O_TypeDefinitionIndex)->GetStaticField(0x512F0);
+			return (::System::Converter_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>O")->GetStaticField(0x5C1F8);
 		}
+
+		static ::System::Converter_2<::System::SByte, ::System::Single>** StaticGet__1___ToSingle()
+		{
+			return (::System::Converter_2<::System::SByte, ::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>O")->GetStaticField(0x5C200);
+		}
+
+		static ::System::Converter_2<::System::Double, ::System::Single>** StaticGet__4___ToSingle()
+		{
+			return (::System::Converter_2<::System::Double, ::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>O")->GetStaticField(0x5C208);
+		}
+
+		static ::System::Converter_2<::System::Int64, ::System::Single>** StaticGet__3___ToSingle()
+		{
+			return (::System::Converter_2<::System::Int64, ::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>O")->GetStaticField(0x5C210);
+		}
+
 	};
 }

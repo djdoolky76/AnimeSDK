@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_Physics2DUpdate_TypeDefinitionIndex = 4595;
+	inline static constexpr unsigned int PreUpdate_Physics2DUpdate_TypeDefinitionIndex = 4599;
 
-	struct alignas(1) PreUpdate_Physics2DUpdate
+	struct alignas(4) PreUpdate_Physics2DUpdate
 	{
 	};
 }

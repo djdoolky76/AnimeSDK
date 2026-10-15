@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialDynamicParamBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_METHOD_2_2394556D1CAD8BF6_OFFSET UNITYSDK_OFFSET(0x1D2A2E40)
-#define RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_METHOD_2_67796FD922CE6D74_OFFSET UNITYSDK_OFFSET(0x1D2A3030)
-#define RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A3090)
+#define RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3A3F0)
+#define RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC3A390)
+#define RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC3A1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialDynamicParamBase_TypeDefinitionIndex = 24045;
+	inline static constexpr unsigned int TutorialDynamicParamBase_TypeDefinitionIndex = 24324;
 
 	class TutorialDynamicParamBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2394556D1CAD8BF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialDynamicParamBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialDynamicParamBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialDynamicParamBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_METHOD_2_2394556D1CAD8BF6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialDynamicParamBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_67796FD922CE6D74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialDynamicParamBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialDynamicParamBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialDynamicParamBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_METHOD_2_67796FD922CE6D74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialDynamicParamBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALDYNAMICPARAMBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

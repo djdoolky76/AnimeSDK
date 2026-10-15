@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B59EFC0)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B59F110)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B59EF50)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59F210)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9041C0)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE904310)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE904410)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE904150)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MocapTrack_TypeDefinitionIndex = 48650;
+	inline static constexpr unsigned int MocapTrack_TypeDefinitionIndex = 48190;
 
 	class MocapTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::UnityEngine::Vector3 Position; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
@@ -41,5 +39,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

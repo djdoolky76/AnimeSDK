@@ -2,60 +2,59 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/GroundRaycastHit.h"
 #include "unitysdk/RootMotion/FinalIK/Grounding_EFinalIKLockFootMode.h"
-#include "unitysdk/RootMotion/FinalIK/Grounding_GroundingLegLockTransform.h"
 #include "unitysdk/RootMotion/FinalIK/Grounding_Quality.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RootMotion::FinalIK { class GroundingThread; }
 namespace RootMotion::FinalIK { class Grounding_Leg; }
 namespace RootMotion::FinalIK { class Grounding_Pelvis; }
 namespace RootMotion::FinalIK { class IK; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_GROUNDING_COPYFROM_OFFSET UNITYSDK_OFFSET(0x19694FC0)
-#define ROOTMOTION_FINALIK_GROUNDING_COPYTO_OFFSET UNITYSDK_OFFSET(0x19694980)
-#define ROOTMOTION_FINALIK_GROUNDING_FLATTEN_OFFSET UNITYSDK_OFFSET(0x1969FD20)
-#define ROOTMOTION_FINALIK_GROUNDING_GETLEGLOCKTRANSFORM_OFFSET UNITYSDK_OFFSET(0x196A00B0)
-#define ROOTMOTION_FINALIK_GROUNDING_GETLEGSPLANENORMAL_OFFSET UNITYSDK_OFFSET(0x196965D0)
-#define ROOTMOTION_FINALIK_GROUNDING_GETROOTHIT_OFFSET UNITYSDK_OFFSET(0x1969D110)
-#define ROOTMOTION_FINALIK_GROUNDING_GETVERTICALOFFSET_OFFSET UNITYSDK_OFFSET(0x1969FAA0)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_IKPOSITIONWEIGHT_OFFSET UNITYSDK_OFFSET(0x1969CA60)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_IKROTATIONWEIGHT_OFFSET UNITYSDK_OFFSET(0x1969CA80)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0x1969C9B0)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_ISROOTMOVE_OFFSET UNITYSDK_OFFSET(0x1969CAA0)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_LEGS_OFFSET UNITYSDK_OFFSET(0x1969C970)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_PELVIS_OFFSET UNITYSDK_OFFSET(0x1969C990)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_ROOTGROUNDED_OFFSET UNITYSDK_OFFSET(0x1969CA40)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0x1969C9F0)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_ROOT_OFFSET UNITYSDK_OFFSET(0x1969C9D0)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_UP_OFFSET UNITYSDK_OFFSET(0x1969D580)
-#define ROOTMOTION_FINALIK_GROUNDING_GET_USEROOTROTATION_OFFSET UNITYSDK_OFFSET(0x1969F910)
-#define ROOTMOTION_FINALIK_GROUNDING_INITIATE_OFFSET UNITYSDK_OFFSET(0x19696E90)
-#define ROOTMOTION_FINALIK_GROUNDING_ISVALID_OFFSET UNITYSDK_OFFSET(0x1969D860)
-#define ROOTMOTION_FINALIK_GROUNDING_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1969DC10)
-#define ROOTMOTION_FINALIK_GROUNDING_ONENABLE_OFFSET UNITYSDK_OFFSET(0x196958F0)
-#define ROOTMOTION_FINALIK_GROUNDING_RESETPOSITIONIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x19693610)
-#define ROOTMOTION_FINALIK_GROUNDING_RESETPOSITION_OFFSET UNITYSDK_OFFSET(0x19693460)
-#define ROOTMOTION_FINALIK_GROUNDING_RESET_OFFSET UNITYSDK_OFFSET(0x19693140)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_IKPOSITIONWEIGHT_OFFSET UNITYSDK_OFFSET(0x1969CA70)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_IKROTATIONWEIGHT_OFFSET UNITYSDK_OFFSET(0x1969CA90)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0x1969C9C0)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_ISROOTMOVE_OFFSET UNITYSDK_OFFSET(0x1969CAB0)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_LEGS_OFFSET UNITYSDK_OFFSET(0x1969C980)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_PELVIS_OFFSET UNITYSDK_OFFSET(0x1969C9A0)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0x1969CA20)
-#define ROOTMOTION_FINALIK_GROUNDING_SET_ROOT_OFFSET UNITYSDK_OFFSET(0x1969C9E0)
-#define ROOTMOTION_FINALIK_GROUNDING_UPDATE_OFFSET UNITYSDK_OFFSET(0x19697430)
-#define ROOTMOTION_FINALIK_GROUNDING__CTOR_OFFSET UNITYSDK_OFFSET(0x19692CE0)
+#define ROOTMOTION_FINALIK_GROUNDING_COPYFROM_OFFSET UNITYSDK_OFFSET(0xB09BAC0)
+#define ROOTMOTION_FINALIK_GROUNDING_COPYTO_OFFSET UNITYSDK_OFFSET(0xB09B480)
+#define ROOTMOTION_FINALIK_GROUNDING_CTOR_OFFSET UNITYSDK_OFFSET(0xB099800)
+#define ROOTMOTION_FINALIK_GROUNDING_FLATTEN_OFFSET UNITYSDK_OFFSET(0xB0A6B10)
+#define ROOTMOTION_FINALIK_GROUNDING_GETLEGLOCKTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB0A6EA0)
+#define ROOTMOTION_FINALIK_GROUNDING_GETLEGSPLANENORMAL_OFFSET UNITYSDK_OFFSET(0xB09D0C0)
+#define ROOTMOTION_FINALIK_GROUNDING_GETROOTHIT_OFFSET UNITYSDK_OFFSET(0xB0A3DC0)
+#define ROOTMOTION_FINALIK_GROUNDING_GETVERTICALOFFSET_OFFSET UNITYSDK_OFFSET(0xB0A6890)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_IKPOSITIONWEIGHT_OFFSET UNITYSDK_OFFSET(0xB0A3610)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_IKROTATIONWEIGHT_OFFSET UNITYSDK_OFFSET(0xB0A3630)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0xB0A3560)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_ISROOTMOVE_OFFSET UNITYSDK_OFFSET(0xB0A3650)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_LEGS_OFFSET UNITYSDK_OFFSET(0xB0A3520)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_PELVIS_OFFSET UNITYSDK_OFFSET(0xB0A3540)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_ROOTGROUNDED_OFFSET UNITYSDK_OFFSET(0xB0A35F0)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0xB0A35A0)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_ROOT_OFFSET UNITYSDK_OFFSET(0xB0A3580)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_UP_OFFSET UNITYSDK_OFFSET(0xB0A4230)
+#define ROOTMOTION_FINALIK_GROUNDING_GET_USEROOTROTATION_OFFSET UNITYSDK_OFFSET(0xB0A6700)
+#define ROOTMOTION_FINALIK_GROUNDING_INITIATE_OFFSET UNITYSDK_OFFSET(0xB09D980)
+#define ROOTMOTION_FINALIK_GROUNDING_ISVALID_OFFSET UNITYSDK_OFFSET(0xB0A4510)
+#define ROOTMOTION_FINALIK_GROUNDING_LOGWARNING_OFFSET UNITYSDK_OFFSET(0xB0A48B0)
+#define ROOTMOTION_FINALIK_GROUNDING_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB09C3F0)
+#define ROOTMOTION_FINALIK_GROUNDING_RESETPOSITIONIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xB09A130)
+#define ROOTMOTION_FINALIK_GROUNDING_RESETPOSITION_OFFSET UNITYSDK_OFFSET(0xB099F80)
+#define ROOTMOTION_FINALIK_GROUNDING_RESET_OFFSET UNITYSDK_OFFSET(0xB099C60)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_IKPOSITIONWEIGHT_OFFSET UNITYSDK_OFFSET(0xB0A3620)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_IKROTATIONWEIGHT_OFFSET UNITYSDK_OFFSET(0xB0A3640)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0xB0A3570)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_ISROOTMOVE_OFFSET UNITYSDK_OFFSET(0xB0A3660)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_LEGS_OFFSET UNITYSDK_OFFSET(0xB0A3530)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_PELVIS_OFFSET UNITYSDK_OFFSET(0xB0A3550)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0xB0A35D0)
+#define ROOTMOTION_FINALIK_GROUNDING_SET_ROOT_OFFSET UNITYSDK_OFFSET(0xB0A3590)
+#define ROOTMOTION_FINALIK_GROUNDING_UPDATE_OFFSET UNITYSDK_OFFSET(0xB09DF30)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Grounding_TypeDefinitionIndex = 44865;
+	inline static constexpr unsigned int Grounding_TypeDefinitionIndex = 46004;
 
 	class Grounding : public ::System::Object
 	{
@@ -63,6 +62,7 @@ namespace RootMotion::FinalIK
 		::UnityEngine::LayerMask layers; // 0x10
 		::System::Single maxStep; // 0x14
 		::System::Boolean stayOriginIfNoGround; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single heightOffset; // 0x1C
 		::System::Single footSpeed; // 0x20
 		::System::Single footRadius; // 0x24
@@ -71,10 +71,12 @@ namespace RootMotion::FinalIK
 		::System::Single footRotationSpeed; // 0x30
 		::System::Single maxFootRotationAngle; // 0x34
 		::System::Single maxFootRotationRollAngle; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* maxFootUpperRotateRatioCurve; // 0x40
 		::System::Boolean useToeBone; // 0x48
 		::System::Boolean bUseStepUp; // 0x49
 		::System::Boolean rotateSolver; // 0x4A
+		::System::Byte _padding2[0x1];
 		::System::Single pelvisSpeed; // 0x4C
 		::System::Single pelvisDamper; // 0x50
 		::System::Single lowerPelvisWeight; // 0x54
@@ -82,35 +84,38 @@ namespace RootMotion::FinalIK
 		::System::Single rootSphereCastRadius; // 0x5C
 		::RootMotion::FinalIK::Grounding_Quality quality; // 0x60
 		::System::Boolean applyTipBoneOnLockModeOnly; // 0x64
+		::System::Byte _padding3[0x3];
 		::RootMotion::FinalIK::Grounding_EFinalIKLockFootMode lockFootMode; // 0x68
-		::Il2CppArray<::RootMotion::FinalIK::Grounding_GroundingLegLockTransform>* legLockTransforms; // 0x70
-		::Il2CppArray<::RootMotion::FinalIK::Grounding_Leg*>* _legs_k__BackingField; // 0x78
+		::System::Byte _padding4[0x4];
+		::Il2CppArray<::System::Object*>* legLockTransforms; // 0x70
+		::Il2CppArray<::System::Object*>* _legs_k__BackingField; // 0x78
 		::RootMotion::FinalIK::Grounding_Pelvis* _pelvis_k__BackingField; // 0x80
 		::System::Boolean _isGrounded_k__BackingField; // 0x88
+		::System::Byte _padding5[0x7];
 		::UnityEngine::Transform* _root_k__BackingField; // 0x90
 		::RootMotion::FinalIK::GroundRaycastHit _rootHit_k__BackingField; // 0x98
 		::System::Single _IKPositionWeight_k__BackingField; // 0xBC
 		::System::Single _IKRotationWeight_k__BackingField; // 0xC0
 		::System::Boolean _IsRootMove_k__BackingField; // 0xC4
+		::System::Byte _padding6[0x3];
 		::UnityEngine::Quaternion _lastRootRotation; // 0xC8
 		::UnityEngine::Quaternion _deltaRootRotation; // 0xD8
 		::UnityEngine::Vector3 _lastRootPosition; // 0xE8
 		::UnityEngine::Vector3 _deltaRootPosition; // 0xF4
 		::System::Boolean initiated; // 0x100
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::RootMotion::FinalIK::Grounding_Leg*>* get_legs()
+		::Il2CppArray<::System::Object*>* get_legs()
 		{
-			return ((::Il2CppArray<::RootMotion::FinalIK::Grounding_Leg*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_GET_LEGS_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_GET_LEGS_OFFSET))(this);
 		}
 
-		::System::Void set_legs(::Il2CppArray<::RootMotion::FinalIK::Grounding_Leg*>* a1)
+		::System::Void set_legs(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::Grounding_Leg*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_SET_LEGS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_SET_LEGS_OFFSET))(this, a1);
 		}
 
 		::RootMotion::FinalIK::Grounding_Pelvis* get_pelvis()
@@ -218,9 +223,9 @@ namespace RootMotion::FinalIK
 			return ((::RootMotion::FinalIK::GroundRaycastHit(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_GETROOTHIT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsValid(::System::String*& a1)
+		::System::Boolean IsValid(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_ISVALID_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_ISVALID_OFFSET))(this, a1);
 		}
 
 		::System::Void Initiate(::UnityEngine::Transform* a1, ::Il2CppArray<::UnityEngine::Transform*>* a2, ::Il2CppArray<::RootMotion::FinalIK::IK*>* a3)
@@ -263,14 +268,15 @@ namespace RootMotion::FinalIK
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_FLATTEN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetLegLockTransform(::RootMotion::FinalIK::Grounding_Leg* a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Quaternion& a3)
+		::System::Boolean GetLegLockTransform(::RootMotion::FinalIK::Grounding_Leg* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RootMotion::FinalIK::Grounding_Leg*, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_GETLEGLOCKTRANSFORM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::RootMotion::FinalIK::Grounding_Leg*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_GETLEGLOCKTRANSFORM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_useRootRotation()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDING_GET_USEROOTROTATION_OFFSET))(this);
 		}
+
 	};
 }

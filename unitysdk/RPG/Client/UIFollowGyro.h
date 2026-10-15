@@ -3,58 +3,70 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UIFOLLOWGYRO_AWAKE_OFFSET UNITYSDK_OFFSET(0x1701C920)
-#define RPG_CLIENT_UIFOLLOWGYRO_DEBUGDISABLEUPDATE_OFFSET UNITYSDK_OFFSET(0x1701D380)
-#define RPG_CLIENT_UIFOLLOWGYRO_DEBUGENABLEUPDATE_OFFSET UNITYSDK_OFFSET(0x1701D340)
-#define RPG_CLIENT_UIFOLLOWGYRO_GET_MAXOFFSET_OFFSET UNITYSDK_OFFSET(0x1701D540)
-#define RPG_CLIENT_UIFOLLOWGYRO_GET_MINOFFSET_OFFSET UNITYSDK_OFFSET(0x1701D530)
-#define RPG_CLIENT_UIFOLLOWGYRO_ISUSINGGYRO_OFFSET UNITYSDK_OFFSET(0x1701CB50)
-#define RPG_CLIENT_UIFOLLOWGYRO_SETMAXOFFSET_OFFSET UNITYSDK_OFFSET(0x1701D2D0)
-#define RPG_CLIENT_UIFOLLOWGYRO_UPDATE_OFFSET UNITYSDK_OFFSET(0x1701CA10)
-#define RPG_CLIENT_UIFOLLOWGYRO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1701D5D0)
-#define RPG_CLIENT_UIFOLLOWGYRO__CTOR_OFFSET UNITYSDK_OFFSET(0x1701D550)
-#define RPG_CLIENT_UIFOLLOWGYRO__GETRANDOMOFFSET_OFFSET UNITYSDK_OFFSET(0x1701D480)
-#define RPG_CLIENT_UIFOLLOWGYRO__GETRANGEDRATIO_OFFSET UNITYSDK_OFFSET(0x1701D3C0)
-#define RPG_CLIENT_UIFOLLOWGYRO__GETRATIOBYGYRO_OFFSET UNITYSDK_OFFSET(0x1701CC50)
-#define RPG_CLIENT_UIFOLLOWGYRO__GETRATIOBYSCREENPOSITION_OFFSET UNITYSDK_OFFSET(0x1701CED0)
-#define RPG_CLIENT_UIFOLLOWGYRO__UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0x1701CF90)
+#define RPG_CLIENT_UIFOLLOWGYRO_AWAKE_OFFSET UNITYSDK_OFFSET(0xE396E80)
+#define RPG_CLIENT_UIFOLLOWGYRO_CCTOR_OFFSET UNITYSDK_OFFSET(0xE397DD0)
+#define RPG_CLIENT_UIFOLLOWGYRO_CTOR_OFFSET UNITYSDK_OFFSET(0xE397D30)
+#define RPG_CLIENT_UIFOLLOWGYRO_DEBUGDISABLEUPDATE_OFFSET UNITYSDK_OFFSET(0xE397A70)
+#define RPG_CLIENT_UIFOLLOWGYRO_DEBUGENABLEUPDATE_OFFSET UNITYSDK_OFFSET(0xE397A30)
+#define RPG_CLIENT_UIFOLLOWGYRO_GET_MAXOFFSET_OFFSET UNITYSDK_OFFSET(0xE397D20)
+#define RPG_CLIENT_UIFOLLOWGYRO_GET_MINOFFSET_OFFSET UNITYSDK_OFFSET(0xE397D10)
+#define RPG_CLIENT_UIFOLLOWGYRO_ISUSINGGYRO_OFFSET UNITYSDK_OFFSET(0xE3970F0)
+#define RPG_CLIENT_UIFOLLOWGYRO_SETMAXOFFSET_OFFSET UNITYSDK_OFFSET(0xE3979C0)
+#define RPG_CLIENT_UIFOLLOWGYRO_UPDATE_OFFSET UNITYSDK_OFFSET(0xE396F40)
+#define RPG_CLIENT_UIFOLLOWGYRO__GETRANDOMOFFSET_OFFSET UNITYSDK_OFFSET(0xE397BB0)
+#define RPG_CLIENT_UIFOLLOWGYRO__GETRANGEDRATIO_OFFSET UNITYSDK_OFFSET(0xE397AB0)
+#define RPG_CLIENT_UIFOLLOWGYRO__GETRATIOBYGYRO_OFFSET UNITYSDK_OFFSET(0xE3971F0)
+#define RPG_CLIENT_UIFOLLOWGYRO__GETRATIOBYSCREENPOSITION_OFFSET UNITYSDK_OFFSET(0xE397360)
+#define RPG_CLIENT_UIFOLLOWGYRO__GETROTATIONRANDOMOFFSET_OFFSET UNITYSDK_OFFSET(0xE397C60)
+#define RPG_CLIENT_UIFOLLOWGYRO__UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0xE397420)
+#define RPG_CLIENT_UIFOLLOWGYRO__UPDATEROTATION_OFFSET UNITYSDK_OFFSET(0xE397770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFollowGyro_TypeDefinitionIndex = 69064;
+	inline static constexpr unsigned int UIFollowGyro_TypeDefinitionIndex = 69100;
 
 	class UIFollowGyro : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet__ZeroRatio()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIFollowGyro_TypeDefinitionIndex)->GetStaticField(0x13EF0);
-		}
 		::System::Boolean EnableGyro; // 0x18
 		::System::Boolean EnableMouse; // 0x19
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector2 _MinOffset; // 0x1C
 		::UnityEngine::Vector2 _MaxOffset; // 0x24
 		::System::Single _GyroOffsetMultiplier; // 0x2C
 		::System::Single _RandomRange; // 0x30
 		::UnityEngine::Vector2 _GravityXRange; // 0x34
 		::UnityEngine::Vector2 _GravityYRange; // 0x3C
-		::UnityEngine::RectTransform* _Root; // 0x48
-		::UnityEngine::Vector2 _DefaultRatio; // 0x50
-		::UnityEngine::Vector2 _CurrentRatio; // 0x58
-		::UnityEngine::Vector2 _TargetRatio; // 0x60
-		::System::Single _RandomOffset; // 0x68
+		::System::Boolean EnableRotation; // 0x44
+		::System::Byte _padding1[0x3];
+		::UnityEngine::Vector2 _MinRotation; // 0x48
+		::UnityEngine::Vector2 _MaxRotation; // 0x50
+		::System::Single _RotationGyroMultiplier; // 0x58
+		::System::Single _RotationRandomRange; // 0x5C
+		::UnityEngine::Vector2 _RotationGravityXRange; // 0x60
+		::UnityEngine::Vector2 _RotationGravityYRange; // 0x68
+		::System::Single _RotationSmoothSpeed; // 0x70
+		::System::Byte _padding2[0x4];
+		::UnityEngine::RectTransform* _Root; // 0x78
+		::UnityEngine::Vector2 _DefaultRatio; // 0x80
+		::UnityEngine::Vector2 _TargetRatio; // 0x88
+		::System::Single _RandomOffset; // 0x90
+		::System::Single _RotationRandomOffset; // 0x94
+		static ::System::Single* StaticGet__ZeroRatio()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "UIFollowGyro")->GetStaticField(0x9F10);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -87,9 +99,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO_ISUSINGGYRO_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 _GetRatioByGyro()
+		::UnityEngine::Vector2 _GetRatioByGyro(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__GETRATIOBYGYRO_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__GETRATIOBYGYRO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single _GetRangedRatio(::System::Single a1, ::System::Single a2, ::System::Single a3)
@@ -107,9 +119,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__UPDATEPOSITION_OFFSET))(this, a1);
 		}
 
+		::System::Void _UpdateRotation(::UnityEngine::Vector2 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__UPDATEROTATION_OFFSET))(this, a1);
+		}
+
 		::System::Single _GetRandomOffset()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__GETRANDOMOFFSET_OFFSET))(this);
+		}
+
+		::System::Single _GetRotationRandomOffset()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO__GETROTATIONRANDOMOFFSET_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector2 get_MinOffset()
@@ -121,5 +143,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOWGYRO_GET_MAXOFFSET_OFFSET))(this);
 		}
+
 	};
 }

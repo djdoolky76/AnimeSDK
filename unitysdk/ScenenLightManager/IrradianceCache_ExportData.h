@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF438B0)
+#define SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9598B0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 49537;
+	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 49111;
 
 	class IrradianceCache_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
 		::RPG::CustomRP::CustomLightQualityFilter LightQuality; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* VICDataPath; // 0x18
 		::System::String* ProxyMeshPath; // 0x20
 		::UnityEngine::Vector3 CubeSize; // 0x28
@@ -23,10 +23,10 @@ namespace ScenenLightManager
 		::System::Single BorderFade; // 0x38
 		::System::Single RoughnessBias; // 0x3C
 		::System::Boolean ApplyAO; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

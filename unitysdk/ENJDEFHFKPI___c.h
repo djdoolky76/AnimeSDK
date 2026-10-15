@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class ENJDEFHFKPI;
+namespace System { class Object; }
+
+#define ENJDEFHFKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2C4FB0)
+#define ENJDEFHFKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C4FF0)
+#define ENJDEFHFKPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2C5000)
+
+inline static constexpr unsigned int ENJDEFHFKPI___c_TypeDefinitionIndex = 28290;
+
+	class ENJDEFHFKPI___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45250);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENJDEFHFKPI___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENJDEFHFKPI___C_CTOR_OFFSET))(this);
+		}
+
+		::ENJDEFHFKPI* __cctor_b__23_0()
+		{
+			return ((::ENJDEFHFKPI*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENJDEFHFKPI___C___CCTOR_B__23_0_OFFSET))(this);
+		}
+
+	};

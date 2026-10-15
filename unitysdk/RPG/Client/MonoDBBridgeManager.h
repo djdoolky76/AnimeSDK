@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_CA541659BF2DC4A9;
+class IGDJOPOJKDO;
 namespace RPG::Client { class MonoDBBridgeControl; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONODBBRIDGEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E42130)
-#define RPG_CLIENT_MONODBBRIDGEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19E42270)
-#define RPG_CLIENT_MONODBBRIDGEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19E421A0)
-#define RPG_CLIENT_MONODBBRIDGEMANAGER_UPDATEREFERENCEPOS_OFFSET UNITYSDK_OFFSET(0x19E41F80)
-#define RPG_CLIENT_MONODBBRIDGEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E42200)
-#define RPG_CLIENT_MONODBBRIDGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E42330)
+#define RPG_CLIENT_MONODBBRIDGEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD73D6D0)
+#define RPG_CLIENT_MONODBBRIDGEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xD73D8D0)
+#define RPG_CLIENT_MONODBBRIDGEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD73D810)
+#define RPG_CLIENT_MONODBBRIDGEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD73D740)
+#define RPG_CLIENT_MONODBBRIDGEMANAGER_UPDATEREFERENCEPOS_OFFSET UNITYSDK_OFFSET(0xD73D520)
+#define RPG_CLIENT_MONODBBRIDGEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD73D7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDBBridgeManager_TypeDefinitionIndex = 70693;
+	inline static constexpr unsigned int MonoDBBridgeManager_TypeDefinitionIndex = 70729;
 
 	class MonoDBBridgeManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean StandingBy; // 0x18
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::UnityEngine::GameObject*>* Reference; // 0x20
 		::Il2CppArray<::UnityEngine::GameObject*>* Bridge; // 0x28
 		::Il2CppArray<::RPG::Client::MonoDBBridgeControl*>* BridgeController; // 0x30
@@ -37,12 +37,12 @@ namespace RPG::Client
 		::UnityEngine::GameObject* GatheringPos; // 0x48
 		::System::Boolean GotoBridge; // 0x50
 		::System::Boolean FallbacktoStandby; // 0x51
+		::System::Byte _padding1[0x2];
 		::System::Single bridgeProgress; // 0x54
-		::Class_2_CA541659BF2DC4A9* _Behavior; // 0x58
-
+		::IGDJOPOJKDO* _Behavior; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODBBRIDGEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODBBRIDGEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UpdateReferencePos(::System::Int32 a1, ::UnityEngine::Vector3 a2)
@@ -69,5 +69,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODBBRIDGEMANAGER_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

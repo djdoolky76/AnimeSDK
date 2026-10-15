@@ -2,25 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/BoneFollower_AxisOrientation.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine { class Bone; }
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_BONEFOLLOWER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1830EC00)
-#define SPINE_UNITY_BONEFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1830E860)
-#define SPINE_UNITY_BONEFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1830EC10)
-#define SPINE_UNITY_BONEFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1830E880)
-#define SPINE_UNITY_BONEFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1830EE20)
-#define SPINE_UNITY_BONEFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1830ED20)
-#define SPINE_UNITY_BONEFOLLOWER_SETBONE_OFFSET UNITYSDK_OFFSET(0x1830EAF0)
-#define SPINE_UNITY_BONEFOLLOWER_SET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1830E870)
-#define SPINE_UNITY_BONEFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1830F780)
+#define SPINE_UNITY_BONEFOLLOWER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ECD3C90)
+#define SPINE_UNITY_BONEFOLLOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD4810)
+#define SPINE_UNITY_BONEFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECD38F0)
+#define SPINE_UNITY_BONEFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECD3CA0)
+#define SPINE_UNITY_BONEFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECD3910)
+#define SPINE_UNITY_BONEFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ECD3EB0)
+#define SPINE_UNITY_BONEFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ECD3DB0)
+#define SPINE_UNITY_BONEFOLLOWER_SETBONE_OFFSET UNITYSDK_OFFSET(0x1ECD3B80)
+#define SPINE_UNITY_BONEFOLLOWER_SET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ECD3900)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BoneFollower_TypeDefinitionIndex = 43821;
+	inline static constexpr unsigned int BoneFollower_TypeDefinitionIndex = 45013;
 
 	class BoneFollower : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,16 +32,17 @@ namespace Spine::Unity
 		::System::Boolean followSkeletonFlip; // 0x2B
 		::System::Boolean followLocalScale; // 0x2C
 		::System::Boolean followParentWorldScale; // 0x2D
+		::System::Byte _padding0[0x2];
 		::Spine::Unity::BoneFollower_AxisOrientation maintainedAxisOrientation; // 0x30
 		::System::Boolean initializeOnAwake; // 0x34
 		::System::Boolean valid; // 0x35
+		::System::Byte _padding1[0x2];
 		::Spine::Bone* bone; // 0x38
 		::UnityEngine::Transform* skeletonTransform; // 0x40
 		::System::Boolean skeletonTransformIsParent; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_CTOR_OFFSET))(this);
 		}
 
 		::Spine::Unity::SkeletonRenderer* get_SkeletonRenderer()
@@ -84,5 +84,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

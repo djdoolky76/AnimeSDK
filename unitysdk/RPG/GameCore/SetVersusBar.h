@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetVersusBar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETVERSUSBAR_METHOD_3_2C02026EA0D06698_OFFSET UNITYSDK_OFFSET(0x1E095290)
-#define RPG_GAMECORE_SETVERSUSBAR_METHOD_3_6395EFD1FF31AAE5_OFFSET UNITYSDK_OFFSET(0x1E0952D0)
-#define RPG_GAMECORE_SETVERSUSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0952C0)
+#define RPG_GAMECORE_SETVERSUSBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9C070)
+#define RPG_GAMECORE_SETVERSUSBAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9C080)
+#define RPG_GAMECORE_SETVERSUSBAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9C040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetVersusBar_TypeDefinitionIndex = 22885;
+	inline static constexpr unsigned int SetVersusBar_TypeDefinitionIndex = 23144;
 
 	class SetVersusBar : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* TeamDarkIcon; // 0x20
 		::System::Boolean ShowHalfOnTotalProgressZero; // 0x28
 		::System::Boolean ShowFullScreenEffect; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVERSUSBAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVERSUSBAR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C02026EA0D06698(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetVersusBar*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetVersusBar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetVersusBar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVERSUSBAR_METHOD_3_2C02026EA0D06698_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetVersusBar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVERSUSBAR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6395EFD1FF31AAE5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetVersusBar* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetVersusBar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetVersusBar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVERSUSBAR_METHOD_3_6395EFD1FF31AAE5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetVersusBar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVERSUSBAR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueTournPersonaLegendRowType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class RogueTournPersonaLegendAttributeRow; }
 namespace RPG::Client { class RogueTournPersonaRoomAttributeData; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CREATE_OFFSET UNITYSDK_OFFSET(0x1C79E760)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ATTRIBUTEDATA_OFFSET UNITYSDK_OFFSET(0x1C79E670)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ROWTYPE_OFFSET UNITYSDK_OFFSET(0x1C79E620)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79E7E0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CREATE_OFFSET UNITYSDK_OFFSET(0xE018880)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CTOR_OFFSET UNITYSDK_OFFSET(0xE018900)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ATTRIBUTEDATA_OFFSET UNITYSDK_OFFSET(0xE018820)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ROWTYPE_OFFSET UNITYSDK_OFFSET(0xE0187D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaLegendAttributeRow_TypeDefinitionIndex = 72822;
+	inline static constexpr unsigned int RogueTournPersonaLegendAttributeRow_TypeDefinitionIndex = 72905;
 
 	class RogueTournPersonaLegendAttributeRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 _AttributeID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::RogueTournPersonaLegendRowType get_RowType()
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::RogueTournPersonaLegendAttributeRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TwinkleFlipperLightDevice; }
 
-#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_METHOD_3_2C309C27B5AC71C1_OFFSET UNITYSDK_OFFSET(0x1D2AA0C0)
-#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_METHOD_3_77073F3926B55264_OFFSET UNITYSDK_OFFSET(0x1D2AA020)
-#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AA080)
+#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC413E0)
+#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC41420)
+#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC41380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TwinkleFlipperLightDevice_TypeDefinitionIndex = 22091;
+	inline static constexpr unsigned int TwinkleFlipperLightDevice_TypeDefinitionIndex = 22340;
 
 	class TwinkleFlipperLightDevice : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* DevicePropTarget; // 0x18
 		::RPG::GameCore::DynamicFloat* Interval; // 0x20
 		::System::Boolean On; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_77073F3926B55264(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TwinkleFlipperLightDevice*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TwinkleFlipperLightDevice* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TwinkleFlipperLightDevice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_METHOD_3_77073F3926B55264_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TwinkleFlipperLightDevice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2C309C27B5AC71C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TwinkleFlipperLightDevice* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TwinkleFlipperLightDevice* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TwinkleFlipperLightDevice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_METHOD_3_2C309C27B5AC71C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TwinkleFlipperLightDevice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

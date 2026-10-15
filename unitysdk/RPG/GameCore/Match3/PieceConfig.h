@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/Match3/PieceType.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore::Match3 { class PieceConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MATCH3_PIECECONFIG_METHOD_2_C4895AD839409AFE_OFFSET UNITYSDK_OFFSET(0x1D262C90)
-#define RPG_GAMECORE_MATCH3_PIECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D262E00)
+#define RPG_GAMECORE_MATCH3_PIECECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D821FE0)
+#define RPG_GAMECORE_MATCH3_PIECECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D821E70)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int PieceConfig_TypeDefinitionIndex = 24585;
+	inline static constexpr unsigned int PieceConfig_TypeDefinitionIndex = 24867;
 
 	class PieceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore::Match3
 		::System::UInt32 ID; // 0x10
 		::RPG::GameCore::Match3::PieceType Type; // 0x14
 		::System::UInt32 StyleID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_PIECECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_PIECECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C4895AD839409AFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::PieceConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::PieceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::PieceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_PIECECONFIG_METHOD_2_C4895AD839409AFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::PieceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_PIECECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

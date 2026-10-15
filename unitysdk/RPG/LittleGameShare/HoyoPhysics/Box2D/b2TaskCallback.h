@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C79A840)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C79A8E0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C78D5E0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79A7D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C848C80)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C848C10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C848D20)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C83BA20)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2TaskCallback_TypeDefinitionIndex = 35955;
+	inline static constexpr unsigned int b2TaskCallback_TypeDefinitionIndex = 36642;
 
 	class b2TaskCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Object* a4)
@@ -37,5 +36,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDF840)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDF8B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDF820)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDF7A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F659DC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F659D20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F659E30)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F659DA0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRResources__LoadSharedResource_TypeDefinitionIndex = 37887;
+	inline static constexpr unsigned int IVRResources__LoadSharedResource_TypeDefinitionIndex = 39184;
 
 	class IVRResources__LoadSharedResource : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__LOADSHAREDRESOURCE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

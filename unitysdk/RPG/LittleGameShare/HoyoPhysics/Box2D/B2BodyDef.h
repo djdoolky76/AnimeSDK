@@ -4,14 +4,12 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2MotionLocks.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Rot.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyDef_TypeDefinitionIndex = 35905;
+	inline static constexpr unsigned int B2BodyDef_TypeDefinitionIndex = 36592;
 
 	struct alignas(8) B2BodyDef
 	{

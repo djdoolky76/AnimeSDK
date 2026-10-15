@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraAbilityStart; }
 namespace RPG::GameCore { class ChimeraEventHandlers; }
+namespace RPG::GameCore { class ChimeraWorkJsonConfig; }
 namespace RPG::GameCore { class ChimeraWorkPhaseConfig; }
 
-#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG_METHOD_2_337BB6FCD821A54F_OFFSET UNITYSDK_OFFSET(0x1E342DC0)
-#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E342F60)
+#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D583A60)
+#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5838C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkJsonConfig_TypeDefinitionIndex = 15710;
+	inline static constexpr unsigned int ChimeraWorkJsonConfig_TypeDefinitionIndex = 15883;
 
 	class ChimeraWorkJsonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,15 +24,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::ChimeraAbilityStart* CloseAttack; // 0x30
 		::RPG::GameCore::ChimeraWorkPhaseConfig* WorkPhase; // 0x38
 		::RPG::GameCore::ChimeraEventHandlers* Handlers; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWORKJSONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWORKJSONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_337BB6FCD821A54F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraWorkJsonConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraWorkJsonConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraWorkJsonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWORKJSONCONFIG_METHOD_2_337BB6FCD821A54F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraWorkJsonConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAWORKJSONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

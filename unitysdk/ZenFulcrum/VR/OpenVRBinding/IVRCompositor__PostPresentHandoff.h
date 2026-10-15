@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6460)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6490)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6450)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED63E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6509E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F650960)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F650A10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6509D0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__PostPresentHandoff_TypeDefinitionIndex = 37725;
+	inline static constexpr unsigned int IVRCompositor__PostPresentHandoff_TypeDefinitionIndex = 39022;
 
 	class IVRCompositor__PostPresentHandoff : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__POSTPRESENTHANDOFF_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

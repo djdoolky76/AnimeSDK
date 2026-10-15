@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Editor/EnvironmentSystemV2Editor/EnvEditorBlock.h"
-
 namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorSingleProperty; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_FOLDERON_OFFSET UNITYSDK_OFFSET(0x168468E0)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_PREFKEY_OFFSET UNITYSDK_OFFSET(0x16846900)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_SET_FOLDERON_OFFSET UNITYSDK_OFFSET(0x168468F0)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x16846970)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A0550)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xE4A04C0)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_PREFKEY_OFFSET UNITYSDK_OFFSET(0xE4A04E0)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_SET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xE4A04D0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorFoldout_TypeDefinitionIndex = 52360;
+	inline static constexpr unsigned int EnvEditorFoldout_TypeDefinitionIndex = 52073;
 
 	class EnvEditorFoldout : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{
@@ -21,10 +20,9 @@ namespace RPG::Editor::EnvironmentSystemV2Editor
 		::System::String* FoldoutText; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorSingleProperty*>* Properties; // 0x18
 		::System::Boolean _FolderOn_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_FolderOn()
@@ -41,5 +39,6 @@ namespace RPG::Editor::EnvironmentSystemV2Editor
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_PREFKEY_OFFSET))(this);
 		}
+
 	};
 }

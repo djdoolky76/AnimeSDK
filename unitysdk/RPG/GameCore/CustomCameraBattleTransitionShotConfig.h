@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CustomCameraBattleTransitionShotConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_METHOD_2_D736503E9C4EB0EE_OFFSET UNITYSDK_OFFSET(0x1D803FA0)
-#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8046E0)
+#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BBED0)
+#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5BB680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomCameraBattleTransitionShotConfig_TypeDefinitionIndex = 20186;
+	inline static constexpr unsigned int CustomCameraBattleTransitionShotConfig_TypeDefinitionIndex = 20424;
 
 	class CustomCameraBattleTransitionShotConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,6 +25,7 @@ namespace RPG::GameCore
 		::System::Single WorldYOffset; // 0x30
 		::System::Single Dutch; // 0x34
 		::System::Boolean UseStartPoleAngle; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Single StartPoleAngle; // 0x3C
 		::System::Single SecondStartPoleAngle; // 0x40
 		::System::Single StartPoleAngleBias; // 0x44
@@ -39,15 +40,15 @@ namespace RPG::GameCore
 		::System::String* CameraMoveCurveX; // 0x78
 		::System::String* CameraMoveCurveY; // 0x80
 		::System::String* CameraMoveCurveZ; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D736503E9C4EB0EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_METHOD_2_D736503E9C4EB0EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

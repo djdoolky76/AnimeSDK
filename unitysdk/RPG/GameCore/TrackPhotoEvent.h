@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class TrackPhotoEvent; }
 
-#define RPG_GAMECORE_TRACKPHOTOEVENT_METHOD_2_B97469133E0706F1_OFFSET UNITYSDK_OFFSET(0x1D52F710)
-#define RPG_GAMECORE_TRACKPHOTOEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52F860)
+#define RPG_GAMECORE_TRACKPHOTOEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFD170)
+#define RPG_GAMECORE_TRACKPHOTOEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFD020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoEvent_TypeDefinitionIndex = 21398;
+	inline static constexpr unsigned int TrackPhotoEvent_TypeDefinitionIndex = 21644;
 
 	class TrackPhotoEvent : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Single Position; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* TriggerEvents; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B97469133E0706F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrackPhotoEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrackPhotoEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrackPhotoEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOEVENT_METHOD_2_B97469133E0706F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrackPhotoEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

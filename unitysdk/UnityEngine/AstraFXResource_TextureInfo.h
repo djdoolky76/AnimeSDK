@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Rendering/TextureDimension.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_TextureInfo_TypeDefinitionIndex = 4089;
+	inline static constexpr unsigned int AstraFXResource_TextureInfo_TypeDefinitionIndex = 4090;
 
 	struct alignas(4) AstraFXResource_TextureInfo
 	{

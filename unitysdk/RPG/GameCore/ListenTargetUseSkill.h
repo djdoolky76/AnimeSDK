@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdventureSkillType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ListenTargetUseSkill; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_4105F1F8F60D1E7B_OFFSET UNITYSDK_OFFSET(0x1DD60820)
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_F01360CC5E84B306_OFFSET UNITYSDK_OFFSET(0x1DD607E0)
-#define RPG_GAMECORE_LISTENTARGETUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD60810)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A86F0)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A8700)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A86C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 21498;
+	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 21745;
 
 	class ListenTargetUseSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,21 +22,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* Target; // 0x20
 		::Il2CppArray<::RPG::GameCore::AdventureSkillType>* ListenSkillType; // 0x28
 		::System::Single Distance; // 0x30
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* ListenCallback; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F01360CC5E84B306(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenTargetUseSkill*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ListenTargetUseSkill* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenTargetUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_F01360CC5E84B306_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ListenTargetUseSkill*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4105F1F8F60D1E7B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenTargetUseSkill* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ListenTargetUseSkill* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenTargetUseSkill*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_4105F1F8F60D1E7B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ListenTargetUseSkill*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

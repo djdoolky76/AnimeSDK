@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/DepthTextureMode.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Camera; }
 
-#define SETCAMERADEPTHNORMALRENDERMODE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D994C70)
-#define SETCAMERADEPTHNORMALRENDERMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D994CA0)
+#define SETCAMERADEPTHNORMALRENDERMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBDD90)
+#define SETCAMERADEPTHNORMALRENDERMODE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EBBDD60)
 
-inline static constexpr unsigned int SetCameraDepthNormalRenderMode_TypeDefinitionIndex = 42300;
+inline static constexpr unsigned int SetCameraDepthNormalRenderMode_TypeDefinitionIndex = 43987;
 
-class SetCameraDepthNormalRenderMode : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::UnityEngine::DepthTextureMode renderMode; // 0x18
-	::UnityEngine::Camera* depthCamera; // 0x20
-
-	::System::Void _ctor()
+	class SetCameraDepthNormalRenderMode : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SETCAMERADEPTHNORMALRENDERMODE__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::DepthTextureMode renderMode; // 0x18
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Camera* depthCamera; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SETCAMERADEPTHNORMALRENDERMODE_CTOR_OFFSET))(this);
+		}
 
-	::System::Void OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SETCAMERADEPTHNORMALRENDERMODE_ONENABLE_OFFSET))(this);
-	}
-};
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SETCAMERADEPTHNORMALRENDERMODE_ONENABLE_OFFSET))(this);
+		}
+
+	};

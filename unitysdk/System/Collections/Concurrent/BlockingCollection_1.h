@@ -1,12 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
-
-namespace System { class Array; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Concurrent { template <typename T> class IProducerConsumerCollection_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Threading { class CancellationTokenSource; }
 namespace System::Threading { class SemaphoreSlim; }
 

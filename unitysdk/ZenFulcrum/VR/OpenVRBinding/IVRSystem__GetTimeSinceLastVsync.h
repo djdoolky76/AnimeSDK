@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF5A650)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF5A6C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF5A640)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5A5C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65E010)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65DF80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65E080)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65E000)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetTimeSinceLastVsync_TypeDefinitionIndex = 37598;
+	inline static constexpr unsigned int IVRSystem__GetTimeSinceLastVsync_TypeDefinitionIndex = 38895;
 
 	class IVRSystem__GetTimeSinceLastVsync : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::Single& a1, ::System::UInt64& a2)
+		::System::Boolean Invoke(::System::Single a1, ::System::UInt64 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single&, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::UInt64))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Single& a1, ::System::UInt64& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::System::Single a1, ::System::UInt64 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Single&, ::System::UInt64&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Single, ::System::UInt64, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::Single& a1, ::System::UInt64& a2, ::System::IAsyncResult* a3)
+		::System::Boolean EndInvoke(::System::Single a1, ::System::UInt64 a2, ::System::IAsyncResult* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single&, ::System::UInt64&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_ENDINVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::UInt64, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETTIMESINCELASTVSYNC_ENDINVOKE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_NODEINDEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x191BDC00)
+#define RPG_CLIENT_NODEINDEXITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CAC40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NodeIndexItem_TypeDefinitionIndex = 72432;
+	inline static constexpr unsigned int NodeIndexItem_TypeDefinitionIndex = 72505;
 
 	class NodeIndexItem : public ::System::Object
 	{
 	public:
 		::UnityEngine::Component* mComponent; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NODEINDEXITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NODEINDEXITEM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

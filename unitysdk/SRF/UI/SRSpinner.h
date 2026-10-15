@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Selectable.h"
-
 namespace SRF::UI { class SRSpinner_SpinEvent; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define SRF_UI_SRSPINNER_GET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x1EC49540)
-#define SRF_UI_SRSPINNER_GET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x1EC49520)
-#define SRF_UI_SRSPINNER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1EC49560)
-#define SRF_UI_SRSPINNER_ONDECREMENT_OFFSET UNITYSDK_OFFSET(0x1EC496C0)
-#define SRF_UI_SRSPINNER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1EC49570)
-#define SRF_UI_SRSPINNER_ONINCREMENT_OFFSET UNITYSDK_OFFSET(0x1EC49680)
-#define SRF_UI_SRSPINNER_SET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x1EC49550)
-#define SRF_UI_SRSPINNER_SET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x1EC49530)
-#define SRF_UI_SRSPINNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC49700)
+#define SRF_UI_SRSPINNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED540F0)
+#define SRF_UI_SRSPINNER_GET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x1ED53F30)
+#define SRF_UI_SRSPINNER_GET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x1ED53F10)
+#define SRF_UI_SRSPINNER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1ED53F50)
+#define SRF_UI_SRSPINNER_ONDECREMENT_OFFSET UNITYSDK_OFFSET(0x1ED540B0)
+#define SRF_UI_SRSPINNER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1ED53F60)
+#define SRF_UI_SRSPINNER_ONINCREMENT_OFFSET UNITYSDK_OFFSET(0x1ED54070)
+#define SRF_UI_SRSPINNER_SET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x1ED53F40)
+#define SRF_UI_SRSPINNER_SET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x1ED53F20)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRSpinner_TypeDefinitionIndex = 34724;
+	inline static constexpr unsigned int SRSpinner_TypeDefinitionIndex = 35393;
 
 	class SRSpinner : public ::UnityEngine::UI::Selectable
 	{
 	public:
 		::System::Single _dragDelta; // 0x108
+		::System::Byte _padding0[0x4];
 		::SRF::UI::SRSpinner_SpinEvent* _onSpinDecrement; // 0x110
 		::SRF::UI::SRSpinner_SpinEvent* _onSpinIncrement; // 0x118
 		::System::Single DragThreshold; // 0x120
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_CTOR_OFFSET))(this);
 		}
 
 		::SRF::UI::SRSpinner_SpinEvent* get_OnSpinIncrement()
@@ -71,5 +70,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONDECREMENT_OFFSET))(this, a1);
 		}
+
 	};
 }

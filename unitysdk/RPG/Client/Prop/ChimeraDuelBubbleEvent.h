@@ -3,41 +3,40 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelBubbleEventType.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_CREATEFACTORY_OFFSET UNITYSDK_OFFSET(0x189DCC30)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x189DCD60)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_ARG_OFFSET UNITYSDK_OFFSET(0x189DCE50)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x189DCE70)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x189DCED0)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0x189DCEB0)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x189DCE90)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_ARG_OFFSET UNITYSDK_OFFSET(0x189DCE60)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x189DCE80)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x189DCEE0)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x189DCEC0)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x189DCEA0)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x189DCBE0)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_CREATEFACTORY_OFFSET UNITYSDK_OFFSET(0xDC4C430)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0xDC4C560)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC4C3E0)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_ARG_OFFSET UNITYSDK_OFFSET(0xDC4C650)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xDC4C670)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xDC4C6D0)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0xDC4C6B0)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xDC4C690)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_ARG_OFFSET UNITYSDK_OFFSET(0xDC4C660)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xDC4C680)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_DURATION_OFFSET UNITYSDK_OFFSET(0xDC4C6E0)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0xDC4C6C0)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xDC4C6A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelBubbleEvent_TypeDefinitionIndex = 77804;
+	inline static constexpr unsigned int ChimeraDuelBubbleEvent_TypeDefinitionIndex = 78275;
 
 	class ChimeraDuelBubbleEvent : public ::System::Object
 	{
 	public:
-		::System::Int32 _Arg_k__BackingField; // 0x10
-		::System::UInt32 _ConfigID_k__BackingField; // 0x14
-		::System::UInt32 _SkillID_k__BackingField; // 0x18
-		::RPG::GameCore::ChimeraDuelBubbleEventType EventType; // 0x1C
-		::RPG::GameCore::ChimeraDuelTeamType TeamType; // 0x20
+		::System::UInt32 _SkillID_k__BackingField; // 0x10
+		::System::Int32 _Arg_k__BackingField; // 0x14
+		::RPG::GameCore::ChimeraDuelBubbleEventType EventType; // 0x18
+		::RPG::GameCore::ChimeraDuelTeamType TeamType; // 0x1C
+		::System::UInt32 _ConfigID_k__BackingField; // 0x20
 		::System::Int32 _UniqueID_k__BackingField; // 0x24
 		::System::Single _Duration_k__BackingField; // 0x28
-
 		::System::Void _ctor(::RPG::GameCore::ChimeraDuelBubbleEventType a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::UInt32 a6, ::System::Single a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelBubbleEventType, ::RPG::GameCore::ChimeraDuelTeamType, ::System::UInt32, ::System::Int32, ::System::Int32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelBubbleEventType, ::RPG::GameCore::ChimeraDuelTeamType, ::System::UInt32, ::System::Int32, ::System::Int32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* CreateFactory(::RPG::GameCore::ChimeraDuelBubbleEventType a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::UInt32 a6, ::System::Func_1<::System::Single>* a7)
@@ -99,5 +98,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT_SET_DURATION_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Tilemaps/TileBase.h"
-#include "unitysdk/UnityEngine/Tilemaps/TileData.h"
 #include "unitysdk/UnityEngine/Tilemaps/TileFlags.h"
 #include "unitysdk/UnityEngine/Tilemaps/Tile_ColliderType.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Tilemaps/TileData.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::Tilemaps { class ITilemap; }
 
-#define UNITYENGINE_TILEMAPS_TILE_GETTILEDATA_OFFSET UNITYSDK_OFFSET(0x1F011020)
-#define UNITYENGINE_TILEMAPS_TILE_GET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x1F011000)
-#define UNITYENGINE_TILEMAPS_TILE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x1F010F50)
-#define UNITYENGINE_TILEMAPS_TILE_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1F010FE0)
-#define UNITYENGINE_TILEMAPS_TILE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F010FC0)
-#define UNITYENGINE_TILEMAPS_TILE_GET_SPRITE_OFFSET UNITYSDK_OFFSET(0x1F010F30)
-#define UNITYENGINE_TILEMAPS_TILE_GET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F010F70)
-#define UNITYENGINE_TILEMAPS_TILE_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x1F011010)
-#define UNITYENGINE_TILEMAPS_TILE_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x1F010F60)
-#define UNITYENGINE_TILEMAPS_TILE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1F010FF0)
-#define UNITYENGINE_TILEMAPS_TILE_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F010FD0)
-#define UNITYENGINE_TILEMAPS_TILE_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x1F010F40)
-#define UNITYENGINE_TILEMAPS_TILE_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F010FA0)
-#define UNITYENGINE_TILEMAPS_TILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0110E0)
+#define UNITYENGINE_TILEMAPS_TILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F47BBD0)
+#define UNITYENGINE_TILEMAPS_TILE_GETTILEDATA_OFFSET UNITYSDK_OFFSET(0x1F47BB10)
+#define UNITYENGINE_TILEMAPS_TILE_GET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x1F47BAF0)
+#define UNITYENGINE_TILEMAPS_TILE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x1F47BA40)
+#define UNITYENGINE_TILEMAPS_TILE_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1F47BAD0)
+#define UNITYENGINE_TILEMAPS_TILE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F47BAB0)
+#define UNITYENGINE_TILEMAPS_TILE_GET_SPRITE_OFFSET UNITYSDK_OFFSET(0x1F47BA20)
+#define UNITYENGINE_TILEMAPS_TILE_GET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F47BA60)
+#define UNITYENGINE_TILEMAPS_TILE_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x1F47BB00)
+#define UNITYENGINE_TILEMAPS_TILE_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x1F47BA50)
+#define UNITYENGINE_TILEMAPS_TILE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1F47BAE0)
+#define UNITYENGINE_TILEMAPS_TILE_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F47BAC0)
+#define UNITYENGINE_TILEMAPS_TILE_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x1F47BA30)
+#define UNITYENGINE_TILEMAPS_TILE_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F47BA90)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int Tile_TypeDefinitionIndex = 5847;
+	inline static constexpr unsigned int Tile_TypeDefinitionIndex = 5855;
 
 	class Tile : public ::UnityEngine::Tilemaps::TileBase
 	{
@@ -40,10 +39,9 @@ namespace UnityEngine::Tilemaps
 		::UnityEngine::GameObject* m_InstancedGameObject; // 0x70
 		::UnityEngine::Tilemaps::TileFlags m_Flags; // 0x78
 		::UnityEngine::Tilemaps::Tile_ColliderType m_ColliderType; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Sprite* get_sprite()
@@ -106,9 +104,10 @@ namespace UnityEngine::Tilemaps
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Tilemaps::Tile_ColliderType))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_COLLIDERTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTileData(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2, ::UnityEngine::Tilemaps::TileData& a3)
+		::System::Void GetTileData(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2, ::UnityEngine::Tilemaps::TileData a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::Tilemaps::TileData&))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GETTILEDATA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::Tilemaps::TileData))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GETTILEDATA_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace EnviromentSystemV2Space { class LayoutBoolPropertyData; }
 namespace EnviromentSystemV2Space { class LayoutFloatCurvePropertyData; }
 namespace EnviromentSystemV2Space { class LayoutFloatPropertyData; }
@@ -16,22 +15,18 @@ namespace EnviromentSystemV2Space { class LayoutVector4PropertyData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_B247C6D88E785B91_OFFSET UNITYSDK_OFFSET(0x106CF430)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_D760CBAEA5983162_OFFSET UNITYSDK_OFFSET(0x106CF690)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x106D0A70)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x106D0900)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15630560)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x156303F0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_EMCKLAMMBFC_OFFSET UNITYSDK_OFFSET(0x1562F180)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1562EF20)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 49804;
+	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 49379;
 
 	class EnvDynamicPropLayoutProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>** StaticGet__tempList()
-		{
-			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvDynamicPropLayoutProfile_TypeDefinitionIndex)->GetStaticField(0x64D90);
-		}
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutIntPropertyData*>* intPropertyDatas; // 0x18
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutFloatPropertyData*>* floatPropertyDatas; // 0x20
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutBoolPropertyData*>* boolPropertyDatas; // 0x28
@@ -42,25 +37,30 @@ namespace EnviromentSystemV2Space
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutGradientPropertyData*>* gradientPropertyDatas; // 0x50
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutVector4CurvePropertyData*>* curveVector4PropertyDatas; // 0x58
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutTextPropertyData*>* textPropertyDatas; // 0x60
+		static ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>** StaticGet__tempList()
+		{
+			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)UnitySDK::FromName("EnviromentSystemV2Space", "EnvDynamicPropLayoutProfile")->GetStaticField(0x4C060);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_B247C6D88E785B91()
+		::System::Void PJPFIHFAHGO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_B247C6D88E785B91_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_PJPFIHFAHGO_OFFSET))(this);
 		}
 
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>* Method_3_D760CBAEA5983162()
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>* EMCKLAMMBFC()
 		{
-			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_D760CBAEA5983162_OFFSET))(this);
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_EMCKLAMMBFC_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelNode.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
+namespace RPG::GameCore { class ChimeraDuelSwapPositionNode; }
 
-#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_260E32BE6C4D8677_OFFSET UNITYSDK_OFFSET(0x1E33D350)
-#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_B658D4E04E2A7F2D_OFFSET UNITYSDK_OFFSET(0x1E33D3B0)
-#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33D3A0)
+#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57DA90)
+#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57DAA0)
+#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57DA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelSwapPositionNode_TypeDefinitionIndex = 15793;
+	inline static constexpr unsigned int ChimeraDuelSwapPositionNode_TypeDefinitionIndex = 15966;
 
 	class ChimeraDuelSwapPositionNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* From; // 0x10
 		::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* To; // 0x18
 		::System::Single SwapTime; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_260E32BE6C4D8677(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelSwapPositionNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_260E32BE6C4D8677_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelSwapPositionNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B658D4E04E2A7F2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelSwapPositionNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_B658D4E04E2A7F2D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelSwapPositionNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

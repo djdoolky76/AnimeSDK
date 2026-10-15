@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LevelGraphOperationType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedGameMode_RecordOperationByLGData_TypeDefinitionIndex = 53819;
+	inline static constexpr unsigned int TurnBasedGameMode_RecordOperationByLGData_TypeDefinitionIndex = 53603;
 
 	struct alignas(4) TurnBasedGameMode_RecordOperationByLGData
 	{

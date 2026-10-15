@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
 #include "unitysdk/RPG/Client/FateRin/Card/FateRinBattleCardPileType.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
 #include "unitysdk/RPG/Client/TextID.h"
-
-class Class_0_16E4307DCC419505_1370;
-class Class_0_16E4307DCC419505_1371;
-class Class_1_426391BD841CEF9C;
-class Class_1_5F4D64A4B97E38F9;
-class Class_1_B71FC14BA77C9F77;
+class COOONBGCCCM;
+class DEGELHCLDJB;
+class HLOHDPOEMDK;
+class NLJLFIEPHEL;
+class OBJANKHLNGO;
 namespace RPG::Client::FateRin::Card { class IFateRinBattleCardPileSectionViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1CBDDD90)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_SECTIONVIEWMODELLIST_OFFSET UNITYSDK_OFFSET(0x1CBDDFA0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_TABICONPATH_OFFSET UNITYSDK_OFFSET(0x1CBDDEF0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1CBDDD70)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1CBDDD80)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBDD800)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL__GETCARDMODELLIST_OFFSET UNITYSDK_OFFSET(0x1CBDDC90)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCEDA940)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCEDAED0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_SECTIONVIEWMODELLIST_OFFSET UNITYSDK_OFFSET(0xCEDB0E0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_TABICONPATH_OFFSET UNITYSDK_OFFSET(0xCEDB030)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCEDAEB0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xCEDAEC0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL__GETCARDMODELLIST_OFFSET UNITYSDK_OFFSET(0xCEDADD0)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel_TypeDefinitionIndex = 79795;
+	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel_TypeDefinitionIndex = 81119;
 
 	class FateRinBattleCardPileTypeViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
@@ -33,15 +32,14 @@ namespace RPG::Client::FateRin::Card
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::FateRin::Card::IFateRinBattleCardPileSectionViewModel*>* _SectionViewModelList_ReadOnly; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Card::IFateRinBattleCardPileSectionViewModel*>* _SectionViewModelList; // 0x28
 		::RPG::Client::FateRin::Card::FateRinBattleCardPileType _Type_k__BackingField; // 0x30
-
-		::System::Void _ctor(::RPG::Client::FateRin::Card::FateRinBattleCardPileType a1, ::Class_1_426391BD841CEF9C* a2, ::Class_0_16E4307DCC419505_1370* a3, ::Class_0_16E4307DCC419505_1371* a4, ::Class_1_5F4D64A4B97E38F9* a5)
+		::System::Void _ctor(::RPG::Client::FateRin::Card::FateRinBattleCardPileType a1, ::HLOHDPOEMDK* a2, ::NLJLFIEPHEL* a3, ::DEGELHCLDJB* a4, ::OBJANKHLNGO* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Card::FateRinBattleCardPileType, ::Class_1_426391BD841CEF9C*, ::Class_0_16E4307DCC419505_1370*, ::Class_0_16E4307DCC419505_1371*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Card::FateRinBattleCardPileType, ::HLOHDPOEMDK*, ::NLJLFIEPHEL*, ::DEGELHCLDJB*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_B71FC14BA77C9F77*>* _GetCardModelList(::Class_1_426391BD841CEF9C* a1, ::RPG::Client::FateRin::Card::FateRinBattleCardPileType a2)
+		::System::Collections::Generic::List_1<::COOONBGCCCM*>* _GetCardModelList(::HLOHDPOEMDK* a1, ::RPG::Client::FateRin::Card::FateRinBattleCardPileType a2)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_B71FC14BA77C9F77*>*(*)(::PVOID, ::Class_1_426391BD841CEF9C*, ::RPG::Client::FateRin::Card::FateRinBattleCardPileType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL__GETCARDMODELLIST_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::COOONBGCCCM*>*(*)(::PVOID, ::HLOHDPOEMDK*, ::RPG::Client::FateRin::Card::FateRinBattleCardPileType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL__GETCARDMODELLIST_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::FateRin::Card::FateRinBattleCardPileType get_Type()
@@ -68,5 +66,6 @@ namespace RPG::Client::FateRin::Card
 		{
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Card::IFateRinBattleCardPileSectionViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL_GET_SECTIONVIEWMODELLIST_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ZenFulcrum/EmbeddedBrowser/StandaloneWebResources_IndexEntry.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/WebResources.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1D7F23A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET UNITYSDK_OFFSET(0x1D7F1E30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1D7F27C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F1D60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F640530)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1F640B70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET UNITYSDK_OFFSET(0x1F640600)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1F640F90)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 38266;
+	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 39563;
 
 	class StandaloneWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{
 	public:
+		::System::String* dataFile; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* toc; // 0x18
 		// static const ::System::String* FileHeader; // 0x0
 		// static const ::System::String* DefaultPath; // 0x0
-		::System::String* dataFile; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry>* toc; // 0x18
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void LoadIndex()
@@ -42,5 +40,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

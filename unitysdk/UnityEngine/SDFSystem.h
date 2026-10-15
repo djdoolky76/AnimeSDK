@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
-
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class SDFSectorData; }
 namespace UnityEngine { class SDFStreamingParams; }
 
-#define UNITYENGINE_SDFSYSTEM_ADDSECTORDATA_OFFSET UNITYSDK_OFFSET(0x1DCD89D0)
-#define UNITYENGINE_SDFSYSTEM_ADD_STREAMINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DCD88B0)
-#define UNITYENGINE_SDFSYSTEM_NOTIFYSTREAMING_OFFSET UNITYSDK_OFFSET(0x1DCD89B0)
-#define UNITYENGINE_SDFSYSTEM_REMOVE_STREAMINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DCD8930)
-#define UNITYENGINE_SDFSYSTEM_UNLOADSECTORDATA_OFFSET UNITYSDK_OFFSET(0x1DCD89E0)
+#define UNITYENGINE_SDFSYSTEM_ADDSECTORDATA_OFFSET UNITYSDK_OFFSET(0x1F3FCA20)
+#define UNITYENGINE_SDFSYSTEM_ADD_STREAMINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3FC900)
+#define UNITYENGINE_SDFSYSTEM_NOTIFYSTREAMING_OFFSET UNITYSDK_OFFSET(0x1F3FCA00)
+#define UNITYENGINE_SDFSYSTEM_REMOVE_STREAMINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3FC980)
+#define UNITYENGINE_SDFSYSTEM_UNLOADSECTORDATA_OFFSET UNITYSDK_OFFSET(0x1F3FCA30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFSystem_TypeDefinitionIndex = 4263;
+	inline static constexpr unsigned int SDFSystem_TypeDefinitionIndex = 4265;
 
 	class SDFSystem : public ::UnityEngine::Behaviour
 	{
 	public:
 		::System::Action_1<::UnityEngine::SDFStreamingParams*>* streamingCallback; // 0x18
-
 		::System::Void add_streamingCallback(::System::Action_1<::UnityEngine::SDFStreamingParams*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::SDFStreamingParams*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SDFSYSTEM_ADD_STREAMINGCALLBACK_OFFSET))(this, a1);
@@ -45,5 +43,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SDFSectorData*))((::PBYTE)hIl2Cpp + UNITYENGINE_SDFSYSTEM_UNLOADSECTORDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

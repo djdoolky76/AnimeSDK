@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F52EB0)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__RESTARTBATTLEAFTERLOADFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x19F64DC0)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__RESTARTBATTLEAFTERLOADFINISH_B__1_OFFSET UNITYSDK_OFFSET(0x19F64E20)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC823430)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__RESTARTBATTLEAFTERLOADFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC834FD0)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__RESTARTBATTLEAFTERLOADFINISH_B__1_OFFSET UNITYSDK_OFFSET(0xC835030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass68_0_TypeDefinitionIndex = 61068;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass68_0_TypeDefinitionIndex = 60971;
 
 	class BattleGamePhase___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::BattleGamePhaseInitParams* pBGPInitParams; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _RestartBattleAfterLoadFinish_b__0()
@@ -31,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS68_0__RESTARTBATTLEAFTERLOADFINISH_B__1_OFFSET))(this);
 		}
+
 	};
 }

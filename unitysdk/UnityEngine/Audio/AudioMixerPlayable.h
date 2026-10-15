@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEAUDIOMIXERPLAYABLEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F0015D0)
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEHANDLE_OFFSET UNITYSDK_OFFSET(0x1F0013F0)
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F0011F0)
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A4E020)
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x14A80)
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F0015F0)
-#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x3CA0FD0)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEAUDIOMIXERPLAYABLEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F394A60)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEHANDLE_OFFSET UNITYSDK_OFFSET(0x1F394880)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F394680)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6B3E0)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F910D0)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2E88BC0)
+#define UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F394A80)
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioMixerPlayable_TypeDefinitionIndex = 5144;
+	inline static constexpr unsigned int AudioMixerPlayable_TypeDefinitionIndex = 5151;
 
-	struct alignas(8) AudioMixerPlayable
+	struct alignas(4) AudioMixerPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Playables::PlayableHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CTOR_OFFSET))(this, a1);
 		}
 
 		/*
@@ -31,12 +31,10 @@ namespace UnityEngine::Audio
 		}
 		*/
 
-		/*
 		static ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
 			return ((::UnityEngine::Playables::PlayableHandle(*)(::UnityEngine::Playables::PlayableGraph, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEHANDLE_OFFSET))(a1, a2, a3);
 		}
-		*/
 
 		::UnityEngine::Playables::PlayableHandle GetHandle()
 		{
@@ -50,16 +48,17 @@ namespace UnityEngine::Audio
 		}
 		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Audio::AudioMixerPlayable a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Audio::AudioMixerPlayable))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_EQUALS_OFFSET))(this, a1);
 		}
-
-		/*
-		static ::System::Boolean CreateAudioMixerPlayableInternal(::UnityEngine::Playables::PlayableGraph& a1, ::System::Boolean a2, ::UnityEngine::Playables::PlayableHandle& a3)
-		{
-			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableGraph&, ::System::Boolean, ::UnityEngine::Playables::PlayableHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEAUDIOMIXERPLAYABLEINTERNAL_OFFSET))(a1, a2, a3);
-		}
 		*/
+
+		static ::System::Boolean CreateAudioMixerPlayableInternal(::UnityEngine::Playables::PlayableGraph a1, ::System::Boolean a2, ::UnityEngine::Playables::PlayableHandle a3)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableGraph, ::System::Boolean, ::UnityEngine::Playables::PlayableHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOMIXERPLAYABLE_CREATEAUDIOMIXERPLAYABLEINTERNAL_OFFSET))(a1, a2, a3);
+		}
+
 	};
 }

@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELWAVEMONSTER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18FF0570)
-#define RPG_GAMECORE_LEVELWAVEMONSTER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18FF05C0)
-#define RPG_GAMECORE_LEVELWAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF0610)
+#define RPG_GAMECORE_LEVELWAVEMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F5270)
+#define RPG_GAMECORE_LEVELWAVEMONSTER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F51D0)
+#define RPG_GAMECORE_LEVELWAVEMONSTER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F5220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelWaveMonster_TypeDefinitionIndex = 56909;
+	inline static constexpr unsigned int LevelWaveMonster_TypeDefinitionIndex = 56730;
 
 	class LevelWaveMonster : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* WaveMonsterIds; // 0x10
 		::System::Int32 WaveCount; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELWAVEMONSTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELWAVEMONSTER_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -33,5 +31,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELWAVEMONSTER_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

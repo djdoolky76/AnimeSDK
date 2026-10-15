@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IDictionary; }
 namespace System::Collections { class IList; }
 namespace System::Text { class StringBuilder; }
 
-#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1EFFBFD0)
-#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EFFC740)
-#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET UNITYSDK_OFFSET(0x1EFFD2B0)
-#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x1EFFBAD0)
-#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x1EFFB920)
-#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EFFA300)
-#define MINIJSON_MIN_JSON_SERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFFB8A0)
+#define MINIJSON_MIN_JSON_SERIALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C340B70)
+#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1C3412A0)
+#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C341A10)
+#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET UNITYSDK_OFFSET(0x1C342580)
+#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x1C340DA0)
+#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x1C340BF0)
+#define MINIJSON_MIN_JSON_SERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C33F5D0)
 
 namespace MiniJSON_Min
 {
-	inline static constexpr unsigned int Json_Serializer_TypeDefinitionIndex = 40047;
+	inline static constexpr unsigned int Json_Serializer_TypeDefinitionIndex = 41344;
 
 	class Json_Serializer : public ::System::Object
 	{
 	public:
 		::System::Text::StringBuilder* builder; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MINIJSON_MIN_JSON_SERIALIZER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MINIJSON_MIN_JSON_SERIALIZER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::String* Serialize(::System::Object* a1)
@@ -58,5 +57,6 @@ namespace MiniJSON_Min
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MINIJSON_MIN_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET))(this, a1);
 		}
+
 	};
 }

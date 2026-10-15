@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1AA00)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC3C0020)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 73998;
+	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 74097;
 
 	class AlleyPackConfig : public ::System::Object
 	{
@@ -36,10 +35,10 @@ namespace RPG::Client::ActivityAlley
 		::UnityEngine::AnimationCurve* BoundRatioCurve; // 0x68
 		::UnityEngine::AnimationCurve* LerpRatioCurve; // 0x70
 		::System::UInt32 MaxSpeedRecordFrameCount; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

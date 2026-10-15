@@ -4,26 +4,27 @@
 #include "unitysdk/RPG/GameCore/CharacterMaterialEffectType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterReactionAnimConfig; }
 namespace RPG::GameCore { class HitMotionParams; }
+namespace RPG::GameCore { class ModifierBehaviorVisual; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASLOOPANIM_OFFSET UNITYSDK_OFFSET(0x1D1B1B20)
-#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASOCCURANIM_OFFSET UNITYSDK_OFFSET(0x1D1B1B40)
-#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASRECOVERANIM_OFFSET UNITYSDK_OFFSET(0x1D1B1B60)
-#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_METHOD_2_D45237155D85F493_OFFSET UNITYSDK_OFFSET(0x1D1B1270)
-#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B1AF0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85F880)
+#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASLOOPANIM_OFFSET UNITYSDK_OFFSET(0x1D85F8B0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASOCCURANIM_OFFSET UNITYSDK_OFFSET(0x1D85F8D0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASRECOVERANIM_OFFSET UNITYSDK_OFFSET(0x1D85F8F0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85F000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorVisual_TypeDefinitionIndex = 17989;
+	inline static constexpr unsigned int ModifierBehaviorVisual_TypeDefinitionIndex = 18203;
 
 	class ModifierBehaviorVisual : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::ModifierBehaviorFlag Flag; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* ModifierBehaviorVisualPriority; // 0x18
 		::System::String* AnimOccur; // 0x20
 		::System::String* AnimLoop; // 0x28
@@ -36,18 +37,21 @@ namespace RPG::GameCore
 		::System::Single AnimSpeedTransitTimeRange; // 0x4C
 		::System::Single RepeatOccurAnimWhenBeHitNormalizedTime; // 0x50
 		::System::Boolean ForecHitH; // 0x54
+		::System::Byte _padding1[0x3];
 		::RPG::GameCore::CharacterReactionAnimConfig* ReactionAnims; // 0x58
 		::RPG::GameCore::CharacterMaterialEffectType MaterialEffect; // 0x60
 		::System::Single MaterialTransitTime; // 0x64
 		::System::Single FloatingHeight; // 0x68
 		::System::Single FloatingRiseDuration; // 0x6C
 		::System::Single FloatingFallDuration; // 0x70
+		::System::Byte _padding2[0x4];
 		::System::String* FloatingFailAnimRecover; // 0x78
 		::System::Boolean DisableLookAtIK; // 0x80
 		::System::Boolean SpecialStandbyForbidVisualState; // 0x81
 		::System::Boolean SpecialCharacterForbidVisualState; // 0x82
 		::System::Boolean OnlyAffectPlayer; // 0x83
 		::System::Boolean IgnoreAnimConfig; // 0x84
+		::System::Byte _padding3[0x3];
 		::System::String* EmoAnimName; // 0x88
 		::RPG::GameCore::AnimCategory AnimLoopCat; // 0x90
 		::RPG::GameCore::AnimCategory AnimOccurCat; // 0x91
@@ -58,15 +62,14 @@ namespace RPG::GameCore
 		::System::Int32 FloatingFailAnimRecoverHash; // 0xA0
 		::System::Int32 EmoAnimHash; // 0xA4
 		::RPG::GameCore::HitMotionParams* FloatingParams; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORVISUAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D45237155D85F493(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierBehaviorVisual*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifierBehaviorVisual* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierBehaviorVisual*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_METHOD_2_D45237155D85F493_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifierBehaviorVisual*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean get_HasLoopAnim()
@@ -83,5 +86,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORVISUAL_GET_HASRECOVERANIM_OFFSET))(this);
 		}
+
 	};
 }

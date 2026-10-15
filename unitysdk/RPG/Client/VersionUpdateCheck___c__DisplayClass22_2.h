@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client { class VersionUpdateCheck___c__DisplayClass22_0; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C802090)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__STARTLOCALASSETVERIFY_B__4_OFFSET UNITYSDK_OFFSET(0x1C802100)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2_CTOR_OFFSET UNITYSDK_OFFSET(0xE439000)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__STARTLOCALASSETVERIFY_B__4_OFFSET UNITYSDK_OFFSET(0xE439070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_2_TypeDefinitionIndex = 61355;
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_2_TypeDefinitionIndex = 61261;
 
+	template <typename T1, typename T2>
 	class VersionUpdateCheck___c__DisplayClass22_2 : public ::System::Object
 	{
 	public:
 		::System::String* message; // 0x10
-		::RPG::Client::VersionUpdateCheck___c__DisplayClass22_0* CS___8__locals2; // 0x18
-
+		::System::Object* CS___8__locals2; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _StartLocalAssetVerify_b__4(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__STARTLOCALASSETVERIFY_B__4_OFFSET))(this, a1);
 		}
+
 	};
 }

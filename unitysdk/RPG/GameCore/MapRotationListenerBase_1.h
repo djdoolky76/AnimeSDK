@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
-class Class_1_F3391C70DC37088D;
+#include "unitysdk/GELIALJDFBL.h"
+class KDJNAAOFMMJ;
 namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationListenerBase_1_TypeDefinitionIndex = 53265;
+	inline static constexpr unsigned int MapRotationListenerBase_1_TypeDefinitionIndex = 52991;
 
-	template <typename TConfig>
-	class MapRotationListenerBase_1 : public ::Class_1_5F51D4049EA87B7B
+	template <typename T>
+	class MapRotationListenerBase_1 : public ::GELIALJDFBL
 	{
 	public:
-		TConfig _ConfigRef; // 0x0
+		T _ConfigRef; // 0x0
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x0
-		::Class_1_F3391C70DC37088D* _TaskExecutor; // 0x0
+		::KDJNAAOFMMJ* _TaskExecutor; // 0x0
 	};
 }

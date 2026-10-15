@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MatchThreeV2LevelData; }
+namespace RPG::Client { class MatchThreeV2LevelInfos; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0x1C99A990)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GETLEVELDATA_OFFSET UNITYSDK_OFFSET(0x1C99AD90)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GETREQUIREDSUBMISSIONIDS_OFFSET UNITYSDK_OFFSET(0x1C9923D0)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GET_ALLLEVELDATAS_OFFSET UNITYSDK_OFFSET(0x1C99A860)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_INIT_OFFSET UNITYSDK_OFFSET(0x1C99AB00)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99AA80)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS__INITALLLEVELDATAS_OFFSET UNITYSDK_OFFSET(0x1C99AB50)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0xD5B2510)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B2600)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GETLEVELDATA_OFFSET UNITYSDK_OFFSET(0xD5B2900)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GETREQUIREDSUBMISSIONIDS_OFFSET UNITYSDK_OFFSET(0xD5AA480)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GET_ALLLEVELDATAS_OFFSET UNITYSDK_OFFSET(0xD5B23E0)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS_INIT_OFFSET UNITYSDK_OFFSET(0xD5B2680)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS__INITALLLEVELDATAS_OFFSET UNITYSDK_OFFSET(0xD5B26D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2LevelInfos_TypeDefinitionIndex = 66048;
+	inline static constexpr unsigned int MatchThreeV2LevelInfos_TypeDefinitionIndex = 66002;
 
 	class MatchThreeV2LevelInfos : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MatchThreeV2LevelData*>* _AllLevelDatas; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2LEVELINFOS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2LEVELINFOS_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2LevelData*>* get_AllLevelDatas()
@@ -58,5 +57,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::IEnumerable_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2LEVELINFOS_GETREQUIREDSUBMISSIONIDS_OFFSET))(this);
 		}
+
 	};
 }

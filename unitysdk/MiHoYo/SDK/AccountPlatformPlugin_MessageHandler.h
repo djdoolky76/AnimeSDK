@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A193730)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A193760)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1936A0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1936C0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC095F0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC09580)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC09620)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC09560)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatformPlugin_MessageHandler_TypeDefinitionIndex = 7927;
+	inline static constexpr unsigned int AccountPlatformPlugin_MessageHandler_TypeDefinitionIndex = 7970;
 
 	class AccountPlatformPlugin_MessageHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_MESSAGEHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

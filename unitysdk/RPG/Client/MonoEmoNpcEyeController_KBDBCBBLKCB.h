@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class EmoEyeCtrl; }
+
+#define RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_ABPOHJBPGGO_OFFSET UNITYSDK_OFFSET(0xD8142A0)
+#define RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_CTOR_OFFSET UNITYSDK_OFFSET(0xD813A70)
+#define RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD813E40)
+#define RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xD8144C0)
+#define RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_NLLJAMIEICL_OFFSET UNITYSDK_OFFSET(0xD8143D0)
+#define RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_PFCKLEMPAAD_OFFSET UNITYSDK_OFFSET(0xD8143B0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoEmoNpcEyeController_KBDBCBBLKCB_TypeDefinitionIndex = 71153;
+
+	class MonoEmoNpcEyeController_KBDBCBBLKCB : public ::System::Object
+	{
+	public:
+		::RPG::Client::EmoEyeCtrl* OJEGDODGAFI; // 0x10
+		::System::Void _ctor(::RPG::Client::EmoEyeCtrl* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::EmoEyeCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void KHGIKBFDLFB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_KHGIKBFDLFB_OFFSET))(this);
+		}
+
+		::System::Void ABPOHJBPGGO(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_ABPOHJBPGGO_OFFSET))(this, a1);
+		}
+
+		::System::Boolean PFCKLEMPAAD()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_PFCKLEMPAAD_OFFSET))(this);
+		}
+
+		::System::Boolean NLLJAMIEICL()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMONPCEYECONTROLLER_KBDBCBBLKCB_NLLJAMIEICL_OFFSET))(this);
+		}
+
+	};
+}

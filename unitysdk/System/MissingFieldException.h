@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MissingMemberException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_MISSINGFIELDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1D481760)
-#define SYSTEM_MISSINGFIELDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D4815B0)
-#define SYSTEM_MISSINGFIELDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D481620)
-#define SYSTEM_MISSINGFIELDEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D481A30)
-#define SYSTEM_MISSINGFIELDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4814A0)
+#define SYSTEM_MISSINGFIELDEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C24DDD0)
+#define SYSTEM_MISSINGFIELDEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C24DE40)
+#define SYSTEM_MISSINGFIELDEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C24E250)
+#define SYSTEM_MISSINGFIELDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C24DCC0)
+#define SYSTEM_MISSINGFIELDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C24DF80)
 
 namespace System
 {
@@ -21,27 +20,28 @@ namespace System
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MISSINGFIELDEXCEPTION_GET_MESSAGE_OFFSET))(this);
 		}
+
 	};
 }

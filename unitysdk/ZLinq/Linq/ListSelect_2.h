@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int ListSelect_2_TypeDefinitionIndex = 6128;
+	inline static constexpr unsigned int ListSelect_2_TypeDefinitionIndex = 6137;
 
-	template <typename TSource, typename TResult>
-	struct ListSelect_2
+	template <typename T1, typename T2>
+	struct alignas(8) ListSelect_2
 	{
-		::System::Collections::Generic::List_1<TSource>* source; // 0x0
-		::System::Func_2<TSource, TResult>* selector; // 0x0
+		::System::Collections::Generic::List_1<T1>* source; // 0x0
+		::System::Func_2<T1, T2>* selector; // 0x0
 		::System::Int32 index; // 0x0
 	};
 }

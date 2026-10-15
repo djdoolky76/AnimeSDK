@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CAMERATWITCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C85ABD0)
-#define RPG_CLIENT_CAMERATWITCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C85A9B0)
-#define RPG_CLIENT_CAMERATWITCH_START_OFFSET UNITYSDK_OFFSET(0x1C85A920)
-#define RPG_CLIENT_CAMERATWITCH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C85AA00)
-#define RPG_CLIENT_CAMERATWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85AC40)
+#define RPG_CLIENT_CAMERATWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0xC931BB0)
+#define RPG_CLIENT_CAMERATWITCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC931B40)
+#define RPG_CLIENT_CAMERATWITCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC931920)
+#define RPG_CLIENT_CAMERATWITCH_START_OFFSET UNITYSDK_OFFSET(0xC931890)
+#define RPG_CLIENT_CAMERATWITCH_UPDATE_OFFSET UNITYSDK_OFFSET(0xC931970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraTwitch_TypeDefinitionIndex = 68882;
+	inline static constexpr unsigned int CameraTwitch_TypeDefinitionIndex = 68918;
 
 	class CameraTwitch : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,13 +20,13 @@ namespace RPG::Client
 		::System::Single Strength; // 0x18
 		::System::Single Time; // 0x1C
 		::System::Boolean Always; // 0x20
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* _CameraTransform; // 0x28
 		::UnityEngine::Vector3 _InitPosition; // 0x30
 		::System::Single _Percent; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERATWITCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERATWITCH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -49,5 +48,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERATWITCH_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

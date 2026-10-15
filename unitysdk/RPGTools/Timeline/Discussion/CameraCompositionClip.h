@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/VCameraBlendType.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B56C990)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B56C980)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_ENABLEEDIT_OFFSET UNITYSDK_OFFSET(0x1B56C970)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_ISBLENDANCHOREMPTY_OFFSET UNITYSDK_OFFSET(0x1B56C8E0)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_STREAMINGSOURCEINDEX_OFFSET UNITYSDK_OFFSET(0x1B56C950)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_SET_STREAMINGSOURCEINDEX_OFFSET UNITYSDK_OFFSET(0x1B56C960)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56CAF0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D13B0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D1510)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D13A0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_ENABLEEDIT_OFFSET UNITYSDK_OFFSET(0xE8D1390)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_ISBLENDANCHOREMPTY_OFFSET UNITYSDK_OFFSET(0xE8D1300)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_GET_STREAMINGSOURCEINDEX_OFFSET UNITYSDK_OFFSET(0xE8D1370)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_SET_STREAMINGSOURCEINDEX_OFFSET UNITYSDK_OFFSET(0xE8D1380)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int CameraCompositionClip_TypeDefinitionIndex = 49238;
+	inline static constexpr unsigned int CameraCompositionClip_TypeDefinitionIndex = 48787;
 
 	class CameraCompositionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -27,14 +26,14 @@ namespace RPGTools::Timeline::Discussion
 		::System::String* AreaName; // 0x18
 		::System::String* AnchorName; // 0x20
 		::System::Boolean EnableBlend; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::String* BlendAnchorName; // 0x30
 		::RPG::GameCore::VCameraBlendType BlendType; // 0x38
 		::System::Single BlendTime; // 0x3C
 		::System::Int32 _StreamingSourceIndex_k__BackingField; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsBlendAnchorEmpty()
@@ -66,5 +65,6 @@ namespace RPGTools::Timeline::Discussion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

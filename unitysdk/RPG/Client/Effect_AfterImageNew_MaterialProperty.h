@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AfterImageNew_MaterialProperty_TypeDefinitionIndex = 70392;
+	inline static constexpr unsigned int Effect_AfterImageNew_MaterialProperty_TypeDefinitionIndex = 70428;
 
 	struct alignas(8) Effect_AfterImageNew_MaterialProperty
 	{

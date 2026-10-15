@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class ANOBOGENEMP;
+class IMFPIFAMEHE;
+namespace RPG::Client::Pet { class IPet; }
+namespace RPG::Client::Pet { class SimplePetAppearance; }
+namespace RPG::GameCore { class ItemRow; }
+namespace System { template <typename T> class Action_1; }
+
+#define LPCLKDJLGKC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB812140)
+#define LPCLKDJLGKC_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xB812790)
+#define LPCLKDJLGKC_MCMHMFOIJAB_1_OFFSET UNITYSDK_OFFSET(0xB812B40)
+#define LPCLKDJLGKC_MCMHMFOIJAB_OFFSET UNITYSDK_OFFSET(0xB812A50)
+#define LPCLKDJLGKC_NLPBKFAGFGA_OFFSET UNITYSDK_OFFSET(0xB812870)
+#define LPCLKDJLGKC_NMJMPMGHLGH_OFFSET UNITYSDK_OFFSET(0xB812420)
+#define LPCLKDJLGKC_OPAJGIJMHPN_OFFSET UNITYSDK_OFFSET(0xB812680)
+#define LPCLKDJLGKC_PGLJLODABLB_OFFSET UNITYSDK_OFFSET(0xB812520)
+
+inline static constexpr unsigned int LPCLKDJLGKC_TypeDefinitionIndex = 75668;
+
+	class LPCLKDJLGKC : public ::System::Object
+	{
+	public:
+		static ::RPG::Client::Pet::IPet* BPLPBPMEODA(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::Pet::IPet*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+		static ::System::Boolean LHLALAKKKKJ(::System::UInt32 a1, ::RPG::Client::Pet::IPet* a2)
+		{
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::Pet::IPet*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_LHLALAKKKKJ_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void NLPBKFAGFGA(::System::Action_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_NLPBKFAGFGA_OFFSET))(a1);
+		}
+
+		static ::System::Void MCMHMFOIJAB(::System::Action_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_MCMHMFOIJAB_OFFSET))(a1);
+		}
+
+		static ::System::Void MCMHMFOIJAB_1(::ANOBOGENEMP* a1)
+		{
+			return ((::System::Void(*)(::ANOBOGENEMP*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_MCMHMFOIJAB_1_OFFSET))(a1);
+		}
+
+		static ::RPG::Client::Pet::SimplePetAppearance* OPAJGIJMHPN(::IMFPIFAMEHE* a1, ::RPG::GameCore::ItemRow* a2)
+		{
+			return ((::RPG::Client::Pet::SimplePetAppearance*(*)(::IMFPIFAMEHE*, ::RPG::GameCore::ItemRow*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_OPAJGIJMHPN_OFFSET))(a1, a2);
+		}
+
+		static ::IMFPIFAMEHE* NMJMPMGHLGH(::System::UInt32 a1)
+		{
+			return ((::IMFPIFAMEHE*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_NMJMPMGHLGH_OFFSET))(a1);
+		}
+
+		static ::RPG::GameCore::ItemRow* PGLJLODABLB(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::RPG::GameCore::ItemRow*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_PGLJLODABLB_OFFSET))(a1, a2);
+		}
+
+	};

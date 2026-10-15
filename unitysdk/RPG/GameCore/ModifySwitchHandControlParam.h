@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ModifySwitchHandControlParam; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_METHOD_3_7F9E1A347354B119_OFFSET UNITYSDK_OFFSET(0x1D1BF4D0)
-#define RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_METHOD_3_FC314BB4F30400B8_OFFSET UNITYSDK_OFFSET(0x1D1BF510)
-#define RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BF500)
+#define RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86D5A0)
+#define RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86D5B0)
+#define RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86D570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySwitchHandControlParam_TypeDefinitionIndex = 20723;
+	inline static constexpr unsigned int ModifySwitchHandControlParam_TypeDefinitionIndex = 20961;
 
 	class ModifySwitchHandControlParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::System::Single Drag; // 0x1C
 		::System::Single RigidbodyMoveSpeed; // 0x20
 		::System::Single RigidbodyRotateSpeed; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7F9E1A347354B119(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySwitchHandControlParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifySwitchHandControlParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySwitchHandControlParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_METHOD_3_7F9E1A347354B119_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifySwitchHandControlParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FC314BB4F30400B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySwitchHandControlParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifySwitchHandControlParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySwitchHandControlParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_METHOD_3_FC314BB4F30400B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifySwitchHandControlParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSWITCHHANDCONTROLPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

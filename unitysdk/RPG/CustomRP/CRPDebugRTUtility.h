@@ -3,19 +3,18 @@
 #include "unitysdk/RPG/CustomRP/EDebugChanelMask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/EDebugRT.h"
-
 namespace RPG::CustomRP { class CRPRendererData; }
-namespace System { class String; }
+namespace System { class Object; }
 
-#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_1_OFFSET UNITYSDK_OFFSET(0x192ADE40)
-#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x192ADE30)
-#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGSUBINFO_OFFSET UNITYSDK_OFFSET(0x192ADE50)
-#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_INITDEBUGRT_OFFSET UNITYSDK_OFFSET(0x192ADE10)
-#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_SETDEBUG_OFFSET UNITYSDK_OFFSET(0x192ADE20)
+#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_1_OFFSET UNITYSDK_OFFSET(0x1CBD41C0)
+#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1CBD41B0)
+#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGSUBINFO_OFFSET UNITYSDK_OFFSET(0x1CBD41D0)
+#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_INITDEBUGRT_OFFSET UNITYSDK_OFFSET(0x1CBD4190)
+#define RPG_CUSTOMRP_CRPDEBUGRTUTILITY_SETDEBUG_OFFSET UNITYSDK_OFFSET(0x1CBD41A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPDebugRTUtility_TypeDefinitionIndex = 37188;
+	inline static constexpr unsigned int CRPDebugRTUtility_TypeDefinitionIndex = 37880;
 
 	class CRPDebugRTUtility : public ::System::Object
 	{
@@ -30,19 +29,20 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::UnityEngine::Rendering::EDebugRT, ::System::Int32, ::RPG::CustomRP::EDebugChanelMask, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_SETDEBUG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void GetDebugInfo(::System::Int32& a1, ::System::Int32& a2)
+		static ::System::Void GetDebugInfo(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void GetDebugInfo_1(::Il2CppArray<::System::String*>*& a1)
+		static ::System::Void GetDebugInfo_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_1_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGINFO_1_OFFSET))(a1);
 		}
 
-		static ::System::Void GetDebugSubInfo(::Il2CppArray<::System::String*>*& a1)
+		static ::System::Void GetDebugSubInfo(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGSUBINFO_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPDEBUGRTUTILITY_GETDEBUGSUBINFO_OFFSET))(a1);
 		}
+
 	};
 }

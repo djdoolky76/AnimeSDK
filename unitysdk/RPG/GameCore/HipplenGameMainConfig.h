@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HipplenGameMainConfig; }
 namespace RPG::GameCore { class HipplenHintWeightConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_METHOD_2_A38F5E78D9CBF7E7_OFFSET UNITYSDK_OFFSET(0x1D201800)
-#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D201F90)
+#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73E500)
+#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73DCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameMainConfig_TypeDefinitionIndex = 16606;
+	inline static constexpr unsigned int HipplenGameMainConfig_TypeDefinitionIndex = 16782;
 
 	class HipplenGameMainConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,6 +28,7 @@ namespace RPG::GameCore
 		::System::Single AutoMovingGoodsInterval; // 0x40
 		::System::Single AutoPickingGoodsInterval; // 0x44
 		::System::Single AutoPickingGoodsWaitingBubbleRatio; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::String* ShowerBubbleEffectPath; // 0x50
 		::System::String* HipplenUniqueName; // 0x58
 		::System::String* QuizChimeraUniqueName; // 0x60
@@ -35,6 +36,7 @@ namespace RPG::GameCore
 		::System::String* MovingGoodsGameJsonPath; // 0x70
 		::System::String* PickingGoodsGameJsonPath; // 0x78
 		::RPG::MVector3 NPCBubbleDefaultOffset; // 0x80
+		::System::Byte _padding1[0x4];
 		::System::String* CustomHoyoTagName; // 0x90
 		::System::String* ChimeraStoryCharacterID; // 0x98
 		::System::String* QuizChimeraStoryCharacterID; // 0xA0
@@ -42,15 +44,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnRoutinePage; // 0xB0
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BeforeExam; // 0xB8
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSettlePage; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A38F5E78D9CBF7E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameMainConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HipplenGameMainConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameMainConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_METHOD_2_A38F5E78D9CBF7E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HipplenGameMainConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

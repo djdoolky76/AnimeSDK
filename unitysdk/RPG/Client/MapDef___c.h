@@ -2,53 +2,56 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
-class Class_2_0748E0E1B406181B;
+class BIDDFDEAEGB;
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MAPDEF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B543B80)
-#define RPG_CLIENT_MAPDEF___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B543BC0)
-#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET UNITYSDK_OFFSET(0x1B543BD0)
-#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET UNITYSDK_OFFSET(0x1B543BE0)
+#define RPG_CLIENT_MAPDEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD539EB0)
+#define RPG_CLIENT_MAPDEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD539EF0)
+#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET UNITYSDK_OFFSET(0xD539F00)
+#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET UNITYSDK_OFFSET(0xD539F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 62165;
+	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 62081;
 
 	class MapDef___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::System::UInt32>** StaticGet___9__212_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::System::UInt32>** StaticGet___9__212_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x650B0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37C70);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::Class_2_0748E0E1B406181B*>** StaticGet___9__212_1()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::Class_2_0748E0E1B406181B*>**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x650B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37C78);
 		}
-		static ::RPG::Client::MapDef___c** StaticGet___9()
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::BIDDFDEAEGB*>** StaticGet___9__212_1()
 		{
-			return (::RPG::Client::MapDef___c**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x650C0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::BIDDFDEAEGB*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37C80);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C_CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _GetActiveGroupDefs_b__212_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*> a1)
+		::System::UInt32 _GetActiveGroupDefs_b__212_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET))(this, a1);
 		}
 
-		::Class_2_0748E0E1B406181B* _GetActiveGroupDefs_b__212_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*> a1)
+		::BIDDFDEAEGB* _GetActiveGroupDefs_b__212_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*> a1)
 		{
-			return ((::Class_2_0748E0E1B406181B*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET))(this, a1);
+			return ((::BIDDFDEAEGB*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET))(this, a1);
 		}
+
 	};
 }

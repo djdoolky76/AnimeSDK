@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_17.h"
+#include "unitysdk/FMGFKIKBHKN.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class BattlePassLevelRewardData; }
 namespace RPG::Client { class BattlePassRewardPointData; }
 namespace RPG::GameCore { class BattlePassLevelRewardRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19F72190)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET UNITYSDK_OFFSET(0x19F71930)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_HASAVAILABLE_OFFSET UNITYSDK_OFFSET(0x19F716C0)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_TRYGETOPTIONPOINT_OFFSET UNITYSDK_OFFSET(0x19F71C50)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_UPDATEREWARDSTATUS_OFFSET UNITYSDK_OFFSET(0x19F71DF0)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F725D0)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC842610)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC842A50)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET UNITYSDK_OFFSET(0xC841EB0)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_HASAVAILABLE_OFFSET UNITYSDK_OFFSET(0xC841CA0)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_TRYGETOPTIONPOINT_OFFSET UNITYSDK_OFFSET(0xC842140)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_UPDATEREWARDSTATUS_OFFSET UNITYSDK_OFFSET(0xC8422E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattlePassLevelRewardData_TypeDefinitionIndex = 62958;
+	inline static constexpr unsigned int BattlePassLevelRewardData_TypeDefinitionIndex = 62891;
 
 	class BattlePassLevelRewardData : public ::System::Object
 	{
@@ -25,10 +25,9 @@ namespace RPG::Client
 		::RPG::Client::BattlePassRewardPointData* FreeRewardPoint; // 0x18
 		::System::UInt32 Level; // 0x20
 		::System::Boolean IsSpecial; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean HasAvailable(::System::Boolean a1)
@@ -36,14 +35,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_HASAVAILABLE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* GetRewardIDs(::Enum_3_DB663931210BBC27_17 a1)
+		::System::Collections::Generic::List_1<::System::UInt32>* GetRewardIDs(::FMGFKIKBHKN a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::Enum_3_DB663931210BBC27_17))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::FMGFKIKBHKN))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetOptionPoint(::RPG::Client::BattlePassRewardPointData*& a1)
+		::System::Boolean TryGetOptionPoint(::RPG::Client::BattlePassRewardPointData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::BattlePassRewardPointData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_TRYGETOPTIONPOINT_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::BattlePassRewardPointData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_TRYGETOPTIONPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateRewardStatus(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
@@ -55,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::BattlePassLevelRewardData*(*)(::RPG::GameCore::BattlePassLevelRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

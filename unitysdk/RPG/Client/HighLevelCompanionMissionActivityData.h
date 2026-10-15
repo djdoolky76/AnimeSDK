@@ -2,28 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x198189D0)
-#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x198189B0)
+#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD31BD30)
+#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0xD31BD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 61727;
+	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 61635;
 
 	class HighLevelCompanionMissionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
 		::System::UInt32 CompanionMissionID; // 0xA0
 		::System::Boolean _Asked; // 0xA4
+		::System::Byte _padding0[0x3];
 		::System::UInt32 _CurLastMissionID; // 0xA8
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsExtraCondSatisfy()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/PlanarReflection_Axis.h"
 #include "unitysdk/RPG/Client/PlanarReflection_Quality.h"
 #include "unitysdk/RPG/CustomRP/GameCameraType.h"
-#include "unitysdk/RPG/CustomRP/ReflectionRenderData.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
-#include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
+#include "unitysdk/RPG/CustomRP/ReflectionRenderData.h"
+#include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+namespace RPG::Client { class PlanarReflection; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
@@ -24,42 +24,42 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CLIENT_PLANARREFLECTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BD19C10)
-#define RPG_CLIENT_PLANARREFLECTION_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0x1BD1BB60)
-#define RPG_CLIENT_PLANARREFLECTION_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1BD19BD0)
-#define RPG_CLIENT_PLANARREFLECTION_GET_NAMEKEY_OFFSET UNITYSDK_OFFSET(0x1BD19BB0)
-#define RPG_CLIENT_PLANARREFLECTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1BD19EF0)
-#define RPG_CLIENT_PLANARREFLECTION_GET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0x1BD19B90)
-#define RPG_CLIENT_PLANARREFLECTION_GET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0x1BD19B70)
-#define RPG_CLIENT_PLANARREFLECTION_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x1BD19F00)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_118BDDBD7450B315_OFFSET UNITYSDK_OFFSET(0x1BD1B870)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_3BDC90EC995068F1_OFFSET UNITYSDK_OFFSET(0x1BD1CEE0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_3DF8B6CE0C1D4E7D_OFFSET UNITYSDK_OFFSET(0x1BD1D410)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_40B4E82B9BBDD74D_OFFSET UNITYSDK_OFFSET(0x1BD1A8D0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x1BD1D1B0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_62593EE2FE331D20_OFFSET UNITYSDK_OFFSET(0x1BD1CCE0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_87A0D0E2332A0BEA_OFFSET UNITYSDK_OFFSET(0x1BD1D680)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_A6FF6624967F197D_OFFSET UNITYSDK_OFFSET(0x1BD1AC70)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_BBEE5344A89FBA2C_OFFSET UNITYSDK_OFFSET(0x1BD1C4F0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_BF972395CC722BF9_OFFSET UNITYSDK_OFFSET(0x1BD1C7F0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_CCFFC97FF79A551F_OFFSET UNITYSDK_OFFSET(0x1BD1B360)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_E3C376C73DC2AD5B_OFFSET UNITYSDK_OFFSET(0x1BD1B4A0)
-#define RPG_CLIENT_PLANARREFLECTION_METHOD_5_EB1F180852FCFCFD_OFFSET UNITYSDK_OFFSET(0x1BD1D2F0)
-#define RPG_CLIENT_PLANARREFLECTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD1C120)
-#define RPG_CLIENT_PLANARREFLECTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BD1BE80)
-#define RPG_CLIENT_PLANARREFLECTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BD1BBB0)
-#define RPG_CLIENT_PLANARREFLECTION_RPG_CUSTOMRP_IPLANEREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0x1BD1D790)
-#define RPG_CLIENT_PLANARREFLECTION_SET_NAMEKEY_OFFSET UNITYSDK_OFFSET(0x1BD19BC0)
-#define RPG_CLIENT_PLANARREFLECTION_SET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0x1BD19BA0)
-#define RPG_CLIENT_PLANARREFLECTION_SET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0x1BD19B80)
-#define RPG_CLIENT_PLANARREFLECTION_SET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x1BD19F10)
-#define RPG_CLIENT_PLANARREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0x1BD19F80)
-#define RPG_CLIENT_PLANARREFLECTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BD1C240)
-#define RPG_CLIENT_PLANARREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD1D6E0)
+#define RPG_CLIENT_PLANARREFLECTION_ACJPNPEIELH_OFFSET UNITYSDK_OFFSET(0xDB66D40)
+#define RPG_CLIENT_PLANARREFLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDB690C0)
+#define RPG_CLIENT_PLANARREFLECTION_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xDB67ED0)
+#define RPG_CLIENT_PLANARREFLECTION_EDGLGBBBLAG_OFFSET UNITYSDK_OFFSET(0xDB688C0)
+#define RPG_CLIENT_PLANARREFLECTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDB655C0)
+#define RPG_CLIENT_PLANARREFLECTION_FNEOGHHJDJL_OFFSET UNITYSDK_OFFSET(0xDB68B90)
+#define RPG_CLIENT_PLANARREFLECTION_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0xDB67540)
+#define RPG_CLIENT_PLANARREFLECTION_GET_KEY_OFFSET UNITYSDK_OFFSET(0xDB65580)
+#define RPG_CLIENT_PLANARREFLECTION_GET_NAMEKEY_OFFSET UNITYSDK_OFFSET(0xDB65560)
+#define RPG_CLIENT_PLANARREFLECTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xDB658D0)
+#define RPG_CLIENT_PLANARREFLECTION_GET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0xDB65540)
+#define RPG_CLIENT_PLANARREFLECTION_GET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0xDB65520)
+#define RPG_CLIENT_PLANARREFLECTION_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0xDB658E0)
+#define RPG_CLIENT_PLANARREFLECTION_ILBJMMBFGIE_OFFSET UNITYSDK_OFFSET(0xDB69060)
+#define RPG_CLIENT_PLANARREFLECTION_IOLLLNALAHJ_OFFSET UNITYSDK_OFFSET(0xDB68CD0)
+#define RPG_CLIENT_PLANARREFLECTION_KPHAJOJFIDG_OFFSET UNITYSDK_OFFSET(0xDB686C0)
+#define RPG_CLIENT_PLANARREFLECTION_LJKKGCENFDI_OFFSET UNITYSDK_OFFSET(0xDB66650)
+#define RPG_CLIENT_PLANARREFLECTION_MMJLFGOJIAL_OFFSET UNITYSDK_OFFSET(0xDB67250)
+#define RPG_CLIENT_PLANARREFLECTION_NBCOHPHKMDF_OFFSET UNITYSDK_OFFSET(0xDB66E80)
+#define RPG_CLIENT_PLANARREFLECTION_OJGDMOAFGLJ_OFFSET UNITYSDK_OFFSET(0xDB681D0)
+#define RPG_CLIENT_PLANARREFLECTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDB67B00)
+#define RPG_CLIENT_PLANARREFLECTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDB67860)
+#define RPG_CLIENT_PLANARREFLECTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDB67590)
+#define RPG_CLIENT_PLANARREFLECTION_PGEIMNKECJF_OFFSET UNITYSDK_OFFSET(0xDB662B0)
+#define RPG_CLIENT_PLANARREFLECTION_PGMKBNCMIIN_OFFSET UNITYSDK_OFFSET(0xDB68DF0)
+#define RPG_CLIENT_PLANARREFLECTION_RPG_CUSTOMRP_IPLANEREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0xDB69190)
+#define RPG_CLIENT_PLANARREFLECTION_SET_NAMEKEY_OFFSET UNITYSDK_OFFSET(0xDB65570)
+#define RPG_CLIENT_PLANARREFLECTION_SET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0xDB65550)
+#define RPG_CLIENT_PLANARREFLECTION_SET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0xDB65530)
+#define RPG_CLIENT_PLANARREFLECTION_SET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0xDB658F0)
+#define RPG_CLIENT_PLANARREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0xDB65960)
+#define RPG_CLIENT_PLANARREFLECTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xDB67C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanarReflection_TypeDefinitionIndex = 70127;
+	inline static constexpr unsigned int PlanarReflection_TypeDefinitionIndex = 70163;
 
 	class PlanarReflection : public ::UnityEngine::MonoBehaviour
 	{
@@ -67,20 +67,25 @@ namespace RPG::Client
 		::System::Single CameraRange; // 0x18
 		::RPG::Client::PlanarReflection_Axis PlaneDir; // 0x1C
 		::System::Boolean ForceUp; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single PlaneOffset; // 0x24
 		::System::Boolean ClearRenderListOnDisable; // 0x28
 		::System::Boolean _UseRenderList; // 0x29
+		::System::Byte _padding1[0x6];
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* _RenderList_k__BackingField; // 0x30
 		::System::String* _NameKey; // 0x38
 		::System::Boolean IsEnable; // 0x40
+		::System::Byte _padding2[0x3];
 		::System::Single BlurScale; // 0x44
 		::System::Single Brightness; // 0x48
 		::System::UInt32 AdditionalCasterRenderingLayerMask; // 0x4C
 		::System::Int32 Priority; // 0x50
 		::System::Boolean UseTAA; // 0x54
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Renderer* boundsRenderer; // 0x58
 		::UnityEngine::Vector4 ReflectionST; // 0x60
 		::System::Boolean overrideScaleQuality; // 0x70
+		::System::Byte _padding4[0x3];
 		::System::Single overrideScaleFactor; // 0x74
 		::RPG::Client::PlanarReflection_Quality ScaleQuality; // 0x78
 		::UnityEngine::Vector3 DMGKOIHDAEJ; // 0x7C
@@ -88,6 +93,7 @@ namespace RPG::Client
 		::UnityEngine::Matrix4x4 PPHJJDJBEKA; // 0x98
 		::System::Boolean HDJOGGDMCIO; // 0xD8
 		::System::Boolean JCCHJNKFOAG; // 0xD9
+		::System::Byte _padding5[0x6];
 		::UnityEngine::Camera* IEMGKEFBPCG; // 0xE0
 		::UnityEngine::Transform* ILPDLGIJMNN; // 0xE8
 		::UnityEngine::Renderer* JAMDAALMOAL; // 0xF0
@@ -97,11 +103,12 @@ namespace RPG::Client
 		::UnityEngine::RenderTexture* LPOCEHFGHFB; // 0x118
 		::UnityEngine::RenderTexture* GIKOIBLPGDH; // 0x120
 		::System::Int32 PBHMHJNDLDL; // 0x128
+		::System::Byte _padding6[0x4];
 		::Il2CppArray<::System::String*>* CJMNEPKDIGB; // 0x130
-
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* JEJPCEHMBON; // 0x138
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_UseRenderList()
@@ -139,9 +146,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_EXECUTE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_priority()
@@ -159,9 +166,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_SET_VALIDFORRENDERING_OFFSET))(this, a1);
 		}
 
-		::System::Boolean UpdateReflection(::UnityEngine::Camera* a1, ::UnityEngine::Transform* a2, ::RPG::CustomRP::GameCameraType a3, ::System::Int32 a4, ::System::Int32 a5, ::UnityEngine::Vector3& a6, ::UnityEngine::Vector3& a7, ::RPG::CustomRP::ReflectionRenderData& a8)
+		::System::Boolean UpdateReflection(::UnityEngine::Camera* a1, ::UnityEngine::Transform* a2, ::RPG::CustomRP::GameCameraType a3, ::System::Int32 a4, ::System::Int32 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::RPG::CustomRP::ReflectionRenderData a8)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Transform*, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::RPG::CustomRP::ReflectionRenderData&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_UPDATEREFLECTION_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Transform*, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::CustomRP::ReflectionRenderData))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_UPDATEREFLECTION_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::String* GetNameStr()
@@ -189,74 +196,75 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_62593EE2FE331D20()
+		::System::Void KPHAJOJFIDG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_62593EE2FE331D20_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_KPHAJOJFIDG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_BBEE5344A89FBA2C()
+		::System::Void DIOEAJEHHND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_BBEE5344A89FBA2C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_DIOEAJEHHND_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_3BDC90EC995068F1(::RPG::Client::PlanarReflection* a1, ::UnityEngine::Camera*& a2, ::UnityEngine::Transform*& a3, ::System::String* a4, ::System::Single a5)
+		static ::System::Void EDGLGBBBLAG(::RPG::Client::PlanarReflection* a1, ::UnityEngine::Camera* a2, ::UnityEngine::Transform* a3, ::System::String* a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::RPG::Client::PlanarReflection*, ::UnityEngine::Camera*&, ::UnityEngine::Transform*&, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_3BDC90EC995068F1_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::RPG::Client::PlanarReflection*, ::UnityEngine::Camera*, ::UnityEngine::Transform*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_EDGLGBBBLAG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Method_5_EB1F180852FCFCFD(::UnityEngine::Camera*& a1, ::UnityEngine::Camera*& a2, ::System::Boolean a3)
+		::System::Void IOLLLNALAHJ(::UnityEngine::Camera* a1, ::UnityEngine::Camera* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*&, ::UnityEngine::Camera*&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_EB1F180852FCFCFD_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_IOLLLNALAHJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_3DF8B6CE0C1D4E7D(::UnityEngine::Camera* a1, ::UnityEngine::Camera*& a2)
+		::System::Void PGMKBNCMIIN(::UnityEngine::Camera* a1, ::UnityEngine::Camera* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Camera*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_3DF8B6CE0C1D4E7D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_PGMKBNCMIIN_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 Method_5_BF972395CC722BF9()
+		::UnityEngine::Vector3 OJGDMOAFGLJ()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_BF972395CC722BF9_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_OJGDMOAFGLJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7()
+		::System::Void FNEOGHHJDJL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_FNEOGHHJDJL_OFFSET))(this);
 		}
 
-		::System::Single Method_5_CCFFC97FF79A551F()
+		::System::Single ACJPNPEIELH()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_CCFFC97FF79A551F_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_ACJPNPEIELH_OFFSET))(this);
 		}
 
-		::UnityEngine::RenderTexture* Method_5_40B4E82B9BBDD74D(::RPG::CustomRP::GameCameraType a1, ::System::Int32 a2, ::System::Int32 a3)
+		::UnityEngine::RenderTexture* PGEIMNKECJF(::RPG::CustomRP::GameCameraType a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::RenderTexture*(*)(::PVOID, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_40B4E82B9BBDD74D_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::RenderTexture*(*)(::PVOID, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_PGEIMNKECJF_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_A6FF6624967F197D(::RPG::CustomRP::GameCameraType a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Int32& a5)
+		::System::Void LJKKGCENFDI(::RPG::CustomRP::GameCameraType a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_A6FF6624967F197D_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_LJKKGCENFDI_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::RenderTextureFormat Method_5_87A0D0E2332A0BEA()
+		::UnityEngine::RenderTextureFormat ILBJMMBFGIE()
 		{
-			return ((::UnityEngine::RenderTextureFormat(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_87A0D0E2332A0BEA_OFFSET))(this);
+			return ((::UnityEngine::RenderTextureFormat(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_ILBJMMBFGIE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E3C376C73DC2AD5B(::UnityEngine::Bounds a1, ::UnityEngine::Matrix4x4& a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
+		::System::Void NBCOHPHKMDF(::UnityEngine::Bounds a1, ::UnityEngine::Matrix4x4 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds, ::UnityEngine::Matrix4x4&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_E3C376C73DC2AD5B_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_NBCOHPHKMDF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector2 Method_5_118BDDBD7450B315(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
+		::UnityEngine::Vector2 MMJLFGOJIAL(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_METHOD_5_118BDDBD7450B315_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_MMJLFGOJIAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean RPG_CustomRP_IPlaneReflection_UpdateReflection(::UnityEngine::Camera* a1, ::UnityEngine::Transform* a2, ::RPG::CustomRP::GameCameraType a3, ::System::Int32 a4, ::System::Int32 a5, ::UnityEngine::Vector3& a6, ::UnityEngine::Vector3& a7, ::RPG::CustomRP::ReflectionRenderData& a8)
+		::System::Boolean RPG_CustomRP_IPlaneReflection_UpdateReflection(::UnityEngine::Camera* a1, ::UnityEngine::Transform* a2, ::RPG::CustomRP::GameCameraType a3, ::System::Int32 a4, ::System::Int32 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::RPG::CustomRP::ReflectionRenderData a8)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Transform*, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::RPG::CustomRP::ReflectionRenderData&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_RPG_CUSTOMRP_IPLANEREFLECTION_UPDATEREFLECTION_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Transform*, ::RPG::CustomRP::GameCameraType, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::CustomRP::ReflectionRenderData))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTION_RPG_CUSTOMRP_IPLANEREFLECTION_UPDATEREFLECTION_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
+
 	};
 }

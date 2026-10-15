@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TextReplyUiData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B24CE20)
-#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_REPLYTEXTS_OFFSET UNITYSDK_OFFSET(0x1B24CE10)
-#define RPG_CLIENT_MESSAGEREPLYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B24CE70)
+#define RPG_CLIENT_MESSAGEREPLYUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD6AA8B0)
+#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xD6AA860)
+#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_REPLYTEXTS_OFFSET UNITYSDK_OFFSET(0xD6AA850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageReplyUiData_TypeDefinitionIndex = 61645;
+	inline static constexpr unsigned int MessageReplyUiData_TypeDefinitionIndex = 61551;
 
 	class MessageReplyUiData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TextReplyUiData*>* _ReplyTexts_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEREPLYUIDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEREPLYUIDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TextReplyUiData*>* get_ReplyTexts()
@@ -32,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEREPLYUIDATA_GET_COUNT_OFFSET))(this);
 		}
+
 	};
 }

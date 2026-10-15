@@ -2,28 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BattleResultState.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19F81990)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19F819D0)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19F81A30)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19F819E0)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F81980)
-#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x19F7D600)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_CTOR_OFFSET UNITYSDK_OFFSET(0xC84EA90)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xC853470)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC8534B0)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC853510)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xC8534C0)
+#define RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC853460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleResultProcess___RP_Default_d__19_TypeDefinitionIndex = 61099;
+	inline static constexpr unsigned int BattleResultProcess___RP_Default_d__19_TypeDefinitionIndex = 61002;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	class BattleResultProcess___RP_Default_d__19 : public ::System::Object
 	{
 	public:
 		::System::Object* __2__current; // 0x10
-		::System::Int32 __1__state; // 0x18
-		::RPG::GameCore::BattleResultState state; // 0x1C
-
+		::RPG::GameCore::BattleResultState state; // 0x18
+		::System::Int32 __1__state; // 0x1C
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -50,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLERESULTPROCESS___RP_DEFAULT_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,18 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddTimelineEntityEventListener; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TimelineEntityStateChangeCallback; }
 
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_BF2975C9A753D78B_OFFSET UNITYSDK_OFFSET(0x1D6A5C80)
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_FA6C35B3D3104B3A_OFFSET UNITYSDK_OFFSET(0x1D6A5CC0)
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A5CB0)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35EF80)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35EF90)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35EF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 20396;
+	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 20635;
 
 	class AddTimelineEntityEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,20 +30,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnRemovePause; // 0x60
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeSelected; // 0x68
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeUnselected; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF2975C9A753D78B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddTimelineEntityEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_BF2975C9A753D78B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddTimelineEntityEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FA6C35B3D3104B3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddTimelineEntityEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_FA6C35B3D3104B3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddTimelineEntityEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_ONSELECT_OFFSET UNITYSDK_OFFSET(0x15D30DD0)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_REMOVETITLE_OFFSET UNITYSDK_OFFSET(0x15D30F30)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_START_OFFSET UNITYSDK_OFFSET(0x15D30AC0)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D31030)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D31020)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD11480)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD11470)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1BD11220)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_REMOVETITLE_OFFSET UNITYSDK_OFFSET(0x1BD11380)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_START_OFFSET UNITYSDK_OFFSET(0x1BD10F10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DatePickerDropdownHelper_TypeDefinitionIndex = 9228;
+	inline static constexpr unsigned int DatePickerDropdownHelper_TypeDefinitionIndex = 9290;
 
 	class DatePickerDropdownHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_wasNeverSelected()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DatePickerDropdownHelper_TypeDefinitionIndex)->GetStaticField(0xC890);
-		}
 		::System::Boolean collapse; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::UI::Dropdown* dropdown; // 0x20
 		::UnityEngine::UI::Text* placeholder; // 0x28
+		static ::System::Boolean* StaticGet_wasNeverSelected()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.Win", "DatePickerDropdownHelper")->GetStaticField(0xA100);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()
@@ -51,5 +51,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_REMOVETITLE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Text/EncoderFallback.h"
-
 namespace System { class Object; }
 namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1B3C21B0)
-#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B3C2400)
-#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B3C2570)
-#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1B3C23F0)
-#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B8450)
+#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1C0F5640)
+#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EB880)
+#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0F5890)
+#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C0F5A00)
+#define SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1C0F5880)
 
 namespace System::Text
 {
@@ -19,12 +18,11 @@ namespace System::Text
 	class InternalEncoderBestFitFallback : public ::System::Text::EncoderFallback
 	{
 	public:
-		::Il2CppArray<::System::Char>* arrayBestFit; // 0x18
-		::System::Text::Encoding* encoding; // 0x20
-
+		::System::Text::Encoding* encoding; // 0x18
+		::Il2CppArray<::System::Char>* arrayBestFit; // 0x20
 		::System::Void _ctor(::System::Text::Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer()
@@ -46,5 +44,6 @@ namespace System::Text
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALENCODERBESTFITFALLBACK_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

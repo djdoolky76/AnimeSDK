@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D3833A0)
-#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D3833F0)
-#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D383260)
-#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D383330)
+#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x166FEAD0)
+#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_CTOR_OFFSET UNITYSDK_OFFSET(0x166FEA60)
+#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x166FEB20)
+#define CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x166FE990)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomTransceiver_SetControlIdMethod_TypeDefinitionIndex = 38649;
+	inline static constexpr unsigned int CriAtomTransceiver_SetControlIdMethod_TypeDefinitionIndex = 39946;
 
 	class CriAtomTransceiver_SetControlIdMethod : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt16 a1)
@@ -37,5 +36,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMTRANSCEIVER_SETCONTROLIDMETHOD_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

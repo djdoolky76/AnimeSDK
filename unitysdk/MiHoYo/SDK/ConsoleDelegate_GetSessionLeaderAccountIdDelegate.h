@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F91B0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F91E0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F91A0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F9130)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15430)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE153B0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15460)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetSessionLeaderAccountIdDelegate_TypeDefinitionIndex = 7600;
+	inline static constexpr unsigned int ConsoleDelegate_GetSessionLeaderAccountIdDelegate_TypeDefinitionIndex = 7654;
 
 	class ConsoleDelegate_GetSessionLeaderAccountIdDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETSESSIONLEADERACCOUNTIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

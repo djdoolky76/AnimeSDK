@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RtCollision2DShapeConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class RtCircleShapeConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_53B3B352AB60F255_OFFSET UNITYSDK_OFFSET(0x1CCE2940)
-#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_B310E5395281EFF8_OFFSET UNITYSDK_OFFSET(0x1CCE26F0)
-#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_C9C4E8D117A729A2_OFFSET UNITYSDK_OFFSET(0x1CCE29C0)
-#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_DA3B7D8B4ED68245_OFFSET UNITYSDK_OFFSET(0x1CCE2880)
-#define RPG_GAMECORE_RTCIRCLESHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE2820)
+#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2B4A0)
+#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DA2B640)
+#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA2B5C0)
+#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA2B500)
+#define RPG_GAMECORE_RTCIRCLESHAPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2B370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCircleShapeConfig_TypeDefinitionIndex = 17443;
+	inline static constexpr unsigned int RtCircleShapeConfig_TypeDefinitionIndex = 17655;
 
 	class RtCircleShapeConfig : public ::RPG::GameCore::RtCollision2DShapeConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* Radius; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B310E5395281EFF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCircleShapeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtCircleShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCircleShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_B310E5395281EFF8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtCircleShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DA3B7D8B4ED68245(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCircleShapeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtCircleShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCircleShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_DA3B7D8B4ED68245_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtCircleShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_53B3B352AB60F255(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtCircleShapeConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtCircleShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtCircleShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_53B3B352AB60F255_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtCircleShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C9C4E8D117A729A2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtCircleShapeConfig* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtCircleShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtCircleShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_METHOD_3_C9C4E8D117A729A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtCircleShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCIRCLESHAPECONFIG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

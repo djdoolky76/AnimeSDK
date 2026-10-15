@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActPersonaAddInProgressStyleExpConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_METHOD_6_2EA2D1EB1FAC893F_OFFSET UNITYSDK_OFFSET(0x1EE85E40)
-#define RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_METHOD_6_8FC65DD058CDF543_OFFSET UNITYSDK_OFFSET(0x1EE85E90)
-#define RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE85E80)
+#define RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D970E60)
+#define RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D970E70)
+#define RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D970E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActPersonaAddInProgressStyleExpConfig_TypeDefinitionIndex = 19481;
+	inline static constexpr unsigned int RogueActPersonaAddInProgressStyleExpConfig_TypeDefinitionIndex = 19711;
 
 	class RogueActPersonaAddInProgressStyleExpConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_2EA2D1EB1FAC893F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_METHOD_6_2EA2D1EB1FAC893F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_8FC65DD058CDF543(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_METHOD_6_8FC65DD058CDF543_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActPersonaAddInProgressStyleExpConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAADDINPROGRESSSTYLEEXPCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

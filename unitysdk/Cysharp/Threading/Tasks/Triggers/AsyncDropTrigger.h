@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnDropHandler; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1D75E530)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1D75E460)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET UNITYSDK_OFFSET(0x1D75E770)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_OFFSET UNITYSDK_OFFSET(0x1D75E590)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_UNITYENGINE_EVENTSYSTEMS_IDROPHANDLER_ONDROP_OFFSET UNITYSDK_OFFSET(0x1D75E3F0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D75E8F0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F100660)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1F1002A0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1F1001D0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET UNITYSDK_OFFSET(0x1F1004E0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_OFFSET UNITYSDK_OFFSET(0x1F100300)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_UNITYENGINE_EVENTSYSTEMS_IDROPHANDLER_ONDROP_OFFSET UNITYSDK_OFFSET(0x1F100160)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncDropTrigger_TypeDefinitionIndex = 43042;
+	inline static constexpr unsigned int AsyncDropTrigger_TypeDefinitionIndex = 38627;
 
-	class AsyncDropTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::UnityEngine::EventSystems::PointerEventData*>
+	class AsyncDropTrigger
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UnityEngine_EventSystems_IDropHandler_OnDrop(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -50,5 +48,6 @@ namespace Cysharp::Threading::Tasks::Triggers
 		{
 			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::PointerEventData*>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET))(this, a1);
 		}
+
 	};
 }

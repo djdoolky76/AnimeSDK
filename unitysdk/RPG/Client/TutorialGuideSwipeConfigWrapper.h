@@ -3,30 +3,30 @@
 #include "unitysdk/RPG/Client/TutorialGuideConfigType.h"
 #include "unitysdk/RPG/Client/TutorialGuideConfigWrapper.h"
 #include "unitysdk/RPG/GameCore/TutorialGuideHintType.h"
-
 namespace RPG::Client { class RuntimeTutorialNode; }
+namespace RPG::Client { class TutorialGuideSwipeConfigWrapper; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_CREATEGUIDESWIPE_OFFSET UNITYSDK_OFFSET(0x1B10C280)
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GETENDNODE_OFFSET UNITYSDK_OFFSET(0x1B10C7E0)
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GETSTARTNODE_OFFSET UNITYSDK_OFFSET(0x1B10C630)
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x1B10C990)
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GET__USEORIGINRATIO_OFFSET UNITYSDK_OFFSET(0x1B10C9E0)
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_SYNCSWIPEAREATO_OFFSET UNITYSDK_OFFSET(0x1B10C420)
-#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B10C270)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_CREATEGUIDESWIPE_OFFSET UNITYSDK_OFFSET(0xE32D5A0)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0xE32D590)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GETENDNODE_OFFSET UNITYSDK_OFFSET(0xE32DB10)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GETSTARTNODE_OFFSET UNITYSDK_OFFSET(0xE32D960)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0xE32DCC0)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GET__USEORIGINRATIO_OFFSET UNITYSDK_OFFSET(0xE32DD10)
+#define RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_SYNCSWIPEAREATO_OFFSET UNITYSDK_OFFSET(0xE32D750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideSwipeConfigWrapper_TypeDefinitionIndex = 68198;
+	inline static constexpr unsigned int TutorialGuideSwipeConfigWrapper_TypeDefinitionIndex = 68206;
 
 	class TutorialGuideSwipeConfigWrapper : public ::RPG::Client::TutorialGuideConfigWrapper
 	{
 	public:
 		::System::Void _ctor(::System::Collections::Generic::IList_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::TutorialGuideSwipeConfigWrapper* CreateGuideSwipe(::RPG::GameCore::TutorialGuideHintType a1, ::System::Collections::Generic::IList_1<::System::String*>* a2)
@@ -58,5 +58,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDESWIPECONFIGWRAPPER_GET__USEORIGINRATIO_OFFSET))(this);
 		}
+
 	};
 }

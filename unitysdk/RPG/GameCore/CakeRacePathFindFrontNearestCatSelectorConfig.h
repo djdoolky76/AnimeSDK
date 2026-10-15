@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceBaseTargetSelectorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRacePathFindFrontNearestCatSelectorConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_METHOD_3_0A8FC143E3B22A0D_OFFSET UNITYSDK_OFFSET(0x1D0FDCF0)
-#define RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_METHOD_3_771B794AF0106AA8_OFFSET UNITYSDK_OFFSET(0x1D103440)
-#define RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FDCE0)
+#define RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51E9D0)
+#define RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51E9E0)
+#define RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D524190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePathFindFrontNearestCatSelectorConfig_TypeDefinitionIndex = 18176;
+	inline static constexpr unsigned int CakeRacePathFindFrontNearestCatSelectorConfig_TypeDefinitionIndex = 18391;
 
 	class CakeRacePathFindFrontNearestCatSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_771B794AF0106AA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_METHOD_3_771B794AF0106AA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0A8FC143E3B22A0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_METHOD_3_0A8FC143E3B22A0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRacePathFindFrontNearestCatSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPATHFINDFRONTNEARESTCATSELECTORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

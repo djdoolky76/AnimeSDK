@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class TriggerEffectListOnCharacterData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF2DD00)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF2DF40)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2DF50)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE943D30)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE943F80)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE943F70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectListOnCharacterClip_TypeDefinitionIndex = 48794;
+	inline static constexpr unsigned int TriggerEffectListOnCharacterClip_TypeDefinitionIndex = 48334;
 
 	class TriggerEffectListOnCharacterClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::TriggerEffectListOnCharacterData* Config; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

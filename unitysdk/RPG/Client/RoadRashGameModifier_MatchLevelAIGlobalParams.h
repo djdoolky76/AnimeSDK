@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIGlobalParams; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_METHOD_2_CD9FF74771B432D3_OFFSET UNITYSDK_OFFSET(0x1D31A060)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D31BD70)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D304950)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D302C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIGlobalParams_TypeDefinitionIndex = 10303;
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIGlobalParams_TypeDefinitionIndex = 10317;
 
 	class RoadRashGameModifier_MatchLevelAIGlobalParams : public ::RPG::GameCore::JsonConfig
 	{
@@ -48,15 +48,15 @@ namespace RPG::Client
 		::RPG::GameCore::FixPoint DriftMinHoldTime; // 0xF8
 		::RPG::GameCore::FixPoint DriftMinSpeed; // 0x100
 		::RPG::GameCore::FixPoint SprintMinSpeedMultiple; // 0x108
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CD9FF74771B432D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_MatchLevelAIGlobalParams*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_MatchLevelAIGlobalParams* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_MatchLevelAIGlobalParams*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_METHOD_2_CD9FF74771B432D3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_MatchLevelAIGlobalParams*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_GET_INFOS_OFFSET UNITYSDK_OFFSET(0x1C41DA30)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_GET_ISHOLD_OFFSET UNITYSDK_OFFSET(0x1C41DA10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_SET_INFOS_OFFSET UNITYSDK_OFFSET(0x1C41DA40)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_SET_ISHOLD_OFFSET UNITYSDK_OFFSET(0x1C41DA20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41DA00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC307A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_GET_INFOS_OFFSET UNITYSDK_OFFSET(0xCC307D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_GET_ISHOLD_OFFSET UNITYSDK_OFFSET(0xCC307B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_SET_INFOS_OFFSET UNITYSDK_OFFSET(0xCC307E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_SET_ISHOLD_OFFSET UNITYSDK_OFFSET(0xCC307C0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUIShowDiceInfoEventParam_TypeDefinitionIndex = 75685;
+	inline static constexpr unsigned int DiceCombatUIShowDiceInfoEventParam_TypeDefinitionIndex = 76162;
 
 	class DiceCombatUIShowDiceInfoEventParam : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>* _Infos_k__BackingField; // 0x10
 		::System::Boolean _IsHold_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsHold()
@@ -45,5 +43,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUISHOWDICEINFOEVENTPARAM_SET_INFOS_OFFSET))(this, a1);
 		}
+
 	};
 }

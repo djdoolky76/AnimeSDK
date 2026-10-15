@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+class DBIAFBMMBBA;
+class IAJGGEMFOMB;
+namespace RPG::Client::MechCraft::View { class MechCraftCraftPlacedChipPieceControl; }
+namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressAttrControlBinder; }
+namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine { class AnimationClip; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_ACLFEIIPBHM_OFFSET UNITYSDK_OFFSET(0xD622000)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD6231D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD621360)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_GET_PIECEGETTER_OFFSET UNITYSDK_OFFSET(0xD621340)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_JFAKEMMEMHJ_OFFSET UNITYSDK_OFFSET(0xD621650)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xD6219E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_MOIOMPLMGPF_OFFSET UNITYSDK_OFFSET(0xD621420)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_NDKMDDBDGLD_OFFSET UNITYSDK_OFFSET(0xD621E60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_NMKAJEBGKCF_OFFSET UNITYSDK_OFFSET(0xD621F30)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD621890)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD6213A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_SET_PIECEGETTER_OFFSET UNITYSDK_OFFSET(0xD621350)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD621920)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftProgressAttrControl_TypeDefinitionIndex = 79910;
+
+	class MechCraftCraftProgressAttrControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* _PieceGetter_k__BackingField; // 0x18
+		::DBIAFBMMBBA* LFGMLJCCPCH; // 0x20
+		::RPG::Client::MechCraft::View::MechCraftCraftProgressAttrControlBinder* _Binder; // 0x28
+		::UnityEngine::AnimationClip* _ClipReaching; // 0x30
+		::UnityEngine::AnimationClip* _ClipReached; // 0x38
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_CTOR_OFFSET))(this);
+		}
+
+		::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* get_PieceGetter()
+		{
+			return ((::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_GET_PIECEGETTER_OFFSET))(this);
+		}
+
+		::System::Void set_PieceGetter(::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Func_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_SET_PIECEGETTER_OFFSET))(this, a1);
+		}
+
+		::DBIAFBMMBBA* get_Content()
+		{
+			return ((::DBIAFBMMBBA*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::DBIAFBMMBBA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DBIAFBMMBBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void JFAKEMMEMHJ(::DBIAFBMMBBA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DBIAFBMMBBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_JFAKEMMEMHJ_OFFSET))(this, a1);
+		}
+
+		::System::Void MOIOMPLMGPF(::DBIAFBMMBBA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DBIAFBMMBBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_MOIOMPLMGPF_OFFSET))(this, a1);
+		}
+
+		::System::Void KANMCJHEFJJ(::DBIAFBMMBBA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DBIAFBMMBBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_KANMCJHEFJJ_OFFSET))(this, a1);
+		}
+
+		::System::Single NDKMDDBDGLD()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_NDKMDDBDGLD_OFFSET))(this);
+		}
+
+		::System::Single NMKAJEBGKCF()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_NMKAJEBGKCF_OFFSET))(this);
+		}
+
+		::System::Action* ACLFEIIPBHM(::RPG::Client::MechCraft::MechCraftAttributeType a1, ::IAJGGEMFOMB* a2)
+		{
+			return ((::System::Action*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftAttributeType, ::IAJGGEMFOMB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRCONTROL_ACLFEIIPBHM_OFFSET))(this, a1, a2);
+		}
+
+	};
+}

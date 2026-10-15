@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC0CBFF0)
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0CD250)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAAD560)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BAAC300)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechF310ModeDMacUnityProfile_TypeDefinitionIndex = 39718;
+	inline static constexpr unsigned int LogitechF310ModeDMacUnityProfile_TypeDefinitionIndex = 41015;
 
 	class LogitechF310ModeDMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Define()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_DEFINE_OFFSET))(this);
 		}
+
 	};
 }

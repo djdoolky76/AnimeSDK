@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/RPG/GameCore/SummonerEnergyBarType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DotBarTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class NumBarTypeConfig; }
 namespace RPG::GameCore { class ProgressBarTypeConfig; }
+namespace RPG::GameCore { class SetSummonerEnergyBarState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_018161101C05D0B8_OFFSET UNITYSDK_OFFSET(0x1E08F760)
-#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_47D58AC615DA84DD_OFFSET UNITYSDK_OFFSET(0x1E08F5B0)
-#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E08F6A0)
+#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA962E0)
+#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA963A0)
+#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA961F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSummonerEnergyBarState_TypeDefinitionIndex = 22478;
+	inline static constexpr unsigned int SetSummonerEnergyBarState_TypeDefinitionIndex = 22733;
 
 	class SetSummonerEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,20 +31,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::ProgressBarTypeConfig* ProgressBarTypeConfig; // 0x40
 		::RPG::GameCore::NumBarTypeConfig* NumBarTypeConfig; // 0x48
 		::System::Boolean SkipInCharmAction; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_47D58AC615DA84DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonerEnergyBarState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSummonerEnergyBarState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonerEnergyBarState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_47D58AC615DA84DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSummonerEnergyBarState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_018161101C05D0B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonerEnergyBarState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSummonerEnergyBarState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonerEnergyBarState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_018161101C05D0B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSummonerEnergyBarState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

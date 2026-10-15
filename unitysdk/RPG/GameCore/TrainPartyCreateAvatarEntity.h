@@ -2,40 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyCreateAvatarEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_3AF55DC6707AEA4E_OFFSET UNITYSDK_OFFSET(0x1D534840)
-#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_DD57FF90AE5E28DB_OFFSET UNITYSDK_OFFSET(0x1D5347B0)
-#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534810)
+#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC02500)
+#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC02530)
+#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC024A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCreateAvatarEntity_TypeDefinitionIndex = 22117;
+	inline static constexpr unsigned int TrainPartyCreateAvatarEntity_TypeDefinitionIndex = 22366;
 
 	class TrainPartyCreateAvatarEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 AvatarID; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* EntityUniqueName; // 0x20
 		::RPG::MVector3 Position; // 0x28
 		::RPG::MVector3 Rotation; // 0x34
 		::RPG::MVector3 Scale; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DD57FF90AE5E28DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_DD57FF90AE5E28DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3AF55DC6707AEA4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_3AF55DC6707AEA4E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

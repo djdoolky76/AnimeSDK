@@ -3,16 +3,15 @@
 #include "unitysdk/RPG/GameCore/AdventureSkillSlotState.h"
 #include "unitysdk/RPG/GameCore/AdventureSkillType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class AdventureSkillData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0x19408F40)
-#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1940E200)
+#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE5780C0)
+#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0xE578FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillSlotData_TypeDefinitionIndex = 57039;
+	inline static constexpr unsigned int AdventureSkillSlotData_TypeDefinitionIndex = 56861;
 
 	class AdventureSkillSlotData : public ::System::Object
 	{
@@ -22,15 +21,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::AdventureSkillSlotState State; // 0x20
 		::RPG::GameCore::AdventureSkillType Slot; // 0x24
 		::System::Boolean TaskInputOnly; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLSLOTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLSLOTDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_SkillIndex()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET))(this);
 		}
+
 	};
 }

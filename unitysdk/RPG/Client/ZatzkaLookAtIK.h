@@ -3,58 +3,53 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::Client { class LookAtIK; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ZATZKALOOKATIK_AWAKE_OFFSET UNITYSDK_OFFSET(0x16826790)
-#define RPG_CLIENT_ZATZKALOOKATIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0x16826420)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_01244C5D42565CB2_OFFSET UNITYSDK_OFFSET(0x168264E0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_18D9238B9C310BFF_OFFSET UNITYSDK_OFFSET(0x16828200)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_18DC899D74EF7F38_OFFSET UNITYSDK_OFFSET(0x16828970)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_2EDAC8CAFF864AE8_OFFSET UNITYSDK_OFFSET(0x16827CD0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x16826340)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_35014F67085C0F4E_OFFSET UNITYSDK_OFFSET(0x16828280)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_479759059E440327_OFFSET UNITYSDK_OFFSET(0x16828830)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_4BD1DD9FEF3B7862_OFFSET UNITYSDK_OFFSET(0x16826D60)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_4FD079E562D79666_OFFSET UNITYSDK_OFFSET(0x168285C0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x168260F0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_5688F408AF8BA5A8_OFFSET UNITYSDK_OFFSET(0x16827D90)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_602B796CAD5DBEDB_OFFSET UNITYSDK_OFFSET(0x16826B50)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0x16827ED0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_7B5CF29097D2700A_OFFSET UNITYSDK_OFFSET(0x168288E0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x168263C0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_9AAFA20BE473DBC6_OFFSET UNITYSDK_OFFSET(0x168292A0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_9FBCB7EE3738DEA4_OFFSET UNITYSDK_OFFSET(0x16827170)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_A0278AEAAD5BAD20_OFFSET UNITYSDK_OFFSET(0x16827380)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_A534811CDDC793A9_1_OFFSET UNITYSDK_OFFSET(0x16828DE0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_A534811CDDC793A9_OFFSET UNITYSDK_OFFSET(0x16828BE0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_D62EA523FA1B6C95_OFFSET UNITYSDK_OFFSET(0x16828FE0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_D8419A5DEE512C03_OFFSET UNITYSDK_OFFSET(0x16827FA0)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_DB11C736C0498425_1_OFFSET UNITYSDK_OFFSET(0x16829630)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_DB11C736C0498425_OFFSET UNITYSDK_OFFSET(0x16828170)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_ECF5752EC6D68585_OFFSET UNITYSDK_OFFSET(0x16829210)
-#define RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x168269E0)
-#define RPG_CLIENT_ZATZKALOOKATIK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16826860)
-#define RPG_CLIENT_ZATZKALOOKATIK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16826820)
-#define RPG_CLIENT_ZATZKALOOKATIK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x168267E0)
-#define RPG_CLIENT_ZATZKALOOKATIK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x168268C0)
-#define RPG_CLIENT_ZATZKALOOKATIK_PROCESS_OFFSET UNITYSDK_OFFSET(0x16826480)
-#define RPG_CLIENT_ZATZKALOOKATIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0x16826100)
-#define RPG_CLIENT_ZATZKALOOKATIK__CTOR_OFFSET UNITYSDK_OFFSET(0x168296A0)
+#define RPG_CLIENT_ZATZKALOOKATIK_AGAHKMLFEFF_OFFSET UNITYSDK_OFFSET(0xE482E70)
+#define RPG_CLIENT_ZATZKALOOKATIK_AKCGHEJBEJB_OFFSET UNITYSDK_OFFSET(0xE481930)
+#define RPG_CLIENT_ZATZKALOOKATIK_APBDHCICPLG_OFFSET UNITYSDK_OFFSET(0xE481EE0)
+#define RPG_CLIENT_ZATZKALOOKATIK_AWAKE_OFFSET UNITYSDK_OFFSET(0xE4803F0)
+#define RPG_CLIENT_ZATZKALOOKATIK_BBJDGIJHJNL_OFFSET UNITYSDK_OFFSET(0xE480FE0)
+#define RPG_CLIENT_ZATZKALOOKATIK_CTOR_OFFSET UNITYSDK_OFFSET(0xE483300)
+#define RPG_CLIENT_ZATZKALOOKATIK_EILPKDINLHM_OFFSET UNITYSDK_OFFSET(0xE4825D0)
+#define RPG_CLIENT_ZATZKALOOKATIK_FAKBHBHJLJC_OFFSET UNITYSDK_OFFSET(0xE481DD0)
+#define RPG_CLIENT_ZATZKALOOKATIK_GAOCJHDAGDH_OFFSET UNITYSDK_OFFSET(0xE481B30)
+#define RPG_CLIENT_ZATZKALOOKATIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xE480080)
+#define RPG_CLIENT_ZATZKALOOKATIK_GPAHJIMIDNG_OFFSET UNITYSDK_OFFSET(0xE482840)
+#define RPG_CLIENT_ZATZKALOOKATIK_HIKHCDMOMBB_OFFSET UNITYSDK_OFFSET(0xE482490)
+#define RPG_CLIENT_ZATZKALOOKATIK_IBCIJPLGPFE_OFFSET UNITYSDK_OFFSET(0xE47FD50)
+#define RPG_CLIENT_ZATZKALOOKATIK_JCLKKOFFGOB_OFFSET UNITYSDK_OFFSET(0xE482F00)
+#define RPG_CLIENT_ZATZKALOOKATIK_JLNCGBDFABE_OFFSET UNITYSDK_OFFSET(0xE481C00)
+#define RPG_CLIENT_ZATZKALOOKATIK_KFCJKMPPBOL_OFFSET UNITYSDK_OFFSET(0xE4819F0)
+#define RPG_CLIENT_ZATZKALOOKATIK_KJJECAHCCEA_OFFSET UNITYSDK_OFFSET(0xE47FFA0)
+#define RPG_CLIENT_ZATZKALOOKATIK_KOKICDNENPF_OFFSET UNITYSDK_OFFSET(0xE482C40)
+#define RPG_CLIENT_ZATZKALOOKATIK_LBKECJCILAB_OFFSET UNITYSDK_OFFSET(0xE481E60)
+#define RPG_CLIENT_ZATZKALOOKATIK_MHNCIMNFDAF_OFFSET UNITYSDK_OFFSET(0xE482540)
+#define RPG_CLIENT_ZATZKALOOKATIK_MKJJMLMFKKG_OFFSET UNITYSDK_OFFSET(0xE4807B0)
+#define RPG_CLIENT_ZATZKALOOKATIK_MLKFEHNLPNB_OFFSET UNITYSDK_OFFSET(0xE482A40)
+#define RPG_CLIENT_ZATZKALOOKATIK_MOCGKDIPCKF_OFFSET UNITYSDK_OFFSET(0xE480640)
+#define RPG_CLIENT_ZATZKALOOKATIK_MPGJEFMLDLP_OFFSET UNITYSDK_OFFSET(0xE480DD0)
+#define RPG_CLIENT_ZATZKALOOKATIK_NNIOLPGAIEE_OFFSET UNITYSDK_OFFSET(0xE482220)
+#define RPG_CLIENT_ZATZKALOOKATIK_OEDCKODNKEL_OFFSET UNITYSDK_OFFSET(0xE4809C0)
+#define RPG_CLIENT_ZATZKALOOKATIK_OFGODIDJKLF_OFFSET UNITYSDK_OFFSET(0xE480140)
+#define RPG_CLIENT_ZATZKALOOKATIK_OJKKPOLCLMA_OFFSET UNITYSDK_OFFSET(0xE480020)
+#define RPG_CLIENT_ZATZKALOOKATIK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE4804C0)
+#define RPG_CLIENT_ZATZKALOOKATIK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE480480)
+#define RPG_CLIENT_ZATZKALOOKATIK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE480440)
+#define RPG_CLIENT_ZATZKALOOKATIK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xE480520)
+#define RPG_CLIENT_ZATZKALOOKATIK_PJFACMDEJEI_OFFSET UNITYSDK_OFFSET(0xE483290)
+#define RPG_CLIENT_ZATZKALOOKATIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xE4800E0)
+#define RPG_CLIENT_ZATZKALOOKATIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xE47FD60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ZatzkaLookAtIK_TypeDefinitionIndex = 68468;
+	inline static constexpr unsigned int ZatzkaLookAtIK_TypeDefinitionIndex = 68501;
 
 	class ZatzkaLookAtIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single JEPOPHHBFMM; // 0x0
-		// static const ::System::Single HHMMPPPHBIM; // 0x0
-		// static const ::System::Single OPBIKHDOELM; // 0x0
-		// static const ::System::Single DDALEKEHLKI; // 0x0
 		::System::Single MaxYawAngle; // 0x18
 		::System::Single MaxHeadRotAngle; // 0x1C
 		::System::Single SpeedDecayMultiplier; // 0x20
@@ -63,12 +58,14 @@ namespace RPG::Client
 		::System::Single ReferenceAngleForFullSpeed; // 0x2C
 		::System::Single MinAngleForMinSpeed; // 0x30
 		::System::Boolean EnableTargetChangeDeadzone; // 0x34
+		::System::Byte _padding0[0x3];
 		::System::Single TargetChangeDeadzoneAngle; // 0x38
 		::System::Single SmallRangeMaxAngle; // 0x3C
 		::System::Single SmallRangeSpeedRatio; // 0x40
 		::System::Single ApproachBoostPeakPosition; // 0x44
 		::System::Single ApproachAccelSmoothMultiplier; // 0x48
 		::System::Boolean EnableBehindPitchNeutralize; // 0x4C
+		::System::Byte _padding1[0x3];
 		::System::Single BehindZoneYawMin; // 0x50
 		::System::Single BehindZoneYawMax; // 0x54
 		::System::Single BehindNeutralPitchLimit; // 0x58
@@ -81,21 +78,26 @@ namespace RPG::Client
 		::System::Single MODCPPJNCAL; // 0x78
 		::System::Single NDBLJAEOKPM; // 0x7C
 		::System::Boolean HEEFBABGFGL; // 0x80
+		::System::Byte _padding2[0x7];
 		::UnityEngine::Transform* BHAADDFJAFE; // 0x88
 		::UnityEngine::Vector3 AIMKNENMEGG; // 0x90
 		::UnityEngine::Vector3 KPNCJCBCGKM; // 0x9C
 		::System::Boolean BANPPAAJKEF; // 0xA8
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Quaternion OLFNMMEMMJF; // 0xAC
 		::System::Boolean JOEFBOFMKMK; // 0xBC
-
+		// static const ::System::Object JEPOPHHBFMM; // 0x0
+		// static const ::System::Object HHMMPPPHBIM; // 0x0
+		// static const ::System::Object OPBIKHDOELM; // 0x0
+		// static const ::System::Object DDALEKEHLKI; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_5_5323F2DF46A044DA()
+		::System::Single IBCIJPLGPFE()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_5323F2DF46A044DA_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_IBCIJPLGPFE_OFFSET))(this);
 		}
 
 		::System::Void SafeInit(::RPG::Client::AttachPointMapping* a1)
@@ -138,129 +140,130 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_ONVALIDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_01244C5D42565CB2(::System::Single a1)
+		::System::Void OFGODIDJKLF(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_01244C5D42565CB2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_OFGODIDJKLF_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_30D1209326FA87FC()
+		::System::Void KJJECAHCCEA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_30D1209326FA87FC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_KJJECAHCCEA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F0BD65B017F2AC0B()
+		::System::Void MOCGKDIPCKF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_F0BD65B017F2AC0B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_MOCGKDIPCKF_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_5_A0278AEAAD5BAD20(::UnityEngine::Vector3 a1)
+		::UnityEngine::Vector3 BBJDGIJHJNL(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_A0278AEAAD5BAD20_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_BBJDGIJHJNL_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_5_2EDAC8CAFF864AE8(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		::UnityEngine::Vector3 AKCGHEJBEJB(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_2EDAC8CAFF864AE8_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_AKCGHEJBEJB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Method_5_4BD1DD9FEF3B7862()
+		::System::Single OEDCKODNKEL()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_4BD1DD9FEF3B7862_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_OEDCKODNKEL_OFFSET))(this);
 		}
 
-		::System::Single Method_5_9FBCB7EE3738DEA4(::System::Single a1, ::System::Single a2)
+		::System::Single MPGJEFMLDLP(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_9FBCB7EE3738DEA4_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_MPGJEFMLDLP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Method_5_5688F408AF8BA5A8(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		::System::Single KFCJKMPPBOL(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_5688F408AF8BA5A8_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_KFCJKMPPBOL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single Method_5_627557CE4CD0ABB4(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Single GAOCJHDAGDH(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_627557CE4CD0ABB4_OFFSET))(this, a1, a2, a3);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_GAOCJHDAGDH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single Method_5_D8419A5DEE512C03(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		::System::Single JLNCGBDFABE(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_D8419A5DEE512C03_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_JLNCGBDFABE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Single Method_5_DB11C736C0498425(::System::Single a1)
+		static ::System::Single FAKBHBHJLJC(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_DB11C736C0498425_OFFSET))(a1);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_FAKBHBHJLJC_OFFSET))(a1);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void OJKKPOLCLMA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_OJKKPOLCLMA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_602B796CAD5DBEDB(::System::Single a1)
+		::System::Void MKJJMLMFKKG(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_602B796CAD5DBEDB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_MKJJMLMFKKG_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_18D9238B9C310BFF(::System::Single a1)
+		::System::Void LBKECJCILAB(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_18D9238B9C310BFF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_LBKECJCILAB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_479759059E440327(::System::Single a1)
+		::System::Void HIKHCDMOMBB(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_479759059E440327_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_HIKHCDMOMBB_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_5_35014F67085C0F4E()
+		::System::Single APBDHCICPLG()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_35014F67085C0F4E_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_APBDHCICPLG_OFFSET))(this);
 		}
 
-		::System::Single Method_5_4FD079E562D79666(::System::Single a1)
+		::System::Single NNIOLPGAIEE(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_4FD079E562D79666_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_NNIOLPGAIEE_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean Method_5_18DC899D74EF7F38(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		static ::System::Boolean EILPKDINLHM(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_18DC899D74EF7F38_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_EILPKDINLHM_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Single Method_5_A534811CDDC793A9(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		static ::System::Single GPAHJIMIDNG(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_A534811CDDC793A9_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_GPAHJIMIDNG_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Method_5_A534811CDDC793A9_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		static ::System::Single MLKFEHNLPNB(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_A534811CDDC793A9_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_MLKFEHNLPNB_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Method_5_9AAFA20BE473DBC6(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		static ::System::Single JCLKKOFFGOB(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_9AAFA20BE473DBC6_OFFSET))(a1, a2, a3);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_JCLKKOFFGOB_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Method_5_DB11C736C0498425_1(::System::Single a1)
+		static ::System::Single PJFACMDEJEI(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_DB11C736C0498425_1_OFFSET))(a1);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_PJFACMDEJEI_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_5_D62EA523FA1B6C95(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		static ::System::Boolean KOKICDNENPF(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_D62EA523FA1B6C95_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_KOKICDNENPF_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Method_5_ECF5752EC6D68585(::System::Single a1, ::System::Single a2)
+		static ::System::Single AGAHKMLFEFF(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_ECF5752EC6D68585_OFFSET))(a1, a2);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_AGAHKMLFEFF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Method_5_7B5CF29097D2700A(::System::Single a1)
+		static ::System::Single MHNCIMNFDAF(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_METHOD_5_7B5CF29097D2700A_OFFSET))(a1);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ZATZKALOOKATIK_MHNCIMNFDAF_OFFSET))(a1);
 		}
+
 	};
 }

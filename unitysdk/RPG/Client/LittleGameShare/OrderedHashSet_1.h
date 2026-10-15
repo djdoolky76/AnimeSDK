@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int OrderedHashSet_1_TypeDefinitionIndex = 36373;
+	inline static constexpr unsigned int OrderedHashSet_1_TypeDefinitionIndex = 37014;
 
 	template <typename T>
 	class OrderedHashSet_1 : public ::System::Object

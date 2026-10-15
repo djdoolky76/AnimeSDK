@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleValueGetter.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingBattleValueGetter_LeftAnimTime; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_METHOD_3_3467519CE0F98407_OFFSET UNITYSDK_OFFSET(0x1E010930)
-#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_METHOD_3_82F794E37359EC96_OFFSET UNITYSDK_OFFSET(0x1E0109D0)
-#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0109C0)
+#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55C070)
+#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D55C080)
+#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D55BFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleValueGetter_LeftAnimTime_TypeDefinitionIndex = 15634;
+	inline static constexpr unsigned int ChenLingBattleValueGetter_LeftAnimTime_TypeDefinitionIndex = 15807;
 
 	class ChenLingBattleValueGetter_LeftAnimTime : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3467519CE0F98407(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_METHOD_3_3467519CE0F98407_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_82F794E37359EC96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_METHOD_3_82F794E37359EC96_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleValueGetter_LeftAnimTime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_LEFTANIMTIME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

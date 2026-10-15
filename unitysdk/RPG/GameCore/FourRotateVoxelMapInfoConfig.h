@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FourRotateVoxelMapInfoConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_METHOD_2_1F5C0BBB1604C1D1_OFFSET UNITYSDK_OFFSET(0x1DCB7BD0)
-#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB7ED0)
+#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C2D70)
+#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C2A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelMapInfoConfig_TypeDefinitionIndex = 16568;
+	inline static constexpr unsigned int FourRotateVoxelMapInfoConfig_TypeDefinitionIndex = 16744;
 
 	class FourRotateVoxelMapInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::System::UInt32 GetRewardQuestID; // 0x34
 		::Il2CppArray<::System::String*>* FinishTargetGP; // 0x38
 		::Il2CppArray<::System::String*>* FinishTargetGPTargetValue; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1F5C0BBB1604C1D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelMapInfoConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelMapInfoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelMapInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_METHOD_2_1F5C0BBB1604C1D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelMapInfoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

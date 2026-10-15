@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CakeRaceCatDataItem; }
+namespace RPG::Client { class CakeRaceHUDTopToastMsgData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C62E720)
-#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_GET_CATDATA_OFFSET UNITYSDK_OFFSET(0x1C64B6B0)
-#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_GET_TEXTSTR_OFFSET UNITYSDK_OFFSET(0x1C64B6D0)
-#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_SET_CATDATA_OFFSET UNITYSDK_OFFSET(0x1C64B6C0)
-#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_SET_TEXTSTR_OFFSET UNITYSDK_OFFSET(0x1C64B6E0)
-#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C64B600)
+#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC8F6DF0)
+#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC914830)
+#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_GET_CATDATA_OFFSET UNITYSDK_OFFSET(0xC9148E0)
+#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_GET_TEXTSTR_OFFSET UNITYSDK_OFFSET(0xC914900)
+#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_SET_CATDATA_OFFSET UNITYSDK_OFFSET(0xC9148F0)
+#define RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_SET_TEXTSTR_OFFSET UNITYSDK_OFFSET(0xC914910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceHUDTopToastMsgData_TypeDefinitionIndex = 63129;
+	inline static constexpr unsigned int CakeRaceHUDTopToastMsgData_TypeDefinitionIndex = 63062;
 
 	class CakeRaceHUDTopToastMsgData : public ::System::Object
 	{
 	public:
 		::RPG::Client::CakeRaceCatDataItem* _CatData_k__BackingField; // 0x10
 		::System::String* _TextStr_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::RPG::Client::CakeRaceHUDTopToastMsgData* Create(::System::UInt32 a1, ::System::String* a2)
@@ -51,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDTOPTOASTMSGDATA_SET_TEXTSTR_OFFSET))(this, a1);
 		}
+
 	};
 }

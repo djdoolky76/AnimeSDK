@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace RPG::Client { class UIAdapterMarker; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIADAPTERMARKER_GET_OFFSET UNITYSDK_OFFSET(0x16FE8CA0)
-#define RPG_CLIENT_UIADAPTERMARKER_ISADJUSTED_OFFSET UNITYSDK_OFFSET(0x16FE8DE0)
-#define RPG_CLIENT_UIADAPTERMARKER_MARKADJUSTED_OFFSET UNITYSDK_OFFSET(0x16FE8D60)
-#define RPG_CLIENT_UIADAPTERMARKER_RESET_OFFSET UNITYSDK_OFFSET(0x16FE8DA0)
-#define RPG_CLIENT_UIADAPTERMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE8E20)
+#define RPG_CLIENT_UIADAPTERMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE3607E0)
+#define RPG_CLIENT_UIADAPTERMARKER_GET_OFFSET UNITYSDK_OFFSET(0xE360660)
+#define RPG_CLIENT_UIADAPTERMARKER_ISADJUSTED_OFFSET UNITYSDK_OFFSET(0xE3607A0)
+#define RPG_CLIENT_UIADAPTERMARKER_MARKADJUSTED_OFFSET UNITYSDK_OFFSET(0xE360720)
+#define RPG_CLIENT_UIADAPTERMARKER_RESET_OFFSET UNITYSDK_OFFSET(0xE360760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdapterMarker_TypeDefinitionIndex = 72935;
+	inline static constexpr unsigned int UIAdapterMarker_TypeDefinitionIndex = 73018;
 
 	class UIAdapterMarker : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean IIHKBABLLMI; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADAPTERMARKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADAPTERMARKER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::UIAdapterMarker* Get(::UnityEngine::Transform* a1)
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADAPTERMARKER_ISADJUSTED_OFFSET))(this);
 		}
+
 	};
 }

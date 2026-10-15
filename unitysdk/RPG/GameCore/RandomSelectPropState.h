@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GroupEntityInfo; }
+namespace RPG::GameCore { class RandomSelectPropState; }
 
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_05D74ED097E53B8F_OFFSET UNITYSDK_OFFSET(0x1D19A2E0)
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_F3C1B4C23D91CE26_OFFSET UNITYSDK_OFFSET(0x1D19A2A0)
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19A2D0)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93EEE0)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D93EEF0)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93EEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 21988;
+	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 22236;
 
 	class RandomSelectPropState : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::GroupEntityInfo*>* PropList; // 0x18
 		::Il2CppArray<::RPG::GameCore::PropState>* ComparePropStateList; // 0x20
 		::RPG::GameCore::DynamicString* CustomStringPrefix; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3C1B4C23D91CE26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectPropState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RandomSelectPropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectPropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_F3C1B4C23D91CE26_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RandomSelectPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_05D74ED097E53B8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectPropState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RandomSelectPropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_05D74ED097E53B8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RandomSelectPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

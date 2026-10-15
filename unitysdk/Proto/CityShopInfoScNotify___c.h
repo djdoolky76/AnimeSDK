@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class CityShopInfoScNotify; }
+namespace System { class Object; }
 
-#define PROTO_CITYSHOPINFOSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0585E0)
-#define PROTO_CITYSHOPINFOSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E058620)
-#define PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E058630)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBC6E0)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBC720)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DFBC730)
 
 namespace Proto
 {
-	inline static constexpr unsigned int CityShopInfoScNotify___c_TypeDefinitionIndex = 33534;
+	inline static constexpr unsigned int CityShopInfoScNotify___c_TypeDefinitionIndex = 34188;
 
 	class CityShopInfoScNotify___c : public ::System::Object
 	{
 	public:
-		static ::Proto::CityShopInfoScNotify___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::CityShopInfoScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(CityShopInfoScNotify___c_TypeDefinitionIndex)->GetStaticField(0x59670);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x49100);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::CityShopInfoScNotify* __cctor_b__38_0()
 		{
 			return ((::Proto::CityShopInfoScNotify*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,77 +1,85 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STRINGHASH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x860DE0)
-#define RPG_GAMECORE_STRINGHASH_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BAD130)
-#define RPG_GAMECORE_STRINGHASH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19050)
-#define RPG_GAMECORE_STRINGHASH_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x39AA030)
-#define RPG_GAMECORE_STRINGHASH_METHOD_2_1771EAEBC674C3A5_1_OFFSET UNITYSDK_OFFSET(0x1CB030D0)
-#define RPG_GAMECORE_STRINGHASH_METHOD_2_1771EAEBC674C3A5_OFFSET UNITYSDK_OFFSET(0x1CB030B0)
-#define RPG_GAMECORE_STRINGHASH_METHOD_2_843EF63EFF0E9907_OFFSET UNITYSDK_OFFSET(0x3BAD150)
-#define RPG_GAMECORE_STRINGHASH_METHOD_2_FD3549386282C22D_OFFSET UNITYSDK_OFFSET(0x1CB030A0)
-#define RPG_GAMECORE_STRINGHASH_METHOD_2_FE052DFCB6080B60_OFFSET UNITYSDK_OFFSET(0x1CB02FE0)
-#define RPG_GAMECORE_STRINGHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x3BAD070)
+#define RPG_GAMECORE_STRINGHASH_BIIMDAFMJNF_OFFSET UNITYSDK_OFFSET(0x1DAFE190)
+#define RPG_GAMECORE_STRINGHASH_BMKDGGNDCCJ_OFFSET UNITYSDK_OFFSET(0x3C22770)
+#define RPG_GAMECORE_STRINGHASH_CTOR_OFFSET UNITYSDK_OFFSET(0x3C40C90)
+#define RPG_GAMECORE_STRINGHASH_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1DAFE280)
+#define RPG_GAMECORE_STRINGHASH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xAF50)
+#define RPG_GAMECORE_STRINGHASH_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C40D50)
+#define RPG_GAMECORE_STRINGHASH_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1DAFE260)
+#define RPG_GAMECORE_STRINGHASH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
+#define RPG_GAMECORE_STRINGHASH_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xF6400)
+#define RPG_GAMECORE_STRINGHASH_OOLFPHJOOGG_OFFSET UNITYSDK_OFFSET(0x1DAFE250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StringHash_TypeDefinitionIndex = 10859;
+	inline static constexpr unsigned int StringHash_TypeDefinitionIndex = 10875;
 
 	struct alignas(4) StringHash
 	{
 		::System::Int32 Hash; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::GameCore::StringHash Method_2_FE052DFCB6080B60(::System::String* a1)
+		/*
+		static ::RPG::GameCore::StringHash BIIMDAFMJNF(::System::String* a1)
 		{
-			return ((::RPG::GameCore::StringHash(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_METHOD_2_FE052DFCB6080B60_OFFSET))(a1);
+			return ((::RPG::GameCore::StringHash(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_BIIMDAFMJNF_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::GameCore::StringHash Method_2_FD3549386282C22D(::System::Int32 a1)
+		/*
+		static ::RPG::GameCore::StringHash OOLFPHJOOGG(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::StringHash(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_METHOD_2_FD3549386282C22D_OFFSET))(a1);
+			return ((::RPG::GameCore::StringHash(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_OOLFPHJOOGG_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Boolean Method_2_1771EAEBC674C3A5(::RPG::GameCore::StringHash a1, ::RPG::GameCore::StringHash a2)
+		/*
+		static ::System::Boolean FEIIDFFOICL(::RPG::GameCore::StringHash a1, ::RPG::GameCore::StringHash a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::StringHash, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_METHOD_2_1771EAEBC674C3A5_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::StringHash, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_FEIIDFFOICL_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_1771EAEBC674C3A5_1(::RPG::GameCore::StringHash a1, ::RPG::GameCore::StringHash a2)
+		/*
+		static ::System::Boolean DLDBLNNPHKE(::RPG::GameCore::StringHash a1, ::RPG::GameCore::StringHash a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::StringHash, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_METHOD_2_1771EAEBC674C3A5_1_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::StringHash, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_DLDBLNNPHKE_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::RPG::GameCore::StringHash a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::String* Method_2_843EF63EFF0E9907()
+		::System::String* BMKDGGNDCCJ()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_METHOD_2_843EF63EFF0E9907_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_BMKDGGNDCCJ_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsEmpty()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGHASH_GET_ISEMPTY_OFFSET))(this);
 		}
+
 	};
 }

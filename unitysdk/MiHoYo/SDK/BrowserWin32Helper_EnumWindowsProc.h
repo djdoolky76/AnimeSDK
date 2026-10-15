@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A8A8E0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A8A950)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A8A8D0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8A860)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF62CC0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_CTOR_OFFSET UNITYSDK_OFFSET(0xAF62C40)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF62D30)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF62CB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_EnumWindowsProc_TypeDefinitionIndex = 47069;
+	inline static constexpr unsigned int BrowserWin32Helper_EnumWindowsProc_TypeDefinitionIndex = 46609;
 
 	class BrowserWin32Helper_EnumWindowsProc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::IntPtr a1, ::System::IntPtr a2)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

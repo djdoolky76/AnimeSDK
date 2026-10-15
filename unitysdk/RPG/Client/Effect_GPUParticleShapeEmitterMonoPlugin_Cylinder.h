@@ -3,48 +3,48 @@
 #include "unitysdk/RPG/Client/Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_4F2C6507D17C6667_OFFSET UNITYSDK_OFFSET(0x15E64620)
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_AA5EB6C0E8DC9D74_OFFSET UNITYSDK_OFFSET(0x15E646E0)
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_B0FB0178D34CC9F5_OFFSET UNITYSDK_OFFSET(0x15E64B60)
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_E19F224D4967A3A0_OFFSET UNITYSDK_OFFSET(0x15E63B30)
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E65160)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_BHEPADJJJLB_OFFSET UNITYSDK_OFFSET(0xCD2AF80)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD2BA00)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_FILEBFONMHM_OFFSET UNITYSDK_OFFSET(0xCD2B400)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_NMFPKONJKJF_OFFSET UNITYSDK_OFFSET(0xCD2AEC0)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_OBCJBJAFGOP_OFFSET UNITYSDK_OFFSET(0xCD2A3D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_Cylinder_TypeDefinitionIndex = 70453;
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_Cylinder_TypeDefinitionIndex = 70489;
 
 	class Effect_GPUParticleShapeEmitterMonoPlugin_Cylinder : public ::RPG::Client::Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape
 	{
 	public:
 		::System::Single Radius; // 0x40
 		::System::Single Height; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Bounds Method_2_E19F224D4967A3A0()
+		::UnityEngine::Bounds OBCJBJAFGOP()
 		{
-			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_E19F224D4967A3A0_OFFSET))(this);
+			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_OBCJBJAFGOP_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Method_2_4F2C6507D17C6667()
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* NMFPKONJKJF()
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_4F2C6507D17C6667_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_NMFPKONJKJF_OFFSET))(this);
 		}
 
-		::System::Void Method_2_AA5EB6C0E8DC9D74(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& a1)
+		::System::Void BHEPADJJJLB(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_AA5EB6C0E8DC9D74_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_BHEPADJJJLB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_B0FB0178D34CC9F5(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& a1)
+		::System::Void FILEBFONMHM(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_METHOD_2_B0FB0178D34CC9F5_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CYLINDER_FILEBFONMHM_OFFSET))(this, a1);
 		}
+
 	};
 }

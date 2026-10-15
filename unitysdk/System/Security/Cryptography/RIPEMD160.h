@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
+namespace System::Security::Cryptography { class RIPEMD160; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CREATE_OFFSET UNITYSDK_OFFSET(0x19BC5850)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC5840)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CREATE_OFFSET UNITYSDK_OFFSET(0x1C33B090)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CTOR_OFFSET UNITYSDK_OFFSET(0x1C33B080)
 
 namespace System::Security::Cryptography
 {
@@ -14,12 +15,13 @@ namespace System::Security::Cryptography
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Security::Cryptography::RIPEMD160* Create()
 		{
 			return ((::System::Security::Cryptography::RIPEMD160*(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CREATE_OFFSET))();
 		}
+
 	};
 }

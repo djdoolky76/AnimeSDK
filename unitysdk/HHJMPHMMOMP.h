@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class AdvLogisticsRobotBlockByDoor; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define HHJMPHMMOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC36E0)
+#define HHJMPHMMOMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CC3710)
+
+inline static constexpr unsigned int HHJMPHMMOMP_TypeDefinitionIndex = 52392;
+
+	class HHJMPHMMOMP
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvLogisticsRobotBlockByDoor* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvLogisticsRobotBlockByDoor*))((::PBYTE)hIl2Cpp + HHJMPHMMOMP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHJMPHMMOMP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

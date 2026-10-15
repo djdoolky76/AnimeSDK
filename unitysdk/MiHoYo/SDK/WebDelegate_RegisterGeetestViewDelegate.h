@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class GeetestView; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD800C0)
-#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD800F0)
-#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD800B0)
-#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7FFC0)
+#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3DC0)
+#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3CC0)
+#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3DF0)
+#define MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3DB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_RegisterGeetestViewDelegate_TypeDefinitionIndex = 7797;
+	inline static constexpr unsigned int WebDelegate_RegisterGeetestViewDelegate_TypeDefinitionIndex = 7841;
 
 	class WebDelegate_RegisterGeetestViewDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::GeetestView* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_REGISTERGEETESTVIEWDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

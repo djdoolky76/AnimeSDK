@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TextmapDownloadManager; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__ASYNCAPPLYTEXTLANGUAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1ACB59D0)
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__ASYNCAPPLYTEXTLANGUAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1ACB5B90)
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACB4680)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE214510)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__ASYNCAPPLYTEXTLANGUAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE215810)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__ASYNCAPPLYTEXTLANGUAGE_B__1_OFFSET UNITYSDK_OFFSET(0xE2159D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass39_0_TypeDefinitionIndex = 61342;
+	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass39_0_TypeDefinitionIndex = 61248;
 
 	class TextmapDownloadManager___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::System::String* previousLanguage; // 0x10
-		::System::String* textLangKey; // 0x18
-		::System::Action* __9__1; // 0x20
-		::RPG::Client::TextmapDownloadManager* __4__this; // 0x28
-		::System::Threading::SynchronizationContext* mainThreadContext; // 0x30
-
+		::System::Action* __9__1; // 0x10
+		::System::Threading::SynchronizationContext* mainThreadContext; // 0x18
+		::RPG::Client::TextmapDownloadManager* __4__this; // 0x20
+		::System::String* textLangKey; // 0x28
+		::System::String* previousLanguage; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _AsyncApplyTextLanguage_b__0(::System::Object* a1)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS39_0__ASYNCAPPLYTEXTLANGUAGE_B__1_OFFSET))(this);
 		}
+
 	};
 }

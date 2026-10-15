@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Text.h"
-
+namespace SRF::UI { class SRText; }
 namespace System { template <typename T> class Action_1; }
 
-#define SRF_UI_SRTEXT_ADD_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC42790)
-#define SRF_UI_SRTEXT_REMOVE_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC42A40)
-#define SRF_UI_SRTEXT_SETLAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC498B0)
-#define SRF_UI_SRTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC498F0)
+#define SRF_UI_SRTEXT_ADD_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1ED4CD80)
+#define SRF_UI_SRTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED542E0)
+#define SRF_UI_SRTEXT_REMOVE_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1ED4D030)
+#define SRF_UI_SRTEXT_SETLAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1ED542A0)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRText_TypeDefinitionIndex = 34726;
+	inline static constexpr unsigned int SRText_TypeDefinitionIndex = 35395;
 
 	class SRText : public ::UnityEngine::UI::Text
 	{
 	public:
 		::System::Action_1<::SRF::UI::SRText*>* LayoutDirty; // 0x190
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void add_LayoutDirty(::System::Action_1<::SRF::UI::SRText*>* a1)
@@ -37,5 +36,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT_SETLAYOUTDIRTY_OFFSET))(this);
 		}
+
 	};
 }

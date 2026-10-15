@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropReloadPuzzle; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PROPRELOADPUZZLE_METHOD_3_0D96D846EE06921F_OFFSET UNITYSDK_OFFSET(0x1D180A20)
-#define RPG_GAMECORE_PROPRELOADPUZZLE_METHOD_3_934A493D1DBB6B62_OFFSET UNITYSDK_OFFSET(0x1D180950)
-#define RPG_GAMECORE_PROPRELOADPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D180A10)
+#define RPG_GAMECORE_PROPRELOADPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D924E30)
+#define RPG_GAMECORE_PROPRELOADPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D924E40)
+#define RPG_GAMECORE_PROPRELOADPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D924D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropReloadPuzzle_TypeDefinitionIndex = 20131;
+	inline static constexpr unsigned int PropReloadPuzzle_TypeDefinitionIndex = 20368;
 
 	class PropReloadPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRELOADPUZZLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRELOADPUZZLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_934A493D1DBB6B62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropReloadPuzzle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropReloadPuzzle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropReloadPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRELOADPUZZLE_METHOD_3_934A493D1DBB6B62_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropReloadPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRELOADPUZZLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0D96D846EE06921F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropReloadPuzzle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropReloadPuzzle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropReloadPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRELOADPUZZLE_METHOD_3_0D96D846EE06921F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropReloadPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRELOADPUZZLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

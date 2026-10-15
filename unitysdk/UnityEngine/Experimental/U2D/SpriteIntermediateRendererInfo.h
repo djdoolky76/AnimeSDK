@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace UnityEngine::Experimental::U2D
 {
-	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 4924;
+	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 4931;
 
-	struct alignas(8) SpriteIntermediateRendererInfo
+	struct alignas(4) SpriteIntermediateRendererInfo
 	{
 		::System::Int32 SpriteID; // 0x10
 		::System::Int32 TextureID; // 0x14

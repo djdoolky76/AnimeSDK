@@ -4,20 +4,19 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client { class MonoEffectPluginCompoundMaterialBlock; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_1_OFFSET UNITYSDK_OFFSET(0x116A36A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_OFFSET UNITYSDK_OFFSET(0x116A34D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x116A4E40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_1_OFFSET UNITYSDK_OFFSET(0xD7C6F90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_OFFSET UNITYSDK_OFFSET(0xD7C6DC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD7C8730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaMaterialBlock_TypeDefinitionIndex = 69912;
+	inline static constexpr unsigned int MonoEffectPluginCharaMaterialBlock_TypeDefinitionIndex = 69946;
 
 	class MonoEffectPluginCharaMaterialBlock : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,10 +28,9 @@ namespace RPG::Client
 		::UnityEngine::Vector4 VectorData; // 0x38
 		::RPG::Client::MonoEffectPluginCompoundMaterialBlock* CompoundData; // 0x48
 		::UnityEngine::MaterialPropertyBlock* DNCLJJLAFKA; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Apply(::UnityEngine::Material* a1)
@@ -44,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_1_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

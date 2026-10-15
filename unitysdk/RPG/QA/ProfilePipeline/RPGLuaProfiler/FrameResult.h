@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class FrameSample; }
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class SampleResult; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A374300)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE871970)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int FrameResult_TypeDefinitionIndex = 52119;
+	inline static constexpr unsigned int FrameResult_TypeDefinitionIndex = 51825;
 
 	class FrameResult : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::QA::ProfilePipeline::RPGLuaProfiler::SampleResult*>* Samples; // 0x10
-
 		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::FrameSample* a1, ::System::Collections::Hashtable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::FrameSample*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMERESULT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::FrameSample*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMERESULT_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

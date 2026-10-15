@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define XLUA_LUAHOOKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11864180)
+#define XLUA_LUAHOOKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB6840)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaHookEvent_TypeDefinitionIndex = 50581;
+	inline static constexpr unsigned int LuaHookEvent_TypeDefinitionIndex = 50250;
 
 	class LuaHookEvent : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 CALL = 0x0; // 0x0
-		// static const ::System::Int32 RETURN = 0x1; // 0x0
-		// static const ::System::Int32 LINE = 0x2; // 0x0
-		// static const ::System::Int32 COUNT = 0x3; // 0x0
-		// static const ::System::Int32 TAIL_CALL = 0x4; // 0x0
-
+		// static const ::System::Object CALL; // 0x0
+		// static const ::System::Object RETURN; // 0x0
+		// static const ::System::Object LINE; // 0x0
+		// static const ::System::Object COUNT; // 0x0
+		// static const ::System::Object TAIL_CALL; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAHOOKEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAHOOKEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

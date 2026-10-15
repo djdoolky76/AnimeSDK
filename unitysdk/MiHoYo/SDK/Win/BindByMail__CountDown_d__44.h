@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Win { class BindByMail; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15CE4100)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15CE4330)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15CE4390)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15CE4340)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CE40F0)
-#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE4010)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC7460)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BCC7550)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BCC7780)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BCC77E0)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BCC7790)
+#define MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCC7540)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindByMail__CountDown_d__44_TypeDefinitionIndex = 9449;
+	inline static constexpr unsigned int BindByMail__CountDown_d__44_TypeDefinitionIndex = 9507;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42, typename T43, typename T44>
 	class BindByMail__CountDown_d__44 : public ::System::Object
 	{
 	public:
@@ -25,10 +26,9 @@ namespace MiHoYo::SDK::Win
 		::System::Single _startTime_5__1; // 0x28
 		::System::Single time; // 0x2C
 		::System::Int32 __1__state; // 0x30
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -55,5 +55,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDBYMAIL__COUNTDOWN_D__44_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,42 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::Rendering { class VolumeProxy; }
 
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x17B61A60)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17B61840)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_RESET_OFFSET UNITYSDK_OFFSET(0x17B61890)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_SETMAPCUTSCENE_OFFSET UNITYSDK_OFFSET(0x17B61AB0)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_SPAWNED_OFFSET UNITYSDK_OFFSET(0x17B61A20)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATECOLORGRADINGPARAMS_OFFSET UNITYSDK_OFFSET(0x17B61E80)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATERADIALBLURPARAMS_OFFSET UNITYSDK_OFFSET(0x17B62080)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATE_OFFSET UNITYSDK_OFFSET(0x17B62260)
-#define RPG_CLIENT_UIMAPCUTSCENETWEEN__CTOR_OFFSET UNITYSDK_OFFSET(0x17B622B0)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_CTOR_OFFSET UNITYSDK_OFFSET(0xE3BEA10)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xE3BE1C0)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE3BDFA0)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_RESET_OFFSET UNITYSDK_OFFSET(0xE3BDFF0)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_SETMAPCUTSCENE_OFFSET UNITYSDK_OFFSET(0xE3BE210)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xE3BE180)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATECOLORGRADINGPARAMS_OFFSET UNITYSDK_OFFSET(0xE3BE5E0)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATERADIALBLURPARAMS_OFFSET UNITYSDK_OFFSET(0xE3BE7E0)
+#define RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATE_OFFSET UNITYSDK_OFFSET(0xE3BE9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMapCutSceneTween_TypeDefinitionIndex = 72991;
+	inline static constexpr unsigned int UIMapCutSceneTween_TypeDefinitionIndex = 73085;
 
 	class UIMapCutSceneTween : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single _TweenDuration; // 0x18
 		::System::Boolean _ColorGradingTweening; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single _ColorGradingTweenFactor; // 0x20
 		::UnityEngine::Color _LevelColorBegin; // 0x24
 		::UnityEngine::Color _LevelColorEnd; // 0x34
 		::System::Boolean _RadialBlurTweening; // 0x44
+		::System::Byte _padding1[0x3];
 		::System::Single _RadialBlurTweenFactor; // 0x48
 		::System::Single _BlurRadiusBegin; // 0x4C
 		::System::Single _BlurRadiusEnd; // 0x50
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Rendering::VolumeProxy* _VolumeProxy; // 0x58
 		::UnityEngine::Events::UnityEvent* OnCutSceneEnd; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAPCUTSCENETWEEN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAPCUTSCENETWEEN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -79,5 +80,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAPCUTSCENETWEEN_UPDATERADIALBLURPARAMS_OFFSET))(this);
 		}
+
 	};
 }

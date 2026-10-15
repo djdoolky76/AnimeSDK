@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2FixedArray1024_1_TypeDefinitionIndex = 35982;
+	inline static constexpr unsigned int B2FixedArray1024_1_TypeDefinitionIndex = 36669;
 
 	template <typename T>
-	struct B2FixedArray1024_1
+	struct alignas(8) B2FixedArray1024_1
 	{
-		// static const ::System::Int32 Size = 0x400; // 0x0
 		T _v0000; // 0x0
 		T _v0001; // 0x0
 		T _v0002; // 0x0
@@ -1034,5 +1032,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		T _v1021; // 0x0
 		T _v1022; // 0x0
 		T _v1023; // 0x0
+		// static const ::System::Object Size; // 0x0
 	};
 }

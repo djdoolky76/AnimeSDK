@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/AbilityPropertyRatio.h"
 #include "unitysdk/RPG/GameCore/MinMaxType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsPropertyValueMinOrMax; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_7A8EE6DDDBC48682_OFFSET UNITYSDK_OFFSET(0x1CDAA0C0)
-#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_7B5F02E9470C584F_OFFSET UNITYSDK_OFFSET(0x1CDAA430)
-#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_9172F302DDF59A97_OFFSET UNITYSDK_OFFSET(0x1CDAA160)
-#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_DFE8E2CCBDE5813E_OFFSET UNITYSDK_OFFSET(0x1CDAA490)
-#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAA120)
+#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F1020)
+#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F1390)
+#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F1330)
+#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F1060)
+#define RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F0FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsPropertyValueMinOrMax_TypeDefinitionIndex = 22309;
+	inline static constexpr unsigned int ByIsPropertyValueMinOrMax_TypeDefinitionIndex = 22558;
 
 	class ByIsPropertyValueMinOrMax : public ::RPG::GameCore::PredicateConfig
 	{
@@ -27,30 +27,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::MinMaxType MinOrMax; // 0x30
 		::RPG::GameCore::AbilityProperty PropertyType; // 0x34
 		::RPG::GameCore::AbilityPropertyRatio PropertyRatioType; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7A8EE6DDDBC48682(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_7A8EE6DDDBC48682_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9172F302DDF59A97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_9172F302DDF59A97_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7B5F02E9470C584F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_7B5F02E9470C584F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DFE8E2CCBDE5813E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsPropertyValueMinOrMax* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_METHOD_4_DFE8E2CCBDE5813E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsPropertyValueMinOrMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISPROPERTYVALUEMINORMAX_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

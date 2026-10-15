@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineComposer.h"
 #include "unitysdk/Cinemachine/CinemachineGroupComposer_AdjustmentMode.h"
 #include "unitysdk/Cinemachine/CinemachineGroupComposer_FramingMode.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class ICinemachineTargetGroup; }
 
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x18C60940)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x18C61C00)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETTARGETHEIGHT_OFFSET UNITYSDK_OFFSET(0x18C62150)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x18C608E0)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x18C608A0)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x18C60960)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18C607E0)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_SET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x18C60910)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_SET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x18C608C0)
-#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C622D0)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_CTOR_OFFSET UNITYSDK_OFFSET(0x1667E760)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1667CDD0)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x1667E090)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETTARGETHEIGHT_OFFSET UNITYSDK_OFFSET(0x1667E5E0)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x1667CD70)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x1667CD30)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1667CDF0)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1667CC70)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_SET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x1667CDA0)
+#define CINEMACHINE_CINEMACHINEGROUPCOMPOSER_SET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x1667CD50)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineGroupComposer_TypeDefinitionIndex = 38479;
+	inline static constexpr unsigned int CinemachineGroupComposer_TypeDefinitionIndex = 39776;
 
 	class CinemachineGroupComposer : public ::Cinemachine::CinemachineComposer
 	{
@@ -45,10 +44,9 @@ namespace Cinemachine
 		::System::Single m_prevFOV; // 0x15C
 		::UnityEngine::Bounds _LastBounds_k__BackingField; // 0x160
 		::UnityEngine::Matrix4x4 _LastBoundsMatrix_k__BackingField; // 0x178
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnValidate()
@@ -81,9 +79,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void MutateCameraState(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetTargetHeight(::UnityEngine::Vector2 a1)
@@ -91,9 +89,10 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETTARGETHEIGHT_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Bounds GetScreenSpaceGroupBoundingBox(::Cinemachine::ICinemachineTargetGroup* a1, ::UnityEngine::Matrix4x4 a2, ::UnityEngine::Vector3& a3)
+		static ::UnityEngine::Bounds GetScreenSpaceGroupBoundingBox(::Cinemachine::ICinemachineTargetGroup* a1, ::UnityEngine::Matrix4x4 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::Bounds(*)(::Cinemachine::ICinemachineTargetGroup*, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Bounds(*)(::Cinemachine::ICinemachineTargetGroup*, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEGROUPCOMPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

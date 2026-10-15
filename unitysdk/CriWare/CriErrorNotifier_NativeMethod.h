@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace CriWare { class CriErrorNotifier_ErrorCallbackFunc; }
 
-#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_CONVERTIDTOMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D3854D0)
-#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_SETCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1D385350)
-#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D3853D0)
+#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_CONVERTIDTOMESSAGE_OFFSET UNITYSDK_OFFSET(0x16700C00)
+#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_SETCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x16700A80)
+#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x16700B00)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriErrorNotifier_NativeMethod_TypeDefinitionIndex = 38852;
+	inline static constexpr unsigned int CriErrorNotifier_NativeMethod_TypeDefinitionIndex = 40149;
 
 	class CriErrorNotifier_NativeMethod : public ::System::Object
 	{
@@ -29,5 +28,6 @@ namespace CriWare
 		{
 			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_CONVERTIDTOMESSAGE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

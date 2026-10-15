@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/XLua/Cast/Any_1.h"
 
-#define XLUA_CAST_CHAR__CTOR_OFFSET UNITYSDK_OFFSET(0xE82CDC0)
+#define XLUA_CAST_CHAR_CTOR_OFFSET UNITYSDK_OFFSET(0x14CB4390)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int Char_TypeDefinitionIndex = 50625;
+	inline static constexpr unsigned int Char_TypeDefinitionIndex = 50294;
 
-	class Char : public ::XLua::Cast::Any_1<::System::Char>
+	class Char
 	{
 	public:
 		::System::Void _ctor(::System::Char a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + XLUA_CAST_CHAR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + XLUA_CAST_CHAR_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

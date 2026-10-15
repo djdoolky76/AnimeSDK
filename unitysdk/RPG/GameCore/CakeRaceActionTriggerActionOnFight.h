@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceActionBase.h"
 #include "unitysdk/RPG/GameCore/CakeRaceFightStateType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceActionBase; }
+namespace RPG::GameCore { class CakeRaceActionTriggerActionOnFight; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_METHOD_3_32F0F84D89D909C4_OFFSET UNITYSDK_OFFSET(0x1D0FBF20)
-#define RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_METHOD_3_FE11176BAE79F619_OFFSET UNITYSDK_OFFSET(0x1D0FBEE0)
-#define RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FBF10)
+#define RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51CC00)
+#define RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51CC10)
+#define RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51CBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceActionTriggerActionOnFight_TypeDefinitionIndex = 18143;
+	inline static constexpr unsigned int CakeRaceActionTriggerActionOnFight_TypeDefinitionIndex = 18358;
 
 	class CakeRaceActionTriggerActionOnFight : public ::RPG::GameCore::CakeRaceActionBase
 	{
@@ -20,21 +21,22 @@ namespace RPG::GameCore
 		::System::UInt32 ShowDurationMs; // 0x14
 		::System::Boolean OnlyExecuteOnce; // 0x18
 		::System::Boolean ExecuteBeforeBeginDelay; // 0x19
+		::System::Byte _padding0[0x6];
 		::RPG::GameCore::CakeRaceActionBase* Action; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FE11176BAE79F619(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_METHOD_3_FE11176BAE79F619_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_32F0F84D89D909C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_METHOD_3_32F0F84D89D909C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceActionTriggerActionOnFight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONTRIGGERACTIONONFIGHT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

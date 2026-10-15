@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization { class SerializationEventHandler; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_ADDONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x19B9CA30)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_RAISEONSERIALIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x19B9CAD0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x19B9C790)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9C6D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_ADDONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1C3122D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C311F70)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_RAISEONSERIALIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x1C312370)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x1C312030)
 
 namespace System::Runtime::Serialization
 {
@@ -19,12 +19,11 @@ namespace System::Runtime::Serialization
 	{
 	public:
 		::System::Collections::Hashtable* m_objectSeenTable; // 0x10
-		::System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler; // 0x18
-		::System::Runtime::Serialization::StreamingContext m_context; // 0x20
-
+		::System::Runtime::Serialization::StreamingContext m_context; // 0x18
+		::System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler; // 0x28
 		::System::Void _ctor(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void RegisterObject(::System::Object* a1)
@@ -41,5 +40,6 @@ namespace System::Runtime::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_ADDONSERIALIZED_OFFSET))(this, a1);
 		}
+
 	};
 }

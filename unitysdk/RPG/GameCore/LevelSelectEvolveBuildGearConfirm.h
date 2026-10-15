@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelSelectEvolveBuildGearConfirm; }
 
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2AF80)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2AF30)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_INIT_OFFSET UNITYSDK_OFFSET(0x1DD2AEE0)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2AFD0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EA8A0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EA850)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EA800)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_INIT_OFFSET UNITYSDK_OFFSET(0xE6EA7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSelectEvolveBuildGearConfirm_TypeDefinitionIndex = 57001;
+	inline static constexpr unsigned int LevelSelectEvolveBuildGearConfirm_TypeDefinitionIndex = 56822;
 
-	class LevelSelectEvolveBuildGearConfirm : public ::Class_1_BF7A075734D15E98
+	class LevelSelectEvolveBuildGearConfirm : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::UInt32 SelectIndex; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelSelectEvolveBuildGearConfirm* Init(::System::UInt32 a1)
@@ -36,5 +36,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

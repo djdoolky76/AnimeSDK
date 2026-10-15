@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/UI/DebugUIHandlerWidget.h"
-
 namespace UnityEngine::Rendering { class DebugUI_BoolField; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
+namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_ONACTION_OFFSET UNITYSDK_OFFSET(0x1DE32930)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1DE32780)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1DE325D0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1DE32480)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_UPDATEVALUELABEL_OFFSET UNITYSDK_OFFSET(0x1DE329F0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE32A50)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A9A40)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_ONACTION_OFFSET UNITYSDK_OFFSET(0x1F2A9920)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1F2A9770)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1F2A95C0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1F2A9470)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_UPDATEVALUELABEL_OFFSET UNITYSDK_OFFSET(0x1F2A99E0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerToggle_TypeDefinitionIndex = 35025;
+	inline static constexpr unsigned int DebugUIHandlerToggle_TypeDefinitionIndex = 35694;
 
 	class DebugUIHandlerToggle : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
@@ -26,10 +26,9 @@ namespace UnityEngine::Rendering::UI
 		::UnityEngine::UI::Toggle* valueToggle; // 0x60
 		::UnityEngine::UI::Image* checkmarkImage; // 0x68
 		::UnityEngine::Rendering::DebugUI_BoolField* m_Field; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
@@ -56,5 +55,6 @@ namespace UnityEngine::Rendering::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERTOGGLE_UPDATEVALUELABEL_OFFSET))(this);
 		}
+
 	};
 }

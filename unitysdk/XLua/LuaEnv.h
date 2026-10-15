@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/XLua/LuaEnv_GCAction.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -10,6 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
+namespace XLua { class LuaEnv; }
 namespace XLua { class LuaEnv_CustomLoader; }
 namespace XLua { class LuaEnv_DtorFunction; }
 namespace XLua { class LuaFunction; }
@@ -17,79 +18,81 @@ namespace XLua { class LuaTable; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_LUAENV_ADDBUILDIN_OFFSET UNITYSDK_OFFSET(0x11861B80)
-#define XLUA_LUAENV_ADDINITER_OFFSET UNITYSDK_OFFSET(0x11861D30)
-#define XLUA_LUAENV_ADDLOADER_OFFSET UNITYSDK_OFFSET(0x118630C0)
-#define XLUA_LUAENV_ADDSEARCHER_OFFSET UNITYSDK_OFFSET(0x11861660)
-#define XLUA_LUAENV_ALIAS_OFFSET UNITYSDK_OFFSET(0x118625E0)
-#define XLUA_LUAENV_CREATEUSERDATADTOR_OFFSET UNITYSDK_OFFSET(0x11861C40)
-#define XLUA_LUAENV_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x11862EC0)
-#define XLUA_LUAENV_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11862C00)
-#define XLUA_LUAENV_DOSTRING_1_OFFSET UNITYSDK_OFFSET(0x11861AC0)
-#define XLUA_LUAENV_DOSTRING_OFFSET UNITYSDK_OFFSET(0x11861F00)
-#define XLUA_LUAENV_DTORFUNCTIONMETAFUNCTION_OFFSET UNITYSDK_OFFSET(0x1185F730)
-#define XLUA_LUAENV_EQUEUEGCACTION_OFFSET UNITYSDK_OFFSET(0x11858B00)
-#define XLUA_LUAENV_FULLGC_OFFSET UNITYSDK_OFFSET(0x11862E00)
-#define XLUA_LUAENV_GCSTEP_OFFSET UNITYSDK_OFFSET(0x11863500)
-#define XLUA_LUAENV_GC_OFFSET UNITYSDK_OFFSET(0x118629D0)
-#define XLUA_LUAENV_GET_GCSTEPMUL_OFFSET UNITYSDK_OFFSET(0x11863140)
-#define XLUA_LUAENV_GET_GLOBAL_OFFSET UNITYSDK_OFFSET(0x11861E90)
-#define XLUA_LUAENV_GET_L_OFFSET UNITYSDK_OFFSET(0x11858AB0)
-#define XLUA_LUAENV_GET_MEMROY_OFFSET UNITYSDK_OFFSET(0x118635D0)
-#define XLUA_LUAENV_GET_TRACEBACK_OFFSET UNITYSDK_OFFSET(0x11863690)
-#define XLUA_LUAENV_GET_TRANSLATOR_OFFSET UNITYSDK_OFFSET(0x1185F770)
-#define XLUA_LUAENV_LOADSTRING_OFFSET UNITYSDK_OFFSET(0x11861EA0)
-#define XLUA_LUAENV_NEWTABLE_OFFSET UNITYSDK_OFFSET(0x118629E0)
-#define XLUA_LUAENV_OBJECTVALIDCHECK_OFFSET UNITYSDK_OFFSET(0x11862600)
-#define XLUA_LUAENV_ONDISPOSEDEBUGGER_OFFSET UNITYSDK_OFFSET(0x11861D20)
-#define XLUA_LUAENV_RESTARTGC_OFFSET UNITYSDK_OFFSET(0x11863440)
-#define XLUA_LUAENV_SET_GCSTEPMUL_OFFSET UNITYSDK_OFFSET(0x118632C0)
-#define XLUA_LUAENV_STARTDEBUGGER_OFFSET UNITYSDK_OFFSET(0x11861D10)
-#define XLUA_LUAENV_STOPGC_OFFSET UNITYSDK_OFFSET(0x11863380)
-#define XLUA_LUAENV_THROWEXCEPTIONFROMERROR_OFFSET UNITYSDK_OFFSET(0x118623D0)
-#define XLUA_LUAENV_TICK_OFFSET UNITYSDK_OFFSET(0x11862640)
-#define XLUA_LUAENV__CCTOR_OFFSET UNITYSDK_OFFSET(0x11863770)
-#define XLUA_LUAENV__CTOR_OFFSET UNITYSDK_OFFSET(0x1185F780)
+#define XLUA_LUAENV_ADDBUILDIN_OFFSET UNITYSDK_OFFSET(0x14DB4260)
+#define XLUA_LUAENV_ADDINITER_OFFSET UNITYSDK_OFFSET(0x14DB4410)
+#define XLUA_LUAENV_ADDLOADER_OFFSET UNITYSDK_OFFSET(0x14DB5780)
+#define XLUA_LUAENV_ADDSEARCHER_OFFSET UNITYSDK_OFFSET(0x14DB3D40)
+#define XLUA_LUAENV_ALIAS_OFFSET UNITYSDK_OFFSET(0x14DB4CD0)
+#define XLUA_LUAENV_CCTOR_OFFSET UNITYSDK_OFFSET(0x14DB5E30)
+#define XLUA_LUAENV_CREATEUSERDATADTOR_OFFSET UNITYSDK_OFFSET(0x14DB4320)
+#define XLUA_LUAENV_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB1E60)
+#define XLUA_LUAENV_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x14DB5580)
+#define XLUA_LUAENV_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14DB52C0)
+#define XLUA_LUAENV_DOSTRING_1_OFFSET UNITYSDK_OFFSET(0x14DB41A0)
+#define XLUA_LUAENV_DOSTRING_OFFSET UNITYSDK_OFFSET(0x14DB45E0)
+#define XLUA_LUAENV_DTORFUNCTIONMETAFUNCTION_OFFSET UNITYSDK_OFFSET(0x14DB1E10)
+#define XLUA_LUAENV_EQUEUEGCACTION_OFFSET UNITYSDK_OFFSET(0x14DAB1E0)
+#define XLUA_LUAENV_FULLGC_OFFSET UNITYSDK_OFFSET(0x14DB54C0)
+#define XLUA_LUAENV_GCSTEP_OFFSET UNITYSDK_OFFSET(0x14DB5BC0)
+#define XLUA_LUAENV_GC_OFFSET UNITYSDK_OFFSET(0x14DB5090)
+#define XLUA_LUAENV_GET_GCSTEPMUL_OFFSET UNITYSDK_OFFSET(0x14DB5800)
+#define XLUA_LUAENV_GET_GLOBAL_OFFSET UNITYSDK_OFFSET(0x14DB4570)
+#define XLUA_LUAENV_GET_L_OFFSET UNITYSDK_OFFSET(0x14DAB190)
+#define XLUA_LUAENV_GET_MEMROY_OFFSET UNITYSDK_OFFSET(0x14DB5C90)
+#define XLUA_LUAENV_GET_TRACEBACK_OFFSET UNITYSDK_OFFSET(0x14DB5D50)
+#define XLUA_LUAENV_GET_TRANSLATOR_OFFSET UNITYSDK_OFFSET(0x14DB1E50)
+#define XLUA_LUAENV_LOADSTRING_2_OFFSET UNITYSDK_OFFSET(0x14DB4580)
+#define XLUA_LUAENV_NEWTABLE_OFFSET UNITYSDK_OFFSET(0x14DB50A0)
+#define XLUA_LUAENV_OBJECTVALIDCHECK_OFFSET UNITYSDK_OFFSET(0x14DB4CF0)
+#define XLUA_LUAENV_ONDISPOSEDEBUGGER_OFFSET UNITYSDK_OFFSET(0x14DB4400)
+#define XLUA_LUAENV_RESTARTGC_OFFSET UNITYSDK_OFFSET(0x14DB5B00)
+#define XLUA_LUAENV_SET_GCSTEPMUL_OFFSET UNITYSDK_OFFSET(0x14DB5980)
+#define XLUA_LUAENV_STARTDEBUGGER_OFFSET UNITYSDK_OFFSET(0x14DB43F0)
+#define XLUA_LUAENV_STOPGC_OFFSET UNITYSDK_OFFSET(0x14DB5A40)
+#define XLUA_LUAENV_THROWEXCEPTIONFROMERROR_OFFSET UNITYSDK_OFFSET(0x14DB4AB0)
+#define XLUA_LUAENV_TICK_OFFSET UNITYSDK_OFFSET(0x14DB4D30)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaEnv_TypeDefinitionIndex = 50535;
+	inline static constexpr unsigned int LuaEnv_TypeDefinitionIndex = 50204;
 
 	class LuaEnv : public ::System::Object
 	{
 	public:
-		static ::XLua::LuaEnv_DtorFunction** StaticGet_DtorFunctionMeta()
-		{
-			return (::XLua::LuaEnv_DtorFunction**)Il2CppClass::FromTypeDefinitionIndex(LuaEnv_TypeDefinitionIndex)->GetStaticField(0x65B70);
-		}
+		::System::Collections::Generic::List_1<::System::Object*>* customLoaders; // 0x10
+		::System::Collections::Generic::Queue_1<::System::Object*>* refQueue; // 0x18
+		::XLua::ObjectTranslator* translator; // 0x20
+		::System::Func_2<::System::Object*, ::System::Boolean>* object_valid_checker; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::XLua::LuaDLL::lua_CSFunction*>* buildin_initer; // 0x30
+		::System::String* init_xlua; // 0x38
+		::XLua::LuaTable* _G; // 0x40
+		::System::Int32 max_check_per_tick; // 0x48
+		::System::Boolean disposed; // 0x4C
+		::System::Byte _padding0[0x3];
+		::System::IntPtr rawL; // 0x50
+		::System::Int32 last_check_point; // 0x58
+		::System::Int32 errorFuncRef; // 0x5C
 		static ::System::Collections::Generic::List_1<::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>*>** StaticGet_initers()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>*>**)Il2CppClass::FromTypeDefinitionIndex(LuaEnv_TypeDefinitionIndex)->GetStaticField(0x65B78);
+			return (::System::Collections::Generic::List_1<::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>*>**)UnitySDK::FromName("XLua", "LuaEnv")->GetStaticField(0x42A20);
 		}
+
+		static ::XLua::LuaEnv_DtorFunction** StaticGet_DtorFunctionMeta()
+		{
+			return (::XLua::LuaEnv_DtorFunction**)UnitySDK::FromName("XLua", "LuaEnv")->GetStaticField(0x42A28);
+		}
+
 		// static const ::System::String* CSHARP_NAMESPACE; // 0x0
 		// static const ::System::String* MAIN_SHREAD; // 0x0
-		// static const ::System::Int32 LIB_VERSION_EXPECT = 0x69; // 0x0
-		::System::String* init_xlua; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::XLua::LuaDLL::lua_CSFunction*>* buildin_initer; // 0x18
-		::System::Func_2<::System::Object*, ::System::Boolean>* object_valid_checker; // 0x20
-		::System::Collections::Generic::List_1<::XLua::LuaEnv_CustomLoader*>* customLoaders; // 0x28
-		::XLua::LuaTable* _G; // 0x30
-		::XLua::ObjectTranslator* translator; // 0x38
-		::System::Collections::Generic::Queue_1<::XLua::LuaEnv_GCAction>* refQueue; // 0x40
-		::System::Int32 max_check_per_tick; // 0x48
-		::System::Int32 last_check_point; // 0x4C
-		::System::Int32 errorFuncRef; // 0x50
-		::System::Boolean disposed; // 0x54
-		::System::IntPtr rawL; // 0x58
-
+		// static const ::System::Object LIB_VERSION_EXPECT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAENV__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_LUAENV__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_LUAENV_CCTOR_OFFSET))();
 		}
 
 		::System::IntPtr get_L()
@@ -132,9 +135,9 @@ namespace XLua
 			return ((::XLua::LuaTable*(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAENV_GET_GLOBAL_OFFSET))(this);
 		}
 
-		::XLua::LuaFunction* LoadString(::System::String* a1, ::System::String* a2, ::XLua::LuaTable* a3)
+		::XLua::LuaFunction* LoadString_2(::System::String* a1, ::System::String* a2, ::XLua::LuaTable* a3)
 		{
-			return ((::XLua::LuaFunction*(*)(::PVOID, ::System::String*, ::System::String*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_LOADSTRING_OFFSET))(this, a1, a2, a3);
+			return ((::XLua::LuaFunction*(*)(::PVOID, ::System::String*, ::System::String*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_LOADSTRING_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::System::Object*>* DoString(::Il2CppArray<::System::Byte>* a1, ::System::String* a2, ::XLua::LuaTable* a3)
@@ -246,5 +249,6 @@ namespace XLua
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAENV_GET_TRACEBACK_OFFSET))(this);
 		}
+
 	};
 }

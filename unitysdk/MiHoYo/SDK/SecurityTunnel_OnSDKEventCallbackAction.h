@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33F80)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD34000)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33F60)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD33EF0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB04B1E0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB04B170)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB04B260)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB03ECB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_OnSDKEventCallbackAction_TypeDefinitionIndex = 46856;
+	inline static constexpr unsigned int SecurityTunnel_OnSDKEventCallbackAction_TypeDefinitionIndex = 46396;
 
 	class SecurityTunnel_OnSDKEventCallbackAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt32 a3)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONSDKEVENTCALLBACKACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

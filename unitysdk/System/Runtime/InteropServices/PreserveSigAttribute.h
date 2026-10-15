@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_PRESERVESIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C459580)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_PRESERVESIGATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C29BF90)
 
 namespace System::Runtime::InteropServices
 {
@@ -13,7 +13,8 @@ namespace System::Runtime::InteropServices
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_PRESERVESIGATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_PRESERVESIGATTRIBUTE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

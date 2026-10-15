@@ -3,29 +3,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/EventSystems/PointerEventData_FramePressState.h"
 #include "unitysdk/UnityEngine/EventSystems/PointerEventData_InputButton.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::EventSystems { class PointerInputModule_ButtonState; }
 
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYPRESSESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1B76F3F0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYRELEASESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1B76F470)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1B76F4F0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1B76E420)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76F330)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYPRESSESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1F4AAD20)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYRELEASESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1F4AADA0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4AAC60)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1F4AAE20)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1F4A9D20)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 6933;
+	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 6942;
 
 	class PointerInputModule_MouseState : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule_ButtonState*>* m_TrackedButtons; // 0x10
-
+		::System::Collections::Generic::List_1<::System::Object*>* m_TrackedButtons; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean AnyPressesThisFrame()
@@ -47,5 +46,6 @@ namespace UnityEngine::EventSystems
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData_InputButton, ::UnityEngine::EventSystems::PointerEventData_FramePressState, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

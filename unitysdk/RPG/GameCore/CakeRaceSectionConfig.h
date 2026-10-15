@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceSectionConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACESECTIONCONFIG_METHOD_2_5BA59EAA4EC8185A_OFFSET UNITYSDK_OFFSET(0x1D1043D0)
-#define RPG_GAMECORE_CAKERACESECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1044C0)
+#define RPG_GAMECORE_CAKERACESECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D525310)
+#define RPG_GAMECORE_CAKERACESECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D525220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceSectionConfig_TypeDefinitionIndex = 18191;
+	inline static constexpr unsigned int CakeRaceSectionConfig_TypeDefinitionIndex = 18406;
 
 	class CakeRaceSectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RegionIDList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5BA59EAA4EC8185A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceSectionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceSectionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceSectionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONCONFIG_METHOD_2_5BA59EAA4EC8185A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceSectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

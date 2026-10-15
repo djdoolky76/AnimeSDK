@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriMana/AudioCodecType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int AudioInfo_TypeDefinitionIndex = 38912;
+	inline static constexpr unsigned int AudioInfo_TypeDefinitionIndex = 40209;
 
 	struct alignas(4) AudioInfo
 	{

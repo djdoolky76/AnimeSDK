@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_CRPREMOTEDEBUG_ADDDEBUGSERVER_OFFSET UNITYSDK_OFFSET(0x192B3570)
-#define RPG_CUSTOMRP_CRPREMOTEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x192B3580)
+#define RPG_CUSTOMRP_CRPREMOTEDEBUG_ADDDEBUGSERVER_OFFSET UNITYSDK_OFFSET(0x1CBD9800)
+#define RPG_CUSTOMRP_CRPREMOTEDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD9810)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRemoteDebug_TypeDefinitionIndex = 37054;
+	inline static constexpr unsigned int CRPRemoteDebug_TypeDefinitionIndex = 37739;
 
 	class CRPRemoteDebug : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPREMOTEDEBUG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPREMOTEDEBUG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void AddDebugServer(::UnityEngine::GameObject* a1)
 		{
 			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPREMOTEDEBUG_ADDDEBUGSERVER_OFFSET))(a1);
 		}
+
 	};
 }

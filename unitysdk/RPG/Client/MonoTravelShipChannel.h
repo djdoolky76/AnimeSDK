@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class EntityGameObjectConnection; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
@@ -11,34 +10,36 @@ namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x1C289F50)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x1C289B70)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_P0_OFFSET UNITYSDK_OFFSET(0x1C289E00)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_P1_OFFSET UNITYSDK_OFFSET(0x1C289EA0)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_0E142E3463F30350_OFFSET UNITYSDK_OFFSET(0x1C28A160)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_63E8F19CFED33AB3_OFFSET UNITYSDK_OFFSET(0x1C28ACE0)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_689065A6623E391A_OFFSET UNITYSDK_OFFSET(0x1C28AC60)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_A0EC6C9CB15FAEC9_OFFSET UNITYSDK_OFFSET(0x1C28A630)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_ABFE6A357B89C69A_OFFSET UNITYSDK_OFFSET(0x1C28A6E0)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_E4F49C7FF76445EE_OFFSET UNITYSDK_OFFSET(0x1C28ADB0)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_F492C0E050258EA1_OFFSET UNITYSDK_OFFSET(0x1C28A7A0)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C28A100)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1C28A280)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1C28AA20)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGERSTAY_OFFSET UNITYSDK_OFFSET(0x1C28A8A0)
-#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C28AF80)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_CDEOGOBOFLO_OFFSET UNITYSDK_OFFSET(0xD867230)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD867A10)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_DHOJAJPGCMK_OFFSET UNITYSDK_OFFSET(0xD866C00)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_DILOEAADMAO_1_OFFSET UNITYSDK_OFFSET(0xD867840)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_DILOEAADMAO_OFFSET UNITYSDK_OFFSET(0xD8676F0)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xD8669F0)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0xD866610)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_P0_OFFSET UNITYSDK_OFFSET(0xD8668A0)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_GET_P1_OFFSET UNITYSDK_OFFSET(0xD866940)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_IPANNLIMDKE_OFFSET UNITYSDK_OFFSET(0xD867170)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_LCBAGPNONDB_OFFSET UNITYSDK_OFFSET(0xD867770)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD866BA0)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD866D20)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xD8674B0)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGERSTAY_OFFSET UNITYSDK_OFFSET(0xD867330)
+#define RPG_CLIENT_MONOTRAVELSHIPCHANNEL_PCDDCAGMMDK_OFFSET UNITYSDK_OFFSET(0xD8670C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTravelShipChannel_TypeDefinitionIndex = 68749;
+	inline static constexpr unsigned int MonoTravelShipChannel_TypeDefinitionIndex = 68783;
 
 	class MonoTravelShipChannel : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::CapsuleCollider* Collider; // 0x18
 		::System::Single Duration; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* DynamicDuration; // 0x28
 		::System::Single BackDuration; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::String* BackDynamicDuration; // 0x38
 		::System::String* EnterChannelEvent; // 0x40
 		::System::String* BackEnterChannelEvent; // 0x48
@@ -47,12 +48,12 @@ namespace RPG::Client
 		::System::Single BFAAPMPOICA; // 0x60
 		::System::Single AEDAHFNPEPL; // 0x64
 		::UnityEngine::Vector3 BGNACBGBMHG; // 0x68
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Transform* JBAHHLGEPOF; // 0x78
 		::RPG::Client::EntityGameObjectConnection* AIGBJENIMAP; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_Origin()
@@ -95,39 +96,40 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple_2<::System::String*, ::System::String*> Method_5_A0EC6C9CB15FAEC9(::UnityEngine::Vector3 a1)
+		::System::ValueTuple_2<::System::String*, ::System::String*> PCDDCAGMMDK(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_A0EC6C9CB15FAEC9_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_PCDDCAGMMDK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_63E8F19CFED33AB3(::UnityEngine::Vector3 a1)
+		::System::Boolean LCBAGPNONDB(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_63E8F19CFED33AB3_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_LCBAGPNONDB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_0E142E3463F30350()
+		::System::Void DHOJAJPGCMK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_0E142E3463F30350_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_DHOJAJPGCMK_OFFSET))(this);
 		}
 
-		::System::Single Method_5_689065A6623E391A(::UnityEngine::Vector3 a1)
+		::System::Single DILOEAADMAO(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_689065A6623E391A_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_DILOEAADMAO_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_5_E4F49C7FF76445EE(::System::Boolean a1)
+		::System::Single DILOEAADMAO_1(::System::Boolean a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_E4F49C7FF76445EE_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_DILOEAADMAO_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_ABFE6A357B89C69A()
+		::System::Boolean IPANNLIMDKE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_ABFE6A357B89C69A_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_IPANNLIMDKE_OFFSET))(this);
 		}
 
-		::RPG::GameCore::GameEntity* Method_5_F492C0E050258EA1()
+		::RPG::GameCore::GameEntity* CDEOGOBOFLO()
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_METHOD_5_F492C0E050258EA1_OFFSET))(this);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_CDEOGOBOFLO_OFFSET))(this);
 		}
+
 	};
 }

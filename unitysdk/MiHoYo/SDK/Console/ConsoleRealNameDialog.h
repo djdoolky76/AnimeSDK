@@ -1,46 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
-
+namespace MiHoYo::SDK::Console { class ConsoleRealNameDialog; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class InputField; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1733C290)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1733DA00)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x173190C0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_IDINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1733D840)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_NAMEINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1733D690)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1733D600)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1733D3D0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET UNITYSDK_OFFSET(0x1733D9F0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONMEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1733D5A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONSUBMITBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1733D620)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x173177E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1733C130)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1733D400)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1733DA30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC6EA20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC70190)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC701C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC4C130)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_IDINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BC6FFD0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_NAMEINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BC6FE20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC6FD90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC6FB60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET UNITYSDK_OFFSET(0x1BC70180)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONMEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1BC6FD30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONSUBMITBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BC6FDB0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BC4A850)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC6E8C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC6FB90)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleRealNameDialog_TypeDefinitionIndex = 8947;
+	inline static constexpr unsigned int ConsoleRealNameDialog_TypeDefinitionIndex = 9008;
 
 	class ConsoleRealNameDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::Console::ConsoleRealNameDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Console::ConsoleRealNameDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleRealNameDialog_TypeDefinitionIndex)->GetStaticField(0xB3C0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* SubmitButtonTextPath; // 0x0
-		// static const ::System::String* NameInputPath; // 0x0
-		// static const ::System::String* IDInputPath; // 0x0
 		::System::Action_2<::System::String*, ::System::String*>* OnRealName; // 0xC0
 		::System::Action* OnBack; // 0xC8
 		::UnityEngine::UI::InputField* nameInput; // 0xD0
@@ -49,10 +38,21 @@ namespace MiHoYo::SDK::Console
 		::UnityEngine::GameObject* submitButtonObj; // 0xE8
 		::UnityEngine::GameObject* submitButtonTextObj; // 0xF0
 		::System::Boolean Interactable; // 0xF8
+		static ::MiHoYo::SDK::Console::ConsoleRealNameDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Console::ConsoleRealNameDialog**)UnitySDK::FromName("MiHoYo.SDK.Console", "ConsoleRealNameDialog")->GetStaticField(0x56030);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* SubmitButtonTextPath; // 0x0
+		// static const ::System::String* NameInputPath; // 0x0
+		// static const ::System::String* IDInputPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -119,5 +119,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG_ONMEETPROBLEM_OFFSET))(this);
 		}
+
 	};
 }

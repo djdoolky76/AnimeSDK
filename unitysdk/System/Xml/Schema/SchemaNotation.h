@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlQualifiedName; }
 
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B05A580)
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_GET_PUBID_OFFSET UNITYSDK_OFFSET(0x1B05A5B0)
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_GET_SYSTEMLITERAL_OFFSET UNITYSDK_OFFSET(0x1B05A590)
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_SET_PUBID_OFFSET UNITYSDK_OFFSET(0x1B05A5C0)
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_SET_SYSTEMLITERAL_OFFSET UNITYSDK_OFFSET(0x1B05A5A0)
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05A570)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9B290)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EE9B2A0)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_GET_PUBID_OFFSET UNITYSDK_OFFSET(0x1EE9B2D0)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_GET_SYSTEMLITERAL_OFFSET UNITYSDK_OFFSET(0x1EE9B2B0)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_SET_PUBID_OFFSET UNITYSDK_OFFSET(0x1EE9B2E0)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION_SET_SYSTEMLITERAL_OFFSET UNITYSDK_OFFSET(0x1EE9B2C0)
 
 namespace System::Xml::Schema
 {
@@ -19,13 +18,12 @@ namespace System::Xml::Schema
 	class SchemaNotation : public ::System::Object
 	{
 	public:
-		::System::String* systemLiteral; // 0x10
-		::System::String* pubid; // 0x18
-		::System::Xml::XmlQualifiedName* name; // 0x20
-
+		::System::Xml::XmlQualifiedName* name; // 0x10
+		::System::String* systemLiteral; // 0x18
+		::System::String* pubid; // 0x20
 		::System::Void _ctor(::System::Xml::XmlQualifiedName* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlQualifiedName*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SCHEMANOTATION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlQualifiedName*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SCHEMANOTATION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlQualifiedName* get_Name()
@@ -52,5 +50,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SCHEMANOTATION_SET_PUBID_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client { class PoolPropertyRecord; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_POOLPROPERTYSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1B320)
+#define RPG_CLIENT_POOLPROPERTYSCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDBFBA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PoolPropertyScriptableObject_TypeDefinitionIndex = 72549;
+	inline static constexpr unsigned int PoolPropertyScriptableObject_TypeDefinitionIndex = 72624;
 
 	class PoolPropertyScriptableObject : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::PoolPropertyRecord*>* records; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLPROPERTYSCRIPTABLEOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POOLPROPERTYSCRIPTABLEOBJECT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

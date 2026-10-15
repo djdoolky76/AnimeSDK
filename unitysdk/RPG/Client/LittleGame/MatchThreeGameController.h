@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_4C75491B780B94AA;
+class HJDNCNIPOKM;
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client::LittleGame { class MatchThreeTimelineBattleField; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET UNITYSDK_OFFSET(0x1B1CE260)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x1B1CDEB0)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_TRYSTARTGAME_OFFSET UNITYSDK_OFFSET(0x1B1CE030)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CE380)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x1B1CE320)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD4671A0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET UNITYSDK_OFFSET(0xD467080)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xD466CD0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_TRYSTARTGAME_OFFSET UNITYSDK_OFFSET(0xD466E50)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0xD467140)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 76082;
+	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 76559;
 
 	class MatchThreeGameController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::UInt32 ROW_COUNT = 0x7; // 0x0
-		// static const ::System::UInt32 COLUMN_COUNT = 0x7; // 0x0
 		::RPG::Client::MatchThreeBoard* ChessBoardView; // 0x18
 		::Il2CppArray<::UnityEngine::RectTransform*>* BirdAdaptivePositions; // 0x20
-		::Class_1_4C75491B780B94AA* _EcsInstance; // 0x28
+		::HJDNCNIPOKM* _EcsInstance; // 0x28
 		::RPG::Client::LittleGame::MatchThreeTimelineBattleField* _BattleField; // 0x30
-
+		// static const ::System::Object ROW_COUNT; // 0x0
+		// static const ::System::Object COLUMN_COUNT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::Client::LittleGame::MatchThreeTimelineBattleField* a1)
@@ -52,5 +50,6 @@ namespace RPG::Client::LittleGame
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET))(this, a1);
 		}
+
 	};
 }

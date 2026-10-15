@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_RACINGDRIVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18059EC0)
+#define RPG_CLIENT_RACINGDRIVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDE35000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RacingDriveConfig_TypeDefinitionIndex = 59910;
+	inline static constexpr unsigned int RacingDriveConfig_TypeDefinitionIndex = 59773;
 
 	class RacingDriveConfig : public ::System::Object
 	{
@@ -35,12 +34,13 @@ namespace RPG::Client
 		::UnityEngine::Vector2 randomSpeedRange; // 0x58
 		::UnityEngine::Vector2 randomSpeedInterval; // 0x60
 		::System::Single randomSpeedSmoothTime; // 0x68
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* followSpeedCurve; // 0x70
 		::System::Single softBrakeMultiplier; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RACINGDRIVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RACINGDRIVECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

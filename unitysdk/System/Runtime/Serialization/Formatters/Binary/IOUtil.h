@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/Binary/MessageEnum.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_FLAGTEST_OFFSET UNITYSDK_OFFSET(0x19468160)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITESTRINGWITHCODE_OFFSET UNITYSDK_OFFSET(0x19467F70)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITEWITHCODE_OFFSET UNITYSDK_OFFSET(0x19468170)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_FLAGTEST_OFFSET UNITYSDK_OFFSET(0x1C2E6D40)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITESTRINGWITHCODE_OFFSET UNITYSDK_OFFSET(0x1C2E6B70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITEWITHCODE_OFFSET UNITYSDK_OFFSET(0x1C2E6D50)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -32,5 +32,6 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return ((::System::Void(*)(::System::Type*, ::System::Object*, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITEWITHCODE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

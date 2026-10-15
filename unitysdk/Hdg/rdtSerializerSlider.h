@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
+namespace Hdg { class rdtSerializerSlider; }
+namespace System { class Object; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERSLIDER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A70F90)
-#define HDG_RDTSERIALIZERSLIDER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x16A71030)
-#define HDG_RDTSERIALIZERSLIDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x16A70FA0)
-#define HDG_RDTSERIALIZERSLIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x16A71070)
-#define HDG_RDTSERIALIZERSLIDER_READ_OFFSET UNITYSDK_OFFSET(0x16A71260)
-#define HDG_RDTSERIALIZERSLIDER_WRITE_OFFSET UNITYSDK_OFFSET(0x16A710D0)
-#define HDG_RDTSERIALIZERSLIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16A6EA20)
-#define HDG_RDTSERIALIZERSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A70F80)
+#define HDG_RDTSERIALIZERSLIDER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF46E70)
+#define HDG_RDTSERIALIZERSLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF49380)
+#define HDG_RDTSERIALIZERSLIDER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF49390)
+#define HDG_RDTSERIALIZERSLIDER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xAF49430)
+#define HDG_RDTSERIALIZERSLIDER_EQUALS_OFFSET UNITYSDK_OFFSET(0xAF493A0)
+#define HDG_RDTSERIALIZERSLIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xAF49470)
+#define HDG_RDTSERIALIZERSLIDER_READ_OFFSET UNITYSDK_OFFSET(0xAF49660)
+#define HDG_RDTSERIALIZERSLIDER_WRITE_OFFSET UNITYSDK_OFFSET(0xAF494D0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerSlider_TypeDefinitionIndex = 47430;
+	inline static constexpr unsigned int rdtSerializerSlider_TypeDefinitionIndex = 46970;
 
 	class rdtSerializerSlider : public ::System::Object
 	{
@@ -25,15 +26,14 @@ namespace Hdg
 		::System::Single LimitMax; // 0x10
 		::System::Single LimitMin; // 0x14
 		::System::Single Value; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERSLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERSLIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERSLIDER__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERSLIDER_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* a1)
@@ -65,5 +65,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERSLIDER_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

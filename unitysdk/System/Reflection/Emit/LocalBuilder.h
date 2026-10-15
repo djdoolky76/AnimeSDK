@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/LocalVariableInfo.h"
-
 namespace System { class String; }
 namespace System::Reflection::Emit { class ILGenerator; }
 

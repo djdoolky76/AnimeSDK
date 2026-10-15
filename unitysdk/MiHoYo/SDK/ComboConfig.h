@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class QRAppIcons; }
 namespace MiHoYo::SDK { class QREnabledApps; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B04C0)
+#define MIHOYO_SDK_COMBOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC26CA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 7868;
+	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 7912;
 
 	class ComboConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean protocol; // 0x10
 		::System::Boolean qrEnabled; // 0x11
+		::System::Byte _padding0[0x6];
 		::System::String* announceURL; // 0x18
 		::System::Boolean userCenterEnabled; // 0x20
+		::System::Byte _padding1[0x7];
 		::MiHoYo::SDK::QREnabledApps* qrEnabledApps; // 0x28
 		::MiHoYo::SDK::QRAppIcons* qrAppIcons; // 0x30
 		::System::String* qrAppDisplayName; // 0x38
 		::System::String* qrCloudDisplayName; // 0x40
-
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMBOCONFIG_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

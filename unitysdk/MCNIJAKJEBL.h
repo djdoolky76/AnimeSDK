@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ShowCableUI; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define MCNIJAKJEBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8824E0)
+#define MCNIJAKJEBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB882510)
+
+inline static constexpr unsigned int MCNIJAKJEBL_TypeDefinitionIndex = 58623;
+
+	class MCNIJAKJEBL
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowCableUI* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowCableUI*))((::PBYTE)hIl2Cpp + MCNIJAKJEBL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCNIJAKJEBL_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

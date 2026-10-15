@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
+namespace RPG::GameCore { class AdventurePropPlatformLeave; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_CLEAR_OFFSET UNITYSDK_OFFSET(0x19406B20)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19406BF0)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19406BA0)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_INIT_OFFSET UNITYSDK_OFFSET(0x19406AC0)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19406C40)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE572730)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE572850)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE572800)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE5727B0)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_INIT_OFFSET UNITYSDK_OFFSET(0xE5726D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePropPlatformLeave_TypeDefinitionIndex = 56828;
+	inline static constexpr unsigned int AdventurePropPlatformLeave_TypeDefinitionIndex = 56649;
 
-	class AdventurePropPlatformLeave : public ::Class_1_BF7A075734D15E98
+	class AdventurePropPlatformLeave : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* ColliderEntity; // 0x18
-		::RPG::GameCore::GameEntity* LeaveSourceEntity; // 0x20
-
+		::RPG::GameCore::GameEntity* LeaveSourceEntity; // 0x18
+		::RPG::GameCore::GameEntity* ColliderEntity; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AdventurePropPlatformLeave* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
@@ -45,5 +44,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPPLATFORMLEAVE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

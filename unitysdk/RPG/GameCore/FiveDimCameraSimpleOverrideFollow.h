@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_METHOD_2_3B46AB74DAFF5737_OFFSET UNITYSDK_OFFSET(0x1E0E3860)
-#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E5830)
+#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D686780)
+#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D684710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraSimpleOverrideFollow_TypeDefinitionIndex = 18412;
+	inline static constexpr unsigned int FiveDimCameraSimpleOverrideFollow_TypeDefinitionIndex = 18623;
 
 	class FiveDimCameraSimpleOverrideFollow : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::System::Single VCameraPitch; // 0x14
 		::System::Boolean FollowPlayerGravity; // 0x18
 		::System::Boolean FollowSurfaceMove; // 0x19
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3B46AB74DAFF5737(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCameraSimpleOverrideFollow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimCameraSimpleOverrideFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCameraSimpleOverrideFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_METHOD_2_3B46AB74DAFF5737_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimCameraSimpleOverrideFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

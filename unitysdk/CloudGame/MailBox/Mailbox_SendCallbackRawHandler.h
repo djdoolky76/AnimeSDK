@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace CloudGame::MailBox { class Mailbox_SendCallbackHandler; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A18A7A0)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A18A800)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A18A790)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18A710)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC004C0)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC00430)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC00520)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC004B0)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Mailbox_SendCallbackRawHandler_TypeDefinitionIndex = 7491;
+	inline static constexpr unsigned int Mailbox_SendCallbackRawHandler_TypeDefinitionIndex = 7545;
 
 	class Mailbox_SendCallbackRawHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CloudGame::MailBox::Mailbox_SendCallbackHandler* a1, ::System::Int64 a2)
@@ -38,5 +37,6 @@ namespace CloudGame::MailBox
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

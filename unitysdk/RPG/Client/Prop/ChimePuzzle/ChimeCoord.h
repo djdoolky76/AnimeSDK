@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
-	inline static constexpr unsigned int ChimeCoord_TypeDefinitionIndex = 78511;
+	inline static constexpr unsigned int ChimeCoord_TypeDefinitionIndex = 78982;
 
 	struct alignas(4) ChimeCoord
 	{

@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TitanAtlasVoiceInfo; }
+namespace RPG::Client { class TitanAtlasVoicePool; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TITANATLASVOICEPOOL_ADDVOICEINFO_OFFSET UNITYSDK_OFFSET(0x197BA0D0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_CREATE_OFFSET UNITYSDK_OFFSET(0x197BA010)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_GETRANDOMINFO_OFFSET UNITYSDK_OFFSET(0x197B8080)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_GET_ID_OFFSET UNITYSDK_OFFSET(0x197BA2C0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET UNITYSDK_OFFSET(0x197BA2D0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_SUMALLWEIGHT_OFFSET UNITYSDK_OFFSET(0x197BA180)
-#define RPG_CLIENT_TITANATLASVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x197BA090)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_ADDVOICEINFO_OFFSET UNITYSDK_OFFSET(0xE2A5CB0)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_CREATE_OFFSET UNITYSDK_OFFSET(0xE2A5BF0)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xE2A5C70)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_GETRANDOMINFO_OFFSET UNITYSDK_OFFSET(0xE2A3C00)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_GET_ID_OFFSET UNITYSDK_OFFSET(0xE2A5EA0)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET UNITYSDK_OFFSET(0xE2A5EB0)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_SUMALLWEIGHT_OFFSET UNITYSDK_OFFSET(0xE2A5D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TitanAtlasVoicePool_TypeDefinitionIndex = 68139;
+	inline static constexpr unsigned int TitanAtlasVoicePool_TypeDefinitionIndex = 68147;
 
 	class TitanAtlasVoicePool : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasVoiceInfo*>* _Infos; // 0x10
 		::System::UInt32 _ID_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::TitanAtlasVoicePool* Create(::System::UInt32 a1)
@@ -57,5 +56,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET))(this, a1);
 		}
+
 	};
 }

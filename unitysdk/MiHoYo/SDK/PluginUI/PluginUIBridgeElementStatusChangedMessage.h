@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGEELEMENTSTATUSCHANGEDMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E82AF0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGEELEMENTSTATUSCHANGEDMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5ADE0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIBridgeElementStatusChangedMessage_TypeDefinitionIndex = 9104;
+	inline static constexpr unsigned int PluginUIBridgeElementStatusChangedMessage_TypeDefinitionIndex = 9165;
 
 	class PluginUIBridgeElementStatusChangedMessage : public ::System::Object
 	{
@@ -16,10 +15,10 @@ namespace MiHoYo::SDK::PluginUI
 		::System::String* id; // 0x10
 		::System::String* status_name; // 0x18
 		::System::String* status_value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGEELEMENTSTATUSCHANGEDMESSAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGEELEMENTSTATUSCHANGEDMESSAGE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

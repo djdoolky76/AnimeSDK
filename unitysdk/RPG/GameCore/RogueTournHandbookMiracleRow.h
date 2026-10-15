@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueMiracleCategory.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueTournHandbookMiracleRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCC6120)
-#define RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC62F0)
+#define RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0E850)
+#define RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA0E680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHandbookMiracleRow_TypeDefinitionIndex = 14866;
+	inline static constexpr unsigned int RogueTournHandbookMiracleRow_TypeDefinitionIndex = 15031;
 
 	class RogueTournHandbookMiracleRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 MiracleDisplayID; // 0x10
 		::System::UInt32 MiracleEffectID; // 0x14
-		::RPG::GameCore::RogueMiracleCategory MiracleCategory; // 0x18
-		::System::UInt32 HandbookMiracleID; // 0x1C
-		::System::UInt32 UnlockDesc; // 0x20
-
+		::System::UInt32 HandbookMiracleID; // 0x18
+		::System::UInt32 UnlockDesc; // 0x1C
+		::RPG::GameCore::RogueMiracleCategory MiracleCategory; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournHandbookMiracleRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTournHandbookMiracleRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournHandbookMiracleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTournHandbookMiracleRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHANDBOOKMIRACLEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

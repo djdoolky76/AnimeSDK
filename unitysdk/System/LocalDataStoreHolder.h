@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class LocalDataStore; }
 
-#define SYSTEM_LOCALDATASTOREHOLDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D47F430)
-#define SYSTEM_LOCALDATASTOREHOLDER_GET_STORE_OFFSET UNITYSDK_OFFSET(0x1D47F4B0)
-#define SYSTEM_LOCALDATASTOREHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D47F420)
+#define SYSTEM_LOCALDATASTOREHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C24BC70)
+#define SYSTEM_LOCALDATASTOREHOLDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C24BC80)
+#define SYSTEM_LOCALDATASTOREHOLDER_GET_STORE_OFFSET UNITYSDK_OFFSET(0x1C24BD00)
 
 namespace System
 {
@@ -16,10 +15,9 @@ namespace System
 	{
 	public:
 		::System::LocalDataStore* m_Store; // 0x10
-
 		::System::Void _ctor(::System::LocalDataStore* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStore*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREHOLDER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStore*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREHOLDER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -31,5 +29,6 @@ namespace System
 		{
 			return ((::System::LocalDataStore*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREHOLDER_GET_STORE_OFFSET))(this);
 		}
+
 	};
 }

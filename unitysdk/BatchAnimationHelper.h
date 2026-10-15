@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/BAVariantKey.h"
-
 namespace System { class String; }
 
-#define BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET UNITYSDK_OFFSET(0x19293370)
-#define BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET UNITYSDK_OFFSET(0x192933C0)
+#define BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET UNITYSDK_OFFSET(0x1CBB9490)
+#define BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET UNITYSDK_OFFSET(0x1CBB94E0)
 
-inline static constexpr unsigned int BatchAnimationHelper_TypeDefinitionIndex = 36789;
+inline static constexpr unsigned int BatchAnimationHelper_TypeDefinitionIndex = 37476;
 
-class BatchAnimationHelper : public ::System::Object
-{
-public:
-	static ::UnityEngine::Rendering::BAVariantKey CreateVariantKey(::System::String* a1)
+	class BatchAnimationHelper : public ::System::Object
 	{
-		return ((::UnityEngine::Rendering::BAVariantKey(*)(::System::String*))((::PBYTE)hIl2Cpp + BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET))(a1);
-	}
+	public:
+		static ::UnityEngine::Rendering::BAVariantKey CreateVariantKey(::System::String* a1)
+		{
+			return ((::UnityEngine::Rendering::BAVariantKey(*)(::System::String*))((::PBYTE)hIl2Cpp + BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET))(a1);
+		}
 
-	static ::System::Void CreateVariant(::UnityEngine::Rendering::BAVariantKey& a1, ::System::String* a2)
-	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BAVariantKey&, ::System::String*))((::PBYTE)hIl2Cpp + BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET))(a1, a2);
-	}
-};
+		static ::System::Void CreateVariant(::UnityEngine::Rendering::BAVariantKey a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::UnityEngine::Rendering::BAVariantKey, ::System::String*))((::PBYTE)hIl2Cpp + BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET))(a1, a2);
+		}
+
+	};

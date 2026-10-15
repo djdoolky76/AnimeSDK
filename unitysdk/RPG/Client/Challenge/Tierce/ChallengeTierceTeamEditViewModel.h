@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_06E38C65842C3B24;
-class Class_1_19DB14C0C5CFE108;
-class Class_1_7D46F1066EF90FA6_3;
-class Class_1_F963C9FA5FC80637;
-class Class_1_FA2301FC3580108A;
+class ACNNMGIJMFK;
+class CKCJOCJGHKC;
+class ENJKEDGCLJF;
+class FOMDMAGLLNI;
+class KNOOGHJPPBL;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceChallengeViewModel; }
@@ -20,40 +19,39 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C048D0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GETALLAVATARS_OFFSET UNITYSDK_OFFSET(0x18C050C0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GETTEAM_OFFSET UNITYSDK_OFFSET(0x18C04E50)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_CHALLENGE_OFFSET UNITYSDK_OFFSET(0x18C044A0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_COUNTOFTEAMSLOTS_OFFSET UNITYSDK_OFFSET(0x18C04610)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_COUNTOFTEAMS_OFFSET UNITYSDK_OFFSET(0x18C044B0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_FRIENDRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0x18C04670)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_HASBUFF_OFFSET UNITYSDK_OFFSET(0x18C04690)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_STATISTICSRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0x18C04680)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_SUBMITCHANGE_OFFSET UNITYSDK_OFFSET(0x18C05890)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_TRYSTARTCHALLENGE_OFFSET UNITYSDK_OFFSET(0x18C05710)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18C04720)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__EXPORTPLAN_OFFSET UNITYSDK_OFFSET(0x18C05190)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC9672B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC967460)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GETALLAVATARS_OFFSET UNITYSDK_OFFSET(0xC967C50)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GETTEAM_OFFSET UNITYSDK_OFFSET(0xC9679E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_CHALLENGE_OFFSET UNITYSDK_OFFSET(0xC967030)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_COUNTOFTEAMSLOTS_OFFSET UNITYSDK_OFFSET(0xC9671A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_COUNTOFTEAMS_OFFSET UNITYSDK_OFFSET(0xC967040)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_FRIENDRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0xC967200)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_HASBUFF_OFFSET UNITYSDK_OFFSET(0xC967220)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GET_STATISTICSRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0xC967210)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_SUBMITCHANGE_OFFSET UNITYSDK_OFFSET(0xC968420)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_TRYSTARTCHALLENGE_OFFSET UNITYSDK_OFFSET(0xC9682A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__EXPORTPLAN_OFFSET UNITYSDK_OFFSET(0xC967D20)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel_TypeDefinitionIndex = 80301;
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel_TypeDefinitionIndex = 81629;
 
 	class ChallengeTierceTeamEditViewModel : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChallengeGroupData* _GroupData; // 0x10
-		::Class_1_19DB14C0C5CFE108* _TeamConflictCheckService; // 0x18
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel* _StatisticsRecommendation_k__BackingField; // 0x20
-		::Class_1_06E38C65842C3B24* _Tierce; // 0x28
-		::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel* _FriendRecommendation_k__BackingField; // 0x30
-		::Class_1_FA2301FC3580108A* _PlayerReturnTrialAvatarService; // 0x38
-		::Class_1_7D46F1066EF90FA6_3* _ObtainedAvatarService; // 0x40
-		::RPG::Client::Challenge::Tierce::ChallengeTierceChallengeViewModel* _Challenge_k__BackingField; // 0x48
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel*>* _Teams; // 0x50
-
-		::System::Void _ctor(::Class_1_7D46F1066EF90FA6_3* a1, ::Class_1_19DB14C0C5CFE108* a2, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory* a3, ::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory* a4, ::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory* a5, ::Class_1_FA2301FC3580108A* a6, ::RPG::Client::ChallengeGroupData* a7, ::Class_1_06E38C65842C3B24* a8)
+		::ACNNMGIJMFK* _TeamConflictCheckService; // 0x10
+		::KNOOGHJPPBL* _ObtainedAvatarService; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel*>* _Teams; // 0x20
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel* _StatisticsRecommendation_k__BackingField; // 0x28
+		::RPG::Client::ChallengeGroupData* _GroupData; // 0x30
+		::RPG::Client::Challenge::Tierce::ChallengeTierceChallengeViewModel* _Challenge_k__BackingField; // 0x38
+		::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel* _FriendRecommendation_k__BackingField; // 0x40
+		::CKCJOCJGHKC* _Tierce; // 0x48
+		::ENJKEDGCLJF* _PlayerReturnTrialAvatarService; // 0x50
+		::System::Void _ctor(::KNOOGHJPPBL* a1, ::ACNNMGIJMFK* a2, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory* a3, ::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory* a4, ::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory* a5, ::ENJKEDGCLJF* a6, ::RPG::Client::ChallengeGroupData* a7, ::CKCJOCJGHKC* a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7D46F1066EF90FA6_3*, ::Class_1_19DB14C0C5CFE108*, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory*, ::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory*, ::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory*, ::Class_1_FA2301FC3580108A*, ::RPG::Client::ChallengeGroupData*, ::Class_1_06E38C65842C3B24*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::KNOOGHJPPBL*, ::ACNNMGIJMFK*, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory*, ::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory*, ::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory*, ::ENJKEDGCLJF*, ::RPG::Client::ChallengeGroupData*, ::CKCJOCJGHKC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::RPG::Client::Challenge::Tierce::ChallengeTierceChallengeViewModel* get_Challenge()
@@ -101,9 +99,9 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_GETALLAVATARS_OFFSET))(this);
 		}
 
-		::Class_1_F963C9FA5FC80637* _ExportPlan()
+		::FOMDMAGLLNI* _ExportPlan()
 		{
-			return ((::Class_1_F963C9FA5FC80637*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__EXPORTPLAN_OFFSET))(this);
+			return ((::FOMDMAGLLNI*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__EXPORTPLAN_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise_1<::System::Boolean>* TryStartChallenge()
@@ -115,5 +113,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_SUBMITCHANGE_OFFSET))(this);
 		}
+
 	};
 }

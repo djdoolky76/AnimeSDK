@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/PreviewSnapshot.h"
-
+namespace RPG::Client::ChenLingBattle { class ShopPreviewSnapshot; }
 namespace RPG::Client::ChenLingBattle { class ShopRefreshInfo; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_CREATESHOPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1CC33960)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x1CC339F0)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x1CC33A00)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC339E0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_CREATESHOPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xCA5ADD0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0xCA5AE50)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xCA5AE60)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xCA5AE70)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ShopPreviewSnapshot_TypeDefinitionIndex = 75820;
+	inline static constexpr unsigned int ShopPreviewSnapshot_TypeDefinitionIndex = 76297;
 
 	class ShopPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:
 		::RPG::Client::ChenLingBattle::ShopRefreshInfo* _PhaseInfo_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::ChenLingBattle::ShopRefreshInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::ShopRefreshInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::ShopRefreshInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::RPG::Client::ChenLingBattle::ShopPreviewSnapshot* CreateShopSnapshot(::System::Int32 a1, ::RPG::Client::ChenLingBattle::ShopRefreshInfo* a2)
@@ -37,5 +36,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ShopRefreshInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SHOPPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

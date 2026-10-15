@@ -5,26 +5,25 @@
 #include "unitysdk/HedgehogTeam/EasyTouch/QuickBase_GameObjectType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class CharacterController; }
 namespace UnityEngine { class Rigidbody2D; }
 namespace UnityEngine { class Rigidbody; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D166F80)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DISABLEDALLSWIPEEXCEPTED_OFFSET UNITYSDK_OFFSET(0x1D167EB0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DISABLEDQUICKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1D167D50)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DODIRECTACTION_OFFSET UNITYSDK_OFFSET(0x1D167740)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_ENABLEDQUICKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1D167BF0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_GETINFLUENCEDAXIS_OFFSET UNITYSDK_OFFSET(0x1D1676E0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D1676D0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D1676C0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_START_OFFSET UNITYSDK_OFFSET(0x1D1670C0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D168060)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x16741FC0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x167430A0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DISABLEDALLSWIPEEXCEPTED_OFFSET UNITYSDK_OFFSET(0x16742EF0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DISABLEDQUICKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16742D90)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DODIRECTACTION_OFFSET UNITYSDK_OFFSET(0x16742780)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_ENABLEDQUICKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16742C30)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_GETINFLUENCEDAXIS_OFFSET UNITYSDK_OFFSET(0x16742720)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16742710)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16742700)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_START_OFFSET UNITYSDK_OFFSET(0x16742100)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickBase_TypeDefinitionIndex = 38953;
+	inline static constexpr unsigned int QuickBase_TypeDefinitionIndex = 40250;
 
 	class QuickBase : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,21 +34,25 @@ namespace HedgehogTeam::EasyTouch
 		::System::Boolean isOnTouch; // 0x22
 		::System::Boolean enablePickOverUI; // 0x23
 		::System::Boolean resetPhysic; // 0x24
+		::System::Byte _padding0[0x3];
 		::HedgehogTeam::EasyTouch::QuickBase_DirectAction directAction; // 0x28
 		::HedgehogTeam::EasyTouch::QuickBase_AffectedAxesAction axesAction; // 0x2C
 		::System::Single sensibility; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::CharacterController* directCharacterController; // 0x38
 		::System::Boolean inverseAxisValue; // 0x40
+		::System::Byte _padding2[0x7];
 		::UnityEngine::Rigidbody* cachedRigidBody; // 0x48
 		::System::Boolean isKinematic; // 0x50
+		::System::Byte _padding3[0x7];
 		::UnityEngine::Rigidbody2D* cachedRigidBody2D; // 0x58
 		::System::Boolean isKinematic2D; // 0x60
+		::System::Byte _padding4[0x3];
 		::HedgehogTeam::EasyTouch::QuickBase_GameObjectType realType; // 0x64
 		::System::Int32 fingerIndex; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -96,5 +99,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKBASE_DISABLEDALLSWIPEEXCEPTED_OFFSET))(this, a1);
 		}
+
 	};
 }

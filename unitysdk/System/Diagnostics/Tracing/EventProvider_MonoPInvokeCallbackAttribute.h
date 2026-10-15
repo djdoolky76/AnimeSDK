@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Type; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB60FD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_MONOPINVOKECALLBACKATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B2F90)
 
 namespace System::Diagnostics::Tracing
 {
@@ -15,7 +14,8 @@ namespace System::Diagnostics::Tracing
 	public:
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_MONOPINVOKECALLBACKATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

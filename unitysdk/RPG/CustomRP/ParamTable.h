@@ -1,45 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace Newtonsoft::Json::Linq { class JObject; }
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CUSTOMRP_PARAMTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x3AE17C0)
-#define RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET UNITYSDK_OFFSET(0x3AE1860)
-#define RPG_CUSTOMRP_PARAMTABLE_DUMP_OFFSET UNITYSDK_OFFSET(0x3AE1820)
-#define RPG_CUSTOMRP_PARAMTABLE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x3AE1790)
-#define RPG_CUSTOMRP_PARAMTABLE_NEW_OFFSET UNITYSDK_OFFSET(0x18580900)
-#define RPG_CUSTOMRP_PARAMTABLE_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x3AE1830)
-#define RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET UNITYSDK_OFFSET(0x3AE1710)
-#define RPG_CUSTOMRP_PARAMTABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3AE1840)
-#define RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x3AE1780)
+#define RPG_CUSTOMRP_PARAMTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C35A50)
+#define RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET UNITYSDK_OFFSET(0x3C35AF0)
+#define RPG_CUSTOMRP_PARAMTABLE_DUMP_OFFSET UNITYSDK_OFFSET(0x3C35AB0)
+#define RPG_CUSTOMRP_PARAMTABLE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x3C35A20)
+#define RPG_CUSTOMRP_PARAMTABLE_NEW_OFFSET UNITYSDK_OFFSET(0x1CC091F0)
+#define RPG_CUSTOMRP_PARAMTABLE_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x3C35AC0)
+#define RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET UNITYSDK_OFFSET(0x3C359A0)
+#define RPG_CUSTOMRP_PARAMTABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C35AD0)
+#define RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x3C35A10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ParamTable_TypeDefinitionIndex = 37235;
+	inline static constexpr unsigned int ParamTable_TypeDefinitionIndex = 37928;
 
 	struct alignas(8) ParamTable
 	{
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _Params; // 0x10
-
+		/*
 		static ::RPG::CustomRP::ParamTable New()
 		{
 			return ((::RPG::CustomRP::ParamTable(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_NEW_OFFSET))();
 		}
+		*/
 
 		::System::Void SetParam(::System::String* a1, ::System::Object* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET))(this, a1, a2);
 		}
 
+		/*
 		::System::Void Update(::RPG::CustomRP::ParamTable a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean get_Empty()
 		{
@@ -66,9 +67,12 @@ namespace RPG::CustomRP
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void Diff(::RPG::CustomRP::ParamTable& a1, ::RPG::CustomRP::ParamTable& a2, ::RPG::CustomRP::ParamTable& a3)
+		/*
+		::System::Void Diff(::RPG::CustomRP::ParamTable a1, ::RPG::CustomRP::ParamTable a2, ::RPG::CustomRP::ParamTable a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable&, ::RPG::CustomRP::ParamTable&, ::RPG::CustomRP::ParamTable&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable, ::RPG::CustomRP::ParamTable, ::RPG::CustomRP::ParamTable))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET))(this, a1, a2, a3);
 		}
+		*/
+
 	};
 }

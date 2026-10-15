@@ -3,12 +3,12 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkType_TypeDefinitionIndex = 38731;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkType_TypeDefinitionIndex = 40028;
 
 	enum class CriAtomExAcf_AcfDspBusLinkType : ::System::UInt32
 	{
-		preVolume = 0x0,
-		postVolume = 0x1,
-		postPan = 0x2,
+		preVolume = 0,
+		postVolume = 1,
+		postPan = 2,
 	};
 }

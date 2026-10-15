@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ExecuteGameCenterCallbacks_TypeDefinitionIndex = 4661;
+	inline static constexpr unsigned int PostLateUpdate_ExecuteGameCenterCallbacks_TypeDefinitionIndex = 4665;
 
-	struct alignas(1) PostLateUpdate_ExecuteGameCenterCallbacks
+	struct alignas(4) PostLateUpdate_ExecuteGameCenterCallbacks
 	{
 	};
 }

@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SimpleTalkListConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayRandomMissionTalk; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PLAYRANDOMMISSIONTALK_METHOD_4_747B777F9B29D41A_OFFSET UNITYSDK_OFFSET(0x1D7A75D0)
-#define RPG_GAMECORE_PLAYRANDOMMISSIONTALK_METHOD_4_D4AC7F19D67FA34D_OFFSET UNITYSDK_OFFSET(0x1D7A7610)
-#define RPG_GAMECORE_PLAYRANDOMMISSIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A7600)
+#define RPG_GAMECORE_PLAYRANDOMMISSIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D902EC0)
+#define RPG_GAMECORE_PLAYRANDOMMISSIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D902ED0)
+#define RPG_GAMECORE_PLAYRANDOMMISSIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D902E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayRandomMissionTalk_TypeDefinitionIndex = 23181;
+	inline static constexpr unsigned int PlayRandomMissionTalk_TypeDefinitionIndex = 23446;
 
 	class PlayRandomMissionTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{
 	public:
 		::System::Single CD; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYRANDOMMISSIONTALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYRANDOMMISSIONTALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_747B777F9B29D41A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayRandomMissionTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayRandomMissionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayRandomMissionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYRANDOMMISSIONTALK_METHOD_4_747B777F9B29D41A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayRandomMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYRANDOMMISSIONTALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D4AC7F19D67FA34D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayRandomMissionTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayRandomMissionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayRandomMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYRANDOMMISSIONTALK_METHOD_4_D4AC7F19D67FA34D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayRandomMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYRANDOMMISSIONTALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

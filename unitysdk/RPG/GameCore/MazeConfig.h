@@ -5,8 +5,7 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PropType.h"
 #include "unitysdk/RPG/MVector2.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureBehaviorConfig; }
 namespace RPG::GameCore { class BattleAffectRangeConfig; }
 namespace RPG::GameCore { class HoyoGroupCommonConfig; }
@@ -14,6 +13,7 @@ namespace RPG::GameCore { class MazeBattleTransitionClientConfig; }
 namespace RPG::GameCore { class MazeBattleTransitionConfig; }
 namespace RPG::GameCore { class MazeCharacterMoveConfig; }
 namespace RPG::GameCore { class MazeCharacterTeleportConfig; }
+namespace RPG::GameCore { class MazeConfig; }
 namespace RPG::GameCore { class MazeDragCameraConfig; }
 namespace RPG::GameCore { class MazeFreelookDragCameraConfig; }
 namespace RPG::GameCore { class MazeResetMonsterConfig; }
@@ -24,12 +24,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D277290)
-#define RPG_GAMECORE_MAZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D277E00)
+#define RPG_GAMECORE_MAZECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D837650)
+#define RPG_GAMECORE_MAZECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D836AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeConfig_TypeDefinitionIndex = 17413;
+	inline static constexpr unsigned int MazeConfig_TypeDefinitionIndex = 17625;
 
 	class MazeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -41,20 +41,24 @@ namespace RPG::GameCore
 		::RPG::GameCore::MazeCharacterMoveConfig* MazeCharacterMove; // 0x30
 		::RPG::GameCore::MazeCharacterTeleportConfig* CharacterTeleport; // 0x38
 		::System::Boolean IsOpenPlayerRush; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single BuffUICountDown; // 0x44
 		::Il2CppArray<::RPG::GameCore::PropType>* UnstableToStepOnPropTypes; // 0x48
 		::Il2CppArray<::RPG::GameCore::PropType>* UnableToInteractPropTypesInDanger; // 0x50
 		::System::Boolean IsShowSKillPanelInTown; // 0x58
+		::System::Byte _padding1[0x3];
 		::System::Single MazePlayerMapZoneScale; // 0x5C
 		::System::Single MazePlayerMapZoneScaleInRunning; // 0x60
 		::System::Single MazePlayerMapZoneScaleRecoverSpeed; // 0x64
 		::System::Single MazePlayerMapZoneScaleInRunningRecoverSpeed; // 0x68
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::PedestrianConfig* Pedestrian; // 0x70
 		::RPG::GameCore::NPCMonsterWarningConfigClass* MonsterWarningConfig; // 0x78
 		::Il2CppArray<::System::Single>* WeakPointParaByMonsterRank; // 0x80
 		::System::UInt32 WeakPointDisplayCount; // 0x88
 		::System::Single TeamDataRefreshDelayAfterEnterMaze; // 0x8C
 		::System::Single MazeMPRecoverDelayAfterBattle; // 0x90
+		::System::Byte _padding3[0x4];
 		::System::String* MazeMPRecoverEffectPath; // 0x98
 		::System::String* MazeHPRecoverEffectPath; // 0xA0
 		::Il2CppArray<::System::UInt32>* SpecialVisionStencilRefList; // 0xA8
@@ -67,22 +71,25 @@ namespace RPG::GameCore
 		::RPG::GameCore::MazeDragCameraConfig* MazeDragCameraConfig; // 0xD8
 		::RPG::GameCore::MazeFreelookDragCameraConfig* MazeDrag3CCameraConfig; // 0xE0
 		::System::Single AdventureMaxSpeed; // 0xE8
+		::System::Byte _padding4[0x4];
 		::RPG::GameCore::MazeResetMonsterConfig* ResetMonsterConfig; // 0xF0
 		::System::Single MaxMovementSpeed; // 0xF8
+		::System::Byte _padding5[0x4];
 		::Il2CppArray<::RPG::MVector2>* TeleportCheckPoints; // 0x100
 		::System::Boolean TryFixBattleAreaSwitchStuck1; // 0x108
 		::System::Boolean TryFixBattleAreaSwitchStuck2; // 0x109
 		::System::Boolean MazeBuffUIRefreshAll; // 0x10A
+		::System::Byte _padding6[0x5];
 		::RPG::GameCore::HoyoGroupCommonConfig* GroupCommonConfig; // 0x110
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MazeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MazeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

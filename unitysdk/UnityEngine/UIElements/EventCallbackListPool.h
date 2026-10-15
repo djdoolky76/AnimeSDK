@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::UIElements { class EventCallbackList; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1D60CF10)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1D60D050)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60D100)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F484700)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1F484510)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F484650)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 5927;
+	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 5935;
 
 	class EventCallbackListPool : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* m_Stack; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* a1)
@@ -32,5 +30,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventCallbackList*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET))(this, a1);
 		}
+
 	};
 }

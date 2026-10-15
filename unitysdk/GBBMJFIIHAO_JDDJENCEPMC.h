@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define GBBMJFIIHAO_JDDJENCEPMC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1593FC40)
+#define GBBMJFIIHAO_JDDJENCEPMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1593FBD0)
+#define GBBMJFIIHAO_JDDJENCEPMC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1593FC90)
+#define GBBMJFIIHAO_JDDJENCEPMC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1593FB90)
+
+inline static constexpr unsigned int GBBMJFIIHAO_JDDJENCEPMC_TypeDefinitionIndex = 54028;
+
+	class GBBMJFIIHAO_JDDJENCEPMC : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + GBBMJFIIHAO_JDDJENCEPMC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Invoke(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + GBBMJFIIHAO_JDDJENCEPMC_INVOKE_OFFSET))(this, a1);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::FixPoint a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::FixPoint, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + GBBMJFIIHAO_JDDJENCEPMC_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void EndInvoke(::RPG::GameCore::FixPoint a1, ::System::IAsyncResult* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + GBBMJFIIHAO_JDDJENCEPMC_ENDINVOKE_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Object; }
 namespace System { class String; }
+namespace System::ComponentModel { class DefaultPropertyAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C498070)
-#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C4980F0)
-#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C498060)
-#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C498100)
-#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C498050)
+#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFB78B0)
+#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB7800)
+#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFB7820)
+#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFB78A0)
+#define SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EFB7810)
 
 namespace System::ComponentModel
 {
@@ -18,20 +18,20 @@ namespace System::ComponentModel
 	class DefaultPropertyAttribute : public ::System::Attribute
 	{
 	public:
+		::System::String* name; // 0x10
 		static ::System::ComponentModel::DefaultPropertyAttribute** StaticGet_Default()
 		{
-			return (::System::ComponentModel::DefaultPropertyAttribute**)Il2CppClass::FromTypeDefinitionIndex(DefaultPropertyAttribute_TypeDefinitionIndex)->GetStaticField(0x32D40);
+			return (::System::ComponentModel::DefaultPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "DefaultPropertyAttribute")->GetStaticField(0x2B3F0);
 		}
-		::System::String* name; // 0x10
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_CCTOR_OFFSET))();
 		}
 
 		::System::String* get_Name()
@@ -48,5 +48,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DEFAULTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

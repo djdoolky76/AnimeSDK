@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class DestroySummonUnit; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define OMPJFOPDIPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF42640)
+#define OMPJFOPDIPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF42670)
+
+inline static constexpr unsigned int OMPJFOPDIPP_TypeDefinitionIndex = 58079;
+
+	class OMPJFOPDIPP
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DestroySummonUnit* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DestroySummonUnit*))((::PBYTE)hIl2Cpp + OMPJFOPDIPP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMPJFOPDIPP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

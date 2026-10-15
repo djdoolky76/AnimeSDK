@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace UnityEngine { class Collider; }
+
+#define PDHLJJCMEDJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x26970)
+#define PDHLJJCMEDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x26930)
+
+inline static constexpr unsigned int PDHLJJCMEDJ_TypeDefinitionIndex = 71111;
+
+	struct alignas(8) PDHLJJCMEDJ
+	{
+		::RPG::GameCore::GameEntity* CKLPGEPGCMJ; // 0x10
+		::UnityEngine::Collider* IFGJPKOKNIA; // 0x18
+		::UnityEngine::Vector3 OCHGICLKACD; // 0x20
+		::System::UInt32 DDCGEBOHHPB; // 0x2C
+		::System::Int32 DJPGKCGAECB; // 0x30
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Collider* a2, ::UnityEngine::Vector3 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Collider*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + PDHLJJCMEDJ_CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void _ctor_1(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Collider* a2, ::UnityEngine::Vector3 a3, ::System::UInt32 a4, ::System::Int32 a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Collider*, ::UnityEngine::Vector3, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + PDHLJJCMEDJ_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+	};

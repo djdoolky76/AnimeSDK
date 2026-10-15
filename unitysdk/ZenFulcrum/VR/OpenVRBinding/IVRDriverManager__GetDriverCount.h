@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED7170)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED71A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED7160)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED70F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6516F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F651670)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F651720)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6516E0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRDriverManager__GetDriverCount_TypeDefinitionIndex = 37890;
+	inline static constexpr unsigned int IVRDriverManager__GetDriverCount_TypeDefinitionIndex = 39187;
 
 	class IVRDriverManager__GetDriverCount : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRDRIVERMANAGER__GETDRIVERCOUNT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

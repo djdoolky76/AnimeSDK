@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AKRESULT.h"
 #include "unitysdk/AkBankManager_BankHandle.h"
-
 namespace System { class String; }
 
-#define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1D586660)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1D586B60)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5853F0)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F54D5B0)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F54E820)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F54ED20)
 
-inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 43628;
+inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 44820;
 
-class AkBankManager_DecodableBankHandle : public ::AkBankManager_BankHandle
-{
-public:
-	::System::String* decodedBankPath; // 0x20
-	::System::Boolean decodeBank; // 0x28
-	::System::Boolean saveDecodedBank; // 0x29
-
-	::System::Void _ctor(::System::String* a1, ::System::Boolean a2)
+	class AkBankManager_DecodableBankHandle : public ::AkBankManager_BankHandle
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET))(this, a1, a2);
-	}
+	public:
+		::System::String* decodedBankPath; // 0x20
+		::System::Boolean decodeBank; // 0x28
+		::System::Boolean saveDecodedBank; // 0x29
+		::System::Void _ctor(::System::String* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE_CTOR_OFFSET))(this, a1, a2);
+		}
 
-	::AKRESULT DoLoadBank()
-	{
-		return ((::AKRESULT(*)(::PVOID))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET))(this);
-	}
+		::AKRESULT DoLoadBank()
+		{
+			return ((::AKRESULT(*)(::PVOID))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET))(this);
+		}
 
-	::System::Void UnloadBank()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET))(this);
-	}
-};
+		::System::Void UnloadBank()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET))(this);
+		}
+
+	};

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightParamGetDeathRoleNumInBattleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_METHOD_6_65BA7FA2A2B463F4_OFFSET UNITYSDK_OFFSET(0x1EE71590)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_METHOD_6_70FE41BC0F75EDF0_OFFSET UNITYSDK_OFFSET(0x1EE715E0)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE715D0)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70A560)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D70A570)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70A520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightParamGetDeathRoleNumInBattleConfig_TypeDefinitionIndex = 19299;
+	inline static constexpr unsigned int GridFightParamGetDeathRoleNumInBattleConfig_TypeDefinitionIndex = 19529;
 
 	class GridFightParamGetDeathRoleNumInBattleConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_65BA7FA2A2B463F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_METHOD_6_65BA7FA2A2B463F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_70FE41BC0F75EDF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_METHOD_6_70FE41BC0F75EDF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetDeathRoleNumInBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETDEATHROLENUMINBATTLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

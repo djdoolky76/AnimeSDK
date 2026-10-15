@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IntervalTree_1_Entry_TypeDefinitionIndex = 37524;
+	inline static constexpr unsigned int IntervalTree_1_Entry_TypeDefinitionIndex = 38821;
 
 	template <typename T>
-	struct IntervalTree_1_Entry
+	struct alignas(8) IntervalTree_1_Entry
 	{
 		::System::Int64 intervalStart; // 0x0
 		::System::Int64 intervalEnd; // 0x0

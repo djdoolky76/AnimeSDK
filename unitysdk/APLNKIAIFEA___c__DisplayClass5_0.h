@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class APLNKIAIFEA;
+class GIDPDEJAAED;
+class MONJFDPKFBA;
+namespace RPG::Client::Promises { class IPromise; }
+
+#define APLNKIAIFEA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA68E0)
+#define APLNKIAIFEA___C__DISPLAYCLASS5_0__DIRECTACQUIREPARTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15BA87F0)
+
+inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass5_0_TypeDefinitionIndex = 81814;
+
+	class APLNKIAIFEA___c__DisplayClass5_0 : public ::System::Object
+	{
+	public:
+		::APLNKIAIFEA* __4__this; // 0x10
+		::MONJFDPKFBA* carBeforeDevelop; // 0x18
+		::System::UInt32 partID; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + APLNKIAIFEA___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::Promises::IPromise* _DirectAcquirePartAsync_b__0(::GIDPDEJAAED* a1)
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GIDPDEJAAED*))((::PBYTE)hIl2Cpp + APLNKIAIFEA___C__DISPLAYCLASS5_0__DIRECTACQUIREPARTASYNC_B__0_OFFSET))(this, a1);
+		}
+
+	};

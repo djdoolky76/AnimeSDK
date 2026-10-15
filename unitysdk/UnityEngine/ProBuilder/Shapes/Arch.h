@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ProBuilder/Shapes/Shape.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
+namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1922C2E0)
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_GETFACE_OFFSET UNITYSDK_OFFSET(0x1922C370)
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1922C420)
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1922D600)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F24A5F0)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24B910)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_GETFACE_OFFSET UNITYSDK_OFFSET(0x1F24A680)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F24A730)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Arch_TypeDefinitionIndex = 43266;
+	inline static constexpr unsigned int Arch_TypeDefinitionIndex = 44458;
 
 	class Arch : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Boolean m_EndCaps; // 0x10
-		::System::Boolean m_Smooth; // 0x11
-		::System::Single m_ArchDegrees; // 0x14
-		::System::Int32 m_NumberOfSides; // 0x18
-		::System::Single m_Thickness; // 0x1C
-
+		::System::Single m_Thickness; // 0x10
+		::System::Int32 m_NumberOfSides; // 0x14
+		::System::Boolean m_Smooth; // 0x18
+		::System::Boolean m_EndCaps; // 0x19
+		::System::Byte _padding0[0x2];
+		::System::Single m_ArchDegrees; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_ARCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_ARCH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* a1)
@@ -45,5 +45,6 @@ namespace UnityEngine::ProBuilder::Shapes
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_ARCH_REBUILDMESH_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

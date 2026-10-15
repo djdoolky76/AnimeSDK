@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class LevelDirector; }
 
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0x194F7780)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP__CTOR_OFFSET UNITYSDK_OFFSET(0x194F6F50)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_CTOR_OFFSET UNITYSDK_OFFSET(0xD3874D0)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0xD387D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelDirector_LevelFrameBlendingEndOP_TypeDefinitionIndex = 59449;
+	inline static constexpr unsigned int LevelDirector_LevelFrameBlendingEndOP_TypeDefinitionIndex = 59304;
 
 	class LevelDirector_LevelFrameBlendingEndOP : public ::System::Object
 	{
 	public:
 		::RPG::Client::LevelDirector* _LevelDirector; // 0x10
-
 		::System::Void _ctor(::RPG::Client::LevelDirector* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LevelDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LevelDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBlendingEnd()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_ONBLENDINGEND_OFFSET))(this);
 		}
+
 	};
 }

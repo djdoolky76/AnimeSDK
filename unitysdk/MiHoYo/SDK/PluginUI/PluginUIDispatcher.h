@@ -1,41 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PluginUI/IPluginUIService.h"
-
 namespace MiHoYo::SDK::PluginUI { class IPluginUIService_ShowPluginUITask; }
+namespace MiHoYo::SDK::PluginUI { class PluginUIDispatcher; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x19E85BC0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E85DB0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x19E85E90)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x19E868F0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E86980)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E85B30)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF5EC70)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5DE20)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BF5DEB0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF5E0A0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x1BF5E180)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1BF5EBE0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIDispatcher_TypeDefinitionIndex = 9088;
+	inline static constexpr unsigned int PluginUIDispatcher_TypeDefinitionIndex = 9149;
 
 	class PluginUIDispatcher : public ::MiHoYo::SDK::PluginUI::IPluginUIService
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* m_dicPluginUIName2ShowTask; // 0x18
 		static ::MiHoYo::SDK::PluginUI::PluginUIDispatcher** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIDispatcher**)Il2CppClass::FromTypeDefinitionIndex(PluginUIDispatcher_TypeDefinitionIndex)->GetStaticField(0x19C50);
+			return (::MiHoYo::SDK::PluginUI::PluginUIDispatcher**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "PluginUIDispatcher")->GetStaticField(0x22550);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PluginUI::IPluginUIService_ShowPluginUITask*>* m_dicPluginUIName2ShowTask; // 0x18
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CCTOR_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::PluginUI::PluginUIDispatcher* GetInstance()
@@ -57,5 +58,6 @@ namespace MiHoYo::SDK::PluginUI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PluginUI::IPluginUIService_ShowPluginUITask*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

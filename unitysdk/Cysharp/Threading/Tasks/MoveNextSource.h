@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1D751850)
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1D751720)
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1D751730)
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1D7517E0)
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_TRYGETRESULT_OFFSET UNITYSDK_OFFSET(0x1D751860)
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1D751800)
-#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7518E0)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F35D0)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F0F3540)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F0F3410)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F0F3420)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F0F34D0)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_TRYGETRESULT_1_OFFSET UNITYSDK_OFFSET(0x1F0F3550)
+#define CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F0F34F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int MoveNextSource_TypeDefinitionIndex = 42589;
+	inline static constexpr unsigned int MoveNextSource_TypeDefinitionIndex = 38174;
 
 	class MoveNextSource : public ::System::Object
 	{
 	public:
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Boolean> completionSource; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_MOVENEXTSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean GetResult(::System::Int16 a1)
@@ -55,9 +53,10 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetResult(::Cysharp::Threading::Tasks::UniTask_Awaiter a1)
+		::System::Boolean TryGetResult_1(::Cysharp::Threading::Tasks::UniTask_Awaiter a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTask_Awaiter))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_TRYGETRESULT_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTask_Awaiter))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_MOVENEXTSOURCE_TRYGETRESULT_1_OFFSET))(this, a1);
 		}
+
 	};
 }

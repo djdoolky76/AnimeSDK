@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4AD80)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4ADF0)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4AD70)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4AD00)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1671C080)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1671C000)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1671C0F0)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1671C070)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_SubtitleCallbackFromNativeDelegate_TypeDefinitionIndex = 38928;
+	inline static constexpr unsigned int Player_SubtitleCallbackFromNativeDelegate_TypeDefinitionIndex = 40225;
 
 	class Player_SubtitleCallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::IntPtr a2)
@@ -37,5 +36,6 @@ namespace CriWare::CriMana
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

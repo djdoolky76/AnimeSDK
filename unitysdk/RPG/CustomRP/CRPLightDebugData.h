@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CRPLightType.h"
 #include "unitysdk/RPG/CustomRP/LightFeature.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LightType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::CustomRP { class CustomAdditionalLightData; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLightDebugData_TypeDefinitionIndex = 36883;
+	inline static constexpr unsigned int CRPLightDebugData_TypeDefinitionIndex = 37568;
 
 	struct alignas(8) CRPLightDebugData
 	{

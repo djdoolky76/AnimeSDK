@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class KFELGAIGHAP;
+namespace RPG::GameCore { class CreateBattleEvent; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class StageRow; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { template <typename T> class Action_1; }
+
+#define NAPIKMAGDDI_BEHAHFONDGP_OFFSET UNITYSDK_OFFSET(0xBAB2040)
+#define NAPIKMAGDDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB1B70)
+#define NAPIKMAGDDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAB2820)
+#define NAPIKMAGDDI_HDCJDAIAHNM_OFFSET UNITYSDK_OFFSET(0xBAB2610)
+#define NAPIKMAGDDI_JKJMOGBMCCH_OFFSET UNITYSDK_OFFSET(0xBAB1E30)
+#define NAPIKMAGDDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB1CC0)
+
+inline static constexpr unsigned int NAPIKMAGDDI_TypeDefinitionIndex = 58043;
+
+	class NAPIKMAGDDI
+	{
+	public:
+		::System::Action_1<::RPG::GameCore::GameEntity*>* PBIFNCNBJAG; // 0x28
+		::KFELGAIGHAP* ELCJBKPAMMH; // 0x30
+		::KFELGAIGHAP* PPCPGFGKEHN; // 0x38
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateBattleEvent* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CreateBattleEvent*))((::PBYTE)hIl2Cpp + NAPIKMAGDDI_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPIKMAGDDI_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* BEHAHFONDGP(::System::UInt32 a1, ::RPG::GameCore::StageRow* a2)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::StageRow*))((::PBYTE)hIl2Cpp + NAPIKMAGDDI_BEHAHFONDGP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void JKJMOGBMCCH(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + NAPIKMAGDDI_JKJMOGBMCCH_OFFSET))(this, a1);
+		}
+
+		::System::Void HDCJDAIAHNM(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + NAPIKMAGDDI_HDCJDAIAHNM_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPIKMAGDDI_DISPOSE_OFFSET))(this);
+		}
+
+	};

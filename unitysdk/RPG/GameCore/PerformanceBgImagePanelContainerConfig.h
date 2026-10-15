@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceBgEffectFrameConfig; }
 namespace RPG::GameCore { class PerformanceBgImagePanelConfig; }
+namespace RPG::GameCore { class PerformanceBgImagePanelContainerConfig; }
 
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_METHOD_2_284E17B4B55C2F75_OFFSET UNITYSDK_OFFSET(0x1D41CE80)
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41CFB0)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C9A80)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C9950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceBgImagePanelContainerConfig_TypeDefinitionIndex = 18821;
+	inline static constexpr unsigned int PerformanceBgImagePanelContainerConfig_TypeDefinitionIndex = 19045;
 
 	class PerformanceBgImagePanelContainerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::PerformanceBgImagePanelConfig*>* PanelConfigs; // 0x10
 		::Il2CppArray<::RPG::GameCore::PerformanceBgEffectFrameConfig*>* EffectFrameConfigs; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_284E17B4B55C2F75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceBgImagePanelContainerConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PerformanceBgImagePanelContainerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceBgImagePanelContainerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_METHOD_2_284E17B4B55C2F75_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PerformanceBgImagePanelContainerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

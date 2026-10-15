@@ -1,48 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetSeqOperation; }
+namespace RPG::GameCore { class TargetSortSequence; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_2FF606840276CCDE_OFFSET UNITYSDK_OFFSET(0x1E1C5340)
-#define RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_79FCE1B26DC2F0B6_OFFSET UNITYSDK_OFFSET(0x1E1C5240)
-#define RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_D0DC364474FED5F4_OFFSET UNITYSDK_OFFSET(0x1E1C52F0)
-#define RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_D640436D2B6EE6FC_OFFSET UNITYSDK_OFFSET(0x1E1C51E0)
-#define RPG_GAMECORE_TARGETSORTSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C5230)
+#define RPG_GAMECORE_TARGETSORTSEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB46630)
+#define RPG_GAMECORE_TARGETSORTSEQUENCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB46740)
+#define RPG_GAMECORE_TARGETSORTSEQUENCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB466F0)
+#define RPG_GAMECORE_TARGETSORTSEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB46640)
+#define RPG_GAMECORE_TARGETSORTSEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB465E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortSequence_TypeDefinitionIndex = 23704;
+	inline static constexpr unsigned int TargetSortSequence_TypeDefinitionIndex = 23978;
 
 	class TargetSortSequence : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TargetSeqOperation*>* SortSequence; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D640436D2B6EE6FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortSequence*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortSequence* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_D640436D2B6EE6FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_79FCE1B26DC2F0B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortSequence* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortSequence* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_79FCE1B26DC2F0B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D0DC364474FED5F4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortSequence*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortSequence* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_D0DC364474FED5F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2FF606840276CCDE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortSequence* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortSequence* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_METHOD_3_2FF606840276CCDE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTSEQUENCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

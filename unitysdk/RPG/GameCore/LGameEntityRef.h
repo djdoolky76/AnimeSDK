@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LGameEntityRef; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LGAMEENTITYREF_METHOD_2_5472FF12F81F7231_OFFSET UNITYSDK_OFFSET(0x1C10A940)
-#define RPG_GAMECORE_LGAMEENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C10AA80)
+#define RPG_GAMECORE_LGAMEENTITYREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D775800)
+#define RPG_GAMECORE_LGAMEENTITYREF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7756C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LGameEntityRef_TypeDefinitionIndex = 18676;
+	inline static constexpr unsigned int LGameEntityRef_TypeDefinitionIndex = 18898;
 
 	class LGameEntityRef : public ::RPG::GameCore::JsonConfig
 	{
@@ -17,15 +17,15 @@ namespace RPG::GameCore
 		::System::UInt32 GroupID; // 0x10
 		::System::UInt32 ContainerID; // 0x14
 		::System::UInt32 EntityID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LGAMEENTITYREF__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LGAMEENTITYREF_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5472FF12F81F7231(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LGameEntityRef*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LGameEntityRef* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LGameEntityRef*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LGAMEENTITYREF_METHOD_2_5472FF12F81F7231_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LGameEntityRef*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LGAMEENTITYREF_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

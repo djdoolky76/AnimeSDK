@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_PINNEDLISTIMPL_LISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE434F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_PINNEDLISTIMPL_LISTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14F190)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int PinnedListImpl_ListData_TypeDefinitionIndex = 44706;
+	inline static constexpr unsigned int PinnedListImpl_ListData_TypeDefinitionIndex = 45845;
 
 	class PinnedListImpl_ListData : public ::System::Object
 	{
 	public:
 		::System::Object* items; // 0x10
 		::System::Int32 size; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_PINNEDLISTIMPL_LISTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_PINNEDLISTIMPL_LISTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

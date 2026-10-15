@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C799A60)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C799B00)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7812A0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7999F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C847EA0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C847E30)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C847F40)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C82F7F0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2CustomFilterFcn_TypeDefinitionIndex = 35960;
+	inline static constexpr unsigned int b2CustomFilterFcn_TypeDefinitionIndex = 36647;
 
 	class b2CustomFilterFcn : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId a2, ::System::Object* a3)
@@ -38,5 +37,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CUSTOMFILTERFCN_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

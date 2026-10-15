@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class RogueTournDifficultyCompData; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournDifficultyWithDifficultyComp_TypeDefinitionIndex = 67576;
+	inline static constexpr unsigned int IRogueTournDifficultyWithDifficultyComp_TypeDefinitionIndex = 67578;
 
 	class IRogueTournDifficultyWithDifficultyComp
 	{

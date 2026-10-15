@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/ExpressionType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_ExtensionInfo_TypeDefinitionIndex = 3191;
+	inline static constexpr unsigned int Expression_ExtensionInfo_TypeDefinitionIndex = 3192;
 
 	class Expression_ExtensionInfo : public ::System::Object
 	{

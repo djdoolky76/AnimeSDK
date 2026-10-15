@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 

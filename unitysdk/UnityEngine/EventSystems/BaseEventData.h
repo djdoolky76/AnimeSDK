@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/AbstractEventData.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class BaseInputModule; }
 namespace UnityEngine::EventSystems { class EventSystem; }
 
-#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_GET_CURRENTINPUTMODULE_OFFSET UNITYSDK_OFFSET(0x1B764F50)
-#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_GET_SELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1B764F70)
-#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_SET_SELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1B764F90)
-#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B764F40)
+#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A0880)
+#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_GET_CURRENTINPUTMODULE_OFFSET UNITYSDK_OFFSET(0x1F4A0890)
+#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_GET_SELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4A08B0)
+#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_SET_SELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4A08D0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int BaseEventData_TypeDefinitionIndex = 6896;
+	inline static constexpr unsigned int BaseEventData_TypeDefinitionIndex = 6905;
 
 	class BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData
 	{
 	public:
 		::UnityEngine::EventSystems::EventSystem* m_EventSystem; // 0x18
-
 		::System::Void _ctor(::UnityEngine::EventSystems::EventSystem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::EventSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::EventSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::EventSystems::BaseInputModule* get_currentInputModule()
@@ -39,5 +37,6 @@ namespace UnityEngine::EventSystems
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_SET_SELECTEDOBJECT_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace UnityEngine::EventSystems { class BaseEventData; }
-
-#define UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_TRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B768C40)
+#define UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_TRIGGEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A4500)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int EventTrigger_TriggerEvent_TypeDefinitionIndex = 6922;
+	inline static constexpr unsigned int EventTrigger_TriggerEvent_TypeDefinitionIndex = 6931;
 
-	class EventTrigger_TriggerEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::BaseEventData*>
+	class EventTrigger_TriggerEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_TRIGGEREVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_TRIGGEREVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

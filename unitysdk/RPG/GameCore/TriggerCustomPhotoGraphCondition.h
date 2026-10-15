@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerCustomPhotoGraphCondition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_2091F1A9B473AE55_OFFSET UNITYSDK_OFFSET(0x1D549B40)
-#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_75232C7FF086FA78_OFFSET UNITYSDK_OFFSET(0x1D549B80)
-#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D549B70)
+#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC17DA0)
+#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC17DB0)
+#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC17D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCustomPhotoGraphCondition_TypeDefinitionIndex = 21387;
+	inline static constexpr unsigned int TriggerCustomPhotoGraphCondition_TypeDefinitionIndex = 21633;
 
 	class TriggerCustomPhotoGraphCondition : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,20 +19,20 @@ namespace RPG::GameCore
 		::System::String* PhotoGraphName; // 0x18
 		::System::String* CustomEvent; // 0x20
 		::System::Boolean Enable; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2091F1A9B473AE55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_2091F1A9B473AE55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_75232C7FF086FA78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_75232C7FF086FA78_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

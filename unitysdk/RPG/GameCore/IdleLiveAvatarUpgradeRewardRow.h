@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/IdleLiveTeamSlotLevelUpRewardType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class IdleLiveAvatarUpgradeRewardRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20DE90)
-#define RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20DFD0)
+#define RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74AC10)
+#define RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74AAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarUpgradeRewardRow_TypeDefinitionIndex = 11695;
+	inline static constexpr unsigned int IdleLiveAvatarUpgradeRewardRow_TypeDefinitionIndex = 11718;
 
 	class IdleLiveAvatarUpgradeRewardRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::IdleLiveTeamSlotLevelUpRewardType Type; // 0x10
-		::System::UInt32 Level; // 0x14
+		::System::UInt32 Level; // 0x10
+		::RPG::GameCore::IdleLiveTeamSlotLevelUpRewardType Type; // 0x14
 		::System::UInt32 RewardID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAVATARUPGRADEREWARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

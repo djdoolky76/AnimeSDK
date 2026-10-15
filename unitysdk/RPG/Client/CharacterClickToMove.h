@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+class FOOIINCDBFA;
 
-class Class_2_A0580152EB393340;
-
-#define RPG_CLIENT_CHARACTERCLICKTOMOVE_START_OFFSET UNITYSDK_OFFSET(0x1AD76E90)
-#define RPG_CLIENT_CHARACTERCLICKTOMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD76F90)
-#define RPG_CLIENT_CHARACTERCLICKTOMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD77360)
+#define RPG_CLIENT_CHARACTERCLICKTOMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0xC9BEE10)
+#define RPG_CLIENT_CHARACTERCLICKTOMOVE_START_OFFSET UNITYSDK_OFFSET(0xC9BE940)
+#define RPG_CLIENT_CHARACTERCLICKTOMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC9BEA40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterClickToMove_TypeDefinitionIndex = 68348;
+	inline static constexpr unsigned int CharacterClickToMove_TypeDefinitionIndex = 68381;
 
 	class CharacterClickToMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_2_A0580152EB393340* GHKHOIPCAHO; // 0x18
-
+		::FOOIINCDBFA* GHKHOIPCAHO; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERCLICKTOMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERCLICKTOMOVE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -31,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERCLICKTOMOVE_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

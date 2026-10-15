@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_0812913C2F0E10CD;
+class GCMCEDELOJL;
 namespace RPG::Client { class GridFightGridMember; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR_GETSELECTORTARGET_OFFSET UNITYSDK_OFFSET(0x1BD2C6F0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR__COMPAREROLE_OFFSET UNITYSDK_OFFSET(0x1BD3A420)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD2DC20)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD115F40)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR_GETSELECTORTARGET_OFFSET UNITYSDK_OFFSET(0xD114C60)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR__COMPAREROLE_OFFSET UNITYSDK_OFFSET(0xD122620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackTargetSelector_TypeDefinitionIndex = 65406;
+	inline static constexpr unsigned int GridFightEquipTrackTargetSelector_TypeDefinitionIndex = 65346;
 
 	class GridFightEquipTrackTargetSelector : public ::System::Object
 	{
 	public:
-		::Class_1_0812913C2F0E10CD* _TrackContext; // 0x10
-
-		::System::Void _ctor(::Class_1_0812913C2F0E10CD* a1)
+		::GCMCEDELOJL* _TrackContext; // 0x10
+		::System::Void _ctor(::GCMCEDELOJL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0812913C2F0E10CD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::GCMCEDELOJL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightGridMember* GetSelectorTarget(::System::UInt32 a1)
@@ -33,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightRole*, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKTARGETSELECTOR__COMPAREROLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

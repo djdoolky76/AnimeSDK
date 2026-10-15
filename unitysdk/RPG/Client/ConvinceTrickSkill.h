@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ConvinceTrickSkillType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONVINCETRICKSKILL_CANTRIGGER_OFFSET UNITYSDK_OFFSET(0x1A29D780)
-#define RPG_CLIENT_CONVINCETRICKSKILL_GETSKILLEVENTNAME_OFFSET UNITYSDK_OFFSET(0x1A29D6A0)
-#define RPG_CLIENT_CONVINCETRICKSKILL_GET_USENUM_OFFSET UNITYSDK_OFFSET(0x1A29D5E0)
-#define RPG_CLIENT_CONVINCETRICKSKILL_INIT_OFFSET UNITYSDK_OFFSET(0x1A29D630)
-#define RPG_CLIENT_CONVINCETRICKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A29D7D0)
+#define RPG_CLIENT_CONVINCETRICKSKILL_CANTRIGGER_OFFSET UNITYSDK_OFFSET(0xCBBEB60)
+#define RPG_CLIENT_CONVINCETRICKSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBEBB0)
+#define RPG_CLIENT_CONVINCETRICKSKILL_GETSKILLEVENTNAME_OFFSET UNITYSDK_OFFSET(0xCBBEA80)
+#define RPG_CLIENT_CONVINCETRICKSKILL_GET_USENUM_OFFSET UNITYSDK_OFFSET(0xCBBE9C0)
+#define RPG_CLIENT_CONVINCETRICKSKILL_INIT_OFFSET UNITYSDK_OFFSET(0xCBBEA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceTrickSkill_TypeDefinitionIndex = 60784;
+	inline static constexpr unsigned int ConvinceTrickSkill_TypeDefinitionIndex = 60685;
 
 	class ConvinceTrickSkill : public ::System::Object
 	{
 	public:
-		// static const ::System::String* EVT_CONVINCE_TRICK_SKILL; // 0x0
-		::System::String* CustomEvtStr; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* UseTurnIndexList; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* UseTurnIndexList; // 0x10
+		::System::String* CustomEvtStr; // 0x18
 		::RPG::GameCore::ConvinceTrickSkillType SkillType; // 0x20
 		::System::Boolean IsTakingEffect; // 0x24
-
+		// static const ::System::String* EVT_CONVINCE_TRICK_SKILL; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILL_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_UseNum()
@@ -49,5 +47,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILL_CANTRIGGER_OFFSET))(this, a1);
 		}
+
 	};
 }

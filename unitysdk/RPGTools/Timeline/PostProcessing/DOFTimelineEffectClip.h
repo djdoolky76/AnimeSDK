@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/TimelineExposedReference.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::PostProcessing { class DOFTimelineEffectBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0AAE50)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0AAE40)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0x1B0AAE20)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1B0AAE00)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0x1B0AAE30)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1B0AAE10)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AB030)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE917BF0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE917DD0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE917BE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0xE917BC0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGET_OFFSET UNITYSDK_OFFSET(0xE917BA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0xE917BD0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGET_OFFSET UNITYSDK_OFFSET(0xE917BB0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineEffectClip_TypeDefinitionIndex = 49021;
+	inline static constexpr unsigned int DOFTimelineEffectClip_TypeDefinitionIndex = 48567;
 
 	class DOFTimelineEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -31,12 +30,12 @@ namespace RPGTools::Timeline::PostProcessing
 		::UnityEngine::GameObject* _TargetFar_k__BackingField; // 0x60
 		::RPGTools::Timeline::PostProcessing::DOFTimelineEffectBehaviour* Template; // 0x68
 		::System::Boolean useCustomRegion; // 0x70
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 customRegionNearPos; // 0x74
 		::UnityEngine::Vector3 customRegionFarPos; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::GameObject* get_Target()
@@ -68,5 +67,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

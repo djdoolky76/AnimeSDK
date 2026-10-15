@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x182CA870)
+#define SYSTEM_WEB_UTIL_HELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0C5920)
 
 namespace System::Web::Util
 {
@@ -15,12 +14,13 @@ namespace System::Web::Util
 	public:
 		static ::System::Globalization::CultureInfo** StaticGet_InvariantCulture()
 		{
-			return (::System::Globalization::CultureInfo**)Il2CppClass::FromTypeDefinitionIndex(Helpers_TypeDefinitionIndex)->GetStaticField(0x29F30);
+			return (::System::Globalization::CultureInfo**)UnitySDK::FromName("System.Web.Util", "Helpers")->GetStaticField(0x38780);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_WEB_UTIL_HELPERS_CCTOR_OFFSET))();
 		}
+
 	};
 }

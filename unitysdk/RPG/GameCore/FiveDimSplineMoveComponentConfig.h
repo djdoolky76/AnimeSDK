@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimSplineMoveComponentConfig; }
 namespace RPG::GameCore { class FiveDimSplineMoveConfig; }
 
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_METHOD_3_D3DB2208746763C6_OFFSET UNITYSDK_OFFSET(0x1D87C710)
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_METHOD_3_E9C6E2449C486885_OFFSET UNITYSDK_OFFSET(0x1D87C750)
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87C740)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AFD40)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6AFD50)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AFD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSplineMoveComponentConfig_TypeDefinitionIndex = 18352;
+	inline static constexpr unsigned int FiveDimSplineMoveComponentConfig_TypeDefinitionIndex = 18567;
 
 	class FiveDimSplineMoveComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean HasSplineMove; // 0x10
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::FiveDimSplineMoveConfig* MoveConfig; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D3DB2208746763C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSplineMoveComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimSplineMoveComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSplineMoveComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_METHOD_3_D3DB2208746763C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimSplineMoveComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E9C6E2449C486885(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSplineMoveComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimSplineMoveComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSplineMoveComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_METHOD_3_E9C6E2449C486885_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimSplineMoveComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

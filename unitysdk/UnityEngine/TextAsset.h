@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 #include "unitysdk/UnityEngine/TextAsset_CreateOptions.h"
-
 namespace System { class String; }
+namespace UnityEngine { class TextAsset; }
 
-#define UNITYENGINE_TEXTASSET_GETBYTESWITHARRAY_OFFSET UNITYSDK_OFFSET(0x1EE0A980)
-#define UNITYENGINE_TEXTASSET_GETSIZE_OFFSET UNITYSDK_OFFSET(0x1EE0A970)
-#define UNITYENGINE_TEXTASSET_GET_BYTES_OFFSET UNITYSDK_OFFSET(0x1EE0A960)
-#define UNITYENGINE_TEXTASSET_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1EE0A950)
-#define UNITYENGINE_TEXTASSET_INTERNAL_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1EE0A9D0)
-#define UNITYENGINE_TEXTASSET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE0A990)
-#define UNITYENGINE_TEXTASSET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE0A9B0)
-#define UNITYENGINE_TEXTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0A9A0)
+#define UNITYENGINE_TEXTASSET_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F405590)
+#define UNITYENGINE_TEXTASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F405580)
+#define UNITYENGINE_TEXTASSET_GETBYTESWITHARRAY_OFFSET UNITYSDK_OFFSET(0x1F405560)
+#define UNITYENGINE_TEXTASSET_GETSIZE_OFFSET UNITYSDK_OFFSET(0x1F405550)
+#define UNITYENGINE_TEXTASSET_GET_BYTES_OFFSET UNITYSDK_OFFSET(0x1F405540)
+#define UNITYENGINE_TEXTASSET_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1F405530)
+#define UNITYENGINE_TEXTASSET_INTERNAL_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4055B0)
+#define UNITYENGINE_TEXTASSET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F405570)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextAsset_TypeDefinitionIndex = 4347;
+	inline static constexpr unsigned int TextAsset_TypeDefinitionIndex = 4350;
 
 	class TextAsset : public ::UnityEngine::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTASSET_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::TextAsset_CreateOptions a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextAsset_CreateOptions, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTASSET__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextAsset_CreateOptions, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTASSET_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_text()
@@ -60,5 +60,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::UnityEngine::TextAsset*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTASSET_INTERNAL_CREATEINSTANCE_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/XmlNameTable.h"
-
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Xml { class NameTable_Entry; }
 
-#define SYSTEM_XML_NAMETABLE_ADDENTRY_OFFSET UNITYSDK_OFFSET(0x1BACD850)
-#define SYSTEM_XML_NAMETABLE_ADD_1_OFFSET UNITYSDK_OFFSET(0x1BAC8F40)
-#define SYSTEM_XML_NAMETABLE_ADD_OFFSET UNITYSDK_OFFSET(0x1BABC950)
-#define SYSTEM_XML_NAMETABLE_GET_OFFSET UNITYSDK_OFFSET(0x1BACDA20)
-#define SYSTEM_XML_NAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x1BACDBE0)
-#define SYSTEM_XML_NAMETABLE_TEXTEQUALS_OFFSET UNITYSDK_OFFSET(0x1BACD960)
-#define SYSTEM_XML_NAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACD7D0)
+#define SYSTEM_XML_NAMETABLE_ADDENTRY_OFFSET UNITYSDK_OFFSET(0x1EE77E60)
+#define SYSTEM_XML_NAMETABLE_ADD_1_OFFSET UNITYSDK_OFFSET(0x1EE73630)
+#define SYSTEM_XML_NAMETABLE_ADD_OFFSET UNITYSDK_OFFSET(0x1EE67100)
+#define SYSTEM_XML_NAMETABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE77DE0)
+#define SYSTEM_XML_NAMETABLE_GET_OFFSET UNITYSDK_OFFSET(0x1EE78030)
+#define SYSTEM_XML_NAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x1EE781D0)
+#define SYSTEM_XML_NAMETABLE_TEXTEQUALS_OFFSET UNITYSDK_OFFSET(0x1EE77F70)
 
 namespace System::Xml
 {
@@ -20,14 +19,13 @@ namespace System::Xml
 	class NameTable : public ::System::Xml::XmlNameTable
 	{
 	public:
-		::Il2CppArray<::System::Xml::NameTable_Entry*>* entries; // 0x10
-		::System::Int32 mask; // 0x18
-		::System::Int32 count; // 0x1C
-		::System::Int32 hashCodeRandomizer; // 0x20
-
+		::Il2CppArray<::System::Object*>* entries; // 0x10
+		::System::Int32 hashCodeRandomizer; // 0x18
+		::System::Int32 mask; // 0x1C
+		::System::Int32 count; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_NAMETABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_NAMETABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::String* Add(::System::String* a1)
@@ -59,5 +57,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_NAMETABLE_TEXTEQUALS_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

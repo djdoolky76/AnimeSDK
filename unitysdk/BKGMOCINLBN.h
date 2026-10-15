@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActivityGuessSilhouetteRow; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define BKGMOCINLBN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D7EE520)
+#define BKGMOCINLBN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7EEAF0)
+#define BKGMOCINLBN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D7EE690)
+#define BKGMOCINLBN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D7EDF90)
+#define BKGMOCINLBN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D7EE220)
+#define BKGMOCINLBN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D7EE730)
+#define BKGMOCINLBN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D7EE780)
+#define BKGMOCINLBN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D7EE560)
+#define BKGMOCINLBN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D7EE1C0)
+#define BKGMOCINLBN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D7EE390)
+#define BKGMOCINLBN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D7EE5F0)
+#define BKGMOCINLBN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D7EDF10)
+
+inline static constexpr unsigned int BKGMOCINLBN_TypeDefinitionIndex = 11618;
+
+	class BKGMOCINLBN : public ::System::Object
+	{
+	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityGuessSilhouetteRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityGuessSilhouetteRow*>**)UnitySDK::FromName("", "BKGMOCINLBN")->GetStaticField(0x43B70);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BKGMOCINLBN")->GetStaticField(0x43B78);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BKGMOCINLBN")->GetStaticField(0x43B80);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "BKGMOCINLBN")->GetStaticField(0x10070);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BKGMOCINLBN")->GetStaticField(0x10071);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_CCTOR_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityGuessSilhouetteRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityGuessSilhouetteRow*>*(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityGuessSilhouetteRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityGuessSilhouetteRow*>(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::RPG::GameCore::ActivityGuessSilhouetteRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::ActivityGuessSilhouetteRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + BKGMOCINLBN_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BKGMOCINLBN_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + BKGMOCINLBN_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + BKGMOCINLBN_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + BKGMOCINLBN_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::ActivityGuessSilhouetteRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::ActivityGuessSilhouetteRow*))((::PBYTE)hIl2Cpp + BKGMOCINLBN_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+	};

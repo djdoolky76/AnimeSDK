@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::Win { class TapTapToken; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x187B20B0)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x187B2120)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x187B1FC0)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x187B2040)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDD16D0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD1660)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDD1740)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDD15E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int TapTapManager_OnLoginDelegate_TypeDefinitionIndex = 9313;
+	inline static constexpr unsigned int TapTapManager_OnLoginDelegate_TypeDefinitionIndex = 9371;
 
 	class TapTapManager_OnLoginDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::Win::TapTapToken* a3)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

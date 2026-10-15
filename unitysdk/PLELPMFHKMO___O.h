@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class SceneLightVolume;
+namespace System { template <typename T> class Comparison_1; }
+
+inline static constexpr unsigned int PLELPMFHKMO___O_TypeDefinitionIndex = 49344;
+
+	class PLELPMFHKMO___O : public ::System::Object
+	{
+	public:
+		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet__0___CompareForSelection()
+		{
+			return (::System::Comparison_1<::SceneLightVolume*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x70000);
+		}
+
+	};

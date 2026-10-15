@@ -1,51 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/WormCompassPuzzleStaticItemBase.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_DELAYSHOW_OFFSET UNITYSDK_OFFSET(0x17B3EF80)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_METHOD_7_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x17B41380)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_METHOD_7_8F54650C0C7FD373_OFFSET UNITYSDK_OFFSET(0x17B41030)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17B41300)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_REFRESHOBJECTSTATUS_OFFSET UNITYSDK_OFFSET(0x17B35BF0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_SETTREASUREACTIVE_OFFSET UNITYSDK_OFFSET(0x17B39C00)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_SETTRIGGERTREASURE_OFFSET UNITYSDK_OFFSET(0x17B41140)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B41420)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x17B413E0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDE5730)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_CPNEMOBKHEL_OFFSET UNITYSDK_OFFSET(0xDDE5690)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_CTOR_OFFSET UNITYSDK_OFFSET(0xDDE56F0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_DELAYSHOW_OFFSET UNITYSDK_OFFSET(0xDDE3310)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_JCMEIFODLOB_OFFSET UNITYSDK_OFFSET(0xDDE5340)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDDE5610)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_REFRESHOBJECTSTATUS_OFFSET UNITYSDK_OFFSET(0xDDDA2E0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_SETTREASUREACTIVE_OFFSET UNITYSDK_OFFSET(0xDDDE1B0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_SETTRIGGERTREASURE_OFFSET UNITYSDK_OFFSET(0xDDE5450)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleTreasureBox_TypeDefinitionIndex = 78464;
+	inline static constexpr unsigned int WormCompassPuzzleTreasureBox_TypeDefinitionIndex = 78935;
 
 	class WormCompassPuzzleTreasureBox : public ::RPG::Client::Prop::WormCompassPuzzleStaticItemBase
 	{
 	public:
-		static ::System::Int32* StaticGet_DKPOBPLFDLF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleTreasureBox_TypeDefinitionIndex)->GetStaticField(0x14FA0);
-		}
-		static ::System::Int32* StaticGet_CKAMKIFGFKG()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleTreasureBox_TypeDefinitionIndex)->GetStaticField(0x14FA4);
-		}
-		static ::System::Int32* StaticGet_BABGGLPLPEO()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleTreasureBox_TypeDefinitionIndex)->GetStaticField(0x14FA8);
-		}
-		// static const ::System::String* BCIPGAEACBK; // 0x0
 		::System::String* BoxName; // 0x48
 		::System::UInt32 GroupID; // 0x50
 		::System::UInt32 EntityID; // 0x54
+		static ::System::Int32* StaticGet_CKAMKIFGFKG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleTreasureBox")->GetStaticField(0x12B30);
+		}
 
+		static ::System::Int32* StaticGet_DKPOBPLFDLF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleTreasureBox")->GetStaticField(0x12B34);
+		}
+
+		static ::System::Int32* StaticGet_BABGGLPLPEO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleTreasureBox")->GetStaticField(0x12B38);
+		}
+
+		// static const ::System::String* BCIPGAEACBK; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_CCTOR_OFFSET))();
 		}
 
 		::System::Void RefreshObjectStatus()
@@ -68,9 +69,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_SETTRIGGERTREASURE_OFFSET))(this);
 		}
 
-		::System::Void Method_7_8F54650C0C7FD373(::System::Boolean a1)
+		::System::Void JCMEIFODLOB(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_METHOD_7_8F54650C0C7FD373_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_JCMEIFODLOB_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()
@@ -78,9 +79,10 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_7_4343F372F34C05BF()
+		::System::Void CPNEMOBKHEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_METHOD_7_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLETREASUREBOX_CPNEMOBKHEL_OFFSET))(this);
 		}
+
 	};
 }

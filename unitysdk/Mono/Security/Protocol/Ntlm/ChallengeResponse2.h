@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Protocol/Ntlm/NtlmAuthLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security::Protocol::Ntlm { class Type2Message; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_LM_OFFSET UNITYSDK_OFFSET(0x1D245760)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_OFFSET UNITYSDK_OFFSET(0x1D246720)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_SESSION_OFFSET UNITYSDK_OFFSET(0x1D2464B0)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLM_OFFSET UNITYSDK_OFFSET(0x1D246440)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLM_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1D2462F0)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1D247290)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_GETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1D245E40)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_PASSWORDTOKEY_OFFSET UNITYSDK_OFFSET(0x1D245C10)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_PREPAREDESKEY_OFFSET UNITYSDK_OFFSET(0x1D247800)
-#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2479C0)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C009970)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_LM_OFFSET UNITYSDK_OFFSET(0x1C007710)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_OFFSET UNITYSDK_OFFSET(0x1C0086D0)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_SESSION_OFFSET UNITYSDK_OFFSET(0x1C008460)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLM_OFFSET UNITYSDK_OFFSET(0x1C0083F0)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLM_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1C0082A0)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1C009240)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_GETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1C007DF0)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_PASSWORDTOKEY_OFFSET UNITYSDK_OFFSET(0x1C007BC0)
+#define MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_PREPAREDESKEY_OFFSET UNITYSDK_OFFSET(0x1C0097B0)
 
 namespace Mono::Security::Protocol::Ntlm
 {
@@ -26,16 +26,17 @@ namespace Mono::Security::Protocol::Ntlm
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_magic()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeResponse2_TypeDefinitionIndex)->GetStaticField(0x2B7A0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Protocol.Ntlm", "ChallengeResponse2")->GetStaticField(0x258A0);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_nullEncMagic()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeResponse2_TypeDefinitionIndex)->GetStaticField(0x2B7A8);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Protocol.Ntlm", "ChallengeResponse2")->GetStaticField(0x258A8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_CCTOR_OFFSET))();
 		}
 
 		static ::Il2CppArray<::System::Byte>* Compute_LM(::System::String* a1, ::Il2CppArray<::System::Byte>* a2)
@@ -53,9 +54,9 @@ namespace Mono::Security::Protocol::Ntlm
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Compute_NTLMv2_Session(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::Il2CppArray<::System::Byte>*& a3, ::Il2CppArray<::System::Byte>*& a4)
+		static ::System::Void Compute_NTLMv2_Session(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Object* a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_SESSION_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_SESSION_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::Il2CppArray<::System::Byte>* Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
@@ -63,9 +64,9 @@ namespace Mono::Security::Protocol::Ntlm
 			return ((::Il2CppArray<::System::Byte>*(*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_NTLMV2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Compute(::Mono::Security::Protocol::Ntlm::Type2Message* a1, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::Il2CppArray<::System::Byte>*& a6, ::Il2CppArray<::System::Byte>*& a7)
+		static ::System::Void Compute(::Mono::Security::Protocol::Ntlm::Type2Message* a1, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Object* a6, ::System::Object* a7)
 		{
-			return ((::System::Void(*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::System::String*, ::System::String*, ::System::String*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_COMPUTE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::Il2CppArray<::System::Byte>* GetResponse(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
@@ -82,5 +83,6 @@ namespace Mono::Security::Protocol::Ntlm
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_CHALLENGERESPONSE2_PASSWORDTOKEY_OFFSET))(a1, a2);
 		}
+
 	};
 }

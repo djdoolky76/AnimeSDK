@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1CD31AC0)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1CD31A60)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CD32A40)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD32710)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_CTOR_OFFSET UNITYSDK_OFFSET(0xB04A070)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_GET_DATA_OFFSET UNITYSDK_OFFSET(0xB049830)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xB03E5E0)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILEPART_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB04A3A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_FilePart_TypeDefinitionIndex = 46836;
+	inline static constexpr unsigned int SecurityTunnel_FilePart_TypeDefinitionIndex = 46376;
 
 	class SecurityTunnel_FilePart : public ::System::Object
 	{
 	public:
 		::System::String* Content; // 0x10
-		::System::UInt64 Offset; // 0x18
-		::System::UInt64 ID; // 0x20
-
+		::System::UInt64 ID; // 0x18
+		::System::UInt64 Offset; // 0x20
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILEPART__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILEPART_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt64 get_Length()
@@ -39,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILEPART_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

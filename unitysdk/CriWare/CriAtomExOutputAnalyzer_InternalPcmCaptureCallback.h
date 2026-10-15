@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D366E70)
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D366F20)
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D366E40)
-#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D366DD0)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x166E25A0)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x166E2500)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x166E2650)
+#define CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x166E2570)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputAnalyzer_InternalPcmCaptureCallback_TypeDefinitionIndex = 38751;
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_InternalPcmCaptureCallback_TypeDefinitionIndex = 40048;
 
 	class CriAtomExOutputAnalyzer_InternalPcmCaptureCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -37,5 +36,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXOUTPUTANALYZER_INTERNALPCMCAPTURECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/EntitasException.h"
-
 namespace System { class String; }
 
-#define ENTITAS_ENTITYINDEXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EECC7B0)
+#define ENTITAS_ENTITYINDEXEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1674D6B0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityIndexException_TypeDefinitionIndex = 9962;
+	inline static constexpr unsigned int EntityIndexException_TypeDefinitionIndex = 10020;
 
 	class EntityIndexException : public ::Entitas::EntitasException
 	{
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYINDEXEXCEPTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYINDEXEXCEPTION_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

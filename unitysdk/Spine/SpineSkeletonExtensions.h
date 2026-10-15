@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/TransformMode.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class VertexAttachment; }
 
-#define SPINE_SPINESKELETONEXTENSIONS_INHERITSROTATION_OFFSET UNITYSDK_OFFSET(0x18304E80)
-#define SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET UNITYSDK_OFFSET(0x18304E90)
-#define SPINE_SPINESKELETONEXTENSIONS_ISWEIGHTED_OFFSET UNITYSDK_OFFSET(0x18304E50)
+#define SPINE_SPINESKELETONEXTENSIONS_INHERITSROTATION_OFFSET UNITYSDK_OFFSET(0x1ECC9E90)
+#define SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET UNITYSDK_OFFSET(0x1ECC9EA0)
+#define SPINE_SPINESKELETONEXTENSIONS_ISWEIGHTED_OFFSET UNITYSDK_OFFSET(0x1ECC9E60)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SpineSkeletonExtensions_TypeDefinitionIndex = 43803;
+	inline static constexpr unsigned int SpineSkeletonExtensions_TypeDefinitionIndex = 44995;
 
 	class SpineSkeletonExtensions : public ::System::Object
 	{
@@ -30,5 +29,6 @@ namespace Spine
 		{
 			return ((::System::Boolean(*)(::Spine::TransformMode))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET))(a1);
 		}
+
 	};
 }

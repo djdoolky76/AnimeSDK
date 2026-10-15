@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
+namespace System::Xml::Linq { class XDeclaration; }
 
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1EEA6B40)
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_STANDALONE_OFFSET UNITYSDK_OFFSET(0x1EEA6B50)
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1EEA6B60)
-#define SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EEA6B70)
-#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEA6AC0)
-#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA6AB0)
+#define SYSTEM_XML_LINQ_XDECLARATION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE5D8E0)
+#define SYSTEM_XML_LINQ_XDECLARATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5D8D0)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1EE5D960)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_STANDALONE_OFFSET UNITYSDK_OFFSET(0x1EE5D970)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1EE5D980)
+#define SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE5D990)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 3905;
+	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 3906;
 
 	class XDeclaration : public ::System::Object
 	{
@@ -21,15 +21,14 @@ namespace System::Xml::Linq
 		::System::String* encoding; // 0x10
 		::System::String* standalone; // 0x18
 		::System::String* version; // 0x20
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::System::Xml::Linq::XDeclaration* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XDeclaration*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XDeclaration*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Encoding()
@@ -51,5 +50,6 @@ namespace System::Xml::Linq
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SystemDefaultLanguageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E15F4D0)
-#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15F620)
+#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB25610)
+#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB254C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 12562;
+	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 12652;
 
 	class SystemDefaultLanguageRow : public ::System::Object
 	{
 	public:
-		::System::String* DefaultTextLanguage; // 0x10
-		::System::String* SystemLanguage; // 0x18
+		::System::String* SystemLanguage; // 0x10
+		::System::String* DefaultTextLanguage; // 0x18
 		::System::String* DefaultAudioLanguage; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SystemDefaultLanguageRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::SystemDefaultLanguageRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SystemDefaultLanguageRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SystemDefaultLanguageRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

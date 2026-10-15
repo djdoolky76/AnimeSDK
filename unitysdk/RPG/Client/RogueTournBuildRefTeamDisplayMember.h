@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefTeamDisplayMember_TypeDefinitionIndex = 67533;
+	inline static constexpr unsigned int RogueTournBuildRefTeamDisplayMember_TypeDefinitionIndex = 67535;
 
 	struct alignas(8) RogueTournBuildRefTeamDisplayMember
 	{

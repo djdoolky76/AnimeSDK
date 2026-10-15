@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class LevelNavmapConfig; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define MADBGHENHAF_CTOR_OFFSET UNITYSDK_OFFSET(0xB83BDA0)
+#define MADBGHENHAF_DHFBDMHFNIK_OFFSET UNITYSDK_OFFSET(0xB83C100)
+#define MADBGHENHAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB83C2E0)
+#define MADBGHENHAF_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xB83BF60)
+
+inline static constexpr unsigned int MADBGHENHAF_TypeDefinitionIndex = 60650;
+
+	class MADBGHENHAF : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* LFNAGEKFDAP; // 0x10
+		::RPG::GameCore::LevelNavmapConfig* MJBCOBFDODD; // 0x18
+		::System::Int32 KFLLNFLBIFC; // 0x20
+		::System::Void _ctor(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + MADBGHENHAF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void MOKNCFJICIC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MADBGHENHAF_MOKNCFJICIC_OFFSET))(this);
+		}
+
+		::System::Void DHFBDMHFNIK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MADBGHENHAF_DHFBDMHFNIK_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MADBGHENHAF_DISPOSE_OFFSET))(this);
+		}
+
+	};

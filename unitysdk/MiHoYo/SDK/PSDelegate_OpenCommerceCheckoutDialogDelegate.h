@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class PSDelegate_CommerceCheckoutCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B7A0)
-#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B830)
-#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B770)
-#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7B6F0)
+#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF543D0)
+#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF54320)
+#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF54460)
+#define MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF543A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_OpenCommerceCheckoutDialogDelegate_TypeDefinitionIndex = 7691;
+	inline static constexpr unsigned int PSDelegate_OpenCommerceCheckoutDialogDelegate_TypeDefinitionIndex = 7735;
 
 	class PSDelegate_OpenCommerceCheckoutDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2, ::System::Int32 a3, ::MiHoYo::SDK::PSDelegate_CommerceCheckoutCallback* a4)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_OPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

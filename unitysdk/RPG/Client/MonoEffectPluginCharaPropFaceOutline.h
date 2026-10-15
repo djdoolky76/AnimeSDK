@@ -2,44 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaPropBase.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0x116B5900)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116B5970)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x116B60E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD7D9A50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0xD7D9270)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7D92E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceOutline_TypeDefinitionIndex = 69926;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceOutline_TypeDefinitionIndex = 69960;
 
 	class MonoEffectPluginCharaPropFaceOutline : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:
 		::System::Boolean Toggle_OutlineColor; // 0x40
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color _OutlineColor; // 0x44
 		::System::Boolean Toggle_OutlineWidth; // 0x54
+		::System::Byte _padding1[0x3];
 		::System::Single _OutlineWidth; // 0x58
 		::System::Boolean Toggle_OutlineFixSide; // 0x5C
+		::System::Byte _padding2[0x3];
 		::System::Single _OutlineFixSide; // 0x60
 		::System::Boolean Toggle_OutlineFixFront; // 0x64
+		::System::Byte _padding3[0x3];
 		::System::Single _OutlineFixFront; // 0x68
 		::System::Boolean Toggle_OutlineFixRange1; // 0x6C
+		::System::Byte _padding4[0x3];
 		::System::Single _OutlineFixRange1; // 0x70
 		::System::Boolean Toggle_OutlineFixRange2; // 0x74
+		::System::Byte _padding5[0x3];
 		::System::Single _OutlineFixRange2; // 0x78
 		::System::Boolean Toggle_OutlineFixRange3; // 0x7C
+		::System::Byte _padding6[0x3];
 		::System::Single _OutlineFixRange3; // 0x80
 		::System::Boolean Toggle_OutlineFixRange4; // 0x84
+		::System::Byte _padding7[0x3];
 		::System::Single _OutlineFixRange4; // 0x88
 		::System::Boolean Toggle_FixLipOutline; // 0x8C
+		::System::Byte _padding8[0x3];
 		::System::Single _FixLipOutline; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::String*>* GetBaseCharacterFilter()
@@ -51,5 +58,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_UPDATEPROPERTY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

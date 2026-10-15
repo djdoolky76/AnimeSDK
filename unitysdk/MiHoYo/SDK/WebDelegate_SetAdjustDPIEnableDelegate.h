@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD80330)
-#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD80390)
-#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7D6A0)
-#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD80240)
+#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF4030)
+#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3F40)
+#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF4090)
+#define MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF13A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_SetAdjustDPIEnableDelegate_TypeDefinitionIndex = 7808;
+	inline static constexpr unsigned int WebDelegate_SetAdjustDPIEnableDelegate_TypeDefinitionIndex = 7852;
 
 	class WebDelegate_SetAdjustDPIEnableDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Boolean a2)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETADJUSTDPIENABLEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

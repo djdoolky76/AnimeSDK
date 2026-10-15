@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcObjectPool_1_TypeDefinitionIndex = 36205;
+	inline static constexpr unsigned int RpcObjectPool_1_TypeDefinitionIndex = 36892;
 
 	template <typename T>
 	class RpcObjectPool_1 : public ::System::Object

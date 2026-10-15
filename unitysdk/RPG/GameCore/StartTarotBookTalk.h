@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StartTarotBookTalk; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_0E5F1A49FBFF66D5_OFFSET UNITYSDK_OFFSET(0x1CAF6B60)
-#define RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_58B68D37C7307098_OFFSET UNITYSDK_OFFSET(0x1CAF6C30)
-#define RPG_GAMECORE_STARTTAROTBOOKTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF6C20)
+#define RPG_GAMECORE_STARTTAROTBOOKTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF0FE0)
+#define RPG_GAMECORE_STARTTAROTBOOKTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF0FF0)
+#define RPG_GAMECORE_STARTTAROTBOOKTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF0F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartTarotBookTalk_TypeDefinitionIndex = 20893;
+	inline static constexpr unsigned int StartTarotBookTalk_TypeDefinitionIndex = 21139;
 
 	class StartTarotBookTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0E5F1A49FBFF66D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartTarotBookTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartTarotBookTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartTarotBookTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_0E5F1A49FBFF66D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartTarotBookTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_58B68D37C7307098(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartTarotBookTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartTarotBookTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartTarotBookTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_58B68D37C7307098_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartTarotBookTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimEntityRotateAction; }
 namespace RPG::GameCore { class FiveDimEntityRotateConfig; }
 
-#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_2042BD14151A532D_OFFSET UNITYSDK_OFFSET(0x1D85BA70)
-#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_B4A0EE9E455A866E_OFFSET UNITYSDK_OFFSET(0x1D85BAB0)
-#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85BAA0)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68DDE0)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D68DDF0)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68DDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityRotateAction_TypeDefinitionIndex = 18540;
+	inline static constexpr unsigned int FiveDimEntityRotateAction_TypeDefinitionIndex = 18750;
 
 	class FiveDimEntityRotateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::System::Boolean IsStop; // 0x10
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::FiveDimEntityRotateConfig* RotateConfig; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2042BD14151A532D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityRotateAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimEntityRotateAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityRotateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_2042BD14151A532D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimEntityRotateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B4A0EE9E455A866E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityRotateAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimEntityRotateAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityRotateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_B4A0EE9E455A866E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimEntityRotateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

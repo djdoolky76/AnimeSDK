@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class String; }
-namespace System::Text { class StringBuilder; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int STuple_8_TypeDefinitionIndex = 6525;
+	inline static constexpr unsigned int STuple_8_TypeDefinitionIndex = 6534;
 
-	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-	struct STuple_8
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
+	struct alignas(8) STuple_8
 	{
 		T1 _Item1_k__BackingField; // 0x0
 		T2 _Item2_k__BackingField; // 0x0
@@ -19,6 +15,6 @@ namespace RPG::GCFreeClosure
 		T5 _Item5_k__BackingField; // 0x0
 		T6 _Item6_k__BackingField; // 0x0
 		T7 _Item7_k__BackingField; // 0x0
-		TRest _Rest_k__BackingField; // 0x0
+		T8 _Rest_k__BackingField; // 0x0
 	};
 }

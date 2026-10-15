@@ -1,40 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/Object.h"
-
 namespace SimpleJSON { class JSONClass; }
 namespace SimpleJSON { class JSONNode; }
-namespace System { class String; }
+namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EEDD660)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SIMPLEJSON_JSONNODE__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EEDD810)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SIMPLEJSON_JSONNODE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EEDD7A0)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EEDD890)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EEDD800)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EEDD7B0)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EEDD640)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDBDE0)
-#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EEDD650)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC29CE0)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EC2B510)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SIMPLEJSON_JSONNODE__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC2B6C0)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SIMPLEJSON_JSONNODE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC2B650)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC2B740)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC2B6B0)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EC2B660)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC2B4F0)
+#define SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EC2B500)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSONClass__get_Childs_d__17_TypeDefinitionIndex = 9905;
+	inline static constexpr unsigned int JSONClass__get_Childs_d__17_TypeDefinitionIndex = 9963;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17>
 	class JSONClass__get_Childs_d__17 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::SimpleJSON::JSONNode*> __7__wrap1; // 0x10
-		::SimpleJSON::JSONNode* __2__current; // 0x38
-		::SimpleJSON::JSONClass* __4__this; // 0x40
-		::System::Int32 __1__state; // 0x48
-		::System::Int32 __l__initialThreadId; // 0x4C
-
+		::SimpleJSON::JSONClass* __4__this; // 0x10
+		::System::Object* __7__wrap1; // 0x18
+		::System::Byte _padding0[0x20];
+		::SimpleJSON::JSONNode* __2__current; // 0x40
+		::System::Int32 __l__initialThreadId; // 0x48
+		::System::Int32 __1__state; // 0x4C
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -76,5 +75,6 @@ namespace SimpleJSON
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSONCLASS__GET_CHILDS_D__17_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

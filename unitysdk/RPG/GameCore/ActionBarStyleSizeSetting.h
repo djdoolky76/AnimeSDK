@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActionBarStyleSizeSetting; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_0864A1CB29B85CAD_OFFSET UNITYSDK_OFFSET(0x1C9E4960)
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E5430)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D316140)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D314A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 16957;
+	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 17152;
 
 	class ActionBarStyleSizeSetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -52,15 +52,15 @@ namespace RPG::GameCore
 		::RPG::MVector2 CurrentEnemyMultiActionSpacing; // 0x120
 		::RPG::MVector2 BattleEventCountDownGridFight; // 0x128
 		::RPG::MVector2 BattleEventCountDownRogueTourn; // 0x130
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0864A1CB29B85CAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionBarStyleSizeSetting*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActionBarStyleSizeSetting* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionBarStyleSizeSetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_0864A1CB29B85CAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActionBarStyleSizeSetting*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

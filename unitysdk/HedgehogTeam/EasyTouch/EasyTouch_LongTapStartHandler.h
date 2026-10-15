@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D15F4F0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D15F520)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A790)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15F400)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673A540)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673A450)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673A570)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x167357B0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_LongTapStartHandler_TypeDefinitionIndex = 38999;
+	inline static constexpr unsigned int EasyTouch_LongTapStartHandler_TypeDefinitionIndex = 40296;
 
 	class EasyTouch_LongTapStartHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_LONGTAPSTARTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

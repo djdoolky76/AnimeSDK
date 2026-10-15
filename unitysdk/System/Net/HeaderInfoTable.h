@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Net { class HeaderInfo; }
 namespace System::Net { class HeaderParser; }
 
-#define SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B028D40)
-#define SYSTEM_NET_HEADERINFOTABLE_PARSEMULTIVALUE_OFFSET UNITYSDK_OFFSET(0x1B026C50)
-#define SYSTEM_NET_HEADERINFOTABLE_PARSESINGLEVALUE_OFFSET UNITYSDK_OFFSET(0x1B026C10)
-#define SYSTEM_NET_HEADERINFOTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0270F0)
-#define SYSTEM_NET_HEADERINFOTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B028E70)
+#define SYSTEM_NET_HEADERINFOTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01D990)
+#define SYSTEM_NET_HEADERINFOTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F01F710)
+#define SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F01F5E0)
+#define SYSTEM_NET_HEADERINFOTABLE_PARSEMULTIVALUE_OFFSET UNITYSDK_OFFSET(0x1F01D4F0)
+#define SYSTEM_NET_HEADERINFOTABLE_PARSESINGLEVALUE_OFFSET UNITYSDK_OFFSET(0x1F01D4B0)
 
 namespace System::Net
 {
@@ -22,29 +21,32 @@ namespace System::Net
 	public:
 		static ::System::Net::HeaderParser** StaticGet_MultiParser()
 		{
-			return (::System::Net::HeaderParser**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x1A740);
+			return (::System::Net::HeaderParser**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD80);
 		}
-		static ::System::Collections::Hashtable** StaticGet_HeaderHashTable()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x1A748);
-		}
+
 		static ::System::Net::HeaderInfo** StaticGet_UnknownHeaderInfo()
 		{
-			return (::System::Net::HeaderInfo**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x1A750);
+			return (::System::Net::HeaderInfo**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD88);
 		}
+
 		static ::System::Net::HeaderParser** StaticGet_SingleParser()
 		{
-			return (::System::Net::HeaderParser**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x1A758);
+			return (::System::Net::HeaderParser**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD90);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_HeaderHashTable()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD98);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFOTABLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFOTABLE_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFOTABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFOTABLE_CTOR_OFFSET))(this);
 		}
 
 		static ::Il2CppArray<::System::String*>* ParseSingleValue(::System::String* a1)
@@ -61,5 +63,6 @@ namespace System::Net
 		{
 			return ((::System::Net::HeaderInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CABLEPROCEDURAL_CABLEDATA_METHOD_2_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0x3B19820)
+#define RPG_CLIENT_CABLEPROCEDURAL_CABLEDATA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xE3290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CableProcedural_CableData_TypeDefinitionIndex = 70353;
+	inline static constexpr unsigned int CableProcedural_CableData_TypeDefinitionIndex = 70389;
 
 	struct alignas(8) CableProcedural_CableData
 	{
 		::UnityEngine::Transform* startPoint; // 0x10
 		::UnityEngine::Transform* endPoint; // 0x18
 		::UnityEngine::LineRenderer* lineRenderer; // 0x20
-
-		::System::Boolean Method_2_64F0C85A431FBD69()
+		::System::Boolean KKKIONIDKFA()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CABLEPROCEDURAL_CABLEDATA_METHOD_2_64F0C85A431FBD69_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CABLEPROCEDURAL_CABLEDATA_KKKIONIDKFA_OFFSET))(this);
 		}
+
 	};
 }

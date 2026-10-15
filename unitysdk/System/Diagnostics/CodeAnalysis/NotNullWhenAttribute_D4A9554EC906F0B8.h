@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE_D4A9554EC906F0B8_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB8830)
+
+namespace System::Diagnostics::CodeAnalysis
+{
+	inline static constexpr unsigned int NotNullWhenAttribute_D4A9554EC906F0B8_TypeDefinitionIndex = 7529;
+
+	class NotNullWhenAttribute_D4A9554EC906F0B8 : public ::System::Attribute
+	{
+	public:
+		::System::Boolean _ReturnValue_k__BackingField; // 0x10
+		::System::Void _ctor(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE_D4A9554EC906F0B8_CTOR_OFFSET))(this, a1);
+		}
+
+	};
+}

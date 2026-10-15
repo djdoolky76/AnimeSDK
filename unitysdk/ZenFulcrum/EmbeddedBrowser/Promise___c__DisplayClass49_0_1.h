@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class IPromise_1; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass49_0_1_TypeDefinitionIndex = 38258;
+	inline static constexpr unsigned int Promise___c__DisplayClass49_0_1_TypeDefinitionIndex = 39555;
 
-	template <typename ConvertedT>
+	template <typename T>
 	class Promise___c__DisplayClass49_0_1 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::Collections::Generic::IEnumerable_1<::ZenFulcrum::EmbeddedBrowser::IPromise_1<ConvertedT>*>*>* chain; // 0x0
+		::System::Func_1<::System::Collections::Generic::IEnumerable_1<::ZenFulcrum::EmbeddedBrowser::IPromise_1<::System::Object*>*>*>* chain; // 0x0
 	};
 }

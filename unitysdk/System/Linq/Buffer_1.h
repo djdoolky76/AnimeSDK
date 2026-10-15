@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 3181;
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 3182;
 
-	template <typename TElement>
-	struct Buffer_1
+	template <typename T>
+	struct alignas(8) Buffer_1
 	{
-		::Il2CppArray<TElement>* items; // 0x0
+		::Il2CppArray<T>* items; // 0x0
 		::System::Int32 count; // 0x0
 	};
 }

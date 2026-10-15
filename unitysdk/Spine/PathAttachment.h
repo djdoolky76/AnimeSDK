@@ -1,39 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/VertexAttachment.h"
-
 namespace Spine { class Attachment; }
+namespace Spine { class PathAttachment; }
 namespace System { class String; }
 
-#define SPINE_PATHATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x160598E0)
-#define SPINE_PATHATTACHMENT_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0x16059800)
-#define SPINE_PATHATTACHMENT_GET_CONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0x16059820)
-#define SPINE_PATHATTACHMENT_GET_LENGTHS_OFFSET UNITYSDK_OFFSET(0x160597E0)
-#define SPINE_PATHATTACHMENT_SET_CLOSED_OFFSET UNITYSDK_OFFSET(0x16059810)
-#define SPINE_PATHATTACHMENT_SET_CONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0x16059830)
-#define SPINE_PATHATTACHMENT_SET_LENGTHS_OFFSET UNITYSDK_OFFSET(0x160597F0)
-#define SPINE_PATHATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16059840)
-#define SPINE_PATHATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16050ED0)
+#define SPINE_PATHATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1EC79A10)
+#define SPINE_PATHATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC79970)
+#define SPINE_PATHATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC71000)
+#define SPINE_PATHATTACHMENT_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0x1EC79930)
+#define SPINE_PATHATTACHMENT_GET_CONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0x1EC79950)
+#define SPINE_PATHATTACHMENT_GET_LENGTHS_OFFSET UNITYSDK_OFFSET(0x1EC79910)
+#define SPINE_PATHATTACHMENT_SET_CLOSED_OFFSET UNITYSDK_OFFSET(0x1EC79940)
+#define SPINE_PATHATTACHMENT_SET_CONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0x1EC79960)
+#define SPINE_PATHATTACHMENT_SET_LENGTHS_OFFSET UNITYSDK_OFFSET(0x1EC79920)
 
 namespace Spine
 {
-	inline static constexpr unsigned int PathAttachment_TypeDefinitionIndex = 38360;
+	inline static constexpr unsigned int PathAttachment_TypeDefinitionIndex = 39657;
 
 	class PathAttachment : public ::Spine::VertexAttachment
 	{
 	public:
 		::Il2CppArray<::System::Single>* lengths; // 0x38
-		::System::Boolean constantSpeed; // 0x40
-		::System::Boolean closed; // 0x41
-
+		::System::Boolean closed; // 0x40
+		::System::Boolean constantSpeed; // 0x41
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_PATHATTACHMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_PATHATTACHMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::Spine::PathAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::PathAttachment*))((::PBYTE)hIl2Cpp + SPINE_PATHATTACHMENT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::PathAttachment*))((::PBYTE)hIl2Cpp + SPINE_PATHATTACHMENT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Single>* get_Lengths()
@@ -70,5 +69,6 @@ namespace Spine
 		{
 			return ((::Spine::Attachment*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_PATHATTACHMENT_COPY_OFFSET))(this);
 		}
+
 	};
 }

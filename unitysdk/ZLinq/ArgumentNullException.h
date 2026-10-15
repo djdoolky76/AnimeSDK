@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET UNITYSDK_OFFSET(0x1F007EC0)
-#define ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET UNITYSDK_OFFSET(0x1F007F20)
+#define ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET UNITYSDK_OFFSET(0x1F663640)
+#define ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET UNITYSDK_OFFSET(0x1F6636A0)
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6080;
+	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6088;
 
 	class ArgumentNullException : public ::System::Object
 	{
@@ -23,5 +23,6 @@ namespace ZLinq
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET))(a1);
 		}
+
 	};
 }

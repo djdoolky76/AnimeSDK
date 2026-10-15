@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RemoveMazeBuff; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVEMAZEBUFF_METHOD_3_285DF138332F6821_OFFSET UNITYSDK_OFFSET(0x1DB8DEF0)
-#define RPG_GAMECORE_REMOVEMAZEBUFF_METHOD_3_FCB2CD8853F4B838_OFFSET UNITYSDK_OFFSET(0x1DB8DEB0)
-#define RPG_GAMECORE_REMOVEMAZEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8DEE0)
+#define RPG_GAMECORE_REMOVEMAZEBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D958230)
+#define RPG_GAMECORE_REMOVEMAZEBUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D958240)
+#define RPG_GAMECORE_REMOVEMAZEBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D958200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveMazeBuff_TypeDefinitionIndex = 20182;
+	inline static constexpr unsigned int RemoveMazeBuff_TypeDefinitionIndex = 20420;
 
 	class RemoveMazeBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::UInt32 ID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAZEBUFF__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAZEBUFF_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FCB2CD8853F4B838(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveMazeBuff*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RemoveMazeBuff* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveMazeBuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAZEBUFF_METHOD_3_FCB2CD8853F4B838_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RemoveMazeBuff*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAZEBUFF_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_285DF138332F6821(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveMazeBuff* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RemoveMazeBuff* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveMazeBuff*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAZEBUFF_METHOD_3_285DF138332F6821_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RemoveMazeBuff*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAZEBUFF_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

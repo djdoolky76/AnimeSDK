@@ -4,7 +4,6 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -15,17 +14,17 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BADD660)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1BADD4B0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1BADD650)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1BADD510)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1BADD5E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1BADD640)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BADD5D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1BADD570)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1BADD7A0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BADD7C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD62C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE87DB0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EE87C50)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EE87AA0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE808B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EE87C40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EE87B00)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE87BD0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EE87C30)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE87BC0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE87B60)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EE87D90)
 
 namespace System::Xml::Schema
 {
@@ -36,21 +35,22 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_anySimpleType_TypeDefinitionIndex)->GetStaticField(0x1C1C0);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_anySimpleType")->GetStaticField(0x2D770);
 		}
+
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_anySimpleType_TypeDefinitionIndex)->GetStaticField(0x1C1C8);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_anySimpleType")->GetStaticField(0x2D778);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_CCTOR_OFFSET))();
 		}
 
 		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
@@ -93,9 +93,10 @@ namespace System::Xml::Schema
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object* a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYSIMPLETYPE_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

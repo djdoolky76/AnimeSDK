@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TimeRewindPreloadConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TIMEREWINDPRELOADCONFIG_METHOD_2_BBCF7B323B3A8579_OFFSET UNITYSDK_OFFSET(0x1D5293A0)
-#define RPG_GAMECORE_TIMEREWINDPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5294F0)
+#define RPG_GAMECORE_TIMEREWINDPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5B900)
+#define RPG_GAMECORE_TIMEREWINDPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5B7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindPreloadConfig_TypeDefinitionIndex = 16416;
+	inline static constexpr unsigned int TimeRewindPreloadConfig_TypeDefinitionIndex = 16592;
 
 	class TimeRewindPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -17,15 +17,15 @@ namespace RPG::GameCore
 		::System::Single ReleaseTime; // 0x10
 		::System::UInt32 MaxPreloadCount; // 0x14
 		::System::Single ReleaseDistance; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDPRELOADCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDPRELOADCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BBCF7B323B3A8579(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindPreloadConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRewindPreloadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDPRELOADCONFIG_METHOD_2_BBCF7B323B3A8579_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRewindPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDPRELOADCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

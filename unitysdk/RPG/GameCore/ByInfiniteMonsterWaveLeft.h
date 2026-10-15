@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByInfiniteMonsterWaveLeft; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_32C8BD2F7A4A9D61_OFFSET UNITYSDK_OFFSET(0x1BBEC770)
-#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_58AF3567F4A899AE_OFFSET UNITYSDK_OFFSET(0x1BBEC7B0)
-#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_7D8344CAE46B1B04_OFFSET UNITYSDK_OFFSET(0x1BBEC590)
-#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_C4EB45136157ADBD_OFFSET UNITYSDK_OFFSET(0x1BBEC5E0)
-#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEC5D0)
+#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D8790)
+#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4D8970)
+#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4D8930)
+#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4D87A0)
+#define RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4D8750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByInfiniteMonsterWaveLeft_TypeDefinitionIndex = 22322;
+	inline static constexpr unsigned int ByInfiniteMonsterWaveLeft_TypeDefinitionIndex = 22573;
 
 	class ByInfiniteMonsterWaveLeft : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Int32 TotalRank; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7D8344CAE46B1B04(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_7D8344CAE46B1B04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C4EB45136157ADBD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_C4EB45136157ADBD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_32C8BD2F7A4A9D61(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_32C8BD2F7A4A9D61_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_58AF3567F4A899AE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInfiniteMonsterWaveLeft* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_METHOD_4_58AF3567F4A899AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInfiniteMonsterWaveLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINFINITEMONSTERWAVELEFT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

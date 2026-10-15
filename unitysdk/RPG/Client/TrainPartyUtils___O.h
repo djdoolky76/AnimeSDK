@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyUtils___O_TypeDefinitionIndex = 68163;
+	inline static constexpr unsigned int TrainPartyUtils___O_TypeDefinitionIndex = 68171;
 
 	class TrainPartyUtils___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet__0____OnEntityLoadFinish()
 		{
-			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyUtils___O_TypeDefinitionIndex)->GetStaticField(0x5B9C0);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x211F0);
 		}
+
 	};
 }

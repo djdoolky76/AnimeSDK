@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDialog; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -9,50 +9,30 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B9C4740)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CLEARINPUT_OFFSET UNITYSDK_OFFSET(0x1B9C5A70)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CLOSEBTNCLIEKD_OFFSET UNITYSDK_OFFSET(0x1B9C5EC0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B9C5C90)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_ENDEDIT_OFFSET UNITYSDK_OFFSET(0x1B9C5EE0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1B9C4700)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONENDEDIT_OFFSET UNITYSDK_OFFSET(0x1B9C4720)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B9C46C0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9C46E0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B9C5C00)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_ONINPUT_OFFSET UNITYSDK_OFFSET(0x1B9C5E50)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1B9C4710)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONENDEDIT_OFFSET UNITYSDK_OFFSET(0x1B9C4730)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B9C46D0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9C46F0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B9C5AA0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_TIPSBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1B9C5EA0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B9C5600)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C5F10)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC07B0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CLEARINPUT_OFFSET UNITYSDK_OFFSET(0x1BFC1A40)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CLOSEBTNCLIEKD_OFFSET UNITYSDK_OFFSET(0x1BFC1E90)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFC1C60)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC1EB0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1BFC0790)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFC0750)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x1BFC0770)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFC1BD0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_ONINPUT_OFFSET UNITYSDK_OFFSET(0x1BFC1E20)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1BFC07A0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFC0760)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x1BFC0780)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFC1A70)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_TIPSBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFC1E70)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BFC15D0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AgeGateParentalConsentDialog_TypeDefinitionIndex = 8335;
+	inline static constexpr unsigned int AgeGateParentalConsentDialog_TypeDefinitionIndex = 8378;
 
 	class AgeGateParentalConsentDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog_TypeDefinitionIndex)->GetStaticField(0x20980);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* closeBtnPath; // 0x0
-		// static const ::System::String* titleTextPath; // 0x0
-		// static const ::System::String* subTitleTextPath; // 0x0
-		// static const ::System::String* tipsTextPath; // 0x0
-		// static const ::System::String* tipsBtnPath; // 0x0
-		// static const ::System::String* inputTitleTextPath; // 0x0
-		// static const ::System::String* inputFieldPath; // 0x0
-		// static const ::System::String* inputTextPath; // 0x0
-		// static const ::System::String* inputPlaceholderPath; // 0x0
-		// static const ::System::String* inputClearBtnPath; // 0x0
-		// static const ::System::String* confirmBtnPath; // 0x0
-		// static const ::System::String* confirmBtnTextPath; // 0x0
 		::UnityEngine::UI::Button* closeBtn; // 0x58
 		::UnityEngine::UI::Text* title; // 0x60
 		::UnityEngine::UI::Text* subTitle; // 0x68
@@ -68,11 +48,27 @@ namespace MiHoYo::SDK::UI
 		::System::Action_1<::System::String*>* _OnNextButtonClicked_k__BackingField; // 0xB8
 		::System::Action* _OnShowParentalControlProcessButtonPressed_k__BackingField; // 0xC0
 		::System::Action* _OnCloseBtnCliked_k__BackingField; // 0xC8
-		::System::Action* _OnEndEdit_k__BackingField; // 0xD0
+		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog**)UnitySDK::FromName("MiHoYo.SDK.UI", "AgeGateParentalConsentDialog")->GetStaticField(0x2AC40);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* closeBtnPath; // 0x0
+		// static const ::System::String* titleTextPath; // 0x0
+		// static const ::System::String* subTitleTextPath; // 0x0
+		// static const ::System::String* tipsTextPath; // 0x0
+		// static const ::System::String* tipsBtnPath; // 0x0
+		// static const ::System::String* inputTitleTextPath; // 0x0
+		// static const ::System::String* inputFieldPath; // 0x0
+		// static const ::System::String* inputTextPath; // 0x0
+		// static const ::System::String* inputPlaceholderPath; // 0x0
+		// static const ::System::String* inputClearBtnPath; // 0x0
+		// static const ::System::String* confirmBtnPath; // 0x0
+		// static const ::System::String* confirmBtnTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CTOR_OFFSET))(this);
 		}
 
 		::System::Action_1<::System::String*>* get_OnNextButtonClicked()
@@ -103,16 +99,6 @@ namespace MiHoYo::SDK::UI
 		::System::Void set_OnCloseBtnCliked(::System::Action* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONCLOSEBTNCLIKED_OFFSET))(this, a1);
-		}
-
-		::System::Action* get_OnEndEdit()
-		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONENDEDIT_OFFSET))(this);
-		}
-
-		::System::Void set_OnEndEdit(::System::Action* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONENDEDIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -160,9 +146,5 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CLOSEBTNCLIEKD_OFFSET))(this);
 		}
 
-		::System::Void EndEdit(::System::String* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_ENDEDIT_OFFSET))(this, a1);
-		}
 	};
 }

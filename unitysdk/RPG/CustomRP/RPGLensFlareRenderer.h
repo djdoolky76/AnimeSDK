@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CRPPostprocessSubPass2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::CustomRP { class LensFlareTarget; }
 namespace RPG::CustomRP { class MaterialLibrary; }
 namespace System { class String; }
@@ -12,41 +11,42 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x185A0AB0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x185A2740)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x185A2750)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x185A0AA0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x185A2F60)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x185A0A80)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x185A0B10)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x185A19D0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC2BF40)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC29A60)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC29A90)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC2B720)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC2B730)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC29A80)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x1CC29AF0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x1CC2A9B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 37137;
+	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 37823;
 
 	class RPGLensFlareRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		static ::System::String** StaticGet__LF_FSD_KEY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x13060);
-		}
-		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x13068);
-		}
 		::UnityEngine::Material* _LensFlareMat; // 0x28
 		::System::Boolean _RTCreated; // 0x30
+		static ::System::String** StaticGet__LF_FSD_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x2E450);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x2E458);
+		}
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean Update()
@@ -78,5 +78,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
+
 	};
 }

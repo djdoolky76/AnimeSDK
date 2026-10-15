@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ReleaseEnvProfile; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_47201BD3789D6FF3_OFFSET UNITYSDK_OFFSET(0x1DB80080)
-#define RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_FD2A01FD46F48E60_OFFSET UNITYSDK_OFFSET(0x1DB80040)
-#define RPG_GAMECORE_RELEASEENVPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB80070)
+#define RPG_GAMECORE_RELEASEENVPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94A3F0)
+#define RPG_GAMECORE_RELEASEENVPROFILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94A400)
+#define RPG_GAMECORE_RELEASEENVPROFILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94A3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReleaseEnvProfile_TypeDefinitionIndex = 20515;
+	inline static constexpr unsigned int ReleaseEnvProfile_TypeDefinitionIndex = 20754;
 
 	class ReleaseEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Single Duration; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FD2A01FD46F48E60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseEnvProfile*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ReleaseEnvProfile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseEnvProfile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_FD2A01FD46F48E60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ReleaseEnvProfile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_47201BD3789D6FF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseEnvProfile* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ReleaseEnvProfile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseEnvProfile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_47201BD3789D6FF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ReleaseEnvProfile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

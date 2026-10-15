@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x194060E0)
-#define RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19406090)
-#define RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19406080)
+#define RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE571C90)
+#define RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE571CF0)
+#define RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE571CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePlayerEnterAlertDeviceTriggerEvent_TypeDefinitionIndex = 56834;
+	inline static constexpr unsigned int AdventurePlayerEnterAlertDeviceTriggerEvent_TypeDefinitionIndex = 56655;
 
 	class AdventurePlayerEnterAlertDeviceTriggerEvent : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* SourceEntity; // 0x10
 		::System::UInt32 GroupID; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -33,5 +31,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYERENTERALERTDEVICETRIGGEREVENT_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

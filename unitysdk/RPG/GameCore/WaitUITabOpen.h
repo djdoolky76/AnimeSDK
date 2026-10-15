@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitUITabOpen; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITUITABOPEN_METHOD_3_1E7B88807468A47D_OFFSET UNITYSDK_OFFSET(0x1DEC4CB0)
-#define RPG_GAMECORE_WAITUITABOPEN_METHOD_3_30EF63AB39D84594_OFFSET UNITYSDK_OFFSET(0x1DEC4D00)
-#define RPG_GAMECORE_WAITUITABOPEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC4CF0)
+#define RPG_GAMECORE_WAITUITABOPEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC77540)
+#define RPG_GAMECORE_WAITUITABOPEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC77550)
+#define RPG_GAMECORE_WAITUITABOPEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC77500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitUITabOpen_TypeDefinitionIndex = 24076;
+	inline static constexpr unsigned int WaitUITabOpen_TypeDefinitionIndex = 24355;
 
 	class WaitUITabOpen : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::System::String* TabPathPC; // 0x28
 		::System::UInt32 Index; // 0x30
 		::System::Boolean IsOpen; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUITABOPEN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUITABOPEN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1E7B88807468A47D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUITabOpen*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitUITabOpen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitUITabOpen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUITABOPEN_METHOD_3_1E7B88807468A47D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitUITabOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUITABOPEN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_30EF63AB39D84594(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUITabOpen* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitUITabOpen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitUITabOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUITABOPEN_METHOD_3_30EF63AB39D84594_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitUITabOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUITABOPEN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

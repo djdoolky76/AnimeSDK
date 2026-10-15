@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_WIN_CALENDARUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D0D850)
-#define MIHOYO_SDK_WIN_CALENDARUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D0D890)
-#define MIHOYO_SDK_WIN_CALENDARUTILS___C__GETMONTHSTRINGARRAY_B__8_0_OFFSET UNITYSDK_OFFSET(0x15D0D8A0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCF0C60)
+#define MIHOYO_SDK_WIN_CALENDARUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF0CA0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS___C__GETMONTHSTRINGARRAY_B__8_0_OFFSET UNITYSDK_OFFSET(0x1BCF0CB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CalendarUtils___c_TypeDefinitionIndex = 9225;
+	inline static constexpr unsigned int CalendarUtils___c_TypeDefinitionIndex = 9287;
 
 	class CalendarUtils___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2F440);
+		}
+
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CalendarUtils___c_TypeDefinitionIndex)->GetStaticField(0x29E10);
-		}
-		static ::MiHoYo::SDK::Win::CalendarUtils___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Win::CalendarUtils___c**)Il2CppClass::FromTypeDefinitionIndex(CalendarUtils___c_TypeDefinitionIndex)->GetStaticField(0x29E18);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2F448);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS___C_CTOR_OFFSET))(this);
 		}
 
 		::System::String* _GetMonthStringArray_b__8_0(::System::Int32 a1)
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS___C__GETMONTHSTRINGARRAY_B__8_0_OFFSET))(this, a1);
 		}
+
 	};
 }

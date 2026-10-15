@@ -3,37 +3,37 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPropertyValue; }
+namespace RPG::GameCore { class EquipmentSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EQUIPMENTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7CD110)
-#define RPG_GAMECORE_EQUIPMENTSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CD8E0)
+#define RPG_GAMECORE_EQUIPMENTSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6532C0)
+#define RPG_GAMECORE_EQUIPMENTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D652AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentSkillRow_TypeDefinitionIndex = 13134;
+	inline static constexpr unsigned int EquipmentSkillRow_TypeDefinitionIndex = 13240;
 
 	class EquipmentSkillRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AbilityProperty; // 0x10
-		::System::String* AbilityName; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::RPG::Client::TextID SkillDesc; // 0x28
-		::RPG::Client::TextID SkillName; // 0x38
-		::System::UInt32 SkillID; // 0x48
-		::System::UInt32 Level; // 0x4C
-
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::System::String* AbilityName; // 0x20
+		::System::UInt32 Level; // 0x28
+		::System::UInt32 SkillID; // 0x2C
+		::RPG::Client::TextID SkillDesc; // 0x30
+		::RPG::Client::TextID SkillName; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTSKILLROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTSKILLROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EquipmentSkillRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::EquipmentSkillRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EquipmentSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTSKILLROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EquipmentSkillRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTSKILLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

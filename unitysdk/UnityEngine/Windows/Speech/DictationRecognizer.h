@@ -3,21 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Windows/Speech/ConfidenceLevel.h"
 #include "unitysdk/UnityEngine/Windows/Speech/DictationCompletionCause.h"
-
 namespace System { class String; }
 namespace UnityEngine::Windows::Speech { class DictationRecognizer_DictationCompletedDelegate; }
 namespace UnityEngine::Windows::Speech { class DictationRecognizer_DictationErrorHandler; }
 namespace UnityEngine::Windows::Speech { class DictationRecognizer_DictationHypothesisDelegate; }
 namespace UnityEngine::Windows::Speech { class DictationRecognizer_DictationResultDelegate; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKECOMPLETEDEVENT_OFFSET UNITYSDK_OFFSET(0x1EED7280)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKEERROREVENT_OFFSET UNITYSDK_OFFSET(0x1EED72B0)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKEHYPOTHESISGENERATEDEVENT_OFFSET UNITYSDK_OFFSET(0x1EED7220)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKERESULTGENERATEDEVENT_OFFSET UNITYSDK_OFFSET(0x1EED7250)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKECOMPLETEDEVENT_OFFSET UNITYSDK_OFFSET(0x1F413160)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKEERROREVENT_OFFSET UNITYSDK_OFFSET(0x1F413190)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKEHYPOTHESISGENERATEDEVENT_OFFSET UNITYSDK_OFFSET(0x1F413100)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKERESULTGENERATEDEVENT_OFFSET UNITYSDK_OFFSET(0x1F413130)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int DictationRecognizer_TypeDefinitionIndex = 4433;
+	inline static constexpr unsigned int DictationRecognizer_TypeDefinitionIndex = 4437;
 
 	class DictationRecognizer : public ::System::Object
 	{
@@ -27,7 +26,6 @@ namespace UnityEngine::Windows::Speech
 		::UnityEngine::Windows::Speech::DictationRecognizer_DictationResultDelegate* DictationResult; // 0x20
 		::UnityEngine::Windows::Speech::DictationRecognizer_DictationCompletedDelegate* DictationComplete; // 0x28
 		::UnityEngine::Windows::Speech::DictationRecognizer_DictationErrorHandler* DictationError; // 0x30
-
 		::System::Void DictationRecognizer_InvokeHypothesisGeneratedEvent(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKEHYPOTHESISGENERATEDEVENT_OFFSET))(this, a1);
@@ -47,5 +45,6 @@ namespace UnityEngine::Windows::Speech
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRECOGNIZER_INVOKEERROREVENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

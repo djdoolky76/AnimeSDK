@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CarControl.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFDB80)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6A5B0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarControl_TypeDefinitionIndex = 80842;
+	inline static constexpr unsigned int MonoCityCarControl_TypeDefinitionIndex = 82222;
 
 	class MonoCityCarControl : public ::CarControl
 	{
@@ -18,10 +17,10 @@ namespace RPG::Client::CityCarFlow
 		::UnityEngine::AnimationCurve* SafetyDistance2SpeedCurve; // 0x190
 		::UnityEngine::AnimationCurve* TurnSpeedRatioCurve; // 0x198
 		::UnityEngine::AnimationCurve* SlopeSpeedRatioCurve; // 0x1A0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONTROL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

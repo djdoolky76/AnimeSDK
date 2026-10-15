@@ -1,44 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/ParticleSystemCustomData.h"
 #include "unitysdk/UnityEngine/ParticleSystemCustomDataMode.h"
-
+#include "unitysdk/UnityEngine/ParticleSystem_MinMaxCurve.h"
+#include "unitysdk/UnityEngine/ParticleSystem_MinMaxGradient.h"
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE200B0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x3C6FAB0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETMODE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FF50)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETMODE_OFFSET UNITYSDK_OFFSET(0x3C6F9C0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FF90)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_OFFSET UNITYSDK_OFFSET(0x3C6F9E0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE20010)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x3C6FA20)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GET_ENABLED_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FEF0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x3C6F990)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE20030)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x3C6FA70)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETMODE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FF30)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETMODE_OFFSET UNITYSDK_OFFSET(0x3C6F9B0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTORCOMPONENTCOUNT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FF70)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTORCOMPONENTCOUNT_OFFSET UNITYSDK_OFFSET(0x3C6F9D0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FFB0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_OFFSET UNITYSDK_OFFSET(0x3C6F9F0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SET_ENABLED_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE1FF10)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x3C6F9A0)
-#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x16050)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448590)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x3C7F540)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETMODE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448430)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETMODE_OFFSET UNITYSDK_OFFSET(0x3C7F450)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448470)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_OFFSET UNITYSDK_OFFSET(0x3C7F470)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4484F0)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x3C7F4B0)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GET_ENABLED_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4483D0)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x3C7F420)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448510)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x3C7F500)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETMODE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448410)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETMODE_OFFSET UNITYSDK_OFFSET(0x3C7F440)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTORCOMPONENTCOUNT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448450)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTORCOMPONENTCOUNT_OFFSET UNITYSDK_OFFSET(0x3C7F460)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F448490)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_OFFSET UNITYSDK_OFFSET(0x3C7F480)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SET_ENABLED_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4483F0)
+#define UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x3C7F430)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_CustomDataModule_TypeDefinitionIndex = 5241;
+	inline static constexpr unsigned int ParticleSystem_CustomDataModule_TypeDefinitionIndex = 5248;
 
 	struct alignas(8) ParticleSystem_CustomDataModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10
-
 		::System::Void _ctor(::UnityEngine::ParticleSystem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_enabled()
@@ -71,90 +70,95 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::ParticleSystemCustomData))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_OFFSET))(this, a1);
 		}
 
-		/*
 		::System::Void SetVector(::UnityEngine::ParticleSystemCustomData a1, ::System::Int32 a2, ::UnityEngine::ParticleSystem_MinMaxCurve a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ParticleSystemCustomData, ::System::Int32, ::UnityEngine::ParticleSystem_MinMaxCurve))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_OFFSET))(this, a1, a2, a3);
 		}
-		*/
 
-		/*
 		::UnityEngine::ParticleSystem_MinMaxCurve GetVector(::UnityEngine::ParticleSystemCustomData a1, ::System::Int32 a2)
 		{
 			return ((::UnityEngine::ParticleSystem_MinMaxCurve(*)(::PVOID, ::UnityEngine::ParticleSystemCustomData, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_OFFSET))(this, a1, a2);
 		}
-		*/
 
-		/*
 		::System::Void SetColor(::UnityEngine::ParticleSystemCustomData a1, ::UnityEngine::ParticleSystem_MinMaxGradient a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystem_MinMaxGradient))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_OFFSET))(this, a1, a2);
 		}
-		*/
 
-		/*
 		::UnityEngine::ParticleSystem_MinMaxGradient GetColor(::UnityEngine::ParticleSystemCustomData a1)
 		{
 			return ((::UnityEngine::ParticleSystem_MinMaxGradient(*)(::PVOID, ::UnityEngine::ParticleSystemCustomData))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_OFFSET))(this, a1);
 		}
-		*/
-
-		static ::System::Boolean get_enabled_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1)
-		{
-			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem_CustomDataModule&))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GET_ENABLED_INJECTED_OFFSET))(a1);
-		}
-
-		static ::System::Void set_enabled_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::System::Boolean a2)
-		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SET_ENABLED_INJECTED_OFFSET))(a1, a2);
-		}
-
-		static ::System::Void SetMode_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2, ::UnityEngine::ParticleSystemCustomDataMode a3)
-		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystemCustomDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETMODE_INJECTED_OFFSET))(a1, a2, a3);
-		}
-
-		static ::UnityEngine::ParticleSystemCustomDataMode GetMode_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2)
-		{
-			return ((::UnityEngine::ParticleSystemCustomDataMode(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETMODE_INJECTED_OFFSET))(a1, a2);
-		}
-
-		static ::System::Void SetVectorComponentCount_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTORCOMPONENTCOUNT_INJECTED_OFFSET))(a1, a2, a3);
-		}
-
-		static ::System::Int32 GetVectorComponentCount_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2)
-		{
-			return ((::System::Int32(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_INJECTED_OFFSET))(a1, a2);
-		}
 
 		/*
-		static ::System::Void SetVector_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2, ::System::Int32 a3, ::UnityEngine::ParticleSystem_MinMaxCurve& a4)
+		static ::System::Boolean get_enabled_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData, ::System::Int32, ::UnityEngine::ParticleSystem_MinMaxCurve&))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_INJECTED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem_CustomDataModule))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GET_ENABLED_INJECTED_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::System::Void GetVector_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2, ::System::Int32 a3, ::UnityEngine::ParticleSystem_MinMaxCurve& a4)
+		static ::System::Void set_enabled_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData, ::System::Int32, ::UnityEngine::ParticleSystem_MinMaxCurve&))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_INJECTED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SET_ENABLED_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Void SetColor_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2, ::UnityEngine::ParticleSystem_MinMaxGradient& a3)
+		static ::System::Void SetMode_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2, ::UnityEngine::ParticleSystemCustomDataMode a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystem_MinMaxGradient&))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystemCustomDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETMODE_INJECTED_OFFSET))(a1, a2, a3);
 		}
 		*/
 
 		/*
-		static ::System::Void GetColor_Injected(::UnityEngine::ParticleSystem_CustomDataModule& a1, ::UnityEngine::ParticleSystemCustomData a2, ::UnityEngine::ParticleSystem_MinMaxGradient& a3)
+		static ::UnityEngine::ParticleSystemCustomDataMode GetMode_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule&, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystem_MinMaxGradient&))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::ParticleSystemCustomDataMode(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETMODE_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
+
+		/*
+		static ::System::Void SetVectorComponentCount_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTORCOMPONENTCOUNT_INJECTED_OFFSET))(a1, a2, a3);
+		}
+		*/
+
+		/*
+		static ::System::Int32 GetVectorComponentCount_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2)
+		{
+			return ((::System::Int32(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTORCOMPONENTCOUNT_INJECTED_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::System::Void SetVector_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2, ::System::Int32 a3, ::UnityEngine::ParticleSystem_MinMaxCurve a4)
+		{
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData, ::System::Int32, ::UnityEngine::ParticleSystem_MinMaxCurve))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETVECTOR_INJECTED_OFFSET))(a1, a2, a3, a4);
+		}
+		*/
+
+		/*
+		static ::System::Void GetVector_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2, ::System::Int32 a3, ::UnityEngine::ParticleSystem_MinMaxCurve a4)
+		{
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData, ::System::Int32, ::UnityEngine::ParticleSystem_MinMaxCurve))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETVECTOR_INJECTED_OFFSET))(a1, a2, a3, a4);
+		}
+		*/
+
+		/*
+		static ::System::Void SetColor_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2, ::UnityEngine::ParticleSystem_MinMaxGradient a3)
+		{
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystem_MinMaxGradient))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_SETCOLOR_INJECTED_OFFSET))(a1, a2, a3);
+		}
+		*/
+
+		/*
+		static ::System::Void GetColor_Injected(::UnityEngine::ParticleSystem_CustomDataModule a1, ::UnityEngine::ParticleSystemCustomData a2, ::UnityEngine::ParticleSystem_MinMaxGradient a3)
+		{
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem_CustomDataModule, ::UnityEngine::ParticleSystemCustomData, ::UnityEngine::ParticleSystem_MinMaxGradient))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_CUSTOMDATAMODULE_GETCOLOR_INJECTED_OFFSET))(a1, a2, a3);
+		}
+		*/
+
 	};
 }

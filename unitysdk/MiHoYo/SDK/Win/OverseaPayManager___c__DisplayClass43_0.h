@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18776C00)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1877F730)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__1_OFFSET UNITYSDK_OFFSET(0x1877F820)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__2_OFFSET UNITYSDK_OFFSET(0x1877F8A0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD95990)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1BD9E4B0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__1_OFFSET UNITYSDK_OFFSET(0x1BD9E5A0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__2_OFFSET UNITYSDK_OFFSET(0x1BD9E620)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass43_0_TypeDefinitionIndex = 9287;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass43_0_TypeDefinitionIndex = 9345;
 
 	class OverseaPayManager___c__DisplayClass43_0 : public ::System::Object
 	{
@@ -24,10 +23,9 @@ namespace MiHoYo::SDK::Win
 		::System::String* accountId; // 0x18
 		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x20
 		::System::String* cookieToken; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OpenAgeLimitWebPassport_b__0(::MiHoYo::SDK::Web* a1, ::System::String* a2)
@@ -44,5 +42,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

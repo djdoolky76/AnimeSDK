@@ -6,19 +6,18 @@
 #include "unitysdk/UnityEngine/Rendering/SSGIRayMarchingMethod.h"
 #include "unitysdk/UnityEngine/Rendering/SSGIRayMarchingQuality.h"
 #include "unitysdk/UnityEngine/Rendering/SSGISettings.h"
-
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_BOOLFIELD_OFFSET UNITYSDK_OFFSET(0x185B5D30)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_FLOATFIELD_OFFSET UNITYSDK_OFFSET(0x185B5AA0)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_INTFIELD_OFFSET UNITYSDK_OFFSET(0x185B5C00)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_ONGUI_OFFSET UNITYSDK_OFFSET(0x185B5D50)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET UNITYSDK_OFFSET(0x185B5A00)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x185B5990)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_BOOLFIELD_OFFSET UNITYSDK_OFFSET(0x1CC3EDC0)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3EA20)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_FLOATFIELD_OFFSET UNITYSDK_OFFSET(0x1CC3EB30)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_INTFIELD_OFFSET UNITYSDK_OFFSET(0x1CC3EC90)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_ONGUI_OFFSET UNITYSDK_OFFSET(0x1CC3EDE0)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET UNITYSDK_OFFSET(0x1CC3EA90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionSetting_SSGISettingData_TypeDefinitionIndex = 37168;
+	inline static constexpr unsigned int ReflectionSetting_SSGISettingData_TypeDefinitionIndex = 37854;
 
 	class ReflectionSetting_SSGISettingData : public ::System::Object
 	{
@@ -28,8 +27,10 @@ namespace RPG::CustomRP
 		::System::Single ScreenFadeDist; // 0x18
 		::System::Boolean Denoise; // 0x1C
 		::System::Boolean DenoiseEnablePrePostTransform; // 0x1D
+		::System::Byte _padding0[0x2];
 		::System::Int32 SpatialFilterIterCount; // 0x20
 		::System::Boolean SpatialFilterJitter; // 0x24
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Rendering::SSGIDisocclusionFixMethod DisocclusionFixMethod; // 0x28
 		::System::Int32 TemporalSampleCount; // 0x2C
 		::System::Int32 TemporalSampleCountFast; // 0x30
@@ -42,20 +43,21 @@ namespace RPG::CustomRP
 		::System::Single MainLightIndirectBoost; // 0x4C
 		::System::Single ObjectThickness; // 0x50
 		::System::Boolean PostTAA; // 0x54
+		::System::Byte _padding2[0x3];
 		::System::Single PostTAAWeight; // 0x58
 		::System::Boolean Upscale; // 0x5C
+		::System::Byte _padding3[0x3];
 		::System::Int32 UpscaleResolutionHeight; // 0x60
 		::UnityEngine::Rendering::SSGIApplyMode ApplyMode; // 0x64
 		::System::Single Intensity; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Void ToEngine(::UnityEngine::Rendering::SSGISettings& a1)
+		::System::Void ToEngine(::UnityEngine::Rendering::SSGISettings a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::SSGISettings&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::SSGISettings))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET))(this, a1);
 		}
 
 		::System::Single FloatField(::System::Single a1, ::System::String* a2, ::System::Single a3, ::System::Single a4)
@@ -77,5 +79,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_ONGUI_OFFSET))(this);
 		}
+
 	};
 }

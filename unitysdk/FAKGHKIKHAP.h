@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FAKGHKIKHAP_TypeDefinitionIndex = 26994;
+
+	enum class FAKGHKIKHAP : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		PEKJALMHPBI = 3905,
+		OMGGNOBKEOD = 3915,
+		MNFHLEPEKJK = 3934,
+		IDDAOKOGBLH = 3964,
+		AHFODNLGILO = 3942,
+		BHBEJBBHAON = 3958,
+		IFFHJNLJHKJ = 3916,
+		KKAIBLABMNO = 3960,
+		GFIFMJFAEJN = 3961,
+		GFFEPIMMIMP = 3956,
+		GPGPNBKBFHJ = 3939,
+		PFLBJLOHCLJ = 3925,
+		KFOAFFPIMNF = 3908,
+		CEGHENGKHFK = 3968,
+		KLLEAKMDKKB = 3983,
+	};

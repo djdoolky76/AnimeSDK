@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
-class Class_2_01F4079471966D8C;
+class PKLHDDGKKOC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class StoryEntityAnimatorParam; }
 namespace RPGTools::Timeline { class StoryPropAnimatorParamClip; }
 namespace UnityEngine { class Animator; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B0CD190)
-#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_METHOD_2_2999DA53B42F4D47_OFFSET UNITYSDK_OFFSET(0x1B0CD300)
-#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_METHOD_2_5B33B93278C1F253_OFFSET UNITYSDK_OFFSET(0x1B0CD410)
-#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B0CD1B0)
-#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B0CD1A0)
-#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0CD560)
+#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE939CD0)
+#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE939900)
+#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_NIAADEAMMIJ_OFFSET UNITYSDK_OFFSET(0xE939B80)
+#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_OLKILDAGBFM_OFFSET UNITYSDK_OFFSET(0xE939A70)
+#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE939920)
+#define RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE939910)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropAnimatorParamBehaviour_TypeDefinitionIndex = 48695;
+	inline static constexpr unsigned int StoryPropAnimatorParamBehaviour_TypeDefinitionIndex = 48235;
 
 	class StoryPropAnimatorParamBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::StoryPropAnimatorParamClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::StoryPropAnimatorParamClip* get_Clip()
@@ -46,14 +44,15 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_2999DA53B42F4D47(::Class_2_01F4079471966D8C* a1, ::RPGTools::Timeline::StoryEntityAnimatorParam* a2)
+		::System::Void OLKILDAGBFM(::PKLHDDGKKOC* a1, ::RPGTools::Timeline::StoryEntityAnimatorParam* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_01F4079471966D8C*, ::RPGTools::Timeline::StoryEntityAnimatorParam*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_METHOD_2_2999DA53B42F4D47_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::PKLHDDGKKOC*, ::RPGTools::Timeline::StoryEntityAnimatorParam*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_OLKILDAGBFM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_5B33B93278C1F253(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Animator* a2)
+		::System::Void NIAADEAMMIJ(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Animator* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_METHOD_2_5B33B93278C1F253_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPANIMATORPARAMBEHAVIOUR_NIAADEAMMIJ_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

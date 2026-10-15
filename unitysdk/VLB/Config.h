@@ -2,42 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/VLB/RenderingMode.h"
-
+#include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class TextAsset; }
+namespace VLB { class Config; }
 
-#define VLB_CONFIG_GET_ACTUALRENDERINGMODE_OFFSET UNITYSDK_OFFSET(0x10502E60)
-#define VLB_CONFIG_GET_BEAMSHADER_OFFSET UNITYSDK_OFFSET(0x10505EF0)
-#define VLB_CONFIG_GET_GLOBALNOISEPARAM_OFFSET UNITYSDK_OFFSET(0x10505F00)
-#define VLB_CONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x10502E50)
-#define VLB_CONFIG_GET_USESINGLEPASSSHADER_OFFSET UNITYSDK_OFFSET(0x105033D0)
-#define VLB_CONFIG_METHOD_3_C302CE84D96D179E_OFFSET UNITYSDK_OFFSET(0x10505F10)
-#define VLB_CONFIG_METHOD_3_F97007FB78F3F2C9_OFFSET UNITYSDK_OFFSET(0x10506100)
-#define VLB_CONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10506080)
-#define VLB_CONFIG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x10506170)
-#define VLB_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10506180)
+#define VLB_CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E8E80)
+#define VLB_CONFIG_GET_ACTUALRENDERINGMODE_OFFSET UNITYSDK_OFFSET(0xE9E5B60)
+#define VLB_CONFIG_GET_BEAMSHADER_OFFSET UNITYSDK_OFFSET(0xE9E8BF0)
+#define VLB_CONFIG_GET_GLOBALNOISEPARAM_OFFSET UNITYSDK_OFFSET(0xE9E8C00)
+#define VLB_CONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xE9E5B50)
+#define VLB_CONFIG_GET_USESINGLEPASSSHADER_OFFSET UNITYSDK_OFFSET(0xE9E60D0)
+#define VLB_CONFIG_HECDDLBMPJI_OFFSET UNITYSDK_OFFSET(0xE9E8C10)
+#define VLB_CONFIG_JGDKHDMKNPK_OFFSET UNITYSDK_OFFSET(0xE9E8E00)
+#define VLB_CONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE9E8D80)
+#define VLB_CONFIG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xE9E8E70)
 
 namespace VLB
 {
-	inline static constexpr unsigned int Config_TypeDefinitionIndex = 49411;
+	inline static constexpr unsigned int Config_TypeDefinitionIndex = 48985;
 
 	class Config : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::VLB::Config** StaticGet_m_Instance()
-		{
-			return (::VLB::Config**)Il2CppClass::FromTypeDefinitionIndex(Config_TypeDefinitionIndex)->GetStaticField(0x5B190);
-		}
 		::System::Boolean geometryOverrideLayer; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 geometryLayerID; // 0x1C
 		::System::String* geometryTag; // 0x20
 		::System::Int32 geometryRenderQueue; // 0x28
 		::System::Boolean forceSinglePass; // 0x2C
+		::System::Byte _padding1[0x3];
 		::VLB::RenderingMode renderingMode; // 0x30
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Shader* beamShader1Pass; // 0x38
 		::UnityEngine::Shader* beamShader2Pass; // 0x40
 		::System::Int32 sharedMeshSides; // 0x48
@@ -46,12 +45,17 @@ namespace VLB
 		::UnityEngine::Vector3 globalNoiseVelocity; // 0x54
 		::UnityEngine::TextAsset* noise3DData; // 0x60
 		::System::Int32 noise3DSize; // 0x68
+		::System::Byte _padding3[0x4];
 		::UnityEngine::ParticleSystem* dustParticlesPrefab; // 0x70
 		::System::Int32 pluginVersion; // 0x78
+		static ::VLB::Config** StaticGet_m_Instance()
+		{
+			return (::VLB::Config**)UnitySDK::FromName("VLB", "Config")->GetStaticField(0x14570);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_CONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_CONFIG_CTOR_OFFSET))(this);
 		}
 
 		::VLB::RenderingMode get_actualRenderingMode()
@@ -74,9 +78,9 @@ namespace VLB
 			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_CONFIG_GET_GLOBALNOISEPARAM_OFFSET))(this);
 		}
 
-		::UnityEngine::ParticleSystem* Method_3_C302CE84D96D179E()
+		::UnityEngine::ParticleSystem* HECDDLBMPJI()
 		{
-			return ((::UnityEngine::ParticleSystem*(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_CONFIG_METHOD_3_C302CE84D96D179E_OFFSET))(this);
+			return ((::UnityEngine::ParticleSystem*(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_CONFIG_HECDDLBMPJI_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -84,9 +88,9 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_CONFIG_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_F97007FB78F3F2C9(::System::Int32 a1, ::System::Int32 a2)
+		::System::Void JGDKHDMKNPK(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + VLB_CONFIG_METHOD_3_F97007FB78F3F2C9_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + VLB_CONFIG_JGDKHDMKNPK_OFFSET))(this, a1, a2);
 		}
 
 		static ::VLB::Config* get_Instance()
@@ -98,5 +102,6 @@ namespace VLB
 		{
 			return ((::System::Void(*)(::VLB::Config*))((::PBYTE)hIl2Cpp + VLB_CONFIG_SET_INSTANCE_OFFSET))(a1);
 		}
+
 	};
 }

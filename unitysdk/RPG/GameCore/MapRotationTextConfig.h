@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MapRotationTextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_METHOD_2_6F19273377D731CD_OFFSET UNITYSDK_OFFSET(0x1D49BF00)
-#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49C620)
+#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D802900)
+#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8021E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationTextConfig_TypeDefinitionIndex = 16840;
+	inline static constexpr unsigned int MapRotationTextConfig_TypeDefinitionIndex = 17034;
 
 	class MapRotationTextConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::System::String* EnergyFillText; // 0x30
 		::System::String* NotInVolumeText; // 0x38
 		::System::String* RemovePoseSwitcherText; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONTEXTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONTEXTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6F19273377D731CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationTextConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationTextConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationTextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONTEXTCONFIG_METHOD_2_6F19273377D731CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationTextConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONTEXTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

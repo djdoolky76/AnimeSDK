@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B580B20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x1B580B10)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B580CA0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B580DA0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E5C40)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E5E90)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE8E5C30)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E5D90)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoFaceBlusherTimelineTrack_TypeDefinitionIndex = 49232;
+	inline static constexpr unsigned int EmoFaceBlusherTimelineTrack_TypeDefinitionIndex = 48778;
 
 	class EmoFaceBlusherTimelineTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_UseUniqueCharacterName()
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOFACEBLUSHERTIMELINETRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

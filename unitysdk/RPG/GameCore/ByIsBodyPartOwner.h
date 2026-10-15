@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsBodyPartOwner; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_06947BDB8B588370_OFFSET UNITYSDK_OFFSET(0x1CD96B80)
-#define RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_24CD3E5BC3DC4EEF_OFFSET UNITYSDK_OFFSET(0x1CD96D40)
-#define RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_C36CF3E321D4B591_OFFSET UNITYSDK_OFFSET(0x1CD96D70)
-#define RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_D66BD13C5CDDF0D5_OFFSET UNITYSDK_OFFSET(0x1CD96BC0)
-#define RPG_GAMECORE_BYISBODYPARTOWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD96BB0)
+#define RPG_GAMECORE_BYISBODYPARTOWNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DCA80)
+#define RPG_GAMECORE_BYISBODYPARTOWNER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4DCC40)
+#define RPG_GAMECORE_BYISBODYPARTOWNER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4DCC10)
+#define RPG_GAMECORE_BYISBODYPARTOWNER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4DCA90)
+#define RPG_GAMECORE_BYISBODYPARTOWNER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4DCA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsBodyPartOwner_TypeDefinitionIndex = 23049;
+	inline static constexpr unsigned int ByIsBodyPartOwner_TypeDefinitionIndex = 23314;
 
 	class ByIsBodyPartOwner : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_06947BDB8B588370(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsBodyPartOwner*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsBodyPartOwner* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsBodyPartOwner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_06947BDB8B588370_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsBodyPartOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D66BD13C5CDDF0D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsBodyPartOwner* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsBodyPartOwner* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsBodyPartOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_D66BD13C5CDDF0D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsBodyPartOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_24CD3E5BC3DC4EEF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartOwner*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartOwner* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartOwner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_24CD3E5BC3DC4EEF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C36CF3E321D4B591(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartOwner* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartOwner* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_METHOD_4_C36CF3E321D4B591_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTOWNER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

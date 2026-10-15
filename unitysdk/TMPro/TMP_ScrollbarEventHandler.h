@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define TMPRO_TMP_SCROLLBAREVENTHANDLER_ONDESELECT_OFFSET UNITYSDK_OFFSET(0x18B5C6F0)
-#define TMPRO_TMP_SCROLLBAREVENTHANDLER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x18B5C580)
-#define TMPRO_TMP_SCROLLBAREVENTHANDLER_ONSELECT_OFFSET UNITYSDK_OFFSET(0x18B5C630)
-#define TMPRO_TMP_SCROLLBAREVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B5C7B0)
+#define TMPRO_TMP_SCROLLBAREVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F09D0)
+#define TMPRO_TMP_SCROLLBAREVENTHANDLER_ONDESELECT_OFFSET UNITYSDK_OFFSET(0x1F2F0910)
+#define TMPRO_TMP_SCROLLBAREVENTHANDLER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1F2F07A0)
+#define TMPRO_TMP_SCROLLBAREVENTHANDLER_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1F2F0850)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_ScrollbarEventHandler_TypeDefinitionIndex = 43435;
+	inline static constexpr unsigned int TMP_ScrollbarEventHandler_TypeDefinitionIndex = 44627;
 
 	class TMP_ScrollbarEventHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean isSelected; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SCROLLBAREVENTHANDLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SCROLLBAREVENTHANDLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -38,5 +36,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SCROLLBAREVENTHANDLER_ONDESELECT_OFFSET))(this, a1);
 		}
+
 	};
 }

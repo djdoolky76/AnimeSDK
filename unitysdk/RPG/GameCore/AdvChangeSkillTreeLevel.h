@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvChangeSkillTreeLevel; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_METHOD_3_3C7F3E90BF62B9F6_OFFSET UNITYSDK_OFFSET(0x1D6B2250)
-#define RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_METHOD_3_B1B3B1B66E39E3E3_OFFSET UNITYSDK_OFFSET(0x1D6B2290)
-#define RPG_GAMECORE_ADVCHANGESKILLTREELEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B2280)
+#define RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36B700)
+#define RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36B710)
+#define RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36B6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvChangeSkillTreeLevel_TypeDefinitionIndex = 21574;
+	inline static constexpr unsigned int AdvChangeSkillTreeLevel_TypeDefinitionIndex = 21822;
 
 	class AdvChangeSkillTreeLevel : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHANGESKILLTREELEVEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3C7F3E90BF62B9F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChangeSkillTreeLevel*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvChangeSkillTreeLevel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvChangeSkillTreeLevel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_METHOD_3_3C7F3E90BF62B9F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvChangeSkillTreeLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B1B3B1B66E39E3E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChangeSkillTreeLevel* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvChangeSkillTreeLevel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvChangeSkillTreeLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_METHOD_3_B1B3B1B66E39E3E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvChangeSkillTreeLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHANGESKILLTREELEVEL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

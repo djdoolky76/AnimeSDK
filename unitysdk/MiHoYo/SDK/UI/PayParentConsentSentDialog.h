@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI { class PayParentConsentSentDialog; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -9,40 +9,27 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CD6EE40)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_CLOSE_OFFSET UNITYSDK_OFFSET(0x1CD6FBF0)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1CD6FB50)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_GET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1CD6EE00)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_GET_ONSENDBTNCLIEKD_OFFSET UNITYSDK_OFFSET(0x1CD6EE20)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1CD6BCD0)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SENDEMAILPRESSED_OFFSET UNITYSDK_OFFSET(0x1CD6FBC0)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1CD6EE10)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONSENDBTNCLIEKD_OFFSET UNITYSDK_OFFSET(0x1CD6EE30)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1CD6BB50)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1CD6BD80)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1CD6F6F0)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6FC10)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFE2C00)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BFE39B0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BFE3910)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE39D0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_GET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1BFE2BC0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_GET_ONSENDBTNCLIEKD_OFFSET UNITYSDK_OFFSET(0x1BFE2BE0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFDFA90)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SENDEMAILPRESSED_OFFSET UNITYSDK_OFFSET(0x1BFE3980)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONCLOSEBTNCLIKED_OFFSET UNITYSDK_OFFSET(0x1BFE2BD0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONSENDBTNCLIEKD_OFFSET UNITYSDK_OFFSET(0x1BFE2BF0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFDF910)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BFDFB40)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BFE34B0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int PayParentConsentSentDialog_TypeDefinitionIndex = 8337;
+	inline static constexpr unsigned int PayParentConsentSentDialog_TypeDefinitionIndex = 8380;
 
 	class PayParentConsentSentDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::PayParentConsentSentDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::PayParentConsentSentDialog**)Il2CppClass::FromTypeDefinitionIndex(PayParentConsentSentDialog_TypeDefinitionIndex)->GetStaticField(0x26120);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* closeBtnPath; // 0x0
-		// static const ::System::String* titleTextPath; // 0x0
-		// static const ::System::String* subtitleTextPath; // 0x0
-		// static const ::System::String* emailTitleTextPath; // 0x0
-		// static const ::System::String* emailTextPath; // 0x0
-		// static const ::System::String* resenBtnPath; // 0x0
-		// static const ::System::String* resenBtnTextPath; // 0x0
-		// static const ::System::String* hintTextPath; // 0x0
 		::UnityEngine::UI::Button* closeBtn; // 0x58
 		::UnityEngine::UI::Text* title; // 0x60
 		::UnityEngine::UI::Text* subTitle; // 0x68
@@ -55,10 +42,23 @@ namespace MiHoYo::SDK::UI
 		::System::Action_1<::System::String*>* _OnSendBtnCliekd_k__BackingField; // 0xA0
 		::System::String* emailTextStr; // 0xA8
 		::System::Single countDownTime; // 0xB0
+		static ::MiHoYo::SDK::UI::PayParentConsentSentDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::PayParentConsentSentDialog**)UnitySDK::FromName("MiHoYo.SDK.UI", "PayParentConsentSentDialog")->GetStaticField(0x2B990);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* closeBtnPath; // 0x0
+		// static const ::System::String* titleTextPath; // 0x0
+		// static const ::System::String* subtitleTextPath; // 0x0
+		// static const ::System::String* emailTitleTextPath; // 0x0
+		// static const ::System::String* emailTextPath; // 0x0
+		// static const ::System::String* resenBtnPath; // 0x0
+		// static const ::System::String* resenBtnTextPath; // 0x0
+		// static const ::System::String* hintTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_CTOR_OFFSET))(this);
 		}
 
 		::System::Action* get_onCloseBtnCliked()
@@ -120,5 +120,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_CLOSE_OFFSET))(this);
 		}
+
 	};
 }

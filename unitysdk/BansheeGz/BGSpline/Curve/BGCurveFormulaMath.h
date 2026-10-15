@@ -1,41 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_Config; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_AFTERINIT_OFFSET UNITYSDK_OFFSET(0x183BF820)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x183BFCE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x183BFC60)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x183BF810)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_AFTERINIT_OFFSET UNITYSDK_OFFSET(0x1C4EC570)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x1C4ECA30)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4EC560)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C4EC9B0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveFormulaMath_TypeDefinitionIndex = 35322;
+	inline static constexpr unsigned int BGCurveFormulaMath_TypeDefinitionIndex = 36009;
 
 	class BGCurveFormulaMath : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath
 	{
 	public:
-		::Il2CppArray<::System::Single>* bakedTx2; // 0x78
-		::Il2CppArray<::System::Single>* bakedTxTrx2; // 0x80
-		::Il2CppArray<::System::Single>* bakedTr2x3; // 0x88
-		::Il2CppArray<::System::Single>* bakedTrx2; // 0x90
-		::Il2CppArray<::System::Single>* bakedT2x3; // 0x98
-		::Il2CppArray<::System::Single>* bakedT2xTrx3; // 0xA0
-		::Il2CppArray<::System::Single>* bakedT; // 0xA8
+		::Il2CppArray<::System::Single>* bakedT2; // 0x78
+		::Il2CppArray<::System::Single>* bakedT2x3; // 0x80
+		::Il2CppArray<::System::Single>* bakedTx2; // 0x88
+		::Il2CppArray<::System::Single>* bakedT2xTrx3; // 0x90
+		::Il2CppArray<::System::Single>* bakedTr2; // 0x98
+		::Il2CppArray<::System::Single>* bakedT; // 0xA0
+		::Il2CppArray<::System::Single>* bakedTrx2; // 0xA8
 		::Il2CppArray<::System::Single>* bakedTr2xTx3; // 0xB0
-		::Il2CppArray<::System::Single>* bakedTr3; // 0xB8
-		::Il2CppArray<::System::Single>* bakedTr2; // 0xC0
+		::Il2CppArray<::System::Single>* bakedTxTrx2; // 0xB8
+		::Il2CppArray<::System::Single>* bakedT3; // 0xC0
 		::Il2CppArray<::System::Single>* bakedTxTrx6; // 0xC8
-		::Il2CppArray<::System::Single>* bakedT3; // 0xD0
-		::Il2CppArray<::System::Single>* bakedT2; // 0xD8
-
+		::Il2CppArray<::System::Single>* bakedTr3; // 0xD0
+		::Il2CppArray<::System::Single>* bakedTr2x3; // 0xD8
 		::System::Void _ctor(::BansheeGz::BGSpline::Curve::BGCurve* a1, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AfterInit(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config* a1)
@@ -52,5 +50,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CALCULATESPLITSECTION_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

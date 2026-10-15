@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0B7C10)
-#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B0B7B10)
-#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B0B7D80)
-#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B7FF0)
+#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9248A0)
+#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE9247D0)
+#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE924BF0)
+#define RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE9249D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropSDFTextTrack_TypeDefinitionIndex = 48707;
+	inline static constexpr unsigned int PropSDFTextTrack_TypeDefinitionIndex = 48247;
 
 	class PropSDFTextTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPSDFTEXTTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

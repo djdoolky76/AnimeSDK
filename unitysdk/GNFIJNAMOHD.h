@@ -1,0 +1,146 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color32.h"
+class NLBIEMILEDE;
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class RenderTexture; }
+namespace UnityEngine { class Texture2D; }
+
+#define GNFIJNAMOHD_AMAFGMNJINK_OFFSET UNITYSDK_OFFSET(0x15AF59A0)
+#define GNFIJNAMOHD_BCLJLEOMHNL_OFFSET UNITYSDK_OFFSET(0x15AF5FF0)
+#define GNFIJNAMOHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x15AF6550)
+#define GNFIJNAMOHD_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF5700)
+#define GNFIJNAMOHD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15AF5B80)
+#define GNFIJNAMOHD_GGIBFEDMMIN_OFFSET UNITYSDK_OFFSET(0x15AF5DC0)
+#define GNFIJNAMOHD_GMLAFCKCLAD_OFFSET UNITYSDK_OFFSET(0x15AF60E0)
+#define GNFIJNAMOHD_HAHJDFFNOCK_OFFSET UNITYSDK_OFFSET(0x15AF5FD0)
+#define GNFIJNAMOHD_IHIDKEOCOOB_OFFSET UNITYSDK_OFFSET(0x15AF62C0)
+#define GNFIJNAMOHD_JBEHEMPJHPK_OFFSET UNITYSDK_OFFSET(0x15AF64C0)
+#define GNFIJNAMOHD_JBFOIJAOOAL_OFFSET UNITYSDK_OFFSET(0x15AF5FC0)
+#define GNFIJNAMOHD_KEFJFBPBGOI_OFFSET UNITYSDK_OFFSET(0x15AF6000)
+#define GNFIJNAMOHD_MBGGEKKOKCL_OFFSET UNITYSDK_OFFSET(0x15AF5FE0)
+#define GNFIJNAMOHD_OKHEEBIJIAO_OFFSET UNITYSDK_OFFSET(0x15AF5860)
+
+inline static constexpr unsigned int GNFIJNAMOHD_TypeDefinitionIndex = 49542;
+
+	class GNFIJNAMOHD : public ::System::Object
+	{
+	public:
+		::UnityEngine::Texture2D* LLJFHHEPLMN; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* INOMPFPICDN; // 0x18
+		::System::Collections::Generic::List_1<::NLBIEMILEDE*>* AACGHIOOEIG; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* IMJGMHKGPAO; // 0x28
+		::System::Int32 AEHDMPLHCPH; // 0x30
+		::System::Int32 ILKEFKBLLDH; // 0x34
+		::System::Int32 PPAIJHOMHEN; // 0x38
+		::System::Boolean CIDINDMHIFH; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::Single JAIKLBFJBMH; // 0x40
+		static ::Il2CppArray<::UnityEngine::Color32>** StaticGet_MLCPDAHLIJJ()
+		{
+			return (::Il2CppArray<::UnityEngine::Color32>**)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xC4D0);
+		}
+
+		static ::System::Int32* StaticGet_IPECFEHFCLB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x2930);
+		}
+
+		static ::System::Int32* StaticGet_DDHOFCOEBGO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x2934);
+		}
+
+		static ::System::Int32* StaticGet_GLHLKHCOOBF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x2938);
+		}
+
+		static ::System::Int32* StaticGet_BAGFJOFEJEK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x293C);
+		}
+
+		static ::System::Int32* StaticGet_EOLHDLLHEGO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x2940);
+		}
+
+		static ::System::Int32* StaticGet_OFGLFIJPPNH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x2944);
+		}
+
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GNFIJNAMOHD_CCTOR_OFFSET))();
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void GGIBFEDMMIN(::UnityEngine::RenderTexture* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_GGIBFEDMMIN_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Texture2D* JBFOIJAOOAL()
+		{
+			return ((::UnityEngine::Texture2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_JBFOIJAOOAL_OFFSET))(this);
+		}
+
+		::System::Single HAHJDFFNOCK()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_HAHJDFFNOCK_OFFSET))(this);
+		}
+
+		::System::Int32 MBGGEKKOKCL()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_MBGGEKKOKCL_OFFSET))(this);
+		}
+
+		::System::Int32 BCLJLEOMHNL()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_BCLJLEOMHNL_OFFSET))(this);
+		}
+
+		::System::Void OKHEEBIJIAO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_OKHEEBIJIAO_OFFSET))(this);
+		}
+
+		::System::Void AMAFGMNJINK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_AMAFGMNJINK_OFFSET))(this);
+		}
+
+		::System::Void KEFJFBPBGOI(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_KEFJFBPBGOI_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GMLAFCKCLAD(::NLBIEMILEDE* a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::NLBIEMILEDE*))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_GMLAFCKCLAD_OFFSET))(this, a1);
+		}
+
+		::System::Int32 IHIDKEOCOOB(::NLBIEMILEDE* a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::NLBIEMILEDE*))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_IHIDKEOCOOB_OFFSET))(this, a1);
+		}
+
+		::NLBIEMILEDE* JBEHEMPJHPK(::System::Int32 a1)
+		{
+			return ((::NLBIEMILEDE*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GNFIJNAMOHD_JBEHEMPJHPK_OFFSET))(this, a1);
+		}
+
+	};

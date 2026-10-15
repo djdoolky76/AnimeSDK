@@ -4,21 +4,21 @@
 #include "unitysdk/RPG/GameCore/GridFightEquipMask.h"
 #include "unitysdk/RPG/GameCore/GridFightPropertyType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareGridFightProperty; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_4228814965FA9B91_OFFSET UNITYSDK_OFFSET(0x1C31FCC0)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_A388CBC2080234EF_OFFSET UNITYSDK_OFFSET(0x1C31FC80)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_DB9DA606FA821004_OFFSET UNITYSDK_OFFSET(0x1C31F940)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_F38DF13DEF9407F9_OFFSET UNITYSDK_OFFSET(0x1C31F990)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C31F980)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D484880)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D484B90)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D484B50)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D484890)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D484840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareGridFightProperty_TypeDefinitionIndex = 22279;
+	inline static constexpr unsigned int ByCompareGridFightProperty_TypeDefinitionIndex = 22528;
 
 	class ByCompareGridFightProperty : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,30 +28,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::CompareType CompareType; // 0x2C
 		::RPG::GameCore::DynamicFloat* CompareValue; // 0x30
 		::RPG::GameCore::GridFightEquipMask EquipMask; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DB9DA606FA821004(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_DB9DA606FA821004_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F38DF13DEF9407F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_F38DF13DEF9407F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A388CBC2080234EF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_A388CBC2080234EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4228814965FA9B91(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_4228814965FA9B91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

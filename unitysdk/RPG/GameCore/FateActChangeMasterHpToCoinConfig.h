@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateActChangeMasterHpToCoinConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_METHOD_6_70BA5A10D500C65A_OFFSET UNITYSDK_OFFSET(0x1E0CC1F0)
-#define RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_METHOD_6_C0F7B7F76B28C21E_OFFSET UNITYSDK_OFFSET(0x1E0CC1A0)
-#define RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CC1E0)
+#define RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66C1B0)
+#define RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66C1C0)
+#define RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66C170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateActChangeMasterHpToCoinConfig_TypeDefinitionIndex = 18997;
+	inline static constexpr unsigned int FateActChangeMasterHpToCoinConfig_TypeDefinitionIndex = 19227;
 
 	class FateActChangeMasterHpToCoinConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_C0F7B7F76B28C21E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_METHOD_6_C0F7B7F76B28C21E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_70BA5A10D500C65A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_METHOD_6_70BA5A10D500C65A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActChangeMasterHpToCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTCHANGEMASTERHPTOCOINCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

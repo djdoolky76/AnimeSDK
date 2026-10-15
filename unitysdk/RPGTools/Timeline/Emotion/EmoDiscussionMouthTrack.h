@@ -3,24 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B57F330)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B57F470)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57F570)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E45A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E46E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E47E0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionMouthTrack_TypeDefinitionIndex = 49216;
+	inline static constexpr unsigned int EmoDiscussionMouthTrack_TypeDefinitionIndex = 48762;
 
 	class EmoDiscussionMouthTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PluginUI/IPluginUIService.h"
-
+namespace MiHoYo::SDK::PluginUI { class PluginUIProtocolService; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x19E86810)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x19E99C00)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWOVERSEAPROTOCOLPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E9B3C0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWPROTOCOLPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E9A8C0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWPROTOCOLRECONFIRMPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E99EB0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E9C260)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E99BF0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF74530)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF71EC0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BF5EB00)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x1BF71ED0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWOVERSEAPROTOCOLPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF73690)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWPROTOCOLPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF72B90)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWPROTOCOLRECONFIRMPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF72180)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIProtocolService_TypeDefinitionIndex = 9094;
+	inline static constexpr unsigned int PluginUIProtocolService_TypeDefinitionIndex = 9155;
 
 	class PluginUIProtocolService : public ::MiHoYo::SDK::PluginUI::IPluginUIService
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::PluginUIProtocolService** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIProtocolService**)Il2CppClass::FromTypeDefinitionIndex(PluginUIProtocolService_TypeDefinitionIndex)->GetStaticField(0x1AA30);
+			return (::MiHoYo::SDK::PluginUI::PluginUIProtocolService**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "PluginUIProtocolService")->GetStaticField(0x22B20);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_CCTOR_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::PluginUI::PluginUIProtocolService* GetInstance()
@@ -61,5 +61,6 @@ namespace MiHoYo::SDK::PluginUI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIPROTOCOLSERVICE_SHOWOVERSEAPROTOCOLPLUGINUI_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

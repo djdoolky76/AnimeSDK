@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define PEJHFJNLBEK_NMBJHCDDNAG_ABNPHONMCEP_OFFSET UNITYSDK_OFFSET(0xC1EA3F0)
+#define PEJHFJNLBEK_NMBJHCDDNAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1EA430)
+#define PEJHFJNLBEK_NMBJHCDDNAG_HEIJIFPBLDE_OFFSET UNITYSDK_OFFSET(0xC1EA230)
+#define PEJHFJNLBEK_NMBJHCDDNAG_HNFDPFJOKKL_OFFSET UNITYSDK_OFFSET(0xC1EA370)
+#define PEJHFJNLBEK_NMBJHCDDNAG_KDKFBMIINHP_OFFSET UNITYSDK_OFFSET(0xC1EA330)
+#define PEJHFJNLBEK_NMBJHCDDNAG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC1EA1B0)
+#define PEJHFJNLBEK_NMBJHCDDNAG_LKDBMKACOFE_OFFSET UNITYSDK_OFFSET(0xC1EA2F0)
+#define PEJHFJNLBEK_NMBJHCDDNAG_MHCMPMILKIH_OFFSET UNITYSDK_OFFSET(0xC1EA270)
+#define PEJHFJNLBEK_NMBJHCDDNAG_OFCNAGOFOKB_OFFSET UNITYSDK_OFFSET(0xC1EA1F0)
+#define PEJHFJNLBEK_NMBJHCDDNAG_PAGNEKKCHML_OFFSET UNITYSDK_OFFSET(0xC1EA2B0)
+#define PEJHFJNLBEK_NMBJHCDDNAG_PHMEJCNENGB_OFFSET UNITYSDK_OFFSET(0xC1EA3B0)
+
+inline static constexpr unsigned int PEJHFJNLBEK_NMBJHCDDNAG_TypeDefinitionIndex = 50320;
+
+	class PEJHFJNLBEK_NMBJHCDDNAG : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void KPJGDHLENIP()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_KPJGDHLENIP_OFFSET))();
+		}
+
+		static ::System::Void OFCNAGOFOKB()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_OFCNAGOFOKB_OFFSET))();
+		}
+
+		static ::System::Void HEIJIFPBLDE()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_HEIJIFPBLDE_OFFSET))();
+		}
+
+		static ::System::Void MHCMPMILKIH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_MHCMPMILKIH_OFFSET))();
+		}
+
+		static ::System::Void PAGNEKKCHML()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_PAGNEKKCHML_OFFSET))();
+		}
+
+		static ::System::Void LKDBMKACOFE()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_LKDBMKACOFE_OFFSET))();
+		}
+
+		static ::System::Void KDKFBMIINHP()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_KDKFBMIINHP_OFFSET))();
+		}
+
+		static ::System::Void HNFDPFJOKKL()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_HNFDPFJOKKL_OFFSET))();
+		}
+
+		static ::System::Void PHMEJCNENGB()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_PHMEJCNENGB_OFFSET))();
+		}
+
+		static ::System::Void ABNPHONMCEP()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PEJHFJNLBEK_NMBJHCDDNAG_ABNPHONMCEP_OFFSET))();
+		}
+
+	};

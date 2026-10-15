@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CaptureNPCToCharacter; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_2D1FAAED58BA46D3_OFFSET UNITYSDK_OFFSET(0x1D108B70)
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_F7FEA7463C8F75BA_OFFSET UNITYSDK_OFFSET(0x1D108B20)
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D108B60)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D529D00)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D529D10)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D529CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 20055;
+	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 20292;
 
 	class CaptureNPCToCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,21 +22,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* GroupNpcID; // 0x20
 		::RPG::GameCore::DynamicString* CharacterUniqueName; // 0x28
 		::System::Boolean ReleaseIfPerformanceEnd; // 0x30
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F7FEA7463C8F75BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureNPCToCharacter*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CaptureNPCToCharacter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaptureNPCToCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_F7FEA7463C8F75BA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CaptureNPCToCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2D1FAAED58BA46D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureNPCToCharacter* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CaptureNPCToCharacter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaptureNPCToCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_2D1FAAED58BA46D3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CaptureNPCToCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

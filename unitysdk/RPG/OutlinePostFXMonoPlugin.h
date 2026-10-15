@@ -1,64 +1,67 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Color.h"
-
-namespace RPG { class OutlinePostFXBehavior; }
+namespace RPG { class OutlinePostFXMonoPlugin; }
 namespace RPG { class OutlineSettings; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOBJECTRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1A372980)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A372A00)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_HASUNIFIEDMANAGER_OFFSET UNITYSDK_OFFSET(0x1A373C20)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_REGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0x1A371B70)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_UNREGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0x1A372070)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1A373CA0)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A373A90)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3740F0)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3740C0)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xE871760)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE871730)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOBJECTRENDERERLIST_OFFSET UNITYSDK_OFFSET(0xE8700E0)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0xE870140)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_HASUNIFIEDMANAGER_OFFSET UNITYSDK_OFFSET(0xE8712B0)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_REGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0xE86F380)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_UNREGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0xE86F860)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDRENDERERLIST_OFFSET UNITYSDK_OFFSET(0xE871310)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0xE871120)
 
 namespace RPG
 {
-	inline static constexpr unsigned int OutlinePostFXMonoPlugin_TypeDefinitionIndex = 52014;
+	inline static constexpr unsigned int OutlinePostFXMonoPlugin_TypeDefinitionIndex = 51719;
 
-	class OutlinePostFXMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::OutlinePostFXBehavior*>
+	class OutlinePostFXMonoPlugin
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>** StaticGet_activeList()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>**)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x2A960);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__unifiedObjectRendererList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x2A968);
-		}
-		static ::RPG::OutlineSettings** StaticGet__unifiedSettings()
-		{
-			return (::RPG::OutlineSettings**)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x2A970);
-		}
-		static ::System::Boolean* StaticGet__hasUnifiedManager()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXMonoPlugin_TypeDefinitionIndex)->GetStaticField(0xC6D0);
-		}
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* ObjectRendererList; // 0x30
 		::UnityEngine::Color OutlineColor; // 0x38
 		::System::Boolean PCHighQuality; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Int32 Downsample; // 0x4C
 		::System::Single BlurSize; // 0x50
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Shader* OutlineShader; // 0x58
 		::UnityEngine::Material* OutlineMaterial; // 0x60
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__unifiedObjectRendererList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x6F270);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>** StaticGet_activeList()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x6F278);
+		}
+
+		static ::RPG::OutlineSettings** StaticGet__unifiedSettings()
+		{
+			return (::RPG::OutlineSettings**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x6F280);
+		}
+
+		static ::System::Boolean* StaticGet__hasUnifiedManager()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x158C0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_CCTOR_OFFSET))();
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GetUnifiedObjectRendererList()
@@ -95,5 +98,6 @@ namespace RPG
 		{
 			return ((::System::Void(*)(::RPG::OutlinePostFXMonoPlugin*))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_UNREGISTERPLUGIN_OFFSET))(a1);
 		}
+
 	};
 }

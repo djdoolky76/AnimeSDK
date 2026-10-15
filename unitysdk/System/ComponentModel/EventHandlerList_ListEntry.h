@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Delegate; }
+namespace System { class Object; }
+namespace System::ComponentModel { class EventHandlerList_ListEntry; }
 
 namespace System::ComponentModel
 {
@@ -11,8 +12,8 @@ namespace System::ComponentModel
 	class EventHandlerList_ListEntry : public ::System::Object
 	{
 	public:
-		::System::Object* key; // 0x10
-		::System::Delegate* handler; // 0x18
+		::System::Delegate* handler; // 0x10
+		::System::Object* key; // 0x18
 		::System::ComponentModel::EventHandlerList_ListEntry* next; // 0x20
 	};
 }

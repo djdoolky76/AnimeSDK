@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/CustomYieldInstruction.h"
-
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define UNITYENGINE_WWW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F0152D0)
-#define UNITYENGINE_WWW_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F015160)
-#define UNITYENGINE_WWW_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1F015280)
-#define UNITYENGINE_WWW_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1F0152A0)
-#define UNITYENGINE_WWW__CTOR_OFFSET UNITYSDK_OFFSET(0x1F015120)
+#define UNITYENGINE_WWW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F53D290)
+#define UNITYENGINE_WWW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F53D440)
+#define UNITYENGINE_WWW_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F53D2D0)
+#define UNITYENGINE_WWW_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1F53D3F0)
+#define UNITYENGINE_WWW_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1F53D410)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WWW_TypeDefinitionIndex = 6026;
+	inline static constexpr unsigned int WWW_TypeDefinitionIndex = 6034;
 
 	class WWW : public ::UnityEngine::CustomYieldInstruction
 	{
 	public:
 		::UnityEngine::Networking::UnityWebRequest* _uwr; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_error()
@@ -44,5 +42,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Texture; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_ViewResources_TypeDefinitionIndex = 36869;
+	inline static constexpr unsigned int DLSSPass_ViewResources_TypeDefinitionIndex = 37556;
 
 	struct alignas(8) DLSSPass_ViewResources
 	{

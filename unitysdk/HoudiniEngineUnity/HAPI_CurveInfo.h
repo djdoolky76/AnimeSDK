@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_CurveType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 39217;
+	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 40514;
 
 	struct alignas(4) HAPI_CurveInfo
 	{
@@ -15,6 +14,7 @@ namespace HoudiniEngineUnity
 		::System::Int32 knotCount; // 0x1C
 		::System::Boolean isPeriodic; // 0x20
 		::System::Boolean isRational; // 0x21
+		::System::Byte _padding0[0x2];
 		::System::Int32 order; // 0x24
 		::System::Boolean hasKnots; // 0x28
 		::System::Boolean isClosed; // 0x29

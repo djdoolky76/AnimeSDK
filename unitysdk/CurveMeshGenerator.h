@@ -1,52 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 class BGCurveExtention;
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define CURVEMESHGENERATOR_METHOD_5_D308836DB54415C3_OFFSET UNITYSDK_OFFSET(0x184B3610)
-#define CURVEMESHGENERATOR_START_OFFSET UNITYSDK_OFFSET(0x184B33C0)
-#define CURVEMESHGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x184B3410)
-#define CURVEMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x184B4880)
+#define CURVEMESHGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB0500)
+#define CURVEMESHGENERATOR_HJMCKFEIOPN_OFFSET UNITYSDK_OFFSET(0xDFAF290)
+#define CURVEMESHGENERATOR_START_OFFSET UNITYSDK_OFFSET(0xDFAF040)
+#define CURVEMESHGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xDFAF090)
 
-inline static constexpr unsigned int CurveMeshGenerator_TypeDefinitionIndex = 47727;
+inline static constexpr unsigned int CurveMeshGenerator_TypeDefinitionIndex = 47267;
 
-class CurveMeshGenerator : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::BGCurveExtention* curve; // 0x18
-	::BansheeGz::BGSpline::Components::BGCcMath* curMath; // 0x20
-	::System::Single meshGeneratediv; // 0x28
-	::UnityEngine::MeshRenderer* meshRender; // 0x30
-	::UnityEngine::MeshFilter* meshFilter; // 0x38
-	::UnityEngine::Material* material; // 0x40
-	::System::Single uCoordinateStart; // 0x48
-	::System::Single uCoordinateEnd; // 0x4C
-	::System::Single vCoordinateScale; // 0x50
-	::System::Boolean needAdd; // 0x54
-	::System::Boolean NeedGenerate; // 0x55
-
-	::System::Void _ctor()
+	class CurveMeshGenerator : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR__CTOR_OFFSET))(this);
-	}
+	public:
+		::BGCurveExtention* curve; // 0x18
+		::BansheeGz::BGSpline::Components::BGCcMath* curMath; // 0x20
+		::System::Single meshGeneratediv; // 0x28
+		::System::Byte _padding0[0x4];
+		::UnityEngine::MeshRenderer* meshRender; // 0x30
+		::UnityEngine::MeshFilter* meshFilter; // 0x38
+		::UnityEngine::Material* material; // 0x40
+		::System::Single uCoordinateStart; // 0x48
+		::System::Single uCoordinateEnd; // 0x4C
+		::System::Single vCoordinateScale; // 0x50
+		::System::Boolean needAdd; // 0x54
+		::System::Boolean NeedGenerate; // 0x55
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_START_OFFSET))(this);
-	}
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_START_OFFSET))(this);
+		}
 
-	::System::Void Update()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_UPDATE_OFFSET))(this);
-	}
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_UPDATE_OFFSET))(this);
+		}
 
-	::System::Void Method_5_D308836DB54415C3()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_METHOD_5_D308836DB54415C3_OFFSET))(this);
-	}
-};
+		::System::Void HJMCKFEIOPN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEMESHGENERATOR_HJMCKFEIOPN_OFFSET))(this);
+		}
+
+	};

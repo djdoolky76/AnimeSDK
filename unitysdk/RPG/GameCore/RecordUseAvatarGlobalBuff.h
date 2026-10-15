@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RecordUseAvatarGlobalBuff; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_METHOD_3_BD305AE5EC3351D3_OFFSET UNITYSDK_OFFSET(0x1DB7D230)
-#define RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_METHOD_3_DA1E440FFFE21568_OFFSET UNITYSDK_OFFSET(0x1DB7D1F0)
-#define RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7D220)
+#define RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D947580)
+#define RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D947590)
+#define RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D947550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordUseAvatarGlobalBuff_TypeDefinitionIndex = 23156;
+	inline static constexpr unsigned int RecordUseAvatarGlobalBuff_TypeDefinitionIndex = 23421;
 
 	class RecordUseAvatarGlobalBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 MazeBuffID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA1E440FFFE21568(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RecordUseAvatarGlobalBuff*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RecordUseAvatarGlobalBuff* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RecordUseAvatarGlobalBuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_METHOD_3_DA1E440FFFE21568_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RecordUseAvatarGlobalBuff*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BD305AE5EC3351D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RecordUseAvatarGlobalBuff* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RecordUseAvatarGlobalBuff* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RecordUseAvatarGlobalBuff*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_METHOD_3_BD305AE5EC3351D3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RecordUseAvatarGlobalBuff*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDUSEAVATARGLOBALBUFF_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

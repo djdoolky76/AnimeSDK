@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x19F031B0)
-#define RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x19F03150)
-#define RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F03230)
+#define RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CEDC0)
+#define RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0xC7CED40)
+#define RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0xC7CECE0)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATPrototype_RendererPackage_TypeDefinitionIndex = 73564;
+	inline static constexpr unsigned int BATPrototype_RendererPackage_TypeDefinitionIndex = 73671;
 
 	class BATPrototype_RendererPackage : public ::System::Object
 	{
@@ -21,13 +20,13 @@ namespace RPG::Client::BAT
 		::System::String* identifier; // 0x10
 		::UnityEngine::Mesh* mesh; // 0x18
 		::System::UInt32 renderingLayerMask; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture2D* boneIndicesWeightsTexture; // 0x28
 		::Il2CppArray<::UnityEngine::Material*>* materialProxies; // 0x30
 		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_vertexCount()
@@ -39,5 +38,6 @@ namespace RPG::Client::BAT
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BAT_BATPROTOTYPE_RENDERERPACKAGE_GET_VALIDFORRENDERING_OFFSET))(this);
 		}
+
 	};
 }

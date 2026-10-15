@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/Effect_TransformToMaterialBehavior_TransformPropertyRotation_RotationMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15EA5D70)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA6000)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0xCD6C6B0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCD6C420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyRotation_TypeDefinitionIndex = 70539;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyRotation_TypeDefinitionIndex = 70575;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyRotation : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{
@@ -17,15 +17,15 @@ namespace RPG::Client
 		::RPG::Client::Effect_TransformToMaterialBehavior_TransformPropertyRotation_RotationMode mode; // 0x30
 		::System::Single w; // 0x34
 		::System::Boolean normalizeAngle; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector4 get_value()
 		{
 			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_GET_VALUE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine::Unity { class SkeletonPartsRenderer; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x183326E0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18332710)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x183322F0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x183325F0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF74F0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF7400)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF7520)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF7100)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonPartsRenderer_SkeletonPartsRendererDelegate_TypeDefinitionIndex = 43851;
+	inline static constexpr unsigned int SkeletonPartsRenderer_SkeletonPartsRendererDelegate_TypeDefinitionIndex = 45043;
 
 	class SkeletonPartsRenderer_SkeletonPartsRendererDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::SkeletonPartsRenderer* a1)
@@ -38,5 +37,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_SKELETONPARTSRENDERERDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

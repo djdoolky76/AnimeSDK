@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightFlowDirector_IFlowState; }
 namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0x1BD44270)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONEVENT_OFFSET UNITYSDK_OFFSET(0x1BD444B0)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONEXIT_OFFSET UNITYSDK_OFFSET(0x1BD44460)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD42D00)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xD12ADC0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0xD12C350)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONEVENT_OFFSET UNITYSDK_OFFSET(0xD12C590)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONEXIT_OFFSET UNITYSDK_OFFSET(0xD12C540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_BattleState_TypeDefinitionIndex = 64658;
+	inline static constexpr unsigned int GridFightFlowDirector_BattleState_TypeDefinitionIndex = 64598;
 
 	class GridFightFlowDirector_BattleState : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnter(::RPG::Client::GridFightFlowDirector_IFlowState* a1)
@@ -36,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowStateEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLESTATE_ONEVENT_OFFSET))(this, a1);
 		}
+
 	};
 }

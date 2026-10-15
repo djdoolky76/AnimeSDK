@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1D6141B0)
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1D614220)
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60DBF0)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1F48B7B0)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4851F0)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1F48B820)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseCaptureDispatchingStrategy_TypeDefinitionIndex = 5946;
+	inline static constexpr unsigned int MouseCaptureDispatchingStrategy_TypeDefinitionIndex = 5954;
 
 	class MouseCaptureDispatchingStrategy : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* a1)
@@ -30,5 +29,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSECAPTUREDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

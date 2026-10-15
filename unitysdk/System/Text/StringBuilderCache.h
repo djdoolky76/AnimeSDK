@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_TEXT_STRINGBUILDERCACHE_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x1B3CDA30)
-#define SYSTEM_TEXT_STRINGBUILDERCACHE_GETSTRINGANDRELEASE_OFFSET UNITYSDK_OFFSET(0x1B3CDBD0)
-#define SYSTEM_TEXT_STRINGBUILDERCACHE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B3CDB50)
+#define SYSTEM_TEXT_STRINGBUILDERCACHE_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x1C100EE0)
+#define SYSTEM_TEXT_STRINGBUILDERCACHE_GETSTRINGANDRELEASE_OFFSET UNITYSDK_OFFSET(0x1C101080)
+#define SYSTEM_TEXT_STRINGBUILDERCACHE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1C101000)
 
 namespace System::Text
 {
@@ -18,7 +17,7 @@ namespace System::Text
 	public:
 		static ::System::Text::StringBuilder** StaticGet_CachedInstance()
 		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderCache_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("System.Text", "StringBuilderCache")->GetStaticField(0x0);
 		}
 
 		static ::System::Text::StringBuilder* Acquire(::System::Int32 a1)
@@ -35,5 +34,6 @@ namespace System::Text
 		{
 			return ((::System::String*(*)(::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_STRINGBUILDERCACHE_GETSTRINGANDRELEASE_OFFSET))(a1);
 		}
+
 	};
 }

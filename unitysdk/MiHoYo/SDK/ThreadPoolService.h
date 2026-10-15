@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class ThreadPoolQueue; }
+namespace MiHoYo::SDK { class ThreadPoolService; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET UNITYSDK_OFFSET(0x1CD36DB0)
-#define MIHOYO_SDK_THREADPOOLSERVICE_GETQUEUE_OFFSET UNITYSDK_OFFSET(0x1CD3ADD0)
-#define MIHOYO_SDK_THREADPOOLSERVICE_GETREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0x1CD3AB70)
-#define MIHOYO_SDK_THREADPOOLSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CD36D30)
-#define MIHOYO_SDK_THREADPOOLSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CD3AB60)
-#define MIHOYO_SDK_THREADPOOLSERVICE_STOPREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0x1CD3AC90)
-#define MIHOYO_SDK_THREADPOOLSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD3AB40)
+#define MIHOYO_SDK_THREADPOOLSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xB050AC0)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET UNITYSDK_OFFSET(0xB04CD40)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GETQUEUE_OFFSET UNITYSDK_OFFSET(0xB050D50)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GETREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0xB050AF0)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB04CCC0)
+#define MIHOYO_SDK_THREADPOOLSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB050AE0)
+#define MIHOYO_SDK_THREADPOOLSERVICE_STOPREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0xB050C10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadPoolService_TypeDefinitionIndex = 46950;
+	inline static constexpr unsigned int ThreadPoolService_TypeDefinitionIndex = 46490;
 
 	class ThreadPoolService : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::ThreadPoolService** StaticGet_sm_instance()
-		{
-			return (::MiHoYo::SDK::ThreadPoolService**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolService_TypeDefinitionIndex)->GetStaticField(0x5DBB0);
-		}
 		::System::Object* m_lock; // 0x10
 		::MiHoYo::SDK::ThreadPoolQueue* m_reportDataQueue; // 0x18
+		static ::MiHoYo::SDK::ThreadPoolService** StaticGet_sm_instance()
+		{
+			return (::MiHoYo::SDK::ThreadPoolService**)UnitySDK::FromName("MiHoYo.SDK", "ThreadPoolService")->GetStaticField(0x33460);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::ThreadPoolService* get_Instance()
@@ -61,5 +62,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::MiHoYo::SDK::ThreadPoolQueue*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

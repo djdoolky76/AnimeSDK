@@ -3,73 +3,20 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaOverlayMatBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_88EB724A07E2A9A9_OFFSET UNITYSDK_OFFSET(0x11697240)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_EE7339DA6ECF5F6D_OFFSET UNITYSDK_OFFSET(0x11696E30)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x11697410)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x11697340)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_ANOJNLJFJCG_OFFSET UNITYSDK_OFFSET(0xD7BA970)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7BAB40)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD7BAA70)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7BA560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginAuraOutline_TypeDefinitionIndex = 69901;
+	inline static constexpr unsigned int MonoEffectPluginAuraOutline_TypeDefinitionIndex = 69935;
 
 	class MonoEffectPluginAuraOutline : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_CJNJFEIAECK()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD680);
-		}
-		static ::System::Int32* StaticGet_EMBEMDDBENG()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4110);
-		}
-		static ::System::Int32* StaticGet_NADJGIMJGIP()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4114);
-		}
-		static ::System::Int32* StaticGet_LGOPPJIALAK()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4118);
-		}
-		static ::System::Int32* StaticGet_NFOELAMKEND()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x411C);
-		}
-		static ::System::Int32* StaticGet_BPLIPDPAGGD()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4120);
-		}
-		static ::System::Int32* StaticGet_DHHCNGLJLEN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4124);
-		}
-		static ::System::Int32* StaticGet_IAOODBDDNJI()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4128);
-		}
-		static ::System::Int32* StaticGet_IGCLPGGJINP()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x412C);
-		}
-		static ::System::Int32* StaticGet_BCPDFKGFOOF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4130);
-		}
-		static ::System::Int32* StaticGet_KBGHONJEEAB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4134);
-		}
-		static ::System::Int32* StaticGet_GKGDBANLPJD()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x4138);
-		}
-		static ::System::Int32* StaticGet_PIMBGNJOEPF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x413C);
-		}
 		::System::Single AuraScrPosScale; // 0x220
 		::System::Single OutlineAuraWidth; // 0x224
 		::System::Single OutlineAuraOffset; // 0x228
@@ -90,25 +37,90 @@ namespace RPG::Client
 		::System::Boolean ShowID5; // 0x2A3
 		::System::Boolean ShowID6; // 0x2A4
 		::System::Boolean ShowID7; // 0x2A5
+		static ::Il2CppArray<::System::Int32>** StaticGet_CJNJFEIAECK()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x5F5F0);
+		}
+
+		static ::System::Int32* StaticGet_EMBEMDDBENG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14360);
+		}
+
+		static ::System::Int32* StaticGet_IAOODBDDNJI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14364);
+		}
+
+		static ::System::Int32* StaticGet_BCPDFKGFOOF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14368);
+		}
+
+		static ::System::Int32* StaticGet_DHHCNGLJLEN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x1436C);
+		}
+
+		static ::System::Int32* StaticGet_IGCLPGGJINP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14370);
+		}
+
+		static ::System::Int32* StaticGet_GKGDBANLPJD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14374);
+		}
+
+		static ::System::Int32* StaticGet_KBGHONJEEAB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14378);
+		}
+
+		static ::System::Int32* StaticGet_PIMBGNJOEPF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x1437C);
+		}
+
+		static ::System::Int32* StaticGet_BPLIPDPAGGD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14380);
+		}
+
+		static ::System::Int32* StaticGet_NADJGIMJGIP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14384);
+		}
+
+		static ::System::Int32* StaticGet_NFOELAMKEND()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14388);
+		}
+
+		static ::System::Int32* StaticGet_LGOPPJIALAK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x1438C);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_8_EE7339DA6ECF5F6D()
+		::System::Void IFOEAAAKONL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_EE7339DA6ECF5F6D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_IFOEAAAKONL_OFFSET))(this);
 		}
 
-		::System::Int32 Method_8_88EB724A07E2A9A9(::UnityEngine::Material* a1, ::System::Boolean a2, ::System::Int32 a3)
+		::System::Int32 ANOJNLJFJCG(::UnityEngine::Material* a1, ::System::Boolean a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Material*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_88EB724A07E2A9A9_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Material*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_ANOJNLJFJCG_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

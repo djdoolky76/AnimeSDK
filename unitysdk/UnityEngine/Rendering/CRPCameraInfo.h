@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/CameraOverlay.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCameraInfo_TypeDefinitionIndex = 4801;
+	inline static constexpr unsigned int CRPCameraInfo_TypeDefinitionIndex = 4806;
 
 	struct alignas(4) CRPCameraInfo
 	{

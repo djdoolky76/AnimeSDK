@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define LJLHLALFIAD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7182C0)
+#define LJLHLALFIAD___C__DISPLAYCLASS1_0__CREATEMARKSKIPLAYOUTCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB719D70)
+
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass1_0_TypeDefinitionIndex = 80840;
+
+	class LJLHLALFIAD___c__DisplayClass1_0 : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* posCtrls; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJLHLALFIAD___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _CreateMarkSkipLayoutCommand_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJLHLALFIAD___C__DISPLAYCLASS1_0__CREATEMARKSKIPLAYOUTCOMMAND_B__0_OFFSET))(this);
+		}
+
+	};

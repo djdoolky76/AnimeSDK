@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANACONFIG_SWITCHH264PLAYBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4BBD0)
+#define CRIWARE_CRIMANACONFIG_SWITCHH264PLAYBACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1671CED0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaConfig_SwitchH264PlaybackConfig_TypeDefinitionIndex = 38874;
+	inline static constexpr unsigned int CriManaConfig_SwitchH264PlaybackConfig_TypeDefinitionIndex = 40171;
 
 	class CriManaConfig_SwitchH264PlaybackConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enableBufferOutput; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANACONFIG_SWITCHH264PLAYBACKCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANACONFIG_SWITCHH264PLAYBACKCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

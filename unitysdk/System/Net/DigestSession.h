@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Net { class Authorization; }
 namespace System::Net { class DigestHeaderParser; }
@@ -12,21 +11,21 @@ namespace System::Net { class WebRequest; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define SYSTEM_NET_DIGESTSESSION_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1B00F3A0)
-#define SYSTEM_NET_DIGESTSESSION_GET_ALGORITHM_OFFSET UNITYSDK_OFFSET(0x1B010820)
-#define SYSTEM_NET_DIGESTSESSION_GET_CNONCE_OFFSET UNITYSDK_OFFSET(0x1B010920)
-#define SYSTEM_NET_DIGESTSESSION_GET_LASTUSE_OFFSET UNITYSDK_OFFSET(0x1B011160)
-#define SYSTEM_NET_DIGESTSESSION_GET_NONCE_OFFSET UNITYSDK_OFFSET(0x1B00F360)
-#define SYSTEM_NET_DIGESTSESSION_GET_OPAQUE_OFFSET UNITYSDK_OFFSET(0x1B0108A0)
-#define SYSTEM_NET_DIGESTSESSION_GET_QOP_OFFSET UNITYSDK_OFFSET(0x1B0108E0)
-#define SYSTEM_NET_DIGESTSESSION_GET_REALM_OFFSET UNITYSDK_OFFSET(0x1B010860)
-#define SYSTEM_NET_DIGESTSESSION_HA1_OFFSET UNITYSDK_OFFSET(0x1B010CC0)
-#define SYSTEM_NET_DIGESTSESSION_HA2_OFFSET UNITYSDK_OFFSET(0x1B010E70)
-#define SYSTEM_NET_DIGESTSESSION_HASHTOHEXSTRING_OFFSET UNITYSDK_OFFSET(0x1B010A20)
-#define SYSTEM_NET_DIGESTSESSION_PARSE_OFFSET UNITYSDK_OFFSET(0x1B00F210)
-#define SYSTEM_NET_DIGESTSESSION_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1B010F70)
-#define SYSTEM_NET_DIGESTSESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0107F0)
-#define SYSTEM_NET_DIGESTSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00F1D0)
+#define SYSTEM_NET_DIGESTSESSION_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1F005D50)
+#define SYSTEM_NET_DIGESTSESSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0071A0)
+#define SYSTEM_NET_DIGESTSESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F005B80)
+#define SYSTEM_NET_DIGESTSESSION_GET_ALGORITHM_OFFSET UNITYSDK_OFFSET(0x1F0071D0)
+#define SYSTEM_NET_DIGESTSESSION_GET_CNONCE_OFFSET UNITYSDK_OFFSET(0x1F0072D0)
+#define SYSTEM_NET_DIGESTSESSION_GET_LASTUSE_OFFSET UNITYSDK_OFFSET(0x1F007B10)
+#define SYSTEM_NET_DIGESTSESSION_GET_NONCE_OFFSET UNITYSDK_OFFSET(0x1F005D10)
+#define SYSTEM_NET_DIGESTSESSION_GET_OPAQUE_OFFSET UNITYSDK_OFFSET(0x1F007250)
+#define SYSTEM_NET_DIGESTSESSION_GET_QOP_OFFSET UNITYSDK_OFFSET(0x1F007290)
+#define SYSTEM_NET_DIGESTSESSION_GET_REALM_OFFSET UNITYSDK_OFFSET(0x1F007210)
+#define SYSTEM_NET_DIGESTSESSION_HA1_OFFSET UNITYSDK_OFFSET(0x1F007670)
+#define SYSTEM_NET_DIGESTSESSION_HA2_OFFSET UNITYSDK_OFFSET(0x1F007820)
+#define SYSTEM_NET_DIGESTSESSION_HASHTOHEXSTRING_OFFSET UNITYSDK_OFFSET(0x1F0073D0)
+#define SYSTEM_NET_DIGESTSESSION_PARSE_OFFSET UNITYSDK_OFFSET(0x1F005BC0)
+#define SYSTEM_NET_DIGESTSESSION_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1F007920)
 
 namespace System::Net
 {
@@ -35,24 +34,24 @@ namespace System::Net
 	class DigestSession : public ::System::Object
 	{
 	public:
+		::System::Net::DigestHeaderParser* parser; // 0x10
+		::System::Security::Cryptography::HashAlgorithm* hash; // 0x18
+		::System::String* _cnonce; // 0x20
+		::System::DateTime lastUse; // 0x28
+		::System::Int32 _nc; // 0x30
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet_rng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(DigestSession_TypeDefinitionIndex)->GetStaticField(0x194B0);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)UnitySDK::FromName("System.Net", "DigestSession")->GetStaticField(0x2F140);
 		}
-		::System::String* _cnonce; // 0x10
-		::System::Net::DigestHeaderParser* parser; // 0x18
-		::System::Security::Cryptography::HashAlgorithm* hash; // 0x20
-		::System::Int32 _nc; // 0x28
-		::System::DateTime lastUse; // 0x30
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_DIGESTSESSION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_DIGESTSESSION_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_DIGESTSESSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_DIGESTSESSION_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_Algorithm()
@@ -119,5 +118,6 @@ namespace System::Net
 		{
 			return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_DIGESTSESSION_GET_LASTUSE_OFFSET))(this);
 		}
+
 	};
 }

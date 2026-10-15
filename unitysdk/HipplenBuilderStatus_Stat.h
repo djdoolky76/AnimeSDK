@@ -3,96 +3,95 @@
 #include "unitysdk/HipplenBuilderStatus_StatType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 class HipplenBuilderStatusAsset_StatConfig;
-class HipplenBuilderStatusAsset_StatGradeConfig;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERSTATUS_STAT_GET_GRADECONFIGS_OFFSET UNITYSDK_OFFSET(0x18DD5610)
-#define HIPPLENBUILDERSTATUS_STAT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x18DD55C0)
-#define HIPPLENBUILDERSTATUS_STAT_GET_NAMENEG_OFFSET UNITYSDK_OFFSET(0x18DD5310)
-#define HIPPLENBUILDERSTATUS_STAT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18DD52C0)
-#define HIPPLENBUILDERSTATUS_STAT_GET_NEXTGRADEMIN_OFFSET UNITYSDK_OFFSET(0x18DD53B0)
-#define HIPPLENBUILDERSTATUS_STAT_GET_NORMALIZEDVALUE_OFFSET UNITYSDK_OFFSET(0x18DD5660)
-#define HIPPLENBUILDERSTATUS_STAT_GET_RANGE_OFFSET UNITYSDK_OFFSET(0x18DD5360)
-#define HIPPLENBUILDERSTATUS_STAT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18DD4800)
-#define HIPPLENBUILDERSTATUS_STAT_GET_WARNINGVALUE_OFFSET UNITYSDK_OFFSET(0x18DD5570)
-#define HIPPLENBUILDERSTATUS_STAT_METHOD_1_AB01D2A3604A75E7_OFFSET UNITYSDK_OFFSET(0x18DD5400)
-#define HIPPLENBUILDERSTATUS_STAT_METHOD_1_B06FAFF37803F837_OFFSET UNITYSDK_OFFSET(0x18DD4F80)
-#define HIPPLENBUILDERSTATUS_STAT_METHOD_1_E89B5E85E1E3F103_OFFSET UNITYSDK_OFFSET(0x18DD4850)
-#define HIPPLENBUILDERSTATUS_STAT__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD47E0)
+#define HIPPLENBUILDERSTATUS_STAT_CONHLPHNAEL_OFFSET UNITYSDK_OFFSET(0x15DE4010)
+#define HIPPLENBUILDERSTATUS_STAT_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE3FA0)
+#define HIPPLENBUILDERSTATUS_STAT_DHEMFBMKKAI_OFFSET UNITYSDK_OFFSET(0x15DE4740)
+#define HIPPLENBUILDERSTATUS_STAT_GET_GRADECONFIGS_OFFSET UNITYSDK_OFFSET(0x15DE4DD0)
+#define HIPPLENBUILDERSTATUS_STAT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x15DE4D80)
+#define HIPPLENBUILDERSTATUS_STAT_GET_NAMENEG_OFFSET UNITYSDK_OFFSET(0x15DE4AD0)
+#define HIPPLENBUILDERSTATUS_STAT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15DE4A80)
+#define HIPPLENBUILDERSTATUS_STAT_GET_NEXTGRADEMIN_OFFSET UNITYSDK_OFFSET(0x15DE4B70)
+#define HIPPLENBUILDERSTATUS_STAT_GET_NORMALIZEDVALUE_OFFSET UNITYSDK_OFFSET(0x15DE4E20)
+#define HIPPLENBUILDERSTATUS_STAT_GET_RANGE_OFFSET UNITYSDK_OFFSET(0x15DE4B20)
+#define HIPPLENBUILDERSTATUS_STAT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15DE3FC0)
+#define HIPPLENBUILDERSTATUS_STAT_GET_WARNINGVALUE_OFFSET UNITYSDK_OFFSET(0x15DE4D30)
+#define HIPPLENBUILDERSTATUS_STAT_PNCEALKCNJK_OFFSET UNITYSDK_OFFSET(0x15DE4BC0)
 
-inline static constexpr unsigned int HipplenBuilderStatus_Stat_TypeDefinitionIndex = 47669;
+inline static constexpr unsigned int HipplenBuilderStatus_Stat_TypeDefinitionIndex = 47209;
 
-class HipplenBuilderStatus_Stat : public ::System::Object
-{
-public:
-	::HipplenBuilderStatusAsset_StatConfig* _config; // 0x10
-	::System::Int32 Value; // 0x18
-
-	::System::Void _ctor(::HipplenBuilderStatusAsset_StatConfig* a1)
+	class HipplenBuilderStatus_Stat : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID, ::HipplenBuilderStatusAsset_StatConfig*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT__CTOR_OFFSET))(this, a1);
-	}
+	public:
+		::HipplenBuilderStatusAsset_StatConfig* _config; // 0x10
+		::System::Int32 Value; // 0x18
+		::System::Void _ctor(::HipplenBuilderStatusAsset_StatConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HipplenBuilderStatusAsset_StatConfig*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_CTOR_OFFSET))(this, a1);
+		}
 
-	::HipplenBuilderStatus_StatType get_Type()
-	{
-		return ((::HipplenBuilderStatus_StatType(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_TYPE_OFFSET))(this);
-	}
+		::HipplenBuilderStatus_StatType get_Type()
+		{
+			return ((::HipplenBuilderStatus_StatType(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_TYPE_OFFSET))(this);
+		}
 
-	::System::String* get_Name()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NAME_OFFSET))(this);
-	}
+		::System::String* get_Name()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NAME_OFFSET))(this);
+		}
 
-	::System::String* get_NameNeg()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NAMENEG_OFFSET))(this);
-	}
+		::System::String* get_NameNeg()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NAMENEG_OFFSET))(this);
+		}
 
-	::UnityEngine::Vector2Int get_Range()
-	{
-		return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_RANGE_OFFSET))(this);
-	}
+		::UnityEngine::Vector2Int get_Range()
+		{
+			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_RANGE_OFFSET))(this);
+		}
 
-	::System::Int32 get_NextGradeMin()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NEXTGRADEMIN_OFFSET))(this);
-	}
+		::System::Int32 get_NextGradeMin()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NEXTGRADEMIN_OFFSET))(this);
+		}
 
-	::System::Int32 get_WarningValue()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_WARNINGVALUE_OFFSET))(this);
-	}
+		::System::Int32 get_WarningValue()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_WARNINGVALUE_OFFSET))(this);
+		}
 
-	::System::Boolean get_IsShow()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_ISSHOW_OFFSET))(this);
-	}
+		::System::Boolean get_IsShow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_ISSHOW_OFFSET))(this);
+		}
 
-	::System::Collections::Generic::List_1<::HipplenBuilderStatusAsset_StatGradeConfig*>* get_GradeConfigs()
-	{
-		return ((::System::Collections::Generic::List_1<::HipplenBuilderStatusAsset_StatGradeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_GRADECONFIGS_OFFSET))(this);
-	}
+		::System::Collections::Generic::List_1<::System::Object*>* get_GradeConfigs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_GRADECONFIGS_OFFSET))(this);
+		}
 
-	::System::Single get_NormalizedValue()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NORMALIZEDVALUE_OFFSET))(this);
-	}
+		::System::Single get_NormalizedValue()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_GET_NORMALIZEDVALUE_OFFSET))(this);
+		}
 
-	::System::Void Method_1_E89B5E85E1E3F103(::System::Int32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_METHOD_1_E89B5E85E1E3F103_OFFSET))(this, a1);
-	}
+		::System::Void CONHLPHNAEL(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_CONHLPHNAEL_OFFSET))(this, a1);
+		}
 
-	::System::String* Method_1_B06FAFF37803F837()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_METHOD_1_B06FAFF37803F837_OFFSET))(this);
-	}
+		::System::String* DHEMFBMKKAI()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_DHEMFBMKKAI_OFFSET))(this);
+		}
 
-	::System::Int32 Method_1_AB01D2A3604A75E7()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_METHOD_1_AB01D2A3604A75E7_OFFSET))(this);
-	}
-};
+		::System::Int32 PNCEALKCNJK()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERSTATUS_STAT_PNCEALKCNJK_OFFSET))(this);
+		}
+
+	};

@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightForgeAwardData.h"
-
-class Class_1_D17272E82AE804C2_431;
+class ELGLKEAPLGM;
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPID_OFFSET UNITYSDK_OFFSET(0x1BD48760)
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPITEMCONFIG_OFFSET UNITYSDK_OFFSET(0x1BD48780)
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_SET_EQUIPID_OFFSET UNITYSDK_OFFSET(0x1BD48770)
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD48730)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD130830)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xD130860)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xD130880)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_SET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xD130870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeEquipAwardData_TypeDefinitionIndex = 65048;
+	inline static constexpr unsigned int GridFightForgeEquipAwardData_TypeDefinitionIndex = 64988;
 
 	class GridFightForgeEquipAwardData : public ::RPG::Client::GridFightForgeAwardData
 	{
 	public:
 		::System::UInt32 _EquipID_k__BackingField; // 0x18
-
-		::System::Void _ctor(::System::UInt32 a1, ::Class_1_D17272E82AE804C2_431* a2)
+		::System::Void _ctor(::System::UInt32 a1, ::ELGLKEAPLGM* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_D17272E82AE804C2_431*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::ELGLKEAPLGM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_EquipID()
@@ -38,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::GridFightEquipItemConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPITEMCONFIG_OFFSET))(this);
 		}
+
 	};
 }

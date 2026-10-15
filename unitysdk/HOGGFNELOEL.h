@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class String; }
+
+#define HOGGFNELOEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C504810)
+#define HOGGFNELOEL_OGFHOGEFBJF_OFFSET UNITYSDK_OFFSET(0x1C5046D0)
+
+inline static constexpr unsigned int HOGGFNELOEL_TypeDefinitionIndex = 41607;
+
+	class HOGGFNELOEL : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOGGFNELOEL_CTOR_OFFSET))(this);
+		}
+
+		::System::String* OGFHOGEFBJF(::System::Int32 a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOGGFNELOEL_OGFHOGEFBJF_OFFSET))(this, a1);
+		}
+
+	};

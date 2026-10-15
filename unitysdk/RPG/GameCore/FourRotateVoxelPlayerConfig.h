@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimPlayerActionConfig; }
+namespace RPG::GameCore { class FourRotateVoxelPlayerConfig; }
 namespace RPG::GameCore { class FourRotateVoxelPlayerEffectConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_METHOD_2_23A1B1415ECFD4BF_OFFSET UNITYSDK_OFFSET(0x1DCB5E90)
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB8660)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C34E0)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C0CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPlayerConfig_TypeDefinitionIndex = 16561;
+	inline static constexpr unsigned int FourRotateVoxelPlayerConfig_TypeDefinitionIndex = 16737;
 
 	class FourRotateVoxelPlayerConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FiveDimPlayerActionConfig* ResetActions; // 0x28
 		::RPG::GameCore::FiveDimPlayerActionConfig* MediumLandActions; // 0x30
 		::RPG::GameCore::FiveDimPlayerActionConfig* HeavyLandActions; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_23A1B1415ECFD4BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayerConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelPlayerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_METHOD_2_23A1B1415ECFD4BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelPlayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

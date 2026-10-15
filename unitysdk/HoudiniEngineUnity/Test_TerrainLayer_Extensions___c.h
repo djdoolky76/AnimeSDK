@@ -1,44 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_TerrainLayer; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class TerrainLayer; }
 
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF1270)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF12B0)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EEF12C0)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EEF1300)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9963E0)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B996420)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B996430)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B996470)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TerrainLayer_Extensions___c_TypeDefinitionIndex = 39456;
+	inline static constexpr unsigned int Test_TerrainLayer_Extensions___c_TypeDefinitionIndex = 40753;
 
 	class Test_TerrainLayer_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::HoudiniEngineUnity::Test_TerrainLayer_Extensions___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::Test_TerrainLayer_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_TerrainLayer_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D040);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64400);
 		}
+
 		static ::System::Converter_2<::UnityEngine::TerrainLayer*, ::HoudiniEngineUnity::Test_TerrainLayer*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::TerrainLayer*, ::HoudiniEngineUnity::Test_TerrainLayer*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TerrainLayer_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D048);
+			return (::System::Converter_2<::UnityEngine::TerrainLayer*, ::HoudiniEngineUnity::Test_TerrainLayer*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64408);
 		}
+
 		static ::System::Converter_2<::UnityEngine::TerrainLayer*, ::HoudiniEngineUnity::Test_TerrainLayer*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::TerrainLayer*, ::HoudiniEngineUnity::Test_TerrainLayer*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TerrainLayer_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D050);
+			return (::System::Converter_2<::UnityEngine::TerrainLayer*, ::HoudiniEngineUnity::Test_TerrainLayer*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64410);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C_CTOR_OFFSET))(this);
 		}
 
 		::HoudiniEngineUnity::Test_TerrainLayer* _ToTestObject_b__1_0(::UnityEngine::TerrainLayer* a1)
@@ -50,5 +52,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::Test_TerrainLayer*(*)(::PVOID, ::UnityEngine::TerrainLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET))(this, a1);
 		}
+
 	};
 }

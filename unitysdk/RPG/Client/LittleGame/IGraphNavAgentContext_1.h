@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Entitas { template <typename T> class IMatcher_1; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGraphNavAgentContext_1_TypeDefinitionIndex = 40675;
+	inline static constexpr unsigned int IGraphNavAgentContext_1_TypeDefinitionIndex = 42721;
 
-	template <typename TEntity>
+	template <typename T>
 	class IGraphNavAgentContext_1
 	{
 	public:

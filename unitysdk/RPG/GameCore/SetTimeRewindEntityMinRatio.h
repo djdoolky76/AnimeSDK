@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetTimeRewindEntityMinRatio; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_METHOD_3_0D01B4FB9A2EE992_OFFSET UNITYSDK_OFFSET(0x1E093B00)
-#define RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_METHOD_3_C5FB0EF95EDC415B_OFFSET UNITYSDK_OFFSET(0x1E093AC0)
-#define RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E093AF0)
+#define RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9A8A0)
+#define RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9A8B0)
+#define RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9A870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTimeRewindEntityMinRatio_TypeDefinitionIndex = 20441;
+	inline static constexpr unsigned int SetTimeRewindEntityMinRatio_TypeDefinitionIndex = 20680;
 
 	class SetTimeRewindEntityMinRatio : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* Target; // 0x18
 		::RPG::GameCore::DynamicFloat* MinRatio; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C5FB0EF95EDC415B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTimeRewindEntityMinRatio*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetTimeRewindEntityMinRatio* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTimeRewindEntityMinRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_METHOD_3_C5FB0EF95EDC415B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetTimeRewindEntityMinRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0D01B4FB9A2EE992(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTimeRewindEntityMinRatio* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetTimeRewindEntityMinRatio* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTimeRewindEntityMinRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_METHOD_3_0D01B4FB9A2EE992_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetTimeRewindEntityMinRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTIMEREWINDENTITYMINRATIO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

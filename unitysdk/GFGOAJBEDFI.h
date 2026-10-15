@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GFGOAJBEDFI_TypeDefinitionIndex = 27693;
+
+	enum class GFGOAJBEDFI : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		PKEJFOABIAJ = 7240,
+		OLEAKJNJDDC = 7226,
+		ANPBFBHIOHP = 7238,
+		KMFFIKDAFPB = 7229,
+		AACKJFICGPM = 7208,
+		PEKHIMIDGHC = 7234,
+		AEHGAMKDECH = 7211,
+		OCPBPLEDJHC = 7214,
+		AIJFMFPCEBC = 7248,
+		IHJAOBAACLB = 7216,
+		JHAGPKMNFDM = 7207,
+		KBGOAJMIPEM = 7223,
+		HKDKPALAJJA = 7218,
+		ELJOBIFOHLL = 7206,
+		JBMFMMDAGFC = 7204,
+		LHKAECJBBOA = 7232,
+	};

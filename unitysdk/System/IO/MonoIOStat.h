@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/FileAttributes.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::IO
 {
 	inline static constexpr unsigned int MonoIOStat_TypeDefinitionIndex = 724;
 
-	struct alignas(8) MonoIOStat
+	struct alignas(4) MonoIOStat
 	{
 		::System::IO::FileAttributes fileAttributes; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Int64 Length; // 0x18
 		::System::Int64 CreationTime; // 0x20
 		::System::Int64 LastAccessTime; // 0x28

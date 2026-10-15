@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Timeline/RuntimeElement.h"
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
 
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET UNITYSDK_OFFSET(0x1BF66C30)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALEND_OFFSET UNITYSDK_OFFSET(0x1BF66B80)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALSTART_OFFSET UNITYSDK_OFFSET(0x1BF66B70)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0x1BF66BC0)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF66C80)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5AC40)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F35E0D0)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F352090)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET UNITYSDK_OFFSET(0x1F35E080)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALEND_OFFSET UNITYSDK_OFFSET(0x1F35DFD0)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALSTART_OFFSET UNITYSDK_OFFSET(0x1F35DFC0)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0x1F35E010)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int InfiniteRuntimeClip_TypeDefinitionIndex = 37520;
+	inline static constexpr unsigned int InfiniteRuntimeClip_TypeDefinitionIndex = 38817;
 
 	class InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement
 	{
 	public:
+		::UnityEngine::Playables::Playable m_Playable; // 0x18
 		static ::System::Int64* StaticGet_kIntervalEnd()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(InfiniteRuntimeClip_TypeDefinitionIndex)->GetStaticField(0x10210);
+			return (::System::Int64*)UnitySDK::FromName("UnityEngine.Timeline", "InfiniteRuntimeClip")->GetStaticField(0xEC00);
 		}
-		::UnityEngine::Playables::Playable m_Playable; // 0x18
 
 		::System::Void _ctor(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_CCTOR_OFFSET))();
 		}
 
 		::System::Int64 get_intervalStart()
@@ -53,5 +53,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Double, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class HIOEAKHGILF;
+class NOOHPODHIAA;
+class PEEDLCHFAFL;
+
+#define IDNKJNHDCPA_CEJPLKJMOEC_OFFSET UNITYSDK_OFFSET(0x15ED3A00)
+#define IDNKJNHDCPA_CHOOHGPMAFL_OFFSET UNITYSDK_OFFSET(0x15ED37D0)
+#define IDNKJNHDCPA_GGMHHFDPLDO_OFFSET UNITYSDK_OFFSET(0x15ED3510)
+#define IDNKJNHDCPA_HLHKAGAKMJG_1_OFFSET UNITYSDK_OFFSET(0x15ED3C70)
+#define IDNKJNHDCPA_HLHKAGAKMJG_OFFSET UNITYSDK_OFFSET(0x15ED3030)
+#define IDNKJNHDCPA_NGFIPEAHDJI_OFFSET UNITYSDK_OFFSET(0x15ED32B0)
+#define IDNKJNHDCPA_NINMBAJDPDE_OFFSET UNITYSDK_OFFSET(0x15ED2F90)
+
+inline static constexpr unsigned int IDNKJNHDCPA_TypeDefinitionIndex = 77017;
+
+	class IDNKJNHDCPA : public ::System::Object
+	{
+	public:
+		static ::System::Void NINMBAJDPDE(::NOOHPODHIAA* a1)
+		{
+			return ((::System::Void(*)(::NOOHPODHIAA*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_NINMBAJDPDE_OFFSET))(a1);
+		}
+
+		static ::System::Void HLHKAGAKMJG(::HIOEAKHGILF* a1, ::NOOHPODHIAA* a2, ::PEEDLCHFAFL* a3)
+		{
+			return ((::System::Void(*)(::HIOEAKHGILF*, ::NOOHPODHIAA*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_HLHKAGAKMJG_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void GGMHHFDPLDO(::HIOEAKHGILF* a1, ::NOOHPODHIAA* a2, ::PEEDLCHFAFL* a3)
+		{
+			return ((::System::Void(*)(::HIOEAKHGILF*, ::NOOHPODHIAA*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_GGMHHFDPLDO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean CHOOHGPMAFL(::HIOEAKHGILF* a1, ::NOOHPODHIAA* a2, ::PEEDLCHFAFL* a3)
+		{
+			return ((::System::Boolean(*)(::HIOEAKHGILF*, ::NOOHPODHIAA*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_CHOOHGPMAFL_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean CEJPLKJMOEC(::HIOEAKHGILF* a1, ::NOOHPODHIAA* a2, ::PEEDLCHFAFL* a3)
+		{
+			return ((::System::Boolean(*)(::HIOEAKHGILF*, ::NOOHPODHIAA*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_CEJPLKJMOEC_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void HLHKAGAKMJG_1(::HIOEAKHGILF* a1, ::HIOEAKHGILF* a2, ::PEEDLCHFAFL* a3)
+		{
+			return ((::System::Void(*)(::HIOEAKHGILF*, ::HIOEAKHGILF*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_HLHKAGAKMJG_1_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean NGFIPEAHDJI(::HIOEAKHGILF* a1, ::PEEDLCHFAFL* a2)
+		{
+			return ((::System::Boolean(*)(::HIOEAKHGILF*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + IDNKJNHDCPA_NGFIPEAHDJI_OFFSET))(a1, a2);
+		}
+
+	};

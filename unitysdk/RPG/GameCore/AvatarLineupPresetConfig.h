@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
+namespace RPG::GameCore { class AvatarLineupPresetConfig; }
 
-#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_METHOD_2_FAF6BE1846EFFF86_OFFSET UNITYSDK_OFFSET(0x1C591010)
-#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5911A0)
+#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EAAB0)
+#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3EA920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 17921;
+	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 18133;
 
 	class AvatarLineupPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::System::UInt32 AvatarId; // 0x10
 		::System::UInt32 EnhancedId; // 0x14
 		::Il2CppArray<::RPG::GameCore::AvatarLineupKeyLevelConfig*>* KeyLevelConfigList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPPRESETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FAF6BE1846EFFF86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarLineupPresetConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AvatarLineupPresetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarLineupPresetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_METHOD_2_FAF6BE1846EFFF86_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AvatarLineupPresetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

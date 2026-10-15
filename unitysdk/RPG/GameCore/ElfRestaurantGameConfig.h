@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameConstConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfChefConfig; }
 namespace RPG::GameCore { class ElfCustomerConfig; }
 namespace RPG::GameCore { class ElfDialogTipConfig; }
@@ -12,18 +11,19 @@ namespace RPG::GameCore { class ElfGlobalEffectConfig; }
 namespace RPG::GameCore { class ElfHeadWaiterTalkConfig; }
 namespace RPG::GameCore { class ElfNormalEventConfig; }
 namespace RPG::GameCore { class ElfPhaseConfig; }
+namespace RPG::GameCore { class ElfRestaurantGameConfig; }
 namespace RPG::GameCore { class ElfSkillConfig; }
 namespace RPG::GameCore { class ElfSuperEventConfig; }
 namespace RPG::GameCore { class ElfWaiterConfig; }
 namespace RPG::GameCore { class ElfWaveCustomerConfig; }
 
-#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_METHOD_3_826B515FCD9AF002_OFFSET UNITYSDK_OFFSET(0x1DB2AE30)
-#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_METHOD_3_912A6E3EC2B14747_OFFSET UNITYSDK_OFFSET(0x1DB2AE70)
-#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2AE60)
+#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60A050)
+#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D60A060)
+#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60A020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfRestaurantGameConfig_TypeDefinitionIndex = 18240;
+	inline static constexpr unsigned int ElfRestaurantGameConfig_TypeDefinitionIndex = 18455;
 
 	class ElfRestaurantGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
@@ -43,20 +43,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::ElfSuperEventConfig* SuperEventConfig; // 0x68
 		::RPG::GameCore::ElfHeadWaiterTalkConfig* HeadWaiterTalkConfig; // 0x70
 		::RPG::GameCore::ElfFarmConfig* FarmConfig; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFRESTAURANTGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_826B515FCD9AF002(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfRestaurantGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfRestaurantGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfRestaurantGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_METHOD_3_826B515FCD9AF002_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfRestaurantGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_912A6E3EC2B14747(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfRestaurantGameConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfRestaurantGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfRestaurantGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_METHOD_3_912A6E3EC2B14747_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfRestaurantGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -4,7 +4,6 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 #include "unitysdk/System/Xml/Schema/XsdDateTimeFlags.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -15,16 +14,16 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BADF380)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1BADF1F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1BADF370)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1BADF240)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1BADF310)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BADF2A0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1BADF2B0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1BADF4D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BADFA30)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BADF150)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE8A020)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EE89970)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EE897E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE89740)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EE89960)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EE89830)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE89900)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE89890)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE898A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EE89AC0)
 
 namespace System::Xml::Schema
 {
@@ -33,24 +32,25 @@ namespace System::Xml::Schema
 	class Datatype_dateTimeBase : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_atomicValueType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_dateTimeBase_TypeDefinitionIndex)->GetStaticField(0x1C3C0);
-		}
+		::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags; // 0x38
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_dateTimeBase_TypeDefinitionIndex)->GetStaticField(0x1C3C8);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_dateTimeBase")->GetStaticField(0x2D9F0);
 		}
-		::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags; // 0x38
+
+		static ::System::Type** StaticGet_atomicValueType()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_dateTimeBase")->GetStaticField(0x2D9F8);
+		}
 
 		::System::Void _ctor(::System::Xml::Schema::XsdDateTimeFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XsdDateTimeFlags))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XsdDateTimeFlags))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_CCTOR_OFFSET))();
 		}
 
 		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
@@ -88,9 +88,10 @@ namespace System::Xml::Schema
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object* a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATETIMEBASE_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_5E77221B0985AFCE;
+class ABBKDEDLDJL;
 namespace RPG::Client { class MatCustomDictionay; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C299DA0)
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_METHOD_5_6AC0B31DB7C5670D_OFFSET UNITYSDK_OFFSET(0x1C29A050)
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C299FC0)
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C299E20)
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_SETFLOORID_OFFSET UNITYSDK_OFFSET(0x1C299EB0)
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C299F60)
-#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29A0B0)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD876710)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD876A20)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_EKPBAHCKKPH_OFFSET UNITYSDK_OFFSET(0xD8769C0)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD876930)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD876790)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_SETFLOORID_OFFSET UNITYSDK_OFFSET(0xD876820)
+#define RPG_CLIENT_MONOWAVINGBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8768D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoWavingBlockControl_TypeDefinitionIndex = 70711;
+	inline static constexpr unsigned int MonoWavingBlockControl_TypeDefinitionIndex = 70747;
 
 	class MonoWavingBlockControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean WavingModeisMoving; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single isMoving; // 0x1C
 		::UnityEngine::AnimationCurve* MovingPattern; // 0x20
 		::Il2CppArray<::UnityEngine::GameObject*>* rootNode; // 0x28
@@ -47,11 +47,10 @@ namespace RPG::Client
 		::System::Single BlockMaximuScale; // 0x78
 		::System::Single recoveryTimer; // 0x7C
 		::RPG::Client::MatCustomDictionay* MaterialDic; // 0x80
-		::Class_2_5E77221B0985AFCE* _Behavior; // 0x88
-
+		::ABBKDEDLDJL* _Behavior; // 0x88
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWAVINGBLOCKCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWAVINGBLOCKCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -79,9 +78,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWAVINGBLOCKCONTROL_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6AC0B31DB7C5670D()
+		::System::Void EKPBAHCKKPH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWAVINGBLOCKCONTROL_METHOD_5_6AC0B31DB7C5670D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWAVINGBLOCKCONTROL_EKPBAHCKKPH_OFFSET))(this);
 		}
+
 	};
 }

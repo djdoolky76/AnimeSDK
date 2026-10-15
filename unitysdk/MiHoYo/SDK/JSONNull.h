@@ -2,51 +2,52 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/JSONNode.h"
 #include "unitysdk/MiHoYo/SDK/JSONNodeType.h"
-#include "unitysdk/MiHoYo/SDK/JSONNode_Enumerator.h"
 #include "unitysdk/MiHoYo/SDK/JSONTextMode.h"
-
+#include "unitysdk/MiHoYo/SDK/JSONNode_Enumerator.h"
+namespace MiHoYo::SDK { class JSONNull; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MIHOYO_SDK_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0x1AEB00A0)
-#define MIHOYO_SDK_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AEB53C0)
-#define MIHOYO_SDK_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AEB5360)
-#define MIHOYO_SDK_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AEB5420)
-#define MIHOYO_SDK_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x1AEB53A0)
-#define MIHOYO_SDK_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x1AEB5350)
-#define MIHOYO_SDK_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1AEB5340)
-#define MIHOYO_SDK_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AEB5380)
-#define MIHOYO_SDK_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x1AEB53B0)
-#define MIHOYO_SDK_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AEB5390)
-#define MIHOYO_SDK_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1AEB5430)
-#define MIHOYO_SDK_JSONNULL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEB5460)
-#define MIHOYO_SDK_JSONNULL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEB5320)
+#define MIHOYO_SDK_JSONNULL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE5C690)
+#define MIHOYO_SDK_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0x1BE572A0)
+#define MIHOYO_SDK_JSONNULL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE5C550)
+#define MIHOYO_SDK_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BE5C5F0)
+#define MIHOYO_SDK_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BE5C590)
+#define MIHOYO_SDK_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BE5C650)
+#define MIHOYO_SDK_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x1BE5C5D0)
+#define MIHOYO_SDK_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x1BE5C580)
+#define MIHOYO_SDK_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1BE5C570)
+#define MIHOYO_SDK_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BE5C5B0)
+#define MIHOYO_SDK_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x1BE5C5E0)
+#define MIHOYO_SDK_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BE5C5C0)
+#define MIHOYO_SDK_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1BE5C660)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 8097;
+	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 8140;
 
 	class JSONNull : public ::MiHoYo::SDK::JSONNode
 	{
 	public:
 		static ::MiHoYo::SDK::JSONNull** StaticGet_m_StaticInstance()
 		{
-			return (::MiHoYo::SDK::JSONNull**)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x15770);
+			return (::MiHoYo::SDK::JSONNull**)UnitySDK::FromName("MiHoYo.SDK", "JSONNull")->GetStaticField(0x11620);
 		}
+
 		static ::System::Boolean* StaticGet_reuseSameInstance()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x83D0);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "JSONNull")->GetStaticField(0x3880);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNULL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNULL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNULL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNULL_CCTOR_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::JSONNull* CreateOrGet()
@@ -103,5 +104,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYo::SDK::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNULL_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

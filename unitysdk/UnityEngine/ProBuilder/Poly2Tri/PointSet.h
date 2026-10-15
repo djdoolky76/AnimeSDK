@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/Poly2Tri/TriangulationMode.h"
-
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -10,29 +9,28 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class DelaunayTriangle; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationContext; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_ADDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1EF28450)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1EF28310)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x1EF28260)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x1EF28280)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_GET_TRIANGULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1EF28300)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_PREPARE_OFFSET UNITYSDK_OFFSET(0x1EF289C0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x1EF28270)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_SET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x1EF28290)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF282A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_ADDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F1626F0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1F1625B0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F162540)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x1F162500)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F162520)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_GET_TRIANGULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1F1625A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_PREPARE_OFFSET UNITYSDK_OFFSET(0x1F162C60)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x1F162510)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_SET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F162530)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int PointSet_TypeDefinitionIndex = 37453;
+	inline static constexpr unsigned int PointSet_TypeDefinitionIndex = 38750;
 
 	class PointSet : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _Points_k__BackingField; // 0x10
 		::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _Triangles_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points()
@@ -74,5 +72,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POINTSET_PREPARE_OFFSET))(this, a1);
 		}
+
 	};
 }

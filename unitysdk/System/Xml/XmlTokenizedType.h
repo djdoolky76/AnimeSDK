@@ -16,7 +16,7 @@ namespace System::Xml
 		NMTOKEN = 6,
 		NMTOKENS = 7,
 		NOTATION = 8,
-		Value_9 = 9,
+		ENUMERATION = 9,
 		QName = 10,
 		NCName = 11,
 		None = 12,

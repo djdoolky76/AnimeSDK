@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AvatarSkillTreePointTriggerKey.h"
 #include "unitysdk/RPG/GameCore/BattleExtraPropertyAdditionPair.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleExtraSkillTreeAdditionPair; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_METHOD_3_0E69DCF882D9CB1D_OFFSET UNITYSDK_OFFSET(0x1B2FD060)
-#define RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_METHOD_3_5FA49233E49EAE73_OFFSET UNITYSDK_OFFSET(0x1B2FD270)
-#define RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2FD050)
+#define RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D431310)
+#define RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D431320)
+#define RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D431530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleExtraSkillTreeAdditionPair_TypeDefinitionIndex = 23374;
+	inline static constexpr unsigned int BattleExtraSkillTreeAdditionPair_TypeDefinitionIndex = 23644;
 
 	class BattleExtraSkillTreeAdditionPair : public ::RPG::GameCore::BattleExtraPropertyAdditionPair
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AvatarSkillTreePointTriggerKey>* PointTriggerKeyList; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5FA49233E49EAE73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_METHOD_3_5FA49233E49EAE73_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0E69DCF882D9CB1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_METHOD_3_0E69DCF882D9CB1D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleExtraSkillTreeAdditionPair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEXTRASKILLTREEADDITIONPAIR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

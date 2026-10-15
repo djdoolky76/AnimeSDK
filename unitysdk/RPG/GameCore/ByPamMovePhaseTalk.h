@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByPamMovePhaseTalk; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_122D60A140984919_OFFSET UNITYSDK_OFFSET(0x1CDB9C50)
-#define RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_67B27AD8B91878A2_OFFSET UNITYSDK_OFFSET(0x1CDB9C90)
-#define RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_8596E39BCA3E3FDC_OFFSET UNITYSDK_OFFSET(0x1CDB9DD0)
-#define RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_C5BAE5A7CD9F8F9D_OFFSET UNITYSDK_OFFSET(0x1CDB9E00)
-#define RPG_GAMECORE_BYPAMMOVEPHASETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB9C80)
+#define RPG_GAMECORE_BYPAMMOVEPHASETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D500B80)
+#define RPG_GAMECORE_BYPAMMOVEPHASETALK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D500D00)
+#define RPG_GAMECORE_BYPAMMOVEPHASETALK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D500CD0)
+#define RPG_GAMECORE_BYPAMMOVEPHASETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D500B90)
+#define RPG_GAMECORE_BYPAMMOVEPHASETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D500B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByPamMovePhaseTalk_TypeDefinitionIndex = 19777;
+	inline static constexpr unsigned int ByPamMovePhaseTalk_TypeDefinitionIndex = 20011;
 
 	class ByPamMovePhaseTalk : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_122D60A140984919(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPamMovePhaseTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPamMovePhaseTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPamMovePhaseTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_122D60A140984919_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPamMovePhaseTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_67B27AD8B91878A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPamMovePhaseTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPamMovePhaseTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPamMovePhaseTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_67B27AD8B91878A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPamMovePhaseTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8596E39BCA3E3FDC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamMovePhaseTalk*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamMovePhaseTalk* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamMovePhaseTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_8596E39BCA3E3FDC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamMovePhaseTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C5BAE5A7CD9F8F9D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamMovePhaseTalk* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamMovePhaseTalk* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamMovePhaseTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_METHOD_4_C5BAE5A7CD9F8F9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamMovePhaseTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMMOVEPHASETALK_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

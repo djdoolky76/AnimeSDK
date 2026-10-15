@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IAvatarComparer; }
 
-#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1A0493A0)
-#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1A049360)
-#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0496B0)
+#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET UNITYSDK_OFFSET(0xD2E1390)
+#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD2E1350)
+#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E16A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookAvatarComparerFactory_TypeDefinitionIndex = 65672;
+	inline static constexpr unsigned int HandbookAvatarComparerFactory_TypeDefinitionIndex = 65612;
 
 	class HandbookAvatarComparerFactory : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::IAvatarComparer* Create()
@@ -29,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::IAvatarComparer*(*)(::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

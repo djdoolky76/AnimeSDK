@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/SignatureDescription.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB50B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C32A960)
 
 namespace System::Security::Cryptography
 {
@@ -13,7 +13,8 @@ namespace System::Security::Cryptography
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

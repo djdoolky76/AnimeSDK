@@ -2,50 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCheckCustomValueBool; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_0713B4F64B01FD79_OFFSET UNITYSDK_OFFSET(0x1C2FBC30)
-#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_08EA3F1BCFA8866B_OFFSET UNITYSDK_OFFSET(0x1C2FBA40)
-#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_3ADC6B9D104B29FF_OFFSET UNITYSDK_OFFSET(0x1C2FBC60)
-#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_AF725BC546131A3E_OFFSET UNITYSDK_OFFSET(0x1C2FBA00)
-#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FBA30)
+#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D460B50)
+#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D460B60)
+#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D460B20)
+#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D460930)
+#define RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D460900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckCustomValueBool_TypeDefinitionIndex = 22300;
+	inline static constexpr unsigned int ByCheckCustomValueBool_TypeDefinitionIndex = 22549;
 
 	class ByCheckCustomValueBool : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::StringHash Key; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_AF725BC546131A3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckCustomValueBool*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckCustomValueBool* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckCustomValueBool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_AF725BC546131A3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckCustomValueBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_08EA3F1BCFA8866B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckCustomValueBool* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckCustomValueBool* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckCustomValueBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_08EA3F1BCFA8866B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckCustomValueBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0713B4F64B01FD79(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckCustomValueBool*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckCustomValueBool* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckCustomValueBool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_0713B4F64B01FD79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckCustomValueBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3ADC6B9D104B29FF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckCustomValueBool* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckCustomValueBool* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckCustomValueBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_METHOD_4_3ADC6B9D104B29FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckCustomValueBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKCUSTOMVALUEBOOL_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class MissionCustomValueSnapshotList; }
+namespace System { class Object; }
 
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD45A90)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD45AD0)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DD45AE0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD6FD0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD7010)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DFD7020)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MissionCustomValueSnapshotList___c_TypeDefinitionIndex = 25490;
+	inline static constexpr unsigned int MissionCustomValueSnapshotList___c_TypeDefinitionIndex = 25833;
 
 	class MissionCustomValueSnapshotList___c : public ::System::Object
 	{
 	public:
-		static ::Proto::MissionCustomValueSnapshotList___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::MissionCustomValueSnapshotList___c**)Il2CppClass::FromTypeDefinitionIndex(MissionCustomValueSnapshotList___c_TypeDefinitionIndex)->GetStaticField(0x5C0A0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4CE40);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::MissionCustomValueSnapshotList* __cctor_b__23_0()
 		{
 			return ((::Proto::MissionCustomValueSnapshotList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET))(this);
 		}
+
 	};
 }

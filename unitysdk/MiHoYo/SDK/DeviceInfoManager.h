@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/DeviceInfoManager_MEMORY_INFO.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/MiHoYo/SDK/DeviceInfoManager_MEMORY_INFO.h"
+namespace MiHoYo::SDK { class DeviceInfoManager; }
 namespace MiHoYo::SDK { class DeviceInfoManager_MiHoYoSDKDriverInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETCURRENTDRIVENAME_OFFSET UNITYSDK_OFFSET(0x16A9D690)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDISKFREESPACEEXA_OFFSET UNITYSDK_OFFSET(0x16A9D830)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVEINFO_OFFSET UNITYSDK_OFFSET(0x16A9D6B0)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVETOTALFREESPACE_OFFSET UNITYSDK_OFFSET(0x16A94AE0)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVETOTALSPACE_OFFSET UNITYSDK_OFFSET(0x16A94A00)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETMACADDRESS_OFFSET UNITYSDK_OFFSET(0x16A94DA0)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETNETWORKADAPTERDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x16A951B0)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETNETWORKADAPTERLIST_OFFSET UNITYSDK_OFFSET(0x16A95220)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETNETWORKTYPE_OFFSET UNITYSDK_OFFSET(0x16A95640)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GETRAMREMAIN_OFFSET UNITYSDK_OFFSET(0x16A94C60)
-#define MIHOYO_SDK_DEVICEINFOMANAGER_GLOBALMEMORYSTATUS_OFFSET UNITYSDK_OFFSET(0x16A9D7B0)
-#define MIHOYO_SDK_DEVICEINFOMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9D900)
-#define MIHOYO_SDK_DEVICEINFOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D660)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF760A0)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF75E00)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETCURRENTDRIVENAME_OFFSET UNITYSDK_OFFSET(0xAF75E30)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDISKFREESPACEEXA_OFFSET UNITYSDK_OFFSET(0xAF75FD0)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVEINFO_OFFSET UNITYSDK_OFFSET(0xAF75E50)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVETOTALFREESPACE_OFFSET UNITYSDK_OFFSET(0xAF6CD70)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVETOTALSPACE_OFFSET UNITYSDK_OFFSET(0xAF6CC90)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETMACADDRESS_OFFSET UNITYSDK_OFFSET(0xAF6D030)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETNETWORKADAPTERDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xAF6D440)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETNETWORKADAPTERLIST_OFFSET UNITYSDK_OFFSET(0xAF6D4B0)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETNETWORKTYPE_OFFSET UNITYSDK_OFFSET(0xAF6D8D0)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GETRAMREMAIN_OFFSET UNITYSDK_OFFSET(0xAF6CEF0)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_GLOBALMEMORYSTATUS_OFFSET UNITYSDK_OFFSET(0xAF75F50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceInfoManager_TypeDefinitionIndex = 46929;
+	inline static constexpr unsigned int DeviceInfoManager_TypeDefinitionIndex = 46469;
 
 	class DeviceInfoManager : public ::System::Object
 	{
 	public:
+		::System::String* strNetworkType; // 0x10
+		::System::String* strAdapterInfoList; // 0x18
+		::System::String* strAdapterDescription; // 0x20
+		::System::String* strMacAddr; // 0x28
 		static ::MiHoYo::SDK::DeviceInfoManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DeviceInfoManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceInfoManager_TypeDefinitionIndex)->GetStaticField(0x45E90);
+			return (::MiHoYo::SDK::DeviceInfoManager**)UnitySDK::FromName("MiHoYo.SDK", "DeviceInfoManager")->GetStaticField(0x20880);
 		}
-		::System::String* strAdapterInfoList; // 0x10
-		::System::String* strMacAddr; // 0x18
-		::System::String* strNetworkType; // 0x20
-		::System::String* strAdapterDescription; // 0x28
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Double GetDriveTotalSpace(::System::String* a1)
@@ -56,9 +56,9 @@ namespace MiHoYo::SDK
 			return ((::System::Double(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVETOTALFREESPACE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void GlobalMemoryStatus(::MiHoYo::SDK::DeviceInfoManager_MEMORY_INFO& a1)
+		static ::System::Void GlobalMemoryStatus(::MiHoYo::SDK::DeviceInfoManager_MEMORY_INFO a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::DeviceInfoManager_MEMORY_INFO&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GLOBALMEMORYSTATUS_OFFSET))(a1);
+			return ((::System::Void(*)(::MiHoYo::SDK::DeviceInfoManager_MEMORY_INFO))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GLOBALMEMORYSTATUS_OFFSET))(a1);
 		}
 
 		::System::Double GetRamRemain()
@@ -91,14 +91,15 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GETCURRENTDRIVENAME_OFFSET))(this);
 		}
 
-		static ::System::Int32 GetDiskFreeSpaceExA(::System::String* a1, ::System::Int64& a2, ::System::Int64& a3, ::System::Int64& a4)
+		static ::System::Int32 GetDiskFreeSpaceExA(::System::String* a1, ::System::Int64 a2, ::System::Int64 a3, ::System::Int64 a4)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int64&, ::System::Int64&, ::System::Int64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GETDISKFREESPACEEXA_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Int32(*)(::System::String*, ::System::Int64, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GETDISKFREESPACEEXA_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::DeviceInfoManager_MiHoYoSDKDriverInfo* GetDriveInfo(::System::String* a1)
 		{
 			return ((::MiHoYo::SDK::DeviceInfoManager_MiHoYoSDKDriverInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEINFOMANAGER_GETDRIVEINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

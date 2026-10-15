@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PROTOBUF_BYTEARRAY_COPY_OFFSET UNITYSDK_OFFSET(0x1B0CEDF0)
+#define MIHOYO_SDK_PROTOBUF_BYTEARRAY_COPY_OFFSET UNITYSDK_OFFSET(0x1BBBDF30)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 35040;
+	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 35709;
 
 	class ByteArray : public ::System::Object
 	{
@@ -15,5 +15,6 @@ namespace MiHoYo::SDK::Protobuf
 		{
 			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTEARRAY_COPY_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

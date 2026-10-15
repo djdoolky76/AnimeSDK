@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Net/Http/Headers/Token.h"
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Net::Http::Headers { class AuthenticationHeaderValue; }
 namespace System::Net::Http::Headers { class Lexer; }
 
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7D5AA0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7D5B60)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1E7D59C0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1E7D59E0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1E7D59D0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1E7D59F0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7D5A00)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D6350)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E7D5D40)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1E7D5ED0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7D5CB0)
-#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D59B0)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE1C6F0)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE1C7E0)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE1C8A0)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1EE1C700)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1EE1C720)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1EE1C710)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1EE1C730)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE1C740)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE1D090)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1EE1CA80)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1EE1CC10)
+#define SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE1C9F0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int AuthenticationHeaderValue_TypeDefinitionIndex = 3776;
+	inline static constexpr unsigned int AuthenticationHeaderValue_TypeDefinitionIndex = 3777;
 
 	class AuthenticationHeaderValue : public ::System::Object
 	{
 	public:
 		::System::String* _Parameter_k__BackingField; // 0x10
 		::System::String* _Scheme_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_Parameter()
@@ -70,24 +69,25 @@ namespace System::Net::Http::Headers
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::AuthenticationHeaderValue*& a2)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::AuthenticationHeaderValue* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::AuthenticationHeaderValue*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::AuthenticationHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParse_1(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*& a3)
+		static ::System::Boolean TryParse_1(::System::String* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_1_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::AuthenticationHeaderValue*& a2, ::System::Net::Http::Headers::Token& a3)
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::AuthenticationHeaderValue* a2, ::System::Net::Http::Headers::Token a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::AuthenticationHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::AuthenticationHeaderValue*, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_AUTHENTICATIONHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

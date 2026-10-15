@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
-
 namespace UnityEngine { class Cubemap; }
 
-#define UNITYENGINE_RENDERING_CUBEMAPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD10C30)
+#define UNITYENGINE_RENDERING_CUBEMAPPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F288340)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CubemapParameter_TypeDefinitionIndex = 34986;
+	inline static constexpr unsigned int CubemapParameter_TypeDefinitionIndex = 35655;
 
-	class CubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Cubemap*>
+	class CubemapParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Cubemap* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Cubemap*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CUBEMAPPARAMETER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Cubemap*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CUBEMAPPARAMETER_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ElfRestaurantProgressData; }
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x1AC81390)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x1AC81530)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC80A70)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD9CCA0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xCD9D750)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xCD9D940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass5_0_TypeDefinitionIndex = 63764;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass5_0_TypeDefinitionIndex = 63702;
 
 	class ElfHintToastManager___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUndevelopedRecipeIDs; // 0x10
-		::RPG::Client::UserPrefs* userPrefs; // 0x18
-		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x20
-
+		::RPG::Client::UserPrefs* userPrefs; // 0x10
+		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUndevelopedRecipeIDs; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _CheckRecipeHints_b__0()
@@ -35,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__1_OFFSET))(this);
 		}
+
 	};
 }

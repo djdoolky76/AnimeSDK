@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CloudUIBattlePosRegion.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_63C450F2FF228316;
-class Class_1_F84162D45373F557_Class_1_3ABCC41A05D06339;
-class Class_1_F84162D45373F557_Class_1_880304D4E9A590C8;
+class GLDAMFHLMPM_BCDMCGDEKNP;
+class OFODGHAMPON;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_CLEARDEBUGGUI_OFFSET UNITYSDK_OFFSET(0x1BC1C870)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETISVALID_OFFSET UNITYSDK_OFFSET(0x1BC1C120)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1BC1C280)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_1_OFFSET UNITYSDK_OFFSET(0x1BC1C310)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_OFFSET UNITYSDK_OFFSET(0x1BC1C2C0)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_START_OFFSET UNITYSDK_OFFSET(0x1BC1C0A0)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_UPDATEDEBUGGUI_OFFSET UNITYSDK_OFFSET(0x1BC1C5A0)
-#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1C910)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_CLEARDEBUGGUI_OFFSET UNITYSDK_OFFSET(0xCB89090)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xCB89130)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETISVALID_OFFSET UNITYSDK_OFFSET(0xCB88940)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xCB88AA0)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_1_OFFSET UNITYSDK_OFFSET(0xCB88B30)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_OFFSET UNITYSDK_OFFSET(0xCB88AE0)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_START_OFFSET UNITYSDK_OFFSET(0xCB888C0)
+#define RPG_CLIENT_CLOUDUIPOSREPORTERMONO_UPDATEDEBUGGUI_OFFSET UNITYSDK_OFFSET(0xCB88DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUIPosReporterMono_TypeDefinitionIndex = 59996;
+	inline static constexpr unsigned int CloudUIPosReporterMono_TypeDefinitionIndex = 59859;
 
 	class CloudUIPosReporterMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_ShowDebugGUI()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CloudUIPosReporterMono_TypeDefinitionIndex)->GetStaticField(0x122E0);
-		}
 		::RPG::Client::CloudUIBattlePosRegion Region; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::RectTransform* IGLNACMFMHF; // 0x20
 		::UnityEngine::CanvasGroup* MLMFIEKIPHG; // 0x28
-		::System::Collections::Generic::List_1<::Class_1_63C450F2FF228316*>* NPEDAOBEDIA; // 0x30
+		::System::Collections::Generic::List_1<::OFODGHAMPON*>* NPEDAOBEDIA; // 0x30
+		static ::System::Boolean* StaticGet_ShowDebugGUI()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "CloudUIPosReporterMono")->GetStaticField(0x4AF0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -55,24 +55,25 @@ namespace RPG::Client
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETRECTTRANSFORM_OFFSET))(this);
 		}
 
-		::Class_1_F84162D45373F557_Class_1_3ABCC41A05D06339* GetUIElementScreenRect()
+		::GLDAMFHLMPM_BCDMCGDEKNP* GetUIElementScreenRect()
 		{
-			return ((::Class_1_F84162D45373F557_Class_1_3ABCC41A05D06339*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_OFFSET))(this);
+			return ((::GLDAMFHLMPM_BCDMCGDEKNP*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_OFFSET))(this);
 		}
 
-		::Class_1_F84162D45373F557_Class_1_3ABCC41A05D06339* GetUIElementScreenRect_1(::UnityEngine::RectTransform* a1)
+		::GLDAMFHLMPM_BCDMCGDEKNP* GetUIElementScreenRect_1(::UnityEngine::RectTransform* a1)
 		{
-			return ((::Class_1_F84162D45373F557_Class_1_3ABCC41A05D06339*(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_1_OFFSET))(this, a1);
+			return ((::GLDAMFHLMPM_BCDMCGDEKNP*(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_GETUIELEMENTSCREENRECT_1_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateDebugGUI(::System::Collections::Generic::List_1<::Class_1_F84162D45373F557_Class_1_880304D4E9A590C8*>* a1)
+		::System::Void UpdateDebugGUI(::System::Collections::Generic::List_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_F84162D45373F557_Class_1_880304D4E9A590C8*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_UPDATEDEBUGGUI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_UPDATEDEBUGGUI_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearDebugGUI()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUIPOSREPORTERMONO_CLEARDEBUGGUI_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayPenaconyEndmostShowPage; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_METHOD_3_9F00948D22573702_OFFSET UNITYSDK_OFFSET(0x1D7A7140)
-#define RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_METHOD_3_FA2479C2F44A677A_OFFSET UNITYSDK_OFFSET(0x1D7A7180)
-#define RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A7170)
+#define RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D902A30)
+#define RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D902A40)
+#define RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D902A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayPenaconyEndmostShowPage_TypeDefinitionIndex = 21583;
+	inline static constexpr unsigned int PlayPenaconyEndmostShowPage_TypeDefinitionIndex = 21831;
 
 	class PlayPenaconyEndmostShowPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,20 +22,20 @@ namespace RPG::GameCore
 		::System::Single Scale; // 0x24
 		::Il2CppArray<::System::UInt32>* CustomHideEndMostIDs; // 0x28
 		::System::String* DisplayPath; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F00948D22573702(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayPenaconyEndmostShowPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayPenaconyEndmostShowPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayPenaconyEndmostShowPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_METHOD_3_9F00948D22573702_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayPenaconyEndmostShowPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FA2479C2F44A677A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayPenaconyEndmostShowPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayPenaconyEndmostShowPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayPenaconyEndmostShowPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_METHOD_3_FA2479C2F44A677A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayPenaconyEndmostShowPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSHOWPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

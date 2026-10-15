@@ -2,62 +2,64 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZXing/Datamatrix/Encoder/SymbolShapeHint.h"
-
 namespace System { class String; }
 namespace ZXing { class Dimension; }
+namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETDATALENGTHFORINTERLEAVEDBLOCK_OFFSET UNITYSDK_OFFSET(0x16D53DD0)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETERRORLENGTHFORINTERLEAVEDBLOCK_OFFSET UNITYSDK_OFFSET(0x16D53DE0)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETHORIZONTALDATAREGIONS_OFFSET UNITYSDK_OFFSET(0x16D53B60)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETINTERLEAVEDBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x16D53DC0)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLDATAHEIGHT_OFFSET UNITYSDK_OFFSET(0x16D4B060)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLDATAWIDTH_OFFSET UNITYSDK_OFFSET(0x16D4B040)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLHEIGHT_OFFSET UNITYSDK_OFFSET(0x16D4BE00)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLWIDTH_OFFSET UNITYSDK_OFFSET(0x16D4BDD0)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETVERTICALDATAREGIONS_OFFSET UNITYSDK_OFFSET(0x16D53C90)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_LOOKUP_OFFSET UNITYSDK_OFFSET(0x16D4A110)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16D53DF0)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D54170)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16D4F0B0)
-#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D53B30)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F686A50)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F681970)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F686410)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETDATALENGTHFORINTERLEAVEDBLOCK_OFFSET UNITYSDK_OFFSET(0x1F6866B0)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETERRORLENGTHFORINTERLEAVEDBLOCK_OFFSET UNITYSDK_OFFSET(0x1F6866C0)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETHORIZONTALDATAREGIONS_OFFSET UNITYSDK_OFFSET(0x1F686440)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETINTERLEAVEDBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1F6866A0)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLDATAHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F67D920)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLDATAWIDTH_OFFSET UNITYSDK_OFFSET(0x1F67D900)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F67E6C0)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETSYMBOLWIDTH_OFFSET UNITYSDK_OFFSET(0x1F67E690)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_GETVERTICALDATAREGIONS_OFFSET UNITYSDK_OFFSET(0x1F686570)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_LOOKUP_OFFSET UNITYSDK_OFFSET(0x1F67C9D0)
+#define ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F6866D0)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int SymbolInfo_TypeDefinitionIndex = 7016;
+	inline static constexpr unsigned int SymbolInfo_TypeDefinitionIndex = 7025;
 
 	class SymbolInfo : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>** StaticGet_symbols()
-		{
-			return (::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SymbolInfo_TypeDefinitionIndex)->GetStaticField(0x30EE0);
-		}
+		::System::Int32 dataCapacity; // 0x10
+		::System::Int32 dataRegions; // 0x14
+		::System::Int32 matrixHeight; // 0x18
+		::System::Boolean rectangular; // 0x1C
+		::System::Byte _padding0[0x3];
+		::System::Int32 rsBlockData; // 0x20
+		::System::Int32 rsBlockError; // 0x24
+		::System::Int32 matrixWidth; // 0x28
+		::System::Int32 errorCodewords; // 0x2C
 		static ::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>** StaticGet_PROD_SYMBOLS()
 		{
-			return (::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SymbolInfo_TypeDefinitionIndex)->GetStaticField(0x30EE8);
+			return (::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "SymbolInfo")->GetStaticField(0x45770);
 		}
-		::System::Boolean rectangular; // 0x10
-		::System::Int32 dataCapacity; // 0x14
-		::System::Int32 errorCodewords; // 0x18
-		::System::Int32 matrixHeight; // 0x1C
-		::System::Int32 dataRegions; // 0x20
-		::System::Int32 rsBlockData; // 0x24
-		::System::Int32 rsBlockError; // 0x28
-		::System::Int32 matrixWidth; // 0x2C
+
+		static ::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>** StaticGet_symbols()
+		{
+			return (::Il2CppArray<::ZXing::Datamatrix::Encoder::SymbolInfo*>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "SymbolInfo")->GetStaticField(0x45778);
+		}
 
 		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _ctor_1(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_CCTOR_OFFSET))();
 		}
 
 		static ::ZXing::Datamatrix::Encoder::SymbolInfo* lookup(::System::Int32 a1, ::ZXing::Datamatrix::Encoder::SymbolShapeHint a2, ::ZXing::Dimension* a3, ::ZXing::Dimension* a4, ::System::Boolean a5)
@@ -114,5 +116,6 @@ namespace ZXing::Datamatrix::Encoder
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_SYMBOLINFO_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

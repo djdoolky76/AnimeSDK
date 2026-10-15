@@ -2,38 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
-
 namespace RPG::Client::PixAir { class PixAirEquipData; }
 namespace RPG::Client::PixAir { class PixAirEquipLevelData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_CONTAINSEQUIPLEVEL_OFFSET UNITYSDK_OFFSET(0x1C83CD50)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_CONTAINSEQUIP_OFFSET UNITYSDK_OFFSET(0x1C83CA00)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETALLEQUIPDATA_OFFSET UNITYSDK_OFFSET(0x1C83CA90)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETALLEQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0x1C83CDF0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETEQUIPDATA_OFFSET UNITYSDK_OFFSET(0x1C83C880)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETEQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0x1C83CBB0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GET_EQUIPCOUNT_OFFSET UNITYSDK_OFFSET(0x1C83C7E0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GET_EQUIPLEVELCOUNT_OFFSET UNITYSDK_OFFSET(0x1C83C830)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1C83CF10)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPDATA_OFFSET UNITYSDK_OFFSET(0x1C83C930)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0x1C83CC70)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C83D3E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_CONTAINSEQUIPLEVEL_OFFSET UNITYSDK_OFFSET(0xDB361E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_CONTAINSEQUIP_OFFSET UNITYSDK_OFFSET(0xDB35E90)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDB36870)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETALLEQUIPDATA_OFFSET UNITYSDK_OFFSET(0xDB35F20)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETALLEQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0xDB36280)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETEQUIPDATA_OFFSET UNITYSDK_OFFSET(0xDB35D10)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETEQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0xDB36040)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GET_EQUIPCOUNT_OFFSET UNITYSDK_OFFSET(0xDB35C70)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GET_EQUIPLEVELCOUNT_OFFSET UNITYSDK_OFFSET(0xDB35CC0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_INIT_OFFSET UNITYSDK_OFFSET(0xDB363A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPDATA_OFFSET UNITYSDK_OFFSET(0xDB35DC0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0xDB36100)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipInfo_TypeDefinitionIndex = 78821;
+	inline static constexpr unsigned int PixAirEquipInfo_TypeDefinitionIndex = 79302;
 
 	class PixAirEquipInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::PixAir::PixAirEquipLevelData*>* _equipLevelDataMap; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PixAir::PixAirEquipData*>* _equipDataMap; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_EquipCount()
@@ -51,9 +49,9 @@ namespace RPG::Client::PixAir
 			return ((::RPG::Client::PixAir::PixAirEquipData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETEQUIPDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetEquipData(::System::UInt32 a1, ::RPG::Client::PixAir::PixAirEquipData*& a2)
+		::System::Boolean TryGetEquipData(::System::UInt32 a1, ::RPG::Client::PixAir::PixAirEquipData* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::PixAir::PixAirEquipData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPDATA_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::PixAir::PixAirEquipData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ContainsEquip(::System::UInt32 a1)
@@ -71,9 +69,9 @@ namespace RPG::Client::PixAir
 			return ((::RPG::Client::PixAir::PixAirEquipLevelData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_GETEQUIPLEVELDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetEquipLevelData(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::PixAir::PixAirEquipLevelData*& a3)
+		::System::Boolean TryGetEquipLevelData(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::PixAir::PixAirEquipLevelData* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::PixAir::PixAirEquipLevelData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPLEVELDATA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::PixAir::PixAirEquipLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_TRYGETEQUIPLEVELDATA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean ContainsEquipLevel(::System::UInt32 a1, ::System::UInt32 a2)
@@ -90,5 +88,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFO_INIT_OFFSET))(this);
 		}
+
 	};
 }

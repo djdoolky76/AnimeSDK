@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierExecuteActionOnAttributeAppendConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_METHOD_3_73C8842C588EAC16_OFFSET UNITYSDK_OFFSET(0x1EEF8800)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_METHOD_3_DEFF6ADAAD0BF5BA_OFFSET UNITYSDK_OFFSET(0x1EEF87B0)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF87F0)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E81E0)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E81F0)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E81A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierExecuteActionOnAttributeAppendConfig_TypeDefinitionIndex = 17641;
+	inline static constexpr unsigned int RogueModifierExecuteActionOnAttributeAppendConfig_TypeDefinitionIndex = 17853;
 
 	class RogueModifierExecuteActionOnAttributeAppendConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DEFF6ADAAD0BF5BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_METHOD_3_DEFF6ADAAD0BF5BA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_73C8842C588EAC16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_METHOD_3_73C8842C588EAC16_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnAttributeAppendConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONATTRIBUTEAPPENDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

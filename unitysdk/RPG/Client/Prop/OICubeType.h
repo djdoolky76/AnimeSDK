@@ -3,12 +3,12 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OICubeType_TypeDefinitionIndex = 78241;
+	inline static constexpr unsigned int OICubeType_TypeDefinitionIndex = 78712;
 
 	enum class OICubeType : ::System::UInt32
 	{
-		MirrorFront = 0x1,
-		MirrorBack = 0x2,
-		Reflection = 0x4,
+		MirrorFront = 1,
+		MirrorBack = 2,
+		Reflection = 4,
 	};
 }

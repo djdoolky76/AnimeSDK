@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/StackCrawlMark.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1B3E7DD0)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1B3E7E80)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3E7E90)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3E7C90)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E7CF0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C11B130)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C11B190)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1C11B270)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1C11B320)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C11B330)
 
 namespace System::Threading
 {
@@ -21,22 +21,22 @@ namespace System::Threading
 	class QueueUserWorkItemCallback : public ::System::Object
 	{
 	public:
+		::System::Object* state; // 0x10
+		::System::Threading::ExecutionContext* context; // 0x18
+		::System::Threading::WaitCallback* callback; // 0x20
 		static ::System::Threading::ContextCallback** StaticGet_ccb()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(QueueUserWorkItemCallback_TypeDefinitionIndex)->GetStaticField(0x14280);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "QueueUserWorkItemCallback")->GetStaticField(0x25830);
 		}
-		::System::Object* state; // 0x10
-		::System::Threading::WaitCallback* callback; // 0x18
-		::System::Threading::ExecutionContext* context; // 0x20
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CCTOR_OFFSET))();
 		}
 
-		::System::Void _ctor(::System::Threading::WaitCallback* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Threading::StackCrawlMark& a4)
+		::System::Void _ctor(::System::Threading::WaitCallback* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Threading::StackCrawlMark a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::WaitCallback*, ::System::Object*, ::System::Boolean, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::WaitCallback*, ::System::Object*, ::System::Boolean, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem()
@@ -53,5 +53,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET))(a1);
 		}
+
 	};
 }

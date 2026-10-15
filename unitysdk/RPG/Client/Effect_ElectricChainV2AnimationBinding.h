@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-namespace RPG::Client { class Effect_ElectricChainV2AnimationBindingBehavior; }
 namespace RPG::Client::ElectricChainV2 { class Effect_ElectricChainV2; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x15E58970)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x15E589C0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_CTOR_OFFSET UNITYSDK_OFFSET(0xCD1F220)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD1F1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBinding_TypeDefinitionIndex = 70429;
+	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBinding_TypeDefinitionIndex = 70465;
 
-	class Effect_ElectricChainV2AnimationBinding : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ElectricChainV2AnimationBindingBehavior*>
+	class Effect_ElectricChainV2AnimationBinding
 	{
 	public:
 		::RPG::Client::ElectricChainV2::Effect_ElectricChainV2* Target; // 0x30
@@ -25,17 +22,18 @@ namespace RPG::Client
 		::System::Single SubChainLineWidthMultiplier; // 0x48
 		::UnityEngine::Vector4 GaussianConstraintDistribution; // 0x4C
 		::System::Boolean GaussianConstraintInverse; // 0x5C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector4 SubChainGaussianConstraintDistribution; // 0x60
 		::System::Boolean SubChainGaussianConstraintInverse; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

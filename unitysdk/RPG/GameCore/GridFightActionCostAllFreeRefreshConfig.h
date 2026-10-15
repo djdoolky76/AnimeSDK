@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightActionCostAllFreeRefreshConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_METHOD_6_A8A6B2692107C8B7_OFFSET UNITYSDK_OFFSET(0x1D95FA10)
-#define RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_METHOD_6_EE6B2E6DB50AC473_OFFSET UNITYSDK_OFFSET(0x1D95FCC0)
-#define RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95FA00)
+#define RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F6E70)
+#define RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F6E80)
+#define RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F7130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActionCostAllFreeRefreshConfig_TypeDefinitionIndex = 19093;
+	inline static constexpr unsigned int GridFightActionCostAllFreeRefreshConfig_TypeDefinitionIndex = 19323;
 
 	class GridFightActionCostAllFreeRefreshConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_EE6B2E6DB50AC473(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_METHOD_6_EE6B2E6DB50AC473_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_A8A6B2692107C8B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_METHOD_6_A8A6B2692107C8B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightActionCostAllFreeRefreshConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOSTALLFREEREFRESHCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

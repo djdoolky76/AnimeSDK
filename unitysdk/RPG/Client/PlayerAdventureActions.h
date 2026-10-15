@@ -1,71 +1,77 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_559FD6C5998F578D.h"
-
+#include "unitysdk/IIJLENHLAIJ.h"
 namespace InControl { class PlayerTwoAxisAction; }
 namespace InControl { class TwoAxisInputControl; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_CAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0x1C2DB550)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1C2DB760)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_INIT_OFFSET UNITYSDK_OFFSET(0x1C2DA8F0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_RESETCAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0x1C2DB4A0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_SETCAMERAROTATIONACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1C2DB100)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2DB770)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DA8B0)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBD9700)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0xDBD8860)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_CAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xDBD94E0)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xDBD96F0)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_INIT_OFFSET UNITYSDK_OFFSET(0xDBD88A0)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_RESETCAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xDBD9440)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_SETCAMERAROTATIONACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xDBD90B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 61425;
+	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 61331;
 
-	class PlayerAdventureActions : public ::Class_2_559FD6C5998F578D
+	class PlayerAdventureActions : public ::IIJLENHLAIJ
 	{
 	public:
-		static ::System::String** StaticGet_RightStickLeft()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3DF0);
-		}
-		static ::System::String** StaticGet_RightStickDown()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3DF8);
-		}
-		static ::System::String** StaticGet_LeftStickDown()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3E00);
-		}
-		static ::System::String** StaticGet_LeftStickRight()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3E08);
-		}
-		static ::System::String** StaticGet_RightStickUp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3E10);
-		}
+		::InControl::PlayerTwoAxisAction* _CameraRotationAction; // 0x98
+		::InControl::TwoAxisInputControl* _CameraRotationActionOverridePsPlatform; // 0xA0
+		::InControl::PlayerTwoAxisAction* _CameraRotationActionOverride; // 0xA8
+		::System::Boolean _IsCameraRotationActionOverride; // 0xB0
 		static ::System::String** StaticGet_RightStickRight()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3E18);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDA0);
 		}
+
+		static ::System::String** StaticGet_RightStickLeft()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDA8);
+		}
+
 		static ::System::String** StaticGet_LeftStickUp()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3E20);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDB0);
 		}
+
+		static ::System::String** StaticGet_LeftStickRight()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDB8);
+		}
+
+		static ::System::String** StaticGet_RightStickDown()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDC0);
+		}
+
 		static ::System::String** StaticGet_LeftStickLeft()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x3E28);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDC8);
 		}
-		::InControl::PlayerTwoAxisAction* _CameraRotationActionOverride; // 0x98
-		::InControl::PlayerTwoAxisAction* _CameraRotationAction; // 0xA0
-		::InControl::TwoAxisInputControl* _CameraRotationActionOverridePsPlatform; // 0xA8
-		::System::Boolean _IsCameraRotationActionOverride; // 0xB0
+
+		static ::System::String** StaticGet_RightStickUp()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDD0);
+		}
+
+		static ::System::String** StaticGet_LeftStickDown()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x2DDD8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERADVENTUREACTIONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERADVENTUREACTIONS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERADVENTUREACTIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERADVENTUREACTIONS_CCTOR_OFFSET))();
 		}
 
 		::System::Void Init()
@@ -92,5 +98,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET))(this);
 		}
+
 	};
 }

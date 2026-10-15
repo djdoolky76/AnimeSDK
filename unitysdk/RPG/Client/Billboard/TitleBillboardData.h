@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Billboard { class IBillboardTypeData; }
 
-#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x1BD8E4C0)
-#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_GET_TEXTTITLE_OFFSET UNITYSDK_OFFSET(0x1BD8E3E0)
-#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x1BD8E400)
-#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_SET_TEXTTITLE_OFFSET UNITYSDK_OFFSET(0x1BD8E3F0)
-#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD89530)
+#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xC87CD60)
+#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC87CDC0)
+#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_GET_TEXTTITLE_OFFSET UNITYSDK_OFFSET(0xC87CC80)
+#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0xC87CCA0)
+#define RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_SET_TEXTTITLE_OFFSET UNITYSDK_OFFSET(0xC87CC90)
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int TitleBillboardData_TypeDefinitionIndex = 74687;
+	inline static constexpr unsigned int TitleBillboardData_TypeDefinitionIndex = 74978;
 
 	class TitleBillboardData : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID _TextTitle_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_TextTitle()
@@ -44,5 +42,6 @@ namespace RPG::Client::Billboard
 		{
 			return ((::RPG::Client::Billboard::IBillboardTypeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_TITLEBILLBOARDDATA_CLONE_OFFSET))(this);
 		}
+
 	};
 }

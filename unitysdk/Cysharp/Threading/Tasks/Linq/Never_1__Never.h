@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Never_1__Never_TypeDefinitionIndex = 44376;
+	inline static constexpr unsigned int Never_1__Never_TypeDefinitionIndex = 45515;
 
 	template <typename T>
 	class Never_1__Never : public ::System::Object

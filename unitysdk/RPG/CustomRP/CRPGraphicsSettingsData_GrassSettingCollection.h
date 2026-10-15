@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GRASSSETTINGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x192AECE0)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GRASSSETTINGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD5040)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_GrassSettingCollection_TypeDefinitionIndex = 36987;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_GrassSettingCollection_TypeDefinitionIndex = 37672;
 
 	class CRPGraphicsSettingsData_GrassSettingCollection : public ::System::Object
 	{
@@ -22,14 +22,15 @@ namespace RPG::CustomRP
 		::System::Boolean EnableGrass; // 0x27
 		::System::Single OverallDensityFactor; // 0x28
 		::System::Boolean EnableGrassDensityReduce; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single GrassMaxDistance; // 0x30
 		::System::Single GrassConstantDensityRangeFactor; // 0x34
 		::System::Single GrassDensityReduceFactor; // 0x38
 		::System::Boolean GrassLodVisible; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GRASSSETTINGCOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GRASSSETTINGCOLLECTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

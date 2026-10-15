@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AlleyEventInfo.h"
 #include "unitysdk/RPG/GameCore/AlleyPackGoodsTypeEnum.h"
 #include "unitysdk/RPG/GameCore/EventTypeEnum.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/AlleyEventInfo.h"
 namespace RPG::Client { class LuaUIController; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODANCHORCOUNTBYGOODID_OFFSET UNITYSDK_OFFSET(0x19C88840)
-#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODTYPEBYGOODID_OFFSET UNITYSDK_OFFSET(0x19C88980)
-#define RPG_CLIENT_ALLEYUTILS_ISEXISTINGURGENTEVENTMISSION_OFFSET UNITYSDK_OFFSET(0x19C88620)
-#define RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET UNITYSDK_OFFSET(0x19C884C0)
+#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODANCHORCOUNTBYGOODID_OFFSET UNITYSDK_OFFSET(0xC673ED0)
+#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODTYPEBYGOODID_OFFSET UNITYSDK_OFFSET(0xC674010)
+#define RPG_CLIENT_ALLEYUTILS_ISEXISTINGURGENTEVENTMISSION_OFFSET UNITYSDK_OFFSET(0xC673CC0)
+#define RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET UNITYSDK_OFFSET(0xC673B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyUtils_TypeDefinitionIndex = 62354;
+	inline static constexpr unsigned int AlleyUtils_TypeDefinitionIndex = 62271;
 
 	class AlleyUtils : public ::System::Object
 	{
@@ -40,5 +39,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::AlleyPackGoodsTypeEnum(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYUTILS_GETALLEYGOODTYPEBYGOODID_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class PerStateParamSpectrum; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PERMUSICPARAMETERSPECTRUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1864A4B0)
+#define RPG_CLIENT_PERMUSICPARAMETERSPECTRUM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA91E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerMusicParameterSpectrum_TypeDefinitionIndex = 70786;
+	inline static constexpr unsigned int PerMusicParameterSpectrum_TypeDefinitionIndex = 70824;
 
 	class PerMusicParameterSpectrum : public ::System::Object
 	{
 	public:
 		::System::Int32 PerMusicValue0; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::PerStateParamSpectrum*>* StateParamsList; // 0x18
 		::RPG::Client::PerStateParamSpectrum* OldStateParam; // 0x20
 		::RPG::Client::PerStateParamSpectrum* NewStateParam; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERMUSICPARAMETERSPECTRUM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERMUSICPARAMETERSPECTRUM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

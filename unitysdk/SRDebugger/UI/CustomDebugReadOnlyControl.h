@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/UI/Controls/DataBoundControl.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -9,15 +8,15 @@ namespace System { class Type; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1BF3E880)
-#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1BF3E860)
-#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1BF3E870)
-#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1BF3E850)
-#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3E890)
+#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0xE954780)
+#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE954790)
+#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0xE954760)
+#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0xE954770)
+#define SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_START_OFFSET UNITYSDK_OFFSET(0xE954750)
 
 namespace SRDebugger::UI
 {
-	inline static constexpr unsigned int CustomDebugReadOnlyControl_TypeDefinitionIndex = 48165;
+	inline static constexpr unsigned int CustomDebugReadOnlyControl_TypeDefinitionIndex = 47706;
 
 	class CustomDebugReadOnlyControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
@@ -25,10 +24,9 @@ namespace SRDebugger::UI
 		::RPG::Client::LocalizedText* ValueText; // 0x98
 		::UnityEngine::UI::Text* Title; // 0xA0
 		::UnityEngine::GameObject* ScrollContent; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -50,5 +48,6 @@ namespace SRDebugger::UI
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CUSTOMDEBUGREADONLYCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

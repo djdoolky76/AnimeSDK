@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+namespace RPG::GameCore { class ElfRefreshData; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
+
+#define KPPGMIFCMIC_ADLKIFHMIDE_OFFSET UNITYSDK_OFFSET(0xB5CE3A0)
+#define KPPGMIFCMIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE110)
+#define KPPGMIFCMIC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5CE2C0)
+#define KPPGMIFCMIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5CE1B0)
+#define KPPGMIFCMIC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5CE120)
+#define KPPGMIFCMIC_TICK_OFFSET UNITYSDK_OFFSET(0xB5CE340)
+
+inline static constexpr unsigned int KPPGMIFCMIC_TypeDefinitionIndex = 58097;
+
+	class KPPGMIFCMIC : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::ElfRefreshData* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ElfRefreshData* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ElfRefreshData*))((::PBYTE)hIl2Cpp + KPPGMIFCMIC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPPGMIFCMIC_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPPGMIFCMIC_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPPGMIFCMIC_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KPPGMIFCMIC_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void ADLKIFHMIDE(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + KPPGMIFCMIC_ADLKIFHMIDE_OFFSET))(this, a1);
+		}
+
+	};

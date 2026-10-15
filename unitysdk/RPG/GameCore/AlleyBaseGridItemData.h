@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AlleyBaseGridItemData; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_METHOD_2_624105AE8EA76FA2_OFFSET UNITYSDK_OFFSET(0x1CBD05D0)
-#define RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_METHOD_2_F48D35FAF57FD14F_OFFSET UNITYSDK_OFFSET(0x1CBD08B0)
-#define RPG_GAMECORE_ALLEYBASEGRIDITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD08A0)
+#define RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B20E0)
+#define RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B20F0)
+#define RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B1E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyBaseGridItemData_TypeDefinitionIndex = 15501;
+	inline static constexpr unsigned int AlleyBaseGridItemData_TypeDefinitionIndex = 15674;
 
 	class AlleyBaseGridItemData : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,20 +18,20 @@ namespace RPG::GameCore
 		::System::UInt32 PosX; // 0x10
 		::System::UInt32 PosY; // 0x14
 		::System::UInt32 GridID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYBASEGRIDITEMDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_624105AE8EA76FA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleyBaseGridItemData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AlleyBaseGridItemData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyBaseGridItemData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_METHOD_2_624105AE8EA76FA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AlleyBaseGridItemData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_F48D35FAF57FD14F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleyBaseGridItemData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AlleyBaseGridItemData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyBaseGridItemData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_METHOD_2_F48D35FAF57FD14F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AlleyBaseGridItemData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYBASEGRIDITEMDATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

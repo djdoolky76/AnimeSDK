@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareMonsterRank; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_1BB8E6C2AF39A92C_OFFSET UNITYSDK_OFFSET(0x1BBA7E40)
-#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_A8AADFA3790F2F3A_OFFSET UNITYSDK_OFFSET(0x1BBA7E80)
-#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_AB030E40884CC6F5_OFFSET UNITYSDK_OFFSET(0x1BBA7B90)
-#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_C9091CDE88048324_OFFSET UNITYSDK_OFFSET(0x1BBA7BE0)
-#define RPG_GAMECORE_BYCOMPAREMONSTERRANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA7BD0)
+#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D493D00)
+#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D493FB0)
+#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D493F70)
+#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D493D10)
+#define RPG_GAMECORE_BYCOMPAREMONSTERRANK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D493CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareMonsterRank_TypeDefinitionIndex = 22779;
+	inline static constexpr unsigned int ByCompareMonsterRank_TypeDefinitionIndex = 23037;
 
 	class ByCompareMonsterRank : public ::RPG::GameCore::PredicateConfig
 	{
@@ -24,30 +24,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::CompareType CompareType; // 0x28
 		::System::UInt32 CompareValue; // 0x2C
 		::System::Boolean ResultWhenNotMonster; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_AB030E40884CC6F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMonsterRank*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareMonsterRank* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMonsterRank*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_AB030E40884CC6F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareMonsterRank*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C9091CDE88048324(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMonsterRank* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareMonsterRank* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMonsterRank*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_C9091CDE88048324_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareMonsterRank*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1BB8E6C2AF39A92C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMonsterRank*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMonsterRank* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMonsterRank*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_1BB8E6C2AF39A92C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMonsterRank*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A8AADFA3790F2F3A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMonsterRank* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMonsterRank* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMonsterRank*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_METHOD_4_A8AADFA3790F2F3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMonsterRank*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMONSTERRANK_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/UI/Controls/OptionsControlBase.h"
-
 namespace SRF::Helpers { class MethodReference; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_BUTTONONCLICK_OFFSET UNITYSDK_OFFSET(0x1BDB7370)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1BDB72C0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_SETMETHOD_OFFSET UNITYSDK_OFFSET(0x1BD9BEA0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1BDB72D0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB7650)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_BUTTONONCLICK_OFFSET UNITYSDK_OFFSET(0x1ED27910)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED27BF0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1ED27860)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_SETMETHOD_OFFSET UNITYSDK_OFFSET(0x1ED0C810)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED27870)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int ActionControl_TypeDefinitionIndex = 37348;
+	inline static constexpr unsigned int ActionControl_TypeDefinitionIndex = 38041;
 
 	class ActionControl : public ::SRDebugger::UI::Controls::OptionsControlBase
 	{
@@ -23,10 +22,9 @@ namespace SRDebugger::UI::Controls::Data
 		::SRF::Helpers::MethodReference* _method; // 0x78
 		::UnityEngine::UI::Button* Button; // 0x80
 		::UnityEngine::UI::Text* Title; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::SRF::Helpers::MethodReference* get_Method()
@@ -48,5 +46,6 @@ namespace SRDebugger::UI::Controls::Data
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::SRF::Helpers::MethodReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ACTIONCONTROL_SETMETHOD_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

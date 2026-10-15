@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELTURNBATTLESTART_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2C320)
-#define RPG_GAMECORE_LEVELTURNBATTLESTART_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2C2D0)
-#define RPG_GAMECORE_LEVELTURNBATTLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2C2C0)
+#define RPG_GAMECORE_LEVELTURNBATTLESTART_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EBBA0)
+#define RPG_GAMECORE_LEVELTURNBATTLESTART_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EBC00)
+#define RPG_GAMECORE_LEVELTURNBATTLESTART_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EBBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnBattleStart_TypeDefinitionIndex = 56924;
+	inline static constexpr unsigned int LevelTurnBattleStart_TypeDefinitionIndex = 56745;
 
 	class LevelTurnBattleStart : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNBATTLESTART__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNBATTLESTART_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNBATTLESTART_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

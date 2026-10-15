@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class IDictionary; }
@@ -10,18 +10,18 @@ namespace System::Runtime::Remoting::Messaging { class CADArgHolder; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETLOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x194384F0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETMETHOD_OFFSET UNITYSDK_OFFSET(0x19434D10)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETSIGNATURE_OFFSET UNITYSDK_OFFSET(0x19435620)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_ISPOSSIBLETOIGNOREMARSHAL_OFFSET UNITYSDK_OFFSET(0x19436D70)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENTS_OFFSET UNITYSDK_OFFSET(0x19437DC0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENT_OFFSET UNITYSDK_OFFSET(0x19437050)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19435AD0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_SAVELOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x19437FC0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALARGUMENTS_OFFSET UNITYSDK_OFFSET(0x19437EC0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALARGUMENT_OFFSET UNITYSDK_OFFSET(0x19437360)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19436B10)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19434570)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B3380)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETLOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C2B7300)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETMETHOD_OFFSET UNITYSDK_OFFSET(0x1C2B3B20)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1C2B4430)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_ISPOSSIBLETOIGNOREMARSHAL_OFFSET UNITYSDK_OFFSET(0x1C2B5B80)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C2B6BD0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C2B5E60)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C2B48E0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_SAVELOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C2B6DD0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C2B6CD0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C2B6170)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C2B5920)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -30,15 +30,14 @@ namespace System::Runtime::Remoting::Messaging
 	class CADMessageBase : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::Messaging::CADArgHolder* _callContext; // 0x10
-		::Il2CppArray<::System::Byte>* serializedMethod; // 0x18
-		::Il2CppArray<::System::Byte>* _serializedArgs; // 0x20
-		::Il2CppArray<::System::Object*>* _args; // 0x28
+		::Il2CppArray<::System::Byte>* _serializedArgs; // 0x10
+		::Il2CppArray<::System::Object*>* _args; // 0x18
+		::Il2CppArray<::System::Byte>* serializedMethod; // 0x20
+		::System::Runtime::Remoting::Messaging::CADArgHolder* _callContext; // 0x28
 		::System::Int32 _propertyCount; // 0x30
-
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::MethodBase* GetMethod()
@@ -51,9 +50,9 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::Il2CppArray<::System::Type*>*(*)(::System::Reflection::MethodBase*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETSIGNATURE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 MarshalProperties(::System::Collections::IDictionary* a1, ::System::Collections::ArrayList*& a2)
+		static ::System::Int32 MarshalProperties(::System::Collections::IDictionary* a1, ::System::Collections::ArrayList* a2)
 		{
-			return ((::System::Int32(*)(::System::Collections::IDictionary*, ::System::Collections::ArrayList*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALPROPERTIES_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::System::Collections::IDictionary*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALPROPERTIES_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void UnmarshalProperties(::System::Collections::IDictionary* a1, ::System::Int32 a2, ::System::Collections::ArrayList* a3)
@@ -66,9 +65,9 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_ISPOSSIBLETOIGNOREMARSHAL_OFFSET))(a1);
 		}
 
-		::System::Object* MarshalArgument(::System::Object* a1, ::System::Collections::ArrayList*& a2)
+		::System::Object* MarshalArgument(::System::Object* a1, ::System::Collections::ArrayList* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENT_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* UnmarshalArgument(::System::Object* a1, ::System::Collections::ArrayList* a2)
@@ -76,9 +75,9 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALARGUMENT_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* MarshalArguments(::Il2CppArray<::System::Object*>* a1, ::System::Collections::ArrayList*& a2)
+		::Il2CppArray<::System::Object*>* MarshalArguments(::Il2CppArray<::System::Object*>* a1, ::System::Collections::ArrayList* a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Collections::ArrayList*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENTS_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_MARSHALARGUMENTS_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Object*>* UnmarshalArguments(::Il2CppArray<::System::Object*>* a1, ::System::Collections::ArrayList* a2)
@@ -86,14 +85,15 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_UNMARSHALARGUMENTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* a1, ::System::Collections::ArrayList*& a2)
+		::System::Void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* a1, ::System::Collections::ArrayList* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*, ::System::Collections::ArrayList*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_SAVELOGICALCALLCONTEXT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_SAVELOGICALCALLCONTEXT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(::System::Collections::ArrayList* a1)
 		{
 			return ((::System::Runtime::Remoting::Messaging::LogicalCallContext*(*)(::PVOID, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMESSAGEBASE_GETLOGICALCALLCONTEXT_OFFSET))(this, a1);
 		}
+
 	};
 }

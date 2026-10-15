@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelSelectFateProjectionHougu; }
 
-#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2B180)
-#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2B130)
-#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_INIT_OFFSET UNITYSDK_OFFSET(0x1DD2B0E0)
-#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2B1D0)
+#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EAAA0)
+#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EAA50)
+#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EAA00)
+#define RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_INIT_OFFSET UNITYSDK_OFFSET(0xE6EA9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSelectFateProjectionHougu_TypeDefinitionIndex = 57000;
+	inline static constexpr unsigned int LevelSelectFateProjectionHougu_TypeDefinitionIndex = 56821;
 
-	class LevelSelectFateProjectionHougu : public ::Class_1_BF7A075734D15E98
+	class LevelSelectFateProjectionHougu : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::UInt32 SelectIndex; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelSelectFateProjectionHougu* Init(::System::UInt32 a1)
@@ -36,5 +36,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTFATEPROJECTIONHOUGU_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

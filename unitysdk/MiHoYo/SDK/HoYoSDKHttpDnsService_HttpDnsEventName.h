@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsEventName_TypeDefinitionIndex = 46552;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsEventName_TypeDefinitionIndex = 46103;
 
 	class HoYoSDKHttpDnsService_HttpDnsEventName : public ::System::Object
 	{

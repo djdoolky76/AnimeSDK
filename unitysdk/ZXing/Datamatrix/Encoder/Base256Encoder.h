@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16D4D480)
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x16D4D470)
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET UNITYSDK_OFFSET(0x16D4DD00)
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4DD50)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F680610)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F67FD40)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1F67FD30)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET UNITYSDK_OFFSET(0x1F6805C0)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int Base256Encoder_TypeDefinitionIndex = 7044;
+	inline static constexpr unsigned int Base256Encoder_TypeDefinitionIndex = 7053;
 
 	class Base256Encoder : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_EncodingMode()
@@ -35,5 +34,6 @@ namespace ZXing::Datamatrix::Encoder
 		{
 			return ((::System::Char(*)(::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E_11.h"
+#include "unitysdk/LGPFGDFHIOM.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET UNITYSDK_OFFSET(0x191ED8D0)
-#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_REVERT_OFFSET UNITYSDK_OFFSET(0x191E4F60)
-#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x191EDB00)
+#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET UNITYSDK_OFFSET(0xDA014B0)
+#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA016E0)
+#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_REVERT_OFFSET UNITYSDK_OFFSET(0xD9F8B10)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SharedSerializationDataMono_TypeDefinitionIndex = 73738;
+	inline static constexpr unsigned int SharedSerializationDataMono_TypeDefinitionIndex = 73845;
 
 	class SharedSerializationDataMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Struct_2_CC45B4503679E14E_11 EIMMOFHCEFG; // 0x18
-
+		::LGPFGDFHIOM EIMMOFHCEFG; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Apply(::Struct_2_CC45B4503679E14E_11 a1)
+		::System::Void Apply(::LGPFGDFHIOM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_11))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LGPFGDFHIOM))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET))(this, a1);
 		}
 
 		::System::Void Revert()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_REVERT_OFFSET))(this);
 		}
+
 	};
 }

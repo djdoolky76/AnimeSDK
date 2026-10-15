@@ -3,131 +3,131 @@
 #include "unitysdk/CelestialBodyType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 class CelestialBodyData;
 class OrbitData;
 class VisibilityConfig;
 
-#define SOLARSYSTEMDATA_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x197E4290)
-#define SOLARSYSTEMDATA_METHOD_1_571FA3C9F915CC8F_OFFSET UNITYSDK_OFFSET(0x197E4B40)
-#define SOLARSYSTEMDATA_METHOD_1_5C7EB0202CB9C7CB_OFFSET UNITYSDK_OFFSET(0x197E4910)
-#define SOLARSYSTEMDATA_METHOD_1_5E5FAAAE21B44BAE_OFFSET UNITYSDK_OFFSET(0x197E4210)
-#define SOLARSYSTEMDATA_METHOD_1_6775604F93DD7110_OFFSET UNITYSDK_OFFSET(0x197E4520)
-#define SOLARSYSTEMDATA_METHOD_1_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0x197E45B0)
-#define SOLARSYSTEMDATA_METHOD_1_79F36DD86C7D8759_OFFSET UNITYSDK_OFFSET(0x197E4980)
-#define SOLARSYSTEMDATA_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x197E4180)
-#define SOLARSYSTEMDATA_METHOD_1_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x197E4A30)
-#define SOLARSYSTEMDATA_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x197E49F0)
-#define SOLARSYSTEMDATA_METHOD_1_AAD21DE195D05736_OFFSET UNITYSDK_OFFSET(0x197E3F50)
-#define SOLARSYSTEMDATA_METHOD_1_C114FBFE85EC91AE_OFFSET UNITYSDK_OFFSET(0x197E4490)
-#define SOLARSYSTEMDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x197E4B00)
-#define SOLARSYSTEMDATA_METHOD_1_CD4D09F643B17112_OFFSET UNITYSDK_OFFSET(0x197E48A0)
-#define SOLARSYSTEMDATA_METHOD_1_E77C8B76199615A0_OFFSET UNITYSDK_OFFSET(0x197E4340)
-#define SOLARSYSTEMDATA_METHOD_1_EF50DBEEF0D75E16_OFFSET UNITYSDK_OFFSET(0x197E42F0)
-#define SOLARSYSTEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197E3F20)
+#define SOLARSYSTEMDATA_CLPMLHIKGHD_OFFSET UNITYSDK_OFFSET(0xE97FCC0)
+#define SOLARSYSTEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE97F0A0)
+#define SOLARSYSTEMDATA_DNCBJGFEFHJ_OFFSET UNITYSDK_OFFSET(0xE97F610)
+#define SOLARSYSTEMDATA_EBBHOIFGHJM_OFFSET UNITYSDK_OFFSET(0xE97FB70)
+#define SOLARSYSTEMDATA_EEJFPHJHDNC_OFFSET UNITYSDK_OFFSET(0xE97F410)
+#define SOLARSYSTEMDATA_FPCGEIPACNC_OFFSET UNITYSDK_OFFSET(0xE97F300)
+#define SOLARSYSTEMDATA_IDFKLDPGPGJ_OFFSET UNITYSDK_OFFSET(0xE97F4C0)
+#define SOLARSYSTEMDATA_IIEKBMLCONI_OFFSET UNITYSDK_OFFSET(0xE97FA90)
+#define SOLARSYSTEMDATA_IPGEEFMLGHG_OFFSET UNITYSDK_OFFSET(0xE97F0D0)
+#define SOLARSYSTEMDATA_JLEKGELOOMA_OFFSET UNITYSDK_OFFSET(0xE97FB00)
+#define SOLARSYSTEMDATA_KKPHDPCNCED_OFFSET UNITYSDK_OFFSET(0xE97F6A0)
+#define SOLARSYSTEMDATA_KPNFIGDOHIE_OFFSET UNITYSDK_OFFSET(0xE97F730)
+#define SOLARSYSTEMDATA_LLCAFKDFBMM_OFFSET UNITYSDK_OFFSET(0xE97FC80)
+#define SOLARSYSTEMDATA_LPGEDMCDNKB_OFFSET UNITYSDK_OFFSET(0xE97F390)
+#define SOLARSYSTEMDATA_MHDNLFCBJNL_OFFSET UNITYSDK_OFFSET(0xE97F470)
+#define SOLARSYSTEMDATA_MPMHBLOEHFF_OFFSET UNITYSDK_OFFSET(0xE97FBB0)
+#define SOLARSYSTEMDATA_NEDDHKOLNAG_OFFSET UNITYSDK_OFFSET(0xE97FA20)
 
-inline static constexpr unsigned int SolarSystemData_TypeDefinitionIndex = 47768;
+inline static constexpr unsigned int SolarSystemData_TypeDefinitionIndex = 47308;
 
-class SolarSystemData : public ::System::Object
-{
-public:
-	// static const ::System::Int32 MAX_BODIES = 0x14; // 0x0
-	::System::Single timeScale; // 0x10
-	::System::Single currentTime; // 0x14
-	::System::Single updateInterval; // 0x18
-	::System::Single lastUpdateTime; // 0x1C
-	::Il2CppArray<::OrbitData*>* orbitDataArray; // 0x20
-	::Il2CppArray<::CelestialBodyData*>* bodyDataArray; // 0x28
-	::System::Int32 activeBodyCount; // 0x30
-	::VisibilityConfig* visibilityConfig; // 0x38
-	::Il2CppArray<::UnityEngine::Vector3>* directionCache; // 0x40
-	::Il2CppArray<::System::Single>* distanceCache; // 0x48
-	::Il2CppArray<::System::Boolean>* horizonVisibilityCache; // 0x50
-	::Il2CppArray<::System::Single>* angularSizeCache; // 0x58
-	::Il2CppArray<::UnityEngine::Vector3>* skyPositionCache; // 0x60
-
-	::System::Void _ctor()
+	class SolarSystemData : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Single timeScale; // 0x10
+		::System::Single currentTime; // 0x14
+		::System::Single updateInterval; // 0x18
+		::System::Single lastUpdateTime; // 0x1C
+		::Il2CppArray<::OrbitData*>* orbitDataArray; // 0x20
+		::Il2CppArray<::CelestialBodyData*>* bodyDataArray; // 0x28
+		::System::Int32 activeBodyCount; // 0x30
+		::System::Byte _padding0[0x4];
+		::VisibilityConfig* visibilityConfig; // 0x38
+		::Il2CppArray<::UnityEngine::Vector3>* directionCache; // 0x40
+		::Il2CppArray<::System::Single>* distanceCache; // 0x48
+		::Il2CppArray<::System::Boolean>* horizonVisibilityCache; // 0x50
+		::Il2CppArray<::System::Single>* angularSizeCache; // 0x58
+		::Il2CppArray<::UnityEngine::Vector3>* skyPositionCache; // 0x60
+		// static const ::System::Object MAX_BODIES; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Method_1_AAD21DE195D05736()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_AAD21DE195D05736_OFFSET))(this);
-	}
+		::System::Void IPGEEFMLGHG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_IPGEEFMLGHG_OFFSET))(this);
+		}
 
-	::System::Void Method_1_9681042564541CD6()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_9681042564541CD6_OFFSET))(this);
-	}
+		::System::Void FPCGEIPACNC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_FPCGEIPACNC_OFFSET))(this);
+		}
 
-	::System::Void Method_1_5E5FAAAE21B44BAE(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_5E5FAAAE21B44BAE_OFFSET))(this, a1);
-	}
+		::System::Void LPGEDMCDNKB(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_LPGEDMCDNKB_OFFSET))(this, a1);
+		}
 
-	::System::Void Method_1_2685B6183E614529(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_2685B6183E614529_OFFSET))(this, a1);
-	}
+		::System::Void EEJFPHJHDNC(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_EEJFPHJHDNC_OFFSET))(this, a1);
+		}
 
-	::System::Void Method_1_EF50DBEEF0D75E16(::VisibilityConfig* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::VisibilityConfig*))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_EF50DBEEF0D75E16_OFFSET))(this, a1);
-	}
+		::System::Void MHDNLFCBJNL(::VisibilityConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::VisibilityConfig*))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_MHDNLFCBJNL_OFFSET))(this, a1);
+		}
 
-	::System::Boolean Method_1_E77C8B76199615A0(::CelestialBodyType a1, ::OrbitData* a2, ::CelestialBodyData* a3)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::CelestialBodyType, ::OrbitData*, ::CelestialBodyData*))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_E77C8B76199615A0_OFFSET))(this, a1, a2, a3);
-	}
+		::System::Boolean IDFKLDPGPGJ(::CelestialBodyType a1, ::OrbitData* a2, ::CelestialBodyData* a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::CelestialBodyType, ::OrbitData*, ::CelestialBodyData*))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_IDFKLDPGPGJ_OFFSET))(this, a1, a2, a3);
+		}
 
-	::System::Boolean Method_1_C114FBFE85EC91AE(::CelestialBodyType a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_C114FBFE85EC91AE_OFFSET))(this, a1);
-	}
+		::System::Boolean DNCBJGFEFHJ(::CelestialBodyType a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_DNCBJGFEFHJ_OFFSET))(this, a1);
+		}
 
-	::System::Boolean Method_1_6775604F93DD7110(::System::Single a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_6775604F93DD7110_OFFSET))(this, a1);
-	}
+		::System::Boolean KKPHDPCNCED(::System::Single a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_KKPHDPCNCED_OFFSET))(this, a1);
+		}
 
-	::System::Boolean Method_1_CD4D09F643B17112(::CelestialBodyType a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_CD4D09F643B17112_OFFSET))(this, a1);
-	}
+		::System::Boolean NEDDHKOLNAG(::CelestialBodyType a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_NEDDHKOLNAG_OFFSET))(this, a1);
+		}
 
-	::CelestialBodyData* Method_1_5C7EB0202CB9C7CB(::CelestialBodyType a1)
-	{
-		return ((::CelestialBodyData*(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_5C7EB0202CB9C7CB_OFFSET))(this, a1);
-	}
+		::CelestialBodyData* IIEKBMLCONI(::CelestialBodyType a1)
+		{
+			return ((::CelestialBodyData*(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_IIEKBMLCONI_OFFSET))(this, a1);
+		}
 
-	::OrbitData* Method_1_79F36DD86C7D8759(::CelestialBodyType a1)
-	{
-		return ((::OrbitData*(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_79F36DD86C7D8759_OFFSET))(this, a1);
-	}
+		::OrbitData* JLEKGELOOMA(::CelestialBodyType a1)
+		{
+			return ((::OrbitData*(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_JLEKGELOOMA_OFFSET))(this, a1);
+		}
 
-	::System::Int32 Method_1_A1D8CD775DEC3C21()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_A1D8CD775DEC3C21_OFFSET))(this);
-	}
+		::System::Int32 EBBHOIFGHJM()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_EBBHOIFGHJM_OFFSET))(this);
+		}
 
-	::System::Void Method_1_735EE20B25F86BF4()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_735EE20B25F86BF4_OFFSET))(this);
-	}
+		::System::Void KPNFIGDOHIE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_KPNFIGDOHIE_OFFSET))(this);
+		}
 
-	::System::Void Method_1_A1ADC999CFACEB89()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_A1ADC999CFACEB89_OFFSET))(this);
-	}
+		::System::Void MPMHBLOEHFF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_MPMHBLOEHFF_OFFSET))(this);
+		}
 
-	::System::Void Method_1_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_CA373AA1C7054598_OFFSET))(this);
-	}
+		::System::Void LLCAFKDFBMM()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_LLCAFKDFBMM_OFFSET))(this);
+		}
 
-	::System::Boolean Method_1_571FA3C9F915CC8F(::System::Int32 a1, ::System::Int32 a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_METHOD_1_571FA3C9F915CC8F_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Boolean CLPMLHIKGHD(::System::Int32 a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SOLARSYSTEMDATA_CLPMLHIKGHD_OFFSET))(this, a1, a2);
+		}
+
+	};

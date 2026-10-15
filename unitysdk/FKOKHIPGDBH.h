@@ -1,0 +1,92 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GenderType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/DNFDBKCPBNM.h"
+#include "unitysdk/OIPMNNAHIFP.h"
+class BLIBHFKMKML;
+class EPAAAILJEKE;
+class PEDNMPONAAO;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define FKOKHIPGDBH_BHFFGMKEFII_OFFSET UNITYSDK_OFFSET(0x15818C50)
+#define FKOKHIPGDBH_CNMEIHNPBLL_OFFSET UNITYSDK_OFFSET(0x15818970)
+#define FKOKHIPGDBH_CTOR_OFFSET UNITYSDK_OFFSET(0x158188E0)
+#define FKOKHIPGDBH_DJHDAHMKEDG_OFFSET UNITYSDK_OFFSET(0x15818CD0)
+#define FKOKHIPGDBH_FFHFDPGKLFN_OFFSET UNITYSDK_OFFSET(0x15818A90)
+#define FKOKHIPGDBH_GBGHHGJBKKK_OFFSET UNITYSDK_OFFSET(0x15818B30)
+#define FKOKHIPGDBH_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0x15818BB0)
+#define FKOKHIPGDBH_KLEOFONHOEE_OFFSET UNITYSDK_OFFSET(0x15818D40)
+#define FKOKHIPGDBH_KOFGMMGGGCG_OFFSET UNITYSDK_OFFSET(0x15818DF0)
+#define FKOKHIPGDBH_LBNKINLNHMM_OFFSET UNITYSDK_OFFSET(0x15818F30)
+#define FKOKHIPGDBH_LLMODPGMMLK_OFFSET UNITYSDK_OFFSET(0x15818E90)
+#define FKOKHIPGDBH_NFHKKGPKIKH_OFFSET UNITYSDK_OFFSET(0x15818A00)
+
+inline static constexpr unsigned int FKOKHIPGDBH_TypeDefinitionIndex = 62774;
+
+	class FKOKHIPGDBH : public ::System::Object
+	{
+	public:
+		::EPAAAILJEKE* HPNDAEDOHNN; // 0x10
+		::BLIBHFKMKML* LJGCFGEGICI; // 0x18
+		::System::Void _ctor(::EPAAAILJEKE* a1, ::BLIBHFKMKML* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::EPAAAILJEKE*, ::BLIBHFKMKML*))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::PEDNMPONAAO*>* CNMEIHNPBLL()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::PEDNMPONAAO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_CNMEIHNPBLL_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::PEDNMPONAAO*>* NFHKKGPKIKH(::DNFDBKCPBNM a1)
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::PEDNMPONAAO*>*(*)(::PVOID, ::DNFDBKCPBNM))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_NFHKKGPKIKH_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FFHFDPGKLFN(::DNFDBKCPBNM a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::DNFDBKCPBNM))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_FFHFDPGKLFN_OFFSET))(this, a1);
+		}
+
+		::DNFDBKCPBNM GBGHHGJBKKK(::OIPMNNAHIFP a1)
+		{
+			return ((::DNFDBKCPBNM(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_GBGHHGJBKKK_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::GenderType BHFFGMKEFII(::OIPMNNAHIFP a1)
+		{
+			return ((::RPG::GameCore::GenderType(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_BHFFGMKEFII_OFFSET))(this, a1);
+		}
+
+		::PEDNMPONAAO* DJHDAHMKEDG(::OIPMNNAHIFP a1)
+		{
+			return ((::PEDNMPONAAO*(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_DJHDAHMKEDG_OFFSET))(this, a1);
+		}
+
+		::System::Boolean HPMHPJIJAPB(::OIPMNNAHIFP a1, ::PEDNMPONAAO* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::OIPMNNAHIFP, ::PEDNMPONAAO*))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_HPMHPJIJAPB_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean KLEOFONHOEE(::DNFDBKCPBNM a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::DNFDBKCPBNM))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_KLEOFONHOEE_OFFSET))(this, a1);
+		}
+
+		::DNFDBKCPBNM KOFGMMGGGCG(::OIPMNNAHIFP a1)
+		{
+			return ((::DNFDBKCPBNM(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_KOFGMMGGGCG_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::GenderType LLMODPGMMLK(::OIPMNNAHIFP a1)
+		{
+			return ((::RPG::GameCore::GenderType(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_LLMODPGMMLK_OFFSET))(this, a1);
+		}
+
+		::PEDNMPONAAO* LBNKINLNHMM(::OIPMNNAHIFP a1)
+		{
+			return ((::PEDNMPONAAO*(*)(::PVOID, ::OIPMNNAHIFP))((::PBYTE)hIl2Cpp + FKOKHIPGDBH_LBNKINLNHMM_OFFSET))(this, a1);
+		}
+
+	};

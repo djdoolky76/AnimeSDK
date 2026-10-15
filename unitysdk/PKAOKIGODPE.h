@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LLJAOGKDNFD.h"
+class CLFIGBPHLHI;
+class PKAOKIGODPE;
+namespace UnityEngine { class Behaviour; }
+
+#define PKAOKIGODPE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC2A28D0)
+#define PKAOKIGODPE_CLONE_OFFSET UNITYSDK_OFFSET(0xC2A2AC0)
+#define PKAOKIGODPE_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A2950)
+#define PKAOKIGODPE_OJKBPPHNOIP_OFFSET UNITYSDK_OFFSET(0xC2A2970)
+#define PKAOKIGODPE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC2A2B80)
+#define PKAOKIGODPE_REVERSE_OFFSET UNITYSDK_OFFSET(0xC2A2A00)
+
+inline static constexpr unsigned int PKAOKIGODPE_TypeDefinitionIndex = 73498;
+
+	class PKAOKIGODPE : public ::LLJAOGKDNFD
+	{
+	public:
+		::UnityEngine::Behaviour* FKJHPLCMJPI; // 0x38
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PKAOKIGODPE_CTOR_OFFSET))(this);
+		}
+
+		static ::PKAOKIGODPE* BPLPBPMEODA()
+		{
+			return ((::PKAOKIGODPE*(*)())((::PBYTE)hIl2Cpp + PKAOKIGODPE_BPLPBPMEODA_OFFSET))();
+		}
+
+		::CLFIGBPHLHI* OJKBPPHNOIP(::UnityEngine::Behaviour* a1)
+		{
+			return ((::CLFIGBPHLHI*(*)(::PVOID, ::UnityEngine::Behaviour*))((::PBYTE)hIl2Cpp + PKAOKIGODPE_OJKBPPHNOIP_OFFSET))(this, a1);
+		}
+
+		::CLFIGBPHLHI* Reverse()
+		{
+			return ((::CLFIGBPHLHI*(*)(::PVOID))((::PBYTE)hIl2Cpp + PKAOKIGODPE_REVERSE_OFFSET))(this);
+		}
+
+		::CLFIGBPHLHI* Clone()
+		{
+			return ((::CLFIGBPHLHI*(*)(::PVOID))((::PBYTE)hIl2Cpp + PKAOKIGODPE_CLONE_OFFSET))(this);
+		}
+
+		::System::Void PAGKOAEOLKA(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PKAOKIGODPE_PAGKOAEOLKA_OFFSET))(this, a1);
+		}
+
+	};

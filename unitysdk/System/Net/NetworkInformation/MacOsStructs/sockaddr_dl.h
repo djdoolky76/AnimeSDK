@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3B74060)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3C5CA40)
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
@@ -18,10 +17,10 @@ namespace System::Net::NetworkInformation::MacOsStructs
 		::System::Byte sdl_alen; // 0x16
 		::System::Byte sdl_slen; // 0x17
 		::Il2CppArray<::System::Byte>* sdl_data; // 0x18
-
 		::System::Void Read(::System::IntPtr a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

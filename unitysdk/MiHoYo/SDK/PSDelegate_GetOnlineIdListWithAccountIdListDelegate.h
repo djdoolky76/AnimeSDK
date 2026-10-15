@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B0F0)
-#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B130)
-#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7B0E0)
-#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7B060)
+#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53D30)
+#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF53CA0)
+#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53D70)
+#define MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53D20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_GetOnlineIdListWithAccountIdListDelegate_TypeDefinitionIndex = 7703;
+	inline static constexpr unsigned int PSDelegate_GetOnlineIdListWithAccountIdListDelegate_TypeDefinitionIndex = 7747;
 
 	class PSDelegate_GetOnlineIdListWithAccountIdListDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Action_1<::System::String*>* a2)
@@ -39,5 +38,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETONLINEIDLISTWITHACCOUNTIDLISTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

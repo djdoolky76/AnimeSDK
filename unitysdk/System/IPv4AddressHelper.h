@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_IPV4ADDRESSHELPER_ISVALIDCANONICAL_OFFSET UNITYSDK_OFFSET(0x1AB3A850)
-#define SYSTEM_IPV4ADDRESSHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1AB3A820)
-#define SYSTEM_IPV4ADDRESSHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1AB39FE0)
-#define SYSTEM_IPV4ADDRESSHELPER_PARSECANONICAL_OFFSET UNITYSDK_OFFSET(0x1AB3A570)
-#define SYSTEM_IPV4ADDRESSHELPER_PARSEHOSTNUMBER_OFFSET UNITYSDK_OFFSET(0x1AB3A480)
-#define SYSTEM_IPV4ADDRESSHELPER_PARSENONCANONICAL_OFFSET UNITYSDK_OFFSET(0x1AB3AB20)
-#define SYSTEM_IPV4ADDRESSHELPER_PARSE_OFFSET UNITYSDK_OFFSET(0x1AB3A430)
+#define SYSTEM_IPV4ADDRESSHELPER_ISVALIDCANONICAL_OFFSET UNITYSDK_OFFSET(0x1EFEBF50)
+#define SYSTEM_IPV4ADDRESSHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EFEBF20)
+#define SYSTEM_IPV4ADDRESSHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1EFEB6E0)
+#define SYSTEM_IPV4ADDRESSHELPER_PARSECANONICAL_OFFSET UNITYSDK_OFFSET(0x1EFEBC70)
+#define SYSTEM_IPV4ADDRESSHELPER_PARSEHOSTNUMBER_OFFSET UNITYSDK_OFFSET(0x1EFEBB80)
+#define SYSTEM_IPV4ADDRESSHELPER_PARSENONCANONICAL_OFFSET UNITYSDK_OFFSET(0x1EFEC220)
+#define SYSTEM_IPV4ADDRESSHELPER_PARSE_OFFSET UNITYSDK_OFFSET(0x1EFEBB30)
 
 namespace System
 {
@@ -19,9 +18,9 @@ namespace System
 	class IPv4AddressHelper : public ::System::Object
 	{
 	public:
-		static ::System::String* ParseCanonicalName(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean& a4)
+		static ::System::String* ParseCanonicalName(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSECANONICALNAME_OFFSET))(a1, a2, a3, a4);
+			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSECANONICALNAME_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Int32 ParseHostNumber(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -29,29 +28,30 @@ namespace System
 			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSEHOSTNUMBER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsValid(::System::Char* a1, ::System::Int32 a2, ::System::Int32& a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
+		static ::System::Boolean IsValid(::PVOID a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::Int32, ::System::Int32&, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_ISVALID_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_ISVALID_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean IsValidCanonical(::System::Char* a1, ::System::Int32 a2, ::System::Int32& a3, ::System::Boolean a4, ::System::Boolean a5)
+		static ::System::Boolean IsValidCanonical(::PVOID a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::Int32, ::System::Int32&, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_ISVALIDCANONICAL_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_ISVALIDCANONICAL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int64 ParseNonCanonical(::System::Char* a1, ::System::Int32 a2, ::System::Int32& a3, ::System::Boolean a4)
+		static ::System::Int64 ParseNonCanonical(::PVOID a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Int64(*)(::System::Char*, ::System::Int32, ::System::Int32&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSENONCANONICAL_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Int64(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSENONCANONICAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean Parse(::System::String* a1, ::System::Byte* a2, ::System::Int32 a3, ::System::Int32 a4)
+		static ::System::Boolean Parse(::System::String* a1, ::PVOID a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ParseCanonical(::System::String* a1, ::System::Byte* a2, ::System::Int32 a3, ::System::Int32 a4)
+		static ::System::Boolean ParseCanonical(::System::String* a1, ::PVOID a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSECANONICAL_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IPV4ADDRESSHELPER_PARSECANONICAL_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

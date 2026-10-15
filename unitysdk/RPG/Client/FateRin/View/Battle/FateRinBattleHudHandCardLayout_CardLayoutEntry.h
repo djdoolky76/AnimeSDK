@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_ANGLE_OFFSET UNITYSDK_OFFSET(0xB5A200)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_CARD_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_SPREADOFFSET_OFFSET UNITYSDK_OFFSET(0x3A319B0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x3B8A570)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xE8510)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_ANGLE_OFFSET UNITYSDK_OFFSET(0x1D20)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_CARD_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_SPREADOFFSET_OFFSET UNITYSDK_OFFSET(0x2580)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudHandCardLayout_CardLayoutEntry_TypeDefinitionIndex = 79345;
+	inline static constexpr unsigned int FateRinBattleHudHandCardLayout_CardLayoutEntry_TypeDefinitionIndex = 80669;
 
 	struct alignas(8) FateRinBattleHudHandCardLayout_CardLayoutEntry
 	{
 		::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* _Card_k__BackingField; // 0x10
 		::System::Single _Angle_k__BackingField; // 0x18
 		::UnityEngine::Vector2 _SpreadOffset_k__BackingField; // 0x1C
-
 		::System::Void _ctor(::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* a1, ::System::Single a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* get_Card()
@@ -39,5 +36,6 @@ namespace RPG::Client::FateRin::View::Battle
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDHANDCARDLAYOUT_CARDLAYOUTENTRY_GET_SPREADOFFSET_OFFSET))(this);
 		}
+
 	};
 }

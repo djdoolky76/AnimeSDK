@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_POINTERSPEC_APPEND_OFFSET UNITYSDK_OFFSET(0x1CC116E0)
-#define SYSTEM_POINTERSPEC_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1CC11620)
-#define SYSTEM_POINTERSPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CC11710)
-#define SYSTEM_POINTERSPEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC11610)
+#define SYSTEM_POINTERSPEC_APPEND_OFFSET UNITYSDK_OFFSET(0x1C265720)
+#define SYSTEM_POINTERSPEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C265650)
+#define SYSTEM_POINTERSPEC_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1C265660)
+#define SYSTEM_POINTERSPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C265750)
 
 namespace System
 {
@@ -19,10 +18,9 @@ namespace System
 	{
 	public:
 		::System::Int32 pointer_level; // 0x10
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_POINTERSPEC__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_POINTERSPEC_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* Resolve(::System::Type* a1)
@@ -39,5 +37,6 @@ namespace System
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_POINTERSPEC_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

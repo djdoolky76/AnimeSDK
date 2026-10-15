@@ -1,54 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C628050)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C628090)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__ONENTERED_B__32_1_OFFSET UNITYSDK_OFFSET(0x1C6280A0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLEEXITGAME_B__72_3_OFFSET UNITYSDK_OFFSET(0x1C6281F0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLEJOINLOBBY_B__68_1_OFFSET UNITYSDK_OFFSET(0x1C628110)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLESTARTGAME_B__70_1_OFFSET UNITYSDK_OFFSET(0x1C628180)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8F0420)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F0460)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__ONENTERED_B__32_1_OFFSET UNITYSDK_OFFSET(0xC8F0470)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLEEXITGAME_B__72_3_OFFSET UNITYSDK_OFFSET(0xC8F05C0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLEJOINLOBBY_B__68_1_OFFSET UNITYSDK_OFFSET(0xC8F04E0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLESTARTGAME_B__70_1_OFFSET UNITYSDK_OFFSET(0xC8F0550)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c_TypeDefinitionIndex = 75968;
+	inline static constexpr unsigned int CakeRaceGameFlow___c_TypeDefinitionIndex = 76445;
 
 	class CakeRaceGameFlow___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__68_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFlow___c_TypeDefinitionIndex)->GetStaticField(0x150C0);
-		}
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__70_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFlow___c_TypeDefinitionIndex)->GetStaticField(0x150C8);
-		}
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__32_1()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFlow___c_TypeDefinitionIndex)->GetStaticField(0x150D0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68B00);
 		}
-		static ::RPG::Client::CakeRace::CakeRaceGameFlow___c** StaticGet___9()
-		{
-			return (::RPG::Client::CakeRace::CakeRaceGameFlow___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFlow___c_TypeDefinitionIndex)->GetStaticField(0x150D8);
-		}
+
 		static ::System::Action** StaticGet___9__72_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFlow___c_TypeDefinitionIndex)->GetStaticField(0x150E0);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68B08);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__68_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68B10);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68B18);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__70_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68B20);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnEntered_b__32_1(::System::Exception* a1)
@@ -70,5 +74,6 @@ namespace RPG::Client::CakeRace
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C___HANDLEEXITGAME_B__72_3_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvEndIsometric; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8D9DAC7F4C905B79_OFFSET UNITYSDK_OFFSET(0x1D6B5F50)
-#define RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8FE5649592E2167C_OFFSET UNITYSDK_OFFSET(0x1D6B6020)
-#define RPG_GAMECORE_ADVENDISOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B6010)
+#define RPG_GAMECORE_ADVENDISOMETRIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36F7E0)
+#define RPG_GAMECORE_ADVENDISOMETRIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36F7F0)
+#define RPG_GAMECORE_ADVENDISOMETRIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36F720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEndIsometric_TypeDefinitionIndex = 21961;
+	inline static constexpr unsigned int AdvEndIsometric_TypeDefinitionIndex = 22209;
 
 	class AdvEndIsometric : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8D9DAC7F4C905B79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEndIsometric*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvEndIsometric* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEndIsometric*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8D9DAC7F4C905B79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvEndIsometric*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8FE5649592E2167C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEndIsometric* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvEndIsometric* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEndIsometric*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8FE5649592E2167C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvEndIsometric*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

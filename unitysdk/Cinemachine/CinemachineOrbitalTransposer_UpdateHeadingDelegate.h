@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineOrbitalTransposer; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18C6C670)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18C6C6F0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18C6AC30)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6C580)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16688B00)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x16688A10)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16688B80)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x166870C0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer_UpdateHeadingDelegate_TypeDefinitionIndex = 38487;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_UpdateHeadingDelegate_TypeDefinitionIndex = 39784;
 
 	class CinemachineOrbitalTransposer_UpdateHeadingDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Invoke(::Cinemachine::CinemachineOrbitalTransposer* a1, ::System::Single a2, ::UnityEngine::Vector3 a3)
@@ -39,5 +38,6 @@ namespace Cinemachine
 		{
 			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_UPDATEHEADINGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

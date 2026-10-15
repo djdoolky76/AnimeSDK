@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
-
 namespace MessagePack { class MessagePackSerializerOptions; }
+namespace MessagePack::Formatters { class Int16ArrayFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x166740A0)
-#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x16673EE0)
-#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16674290)
-#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16673ED0)
+#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB55A70)
+#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB556B0)
+#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB55880)
+#define MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB556C0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Int16ArrayFormatter_TypeDefinitionIndex = 7392;
+	inline static constexpr unsigned int Int16ArrayFormatter_TypeDefinitionIndex = 7446;
 
 	class Int16ArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::Int16ArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::Int16ArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(Int16ArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x346D0);
+			return (::MessagePack::Formatters::Int16ArrayFormatter**)UnitySDK::FromName("MessagePack.Formatters", "Int16ArrayFormatter")->GetStaticField(0x48660);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_CCTOR_OFFSET))();
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::Il2CppArray<::System::Int16>* a2, ::MessagePack::MessagePackSerializerOptions* a3)
+		::System::Void Serialize(::MessagePack::MessagePackWriter a1, ::Il2CppArray<::System::Int16>* a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::Il2CppArray<::System::Int16>*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter, ::Il2CppArray<::System::Int16>*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::System::Int16>* Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
+		::Il2CppArray<::System::Int16>* Deserialize(::MessagePack::MessagePackReader a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::Il2CppArray<::System::Int16>*(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::System::Int16>*(*)(::PVOID, ::MessagePack::MessagePackReader, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_INT16ARRAYFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

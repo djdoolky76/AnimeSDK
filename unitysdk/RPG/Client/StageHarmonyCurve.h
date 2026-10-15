@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_STAGEHARMONYCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x196F4020)
+#define RPG_CLIENT_STAGEHARMONYCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE101380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 70950;
+	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 70982;
 
 	class StageHarmonyCurve : public ::System::Object
 	{
 	public:
 		::System::Single Scale; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* Curve; // 0x18
 		::System::Int32 BeatRepeate; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYCURVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYCURVE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

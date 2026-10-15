@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class TimerThread_Timer; }
 
-#define SYSTEM_NET_TIMERTHREAD_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B975F00)
-#define SYSTEM_NET_TIMERTHREAD_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B975F70)
-#define SYSTEM_NET_TIMERTHREAD_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B975EE0)
-#define SYSTEM_NET_TIMERTHREAD_CALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975DF0)
+#define SYSTEM_NET_TIMERTHREAD_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F05F740)
+#define SYSTEM_NET_TIMERTHREAD_CALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05F630)
+#define SYSTEM_NET_TIMERTHREAD_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F05F7B0)
+#define SYSTEM_NET_TIMERTHREAD_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F05F720)
 
 namespace System::Net
 {
@@ -21,7 +20,7 @@ namespace System::Net
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_CALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_CALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Net::TimerThread_Timer* a1, ::System::Int32 a2, ::System::Object* a3)
@@ -38,5 +37,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_CALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

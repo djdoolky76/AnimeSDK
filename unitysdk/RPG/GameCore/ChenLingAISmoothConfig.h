@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingAISmoothConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_METHOD_2_5397766EC142C9B4_OFFSET UNITYSDK_OFFSET(0x1E005220)
-#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E005490)
+#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D550360)
+#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5500F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingAISmoothConfig_TypeDefinitionIndex = 15524;
+	inline static constexpr unsigned int ChenLingAISmoothConfig_TypeDefinitionIndex = 15697;
 
 	class ChenLingAISmoothConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,15 +21,15 @@ namespace RPG::GameCore
 		::System::Single AlignmentRadius; // 0x20
 		::System::Single SeparationRadius; // 0x24
 		::System::Single ArriveSlowingDistance; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGAISMOOTHCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5397766EC142C9B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingAISmoothConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingAISmoothConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingAISmoothConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_METHOD_2_5397766EC142C9B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingAISmoothConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

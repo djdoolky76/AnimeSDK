@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
-
-class Class_0_16E4307DCC419505_460;
+class EKFMIDBJDIA;
 namespace RPG::Client { class ModiferEffectMapItem; }
 namespace RPG::Client { class MonoEffectManager; }
 namespace RPG::GameCore { class EventManager; }
@@ -11,16 +10,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B399BD0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_METHOD_6_1BAAC81B1E9AFDF5_OFFSET UNITYSDK_OFFSET(0x1B39A040)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_METHOD_6_A0C1DAA6261B1CB5_OFFSET UNITYSDK_OFFSET(0x1B399FE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_METHOD_6_BF36CA78EE3B5455_OFFSET UNITYSDK_OFFSET(0x1B399E00)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x1B399860)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39A220)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0xD8057D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_DANPJIKCHBK_OFFSET UNITYSDK_OFFSET(0xD8053D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD8051A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_GHIFMGPKFPF_OFFSET UNITYSDK_OFFSET(0xD8055F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_LEPDDFMAIKH_OFFSET UNITYSDK_OFFSET(0xD805590)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD804E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTriggerEffectModiferListener_TypeDefinitionIndex = 70095;
+	inline static constexpr unsigned int MonoEffectPluginTriggerEffectModiferListener_TypeDefinitionIndex = 70130;
 
 	class MonoEffectPluginTriggerEffectModiferListener : public ::RPG::Client::MonoEffectPluginBase
 	{
@@ -28,6 +27,7 @@ namespace RPG::Client
 		::Il2CppArray<::RPG::Client::ModiferEffectMapItem*>* ModiferEffectMapping; // 0x28
 		::Il2CppArray<::System::String*>* AttachPointList; // 0x30
 		::System::Int32 NOIEMNLMACN; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::String* LKDNEEIKNGN; // 0x40
 		::System::String* NNIOCPHFNNG; // 0x48
 		::System::Collections::Generic::List_1<::System::String*>* AANBAEBCAPM; // 0x50
@@ -35,10 +35,9 @@ namespace RPG::Client
 		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x60
 		::RPG::Client::MonoEffectManager* BBKCIBAJKGC; // 0x68
 		::RPG::GameCore::EventManager* EBOCGAJBGPG; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetPlugin()
@@ -51,19 +50,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_DISPOSEPLUGIN_OFFSET))(this);
 		}
 
-		::System::Void Method_6_BF36CA78EE3B5455(::Class_0_16E4307DCC419505_460* a1)
+		::System::Void DANPJIKCHBK(::EKFMIDBJDIA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_METHOD_6_BF36CA78EE3B5455_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_DANPJIKCHBK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_1BAAC81B1E9AFDF5(::System::String* a1, ::System::String* a2)
+		::System::Void GHIFMGPKFPF(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_METHOD_6_1BAAC81B1E9AFDF5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_GHIFMGPKFPF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Method_6_A0C1DAA6261B1CB5()
+		::System::Int32 LEPDDFMAIKH()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_METHOD_6_A0C1DAA6261B1CB5_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRIGGEREFFECTMODIFERLISTENER_LEPDDFMAIKH_OFFSET))(this);
 		}
+
 	};
 }

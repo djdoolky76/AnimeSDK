@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattlePredicate.h"
 #include "unitysdk/RPG/GameCore/ChenLingTeamSelectorType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
+namespace RPG::GameCore { class ChenLingBattlePredicate_IsTeamType; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_METHOD_3_22685F6E7095F344_OFFSET UNITYSDK_OFFSET(0x1E00DDF0)
-#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_METHOD_3_D63926613485D238_OFFSET UNITYSDK_OFFSET(0x1E00DE50)
-#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E00DE40)
+#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5594A0)
+#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5594B0)
+#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D559450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattlePredicate_IsTeamType_TypeDefinitionIndex = 15640;
+	inline static constexpr unsigned int ChenLingBattlePredicate_IsTeamType_TypeDefinitionIndex = 15813;
 
 	class ChenLingBattlePredicate_IsTeamType : public ::RPG::GameCore::BaseChenLingBattlePredicate
 	{
 	public:
 		::RPG::GameCore::BaseChenLingBattleTargetEvaluator* Targets; // 0x10
 		::RPG::GameCore::ChenLingTeamSelectorType TeamSelectorType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_22685F6E7095F344(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_METHOD_3_22685F6E7095F344_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D63926613485D238(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_METHOD_3_D63926613485D238_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattlePredicate_IsTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPREDICATE_ISTEAMTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

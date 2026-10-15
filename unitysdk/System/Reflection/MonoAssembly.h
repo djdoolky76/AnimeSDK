@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/RuntimeAssembly.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MONOASSEMBLY_GETMODULES_OFFSET UNITYSDK_OFFSET(0x1CC24D00)
-#define SYSTEM_REFLECTION_MONOASSEMBLY_GETMODULE_OFFSET UNITYSDK_OFFSET(0x1CC24AE0)
-#define SYSTEM_REFLECTION_MONOASSEMBLY_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1CC24A50)
-#define SYSTEM_REFLECTION_MONOASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC24FB0)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C278FA0)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_GETMODULES_OFFSET UNITYSDK_OFFSET(0x1C278CF0)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_GETMODULE_OFFSET UNITYSDK_OFFSET(0x1C278AD0)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1C278A40)
 
 namespace System::Reflection
 {
@@ -20,7 +19,7 @@ namespace System::Reflection
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_CTOR_OFFSET))(this);
 		}
 
 		::System::Type* GetType(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
@@ -37,5 +36,6 @@ namespace System::Reflection
 		{
 			return ((::Il2CppArray<::System::Reflection::Module*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_GETMODULES_OFFSET))(this, a1);
 		}
+
 	};
 }

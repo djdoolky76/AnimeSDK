@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B59E500)
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59E770)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE903970)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE9036F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MeshShowHideBehaviour_TypeDefinitionIndex = 48645;
+	inline static constexpr unsigned int MeshShowHideBehaviour_TypeDefinitionIndex = 48185;
 
 	class MeshShowHideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -19,15 +18,15 @@ namespace RPGTools::Timeline
 		::System::String* CharacterUniqueName; // 0x10
 		::System::String* MeshName; // 0x18
 		::System::Boolean ShowWeapon; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

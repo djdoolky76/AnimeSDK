@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client { class OptimizeVolumeBaseBehavior; }
 namespace RPG::Client { class VolumeData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x191FC1F0)
-#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x191FC240)
+#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0FE60)
+#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDA0FE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OptimzieVolumeBaseMonoPlugin_TypeDefinitionIndex = 70798;
+	inline static constexpr unsigned int OptimzieVolumeBaseMonoPlugin_TypeDefinitionIndex = 70836;
 
-	class OptimzieVolumeBaseMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::OptimizeVolumeBaseBehavior*>
+	class OptimzieVolumeBaseMonoPlugin
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::VolumeData*>* VolumeList; // 0x30
 		::System::Single FadeInSpeedScale; // 0x38
 		::System::Single FadeOutSpeedScale; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

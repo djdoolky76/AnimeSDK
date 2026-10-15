@@ -3,32 +3,30 @@
 #include "unitysdk/RPG/Client/TextOutline.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTSHADOW_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0x1ACB0150)
-#define RPG_CLIENT_TEXTSHADOW_METHOD_8_D27386107860D10C_OFFSET UNITYSDK_OFFSET(0x1ACB0570)
-#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x1ACB02A0)
-#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1ACB0250)
-#define RPG_CLIENT_TEXTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACB0190)
+#define RPG_CLIENT_TEXTSHADOW_CTOR_OFFSET UNITYSDK_OFFSET(0xE210030)
+#define RPG_CLIENT_TEXTSHADOW_GBJLEDGNJHK_OFFSET UNITYSDK_OFFSET(0xE210400)
+#define RPG_CLIENT_TEXTSHADOW_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0xE20FFF0)
+#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xE210130)
+#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xE2100E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 72611;
+	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 72686;
 
 	class TextShadow : public ::RPG::Client::TextOutline
 	{
 	public:
-		// static const ::System::Single KJDGJFIPIMG; // 0x0
-		// static const ::System::Single FCADKBHFHHF; // 0x0
 		::UnityEngine::Vector2 shadowDistance; // 0xF0
 		::Il2CppArray<::UnityEngine::UIVertex>* NCHPCGNOAEC; // 0xF8
 		::Il2CppArray<::System::Int32>* OFOPDBJNBLJ; // 0x100
-
+		// static const ::System::Object KJDGJFIPIMG; // 0x0
+		// static const ::System::Object FCADKBHFHHF; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_AddBaseMesh()
@@ -46,9 +44,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_8_D27386107860D10C(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2)
+		::System::Void GBJLEDGNJHK(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW_METHOD_8_D27386107860D10C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW_GBJLEDGNJHK_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

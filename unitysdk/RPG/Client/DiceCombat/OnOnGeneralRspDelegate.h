@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Google::Protobuf { class ByteString; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C4D00)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C4D60)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C4CF0)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C4C80)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCCA9DF0)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA9D70)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCCA9E50)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCCA9DE0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int OnOnGeneralRspDelegate_TypeDefinitionIndex = 75656;
+	inline static constexpr unsigned int OnOnGeneralRspDelegate_TypeDefinitionIndex = 76133;
 
 	class OnOnGeneralRspDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt32 a1, ::Google::Protobuf::ByteString* a2)
@@ -38,5 +37,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -4,35 +4,35 @@
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-
 namespace System { class IDisposable; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CANCELAFTERSLIM_1_OFFSET UNITYSDK_OFFSET(0x1D746710)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CANCELAFTERSLIM_OFFSET UNITYSDK_OFFSET(0x1D7466A0)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CANCELCANCELLATIONTOKENSOURCESTATE_OFFSET UNITYSDK_OFFSET(0x1D746650)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_REGISTERRAISECANCELONDESTROY_1_OFFSET UNITYSDK_OFFSET(0x1D7468E0)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_REGISTERRAISECANCELONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D746870)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D746B30)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CANCELAFTERSLIM_1_OFFSET UNITYSDK_OFFSET(0x1F0E83E0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CANCELAFTERSLIM_OFFSET UNITYSDK_OFFSET(0x1F0E8370)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CANCELCANCELLATIONTOKENSOURCESTATE_OFFSET UNITYSDK_OFFSET(0x1F0E8320)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E8800)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_REGISTERRAISECANCELONDESTROY_1_OFFSET UNITYSDK_OFFSET(0x1F0E85B0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_REGISTERRAISECANCELONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F0E8540)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CancellationTokenSourceExtensions_TypeDefinitionIndex = 42553;
+	inline static constexpr unsigned int CancellationTokenSourceExtensions_TypeDefinitionIndex = 38138;
 
 	class CancellationTokenSourceExtensions : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet_CancelCancellationTokenSourceStateDelegate()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CancellationTokenSourceExtensions_TypeDefinitionIndex)->GetStaticField(0x61970);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenSourceExtensions")->GetStaticField(0x36870);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void CancelCancellationTokenSourceState(::System::Object* a1)
@@ -59,5 +59,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::System::Threading::CancellationTokenSource*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENSOURCEEXTENSIONS_REGISTERRAISECANCELONDESTROY_1_OFFSET))(a1, a2);
 		}
+
 	};
 }

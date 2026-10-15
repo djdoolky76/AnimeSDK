@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BCAMANFJINC_TypeDefinitionIndex = 27029;
+
+	enum class BCAMANFJINC : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		MLIGAFABJDP = 1,
+		BLLCMLBDLPC = 2,
+		MEBGACKEOOG = 3,
+		GHPKFACFMML = 4,
+		JHJCNLLMPKH = 5,
+		LOFJAGLLHHG = 6,
+		HEIHBJEEGPB = 7,
+		NJPMBLBIBOD = 8,
+		GIFGLDBDELN = 9,
+		NGECENKOPLK = 10,
+		EMGMFOBLAFN = 11,
+		LIJMDJDFIIC = 12,
+		JHGMHCJOKNA = 13,
+		KPCEJLILHMO = 14,
+		AEHHIPFDNFJ = 15,
+		KHBEOADDIFM = 16,
+		ENGGCENAFPM = 17,
+		DACEMIDFHOG = 18,
+		OIKFFLEHFCN = 19,
+		KEJCJJHDKJB = 20,
+		EIIJCLPCFLM = 21,
+		NKJFKBBDDEO = 22,
+	};

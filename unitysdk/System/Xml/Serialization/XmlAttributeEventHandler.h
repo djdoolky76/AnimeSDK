@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Xml::Serialization { class XmlAttributeEventArgs; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B095DC0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B095E00)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B095DB0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B095CC0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EED6A40)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED6940)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EED6A80)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EED6A30)
 
 namespace System::Xml::Serialization
 {
@@ -21,7 +20,7 @@ namespace System::Xml::Serialization
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Xml::Serialization::XmlAttributeEventArgs* a2)
@@ -38,5 +37,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

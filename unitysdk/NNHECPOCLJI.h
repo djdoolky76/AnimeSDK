@@ -1,0 +1,177 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NEMHKFFNDJO.h"
+class ICMIHBDLDEJ;
+class KHPOKIKCOFO;
+namespace Entitas { template <typename T> class IMatcher_1; }
+namespace RPG { template <typename T> class PoolList_1; }
+
+#define NNHECPOCLJI_AJJEDMCOCAF_OFFSET UNITYSDK_OFFSET(0x1C9456F0)
+#define NNHECPOCLJI_BFMJHBCFMHJ_OFFSET UNITYSDK_OFFSET(0x1C9457F0)
+#define NNHECPOCLJI_CINDPDLLALG_OFFSET UNITYSDK_OFFSET(0x1C9454F0)
+#define NNHECPOCLJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C946150)
+#define NNHECPOCLJI_DHNJFKPIJIM_OFFSET UNITYSDK_OFFSET(0x1C945620)
+#define NNHECPOCLJI_FBJLJGKPDHN_OFFSET UNITYSDK_OFFSET(0x1C945510)
+#define NNHECPOCLJI_FHPCCDHDGJM_OFFSET UNITYSDK_OFFSET(0x1C9459B0)
+#define NNHECPOCLJI_GETCAMERABRIDGEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945A70)
+#define NNHECPOCLJI_GETGRAPHNAVAGENTCURVEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945E30)
+#define NNHECPOCLJI_GETGRAPHNAVAGENTMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945C50)
+#define NNHECPOCLJI_GETGRAPHNAVAGENTMOVEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945D90)
+#define NNHECPOCLJI_GETGRAPHNAVAGENTSTARTMOVEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945CF0)
+#define NNHECPOCLJI_GETPROXYVIEWASSETMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945B10)
+#define NNHECPOCLJI_GETPROXYVIEWBRIDGEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945BB0)
+#define NNHECPOCLJI_GETRVOAGENTMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945F70)
+#define NNHECPOCLJI_GETSMARTOBJECTAGENTMATCHER_OFFSET UNITYSDK_OFFSET(0x1C946010)
+#define NNHECPOCLJI_GETSMARTOBJECTMATCHER_OFFSET UNITYSDK_OFFSET(0x1C9460B0)
+#define NNHECPOCLJI_GETTRANSFORMMATCHER_OFFSET UNITYSDK_OFFSET(0x1C945ED0)
+#define NNHECPOCLJI_HBAELPFGOBA_OFFSET UNITYSDK_OFFSET(0x1C945990)
+#define NNHECPOCLJI_IMONJCGOBGK_OFFSET UNITYSDK_OFFSET(0x1C93BAA0)
+#define NNHECPOCLJI_KONMGLKAKED_OFFSET UNITYSDK_OFFSET(0x1C945490)
+#define NNHECPOCLJI_LADIMBCGHGJ_OFFSET UNITYSDK_OFFSET(0x1C9457D0)
+#define NNHECPOCLJI_LOJKIOCFHAO_OFFSET UNITYSDK_OFFSET(0x1C93B100)
+#define NNHECPOCLJI_MOIPHJMLKJB_OFFSET UNITYSDK_OFFSET(0x1C9453B0)
+#define NNHECPOCLJI_NELNFIGCIEL_OFFSET UNITYSDK_OFFSET(0x1C945690)
+#define NNHECPOCLJI_NINJAGOBFOK_OFFSET UNITYSDK_OFFSET(0x1C945710)
+#define NNHECPOCLJI_PNBLMANGJCA_OFFSET UNITYSDK_OFFSET(0x1C9458B0)
+
+inline static constexpr unsigned int NNHECPOCLJI_TypeDefinitionIndex = 42591;
+
+	class NNHECPOCLJI
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_CTOR_OFFSET))(this);
+		}
+
+		::KHPOKIKCOFO* MOIPHJMLKJB()
+		{
+			return ((::KHPOKIKCOFO*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_MOIPHJMLKJB_OFFSET))(this);
+		}
+
+		::ICMIHBDLDEJ* KONMGLKAKED()
+		{
+			return ((::ICMIHBDLDEJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_KONMGLKAKED_OFFSET))(this);
+		}
+
+		::System::Boolean CINDPDLLALG()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_CINDPDLLALG_OFFSET))(this);
+		}
+
+		::KHPOKIKCOFO* FBJLJGKPDHN(::RPG::PoolList_1<::NEMHKFFNDJO>* a1)
+		{
+			return ((::KHPOKIKCOFO*(*)(::PVOID, ::RPG::PoolList_1<::NEMHKFFNDJO>*))((::PBYTE)hIl2Cpp + NNHECPOCLJI_FBJLJGKPDHN_OFFSET))(this, a1);
+		}
+
+		::System::Void DHNJFKPIJIM(::RPG::PoolList_1<::NEMHKFFNDJO>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::PoolList_1<::NEMHKFFNDJO>*))((::PBYTE)hIl2Cpp + NNHECPOCLJI_DHNJFKPIJIM_OFFSET))(this, a1);
+		}
+
+		::System::Void NELNFIGCIEL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_NELNFIGCIEL_OFFSET))(this);
+		}
+
+		::KHPOKIKCOFO* LOJKIOCFHAO()
+		{
+			return ((::KHPOKIKCOFO*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_LOJKIOCFHAO_OFFSET))(this);
+		}
+
+		::System::Boolean AJJEDMCOCAF()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_AJJEDMCOCAF_OFFSET))(this);
+		}
+
+		::System::Void NINJAGOBFOK(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NNHECPOCLJI_NINJAGOBFOK_OFFSET))(this, a1);
+		}
+
+		::KHPOKIKCOFO* IMONJCGOBGK()
+		{
+			return ((::KHPOKIKCOFO*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_IMONJCGOBGK_OFFSET))(this);
+		}
+
+		::System::Boolean LADIMBCGHGJ()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_LADIMBCGHGJ_OFFSET))(this);
+		}
+
+		::System::Void BFMJHBCFMHJ(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NNHECPOCLJI_BFMJHBCFMHJ_OFFSET))(this, a1);
+		}
+
+		::KHPOKIKCOFO* PNBLMANGJCA()
+		{
+			return ((::KHPOKIKCOFO*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_PNBLMANGJCA_OFFSET))(this);
+		}
+
+		::System::Boolean HBAELPFGOBA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_HBAELPFGOBA_OFFSET))(this);
+		}
+
+		::System::Void FHPCCDHDGJM(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NNHECPOCLJI_FHPCCDHDGJM_OFFSET))(this, a1);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetCameraBridgeMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETCAMERABRIDGEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetProxyViewAssetMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETPROXYVIEWASSETMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetProxyViewBridgeMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETPROXYVIEWBRIDGEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetGraphNavAgentMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETGRAPHNAVAGENTMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetGraphNavAgentStartMoveMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETGRAPHNAVAGENTSTARTMOVEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetGraphNavAgentMoveMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETGRAPHNAVAGENTMOVEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetGraphNavAgentCurveMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETGRAPHNAVAGENTCURVEMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetTransformMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETTRANSFORMMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetRVOAgentMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETRVOAGENTMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetSmartObjectAgentMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETSMARTOBJECTAGENTMATCHER_OFFSET))(this);
+		}
+
+		::Entitas::IMatcher_1<::KHPOKIKCOFO*>* GetSmartObjectMatcher()
+		{
+			return ((::Entitas::IMatcher_1<::KHPOKIKCOFO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNHECPOCLJI_GETSMARTOBJECTMATCHER_OFFSET))(this);
+		}
+
+	};

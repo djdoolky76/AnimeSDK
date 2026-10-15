@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
-
 namespace RPG { class IReference; }
 namespace System { class Type; }
 
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x1F0035F0)
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x1F003980)
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_GET_REFERENCETYPE_OFFSET UNITYSDK_OFFSET(0x1F0040B0)
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F002D50)
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x1F003240)
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F003B70)
-#define RPG_REFERENCEPOOL_REFERENCECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F003C40)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_ACQUIRE_1_OFFSET UNITYSDK_OFFSET(0x1C3F93B0)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_ADD_1_OFFSET UNITYSDK_OFFSET(0x1C3F9740)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F9A00)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_GET_REFERENCETYPE_OFFSET UNITYSDK_OFFSET(0x1C3F9E70)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_RELEASE_OFFSET UNITYSDK_OFFSET(0x1C3F8B10)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x1C3F9000)
+#define RPG_REFERENCEPOOL_REFERENCECOLLECTION_REMOVE_OFFSET UNITYSDK_OFFSET(0x1C3F9930)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_ReferenceCollection_TypeDefinitionIndex = 5618;
+	inline static constexpr unsigned int ReferencePool_ReferenceCollection_TypeDefinitionIndex = 5625;
 
 	class ReferencePool_ReferenceCollection : public ::System::Object
 	{
@@ -24,11 +23,11 @@ namespace RPG
 		::Il2CppArray<::RPG::IReference*>* m_References; // 0x10
 		::System::Type* m_ReferenceType; // 0x18
 		::System::Boolean m_IsReferenceEx; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 m_UnusedReferenceCount; // 0x24
-
 		::System::Void _ctor(::System::RuntimeTypeHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_ReferenceType()
@@ -36,9 +35,9 @@ namespace RPG
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_GET_REFERENCETYPE_OFFSET))(this);
 		}
 
-		::RPG::IReference* Acquire()
+		::RPG::IReference* Acquire_1()
 		{
-			return ((::RPG::IReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_ACQUIRE_OFFSET))(this);
+			return ((::RPG::IReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_ACQUIRE_1_OFFSET))(this);
 		}
 
 		::System::Void Release(::RPG::IReference* a1)
@@ -46,9 +45,9 @@ namespace RPG
 			return ((::System::Void(*)(::PVOID, ::RPG::IReference*))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_RELEASE_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::System::Int32 a1)
+		::System::Void Add_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_ADD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_ADD_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Remove(::System::Int32 a1)
@@ -60,5 +59,6 @@ namespace RPG
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REFERENCECOLLECTION_REMOVEALL_OFFSET))(this);
 		}
+
 	};
 }

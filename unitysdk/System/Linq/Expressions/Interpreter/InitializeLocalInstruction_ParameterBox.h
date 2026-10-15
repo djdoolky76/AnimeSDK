@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/InitializeLocalInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AFE1480)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_RUN_OFFSET UNITYSDK_OFFSET(0x1AFE13A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE1390)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBF630)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDBF720)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_RUN_OFFSET UNITYSDK_OFFSET(0x1EDBF640)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InitializeLocalInstruction_ParameterBox_TypeDefinitionIndex = 3513;
+	inline static constexpr unsigned int InitializeLocalInstruction_ParameterBox_TypeDefinitionIndex = 3514;
 
 	class InitializeLocalInstruction_ParameterBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
@@ -30,5 +29,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_PARAMETERBOX_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
+
 	};
 }

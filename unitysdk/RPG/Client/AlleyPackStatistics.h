@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyPackStatistics_TypeDefinitionIndex = 62347;
+	inline static constexpr unsigned int AlleyPackStatistics_TypeDefinitionIndex = 62264;
 
-	struct alignas(8) AlleyPackStatistics
+	struct alignas(4) AlleyPackStatistics
 	{
 		::System::UInt32 AutoPlaceCount; // 0x10
 		::System::UInt32 AutoDeleteCount; // 0x14

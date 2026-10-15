@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class EqualityComparer_1; }
 
 namespace System::Collections::Generic
@@ -14,7 +13,8 @@ namespace System::Collections::Generic
 	public:
 		static ::System::Collections::Generic::EqualityComparer_1<T>** StaticGet_defaultComparer()
 		{
-			return (::System::Collections::Generic::EqualityComparer_1<T>**)Il2CppClass::FromTypeDefinitionIndex(EqualityComparer_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Collections::Generic::EqualityComparer_1<T>**)UnitySDK::FromName("System.Collections.Generic", "EqualityComparer`1")->GetStaticField(0x0);
 		}
+
 	};
 }

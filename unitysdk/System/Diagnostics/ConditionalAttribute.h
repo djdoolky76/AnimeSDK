@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A559850)
+#define SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A3520)
 
 namespace System::Diagnostics
 {
@@ -14,10 +13,10 @@ namespace System::Diagnostics
 	{
 	public:
 		::System::String* m_conditionString; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

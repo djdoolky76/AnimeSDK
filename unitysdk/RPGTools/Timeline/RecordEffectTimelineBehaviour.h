@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1B0BA900)
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B0BA870)
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BA980)
+#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE927240)
+#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE9271C0)
+#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE927130)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RecordEffectTimelineBehaviour_TypeDefinitionIndex = 48928;
+	inline static constexpr unsigned int RecordEffectTimelineBehaviour_TypeDefinitionIndex = 48474;
 
 	class RecordEffectTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::UnityEngine::Vector3 Postion; // 0x10
 		::UnityEngine::Quaternion Rotation; // 0x1C
+		::System::Byte _padding0[0x4];
 		::System::String* Name; // 0x30
 		::System::Int32 InstanceId; // 0x38
 		::System::Single Time; // 0x3C
 		::RPG::Client::MonoEffect* _effect; // 0x40
 		::UnityEngine::GameObject* _go; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
@@ -44,5 +43,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

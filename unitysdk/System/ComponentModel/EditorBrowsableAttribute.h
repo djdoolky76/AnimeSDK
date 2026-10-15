@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/ComponentModel/EditorBrowsableState.h"
-
+#include "unitysdk/System/Attribute.h"
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AB09070)
-#define SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AB090D0)
-#define SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB09060)
+#define SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBA870)
+#define SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFBA880)
+#define SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFBA8E0)
 
 namespace System::ComponentModel
 {
@@ -17,10 +16,9 @@ namespace System::ComponentModel
 	{
 	public:
 		::System::ComponentModel::EditorBrowsableState browsableState; // 0x10
-
 		::System::Void _ctor(::System::ComponentModel::EditorBrowsableState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::EditorBrowsableState))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::EditorBrowsableState))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -32,5 +30,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EDITORBROWSABLEATTRIBUTE_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security::Interface { class MonoLocalCertificateSelectionCallback; }
 namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47FE50)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0__MONOTOINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0x1C47FEE0)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9F660)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0__MONOTOINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0x1EF9F6F0)
 
 namespace Mono::Net::Security::Private
 {
@@ -18,15 +17,15 @@ namespace Mono::Net::Security::Private
 	{
 	public:
 		::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Security::Cryptography::X509Certificates::X509Certificate* _MonoToInternal_b__0(::System::String* a1, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::Il2CppArray<::System::String*>* a4)
 		{
 			return ((::System::Security::Cryptography::X509Certificates::X509Certificate*(*)(::PVOID, ::System::String*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS8_0__MONOTOINTERNAL_B__0_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -9,21 +8,21 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF160)
-#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF1A0)
-#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CF150)
-#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CF060)
+#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1D30)
+#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B1C30)
+#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1D70)
+#define RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1D20)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int LuaBindCustomFadeAnimNameAction_TypeDefinitionIndex = 80430;
+	inline static constexpr unsigned int LuaBindCustomFadeAnimNameAction_TypeDefinitionIndex = 81758;
 
 	class LuaBindCustomFadeAnimNameAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::XLua::LuaTable* a1, ::System::Func_1<::System::String*>* a2)
@@ -40,5 +39,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUABINDCUSTOMFADEANIMNAMEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

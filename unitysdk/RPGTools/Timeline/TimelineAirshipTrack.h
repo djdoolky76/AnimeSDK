@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF2B6D0)
-#define RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1BF2B940)
-#define RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2BA10)
+#define RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE941700)
+#define RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE941970)
+#define RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE941A40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimelineAirshipTrack_TypeDefinitionIndex = 48297;
+	inline static constexpr unsigned int TimelineAirshipTrack_TypeDefinitionIndex = 47838;
 
 	class TimelineAirshipTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMELINEAIRSHIPTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

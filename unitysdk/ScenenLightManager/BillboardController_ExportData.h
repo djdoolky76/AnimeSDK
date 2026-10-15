@@ -5,19 +5,19 @@
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+class GPFEAEOEGFA_ExtraExportData;
 
-class Class_2_AF3AF723C478F113_ExtraExportData;
-
-#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF40C50)
+#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE956C50)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49529;
+	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49103;
 
 	class BillboardController_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
 		::System::Boolean BillboardOff; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single NoiseStrength; // 0x14
 		::System::Single NoiseFrequency; // 0x18
 		::UnityEngine::Vector2 WindSpeed; // 0x1C
@@ -36,13 +36,15 @@ namespace ScenenLightManager
 		::System::Single FalloffStart; // 0x60
 		::System::Single BlendRadius; // 0x64
 		::System::Boolean FadeoutCameraIn; // 0x68
+		::System::Byte _padding1[0x3];
 		::RPG::Client::BillboardController_RenderingMode RenderingBlendMode; // 0x6C
 		::RPG::CustomRP::CustomLightQualityFilter LightQualityFilter; // 0x70
-		::Class_2_AF3AF723C478F113_ExtraExportData* extraExportData; // 0x78
-
+		::System::Byte _padding2[0x4];
+		::GPFEAEOEGFA_ExtraExportData* extraExportData; // 0x78
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::IO { class TextReader; }
 
-#define SPINE_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x160585F0)
+#define SPINE_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EC786D0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 38378;
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 39675;
 
 	class Json : public ::System::Object
 	{
@@ -17,5 +17,6 @@ namespace Spine
 		{
 			return ((::System::Object*(*)(::System::IO::TextReader*))((::PBYTE)hIl2Cpp + SPINE_JSON_DESERIALIZE_OFFSET))(a1);
 		}
+
 	};
 }

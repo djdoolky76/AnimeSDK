@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_OBJECT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1CC0B4B0)
-#define SYSTEM_OBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CC0B4A0)
-#define SYSTEM_OBJECT_FIELDGETTER_OFFSET UNITYSDK_OFFSET(0x1CC0B660)
-#define SYSTEM_OBJECT_FIELDSETTER_OFFSET UNITYSDK_OFFSET(0x1CC0B670)
-#define SYSTEM_OBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1CC0B560)
-#define SYSTEM_OBJECT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CC0B570)
-#define SYSTEM_OBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1CC0B590)
-#define SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CC0B580)
-#define SYSTEM_OBJECT_MEMBERWISECLONE_OFFSET UNITYSDK_OFFSET(0x1CC0B2B0)
-#define SYSTEM_OBJECT_REFERENCEEQUALS_OFFSET UNITYSDK_OFFSET(0x1CC0B650)
-#define SYSTEM_OBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CC0B5A0)
-#define SYSTEM_OBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC04D70)
+#define SYSTEM_OBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C258D80)
+#define SYSTEM_OBJECT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C25F510)
+#define SYSTEM_OBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C25F500)
+#define SYSTEM_OBJECT_FIELDGETTER_OFFSET UNITYSDK_OFFSET(0x1C25F6C0)
+#define SYSTEM_OBJECT_FIELDSETTER_OFFSET UNITYSDK_OFFSET(0x1C25F6D0)
+#define SYSTEM_OBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C25F5C0)
+#define SYSTEM_OBJECT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C25F5D0)
+#define SYSTEM_OBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1C25F5F0)
+#define SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C25F5E0)
+#define SYSTEM_OBJECT_MEMBERWISECLONE_OFFSET UNITYSDK_OFFSET(0x1C25F310)
+#define SYSTEM_OBJECT_REFERENCEEQUALS_OFFSET UNITYSDK_OFFSET(0x1C25F6B0)
+#define SYSTEM_OBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C25F600)
 
 namespace System
 {
 	inline static constexpr unsigned int Object_TypeDefinitionIndex = 416;
 
-	class Object : public Il2CppObject
+	class Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -74,14 +74,15 @@ namespace System
 			return ((::System::Int32(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET))(a1);
 		}
 
-		::System::Void FieldGetter(::System::String* a1, ::System::String* a2, ::System::Object*& a3)
+		::System::Void FieldGetter(::System::String* a1, ::System::String* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDGETTER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDGETTER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void FieldSetter(::System::String* a1, ::System::String* a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDSETTER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

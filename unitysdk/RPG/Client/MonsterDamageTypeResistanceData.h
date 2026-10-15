@@ -3,54 +3,56 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class MonsterDamageTypeResistanceData; }
 namespace RPG::GameCore { class ElementResistanceConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1960A140)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_GET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0x1960A560)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1960A540)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1960A520)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0x1960A570)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_DESC_OFFSET UNITYSDK_OFFSET(0x1960A550)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1960A530)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1960A580)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CREATEHIGHRESISTANCEDATA_OFFSET UNITYSDK_OFFSET(0x1960A380)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CREATERESISTANCEDATA_OFFSET UNITYSDK_OFFSET(0x1960A270)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CREATE_OFFSET UNITYSDK_OFFSET(0x1960A490)
-#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1960A510)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8B11F0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD8B0DB0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B1180)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_GET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xD8B11D0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xD8B11B0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD8B1190)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xD8B11E0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_DESC_OFFSET UNITYSDK_OFFSET(0xD8B11C0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD8B11A0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CREATEHIGHRESISTANCEDATA_OFFSET UNITYSDK_OFFSET(0xD8B0FF0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CREATERESISTANCEDATA_OFFSET UNITYSDK_OFFSET(0xD8B0EE0)
+#define RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CREATE_OFFSET UNITYSDK_OFFSET(0xD8B1100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterDamageTypeResistanceData_TypeDefinitionIndex = 71719;
+	inline static constexpr unsigned int MonsterDamageTypeResistanceData_TypeDefinitionIndex = 71776;
 
 	class MonsterDamageTypeResistanceData : public ::System::Object
 	{
 	public:
-		static ::System::Single* StaticGet__ResistanceThreshold()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonsterDamageTypeResistanceData_TypeDefinitionIndex)->GetStaticField(0xA8E0);
-		}
+		::System::String* _IconPath_k__BackingField; // 0x10
+		::RPG::GameCore::AttackDamageType _DamageType_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x20
 		static ::System::Single* StaticGet__HightResistanceThreshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonsterDamageTypeResistanceData_TypeDefinitionIndex)->GetStaticField(0xA8E4);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MonsterDamageTypeResistanceData")->GetStaticField(0x15220);
 		}
-		// static const ::System::String* _RESISTANCE_THRESHOLD_KEY; // 0x0
-		// static const ::System::Single _RESISTANCE_DEFAULT_THRESHOLD; // 0x0
-		// static const ::System::String* _HIGHT_RESISTANCE_THRESHOLD_KEY; // 0x0
-		// static const ::System::Single _HIGHT_RESISTANCE_THRESHOLD; // 0x0
-		::System::String* _IconPath_k__BackingField; // 0x10
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x18
-		::RPG::GameCore::AttackDamageType _DamageType_k__BackingField; // 0x28
 
+		static ::System::Single* StaticGet__ResistanceThreshold()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MonsterDamageTypeResistanceData")->GetStaticField(0x15224);
+		}
+
+		// static const ::System::String* _RESISTANCE_THRESHOLD_KEY; // 0x0
+		// static const ::System::Object _RESISTANCE_DEFAULT_THRESHOLD; // 0x0
+		// static const ::System::String* _HIGHT_RESISTANCE_THRESHOLD_KEY; // 0x0
+		// static const ::System::Object _HIGHT_RESISTANCE_THRESHOLD; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::MonsterDamageTypeResistanceData* Create(::RPG::GameCore::ElementResistanceConfig* a1)
@@ -102,5 +104,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackDamageType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDAMAGETYPERESISTANCEDATA_SET_DAMAGETYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

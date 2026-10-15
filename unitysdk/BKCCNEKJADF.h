@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BKCCNEKJADF_TypeDefinitionIndex = 34327;
+
+	enum class BKCCNEKJADF : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		GMNINGGAIKG = 8116,
+		AIPGFFAAMGK = 8107,
+		GFIKCCKEHJF = 8117,
+		EOAFOIBICOH = 8105,
+		IENPIABKCNF = 8104,
+		EINMDLDJKNP = 8109,
+		KPCOBCBAGGF = 8119,
+		KNPANHIGPBL = 8113,
+		FNIOEFBGMEO = 8103,
+		EJDADPCKAGG = 8108,
+		BNGFJCFOFBH = 8112,
+		ILOADBMOGJL = 8106,
+		NMFDIDGOONF = 8120,
+		KAMHALFJDFH = 8110,
+	};

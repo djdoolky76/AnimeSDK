@@ -1,48 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
-
+namespace MiHoYo::SDK::Console { class ConsoleBindMobileDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x17336EB0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x17338260)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x17336BD0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x17336E00)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x17336C70)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x173381F0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17337BE0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_ONREFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x17338100)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x17336C40)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x17336CF0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x17336AD0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SKIPDIALOG_OFFSET UNITYSDK_OFFSET(0x17338210)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_START_OFFSET UNITYSDK_OFFSET(0x17337BF0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x17337C00)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x173382B0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC697A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC6AB50)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6ABA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC694C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BC696F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1BC69560)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC6AAE0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC6A4D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_ONREFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BC6A9F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BC69530)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BC695E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC693C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_SKIPDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC6AB00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BC6A4E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC6A4F0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleBindMobileDialog_TypeDefinitionIndex = 8903;
+	inline static constexpr unsigned int ConsoleBindMobileDialog_TypeDefinitionIndex = 8964;
 
 	class ConsoleBindMobileDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::Console::ConsoleBindMobileDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Console::ConsoleBindMobileDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleBindMobileDialog_TypeDefinitionIndex)->GetStaticField(0x76F0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* QRImagePath; // 0x0
-		// static const ::System::String* QRLoadingPanelPath; // 0x0
-		// static const ::System::String* QRExpiredPanelPath; // 0x0
-		// static const ::System::String* QRRefreshTipsTextPath; // 0x0
-		// static const ::System::String* QRStatusTipsTextPath; // 0x0
-		// static const ::System::String* ScanInstructionTextPath; // 0x0
 		::System::Action* OnRefreshQRCodeClicked; // 0xC0
 		::System::Action* OnBindingCancel; // 0xC8
 		::System::Action* OnBindingSkip; // 0xD0
@@ -53,11 +40,25 @@ namespace MiHoYo::SDK::Console
 		::UnityEngine::GameObject* QRStatusTipsTextObj; // 0xF8
 		::System::Boolean Interactable; // 0x100
 		::System::Boolean IsQRCodeExpired; // 0x101
+		::System::Byte _padding0[0x6];
 		::System::String* showName; // 0x108
+		static ::MiHoYo::SDK::Console::ConsoleBindMobileDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Console::ConsoleBindMobileDialog**)UnitySDK::FromName("MiHoYo.SDK.Console", "ConsoleBindMobileDialog")->GetStaticField(0x542D0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* QRImagePath; // 0x0
+		// static const ::System::String* QRLoadingPanelPath; // 0x0
+		// static const ::System::String* QRExpiredPanelPath; // 0x0
+		// static const ::System::String* QRRefreshTipsTextPath; // 0x0
+		// static const ::System::String* QRStatusTipsTextPath; // 0x0
+		// static const ::System::String* ScanInstructionTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::String* a1)
@@ -129,5 +130,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG_CANCELDIALOG_OFFSET))(this);
 		}
+
 	};
 }

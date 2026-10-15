@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatSkillPreviewConfig; }
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG_METHOD_2_CB8F89EE05AB0EEE_OFFSET UNITYSDK_OFFSET(0x1D82ADB0)
-#define RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D82AEA0)
+#define RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E2C60)
+#define RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E2B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatSkillPreviewConfig_TypeDefinitionIndex = 15950;
+	inline static constexpr unsigned int DiceCombatSkillPreviewConfig_TypeDefinitionIndex = 16123;
 
 	class DiceCombatSkillPreviewConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::DiceCombatTaskConfig*>* OnStart; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CB8F89EE05AB0EEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatSkillPreviewConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatSkillPreviewConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatSkillPreviewConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG_METHOD_2_CB8F89EE05AB0EEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatSkillPreviewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLPREVIEWCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

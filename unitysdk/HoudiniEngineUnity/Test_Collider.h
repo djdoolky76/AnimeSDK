@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_Collider; }
 namespace UnityEngine { class Collider; }
 
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1EEEAA10)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1EEEA9F0)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEA9E0)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B98FB50)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B98FB80)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B98FB60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Collider_TypeDefinitionIndex = 39422;
+	inline static constexpr unsigned int Test_Collider_TypeDefinitionIndex = 40719;
 
 	class Test_Collider : public ::System::Object
 	{
 	public:
 		::UnityEngine::Collider* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_COLLIDER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_COLLIDER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +30,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_Collider*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_COLLIDER_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

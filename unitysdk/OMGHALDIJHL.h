@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DJMFLECOALG;
+class HCMJGNAPIBD;
+class IKCOHFPIHIA;
+
+#define OMGHALDIJHL_BIKICPOCPHL_OFFSET UNITYSDK_OFFSET(0xBF205B0)
+#define OMGHALDIJHL_CIGCIEBPFCB_OFFSET UNITYSDK_OFFSET(0xBF1F720)
+#define OMGHALDIJHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF1F570)
+#define OMGHALDIJHL_GMGFHOOIJKD_OFFSET UNITYSDK_OFFSET(0xBF1F7B0)
+#define OMGHALDIJHL_NFNIBIBELOH_OFFSET UNITYSDK_OFFSET(0xBF1F690)
+#define OMGHALDIJHL_NIMBNNLFDPA_OFFSET UNITYSDK_OFFSET(0xBF20520)
+#define OMGHALDIJHL_OCJGBBNEGBO_OFFSET UNITYSDK_OFFSET(0xBF1F580)
+#define OMGHALDIJHL_PIFFBNNOCJC_OFFSET UNITYSDK_OFFSET(0xBF1F600)
+
+inline static constexpr unsigned int OMGHALDIJHL_TypeDefinitionIndex = 64036;
+
+	class OMGHALDIJHL : public ::System::Object
+	{
+	public:
+		::IKCOHFPIHIA* KNIKOIEGDAL; // 0x10
+		::System::Void _ctor(::IKCOHFPIHIA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IKCOHFPIHIA*))((::PBYTE)hIl2Cpp + OMGHALDIJHL_CTOR_OFFSET))(this, a1);
+		}
+
+		::HCMJGNAPIBD* OCJGBBNEGBO()
+		{
+			return ((::HCMJGNAPIBD*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMGHALDIJHL_OCJGBBNEGBO_OFFSET))(this);
+		}
+
+		::DJMFLECOALG* PIFFBNNOCJC(::System::UInt32 a1)
+		{
+			return ((::DJMFLECOALG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMGHALDIJHL_PIFFBNNOCJC_OFFSET))(this, a1);
+		}
+
+		::DJMFLECOALG* NFNIBIBELOH(::System::UInt32 a1)
+		{
+			return ((::DJMFLECOALG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMGHALDIJHL_NFNIBIBELOH_OFFSET))(this, a1);
+		}
+
+		::DJMFLECOALG* CIGCIEBPFCB(::System::UInt32 a1)
+		{
+			return ((::DJMFLECOALG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMGHALDIJHL_CIGCIEBPFCB_OFFSET))(this, a1);
+		}
+
+		::DJMFLECOALG* GMGFHOOIJKD(::System::UInt32 a1)
+		{
+			return ((::DJMFLECOALG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMGHALDIJHL_GMGFHOOIJKD_OFFSET))(this, a1);
+		}
+
+		::DJMFLECOALG* NIMBNNLFDPA(::System::UInt32 a1)
+		{
+			return ((::DJMFLECOALG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMGHALDIJHL_NIMBNNLFDPA_OFFSET))(this, a1);
+		}
+
+		::DJMFLECOALG* BIKICPOCPHL(::System::UInt32 a1)
+		{
+			return ((::DJMFLECOALG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OMGHALDIJHL_BIKICPOCPHL_OFFSET))(this, a1);
+		}
+
+	};

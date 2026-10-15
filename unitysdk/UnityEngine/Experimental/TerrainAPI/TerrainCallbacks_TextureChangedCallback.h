@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/RectInt.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Terrain; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2A50)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2B00)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2860)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC29D0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F470F70)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F470EF0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F471020)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F470D80)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainCallbacks_TextureChangedCallback_TypeDefinitionIndex = 5332;
+	inline static constexpr unsigned int TerrainCallbacks_TextureChangedCallback_TypeDefinitionIndex = 5339;
 
 	class TerrainCallbacks_TextureChangedCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Terrain* a1, ::System::String* a2, ::UnityEngine::RectInt a3, ::System::Boolean a4)
@@ -40,5 +39,6 @@ namespace UnityEngine::Experimental::TerrainAPI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_TEXTURECHANGEDCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

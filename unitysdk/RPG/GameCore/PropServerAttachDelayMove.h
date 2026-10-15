@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropServerAttachDelayMove; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_METHOD_3_21F22EA09030F2F8_OFFSET UNITYSDK_OFFSET(0x1D181B90)
-#define RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_METHOD_3_A2E59E324D6B15BC_OFFSET UNITYSDK_OFFSET(0x1D181B40)
-#define RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D181B80)
+#define RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D925FA0)
+#define RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D925FB0)
+#define RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D925F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropServerAttachDelayMove_TypeDefinitionIndex = 20115;
+	inline static constexpr unsigned int PropServerAttachDelayMove_TypeDefinitionIndex = 20352;
 
 	class PropServerAttachDelayMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A2E59E324D6B15BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropServerAttachDelayMove*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropServerAttachDelayMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropServerAttachDelayMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_METHOD_3_A2E59E324D6B15BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropServerAttachDelayMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_21F22EA09030F2F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropServerAttachDelayMove* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropServerAttachDelayMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropServerAttachDelayMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_METHOD_3_21F22EA09030F2F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropServerAttachDelayMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSERVERATTACHDELAYMOVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

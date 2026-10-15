@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/ResourceLocation.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1CC20E90)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_REFERENCEDASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1CC20E80)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET UNITYSDK_OFFSET(0x1CC20EA0)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC143B0)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2683F0)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1C274F70)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_REFERENCEDASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1C274F60)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET UNITYSDK_OFFSET(0x1C274F80)
 
 namespace System::Reflection
 {
@@ -21,10 +20,9 @@ namespace System::Reflection
 		::System::Reflection::Assembly* _containingAssembly; // 0x10
 		::System::String* _containingFileName; // 0x18
 		::System::Reflection::ResourceLocation _resourceLocation; // 0x20
-
 		::System::Void _ctor(::System::Reflection::Assembly* a1, ::System::String* a2, ::System::Reflection::ResourceLocation a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Assembly*, ::System::String*, ::System::Reflection::ResourceLocation))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Assembly*, ::System::String*, ::System::Reflection::ResourceLocation))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Reflection::Assembly* get_ReferencedAssembly()
@@ -41,5 +39,6 @@ namespace System::Reflection
 		{
 			return ((::System::Reflection::ResourceLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET))(this);
 		}
+
 	};
 }

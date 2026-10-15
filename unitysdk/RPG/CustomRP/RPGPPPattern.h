@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 namespace UnityEngine::Rendering { class Vector4Parameter; }
 
-#define RPG_CUSTOMRP_RPGPPPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x185A4AC0)
+#define RPG_CUSTOMRP_RPGPPPATTERN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2DA80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGPPPattern_TypeDefinitionIndex = 37150;
+	inline static constexpr unsigned int RPGPPPattern_TypeDefinitionIndex = 37836;
 
 	class RPGPPPattern : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -74,10 +73,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* _CenterY; // 0x1E8
 		::UnityEngine::Rendering::FloatParameter* _StartRadius; // 0x1F0
 		::UnityEngine::Rendering::FloatParameter* _BlendRadius; // 0x1F8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPPATTERN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPPATTERN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

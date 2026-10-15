@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/SkillEffect.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareSelectSkillEffect; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_1FC9FA85237BB708_OFFSET UNITYSDK_OFFSET(0x1BBB9490)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_650ADE9FE6828B3D_OFFSET UNITYSDK_OFFSET(0x1BBB9450)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_A2D80E6173A07338_OFFSET UNITYSDK_OFFSET(0x1BBB9620)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_B9E395ED2834AC5F_OFFSET UNITYSDK_OFFSET(0x1BBB9650)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB9480)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A55B0)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4A5780)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4A5750)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4A55C0)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4A5580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareSelectSkillEffect_TypeDefinitionIndex = 22763;
+	inline static constexpr unsigned int ByCompareSelectSkillEffect_TypeDefinitionIndex = 23021;
 
 	class ByCompareSelectSkillEffect : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::SkillEffect>* SkillEffectList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_650ADE9FE6828B3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSelectSkillEffect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSelectSkillEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_650ADE9FE6828B3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1FC9FA85237BB708(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_1FC9FA85237BB708_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A2D80E6173A07338(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_A2D80E6173A07338_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B9E395ED2834AC5F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_B9E395ED2834AC5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

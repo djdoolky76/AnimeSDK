@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG_METHOD_2_A28C629BC37FEBB7_OFFSET UNITYSDK_OFFSET(0x1DCBBD30)
-#define RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCBBE80)
+#define RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C6CF0)
+#define RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C6BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleMotionInfoConfig_TypeDefinitionIndex = 16129;
+	inline static constexpr unsigned int FreeStyleMotionInfoConfig_TypeDefinitionIndex = 16302;
 
 	class FreeStyleMotionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -17,15 +17,15 @@ namespace RPG::GameCore
 		::System::UInt32 MotionID; // 0x10
 		::System::Single ExitTime; // 0x14
 		::System::Single TransitionDuration; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A28C629BC37FEBB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleMotionInfoConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleMotionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG_METHOD_2_A28C629BC37FEBB7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FreeStyleMotionInfoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEMOTIONINFOCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

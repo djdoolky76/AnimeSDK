@@ -1,51 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerEffectList; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_2BE45E4CA1100E05_OFFSET UNITYSDK_OFFSET(0x1D554F80)
-#define RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_ABDC0589660D8BCB_OFFSET UNITYSDK_OFFSET(0x1D554E10)
-#define RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_C034ADA0E1ED7580_OFFSET UNITYSDK_OFFSET(0x1D555260)
-#define RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_C2336D024CB6C763_OFFSET UNITYSDK_OFFSET(0x1D554CC0)
-#define RPG_GAMECORE_TRIGGEREFFECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28CC90)
+#define RPG_GAMECORE_TRIGGEREFFECTLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC23360)
+#define RPG_GAMECORE_TRIGGEREFFECTLIST_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC23940)
+#define RPG_GAMECORE_TRIGGEREFFECTLIST_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC23660)
+#define RPG_GAMECORE_TRIGGEREFFECTLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC23370)
+#define RPG_GAMECORE_TRIGGEREFFECTLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC23210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffectList_TypeDefinitionIndex = 20041;
+	inline static constexpr unsigned int TriggerEffectList_TypeDefinitionIndex = 20278;
 
 	class TriggerEffectList : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::Il2CppArray<::RPG::GameCore::EffectConfig*>* EffectList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C2336D024CB6C763(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEffectList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffectList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_C2336D024CB6C763_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ABDC0589660D8BCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectList* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEffectList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_ABDC0589660D8BCB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2BE45E4CA1100E05(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectList*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectList* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_2BE45E4CA1100E05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C034ADA0E1ED7580(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectList* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectList* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_METHOD_3_C034ADA0E1ED7580_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLIST_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

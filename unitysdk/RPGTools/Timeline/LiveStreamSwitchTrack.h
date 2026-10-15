@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B59C670)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B59C7F0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59C860)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE901860)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE901A50)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE9019E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamSwitchTrack_TypeDefinitionIndex = 48643;
+	inline static constexpr unsigned int LiveStreamSwitchTrack_TypeDefinitionIndex = 48183;
 
 	class LiveStreamSwitchTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

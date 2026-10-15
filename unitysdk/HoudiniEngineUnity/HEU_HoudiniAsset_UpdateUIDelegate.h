@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11A4D1C0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11A4D1F0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x11A36CF0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4D150)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B90B2D0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90B260)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B90B300)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8F4D30)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniAsset_UpdateUIDelegate_TypeDefinitionIndex = 39099;
+	inline static constexpr unsigned int HEU_HoudiniAsset_UpdateUIDelegate_TypeDefinitionIndex = 40396;
 
 	class HEU_HoudiniAsset_UpdateUIDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

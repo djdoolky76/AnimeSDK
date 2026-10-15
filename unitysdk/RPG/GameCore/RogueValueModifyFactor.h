@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueValueModifyFactor; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR_METHOD_2_FA57B17085E32CAE_OFFSET UNITYSDK_OFFSET(0x1CCCFBF0)
-#define RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCFC30)
+#define RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA18190)
+#define RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA18150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueValueModifyFactor_TypeDefinitionIndex = 17803;
+	inline static constexpr unsigned int RogueValueModifyFactor_TypeDefinitionIndex = 18015;
 
 	class RogueValueModifyFactor : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FA57B17085E32CAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueValueModifyFactor*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueValueModifyFactor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueValueModifyFactor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR_METHOD_2_FA57B17085E32CAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueValueModifyFactor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEVALUEMODIFYFACTOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

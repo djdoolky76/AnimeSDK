@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/EffectConfig.h"
-#include "unitysdk/RPG/Client/ParkourGame/ItemType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_55373297DA27393D;
+class BIIJADGFFLF;
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
@@ -13,18 +11,18 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1C4DBD10)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONCHARACTERTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C4DBB00)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C4DBAB0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C4DB9A0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x1C4DBCB0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_SETRENDERERVISIBLE_OFFSET UNITYSDK_OFFSET(0x1C4DBBE0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1C4DBD20)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DBD30)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6BBA0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xDA6BB80)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONCHARACTERTRIGGER_OFFSET UNITYSDK_OFFSET(0xDA6B970)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDA6B920)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDA6B810)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xDA6BB20)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_SETRENDERERVISIBLE_OFFSET UNITYSDK_OFFSET(0xDA6BA50)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xDA6BB90)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItem_TypeDefinitionIndex = 74041;
+	inline static constexpr unsigned int MonoParkourItem_TypeDefinitionIndex = 74140;
 
 	class MonoParkourItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,16 +31,16 @@ namespace RPG::Client::ParkourGame
 		::System::String* RecoverAnimState; // 0x20
 		::UnityEngine::Collider* Trigger; // 0x28
 		::System::Single RecoverTime; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::Client::ParkourGame::EffectConfig TriggerEffectForCharacter; // 0x38
 		::RPG::Client::ParkourGame::EffectConfig TriggerEffectForSelf; // 0x60
-		::Class_2_55373297DA27393D* _Item_k__BackingField; // 0x88
+		::BIIJADGFFLF* _Item_k__BackingField; // 0x88
 		::UnityEngine::Transform* PDJGEDNLBKJ; // 0x90
 		::UnityEngine::Canvas* KNALLMEKPDH; // 0x98
 		::Il2CppArray<::UnityEngine::Renderer*>* MOECGMPCECP; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -70,14 +68,15 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourCharacter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_ONTRIGGERED_OFFSET))(this, a1);
 		}
 
-		::Class_2_55373297DA27393D* get_Item()
+		::BIIJADGFFLF* get_Item()
 		{
-			return ((::Class_2_55373297DA27393D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_GET_ITEM_OFFSET))(this);
+			return ((::BIIJADGFFLF*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_GET_ITEM_OFFSET))(this);
 		}
 
-		::System::Void set_Item(::Class_2_55373297DA27393D* a1)
+		::System::Void set_Item(::BIIJADGFFLF* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_55373297DA27393D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_SET_ITEM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::BIIJADGFFLF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEM_SET_ITEM_OFFSET))(this, a1);
 		}
+
 	};
 }

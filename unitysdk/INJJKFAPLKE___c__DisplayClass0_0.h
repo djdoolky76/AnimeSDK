@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class IMissionIcon; }
+namespace RPG::Client::NavMap { class MappingInfoNode; }
+
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164E4680)
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__0_OFFSET UNITYSDK_OFFSET(0x164E5B90)
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__1_OFFSET UNITYSDK_OFFSET(0x164E5CD0)
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__2_OFFSET UNITYSDK_OFFSET(0x164E5CF0)
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__3_OFFSET UNITYSDK_OFFSET(0x164E5D10)
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__4_OFFSET UNITYSDK_OFFSET(0x164E5D30)
+#define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__5_OFFSET UNITYSDK_OFFSET(0x164E5D50)
+
+inline static constexpr unsigned int INJJKFAPLKE___c__DisplayClass0_0_TypeDefinitionIndex = 66188;
+
+	class INJJKFAPLKE___c__DisplayClass0_0 : public ::System::Object
+	{
+	public:
+		::System::UInt32 overrideTeleportMappingInfoID; // 0x10
+		::System::UInt32 submissionID; // 0x14
+		::System::UInt32 explicit_tp_id; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _CheckUseLegacyMethod_b__0(::RPG::Client::IMissionIcon* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IMissionIcon*))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CheckUseLegacyMethod_b__1(::RPG::Client::NavMap::MappingInfoNode* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MappingInfoNode*))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__1_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CheckUseLegacyMethod_b__2(::RPG::Client::NavMap::MappingInfoNode* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MappingInfoNode*))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__2_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CheckUseLegacyMethod_b__3(::RPG::Client::NavMap::MappingInfoNode* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MappingInfoNode*))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__3_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CheckUseLegacyMethod_b__4(::RPG::Client::NavMap::MappingInfoNode* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MappingInfoNode*))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__4_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CheckUseLegacyMethod_b__5(::RPG::Client::NavMap::MappingInfoNode* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MappingInfoNode*))((::PBYTE)hIl2Cpp + INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__5_OFFSET))(this, a1);
+		}
+
+	};

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourMinimap; }
 namespace RPG::Client::ParkourGame { class MonoParkourRoadMap; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURGAMELEVELCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E30D0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURGAMELEVELCONFIGASSET_CTOR_OFFSET UNITYSDK_OFFSET(0xDA72F40)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourGameLevelConfigAsset_TypeDefinitionIndex = 74110;
+	inline static constexpr unsigned int ParkourGameLevelConfigAsset_TypeDefinitionIndex = 74209;
 
 	class ParkourGameLevelConfigAsset : public ::UnityEngine::ScriptableObject
 	{
@@ -26,19 +25,22 @@ namespace RPG::Client::ParkourGame
 		::System::Int32 SpeedUpMaxEnergy; // 0x40
 		::System::Int32 SpeedUpCostPoint; // 0x44
 		::System::Single SpeedUpKeepDuration; // 0x48
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Int32>* SpeedUpPriority; // 0x50
 		::System::Single SpeedUpCoolDown; // 0x58
 		::System::Int32 SkillMaxEnergy; // 0x5C
 		::System::Int32 SkillCostEnergy; // 0x60
 		::System::Single SkillKeepDuration; // 0x64
 		::System::Int32 SkillPriority; // 0x68
+		::System::Byte _padding1[0x4];
 		::UnityEngine::GameObject* CameraPrefab; // 0x70
 		::System::Int32 PlayLapCount; // 0x78
+		::System::Byte _padding2[0x4];
 		::System::String* BeforeStartEventName; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURGAMELEVELCONFIGASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURGAMELEVELCONFIGASSET_CTOR_OFFSET))(this);
 		}
+
 	};
 }

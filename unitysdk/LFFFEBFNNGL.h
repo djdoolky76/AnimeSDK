@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class LFFFEBFNNGL;
+namespace UnityEngine { class Transform; }
+
+#define LFFFEBFNNGL_BFADFAELKLJ_OFFSET UNITYSDK_OFFSET(0xB6625F0)
+#define LFFFEBFNNGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB662750)
+#define LFFFEBFNNGL_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xB662760)
+
+inline static constexpr unsigned int LFFFEBFNNGL_TypeDefinitionIndex = 68243;
+
+	class LFFFEBFNNGL : public ::System::Object
+	{
+	public:
+		::UnityEngine::Transform* ILHILGNDLAJ; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LFFFEBFNNGL_CTOR_OFFSET))(this);
+		}
+
+		static ::LFFFEBFNNGL* BFADFAELKLJ()
+		{
+			return ((::LFFFEBFNNGL*(*)())((::PBYTE)hIl2Cpp + LFFFEBFNNGL_BFADFAELKLJ_OFFSET))();
+		}
+
+		::System::Void FFHNOMIDEDE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LFFFEBFNNGL_FFHNOMIDEDE_OFFSET))(this);
+		}
+
+	};

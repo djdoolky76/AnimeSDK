@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VREvent_ApplicationLaunch_t.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VREvent_Chaperone_t.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VREvent_Controller_t.h"
@@ -23,9 +22,9 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Data_t_TypeDefinitionIndex = 37966;
+	inline static constexpr unsigned int VREvent_Data_t_TypeDefinitionIndex = 39263;
 
-	struct alignas(8) VREvent_Data_t
+	struct alignas(4) VREvent_Data_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::VREvent_Reserved_t reserved; // 0x10
 		::ZenFulcrum::VR::OpenVRBinding::VREvent_Controller_t controller; // 0x10

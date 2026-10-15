@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardCellEnterData_TypeDefinitionIndex = 66915;
+	inline static constexpr unsigned int ChessRogueBoardCellEnterData_TypeDefinitionIndex = 66917;
 
 	struct alignas(4) ChessRogueBoardCellEnterData
 	{

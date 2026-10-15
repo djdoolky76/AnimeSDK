@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+#include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActivityDiceCombatAvatarRow; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define DCJKGIFBKHI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DCAB890)
+#define DCJKGIFBKHI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCABE10)
+#define DCJKGIFBKHI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DCABA00)
+#define DCJKGIFBKHI_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1DCAB6C0)
+#define DCJKGIFBKHI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DCAB2C0)
+#define DCJKGIFBKHI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DCAB550)
+#define DCJKGIFBKHI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DCABAA0)
+#define DCJKGIFBKHI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DCABAF0)
+#define DCJKGIFBKHI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DCAB8D0)
+#define DCJKGIFBKHI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DCAB4F0)
+#define DCJKGIFBKHI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DCAB740)
+#define DCJKGIFBKHI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCAB960)
+#define DCJKGIFBKHI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCAB240)
+
+inline static constexpr unsigned int DCJKGIFBKHI_TypeDefinitionIndex = 11236;
+
+	class DCJKGIFBKHI : public ::System::Object
+	{
+	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DCJKGIFBKHI")->GetStaticField(0x417F0);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DCJKGIFBKHI")->GetStaticField(0x417F8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>**)UnitySDK::FromName("", "DCJKGIFBKHI")->GetStaticField(0x41800);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "DCJKGIFBKHI")->GetStaticField(0xF8E0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DCJKGIFBKHI")->GetStaticField(0xF8E1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_CCTOR_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>*(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>, ::RPG::GameCore::ActivityDiceCombatAvatarRow*> EHAFELPCLKB()
+		{
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>, ::RPG::GameCore::ActivityDiceCombatAvatarRow*>(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_EHAFELPCLKB_OFFSET))();
+		}
+
+		static ::RPG::GameCore::ActivityDiceCombatAvatarRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::ActivityDiceCombatAvatarRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + DCJKGIFBKHI_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DCJKGIFBKHI_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + DCJKGIFBKHI_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + DCJKGIFBKHI_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + DCJKGIFBKHI_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::ActivityDiceCombatAvatarRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::ActivityDiceCombatAvatarRow*))((::PBYTE)hIl2Cpp + DCJKGIFBKHI_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+	};

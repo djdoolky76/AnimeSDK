@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UIDraggableManager_AreaFlag.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANDRAG_OFFSET UNITYSDK_OFFSET(0x17017A80)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANHOVER_OFFSET UNITYSDK_OFFSET(0x17019960)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x170197B0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE393660)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANDRAG_OFFSET UNITYSDK_OFFSET(0xE391930)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANHOVER_OFFSET UNITYSDK_OFFSET(0xE393810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager_AreaInfo_TypeDefinitionIndex = 69054;
+	inline static constexpr unsigned int UIDraggableManager_AreaInfo_TypeDefinitionIndex = 69090;
 
 	class UIDraggableManager_AreaInfo : public ::System::Object
 	{
 	public:
 		::System::Object* UserObjectData; // 0x10
 		::System::Boolean IsEntered; // 0x18
-		::RPG::Client::UIDraggableManager_AreaFlag Flags; // 0x1C
-		::System::Int32 InstanceID; // 0x20
-
+		::System::Byte _padding0[0x3];
+		::System::Int32 InstanceID; // 0x1C
+		::RPG::Client::UIDraggableManager_AreaFlag Flags; // 0x20
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Object* a2, ::RPG::Client::UIDraggableManager_AreaFlag a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*, ::RPG::Client::UIDraggableManager_AreaFlag))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*, ::RPG::Client::UIDraggableManager_AreaFlag))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_CanDrag()
@@ -35,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANHOVER_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SummonUnitGatherConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG_METHOD_2_AC7ED80FB052894F_OFFSET UNITYSDK_OFFSET(0x1CB13EB0)
-#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB14F30)
+#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB106F0)
+#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0F670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGatherConfig_TypeDefinitionIndex = 17392;
+	inline static constexpr unsigned int SummonUnitGatherConfig_TypeDefinitionIndex = 17604;
 
 	class SummonUnitGatherConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,7 +19,9 @@ namespace RPG::GameCore
 		::System::Single RegionRadius; // 0x14
 		::System::Single ConstraintRadius; // 0x18
 		::System::Boolean UpdateOnce; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single DampSmoothTime; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::String* CentripetalSpeedCurve; // 0x28
 		::System::Single CentripetalFactorX; // 0x30
 		::System::Single CentripetalFactorY; // 0x34
@@ -36,15 +38,15 @@ namespace RPG::GameCore
 		::System::Boolean CollideIgnorePlayer; // 0x5E
 		::System::Boolean ForAttack; // 0x5F
 		::Il2CppArray<::System::String*>* FilterModifiers; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGATHERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGATHERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_AC7ED80FB052894F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitGatherConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SummonUnitGatherConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitGatherConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGATHERCONFIG_METHOD_2_AC7ED80FB052894F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SummonUnitGatherConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGATHERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

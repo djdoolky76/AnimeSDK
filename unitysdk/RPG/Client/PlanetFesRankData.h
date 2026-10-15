@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class PlanetFesRankData; }
 namespace RPG::Client { class PlanetFesRankDataItem; }
 namespace RPG::Client { class PlanetFesRankData_IServerAgent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESRANKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C2B8D70)
-#define RPG_CLIENT_PLANETFESRANKDATA_GET_PERSONALRANK_OFFSET UNITYSDK_OFFSET(0x1C2C1E60)
-#define RPG_CLIENT_PLANETFESRANKDATA_GET_SORTEDRANK_OFFSET UNITYSDK_OFFSET(0x1C2C1E10)
-#define RPG_CLIENT_PLANETFESRANKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C1E00)
+#define RPG_CLIENT_PLANETFESRANKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDBB7210)
+#define RPG_CLIENT_PLANETFESRANKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDBC0030)
+#define RPG_CLIENT_PLANETFESRANKDATA_GET_PERSONALRANK_OFFSET UNITYSDK_OFFSET(0xDBC0090)
+#define RPG_CLIENT_PLANETFESRANKDATA_GET_SORTEDRANK_OFFSET UNITYSDK_OFFSET(0xDBC0040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesRankData_TypeDefinitionIndex = 66670;
+	inline static constexpr unsigned int PlanetFesRankData_TypeDefinitionIndex = 66638;
 
 	class PlanetFesRankData : public ::System::Object
 	{
 	public:
 		::RPG::Client::PlanetFesRankData_IServerAgent* _Agent; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESRANKDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESRANKDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::PlanetFesRankData* Create(::RPG::Client::PlanetFesRankData_IServerAgent* a1)
@@ -39,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::PlanetFesRankDataItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESRANKDATA_GET_PERSONALRANK_OFFSET))(this);
 		}
+
 	};
 }

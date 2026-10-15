@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialLockPlayerAction; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_METHOD_3_3DC42DC187C264B7_OFFSET UNITYSDK_OFFSET(0x1D2A81E0)
-#define RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_METHOD_3_6F4CBAE8D5D0773C_OFFSET UNITYSDK_OFFSET(0x1D2A8220)
-#define RPG_GAMECORE_TUTORIALLOCKPLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A8210)
+#define RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3F570)
+#define RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC3F580)
+#define RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC3F540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialLockPlayerAction_TypeDefinitionIndex = 24006;
+	inline static constexpr unsigned int TutorialLockPlayerAction_TypeDefinitionIndex = 24281;
 
 	class TutorialLockPlayerAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Lock; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALLOCKPLAYERACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3DC42DC187C264B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialLockPlayerAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialLockPlayerAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialLockPlayerAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_METHOD_3_3DC42DC187C264B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialLockPlayerAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6F4CBAE8D5D0773C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialLockPlayerAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialLockPlayerAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialLockPlayerAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_METHOD_3_6F4CBAE8D5D0773C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialLockPlayerAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALLOCKPLAYERACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

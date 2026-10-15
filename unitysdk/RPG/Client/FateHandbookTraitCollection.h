@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class FateHandbookTraitItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1929A0)
-#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_GET_TRAITITEMLIST_OFFSET UNITYSDK_OFFSET(0x1C195860)
-#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C192C70)
-#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION__GENERATETRAITHANDBOOKLIST_OFFSET UNITYSDK_OFFSET(0x1C1954F0)
+#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCE96510)
+#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE96240)
+#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_GET_TRAITITEMLIST_OFFSET UNITYSDK_OFFSET(0xCE99100)
+#define RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION__GENERATETRAITHANDBOOKLIST_OFFSET UNITYSDK_OFFSET(0xCE98D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateHandbookTraitCollection_TypeDefinitionIndex = 64139;
+	inline static constexpr unsigned int FateHandbookTraitCollection_TypeDefinitionIndex = 64077;
 
 	class FateHandbookTraitCollection : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::FateHandbookTraitItem*>* _TraitItemList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -38,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::FateHandbookTraitItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKTRAITCOLLECTION_GET_TRAITITEMLIST_OFFSET))(this);
 		}
+
 	};
 }

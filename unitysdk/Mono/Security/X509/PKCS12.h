@@ -2,90 +2,91 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Cryptography/DSAParameters.h"
-
 namespace Mono::Security { class ASN1; }
 namespace Mono::Security { class PKCS7_ContentInfo; }
 namespace Mono::Security { class PKCS7_EncryptedData; }
 namespace Mono::Security::Cryptography { class PKCS8_PrivateKeyInfo; }
 namespace Mono::Security::X509 { class X509Certificate; }
 namespace Mono::Security::X509 { class X509CertificateCollection; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class IDictionary; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
-#define MONO_SECURITY_X509_PKCS12_ADDCERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1D255970)
-#define MONO_SECURITY_X509_PKCS12_ADDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1D255680)
-#define MONO_SECURITY_X509_PKCS12_ADDPRIVATEKEY_OFFSET UNITYSDK_OFFSET(0x1D24EF30)
-#define MONO_SECURITY_X509_PKCS12_CERTIFICATESAFEBAG_OFFSET UNITYSDK_OFFSET(0x1D24F1E0)
-#define MONO_SECURITY_X509_PKCS12_CLONE_OFFSET UNITYSDK_OFFSET(0x1D256CD0)
-#define MONO_SECURITY_X509_PKCS12_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D24B0F0)
-#define MONO_SECURITY_X509_PKCS12_DECODE_OFFSET UNITYSDK_OFFSET(0x1D24A1B0)
-#define MONO_SECURITY_X509_PKCS12_DECRYPT_1_OFFSET UNITYSDK_OFFSET(0x1D24BD40)
-#define MONO_SECURITY_X509_PKCS12_DECRYPT_OFFSET UNITYSDK_OFFSET(0x1D24CCE0)
-#define MONO_SECURITY_X509_PKCS12_ENCRYPTEDCONTENTINFO_OFFSET UNITYSDK_OFFSET(0x1D255690)
-#define MONO_SECURITY_X509_PKCS12_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x1D24E370)
-#define MONO_SECURITY_X509_PKCS12_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D24BED0)
-#define MONO_SECURITY_X509_PKCS12_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1D250970)
-#define MONO_SECURITY_X509_PKCS12_GETEXISTINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1D24E580)
-#define MONO_SECURITY_X509_PKCS12_GETSYMMETRICALGORITHM_OFFSET UNITYSDK_OFFSET(0x1D24D7E0)
-#define MONO_SECURITY_X509_PKCS12_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1D24CF40)
-#define MONO_SECURITY_X509_PKCS12_GET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1D24BF50)
-#define MONO_SECURITY_X509_PKCS12_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1D24BF70)
-#define MONO_SECURITY_X509_PKCS12_GET_MAXIMUMPASSWORDLENGTH_OFFSET UNITYSDK_OFFSET(0x1D256E60)
-#define MONO_SECURITY_X509_PKCS12_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1D24D7A0)
-#define MONO_SECURITY_X509_PKCS12_MAC_OFFSET UNITYSDK_OFFSET(0x1D24AD80)
-#define MONO_SECURITY_X509_PKCS12_READSAFEBAG_OFFSET UNITYSDK_OFFSET(0x1D24B160)
-#define MONO_SECURITY_X509_PKCS12_REMOVECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1D255E80)
-#define MONO_SECURITY_X509_PKCS12_REMOVECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1D255670)
-#define MONO_SECURITY_X509_PKCS12_SET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1D24BF60)
-#define MONO_SECURITY_X509_PKCS12_SET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1D249F10)
-#define MONO_SECURITY_X509_PKCS12__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D256EC0)
-#define MONO_SECURITY_X509_PKCS12__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D249EA0)
-#define MONO_SECURITY_X509_PKCS12__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D24AD40)
-#define MONO_SECURITY_X509_PKCS12__CTOR_OFFSET UNITYSDK_OFFSET(0x1D249CF0)
+#define MONO_SECURITY_X509_PKCS12_ADDCERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1C062800)
+#define MONO_SECURITY_X509_PKCS12_ADDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C062510)
+#define MONO_SECURITY_X509_PKCS12_ADDPRIVATEKEY_OFFSET UNITYSDK_OFFSET(0x1C05BE90)
+#define MONO_SECURITY_X509_PKCS12_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C063D10)
+#define MONO_SECURITY_X509_PKCS12_CERTIFICATESAFEBAG_OFFSET UNITYSDK_OFFSET(0x1C05C140)
+#define MONO_SECURITY_X509_PKCS12_CLONE_OFFSET UNITYSDK_OFFSET(0x1C063B20)
+#define MONO_SECURITY_X509_PKCS12_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C057EB0)
+#define MONO_SECURITY_X509_PKCS12_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C056C60)
+#define MONO_SECURITY_X509_PKCS12_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C057B00)
+#define MONO_SECURITY_X509_PKCS12_CTOR_OFFSET UNITYSDK_OFFSET(0x1C056AB0)
+#define MONO_SECURITY_X509_PKCS12_DECODE_OFFSET UNITYSDK_OFFSET(0x1C056F70)
+#define MONO_SECURITY_X509_PKCS12_DECRYPT_1_OFFSET UNITYSDK_OFFSET(0x1C058B00)
+#define MONO_SECURITY_X509_PKCS12_DECRYPT_OFFSET UNITYSDK_OFFSET(0x1C059A50)
+#define MONO_SECURITY_X509_PKCS12_ENCRYPTEDCONTENTINFO_OFFSET UNITYSDK_OFFSET(0x1C062520)
+#define MONO_SECURITY_X509_PKCS12_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x1C05B2D0)
+#define MONO_SECURITY_X509_PKCS12_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C058C90)
+#define MONO_SECURITY_X509_PKCS12_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1C05D8D0)
+#define MONO_SECURITY_X509_PKCS12_GETEXISTINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1C05B4E0)
+#define MONO_SECURITY_X509_PKCS12_GETSYMMETRICALGORITHM_OFFSET UNITYSDK_OFFSET(0x1C05A520)
+#define MONO_SECURITY_X509_PKCS12_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1C059CB0)
+#define MONO_SECURITY_X509_PKCS12_GET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1C058D10)
+#define MONO_SECURITY_X509_PKCS12_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1C058D30)
+#define MONO_SECURITY_X509_PKCS12_GET_MAXIMUMPASSWORDLENGTH_OFFSET UNITYSDK_OFFSET(0x1C063CB0)
+#define MONO_SECURITY_X509_PKCS12_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1C05A4E0)
+#define MONO_SECURITY_X509_PKCS12_MAC_OFFSET UNITYSDK_OFFSET(0x1C057B40)
+#define MONO_SECURITY_X509_PKCS12_READSAFEBAG_OFFSET UNITYSDK_OFFSET(0x1C057F20)
+#define MONO_SECURITY_X509_PKCS12_REMOVECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1C062D00)
+#define MONO_SECURITY_X509_PKCS12_REMOVECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C062500)
+#define MONO_SECURITY_X509_PKCS12_SET_ITERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1C058D20)
+#define MONO_SECURITY_X509_PKCS12_SET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1C056CD0)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int PKCS12_TypeDefinitionIndex = 2264;
+	inline static constexpr unsigned int PKCS12_TypeDefinitionIndex = 55;
 
 	class PKCS12 : public ::System::Object
 	{
 	public:
+		::System::Collections::ArrayList* _safeBags; // 0x10
+		::System::Security::Cryptography::RandomNumberGenerator* _rng; // 0x18
+		::Mono::Security::X509::X509CertificateCollection* _certs; // 0x20
+		::System::Collections::ArrayList* _secretBags; // 0x28
+		::Il2CppArray<::System::Byte>* _password; // 0x30
+		::System::Collections::ArrayList* _keyBags; // 0x38
+		::System::Boolean _keyBagsChanged; // 0x40
+		::System::Boolean _secretBagsChanged; // 0x41
+		::System::Boolean _certsChanged; // 0x42
+		::System::Byte _padding0[0x1];
+		::System::Int32 _iterations; // 0x44
 		static ::System::Int32* StaticGet_password_max_length()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PKCS12_TypeDefinitionIndex)->GetStaticField(0xC9F0);
+			return (::System::Int32*)UnitySDK::FromName("Mono.Security.X509", "PKCS12")->GetStaticField(0x2C60);
 		}
-		::System::Collections::ArrayList* _secretBags; // 0x10
-		::System::Collections::ArrayList* _keyBags; // 0x18
-		::Mono::Security::X509::X509CertificateCollection* _certs; // 0x20
-		::Il2CppArray<::System::Byte>* _password; // 0x28
-		::System::Security::Cryptography::RandomNumberGenerator* _rng; // 0x30
-		::System::Collections::ArrayList* _safeBags; // 0x38
-		::System::Boolean _secretBagsChanged; // 0x40
-		::System::Boolean _certsChanged; // 0x41
-		::System::Boolean _keyBagsChanged; // 0x42
-		::System::Int32 _iterations; // 0x44
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::Il2CppArray<::System::Byte>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_CCTOR_OFFSET))();
 		}
 
 		::System::Void Decode(::Il2CppArray<::System::Byte>* a1)
@@ -153,9 +154,9 @@ namespace Mono::Security::X509
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_ENCRYPT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Security::Cryptography::DSAParameters GetExistingParameters(::System::Boolean& a1)
+		::System::Security::Cryptography::DSAParameters GetExistingParameters(::System::Boolean a1)
 		{
-			return ((::System::Security::Cryptography::DSAParameters(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_GETEXISTINGPARAMETERS_OFFSET))(this, a1);
+			return ((::System::Security::Cryptography::DSAParameters(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_GETEXISTINGPARAMETERS_OFFSET))(this, a1);
 		}
 
 		::System::Void AddPrivateKey(::Mono::Security::Cryptography::PKCS8_PrivateKeyInfo* a1)
@@ -217,5 +218,6 @@ namespace Mono::Security::X509
 		{
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_PKCS12_GET_MAXIMUMPASSWORDLENGTH_OFFSET))();
 		}
+
 	};
 }

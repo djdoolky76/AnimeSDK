@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GridFightScoreRewardConfigRow; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A039990)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0__GETREWARDDISPLAYDATABYRANKS_B__0_OFFSET UNITYSDK_OFFSET(0x1A0399A0)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2D1BE0)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0__GETREWARDDISPLAYDATABYRANKS_B__0_OFFSET UNITYSDK_OFFSET(0xD2D2130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass16_0_TypeDefinitionIndex = 65587;
+	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass16_0_TypeDefinitionIndex = 65527;
 
 	class GridFightWeeklyScore___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IEnumerable_1<::System::UInt32>* ranks; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetRewardDisplayDataByRanks_b__0(::RPG::GameCore::GridFightScoreRewardConfigRow* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GridFightScoreRewardConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS16_0__GETREWARDDISPLAYDATABYRANKS_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

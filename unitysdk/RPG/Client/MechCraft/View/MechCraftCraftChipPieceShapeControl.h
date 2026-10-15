@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+class AKPHPMPKCHB;
+class CHGHIALKMFM;
+namespace RPG::Client::MechCraft::View { class MechCraftCraftChipPieceShapeControlBinder; }
+namespace UnityEngine { class RectTransform; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD6048D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_CHIP_OFFSET UNITYSDK_OFFSET(0xD603C20)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_GRID_OFFSET UNITYSDK_OFFSET(0xD6039B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_NODEDRAGGABLE_OFFSET UNITYSDK_OFFSET(0xD604680)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD603F10)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_NAAJJCKMDGM_OFFSET UNITYSDK_OFFSET(0xD603F50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_SET_CHIP_OFFSET UNITYSDK_OFFSET(0xD603C60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_SET_GRID_OFFSET UNITYSDK_OFFSET(0xD6039F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD604510)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftChipPieceShapeControl_TypeDefinitionIndex = 79868;
+
+	class MechCraftCraftChipPieceShapeControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::AKPHPMPKCHB* AMFAHMJGOEE; // 0x18
+		::CHGHIALKMFM* GIEPEGOALHN; // 0x20
+		::RPG::Client::MechCraft::MechCraftRotationType NCMEPPHLGEG; // 0x28
+		::System::Byte _padding0[0x4];
+		::RPG::Client::MechCraft::View::MechCraftCraftChipPieceShapeControlBinder* _Binder; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_CTOR_OFFSET))(this);
+		}
+
+		::AKPHPMPKCHB* get_Grid()
+		{
+			return ((::AKPHPMPKCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_GRID_OFFSET))(this);
+		}
+
+		::System::Void set_Grid(::AKPHPMPKCHB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AKPHPMPKCHB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_SET_GRID_OFFSET))(this, a1);
+		}
+
+		::CHGHIALKMFM* get_Chip()
+		{
+			return ((::CHGHIALKMFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_CHIP_OFFSET))(this);
+		}
+
+		::System::Void set_Chip(::CHGHIALKMFM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_SET_CHIP_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::MechCraft::MechCraftRotationType get_Rotation()
+		{
+			return ((::RPG::Client::MechCraft::MechCraftRotationType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_ROTATION_OFFSET))(this);
+		}
+
+		::System::Void set_Rotation(::RPG::Client::MechCraft::MechCraftRotationType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftRotationType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_SET_ROTATION_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::RectTransform* get_NodeDraggable()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_GET_NODEDRAGGABLE_OFFSET))(this);
+		}
+
+		::System::Void NAAJJCKMDGM(::CHGHIALKMFM* a1, ::RPG::Client::MechCraft::MechCraftRotationType a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHGHIALKMFM*, ::RPG::Client::MechCraft::MechCraftRotationType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECESHAPECONTROL_NAAJJCKMDGM_OFFSET))(this, a1, a2);
+		}
+
+	};
+}

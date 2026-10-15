@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x172E4040)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_HANDLED_OFFSET UNITYSDK_OFFSET(0x172E4090)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_TRACED_OFFSET UNITYSDK_OFFSET(0x172E4020)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_ERROR_OFFSET UNITYSDK_OFFSET(0x172E4050)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_MEMBER_OFFSET UNITYSDK_OFFSET(0x172E4070)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_ORIGINALOBJECT_OFFSET UNITYSDK_OFFSET(0x172E4060)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_PATH_OFFSET UNITYSDK_OFFSET(0x172E4080)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_TRACED_OFFSET UNITYSDK_OFFSET(0x172E4030)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x172E4000)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B1720)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1C3B1760)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_HANDLED_OFFSET UNITYSDK_OFFSET(0x1C3B17B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_TRACED_OFFSET UNITYSDK_OFFSET(0x1C3B1740)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_ERROR_OFFSET UNITYSDK_OFFSET(0x1C3B1770)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_MEMBER_OFFSET UNITYSDK_OFFSET(0x1C3B1790)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_ORIGINALOBJECT_OFFSET UNITYSDK_OFFSET(0x1C3B1780)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1C3B17A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_SET_TRACED_OFFSET UNITYSDK_OFFSET(0x1C3B1750)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ErrorContext_TypeDefinitionIndex = 9658;
+	inline static constexpr unsigned int ErrorContext_TypeDefinitionIndex = 9716;
 
 	class ErrorContext : public ::System::Object
 	{
 	public:
-		::System::Exception* _Error_k__BackingField; // 0x10
-		::System::Object* _Member_k__BackingField; // 0x18
-		::System::String* _Path_k__BackingField; // 0x20
-		::System::Object* _OriginalObject_k__BackingField; // 0x28
-		::System::Boolean _Traced_k__BackingField; // 0x30
-		::System::Boolean _Handled_k__BackingField; // 0x31
-
+		::System::String* _Path_k__BackingField; // 0x10
+		::System::Object* _OriginalObject_k__BackingField; // 0x18
+		::System::Object* _Member_k__BackingField; // 0x20
+		::System::Exception* _Error_k__BackingField; // 0x28
+		::System::Boolean _Handled_k__BackingField; // 0x30
+		::System::Boolean _Traced_k__BackingField; // 0x31
 		::System::Void _ctor(::System::Object* a1, ::System::Object* a2, ::System::String* a3, ::System::Exception* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_Traced()
@@ -73,5 +72,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_ERRORCONTEXT_GET_HANDLED_OFFSET))(this);
 		}
+
 	};
 }

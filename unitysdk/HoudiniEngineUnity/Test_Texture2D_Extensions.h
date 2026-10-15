@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_Texture2D; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EEF18A0)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EEF19C0)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEF10C0)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B996A10)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B996B30)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B996230)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Texture2D_Extensions_TypeDefinitionIndex = 39458;
+	inline static constexpr unsigned int Test_Texture2D_Extensions_TypeDefinitionIndex = 40755;
 
 	class Test_Texture2D_Extensions : public ::System::Object
 	{
@@ -31,5 +30,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Texture2D*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

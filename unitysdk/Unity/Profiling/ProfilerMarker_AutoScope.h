@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C56350)
-#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x3C56340)
+#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6B6B0)
+#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C6B6C0)
 
 namespace Unity::Profiling
 {
-	inline static constexpr unsigned int ProfilerMarker_AutoScope_TypeDefinitionIndex = 3946;
+	inline static constexpr unsigned int ProfilerMarker_AutoScope_TypeDefinitionIndex = 3947;
 
-	struct alignas(8) ProfilerMarker_AutoScope
+	struct alignas(4) ProfilerMarker_AutoScope
 	{
 		::System::IntPtr m_Ptr; // 0x10
-
 		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

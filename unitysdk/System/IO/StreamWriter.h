@@ -1,39 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/TextWriter.h"
-
 namespace System { class String; }
 namespace System::IO { class Stream; }
+namespace System::IO { class StreamWriter; }
 namespace System::Text { class Encoder; }
 namespace System::Text { class Encoding; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAMWRITER_CHECKASYNCTASKINPROGRESS_OFFSET UNITYSDK_OFFSET(0x1D471E90)
-#define SYSTEM_IO_STREAMWRITER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1D472C10)
-#define SYSTEM_IO_STREAMWRITER_CREATEFILE_OFFSET UNITYSDK_OFFSET(0x1D472B80)
-#define SYSTEM_IO_STREAMWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D472CC0)
-#define SYSTEM_IO_STREAMWRITER_FLUSH_1_OFFSET UNITYSDK_OFFSET(0x1D472EC0)
-#define SYSTEM_IO_STREAMWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1D4732C0)
-#define SYSTEM_IO_STREAMWRITER_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1D473450)
-#define SYSTEM_IO_STREAMWRITER_GET_LEAVEOPEN_OFFSET UNITYSDK_OFFSET(0x1D472EB0)
-#define SYSTEM_IO_STREAMWRITER_GET_UTF8NOBOM_OFFSET UNITYSDK_OFFSET(0x1D471F10)
-#define SYSTEM_IO_STREAMWRITER_INIT_OFFSET UNITYSDK_OFFSET(0x1D472550)
-#define SYSTEM_IO_STREAMWRITER_SET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1D4733B0)
-#define SYSTEM_IO_STREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1D473540)
-#define SYSTEM_IO_STREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1D473660)
-#define SYSTEM_IO_STREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1D473880)
-#define SYSTEM_IO_STREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1D473460)
-#define SYSTEM_IO_STREAMWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4739A0)
-#define SYSTEM_IO_STREAMWRITER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D472270)
-#define SYSTEM_IO_STREAMWRITER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D472510)
-#define SYSTEM_IO_STREAMWRITER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D472530)
-#define SYSTEM_IO_STREAMWRITER__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1D4722C0)
-#define SYSTEM_IO_STREAMWRITER__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1D4727E0)
-#define SYSTEM_IO_STREAMWRITER__CTOR_6_OFFSET UNITYSDK_OFFSET(0x1D472850)
-#define SYSTEM_IO_STREAMWRITER__CTOR_7_OFFSET UNITYSDK_OFFSET(0x1D4728B0)
-#define SYSTEM_IO_STREAMWRITER__CTOR_8_OFFSET UNITYSDK_OFFSET(0x1D472830)
-#define SYSTEM_IO_STREAMWRITER__CTOR_9_OFFSET UNITYSDK_OFFSET(0x1D4728D0)
-#define SYSTEM_IO_STREAMWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D472090)
+#define SYSTEM_IO_STREAMWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C23FD90)
+#define SYSTEM_IO_STREAMWRITER_CHECKASYNCTASKINPROGRESS_OFFSET UNITYSDK_OFFSET(0x1C23E2A0)
+#define SYSTEM_IO_STREAMWRITER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1C23F000)
+#define SYSTEM_IO_STREAMWRITER_CREATEFILE_OFFSET UNITYSDK_OFFSET(0x1C23EF70)
+#define SYSTEM_IO_STREAMWRITER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C23E660)
+#define SYSTEM_IO_STREAMWRITER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C23E900)
+#define SYSTEM_IO_STREAMWRITER_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C23E920)
+#define SYSTEM_IO_STREAMWRITER_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1C23E6B0)
+#define SYSTEM_IO_STREAMWRITER_CTOR_5_OFFSET UNITYSDK_OFFSET(0x1C23EBD0)
+#define SYSTEM_IO_STREAMWRITER_CTOR_6_OFFSET UNITYSDK_OFFSET(0x1C23EC40)
+#define SYSTEM_IO_STREAMWRITER_CTOR_7_OFFSET UNITYSDK_OFFSET(0x1C23ECA0)
+#define SYSTEM_IO_STREAMWRITER_CTOR_8_OFFSET UNITYSDK_OFFSET(0x1C23EC20)
+#define SYSTEM_IO_STREAMWRITER_CTOR_9_OFFSET UNITYSDK_OFFSET(0x1C23ECC0)
+#define SYSTEM_IO_STREAMWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C23E480)
+#define SYSTEM_IO_STREAMWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C23F0B0)
+#define SYSTEM_IO_STREAMWRITER_FLUSH_1_OFFSET UNITYSDK_OFFSET(0x1C23F2B0)
+#define SYSTEM_IO_STREAMWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C23F6B0)
+#define SYSTEM_IO_STREAMWRITER_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1C23F840)
+#define SYSTEM_IO_STREAMWRITER_GET_LEAVEOPEN_OFFSET UNITYSDK_OFFSET(0x1C23F2A0)
+#define SYSTEM_IO_STREAMWRITER_GET_UTF8NOBOM_OFFSET UNITYSDK_OFFSET(0x1C23E320)
+#define SYSTEM_IO_STREAMWRITER_INIT_OFFSET UNITYSDK_OFFSET(0x1C23E940)
+#define SYSTEM_IO_STREAMWRITER_SET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1C23F7A0)
+#define SYSTEM_IO_STREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1C23F930)
+#define SYSTEM_IO_STREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1C23FA50)
+#define SYSTEM_IO_STREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1C23FC70)
+#define SYSTEM_IO_STREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1C23F850)
 
 namespace System::IO
 {
@@ -42,79 +42,80 @@ namespace System::IO
 	class StreamWriter : public ::System::IO::TextWriter
 	{
 	public:
+		::Il2CppArray<::System::Byte>* byteBuffer; // 0x28
+		::System::IO::Stream* stream; // 0x30
+		::Il2CppArray<::System::Char>* charBuffer; // 0x38
+		::System::Text::Encoder* encoder; // 0x40
+		::System::Threading::Tasks::Task* _asyncWriteTask; // 0x48
+		::System::Text::Encoding* encoding; // 0x50
+		::System::Int32 charLen; // 0x58
+		::System::Int32 charPos; // 0x5C
+		::System::Boolean closable; // 0x60
+		::System::Boolean autoFlush; // 0x61
+		::System::Boolean haveWrittenPreamble; // 0x62
 		static ::System::IO::StreamWriter** StaticGet_Null()
 		{
-			return (::System::IO::StreamWriter**)Il2CppClass::FromTypeDefinitionIndex(StreamWriter_TypeDefinitionIndex)->GetStaticField(0xC990);
+			return (::System::IO::StreamWriter**)UnitySDK::FromName("System.IO", "StreamWriter")->GetStaticField(0x1AB30);
 		}
+
 		static ::System::Text::Encoding** StaticGet__UTF8NoBOM()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(StreamWriter_TypeDefinitionIndex)->GetStaticField(0xC998);
+			return (::System::Text::Encoding**)UnitySDK::FromName("System.IO", "StreamWriter")->GetStaticField(0x1AB38);
 		}
-		::Il2CppArray<::System::Char>* charBuffer; // 0x28
-		::System::Threading::Tasks::Task* _asyncWriteTask; // 0x30
-		::System::Text::Encoding* encoding; // 0x38
-		::System::Text::Encoder* encoder; // 0x40
-		::Il2CppArray<::System::Byte>* byteBuffer; // 0x48
-		::System::IO::Stream* stream; // 0x50
-		::System::Int32 charPos; // 0x58
-		::System::Boolean closable; // 0x5C
-		::System::Boolean autoFlush; // 0x5D
-		::System::Boolean haveWrittenPreamble; // 0x5E
-		::System::Int32 charLen; // 0x60
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::IO::Stream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::IO::Stream* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::IO::Stream* a1, ::System::Text::Encoding* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_3_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_4(::System::IO::Stream* a1, ::System::Text::Encoding* a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_4_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_4_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_5(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_5_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_5_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_6(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_6_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_6_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_7(::System::String* a1, ::System::Boolean a2, ::System::Text::Encoding* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_7_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_7_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_8(::System::String* a1, ::System::Boolean a2, ::System::Text::Encoding* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Text::Encoding*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_8_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Text::Encoding*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_8_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_9(::System::String* a1, ::System::Boolean a2, ::System::Text::Encoding* a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Text::Encoding*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CTOR_9_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Text::Encoding*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CTOR_9_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_CCTOR_OFFSET))();
 		}
 
 		::System::Void CheckAsyncTaskInProgress()
@@ -191,5 +192,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAMWRITER_WRITE_3_OFFSET))(this, a1);
 		}
+
 	};
 }

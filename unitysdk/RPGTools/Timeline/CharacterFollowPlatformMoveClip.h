@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Story { class CapturePropConfig; }
 namespace RPGTools::Story { class EditorPerformanceCharacterConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D13D180)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D13D170)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13D310)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8BDD80)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BDF10)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8BDD70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFollowPlatformMoveClip_TypeDefinitionIndex = 48415;
+	inline static constexpr unsigned int CharacterFollowPlatformMoveClip_TypeDefinitionIndex = 47955;
 
 	class CharacterFollowPlatformMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean Enable; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::RPGTools::Story::CapturePropConfig*>* Platforms; // 0x20
 		::System::Collections::Generic::List_1<::RPGTools::Story::EditorPerformanceCharacterConfig*>* Characters; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -39,5 +38,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

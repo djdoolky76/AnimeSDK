@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 43497;
+	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 44689;
 
 	struct alignas(4) TagAttribute
 	{

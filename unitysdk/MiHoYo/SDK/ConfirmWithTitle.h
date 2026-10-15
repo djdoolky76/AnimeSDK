@@ -1,36 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK { class ConfirmWithTitle; }
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A1C9330)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1A1C9E90)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1A1C9ED0)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1A1C9F30)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1A1C9C60)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1A1C9A00)
-#define MIHOYO_SDK_CONFIRMWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C9FA0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC3FE20)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC40A90)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC40980)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1BC409C0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1BC40A20)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC40750)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1BC404F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithTitle_TypeDefinitionIndex = 7959;
+	inline static constexpr unsigned int ConfirmWithTitle_TypeDefinitionIndex = 8002;
 
 	class ConfirmWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::ConfirmWithTitle** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::ConfirmWithTitle**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x72E0);
-		}
+		::System::String* strTitleText; // 0x58
+		::System::String* strContent; // 0x60
+		::System::String* strConfirmBtnText; // 0x68
+		::System::String* strCancelBtnText; // 0x70
+		::System::Action* OnCancel; // 0x78
+		::System::Action* OnConfirm; // 0x80
+		::System::Boolean m_bAutoHide; // 0x88
+		::System::Byte _padding0[0x7];
+		::UnityEngine::UI::Text* titleText; // 0x90
+		::UnityEngine::UI::Text* contentText; // 0x98
+		::UnityEngine::UI::Button* cancelButton; // 0xA0
+		::UnityEngine::UI::Button* confirmButton; // 0xA8
+		::UnityEngine::UI::Text* cancelText; // 0xB0
+		::UnityEngine::UI::Text* confirmText; // 0xB8
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x72E8);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "ConfirmWithTitle")->GetStaticField(0x53990);
 		}
+
+		static ::MiHoYo::SDK::ConfirmWithTitle** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::ConfirmWithTitle**)UnitySDK::FromName("MiHoYo.SDK", "ConfirmWithTitle")->GetStaticField(0x53998);
+		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DialogPath; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -39,23 +55,9 @@ namespace MiHoYo::SDK
 		// static const ::System::String* CancelBtnTextPath; // 0x0
 		// static const ::System::String* ConfirmBtnPath; // 0x0
 		// static const ::System::String* ConfirmBtnTextPath; // 0x0
-		::System::String* strTitleText; // 0x58
-		::System::String* strContent; // 0x60
-		::System::String* strConfirmBtnText; // 0x68
-		::System::String* strCancelBtnText; // 0x70
-		::System::Action* OnCancel; // 0x78
-		::System::Action* OnConfirm; // 0x80
-		::System::Boolean m_bAutoHide; // 0x88
-		::UnityEngine::UI::Text* titleText; // 0x90
-		::UnityEngine::UI::Text* contentText; // 0x98
-		::UnityEngine::UI::Button* cancelButton; // 0xA0
-		::UnityEngine::UI::Button* confirmButton; // 0xA8
-		::UnityEngine::UI::Text* cancelText; // 0xB0
-		::UnityEngine::UI::Text* confirmText; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRMWITHTITLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRMWITHTITLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -87,5 +89,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET))(this);
 		}
+
 	};
 }

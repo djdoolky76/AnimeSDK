@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Editor { class SkillLineAssetConfig_LineTypeState; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_EDITOR_SKILLLINEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16848CF0)
+#define RPG_EDITOR_SKILLLINEASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A28D0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillLineAssetConfig_TypeDefinitionIndex = 52324;
+	inline static constexpr unsigned int SkillLineAssetConfig_TypeDefinitionIndex = 52037;
 
 	class SkillLineAssetConfig : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* Prefab; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Editor::SkillLineAssetConfig_LineTypeState*>* LineTypeStates; // 0x18
-
+		::System::Collections::Generic::List_1<::System::Object*>* LineTypeStates; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLLINEASSETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLLINEASSETCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

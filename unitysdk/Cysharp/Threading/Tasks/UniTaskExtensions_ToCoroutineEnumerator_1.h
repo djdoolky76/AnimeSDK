@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_1_TypeDefinitionIndex = 42823;
+	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_1_TypeDefinitionIndex = 38408;
 
 	template <typename T>
 	class UniTaskExtensions_ToCoroutineEnumerator_1 : public ::System::Object

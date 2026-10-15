@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
-class Class_1_945ACFB1FEBC7A2C_17;
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+class BMDLLJPCEDN;
 namespace RPGTools::Timeline { class CharacterFullBodyChainData; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D13D830)
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_GET_CHAINS_OFFSET UNITYSDK_OFFSET(0x1D13D670)
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D13D9B0)
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1D13D9C0)
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET UNITYSDK_OFFSET(0x1D13DA20)
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13DA80)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8BE430)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BE680)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_GET_CHAINS_OFFSET UNITYSDK_OFFSET(0xE8BE270)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8BE5B0)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xE8BE5C0)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET UNITYSDK_OFFSET(0xE8BE620)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFullBodyClip_TypeDefinitionIndex = 48420;
+	inline static constexpr unsigned int CharacterFullBodyClip_TypeDefinitionIndex = 47960;
 
 	class CharacterFullBodyClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Double Start; // 0x18
 		::System::Double End; // 0x20
-		::Class_1_945ACFB1FEBC7A2C_17* Config; // 0x28
+		::BMDLLJPCEDN* Config; // 0x28
 		::System::Boolean IsInitialized; // 0x30
+		::System::Byte _padding0[0x7];
 		::RPGTools::Timeline::CharacterFullBodyChainData* LeftArm; // 0x38
 		::RPGTools::Timeline::CharacterFullBodyChainData* RightArm; // 0x40
 		::RPGTools::Timeline::CharacterFullBodyChainData* LeftLeg; // 0x48
@@ -37,10 +37,9 @@ namespace RPGTools::Timeline
 		::System::String* RightArmBoneName; // 0x60
 		::System::String* LeftLegBoneName; // 0x68
 		::System::String* RightLegBoneName; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* get_Chains()
@@ -58,14 +57,15 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDisplayName(::UnityEngine::Timeline::TimelineClip* a1, ::System::String*& a2)
+		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDisplayName(::UnityEngine::Timeline::TimelineClip* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::String*&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDuration(::UnityEngine::Timeline::TimelineClip* a1, ::System::Double& a2)
+		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDuration(::UnityEngine::Timeline::TimelineClip* a1, ::System::Double a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::Double&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::Double))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFULLBODYCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

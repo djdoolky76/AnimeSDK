@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByRogueBrokenMiracleNum; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_METHOD_3_14972FE75897DD88_OFFSET UNITYSDK_OFFSET(0x1E821C60)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_METHOD_3_B924A2468524A4D5_OFFSET UNITYSDK_OFFSET(0x1E821C20)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E821C50)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7C060)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7C070)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7C030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByRogueBrokenMiracleNum_TypeDefinitionIndex = 21526;
+	inline static constexpr unsigned int SetDynamicValueByRogueBrokenMiracleNum_TypeDefinitionIndex = 21773;
 
 	class SetDynamicValueByRogueBrokenMiracleNum : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B924A2468524A4D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_METHOD_3_B924A2468524A4D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_14972FE75897DD88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_METHOD_3_14972FE75897DD88_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRogueBrokenMiracleNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUEBROKENMIRACLENUM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

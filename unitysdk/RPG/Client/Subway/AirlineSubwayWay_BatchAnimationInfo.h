@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationInfo_TypeDefinitionIndex = 80816;
+	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationInfo_TypeDefinitionIndex = 82196;
 
 	struct alignas(8) AirlineSubwayWay_BatchAnimationInfo
 	{

@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_LAYOUTELEMENTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C296BE0)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_LAYOUTELEMENTPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xD8735A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_LayoutElementProperty_TypeDefinitionIndex = 72540;
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_LayoutElementProperty_TypeDefinitionIndex = 72614;
 
 	class MonoUILayoutElementAutoSwitch_LayoutElementProperty : public ::System::Object
 	{
 	public:
 		::System::Boolean IgnoreLayout; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single MinWidth; // 0x14
 		::System::Single MinHeight; // 0x18
 		::System::Single PreferredWidth; // 0x1C
@@ -19,10 +20,10 @@ namespace RPG::Client
 		::System::Single FlexibleWidth; // 0x24
 		::System::Single FlexibleHeight; // 0x28
 		::System::Int32 LayoutPriority; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_LAYOUTELEMENTPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_LAYOUTELEMENTPROPERTY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

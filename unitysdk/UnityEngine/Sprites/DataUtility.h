@@ -3,17 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETINNERUV_OFFSET UNITYSDK_OFFSET(0x1EE07B60)
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET UNITYSDK_OFFSET(0x1EE07C20)
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETOUTERUV_OFFSET UNITYSDK_OFFSET(0x1EE07BA0)
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1EE07BE0)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETINNERUV_OFFSET UNITYSDK_OFFSET(0x1F402790)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET UNITYSDK_OFFSET(0x1F402850)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETOUTERUV_OFFSET UNITYSDK_OFFSET(0x1F4027D0)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1F402810)
 
 namespace UnityEngine::Sprites
 {
-	inline static constexpr unsigned int DataUtility_TypeDefinitionIndex = 4418;
+	inline static constexpr unsigned int DataUtility_TypeDefinitionIndex = 4422;
 
 	class DataUtility : public ::System::Object
 	{
@@ -37,5 +36,6 @@ namespace UnityEngine::Sprites
 		{
 			return ((::UnityEngine::Vector2(*)(::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET))(a1);
 		}
+
 	};
 }

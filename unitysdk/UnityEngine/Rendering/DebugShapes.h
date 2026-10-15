@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Mesh; }
+namespace UnityEngine::Rendering { class DebugShapes; }
 
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDBOX_OFFSET UNITYSDK_OFFSET(0x1CD156E0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDCONE_OFFSET UNITYSDK_OFFSET(0x1CD164A0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDPYRAMID_OFFSET UNITYSDK_OFFSET(0x1CD172F0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDSHAPES_OFFSET UNITYSDK_OFFSET(0x1CD17AB0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDSPHERE_OFFSET UNITYSDK_OFFSET(0x1CD14BA0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CD14B20)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_REBUILDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1CD17BB0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTBOXMESH_OFFSET UNITYSDK_OFFSET(0x1CD17C60)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTCONEMESH_OFFSET UNITYSDK_OFFSET(0x1CD17CC0)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTPYRAMIDMESH_OFFSET UNITYSDK_OFFSET(0x1CD17D20)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x1CD17C00)
-#define UNITYENGINE_RENDERING_DEBUGSHAPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD14B90)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDBOX_OFFSET UNITYSDK_OFFSET(0x1F28CC80)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDCONE_OFFSET UNITYSDK_OFFSET(0x1F28DA40)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDPYRAMID_OFFSET UNITYSDK_OFFSET(0x1F28E890)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDSHAPES_OFFSET UNITYSDK_OFFSET(0x1F28F050)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDSPHERE_OFFSET UNITYSDK_OFFSET(0x1F28C140)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F28C130)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F28C0C0)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_REBUILDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1F28F150)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTBOXMESH_OFFSET UNITYSDK_OFFSET(0x1F28F200)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTCONEMESH_OFFSET UNITYSDK_OFFSET(0x1F28F260)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTPYRAMIDMESH_OFFSET UNITYSDK_OFFSET(0x1F28F2C0)
+#define UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x1F28F1A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugShapes_TypeDefinitionIndex = 34853;
+	inline static constexpr unsigned int DebugShapes_TypeDefinitionIndex = 35522;
 
 	class DebugShapes : public ::System::Object
 	{
 	public:
+		::UnityEngine::Mesh* m_coneMesh; // 0x10
+		::UnityEngine::Mesh* m_pyramidMesh; // 0x18
+		::UnityEngine::Mesh* m_boxMesh; // 0x20
+		::UnityEngine::Mesh* m_sphereMesh; // 0x28
 		static ::UnityEngine::Rendering::DebugShapes** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::Rendering::DebugShapes**)Il2CppClass::FromTypeDefinitionIndex(DebugShapes_TypeDefinitionIndex)->GetStaticField(0x60680);
+			return (::UnityEngine::Rendering::DebugShapes**)UnitySDK::FromName("UnityEngine.Rendering", "DebugShapes")->GetStaticField(0x5A4D0);
 		}
-		::UnityEngine::Mesh* m_boxMesh; // 0x10
-		::UnityEngine::Mesh* m_sphereMesh; // 0x18
-		::UnityEngine::Mesh* m_pyramidMesh; // 0x20
-		::UnityEngine::Mesh* m_coneMesh; // 0x28
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_CTOR_OFFSET))(this);
 		}
 
 		static ::UnityEngine::Rendering::DebugShapes* get_instance()
@@ -43,24 +43,24 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::DebugShapes*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Void BuildSphere(::UnityEngine::Mesh*& a1, ::System::Single a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		::System::Void BuildSphere(::UnityEngine::Mesh* a1, ::System::Single a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*&, ::System::Single, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDSPHERE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Single, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDSPHERE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void BuildBox(::UnityEngine::Mesh*& a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		::System::Void BuildBox(::UnityEngine::Mesh* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDBOX_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDBOX_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void BuildCone(::UnityEngine::Mesh*& a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Int32 a5)
+		::System::Void BuildCone(::UnityEngine::Mesh* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*&, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDCONE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDCONE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void BuildPyramid(::UnityEngine::Mesh*& a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		::System::Void BuildPyramid(::UnityEngine::Mesh* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDPYRAMID_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_BUILDPYRAMID_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void BuildShapes()
@@ -92,5 +92,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGSHAPES_REQUESTPYRAMIDMESH_OFFSET))(this);
 		}
+
 	};
 }

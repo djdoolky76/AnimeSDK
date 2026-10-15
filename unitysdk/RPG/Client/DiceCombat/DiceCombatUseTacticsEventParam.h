@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_GET_UID_OFFSET UNITYSDK_OFFSET(0x1C41DA80)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_GET_USEDCARDIDS_OFFSET UNITYSDK_OFFSET(0x1C41DAA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_SET_UID_OFFSET UNITYSDK_OFFSET(0x1C41DA90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_SET_USEDCARDIDS_OFFSET UNITYSDK_OFFSET(0x1C41DAB0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41DA70)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC30810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_GET_UID_OFFSET UNITYSDK_OFFSET(0xCC30820)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_GET_USEDCARDIDS_OFFSET UNITYSDK_OFFSET(0xCC30840)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_SET_UID_OFFSET UNITYSDK_OFFSET(0xCC30830)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_SET_USEDCARDIDS_OFFSET UNITYSDK_OFFSET(0xCC30850)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUseTacticsEventParam_TypeDefinitionIndex = 75683;
+	inline static constexpr unsigned int DiceCombatUseTacticsEventParam_TypeDefinitionIndex = 76160;
 
 	class DiceCombatUseTacticsEventParam : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _UsedCardIDs_k__BackingField; // 0x10
 		::System::UInt32 _UID_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_UID()
@@ -44,5 +42,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUSETACTICSEVENTPARAM_SET_USEDCARDIDS_OFFSET))(this, a1);
 		}
+
 	};
 }

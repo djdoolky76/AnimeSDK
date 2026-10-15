@@ -1,41 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAUtils/RendererSlotMaterials_SlotMaterial.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client::TAUtils { class RendererSlotMaterials; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B3FE420)
-#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B3FE260)
-#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B3FE680)
-#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_METHOD_1_7223CD34BEFCBF48_OFFSET UNITYSDK_OFFSET(0x1B3FE000)
-#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1B3FE1F0)
-#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FE700)
+#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_CTOR_OFFSET UNITYSDK_OFFSET(0xE18A0B0)
+#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE189DD0)
+#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_EQUALS_OFFSET UNITYSDK_OFFSET(0xE189C10)
+#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE18A030)
+#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_KPIMNCMHIFI_OFFSET UNITYSDK_OFFSET(0xE1899B0)
+#define RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_NLDLLPECLCH_OFFSET UNITYSDK_OFFSET(0xE189BA0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int RendererSlotMaterials_TypeDefinitionIndex = 73541;
+	inline static constexpr unsigned int RendererSlotMaterials_TypeDefinitionIndex = 73648;
 
 	class RendererSlotMaterials : public ::System::Object
 	{
 	public:
 		::UnityEngine::Renderer* renderer; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::TAUtils::RendererSlotMaterials_SlotMaterial>* materials; // 0x18
-
+		::System::Collections::Generic::List_1<::System::Object*>* materials; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_7223CD34BEFCBF48()
+		::System::Void KPIMNCMHIFI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_METHOD_1_7223CD34BEFCBF48_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_KPIMNCMHIFI_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_A3FAE12D7B6ACD62()
+		::System::Boolean NLDLLPECLCH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_METHOD_1_A3FAE12D7B6ACD62_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_NLDLLPECLCH_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::RPG::Client::TAUtils::RendererSlotMaterials* a1)
@@ -52,5 +51,6 @@ namespace RPG::Client::TAUtils
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_RENDERERSLOTMATERIALS_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

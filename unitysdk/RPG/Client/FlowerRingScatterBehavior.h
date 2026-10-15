@@ -2,139 +2,153 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
 namespace RPG::Client { class FlowerRingScatterMonoPlugin; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x190E2EB0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x190E1EE0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x190E1CA0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x190E2F30)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x190E1E20)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x190E1E80)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x190E2F70)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x190E1DC0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET UNITYSDK_OFFSET(0x190E1530)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x190E14A0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_E2BCD1B56132A826_OFFSET UNITYSDK_OFFSET(0x190E15A0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x190E2FE0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x190E2FD0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xD040EB0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xD03FC90)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD040EA0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xD040D80)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xD03FCF0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD03F3C0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xD03FDB0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xD03FB90)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xD040E40)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xD03FD50)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xD03F4C0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xD03F450)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xD040E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlowerRingScatterBehavior_TypeDefinitionIndex = 70569;
+	inline static constexpr unsigned int FlowerRingScatterBehavior_TypeDefinitionIndex = 70605;
 
 	class FlowerRingScatterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__DissolveProgress()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8260);
-		}
-		static ::System::Int32* StaticGet__ParticleRotationMax()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8264);
-		}
-		static ::System::Int32* StaticGet__GrowRandomSpeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8268);
-		}
-		static ::System::Int32* StaticGet__DissolveTexture()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x826C);
-		}
-		static ::System::Int32* StaticGet__GrowProgress()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8270);
-		}
-		static ::System::Int32* StaticGet__RandomSeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8274);
-		}
-		static ::System::Int32* StaticGet__ParticleRotationMin()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8278);
-		}
-		static ::System::Int32* StaticGet__RandomColor1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x827C);
-		}
-		static ::System::Int32* StaticGet__DissolveTile()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8280);
-		}
-		static ::System::Int32* StaticGet_ParticleSizeMax()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8284);
-		}
-		static ::System::Int32* StaticGet_ParticleSizeMin()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8288);
-		}
-		static ::System::Int32* StaticGet__RandomColor0()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x828C);
-		}
-		static ::System::Int32* StaticGet__RingThickness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8290);
-		}
-		static ::System::Int32* StaticGet__RingRadius()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8294);
-		}
-		static ::System::Int32* StaticGet__Center()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x8298);
-		}
-		static ::System::Int32* StaticGet__DissolveSmoothness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x829C);
-		}
 		::Il2CppArray<::System::UInt32>* IndirectDrawArgs; // 0x38
 		::UnityEngine::ComputeBuffer* IndirectDrawArgsBuffer; // 0x40
 		::UnityEngine::Bounds _Bounds; // 0x48
 		::UnityEngine::MaterialPropertyBlock* _MPB; // 0x60
+		static ::System::Int32* StaticGet__RingRadius()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14560);
+		}
+
+		static ::System::Int32* StaticGet__Center()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14564);
+		}
+
+		static ::System::Int32* StaticGet__RandomColor0()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14568);
+		}
+
+		static ::System::Int32* StaticGet__ParticleRotationMin()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x1456C);
+		}
+
+		static ::System::Int32* StaticGet__ParticleRotationMax()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14570);
+		}
+
+		static ::System::Int32* StaticGet__RandomColor1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14574);
+		}
+
+		static ::System::Int32* StaticGet__GrowRandomSpeed()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14578);
+		}
+
+		static ::System::Int32* StaticGet__RandomSeed()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x1457C);
+		}
+
+		static ::System::Int32* StaticGet__DissolveTexture()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14580);
+		}
+
+		static ::System::Int32* StaticGet__RingThickness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14584);
+		}
+
+		static ::System::Int32* StaticGet_ParticleSizeMax()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14588);
+		}
+
+		static ::System::Int32* StaticGet_ParticleSizeMin()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x1458C);
+		}
+
+		static ::System::Int32* StaticGet__DissolveProgress()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14590);
+		}
+
+		static ::System::Int32* StaticGet__GrowProgress()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14594);
+		}
+
+		static ::System::Int32* StaticGet__DissolveSmoothness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x14598);
+		}
+
+		static ::System::Int32* StaticGet__DissolveTile()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "FlowerRingScatterBehavior")->GetStaticField(0x1459C);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_9681042564541CD6()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_90A07D9BC1B409B9()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
 		}
 
-		::System::Void Method_3_151E25A63D14DDB0()
+		::System::Void MFCDKJIHDEH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_151E25A63D14DDB0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_MFCDKJIHDEH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF()
+		::System::Void CGEJMGFOLMP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_CGEJMGFOLMP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_1()
+		::System::Void JPKHCNDFAEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_JPKHCNDFAEL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_2()
+		::System::Void OIBPOPCFDHA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_OIBPOPCFDHA_OFFSET))(this);
 		}
 
 		::System::Void LateTick(::System::Single a1)
@@ -142,24 +156,25 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_LATETICK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_391A84BCD9F51317()
+		::System::Boolean POOKPLGCKFE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_POOKPLGCKFE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_3()
+		::System::Void NEKGALPLEOH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_NEKGALPLEOH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_E2BCD1B56132A826()
+		::System::Void OINBDMGFFJL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_E2BCD1B56132A826_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_OINBDMGFFJL_OFFSET))(this);
 		}
 
 		::RPG::Client::FlowerRingScatterMonoPlugin* get__Owner()
 		{
 			return ((::RPG::Client::FlowerRingScatterMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_GET__OWNER_OFFSET))(this);
 		}
+
 	};
 }

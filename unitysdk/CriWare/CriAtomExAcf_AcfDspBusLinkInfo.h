@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExAcf_AcfDspBusLinkType.h"
-#include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPBUSLINKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3BAF080)
+#define CRIWARE_CRIATOMEXACF_ACFDSPBUSLINKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8ABB0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkInfo_TypeDefinitionIndex = 38732;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkInfo_TypeDefinitionIndex = 40029;
 
 	struct alignas(4) CriAtomExAcf_AcfDspBusLinkInfo
 	{
@@ -15,10 +14,10 @@ namespace CriWare
 		::System::Single sendLevel; // 0x14
 		::System::UInt16 busNo; // 0x18
 		::System::UInt16 busId; // 0x1A
-
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPBUSLINKINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPBUSLINKINFO_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

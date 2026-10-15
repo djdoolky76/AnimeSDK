@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_RANDOMPLAYANIMATION_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x1B645570)
-#define RPG_CLIENT_RANDOMPLAYANIMATION_START_OFFSET UNITYSDK_OFFSET(0x1B6453F0)
-#define RPG_CLIENT_RANDOMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B645600)
+#define RPG_CLIENT_RANDOMPLAYANIMATION_CBHOJFMADLO_OFFSET UNITYSDK_OFFSET(0xDE488B0)
+#define RPG_CLIENT_RANDOMPLAYANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0xDE48940)
+#define RPG_CLIENT_RANDOMPLAYANIMATION_START_OFFSET UNITYSDK_OFFSET(0xDE48730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomPlayAnimation_TypeDefinitionIndex = 68778;
+	inline static constexpr unsigned int RandomPlayAnimation_TypeDefinitionIndex = 68812;
 
 	class RandomPlayAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x18
 		::Il2CppArray<::UnityEngine::AnimationClip*>* LFIEIDOKAJD; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMPLAYANIMATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMPLAYANIMATION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -30,9 +28,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMPLAYANIMATION_START_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_5_627C7524E98F4AC5()
+		::System::Collections::IEnumerator* CBHOJFMADLO()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMPLAYANIMATION_METHOD_5_627C7524E98F4AC5_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMPLAYANIMATION_CBHOJFMADLO_OFFSET))(this);
 		}
+
 	};
 }

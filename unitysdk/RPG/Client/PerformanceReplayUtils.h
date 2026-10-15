@@ -2,63 +2,69 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class IMessage; }
 namespace Proto { class PerformanceStartSnapshot; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0x18653C90)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0x186544E0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0x18653B00)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0x18653800)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x186538B0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0x18654010)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18654860)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0xDA9B790)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0xDA9C040)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA9C3F0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0xDA9B600)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0xDA9B300)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDA9B3B0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0xDA9BB40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 62294;
+	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 62211;
 
 	class PerformanceReplayUtils : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet__DefaultAESKey()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x59580);
-		}
-		static ::System::String** StaticGet_JsonExtension()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x59588);
-		}
-		static ::System::String** StaticGet_PerformanceLogPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x59590);
-		}
-		static ::System::String** StaticGet_PerformanceSnapshotOutputPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x59598);
-		}
-		static ::System::String** StaticGet_ByteExtension()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x595A0);
-		}
 		static ::System::String** StaticGet__DefaultAESIV()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x595A8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14300);
 		}
+
+		static ::System::String** StaticGet_PerformanceSnapshotOutputPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14308);
+		}
+
+		static ::System::String** StaticGet_JsonExtension()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14310);
+		}
+
+		static ::System::String** StaticGet_PerformanceLogPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14318);
+		}
+
+		static ::System::String** StaticGet_ByteExtension()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14320);
+		}
+
+		static ::System::String** StaticGet__DefaultAESKey()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14328);
+		}
+
 		static ::System::String** StaticGet_PacketLogFilePath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x595B0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14330);
 		}
+
 		static ::System::String** StaticGet_PerformanceSnapshotLoadPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x595B8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x14338);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_CCTOR_OFFSET))();
 		}
 
 		static ::Proto::PerformanceStartSnapshot* LoadPerformanceStartSnapshotWithBackup(::System::UInt32 a1, ::RPG::GameCore::ELevelPerformanceType a2, ::System::UInt32 a3, ::RPG::GameCore::ELevelPerformanceType a4)
@@ -90,5 +96,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

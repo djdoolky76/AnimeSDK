@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC55010)
-#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC55040)
-#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC54AC0)
-#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC54FA0)
+#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16726390)
+#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x16726320)
+#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x167263C0)
+#define CRIWARE_CRIWAREERRORHANDLER_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x16725E40)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareErrorHandler_Callback_TypeDefinitionIndex = 38847;
+	inline static constexpr unsigned int CriWareErrorHandler_Callback_TypeDefinitionIndex = 40144;
 
 	class CriWareErrorHandler_Callback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_CALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_CALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_CALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

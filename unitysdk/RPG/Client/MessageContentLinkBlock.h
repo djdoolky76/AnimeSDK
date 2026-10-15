@@ -3,33 +3,32 @@
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 #include "unitysdk/RPG/Client/TextID.h"
-
+namespace RPG::Client { class MessageContentBlock; }
 namespace RPG::GameCore { class MessageLinkRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B23B670)
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0x1B23B720)
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1B23B710)
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1B23B6F0)
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1B23B700)
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B23B4F0)
-#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23B540)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD697CA0)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD697DD0)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0xD697E80)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xD697E70)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xD697E50)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xD697E60)
+#define RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD697C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentLinkBlock_TypeDefinitionIndex = 63314;
+	inline static constexpr unsigned int MessageContentLinkBlock_TypeDefinitionIndex = 63249;
 
 	class MessageContentLinkBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
-		::System::String* _ImagePath_k__BackingField; // 0x18
-		::RPG::GameCore::MessageLinkRow* _LinkConfig; // 0x20
-		::System::UInt32 _ItemID_k__BackingField; // 0x28
-		::RPG::Client::TextID _Title_k__BackingField; // 0x30
-
+		::RPG::GameCore::MessageLinkRow* _LinkConfig; // 0x18
+		::System::String* _ImagePath_k__BackingField; // 0x20
+		::RPG::Client::TextID _Title_k__BackingField; // 0x28
+		::System::UInt32 _ItemID_k__BackingField; // 0x38
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLINKBLOCK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLINKBLOCK_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -61,5 +60,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLINKBLOCK_GET_CLOSED_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitFixedDeltaSecond; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITFIXEDDELTASECOND_METHOD_3_255B3173F77312BA_OFFSET UNITYSDK_OFFSET(0x1DEB7E80)
-#define RPG_GAMECORE_WAITFIXEDDELTASECOND_METHOD_3_4352EE957669F917_OFFSET UNITYSDK_OFFSET(0x1DEB7DB0)
-#define RPG_GAMECORE_WAITFIXEDDELTASECOND__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB7E70)
+#define RPG_GAMECORE_WAITFIXEDDELTASECOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6A600)
+#define RPG_GAMECORE_WAITFIXEDDELTASECOND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6A610)
+#define RPG_GAMECORE_WAITFIXEDDELTASECOND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6A540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFixedDeltaSecond_TypeDefinitionIndex = 23512;
+	inline static constexpr unsigned int WaitFixedDeltaSecond_TypeDefinitionIndex = 23786;
 
 	class WaitFixedDeltaSecond : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIXEDDELTASECOND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIXEDDELTASECOND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4352EE957669F917(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFixedDeltaSecond*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitFixedDeltaSecond* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFixedDeltaSecond*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIXEDDELTASECOND_METHOD_3_4352EE957669F917_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitFixedDeltaSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIXEDDELTASECOND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_255B3173F77312BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFixedDeltaSecond* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitFixedDeltaSecond* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFixedDeltaSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIXEDDELTASECOND_METHOD_3_255B3173F77312BA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitFixedDeltaSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIXEDDELTASECOND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

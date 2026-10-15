@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7DFEA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7DFF30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7D3910)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DFE30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F622AC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_CTOR_OFFSET UNITYSDK_OFFSET(0x1F622A50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F622B50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F615DB0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_copyToColor32_TypeDefinitionIndex = 38106;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_copyToColor32_TypeDefinitionIndex = 39403;
 
 	class BrowserNative_Calltype_zfb_copyToColor32 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32 a3)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_COPYTOCOLOR32_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

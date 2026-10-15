@@ -2,39 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceManager.h"
 #include "unitysdk/XInputDotNetPure/GamePadState.h"
-
 namespace InControl::Internal { template <typename T> class RingBuffer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Threading { class Thread; }
 
-#define INCONTROL_XINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET UNITYSDK_OFFSET(0xC15FAD0)
-#define INCONTROL_XINPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0xC15FA70)
-#define INCONTROL_XINPUTDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0xC15FBF0)
-#define INCONTROL_XINPUTDEVICEMANAGER_GETSTATE_OFFSET UNITYSDK_OFFSET(0xC15E410)
-#define INCONTROL_XINPUTDEVICEMANAGER_STARTWORKER_OFFSET UNITYSDK_OFFSET(0xC15EA70)
-#define INCONTROL_XINPUTDEVICEMANAGER_STOPWORKER_OFFSET UNITYSDK_OFFSET(0xC15ED70)
-#define INCONTROL_XINPUTDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC15EB40)
-#define INCONTROL_XINPUTDEVICEMANAGER_WORKER_OFFSET UNITYSDK_OFFSET(0xC15EDD0)
-#define INCONTROL_XINPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC15E4B0)
+#define INCONTROL_XINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET UNITYSDK_OFFSET(0x1BB3FDB0)
+#define INCONTROL_XINPUTDEVICEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3E790)
+#define INCONTROL_XINPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x1BB3FD50)
+#define INCONTROL_XINPUTDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x1BB3FED0)
+#define INCONTROL_XINPUTDEVICEMANAGER_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1BB3E6F0)
+#define INCONTROL_XINPUTDEVICEMANAGER_STARTWORKER_OFFSET UNITYSDK_OFFSET(0x1BB3ED50)
+#define INCONTROL_XINPUTDEVICEMANAGER_STOPWORKER_OFFSET UNITYSDK_OFFSET(0x1BB3F050)
+#define INCONTROL_XINPUTDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB3EE20)
+#define INCONTROL_XINPUTDEVICEMANAGER_WORKER_OFFSET UNITYSDK_OFFSET(0x1BB3F0B0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int XInputDeviceManager_TypeDefinitionIndex = 39623;
+	inline static constexpr unsigned int XInputDeviceManager_TypeDefinitionIndex = 40920;
 
 	class XInputDeviceManager : public ::InControl::InputDeviceManager
 	{
 	public:
-		// static const ::System::Int32 maxDevices = 0x4; // 0x0
 		::Il2CppArray<::InControl::Internal::RingBuffer_1<::XInputDotNetPure::GamePadState>*>* gamePadState; // 0x18
 		::Il2CppArray<::System::Boolean>* deviceConnected; // 0x20
 		::System::Threading::Thread* thread; // 0x28
 		::System::Int32 timeStep; // 0x30
 		::System::Int32 bufferSize; // 0x34
-
+		// static const ::System::Object maxDevices; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void StartWorker()
@@ -76,5 +74,6 @@ namespace InControl
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICEMANAGER_ENABLE_OFFSET))();
 		}
+
 	};
 }

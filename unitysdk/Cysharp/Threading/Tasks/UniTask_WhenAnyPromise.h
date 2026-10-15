@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
+namespace Cysharp::Threading::Tasks { class UniTask_WhenAnyPromise; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE13100)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE12F30)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE12FE0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CE13090)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_TRYINVOKECONTINUATION_OFFSET UNITYSDK_OFFSET(0x1CE12DF0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE130B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0A9A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F116840)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F11EFE0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F11EE10)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11EEC0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F11EF70)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_TRYINVOKECONTINUATION_OFFSET UNITYSDK_OFFSET(0x1F11ECD0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11EF90)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAnyPromise_TypeDefinitionIndex = 42745;
+	inline static constexpr unsigned int UniTask_WhenAnyPromise_TypeDefinitionIndex = 38330;
 
 	class UniTask_WhenAnyPromise : public ::System::Object
 	{
 	public:
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Int32> core; // 0x10
+		::System::Byte _padding0[0x20];
 		::System::Int32 completedCount; // 0x38
-
 		::System::Void _ctor(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void TryInvokeContinuation(::Cysharp::Threading::Tasks::UniTask_WhenAnyPromise* a1, ::Cysharp::Threading::Tasks::UniTask_Awaiter& a2, ::System::Int32 a3)
+		static ::System::Void TryInvokeContinuation(::Cysharp::Threading::Tasks::UniTask_WhenAnyPromise* a1, ::Cysharp::Threading::Tasks::UniTask_Awaiter a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::Cysharp::Threading::Tasks::UniTask_WhenAnyPromise*, ::Cysharp::Threading::Tasks::UniTask_Awaiter&, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_TRYINVOKECONTINUATION_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::Cysharp::Threading::Tasks::UniTask_WhenAnyPromise*, ::Cysharp::Threading::Tasks::UniTask_Awaiter, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_TRYINVOKECONTINUATION_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Int32 GetResult(::System::Int16 a1)
@@ -60,5 +61,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET))(this, a1);
 		}
+
 	};
 }

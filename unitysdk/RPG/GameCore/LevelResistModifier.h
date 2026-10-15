@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelResistModifier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2AA70)
-#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2AA20)
-#define RPG_GAMECORE_LEVELRESISTMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0x1DD2A9B0)
-#define RPG_GAMECORE_LEVELRESISTMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2AAC0)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EA390)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EA340)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EA2F0)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE6EA280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelResistModifier_TypeDefinitionIndex = 56956;
+	inline static constexpr unsigned int LevelResistModifier_TypeDefinitionIndex = 56777;
 
-	class LevelResistModifier : public ::Class_1_BF7A075734D15E98
+	class LevelResistModifier : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::System::String* ModifierName; // 0x18
 		::RPG::GameCore::GameEntity* Taker; // 0x20
-		::System::String* ModifierName; // 0x28
-
+		::RPG::GameCore::GameEntity* Caster; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELRESISTMODIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELRESISTMODIFIER_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelResistModifier* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::System::String* a3)
@@ -41,5 +40,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELRESISTMODIFIER_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

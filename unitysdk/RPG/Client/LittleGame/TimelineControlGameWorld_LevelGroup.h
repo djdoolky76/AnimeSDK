@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/ETimelineControlGameLevelRotation.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroup_TypeDefinitionIndex = 41226;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroup_TypeDefinitionIndex = 42515;
 
 	struct alignas(8) TimelineControlGameWorld_LevelGroup
 	{

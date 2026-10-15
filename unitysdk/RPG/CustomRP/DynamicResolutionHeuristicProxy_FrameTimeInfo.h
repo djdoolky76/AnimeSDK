@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_FrameTimeInfo_TypeDefinitionIndex = 37033;
+	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_FrameTimeInfo_TypeDefinitionIndex = 37718;
 
 	struct alignas(4) DynamicResolutionHeuristicProxy_FrameTimeInfo
 	{

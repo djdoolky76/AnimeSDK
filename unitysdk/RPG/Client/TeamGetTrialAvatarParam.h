@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEAMGETTRIALAVATARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A38B1A0)
+#define RPG_CLIENT_TEAMGETTRIALAVATARPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C5C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamGetTrialAvatarParam_TypeDefinitionIndex = 68121;
+	inline static constexpr unsigned int TeamGetTrialAvatarParam_TypeDefinitionIndex = 68128;
 
 	class TeamGetTrialAvatarParam : public ::System::Object
 	{
 	public:
 		::System::UInt32 AvatarID; // 0x10
 		::System::Boolean IsJoinLineup; // 0x14
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMGETTRIALAVATARPARAM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMGETTRIALAVATARPARAM_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

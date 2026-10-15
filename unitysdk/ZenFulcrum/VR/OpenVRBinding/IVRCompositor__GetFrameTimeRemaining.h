@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED53A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED53D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED5390)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED5320)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F64F920)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64F8A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F64F950)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F64F910)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__GetFrameTimeRemaining_TypeDefinitionIndex = 37728;
+	inline static constexpr unsigned int IVRCompositor__GetFrameTimeRemaining_TypeDefinitionIndex = 39025;
 
 	class IVRCompositor__GetFrameTimeRemaining : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETFRAMETIMEREMAINING_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

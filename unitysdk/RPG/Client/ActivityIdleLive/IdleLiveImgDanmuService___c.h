@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7B630EA0921A5074;
+class NLPDPEMHNOA;
+namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0F5E90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F5ED0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C___CLEARENDEDIMAGEDANMUS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C0F5EE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4DCB70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC4DCBB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C___CLEARENDEDIMAGEDANMUS_B__13_0_OFFSET UNITYSDK_OFFSET(0xC4DCBC0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveImgDanmuService___c_TypeDefinitionIndex = 75050;
+	inline static constexpr unsigned int IdleLiveImgDanmuService___c_TypeDefinitionIndex = 75350;
 
 	class IdleLiveImgDanmuService___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService___c** StaticGet___9()
+		static ::System::Predicate_1<::NLPDPEMHNOA*>** StaticGet___9__13_0()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveImgDanmuService___c_TypeDefinitionIndex)->GetStaticField(0x5A300);
+			return (::System::Predicate_1<::NLPDPEMHNOA*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x214C0);
 		}
-		static ::System::Predicate_1<::Class_1_7B630EA0921A5074*>** StaticGet___9__13_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::Class_1_7B630EA0921A5074*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveImgDanmuService___c_TypeDefinitionIndex)->GetStaticField(0x5A308);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x214C8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __ClearEndedImageDanmus_b__13_0(::Class_1_7B630EA0921A5074* a1)
+		::System::Boolean __ClearEndedImageDanmus_b__13_0(::NLPDPEMHNOA* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_7B630EA0921A5074*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C___CLEARENDEDIMAGEDANMUS_B__13_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::NLPDPEMHNOA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C___CLEARENDEDIMAGEDANMUS_B__13_0_OFFSET))(this, a1);
 		}
+
 	};
 }

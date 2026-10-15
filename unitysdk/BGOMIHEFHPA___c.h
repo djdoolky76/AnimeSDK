@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class BGOMIHEFHPA;
+namespace System { class Object; }
+
+#define BGOMIHEFHPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDC31A0)
+#define BGOMIHEFHPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC31D0)
+#define BGOMIHEFHPA___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1DDC31E0)
+
+inline static constexpr unsigned int BGOMIHEFHPA___c_TypeDefinitionIndex = 29778;
+
+	class BGOMIHEFHPA___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55CE0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BGOMIHEFHPA___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGOMIHEFHPA___C_CTOR_OFFSET))(this);
+		}
+
+		::BGOMIHEFHPA* __cctor_b__58_0()
+		{
+			return ((::BGOMIHEFHPA*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGOMIHEFHPA___C___CCTOR_B__58_0_OFFSET))(this);
+		}
+
+	};

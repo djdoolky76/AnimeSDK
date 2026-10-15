@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int GameItemOffer_ItemCandidate_TypeDefinitionIndex = 77271;
+	inline static constexpr unsigned int GameItemOffer_ItemCandidate_TypeDefinitionIndex = 77742;
 
 	struct alignas(4) GameItemOffer_ItemCandidate
 	{

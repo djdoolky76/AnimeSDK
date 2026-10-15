@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B975FE0)
-#define SYSTEM_NET_TIMERTHREAD_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975F90)
+#define SYSTEM_NET_TIMERTHREAD_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05F7D0)
+#define SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F05F820)
 
 namespace System::Net
 {
@@ -14,15 +14,15 @@ namespace System::Net
 	public:
 		::System::Int32 m_StartTimeMilliseconds; // 0x10
 		::System::Int32 m_DurationMilliseconds; // 0x14
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

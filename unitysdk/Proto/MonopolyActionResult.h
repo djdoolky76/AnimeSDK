@@ -1,85 +1,86 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0F1B992870941C13_7.h"
+#include "unitysdk/BAKAELIMIJI.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_3BB6EC85B6B7001B_1;
+class GPPKIMDCPBM;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class MonopolyActionResult; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_MONOPOLYACTIONRESULT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD477B0)
-#define PROTO_MONOPOLYACTIONRESULT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD47160)
-#define PROTO_MONOPOLYACTIONRESULT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD473C0)
-#define PROTO_MONOPOLYACTIONRESULT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD47310)
-#define PROTO_MONOPOLYACTIONRESULT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD47440)
-#define PROTO_MONOPOLYACTIONRESULT_GET_CLICKCELLID_OFFSET UNITYSDK_OFFSET(0x1DD47230)
-#define PROTO_MONOPOLYACTIONRESULT_GET_CLICKMAPID_OFFSET UNITYSDK_OFFSET(0x1DD47290)
-#define PROTO_MONOPOLYACTIONRESULT_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1DD472F0)
-#define PROTO_MONOPOLYACTIONRESULT_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD472D0)
-#define PROTO_MONOPOLYACTIONRESULT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD47050)
-#define PROTO_MONOPOLYACTIONRESULT_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1DD47270)
-#define PROTO_MONOPOLYACTIONRESULT_GET_TRIGGERCELLID_OFFSET UNITYSDK_OFFSET(0x1DD47250)
-#define PROTO_MONOPOLYACTIONRESULT_GET_TRIGGERMAPID_OFFSET UNITYSDK_OFFSET(0x1DD472B0)
-#define PROTO_MONOPOLYACTIONRESULT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD47BF0)
-#define PROTO_MONOPOLYACTIONRESULT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD47B20)
-#define PROTO_MONOPOLYACTIONRESULT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD470B0)
-#define PROTO_MONOPOLYACTIONRESULT_SET_CLICKCELLID_OFFSET UNITYSDK_OFFSET(0x1DD47240)
-#define PROTO_MONOPOLYACTIONRESULT_SET_CLICKMAPID_OFFSET UNITYSDK_OFFSET(0x1DD472A0)
-#define PROTO_MONOPOLYACTIONRESULT_SET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1DD47300)
-#define PROTO_MONOPOLYACTIONRESULT_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD472E0)
-#define PROTO_MONOPOLYACTIONRESULT_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1DD47280)
-#define PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERCELLID_OFFSET UNITYSDK_OFFSET(0x1DD47260)
-#define PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERMAPID_OFFSET UNITYSDK_OFFSET(0x1DD472C0)
-#define PROTO_MONOPOLYACTIONRESULT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD47490)
-#define PROTO_MONOPOLYACTIONRESULT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD474F0)
-#define PROTO_MONOPOLYACTIONRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD47D20)
-#define PROTO_MONOPOLYACTIONRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD470D0)
-#define PROTO_MONOPOLYACTIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD470C0)
+#define PROTO_MONOPOLYACTIONRESULT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFD8D10)
+#define PROTO_MONOPOLYACTIONRESULT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD9280)
+#define PROTO_MONOPOLYACTIONRESULT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFD86B0)
+#define PROTO_MONOPOLYACTIONRESULT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFD8620)
+#define PROTO_MONOPOLYACTIONRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD8610)
+#define PROTO_MONOPOLYACTIONRESULT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFD8910)
+#define PROTO_MONOPOLYACTIONRESULT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFD8860)
+#define PROTO_MONOPOLYACTIONRESULT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFD8990)
+#define PROTO_MONOPOLYACTIONRESULT_GET_CLICKCELLID_OFFSET UNITYSDK_OFFSET(0x1DFD87E0)
+#define PROTO_MONOPOLYACTIONRESULT_GET_CLICKMAPID_OFFSET UNITYSDK_OFFSET(0x1DFD8820)
+#define PROTO_MONOPOLYACTIONRESULT_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1DFD8840)
+#define PROTO_MONOPOLYACTIONRESULT_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1DFD8780)
+#define PROTO_MONOPOLYACTIONRESULT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFD85A0)
+#define PROTO_MONOPOLYACTIONRESULT_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1DFD8800)
+#define PROTO_MONOPOLYACTIONRESULT_GET_TRIGGERCELLID_OFFSET UNITYSDK_OFFSET(0x1DFD87C0)
+#define PROTO_MONOPOLYACTIONRESULT_GET_TRIGGERMAPID_OFFSET UNITYSDK_OFFSET(0x1DFD87A0)
+#define PROTO_MONOPOLYACTIONRESULT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFD9150)
+#define PROTO_MONOPOLYACTIONRESULT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFD9080)
+#define PROTO_MONOPOLYACTIONRESULT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFD8600)
+#define PROTO_MONOPOLYACTIONRESULT_SET_CLICKCELLID_OFFSET UNITYSDK_OFFSET(0x1DFD87F0)
+#define PROTO_MONOPOLYACTIONRESULT_SET_CLICKMAPID_OFFSET UNITYSDK_OFFSET(0x1DFD8830)
+#define PROTO_MONOPOLYACTIONRESULT_SET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1DFD8850)
+#define PROTO_MONOPOLYACTIONRESULT_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1DFD8790)
+#define PROTO_MONOPOLYACTIONRESULT_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1DFD8810)
+#define PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERCELLID_OFFSET UNITYSDK_OFFSET(0x1DFD87D0)
+#define PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERMAPID_OFFSET UNITYSDK_OFFSET(0x1DFD87B0)
+#define PROTO_MONOPOLYACTIONRESULT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD89F0)
+#define PROTO_MONOPOLYACTIONRESULT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD8A50)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MonopolyActionResult_TypeDefinitionIndex = 30517;
+	inline static constexpr unsigned int MonopolyActionResult_TypeDefinitionIndex = 31093;
 
 	class MonopolyActionResult : public ::System::Object
 	{
 	public:
+		::GPPKIMDCPBM* detail_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::System::UInt32 triggerMapId_; // 0x20
+		::System::UInt32 clickCellId_; // 0x24
+		::BAKAELIMIJI sourceType_; // 0x28
+		::System::UInt32 triggerCellId_; // 0x2C
+		::System::UInt32 effectType_; // 0x30
+		::System::UInt32 clickMapId_; // 0x34
 		static ::Google::Protobuf::MessageParser_1<::Proto::MonopolyActionResult*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::MonopolyActionResult*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyActionResult_TypeDefinitionIndex)->GetStaticField(0x348D0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::MonopolyActionResult*>**)UnitySDK::FromName("Proto", "MonopolyActionResult")->GetStaticField(0x2B5B0);
 		}
-		// static const ::System::Int32 ClickCellIdFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 TriggerCellIdFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 SourceTypeFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 ClickMapIdFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 TriggerMapIdFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 EffectTypeFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 DetailFieldNumber = 0xF; // 0x0
-		::Class_1_3BB6EC85B6B7001B_1* detail_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::System::UInt32 clickMapId_; // 0x20
-		::System::UInt32 effectType_; // 0x24
-		::System::UInt32 triggerMapId_; // 0x28
-		::System::UInt32 triggerCellId_; // 0x2C
-		::Enum_3_0F1B992870941C13_7 sourceType_; // 0x30
-		::System::UInt32 clickCellId_; // 0x34
 
+		// static const ::System::Object EffectTypeFieldNumber; // 0x0
+		// static const ::System::Object TriggerMapIdFieldNumber; // 0x0
+		// static const ::System::Object TriggerCellIdFieldNumber; // 0x0
+		// static const ::System::Object ClickCellIdFieldNumber; // 0x0
+		// static const ::System::Object SourceTypeFieldNumber; // 0x0
+		// static const ::System::Object ClickMapIdFieldNumber; // 0x0
+		// static const ::System::Object DetailFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::MonopolyActionResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::MonopolyActionResult*))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::MonopolyActionResult*))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_CCTOR_OFFSET))();
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::MonopolyActionResult*>* get_Parser()
@@ -97,44 +98,14 @@ namespace Proto
 			return ((::Proto::MonopolyActionResult*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_ClickCellId()
+		::System::UInt32 get_EffectType()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_CLICKCELLID_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_EFFECTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ClickCellId(::System::UInt32 a1)
+		::System::Void set_EffectType(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_CLICKCELLID_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_TriggerCellId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_TRIGGERCELLID_OFFSET))(this);
-		}
-
-		::System::Void set_TriggerCellId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERCELLID_OFFSET))(this, a1);
-		}
-
-		::Enum_3_0F1B992870941C13_7 get_SourceType()
-		{
-			return ((::Enum_3_0F1B992870941C13_7(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_SOURCETYPE_OFFSET))(this);
-		}
-
-		::System::Void set_SourceType(::Enum_3_0F1B992870941C13_7 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_0F1B992870941C13_7))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_SOURCETYPE_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_ClickMapId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_CLICKMAPID_OFFSET))(this);
-		}
-
-		::System::Void set_ClickMapId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_CLICKMAPID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_EFFECTTYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TriggerMapId()
@@ -147,24 +118,54 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERMAPID_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 get_EffectType()
+		::System::UInt32 get_TriggerCellId()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_EFFECTTYPE_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_TRIGGERCELLID_OFFSET))(this);
 		}
 
-		::System::Void set_EffectType(::System::UInt32 a1)
+		::System::Void set_TriggerCellId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_EFFECTTYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_TRIGGERCELLID_OFFSET))(this, a1);
 		}
 
-		::Class_1_3BB6EC85B6B7001B_1* get_Detail()
+		::System::UInt32 get_ClickCellId()
 		{
-			return ((::Class_1_3BB6EC85B6B7001B_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_DETAIL_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_CLICKCELLID_OFFSET))(this);
 		}
 
-		::System::Void set_Detail(::Class_1_3BB6EC85B6B7001B_1* a1)
+		::System::Void set_ClickCellId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3BB6EC85B6B7001B_1*))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_DETAIL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_CLICKCELLID_OFFSET))(this, a1);
+		}
+
+		::BAKAELIMIJI get_SourceType()
+		{
+			return ((::BAKAELIMIJI(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_SOURCETYPE_OFFSET))(this);
+		}
+
+		::System::Void set_SourceType(::BAKAELIMIJI a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BAKAELIMIJI))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_SOURCETYPE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ClickMapId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_CLICKMAPID_OFFSET))(this);
+		}
+
+		::System::Void set_ClickMapId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_CLICKMAPID_OFFSET))(this, a1);
+		}
+
+		::GPPKIMDCPBM* get_Detail()
+		{
+			return ((::GPPKIMDCPBM*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_GET_DETAIL_OFFSET))(this);
+		}
+
+		::System::Void set_Detail(::GPPKIMDCPBM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GPPKIMDCPBM*))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_SET_DETAIL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -206,5 +207,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_MONOPOLYACTIONRESULT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

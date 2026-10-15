@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
-
 namespace System { class AggregateException; }
 
-#define SYSTEM_THREADING_TASKS_UNOBSERVEDTASKEXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C665740)
+#define SYSTEM_THREADING_TASKS_UNOBSERVEDTASKEXCEPTIONEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12D500)
 
 namespace System::Threading::Tasks
 {
@@ -15,10 +14,10 @@ namespace System::Threading::Tasks
 	public:
 		::System::AggregateException* m_exception; // 0x10
 		::System::Boolean m_observed; // 0x18
-
 		::System::Void _ctor(::System::AggregateException* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AggregateException*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_UNOBSERVEDTASKEXCEPTIONEVENTARGS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::AggregateException*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_UNOBSERVEDTASKEXCEPTIONEVENTARGS_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

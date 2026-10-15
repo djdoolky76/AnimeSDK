@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
-
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB17D40)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC9360)
 
 namespace System::ComponentModel
 {
@@ -14,10 +13,10 @@ namespace System::ComponentModel
 	{
 	public:
 		::System::Type* typeChanged; // 0x10
-
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

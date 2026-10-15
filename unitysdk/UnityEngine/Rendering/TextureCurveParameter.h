@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
-
 namespace UnityEngine::Rendering { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1DE260D0)
-#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE25F80)
+#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F29D030)
+#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F29D180)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 34942;
+	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 35611;
 
-	class TextureCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Rendering::TextureCurve*>
+	class TextureCurveParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::TextureCurve* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::TextureCurve*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::TextureCurve*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Release()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET))(this);
 		}
+
 	};
 }

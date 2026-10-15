@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class TimeRewindParterrePuzzleContainerConfig; }
 
-#define RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17B1AB90)
+#define RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBF4A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TimeRewindParterrePuzzleConfig_TypeDefinitionIndex = 78434;
+	inline static constexpr unsigned int TimeRewindParterrePuzzleConfig_TypeDefinitionIndex = 78905;
 
 	class TimeRewindParterrePuzzleConfig : public ::System::Object
 	{
 	public:
 		::System::UInt32 ParterreID; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::Client::Prop::TimeRewindParterrePuzzleContainerConfig*>* ContainerConfigs; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

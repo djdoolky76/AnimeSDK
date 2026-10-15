@@ -1,18 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class Object; }
-namespace System { class String; }
-namespace System::Collections { class IComparer; }
-namespace System::Collections { class IEqualityComparer; }
 
 namespace System
 {
 	inline static constexpr unsigned int ValueTuple_6_TypeDefinitionIndex = 133;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-	struct ValueTuple_6
+	struct alignas(8) ValueTuple_6
 	{
 		T1 Item1; // 0x0
 		T2 Item2; // 0x0

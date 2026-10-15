@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class RogueTournAreaGroupData; }
 
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISGUIDE_OFFSET UNITYSDK_OFFSET(0x1AEED0D0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISREGULAR_OFFSET UNITYSDK_OFFSET(0x1AEED810)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET UNITYSDK_OFFSET(0x1AEEDDC0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISGUIDE_OFFSET UNITYSDK_OFFSET(0xDF6F050)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISREGULAR_OFFSET UNITYSDK_OFFSET(0xDF6F790)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET UNITYSDK_OFFSET(0xDF6FD40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAreaGroupDataExt_TypeDefinitionIndex = 67497;
+	inline static constexpr unsigned int RogueTournAreaGroupDataExt_TypeDefinitionIndex = 67499;
 
 	class RogueTournAreaGroupDataExt : public ::System::Object
 	{
@@ -29,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET))(a1);
 		}
+
 	};
 }

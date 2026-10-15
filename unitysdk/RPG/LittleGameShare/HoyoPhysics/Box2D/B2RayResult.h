@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RayResult_TypeDefinitionIndex = 36049;
+	inline static constexpr unsigned int B2RayResult_TypeDefinitionIndex = 36736;
 
-	struct alignas(8) B2RayResult
+	struct alignas(4) B2RayResult
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId shapeId; // 0x10
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 point; // 0x28

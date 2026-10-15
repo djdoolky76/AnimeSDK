@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightPlacementType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightGridData; }
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1BA431C0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA42DA0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1BA435B0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_CTOR_OFFSET UNITYSDK_OFFSET(0xD18AA40)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD18AE60)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET UNITYSDK_OFFSET(0xD18B250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_ForgeConstrait_TypeDefinitionIndex = 64910;
+	inline static constexpr unsigned int GridFightGridOperationValidator_ForgeConstrait_TypeDefinitionIndex = 64850;
 
 	class GridFightGridOperationValidator_ForgeConstrait : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Validate(::RPG::Client::GridFightGridData* a1, ::RPG::Client::GridFightGridData* a2, ::RPG::Client::GridFightGridMoveValidateResult* a3)
@@ -31,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightPlacementType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET))(this, a1);
 		}
+
 	};
 }

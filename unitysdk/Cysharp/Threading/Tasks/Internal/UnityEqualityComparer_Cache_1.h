@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int UnityEqualityComparer_Cache_1_TypeDefinitionIndex = 43090;
+	inline static constexpr unsigned int UnityEqualityComparer_Cache_1_TypeDefinitionIndex = 38675;
 
 	template <typename T>
 	class UnityEqualityComparer_Cache_1 : public ::System::Object
@@ -14,7 +13,8 @@ namespace Cysharp::Threading::Tasks::Internal
 	public:
 		static ::System::Collections::Generic::IEqualityComparer_1<T>** StaticGet_Comparer()
 		{
-			return (::System::Collections::Generic::IEqualityComparer_1<T>**)Il2CppClass::FromTypeDefinitionIndex(UnityEqualityComparer_Cache_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Collections::Generic::IEqualityComparer_1<T>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "Cache`1")->GetStaticField(0x0);
 		}
+
 	};
 }

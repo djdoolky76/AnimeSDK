@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/RPG/Client/TextID.h"
+class FBECENEMLNO;
+namespace RPG::Client::MechCraft::View { class MechCraftTalentActorControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD65CED0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD65C7B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_KANMCJHEFJJ_1_OFFSET UNITYSDK_OFFSET(0xD65C9A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xD65C890)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_SETDISPLAYOVERRIDE_OFFSET UNITYSDK_OFFSET(0xD65C910)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD65C7F0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftTalentActorControl_TypeDefinitionIndex = 80061;
+
+	class MechCraftTalentActorControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::FBECENEMLNO* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftTalentActorControlBinder* _Binder; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_CTOR_OFFSET))(this);
+		}
+
+		::FBECENEMLNO* get_Content()
+		{
+			return ((::FBECENEMLNO*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::FBECENEMLNO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FBECENEMLNO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void SetDisplayOverride(::RPG::Client::TextID a1, ::RPG::Client::TextID a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_SETDISPLAYOVERRIDE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void KANMCJHEFJJ(::FBECENEMLNO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FBECENEMLNO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_KANMCJHEFJJ_OFFSET))(this, a1);
+		}
+
+		::System::Void KANMCJHEFJJ_1(::FBECENEMLNO* a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::FBECENEMLNO*, ::RPG::Client::TextID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTACTORCONTROL_KANMCJHEFJJ_1_OFFSET))(this, a1, a2, a3);
+		}
+
+	};
+}

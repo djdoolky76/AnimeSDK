@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
-
 namespace RPG::Client { class NoviceQuestSingleData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_GETSORTEDDATAS_OFFSET UNITYSDK_OFFSET(0x191C56F0)
-#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_REFRESHDATAS_OFFSET UNITYSDK_OFFSET(0x191C5290)
-#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0x191C54D0)
-#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191C5240)
+#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D1D50)
+#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_GETSORTEDDATAS_OFFSET UNITYSDK_OFFSET(0xD9D2200)
+#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_REFRESHDATAS_OFFSET UNITYSDK_OFFSET(0xD9D1DA0)
+#define RPG_CLIENT_NOVICEQUESTACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xD9D1FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NoviceQuestActivityData_TypeDefinitionIndex = 61737;
+	inline static constexpr unsigned int NoviceQuestActivityData_TypeDefinitionIndex = 61646;
 
 	class NoviceQuestActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::NoviceQuestSingleData*>* _PromotionDatas; // 0xA0
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOVICEQUESTACTIVITYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOVICEQUESTACTIVITYDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshDatas()
@@ -38,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::NoviceQuestSingleData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOVICEQUESTACTIVITYDATA_GETSORTEDDATAS_OFFSET))(this);
 		}
+
 	};
 }

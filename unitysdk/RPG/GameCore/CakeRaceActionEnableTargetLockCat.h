@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceActionBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRaceActionEnableTargetLockCat; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_METHOD_3_8607F494FE2FBD57_OFFSET UNITYSDK_OFFSET(0x1CDD3A50)
-#define RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_METHOD_3_B6A0662F6CC0AD23_OFFSET UNITYSDK_OFFSET(0x1CDD3AB0)
-#define RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD3AA0)
+#define RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51B410)
+#define RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51B420)
+#define RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51B3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceActionEnableTargetLockCat_TypeDefinitionIndex = 18140;
+	inline static constexpr unsigned int CakeRaceActionEnableTargetLockCat_TypeDefinitionIndex = 18355;
 
 	class CakeRaceActionEnableTargetLockCat : public ::RPG::GameCore::CakeRaceActionBase
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::System::UInt32 LostExtendRange; // 0x18
 		::System::UInt32 LockYDistance; // 0x1C
 		::System::UInt32 LostYExtendDistance; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8607F494FE2FBD57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_METHOD_3_8607F494FE2FBD57_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B6A0662F6CC0AD23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_METHOD_3_B6A0662F6CC0AD23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEACTIONENABLETARGETLOCKCAT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

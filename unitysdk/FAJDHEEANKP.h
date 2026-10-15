@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::Client { class ParkourSetCountDownAnimSpeed; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define FAJDHEEANKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15675690)
+#define FAJDHEEANKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156756C0)
+
+inline static constexpr unsigned int FAJDHEEANKP_TypeDefinitionIndex = 53057;
+
+	class FAJDHEEANKP
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::ParkourSetCountDownAnimSpeed* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::Client::ParkourSetCountDownAnimSpeed*))((::PBYTE)hIl2Cpp + FAJDHEEANKP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAJDHEEANKP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

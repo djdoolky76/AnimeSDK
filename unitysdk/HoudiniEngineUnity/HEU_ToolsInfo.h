@@ -4,15 +4,15 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_ToolsInfo_PaintMeshVisibility.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
+namespace HoudiniEngineUnity { class HEU_ToolsInfo; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B164BB0)
-#define HOUDINIENGINEUNITY_HEU_TOOLSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B165100)
+#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B979730)
+#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9791E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ToolsInfo_TypeDefinitionIndex = 39469;
+	inline static constexpr unsigned int HEU_ToolsInfo_TypeDefinitionIndex = 40766;
 
 	class HEU_ToolsInfo : public ::UnityEngine::ScriptableObject
 	{
@@ -30,23 +30,26 @@ namespace HoudiniEngineUnity
 		::UnityEngine::Color _affectedAreaPaintColor; // 0x60
 		::System::Boolean _liveUpdate; // 0x70
 		::System::Boolean _isPainting; // 0x71
+		::System::Byte _padding0[0x2];
 		::System::Single _editPointBoxSize; // 0x74
 		::UnityEngine::Color _editPointBoxUnselectedColor; // 0x78
 		::UnityEngine::Color _editPointBoxSelectedColor; // 0x88
 		::System::Boolean _recacheRequired; // 0x98
+		::System::Byte _padding1[0x3];
 		::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode _paintMergeMode; // 0x9C
 		::System::Boolean _showOnlyEditGeometry; // 0xA0
 		::System::Boolean _alwaysCookUpstream; // 0xA1
+		::System::Byte _padding2[0x2];
 		::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility _paintMeshVisiblity; // 0xA4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TOOLSINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TOOLSINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_ToolsInfo*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TOOLSINFO_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

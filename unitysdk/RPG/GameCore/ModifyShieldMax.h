@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/RPG/GameCore/ShieldModifyFormulaType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class ModifyShieldMax; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSHIELDMAX_METHOD_3_ACB3399971D03EEB_OFFSET UNITYSDK_OFFSET(0x1D1BDC00)
-#define RPG_GAMECORE_MODIFYSHIELDMAX_METHOD_3_C8EA0477A84B9069_OFFSET UNITYSDK_OFFSET(0x1D1BDBB0)
-#define RPG_GAMECORE_MODIFYSHIELDMAX__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BDBF0)
+#define RPG_GAMECORE_MODIFYSHIELDMAX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86BC90)
+#define RPG_GAMECORE_MODIFYSHIELDMAX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86BCA0)
+#define RPG_GAMECORE_MODIFYSHIELDMAX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86BC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyShieldMax_TypeDefinitionIndex = 22860;
+	inline static constexpr unsigned int ModifyShieldMax_TypeDefinitionIndex = 23119;
 
 	class ModifyShieldMax : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,20 +26,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::PropertyModifyFunction ModifyOp; // 0x30
 		::RPG::GameCore::ShieldModifyFormulaType FormulaType; // 0x34
 		::RPG::GameCore::DynamicFloat* FormulaValue; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDMAX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDMAX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C8EA0477A84B9069(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShieldMax*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyShieldMax* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyShieldMax*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDMAX_METHOD_3_C8EA0477A84B9069_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyShieldMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDMAX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ACB3399971D03EEB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShieldMax* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyShieldMax* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyShieldMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDMAX_METHOD_3_ACB3399971D03EEB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyShieldMax*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDMAX_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

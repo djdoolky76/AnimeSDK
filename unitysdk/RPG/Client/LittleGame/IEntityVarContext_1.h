@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Entitas { template <typename T> class IMatcher_1; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEntityVarContext_1_TypeDefinitionIndex = 40665;
+	inline static constexpr unsigned int IEntityVarContext_1_TypeDefinitionIndex = 42750;
 
-	template <typename TEntity>
+	template <typename T>
 	class IEntityVarContext_1
 	{
 	public:

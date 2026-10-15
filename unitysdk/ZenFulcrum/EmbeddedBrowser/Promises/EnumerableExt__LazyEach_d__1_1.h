@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Action_1; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace ZenFulcrum::EmbeddedBrowser::Promises
 {
-	inline static constexpr unsigned int EnumerableExt__LazyEach_d__1_1_TypeDefinitionIndex = 38287;
+	inline static constexpr unsigned int EnumerableExt__LazyEach_d__1_1_TypeDefinitionIndex = 39584;
 
 	template <typename T>
 	class EnumerableExt__LazyEach_d__1_1 : public ::System::Object

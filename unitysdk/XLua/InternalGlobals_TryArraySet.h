@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class Type; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12B1FD10)
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12B1FDC0)
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B1FCC0)
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET__CTOR_OFFSET UNITYSDK_OFFSET(0x12B1FBD0)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA20C0)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA1F80)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA2170)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA2070)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals_TryArraySet_TypeDefinitionIndex = 50468;
+	inline static constexpr unsigned int InternalGlobals_TryArraySet_TypeDefinitionIndex = 50097;
 
 	class InternalGlobals_TryArraySet : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::Type* a1, ::System::IntPtr a2, ::XLua::ObjectTranslator* a3, ::System::Object* a4, ::System::Int32 a5, ::System::Int32 a6)
@@ -39,5 +38,6 @@ namespace XLua
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

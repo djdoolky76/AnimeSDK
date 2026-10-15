@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareCurrentModifierStatusType; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_0BA604B637879A0A_OFFSET UNITYSDK_OFFSET(0x1C311DD0)
-#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_10A7E00360129B2D_OFFSET UNITYSDK_OFFSET(0x1C311E00)
-#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_4B3F51E7B3B0ED1E_OFFSET UNITYSDK_OFFSET(0x1C311C50)
-#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_8BAD87B37D9BB86F_OFFSET UNITYSDK_OFFSET(0x1C311C10)
-#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C311C40)
+#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D476B40)
+#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D476D00)
+#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D476CD0)
+#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D476B50)
+#define RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D476B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareCurrentModifierStatusType_TypeDefinitionIndex = 23259;
+	inline static constexpr unsigned int ByCompareCurrentModifierStatusType_TypeDefinitionIndex = 23525;
 
 	class ByCompareCurrentModifierStatusType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::EnumStatusType TargetStatusType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8BAD87B37D9BB86F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_8BAD87B37D9BB86F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4B3F51E7B3B0ED1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_4B3F51E7B3B0ED1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0BA604B637879A0A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_0BA604B637879A0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_10A7E00360129B2D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentModifierStatusType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_METHOD_4_10A7E00360129B2D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentModifierStatusType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTMODIFIERSTATUSTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

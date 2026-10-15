@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7F9F0)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7FA20)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7BF50)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7F900)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF36F0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3600)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3720)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEFCA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_OnWebViewPageClose_TypeDefinitionIndex = 7774;
+	inline static constexpr unsigned int WebDelegate_OnWebViewPageClose_TypeDefinitionIndex = 7818;
 
 	class WebDelegate_OnWebViewPageClose : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWPAGECLOSE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

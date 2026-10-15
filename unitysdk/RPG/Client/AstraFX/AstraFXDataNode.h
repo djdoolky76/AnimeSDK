@@ -2,49 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AstraFX/AstraFXDataNodeDescription.h"
 #include "unitysdk/RPG/Client/AstraFX/AstraFXDataNodeType.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-namespace RPG::Client::AstraFX { class AstraFXDataNodeBehavior; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B337510)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISRECEIVER_OFFSET UNITYSDK_OFFSET(0x1B337520)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B337530)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_METHOD_7_1C298FA6BB9350FA_OFFSET UNITYSDK_OFFSET(0x1B337300)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_METHOD_7_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0x1B3371D0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_METHOD_7_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1B3374A0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B337700)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_CTOR_OFFSET UNITYSDK_OFFSET(0xC69E8F0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_DLNLBCDPLHP_OFFSET UNITYSDK_OFFSET(0xC69E4F0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_FPGLIMFGCAI_OFFSET UNITYSDK_OFFSET(0xC69E690)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISPROVIDER_OFFSET UNITYSDK_OFFSET(0xC69E700)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISRECEIVER_OFFSET UNITYSDK_OFFSET(0xC69E710)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC69E720)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_JMOLCPMJOJD_OFFSET UNITYSDK_OFFSET(0xC69E3C0)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataNode_TypeDefinitionIndex = 73577;
+	inline static constexpr unsigned int AstraFXDataNode_TypeDefinitionIndex = 73684;
 
-	class AstraFXDataNode : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::AstraFX::AstraFXDataNodeBehavior*>
+	class AstraFXDataNode
 	{
 	public:
 		::RPG::Client::AstraFX::AstraFXDataNodeType Type; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Component* Binder; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::AstraFX::AstraFXDataNodeDescription>* Description; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_A0433AB55CC45192()
+		::System::Boolean JMOLCPMJOJD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_METHOD_7_A0433AB55CC45192_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_JMOLCPMJOJD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_1C298FA6BB9350FA()
+		::System::Boolean DLNLBCDPLHP()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_METHOD_7_1C298FA6BB9350FA_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_DLNLBCDPLHP_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_A3FAE12D7B6ACD62()
+		::System::Boolean FPGLIMFGCAI()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_METHOD_7_A3FAE12D7B6ACD62_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_FPGLIMFGCAI_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsProvider()
@@ -61,5 +58,6 @@ namespace RPG::Client::AstraFX
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE_GET_ISVALID_OFFSET))(this);
 		}
+
 	};
 }

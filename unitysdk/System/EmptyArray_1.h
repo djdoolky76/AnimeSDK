@@ -12,7 +12,8 @@ namespace System
 	public:
 		static ::Il2CppArray<T>** StaticGet_Value()
 		{
-			return (::Il2CppArray<T>**)Il2CppClass::FromTypeDefinitionIndex(EmptyArray_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<T>**)UnitySDK::FromName("System", "EmptyArray`1")->GetStaticField(0x0);
 		}
+
 	};
 }

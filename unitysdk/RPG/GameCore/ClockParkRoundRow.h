@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ClockParkRoundType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClockParkRoundRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CLOCKPARKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99C370)
-#define RPG_GAMECORE_CLOCKPARKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D99C9D0)
+#define RPG_GAMECORE_CLOCKPARKROUNDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D593F60)
+#define RPG_GAMECORE_CLOCKPARKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D593900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkRoundRow_TypeDefinitionIndex = 11153;
+	inline static constexpr unsigned int ClockParkRoundRow_TypeDefinitionIndex = 11169;
 
 	class ClockParkRoundRow : public ::System::Object
 	{
 	public:
-		::System::Boolean DiceSpecialDisplay; // 0x10
-		::RPG::GameCore::ClockParkRoundType RoundType; // 0x14
-		::System::UInt32 RoundID; // 0x18
-
+		::System::UInt32 RoundID; // 0x10
+		::System::Boolean DiceSpecialDisplay; // 0x14
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::ClockParkRoundType RoundType; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKROUNDROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKROUNDROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkRoundRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClockParkRoundRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkRoundRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKROUNDROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClockParkRoundRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKROUNDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MemberData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x198464D0)
-#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKINCLUDEBASICTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x19846500)
+#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD344A90)
+#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKINCLUDEBASICTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xD344AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IncludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0_TypeDefinitionIndex = 63180;
+	inline static constexpr unsigned int IncludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0_TypeDefinitionIndex = 63113;
 
 	class IncludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::System::Func_2<::RPG::Client::MemberData*, ::System::Boolean>* __9__0; // 0x10
 		::RPG::GameCore::AvatarBaseType avatarBaseType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __CheckIncludeBasicType_b__0(::RPG::Client::MemberData* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKINCLUDEBASICTYPE_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

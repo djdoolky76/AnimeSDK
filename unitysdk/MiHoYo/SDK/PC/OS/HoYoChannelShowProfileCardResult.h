@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
-
+namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowProfileCardResult; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1ABCFA30)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1ABCFA20)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABCFA70)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF06130)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF060F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF060E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelShowProfileCardResult_TypeDefinitionIndex = 8553;
+	inline static constexpr unsigned int HoYoChannelShowProfileCardResult_TypeDefinitionIndex = 8614;
 
 	class HoYoChannelShowProfileCardResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
@@ -29,5 +29,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDRESULT_FROMJSON_OFFSET))(a1);
 		}
+
 	};
 }

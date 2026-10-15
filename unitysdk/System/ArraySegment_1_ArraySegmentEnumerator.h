@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ArraySegment_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace System

@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_NPCSCALECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0996E0)
-#define RPGTOOLS_TIMELINE_NPCSCALECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0996D0)
-#define RPGTOOLS_TIMELINE_NPCSCALECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B099870)
+#define RPGTOOLS_TIMELINE_NPCSCALECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9068E0)
+#define RPGTOOLS_TIMELINE_NPCSCALECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE906A70)
+#define RPGTOOLS_TIMELINE_NPCSCALECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9068D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCScaleClip_TypeDefinitionIndex = 48667;
+	inline static constexpr unsigned int NPCScaleClip_TypeDefinitionIndex = 48207;
 
 	class NPCScaleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::UnityEngine::Vector3 Scale; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

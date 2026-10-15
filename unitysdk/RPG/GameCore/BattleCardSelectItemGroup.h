@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleCardSelectItem; }
+namespace RPG::GameCore { class BattleCardSelectItemGroup; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2F15E0)
-#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F17A0)
+#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D425900)
+#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D425740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCardSelectItemGroup_TypeDefinitionIndex = 22294;
+	inline static constexpr unsigned int BattleCardSelectItemGroup_TypeDefinitionIndex = 22543;
 
 	class BattleCardSelectItemGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* AutoSelectWeight; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSelect; // 0x28
 		::System::Boolean IsAutoSelection; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECARDSELECTITEMGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleCardSelectItemGroup*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleCardSelectItemGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleCardSelectItemGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleCardSelectItemGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

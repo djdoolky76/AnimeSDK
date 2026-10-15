@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CEEGMMCFCBG;
+namespace R3 { template <typename T> class Observable_1; }
+namespace R3 { template <typename T> class ReactiveProperty_1; }
+namespace System { class String; }
+
+#define KMGKNFDPEKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB54E780)
+#define KMGKNFDPEKG_FJFGOONJFAP_OFFSET UNITYSDK_OFFSET(0xB54E670)
+#define KMGKNFDPEKG_GET_CLICKCOMMAND_OFFSET UNITYSDK_OFFSET(0xB54E770)
+#define KMGKNFDPEKG_HHMDNILOCOL_OFFSET UNITYSDK_OFFSET(0xB54E730)
+#define KMGKNFDPEKG_IHEFFDKFAOA_OFFSET UNITYSDK_OFFSET(0xB54E6B0)
+#define KMGKNFDPEKG_MJPCMPJLGMG_OFFSET UNITYSDK_OFFSET(0xB54E6F0)
+
+inline static constexpr unsigned int KMGKNFDPEKG_TypeDefinitionIndex = 81246;
+
+	class KMGKNFDPEKG : public ::System::Object
+	{
+	public:
+		::R3::ReactiveProperty_1<::System::String*>* HADHHFFPFIL; // 0x10
+		::R3::ReactiveProperty_1<::System::String*>* FADILKPGCEM; // 0x18
+		::R3::ReactiveProperty_1<::System::String*>* DFCELAPKGIB; // 0x20
+		::R3::ReactiveProperty_1<::System::Boolean>* OOFAMMJEKLC; // 0x28
+		::CEEGMMCFCBG* _ClickCommand_k__BackingField; // 0x30
+		::System::Void _ctor(::CEEGMMCFCBG* a1, ::System::String* a2, ::System::String* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::CEEGMMCFCBG*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::R3::Observable_1<::System::Boolean>* FJFGOONJFAP()
+		{
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_FJFGOONJFAP_OFFSET))(this);
+		}
+
+		::R3::Observable_1<::System::String*>* IHEFFDKFAOA()
+		{
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_IHEFFDKFAOA_OFFSET))(this);
+		}
+
+		::R3::Observable_1<::System::String*>* MJPCMPJLGMG()
+		{
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_MJPCMPJLGMG_OFFSET))(this);
+		}
+
+		::R3::Observable_1<::System::String*>* HHMDNILOCOL()
+		{
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_HHMDNILOCOL_OFFSET))(this);
+		}
+
+		::CEEGMMCFCBG* get_ClickCommand()
+		{
+			return ((::CEEGMMCFCBG*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_GET_CLICKCOMMAND_OFFSET))(this);
+		}
+
+	};

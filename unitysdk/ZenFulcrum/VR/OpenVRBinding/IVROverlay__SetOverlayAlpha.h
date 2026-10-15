@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDBC50)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDBCD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDBC40)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDBBD0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6561D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F656150)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F656250)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6561C0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__SetOverlayAlpha_TypeDefinitionIndex = 37778;
+	inline static constexpr unsigned int IVROverlay__SetOverlayAlpha_TypeDefinitionIndex = 39075;
 
 	class IVROverlay__SetOverlayAlpha : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 a1, ::System::Single a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYALPHA_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

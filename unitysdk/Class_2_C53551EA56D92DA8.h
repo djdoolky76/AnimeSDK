@@ -1,64 +1,22 @@
 #pragma once
-#include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-#include "unitysdk/RPG/GameCore/BattleResultState.h"
+// HSR 4.5 -> 4.6 compatibility alias.
+//
+// In the 4.5 SDK this anonymous (stripped-name) battle task class was generated
+// as "Class_2_C53551EA56D92DA8"; in 4.6 the same class (identical fields, parent,
+// methods and parameter types) is generated as "KLCEMHGDCCC".
+// This header provides the 4.5 type name and method macros so consumers such as
+// Pipsi-HSR (https://github.com/Z4ee/Pipsi-HSR) keep compiling when moved to
+// the 4.6 SDK; the RVA values now come from the 4.6 build.
+#include "unitysdk/KLCEMHGDCCC.h"
 
-class Class_0_16E4307DCC419505_460;
-namespace RPG::GameCore { class TaskContext; }
-namespace RPG::GameCore { class WaitAndProcessBattleResult; }
-namespace System::Collections { class IEnumerator; }
+using Class_2_C53551EA56D92DA8 = ::KLCEMHGDCCC;
 
-#define CLASS_2_C53551EA56D92DA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16444870)
-#define CLASS_2_C53551EA56D92DA8_METHOD_2_EA6AB70431410CAB_OFFSET UNITYSDK_OFFSET(0x16444F60)
-#define CLASS_2_C53551EA56D92DA8_METHOD_2_F7FB765F17E7AB5A_OFFSET UNITYSDK_OFFSET(0x16445180)
-#define CLASS_2_C53551EA56D92DA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16444960)
-#define CLASS_2_C53551EA56D92DA8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16444BC0)
-#define CLASS_2_C53551EA56D92DA8_TICK_OFFSET UNITYSDK_OFFSET(0x16444CC0)
-#define CLASS_2_C53551EA56D92DA8__CTOR_OFFSET UNITYSDK_OFFSET(0x16444850)
+inline static constexpr unsigned int Class_2_C53551EA56D92DA8_TypeDefinitionIndex = KLCEMHGDCCC_TypeDefinitionIndex;
 
-inline static constexpr unsigned int Class_2_C53551EA56D92DA8_TypeDefinitionIndex = 58997;
-
-class Class_2_C53551EA56D92DA8 : public ::Class_1_5F51D4049EA87B7B
-{
-public:
-	::System::Collections::IEnumerator* DCIOGOGNJFJ; // 0x18
-	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-	::RPG::GameCore::WaitAndProcessBattleResult* OFKGLJOAMLD; // 0x28
-	::System::Collections::IEnumerator* JHBNJLNCGEJ; // 0x30
-	::System::Boolean PINCHACJCNO; // 0x38
-
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitAndProcessBattleResult* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitAndProcessBattleResult*))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void OnTaskBegin()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void OnTaskReset()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8_ONTASKRESET_OFFSET))(this);
-	}
-
-	::System::Void Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8_TICK_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_EA6AB70431410CAB(::Class_0_16E4307DCC419505_460* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8_METHOD_2_EA6AB70431410CAB_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_F7FB765F17E7AB5A(::RPG::GameCore::BattleResultState a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleResultState))((::PBYTE)hIl2Cpp + CLASS_2_C53551EA56D92DA8_METHOD_2_F7FB765F17E7AB5A_OFFSET))(this, a1);
-	}
-};
+#define CLASS_2_C53551EA56D92DA8__CTOR_OFFSET KLCEMHGDCCC_CTOR_OFFSET
+#define CLASS_2_C53551EA56D92DA8_DISPOSE_OFFSET KLCEMHGDCCC_DISPOSE_OFFSET
+#define CLASS_2_C53551EA56D92DA8_ONTASKBEGIN_OFFSET KLCEMHGDCCC_ONTASKBEGIN_OFFSET
+#define CLASS_2_C53551EA56D92DA8_ONTASKRESET_OFFSET KLCEMHGDCCC_ONTASKRESET_OFFSET
+#define CLASS_2_C53551EA56D92DA8_TICK_OFFSET KLCEMHGDCCC_TICK_OFFSET
+#define CLASS_2_C53551EA56D92DA8_METHOD_2_EA6AB70431410CAB_OFFSET KLCEMHGDCCC_JELJKMHDNKL_OFFSET
+#define CLASS_2_C53551EA56D92DA8_METHOD_2_F7FB765F17E7AB5A_OFFSET KLCEMHGDCCC_IMKEDDPCEHJ_OFFSET

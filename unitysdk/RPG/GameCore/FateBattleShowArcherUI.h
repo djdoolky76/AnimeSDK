@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateBattleShowArcherUI; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEBATTLESHOWARCHERUI_METHOD_3_12CD54639D8C294A_OFFSET UNITYSDK_OFFSET(0x1E0CCC20)
-#define RPG_GAMECORE_FATEBATTLESHOWARCHERUI_METHOD_3_B65505FF70817A43_OFFSET UNITYSDK_OFFSET(0x1E0CCC60)
-#define RPG_GAMECORE_FATEBATTLESHOWARCHERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CCC50)
+#define RPG_GAMECORE_FATEBATTLESHOWARCHERUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66CC20)
+#define RPG_GAMECORE_FATEBATTLESHOWARCHERUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66CC30)
+#define RPG_GAMECORE_FATEBATTLESHOWARCHERUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66CBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateBattleShowArcherUI_TypeDefinitionIndex = 23027;
+	inline static constexpr unsigned int FateBattleShowArcherUI_TypeDefinitionIndex = 23292;
 
 	class FateBattleShowArcherUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Active; // 0x18
 		::System::Boolean IsUltimate; // 0x19
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLESHOWARCHERUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLESHOWARCHERUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_12CD54639D8C294A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateBattleShowArcherUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateBattleShowArcherUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateBattleShowArcherUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLESHOWARCHERUI_METHOD_3_12CD54639D8C294A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateBattleShowArcherUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLESHOWARCHERUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B65505FF70817A43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateBattleShowArcherUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateBattleShowArcherUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateBattleShowArcherUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLESHOWARCHERUI_METHOD_3_B65505FF70817A43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateBattleShowArcherUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLESHOWARCHERUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

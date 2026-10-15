@@ -1,0 +1,1506 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/LDWhiteBox/ShapeType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/JDNEAIDOOAN_DGHBNJPKMBI.h"
+#include "unitysdk/JDNEAIDOOAN_DKNIKHENHFG.h"
+#include "unitysdk/JDNEAIDOOAN_JEHPNMNHPLJ.h"
+#include "unitysdk/JDNEAIDOOAN_LMKDFFLDGDN.h"
+#include "unitysdk/NJOOOHDMEJC.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class CBAJOJJBMMA;
+class GDHCJAOOKDB;
+class GGCJNDECBLC;
+class GHMBKJFBPII;
+class HGGENLBDAPM;
+class IJMLKBLCLGH;
+class JDNEAIDOOAN_AOCCKKJPADL;
+class JDNEAIDOOAN_EDPCDBPNADN;
+class JDNEAIDOOAN_HHDHJGKDJEA;
+class JDNEAIDOOAN_LECEFIDKNNG;
+class JDNEAIDOOAN_MADNIGELLHB;
+class KJLLEKDIBHE;
+namespace Newtonsoft::Json::Linq { class JArray; }
+namespace Newtonsoft::Json::Linq { class JObject; }
+namespace Newtonsoft::Json::Linq { class JToken; }
+namespace RPGTools::LDWhiteBox { class WhiteBoxConnector; }
+namespace RPGTools::LDWhiteBox { class WhiteBoxPath; }
+namespace RPGTools::LDWhiteBox { class WhiteBoxRegion; }
+namespace RPGTools::LDWhiteBox { class WhiteBoxRouteNode; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define JDNEAIDOOAN_ADPHIDMEOBE_OFFSET UNITYSDK_OFFSET(0x165CE350)
+#define JDNEAIDOOAN_AENLLMECIJP_OFFSET UNITYSDK_OFFSET(0x165E2A20)
+#define JDNEAIDOOAN_AFIAKONCJCN_1_OFFSET UNITYSDK_OFFSET(0x165F4420)
+#define JDNEAIDOOAN_AFIAKONCJCN_OFFSET UNITYSDK_OFFSET(0x165F2870)
+#define JDNEAIDOOAN_AHBOHJOMMIA_OFFSET UNITYSDK_OFFSET(0x165D0340)
+#define JDNEAIDOOAN_AHKCICABMKB_OFFSET UNITYSDK_OFFSET(0x165FEE20)
+#define JDNEAIDOOAN_AIIAAMKGBOI_OFFSET UNITYSDK_OFFSET(0x165E28E0)
+#define JDNEAIDOOAN_AKCJKGKFLGB_OFFSET UNITYSDK_OFFSET(0x165E5B70)
+#define JDNEAIDOOAN_AOPOJCEJJEG_OFFSET UNITYSDK_OFFSET(0x165D1360)
+#define JDNEAIDOOAN_APLADMIFFMN_OFFSET UNITYSDK_OFFSET(0x165DAC20)
+#define JDNEAIDOOAN_BCHPCADAJPK_OFFSET UNITYSDK_OFFSET(0x165E9A50)
+#define JDNEAIDOOAN_BCJEJGOCPGC_OFFSET UNITYSDK_OFFSET(0x165E1430)
+#define JDNEAIDOOAN_BCNEGLFLHIH_OFFSET UNITYSDK_OFFSET(0x165DFA40)
+#define JDNEAIDOOAN_BDLGEPKMNCE_OFFSET UNITYSDK_OFFSET(0x165E2250)
+#define JDNEAIDOOAN_BDOKPPILPIF_OFFSET UNITYSDK_OFFSET(0x165FFD90)
+#define JDNEAIDOOAN_BFFCBDMNBCJ_OFFSET UNITYSDK_OFFSET(0x165E6E30)
+#define JDNEAIDOOAN_BFOHIFEDBKM_OFFSET UNITYSDK_OFFSET(0x165D2DD0)
+#define JDNEAIDOOAN_BIDKHJBPMPP_OFFSET UNITYSDK_OFFSET(0x165E1740)
+#define JDNEAIDOOAN_BIOEADPAMJM_OFFSET UNITYSDK_OFFSET(0x165F7E70)
+#define JDNEAIDOOAN_BJNHPCFGKJB_OFFSET UNITYSDK_OFFSET(0x165D22D0)
+#define JDNEAIDOOAN_BMEONOCPLDD_OFFSET UNITYSDK_OFFSET(0x165D83D0)
+#define JDNEAIDOOAN_BMMHMHMHBEH_OFFSET UNITYSDK_OFFSET(0x165D3910)
+#define JDNEAIDOOAN_BNPAKGMLJEN_1_OFFSET UNITYSDK_OFFSET(0x165FD2E0)
+#define JDNEAIDOOAN_BNPAKGMLJEN_OFFSET UNITYSDK_OFFSET(0x165FA520)
+#define JDNEAIDOOAN_BPDNKPDDKAF_OFFSET UNITYSDK_OFFSET(0x165D66A0)
+#define JDNEAIDOOAN_CAOKDDLJMAE_OFFSET UNITYSDK_OFFSET(0x165EF750)
+#define JDNEAIDOOAN_CCEPGEPMMML_OFFSET UNITYSDK_OFFSET(0x165F4C90)
+#define JDNEAIDOOAN_CCHGMKKHNND_OFFSET UNITYSDK_OFFSET(0x165CDD30)
+#define JDNEAIDOOAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x16600600)
+#define JDNEAIDOOAN_CENEPEDEMJP_OFFSET UNITYSDK_OFFSET(0x165F60E0)
+#define JDNEAIDOOAN_CGBNBKPECFI_OFFSET UNITYSDK_OFFSET(0x165F9860)
+#define JDNEAIDOOAN_CHILHKJJIKK_OFFSET UNITYSDK_OFFSET(0x165DDC60)
+#define JDNEAIDOOAN_CHKFJJGOAFP_OFFSET UNITYSDK_OFFSET(0x165E0860)
+#define JDNEAIDOOAN_CHLCGKPJMAP_OFFSET UNITYSDK_OFFSET(0x165D4310)
+#define JDNEAIDOOAN_CILMKIMHBJM_OFFSET UNITYSDK_OFFSET(0x165D96F0)
+#define JDNEAIDOOAN_CKOBBDEBGHN_OFFSET UNITYSDK_OFFSET(0x165CCD00)
+#define JDNEAIDOOAN_CLPPLGDAHDO_OFFSET UNITYSDK_OFFSET(0x165EC600)
+#define JDNEAIDOOAN_CMBOKDCAKPF_OFFSET UNITYSDK_OFFSET(0x165FD830)
+#define JDNEAIDOOAN_CMOGPCFAKCN_OFFSET UNITYSDK_OFFSET(0x165CDC80)
+#define JDNEAIDOOAN_COAACHELDAG_OFFSET UNITYSDK_OFFSET(0x165D2D20)
+#define JDNEAIDOOAN_CPEIHBDCHIP_OFFSET UNITYSDK_OFFSET(0x165F6450)
+#define JDNEAIDOOAN_DBCGCKPIJOE_OFFSET UNITYSDK_OFFSET(0x165F8880)
+#define JDNEAIDOOAN_DCJCMMPEJHL_OFFSET UNITYSDK_OFFSET(0x165FB8E0)
+#define JDNEAIDOOAN_DCMDOBFKPBB_OFFSET UNITYSDK_OFFSET(0x165EC380)
+#define JDNEAIDOOAN_DCOFAIBOELI_OFFSET UNITYSDK_OFFSET(0x165D43E0)
+#define JDNEAIDOOAN_DDFCJHECBLJ_OFFSET UNITYSDK_OFFSET(0x165EB670)
+#define JDNEAIDOOAN_DDHFKOMBPKN_OFFSET UNITYSDK_OFFSET(0x165F5410)
+#define JDNEAIDOOAN_DDLIHHLDAGK_OFFSET UNITYSDK_OFFSET(0x165FA2E0)
+#define JDNEAIDOOAN_DECPKIHBGLP_OFFSET UNITYSDK_OFFSET(0x165D0480)
+#define JDNEAIDOOAN_DFHBKNNKCNP_OFFSET UNITYSDK_OFFSET(0x165EA920)
+#define JDNEAIDOOAN_DHLFOMCKGGO_OFFSET UNITYSDK_OFFSET(0x165E7A40)
+#define JDNEAIDOOAN_DMJCHHCEEME_OFFSET UNITYSDK_OFFSET(0x165D1930)
+#define JDNEAIDOOAN_DOCMMKLGMEN_OFFSET UNITYSDK_OFFSET(0x165FEA30)
+#define JDNEAIDOOAN_EBMKLIFKNDI_OFFSET UNITYSDK_OFFSET(0x165CB8D0)
+#define JDNEAIDOOAN_EDGHPFNNHAN_OFFSET UNITYSDK_OFFSET(0x165DA5C0)
+#define JDNEAIDOOAN_EDOKLDBJDCB_OFFSET UNITYSDK_OFFSET(0x165D3FA0)
+#define JDNEAIDOOAN_EFGMHHODLFC_OFFSET UNITYSDK_OFFSET(0x165D9F60)
+#define JDNEAIDOOAN_EFIEPIODKOG_OFFSET UNITYSDK_OFFSET(0x165F6960)
+#define JDNEAIDOOAN_EGNCLNDANCC_OFFSET UNITYSDK_OFFSET(0x165D4720)
+#define JDNEAIDOOAN_EHEBNOAJNIK_OFFSET UNITYSDK_OFFSET(0x165D6230)
+#define JDNEAIDOOAN_EJKMBNPAILF_OFFSET UNITYSDK_OFFSET(0x165D7CF0)
+#define JDNEAIDOOAN_EJLBECKEBHD_OFFSET UNITYSDK_OFFSET(0x165D8A10)
+#define JDNEAIDOOAN_EJOAEKAHLMH_OFFSET UNITYSDK_OFFSET(0x165CC2D0)
+#define JDNEAIDOOAN_EKPCKMDKMME_OFFSET UNITYSDK_OFFSET(0x165EB2E0)
+#define JDNEAIDOOAN_ELDFKHCOJPG_OFFSET UNITYSDK_OFFSET(0x165FE320)
+#define JDNEAIDOOAN_ELMOCCPIMNM_OFFSET UNITYSDK_OFFSET(0x165DB9A0)
+#define JDNEAIDOOAN_EOGDEHOAMOA_OFFSET UNITYSDK_OFFSET(0x165EBE50)
+#define JDNEAIDOOAN_FAAOAEDBBDM_OFFSET UNITYSDK_OFFSET(0x165DCC70)
+#define JDNEAIDOOAN_FANNJGPLEIM_OFFSET UNITYSDK_OFFSET(0x165D5CC0)
+#define JDNEAIDOOAN_FGMLJMBCPOF_OFFSET UNITYSDK_OFFSET(0x165FF4C0)
+#define JDNEAIDOOAN_FHMKABILAJK_OFFSET UNITYSDK_OFFSET(0x165F56D0)
+#define JDNEAIDOOAN_FINHCOLAMNE_OFFSET UNITYSDK_OFFSET(0x165F83F0)
+#define JDNEAIDOOAN_FKMIFJLDBIB_OFFSET UNITYSDK_OFFSET(0x165F95B0)
+#define JDNEAIDOOAN_FLMPKJOIACE_OFFSET UNITYSDK_OFFSET(0x165CEA70)
+#define JDNEAIDOOAN_FMEGGCMNAJI_OFFSET UNITYSDK_OFFSET(0x165E8280)
+#define JDNEAIDOOAN_FOBLNNDFPAG_OFFSET UNITYSDK_OFFSET(0x165F7150)
+#define JDNEAIDOOAN_FOHFIDFHAEN_OFFSET UNITYSDK_OFFSET(0x165D5B30)
+#define JDNEAIDOOAN_FOMPBFNCDEK_OFFSET UNITYSDK_OFFSET(0x165DD2E0)
+#define JDNEAIDOOAN_FPLFELJDPCL_OFFSET UNITYSDK_OFFSET(0x165F1AA0)
+#define JDNEAIDOOAN_FPNOLFCOAJL_OFFSET UNITYSDK_OFFSET(0x165E4E60)
+#define JDNEAIDOOAN_GAABGFCAIGO_OFFSET UNITYSDK_OFFSET(0x165E8B60)
+#define JDNEAIDOOAN_GDEAMJFKANI_1_OFFSET UNITYSDK_OFFSET(0x165E4CC0)
+#define JDNEAIDOOAN_GDEAMJFKANI_OFFSET UNITYSDK_OFFSET(0x165E4A70)
+#define JDNEAIDOOAN_GGHALICKKGH_OFFSET UNITYSDK_OFFSET(0x165FC0D0)
+#define JDNEAIDOOAN_GIGPKNADACN_OFFSET UNITYSDK_OFFSET(0x165E23D0)
+#define JDNEAIDOOAN_GIPJMCEGLEI_OFFSET UNITYSDK_OFFSET(0x165E7710)
+#define JDNEAIDOOAN_GJAHPKPBEJD_OFFSET UNITYSDK_OFFSET(0x166004D0)
+#define JDNEAIDOOAN_GJKBBJDAKFO_OFFSET UNITYSDK_OFFSET(0x165E7FE0)
+#define JDNEAIDOOAN_GJMPAHDHACI_OFFSET UNITYSDK_OFFSET(0x165F5AA0)
+#define JDNEAIDOOAN_GKMDJMLOKGA_OFFSET UNITYSDK_OFFSET(0x165F8B10)
+#define JDNEAIDOOAN_GMMMCPENJHH_OFFSET UNITYSDK_OFFSET(0x165FD740)
+#define JDNEAIDOOAN_GPFFKOBIIJO_OFFSET UNITYSDK_OFFSET(0x165E9290)
+#define JDNEAIDOOAN_HAFDBEJNEID_OFFSET UNITYSDK_OFFSET(0x165EE490)
+#define JDNEAIDOOAN_HBJCAPBAMCH_OFFSET UNITYSDK_OFFSET(0x165EA1E0)
+#define JDNEAIDOOAN_HCLKBFBJNOP_OFFSET UNITYSDK_OFFSET(0x165F6670)
+#define JDNEAIDOOAN_HDLDLDGOPEA_OFFSET UNITYSDK_OFFSET(0x165CD3D0)
+#define JDNEAIDOOAN_HDNCGIFBFFI_OFFSET UNITYSDK_OFFSET(0x165CF460)
+#define JDNEAIDOOAN_HEICPIOCFHJ_OFFSET UNITYSDK_OFFSET(0x165DF3D0)
+#define JDNEAIDOOAN_HFFKBDOFLKI_OFFSET UNITYSDK_OFFSET(0x165DD390)
+#define JDNEAIDOOAN_HFFKHKNCFLL_1_OFFSET UNITYSDK_OFFSET(0x165F3840)
+#define JDNEAIDOOAN_HFFKHKNCFLL_OFFSET UNITYSDK_OFFSET(0x165F27D0)
+#define JDNEAIDOOAN_HFPIBKFELAI_OFFSET UNITYSDK_OFFSET(0x165CBB50)
+#define JDNEAIDOOAN_HHCBHIDHEOI_OFFSET UNITYSDK_OFFSET(0x165E86B0)
+#define JDNEAIDOOAN_HILOJDPGLKG_OFFSET UNITYSDK_OFFSET(0x165EA470)
+#define JDNEAIDOOAN_HIOLCGOKEKG_OFFSET UNITYSDK_OFFSET(0x165F9AC0)
+#define JDNEAIDOOAN_HLHACAKIPEC_OFFSET UNITYSDK_OFFSET(0x165D9580)
+#define JDNEAIDOOAN_HLHAFHHELHL_OFFSET UNITYSDK_OFFSET(0x165FFAD0)
+#define JDNEAIDOOAN_HLKEJCIMHGE_OFFSET UNITYSDK_OFFSET(0x165E0D50)
+#define JDNEAIDOOAN_HMADPCEMDHL_1_OFFSET UNITYSDK_OFFSET(0x165E8980)
+#define JDNEAIDOOAN_HMADPCEMDHL_OFFSET UNITYSDK_OFFSET(0x165D6640)
+#define JDNEAIDOOAN_HMFOBFPKFMK_OFFSET UNITYSDK_OFFSET(0x165F8EC0)
+#define JDNEAIDOOAN_HMGGHMKGBEL_OFFSET UNITYSDK_OFFSET(0x165D2570)
+#define JDNEAIDOOAN_HNCJPDBBDFH_OFFSET UNITYSDK_OFFSET(0x165CA5B0)
+#define JDNEAIDOOAN_IBPBBJANBEC_OFFSET UNITYSDK_OFFSET(0x165E8E80)
+#define JDNEAIDOOAN_IDLAHBLDLPG_OFFSET UNITYSDK_OFFSET(0x165F2910)
+#define JDNEAIDOOAN_IDNONFJDFID_OFFSET UNITYSDK_OFFSET(0x165FC640)
+#define JDNEAIDOOAN_IFBFNKMMBJM_OFFSET UNITYSDK_OFFSET(0x165D9AF0)
+#define JDNEAIDOOAN_IGCIIBEEFHA_OFFSET UNITYSDK_OFFSET(0x165D55E0)
+#define JDNEAIDOOAN_IGFOEBIKHME_OFFSET UNITYSDK_OFFSET(0x165F7AF0)
+#define JDNEAIDOOAN_IHIOHFMLADH_OFFSET UNITYSDK_OFFSET(0x165F1430)
+#define JDNEAIDOOAN_IKKMKJEFGCK_OFFSET UNITYSDK_OFFSET(0x165D3A90)
+#define JDNEAIDOOAN_ILNAPEPCAFI_OFFSET UNITYSDK_OFFSET(0x165EDC70)
+#define JDNEAIDOOAN_INPFPGKABLA_OFFSET UNITYSDK_OFFSET(0x165DAF20)
+#define JDNEAIDOOAN_IOCNOGMLKGC_OFFSET UNITYSDK_OFFSET(0x165FB030)
+#define JDNEAIDOOAN_IONDEKKKHJJ_OFFSET UNITYSDK_OFFSET(0x165CC8B0)
+#define JDNEAIDOOAN_IPLINEPHMAI_OFFSET UNITYSDK_OFFSET(0x165CDBD0)
+#define JDNEAIDOOAN_JANCHLKOBHI_OFFSET UNITYSDK_OFFSET(0x165E2080)
+#define JDNEAIDOOAN_JBOLDAOEFKI_OFFSET UNITYSDK_OFFSET(0x165CA300)
+#define JDNEAIDOOAN_JCACGIOMMFE_1_OFFSET UNITYSDK_OFFSET(0x165D1430)
+#define JDNEAIDOOAN_JCACGIOMMFE_OFFSET UNITYSDK_OFFSET(0x165CFB90)
+#define JDNEAIDOOAN_JEEPNDCOJKG_OFFSET UNITYSDK_OFFSET(0x165F4D90)
+#define JDNEAIDOOAN_JGMGKEEECJA_OFFSET UNITYSDK_OFFSET(0x165D0EA0)
+#define JDNEAIDOOAN_JHMNLEMFNPO_OFFSET UNITYSDK_OFFSET(0x165F20E0)
+#define JDNEAIDOOAN_JHMOFEDIGEE_OFFSET UNITYSDK_OFFSET(0x165CBA90)
+#define JDNEAIDOOAN_JHNPOMIJFIL_OFFSET UNITYSDK_OFFSET(0x165E2020)
+#define JDNEAIDOOAN_JIGIAOAAIPG_1_OFFSET UNITYSDK_OFFSET(0x165E6990)
+#define JDNEAIDOOAN_JIGIAOAAIPG_OFFSET UNITYSDK_OFFSET(0x165E66F0)
+#define JDNEAIDOOAN_JILMLJAKPOL_OFFSET UNITYSDK_OFFSET(0x165F8C80)
+#define JDNEAIDOOAN_JMECDJGLIPL_OFFSET UNITYSDK_OFFSET(0x165CE010)
+#define JDNEAIDOOAN_JNHJFBCEPCK_OFFSET UNITYSDK_OFFSET(0x165FFF10)
+#define JDNEAIDOOAN_JOGHBMMHFAE_OFFSET UNITYSDK_OFFSET(0x165EE770)
+#define JDNEAIDOOAN_JOIPCKHBOEK_OFFSET UNITYSDK_OFFSET(0x165DAD90)
+#define JDNEAIDOOAN_KANEDIEHMLB_OFFSET UNITYSDK_OFFSET(0x165F2F80)
+#define JDNEAIDOOAN_KAOHBENBMLO_OFFSET UNITYSDK_OFFSET(0x165CB3B0)
+#define JDNEAIDOOAN_KCGOOOHHALO_OFFSET UNITYSDK_OFFSET(0x165CBF00)
+#define JDNEAIDOOAN_KEDPICJICLC_OFFSET UNITYSDK_OFFSET(0x165E7310)
+#define JDNEAIDOOAN_KEGBEKECDEP_OFFSET UNITYSDK_OFFSET(0x165FDF80)
+#define JDNEAIDOOAN_KIDOJMJOAIJ_OFFSET UNITYSDK_OFFSET(0x165E4990)
+#define JDNEAIDOOAN_KILLCEPODNJ_OFFSET UNITYSDK_OFFSET(0x165FAE10)
+#define JDNEAIDOOAN_KJMFEAKJNFN_OFFSET UNITYSDK_OFFSET(0x165FB330)
+#define JDNEAIDOOAN_KKFMGHHMFGE_OFFSET UNITYSDK_OFFSET(0x165DF0C0)
+#define JDNEAIDOOAN_KLAPECNCFOL_OFFSET UNITYSDK_OFFSET(0x165EE520)
+#define JDNEAIDOOAN_KLMGFFBIKLL_OFFSET UNITYSDK_OFFSET(0x165FE6B0)
+#define JDNEAIDOOAN_KMPHEFMDEMB_OFFSET UNITYSDK_OFFSET(0x165CA3A0)
+#define JDNEAIDOOAN_KNJLILEFNKH_OFFSET UNITYSDK_OFFSET(0x165E7010)
+#define JDNEAIDOOAN_KOELOBMHACG_OFFSET UNITYSDK_OFFSET(0x165D0AF0)
+#define JDNEAIDOOAN_KOKCBJHGLIG_OFFSET UNITYSDK_OFFSET(0x165D20B0)
+#define JDNEAIDOOAN_KPBBBKJHBME_1_OFFSET UNITYSDK_OFFSET(0x165FD470)
+#define JDNEAIDOOAN_KPBBBKJHBME_OFFSET UNITYSDK_OFFSET(0x165FC4C0)
+#define JDNEAIDOOAN_KPPFPGPLEEE_OFFSET UNITYSDK_OFFSET(0x165FA1A0)
+#define JDNEAIDOOAN_LBPEPFJDLIF_OFFSET UNITYSDK_OFFSET(0x165D94E0)
+#define JDNEAIDOOAN_LCDMCCCFPBN_OFFSET UNITYSDK_OFFSET(0x165F8030)
+#define JDNEAIDOOAN_LFBDLCMJKOP_OFFSET UNITYSDK_OFFSET(0x165DC6F0)
+#define JDNEAIDOOAN_LFPPAAPJJOE_OFFSET UNITYSDK_OFFSET(0x165DB350)
+#define JDNEAIDOOAN_LGDEALCFGKL_OFFSET UNITYSDK_OFFSET(0x165E30B0)
+#define JDNEAIDOOAN_LHCBLOHBKIO_OFFSET UNITYSDK_OFFSET(0x165DE380)
+#define JDNEAIDOOAN_LHKLIFEHMEK_OFFSET UNITYSDK_OFFSET(0x165D3860)
+#define JDNEAIDOOAN_LIDEBLFALKP_OFFSET UNITYSDK_OFFSET(0x165E6C60)
+#define JDNEAIDOOAN_LINBEADJEOC_OFFSET UNITYSDK_OFFSET(0x165EF070)
+#define JDNEAIDOOAN_LJCDOHBLIIG_OFFSET UNITYSDK_OFFSET(0x165F7910)
+#define JDNEAIDOOAN_LJKDFFCBHPG_OFFSET UNITYSDK_OFFSET(0x165F6F50)
+#define JDNEAIDOOAN_LKBIBODHMEF_OFFSET UNITYSDK_OFFSET(0x165E1CC0)
+#define JDNEAIDOOAN_LLGKCFNNDNC_OFFSET UNITYSDK_OFFSET(0x165D0110)
+#define JDNEAIDOOAN_LLJLCBKLDEG_OFFSET UNITYSDK_OFFSET(0x165E9860)
+#define JDNEAIDOOAN_LMDMKDAPPFH_OFFSET UNITYSDK_OFFSET(0x165F7430)
+#define JDNEAIDOOAN_LOFGOFDDCCP_OFFSET UNITYSDK_OFFSET(0x165F0210)
+#define JDNEAIDOOAN_LOOHIHEDMGG_OFFSET UNITYSDK_OFFSET(0x165D6F10)
+#define JDNEAIDOOAN_LPGMBJCAILM_OFFSET UNITYSDK_OFFSET(0x165DE8C0)
+#define JDNEAIDOOAN_MADJOAFOEHH_OFFSET UNITYSDK_OFFSET(0x165D0060)
+#define JDNEAIDOOAN_MDBAPAOKMDI_OFFSET UNITYSDK_OFFSET(0x165CBE60)
+#define JDNEAIDOOAN_MGFFLLGNKOA_OFFSET UNITYSDK_OFFSET(0x165DB500)
+#define JDNEAIDOOAN_MGGEHPDIHLB_OFFSET UNITYSDK_OFFSET(0x165F9C80)
+#define JDNEAIDOOAN_MGJNJHNELMH_OFFSET UNITYSDK_OFFSET(0x165D98D0)
+#define JDNEAIDOOAN_MHHNEMPJJPO_OFFSET UNITYSDK_OFFSET(0x165CE8B0)
+#define JDNEAIDOOAN_MICPILHCHMO_OFFSET UNITYSDK_OFFSET(0x165D2F50)
+#define JDNEAIDOOAN_MJJICIFDHAK_OFFSET UNITYSDK_OFFSET(0x165D60F0)
+#define JDNEAIDOOAN_MJPJGNJKNNF_OFFSET UNITYSDK_OFFSET(0x165FC250)
+#define JDNEAIDOOAN_MKNLDOBAENK_OFFSET UNITYSDK_OFFSET(0x165D4F10)
+#define JDNEAIDOOAN_MLCFGDJKOCL_OFFSET UNITYSDK_OFFSET(0x165D1620)
+#define JDNEAIDOOAN_MMBIOPHLBMH_OFFSET UNITYSDK_OFFSET(0x165D3CF0)
+#define JDNEAIDOOAN_MMHHPFABCHJ_OFFSET UNITYSDK_OFFSET(0x165F08D0)
+#define JDNEAIDOOAN_MNFKHFJKDPA_OFFSET UNITYSDK_OFFSET(0x165E2BB0)
+#define JDNEAIDOOAN_MNHHFIHLJLH_OFFSET UNITYSDK_OFFSET(0x165CC560)
+#define JDNEAIDOOAN_MOCOMCLGJPB_OFFSET UNITYSDK_OFFSET(0x165CADC0)
+#define JDNEAIDOOAN_MOGOMNDDPKC_OFFSET UNITYSDK_OFFSET(0x165CAB40)
+#define JDNEAIDOOAN_MPFPFONMIKC_OFFSET UNITYSDK_OFFSET(0x165CDEB0)
+#define JDNEAIDOOAN_NADMPNCJINC_OFFSET UNITYSDK_OFFSET(0x165F8770)
+#define JDNEAIDOOAN_NAHOKLEPFHA_OFFSET UNITYSDK_OFFSET(0x165E6830)
+#define JDNEAIDOOAN_NAPHODMELMA_OFFSET UNITYSDK_OFFSET(0x165D63C0)
+#define JDNEAIDOOAN_NBGGOIFJODO_OFFSET UNITYSDK_OFFSET(0x165D65D0)
+#define JDNEAIDOOAN_NCPAJKGMKBC_OFFSET UNITYSDK_OFFSET(0x165F0520)
+#define JDNEAIDOOAN_NCPDHJLBILO_OFFSET UNITYSDK_OFFSET(0x165D10B0)
+#define JDNEAIDOOAN_NCPNNPJKODD_OFFSET UNITYSDK_OFFSET(0x165ECD00)
+#define JDNEAIDOOAN_NFNPONHELEH_OFFSET UNITYSDK_OFFSET(0x165E6160)
+#define JDNEAIDOOAN_NKAHKDODGAB_OFFSET UNITYSDK_OFFSET(0x165D2750)
+#define JDNEAIDOOAN_NKEJOFCKKII_OFFSET UNITYSDK_OFFSET(0x165EFF70)
+#define JDNEAIDOOAN_NKIKOLFCJFK_1_OFFSET UNITYSDK_OFFSET(0x165D5290)
+#define JDNEAIDOOAN_NKIKOLFCJFK_OFFSET UNITYSDK_OFFSET(0x165FED20)
+#define JDNEAIDOOAN_NLDLNBCBBDB_OFFSET UNITYSDK_OFFSET(0x165D7610)
+#define JDNEAIDOOAN_NLEMJIPAHFN_OFFSET UNITYSDK_OFFSET(0x165D5520)
+#define JDNEAIDOOAN_NLLBFOIGOOK_OFFSET UNITYSDK_OFFSET(0x165FCD30)
+#define JDNEAIDOOAN_NMMLDJKAICC_OFFSET UNITYSDK_OFFSET(0x165D6D20)
+#define JDNEAIDOOAN_NNMIBGOCCIB_OFFSET UNITYSDK_OFFSET(0x165FEBC0)
+#define JDNEAIDOOAN_NPKNPBFPILB_OFFSET UNITYSDK_OFFSET(0x165E1870)
+#define JDNEAIDOOAN_OAOIFIGHOIC_OFFSET UNITYSDK_OFFSET(0x165D4B30)
+#define JDNEAIDOOAN_OECOHOHKKPN_OFFSET UNITYSDK_OFFSET(0x165CE120)
+#define JDNEAIDOOAN_OICAEIOLKIF_OFFSET UNITYSDK_OFFSET(0x165F7320)
+#define JDNEAIDOOAN_OJHNOIEOKGN_OFFSET UNITYSDK_OFFSET(0x165FEFF0)
+#define JDNEAIDOOAN_OJKDJLEMIJO_OFFSET UNITYSDK_OFFSET(0x165DB630)
+#define JDNEAIDOOAN_OLDBEBGFPFD_1_OFFSET UNITYSDK_OFFSET(0x165EA6C0)
+#define JDNEAIDOOAN_OLDBEBGFPFD_OFFSET UNITYSDK_OFFSET(0x165EA640)
+#define JDNEAIDOOAN_OMBGCDBOIJM_OFFSET UNITYSDK_OFFSET(0x165E01E0)
+#define JDNEAIDOOAN_OMJOPNOPAOM_OFFSET UNITYSDK_OFFSET(0x165CBDB0)
+#define JDNEAIDOOAN_OODAKBENLBD_OFFSET UNITYSDK_OFFSET(0x165E9520)
+#define JDNEAIDOOAN_PBEEPJFHLJG_OFFSET UNITYSDK_OFFSET(0x165F91A0)
+#define JDNEAIDOOAN_PBGLPCBAPFD_OFFSET UNITYSDK_OFFSET(0x165D2A00)
+#define JDNEAIDOOAN_PCAHHDMEGMK_OFFSET UNITYSDK_OFFSET(0x165D5710)
+#define JDNEAIDOOAN_PDHKHPLCJPJ_1_OFFSET UNITYSDK_OFFSET(0x165EABC0)
+#define JDNEAIDOOAN_PDHKHPLCJPJ_OFFSET UNITYSDK_OFFSET(0x165EEFE0)
+#define JDNEAIDOOAN_PECFENKMNPE_OFFSET UNITYSDK_OFFSET(0x165EB120)
+#define JDNEAIDOOAN_PEIGGBHCAIG_OFFSET UNITYSDK_OFFSET(0x165FB0C0)
+#define JDNEAIDOOAN_PEPKBDPPHAE_OFFSET UNITYSDK_OFFSET(0x165FAA20)
+#define JDNEAIDOOAN_PGANPJIFIPK_OFFSET UNITYSDK_OFFSET(0x165F3600)
+#define JDNEAIDOOAN_PINFNOHOECA_OFFSET UNITYSDK_OFFSET(0x165DBF20)
+#define JDNEAIDOOAN_PNEBCEJJIMD_OFFSET UNITYSDK_OFFSET(0x165EE990)
+#define JDNEAIDOOAN_PNOMCKCAELF_OFFSET UNITYSDK_OFFSET(0x165E9D00)
+
+inline static constexpr unsigned int JDNEAIDOOAN_TypeDefinitionIndex = 48937;
+
+	class JDNEAIDOOAN : public ::System::Object
+	{
+	public:
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_AIBBOHEAFOB()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EBE0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_IDOHNMAEDOA()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EBE8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EKOKDNOCDDD()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EBF0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_NAKLHDMMJLM()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EBF8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EPMKEJNBHFF()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EC00);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_MLBPBKACBPA()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EC08);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_CPGELHPEEAM()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "JDNEAIDOOAN")->GetStaticField(0x6EC10);
+		}
+
+		// static const ::System::Object JAGBOLIHIMP; // 0x0
+		// static const ::System::Object PPAEAFOIEIG; // 0x0
+		// static const ::System::Object OJMAMJILBEI; // 0x0
+		// static const ::System::Object CPALICDEJBK; // 0x0
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CCTOR_OFFSET))();
+		}
+
+		static ::System::Void JBOLDAOEFKI(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JBOLDAOEFKI_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void KMPHEFMDEMB(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KMPHEFMDEMB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void HNCJPDBBDFH(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HNCJPDBBDFH_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void MOGOMNDDPKC(::KJLLEKDIBHE* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MOGOMNDDPKC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void MOCOMCLGJPB(::KJLLEKDIBHE* a1, ::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MOCOMCLGJPB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void KAOHBENBMLO(::KJLLEKDIBHE* a1, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KAOHBENBMLO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void EJOAEKAHLMH(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Int32 a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Int32, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EJOAEKAHLMH_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void MNHHFIHLJLH(::KJLLEKDIBHE* a1, ::System::String* a2, ::System::Int32 a3, ::System::String* a4, ::Il2CppArray<::System::Single>* a5, ::System::Action_1<::Il2CppArray<::System::Single>*>* a6, ::HGGENLBDAPM* a7)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::String*, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Single>*, ::System::Action_1<::Il2CppArray<::System::Single>*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MNHHFIHLJLH_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+		}
+
+		static ::System::Void EBMKLIFKNDI(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EBMKLIFKNDI_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>* IONDEKKKHJJ(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>*(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IONDEKKKHJJ_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void HDLDLDGOPEA(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>* a2)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HDLDLDGOPEA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void CKOBBDEBGHN(::IJMLKBLCLGH* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::IJMLKBLCLGH*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CKOBBDEBGHN_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean KCGOOOHHALO(::KJLLEKDIBHE* a1, ::Il2CppArray<::System::Single>* a2, ::System::Object* a3)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::Il2CppArray<::System::Single>*, ::System::Object*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KCGOOOHHALO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean CCHGMKKHNND(::KJLLEKDIBHE* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CCHGMKKHNND_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean MPFPFONMIKC(::KJLLEKDIBHE* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MPFPFONMIKC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean OMJOPNOPAOM(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OMJOPNOPAOM_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean CMOGPCFAKCN(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CMOGPCFAKCN_OFFSET))(a1, a2);
+		}
+
+		static ::Il2CppArray<::System::Single>* MDBAPAOKMDI(::UnityEngine::Vector3 a1)
+		{
+			return ((::Il2CppArray<::System::Single>*(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MDBAPAOKMDI_OFFSET))(a1);
+		}
+
+		static ::System::Void OECOHOHKKPN(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OECOHOHKKPN_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void MHHNEMPJJPO(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MHHNEMPJJPO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void MADJOAFOEHH(::KJLLEKDIBHE* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MADJOAFOEHH_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void AHBOHJOMMIA(::KJLLEKDIBHE* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AHBOHJOMMIA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void KOELOBMHACG(::KJLLEKDIBHE* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KOELOBMHACG_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void JGMGKEEECJA(::System::String* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::UnityEngine::Vector3 a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JGMGKEEECJA_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void DECPKIHBGLP(::KJLLEKDIBHE* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DECPKIHBGLP_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void HDNCGIFBFFI(::KJLLEKDIBHE* a1, ::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HDNCGIFBFFI_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void JCACGIOMMFE(::KJLLEKDIBHE* a1, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a2, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JCACGIOMMFE_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void JCACGIOMMFE_1(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JCACGIOMMFE_1_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void MLCFGDJKOCL(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Int32 a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Int32, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MLCFGDJKOCL_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void KOKCBJHGLIG(::KJLLEKDIBHE* a1, ::Il2CppArray<::System::Single>* a2, ::System::String* a3, ::System::String* a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::Il2CppArray<::System::Single>*, ::System::String*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KOKCBJHGLIG_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void FLMPKJOIACE(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FLMPKJOIACE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean LLGKCFNNDNC(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LLGKCFNNDNC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean BJNHPCFGKJB(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BJNHPCFGKJB_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean NCPDHJLBILO(::KJLLEKDIBHE* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NCPDHJLBILO_OFFSET))(a1, a2);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>* HMGGHMKGBEL(::KJLLEKDIBHE* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::KJLLEKDIBHE*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HMGGHMKGBEL_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void MICPILHCHMO(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MICPILHCHMO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean BMMHMHMHBEH(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::UnityEngine::Vector3 a3)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BMMHMHMHBEH_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Single IKKMKJEFGCK(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::UnityEngine::Vector3 a3)
+		{
+			return ((::System::Single(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IKKMKJEFGCK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean MMBIOPHLBMH(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a3)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MMBIOPHLBMH_OFFSET))(a1, a2, a3);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>* CHLCGKPJMAP(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CHLCGKPJMAP_OFFSET))(a1);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>* DCOFAIBOELI(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DCOFAIBOELI_OFFSET))(a1, a2);
+		}
+
+		static ::JDNEAIDOOAN_LMKDFFLDGDN EGNCLNDANCC(::JDNEAIDOOAN_HHDHJGKDJEA* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::JDNEAIDOOAN_LMKDFFLDGDN(*)(::JDNEAIDOOAN_HHDHJGKDJEA*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EGNCLNDANCC_OFFSET))(a1, a2);
+		}
+
+		static ::JDNEAIDOOAN_LMKDFFLDGDN MKNLDOBAENK(::JDNEAIDOOAN_HHDHJGKDJEA* a1, ::JDNEAIDOOAN_LMKDFFLDGDN a2, ::UnityEngine::Vector3 a3, ::System::Int32 a4)
+		{
+			return ((::JDNEAIDOOAN_LMKDFFLDGDN(*)(::JDNEAIDOOAN_HHDHJGKDJEA*, ::JDNEAIDOOAN_LMKDFFLDGDN, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MKNLDOBAENK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::JDNEAIDOOAN_LMKDFFLDGDN OAOIFIGHOIC(::JDNEAIDOOAN_HHDHJGKDJEA* a1, ::JDNEAIDOOAN_LMKDFFLDGDN a2, ::UnityEngine::Vector3 a3)
+		{
+			return ((::JDNEAIDOOAN_LMKDFFLDGDN(*)(::JDNEAIDOOAN_HHDHJGKDJEA*, ::JDNEAIDOOAN_LMKDFFLDGDN, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OAOIFIGHOIC_OFFSET))(a1, a2, a3);
+		}
+
+		static ::RPGTools::LDWhiteBox::WhiteBoxRegion* LHKLIFEHMEK(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::RPGTools::LDWhiteBox::WhiteBoxRegion*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LHKLIFEHMEK_OFFSET))(a1);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>* BFOHIFEDBKM(::RPGTools::LDWhiteBox::ShapeType a1, ::System::Single a2, ::System::Single a3, ::Il2CppArray<::UnityEngine::Vector2>* a4)
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::RPGTools::LDWhiteBox::ShapeType, ::System::Single, ::System::Single, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BFOHIFEDBKM_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>* IGCIIBEEFHA(::System::Single a1, ::System::Single a2)
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IGCIIBEEFHA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean NKAHKDODGAB(::Il2CppArray<::UnityEngine::Vector2>* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NKAHKDODGAB_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean PBGLPCBAPFD(::Il2CppArray<::UnityEngine::Vector2>* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PBGLPCBAPFD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean FOHFIDFHAEN(::Il2CppArray<::UnityEngine::Vector2>* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FOHFIDFHAEN_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean FANNJGPLEIM(::Il2CppArray<::UnityEngine::Vector2>* a1, ::UnityEngine::Vector2 a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FANNJGPLEIM_OFFSET))(a1, a2);
+		}
+
+		static ::UnityEngine::Bounds EHEBNOAJNIK(::Il2CppArray<::UnityEngine::Vector2>* a1)
+		{
+			return ((::UnityEngine::Bounds(*)(::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EHEBNOAJNIK_OFFSET))(a1);
+		}
+
+		static ::System::Boolean JMECDJGLIPL(::UnityEngine::Vector2 a1, ::Il2CppArray<::UnityEngine::Vector2>* a2)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JMECDJGLIPL_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean MJJICIFDHAK(::UnityEngine::Vector2 a1, ::Il2CppArray<::UnityEngine::Vector2>* a2)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MJJICIFDHAK_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean NAPHODMELMA(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NAPHODMELMA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean PCAHHDMEGMK(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PCAHHDMEGMK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Single NBGGOIFJODO(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		{
+			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NBGGOIFJODO_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean COAACHELDAG(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_COAACHELDAG_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean JHMOFEDIGEE(::Il2CppArray<::System::Single>* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Single>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JHMOFEDIGEE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean HFPIBKFELAI(::Il2CppArray<::System::Single>* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Single>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HFPIBKFELAI_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean AOPOJCEJJEG(::System::Single a1)
+		{
+			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AOPOJCEJJEG_OFFSET))(a1);
+		}
+
+		static ::System::Boolean HMADPCEMDHL(::System::Single a1)
+		{
+			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HMADPCEMDHL_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* BPDNKPDDKAF(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::String* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BPDNKPDDKAF_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* LOOHIHEDMGG(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1, ::System::String* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LOOHIHEDMGG_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* NLDLNBCBBDB(::RPGTools::LDWhiteBox::WhiteBoxRouteNode* a1, ::System::String* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRouteNode*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NLDLNBCBBDB_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* EJKMBNPAILF(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::System::String* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EJKMBNPAILF_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void BMEONOCPLDD(::KJLLEKDIBHE* a1, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a2, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BMEONOCPLDD_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void EJLBECKEBHD(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EJLBECKEBHD_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void HLHACAKIPEC(::KJLLEKDIBHE* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::System::Collections::Generic::HashSet_1<::System::String*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HLHACAKIPEC_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void MGJNJHNELMH(::KJLLEKDIBHE* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MGJNJHNELMH_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void CILMKIMHBJM(::KJLLEKDIBHE* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CILMKIMHBJM_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean ADPHIDMEOBE(::System::String* a1, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a2)
+		{
+			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_ADPHIDMEOBE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void IFBFNKMMBJM(::KJLLEKDIBHE* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IFBFNKMMBJM_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void LBPEPFJDLIF(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LBPEPFJDLIF_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void EFGMHHODLFC(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EFGMHHODLFC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void EDGHPFNNHAN(::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EDGHPFNNHAN_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void NMMLDJKAICC(::System::String* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NMMLDJKAICC_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::HGGENLBDAPM* APLADMIFFMN(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_APLADMIFFMN_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean LFPPAAPJJOE(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LFPPAAPJJOE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void INPFPGKABLA(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_INPFPGKABLA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void OJKDJLEMIJO(::KJLLEKDIBHE* a1, ::CBAJOJJBMMA* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::CBAJOJJBMMA*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OJKDJLEMIJO_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::KJLLEKDIBHE* JOIPCKHBOEK(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::KJLLEKDIBHE*(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JOIPCKHBOEK_OFFSET))(a1, a2);
+		}
+
+		static ::Newtonsoft::Json::Linq::JObject* MGFFLLGNKOA(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a2, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a3)
+		{
+			return ((::Newtonsoft::Json::Linq::JObject*(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MGFFLLGNKOA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::Newtonsoft::Json::Linq::JArray* ELMOCCPIMNM(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JArray*(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_ELMOCCPIMNM_OFFSET))(a1);
+		}
+
+		static ::Newtonsoft::Json::Linq::JToken* FAAOAEDBBDM(::KJLLEKDIBHE* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JToken*(*)(::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FAAOAEDBBDM_OFFSET))(a1);
+		}
+
+		static ::Newtonsoft::Json::Linq::JArray* HFFKBDOFLKI(::System::Collections::Generic::IReadOnlyList_1<::CBAJOJJBMMA*>* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JArray*(*)(::System::Collections::Generic::IReadOnlyList_1<::CBAJOJJBMMA*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HFFKBDOFLKI_OFFSET))(a1);
+		}
+
+		static ::Newtonsoft::Json::Linq::JArray* PINFNOHOECA(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JArray*(*)(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PINFNOHOECA_OFFSET))(a1);
+		}
+
+		static ::Newtonsoft::Json::Linq::JArray* LFBDLCMJKOP(::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JArray*(*)(::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LFBDLCMJKOP_OFFSET))(a1);
+		}
+
+		static ::Newtonsoft::Json::Linq::JToken* CHILHKJJIKK(::IJMLKBLCLGH* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JToken*(*)(::IJMLKBLCLGH*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CHILHKJJIKK_OFFSET))(a1);
+		}
+
+		static ::Newtonsoft::Json::Linq::JToken* FOMPBFNCDEK(::Il2CppArray<::Il2CppArray<::System::Single>*>* a1)
+		{
+			return ((::Newtonsoft::Json::Linq::JToken*(*)(::Il2CppArray<::Il2CppArray<::System::Single>*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FOMPBFNCDEK_OFFSET))(a1);
+		}
+
+		static ::System::Single EDOKLDBJDCB(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a3)
+		{
+			return ((::System::Single(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EDOKLDBJDCB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void DMJCHHCEEME(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DMJCHHCEEME_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void KKFMGHHMFGE(::IJMLKBLCLGH* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::KJLLEKDIBHE* a3, ::System::Collections::Generic::HashSet_1<::System::String*>* a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Void(*)(::IJMLKBLCLGH*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::KJLLEKDIBHE*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KKFMGHHMFGE_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean LHCBLOHBKIO(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a3, ::System::Object* a4)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Object*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LHCBLOHBKIO_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::NJOOOHDMEJC OMBGCDBOIJM(::GGCJNDECBLC* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a2, ::System::Int32 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
+		{
+			return ((::NJOOOHDMEJC(*)(::GGCJNDECBLC*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OMBGCDBOIJM_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::UnityEngine::Vector3 CHKFJJGOAFP(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3)
+		{
+			return ((::UnityEngine::Vector3(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CHKFJJGOAFP_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void BCNEGLFLHIH(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a3, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a4, ::System::Object* a5, ::System::Object* a6)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BCNEGLFLHIH_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Boolean HLKEJCIMHGE(::KJLLEKDIBHE* a1, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a2, ::System::String* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HLKEJCIMHGE_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean BCJEJGOCPGC(::KJLLEKDIBHE* a1, ::System::String* a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::System::String*, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BCJEJGOCPGC_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>* LPGMBJCAILM(::IJMLKBLCLGH* a1, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a2)
+		{
+			return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::IJMLKBLCLGH*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LPGMBJCAILM_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean HEICPIOCFHJ(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::KJLLEKDIBHE* a3, ::System::Single a4)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::KJLLEKDIBHE*, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HEICPIOCFHJ_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean NPKNPBFPILB(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NPKNPBFPILB_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean LKBIBODHMEF(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LKBIBODHMEF_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean JANCHLKOBHI(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::System::Single a4)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JANCHLKOBHI_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean BIDKHJBPMPP(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
+		{
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BIDKHJBPMPP_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Boolean BDLGEPKMNCE(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BDLGEPKMNCE_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Single GIGPKNADACN(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
+		{
+			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GIGPKNADACN_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Single AIIAAMKGBOI(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
+		{
+			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AIIAAMKGBOI_OFFSET))(a1, a2, a3);
+		}
+
+		static ::UnityEngine::Vector2 JHNPOMIJFIL(::UnityEngine::Vector3 a1)
+		{
+			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JHNPOMIJFIL_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* AENLLMECIJP(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AENLLMECIJP_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* GDEAMJFKANI(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GDEAMJFKANI_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* GDEAMJFKANI_1(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::JDNEAIDOOAN_AOCCKKJPADL* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GDEAMJFKANI_1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean NLEMJIPAHFN(::HGGENLBDAPM* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Boolean(*)(::HGGENLBDAPM*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NLEMJIPAHFN_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean JIGIAOAAIPG(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JIGIAOAAIPG_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::JDNEAIDOOAN_EDPCDBPNADN* NAHOKLEPFHA(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::JDNEAIDOOAN_EDPCDBPNADN*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NAHOKLEPFHA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean JIGIAOAAIPG_1(::JDNEAIDOOAN_EDPCDBPNADN* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Boolean(*)(::JDNEAIDOOAN_EDPCDBPNADN*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JIGIAOAAIPG_1_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::HGGENLBDAPM* KEDPICJICLC(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KEDPICJICLC_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* GIPJMCEGLEI(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GIPJMCEGLEI_OFFSET))(a1);
+		}
+
+		static ::System::Boolean GAABGFCAIGO(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GAABGFCAIGO_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void FMEGGCMNAJI(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FMEGGCMNAJI_OFFSET))(a1, a2, a3);
+		}
+
+		static ::HGGENLBDAPM* OODAKBENLBD(::RPGTools::LDWhiteBox::WhiteBoxRouteNode* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRouteNode*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OODAKBENLBD_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* LLJLCBKLDEG(::RPGTools::LDWhiteBox::WhiteBoxRouteNode* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRouteNode*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LLJLCBKLDEG_OFFSET))(a1);
+		}
+
+		static ::System::Boolean BCHPCADAJPK(::RPGTools::LDWhiteBox::WhiteBoxRouteNode* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRouteNode*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BCHPCADAJPK_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::HGGENLBDAPM* HILOJDPGLKG(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::System::Single a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HILOJDPGLKG_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* OLDBEBGFPFD(::RPGTools::LDWhiteBox::WhiteBoxPath* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OLDBEBGFPFD_OFFSET))(a1);
+		}
+
+		static ::HGGENLBDAPM* OLDBEBGFPFD_1(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::JDNEAIDOOAN_AOCCKKJPADL* a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OLDBEBGFPFD_1_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* PECFENKMNPE(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PECFENKMNPE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void MNFKHFJKDPA(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MNFKHFJKDPA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void EOGDEHOAMOA(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EOGDEHOAMOA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void DCMDOBFKPBB(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::Il2CppArray<::UnityEngine::Vector2>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DCMDOBFKPBB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void LGDEALCFGKL(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LGDEALCFGKL_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void FPNOLFCOAJL(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FPNOLFCOAJL_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void NCPNNPJKODD(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NCPNNPJKODD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void AKCJKGKFLGB(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AKCJKGKFLGB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void KIDOJMJOAIJ(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KIDOJMJOAIJ_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void ILNAPEPCAFI(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_ILNAPEPCAFI_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void KLAPECNCFOL(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::HGGENLBDAPM* a3, ::JDNEAIDOOAN_AOCCKKJPADL* a4)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KLAPECNCFOL_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean DFHBKNNKCNP(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DFHBKNNKCNP_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void EKPCKMDKMME(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::UnityEngine::Transform* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::UnityEngine::Transform*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EKPCKMDKMME_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void DDFCJHECBLJ(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::UnityEngine::Transform* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::UnityEngine::Transform*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DDFCJHECBLJ_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void PDHKHPLCJPJ(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PDHKHPLCJPJ_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void PDHKHPLCJPJ_1(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::HGGENLBDAPM* a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::HGGENLBDAPM*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PDHKHPLCJPJ_1_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* CAOKDDLJMAE(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::System::Object* a3)
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Object*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CAOKDDLJMAE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::JDNEAIDOOAN_MADNIGELLHB* JOGHBMMHFAE(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::JDNEAIDOOAN_MADNIGELLHB*(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JOGHBMMHFAE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void LINBEADJEOC(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3, ::HGGENLBDAPM* a4, ::JDNEAIDOOAN_AOCCKKJPADL* a5)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::HGGENLBDAPM*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LINBEADJEOC_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean PNEBCEJJIMD(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3, ::JDNEAIDOOAN_AOCCKKJPADL* a4)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PNEBCEJJIMD_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void NCPAJKGMKBC(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NCPAJKGMKBC_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean NKEJOFCKKII(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::RPGTools::LDWhiteBox::WhiteBoxRegion* a2)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NKEJOFCKKII_OFFSET))(a1, a2);
+		}
+
+		static ::RPGTools::LDWhiteBox::WhiteBoxRegion* HAFDBEJNEID(::UnityEngine::Transform* a1)
+		{
+			return ((::RPGTools::LDWhiteBox::WhiteBoxRegion*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HAFDBEJNEID_OFFSET))(a1);
+		}
+
+		static ::System::Boolean GJKBBJDAKFO(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GJKBBJDAKFO_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* LIDEBLFALKP(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LIDEBLFALKP_OFFSET))(a1, a2, a3);
+		}
+
+		static ::UnityEngine::Vector3 KNJLILEFNKH(::JDNEAIDOOAN_EDPCDBPNADN* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::UnityEngine::Vector3(*)(::JDNEAIDOOAN_EDPCDBPNADN*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KNJLILEFNKH_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean BFFCBDMNBCJ(::JDNEAIDOOAN_EDPCDBPNADN* a1, ::UnityEngine::Vector3 a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Boolean(*)(::JDNEAIDOOAN_EDPCDBPNADN*, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BFFCBDMNBCJ_OFFSET))(a1, a2, a3);
+		}
+
+		static ::HGGENLBDAPM* PNOMCKCAELF(::RPGTools::LDWhiteBox::WhiteBoxRouteNode* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRouteNode*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PNOMCKCAELF_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* IBPBBJANBEC(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IBPBBJANBEC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void MMHHPFABCHJ(::UnityEngine::Transform* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MMHHPFABCHJ_OFFSET))(a1, a2);
+		}
+
+		static ::UnityEngine::Vector3 GPFFKOBIIJO(::RPGTools::LDWhiteBox::WhiteBoxConnector* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::UnityEngine::Vector3(*)(::RPGTools::LDWhiteBox::WhiteBoxConnector*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GPFFKOBIIJO_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::UnityEngine::Vector3 HBJCAPBAMCH(::RPGTools::LDWhiteBox::WhiteBoxRouteNode* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::UnityEngine::Vector3(*)(::RPGTools::LDWhiteBox::WhiteBoxRouteNode*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HBJCAPBAMCH_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean HMADPCEMDHL_1(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HMADPCEMDHL_1_OFFSET))(a1);
+		}
+
+		static ::System::Collections::Generic::IReadOnlyList_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>* CLPPLGDAHDO(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::JDNEAIDOOAN_AOCCKKJPADL* a2)
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CLPPLGDAHDO_OFFSET))(a1, a2);
+		}
+
+		static ::JDNEAIDOOAN_JEHPNMNHPLJ LOFGOFDDCCP(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::JDNEAIDOOAN_AOCCKKJPADL* a2)
+		{
+			return ((::JDNEAIDOOAN_JEHPNMNHPLJ(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LOFGOFDDCCP_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void DHLFOMCKGGO(::HGGENLBDAPM* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::HGGENLBDAPM*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DHLFOMCKGGO_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* HHCBHIDHEOI(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HHCBHIDHEOI_OFFSET))(a1);
+		}
+
+		static ::System::Boolean FPLFELJDPCL(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>* a2)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FPLFELJDPCL_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void JHMNLEMFNPO(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JHMNLEMFNPO_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void PGANPJIFIPK(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::UnityEngine::Transform*, ::System::Boolean, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PGANPJIFIPK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void HFFKHKNCFLL(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HFFKHKNCFLL_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void HFFKHKNCFLL_1(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>* a2, ::System::Collections::Generic::Dictionary_2<::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Object*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>*, ::System::Collections::Generic::Dictionary_2<::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Object*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HFFKHKNCFLL_1_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void AFIAKONCJCN(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AFIAKONCJCN_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void AFIAKONCJCN_1(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>* a2, ::System::Collections::Generic::Dictionary_2<::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Object*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>*, ::System::Collections::Generic::Dictionary_2<::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Object*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AFIAKONCJCN_1_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>* IHIOHFMLADH(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IHIOHFMLADH_OFFSET))(a1);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxConnector*>* KANEDIEHMLB(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxConnector*>*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KANEDIEHMLB_OFFSET))(a1);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxRouteNode*>* IDLAHBLDLPG(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::System::Collections::Generic::List_1<::RPGTools::LDWhiteBox::WhiteBoxRouteNode*>*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IDLAHBLDLPG_OFFSET))(a1);
+		}
+
+		static ::System::Boolean JEEPNDCOJKG(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::System::Collections::Generic::HashSet_1<::UnityEngine::Transform*>* a2)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::System::Collections::Generic::HashSet_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JEEPNDCOJKG_OFFSET))(a1, a2);
+		}
+
+		static ::System::String* GJMPAHDHACI(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1)
+		{
+			return ((::System::String*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GJMPAHDHACI_OFFSET))(a1);
+		}
+
+		static ::System::String* DDHFKOMBPKN(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Transform* a2)
+		{
+			return ((::System::String*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DDHFKOMBPKN_OFFSET))(a1, a2);
+		}
+
+		static ::JDNEAIDOOAN_DGHBNJPKMBI CCEPGEPMMML(::RPGTools::LDWhiteBox::WhiteBoxPath* a1, ::System::Collections::Generic::Dictionary_2<::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Object*>* a2)
+		{
+			return ((::JDNEAIDOOAN_DGHBNJPKMBI(*)(::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Collections::Generic::Dictionary_2<::RPGTools::LDWhiteBox::WhiteBoxPath*, ::System::Object*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CCEPGEPMMML_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* CPEIHBDCHIP(::System::String* a1)
+		{
+			return ((::HGGENLBDAPM*(*)(::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CPEIHBDCHIP_OFFSET))(a1);
+		}
+
+		static ::System::Void HCLKBFBJNOP(::Newtonsoft::Json::Linq::JObject* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HCLKBFBJNOP_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void LMDMKDAPPFH(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LMDMKDAPPFH_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void IGFOEBIKHME(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IGFOEBIKHME_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void BIOEADPAMJM(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BIOEADPAMJM_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void FINHCOLAMNE(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FINHCOLAMNE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void DBCGCKPIJOE(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DBCGCKPIJOE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void JILMLJAKPOL(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JILMLJAKPOL_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void HMFOBFPKFMK(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HMFOBFPKFMK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void FKMIFJLDBIB(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FKMIFJLDBIB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void PBEEPJFHLJG(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PBEEPJFHLJG_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void FOBLNNDFPAG(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>* a5)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FOBLNNDFPAG_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void OICAEIOLKIF(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>* a5)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OICAEIOLKIF_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void CGBNBKPECFI(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>* a4)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CGBNBKPECFI_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void EFIEPIODKOG(::Newtonsoft::Json::Linq::JObject* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::System::String* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EFIEPIODKOG_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void LJCDOHBLIIG(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LJCDOHBLIIG_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void LJKDFFCBHPG(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LJKDFFCBHPG_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void LCDMCCCFPBN(::Newtonsoft::Json::Linq::JToken* a1, ::System::Int32 a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Boolean a5)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::String*, ::HGGENLBDAPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LCDMCCCFPBN_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void GKMDJMLOKGA(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GKMDJMLOKGA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean HIOLCGOKEKG(::Newtonsoft::Json::Linq::JToken* a1, ::System::Double a2)
+		{
+			return ((::System::Boolean(*)(::Newtonsoft::Json::Linq::JToken*, ::System::Double))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HIOLCGOKEKG_OFFSET))(a1, a2);
+		}
+
+		static ::System::String* NADMPNCJINC(::Newtonsoft::Json::Linq::JToken* a1)
+		{
+			return ((::System::String*(*)(::Newtonsoft::Json::Linq::JToken*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NADMPNCJINC_OFFSET))(a1);
+		}
+
+		static ::System::Void MGGEHPDIHLB(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MGGEHPDIHLB_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean IOCNOGMLKGC(::KJLLEKDIBHE* a1)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IOCNOGMLKGC_OFFSET))(a1);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* KPPFPGPLEEE(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2)
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KPPFPGPLEEE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void PEIGGBHCAIG(::KJLLEKDIBHE* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PEIGGBHCAIG_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void KJMFEAKJNFN(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::GHMBKJFBPII*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KJMFEAKJNFN_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void DCJCMMPEJHL(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DCJCMMPEJHL_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void DDLIHHLDAGK(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a3, ::System::Collections::Generic::HashSet_1<::System::String*>* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* a5, ::HGGENLBDAPM* a6)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DDLIHHLDAGK_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Boolean GGHALICKKGH(::IJMLKBLCLGH* a1, ::HGGENLBDAPM* a2, ::System::String* a3, ::System::String* a4)
+		{
+			return ((::System::Boolean(*)(::IJMLKBLCLGH*, ::HGGENLBDAPM*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GGHALICKKGH_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::JDNEAIDOOAN_LECEFIDKNNG* MJPJGNJKNNF(::IJMLKBLCLGH* a1, ::System::String* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::JDNEAIDOOAN_LECEFIDKNNG*(*)(::IJMLKBLCLGH*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MJPJGNJKNNF_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void KPBBBKJHBME(::IJMLKBLCLGH* a1, ::JDNEAIDOOAN_LECEFIDKNNG* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::IJMLKBLCLGH*, ::JDNEAIDOOAN_LECEFIDKNNG*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KPBBBKJHBME_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void BNPAKGMLJEN(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BNPAKGMLJEN_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>* NLLBFOIGOOK(::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>* a1)
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>*(*)(::System::Collections::Generic::IReadOnlyList_1<::IJMLKBLCLGH*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NLLBFOIGOOK_OFFSET))(a1);
+		}
+
+		static ::System::Void BNPAKGMLJEN_1(::KJLLEKDIBHE* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BNPAKGMLJEN_1_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void KPBBBKJHBME_1(::System::String* a1, ::CBAJOJJBMMA* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::System::String*, ::CBAJOJJBMMA*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::IJMLKBLCLGH*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KPBBBKJHBME_1_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean GMMMCPENJHH(::IJMLKBLCLGH* a1, ::System::String* a2)
+		{
+			return ((::System::Boolean(*)(::IJMLKBLCLGH*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GMMMCPENJHH_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void IDNONFJDFID(::KJLLEKDIBHE* a1, ::IJMLKBLCLGH* a2, ::JDNEAIDOOAN_LECEFIDKNNG* a3, ::JDNEAIDOOAN_LECEFIDKNNG* a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::JDNEAIDOOAN_LECEFIDKNNG*, ::JDNEAIDOOAN_LECEFIDKNNG*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IDNONFJDFID_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void PEPKBDPPHAE(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a3, ::System::Collections::Generic::HashSet_1<::System::String*>* a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PEPKBDPPHAE_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void CMBOKDCAKPF(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2, ::System::Collections::Generic::HashSet_1<::System::String*>* a3, ::HGGENLBDAPM* a4)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CMBOKDCAKPF_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void KILLCEPODNJ(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a3, ::System::Collections::Generic::HashSet_1<::System::String*>* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* a5, ::HGGENLBDAPM* a6)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KILLCEPODNJ_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::String* ELDFKHCOJPG(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2)
+		{
+			return ((::System::String*(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_ELDFKHCOJPG_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void KEGBEKECDEP(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* a3)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KEGBEKECDEP_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>* CENEPEDEMJP(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* a2)
+		{
+			return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CENEPEDEMJP_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void KLMGFFBIKLL(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a3, ::System::Collections::Generic::HashSet_1<::System::String*>* a4, ::System::Collections::Generic::HashSet_1<::System::String*>* a5, ::HGGENLBDAPM* a6)
+		{
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_KLMGFFBIKLL_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Void FHMKABILAJK(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* a1, ::System::String* a2, ::System::String* a3)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FHMKABILAJK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean IPLINEPHMAI(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_IPLINEPHMAI_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* DOCMMKLGMEN(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a3, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>* a4)
+		{
+			return ((::HGGENLBDAPM*(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*, ::System::Collections::Generic::IReadOnlyCollection_1<::System::String*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_DOCMMKLGMEN_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::HGGENLBDAPM* NKIKOLFCJFK(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NKIKOLFCJFK_OFFSET))(a1, a2);
+		}
+
+		static ::HGGENLBDAPM* NKIKOLFCJFK_1(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::JDNEAIDOOAN_AOCCKKJPADL* a3)
+		{
+			return ((::HGGENLBDAPM*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::JDNEAIDOOAN_AOCCKKJPADL*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NKIKOLFCJFK_1_OFFSET))(a1, a2, a3);
+		}
+
+		static ::JDNEAIDOOAN_HHDHJGKDJEA* AHKCICABMKB(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::JDNEAIDOOAN_HHDHJGKDJEA*(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_AHKCICABMKB_OFFSET))(a1, a2);
+		}
+
+		static ::JDNEAIDOOAN_LMKDFFLDGDN OJHNOIEOKGN(::JDNEAIDOOAN_HHDHJGKDJEA* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::JDNEAIDOOAN_LMKDFFLDGDN(*)(::JDNEAIDOOAN_HHDHJGKDJEA*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OJHNOIEOKGN_OFFSET))(a1, a2);
+		}
+
+		static ::JDNEAIDOOAN_DKNIKHENHFG HLHAFHHELHL(::JDNEAIDOOAN_HHDHJGKDJEA* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::JDNEAIDOOAN_DKNIKHENHFG(*)(::JDNEAIDOOAN_HHDHJGKDJEA*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_HLHAFHHELHL_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean BDOKPPILPIF(::RPGTools::LDWhiteBox::WhiteBoxRegion* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::HGGENLBDAPM* a5)
+		{
+			return ((::System::Boolean(*)(::RPGTools::LDWhiteBox::WhiteBoxRegion*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_BDOKPPILPIF_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean NFNPONHELEH(::HGGENLBDAPM* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::System::Boolean(*)(::HGGENLBDAPM*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NFNPONHELEH_OFFSET))(a1, a2);
+		}
+
+		static ::GDHCJAOOKDB* FGMLJMBCPOF(::HGGENLBDAPM* a1, ::HGGENLBDAPM* a2)
+		{
+			return ((::GDHCJAOOKDB*(*)(::HGGENLBDAPM*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FGMLJMBCPOF_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean JNHJFBCEPCK(::HGGENLBDAPM* a1, ::GDHCJAOOKDB* a2)
+		{
+			return ((::System::Boolean(*)(::HGGENLBDAPM*, ::GDHCJAOOKDB*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_JNHJFBCEPCK_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean GJAHPKPBEJD(::GDHCJAOOKDB* a1, ::GDHCJAOOKDB* a2)
+		{
+			return ((::System::Boolean(*)(::GDHCJAOOKDB*, ::GDHCJAOOKDB*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_GJAHPKPBEJD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean NNMIBGOCCIB(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
+		{
+			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::KJLLEKDIBHE*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_NNMIBGOCCIB_OFFSET))(a1, a2, a3);
+		}
+
+	};

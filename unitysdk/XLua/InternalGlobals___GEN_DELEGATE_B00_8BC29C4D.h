@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IResidentActivityPanelData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11855BE0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11855C10)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_INVOKE_OFFSET UNITYSDK_OFFSET(0x11855BD0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D__CTOR_OFFSET UNITYSDK_OFFSET(0x11855AE0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA6B70)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA6A70)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA6BA0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA6B60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_8BC29C4D_TypeDefinitionIndex = 50472;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_8BC29C4D_TypeDefinitionIndex = 50106;
 
 	class InternalGlobals___GEN_DELEGATE_B00_8BC29C4D : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::Client::IResidentActivityPanelData* a1)
@@ -38,5 +37,6 @@ namespace XLua
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_8BC29C4D_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

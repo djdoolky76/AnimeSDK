@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/CFObject.h"
-
+namespace Mono::Net { class CFUrl; }
 namespace System { class String; }
 
-#define MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x1C474880)
-#define MONO_NET_CFURL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C46FA70)
-#define MONO_NET_CFURL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4747F0)
+#define MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x1EF941E0)
+#define MONO_NET_CFURL_CREATE_OFFSET UNITYSDK_OFFSET(0x1EF8F3D0)
+#define MONO_NET_CFURL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF94150)
 
 namespace Mono::Net
 {
@@ -17,7 +17,7 @@ namespace Mono::Net
 	public:
 		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFURL__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFURL_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::IntPtr CFURLCreateWithString(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
@@ -29,5 +29,6 @@ namespace Mono::Net
 		{
 			return ((::Mono::Net::CFUrl*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_NET_CFURL_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

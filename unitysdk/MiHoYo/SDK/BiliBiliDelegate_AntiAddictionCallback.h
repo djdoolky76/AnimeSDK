@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4650)
-#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A46B0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1A4640)
-#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A45C0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1AE00)
+#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1AD70)
+#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1AE60)
+#define MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC1ADF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_AntiAddictionCallback_TypeDefinitionIndex = 7551;
+	inline static constexpr unsigned int BiliBiliDelegate_AntiAddictionCallback_TypeDefinitionIndex = 7605;
 
 	class BiliBiliDelegate_AntiAddictionCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Int32 a2)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_ANTIADDICTIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

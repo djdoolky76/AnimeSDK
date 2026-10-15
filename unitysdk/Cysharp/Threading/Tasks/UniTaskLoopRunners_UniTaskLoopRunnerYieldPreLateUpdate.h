@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskLoopRunners_UniTaskLoopRunnerYieldPreLateUpdate_TypeDefinitionIndex = 42610;
+	inline static constexpr unsigned int UniTaskLoopRunners_UniTaskLoopRunnerYieldPreLateUpdate_TypeDefinitionIndex = 38195;
 
-	struct alignas(1) UniTaskLoopRunners_UniTaskLoopRunnerYieldPreLateUpdate
+	struct alignas(4) UniTaskLoopRunners_UniTaskLoopRunnerYieldPreLateUpdate
 	{
 	};
 }

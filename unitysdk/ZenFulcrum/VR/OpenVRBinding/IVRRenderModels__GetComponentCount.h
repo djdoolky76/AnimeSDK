@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE560)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE590)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDE550)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDE4E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F658AE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F658A60)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F658B10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F658AD0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__GetComponentCount_TypeDefinitionIndex = 37853;
+	inline static constexpr unsigned int IVRRenderModels__GetComponentCount_TypeDefinitionIndex = 39150;
 
 	class IVRRenderModels__GetComponentCount : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETCOMPONENTCOUNT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

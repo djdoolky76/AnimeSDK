@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingFesToastStyleType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingFesToastConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESTOASTCONFIG_METHOD_2_F62BCDFB8497939B_OFFSET UNITYSDK_OFFSET(0x1E016F80)
-#define RPG_GAMECORE_CHENLINGFESTOASTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E017C20)
+#define RPG_GAMECORE_CHENLINGFESTOASTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D563540)
+#define RPG_GAMECORE_CHENLINGFESTOASTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D562790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesToastConfig_TypeDefinitionIndex = 18238;
+	inline static constexpr unsigned int ChenLingFesToastConfig_TypeDefinitionIndex = 18453;
 
 	class ChenLingFesToastConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,15 +21,15 @@ namespace RPG::GameCore
 		::System::String* IconPath; // 0x20
 		::RPG::GameCore::ChenLingFesToastStyleType StyleType; // 0x28
 		::System::Single Duration; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTOASTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTOASTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F62BCDFB8497939B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesToastConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesToastConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesToastConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTOASTCONFIG_METHOD_2_F62BCDFB8497939B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesToastConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESTOASTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

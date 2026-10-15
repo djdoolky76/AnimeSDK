@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AnimatorParameterType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::Prop { class ChimeraGameObjectBuilder; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_METHOD_5_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x1A8F56E0)
-#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_METHOD_5_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x1A8F5570)
-#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_START_OFFSET UNITYSDK_OFFSET(0x1A8F5520)
-#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F5E20)
+#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC7A1B0)
+#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xDC79900)
+#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_MLIKMCHDMEN_OFFSET UNITYSDK_OFFSET(0xDC79A70)
+#define RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_START_OFFSET UNITYSDK_OFFSET(0xDC798B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraViewBuilder_TypeDefinitionIndex = 78033;
+	inline static constexpr unsigned int ChimeraViewBuilder_TypeDefinitionIndex = 78504;
 
 	class ChimeraViewBuilder : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,13 +21,13 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::ChimeraGameObjectBuilder* Builder; // 0x18
 		::UnityEngine::Animator* Animator; // 0x20
 		::System::UInt32 ChimeraID; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* AnimatorParamName; // 0x30
 		::RPG::GameCore::AnimatorParameterType ParamType; // 0x38
 		::System::Single ParamValue; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -36,14 +35,15 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_START_OFFSET))(this);
 		}
 
-		::System::Void Method_5_25DEA5C65A602671()
+		::System::Void DIOEAJEHHND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_METHOD_5_25DEA5C65A602671_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_DIOEAJEHHND_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0865E94460F11643()
+		::System::Void MLIKMCHDMEN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_METHOD_5_0865E94460F11643_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAVIEWBUILDER_MLIKMCHDMEN_OFFSET))(this);
 		}
+
 	};
 }

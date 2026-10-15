@@ -3,7 +3,6 @@
 #include "unitysdk/RPG/Client/MonoCurveRateSlider_ContentMoveDirection.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace SuperScrollView { class LoopListView2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -12,31 +11,34 @@ namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOCURVERATESLIDER_PLAYSIMPLIFIED_OFFSET UNITYSDK_OFFSET(0x19E3C9C0)
-#define RPG_CLIENT_MONOCURVERATESLIDER_PLAY_OFFSET UNITYSDK_OFFSET(0x19E3C570)
-#define RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E3CA20)
-#define RPG_CLIENT_MONOCURVERATESLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E3CA80)
-#define RPG_CLIENT_MONOCURVERATESLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3CCF0)
-#define RPG_CLIENT_MONOCURVERATESLIDER__INIT_OFFSET UNITYSDK_OFFSET(0x19E3C5D0)
-#define RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET UNITYSDK_OFFSET(0x19E3CAE0)
+#define RPG_CLIENT_MONOCURVERATESLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD738300)
+#define RPG_CLIENT_MONOCURVERATESLIDER_PLAYSIMPLIFIED_OFFSET UNITYSDK_OFFSET(0xD737FD0)
+#define RPG_CLIENT_MONOCURVERATESLIDER_PLAY_OFFSET UNITYSDK_OFFSET(0xD737B80)
+#define RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xD738030)
+#define RPG_CLIENT_MONOCURVERATESLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD738090)
+#define RPG_CLIENT_MONOCURVERATESLIDER__INIT_OFFSET UNITYSDK_OFFSET(0xD737BE0)
+#define RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET UNITYSDK_OFFSET(0xD7380F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveRateSlider_TypeDefinitionIndex = 72502;
+	inline static constexpr unsigned int MonoCurveRateSlider_TypeDefinitionIndex = 72576;
 
 	class MonoCurveRateSlider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _CanUpdate; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single _Distance; // 0x1C
 		::System::Single _CurTime; // 0x20
 		::UnityEngine::Vector2 _TargetPosition; // 0x24
 		::UnityEngine::Vector2 _StartPosition; // 0x2C
 		::System::Boolean _StartPlay; // 0x34
+		::System::Byte _padding1[0x3];
 		::System::Action_1<::XLua::LuaTable*>* _OnPerformFinished; // 0x38
 		::XLua::LuaTable* _Table; // 0x40
 		::UnityEngine::UI::ScrollRect* _ScrollRect; // 0x48
 		::System::Single _TotalTime; // 0x50
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* _CurCurve; // 0x58
 		::System::UInt32 TargetObjectIndex; // 0x60
 		::System::UInt32 TotalObjectNum; // 0x64
@@ -48,12 +50,12 @@ namespace RPG::Client
 		::UnityEngine::RectTransform* ContentRectTrans; // 0x88
 		::RPG::Client::MonoCurveRateSlider_ContentMoveDirection MoveDirection; // 0x90
 		::System::Boolean _IsIgnoreY; // 0x94
+		::System::Byte _padding3[0x3];
 		::UnityEngine::AnimationCurve* FirstSightCurveRate; // 0x98
 		::UnityEngine::AnimationCurve* CommonCurveRate; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Play()
@@ -85,5 +87,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET))(this, a1);
 		}
+
 	};
 }

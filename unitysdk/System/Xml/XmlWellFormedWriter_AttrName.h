@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x3C5A1E0)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x3C5A1C0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x3C5A060)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x3C5A040)
 
 namespace System::Xml
 {
@@ -17,7 +15,6 @@ namespace System::Xml
 		::System::String* namespaceUri; // 0x18
 		::System::String* localName; // 0x20
 		::System::Int32 prev; // 0x28
-
 		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET))(this, a1, a2, a3);
@@ -27,5 +24,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

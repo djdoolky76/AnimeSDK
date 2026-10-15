@@ -4,26 +4,24 @@
 #include "unitysdk/UnityEngine/ProBuilder/Edge.h"
 #include "unitysdk/UnityEngine/ProBuilder/EdgeLookup.h"
 #include "unitysdk/UnityEngine/ProBuilder/SimpleTuple_2.h"
-
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_ALIGNEDGEWITHDIRECTION_OFFSET UNITYSDK_OFFSET(0xD000680)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_EXPLODEVERTEX_OFFSET UNITYSDK_OFFSET(0xCFC6010)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_MERGEVERTICES_OFFSET UNITYSDK_OFFSET(0xCFFEFD0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_SPLITVERTICES_1_OFFSET UNITYSDK_OFFSET(0xCFFF3D0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_SPLITVERTICES_OFFSET UNITYSDK_OFFSET(0xCFFF370)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_WELDVERTICES_OFFSET UNITYSDK_OFFSET(0xCFFF9B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_ALIGNEDGEWITHDIRECTION_OFFSET UNITYSDK_OFFSET(0x1F2163E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_EXPLODEVERTEX_OFFSET UNITYSDK_OFFSET(0x1F1DBEB0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_MERGEVERTICES_OFFSET UNITYSDK_OFFSET(0x1F214D30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_SPLITVERTICES_1_OFFSET UNITYSDK_OFFSET(0x1F215130)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_SPLITVERTICES_OFFSET UNITYSDK_OFFSET(0x1F2150D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_WELDVERTICES_OFFSET UNITYSDK_OFFSET(0x1F215710)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int VertexEditing_TypeDefinitionIndex = 43331;
+	inline static constexpr unsigned int VertexEditing_TypeDefinitionIndex = 44523;
 
 	class VertexEditing : public ::System::Object
 	{
@@ -48,14 +46,15 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_WELDVERTICES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::FaceRebuildData* ExplodeVertex(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32>>* a2, ::System::Single a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>*& a4)
+		static ::UnityEngine::ProBuilder::FaceRebuildData* ExplodeVertex(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32>>* a2, ::System::Single a3, ::System::Object* a4)
 		{
-			return ((::UnityEngine::ProBuilder::FaceRebuildData*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32>>*, ::System::Single, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_EXPLODEVERTEX_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::ProBuilder::FaceRebuildData*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32>>*, ::System::Single, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_EXPLODEVERTEX_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(::UnityEngine::ProBuilder::EdgeLookup a1, ::System::Int32 a2)
 		{
 			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::EdgeLookup, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_VERTEXEDITING_ALIGNEDGEWITHDIRECTION_OFFSET))(a1, a2);
 		}
+
 	};
 }

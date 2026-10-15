@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
+namespace RPG::GameCore { class SetEntityPosition; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_3D44CB3BB23C6241_OFFSET UNITYSDK_OFFSET(0x1E8293D0)
-#define RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_B11FC59FC2746F71_OFFSET UNITYSDK_OFFSET(0x1E829330)
-#define RPG_GAMECORE_SETENTITYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E829390)
+#define RPG_GAMECORE_SETENTITYPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA837A0)
+#define RPG_GAMECORE_SETENTITYPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA837E0)
+#define RPG_GAMECORE_SETENTITYPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA83740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 23481;
+	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 23755;
 
 	class SetEntityPosition : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,21 +28,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::EntityPosAdaptionConfig* PosAdaption; // 0x48
 		::System::Boolean UpdateRootOffset; // 0x50
 		::System::Boolean SetRotation; // 0x51
+		::System::Byte _padding0[0x6];
 		::RPG::GameCore::DynamicFloat* YawAngle; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B11FC59FC2746F71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityPosition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetEntityPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_B11FC59FC2746F71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetEntityPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3D44CB3BB23C6241(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityPosition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetEntityPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_3D44CB3BB23C6241_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetEntityPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

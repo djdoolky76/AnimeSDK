@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ArrayPoolWrapper_1.h"
+namespace RPG::GameCore { class AddBehaviorFlagForModifier; }
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
+
+#define LJBOAKMIFKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DA900)
+#define LJBOAKMIFKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DA930)
+
+inline static constexpr unsigned int LJBOAKMIFKM_TypeDefinitionIndex = 55177;
+
+	class LJBOAKMIFKM
+	{
+	public:
+		::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> PIIIMMOPIKE; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddBehaviorFlagForModifier* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AddBehaviorFlagForModifier*))((::PBYTE)hIl2Cpp + LJBOAKMIFKM_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJBOAKMIFKM_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

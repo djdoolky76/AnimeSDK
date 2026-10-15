@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_INT32_OFFSET UNITYSDK_OFFSET(0x19050)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x3BB1CB0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_STRING_OFFSET UNITYSDK_OFFSET(0x3BB1C90)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1CC0E2D0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x39A9C20)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x3BB1C80)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0xE590)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x3C23440)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_INT32_OFFSET UNITYSDK_OFFSET(0xE620)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x3C23470)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_STRING_OFFSET UNITYSDK_OFFSET(0x3C23450)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C262310)
 
 namespace System
 {
@@ -18,23 +16,25 @@ namespace System
 
 	struct alignas(8) ParameterizedStrings_FormatParam
 	{
-		::System::Int32 _int32; // 0x10
+		::System::Int32 _int32_; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* _string; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
+		/*
 		static ::System::ParameterizedStrings_FormatParam op_Implicit(::System::Int32 a1)
 		{
 			return ((::System::ParameterizedStrings_FormatParam(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
 		::System::Int32 get_Int32()
 		{
@@ -50,5 +50,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_OBJECT_OFFSET))(this);
 		}
+
 	};
 }

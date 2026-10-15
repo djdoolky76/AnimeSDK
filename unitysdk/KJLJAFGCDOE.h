@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyPassengerDiaryRow; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define KJLJAFGCDOE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D06A560)
+#define KJLJAFGCDOE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D06B0B0)
+#define KJLJAFGCDOE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D06A900)
+#define KJLJAFGCDOE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D06A5A0)
+#define KJLJAFGCDOE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D06ADF0)
+#define KJLJAFGCDOE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D06A9A0)
+#define KJLJAFGCDOE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D06A9F0)
+#define KJLJAFGCDOE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D06A7D0)
+#define KJLJAFGCDOE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D06AD90)
+#define KJLJAFGCDOE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D06AF60)
+#define KJLJAFGCDOE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D06A860)
+#define KJLJAFGCDOE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D06AD10)
+
+inline static constexpr unsigned int KJLJAFGCDOE_TypeDefinitionIndex = 15347;
+
+	class KJLJAFGCDOE : public ::System::Object
+	{
+	public:
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KJLJAFGCDOE")->GetStaticField(0x34CD0);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KJLJAFGCDOE")->GetStaticField(0x34CD8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrainPartyPassengerDiaryRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrainPartyPassengerDiaryRow*>**)UnitySDK::FromName("", "KJLJAFGCDOE")->GetStaticField(0x34CE0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "KJLJAFGCDOE")->GetStaticField(0xAAE0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "KJLJAFGCDOE")->GetStaticField(0xAAE1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_CCTOR_OFFSET))();
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + KJLJAFGCDOE_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + KJLJAFGCDOE_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + KJLJAFGCDOE_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::TrainPartyPassengerDiaryRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::TrainPartyPassengerDiaryRow*))((::PBYTE)hIl2Cpp + KJLJAFGCDOE_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrainPartyPassengerDiaryRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrainPartyPassengerDiaryRow*>*(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrainPartyPassengerDiaryRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrainPartyPassengerDiaryRow*>(*)())((::PBYTE)hIl2Cpp + KJLJAFGCDOE_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::RPG::GameCore::TrainPartyPassengerDiaryRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::TrainPartyPassengerDiaryRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + KJLJAFGCDOE_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+	};

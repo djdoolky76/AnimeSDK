@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierForceChangeRogueAdventureRewardLevelConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_METHOD_3_29EA84D5CE9C2892_OFFSET UNITYSDK_OFFSET(0x1EEF9B30)
-#define RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_METHOD_3_A9F3ED0FDB90492E_OFFSET UNITYSDK_OFFSET(0x1EEF9B80)
-#define RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF9B70)
+#define RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E9560)
+#define RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E9570)
+#define RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E9520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierForceChangeRogueAdventureRewardLevelConfig_TypeDefinitionIndex = 17619;
+	inline static constexpr unsigned int RogueModifierForceChangeRogueAdventureRewardLevelConfig_TypeDefinitionIndex = 17831;
 
 	class RogueModifierForceChangeRogueAdventureRewardLevelConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_29EA84D5CE9C2892(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_METHOD_3_29EA84D5CE9C2892_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A9F3ED0FDB90492E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_METHOD_3_A9F3ED0FDB90492E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierForceChangeRogueAdventureRewardLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERFORCECHANGEROGUEADVENTUREREWARDLEVELCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

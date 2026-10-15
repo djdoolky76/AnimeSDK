@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/LoopSceneMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoopMoveObject; }
+namespace RPG::GameCore { class TriggerLoopScene; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERLOOPSCENE_METHOD_3_6FEA6A8D8BE40FBC_OFFSET UNITYSDK_OFFSET(0x1D28FB50)
-#define RPG_GAMECORE_TRIGGERLOOPSCENE_METHOD_3_B62884CBC2E98788_OFFSET UNITYSDK_OFFSET(0x1D28FAD0)
-#define RPG_GAMECORE_TRIGGERLOOPSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28FB20)
+#define RPG_GAMECORE_TRIGGERLOOPSCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC269D0)
+#define RPG_GAMECORE_TRIGGERLOOPSCENE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC26A00)
+#define RPG_GAMECORE_TRIGGERLOOPSCENE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC26980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerLoopScene_TypeDefinitionIndex = 20192;
+	inline static constexpr unsigned int TriggerLoopScene_TypeDefinitionIndex = 20430;
 
 	class TriggerLoopScene : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,21 +29,22 @@ namespace RPG::GameCore
 		::System::UInt32 SceneSize; // 0x58
 		::System::Single SceneLength; // 0x5C
 		::System::Single MaxRollbackLength; // 0x60
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::LoopMoveObject*>* MoveObjects; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLOOPSCENE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLOOPSCENE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B62884CBC2E98788(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerLoopScene*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerLoopScene* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerLoopScene*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLOOPSCENE_METHOD_3_B62884CBC2E98788_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerLoopScene*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLOOPSCENE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6FEA6A8D8BE40FBC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerLoopScene* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerLoopScene* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerLoopScene*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLOOPSCENE_METHOD_3_6FEA6A8D8BE40FBC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerLoopScene*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERLOOPSCENE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HMAC.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19BC00F0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB52B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C335930)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160_CTOR_OFFSET UNITYSDK_OFFSET(0x1C32AB60)
 
 namespace System::Security::Cryptography
 {
@@ -14,12 +14,13 @@ namespace System::Security::Cryptography
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160_CTOR_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PLANETFESTIMEDEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C2CB8D0)
-#define RPG_CLIENT_PLANETFESTIMEDEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C2CB910)
-#define RPG_CLIENT_PLANETFESTIMEDEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x1C2CB960)
-#define RPG_CLIENT_PLANETFESTIMEDEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C2CB890)
-#define RPG_CLIENT_PLANETFESTIMEDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CBAC0)
+#define RPG_CLIENT_PLANETFESTIMEDEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDBC96E0)
+#define RPG_CLIENT_PLANETFESTIMEDEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDBC94F0)
+#define RPG_CLIENT_PLANETFESTIMEDEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xDBC9530)
+#define RPG_CLIENT_PLANETFESTIMEDEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xDBC9580)
+#define RPG_CLIENT_PLANETFESTIMEDEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDBC94B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTimedEffect_TypeDefinitionIndex = 66535;
+	inline static constexpr unsigned int PlanetFesTimedEffect_TypeDefinitionIndex = 66503;
 
 	class PlanetFesTimedEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTIMEDEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTIMEDEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTIMEDEFFECT_PLAY_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

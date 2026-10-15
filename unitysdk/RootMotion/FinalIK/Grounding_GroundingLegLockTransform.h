@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Grounding_GroundingLegLockTransform_TypeDefinitionIndex = 44867;
+	inline static constexpr unsigned int Grounding_GroundingLegLockTransform_TypeDefinitionIndex = 46006;
 
 	struct alignas(4) Grounding_GroundingLegLockTransform
 	{

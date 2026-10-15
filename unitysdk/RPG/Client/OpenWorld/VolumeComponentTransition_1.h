@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_201.h"
-
-class Class_1_A335CFE48265E251;
+#include "unitysdk/FCLGKGNNJOA.h"
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int VolumeComponentTransition_1_TypeDefinitionIndex = 73928;
+	inline static constexpr unsigned int VolumeComponentTransition_1_TypeDefinitionIndex = 74035;
 
 	template <typename T>
-	class VolumeComponentTransition_1 : public ::Class_1_43BD383C98B4C0C5_201
+	class VolumeComponentTransition_1 : public ::FCLGKGNNJOA
 	{
 	public:
 		T _Last; // 0x0

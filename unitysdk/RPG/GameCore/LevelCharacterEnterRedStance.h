@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterEnterRedStance; }
 
-#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_CLEAR_OFFSET UNITYSDK_OFFSET(0x18452B80)
-#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18452C20)
-#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18452BD0)
-#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_INIT_OFFSET UNITYSDK_OFFSET(0x18452B20)
-#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18452C70)
+#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6D83C0)
+#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D84B0)
+#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D8460)
+#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D8410)
+#define RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_INIT_OFFSET UNITYSDK_OFFSET(0xE6D8360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterEnterRedStance_TypeDefinitionIndex = 56980;
+	inline static constexpr unsigned int LevelCharacterEnterRedStance_TypeDefinitionIndex = 56801;
 
-	class LevelCharacterEnterRedStance : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterEnterRedStance : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* AttackerEntity; // 0x18
 		::RPG::GameCore::GameEntity* Entity; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterEnterRedStance* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
@@ -45,5 +44,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERENTERREDSTANCE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/DurationUnit.h"
 
-#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_ANYSTATE_OFFSET UNITYSDK_OFFSET(0x3AA6B30)
-#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_DURATIONUNIT_OFFSET UNITYSDK_OFFSET(0x3C8B900)
-#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x901D70)
-#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_NORMALIZEDTIME_OFFSET UNITYSDK_OFFSET(0x2DD7F50)
+#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_ANYSTATE_OFFSET UNITYSDK_OFFSET(0x261C0)
+#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_DURATIONUNIT_OFFSET UNITYSDK_OFFSET(0x3C6AAA0)
+#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1A6F0)
+#define UNITYENGINE_ANIMATORTRANSITIONINFO_GET_NORMALIZEDTIME_OFFSET UNITYSDK_OFFSET(0x2FF5A70)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorTransitionInfo_TypeDefinitionIndex = 5699;
+	inline static constexpr unsigned int AnimatorTransitionInfo_TypeDefinitionIndex = 5707;
 
 	struct alignas(4) AnimatorTransitionInfo
 	{
@@ -18,11 +17,12 @@ namespace UnityEngine
 		::System::Int32 m_UserName; // 0x14
 		::System::Int32 m_Name; // 0x18
 		::System::Boolean m_HasFixedDuration; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single m_Duration; // 0x20
 		::System::Single m_NormalizedTime; // 0x24
 		::System::Boolean m_AnyState; // 0x28
+		::System::Byte _padding1[0x3];
 		::System::Int32 m_TransitionType; // 0x2C
-
 		::UnityEngine::DurationUnit get_durationUnit()
 		{
 			return ((::UnityEngine::DurationUnit(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATORTRANSITIONINFO_GET_DURATIONUNIT_OFFSET))(this);
@@ -42,5 +42,6 @@ namespace UnityEngine
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATORTRANSITIONINFO_GET_ANYSTATE_OFFSET))(this);
 		}
+
 	};
 }

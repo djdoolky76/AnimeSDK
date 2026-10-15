@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
 
-#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xCF56510)
-#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_ONENTERPLAYMODE_OFFSET UNITYSDK_OFFSET(0xCF56820)
-#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0xCF568B0)
-#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCF56940)
+#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F16C910)
+#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F16C4E0)
+#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_ONENTERPLAYMODE_OFFSET UNITYSDK_OFFSET(0x1F16C7F0)
+#define UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1F16C880)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ColliderBehaviour_TypeDefinitionIndex = 43153;
+	inline static constexpr unsigned int ColliderBehaviour_TypeDefinitionIndex = 44345;
 
 	class ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Initialize()
@@ -35,5 +35,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLLIDERBEHAVIOUR_ONSCENELOADED_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

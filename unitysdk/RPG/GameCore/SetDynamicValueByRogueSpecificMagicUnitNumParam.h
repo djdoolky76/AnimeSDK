@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueParamBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByRogueSpecificMagicUnitNumParam; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_METHOD_4_E9F0F53C35927697_OFFSET UNITYSDK_OFFSET(0x1E822650)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_METHOD_4_F0E7EA49F396EC53_OFFSET UNITYSDK_OFFSET(0x1E822600)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E822640)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7CA50)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7CA60)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7CA10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByRogueSpecificMagicUnitNumParam_TypeDefinitionIndex = 21554;
+	inline static constexpr unsigned int SetDynamicValueByRogueSpecificMagicUnitNumParam_TypeDefinitionIndex = 21801;
 
 	class SetDynamicValueByRogueSpecificMagicUnitNumParam : public ::RPG::GameCore::SetDynamicValueParamBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F0E7EA49F396EC53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_METHOD_4_F0E7EA49F396EC53_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E9F0F53C35927697(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_METHOD_4_E9F0F53C35927697_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRogueSpecificMagicUnitNumParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYROGUESPECIFICMAGICUNITNUMPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

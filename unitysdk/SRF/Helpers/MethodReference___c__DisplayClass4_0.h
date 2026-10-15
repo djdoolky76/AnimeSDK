@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
+namespace System { class Object; }
 
-#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC38600)
-#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__OP_IMPLICIT_B__0_OFFSET UNITYSDK_OFFSET(0x1EC386C0)
+#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED42BE0)
+#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__OP_IMPLICIT_B__0_OFFSET UNITYSDK_OFFSET(0x1ED42CA0)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int MethodReference___c__DisplayClass4_0_TypeDefinitionIndex = 34756;
+	inline static constexpr unsigned int MethodReference___c__DisplayClass4_0_TypeDefinitionIndex = 35425;
 
 	class MethodReference___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
 		::System::Action* action; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Object* _op_Implicit_b__0(::Il2CppArray<::System::Object*>* a1)
 		{
 			return ((::System::Object*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__OP_IMPLICIT_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

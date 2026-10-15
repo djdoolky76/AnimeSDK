@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace Collections::Pooled { template <typename T> class PooledList_1; }
+namespace System { class String; }
+
+#define HJJAAKKPEPP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D18300)
+#define HJJAAKKPEPP_GET_ACTUALFIRELEVEL_OFFSET UNITYSDK_OFFSET(0x15D182E0)
+#define HJJAAKKPEPP_GET_CURRENTSTAGE_OFFSET UNITYSDK_OFFSET(0x15D182A0)
+#define HJJAAKKPEPP_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x15D18280)
+#define HJJAAKKPEPP_GET_LV2REQUIRECASTTIME_OFFSET UNITYSDK_OFFSET(0x15D18240)
+#define HJJAAKKPEPP_GET_LV2TOGGLENAME_OFFSET UNITYSDK_OFFSET(0x15D18260)
+#define HJJAAKKPEPP_GET_REQUIREDCASTTIME_OFFSET UNITYSDK_OFFSET(0x15D18220)
+#define HJJAAKKPEPP_GET_TARGETS_OFFSET UNITYSDK_OFFSET(0x15D182C0)
+#define HJJAAKKPEPP_SET_ACTUALFIRELEVEL_OFFSET UNITYSDK_OFFSET(0x15D182F0)
+#define HJJAAKKPEPP_SET_CURRENTSTAGE_OFFSET UNITYSDK_OFFSET(0x15D182B0)
+#define HJJAAKKPEPP_SET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x15D18290)
+#define HJJAAKKPEPP_SET_LV2REQUIRECASTTIME_OFFSET UNITYSDK_OFFSET(0x15D18250)
+#define HJJAAKKPEPP_SET_LV2TOGGLENAME_OFFSET UNITYSDK_OFFSET(0x15D18270)
+#define HJJAAKKPEPP_SET_REQUIREDCASTTIME_OFFSET UNITYSDK_OFFSET(0x15D18230)
+#define HJJAAKKPEPP_SET_TARGETS_OFFSET UNITYSDK_OFFSET(0x15D182D0)
+
+inline static constexpr unsigned int HJJAAKKPEPP_TypeDefinitionIndex = 75824;
+
+	class HJJAAKKPEPP
+	{
+	public:
+		::Collections::Pooled::PooledList_1<::System::Int32>* _Targets_k__BackingField; // 0x18
+		::System::String* _LV2ToggleName_k__BackingField; // 0x20
+		::System::Int32 _CurrentStage_k__BackingField; // 0x28
+		::System::Single _Lv2RequireCastTime_k__BackingField; // 0x2C
+		::System::Single _RequiredCastTime_k__BackingField; // 0x30
+		::System::Int32 _ActualFireLevel_k__BackingField; // 0x34
+		::System::Single _CurrentTime_k__BackingField; // 0x38
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_CTOR_OFFSET))(this);
+		}
+
+		::System::Single get_RequiredCastTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_REQUIREDCASTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_RequiredCastTime(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_REQUIREDCASTTIME_OFFSET))(this, a1);
+		}
+
+		::System::Single get_Lv2RequireCastTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_LV2REQUIRECASTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_Lv2RequireCastTime(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_LV2REQUIRECASTTIME_OFFSET))(this, a1);
+		}
+
+		::System::String* get_LV2ToggleName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_LV2TOGGLENAME_OFFSET))(this);
+		}
+
+		::System::Void set_LV2ToggleName(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_LV2TOGGLENAME_OFFSET))(this, a1);
+		}
+
+		::System::Single get_CurrentTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_CURRENTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentTime(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_CURRENTTIME_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_CurrentStage()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_CURRENTSTAGE_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentStage(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_CURRENTSTAGE_OFFSET))(this, a1);
+		}
+
+		::Collections::Pooled::PooledList_1<::System::Int32>* get_Targets()
+		{
+			return ((::Collections::Pooled::PooledList_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_TARGETS_OFFSET))(this);
+		}
+
+		::System::Void set_Targets(::Collections::Pooled::PooledList_1<::System::Int32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Collections::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_TARGETS_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_ActualFireLevel()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_GET_ACTUALFIRELEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_ActualFireLevel(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HJJAAKKPEPP_SET_ACTUALFIRELEVEL_OFFSET))(this, a1);
+		}
+
+	};

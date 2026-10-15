@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+namespace RPG::GameCore { class ShowGuideEvolveTalk; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define GDHDPPFPJFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15991970)
+#define GDHDPPFPJFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15991980)
+#define GDHDPPFPJFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159919C0)
+#define GDHDPPFPJFO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15991B70)
+#define GDHDPPFPJFO_TICK_OFFSET UNITYSDK_OFFSET(0x15991BC0)
+#define GDHDPPFPJFO__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x15991C20)
+
+inline static constexpr unsigned int GDHDPPFPJFO_TypeDefinitionIndex = 58655;
+
+	class GDHDPPFPJFO : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::ShowGuideEvolveTalk* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnTaskBegin_b__2_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO__ONTASKBEGIN_B__2_0_OFFSET))(this);
+		}
+
+	};

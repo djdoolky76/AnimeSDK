@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtTargetMapSkillAbortSource; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_234F2B7F1D6579F9_OFFSET UNITYSDK_OFFSET(0x1CCF5380)
-#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_4A23325FFE6775EA_OFFSET UNITYSDK_OFFSET(0x1CCF5280)
-#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_73A4C0EDB78FB43D_OFFSET UNITYSDK_OFFSET(0x1CCF53C0)
-#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_B478714DE88136CB_OFFSET UNITYSDK_OFFSET(0x1CCF5320)
-#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF5310)
+#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3E030)
+#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DA3E0E0)
+#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA3E0A0)
+#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA3E040)
+#define RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA3DFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTargetMapSkillAbortSource_TypeDefinitionIndex = 23975;
+	inline static constexpr unsigned int RtTargetMapSkillAbortSource_TypeDefinitionIndex = 24250;
 
 	class RtTargetMapSkillAbortSource : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4A23325FFE6775EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetMapSkillAbortSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_4A23325FFE6775EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtTargetMapSkillAbortSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B478714DE88136CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetMapSkillAbortSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_B478714DE88136CB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtTargetMapSkillAbortSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_234F2B7F1D6579F9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapSkillAbortSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_234F2B7F1D6579F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapSkillAbortSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_73A4C0EDB78FB43D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapSkillAbortSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapSkillAbortSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_METHOD_3_73A4C0EDB78FB43D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapSkillAbortSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPSKILLABORTSOURCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

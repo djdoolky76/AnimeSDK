@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/QTEData_FailActionType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class QTEUIData; }
 namespace RPGTools::Timeline { class QTEMissionCustomValue; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_QTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B8AB0)
+#define RPGTOOLS_TIMELINE_QTEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9256B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEData_TypeDefinitionIndex = 48720;
+	inline static constexpr unsigned int QTEData_TypeDefinitionIndex = 48260;
 
 	class QTEData : public ::System::Object
 	{
@@ -21,11 +20,12 @@ namespace RPGTools::Timeline
 		::System::Single Timescale; // 0x1C
 		::RPG::Client::QTEUIData* UIData; // 0x20
 		::System::Boolean SetMissionCustomValue; // 0x28
+		::System::Byte _padding0[0x7];
 		::RPGTools::Timeline::QTEMissionCustomValue* MCV; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTEDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

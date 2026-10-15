@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_SendMouseEvents_TypeDefinitionIndex = 4598;
+	inline static constexpr unsigned int PreUpdate_SendMouseEvents_TypeDefinitionIndex = 4602;
 
-	struct alignas(1) PreUpdate_SendMouseEvents
+	struct alignas(4) PreUpdate_SendMouseEvents
 	{
 	};
 }

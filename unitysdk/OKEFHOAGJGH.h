@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GenderType.h"
+#include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+class OKEFHOAGJGH;
+namespace System { class String; }
+
+#define OKEFHOAGJGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D260450)
+#define OKEFHOAGJGH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D260270)
+
+inline static constexpr unsigned int OKEFHOAGJGH_TypeDefinitionIndex = 13899;
+
+	class OKEFHOAGJGH : public ::System::Object
+	{
+	public:
+		::System::String* HHIIGAIJEDA; // 0x10
+		::System::String* DEJJGGOABPA; // 0x18
+		::System::String* GJMHAJGIHOM; // 0x20
+		::RPG::GameCore::GenderType KAINAFFMLBK; // 0x28
+		::System::UInt32 CMNOEFFFNPE; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKEFHOAGJGH_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::OKEFHOAGJGH* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::OKEFHOAGJGH*))((::PBYTE)hIl2Cpp + OKEFHOAGJGH_OJNNBEJLDIJ_OFFSET))(a1, a2);
+		}
+
+	};

@@ -1,32 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace UnityEngine::UI { class Button; }
 
-#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B7768D0)
-#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B776A00)
-#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B776A60)
-#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B776A10)
-#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B7768C0)
-#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9__CTOR_OFFSET UNITYSDK_OFFSET(0x1B776890)
+#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B1EB0)
+#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F4B1EF0)
+#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F4B2020)
+#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F4B2080)
+#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F4B2030)
+#define UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F4B1EE0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Button__OnFinishSubmit_d__9_TypeDefinitionIndex = 6684;
+	inline static constexpr unsigned int Button__OnFinishSubmit_d__9_TypeDefinitionIndex = 6693;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class Button__OnFinishSubmit_d__9 : public ::System::Object
 	{
 	public:
 		::System::Int32 __1__state; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Object* __2__current; // 0x18
 		::UnityEngine::UI::Button* __4__this; // 0x20
 		::System::Single _fadeTime_5__2; // 0x28
 		::System::Single _elapsedTime_5__3; // 0x2C
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -53,5 +54,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BUTTON__ONFINISHSUBMIT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

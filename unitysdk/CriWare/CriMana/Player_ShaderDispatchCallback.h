@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace CriWare::CriMana { class MovieInfo; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Shader; }
 
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4ABC0)
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4AC20)
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC3FDC0)
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4AAD0)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1671BEC0)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1671BDD0)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1671BF20)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x167110C0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_ShaderDispatchCallback_TypeDefinitionIndex = 38926;
+	inline static constexpr unsigned int Player_ShaderDispatchCallback_TypeDefinitionIndex = 40223;
 
 	class Player_ShaderDispatchCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Shader* Invoke(::CriWare::CriMana::MovieInfo* a1, ::System::Boolean a2)
@@ -39,5 +38,6 @@ namespace CriWare::CriMana
 		{
 			return ((::UnityEngine::Shader*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

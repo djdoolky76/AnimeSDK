@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client::AssetSystem
 {
-	inline static constexpr unsigned int AssetOperationCache_1_TypeDefinitionIndex = 40284;
+	inline static constexpr unsigned int AssetOperationCache_1_TypeDefinitionIndex = 41582;
 
 	template <typename T>
 	class AssetOperationCache_1 : public ::System::Object

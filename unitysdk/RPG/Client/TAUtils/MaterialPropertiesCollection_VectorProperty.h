@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAUtils/MaterialPropertiesCollection_Property_1.h"
-#include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0x1B3FA7A0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F7900)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE1832B0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE186150)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_VectorProperty_TypeDefinitionIndex = 73511;
+	inline static constexpr unsigned int MaterialPropertiesCollection_VectorProperty_TypeDefinitionIndex = 73618;
 
-	class MaterialPropertiesCollection_VectorProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::UnityEngine::Vector4>
+	class MaterialPropertiesCollection_VectorProperty
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_3B01BE9C2045A2D8(::UnityEngine::Material* a1)
+		::System::Void PKADDEPKJFN(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_PKADDEPKJFN_OFFSET))(this, a1);
 		}
+
 	};
 }

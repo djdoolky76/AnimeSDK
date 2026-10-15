@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CakeRaceLobby; }
 namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6252A0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0___HANDLESHOWINVITEFRIEND_B__0_OFFSET UNITYSDK_OFFSET(0x1C6284B0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EF570)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0___HANDLESHOWINVITEFRIEND_B__0_OFFSET UNITYSDK_OFFSET(0xC8F0880)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass66_0_TypeDefinitionIndex = 75971;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass66_0_TypeDefinitionIndex = 76448;
 
 	class CakeRaceGameFlow___c__DisplayClass66_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CakeRaceLobby* lobby; // 0x10
-		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x18
-
+		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x10
+		::RPG::Client::CakeRaceLobby* lobby; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise* __HandleShowInviteFriend_b__0()
 		{
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS66_0___HANDLESHOWINVITEFRIEND_B__0_OFFSET))(this);
 		}
+
 	};
 }

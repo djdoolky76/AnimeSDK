@@ -5,66 +5,68 @@
 #include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-
+#include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
+namespace Cysharp::Threading::Tasks { class UnityAsyncExtensions_AsyncOperationConfiguredSource; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class IProgress_1; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CONTINUATION_OFFSET UNITYSDK_OFFSET(0x1CE26120)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CREATE_OFFSET UNITYSDK_OFFSET(0x1CE1E4B0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE25BF0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE25DA0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1CE25A60)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CE25EC0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CE25EA0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1CE25C90)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE25E50)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE25A70)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE25B70)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F131760)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CONTINUATION_OFFSET UNITYSDK_OFFSET(0x1F131E00)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F12A1B0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F131860)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F1318E0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F131A80)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F131750)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F131BA0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F131B80)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F131980)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F131B30)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions_AsyncOperationConfiguredSource_TypeDefinitionIndex = 42872;
+	inline static constexpr unsigned int UnityAsyncExtensions_AsyncOperationConfiguredSource_TypeDefinitionIndex = 38457;
 
 	class UnityAsyncExtensions_AsyncOperationConfiguredSource : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource*>* StaticGet_pool()
-		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource*>*)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AsyncOperationConfiguredSource_TypeDefinitionIndex)->GetStaticField(0x62F80);
-		}
-		::UnityEngine::AsyncOperation* asyncOperation; // 0x10
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x50
-		::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource* nextNode; // 0x58
-		::System::Action_1<::UnityEngine::AsyncOperation*>* continuationAction; // 0x60
-		::System::IProgress_1<::System::Single>* progress; // 0x68
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource* nextNode; // 0x18
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x20
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x38
+		::System::Byte _padding0[0x18];
+		::System::Action_1<::UnityEngine::AsyncOperation*>* continuationAction; // 0x58
+		::System::IProgress_1<::System::Single>* progress; // 0x60
+		::UnityEngine::AsyncOperation* asyncOperation; // 0x68
 		::System::Boolean cancelImmediately; // 0x70
 		::System::Boolean completed; // 0x71
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
+		{
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncOperationConfiguredSource")->GetStaticField(0x3BF30);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CTOR_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource*& get_NextNode()
+		::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource* get_NextNode()
 		{
-			return ((::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource*&(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GET_NEXTNODE_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_GET_NEXTNODE_OFFSET))(this);
 		}
 
-		static ::Cysharp::Threading::Tasks::IUniTaskSource* Create(::UnityEngine::AsyncOperation* a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::IProgress_1<::System::Single>* a3, ::System::Threading::CancellationToken a4, ::System::Boolean a5, ::System::Int16& a6)
+		static ::Cysharp::Threading::Tasks::IUniTaskSource* Create(::UnityEngine::AsyncOperation* a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::IProgress_1<::System::Single>* a3, ::System::Threading::CancellationToken a4, ::System::Boolean a5, ::System::Int16 a6)
 		{
-			return ((::Cysharp::Threading::Tasks::IUniTaskSource*(*)(::UnityEngine::AsyncOperation*, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::IProgress_1<::System::Single>*, ::System::Threading::CancellationToken, ::System::Boolean, ::System::Int16&))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::Cysharp::Threading::Tasks::IUniTaskSource*(*)(::UnityEngine::AsyncOperation*, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::IProgress_1<::System::Single>*, ::System::Threading::CancellationToken, ::System::Boolean, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void GetResult(::System::Int16 a1)
@@ -101,5 +103,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::AsyncOperation*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_CONTINUATION_OFFSET))(this, a1);
 		}
+
 	};
 }

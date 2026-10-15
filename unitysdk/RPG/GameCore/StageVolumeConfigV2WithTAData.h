@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StageVolumeConfigV2.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FilterVolumeData; }
 namespace RPG::GameCore { class StageVolumeComponentData; }
+namespace RPG::GameCore { class StageVolumeConfigV2WithTAData; }
 namespace RPG::GameCore { class StreamingSceneObjLodScaleVolumeComponentData; }
 
-#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_3B81F4ADDE81A666_OFFSET UNITYSDK_OFFSET(0x1CAEF580)
-#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_B515B547F4B6196B_OFFSET UNITYSDK_OFFSET(0x1CAEF210)
-#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAEF200)
+#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE93A0)
+#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE93B0)
+#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE9870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVolumeConfigV2WithTAData_TypeDefinitionIndex = 18925;
+	inline static constexpr unsigned int StageVolumeConfigV2WithTAData_TypeDefinitionIndex = 19152;
 
 	class StageVolumeConfigV2WithTAData : public ::RPG::GameCore::StageVolumeConfigV2
 	{
@@ -21,20 +21,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::StageVolumeComponentData*>* BlockVolumeList; // 0x50
 		::RPG::GameCore::StreamingSceneObjLodScaleVolumeComponentData* SceneObjLodScaleData; // 0x58
 		::RPG::GameCore::FilterVolumeData* FilterVolumeData; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3B81F4ADDE81A666(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_3B81F4ADDE81A666_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B515B547F4B6196B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_B515B547F4B6196B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

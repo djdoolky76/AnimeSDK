@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChallengeGroupData.h"
-
 namespace RPG::GameCore { class ChallengeBossGroupExtraConfigRow; }
 
-#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GETBUFFLIST_1_OFFSET UNITYSDK_OFFSET(0x18C0CFB0)
-#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GETBUFFLIST_OFFSET UNITYSDK_OFFSET(0x18C0CF40)
-#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GET_BOSSEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x18C0CBE0)
-#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_SET_BOSSEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x18C0CBF0)
-#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0CC00)
+#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC96F740)
+#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GETBUFFLIST_1_OFFSET UNITYSDK_OFFSET(0xC96FAF0)
+#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GETBUFFLIST_OFFSET UNITYSDK_OFFSET(0xC96FA80)
+#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GET_BOSSEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0xC96F720)
+#define RPG_CLIENT_CHALLENGEBOSSGROUPDATA_SET_BOSSEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0xC96F730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeBossGroupData_TypeDefinitionIndex = 63146;
+	inline static constexpr unsigned int ChallengeBossGroupData_TypeDefinitionIndex = 63079;
 
 	class ChallengeBossGroupData : public ::RPG::Client::ChallengeGroupData
 	{
 	public:
 		::RPG::GameCore::ChallengeBossGroupExtraConfigRow* _BossExtraInfoRow_k__BackingField; // 0x58
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSGROUPDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSGROUPDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ChallengeBossGroupExtraConfigRow* get_BossExtraInfoRow()
@@ -43,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSGROUPDATA_GETBUFFLIST_1_OFFSET))(this, a1);
 		}
+
 	};
 }

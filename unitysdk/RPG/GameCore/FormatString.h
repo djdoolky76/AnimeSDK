@@ -1,36 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FORMATSTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B03340)
-#define RPG_GAMECORE_FORMATSTRING_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x3BFC3F0)
-#define RPG_GAMECORE_FORMATSTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B03340)
-#define RPG_GAMECORE_FORMATSTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BFC470)
-#define RPG_GAMECORE_FORMATSTRING_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x3BFC3B0)
-#define RPG_GAMECORE_FORMATSTRING_GET_RAWSTRING_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define RPG_GAMECORE_FORMATSTRING_METHOD_2_188EEAAB5C523CC8_OFFSET UNITYSDK_OFFSET(0x1DCB1DD0)
-#define RPG_GAMECORE_FORMATSTRING_METHOD_2_2ED2786CBF32344F_OFFSET UNITYSDK_OFFSET(0x1DCB1E40)
-#define RPG_GAMECORE_FORMATSTRING_METHOD_2_553F65DA53A86C11_OFFSET UNITYSDK_OFFSET(0x1DCB1EB0)
-#define RPG_GAMECORE_FORMATSTRING_METHOD_2_737FB5FD0C118D8F_OFFSET UNITYSDK_OFFSET(0x1DCB1EE0)
-#define RPG_GAMECORE_FORMATSTRING_METHOD_2_D964DB46312B7B08_OFFSET UNITYSDK_OFFSET(0x1DCB1E00)
-#define RPG_GAMECORE_FORMATSTRING_METHOD_2_E6ABB66B71544341_OFFSET UNITYSDK_OFFSET(0x1DCB1E70)
-#define RPG_GAMECORE_FORMATSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define RPG_GAMECORE_FORMATSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x3BFC3D0)
+#define RPG_GAMECORE_FORMATSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x3C3F2B0)
+#define RPG_GAMECORE_FORMATSTRING_DLDBLNNPHKE_1_OFFSET UNITYSDK_OFFSET(0x1D6BCA10)
+#define RPG_GAMECORE_FORMATSTRING_DLDBLNNPHKE_2_OFFSET UNITYSDK_OFFSET(0x1D6BCA80)
+#define RPG_GAMECORE_FORMATSTRING_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1D6BC9A0)
+#define RPG_GAMECORE_FORMATSTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C25B40)
+#define RPG_GAMECORE_FORMATSTRING_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x3C3F2D0)
+#define RPG_GAMECORE_FORMATSTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C25B40)
+#define RPG_GAMECORE_FORMATSTRING_FEIIDFFOICL_1_OFFSET UNITYSDK_OFFSET(0x1D6BC9E0)
+#define RPG_GAMECORE_FORMATSTRING_FEIIDFFOICL_2_OFFSET UNITYSDK_OFFSET(0x1D6BCA50)
+#define RPG_GAMECORE_FORMATSTRING_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1D6BC970)
+#define RPG_GAMECORE_FORMATSTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C3F350)
+#define RPG_GAMECORE_FORMATSTRING_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x3C3F290)
+#define RPG_GAMECORE_FORMATSTRING_GET_RAWSTRING_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define RPG_GAMECORE_FORMATSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormatString_TypeDefinitionIndex = 10848;
+	inline static constexpr unsigned int FormatString_TypeDefinitionIndex = 10864;
 
 	struct alignas(8) FormatString
 	{
 		::System::String* _rawString; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RawString()
@@ -43,10 +40,12 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_GET_ISNULL_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::RPG::GameCore::FormatString a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::String* a1)
 		{
@@ -68,34 +67,47 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_2_188EEAAB5C523CC8(::RPG::GameCore::FormatString a1, ::RPG::GameCore::FormatString a2)
+		/*
+		static ::System::Boolean FEIIDFFOICL(::RPG::GameCore::FormatString a1, ::RPG::GameCore::FormatString a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_METHOD_2_188EEAAB5C523CC8_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_FEIIDFFOICL_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_D964DB46312B7B08(::RPG::GameCore::FormatString a1, ::RPG::GameCore::FormatString a2)
+		/*
+		static ::System::Boolean DLDBLNNPHKE(::RPG::GameCore::FormatString a1, ::RPG::GameCore::FormatString a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_METHOD_2_D964DB46312B7B08_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_DLDBLNNPHKE_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_2ED2786CBF32344F(::RPG::GameCore::FormatString a1, ::System::String* a2)
+		/*
+		static ::System::Boolean FEIIDFFOICL_1(::RPG::GameCore::FormatString a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_METHOD_2_2ED2786CBF32344F_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_FEIIDFFOICL_1_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_E6ABB66B71544341(::RPG::GameCore::FormatString a1, ::System::String* a2)
+		/*
+		static ::System::Boolean DLDBLNNPHKE_1(::RPG::GameCore::FormatString a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_METHOD_2_E6ABB66B71544341_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::FormatString, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_DLDBLNNPHKE_1_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_553F65DA53A86C11(::System::String* a1, ::RPG::GameCore::FormatString a2)
+		/*
+		static ::System::Boolean FEIIDFFOICL_2(::System::String* a1, ::RPG::GameCore::FormatString a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_METHOD_2_553F65DA53A86C11_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_FEIIDFFOICL_2_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_737FB5FD0C118D8F(::System::String* a1, ::RPG::GameCore::FormatString a2)
+		/*
+		static ::System::Boolean DLDBLNNPHKE_2(::System::String* a1, ::RPG::GameCore::FormatString a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_METHOD_2_737FB5FD0C118D8F_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::RPG::GameCore::FormatString))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATSTRING_DLDBLNNPHKE_2_OFFSET))(a1, a2);
 		}
+		*/
+
 	};
 }

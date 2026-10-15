@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class TalkImageV2ShowClip; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1BF2A5A0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1BF2A5C0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1BF2A5B0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2A780)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9407B0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE9405D0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE9405F0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE9405E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageV2ShowBehaviour_TypeDefinitionIndex = 48849;
+	inline static constexpr unsigned int TalkImageV2ShowBehaviour_TypeDefinitionIndex = 48395;
 
 	class TalkImageV2ShowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::TalkImageV2ShowClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::TalkImageV2ShowClip* get_Clip()
@@ -39,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

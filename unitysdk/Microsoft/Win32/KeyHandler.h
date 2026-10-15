@@ -2,38 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/Win32/RegistryValueOptions.h"
 #include "unitysdk/System/Object.h"
-
+namespace Microsoft::Win32 { class KeyHandler; }
 namespace Microsoft::Win32 { class RegistryKey; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Security { class SecurityElement; }
 
-#define MICROSOFT_WIN32_KEYHANDLER_CLEANVOLATILEKEYS_OFFSET UNITYSDK_OFFSET(0x16DD5B90)
-#define MICROSOFT_WIN32_KEYHANDLER_COMBINENAME_OFFSET UNITYSDK_OFFSET(0x16DD7990)
-#define MICROSOFT_WIN32_KEYHANDLER_DROP_OFFSET UNITYSDK_OFFSET(0x16DD9990)
-#define MICROSOFT_WIN32_KEYHANDLER_ENSURE_OFFSET UNITYSDK_OFFSET(0x16DD7590)
-#define MICROSOFT_WIN32_KEYHANDLER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x16DDBE80)
-#define MICROSOFT_WIN32_KEYHANDLER_FLUSH_OFFSET UNITYSDK_OFFSET(0x16DDAB20)
-#define MICROSOFT_WIN32_KEYHANDLER_GETREGISTEREDBOOTTIME_OFFSET UNITYSDK_OFFSET(0x16DD8850)
-#define MICROSOFT_WIN32_KEYHANDLER_GETROOTFROMDIR_OFFSET UNITYSDK_OFFSET(0x16DD90A0)
-#define MICROSOFT_WIN32_KEYHANDLER_GETSUBKEYNAMES_OFFSET UNITYSDK_OFFSET(0x16DDA4E0)
-#define MICROSOFT_WIN32_KEYHANDLER_GETSYSTEMBOOTTIME_OFFSET UNITYSDK_OFFSET(0x16DD8410)
-#define MICROSOFT_WIN32_KEYHANDLER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16DDA200)
-#define MICROSOFT_WIN32_KEYHANDLER_GETVOLATILEDIR_OFFSET UNITYSDK_OFFSET(0x16DD6190)
-#define MICROSOFT_WIN32_KEYHANDLER_GET_ISMARKEDFORDELETION_OFFSET UNITYSDK_OFFSET(0x16DDA3F0)
-#define MICROSOFT_WIN32_KEYHANDLER_GET_MACHINESTORE_OFFSET UNITYSDK_OFFSET(0x16DD8E50)
-#define MICROSOFT_WIN32_KEYHANDLER_GET_USERSTORE_OFFSET UNITYSDK_OFFSET(0x16DD8D60)
-#define MICROSOFT_WIN32_KEYHANDLER_LOADKEY_OFFSET UNITYSDK_OFFSET(0x16DD6BD0)
-#define MICROSOFT_WIN32_KEYHANDLER_LOAD_OFFSET UNITYSDK_OFFSET(0x16DD6220)
-#define MICROSOFT_WIN32_KEYHANDLER_LOOKUP_OFFSET UNITYSDK_OFFSET(0x16DD9200)
-#define MICROSOFT_WIN32_KEYHANDLER_PROBE_OFFSET UNITYSDK_OFFSET(0x16DD7A10)
-#define MICROSOFT_WIN32_KEYHANDLER_SAVEREGISTEREDBOOTTIME_OFFSET UNITYSDK_OFFSET(0x16DD8C00)
-#define MICROSOFT_WIN32_KEYHANDLER_SAVE_OFFSET UNITYSDK_OFFSET(0x16DDAC00)
-#define MICROSOFT_WIN32_KEYHANDLER_VALUEEXISTS_OFFSET UNITYSDK_OFFSET(0x16DDBD30)
-#define MICROSOFT_WIN32_KEYHANDLER_VOLATILEKEYEXISTS_OFFSET UNITYSDK_OFFSET(0x16DD8010)
-#define MICROSOFT_WIN32_KEYHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DD5A10)
-#define MICROSOFT_WIN32_KEYHANDLER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16DD5E10)
-#define MICROSOFT_WIN32_KEYHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DD5E00)
+#define MICROSOFT_WIN32_KEYHANDLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C01EAD0)
+#define MICROSOFT_WIN32_KEYHANDLER_CLEANVOLATILEKEYS_OFFSET UNITYSDK_OFFSET(0x1C01EC50)
+#define MICROSOFT_WIN32_KEYHANDLER_COMBINENAME_OFFSET UNITYSDK_OFFSET(0x1C020A50)
+#define MICROSOFT_WIN32_KEYHANDLER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C01EED0)
+#define MICROSOFT_WIN32_KEYHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01EEC0)
+#define MICROSOFT_WIN32_KEYHANDLER_DROP_OFFSET UNITYSDK_OFFSET(0x1C022A50)
+#define MICROSOFT_WIN32_KEYHANDLER_ENSURE_OFFSET UNITYSDK_OFFSET(0x1C020650)
+#define MICROSOFT_WIN32_KEYHANDLER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C024F40)
+#define MICROSOFT_WIN32_KEYHANDLER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C023BE0)
+#define MICROSOFT_WIN32_KEYHANDLER_GETREGISTEREDBOOTTIME_OFFSET UNITYSDK_OFFSET(0x1C021910)
+#define MICROSOFT_WIN32_KEYHANDLER_GETROOTFROMDIR_OFFSET UNITYSDK_OFFSET(0x1C022160)
+#define MICROSOFT_WIN32_KEYHANDLER_GETSUBKEYNAMES_OFFSET UNITYSDK_OFFSET(0x1C0235A0)
+#define MICROSOFT_WIN32_KEYHANDLER_GETSYSTEMBOOTTIME_OFFSET UNITYSDK_OFFSET(0x1C0214D0)
+#define MICROSOFT_WIN32_KEYHANDLER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1C0232C0)
+#define MICROSOFT_WIN32_KEYHANDLER_GETVOLATILEDIR_OFFSET UNITYSDK_OFFSET(0x1C01F250)
+#define MICROSOFT_WIN32_KEYHANDLER_GET_ISMARKEDFORDELETION_OFFSET UNITYSDK_OFFSET(0x1C0234B0)
+#define MICROSOFT_WIN32_KEYHANDLER_GET_MACHINESTORE_OFFSET UNITYSDK_OFFSET(0x1C021F10)
+#define MICROSOFT_WIN32_KEYHANDLER_GET_USERSTORE_OFFSET UNITYSDK_OFFSET(0x1C021E20)
+#define MICROSOFT_WIN32_KEYHANDLER_LOADKEY_OFFSET UNITYSDK_OFFSET(0x1C01FC90)
+#define MICROSOFT_WIN32_KEYHANDLER_LOAD_OFFSET UNITYSDK_OFFSET(0x1C01F2E0)
+#define MICROSOFT_WIN32_KEYHANDLER_LOOKUP_OFFSET UNITYSDK_OFFSET(0x1C0222C0)
+#define MICROSOFT_WIN32_KEYHANDLER_PROBE_OFFSET UNITYSDK_OFFSET(0x1C020AD0)
+#define MICROSOFT_WIN32_KEYHANDLER_SAVEREGISTEREDBOOTTIME_OFFSET UNITYSDK_OFFSET(0x1C021CC0)
+#define MICROSOFT_WIN32_KEYHANDLER_SAVE_OFFSET UNITYSDK_OFFSET(0x1C023CC0)
+#define MICROSOFT_WIN32_KEYHANDLER_VALUEEXISTS_OFFSET UNITYSDK_OFFSET(0x1C024DF0)
+#define MICROSOFT_WIN32_KEYHANDLER_VOLATILEKEYEXISTS_OFFSET UNITYSDK_OFFSET(0x1C0210D0)
 
 namespace Microsoft::Win32
 {
@@ -42,42 +43,45 @@ namespace Microsoft::Win32
 	class KeyHandler : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_user_store()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(KeyHandler_TypeDefinitionIndex)->GetStaticField(0x1950);
-		}
-		static ::System::Collections::Hashtable** StaticGet_dir_to_handler()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(KeyHandler_TypeDefinitionIndex)->GetStaticField(0x1958);
-		}
-		static ::System::Collections::Hashtable** StaticGet_key_to_handler()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(KeyHandler_TypeDefinitionIndex)->GetStaticField(0x1960);
-		}
+		::System::String* ActualDir; // 0x10
+		::System::Collections::Hashtable* values; // 0x18
+		::System::String* file; // 0x20
+		::System::String* Dir; // 0x28
+		::System::Boolean IsVolatile; // 0x30
+		::System::Boolean dirty; // 0x31
 		static ::System::String** StaticGet_machine_store()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(KeyHandler_TypeDefinitionIndex)->GetStaticField(0x1968);
+			return (::System::String**)UnitySDK::FromName("Microsoft.Win32", "KeyHandler")->GetStaticField(0x17A0);
 		}
-		::System::String* file; // 0x10
-		::System::Collections::Hashtable* values; // 0x18
-		::System::String* Dir; // 0x20
-		::System::String* ActualDir; // 0x28
-		::System::Boolean dirty; // 0x30
-		::System::Boolean IsVolatile; // 0x31
+
+		static ::System::Collections::Hashtable** StaticGet_dir_to_handler()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("Microsoft.Win32", "KeyHandler")->GetStaticField(0x17A8);
+		}
+
+		static ::System::String** StaticGet_user_store()
+		{
+			return (::System::String**)UnitySDK::FromName("Microsoft.Win32", "KeyHandler")->GetStaticField(0x17B0);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_key_to_handler()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("Microsoft.Win32", "KeyHandler")->GetStaticField(0x17B8);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Load()
@@ -194,5 +198,6 @@ namespace Microsoft::Win32
 		{
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_KEYHANDLER_GET_MACHINESTORE_OFFSET))();
 		}
+
 	};
 }

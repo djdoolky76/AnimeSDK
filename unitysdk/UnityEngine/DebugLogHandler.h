@@ -3,28 +3,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LogOption.h"
 #include "unitysdk/UnityEngine/LogType.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1DECEFF0)
-#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET UNITYSDK_OFFSET(0x1DECEFE0)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1DECF0C0)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DECDA70)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1DECF000)
-#define UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DECEFD0)
+#define UNITYENGINE_DEBUGLOGHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3B1E90)
+#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F3B1EB0)
+#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET UNITYSDK_OFFSET(0x1F3B1EA0)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F3B1F00)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1F3B09F0)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1F3B1EC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DebugLogHandler_TypeDefinitionIndex = 4068;
+	inline static constexpr unsigned int DebugLogHandler_TypeDefinitionIndex = 4069;
 
 	class DebugLogHandler : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Internal_Log(::UnityEngine::LogType a1, ::UnityEngine::LogOption a2, ::System::String* a3, ::UnityEngine::Object* a4)
@@ -51,5 +51,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

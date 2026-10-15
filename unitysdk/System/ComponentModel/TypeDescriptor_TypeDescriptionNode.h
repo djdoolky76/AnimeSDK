@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/TypeDescriptionProvider.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections { class IDictionary; }
 namespace System::ComponentModel { class ICustomTypeDescriptor; }
+namespace System::ComponentModel { class TypeDescriptionProvider; }
+namespace System::ComponentModel { class TypeDescriptor_TypeDescriptionNode; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETCACHE_OFFSET UNITYSDK_OFFSET(0x1AB237E0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETEXTENDEDTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1AB23A30)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETREFLECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x1AB24E90)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1AB24F70)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB1B670)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCCC20)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETCACHE_OFFSET UNITYSDK_OFFSET(0x1EFD4D40)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETEXTENDEDTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFD4F90)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETREFLECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x1EFD63F0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFD64D0)
 
 namespace System::ComponentModel
 {
@@ -20,12 +21,11 @@ namespace System::ComponentModel
 	class TypeDescriptor_TypeDescriptionNode : public ::System::ComponentModel::TypeDescriptionProvider
 	{
 	public:
-		::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* Next; // 0x20
-		::System::ComponentModel::TypeDescriptionProvider* Provider; // 0x28
-
+		::System::ComponentModel::TypeDescriptionProvider* Provider; // 0x20
+		::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* Next; // 0x28
 		::System::Void _ctor(::System::ComponentModel::TypeDescriptionProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::TypeDescriptionProvider*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::TypeDescriptionProvider*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IDictionary* GetCache(::System::Object* a1)
@@ -47,5 +47,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::ComponentModel::ICustomTypeDescriptor*(*)(::PVOID, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_GETTYPEDESCRIPTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

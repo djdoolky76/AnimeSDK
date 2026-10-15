@@ -3,25 +3,24 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B582450)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B582350)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B582590)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B582600)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E7420)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E7320)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E75D0)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E7560)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EnableStandByBreakTrack_TypeDefinitionIndex = 48564;
+	inline static constexpr unsigned int EnableStandByBreakTrack_TypeDefinitionIndex = 48104;
 
 	class EnableStandByBreakTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

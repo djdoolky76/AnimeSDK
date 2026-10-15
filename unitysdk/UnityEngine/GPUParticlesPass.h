@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/GPUParticlesPass_DispatchMode.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GPUParticlesPass_TypeDefinitionIndex = 4113;
+	inline static constexpr unsigned int GPUParticlesPass_TypeDefinitionIndex = 4114;
 
 	struct alignas(4) GPUParticlesPass
 	{

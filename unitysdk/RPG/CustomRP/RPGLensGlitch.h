@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGLENSGLITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x185A2F80)
+#define RPG_CUSTOMRP_RPGLENSGLITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2BF60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensGlitch_TypeDefinitionIndex = 37138;
+	inline static constexpr unsigned int RPGLensGlitch_TypeDefinitionIndex = 37824;
 
 	class RPGLensGlitch : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -22,10 +21,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* _RainMaskRadius; // 0x60
 		::UnityEngine::Rendering::FloatParameter* _RainMaskBlur; // 0x68
 		::UnityEngine::Rendering::FloatParameter* _RainDistortStrength; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSGLITCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSGLITCH_CTOR_OFFSET))(this);
 		}
+
 	};
 }

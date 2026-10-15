@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A1C6F70)
-#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A1C6FE0)
-#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1C6B20)
-#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C6F00)
+#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3DA80)
+#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3DA10)
+#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3DAF0)
+#define MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3D650)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Confirm_OnConfirmDelegate_TypeDefinitionIndex = 8192;
+	inline static constexpr unsigned int Confirm_OnConfirmDelegate_TypeDefinitionIndex = 8235;
 
 	class Confirm_OnConfirmDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::Confirm_ConfirmResult a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_ONCONFIRMDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

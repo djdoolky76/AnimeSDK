@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/UnityEngine/Color32.h"
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x187947E0)
-#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x18794620)
-#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x18794070)
-#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x18793F50)
-#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x18794040)
-#define MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x187948F0)
+#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BDB3E60)
+#define MIHOYO_SDK_WIN_QRCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB3F70)
+#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BDB3CA0)
+#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDB3730)
+#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x1BDB3610)
+#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDB3700)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 9486;
+	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 9544;
 
 	class QRCode : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,10 +24,9 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::RawImage* image; // 0x20
 		::UnityEngine::Texture2D* encoded; // 0x28
 		::System::String* strLevel; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -55,5 +53,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

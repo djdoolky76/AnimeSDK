@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RubikEventListener; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RUBIKEVENTLISTENER_METHOD_3_276B609117525195_OFFSET UNITYSDK_OFFSET(0x1DB2C390)
-#define RPG_GAMECORE_RUBIKEVENTLISTENER_METHOD_3_DCB5001352564EE2_OFFSET UNITYSDK_OFFSET(0x1DB2C350)
-#define RPG_GAMECORE_RUBIKEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2C380)
+#define RPG_GAMECORE_RUBIKEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3FB40)
+#define RPG_GAMECORE_RUBIKEVENTLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA3FB50)
+#define RPG_GAMECORE_RUBIKEVENTLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA3FB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RubikEventListener_TypeDefinitionIndex = 21897;
+	inline static constexpr unsigned int RubikEventListener_TypeDefinitionIndex = 22145;
 
 	class RubikEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* UniqueName; // 0x18
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnRotateFinish; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUBIKEVENTLISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUBIKEVENTLISTENER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DCB5001352564EE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RubikEventListener*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RubikEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RubikEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUBIKEVENTLISTENER_METHOD_3_DCB5001352564EE2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RubikEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUBIKEVENTLISTENER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_276B609117525195(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RubikEventListener* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RubikEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RubikEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUBIKEVENTLISTENER_METHOD_3_276B609117525195_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RubikEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUBIKEVENTLISTENER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SwitchUIMenuBGM; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHUIMENUBGM_METHOD_3_17A6D5636725895F_OFFSET UNITYSDK_OFFSET(0x1E153B50)
-#define RPG_GAMECORE_SWITCHUIMENUBGM_METHOD_3_8D40972DECA4A3A8_OFFSET UNITYSDK_OFFSET(0x1E153B10)
-#define RPG_GAMECORE_SWITCHUIMENUBGM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E153B40)
+#define RPG_GAMECORE_SWITCHUIMENUBGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB196F0)
+#define RPG_GAMECORE_SWITCHUIMENUBGM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB19700)
+#define RPG_GAMECORE_SWITCHUIMENUBGM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB196C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchUIMenuBGM_TypeDefinitionIndex = 21651;
+	inline static constexpr unsigned int SwitchUIMenuBGM_TypeDefinitionIndex = 21899;
 
 	class SwitchUIMenuBGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* StateName; // 0x18
 		::System::Boolean ShouldStop; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHUIMENUBGM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHUIMENUBGM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8D40972DECA4A3A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchUIMenuBGM*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchUIMenuBGM* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchUIMenuBGM*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHUIMENUBGM_METHOD_3_8D40972DECA4A3A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchUIMenuBGM*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHUIMENUBGM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17A6D5636725895F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchUIMenuBGM* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchUIMenuBGM* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchUIMenuBGM*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHUIMENUBGM_METHOD_3_17A6D5636725895F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchUIMenuBGM*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHUIMENUBGM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

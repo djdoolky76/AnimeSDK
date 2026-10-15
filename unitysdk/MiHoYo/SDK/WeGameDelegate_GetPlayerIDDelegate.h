@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B860)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B890)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7B850)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7B7E0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF5B0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF530)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF5E0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEF5A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_GetPlayerIDDelegate_TypeDefinitionIndex = 7662;
+	inline static constexpr unsigned int WeGameDelegate_GetPlayerIDDelegate_TypeDefinitionIndex = 7716;
 
 	class WeGameDelegate_GetPlayerIDDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

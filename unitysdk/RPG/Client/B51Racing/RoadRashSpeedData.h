@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashSpeedData_TypeDefinitionIndex = 80345;
+	inline static constexpr unsigned int RoadRashSpeedData_TypeDefinitionIndex = 81673;
 
 	struct alignas(4) RoadRashSpeedData
 	{

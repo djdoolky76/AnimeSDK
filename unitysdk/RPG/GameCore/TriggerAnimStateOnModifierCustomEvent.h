@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AnimStateLogicType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerAnimStateOnModifierCustomEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_74D65921677ECB80_OFFSET UNITYSDK_OFFSET(0x1D5477F0)
-#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_F020E81F9A1CD2AD_OFFSET UNITYSDK_OFFSET(0x1D547840)
-#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D547830)
+#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC15A60)
+#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC15A70)
+#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC15A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAnimStateOnModifierCustomEvent_TypeDefinitionIndex = 22870;
+	inline static constexpr unsigned int TriggerAnimStateOnModifierCustomEvent_TypeDefinitionIndex = 23129;
 
 	class TriggerAnimStateOnModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,21 +22,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::JsonEnum* EventType; // 0x20
 		::RPG::GameCore::AnimStateLogicType AnimLogicState; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* AnimStateName; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_74D65921677ECB80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_74D65921677ECB80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F020E81F9A1CD2AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_F020E81F9A1CD2AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

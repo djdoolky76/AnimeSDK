@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_MODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A637F60)
+#define MIHOYO_SDK_MODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7C6B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Model_TypeDefinitionIndex = 7523;
+	inline static constexpr unsigned int Model_TypeDefinitionIndex = 7577;
 
 	class Model : public ::System::Object
 	{
@@ -16,10 +14,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* LOGIN; // 0x0
 		// static const ::System::String* BIND; // 0x0
 		// static const ::System::String* PAY; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

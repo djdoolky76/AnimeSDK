@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7F790)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7F7C0)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD7BF70)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7F6A0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF3490)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF33A0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF34C0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFEFCC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_OnWebViewInputEnableStatus_TypeDefinitionIndex = 7771;
+	inline static constexpr unsigned int WebDelegate_OnWebViewInputEnableStatus_TypeDefinitionIndex = 7815;
 
 	class WebDelegate_OnWebViewInputEnableStatus : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWINPUTENABLESTATUS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

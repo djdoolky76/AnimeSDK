@@ -3,39 +3,39 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/MazePuzzleMovieGameMode.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MazePuzzleMovieLevelRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D27E940)
-#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D27F200)
+#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D83EA40)
+#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D83E180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleMovieLevelRow_TypeDefinitionIndex = 13976;
+	inline static constexpr unsigned int MazePuzzleMovieLevelRow_TypeDefinitionIndex = 14083;
 
 	class MazePuzzleMovieLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
 		::System::String* TriggerCustomString; // 0x18
-		::RPG::GameCore::MazePuzzleMovieGameMode MovieMode; // 0x20
-		::System::UInt32 MovieLevel; // 0x24
+		::System::UInt32 Tutorial; // 0x20
+		::RPG::GameCore::MazePuzzleMovieGameMode MovieMode; // 0x24
 		::System::UInt32 UnlockSubmission; // 0x28
 		::System::UInt32 UnlockConditionMode; // 0x2C
 		::RPG::Client::TextID Title; // 0x30
-		::System::UInt32 Tutorial; // 0x40
-		::System::UInt32 UnlockCondition; // 0x44
-		::RPG::Client::TextID Description; // 0x48
-
+		::RPG::Client::TextID Description; // 0x40
+		::System::UInt32 MovieLevel; // 0x50
+		::System::UInt32 UnlockCondition; // 0x54
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazePuzzleMovieLevelRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MazePuzzleMovieLevelRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazePuzzleMovieLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MazePuzzleMovieLevelRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

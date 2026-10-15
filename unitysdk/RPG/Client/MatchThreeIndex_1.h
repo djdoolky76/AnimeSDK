@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Vector2Int.h"
+namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeIndex_1_TypeDefinitionIndex = 65999;
+	inline static constexpr unsigned int MatchThreeIndex_1_TypeDefinitionIndex = 65953;
 
 	template <typename T>
 	class MatchThreeIndex_1 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<T>* _Values; // 0x0
+		::System::Object* _Values; // 0x0
 	};
 }

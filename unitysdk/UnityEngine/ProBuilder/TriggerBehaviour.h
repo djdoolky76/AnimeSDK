@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
 
-#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19242650)
-#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_ONENTERPLAYMODE_OFFSET UNITYSDK_OFFSET(0x19242860)
-#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x192428F0)
-#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19242980)
+#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F260DE0)
+#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F260AB0)
+#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_ONENTERPLAYMODE_OFFSET UNITYSDK_OFFSET(0x1F260CC0)
+#define UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1F260D50)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int TriggerBehaviour_TypeDefinitionIndex = 43252;
+	inline static constexpr unsigned int TriggerBehaviour_TypeDefinitionIndex = 44444;
 
 	class TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Initialize()
@@ -35,5 +35,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIGGERBEHAVIOUR_ONSCENELOADED_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

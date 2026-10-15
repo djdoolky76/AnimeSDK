@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Cinemachine { class CinemachineComponentBase; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace System { class AsyncCallback; }
@@ -10,21 +9,21 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18C7DF40)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18C7DF80)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18C7D260)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7DE50)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1669A2D0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1669A1E0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1669A310)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x166995F0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineVirtualCamera_CreatePipelineDelegate_TypeDefinitionIndex = 38469;
+	inline static constexpr unsigned int CinemachineVirtualCamera_CreatePipelineDelegate_TypeDefinitionIndex = 39766;
 
 	class CinemachineVirtualCamera_CreatePipelineDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Transform* Invoke(::Cinemachine::CinemachineVirtualCamera* a1, ::System::String* a2, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>* a3)
@@ -41,5 +40,6 @@ namespace Cinemachine
 		{
 			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

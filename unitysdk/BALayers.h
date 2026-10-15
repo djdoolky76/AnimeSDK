@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BALayers_TypeDefinitionIndex = 36776;
+inline static constexpr unsigned int BALayers_TypeDefinitionIndex = 37463;
 
-enum class BALayers : ::System::Int32
-{
-	eWalkStopLayer = 0,
-	eBoneMaskLayer = 1,
-};
+	enum class BALayers : ::System::Int32
+	{
+		eWalkStopLayer = 0,
+		eBoneMaskLayer = 1,
+	};

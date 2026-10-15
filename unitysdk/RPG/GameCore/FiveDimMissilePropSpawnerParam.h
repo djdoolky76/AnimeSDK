@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropSpawnerParam.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimMissilePropSpawnerParam; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_METHOD_3_95BDCC77143B5528_OFFSET UNITYSDK_OFFSET(0x1D86A300)
-#define RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_METHOD_3_CC0A394F38CF710D_OFFSET UNITYSDK_OFFSET(0x1D86A340)
-#define RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D86A330)
+#define RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69BAF0)
+#define RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D69BB00)
+#define RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69BAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMissilePropSpawnerParam_TypeDefinitionIndex = 18367;
+	inline static constexpr unsigned int FiveDimMissilePropSpawnerParam_TypeDefinitionIndex = 18582;
 
 	class FiveDimMissilePropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
 	public:
 		::System::Boolean InitMoveRight; // 0x10
 		::System::Boolean EnableOverrideMoveSpeed; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::Single MoveSpeedOverride; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_95BDCC77143B5528(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMissilePropSpawnerParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimMissilePropSpawnerParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMissilePropSpawnerParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_METHOD_3_95BDCC77143B5528_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimMissilePropSpawnerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CC0A394F38CF710D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMissilePropSpawnerParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimMissilePropSpawnerParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMissilePropSpawnerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_METHOD_3_CC0A394F38CF710D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimMissilePropSpawnerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMISSILEPROPSPAWNERPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

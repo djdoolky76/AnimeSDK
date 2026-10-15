@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client::TrainParty { class TrainPartyMeetingCardController_CardMoveInfo; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_GET__ISMOVING_OFFSET UNITYSDK_OFFSET(0x1BDF56D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_PLAYCARD_OFFSET UNITYSDK_OFFSET(0x1BDF59B0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_SETFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BDF5960)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDF5640)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF5FD0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER__ONMOVEFINISH_OFFSET UNITYSDK_OFFSET(0x1BDF5F60)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER__TICKMOVING_OFFSET UNITYSDK_OFFSET(0x1BDF5730)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE2E2390)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_GET__ISMOVING_OFFSET UNITYSDK_OFFSET(0xE2E1A90)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_PLAYCARD_OFFSET UNITYSDK_OFFSET(0xE2E1D70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_SETFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xE2E1D20)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE2E1A00)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER__ONMOVEFINISH_OFFSET UNITYSDK_OFFSET(0xE2E2320)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER__TICKMOVING_OFFSET UNITYSDK_OFFSET(0xE2E1AF0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingCardController_TypeDefinitionIndex = 74178;
+	inline static constexpr unsigned int TrainPartyMeetingCardController_TypeDefinitionIndex = 74277;
 
 	class TrainPartyMeetingCardController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::AnimationCurve* MoveCurve; // 0x18
 		::System::Single Duration; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::Action* _FinishCallback; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyMeetingCardController_CardMoveInfo*>* _CurMoveInfoList; // 0x30
-
+		::System::Collections::Generic::List_1<::System::Object*>* _CurMoveInfoList; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -62,5 +61,6 @@ namespace RPG::Client::TrainParty
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_GET__ISMOVING_OFFSET))(this);
 		}
+
 	};
 }

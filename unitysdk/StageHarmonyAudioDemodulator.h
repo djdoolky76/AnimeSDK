@@ -1,54 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AudioTriggerInfo.h"
 #include "unitysdk/AudioTriggerMode.h"
 #include "unitysdk/DemodulatorOutPutType.h"
 #include "unitysdk/EdgeDetectionMode.h"
-#include "unitysdk/StageHarmonyBaseDemodulator_1.h"
-
+#include "unitysdk/AudioTriggerInfo.h"
 namespace System { class String; }
 
-#define STAGEHARMONYAUDIODEMODULATOR_METHOD_3_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x197E60B0)
-#define STAGEHARMONYAUDIODEMODULATOR_METHOD_3_E1105A7D5DEEC97F_OFFSET UNITYSDK_OFFSET(0x197E5FB0)
-#define STAGEHARMONYAUDIODEMODULATOR_METHOD_3_F4B1CC0F7E08D926_OFFSET UNITYSDK_OFFSET(0x197E5F60)
-#define STAGEHARMONYAUDIODEMODULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197E60F0)
+#define STAGEHARMONYAUDIODEMODULATOR_APAEIKPAHFH_OFFSET UNITYSDK_OFFSET(0xE981080)
+#define STAGEHARMONYAUDIODEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE981210)
+#define STAGEHARMONYAUDIODEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE9810D0)
+#define STAGEHARMONYAUDIODEMODULATOR_JHCJALOEFAI_OFFSET UNITYSDK_OFFSET(0xE9811D0)
 
-inline static constexpr unsigned int StageHarmonyAudioDemodulator_TypeDefinitionIndex = 47980;
+inline static constexpr unsigned int StageHarmonyAudioDemodulator_TypeDefinitionIndex = 47520;
 
-class StageHarmonyAudioDemodulator : public ::StageHarmonyBaseDemodulator_1<::AudioTriggerInfo>
-{
-public:
-	::System::Single Threshold; // 0x28
-	::System::Boolean InvertThreshold; // 0x2C
-	::EdgeDetectionMode EdgeDetection; // 0x30
-	::System::String* AudioEventName; // 0x38
-	::AudioTriggerMode TriggerMode; // 0x40
-	::System::Boolean StopOnBelowThreshold; // 0x44
-	::System::Single FadeOutTime; // 0x48
-	::System::Single Cooldown; // 0x4C
-	::System::Single _currentSignal; // 0x50
-	::System::Boolean _isTriggered; // 0x54
-	::System::Boolean _lastTriggered; // 0x55
-	::System::Single _lastSignal; // 0x58
-	::System::Boolean _isInitialized; // 0x5C
-
-	::System::Void _ctor()
+	class StageHarmonyAudioDemodulator
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Single Threshold; // 0x28
+		::System::Boolean InvertThreshold; // 0x2C
+		::System::Byte _padding0[0x3];
+		::EdgeDetectionMode EdgeDetection; // 0x30
+		::System::Byte _padding1[0x4];
+		::System::String* AudioEventName; // 0x38
+		::AudioTriggerMode TriggerMode; // 0x40
+		::System::Boolean StopOnBelowThreshold; // 0x44
+		::System::Byte _padding2[0x3];
+		::System::Single FadeOutTime; // 0x48
+		::System::Single Cooldown; // 0x4C
+		::System::Single _currentSignal; // 0x50
+		::System::Boolean _isTriggered; // 0x54
+		::System::Boolean _lastTriggered; // 0x55
+		::System::Byte _padding3[0x2];
+		::System::Single _lastSignal; // 0x58
+		::System::Boolean _isInitialized; // 0x5C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_CTOR_OFFSET))(this);
+		}
 
-	::DemodulatorOutPutType Method_3_F4B1CC0F7E08D926()
-	{
-		return ((::DemodulatorOutPutType(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_METHOD_3_F4B1CC0F7E08D926_OFFSET))(this);
-	}
+		::DemodulatorOutPutType APAEIKPAHFH()
+		{
+			return ((::DemodulatorOutPutType(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_APAEIKPAHFH_OFFSET))(this);
+		}
 
-	::AudioTriggerInfo Method_3_E1105A7D5DEEC97F(::System::Single a1)
-	{
-		return ((::AudioTriggerInfo(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_METHOD_3_E1105A7D5DEEC97F_OFFSET))(this, a1);
-	}
+		::AudioTriggerInfo FCDECODOKAK(::System::Single a1)
+		{
+			return ((::AudioTriggerInfo(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_FCDECODOKAK_OFFSET))(this, a1);
+		}
 
-	::System::String* Method_3_DA1BF2C227DC3D86()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_METHOD_3_DA1BF2C227DC3D86_OFFSET))(this);
-	}
-};
+		::System::String* JHCJALOEFAI()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYAUDIODEMODULATOR_JHCJALOEFAI_OFFSET))(this);
+		}
+
+	};

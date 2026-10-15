@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2SideBarToastMessage_MessageType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastItem; }
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastMessage; }
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastQueue_ActiveToastInfo; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B8C1410)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_CLEARPENDING_OFFSET UNITYSDK_OFFSET(0x1B8C1D60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_PUSH_OFFSET UNITYSDK_OFFSET(0x1B8C1CD0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B8C1E20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C2750)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__GETORCREATE_OFFSET UNITYSDK_OFFSET(0x1B8C24A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__ONTOASTFADEOUTEND_OFFSET UNITYSDK_OFFSET(0x1B8C25E0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__SHOW_OFFSET UNITYSDK_OFFSET(0x1B8C2110)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__TRYSHOWNEXTMESSAGES_OFFSET UNITYSDK_OFFSET(0x1B8C1E70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__UPDATEFADEOUT_OFFSET UNITYSDK_OFFSET(0x1B8C1F20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCCA64F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_CLEARPENDING_OFFSET UNITYSDK_OFFSET(0xCCA6E40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA7840)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_PUSH_OFFSET UNITYSDK_OFFSET(0xCCA6DB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_UPDATE_OFFSET UNITYSDK_OFFSET(0xCCA6F10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__GETORCREATE_OFFSET UNITYSDK_OFFSET(0xCCA7590)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__ONTOASTFADEOUTEND_OFFSET UNITYSDK_OFFSET(0xCCA76D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__SHOW_OFFSET UNITYSDK_OFFSET(0xCCA7200)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__TRYSHOWNEXTMESSAGES_OFFSET UNITYSDK_OFFSET(0xCCA6F60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__UPDATEFADEOUT_OFFSET UNITYSDK_OFFSET(0xCCA7010)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_TypeDefinitionIndex = 75735;
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_TypeDefinitionIndex = 76212;
 
 	class DiceCombatV2SideBarToastQueue : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,14 +31,14 @@ namespace RPG::Client::DiceCombat
 		::Il2CppArray<::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem*>* _ToastPrefabs; // 0x18
 		::UnityEngine::Transform* _Root; // 0x20
 		::System::Int32 _MaxVisible; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Queue_1<::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage*>* _MessageQueue; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2SideBarToastQueue_ActiveToastInfo*>* _ActiveToastList; // 0x38
+		::System::Collections::Generic::List_1<::System::Object*>* _ActiveToastList; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem*>*>* _ItemPools; // 0x40
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType, ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem*>* _PrefabLookup; // 0x48
-
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem*>* _PrefabLookup; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -86,5 +85,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE__GETORCREATE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class PEAFBFCPFCC;
+namespace System { class Object; }
 
-class Class_0_16E4307DCC419505_1350;
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER_GETSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1B5AF810)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AF7C0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA57C0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER_GETSUBKEYS_OFFSET UNITYSDK_OFFSET(0xCFA5810)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinDeckEditRedDotFilter_TypeDefinitionIndex = 79413;
+	inline static constexpr unsigned int FateRinDeckEditRedDotFilter_TypeDefinitionIndex = 80737;
 
 	class FateRinDeckEditRedDotFilter : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_1350* _RedDotService; // 0x10
-
-		::System::Void _ctor(::Class_0_16E4307DCC419505_1350* a1)
+		::PEAFBFCPFCC* _RedDotService; // 0x10
+		::System::Void _ctor(::PEAFBFCPFCC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1350*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PEAFBFCPFCC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void GetSubKeys(::System::Collections::Generic::List_1<::System::UInt32>*& a1, ::System::Collections::Generic::List_1<::System::UInt32>*& a2, ::System::Collections::Generic::List_1<::System::UInt32>*& a3)
+		::System::Void GetSubKeys(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*&, ::System::Collections::Generic::List_1<::System::UInt32>*&, ::System::Collections::Generic::List_1<::System::UInt32>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER_GETSUBKEYS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER_GETSUBKEYS_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

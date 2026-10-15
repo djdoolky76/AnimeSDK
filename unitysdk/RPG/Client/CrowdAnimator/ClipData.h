@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A2A00E0)
-#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A0130)
+#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA_BIHILLILGAF_OFFSET UNITYSDK_OFFSET(0xCBC1420)
+#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC1470)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int ClipData_TypeDefinitionIndex = 73622;
+	inline static constexpr unsigned int ClipData_TypeDefinitionIndex = 73729;
 
 	class ClipData : public ::System::Object
 	{
@@ -17,15 +17,15 @@ namespace RPG::Client::CrowdAnimator
 		::System::Int32 clipFrameCount; // 0x18
 		::System::Single length; // 0x1C
 		::System::Int32 isClipLooping; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CLIPDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CLIPDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_391A84BCD9F51317()
+		::System::Boolean BIHILLILGAF()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CLIPDATA_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CLIPDATA_BIHILLILGAF_OFFSET))(this);
 		}
+
 	};
 }

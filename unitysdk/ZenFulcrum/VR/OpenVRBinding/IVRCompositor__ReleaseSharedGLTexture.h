@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6600)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6670)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED65F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED6580)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F650B80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F650B00)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F650BF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F650B70)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__ReleaseSharedGLTexture_TypeDefinitionIndex = 37754;
+	inline static constexpr unsigned int IVRCompositor__ReleaseSharedGLTexture_TypeDefinitionIndex = 39051;
 
 	class IVRCompositor__ReleaseSharedGLTexture : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::UInt32 a1, ::System::IntPtr a2)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASESHAREDGLTEXTURE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

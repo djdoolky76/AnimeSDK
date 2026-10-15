@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Http { class NtlmSession; }
 namespace System { class String; }
 namespace System::Net { class Authorization; }
@@ -10,11 +9,11 @@ namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 
-#define MONO_HTTP_NTLMCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1C46CE10)
-#define MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1C46D710)
-#define MONO_HTTP_NTLMCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1C46D700)
-#define MONO_HTTP_NTLMCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C46D730)
-#define MONO_HTTP_NTLMCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46D720)
+#define MONO_HTTP_NTLMCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1EF8C770)
+#define MONO_HTTP_NTLMCLIENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF8D090)
+#define MONO_HTTP_NTLMCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8D080)
+#define MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1EF8D070)
+#define MONO_HTTP_NTLMCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1EF8D060)
 
 namespace Mono::Http
 {
@@ -25,17 +24,17 @@ namespace Mono::Http
 	public:
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>** StaticGet_cache()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>**)Il2CppClass::FromTypeDefinitionIndex(NtlmClient_TypeDefinitionIndex)->GetStaticField(0x30600);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>**)UnitySDK::FromName("Mono.Http", "NtlmClient")->GetStaticField(0x2A000);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_HTTP_NTLMCLIENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_HTTP_NTLMCLIENT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_HTTP_NTLMCLIENT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_HTTP_NTLMCLIENT_CCTOR_OFFSET))();
 		}
 
 		::System::Net::Authorization* Authenticate(::System::String* a1, ::System::Net::WebRequest* a2, ::System::Net::ICredentials* a3)
@@ -52,5 +51,6 @@ namespace Mono::Http
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET))(this);
 		}
+
 	};
 }

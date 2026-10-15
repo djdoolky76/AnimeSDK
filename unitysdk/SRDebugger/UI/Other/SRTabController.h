@@ -3,9 +3,9 @@
 #include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace SRDebugger::UI::Controls { class SRTabButton; }
 namespace SRDebugger::UI::Other { class SRTab; }
+namespace SRDebugger::UI::Other { class SRTabController; }
 namespace SRF { template <typename T> class SRList_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -13,36 +13,28 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADDTAB_OFFSET UNITYSDK_OFFSET(0x1BD9FAA0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x1BDC2660)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x1BDC6B80)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_TABS_OFFSET UNITYSDK_OFFSET(0x1BDA0650)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ISTABSHOW_OFFSET UNITYSDK_OFFSET(0x1BDA07C0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_MAKEACTIVE_OFFSET UNITYSDK_OFFSET(0x1BDC6B90)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1BDA19C0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x1BDC2960)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SELECT_OFFSET UNITYSDK_OFFSET(0x1BDA0730)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x1BDA0720)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SORTTABS_OFFSET UNITYSDK_OFFSET(0x1BDC6EF0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__ADJUSTTABPOSITION_OFFSET UNITYSDK_OFFSET(0x1BDC6730)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDC7160)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC7100)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADDTAB_OFFSET UNITYSDK_OFFSET(0x1ED10320)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED32920)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED373F0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED37390)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x1ED36E10)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_TABS_OFFSET UNITYSDK_OFFSET(0x1ED10ED0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ISTABSHOW_OFFSET UNITYSDK_OFFSET(0x1ED11040)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_MAKEACTIVE_OFFSET UNITYSDK_OFFSET(0x1ED36E20)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1ED12240)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED32C20)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SELECT_OFFSET UNITYSDK_OFFSET(0x1ED10FB0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x1ED10FA0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SORTTABS_OFFSET UNITYSDK_OFFSET(0x1ED37180)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__ADJUSTTABPOSITION_OFFSET UNITYSDK_OFFSET(0x1ED36990)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SRTabController_TypeDefinitionIndex = 37319;
+	inline static constexpr unsigned int SRTabController_TypeDefinitionIndex = 38012;
 
 	class SRTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__LocalConers()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController_TypeDefinitionIndex)->GetStaticField(0x41A20);
-		}
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__WorldConers()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController_TypeDefinitionIndex)->GetStaticField(0x41A28);
-		}
 		::SRF::SRList_1<::SRDebugger::UI::Other::SRTab*>* _tabs; // 0x48
 		::SRDebugger::UI::Other::SRTab* _activeTab; // 0x50
 		::UnityEngine::RectTransform* TabButtonContainer; // 0x58
@@ -52,15 +44,24 @@ namespace SRDebugger::UI::Other
 		::UnityEngine::UI::Text* TabHeaderText; // 0x78
 		::UnityEngine::RectTransform* TabViewPortRectTransform; // 0x80
 		::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* ActiveTabChanged; // 0x88
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__LocalConers()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("SRDebugger.UI.Other", "SRTabController")->GetStaticField(0x35630);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__WorldConers()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("SRDebugger.UI.Other", "SRTabController")->GetStaticField(0x35638);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Select()
@@ -122,5 +123,6 @@ namespace SRDebugger::UI::Other
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__ADJUSTTABPOSITION_OFFSET))(this);
 		}
+
 	};
 }

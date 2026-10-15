@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueTournBuildRefAvatarRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E54F060)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E54F640)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA07030)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA06A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefAvatarRow_TypeDefinitionIndex = 14832;
+	inline static constexpr unsigned int RogueTournBuildRefAvatarRow_TypeDefinitionIndex = 14997;
 
 	class RogueTournBuildRefAvatarRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AvatarID; // 0x10
-		::System::UInt32 SortWeight; // 0x14
-
+		::System::UInt32 SortWeight; // 0x10
+		::System::UInt32 AvatarID; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournBuildRefAvatarRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTournBuildRefAvatarRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournBuildRefAvatarRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTournBuildRefAvatarRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

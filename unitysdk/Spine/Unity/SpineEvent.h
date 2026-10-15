@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/SpineAttributeBase.h"
-
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x183413B0)
+#define SPINE_UNITY_SPINEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED06260)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineEvent_TypeDefinitionIndex = 43902;
+	inline static constexpr unsigned int SpineEvent_TypeDefinitionIndex = 45094;
 
 	class SpineEvent : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:
 		::System::Boolean audioOnly; // 0x28
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEEVENT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEEVENT_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

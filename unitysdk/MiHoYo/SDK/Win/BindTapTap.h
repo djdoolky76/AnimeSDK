@@ -1,38 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class BindTapTap; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_BINDTAPTAP_AWAKE_OFFSET UNITYSDK_OFFSET(0x15CF4830)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_BIND_OFFSET UNITYSDK_OFFSET(0x15CF5050)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_HIDE_OFFSET UNITYSDK_OFFSET(0x15CED640)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15CF5090)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_REGISTER_OFFSET UNITYSDK_OFFSET(0x15CF5070)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_SHOW_OFFSET UNITYSDK_OFFSET(0x15CEA110)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x15CF4E00)
-#define MIHOYO_SDK_WIN_BINDTAPTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x15CF50B0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BCD7CA0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_BIND_OFFSET UNITYSDK_OFFSET(0x1BCD84C0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD8520)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_HIDE_OFFSET UNITYSDK_OFFSET(0x1BCD0A80)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BCD8500)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_REGISTER_OFFSET UNITYSDK_OFFSET(0x1BCD84E0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_SHOW_OFFSET UNITYSDK_OFFSET(0x1BCCD550)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BCD8270)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindTapTap_TypeDefinitionIndex = 9450;
+	inline static constexpr unsigned int BindTapTap_TypeDefinitionIndex = 9508;
 
 	class BindTapTap : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::BindTapTap** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::BindTapTap**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap_TypeDefinitionIndex)->GetStaticField(0x26D50);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BindButtonPath; // 0x0
-		// static const ::System::String* RegisterButtonPath; // 0x0
-		// static const ::System::String* BindTapTapTipsTextPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* RegisterButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* bindButton; // 0x58
 		::UnityEngine::UI::Button* registerButton; // 0x60
 		::UnityEngine::UI::Text* tipsText; // 0x68
@@ -40,10 +29,20 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Text* registerButtonText; // 0x78
 		::System::Action* OnBind; // 0x80
 		::System::Action* OnRegister; // 0x88
+		static ::MiHoYo::SDK::Win::BindTapTap** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::BindTapTap**)UnitySDK::FromName("MiHoYo.SDK.Win", "BindTapTap")->GetStaticField(0x2D0D0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BindButtonPath; // 0x0
+		// static const ::System::String* RegisterButtonPath; // 0x0
+		// static const ::System::String* BindTapTapTipsTextPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* RegisterButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -80,5 +79,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

@@ -4,18 +4,15 @@
 #include "unitysdk/Cysharp/Threading/Tasks/SwitchToThreadPoolAwaitable_Awaiter.h"
 #include "unitysdk/Cysharp/Threading/Tasks/YieldAwaitable_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
-namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__87_1_TypeDefinitionIndex = 42770;
+	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__87_1_TypeDefinitionIndex = 38355;
 
 	template <typename T>
-	struct UniTask__RunOnThreadPool_d__87_1
+	struct alignas(8) UniTask__RunOnThreadPool_d__87_1
 	{
 		::System::Int32 __1__state; // 0x0
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<T> __t__builder; // 0x0

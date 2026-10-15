@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Interface/MonoSslPolicyErrors.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -10,10 +9,10 @@ namespace System::Net { class ServerCertValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C480010)
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C4800B0)
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C477DF0)
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47FF20)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF9F820)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF9F730)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF9F8C0)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF97590)
 
 namespace Mono::Net::Security
 {
@@ -24,7 +23,7 @@ namespace Mono::Net::Security
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::Net::ServerCertValidationCallback* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::Mono::Security::Interface::MonoSslPolicyErrors a4)
@@ -41,5 +40,6 @@ namespace Mono::Net::Security
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

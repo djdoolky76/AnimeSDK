@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/FacetsChecker.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1BACFBD0)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1BACFB80)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1BACFD30)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1BACFF40)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACFFA0)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1EE7A1C0)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1EE7A170)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7A590)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1EE7A320)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1EE7A530)
 
 namespace System::Xml::Schema
 {
@@ -22,7 +21,7 @@ namespace System::Xml::Schema
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CTOR_OFFSET))(this);
 		}
 
 		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
@@ -44,5 +43,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

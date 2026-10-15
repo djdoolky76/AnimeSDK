@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_NPCRIDECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B098FE0)
-#define RPGTOOLS_TIMELINE_NPCRIDECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B098FD0)
-#define RPGTOOLS_TIMELINE_NPCRIDECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B099170)
+#define RPGTOOLS_TIMELINE_NPCRIDECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9061E0)
+#define RPGTOOLS_TIMELINE_NPCRIDECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE906370)
+#define RPGTOOLS_TIMELINE_NPCRIDECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9061D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCRideClip_TypeDefinitionIndex = 48663;
+	inline static constexpr unsigned int NPCRideClip_TypeDefinitionIndex = 48203;
 
 	class NPCRideClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -26,10 +25,9 @@ namespace RPGTools::Timeline
 		::System::String* AttachPoint; // 0x30
 		::UnityEngine::Vector3 LocalPositionOffset; // 0x38
 		::UnityEngine::Vector3 LocalRotationOffset; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCRIDECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCRIDECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -41,5 +39,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCRIDECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

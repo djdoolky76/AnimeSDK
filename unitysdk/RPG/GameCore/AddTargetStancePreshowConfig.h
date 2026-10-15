@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddTargetStancePreshowConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_METHOD_3_7F3FC16313942795_OFFSET UNITYSDK_OFFSET(0x1D6A50D0)
-#define RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_METHOD_3_88F8505E00C6C24D_OFFSET UNITYSDK_OFFSET(0x1D6A5390)
-#define RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A5110)
+#define RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35E3E0)
+#define RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35E660)
+#define RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35E3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTargetStancePreshowConfig_TypeDefinitionIndex = 23412;
+	inline static constexpr unsigned int AddTargetStancePreshowConfig_TypeDefinitionIndex = 23685;
 
 	class AddTargetStancePreshowConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,6 +22,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* Attacker; // 0x20
 		::RPG::GameCore::DynamicFloat* BaseStanceDamage; // 0x28
 		::RPG::GameCore::AttackDamageType StanceDamgeType; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* MultiplyRatio; // 0x38
 		::RPG::GameCore::DynamicFloat* AddValue; // 0x40
 		::RPG::GameCore::DynamicFloat* AddRatio; // 0x48
@@ -31,20 +32,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* ForceStanceBreakRatio; // 0x68
 		::System::Boolean ForceStanceDamage; // 0x70
 		::System::Boolean IgnoreMuteBreak; // 0x71
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7F3FC16313942795(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTargetStancePreshowConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddTargetStancePreshowConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTargetStancePreshowConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_METHOD_3_7F3FC16313942795_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddTargetStancePreshowConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_88F8505E00C6C24D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTargetStancePreshowConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddTargetStancePreshowConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTargetStancePreshowConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_METHOD_3_88F8505E00C6C24D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddTargetStancePreshowConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTARGETSTANCEPRESHOWCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

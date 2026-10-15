@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class KNCMHNDHKMG;
+
+#define KNCMHNDHKMG___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB577220)
+#define KNCMHNDHKMG___C__DISPLAYCLASS18_0___SHOWEQUIPORBPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xB578570)
+
+inline static constexpr unsigned int KNCMHNDHKMG___c__DisplayClass18_0_TypeDefinitionIndex = 75303;
+
+	class KNCMHNDHKMG___c__DisplayClass18_0 : public ::System::Object
+	{
+	public:
+		::KNCMHNDHKMG* __4__this; // 0x10
+		::System::UInt32 entityRuntimeId; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void __ShowEquipOrbPerform_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG___C__DISPLAYCLASS18_0___SHOWEQUIPORBPERFORM_B__0_OFFSET))(this);
+		}
+
+	};

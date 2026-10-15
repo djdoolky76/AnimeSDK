@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PingPongEnemySelfRotateCmptConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_METHOD_3_10EC852EE70E8923_OFFSET UNITYSDK_OFFSET(0x1D78D7F0)
-#define RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_METHOD_3_1433C352630FA559_OFFSET UNITYSDK_OFFSET(0x1D78D790)
-#define RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78D7E0)
+#define RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E8F60)
+#define RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E8F70)
+#define RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E8F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongEnemySelfRotateCmptConfig_TypeDefinitionIndex = 18714;
+	inline static constexpr unsigned int PingPongEnemySelfRotateCmptConfig_TypeDefinitionIndex = 18938;
 
 	class PingPongEnemySelfRotateCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsSelfRotate; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single RotateSpeed; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1433C352630FA559(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_METHOD_3_1433C352630FA559_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_10EC852EE70E8923(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_METHOD_3_10EC852EE70E8923_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongEnemySelfRotateCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSELFROTATECMPTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

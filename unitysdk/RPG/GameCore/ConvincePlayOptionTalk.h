@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ConvincePlayOptionTalk; }
 namespace RPG::GameCore { class OptionTalkInfo; }
 
-#define RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_METHOD_3_B1B70CA99DA8A180_OFFSET UNITYSDK_OFFSET(0x1D9BAA30)
-#define RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_METHOD_3_FC55B99B9CE8BF17_OFFSET UNITYSDK_OFFSET(0x1D9BAA70)
-#define RPG_GAMECORE_CONVINCEPLAYOPTIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BAA60)
+#define RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B1A30)
+#define RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B1A40)
+#define RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B1A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvincePlayOptionTalk_TypeDefinitionIndex = 21597;
+	inline static constexpr unsigned int ConvincePlayOptionTalk_TypeDefinitionIndex = 21845;
 
 	class ConvincePlayOptionTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::OptionTalkInfo*>* OptionList; // 0x18
 		::Il2CppArray<::System::UInt32>* CorrectOptionIndex; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPLAYOPTIONTALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B1B70CA99DA8A180(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvincePlayOptionTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConvincePlayOptionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvincePlayOptionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_METHOD_3_B1B70CA99DA8A180_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConvincePlayOptionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FC55B99B9CE8BF17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvincePlayOptionTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConvincePlayOptionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvincePlayOptionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_METHOD_3_FC55B99B9CE8BF17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConvincePlayOptionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPLAYOPTIONTALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

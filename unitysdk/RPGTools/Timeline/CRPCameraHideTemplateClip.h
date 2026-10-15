@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D132DF0)
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D132DE0)
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D132F50)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B37D0)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B3930)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B37C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraHideTemplateClip_TypeDefinitionIndex = 48347;
+	inline static constexpr unsigned int CRPCameraHideTemplateClip_TypeDefinitionIndex = 47888;
 
 	class CRPCameraHideTemplateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

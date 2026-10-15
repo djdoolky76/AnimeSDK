@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
-class Class_1_1CB8CBC69B962B41;
+class ENGBNDIPDJL;
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelEntityUseInsertAbilityCheck; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD23CA0)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD23D40)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD23CF0)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_INIT_OFFSET UNITYSDK_OFFSET(0x1DD23C20)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD23D90)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E35A0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E3690)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E3640)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E35F0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_INIT_OFFSET UNITYSDK_OFFSET(0xE6E3520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityUseInsertAbilityCheck_TypeDefinitionIndex = 56931;
+	inline static constexpr unsigned int LevelEntityUseInsertAbilityCheck_TypeDefinitionIndex = 56752;
 
-	class LevelEntityUseInsertAbilityCheck : public ::Class_1_BF7A075734D15E98
+	class LevelEntityUseInsertAbilityCheck : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::String* AbilityName; // 0x18
-		::RPG::GameCore::GameEntity* Target; // 0x20
+		::RPG::GameCore::GameEntity* Target; // 0x18
+		::System::String* AbilityName; // 0x20
 		::System::Boolean Silence; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEntityUseInsertAbilityCheck* Init(::Class_1_1CB8CBC69B962B41* a1)
+		::RPG::GameCore::LevelEntityUseInsertAbilityCheck* Init(::ENGBNDIPDJL* a1)
 		{
-			return ((::RPG::GameCore::LevelEntityUseInsertAbilityCheck*(*)(::PVOID, ::Class_1_1CB8CBC69B962B41*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_INIT_OFFSET))(this, a1);
+			return ((::RPG::GameCore::LevelEntityUseInsertAbilityCheck*(*)(::PVOID, ::ENGBNDIPDJL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -48,5 +47,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITYCHECK_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

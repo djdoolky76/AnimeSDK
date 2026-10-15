@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Light; }
 
-#define RPG_CUSTOMRP_VOXELVISUALIZER_LIGHTCANBEBAKED_OFFSET UNITYSDK_OFFSET(0x1682B360)
-#define RPG_CUSTOMRP_VOXELVISUALIZER_METHOD_5_B37B206BF73A85B5_OFFSET UNITYSDK_OFFSET(0x16832820)
-#define RPG_CUSTOMRP_VOXELVISUALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x168328E0)
+#define RPG_CUSTOMRP_VOXELVISUALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xE48C500)
+#define RPG_CUSTOMRP_VOXELVISUALIZER_FIECNMDMEDG_OFFSET UNITYSDK_OFFSET(0xE48C440)
+#define RPG_CUSTOMRP_VOXELVISUALIZER_LIGHTCANBEBAKED_OFFSET UNITYSDK_OFFSET(0xE484FC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VoxelVisualizer_TypeDefinitionIndex = 52146;
+	inline static constexpr unsigned int VoxelVisualizer_TypeDefinitionIndex = 51852;
 
 	class VoxelVisualizer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOXELVISUALIZER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOXELVISUALIZER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_5_B37B206BF73A85B5(::UnityEngine::Light* a1)
+		static ::System::Boolean FIECNMDMEDG(::UnityEngine::Light* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOXELVISUALIZER_METHOD_5_B37B206BF73A85B5_OFFSET))(a1);
+			return ((::System::Boolean(*)(::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOXELVISUALIZER_FIECNMDMEDG_OFFSET))(a1);
 		}
 
 		static ::System::Boolean LightCanBeBaked(::UnityEngine::Light* a1, ::RPG::CustomRP::CustomLightQualityFilter a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Light*, ::RPG::CustomRP::CustomLightQualityFilter))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOXELVISUALIZER_LIGHTCANBEBAKED_OFFSET))(a1, a2);
 		}
+
 	};
 }

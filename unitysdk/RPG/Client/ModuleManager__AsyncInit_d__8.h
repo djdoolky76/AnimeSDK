@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client { class BaseModule; }
 namespace RPG::Client { class ModuleManager; }
 namespace System { class Action; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19E27690)
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E278D0)
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E27930)
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19E278E0)
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E27670)
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8__CTOR_OFFSET UNITYSDK_OFFSET(0x19E26D10)
-#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x19E27680)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_CTOR_OFFSET UNITYSDK_OFFSET(0xD722410)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xD722D80)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD722FC0)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD723020)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xD722FD0)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD722D60)
+#define RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xD722D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModuleManager__AsyncInit_d__8_TypeDefinitionIndex = 66251;
+	inline static constexpr unsigned int ModuleManager__AsyncInit_d__8_TypeDefinitionIndex = 66212;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class ModuleManager__AsyncInit_d__8 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::System::Collections::Generic::List_1_Enumerator<::RPG::Client::BaseModule*> __7__wrap1; // 0x18
-		::System::Action* callback; // 0x30
-		::RPG::Client::ModuleManager* __4__this; // 0x38
+		::RPG::Client::ModuleManager* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Action* callback; // 0x20
+		::System::Object* __7__wrap1; // 0x28
+		::System::Byte _padding0[0x10];
 		::System::Int32 __1__state; // 0x40
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -62,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MODULEMANAGER__ASYNCINIT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

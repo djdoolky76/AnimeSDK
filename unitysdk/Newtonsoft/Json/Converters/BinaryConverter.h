@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
-
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
@@ -9,26 +8,25 @@ namespace Newtonsoft::Json::Utilities { class ReflectionObject; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1811CD30)
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_ENSUREREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1811C2E0)
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_GETBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1811C1A0)
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_READBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1811C9E0)
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1811C470)
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1811C070)
-#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1811CD70)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1C34C670)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C34C6B0)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_ENSUREREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1C34BC20)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_GETBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1C34BAE0)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_READBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1C34C320)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1C34BDB0)
+#define NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1C34B9B0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int BinaryConverter_TypeDefinitionIndex = 9755;
+	inline static constexpr unsigned int BinaryConverter_TypeDefinitionIndex = 9813;
 
 	class BinaryConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
 		::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
@@ -60,5 +58,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BINARYCONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
+
 	};
 }

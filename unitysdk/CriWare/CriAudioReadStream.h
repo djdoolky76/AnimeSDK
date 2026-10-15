@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace CriWare { class CriAudioReadStream_Delegate; }
 namespace CriWare { class CriAudioReadStream_InternalDelegate; }
 
-#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x1D383400)
-#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x1D383420)
-#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x1D383410)
-#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x1D383430)
-#define CRIWARE_CRIAUDIOREADSTREAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D383450)
-#define CRIWARE_CRIAUDIOREADSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D383440)
+#define CRIWARE_CRIAUDIOREADSTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x166FEB80)
+#define CRIWARE_CRIAUDIOREADSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x166FEB70)
+#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x166FEB30)
+#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x166FEB50)
+#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x166FEB40)
+#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x166FEB60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAudioReadStream_TypeDefinitionIndex = 38790;
+	inline static constexpr unsigned int CriAudioReadStream_TypeDefinitionIndex = 40087;
 
 	class CriAudioReadStream : public ::System::Object
 	{
@@ -22,15 +21,14 @@ namespace CriWare
 		::CriWare::CriAudioReadStream_InternalDelegate* internalDelegate; // 0x10
 		::System::IntPtr _callbackPointer_k__BackingField; // 0x18
 		::System::IntPtr _callbackFunction_k__BackingField; // 0x20
-
 		::System::Void _ctor(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::CriWare::CriAudioReadStream_Delegate* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAudioReadStream_Delegate*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAudioReadStream_Delegate*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::IntPtr get_callbackFunction()
@@ -52,5 +50,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKPOINTER_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StoryBlackType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OverrideEndTransferType; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_METHOD_3_2A770C9659A5C93B_OFFSET UNITYSDK_OFFSET(0x1D40C190)
-#define RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_METHOD_3_5AC1963ADCEB0998_OFFSET UNITYSDK_OFFSET(0x1D40C1E0)
-#define RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D40C1D0)
+#define RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B97B0)
+#define RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8B97C0)
+#define RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B9770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideEndTransferType_TypeDefinitionIndex = 21673;
+	inline static constexpr unsigned int OverrideEndTransferType_TypeDefinitionIndex = 21921;
 
 	class OverrideEndTransferType : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::StoryBlackType BlackType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2A770C9659A5C93B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideEndTransferType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OverrideEndTransferType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideEndTransferType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_METHOD_3_2A770C9659A5C93B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OverrideEndTransferType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5AC1963ADCEB0998(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideEndTransferType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OverrideEndTransferType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideEndTransferType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_METHOD_3_5AC1963ADCEB0998_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OverrideEndTransferType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENDTRANSFERTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class DeviceLoginTips; }
 namespace MiHoYo::SDK::Win { class NewDeviceInfoModel; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -10,45 +10,27 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_AWAKE_OFFSET UNITYSDK_OFFSET(0x15D314C0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BACK_OFFSET UNITYSDK_OFFSET(0x15D329C0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BIND_OFFSET UNITYSDK_OFFSET(0x15D32AE0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_CLOSE_OFFSET UNITYSDK_OFFSET(0x15D32A50)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_GETSHOWTIME_OFFSET UNITYSDK_OFFSET(0x15D326F0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_HIDE_OFFSET UNITYSDK_OFFSET(0x15D32950)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_KNOW_OFFSET UNITYSDK_OFFSET(0x15D32B70)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15D32C00)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_SHOW_OFFSET UNITYSDK_OFFSET(0x15D31350)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_START_OFFSET UNITYSDK_OFFSET(0x15D32290)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATECELL_OFFSET UNITYSDK_OFFSET(0x15D322A0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x15D31F70)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x15D32C20)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD11910)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BACK_OFFSET UNITYSDK_OFFSET(0x1BD12E10)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BIND_OFFSET UNITYSDK_OFFSET(0x1BD12F30)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BD12EA0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD13070)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_GETSHOWTIME_OFFSET UNITYSDK_OFFSET(0x1BD12B40)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD12DA0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_KNOW_OFFSET UNITYSDK_OFFSET(0x1BD12FC0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD13050)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD117A0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_START_OFFSET UNITYSDK_OFFSET(0x1BD126E0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATECELL_OFFSET UNITYSDK_OFFSET(0x1BD126F0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD123C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceLoginTips_TypeDefinitionIndex = 9458;
+	inline static constexpr unsigned int DeviceLoginTips_TypeDefinitionIndex = 9516;
 
 	class DeviceLoginTips : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::DeviceLoginTips** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::DeviceLoginTips**)Il2CppClass::FromTypeDefinitionIndex(DeviceLoginTips_TypeDefinitionIndex)->GetStaticField(0x2B720);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* ContentPath; // 0x0
-		// static const ::System::String* TitlePath; // 0x0
-		// static const ::System::String* SubTitlePath; // 0x0
-		// static const ::System::String* ScrollContentPath; // 0x0
-		// static const ::System::String* DeviceCellPath; // 0x0
-		// static const ::System::String* DeviceNamePath; // 0x0
-		// static const ::System::String* DeviceTimePath; // 0x0
-		// static const ::System::String* BindButtonPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* OKButtonPath; // 0x0
-		// static const ::System::String* OKButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* closeButton; // 0x58
 		::UnityEngine::UI::Button* backButton; // 0x60
 		::UnityEngine::UI::Text* titleText; // 0x68
@@ -64,10 +46,28 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnBind; // 0xB8
 		::System::Action* OnKnown; // 0xC0
 		::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* deviceList; // 0xC8
+		static ::MiHoYo::SDK::Win::DeviceLoginTips** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::DeviceLoginTips**)UnitySDK::FromName("MiHoYo.SDK.Win", "DeviceLoginTips")->GetStaticField(0x30D30);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* ContentPath; // 0x0
+		// static const ::System::String* TitlePath; // 0x0
+		// static const ::System::String* SubTitlePath; // 0x0
+		// static const ::System::String* ScrollContentPath; // 0x0
+		// static const ::System::String* DeviceCellPath; // 0x0
+		// static const ::System::String* DeviceNamePath; // 0x0
+		// static const ::System::String* DeviceTimePath; // 0x0
+		// static const ::System::String* BindButtonPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* OKButtonPath; // 0x0
+		// static const ::System::String* OKButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* a1)
@@ -129,5 +129,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

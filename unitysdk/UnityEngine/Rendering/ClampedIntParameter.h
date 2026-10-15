@@ -2,23 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/IntParameter.h"
 
-#define UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CD05420)
-#define UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CD05430)
-#define UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD05450)
+#define UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F27CD80)
+#define UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F27CD50)
+#define UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F27CD60)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ClampedIntParameter_TypeDefinitionIndex = 34962;
+	inline static constexpr unsigned int ClampedIntParameter_TypeDefinitionIndex = 35631;
 
 	class ClampedIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{
 	public:
 		::System::Int32 min; // 0x20
 		::System::Int32 max; // 0x24
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_value()
@@ -30,5 +29,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDINTPARAMETER_SET_VALUE_OFFSET))(this, a1);
 		}
+
 	};
 }

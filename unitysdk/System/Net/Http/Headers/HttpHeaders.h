@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Net/Http/Headers/HttpHeaderKind.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -14,54 +13,53 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class HeaderInfo; }
 namespace System::Net::Http::Headers { class HttpHeaders_HeaderBucket; }
-namespace System::Net::Http::Headers { template <typename T> class HttpHeaderValueCollection_1; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_ADDINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E7DDE30)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_ADD_1_OFFSET UNITYSDK_OFFSET(0x1E7DDC10)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_ADD_OFFSET UNITYSDK_OFFSET(0x1E7DDB80)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CHECKNAME_OFFSET UNITYSDK_OFFSET(0x1E7DDCA0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETALLHEADERVALUES_OFFSET UNITYSDK_OFFSET(0x1E7DF6A0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E7DEA60)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETKNOWNHEADERKIND_OFFSET UNITYSDK_OFFSET(0x1E7DFAA0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETSINGLEHEADERSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DEB30)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_REMOVE_OFFSET UNITYSDK_OFFSET(0x1E7DEAD0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E7DEAA0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DF220)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TRYADDWITHOUTVALIDATION_OFFSET UNITYSDK_OFFSET(0x1E7DE790)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TRYCHECKNAME_OFFSET UNITYSDK_OFFSET(0x1E7DE810)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DAC80)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7DA860)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DDAC0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_ADDINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EE24BC0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_ADD_1_OFFSET UNITYSDK_OFFSET(0x1EE249A0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_ADD_OFFSET UNITYSDK_OFFSET(0x1EE24910)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE219F0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CHECKNAME_OFFSET UNITYSDK_OFFSET(0x1EE24A30)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE215A0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE24850)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETALLHEADERVALUES_OFFSET UNITYSDK_OFFSET(0x1EE26450)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EE25810)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETKNOWNHEADERKIND_OFFSET UNITYSDK_OFFSET(0x1EE26850)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETSINGLEHEADERSTRING_OFFSET UNITYSDK_OFFSET(0x1EE258E0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_REMOVE_OFFSET UNITYSDK_OFFSET(0x1EE25880)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EE25850)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE25FD0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TRYADDWITHOUTVALIDATION_OFFSET UNITYSDK_OFFSET(0x1EE25540)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TRYCHECKNAME_OFFSET UNITYSDK_OFFSET(0x1EE255C0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpHeaders_TypeDefinitionIndex = 3793;
+	inline static constexpr unsigned int HttpHeaders_TypeDefinitionIndex = 3794;
 
 	class HttpHeaders : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* headers; // 0x10
+		::System::Nullable_1<::System::Boolean> connectionclose; // 0x18
+		::System::Nullable_1<::System::Boolean> transferEncodingChunked; // 0x1A
+		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x1C
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Net::Http::Headers::HeaderInfo*>** StaticGet_known_headers()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Net::Http::Headers::HeaderInfo*>**)Il2CppClass::FromTypeDefinitionIndex(HttpHeaders_TypeDefinitionIndex)->GetStaticField(0x8180);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Net::Http::Headers::HeaderInfo*>**)UnitySDK::FromName("System.Net.Http.Headers", "HttpHeaders")->GetStaticField(0x20D0);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Net::Http::Headers::HttpHeaders_HeaderBucket*>* headers; // 0x10
-		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x18
-		::System::Nullable_1<::System::Boolean> connectionclose; // 0x1C
-		::System::Nullable_1<::System::Boolean> transferEncodingChunked; // 0x1E
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Net::Http::Headers::HttpHeaderKind a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::HttpHeaderKind))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::HttpHeaderKind))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Add(::System::String* a1, ::System::String* a2)
@@ -89,9 +87,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Net::Http::Headers::HeaderInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_CHECKNAME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryCheckName(::System::String* a1, ::System::Net::Http::Headers::HeaderInfo*& a2)
+		::System::Boolean TryCheckName(::System::String* a1, ::System::Net::Http::Headers::HeaderInfo* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Net::Http::Headers::HeaderInfo*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TRYCHECKNAME_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Net::Http::Headers::HeaderInfo*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_TRYCHECKNAME_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*>>* GetEnumerator()
@@ -128,5 +126,6 @@ namespace System::Net::Http::Headers
 		{
 			return ((::System::Net::Http::Headers::HttpHeaderKind(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS_GETKNOWNHEADERKIND_OFFSET))(a1);
 		}
+
 	};
 }

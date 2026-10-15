@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSource.h"
-
+namespace MessagePack { class MessagePackEventSource; }
 namespace System { class String; }
 
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTART_OFFSET UNITYSDK_OFFSET(0x16694800)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x166B00C0)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x166B00D0)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x166B0080)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB91360)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB91310)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTART_OFFSET UNITYSDK_OFFSET(0x1BB75C20)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x1BB91350)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 7115;
+	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 7169;
 
 	class MessagePackEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:
 		static ::MessagePack::MessagePackEventSource** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackEventSource**)Il2CppClass::FromTypeDefinitionIndex(MessagePackEventSource_TypeDefinitionIndex)->GetStaticField(0x367C0);
+			return (::MessagePack::MessagePackEventSource**)UnitySDK::FromName("MessagePack", "MessagePackEventSource")->GetStaticField(0x4A0E0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CCTOR_OFFSET))();
 		}
 
 		::System::Void FormatterDynamicallyGeneratedStart()
@@ -40,5 +40,6 @@ namespace MessagePack
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET))(this, a1);
 		}
+
 	};
 }

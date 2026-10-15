@@ -1,62 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::Prop { class RotatePillarPuzzleBoard; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragment; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragmentData; }
+namespace RPG::Client::Prop { class RotatePillarPuzzlePillar; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleSwitch; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1664BEC0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GETFRAGMENT_OFFSET UNITYSDK_OFFSET(0x1664E330)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1664C4B0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_ISROTATE_OFFSET UNITYSDK_OFFSET(0x1664B1A0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_MAXEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0x16651220)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_MINEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0x16651660)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GOBACKINIT_OFFSET UNITYSDK_OFFSET(0x1664B770)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_INITPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0x166490A0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_METHOD_5_0609E77F38B69C73_OFFSET UNITYSDK_OFFSET(0x16650E60)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_METHOD_5_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x166511D0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_REFRESHALLPILLARCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0x1664E5A0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_REGISTERSWITCH_OFFSET UNITYSDK_OFFSET(0x16650D80)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_ROTATE_1_OFFSET UNITYSDK_OFFSET(0x16650C10)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_ROTATE_OFFSET UNITYSDK_OFFSET(0x1664AF30)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SELECT_OFFSET UNITYSDK_OFFSET(0x1664A8E0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SETFINISH_OFFSET UNITYSDK_OFFSET(0x1664C100)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SET_MAXEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0x16651230)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SET_MINEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0x16651670)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x16651B20)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR__CTOR_OFFSET UNITYSDK_OFFSET(0x16651AA0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD90630)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_CTOR_OFFSET UNITYSDK_OFFSET(0xDD905B0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD8AA50)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_EGFEGBGGMKO_OFFSET UNITYSDK_OFFSET(0xDD8FCE0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GETFRAGMENT_OFFSET UNITYSDK_OFFSET(0xDD8CE40)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD8B040)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_ISROTATE_OFFSET UNITYSDK_OFFSET(0xDD89D30)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_MAXEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0xDD8FD30)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_MINEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0xDD90170)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GOBACKINIT_OFFSET UNITYSDK_OFFSET(0xDD8A300)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_INITPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xDD87C20)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_MEJPCDCODCM_OFFSET UNITYSDK_OFFSET(0xDD8F970)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_REFRESHALLPILLARCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xDD8D0B0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_REGISTERSWITCH_OFFSET UNITYSDK_OFFSET(0xDD8F890)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_ROTATE_1_OFFSET UNITYSDK_OFFSET(0xDD8F720)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_ROTATE_OFFSET UNITYSDK_OFFSET(0xDD89AC0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SELECT_OFFSET UNITYSDK_OFFSET(0xDD89460)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SETFINISH_OFFSET UNITYSDK_OFFSET(0xDD8AC90)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SET_MAXEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0xDD8FD40)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SET_MINEMISSIONSTRENGTHLENGTHEDITOR_OFFSET UNITYSDK_OFFSET(0xDD90180)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzlePillar_TypeDefinitionIndex = 78338;
+	inline static constexpr unsigned int RotatePillarPuzzlePillar_TypeDefinitionIndex = 78809;
 
 	class RotatePillarPuzzlePillar : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_MEFMOLNEFIN()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RotatePillarPuzzlePillar_TypeDefinitionIndex)->GetStaticField(0x64AF0);
-		}
-		static ::System::Single* StaticGet_GlobalMaxEmissionStrengthLength()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RotatePillarPuzzlePillar_TypeDefinitionIndex)->GetStaticField(0x14C70);
-		}
-		static ::System::Single* StaticGet_GlobalMinEmissionStrengthLength()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RotatePillarPuzzlePillar_TypeDefinitionIndex)->GetStaticField(0x14C74);
-		}
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleFragment*>* Fragment; // 0x18
 		::System::Single ClockWait; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* CompleteTriggerCustomString; // 0x28
 		::System::Single RotateTime; // 0x30
 		::System::Single MaxEmissionStrengthLength; // 0x34
 		::System::Single MinEmissionStrengthLength; // 0x38
+		::System::Byte _padding1[0x4];
 		::RPG::Client::Prop::RotatePillarPuzzleBoard* OwnerBoard; // 0x40
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x48
 		::System::String* BGFOCCJAOOO; // 0x50
@@ -64,15 +54,29 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleSwitch*>* EDHKLKKFAOM; // 0x60
 		::System::Boolean POIOPDDKGKB; // 0x68
 		::System::Boolean EJBCMAOPDCL; // 0x69
+		static ::System::String** StaticGet_MEFMOLNEFIN()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RotatePillarPuzzlePillar")->GetStaticField(0x4CD20);
+		}
+
+		static ::System::Single* StaticGet_GlobalMinEmissionStrengthLength()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "RotatePillarPuzzlePillar")->GetStaticField(0x11900);
+		}
+
+		static ::System::Single* StaticGet_GlobalMaxEmissionStrengthLength()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "RotatePillarPuzzlePillar")->GetStaticField(0x11904);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_CCTOR_OFFSET))();
 		}
 
 		::System::Void InitPuzzleItem(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RotatePillarPuzzleBoard* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleFragmentData*>* a3, ::System::String* a4, ::System::Action_1<::RPG::Client::Prop::RotatePillarPuzzlePillar*>* a5)
@@ -125,9 +129,9 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_REFRESHALLPILLARCOMPLETESTATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_0609E77F38B69C73(::RPG::Client::Prop::RotatePillarPuzzleFragment* a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::Void MEJPCDCODCM(::RPG::Client::Prop::RotatePillarPuzzleFragment* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RotatePillarPuzzleFragment*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_METHOD_5_0609E77F38B69C73_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RotatePillarPuzzleFragment*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_MEJPCDCODCM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsComplete()
@@ -135,9 +139,9 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_GET_ISCOMPLETE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3E7178C5ECF017DB(::System::Boolean a1)
+		::System::Void EGFEGBGGMKO(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_METHOD_5_3E7178C5ECF017DB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_EGFEGBGGMKO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsRotate()
@@ -164,5 +168,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_SET_MINEMISSIONSTRENGTHLENGTHEDITOR_OFFSET))(this, a1);
 		}
+
 	};
 }

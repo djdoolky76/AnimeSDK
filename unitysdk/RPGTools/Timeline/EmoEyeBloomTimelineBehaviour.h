@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class EyeBloomData; }
 
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B570B60)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D5800)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeBloomTimelineBehaviour_TypeDefinitionIndex = 48574;
+	inline static constexpr unsigned int EmoEyeBloomTimelineBehaviour_TypeDefinitionIndex = 48114;
 
 	class EmoEyeBloomTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::EyeBloomData* EyeBloomData; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
+
 	};
 }

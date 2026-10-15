@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
-
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1811D0E0)
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1811CEE0)
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1811CD90)
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1811D120)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1C34CA20)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C34CA60)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1C34C820)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1C34C6D0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int BsonObjectIdConverter_TypeDefinitionIndex = 9760;
+	inline static constexpr unsigned int BsonObjectIdConverter_TypeDefinitionIndex = 9818;
 
 	class BsonObjectIdConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
@@ -39,5 +38,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
+
 	};
 }

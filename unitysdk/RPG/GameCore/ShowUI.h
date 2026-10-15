@@ -1,18 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class ShowUI; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWUI_METHOD_3_4FD773016802648E_OFFSET UNITYSDK_OFFSET(0x1D09D4E0)
-#define RPG_GAMECORE_SHOWUI_METHOD_3_9E2AECFBF40F6AA0_OFFSET UNITYSDK_OFFSET(0x1D09D4A0)
-#define RPG_GAMECORE_SHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09D4D0)
+#define RPG_GAMECORE_SHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB9DB0)
+#define RPG_GAMECORE_SHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB9DC0)
+#define RPG_GAMECORE_SHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB9D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 23567;
+	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 23841;
 
 	class ShowUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,24 +21,25 @@ namespace RPG::GameCore
 		::System::String* Name; // 0x18
 		::System::Boolean IsHide; // 0x20
 		::System::Boolean WaitForExit; // 0x21
+		::System::Byte _padding0[0x6];
 		::RPG::GameCore::DynamicString* Param; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnUIEnter; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnUICustomEvent; // 0x38
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnUIExitImmediately; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E2AECFBF40F6AA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_METHOD_3_9E2AECFBF40F6AA0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4FD773016802648E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_METHOD_3_4FD773016802648E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

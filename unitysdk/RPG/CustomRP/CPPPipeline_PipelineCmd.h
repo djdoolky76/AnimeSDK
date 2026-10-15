@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 class ICmdExecuteCb;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CPPPipeline_PipelineCmd_TypeDefinitionIndex = 36848;
+	inline static constexpr unsigned int CPPPipeline_PipelineCmd_TypeDefinitionIndex = 37535;
 
 	struct alignas(8) CPPPipeline_PipelineCmd
 	{

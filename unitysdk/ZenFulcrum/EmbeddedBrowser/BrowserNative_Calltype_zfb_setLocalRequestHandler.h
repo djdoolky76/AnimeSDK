@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewRequestFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E3000)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E3030)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7DD510)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E2F90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F625C20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F625BB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F625C50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F620060)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setLocalRequestHandler_TypeDefinitionIndex = 38111;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setLocalRequestHandler_TypeDefinitionIndex = 39408;
 
 	class BrowserNative_Calltype_zfb_setLocalRequestHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc* a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETLOCALREQUESTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

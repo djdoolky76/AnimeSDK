@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -10,14 +9,14 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class ScriptableObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_CREATEANIMATIONCLIPFORTRACK_OFFSET UNITYSDK_OFFSET(0x1BF57D10)
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_GENERATEUNIQUEACTORNAME_OFFSET UNITYSDK_OFFSET(0x1BF732A0)
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_SAVEASSETINTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1BF67BD0)
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_VALIDATEPARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1BF72F60)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_CREATEANIMATIONCLIPFORTRACK_OFFSET UNITYSDK_OFFSET(0x1F34F160)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_GENERATEUNIQUEACTORNAME_OFFSET UNITYSDK_OFFSET(0x1F36A700)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_SAVEASSETINTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1F35F020)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_VALIDATEPARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1F36A3C0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineCreateUtilities_TypeDefinitionIndex = 37583;
+	inline static constexpr unsigned int TimelineCreateUtilities_TypeDefinitionIndex = 38880;
 
 	class TimelineCreateUtilities : public ::System::Object
 	{
@@ -41,5 +40,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Timeline::TrackAsset*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES_VALIDATEPARENTTRACK_OFFSET))(a1, a2);
 		}
+
 	};
 }

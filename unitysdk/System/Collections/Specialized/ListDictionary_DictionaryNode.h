@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
+namespace System::Collections::Specialized { class ListDictionary_DictionaryNode; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C489480)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA8C80)
 
 namespace System::Collections::Specialized
 {
@@ -11,13 +13,13 @@ namespace System::Collections::Specialized
 	class ListDictionary_DictionaryNode : public ::System::Object
 	{
 	public:
-		::System::Object* value; // 0x10
+		::System::Object* key; // 0x10
 		::System::Collections::Specialized::ListDictionary_DictionaryNode* next; // 0x18
-		::System::Object* key; // 0x20
-
+		::System::Object* value; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

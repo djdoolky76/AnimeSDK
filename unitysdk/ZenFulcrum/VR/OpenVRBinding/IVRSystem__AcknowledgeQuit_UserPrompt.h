@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE1440)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE1470)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE1430)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE13C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65B9C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65B940)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65B9F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65B9B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__AcknowledgeQuit_UserPrompt_TypeDefinitionIndex = 37637;
+	inline static constexpr unsigned int IVRSystem__AcknowledgeQuit_UserPrompt_TypeDefinitionIndex = 38934;
 
 	class IVRSystem__AcknowledgeQuit_UserPrompt : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ACKNOWLEDGEQUIT_USERPROMPT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

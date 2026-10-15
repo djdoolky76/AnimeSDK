@@ -4,16 +4,16 @@
 #include "unitysdk/RPG/GameCore/ForceKillShowType.h"
 #include "unitysdk/RPG/GameCore/ForceKillValueType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class ModifierForceKillConfig; }
 
-#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_METHOD_2_FCDDE3E6BACF8384_OFFSET UNITYSDK_OFFSET(0x1D1B2A50)
-#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B2CB0)
+#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D860A40)
+#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8607E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 18033;
+	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 18247;
 
 	class ModifierForceKillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,17 +21,18 @@ namespace RPG::GameCore
 		::RPG::GameCore::ForceKillValueType Type; // 0x10
 		::RPG::GameCore::ForceKillShowType ShowType; // 0x14
 		::RPG::GameCore::ForceKillMarkType MarkType; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* ForceKillRatio; // 0x20
 		::RPG::GameCore::DynamicFloat* ForceKillValue; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERFORCEKILLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FCDDE3E6BACF8384(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierForceKillConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifierForceKillConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierForceKillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_METHOD_2_FCDDE3E6BACF8384_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifierForceKillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -4,16 +4,17 @@
 #include "unitysdk/RPG/GameCore/MarblePredicateConfig.h"
 #include "unitysdk/RPG/GameCore/MarbleTarget.h"
 #include "unitysdk/RPG/GameCore/MarbleValue.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarbleByCompareValue; }
+namespace System { class String; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_63DD0894C599BCD6_OFFSET UNITYSDK_OFFSET(0x1D4A5100)
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_7377D7A3666B3500_OFFSET UNITYSDK_OFFSET(0x1D4A5160)
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A5150)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80BAE0)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D80BAF0)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D80BA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByCompareValue_TypeDefinitionIndex = 16693;
+	inline static constexpr unsigned int MarbleByCompareValue_TypeDefinitionIndex = 16882;
 
 	class MarbleByCompareValue : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -22,21 +23,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::MarbleValue ValueType; // 0x2C
 		::RPG::GameCore::MarbleCompare CompareType; // 0x30
 		::System::Int32 Value; // 0x34
-		::RPG::GameCore::MarbleValue CompareValueType; // 0x38
-
+		::System::String* ValueDynamic; // 0x38
+		::RPG::GameCore::MarbleValue CompareValueType; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_63DD0894C599BCD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_63DD0894C599BCD6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7377D7A3666B3500(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_7377D7A3666B3500_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

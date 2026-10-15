@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterFaceExpressionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_METHOD_2_AC854EA64A62D4D2_OFFSET UNITYSDK_OFFSET(0x1D121740)
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D121A50)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D543920)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D543610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFaceExpressionConfig_TypeDefinitionIndex = 17254;
+	inline static constexpr unsigned int CharacterFaceExpressionConfig_TypeDefinitionIndex = 17450;
 
 	class CharacterFaceExpressionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,20 +19,21 @@ namespace RPG::GameCore
 		::System::Single ExShyIntensity; // 0x14
 		::System::Single ExShadowIntensity; // 0x18
 		::System::Boolean ChangeStaticProperty; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::String* CheekColor; // 0x20
 		::System::Single MapThreshold; // 0x28
 		::System::Single SpecularIntensity; // 0x2C
 		::System::String* ShyColor; // 0x30
 		::System::String* ShadowColor; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_AC854EA64A62D4D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFaceExpressionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterFaceExpressionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFaceExpressionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_METHOD_2_AC854EA64A62D4D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterFaceExpressionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

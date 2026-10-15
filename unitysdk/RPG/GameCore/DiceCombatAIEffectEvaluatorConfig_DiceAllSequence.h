@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatAIEffectEvaluatorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllSequence; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_METHOD_3_4EEFAB28AD33A09E_OFFSET UNITYSDK_OFFSET(0x1D81F800)
-#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_METHOD_3_80DC7BAA04457C0F_OFFSET UNITYSDK_OFFSET(0x1D81ED30)
-#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81ED20)
+#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D6A80)
+#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D6A90)
+#define RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D7560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceAllSequence_TypeDefinitionIndex = 16005;
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceAllSequence_TypeDefinitionIndex = 16178;
 
 	class DiceCombatAIEffectEvaluatorConfig_DiceAllSequence : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4EEFAB28AD33A09E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_METHOD_3_4EEFAB28AD33A09E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_80DC7BAA04457C0F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_METHOD_3_80DC7BAA04457C0F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllSequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATAIEFFECTEVALUATORCONFIG_DICEALLSEQUENCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

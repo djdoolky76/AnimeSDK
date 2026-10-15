@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StopAim; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPAIM_METHOD_3_58D3286A0D54A58F_OFFSET UNITYSDK_OFFSET(0x1CAFC5F0)
-#define RPG_GAMECORE_STOPAIM_METHOD_3_60FD34F3D59AC77E_OFFSET UNITYSDK_OFFSET(0x1CAFC5A0)
-#define RPG_GAMECORE_STOPAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFC5E0)
+#define RPG_GAMECORE_STOPAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF6B30)
+#define RPG_GAMECORE_STOPAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF6B40)
+#define RPG_GAMECORE_STOPAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF6AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 22157;
+	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 22406;
 
 	class StopAim : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,21 +19,22 @@ namespace RPG::GameCore
 		::System::String* AimerName; // 0x18
 		::System::Single TransitTime; // 0x20
 		::System::Boolean IsEffect; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::String* EffectPath; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_60FD34F3D59AC77E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopAim*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StopAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_METHOD_3_60FD34F3D59AC77E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StopAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_58D3286A0D54A58F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopAim* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StopAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_METHOD_3_58D3286A0D54A58F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StopAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

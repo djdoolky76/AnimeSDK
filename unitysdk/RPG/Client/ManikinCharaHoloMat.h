@@ -3,22 +3,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_AWAKE_OFFSET UNITYSDK_OFFSET(0x174B0360)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET UNITYSDK_OFFSET(0x174B0DE0)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATEUIHOLOPROPERTY_OFFSET UNITYSDK_OFFSET(0x174B0E70)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATE_OFFSET UNITYSDK_OFFSET(0x174B0420)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x174B1420)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_AWAKE_OFFSET UNITYSDK_OFFSET(0xD509140)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_CTOR_OFFSET UNITYSDK_OFFSET(0xD50A200)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET UNITYSDK_OFFSET(0xD509BC0)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATEUIHOLOPROPERTY_OFFSET UNITYSDK_OFFSET(0xD509C50)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATE_OFFSET UNITYSDK_OFFSET(0xD509200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManikinCharaHoloMat_TypeDefinitionIndex = 72728;
+	inline static constexpr unsigned int ManikinCharaHoloMat_TypeDefinitionIndex = 72808;
 
 	class ManikinCharaHoloMat : public ::UnityEngine::MonoBehaviour
 	{
@@ -83,12 +82,12 @@ namespace RPG::Client
 		::System::Int32 _HoloFresnelPowerID; // 0x148
 		::System::Int32 _SrcBlendID; // 0x14C
 		::System::Int32 _DstBlendID; // 0x150
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* TargetChara; // 0x158
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* materialList; // 0x160
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -110,5 +109,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET))(this, a1);
 		}
+
 	};
 }

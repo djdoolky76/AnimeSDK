@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dConfig.h"
-#include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_CUEPOS3DINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3BAE480)
+#define CRIWARE_CRIATOMEX_CUEPOS3DINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E89F70)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 38673;
+	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 39970;
 
-	struct alignas(8) CriAtomEx_CuePos3dInfo
+	struct alignas(4) CriAtomEx_CuePos3dInfo
 	{
 		::System::Single coneInsideAngle; // 0x10
 		::System::Single coneOutsideAngle; // 0x14
@@ -25,10 +24,10 @@ namespace CriWare
 		::System::UInt32 sourceBaseAngleAisacControl; // 0x48
 		::System::UInt32 listenerBaseElevationAisacControl; // 0x4C
 		::System::UInt32 sourceBaseElevationAisacControl; // 0x50
-
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUEPOS3DINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUEPOS3DINFO_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,23 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_APPLYSETTINGS_OFFSET UNITYSDK_OFFSET(0x18577560)
-#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18577620)
-#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x185774B0)
-#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x185776D0)
+#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_APPLYSETTINGS_OFFSET UNITYSDK_OFFSET(0x1CBFFE20)
+#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBFFF90)
+#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CBFFEE0)
+#define RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CBFFD70)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DeformationMarkTerrain_TypeDefinitionIndex = 37031;
+	inline static constexpr unsigned int DeformationMarkTerrain_TypeDefinitionIndex = 37716;
 
 	class DeformationMarkTerrain : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean ReceiveDeformation; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -35,5 +34,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEFORMATIONMARKTERRAIN_APPLYSETTINGS_OFFSET))(this, a1);
 		}
+
 	};
 }

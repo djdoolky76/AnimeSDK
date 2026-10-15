@@ -3,44 +3,46 @@
 #include "unitysdk/Google/Protobuf/ObjectIntPair_1.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class Extension; }
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA7B890)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA7B8D0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1AA7B8E0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1AA7B8F0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B834E20)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B834E60)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B834E70)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1B834E80)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5366;
+	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5373;
 
 	class ExtensionRegistry___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::ExtensionRegistry___c** StaticGet___9()
-		{
-			return (::Google::Protobuf::ExtensionRegistry___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DE00);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DE08);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DE10);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DF90);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DF98);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DFA0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CTOR_OFFSET))(this);
 		}
 
 		::Google::Protobuf::ObjectIntPair_1<::System::Type*> __ctor_b__2_0(::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*> a1)
@@ -52,5 +54,6 @@ namespace Google::Protobuf
 		{
 			return ((::Google::Protobuf::Extension*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET))(this, a1);
 		}
+
 	};
 }

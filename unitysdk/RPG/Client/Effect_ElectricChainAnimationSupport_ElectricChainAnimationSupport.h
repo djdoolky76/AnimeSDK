@@ -3,14 +3,12 @@
 #include "unitysdk/RPG/Client/ElectricChain_DisplaceType.h"
 #include "unitysdk/RPG/Client/ElectricChain_LineControlMode.h"
 #include "unitysdk/RPG/Client/ElectricChain_UpdateType.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport_TypeDefinitionIndex = 70419;
+	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport_TypeDefinitionIndex = 70455;
 
 	struct alignas(8) Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport
 	{
@@ -19,9 +17,11 @@ namespace RPG::Client
 		::System::Single displacement; // 0x18
 		::RPG::Client::ElectricChain_LineControlMode lineControlMode; // 0x1C
 		::System::Single lineControlConstant; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* lineControlCurve; // 0x28
 		::UnityEngine::Vector4 lineControlDistribution; // 0x30
 		::System::Boolean lineControlDistributionInverse; // 0x40
+		::System::Byte _padding1[0x3];
 		::System::Single updateInterval; // 0x44
 		::RPG::Client::ElectricChain_UpdateType updateType; // 0x48
 	};

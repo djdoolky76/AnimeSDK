@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/OverrideTransform_ControlType.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
-namespace RPGTools::Timeline { class OverrideTransformMixer_Class_1_5ADB076CDD392373; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -13,20 +11,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_06F38768260E973C_OFFSET UNITYSDK_OFFSET(0x1B09B7A0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1B09BC90)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_7F6BD08C06250CBF_OFFSET UNITYSDK_OFFSET(0x1B09B730)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_C365440D57901CE0_OFFSET UNITYSDK_OFFSET(0x1B09B660)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_FEDFCE5C3EA7AA9D_OFFSET UNITYSDK_OFFSET(0x1B09BCE0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_FF36942ED4CD4426_OFFSET UNITYSDK_OFFSET(0x1B09ABE0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1B09B8F0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1B09B950)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B09B9C0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B09C0F0)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE909320)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_FIPPPOFIDHG_OFFSET UNITYSDK_OFFSET(0xE908EC0)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_LBKIGGMFDCM_OFFSET UNITYSDK_OFFSET(0xE908890)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_LLBOIGPIIIJ_1_OFFSET UNITYSDK_OFFSET(0xE908960)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_LLBOIGPIIIJ_OFFSET UNITYSDK_OFFSET(0xE907E10)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_MADKFHCKNJI_OFFSET UNITYSDK_OFFSET(0xE9089D0)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_MPKEAJNHNCL_OFFSET UNITYSDK_OFFSET(0xE908F10)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE908B20)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE908B80)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE908BF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransformMixer_TypeDefinitionIndex = 48456;
+	inline static constexpr unsigned int OverrideTransformMixer_TypeDefinitionIndex = 47996;
 
 	class OverrideTransformMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -34,31 +32,31 @@ namespace RPGTools::Timeline
 		::Il2CppArray<::System::Double>* _ClipStartArray; // 0x10
 		::Il2CppArray<::System::Double>* _ClipEndArray; // 0x18
 		::RPGTools::Timeline::OverrideTransform_ControlType _ControlType; // 0x20
-		::System::Collections::Generic::List_1<::RPGTools::Timeline::OverrideTransformMixer_Class_1_5ADB076CDD392373*>* _OverrideTransformEntities; // 0x28
-
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* _OverrideTransformEntities; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FF36942ED4CD4426(::UnityEngine::Timeline::TrackAsset* a1, ::UnityEngine::GameObject* a2, ::RPGTools::Timeline::OverrideTransform_ControlType a3)
+		::System::Void LLBOIGPIIIJ(::UnityEngine::Timeline::TrackAsset* a1, ::UnityEngine::GameObject* a2, ::RPGTools::Timeline::OverrideTransform_ControlType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::RPGTools::Timeline::OverrideTransform_ControlType))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_FF36942ED4CD4426_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::RPGTools::Timeline::OverrideTransform_ControlType))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_LLBOIGPIIIJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_7F6BD08C06250CBF(::UnityEngine::Timeline::TrackAsset* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPGTools::Timeline::OverrideTransform_ControlType>* a2)
+		::System::Void LLBOIGPIIIJ_1(::UnityEngine::Timeline::TrackAsset* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPGTools::Timeline::OverrideTransform_ControlType>*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_7F6BD08C06250CBF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_LLBOIGPIIIJ_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_C365440D57901CE0()
+		::System::Void LBKIGGMFDCM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_C365440D57901CE0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_LBKIGGMFDCM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_06F38768260E973C()
+		::System::Void MADKFHCKNJI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_06F38768260E973C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_MADKFHCKNJI_OFFSET))(this);
 		}
 
 		::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
@@ -76,14 +74,15 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_2_391A84BCD9F51317()
+		::System::Boolean FIPPPOFIDHG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_FIPPPOFIDHG_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FEDFCE5C3EA7AA9D(::UnityEngine::Playables::Playable a1, ::System::Double a2, ::System::Int32 a3)
+		::System::Void MPKEAJNHNCL(::UnityEngine::Playables::Playable a1, ::System::Double a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_METHOD_2_FEDFCE5C3EA7AA9D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_MPKEAJNHNCL_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

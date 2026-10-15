@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA290)
-#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA2C0)
-#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9AA280)
-#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AA210)
+#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6390)
+#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA6310)
+#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA63C0)
+#define MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFA6380)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_GeNetworkAdapterDescriptionDelegate_TypeDefinitionIndex = 7747;
+	inline static constexpr unsigned int SDKDelegate_GeNetworkAdapterDescriptionDelegate_TypeDefinitionIndex = 7791;
 
 	class SDKDelegate_GeNetworkAdapterDescriptionDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GENETWORKADAPTERDESCRIPTIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

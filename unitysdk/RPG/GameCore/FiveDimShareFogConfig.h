@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimShareFogConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG_METHOD_2_3132C228A53DDE85_OFFSET UNITYSDK_OFFSET(0x1D87AB00)
-#define RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87AB40)
+#define RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ADF20)
+#define RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6ADEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimShareFogConfig_TypeDefinitionIndex = 18314;
+	inline static constexpr unsigned int FiveDimShareFogConfig_TypeDefinitionIndex = 18529;
 
 	class FiveDimShareFogConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3132C228A53DDE85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimShareFogConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimShareFogConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimShareFogConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG_METHOD_2_3132C228A53DDE85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimShareFogConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSHAREFOGCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

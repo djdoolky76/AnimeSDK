@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/UnmanagedType.h"
 #include "unitysdk/System/Runtime/InteropServices/VarEnum.h"
-
+#include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 namespace System { class Type; }
+namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x1C43CE70)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x1C27F880)
 
 namespace System::Runtime::InteropServices
 {
@@ -26,10 +26,10 @@ namespace System::Runtime::InteropServices
 		::System::Int32 SizeConst; // 0x3C
 		::System::Int32 IidParameterIndex; // 0x40
 		::System::Int16 SizeParamIndex; // 0x44
-
 		::System::Runtime::InteropServices::MarshalAsAttribute* Copy()
 		{
 			return ((::System::Runtime::InteropServices::MarshalAsAttribute*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET))(this);
 		}
+
 	};
 }

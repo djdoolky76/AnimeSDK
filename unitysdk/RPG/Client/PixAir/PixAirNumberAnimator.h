@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUEIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x1BD0E200)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1BD0E170)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BD0E390)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__APPLYTEXT_OFFSET UNITYSDK_OFFSET(0x1BD0E270)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD0E520)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDB59EC0)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUEIMMEDIATE_OFFSET UNITYSDK_OFFSET(0xDB59BA0)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0xDB59B10)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xDB59D30)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__APPLYTEXT_OFFSET UNITYSDK_OFFSET(0xDB59C10)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirNumberAnimator_TypeDefinitionIndex = 78909;
+	inline static constexpr unsigned int PixAirNumberAnimator_TypeDefinitionIndex = 79390;
 
 	class PixAirNumberAnimator : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,10 +25,9 @@ namespace RPG::Client::PixAir
 		::System::Single _StartValue; // 0x34
 		::System::Single _ElapsedTime; // 0x38
 		::System::Boolean _IsAnimating; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetValue(::System::Single a1)
@@ -51,5 +49,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__APPLYTEXT_OFFSET))(this);
 		}
+
 	};
 }

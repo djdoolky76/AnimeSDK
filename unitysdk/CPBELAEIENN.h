@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/PauseDialogTabEnum.h"
+#include "unitysdk/System/Object.h"
+
+#define CPBELAEIENN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCC7490)
+#define CPBELAEIENN_GET_INITTABENUM_OFFSET UNITYSDK_OFFSET(0xDCC7470)
+#define CPBELAEIENN_GET_ISEXITBATTLEBTNDISABLE_OFFSET UNITYSDK_OFFSET(0xDCC7450)
+#define CPBELAEIENN_GET_ISTRYOPEN_OFFSET UNITYSDK_OFFSET(0xDCC7430)
+#define CPBELAEIENN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xDCC7380)
+#define CPBELAEIENN_KMEILKAADKG_OFFSET UNITYSDK_OFFSET(0xDCC73D0)
+#define CPBELAEIENN_SET_INITTABENUM_OFFSET UNITYSDK_OFFSET(0xDCC7480)
+#define CPBELAEIENN_SET_ISEXITBATTLEBTNDISABLE_OFFSET UNITYSDK_OFFSET(0xDCC7460)
+#define CPBELAEIENN_SET_ISTRYOPEN_OFFSET UNITYSDK_OFFSET(0xDCC7440)
+
+inline static constexpr unsigned int CPBELAEIENN_TypeDefinitionIndex = 71646;
+
+	class CPBELAEIENN : public ::System::Object
+	{
+	public:
+		::RPG::Client::PauseDialogTabEnum _InitTabEnum_k__BackingField; // 0x10
+		::System::Boolean _IsExitBattleBtnDisable_k__BackingField; // 0x14
+		::System::Boolean _IsTryOpen_k__BackingField; // 0x15
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPBELAEIENN_CTOR_OFFSET))(this);
+		}
+
+		::System::Void KHGIKBFDLFB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPBELAEIENN_KHGIKBFDLFB_OFFSET))(this);
+		}
+
+		::System::Void KMEILKAADKG(::System::Boolean a1, ::RPG::Client::PauseDialogTabEnum a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::PauseDialogTabEnum))((::PBYTE)hIl2Cpp + CPBELAEIENN_KMEILKAADKG_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean get_IsTryOpen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CPBELAEIENN_GET_ISTRYOPEN_OFFSET))(this);
+		}
+
+		::System::Void set_IsTryOpen(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CPBELAEIENN_SET_ISTRYOPEN_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsExitBattleBtnDisable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CPBELAEIENN_GET_ISEXITBATTLEBTNDISABLE_OFFSET))(this);
+		}
+
+		::System::Void set_IsExitBattleBtnDisable(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CPBELAEIENN_SET_ISEXITBATTLEBTNDISABLE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::PauseDialogTabEnum get_InitTabEnum()
+		{
+			return ((::RPG::Client::PauseDialogTabEnum(*)(::PVOID))((::PBYTE)hIl2Cpp + CPBELAEIENN_GET_INITTABENUM_OFFSET))(this);
+		}
+
+		::System::Void set_InitTabEnum(::RPG::Client::PauseDialogTabEnum a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PauseDialogTabEnum))((::PBYTE)hIl2Cpp + CPBELAEIENN_SET_INITTABENUM_OFFSET))(this, a1);
+		}
+
+	};

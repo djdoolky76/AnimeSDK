@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF8D40)
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__GETPAGEENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1CBF91D0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF91510)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__GETPAGEENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xCF91520)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 79467;
+	inline static constexpr unsigned int CaseBoardViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 80791;
 
 	class CaseBoardViewModel___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
 		::System::String* jsonPath; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _GetPageEnterCallback_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__GETPAGEENTERCALLBACK_B__0_OFFSET))(this);
 		}
+
 	};
 }

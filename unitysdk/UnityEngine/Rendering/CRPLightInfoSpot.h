@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightInfoSpot_TypeDefinitionIndex = 4872;
+	inline static constexpr unsigned int CRPLightInfoSpot_TypeDefinitionIndex = 4878;
 
 	struct alignas(4) CRPLightInfoSpot
 	{

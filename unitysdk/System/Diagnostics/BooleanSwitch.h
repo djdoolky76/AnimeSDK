@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Switch.h"
-
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB24830)
+#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5D90)
 
 namespace System::Diagnostics
 {
@@ -15,7 +14,8 @@ namespace System::Diagnostics
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_BOOLEANSWITCH_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

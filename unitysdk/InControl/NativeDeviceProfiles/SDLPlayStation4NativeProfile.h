@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/SDLControllerNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1495A070)
-#define INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1495BAA0)
+#define INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2A320)
+#define INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA288F0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLPlayStation4NativeProfile_TypeDefinitionIndex = 39989;
+	inline static constexpr unsigned int SDLPlayStation4NativeProfile_TypeDefinitionIndex = 41286;
 
 	class SDLPlayStation4NativeProfile : public ::InControl::NativeDeviceProfiles::SDLControllerNativeProfile
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Define()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_SDLPLAYSTATION4NATIVEPROFILE_DEFINE_OFFSET))(this);
 		}
+
 	};
 }

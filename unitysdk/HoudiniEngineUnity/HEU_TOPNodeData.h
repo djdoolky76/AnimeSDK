@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_TOPNodeData_PDGState.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class HEU_TOPWorkResult; }
 namespace HoudiniEngineUnity { class HEU_WorkItemTally; }
 namespace HoudiniEngineUnity { class TOPNodeTags; }
@@ -10,32 +9,33 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_ANYWORKITEMSFAILED_OFFSET UNITYSDK_OFFSET(0x1B1536A0)
-#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_ANYWORKITEMSPENDING_OFFSET UNITYSDK_OFFSET(0x1B1536D0)
-#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_AREALLWORKITEMSCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1B153630)
-#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1B1535F0)
-#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B153730)
+#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_ANYWORKITEMSFAILED_OFFSET UNITYSDK_OFFSET(0x1B9680A0)
+#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_ANYWORKITEMSPENDING_OFFSET UNITYSDK_OFFSET(0x1B9680D0)
+#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_AREALLWORKITEMSCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1B968030)
+#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B968130)
+#define HOUDINIENGINEUNITY_HEU_TOPNODEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1B967FF0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TOPNodeData_TypeDefinitionIndex = 39242;
+	inline static constexpr unsigned int HEU_TOPNodeData_TypeDefinitionIndex = 40539;
 
 	class HEU_TOPNodeData : public ::System::Object
 	{
 	public:
 		::System::Int32 _nodeID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* _nodeName; // 0x18
 		::System::String* _parentName; // 0x20
 		::UnityEngine::GameObject* _workResultParentGO; // 0x28
 		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults; // 0x30
 		::HoudiniEngineUnity::TOPNodeTags* _tags; // 0x38
 		::System::Boolean _showResults; // 0x40
+		::System::Byte _padding1[0x3];
 		::HoudiniEngineUnity::HEU_TOPNodeData_PDGState _pdgState; // 0x44
 		::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TOPNODEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TOPNODEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -57,5 +57,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TOPNODEDATA_ANYWORKITEMSPENDING_OFFSET))(this);
 		}
+
 	};
 }

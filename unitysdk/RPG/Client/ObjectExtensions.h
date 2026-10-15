@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET UNITYSDK_OFFSET(0x191C6980)
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET UNITYSDK_OFFSET(0x191C6920)
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET UNITYSDK_OFFSET(0x191C68C0)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET UNITYSDK_OFFSET(0xD9D35F0)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET UNITYSDK_OFFSET(0xD9D3590)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET UNITYSDK_OFFSET(0xD9D3530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 72699;
+	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 72779;
 
 	class ObjectExtensions : public ::System::Object
 	{
@@ -29,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET))(a1);
 		}
+
 	};
 }

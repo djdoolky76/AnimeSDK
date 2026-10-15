@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_ActionParam_1_TypeDefinitionIndex = 61159;
+	inline static constexpr unsigned int WorkNode_ActionParam_1_TypeDefinitionIndex = 61064;
 
 	template <typename T>
 	class WorkNode_ActionParam_1 : public ::System::Object

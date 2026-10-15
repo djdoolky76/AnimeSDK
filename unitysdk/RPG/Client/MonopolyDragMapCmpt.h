@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Vector2.h"
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client { class MonopolyBoundaryUtils; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_DODRAG_OFFSET UNITYSDK_OFFSET(0x1C2A1050)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_GET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0x1C2A1470)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_ONDRAGSTART_OFFSET UNITYSDK_OFFSET(0x1C2A0FF0)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_RESETCAMERA_OFFSET UNITYSDK_OFFSET(0x1C2A1490)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_SET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0x1C2A1480)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_START_OFFSET UNITYSDK_OFFSET(0x1C2A0E70)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A1590)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_CTOR_OFFSET UNITYSDK_OFFSET(0xD87DEF0)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_DODRAG_OFFSET UNITYSDK_OFFSET(0xD87D9B0)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_GET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0xD87DDD0)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_ONDRAGSTART_OFFSET UNITYSDK_OFFSET(0xD87D950)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_RESETCAMERA_OFFSET UNITYSDK_OFFSET(0xD87DDF0)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_SET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0xD87DDE0)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_START_OFFSET UNITYSDK_OFFSET(0xD87D7D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyDragMapCmpt_TypeDefinitionIndex = 72759;
+	inline static constexpr unsigned int MonopolyDragMapCmpt_TypeDefinitionIndex = 72842;
 
 	class MonopolyDragMapCmpt : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,13 +26,13 @@ namespace RPG::Client
 		::UnityEngine::Vector3 Rotation; // 0x1C
 		::Cinemachine::CinemachineVirtualCamera* _Camera; // 0x28
 		::UnityEngine::Vector3 _Offset; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* _OriginLookAt; // 0x40
 		::RPG::Client::MonopolyBoundaryUtils* _Utils; // 0x48
 		::System::Boolean _IsCameraMoved_k__BackingField; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -65,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_RESETCAMERA_OFFSET))(this);
 		}
+
 	};
 }

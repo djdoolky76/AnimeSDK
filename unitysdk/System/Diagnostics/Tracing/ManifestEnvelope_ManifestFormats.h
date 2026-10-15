@@ -7,6 +7,6 @@ namespace System::Diagnostics::Tracing
 
 	enum class ManifestEnvelope_ManifestFormats : ::System::Byte
 	{
-		SimpleXmlFormat = 0x1,
+		SimpleXmlFormat = 1,
 	};
 }

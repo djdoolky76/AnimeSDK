@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/BrowserNative_RenderData.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0D30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0DA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7D38E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E0CC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F623950)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6238E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6239C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F615D80)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getImage_TypeDefinitionIndex = 38133;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getImage_TypeDefinitionIndex = 39430;
 
 	class BrowserNative_Calltype_zfb_getImage : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::EmbeddedBrowser::BrowserNative_RenderData Invoke(::System::Int32 a1, ::System::Boolean a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::ZenFulcrum::EmbeddedBrowser::BrowserNative_RenderData(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETIMAGE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1294_E89C3B3B6C302647_METHOD_1_OFFSET UNITYSDK_OFFSET(0x14A652C0)
+#define CLASS_1294_E89C3B3B6C302647_METHOD_2_OFFSET UNITYSDK_OFFSET(0x14A64EC0)
+#define CLASS_1294_E89C3B3B6C302647_METHOD_OFFSET UNITYSDK_OFFSET(0x14A65510)
+
+inline static constexpr unsigned int Class_1294_E89C3B3B6C302647_TypeDefinitionIndex = 51632;
+
+	class Class_1294_E89C3B3B6C302647 : public ::System::Object
+	{
+	public:
+		::System::Void Method_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1294_E89C3B3B6C302647_METHOD_OFFSET))(this);
+		}
+
+		static ::System::Void Method_1_1(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_1294_E89C3B3B6C302647_METHOD_1_OFFSET))(a1);
+		}
+
+		static ::System::Int32 Method_2_2(::System::IntPtr a1)
+		{
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_1294_E89C3B3B6C302647_METHOD_2_OFFSET))(a1);
+		}
+
+	};

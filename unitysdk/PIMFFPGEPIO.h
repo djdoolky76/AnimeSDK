@@ -1,0 +1,152 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BMHIHBHECKD.h"
+#include "unitysdk/System/Object.h"
+class PIMFFPGEPIO;
+namespace Google::Protobuf { class CodedInputStream; }
+namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define PIMFFPGEPIO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DF40450)
+#define PIMFFPGEPIO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF407D0)
+#define PIMFFPGEPIO_CLONE_OFFSET UNITYSDK_OFFSET(0x1DF3FF60)
+#define PIMFFPGEPIO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF3FE60)
+#define PIMFFPGEPIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3FDE0)
+#define PIMFFPGEPIO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DF40000)
+#define PIMFFPGEPIO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DF3FFD0)
+#define PIMFFPGEPIO_FCIACLFENJO_OFFSET UNITYSDK_OFFSET(0x1DF3FFC0)
+#define PIMFFPGEPIO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DF40150)
+#define PIMFFPGEPIO_IGMALHMOLNF_OFFSET UNITYSDK_OFFSET(0x1DF3FFB0)
+#define PIMFFPGEPIO_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x1DF3FFA0)
+#define PIMFFPGEPIO_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1DF3FDA0)
+#define PIMFFPGEPIO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DF406C0)
+#define PIMFFPGEPIO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DF40600)
+#define PIMFFPGEPIO_OPIADCNNMLL_OFFSET UNITYSDK_OFFSET(0x1DF3FF90)
+#define PIMFFPGEPIO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DF3FDD0)
+#define PIMFFPGEPIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF402A0)
+#define PIMFFPGEPIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF40300)
+
+inline static constexpr unsigned int PIMFFPGEPIO_TypeDefinitionIndex = 30819;
+
+	class PIMFFPGEPIO : public ::System::Object
+	{
+	public:
+		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* OGKKNAMOCCL; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* GKOHBFHOFKN; // 0x20
+		::BMHIHBHECKD GMPNCOBOFDM; // 0x28
+		static ::Google::Protobuf::MessageParser_1<::PIMFFPGEPIO*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::PIMFFPGEPIO*>**)UnitySDK::FromName("", "PIMFFPGEPIO")->GetStaticField(0x356B0);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet_AEHICDCPNGI()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)UnitySDK::FromName("", "PIMFFPGEPIO")->GetStaticField(0x356B8);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_JPFOCMAFMHN()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "PIMFFPGEPIO")->GetStaticField(0x356C0);
+		}
+
+		// static const ::System::Object FADFMLLHOMO; // 0x0
+		// static const ::System::Object GDFHGOOLLFD; // 0x0
+		// static const ::System::Object OOGFOPMFOHP; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::PIMFFPGEPIO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PIMFFPGEPIO*))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_CTOR_1_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PIMFFPGEPIO_CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::PIMFFPGEPIO*>* JJGHOBBFNJD()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::PIMFFPGEPIO*>*(*)())((::PBYTE)hIl2Cpp + PIMFFPGEPIO_JJGHOBBFNJD_OFFSET))();
+		}
+
+		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
+		{
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
+		}
+
+		::PIMFFPGEPIO* Clone()
+		{
+			return ((::PIMFFPGEPIO*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_CLONE_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* OPIADCNNMLL()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_OPIADCNNMLL_OFFSET))(this);
+		}
+
+		::BMHIHBHECKD JBIOGKPHKKC()
+		{
+			return ((::BMHIHBHECKD(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_JBIOGKPHKKC_OFFSET))(this);
+		}
+
+		::System::Void IGMALHMOLNF(::BMHIHBHECKD a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::BMHIHBHECKD))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_IGMALHMOLNF_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* FCIACLFENJO()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_FCIACLFENJO_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::PIMFFPGEPIO* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::PIMFFPGEPIO*))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_WRITETO_OFFSET))(this, a1);
+		}
+
+		::System::Int32 CalculateSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_CALCULATESIZE_OFFSET))(this);
+		}
+
+		::System::Void MergeFrom(::PIMFFPGEPIO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PIMFFPGEPIO*))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_MERGEFROM_OFFSET))(this, a1);
+		}
+
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PIMFFPGEPIO_MERGEFROM_1_OFFSET))(this, a1);
+		}
+
+	};

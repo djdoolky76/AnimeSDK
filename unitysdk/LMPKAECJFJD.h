@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+namespace System { class String; }
+
+#define LMPKAECJFJD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB7CD760)
+#define LMPKAECJFJD_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB7CD950)
+#define LMPKAECJFJD_CTOR_3_OFFSET UNITYSDK_OFFSET(0xB7CDA60)
+#define LMPKAECJFJD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CD740)
+#define LMPKAECJFJD_LIEIJEFAGPN_OFFSET UNITYSDK_OFFSET(0xB7CD840)
+
+inline static constexpr unsigned int LMPKAECJFJD_TypeDefinitionIndex = 73661;
+
+	class LMPKAECJFJD : public ::System::Attribute
+	{
+	public:
+		::Il2CppArray<::System::String*>* DKLNJDJGBDP; // 0x10
+		::Il2CppArray<::System::Single>* MNOEGGPLECD; // 0x18
+		::Il2CppArray<::System::Single>* JIIHLCNPALD; // 0x20
+		::System::Single ENMIPOPKOOL; // 0x28
+		::System::Single PJKFLONMKED; // 0x2C
+		::System::Boolean LNJNLIOECNH; // 0x30
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::Il2CppArray<::System::String*>* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + LMPKAECJFJD_CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::Il2CppArray<::System::String*>* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + LMPKAECJFJD_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void _ctor_2(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::Il2CppArray<::System::String*>* a7)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + LMPKAECJFJD_CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+		}
+
+		::System::Void _ctor_3(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::Il2CppArray<::System::String*>* a9)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + LMPKAECJFJD_CTOR_3_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+		}
+
+		::Il2CppArray<::System::String*>* LIEIJEFAGPN(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + LMPKAECJFJD_LIEIJEFAGPN_OFFSET))(this, a1, a2);
+		}
+
+	};

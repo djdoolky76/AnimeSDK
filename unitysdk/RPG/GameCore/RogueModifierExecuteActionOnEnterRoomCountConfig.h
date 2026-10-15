@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierExecuteActionOnEnterRoomCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_METHOD_3_0BF4040BC83554D8_OFFSET UNITYSDK_OFFSET(0x1EEF8DA0)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_METHOD_3_FFC7A61721CD059C_OFFSET UNITYSDK_OFFSET(0x1EEF8D50)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF8D90)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E8780)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E8790)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E8740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierExecuteActionOnEnterRoomCountConfig_TypeDefinitionIndex = 17571;
+	inline static constexpr unsigned int RogueModifierExecuteActionOnEnterRoomCountConfig_TypeDefinitionIndex = 17783;
 
 	class RogueModifierExecuteActionOnEnterRoomCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FFC7A61721CD059C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_METHOD_3_FFC7A61721CD059C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0BF4040BC83554D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_METHOD_3_0BF4040BC83554D8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterRoomCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERROOMCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

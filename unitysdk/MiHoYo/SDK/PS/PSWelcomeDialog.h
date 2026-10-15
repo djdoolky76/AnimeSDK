@@ -2,43 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSDialogBase.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSWelcomeDialog_DisplayStage.h"
-
+namespace MiHoYo::SDK::PS { class PSWelcomeDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AC0B4B0)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1AC0C8F0)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1AC0C920)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1AC0C950)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1AC0C910)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1ABF5110)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AC0C340)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AC0C310)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1AC0BF30)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1AC0C360)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1ABF4200)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC0C980)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF41B30)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF42F70)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF42FA0)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF42FD0)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF42F90)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF43000)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF2B920)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF429C0)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BF42990)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1BF425B0)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1BF429E0)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF2AA10)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSWelcomeDialog_TypeDefinitionIndex = 8882;
+	inline static constexpr unsigned int PSWelcomeDialog_TypeDefinitionIndex = 8943;
 
 	class PSWelcomeDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::PS::PSWelcomeDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::PS::PSWelcomeDialog**)Il2CppClass::FromTypeDefinitionIndex(PSWelcomeDialog_TypeDefinitionIndex)->GetStaticField(0x203B0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* TitlePath; // 0x0
-		// static const ::System::String* ContentPath; // 0x0
-		// static const ::System::String* BindExistingAccountBtnPath; // 0x0
-		// static const ::System::String* CreateAndBindNewAccountBtnPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* SkipButtonTextPath; // 0x0
 		::UnityEngine::UI::Text* titleText; // 0xB0
 		::UnityEngine::UI::Text* contentText; // 0xB8
 		::UnityEngine::UI::Text* bindExistingAccountButtonText; // 0xC0
@@ -49,10 +37,21 @@ namespace MiHoYo::SDK::PS
 		::System::Action* OnCreateAndBindNewAccount; // 0xE8
 		::System::Action* OnCancelBinding; // 0xF0
 		::MiHoYo::SDK::PS::PSWelcomeDialog_DisplayStage displayStage; // 0xF8
+		static ::MiHoYo::SDK::PS::PSWelcomeDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::PS::PSWelcomeDialog**)UnitySDK::FromName("MiHoYo.SDK.PS", "PSWelcomeDialog")->GetStaticField(0x1F490);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* TitlePath; // 0x0
+		// static const ::System::String* ContentPath; // 0x0
+		// static const ::System::String* BindExistingAccountBtnPath; // 0x0
+		// static const ::System::String* CreateAndBindNewAccountBtnPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* SkipButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSWELCOMEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSWELCOMEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -109,5 +108,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSWELCOMEDIALOG_CONFIRMDIALOG_OFFSET))(this);
 		}
+
 	};
 }

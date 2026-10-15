@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActivateServerGameplayCounter; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_METHOD_3_0C8C831A5DB27871_OFFSET UNITYSDK_OFFSET(0x1C9EAEC0)
-#define RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_METHOD_3_EFDFFAF2B99A7295_OFFSET UNITYSDK_OFFSET(0x1C9EAF10)
-#define RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9EAF00)
+#define RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31BC10)
+#define RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31BC20)
+#define RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31BBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivateServerGameplayCounter_TypeDefinitionIndex = 20316;
+	inline static constexpr unsigned int ActivateServerGameplayCounter_TypeDefinitionIndex = 20554;
 
 	class ActivateServerGameplayCounter : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0C8C831A5DB27871(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivateServerGameplayCounter*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActivateServerGameplayCounter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivateServerGameplayCounter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_METHOD_3_0C8C831A5DB27871_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActivateServerGameplayCounter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EFDFFAF2B99A7295(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivateServerGameplayCounter* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActivateServerGameplayCounter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivateServerGameplayCounter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_METHOD_3_EFDFFAF2B99A7295_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActivateServerGameplayCounter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVATESERVERGAMEPLAYCOUNTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

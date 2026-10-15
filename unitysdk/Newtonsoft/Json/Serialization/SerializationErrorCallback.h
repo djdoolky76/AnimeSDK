@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace Newtonsoft::Json::Serialization { class ErrorContext; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17306E30)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17306EC0)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x172E6CE0)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17306D40)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C3D4510)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D4420)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C3D45A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C3B4400)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int SerializationErrorCallback_TypeDefinitionIndex = 9664;
+	inline static constexpr unsigned int SerializationErrorCallback_TypeDefinitionIndex = 9722;
 
 	class SerializationErrorCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Runtime::Serialization::StreamingContext a2, ::Newtonsoft::Json::Serialization::ErrorContext* a3)
@@ -39,5 +38,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONERRORCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

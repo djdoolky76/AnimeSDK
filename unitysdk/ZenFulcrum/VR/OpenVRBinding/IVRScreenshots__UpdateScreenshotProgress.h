@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRScreenshotError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE01D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE0240)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEE01C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE0150)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F65A750)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65A6D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F65A7C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F65A740)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRScreenshots__UpdateScreenshotProgress_TypeDefinitionIndex = 37883;
+	inline static constexpr unsigned int IVRScreenshots__UpdateScreenshotProgress_TypeDefinitionIndex = 39180;
 
 	class IVRScreenshots__UpdateScreenshotProgress : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRScreenshotError Invoke(::System::UInt32 a1, ::System::Single a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRScreenshotError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSCREENSHOTS__UPDATESCREENSHOTPROGRESS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,51 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
-
+namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldReactivateDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A247A40)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1A248590)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1A248560)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1A247920)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A248500)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1A247990)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1A247820)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A248600)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2485C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BECA340)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BECAE90)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BECAF00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BECAE60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BECAEC0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BECA220)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BECAE00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BECA290)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BECA120)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldReactivateDialog_TypeDefinitionIndex = 8752;
+	inline static constexpr unsigned int HandheldReactivateDialog_TypeDefinitionIndex = 8813;
 
 	class HandheldReactivateDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
+		::System::Action* OnReactivateAccount; // 0xC0
+		::System::Action* OnBack; // 0xC8
+		::System::Boolean Interactable; // 0xD0
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldReactivateDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldReactivateDialog**)Il2CppClass::FromTypeDefinitionIndex(HandheldReactivateDialog_TypeDefinitionIndex)->GetStaticField(0x18B70);
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldReactivateDialog**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "HandheldReactivateDialog")->GetStaticField(0x15590);
 		}
+
 		static ::System::Boolean* StaticGet_IsAccountPlatform()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HandheldReactivateDialog_TypeDefinitionIndex)->GetStaticField(0x8E80);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "HandheldReactivateDialog")->GetStaticField(0x48B0);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
 		// static const ::System::String* FooterTextPath; // 0x0
-		::System::Action* OnReactivateAccount; // 0xC0
-		::System::Action* OnBack; // 0xC8
-		::System::Boolean Interactable; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void Show(::System::Boolean a1)
@@ -82,5 +82,6 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG_CANCELDIALOG_OFFSET))(this);
 		}
+
 	};
 }

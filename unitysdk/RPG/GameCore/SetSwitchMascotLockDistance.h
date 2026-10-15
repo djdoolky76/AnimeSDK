@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetSwitchMascotLockDistance; }
 
-#define RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_METHOD_3_2047B2CA654F55DD_OFFSET UNITYSDK_OFFSET(0x1E08FAF0)
-#define RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_METHOD_3_787F2C324B5D9D3C_OFFSET UNITYSDK_OFFSET(0x1E08FAB0)
-#define RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E08FAE0)
+#define RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA96720)
+#define RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA96730)
+#define RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA966F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSwitchMascotLockDistance_TypeDefinitionIndex = 21754;
+	inline static constexpr unsigned int SetSwitchMascotLockDistance_TypeDefinitionIndex = 22002;
 
 	class SetSwitchMascotLockDistance : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsPushValue; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::DynamicFloat* LockDistance; // 0x20
 		::RPG::GameCore::DynamicFloat* LockHeightLimit; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_787F2C324B5D9D3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSwitchMascotLockDistance*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSwitchMascotLockDistance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSwitchMascotLockDistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_METHOD_3_787F2C324B5D9D3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSwitchMascotLockDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2047B2CA654F55DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSwitchMascotLockDistance* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSwitchMascotLockDistance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSwitchMascotLockDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_METHOD_3_2047B2CA654F55DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSwitchMascotLockDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSWITCHMASCOTLOCKDISTANCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

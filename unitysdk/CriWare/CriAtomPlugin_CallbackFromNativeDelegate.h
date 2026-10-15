@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D37D050)
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D37D0A0)
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D37D040)
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37CFD0)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x166F8780)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x166F8700)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x166F87D0)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x166F8770)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomPlugin_CallbackFromNativeDelegate_TypeDefinitionIndex = 38634;
+	inline static constexpr unsigned int CriAtomPlugin_CallbackFromNativeDelegate_TypeDefinitionIndex = 39931;
 
 	class CriAtomPlugin_CallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke(::System::IntPtr a1)
@@ -37,5 +36,6 @@ namespace CriWare
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

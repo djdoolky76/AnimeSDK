@@ -5,40 +5,39 @@
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtStatusRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1CCEF770)
-#define RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1CCEED90)
-#define RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCEF250)
-#define RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1CCEED10)
-#define RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1CCEED70)
-#define RPG_GAMECORE_RTSTATUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEF760)
+#define RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1DA38490)
+#define RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA38480)
+#define RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DA37AB0)
+#define RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA37F70)
+#define RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DA37A20)
+#define RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DA37A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStatusRow_TypeDefinitionIndex = 14917;
+	inline static constexpr unsigned int RtStatusRow_TypeDefinitionIndex = 15082;
 
 	class RtStatusRow : public ::System::Object
 	{
 	public:
-		::System::String* StatusIconPathHighSize; // 0x10
-		::Il2CppArray<::System::String*>* ReadParamList; // 0x18
-		::System::String* StatusIconPath; // 0x20
-		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x28
-		::System::String* ModifierName; // 0x30
-		::System::Boolean CanDispel; // 0x38
-		::System::UInt32 DisplayPriority; // 0x3C
-		::RPG::Client::TextID StatusEffect; // 0x40
-		::RPG::Client::TextID StatusName; // 0x50
-		::RPG::GameCore::EnumStatusType StatusType; // 0x60
-		::System::UInt32 ID; // 0x64
-		::RPG::Client::TextID StatusDesc; // 0x68
-
+		::System::String* ModifierName; // 0x10
+		::System::String* StatusIconPathHighSize; // 0x18
+		::Il2CppArray<::System::String*>* ReadParamList; // 0x20
+		::System::String* StatusIconPath; // 0x28
+		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x30
+		::RPG::Client::TextID StatusName; // 0x38
+		::RPG::Client::TextID StatusEffect; // 0x48
+		::System::UInt32 ID; // 0x58
+		::RPG::GameCore::EnumStatusType StatusType; // 0x5C
+		::RPG::Client::TextID StatusDesc; // 0x60
+		::System::UInt32 DisplayPriority; // 0x70
+		::System::Boolean CanDispel; // 0x74
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
@@ -51,19 +50,20 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStatusRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtStatusRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtStatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStatusRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtStatusRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStatusRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtStatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean ContainsTag(::RPG::GameCore::EnumStatusTag a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EnumStatusTag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET))(this, a1);
 		}
+
 	};
 }

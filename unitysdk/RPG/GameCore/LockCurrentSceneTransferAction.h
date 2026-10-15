@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LockCurrentSceneTransferAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_49AFBD0849705BCF_OFFSET UNITYSDK_OFFSET(0x1DD77D10)
-#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_773669F5B8F7C352_OFFSET UNITYSDK_OFFSET(0x1DD77D50)
-#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD77D40)
+#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2C30)
+#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C2C40)
+#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C2C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockCurrentSceneTransferAction_TypeDefinitionIndex = 21429;
+	inline static constexpr unsigned int LockCurrentSceneTransferAction_TypeDefinitionIndex = 21675;
 
 	class LockCurrentSceneTransferAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,21 +19,22 @@ namespace RPG::GameCore
 		::System::UInt32 PlaneID; // 0x18
 		::System::UInt32 FloorID; // 0x1C
 		::System::Boolean Enable; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::String* ToastTextString; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_49AFBD0849705BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentSceneTransferAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LockCurrentSceneTransferAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCurrentSceneTransferAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_49AFBD0849705BCF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LockCurrentSceneTransferAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_773669F5B8F7C352(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentSceneTransferAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LockCurrentSceneTransferAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCurrentSceneTransferAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_773669F5B8F7C352_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LockCurrentSceneTransferAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

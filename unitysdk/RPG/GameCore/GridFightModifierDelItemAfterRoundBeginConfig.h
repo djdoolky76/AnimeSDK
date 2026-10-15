@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierDelItemAfterRoundBeginConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_METHOD_3_7B09EC3023F5CB2F_OFFSET UNITYSDK_OFFSET(0x1EE6CF30)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_METHOD_3_C498F00A6D6BBCF3_OFFSET UNITYSDK_OFFSET(0x1EE6CF80)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6CF70)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D705F00)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D705F10)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D705EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierDelItemAfterRoundBeginConfig_TypeDefinitionIndex = 19193;
+	inline static constexpr unsigned int GridFightModifierDelItemAfterRoundBeginConfig_TypeDefinitionIndex = 19423;
 
 	class GridFightModifierDelItemAfterRoundBeginConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7B09EC3023F5CB2F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_METHOD_3_7B09EC3023F5CB2F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C498F00A6D6BBCF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_METHOD_3_C498F00A6D6BBCF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierDelItemAfterRoundBeginConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERDELITEMAFTERROUNDBEGINCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

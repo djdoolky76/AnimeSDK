@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class DialogSnapshot; }
+namespace System { class Object; }
 
-#define PROTO_DIALOGSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E05B1C0)
-#define PROTO_DIALOGSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E05B200)
-#define PROTO_DIALOGSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E05B210)
+#define PROTO_DIALOGSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBF420)
+#define PROTO_DIALOGSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBF460)
+#define PROTO_DIALOGSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFBF470)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DialogSnapshot___c_TypeDefinitionIndex = 25508;
+	inline static constexpr unsigned int DialogSnapshot___c_TypeDefinitionIndex = 25851;
 
 	class DialogSnapshot___c : public ::System::Object
 	{
 	public:
-		static ::Proto::DialogSnapshot___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::DialogSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(DialogSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x59AA0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x49BC0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::DialogSnapshot* __cctor_b__28_0()
 		{
 			return ((::Proto::DialogSnapshot*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT___C___CCTOR_B__28_0_OFFSET))(this);
 		}
+
 	};
 }

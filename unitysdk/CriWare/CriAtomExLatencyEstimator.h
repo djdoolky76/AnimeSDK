@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomExLatencyEstimator_EstimatorInfo.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/CriWare/CriAtomExLatencyEstimator_EstimatorInfo.h"
 
-#define CRIWARE_CRIATOMEXLATENCYESTIMATOR_FINALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x1CB9B280)
-#define CRIWARE_CRIATOMEXLATENCYESTIMATOR_GETCURRENTINFO_OFFSET UNITYSDK_OFFSET(0x1CB9B290)
-#define CRIWARE_CRIATOMEXLATENCYESTIMATOR_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x1CB9B270)
+#define CRIWARE_CRIATOMEXLATENCYESTIMATOR_FINALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x166DD4C0)
+#define CRIWARE_CRIATOMEXLATENCYESTIMATOR_GETCURRENTINFO_OFFSET UNITYSDK_OFFSET(0x166DD4D0)
+#define CRIWARE_CRIATOMEXLATENCYESTIMATOR_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x166DD4B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExLatencyEstimator_TypeDefinitionIndex = 38709;
+	inline static constexpr unsigned int CriAtomExLatencyEstimator_TypeDefinitionIndex = 40006;
 
 	class CriAtomExLatencyEstimator : public ::System::Object
 	{
@@ -28,5 +28,6 @@ namespace CriWare
 		{
 			return ((::CriWare::CriAtomExLatencyEstimator_EstimatorInfo(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXLATENCYESTIMATOR_GETCURRENTINFO_OFFSET))();
 		}
+
 	};
 }

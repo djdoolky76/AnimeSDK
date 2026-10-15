@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelAchievementsParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelAchievementsResult; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A273C00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A273C40)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A268EF0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A273B10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF7360)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF7270)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEF73A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEEC490)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_AchievementsDelegate_TypeDefinitionIndex = 8505;
+	inline static constexpr unsigned int HoYoChannelDelegate_AchievementsDelegate_TypeDefinitionIndex = 8565;
 
 	class HoYoChannelDelegate_AchievementsDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>* a2)
@@ -40,5 +39,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_ACHIEVEMENTSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

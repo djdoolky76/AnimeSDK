@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x1A262370)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET UNITYSDK_OFFSET(0x1A2640F0)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x1A2634F0)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A264D00)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x1BEE58E0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE8270)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET UNITYSDK_OFFSET(0x1BEE7660)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x1BEE6A60)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 8480;
+	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 8540;
 
 	class GooglePaymentNetworkRequest : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 TimeoutSeconds = 0x14; // 0x0
-
+		// static const ::System::Object TimeoutSeconds; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void CreateOrder(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)
@@ -40,5 +38,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

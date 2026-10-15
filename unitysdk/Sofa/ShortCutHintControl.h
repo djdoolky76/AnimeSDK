@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
-class Class_2_EF38A48BFE5B16E9;
+class LOMPCFJNJBP;
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::Client { class UIPartialBlur; }
 namespace RPG::UINavigation { class UINavigationZoneManager; }
@@ -13,45 +12,45 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define SOFA_SHORTCUTHINTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x197DDF90)
-#define SOFA_SHORTCUTHINTCONTROL__GETSHORTCUTINFOITEM_OFFSET UNITYSDK_OFFSET(0x197DD7F0)
-#define SOFA_SHORTCUTHINTCONTROL__LOADHINTROOT_OFFSET UNITYSDK_OFFSET(0x197DCE20)
-#define SOFA_SHORTCUTHINTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x197DCDB0)
-#define SOFA_SHORTCUTHINTCONTROL__ONDESTROY_OFFSET UNITYSDK_OFFSET(0x197DCD30)
-#define SOFA_SHORTCUTHINTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x197DCAC0)
-#define SOFA_SHORTCUTHINTCONTROL__ONINPUTDEVICECLASSSWITCHED_OFFSET UNITYSDK_OFFSET(0x197DDCD0)
-#define SOFA_SHORTCUTHINTCONTROL__ONINPUTFILEDSELECTEDCHANGED_OFFSET UNITYSDK_OFFSET(0x197DDB30)
-#define SOFA_SHORTCUTHINTCONTROL__ONPREFABLOAD_OFFSET UNITYSDK_OFFSET(0x197DD0A0)
-#define SOFA_SHORTCUTHINTCONTROL__ONUIFOCUSCONTROLLERCHANGED_OFFSET UNITYSDK_OFFSET(0x197DDDE0)
-#define SOFA_SHORTCUTHINTCONTROL__REFRESHACTIVE_OFFSET UNITYSDK_OFFSET(0x197DD2E0)
-#define SOFA_SHORTCUTHINTCONTROL__REFRESHBYNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0x197DD1A0)
-#define SOFA_SHORTCUTHINTCONTROL__REFRESHSHORTCUTINFOITEMS_OFFSET UNITYSDK_OFFSET(0x197DD640)
+#define SOFA_SHORTCUTHINTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE9790E0)
+#define SOFA_SHORTCUTHINTCONTROL__GETSHORTCUTINFOITEM_OFFSET UNITYSDK_OFFSET(0xE978910)
+#define SOFA_SHORTCUTHINTCONTROL__LOADHINTROOT_OFFSET UNITYSDK_OFFSET(0xE977F30)
+#define SOFA_SHORTCUTHINTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xE977EC0)
+#define SOFA_SHORTCUTHINTCONTROL__ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE977E40)
+#define SOFA_SHORTCUTHINTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xE977BB0)
+#define SOFA_SHORTCUTHINTCONTROL__ONINPUTDEVICECLASSSWITCHED_OFFSET UNITYSDK_OFFSET(0xE978E20)
+#define SOFA_SHORTCUTHINTCONTROL__ONINPUTFILEDSELECTEDCHANGED_OFFSET UNITYSDK_OFFSET(0xE978C80)
+#define SOFA_SHORTCUTHINTCONTROL__ONPREFABLOAD_OFFSET UNITYSDK_OFFSET(0xE978190)
+#define SOFA_SHORTCUTHINTCONTROL__ONUIFOCUSCONTROLLERCHANGED_OFFSET UNITYSDK_OFFSET(0xE978F30)
+#define SOFA_SHORTCUTHINTCONTROL__REFRESHACTIVE_OFFSET UNITYSDK_OFFSET(0xE978400)
+#define SOFA_SHORTCUTHINTCONTROL__REFRESHBYNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xE9782C0)
+#define SOFA_SHORTCUTHINTCONTROL__REFRESHSHORTCUTINFOITEMS_OFFSET UNITYSDK_OFFSET(0xE978760)
 
 namespace Sofa
 {
-	inline static constexpr unsigned int ShortCutHintControl_TypeDefinitionIndex = 50113;
+	inline static constexpr unsigned int ShortCutHintControl_TypeDefinitionIndex = 49689;
 
 	class ShortCutHintControl : public ::Sofa::BaseSofaControl
 	{
 	public:
+		::UnityEngine::Transform* NodeHintParent; // 0x40
+		::System::Boolean _IsFullScreen; // 0x48
+		::System::Byte _padding0[0x7];
+		::System::Collections::Generic::List_1<::System::String*>* _ActionNames; // 0x50
+		::RPG::UINavigation::UINavigationZoneManager* _ZoneManager; // 0x58
+		::UnityEngine::Transform* _NodeParent; // 0x60
+		::UnityEngine::RectTransform* _NodeTipRoot; // 0x68
+		::RPG::Client::PrefabLoadMeta* _ContentPrefabLoad; // 0x70
+		::RPG::Client::UIPartialBlur* _PartialBlur; // 0x78
+		::UnityEngine::Transform* _NodeBg; // 0x80
+		::System::Collections::Generic::List_1<::LOMPCFJNJBP*>* _ShortCutInfoItems; // 0x88
+		::System::Collections::Generic::List_1<::System::String*>* _DefaultActionNames; // 0x90
 		// static const ::System::String* _DEFAULT_DIALOG_HINT_PATH; // 0x0
 		// static const ::System::String* _DEFAULT_FULLSCREEN_PREFAB_PATH; // 0x0
 		// static const ::System::String* _DEFAULT_PREFAB_PATH; // 0x0
-		::UnityEngine::Transform* NodeHintParent; // 0x38
-		::System::Boolean _IsFullScreen; // 0x40
-		::System::Collections::Generic::List_1<::System::String*>* _ActionNames; // 0x48
-		::RPG::UINavigation::UINavigationZoneManager* _ZoneManager; // 0x50
-		::UnityEngine::Transform* _NodeParent; // 0x58
-		::UnityEngine::RectTransform* _NodeTipRoot; // 0x60
-		::RPG::Client::PrefabLoadMeta* _ContentPrefabLoad; // 0x68
-		::RPG::Client::UIPartialBlur* _PartialBlur; // 0x70
-		::UnityEngine::Transform* _NodeBg; // 0x78
-		::System::Collections::Generic::List_1<::Class_2_EF38A48BFE5B16E9*>* _ShortCutInfoItems; // 0x80
-		::System::Collections::Generic::List_1<::System::String*>* _DefaultActionNames; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -94,9 +93,9 @@ namespace Sofa
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__REFRESHSHORTCUTINFOITEMS_OFFSET))(this, a1);
 		}
 
-		::Class_2_EF38A48BFE5B16E9* _GetShortCutInfoItem(::System::Int32 a1)
+		::LOMPCFJNJBP* _GetShortCutInfoItem(::System::Int32 a1)
 		{
-			return ((::Class_2_EF38A48BFE5B16E9*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__GETSHORTCUTINFOITEM_OFFSET))(this, a1);
+			return ((::LOMPCFJNJBP*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__GETSHORTCUTINFOITEM_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnInputFiledSelectedChanged(::System::Object* a1)
@@ -113,5 +112,6 @@ namespace Sofa
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__ONUIFOCUSCONTROLLERCHANGED_OFFSET))(this, a1);
 		}
+
 	};
 }

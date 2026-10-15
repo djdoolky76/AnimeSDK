@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E0170)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E01C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CF530)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E0100)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F622D90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F622D20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F622DE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F611A20)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_destroyBrowser_TypeDefinitionIndex = 38123;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_destroyBrowser_TypeDefinitionIndex = 39420;
 
 	class BrowserNative_Calltype_zfb_destroyBrowser : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_DESTROYBROWSER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

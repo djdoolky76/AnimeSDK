@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClockParkEffectRow; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define LBMFCKBNJNJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0A8910)
+#define LBMFCKBNJNJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0A8EE0)
+#define LBMFCKBNJNJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0A8A80)
+#define LBMFCKBNJNJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0A8380)
+#define LBMFCKBNJNJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0A8610)
+#define LBMFCKBNJNJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0A8B20)
+#define LBMFCKBNJNJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0A8B70)
+#define LBMFCKBNJNJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0A8950)
+#define LBMFCKBNJNJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0A85B0)
+#define LBMFCKBNJNJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0A8780)
+#define LBMFCKBNJNJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0A89E0)
+#define LBMFCKBNJNJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0A8300)
+
+inline static constexpr unsigned int LBMFCKBNJNJ_TypeDefinitionIndex = 11181;
+
+	class LBMFCKBNJNJ : public ::System::Object
+	{
+	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkEffectRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkEffectRow*>**)UnitySDK::FromName("", "LBMFCKBNJNJ")->GetStaticField(0x39D90);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LBMFCKBNJNJ")->GetStaticField(0x39D98);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LBMFCKBNJNJ")->GetStaticField(0x39DA0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "LBMFCKBNJNJ")->GetStaticField(0xBB20);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "LBMFCKBNJNJ")->GetStaticField(0xBB21);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_CCTOR_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkEffectRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkEffectRow*>*(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkEffectRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkEffectRow*>(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::RPG::GameCore::ClockParkEffectRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::ClockParkEffectRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::ClockParkEffectRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::ClockParkEffectRow*))((::PBYTE)hIl2Cpp + LBMFCKBNJNJ_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+	};

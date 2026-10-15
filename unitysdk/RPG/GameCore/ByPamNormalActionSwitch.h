@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByPamNormalActionSwitch; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_9EED02718F45D745_OFFSET UNITYSDK_OFFSET(0x1CDBA750)
-#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_C378A24C434BA33C_OFFSET UNITYSDK_OFFSET(0x1CDBA780)
-#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_C671880CB07CD014_OFFSET UNITYSDK_OFFSET(0x1CDBA5D0)
-#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_E71FC503138E632F_OFFSET UNITYSDK_OFFSET(0x1CDBA610)
-#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBA600)
+#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D501500)
+#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D501680)
+#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D501650)
+#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D501510)
+#define RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5014D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByPamNormalActionSwitch_TypeDefinitionIndex = 19780;
+	inline static constexpr unsigned int ByPamNormalActionSwitch_TypeDefinitionIndex = 20014;
 
 	class ByPamNormalActionSwitch : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C671880CB07CD014(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPamNormalActionSwitch*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPamNormalActionSwitch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPamNormalActionSwitch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_C671880CB07CD014_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPamNormalActionSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E71FC503138E632F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPamNormalActionSwitch* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPamNormalActionSwitch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPamNormalActionSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_E71FC503138E632F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPamNormalActionSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9EED02718F45D745(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamNormalActionSwitch*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamNormalActionSwitch* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamNormalActionSwitch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_9EED02718F45D745_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamNormalActionSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C378A24C434BA33C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamNormalActionSwitch* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPamNormalActionSwitch* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamNormalActionSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_METHOD_4_C378A24C434BA33C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPamNormalActionSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPAMNORMALACTIONSWITCH_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

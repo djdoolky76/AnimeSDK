@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowIntersection_SignRuleData_TypeDefinitionIndex = 80850;
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_SignRuleData_TypeDefinitionIndex = 82230;
 
 	struct alignas(4) MonoCityCarFlowIntersection_SignRuleData
 	{

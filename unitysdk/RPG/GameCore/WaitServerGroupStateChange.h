@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitServerGroupStateChange; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_METHOD_3_9FCF40E8B19D9D91_OFFSET UNITYSDK_OFFSET(0x1DEC1790)
-#define RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_METHOD_3_A40EF486C07A2DB5_OFFSET UNITYSDK_OFFSET(0x1DEC17E0)
-#define RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC17D0)
+#define RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC73F30)
+#define RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC73F40)
+#define RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC73EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitServerGroupStateChange_TypeDefinitionIndex = 20933;
+	inline static constexpr unsigned int WaitServerGroupStateChange_TypeDefinitionIndex = 21179;
 
 	class WaitServerGroupStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9FCF40E8B19D9D91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitServerGroupStateChange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitServerGroupStateChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitServerGroupStateChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_METHOD_3_9FCF40E8B19D9D91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitServerGroupStateChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A40EF486C07A2DB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitServerGroupStateChange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitServerGroupStateChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitServerGroupStateChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_METHOD_3_A40EF486C07A2DB5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitServerGroupStateChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSERVERGROUPSTATECHANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

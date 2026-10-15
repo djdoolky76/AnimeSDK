@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TriggerEffect.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerEffectForUI; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_341885745B097CA7_OFFSET UNITYSDK_OFFSET(0x1D551250)
-#define RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_47BA0C7E37299F55_OFFSET UNITYSDK_OFFSET(0x1D54C0B0)
-#define RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_6DDE9F5584309422_OFFSET UNITYSDK_OFFSET(0x1D5511D0)
-#define RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_FAFE4DECB3323162_OFFSET UNITYSDK_OFFSET(0x1D551150)
-#define RPG_GAMECORE_TRIGGEREFFECTFORUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54C060)
+#define RPG_GAMECORE_TRIGGEREFFECTFORUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC1A420)
+#define RPG_GAMECORE_TRIGGEREFFECTFORUI_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC1F7A0)
+#define RPG_GAMECORE_TRIGGEREFFECTFORUI_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC1F6A0)
+#define RPG_GAMECORE_TRIGGEREFFECTFORUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC1A470)
+#define RPG_GAMECORE_TRIGGEREFFECTFORUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1F720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffectForUI_TypeDefinitionIndex = 19918;
+	inline static constexpr unsigned int TriggerEffectForUI_TypeDefinitionIndex = 20154;
 
 	class TriggerEffectForUI : public ::RPG::GameCore::TriggerEffect
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_6DDE9F5584309422(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectForUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEffectForUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffectForUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_6DDE9F5584309422_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEffectForUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_47BA0C7E37299F55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectForUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEffectForUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffectForUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_47BA0C7E37299F55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEffectForUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FAFE4DECB3323162(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectForUI*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectForUI* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectForUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_FAFE4DECB3323162_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectForUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_341885745B097CA7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectForUI* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffectForUI* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectForUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_METHOD_4_341885745B097CA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffectForUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTFORUI_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

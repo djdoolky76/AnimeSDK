@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_1_OFFSET UNITYSDK_OFFSET(0x1CE13B60)
-#define CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CE13B10)
+#define CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_1_OFFSET UNITYSDK_OFFSET(0x1F11FA40)
+#define CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F11F9F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCancellationExtensions_TypeDefinitionIndex = 42641;
+	inline static constexpr unsigned int UniTaskCancellationExtensions_TypeDefinitionIndex = 38226;
 
 	class UniTaskCancellationExtensions : public ::System::Object
 	{
@@ -25,5 +24,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Threading::CancellationToken(*)(::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_1_OFFSET))(a1);
 		}
+
 	};
 }

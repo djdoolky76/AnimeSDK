@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sofa/BaseSofaWindow_1.h"
-
-class Class_1_2F344C4E39EE9840;
+class MEDCLDPMDAA;
 namespace RPG::Client { class TabView; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLERESULTSAMPLEWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBFF30)
+#define RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLERESULTSAMPLEWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xE405C00)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int GridFightSettleResultSampleWindow_TypeDefinitionIndex = 73356;
+	inline static constexpr unsigned int GridFightSettleResultSampleWindow_TypeDefinitionIndex = 73460;
 
-	class GridFightSettleResultSampleWindow : public ::Sofa::BaseSofaWindow_1<::Class_1_2F344C4E39EE9840*>
+	class GridFightSettleResultSampleWindow
 	{
 	public:
-		::UnityEngine::GameObject* _BtnArrowLeft; // 0x58
-		::UnityEngine::GameObject* _BtnArrowRight; // 0x60
-		::RPG::Client::TabView* _TabView; // 0x68
-
-		::System::Void _ctor(::Class_1_2F344C4E39EE9840* a1)
+		::RPG::Client::TabView* _TabView; // 0x60
+		::UnityEngine::GameObject* _BtnArrowLeft; // 0x68
+		::UnityEngine::GameObject* _BtnArrowRight; // 0x70
+		::System::Void _ctor(::MEDCLDPMDAA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2F344C4E39EE9840*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLERESULTSAMPLEWINDOW__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MEDCLDPMDAA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLERESULTSAMPLEWINDOW_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

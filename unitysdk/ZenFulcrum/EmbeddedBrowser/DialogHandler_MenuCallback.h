@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E8B50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E8BA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E89E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E8AE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F62B720)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F62B6B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F62B770)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F62B5B0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DialogHandler_MenuCallback_TypeDefinitionIndex = 38198;
+	inline static constexpr unsigned int DialogHandler_MenuCallback_TypeDefinitionIndex = 39495;
 
 	class DialogHandler_MenuCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

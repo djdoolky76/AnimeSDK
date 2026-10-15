@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HoudiniEngineUnity { class HEU_AttributeData; }
 namespace HoudiniEngineUnity { class HEU_ToolsInfo; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x167C73F0)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x167C7490)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x167C53C0)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x167C7370)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B8AE810)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AE790)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B8AE8B0)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8AC7E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AttributesStore_SetAttributeValueFunc_TypeDefinitionIndex = 39129;
+	inline static constexpr unsigned int HEU_AttributesStore_SetAttributeValueFunc_TypeDefinitionIndex = 40426;
 
 	class HEU_AttributesStore_SetAttributeValueFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HoudiniEngineUnity::HEU_AttributeData* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HEU_ToolsInfo* a3, ::System::Int32 a4, ::System::Single a5)
@@ -39,5 +38,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTESSTORE_SETATTRIBUTEVALUEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

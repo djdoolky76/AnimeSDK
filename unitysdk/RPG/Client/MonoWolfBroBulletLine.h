@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1C29A290)
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SETDISTANCE_OFFSET UNITYSDK_OFFSET(0x1C29A2C0)
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1C29A2B0)
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29A490)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD876E00)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0xD876C00)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SETDISTANCE_OFFSET UNITYSDK_OFFSET(0xD876C30)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SET_FORWARD_OFFSET UNITYSDK_OFFSET(0xD876C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoWolfBroBulletLine_TypeDefinitionIndex = 68685;
+	inline static constexpr unsigned int MonoWolfBroBulletLine_TypeDefinitionIndex = 68719;
 
 	class MonoWolfBroBulletLine : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,10 +22,9 @@ namespace RPG::Client
 		::UnityEngine::Transform* scaleRoot; // 0x28
 		::System::Single upHeight; // 0x30
 		::UnityEngine::Vector3 _Forward_k__BackingField; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROBULLETLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROBULLETLINE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_Forward()
@@ -43,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROBULLETLINE_SETDISTANCE_OFFSET))(this, a1);
 		}
+
 	};
 }

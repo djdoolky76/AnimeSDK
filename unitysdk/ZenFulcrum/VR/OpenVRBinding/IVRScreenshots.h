@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRScreenshots__GetScreenshotPropertyFilename; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRScreenshots__GetScreenshotPropertyType; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRScreenshots__HookScreenshot; }
@@ -12,7 +10,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRScreenshots__UpdateScreenshot
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRScreenshots_TypeDefinitionIndex = 37878;
+	inline static constexpr unsigned int IVRScreenshots_TypeDefinitionIndex = 39175;
 
 	struct alignas(8) IVRScreenshots
 	{

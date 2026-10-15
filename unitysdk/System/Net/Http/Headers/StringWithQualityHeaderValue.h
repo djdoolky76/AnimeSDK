@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Net/Http/Headers/Token.h"
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
+namespace System::Net::Http::Headers { class StringWithQualityHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7E68A0)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7E6940)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_QUALITY_OFFSET UNITYSDK_OFFSET(0x1E7E67C0)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E7E67E0)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_QUALITY_OFFSET UNITYSDK_OFFSET(0x1E7E67D0)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E7E67F0)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7E6800)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E6E00)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E7E6AB0)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7E6A10)
-#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E67B0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2D5B0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE2D6A0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE2D740)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_QUALITY_OFFSET UNITYSDK_OFFSET(0x1EE2D5C0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE2D5E0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_QUALITY_OFFSET UNITYSDK_OFFSET(0x1EE2D5D0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE2D5F0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE2D600)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE2DC00)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1EE2D8B0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2D810)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int StringWithQualityHeaderValue_TypeDefinitionIndex = 3825;
+	inline static constexpr unsigned int StringWithQualityHeaderValue_TypeDefinitionIndex = 3826;
 
 	class StringWithQualityHeaderValue : public ::System::Object
 	{
 	public:
 		::System::String* _Value_k__BackingField; // 0x10
 		::System::Nullable_1<::System::Double> _Quality_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::Nullable_1<::System::Double> get_Quality()
@@ -70,19 +69,20 @@ namespace System::Net::Http::Headers
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*& a3)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::StringWithQualityHeaderValue*& a2, ::System::Net::Http::Headers::Token& a3)
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::StringWithQualityHeaderValue* a2, ::System::Net::Http::Headers::Token a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::StringWithQualityHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::StringWithQualityHeaderValue*, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

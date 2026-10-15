@@ -2,34 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/HexPuzzleBoardBase.h"
 
-#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x189B3380)
-#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x189B3250)
-#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x189B3460)
+#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC22C60)
+#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_HKDNHLPLDDG_OFFSET UNITYSDK_OFFSET(0xDC22A50)
+#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_NDNNBDKHCKF_OFFSET UNITYSDK_OFFSET(0xDC22B80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BlockScreenHexPuzzle_TypeDefinitionIndex = 78129;
+	inline static constexpr unsigned int BlockScreenHexPuzzle_TypeDefinitionIndex = 78600;
 
 	class BlockScreenHexPuzzle : public ::RPG::Client::Prop::HexPuzzleBoardBase
 	{
 	public:
-		// static const ::System::Single HOJJGKCJMDA; // 0x0
 		::System::Boolean FENKBFBBODD; // 0xE8
+		::System::Byte _padding0[0x3];
 		::System::UInt32 LOKEPPMGHOH; // 0xEC
-
+		// static const ::System::Object HOJJGKCJMDA; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_8_F0BD65B017F2AC0B()
+		::System::Void HKDNHLPLDDG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_F0BD65B017F2AC0B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_HKDNHLPLDDG_OFFSET))(this);
 		}
 
-		::System::Void Method_8_E3DE31A03057E055()
+		::System::Void NDNNBDKHCKF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_E3DE31A03057E055_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_NDNNBDKHCKF_OFFSET))(this);
 		}
+
 	};
 }

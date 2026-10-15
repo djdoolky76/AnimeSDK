@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbLoader_LoaderConfig_TypeDefinitionIndex = 38725;
+	inline static constexpr unsigned int CriAtomExAcbLoader_LoaderConfig_TypeDefinitionIndex = 40022;
 
-	struct alignas(1) CriAtomExAcbLoader_LoaderConfig
+	struct alignas(4) CriAtomExAcbLoader_LoaderConfig
 	{
 		::System::Boolean shouldLoadAwbOnMemory; // 0x10
 	};

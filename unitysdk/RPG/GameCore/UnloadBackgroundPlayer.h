@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UnloadBackgroundPlayer; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_METHOD_3_2800F9CD013DB176_OFFSET UNITYSDK_OFFSET(0x1D2B2F80)
-#define RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_METHOD_3_D7C7B488384FD88D_OFFSET UNITYSDK_OFFSET(0x1D2B2F30)
-#define RPG_GAMECORE_UNLOADBACKGROUNDPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B2F70)
+#define RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4A410)
+#define RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC4A420)
+#define RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4A3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnloadBackgroundPlayer_TypeDefinitionIndex = 19984;
+	inline static constexpr unsigned int UnloadBackgroundPlayer_TypeDefinitionIndex = 20221;
 
 	class UnloadBackgroundPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Int32 UnloadCount; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADBACKGROUNDPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D7C7B488384FD88D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnloadBackgroundPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UnloadBackgroundPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnloadBackgroundPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_METHOD_3_D7C7B488384FD88D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UnloadBackgroundPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2800F9CD013DB176(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnloadBackgroundPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::UnloadBackgroundPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnloadBackgroundPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_METHOD_3_2800F9CD013DB176_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UnloadBackgroundPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADBACKGROUNDPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

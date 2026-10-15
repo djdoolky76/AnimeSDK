@@ -3,26 +3,25 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EColorSpace.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDD2A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDD330)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDD290)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDD220)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F657820)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6577A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6578B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F657810)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__SetOverlayTextureColorSpace_TypeDefinitionIndex = 37788;
+	inline static constexpr unsigned int IVROverlay__SetOverlayTextureColorSpace_TypeDefinitionIndex = 39085;
 
 	class IVROverlay__SetOverlayTextureColorSpace : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::EColorSpace a2)
@@ -39,5 +38,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYTEXTURECOLORSPACE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

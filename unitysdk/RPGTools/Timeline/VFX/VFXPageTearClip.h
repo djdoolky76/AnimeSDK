@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::VFX { class PageTearConfig; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF366A0)
-#define RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF36690)
-#define RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF36830)
+#define RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE94C5F0)
+#define RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE94C780)
+#define RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE94C5E0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXPageTearClip_TypeDefinitionIndex = 49132;
+	inline static constexpr unsigned int VFXPageTearClip_TypeDefinitionIndex = 48678;
 
 	class VFXPageTearClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::VFX::PageTearConfig* Config; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXPAGETEARCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

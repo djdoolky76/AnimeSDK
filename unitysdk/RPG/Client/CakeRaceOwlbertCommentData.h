@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7D0B754E2D8CECAF;
-class Class_3_FA020C2C23A72B3F;
+#include "unitysdk/RPG/Client/TextID.h"
+class DBEILICHGCG;
+class JBACCAGFHON;
 namespace RPG::Client { class CakeRaceHUDRichTextMsgData; }
+namespace RPG::Client { class CakeRaceOwlbertCommentData; }
 namespace RPG::Client::CakeRace { class CakeRaceOwlbertAnimDataItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C654940)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETOWLBERTANIMLIST_OFFSET UNITYSDK_OFFSET(0x1C654E50)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETTEXTID_OFFSET UNITYSDK_OFFSET(0x1C654D30)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETTEXTPARAMS_OFFSET UNITYSDK_OFFSET(0x1C654DD0)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETTEXTSTR_OFFSET UNITYSDK_OFFSET(0x1C654CE0)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GET_PREEMPTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C654E90)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1C654EB0)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_SET_PREEMPTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C654EA0)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1C654EC0)
-#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C654AD0)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC91E710)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC91E8A0)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETOWLBERTANIMLIST_OFFSET UNITYSDK_OFFSET(0xC91EC20)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETTEXTID_OFFSET UNITYSDK_OFFSET(0xC91EB00)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETTEXTPARAMS_OFFSET UNITYSDK_OFFSET(0xC91EBA0)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GETTEXTSTR_OFFSET UNITYSDK_OFFSET(0xC91EAB0)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GET_PREEMPTLEVEL_OFFSET UNITYSDK_OFFSET(0xC91EC60)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xC91EC80)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_SET_PREEMPTLEVEL_OFFSET UNITYSDK_OFFSET(0xC91EC70)
+#define RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xC91EC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceOwlbertCommentData_TypeDefinitionIndex = 63130;
+	inline static constexpr unsigned int CakeRaceOwlbertCommentData_TypeDefinitionIndex = 63063;
 
 	class CakeRaceOwlbertCommentData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem*>* _OwlbertAnimList; // 0x10
 		::RPG::Client::CakeRaceHUDRichTextMsgData* _Message; // 0x18
-		::System::UInt32 _Priority_k__BackingField; // 0x20
-		::System::UInt32 _PreemptLevel_k__BackingField; // 0x24
-
+		::System::UInt32 _PreemptLevel_k__BackingField; // 0x20
+		::System::UInt32 _Priority_k__BackingField; // 0x24
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::Il2CppArray<::System::String*>* a3, ::RPG::Client::CakeRaceHUDRichTextMsgData* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::String*>*, ::RPG::Client::CakeRaceHUDRichTextMsgData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::String*>*, ::RPG::Client::CakeRaceHUDRichTextMsgData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::CakeRaceOwlbertCommentData* Create(::System::UInt32 a1, ::System::UInt32 a2, ::Il2CppArray<::System::String*>* a3, ::RPG::Client::TextID a4, ::Class_1_7D0B754E2D8CECAF* a5, ::Class_3_FA020C2C23A72B3F* a6)
+		static ::RPG::Client::CakeRaceOwlbertCommentData* Create(::System::UInt32 a1, ::System::UInt32 a2, ::Il2CppArray<::System::String*>* a3, ::RPG::Client::TextID a4, ::DBEILICHGCG* a5, ::JBACCAGFHON* a6)
 		{
-			return ((::RPG::Client::CakeRaceOwlbertCommentData*(*)(::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::String*>*, ::RPG::Client::TextID, ::Class_1_7D0B754E2D8CECAF*, ::Class_3_FA020C2C23A72B3F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::RPG::Client::CakeRaceOwlbertCommentData*(*)(::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::String*>*, ::RPG::Client::TextID, ::DBEILICHGCG*, ::JBACCAGFHON*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::String* GetTextStr()
@@ -82,5 +81,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEOWLBERTCOMMENTDATA_SET_PRIORITY_OFFSET))(this, a1);
 		}
+
 	};
 }

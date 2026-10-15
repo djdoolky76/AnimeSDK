@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET UNITYSDK_OFFSET(0x1C658DF0)
-#define SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C658A00)
+#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C120790)
+#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET UNITYSDK_OFFSET(0x1C120B80)
 
 namespace System::Threading::Tasks
 {
@@ -16,12 +15,13 @@ namespace System::Threading::Tasks
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKCONTINUATION_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::System::Threading::Tasks::Task*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET))(a1, a2);
 		}
+
 	};
 }

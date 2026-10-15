@@ -3,16 +3,17 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FixedArray4_1.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FloatW.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2W.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactConstraintSIMD_TypeDefinitionIndex = 35934;
+	inline static constexpr unsigned int B2ContactConstraintSIMD_TypeDefinitionIndex = 36621;
 
-	struct alignas(4) B2ContactConstraintSIMD
+	struct alignas(8) B2ContactConstraintSIMD
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray4_1<::System::Int32> indexA; // 0x10
+		::System::Byte _padding0[0x8];
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray4_1<::System::Int32> indexB; // 0x20
+		::System::Byte _padding1[0x8];
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FloatW invMassA; // 0x30
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FloatW invMassB; // 0x40
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FloatW invIA; // 0x50

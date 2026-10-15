@@ -1,55 +1,63 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPGTools/Timeline/VFXTearClip_EyeTearState.h"
-#include "unitysdk/RPGTools/Timeline/VFXTearClip_FaceTearState.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
-namespace RPGTools::Timeline { class VFXTearBehaviour_Class_2_006BAB46FE72520C; }
-namespace RPGTools::Timeline { class VFXTearBehaviour_Class_2_396AFD4C5FDE54CE; }
+namespace RPGTools::Timeline { class VFXTearBehaviour_GOHHEPNCHLM; }
+namespace RPGTools::Timeline { class VFXTearBehaviour_LEDNKJNPNMD; }
 namespace RPGTools::Timeline { class VFXTearClip; }
-namespace System { class String; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1BF387D0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1BF391B0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1BF387F0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1BF387E0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF393A0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF39390)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_CCTOR_OFFSET UNITYSDK_OFFSET(0xE94F220)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE94F210)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE94E650)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE94F030)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE94E670)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE94E660)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VFXTearBehaviour_TypeDefinitionIndex = 48539;
+	inline static constexpr unsigned int VFXTearBehaviour_TypeDefinitionIndex = 48079;
 
 	class VFXTearBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_FaceTearState, ::System::Int32>** StaticGet_FaceTearStateToAnimatorState()
+		::RPGTools::Timeline::VFXTearClip* _Clip_k__BackingField; // 0x10
+		::RPGTools::Timeline::VFXTearBehaviour_GOHHEPNCHLM* _LeftEye; // 0x18
+		::RPGTools::Timeline::VFXTearBehaviour_GOHHEPNCHLM* _RightEye; // 0x20
+		::RPGTools::Timeline::VFXTearBehaviour_LEDNKJNPNMD* _LeftFace; // 0x28
+		::RPGTools::Timeline::VFXTearBehaviour_LEDNKJNPNMD* _RightFace; // 0x30
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>** StaticGet_FaceTearStateToAnimatorState()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_FaceTearState, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x51CF0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("RPGTools.Timeline", "VFXTearBehaviour")->GetStaticField(0x1E50);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_EyeTearState, ::System::Int32>** StaticGet_EyeTearStateToAnimatorState()
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>** StaticGet_EyeTearStateToAnimatorState()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_EyeTearState, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x51CF8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("RPGTools.Timeline", "VFXTearBehaviour")->GetStaticField(0x1E58);
 		}
-		static ::System::Int32* StaticGet_AnimParam_FaceTearState()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x11030);
-		}
-		static ::System::Int32* StaticGet_AnimParam_TransSpeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x11034);
-		}
-		static ::System::Int32* StaticGet_AnimParam_EyeTearState()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x11038);
-		}
+
 		static ::System::Int32* StaticGet_AnimParam_LoopSpeed()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x1103C);
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "VFXTearBehaviour")->GetStaticField(0x1CB0);
 		}
+
+		static ::System::Int32* StaticGet_AnimParam_TransSpeed()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "VFXTearBehaviour")->GetStaticField(0x1CB4);
+		}
+
+		static ::System::Int32* StaticGet_AnimParam_FaceTearState()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "VFXTearBehaviour")->GetStaticField(0x1CB8);
+		}
+
+		static ::System::Int32* StaticGet_AnimParam_EyeTearState()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "VFXTearBehaviour")->GetStaticField(0x1CBC);
+		}
+
 		// static const ::System::String* LeftEyeTearPath; // 0x0
 		// static const ::System::String* RightEyeTearPath; // 0x0
 		// static const ::System::String* LeftFaceTearPath; // 0x0
@@ -61,20 +69,14 @@ namespace RPGTools::Timeline
 		// static const ::System::String* LeftEyeTearAttachPath; // 0x0
 		// static const ::System::String* RightEyeTearAttachPath; // 0x0
 		// static const ::System::String* FaceTearAttachPath; // 0x0
-		::RPGTools::Timeline::VFXTearClip* _Clip_k__BackingField; // 0x10
-		::RPGTools::Timeline::VFXTearBehaviour_Class_2_396AFD4C5FDE54CE* _LeftEye; // 0x18
-		::RPGTools::Timeline::VFXTearBehaviour_Class_2_396AFD4C5FDE54CE* _RightEye; // 0x20
-		::RPGTools::Timeline::VFXTearBehaviour_Class_2_006BAB46FE72520C* _LeftFace; // 0x28
-		::RPGTools::Timeline::VFXTearBehaviour_Class_2_006BAB46FE72520C* _RightFace; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_CCTOR_OFFSET))();
 		}
 
 		::RPGTools::Timeline::VFXTearClip* get_Clip()
@@ -96,5 +98,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CLSCOMPLIANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C3CE0)
+#define SYSTEM_CLSCOMPLIANTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C085200)
 
 namespace System
 {
@@ -12,10 +12,10 @@ namespace System
 	{
 	public:
 		::System::Boolean m_compliant; // 0x10
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CLSCOMPLIANTATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CLSCOMPLIANTATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

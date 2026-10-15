@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0C0F50)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B0C1000)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C1150)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92D7C0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE92D870)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE92D9C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShiftCameraLookAtTrack_TypeDefinitionIndex = 48283;
+	inline static constexpr unsigned int ShiftCameraLookAtTrack_TypeDefinitionIndex = 47824;
 
 	class ShiftCameraLookAtTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

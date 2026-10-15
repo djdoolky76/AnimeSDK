@@ -5,18 +5,17 @@
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiCamera.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiObject.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSchema.h"
-
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1CE2BF90)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1CE2C130)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1CE2BF60)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1CE2BF70)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2C730)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1F137C90)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1F137E30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F138430)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1F137C60)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1F137C70)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCamera_TypeDefinitionIndex = 44712;
+	inline static constexpr unsigned int AlembicCamera_TypeDefinitionIndex = 45851;
 
 	class AlembicCamera : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
@@ -24,10 +23,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 		::UnityEngine::Camera* m_camera; // 0x28
 		::UnityEngine::Formats::Alembic::Sdk::CameraData m_abcData; // 0x30
 		::UnityEngine::Formats::Alembic::Sdk::aiCamera m_abcSchema; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::aiSchema get_abcSchema()
@@ -49,5 +47,6 @@ namespace UnityEngine::Formats::Alembic::Importer
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSYNCDATAEND_OFFSET))(this);
 		}
+
 	};
 }

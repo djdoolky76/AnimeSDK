@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReactionChainEnd_TypeDefinitionIndex = 68422;
+	inline static constexpr unsigned int IKHitReactionChainEnd_TypeDefinitionIndex = 68455;
 
 	struct alignas(8) IKHitReactionChainEnd
 	{

@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeProxy.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Sweep.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TOIInput_TypeDefinitionIndex = 36100;
+	inline static constexpr unsigned int B2TOIInput_TypeDefinitionIndex = 36787;
 
 	struct alignas(4) B2TOIInput
 	{

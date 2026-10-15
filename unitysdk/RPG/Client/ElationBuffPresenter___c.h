@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7807B2B04302CD7B_33;
+class DEKIPIJNJBJ;
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC55060)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC550A0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1AC550B0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD71830)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD71870)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__12_0_OFFSET UNITYSDK_OFFSET(0xCD71880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenter___c_TypeDefinitionIndex = 71152;
+	inline static constexpr unsigned int ElationBuffPresenter___c_TypeDefinitionIndex = 71191;
 
 	class ElationBuffPresenter___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_7807B2B04302CD7B_33*>** StaticGet___9__10_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_7807B2B04302CD7B_33*>**)Il2CppClass::FromTypeDefinitionIndex(ElationBuffPresenter___c_TypeDefinitionIndex)->GetStaticField(0x61D50);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x35B40);
 		}
-		static ::RPG::Client::ElationBuffPresenter___c** StaticGet___9()
+
+		static ::System::Comparison_1<::DEKIPIJNJBJ*>** StaticGet___9__12_0()
 		{
-			return (::RPG::Client::ElationBuffPresenter___c**)Il2CppClass::FromTypeDefinitionIndex(ElationBuffPresenter___c_TypeDefinitionIndex)->GetStaticField(0x61D58);
+			return (::System::Comparison_1<::DEKIPIJNJBJ*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x35B48);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __MergeBuffDataByLife_b__10_0(::Class_1_7807B2B04302CD7B_33* a1, ::Class_1_7807B2B04302CD7B_33* a2)
+		::System::Int32 __MergeBuffDataByLife_b__12_0(::DEKIPIJNJBJ* a1, ::DEKIPIJNJBJ* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_33*, ::Class_1_7807B2B04302CD7B_33*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__10_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::DEKIPIJNJBJ*, ::DEKIPIJNJBJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__12_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

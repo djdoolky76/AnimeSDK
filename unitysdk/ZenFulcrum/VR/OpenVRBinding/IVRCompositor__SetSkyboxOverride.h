@@ -3,26 +3,25 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRCompositorError.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/Texture_t.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6810)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6870)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6800)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED6780)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F650D90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F650D00)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F650DF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F650D80)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__SetSkyboxOverride_TypeDefinitionIndex = 37734;
+	inline static constexpr unsigned int IVRCompositor__SetSkyboxOverride_TypeDefinitionIndex = 39031;
 
 	class IVRCompositor__SetSkyboxOverride : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Invoke(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::Texture_t>* a1, ::System::UInt32 a2)
@@ -39,5 +38,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETSKYBOXOVERRIDE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

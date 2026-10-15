@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::CustomRP { class CloudTransition; }
 namespace RPG::CustomRP { class VolumetricCloudLayer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class VolumetricCloudSphere; }
 
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_START_OFFSET UNITYSDK_OFFSET(0x1EE5C130)
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_SYNCCLOUDTRANSITIONPARAMS_OFFSET UNITYSDK_OFFSET(0x1EE5CA00)
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_UPDATESHADERPARAMS_OFFSET UNITYSDK_OFFSET(0x1EE5C290)
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5CA50)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4E5E0)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_START_OFFSET UNITYSDK_OFFSET(0x1CC4DCC0)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_SYNCCLOUDTRANSITIONPARAMS_OFFSET UNITYSDK_OFFSET(0x1CC4E590)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_UPDATESHADERPARAMS_OFFSET UNITYSDK_OFFSET(0x1CC4DE20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VolumetricCloudSphereSDFAdaptor_TypeDefinitionIndex = 37052;
+	inline static constexpr unsigned int VolumetricCloudSphereSDFAdaptor_TypeDefinitionIndex = 37737;
 
 	class VolumetricCloudSphereSDFAdaptor : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,10 +22,9 @@ namespace RPG::CustomRP
 		::UnityEngine::VolumetricCloudSphere* _CloudSphere; // 0x20
 		::RPG::CustomRP::CloudTransition* _CloudTransition; // 0x28
 		::UnityEngine::MaterialPropertyBlock* _Mpb; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -43,5 +41,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_VOLUMETRICCLOUDSPHERESDFADAPTOR_SYNCCLOUDTRANSITIONPARAMS_OFFSET))(this);
 		}
+
 	};
 }

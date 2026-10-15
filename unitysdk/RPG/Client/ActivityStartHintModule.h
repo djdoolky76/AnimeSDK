@@ -1,39 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
-
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE_CANSHOWTOAST_OFFSET UNITYSDK_OFFSET(0x1B87A050)
-#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1B879AD0)
-#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B87A3A0)
-#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87A380)
-#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__REFRESHACTIVITYICONTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B87A300)
-#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__TRYSHOWTOAST_OFFSET UNITYSDK_OFFSET(0x1B879C30)
+#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE_CANSHOWTOAST_OFFSET UNITYSDK_OFFSET(0xC59C910)
+#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE_CCTOR_OFFSET UNITYSDK_OFFSET(0xC59CC60)
+#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0xC59CC40)
+#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xC59C390)
+#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__REFRESHACTIVITYICONTRANSFORM_OFFSET UNITYSDK_OFFSET(0xC59CBC0)
+#define RPG_CLIENT_ACTIVITYSTARTHINTMODULE__TRYSHOWTOAST_OFFSET UNITYSDK_OFFSET(0xC59C4F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStartHintModule_TypeDefinitionIndex = 61989;
+	inline static constexpr unsigned int ActivityStartHintModule_TypeDefinitionIndex = 61905;
 
 	class ActivityStartHintModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		static ::System::UInt32* StaticGet__ACTIVITY_UNLOCK_ID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ActivityStartHintModule_TypeDefinitionIndex)->GetStaticField(0x14480);
-		}
 		::UnityEngine::Transform* ActivityIconTransform; // 0x10
 		::System::Boolean _IsToastShown; // 0x18
+		static ::System::UInt32* StaticGet__ACTIVITY_UNLOCK_ID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "ActivityStartHintModule")->GetStaticField(0xA550);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTARTHINTMODULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTARTHINTMODULE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTARTHINTMODULE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTARTHINTMODULE_CCTOR_OFFSET))();
 		}
 
 		::System::Void _AddNotifyHandlers()
@@ -55,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTARTHINTMODULE__REFRESHACTIVITYICONTRANSFORM_OFFSET))(this, a1);
 		}
+
 	};
 }

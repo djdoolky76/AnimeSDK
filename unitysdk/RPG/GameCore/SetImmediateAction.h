@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetImmediateAction; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETIMMEDIATEACTION_METHOD_3_1C03A23E84D32AE6_OFFSET UNITYSDK_OFFSET(0x1E082810)
-#define RPG_GAMECORE_SETIMMEDIATEACTION_METHOD_3_4151398365890025_OFFSET UNITYSDK_OFFSET(0x1E082850)
-#define RPG_GAMECORE_SETIMMEDIATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E082840)
+#define RPG_GAMECORE_SETIMMEDIATEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA890C0)
+#define RPG_GAMECORE_SETIMMEDIATEACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA890D0)
+#define RPG_GAMECORE_SETIMMEDIATEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA89090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetImmediateAction_TypeDefinitionIndex = 22448;
+	inline static constexpr unsigned int SetImmediateAction_TypeDefinitionIndex = 22703;
 
 	class SetImmediateAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETIMMEDIATEACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETIMMEDIATEACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1C03A23E84D32AE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetImmediateAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetImmediateAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetImmediateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETIMMEDIATEACTION_METHOD_3_1C03A23E84D32AE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetImmediateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETIMMEDIATEACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4151398365890025(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetImmediateAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetImmediateAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetImmediateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETIMMEDIATEACTION_METHOD_3_4151398365890025_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetImmediateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETIMMEDIATEACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

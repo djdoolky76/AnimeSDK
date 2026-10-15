@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelListenStanceCountDown; }
 
-#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD293B0)
-#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD29450)
-#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD29400)
-#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_INIT_OFFSET UNITYSDK_OFFSET(0x1DD29340)
-#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD294A0)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E8C70)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E8D60)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E8D10)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E8CC0)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_INIT_OFFSET UNITYSDK_OFFSET(0xE6E8C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelListenStanceCountDown_TypeDefinitionIndex = 56963;
+	inline static constexpr unsigned int LevelListenStanceCountDown_TypeDefinitionIndex = 56784;
 
-	class LevelListenStanceCountDown : public ::Class_1_BF7A075734D15E98
+	class LevelListenStanceCountDown : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* Target; // 0x18
 		::RPG::GameCore::GameEntity* Source; // 0x20
 		::System::Boolean IsExtraStance; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelListenStanceCountDown* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::System::Boolean a3)
@@ -46,5 +45,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

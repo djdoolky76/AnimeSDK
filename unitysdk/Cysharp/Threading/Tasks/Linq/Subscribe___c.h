@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE5E990)
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5E9D0)
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1CE5E9E0)
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1CE5E9F0)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD710)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD750)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1F0DD760)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1F0DD770)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Subscribe___c_TypeDefinitionIndex = 44463;
+	inline static constexpr unsigned int Subscribe___c_TypeDefinitionIndex = 45602;
 
 	class Subscribe___c : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::Linq::Subscribe___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::Linq::Subscribe___c**)Il2CppClass::FromTypeDefinitionIndex(Subscribe___c_TypeDefinitionIndex)->GetStaticField(0x14C0);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c")->GetStaticField(0x1190);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __cctor_b__8_0(::System::Exception* a1)
@@ -40,5 +40,6 @@ namespace Cysharp::Threading::Tasks::Linq
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_1_OFFSET))(this);
 		}
+
 	};
 }

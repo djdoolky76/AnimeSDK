@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace HoudiniEngineUnity { class HEU_OutputAttribute; }
 namespace HoudiniEngineUnity { class HEU_OutputAttributeDictionary; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_CLEAR_OFFSET UNITYSDK_OFFSET(0x11A724F0)
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_GETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x11A72480)
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_SETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x11A72210)
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A72580)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B92FFE0)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B930070)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_GETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B92FF70)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_SETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B92FCD0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_OutputAttributesStore_TypeDefinitionIndex = 39133;
+	inline static constexpr unsigned int HEU_OutputAttributesStore_TypeDefinitionIndex = 40430;
 
 	class HEU_OutputAttributesStore : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::HoudiniEngineUnity::HEU_OutputAttributeDictionary* _attributes; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* a1)
@@ -39,5 +37,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTESSTORE_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

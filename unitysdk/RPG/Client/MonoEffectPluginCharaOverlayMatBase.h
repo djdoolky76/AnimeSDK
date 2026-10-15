@@ -1,63 +1,57 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaEffectBase.h"
-#include "unitysdk/RPG/Client/MonoEffectPluginCharaOverlayMatBase_CharaEffectRenderEffectMaterialItem.h"
 #include "unitysdk/RPG/CustomRP/AvatarEffectInfo_EExecutionOrder.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-
 namespace RPG::Client { class MonoEffectPluginCharaReplaceMatBase; }
 namespace RPG::CustomRP { class AvatarEffectInfo_PerRendererEffect; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_0588FB338A0E8057_OFFSET UNITYSDK_OFFSET(0x116A5400)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x116A5C40)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_684C5B9AABA1063B_OFFSET UNITYSDK_OFFSET(0x116A7840)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_6A0EBEECA245A27C_OFFSET UNITYSDK_OFFSET(0x116A6380)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_6D231761C06CEE7A_OFFSET UNITYSDK_OFFSET(0x116A7BF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_6EECE8924BBFC43C_OFFSET UNITYSDK_OFFSET(0x116A4E50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_803856DB6C5D9DB5_OFFSET UNITYSDK_OFFSET(0x116A5380)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_92A2C40C081B6728_OFFSET UNITYSDK_OFFSET(0x116A8200)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x116A62E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x116A5200)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_B074F66A040CA62D_OFFSET UNITYSDK_OFFSET(0x116A7590)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_BC3AB2EA1B09C7DF_OFFSET UNITYSDK_OFFSET(0x116A7A80)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_CFF186DABBCF1E70_OFFSET UNITYSDK_OFFSET(0x116A61D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x11696140)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_FA58824BA12F6F62_OFFSET UNITYSDK_OFFSET(0x116A7260)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x116A82B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x11696270)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0xD7C9BE0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7CBBB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD7B99A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_EDGOAPJKCKK_OFFSET UNITYSDK_OFFSET(0xD7C8AF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_FAJAHACNNOH_OFFSET UNITYSDK_OFFSET(0xD7C8CF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_GBPFMKKLFHJ_OFFSET UNITYSDK_OFFSET(0xD7C9C80)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_HBAMPGEBMCH_OFFSET UNITYSDK_OFFSET(0xD7CB140)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7B9870)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0xD7C8740)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_JJKMJKDCNKJ_OFFSET UNITYSDK_OFFSET(0xD7CBB00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_LDJIBONHDIC_OFFSET UNITYSDK_OFFSET(0xD7CB380)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_LDNMGHPHMAF_OFFSET UNITYSDK_OFFSET(0xD7C8C70)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_MNDOLMPKOEF_OFFSET UNITYSDK_OFFSET(0xD7CAE90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_NGAJKFIBHJP_OFFSET UNITYSDK_OFFSET(0xD7CAB60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_NNOPFHDNCAF_OFFSET UNITYSDK_OFFSET(0xD7C9AD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_OIIHNNGMJBB_OFFSET UNITYSDK_OFFSET(0xD7C9540)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_PDIEPIBDGNC_OFFSET UNITYSDK_OFFSET(0xD7CB4F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaOverlayMatBase_TypeDefinitionIndex = 69913;
+	inline static constexpr unsigned int MonoEffectPluginCharaOverlayMatBase_TypeDefinitionIndex = 69947;
 
 	class MonoEffectPluginCharaOverlayMatBase : public ::RPG::Client::MonoEffectPluginCharaEffectBase
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_DPOBOPKPMHI()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaOverlayMatBase_TypeDefinitionIndex)->GetStaticField(0xE5E0);
-		}
-		static ::System::Int32* StaticGet_MBDPEFHNBMI()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaOverlayMatBase_TypeDefinitionIndex)->GetStaticField(0x4620);
-		}
 		::UnityEngine::Material* EffectMat; // 0x158
-		::Il2CppArray<::RPG::Client::MonoEffectPluginCharaOverlayMatBase_CharaEffectRenderEffectMaterialItem>* RendererEffectMats; // 0x160
+		::Il2CppArray<::System::Object*>* RendererEffectMats; // 0x160
 		::Il2CppArray<::System::Int32>* OverlayPasses; // 0x168
 		::System::Boolean AfterTransparent; // 0x170
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::System::Boolean>* AfterTransparentArray; // 0x178
 		::System::Boolean IgnoreMPB; // 0x180
 		::System::Boolean DrawMeshMode; // 0x181
 		::System::Boolean DisableOverlayForwardEmission; // 0x182
 		::System::Boolean UseGBufferEmission; // 0x183
 		::System::Boolean DrawReflection; // 0x184
+		::System::Byte _padding1[0x3];
 		::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder PassExecutionOrder; // 0x188
 		::System::Boolean EnableOverlayPassesHalfRes; // 0x18C
+		::System::Byte _padding2[0x3];
 		::Il2CppArray<::System::Int32>* OverlayPassesHalfRes; // 0x190
 		::Il2CppArray<::System::String*>* HalfResRendererNamesExcluded; // 0x198
 		::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* NGKENIHMJJO; // 0x1A0
@@ -67,90 +61,100 @@ namespace RPG::Client
 		::UnityEngine::Bounds DGNHKKJMNON; // 0x1C0
 		::UnityEngine::Matrix4x4 LKEHCIFAJNK; // 0x1D8
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginCharaReplaceMatBase*>* PDHIFDMAPML; // 0x218
+		static ::Il2CppArray<::System::Int32>** StaticGet_DPOBOPKPMHI()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaOverlayMatBase")->GetStaticField(0x60040);
+		}
+
+		static ::System::Int32* StaticGet_MBDPEFHNBMI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaOverlayMatBase")->GetStaticField(0x14550);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_7_6EECE8924BBFC43C()
+		::System::Void IJICJDNHKHN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_6EECE8924BBFC43C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_IJICJDNHKHN_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_0588FB338A0E8057(::System::Boolean a1)
+		::System::Boolean FAJAHACNNOH(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_0588FB338A0E8057_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_FAJAHACNNOH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_D78B51BFDA4B8B32()
+		::System::Void IFOEAAAKONL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_D78B51BFDA4B8B32_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_IFOEAAAKONL_OFFSET))(this);
 		}
 
-		::System::Void Method_7_CFF186DABBCF1E70(::System::Boolean a1)
+		::System::Void NNOPFHDNCAF(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_CFF186DABBCF1E70_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_NNOPFHDNCAF_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_9681042564541CD6()
+		::System::Void CBKPMHCOCMH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_CBKPMHCOCMH_OFFSET))(this);
 		}
 
-		::System::Void Method_7_A239DF324AF4215D()
+		::System::Void EDGOAPJKCKK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_A239DF324AF4215D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_EDGOAPJKCKK_OFFSET))(this);
 		}
 
-		::System::Void Method_7_6A0EBEECA245A27C()
+		::System::Void GBPFMKKLFHJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_6A0EBEECA245A27C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_GBPFMKKLFHJ_OFFSET))(this);
 		}
 
-		::System::Void Method_7_FA58824BA12F6F62()
+		::System::Void NGAJKFIBHJP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_FA58824BA12F6F62_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_NGAJKFIBHJP_OFFSET))(this);
 		}
 
-		::UnityEngine::Material* Method_7_B074F66A040CA62D(::UnityEngine::Renderer* a1, ::System::Int32 a2)
+		::UnityEngine::Material* MNDOLMPKOEF(::UnityEngine::Renderer* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_B074F66A040CA62D_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_MNDOLMPKOEF_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Material* Method_7_684C5B9AABA1063B(::UnityEngine::Material* a1, ::UnityEngine::Material* a2, ::UnityEngine::Renderer* a3)
+		::UnityEngine::Material* HBAMPGEBMCH(::UnityEngine::Material* a1, ::UnityEngine::Material* a2, ::UnityEngine::Renderer* a3)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Material*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_684C5B9AABA1063B_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Material*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_HBAMPGEBMCH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Material* Method_7_BC3AB2EA1B09C7DF(::System::String* a1, ::System::Int32 a2)
+		::UnityEngine::Material* LDJIBONHDIC(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_BC3AB2EA1B09C7DF_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_LDJIBONHDIC_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Int32>* Method_7_803856DB6C5D9DB5()
+		::Il2CppArray<::System::Int32>* LDNMGHPHMAF()
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_803856DB6C5D9DB5_OFFSET))(this);
+			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_LDNMGHPHMAF_OFFSET))(this);
 		}
 
-		::System::Void Method_7_6D231761C06CEE7A(::UnityEngine::Material* a1, ::UnityEngine::Material* a2)
+		::System::Void PDIEPIBDGNC(::UnityEngine::Material* a1, ::UnityEngine::Material* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_6D231761C06CEE7A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_PDIEPIBDGNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_7_92A2C40C081B6728(::UnityEngine::Material* a1)
+		::System::Void JJKMJKDCNKJ(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_92A2C40C081B6728_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_JJKMJKDCNKJ_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_33E2FA8E6403B93D()
+		::System::Void OIIHNNGMJBB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_METHOD_7_33E2FA8E6403B93D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAOVERLAYMATBASE_OIIHNNGMJBB_OFFSET))(this);
 		}
+
 	};
 }

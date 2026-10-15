@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/MVector2.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+#include "unitysdk/RPG/MVector2.h"
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET UNITYSDK_OFFSET(0x1A338060)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A337B10)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1A337CD0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1A337B60)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__BUILDBORDER_OFFSET UNITYSDK_OFFSET(0x1A3387D0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3390D0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__GENERATEBORDERGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1A337D40)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET UNITYSDK_OFFSET(0xD93CE90)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD93DF00)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0xD93C940)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD93CB00)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xD93C990)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__BUILDBORDER_OFFSET UNITYSDK_OFFSET(0xD93D600)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__GENERATEBORDERGEOMETRY_OFFSET UNITYSDK_OFFSET(0xD93CB70)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int SectionBorder_TypeDefinitionIndex = 74552;
+	inline static constexpr unsigned int SectionBorder_TypeDefinitionIndex = 74680;
 
 	class SectionBorder : public ::UnityEngine::UI::MaskableGraphic
 	{
@@ -32,10 +31,9 @@ namespace RPG::Client::NavMap::FiveDim
 		::UnityEngine::Color _UnlockedSpaceColor; // 0x138
 		::System::Single _AntiAliasing; // 0x148
 		::System::Boolean _IsUnlocked; // 0x14C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Material* get_defaultMaterial()
@@ -67,5 +65,6 @@ namespace RPG::Client::NavMap::FiveDim
 		{
 			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET))(a1, a2);
 		}
+
 	};
 }

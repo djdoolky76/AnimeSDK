@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TouchScreenKeyboard_InternalConstructorHelperArguments_TypeDefinitionIndex = 4393;
+	inline static constexpr unsigned int TouchScreenKeyboard_InternalConstructorHelperArguments_TypeDefinitionIndex = 4396;
 
 	struct alignas(4) TouchScreenKeyboard_InternalConstructorHelperArguments
 	{

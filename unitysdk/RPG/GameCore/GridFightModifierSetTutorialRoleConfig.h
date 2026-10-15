@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierSetTutorialRoleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_METHOD_3_191D519AE1FA7786_OFFSET UNITYSDK_OFFSET(0x1EE6F020)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_METHOD_3_516C126C0C32E422_OFFSET UNITYSDK_OFFSET(0x1EE6F070)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6F060)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D707FF0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D708000)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D707FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierSetTutorialRoleConfig_TypeDefinitionIndex = 19209;
+	inline static constexpr unsigned int GridFightModifierSetTutorialRoleConfig_TypeDefinitionIndex = 19439;
 
 	class GridFightModifierSetTutorialRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_191D519AE1FA7786(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_METHOD_3_191D519AE1FA7786_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_516C126C0C32E422(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_METHOD_3_516C126C0C32E422_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierSetTutorialRoleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETTUTORIALROLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

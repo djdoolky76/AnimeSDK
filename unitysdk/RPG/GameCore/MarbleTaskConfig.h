@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarbleTaskConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MARBLETASKCONFIG_METHOD_2_A165820FBE30C8ED_OFFSET UNITYSDK_OFFSET(0x1D4B3BE0)
-#define RPG_GAMECORE_MARBLETASKCONFIG_METHOD_2_F3928209EA43B130_OFFSET UNITYSDK_OFFSET(0x1D4B3B80)
-#define RPG_GAMECORE_MARBLETASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A2360)
+#define RPG_GAMECORE_MARBLETASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D808740)
+#define RPG_GAMECORE_MARBLETASKCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D81B9A0)
+#define RPG_GAMECORE_MARBLETASKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81B940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleTaskConfig_TypeDefinitionIndex = 16651;
+	inline static constexpr unsigned int MarbleTaskConfig_TypeDefinitionIndex = 16827;
 
 	class MarbleTaskConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLETASKCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLETASKCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F3928209EA43B130(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleTaskConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleTaskConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleTaskConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLETASKCONFIG_METHOD_2_F3928209EA43B130_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleTaskConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLETASKCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_A165820FBE30C8ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleTaskConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleTaskConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleTaskConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLETASKCONFIG_METHOD_2_A165820FBE30C8ED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleTaskConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLETASKCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ConsumeOrigamiItem; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_641A4B8B2D4CE633_OFFSET UNITYSDK_OFFSET(0x1D9B6AF0)
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_B4232F7576576174_OFFSET UNITYSDK_OFFSET(0x1D9B6B30)
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B6B20)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ADAF0)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5ADB00)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5ADAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 21618;
+	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 21866;
 
 	class ConsumeOrigamiItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,20 +24,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSubmitConfirm; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSubmitCancel; // 0x38
 		::RPG::GameCore::SimpleTalkInfo* SimpleTalk; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_641A4B8B2D4CE633(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeOrigamiItem*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConsumeOrigamiItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeOrigamiItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_641A4B8B2D4CE633_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConsumeOrigamiItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B4232F7576576174(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeOrigamiItem* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConsumeOrigamiItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeOrigamiItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_B4232F7576576174_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConsumeOrigamiItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

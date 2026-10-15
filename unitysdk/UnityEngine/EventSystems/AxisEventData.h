@@ -3,20 +3,19 @@
 #include "unitysdk/UnityEngine/EventSystems/BaseEventData.h"
 #include "unitysdk/UnityEngine/EventSystems/MoveDirection.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine::EventSystems { class EventSystem; }
 
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_GET_MOVEDIR_OFFSET UNITYSDK_OFFSET(0x1B764EE0)
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_GET_MOVESUCCESS_OFFSET UNITYSDK_OFFSET(0x1B764F00)
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_GET_MOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x1B764EC0)
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVEDIR_OFFSET UNITYSDK_OFFSET(0x1B764EF0)
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVESUCCESS_OFFSET UNITYSDK_OFFSET(0x1B764F10)
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x1B764ED0)
-#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B764F20)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A0860)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_GET_MOVEDIR_OFFSET UNITYSDK_OFFSET(0x1F4A0820)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_GET_MOVESUCCESS_OFFSET UNITYSDK_OFFSET(0x1F4A0840)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_GET_MOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x1F4A0800)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVEDIR_OFFSET UNITYSDK_OFFSET(0x1F4A0830)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVESUCCESS_OFFSET UNITYSDK_OFFSET(0x1F4A0850)
+#define UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x1F4A0810)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int AxisEventData_TypeDefinitionIndex = 6894;
+	inline static constexpr unsigned int AxisEventData_TypeDefinitionIndex = 6903;
 
 	class AxisEventData : public ::UnityEngine::EventSystems::BaseEventData
 	{
@@ -24,10 +23,9 @@ namespace UnityEngine::EventSystems
 		::UnityEngine::Vector2 _moveVector_k__BackingField; // 0x20
 		::UnityEngine::EventSystems::MoveDirection _moveDir_k__BackingField; // 0x28
 		::System::Boolean _moveSuccess_k__BackingField; // 0x2C
-
 		::System::Void _ctor(::UnityEngine::EventSystems::EventSystem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::EventSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::EventSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_moveVector()
@@ -59,5 +57,6 @@ namespace UnityEngine::EventSystems
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_AXISEVENTDATA_SET_MOVESUCCESS_OFFSET))(this, a1);
 		}
+
 	};
 }

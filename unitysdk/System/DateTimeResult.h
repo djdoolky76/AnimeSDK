@@ -4,16 +4,14 @@
 #include "unitysdk/System/ParseFailureKind.h"
 #include "unitysdk/System/ParseFlags.h"
 #include "unitysdk/System/TimeSpan.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class Calendar; }
 
-#define SYSTEM_DATETIMERESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3B1F560)
-#define SYSTEM_DATETIMERESULT_SETDATE_OFFSET UNITYSDK_OFFSET(0x18A0)
-#define SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3B1F5A0)
-#define SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3B1F590)
+#define SYSTEM_DATETIMERESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3C1E610)
+#define SYSTEM_DATETIMERESULT_SETDATE_OFFSET UNITYSDK_OFFSET(0xFDE0)
+#define SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3C1E650)
+#define SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3C1E640)
 
 namespace System
 {
@@ -34,10 +32,10 @@ namespace System
 		::System::Globalization::Calendar* calendar; // 0x40
 		::System::DateTime parsedDate; // 0x48
 		::System::ParseFailureKind failure; // 0x50
+		::System::Byte _padding0[0x4];
 		::System::String* failureMessageID; // 0x58
 		::System::Object* failureMessageFormatArgument; // 0x60
 		::System::String* failureArgumentName; // 0x68
-
 		::System::Void Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_INIT_OFFSET))(this);
@@ -57,5 +55,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::ParseFailureKind, ::System::String*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

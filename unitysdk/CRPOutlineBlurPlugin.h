@@ -3,34 +3,35 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A863AF0)
-#define CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A863A70)
-#define CRPOUTLINEBLURPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A863B50)
+#define CRPOUTLINEBLURPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD7DC0)
+#define CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCD7D60)
+#define CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCD7CE0)
 
-inline static constexpr unsigned int CRPOutlineBlurPlugin_TypeDefinitionIndex = 47786;
+inline static constexpr unsigned int CRPOutlineBlurPlugin_TypeDefinitionIndex = 47326;
 
-class CRPOutlineBlurPlugin : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::System::Boolean enable; // 0x18
-	::System::Single GlobalGaussianSigma; // 0x1C
-	::System::Single BlurScale; // 0x20
-	::System::Single NearPlane; // 0x24
-	::System::Single FarPlane; // 0x28
-	::UnityEngine::Color OutlineColor; // 0x2C
-
-	::System::Void _ctor()
+	class CRPOutlineBlurPlugin : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRPOUTLINEBLURPLUGIN__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Boolean enable; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single GlobalGaussianSigma; // 0x1C
+		::System::Single BlurScale; // 0x20
+		::System::Single NearPlane; // 0x24
+		::System::Single FarPlane; // 0x28
+		::UnityEngine::Color OutlineColor; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRPOUTLINEBLURPLUGIN_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Update()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET))(this);
-	}
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET))(this);
+		}
 
-	::System::Void OnDisable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET))(this);
-	}
-};
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET))(this);
+		}
+
+	};

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-namespace RPG::Client { class TerrainVolumeBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1ACA0760)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0x1ACA05E0)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA07B0)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE200620)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE2005D0)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xE200450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 71003;
+	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 71035;
 
-	class TerrainVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TerrainVolumeBehavior*>
+	class TerrainVolumeMonoPlugin
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetHeightBlend(::UnityEngine::Texture2D* a1, ::UnityEngine::Texture2D* a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Bounds a4)
@@ -33,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
+
 	};
 }

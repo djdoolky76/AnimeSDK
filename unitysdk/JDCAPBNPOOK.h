@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JDCAPBNPOOK_TypeDefinitionIndex = 25296;
+
+	enum class JDCAPBNPOOK : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		ENPLACDLJGA = 1,
+		NMEEOHMGPKD = 2,
+		OMKPENOHLII = 4,
+		AOIGFLELHHH = 5,
+		MCPIKEHDMND = 101,
+		LDPMDPAGCHM = 102,
+		EGCGFGDILBC = 103,
+		HAEHIHOCLJD = 104,
+		HCJBIBFBHKM = 105,
+		MLOMHPFOMLO = 106,
+		EDJGIJIILKE = 107,
+		GGMPEGMEHPD = 108,
+		FIFGENNKDBE = 109,
+		ONPNOPLOAGH = 110,
+		MDBHGMDBJGK = 111,
+		DICKKDIAEND = 112,
+		LKPOOOLNAJC = 113,
+	};

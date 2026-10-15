@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D462C00)
-#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D463020)
-#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D463EB0)
-#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D463E30)
+#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C22F060)
+#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C230290)
+#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C22F480)
+#define SYSTEM_IO_FILESTREAM_WRITEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C230310)
 
 namespace System::IO
 {
@@ -20,7 +19,7 @@ namespace System::IO
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAM_WRITEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAM_WRITEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -37,5 +36,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAM_WRITEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

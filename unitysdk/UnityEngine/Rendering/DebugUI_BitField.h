@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
-
 namespace System { class Type; }
-namespace System { struct Enum; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x1CD17D90)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1CD18210)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1CD17DB0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x1CD17DA0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1CD17DD0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1CD17DC0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD18220)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F28F7C0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x1F28F330)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1F28F7B0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1F28F350)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x1F28F340)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1F28F370)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1F28F360)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_BitField_TypeDefinitionIndex = 34868;
+	inline static constexpr unsigned int DebugUI_BitField_TypeDefinitionIndex = 35537;
 
-	class DebugUI_BitField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::Enum*>
+	class DebugUI_BitField
 	{
 	public:
-		::Il2CppArray<::UnityEngine::GUIContent*>* _enumNames_k__BackingField; // 0x50
-		::System::Type* m_EnumType; // 0x58
-		::Il2CppArray<::System::Int32>* _enumValues_k__BackingField; // 0x60
-
+		::System::Type* m_EnumType; // 0x50
+		::Il2CppArray<::System::Int32>* _enumValues_k__BackingField; // 0x58
+		::Il2CppArray<::UnityEngine::GUIContent*>* _enumNames_k__BackingField; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::UnityEngine::GUIContent*>* get_enumNames()
@@ -59,5 +55,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMTYPE_OFFSET))(this);
 		}
+
 	};
 }

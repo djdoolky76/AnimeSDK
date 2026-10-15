@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChimeraWorkDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERAWORKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BBF5380)
-#define RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET UNITYSDK_OFFSET(0x1BBF50F0)
-#define RPG_CLIENT_CHIMERAWORKINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1BBF4E30)
-#define RPG_CLIENT_CHIMERAWORKINFO_RESETWORKCURRENTHP_OFFSET UNITYSDK_OFFSET(0x1BBF51A0)
-#define RPG_CLIENT_CHIMERAWORKINFO_SYNCWORKHP_OFFSET UNITYSDK_OFFSET(0x1BBF5090)
-#define RPG_CLIENT_CHIMERAWORKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF53D0)
+#define RPG_CLIENT_CHIMERAWORKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCB61D40)
+#define RPG_CLIENT_CHIMERAWORKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB61CF0)
+#define RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET UNITYSDK_OFFSET(0xCB61A60)
+#define RPG_CLIENT_CHIMERAWORKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCB617A0)
+#define RPG_CLIENT_CHIMERAWORKINFO_RESETWORKCURRENTHP_OFFSET UNITYSDK_OFFSET(0xCB61B10)
+#define RPG_CLIENT_CHIMERAWORKINFO_SYNCWORKHP_OFFSET UNITYSDK_OFFSET(0xCB61A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkInfo_TypeDefinitionIndex = 63565;
+	inline static constexpr unsigned int ChimeraWorkInfo_TypeDefinitionIndex = 63503;
 
 	class ChimeraWorkInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraWorkDataItem*>* _WorkDict; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -50,5 +48,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::ChimeraWorkDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

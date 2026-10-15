@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_75A1C8C41006A504.h"
-#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/JJDFGMMMCMI.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class GridFightAugmentConfig; }
 namespace RPG::Client { class GridFightPortalData; }
 
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_HASSRCNAME_OFFSET UNITYSDK_OFFSET(0x1C957E00)
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_SRCNAME_OFFSET UNITYSDK_OFFSET(0x1C957E60)
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C957F80)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E71B0)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_HASSRCNAME_OFFSET UNITYSDK_OFFSET(0xD0E7030)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_SRCNAME_OFFSET UNITYSDK_OFFSET(0xD0E7090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 64448;
+	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 64388;
 
 	class GridFightBonusSrcInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightAugmentConfig* Augment; // 0x10
 		::RPG::Client::GridFightPortalData* Portal; // 0x18
-		::Enum_3_75A1C8C41006A504 SrcType; // 0x20
-
+		::JJDFGMMMCMI SrcType; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSSRCINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_HasSrcName()
@@ -36,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_SRCNAME_OFFSET))(this);
 		}
+
 	};
 }

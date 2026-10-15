@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/MissionCustomValuePairType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionCustomValue; }
+namespace RPG::GameCore { class MissionCustomValuePair; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_METHOD_2_61C7F6C564FCBF93_OFFSET UNITYSDK_OFFSET(0x1D1AA4C0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AA660)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D858380)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8581E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 18766;
+	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 18990;
 
 	class MissionCustomValuePair : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,16 +19,17 @@ namespace RPG::GameCore
 		::RPG::GameCore::MissionCustomValuePairType Type; // 0x10
 		::System::UInt32 DirectValue; // 0x14
 		::System::UInt32 MainMissionID; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::MissionCustomValue* MissionCustomValue; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_61C7F6C564FCBF93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionCustomValuePair*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MissionCustomValuePair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValuePair*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_METHOD_2_61C7F6C564FCBF93_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MissionCustomValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Video { class VideoPlayer; }
 
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F00C5B0)
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F00C5E0)
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F00C260)
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00C540)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F53E960)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F53E8F0)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F53E990)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F53E610)
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoPlayer_EventHandler_TypeDefinitionIndex = 6049;
+	inline static constexpr unsigned int VideoPlayer_EventHandler_TypeDefinitionIndex = 6057;
 
 	class VideoPlayer_EventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Video::VideoPlayer* a1)
@@ -38,5 +37,6 @@ namespace UnityEngine::Video
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_EVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

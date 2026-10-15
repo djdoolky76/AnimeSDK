@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0x1BD63230)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1BD63180)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD51220)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0xD14A3D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CTOR_OFFSET UNITYSDK_OFFSET(0xD14A6C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0xD14A320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule_TypeDefinitionIndex = 64693;
+	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule_TypeDefinitionIndex = 64633;
 
 	class GridFightGameFormationEditor_ExclusiveTraitDressRule : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_Reason()
@@ -30,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

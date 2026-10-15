@@ -3,18 +3,18 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int TeamTowersBrickSpecialViewType_TypeDefinitionIndex = 36392;
+	inline static constexpr unsigned int TeamTowersBrickSpecialViewType_TypeDefinitionIndex = 37079;
 
 	enum class TeamTowersBrickSpecialViewType : ::System::Byte
 	{
-		None = 0x0,
-		Locked = 0x1,
-		Ice = 0x2,
-		Stone = 0x4,
-		Ivy = 0x8,
-		IvyFinished = 0x10,
-		Island = 0x20,
-		Solid = 0x40,
-		SilverWolf = 0x80,
+		None = 0,
+		Locked = 1,
+		Ice = 2,
+		Stone = 4,
+		Ivy = 8,
+		IvyFinished = 16,
+		Island = 32,
+		Solid = 64,
+		SilverWolf = 128,
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F82E0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F8310)
-#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F82D0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F8260)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE14560)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE144E0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE14590)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE14550)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_EndFreeCommunicationDelegate_TypeDefinitionIndex = 7638;
+	inline static constexpr unsigned int ConsoleDelegate_EndFreeCommunicationDelegate_TypeDefinitionIndex = 7692;
 
 	class ConsoleDelegate_EndFreeCommunicationDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ENDFREECOMMUNICATIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

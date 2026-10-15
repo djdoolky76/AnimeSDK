@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_CurveType.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_InputCurveInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_InputCurveMethod.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_InputCurveParameterization.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/HoudiniEngineUnity/HAPI_InputCurveInfo.h"
+namespace HoudiniEngineUnity { class HEU_InputCurveInfo; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_CREATEFROMHAPI_INPUTCURVEINFO_OFFSET UNITYSDK_OFFSET(0x11A4D5C0)
-#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETBREAKPOINTPARAMETERIZATIONNAMES_OFFSET UNITYSDK_OFFSET(0x11A4D730)
-#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETCURVETYPENAMES_OFFSET UNITYSDK_OFFSET(0x11A4D640)
-#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETINPUTMETHODNAMES_OFFSET UNITYSDK_OFFSET(0x11A4D6C0)
-#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4D630)
+#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_CREATEFROMHAPI_INPUTCURVEINFO_OFFSET UNITYSDK_OFFSET(0x1B90B6D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90B740)
+#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETBREAKPOINTPARAMETERIZATIONNAMES_OFFSET UNITYSDK_OFFSET(0x1B90B840)
+#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETCURVETYPENAMES_OFFSET UNITYSDK_OFFSET(0x1B90B750)
+#define HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETINPUTMETHODNAMES_OFFSET UNITYSDK_OFFSET(0x1B90B7D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputCurveInfo_TypeDefinitionIndex = 39081;
+	inline static constexpr unsigned int HEU_InputCurveInfo_TypeDefinitionIndex = 40378;
 
 	class HEU_InputCurveInfo : public ::System::Object
 	{
@@ -25,12 +25,12 @@ namespace HoudiniEngineUnity
 		::System::Int32 order; // 0x14
 		::System::Boolean closed; // 0x18
 		::System::Boolean reverse; // 0x19
+		::System::Byte _padding0[0x2];
 		::HoudiniEngineUnity::HAPI_InputCurveMethod inputMethod; // 0x1C
 		::HoudiniEngineUnity::HAPI_InputCurveParameterization breakpointParameterization; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_CTOR_OFFSET))(this);
 		}
 
 		static ::HoudiniEngineUnity::HEU_InputCurveInfo* CreateFromHAPI_InputCurveInfo(::HoudiniEngineUnity::HAPI_InputCurveInfo a1)
@@ -52,5 +52,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::Il2CppArray<::System::String*>*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTCURVEINFO_GETBREAKPOINTPARAMETERIZATIONNAMES_OFFSET))();
 		}
+
 	};
 }

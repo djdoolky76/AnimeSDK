@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetVirtualLineupBindPlane; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_METHOD_3_1311E7F9BF0F7124_OFFSET UNITYSDK_OFFSET(0x1E0957D0)
-#define RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_METHOD_3_D3D9D3509851AC60_OFFSET UNITYSDK_OFFSET(0x1E095820)
-#define RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E095810)
+#define RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9C5C0)
+#define RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9C5D0)
+#define RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9C580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetVirtualLineupBindPlane_TypeDefinitionIndex = 21365;
+	inline static constexpr unsigned int SetVirtualLineupBindPlane_TypeDefinitionIndex = 21611;
 
 	class SetVirtualLineupBindPlane : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1311E7F9BF0F7124(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetVirtualLineupBindPlane*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetVirtualLineupBindPlane* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetVirtualLineupBindPlane*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_METHOD_3_1311E7F9BF0F7124_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetVirtualLineupBindPlane*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D3D9D3509851AC60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetVirtualLineupBindPlane* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetVirtualLineupBindPlane* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetVirtualLineupBindPlane*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_METHOD_3_D3D9D3509851AC60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetVirtualLineupBindPlane*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIRTUALLINEUPBINDPLANE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareDamageTag; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_0D263E10A7185BB5_OFFSET UNITYSDK_OFFSET(0x1C314770)
-#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_5F493E1CDAD32048_OFFSET UNITYSDK_OFFSET(0x1C314930)
-#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_6CCD474B8CBD914F_OFFSET UNITYSDK_OFFSET(0x1C314900)
-#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_8212BBDDB969FF50_OFFSET UNITYSDK_OFFSET(0x1C314730)
-#define RPG_GAMECORE_BYCOMPAREDAMAGETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C314760)
+#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D479660)
+#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D479830)
+#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D479800)
+#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D479670)
+#define RPG_GAMECORE_BYCOMPAREDAMAGETAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D479630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareDamageTag_TypeDefinitionIndex = 23303;
+	inline static constexpr unsigned int ByCompareDamageTag_TypeDefinitionIndex = 23570;
 
 	class ByCompareDamageTag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::JsonEnum*>* DamageTagList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8212BBDDB969FF50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareDamageTag*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareDamageTag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareDamageTag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_8212BBDDB969FF50_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareDamageTag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0D263E10A7185BB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareDamageTag* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareDamageTag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareDamageTag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_0D263E10A7185BB5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareDamageTag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6CCD474B8CBD914F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareDamageTag*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareDamageTag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareDamageTag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_6CCD474B8CBD914F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareDamageTag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5F493E1CDAD32048(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareDamageTag* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareDamageTag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareDamageTag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_METHOD_4_5F493E1CDAD32048_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareDamageTag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREDAMAGETAG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

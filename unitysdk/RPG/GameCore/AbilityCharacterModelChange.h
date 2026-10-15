@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class AbilityCharacterModelChange; }
 
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x112101F0)
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x112101B0)
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x11210160)
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x11210240)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A47F0)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4A47A0)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4A4760)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE4A4710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityCharacterModelChange_TypeDefinitionIndex = 56752;
+	inline static constexpr unsigned int AbilityCharacterModelChange_TypeDefinitionIndex = 56572;
 
-	class AbilityCharacterModelChange : public ::Class_1_BF7A075734D15E98
+	class AbilityCharacterModelChange : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::UInt32 _EntityRuntimeID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AbilityCharacterModelChange* Init(::System::UInt32 a1)
@@ -36,5 +36,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

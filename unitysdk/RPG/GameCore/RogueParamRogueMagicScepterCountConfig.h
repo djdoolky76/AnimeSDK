@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueParamRogueMagicScepterCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_METHOD_6_85D106D6F71A4031_OFFSET UNITYSDK_OFFSET(0x1E545C90)
-#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_METHOD_6_D22A48E0413E8455_OFFSET UNITYSDK_OFFSET(0x1E545CE0)
-#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E545CD0)
+#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FD700)
+#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FD710)
+#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FD6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamRogueMagicScepterCountConfig_TypeDefinitionIndex = 19612;
+	inline static constexpr unsigned int RogueParamRogueMagicScepterCountConfig_TypeDefinitionIndex = 19842;
 
 	class RogueParamRogueMagicScepterCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_85D106D6F71A4031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_METHOD_6_85D106D6F71A4031_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_D22A48E0413E8455(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_METHOD_6_D22A48E0413E8455_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueMagicScepterCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICSCEPTERCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

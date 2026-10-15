@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ElfWaveOrder; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ELFWAVEORDER_METHOD_2_C509ACBDA49AD70C_OFFSET UNITYSDK_OFFSET(0x1D7B8160)
-#define RPG_GAMECORE_ELFWAVEORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B8250)
+#define RPG_GAMECORE_ELFWAVEORDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60C4B0)
+#define RPG_GAMECORE_ELFWAVEORDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60C3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfWaveOrder_TypeDefinitionIndex = 18282;
+	inline static constexpr unsigned int ElfWaveOrder_TypeDefinitionIndex = 18497;
 
 	class ElfWaveOrder : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RecipeList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFWAVEORDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFWAVEORDER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C509ACBDA49AD70C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfWaveOrder*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfWaveOrder* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfWaveOrder*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFWAVEORDER_METHOD_2_C509ACBDA49AD70C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfWaveOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFWAVEORDER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/DistanceRange.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 #include "unitysdk/UnityEngine/Rendering/SortingLayerRange.h"
-
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BFF950)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BFF8F0)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BFF9F0)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_DISTANCERANGE_OFFSET UNITYSDK_OFFSET(0x3BFF8E0)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_LAYERMASK_OFFSET UNITYSDK_OFFSET(0x12370)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_RENDERINGLAYERMASKEXCLUDE_OFFSET UNITYSDK_OFFSET(0x7845E0)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_RENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0x784470)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_SET_EXCLUDEMOTIONVECTOROBJECTS_OFFSET UNITYSDK_OFFSET(0x3BFF8D0)
-#define UNITYENGINE_RENDERING_FILTERINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3BFF810)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C782B0)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C783F0)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C78390)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C78490)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_DISTANCERANGE_OFFSET UNITYSDK_OFFSET(0x3C78380)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_LAYERMASK_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_RENDERINGLAYERMASKEXCLUDE_OFFSET UNITYSDK_OFFSET(0x3260)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_RENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0x21140)
+#define UNITYENGINE_RENDERING_FILTERINGSETTINGS_SET_EXCLUDEMOTIONVECTOROBJECTS_OFFSET UNITYSDK_OFFSET(0x3C78370)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FilteringSettings_TypeDefinitionIndex = 4752;
+	inline static constexpr unsigned int FilteringSettings_TypeDefinitionIndex = 4756;
 
 	struct alignas(4) FilteringSettings
 	{
@@ -31,13 +30,10 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::SortingLayerRange m_SortingLayerRange; // 0x28
 		::UnityEngine::Rendering::DistanceRange m_DistanceRange; // 0x2C
 		::System::Single m_MinScreenSize; // 0x34
-
-		/*
 		::System::Void _ctor(::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange>, ::System::Int32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange>, ::System::Int32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
-		*/
 
 		::System::Int32 get_layerMask()
 		{
@@ -64,10 +60,12 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::DistanceRange(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS_GET_DISTANCERANGE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::FilteringSettings a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::FilteringSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -78,5 +76,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

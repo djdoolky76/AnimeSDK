@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/GrantType.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class OverseaGrantMail; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -13,49 +13,30 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x18B1FBF0)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x18B21590)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_CLICTOTHERBUTTON_OFFSET UNITYSDK_OFFSET(0x18B21910)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x18B219B0)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x18ABC6F0)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18B21A20)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_QUESTION_OFFSET UNITYSDK_OFFSET(0x18B215B0)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x18B21740)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x18B21730)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x18B21490)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x18B21930)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_START_OFFSET UNITYSDK_OFFSET(0x18B21160)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_SUBMIT_OFFSET UNITYSDK_OFFSET(0x18B21770)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x18B20FD0)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x18B20A40)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x18B21A40)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD85D50)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x1BD87760)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_CLICTOTHERBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD87AE0)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD87B80)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD87C10)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD876F0)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD87BF0)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_QUESTION_OFFSET UNITYSDK_OFFSET(0x1BD87780)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BD87910)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD87900)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD875F0)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD87B00)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_START_OFFSET UNITYSDK_OFFSET(0x1BD872C0)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BD87940)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BD87130)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD86BA0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaGrantMail_TypeDefinitionIndex = 9472;
+	inline static constexpr unsigned int OverseaGrantMail_TypeDefinitionIndex = 9530;
 
 	class OverseaGrantMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::OverseaGrantMail** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::OverseaGrantMail**)Il2CppClass::FromTypeDefinitionIndex(OverseaGrantMail_TypeDefinitionIndex)->GetStaticField(0x30A10);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* DialogPath; // 0x0
-		// static const ::System::String* QuestionButtonPath; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* ContentTitlePath; // 0x0
-		// static const ::System::String* ContentTextPath; // 0x0
-		// static const ::System::String* VerifyCodeInputPath; // 0x0
-		// static const ::System::String* VerifyCodeInputTextPath; // 0x0
-		// static const ::System::String* VerifyCodeInputTipsPath; // 0x0
-		// static const ::System::String* RequestCodeButtonPath; // 0x0
-		// static const ::System::String* RequestCodeTextPath; // 0x0
-		// static const ::System::String* NextButtonPath; // 0x0
-		// static const ::System::String* NextButtonTextPath; // 0x0
-		// static const ::System::String* OtherButtonPath; // 0x0
-		// static const ::System::String* OtherButtonTextPath; // 0x0
 		::UnityEngine::GameObject* dialog; // 0x58
 		::UnityEngine::UI::Button* backButton; // 0x60
 		::UnityEngine::UI::Button* questionButton; // 0x68
@@ -73,13 +54,34 @@ namespace MiHoYo::SDK::Win
 		::System::Action_1<::System::String*>* OnSubmit; // 0xC8
 		::System::Action* OnOtherButton; // 0xD0
 		::System::Boolean isRequestVerifyCode; // 0xD8
+		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xDC
 		::System::Boolean retrieveFlag; // 0xE0
+		::System::Byte _padding1[0x7];
 		::MiHoYo::SDK::AccountModel* account; // 0xE8
+		static ::MiHoYo::SDK::Win::OverseaGrantMail** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::OverseaGrantMail**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaGrantMail")->GetStaticField(0x31910);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* DialogPath; // 0x0
+		// static const ::System::String* QuestionButtonPath; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* ContentTitlePath; // 0x0
+		// static const ::System::String* ContentTextPath; // 0x0
+		// static const ::System::String* VerifyCodeInputPath; // 0x0
+		// static const ::System::String* VerifyCodeInputTextPath; // 0x0
+		// static const ::System::String* VerifyCodeInputTipsPath; // 0x0
+		// static const ::System::String* RequestCodeButtonPath; // 0x0
+		// static const ::System::String* RequestCodeTextPath; // 0x0
+		// static const ::System::String* NextButtonPath; // 0x0
+		// static const ::System::String* NextButtonTextPath; // 0x0
+		// static const ::System::String* OtherButtonPath; // 0x0
+		// static const ::System::String* OtherButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAGRANTMAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -156,5 +158,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAGRANTMAIL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

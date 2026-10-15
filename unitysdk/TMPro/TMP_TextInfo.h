@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/TMPro/MaterialReference.h"
 #include "unitysdk/TMPro/TMP_CharacterInfo.h"
 #include "unitysdk/TMPro/TMP_LineInfo.h"
 #include "unitysdk/TMPro/TMP_LinkInfo.h"
@@ -9,38 +8,30 @@
 #include "unitysdk/TMPro/TMP_PageInfo.h"
 #include "unitysdk/TMPro/TMP_WordInfo.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+#include "unitysdk/TMPro/MaterialReference.h"
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_TEXTINFO_CLEARALLDATA_OFFSET UNITYSDK_OFFSET(0x13509690)
-#define TMPRO_TMP_TEXTINFO_CLEARALLMESHINFO_OFFSET UNITYSDK_OFFSET(0x135097A0)
-#define TMPRO_TMP_TEXTINFO_CLEARLINEINFO_OFFSET UNITYSDK_OFFSET(0x13509890)
-#define TMPRO_TMP_TEXTINFO_CLEARMESHINFO_OFFSET UNITYSDK_OFFSET(0x13509730)
-#define TMPRO_TMP_TEXTINFO_CLEARPAGEINFO_OFFSET UNITYSDK_OFFSET(0x13509A00)
-#define TMPRO_TMP_TEXTINFO_CLEARUNUSEDVERTICES_OFFSET UNITYSDK_OFFSET(0x13509800)
-#define TMPRO_TMP_TEXTINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x135095D0)
-#define TMPRO_TMP_TEXTINFO_COPYMESHINFOVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x13509AD0)
-#define TMPRO_TMP_TEXTINFO_RESETVERTEXLAYOUT_OFFSET UNITYSDK_OFFSET(0x134EFEB0)
-#define TMPRO_TMP_TEXTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x13509EF0)
-#define TMPRO_TMP_TEXTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13509410)
-#define TMPRO_TMP_TEXTINFO__CTOR_2_OFFSET UNITYSDK_OFFSET(0x135094A0)
-#define TMPRO_TMP_TEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13509380)
+#define TMPRO_TMP_TEXTINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F317BE0)
+#define TMPRO_TMP_TEXTINFO_CLEARALLDATA_OFFSET UNITYSDK_OFFSET(0x1F317380)
+#define TMPRO_TMP_TEXTINFO_CLEARALLMESHINFO_OFFSET UNITYSDK_OFFSET(0x1F317490)
+#define TMPRO_TMP_TEXTINFO_CLEARLINEINFO_OFFSET UNITYSDK_OFFSET(0x1F317580)
+#define TMPRO_TMP_TEXTINFO_CLEARMESHINFO_OFFSET UNITYSDK_OFFSET(0x1F317420)
+#define TMPRO_TMP_TEXTINFO_CLEARPAGEINFO_OFFSET UNITYSDK_OFFSET(0x1F3176F0)
+#define TMPRO_TMP_TEXTINFO_CLEARUNUSEDVERTICES_OFFSET UNITYSDK_OFFSET(0x1F3174F0)
+#define TMPRO_TMP_TEXTINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F3172C0)
+#define TMPRO_TMP_TEXTINFO_COPYMESHINFOVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1F3177C0)
+#define TMPRO_TMP_TEXTINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F317100)
+#define TMPRO_TMP_TEXTINFO_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F317190)
+#define TMPRO_TMP_TEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F317070)
+#define TMPRO_TMP_TEXTINFO_RESETVERTEXLAYOUT_OFFSET UNITYSDK_OFFSET(0x1F2FDBE0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextInfo_TypeDefinitionIndex = 43473;
+	inline static constexpr unsigned int TMP_TextInfo_TypeDefinitionIndex = 44665;
 
 	class TMP_TextInfo : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector2* StaticGet_k_InfinityVectorNegative()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_TextInfo_TypeDefinitionIndex)->GetStaticField(0x2700);
-		}
-		static ::UnityEngine::Vector2* StaticGet_k_InfinityVectorPositive()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_TextInfo_TypeDefinitionIndex)->GetStaticField(0x2708);
-		}
 		::TMPro::TMP_Text* textComponent; // 0x10
 		::System::Int32 characterCount; // 0x18
 		::System::Int32 spriteCount; // 0x1C
@@ -57,25 +48,34 @@ namespace TMPro
 		::Il2CppArray<::TMPro::TMP_PageInfo>* pageInfo; // 0x58
 		::Il2CppArray<::TMPro::TMP_MeshInfo>* meshInfo; // 0x60
 		::Il2CppArray<::TMPro::TMP_MeshInfo>* m_CachedMeshInfo; // 0x68
+		static ::UnityEngine::Vector2* StaticGet_k_InfinityVectorNegative()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_TextInfo")->GetStaticField(0x13990);
+		}
+
+		static ::UnityEngine::Vector2* StaticGet_k_InfinityVectorPositive()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_TextInfo")->GetStaticField(0x13998);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::TMPro::TMP_Text* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_Text*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_Text*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO_CCTOR_OFFSET))();
 		}
 
 		::System::Void Clear()
@@ -122,5 +122,6 @@ namespace TMPro
 		{
 			return ((::Il2CppArray<::TMPro::TMP_MeshInfo>*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTINFO_COPYMESHINFOVERTEXDATA_OFFSET))(this);
 		}
+
 	};
 }

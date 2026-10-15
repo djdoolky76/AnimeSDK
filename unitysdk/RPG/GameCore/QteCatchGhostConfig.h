@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class QteCatchGhostConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_QTECATCHGHOSTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D18C1A0)
-#define RPG_GAMECORE_QTECATCHGHOSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18C510)
+#define RPG_GAMECORE_QTECATCHGHOSTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D931120)
+#define RPG_GAMECORE_QTECATCHGHOSTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D930DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostConfig_TypeDefinitionIndex = 17377;
+	inline static constexpr unsigned int QteCatchGhostConfig_TypeDefinitionIndex = 17588;
 
 	class QteCatchGhostConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +25,15 @@ namespace RPG::GameCore
 		::System::String* PointEffect; // 0x30
 		::Il2CppArray<::System::UInt32>* QuestID; // 0x38
 		::System::Single Tolerance; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::QteCatchGhostConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::QteCatchGhostConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

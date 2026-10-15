@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
-#include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
+#include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16832150)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x16832140)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16831F00)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16832080)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16831DC0)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x168327F0)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_CTOR_OFFSET UNITYSDK_OFFSET(0xE48C410)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE48BD70)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0xE48BD60)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE48BB20)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE48BCA0)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE48B9E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UIPostProcessCmd_TypeDefinitionIndex = 52160;
+	inline static constexpr unsigned int UIPostProcessCmd_TypeDefinitionIndex = 51866;
 
 	class UIPostProcessCmd : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,13 +31,13 @@ namespace RPG::CustomRP
 		::System::Single frequency; // 0x40
 		::System::Single useGrayColor; // 0x44
 		::System::Single colorScale; // 0x48
+		::System::Byte _padding0[0x4];
 		::UnityEngine::RenderTexture* BOCOPMCBMOI; // 0x50
 		::UnityEngine::RenderTexture* GELKFADFLAJ; // 0x58
 		::UnityEngine::RenderTextureDescriptor FBFJGMKFDCC; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPOSTPROCESSCMD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPOSTPROCESSCMD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -61,9 +60,10 @@ namespace RPG::CustomRP
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPOSTPROCESSCMD_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPOSTPROCESSCMD_EXECUTE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPOSTPROCESSCMD_EXECUTE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class SkillSimpleExtraEffectData; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196CF920)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF960)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__GETSIMPLEEXTRAEFFECTDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0x196CF970)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__GETSIMPLEEXTRAEFFECTDATALIST_B__15_1_OFFSET UNITYSDK_OFFSET(0x196CFA50)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0DA600)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DA640)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__GETSIMPLEEXTRAEFFECTDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xE0DA650)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__GETSIMPLEEXTRAEFFECTDATALIST_B__15_1_OFFSET UNITYSDK_OFFSET(0xE0DA730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillDetailInfoDialogInitParam___c_TypeDefinitionIndex = 72058;
+	inline static constexpr unsigned int SkillDetailInfoDialogInitParam___c_TypeDefinitionIndex = 72131;
 
 	class SkillDetailInfoDialogInitParam___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F500);
+		}
+
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::SkillSimpleExtraEffectData*>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::SkillSimpleExtraEffectData*>**)Il2CppClass::FromTypeDefinitionIndex(SkillDetailInfoDialogInitParam___c_TypeDefinitionIndex)->GetStaticField(0x27F20);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::SkillSimpleExtraEffectData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F508);
 		}
-		static ::RPG::Client::SkillDetailInfoDialogInitParam___c** StaticGet___9()
-		{
-			return (::RPG::Client::SkillDetailInfoDialogInitParam___c**)Il2CppClass::FromTypeDefinitionIndex(SkillDetailInfoDialogInitParam___c_TypeDefinitionIndex)->GetStaticField(0x27F28);
-		}
+
 		static ::System::Func_2<::RPG::Client::SkillSimpleExtraEffectData*, ::System::Boolean>** StaticGet___9__15_1()
 		{
-			return (::System::Func_2<::RPG::Client::SkillSimpleExtraEffectData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SkillDetailInfoDialogInitParam___c_TypeDefinitionIndex)->GetStaticField(0x27F30);
+			return (::System::Func_2<::RPG::Client::SkillSimpleExtraEffectData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F510);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::SkillSimpleExtraEffectData* _GetSimpleExtraEffectDataList_b__15_0(::System::UInt32 a1)
@@ -49,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SkillSimpleExtraEffectData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM___C__GETSIMPLEEXTRAEFFECTDATALIST_B__15_1_OFFSET))(this, a1);
 		}
+
 	};
 }

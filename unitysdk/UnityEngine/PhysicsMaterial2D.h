@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
-
 namespace System { class String; }
+namespace UnityEngine { class PhysicsMaterial2D; }
 
-#define UNITYENGINE_PHYSICSMATERIAL2D_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1EFB2DA0)
-#define UNITYENGINE_PHYSICSMATERIAL2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB2D90)
+#define UNITYENGINE_PHYSICSMATERIAL2D_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F453460)
+#define UNITYENGINE_PHYSICSMATERIAL2D_CTOR_OFFSET UNITYSDK_OFFSET(0x1F453450)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PhysicsMaterial2D_TypeDefinitionIndex = 5813;
+	inline static constexpr unsigned int PhysicsMaterial2D_TypeDefinitionIndex = 5821;
 
 	class PhysicsMaterial2D : public ::UnityEngine::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PHYSICSMATERIAL2D__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PHYSICSMATERIAL2D_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Create_Internal(::UnityEngine::PhysicsMaterial2D* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::UnityEngine::PhysicsMaterial2D*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PHYSICSMATERIAL2D_CREATE_INTERNAL_OFFSET))(a1, a2);
 		}
+
 	};
 }

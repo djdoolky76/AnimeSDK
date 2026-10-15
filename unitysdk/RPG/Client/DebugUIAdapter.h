@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGUIADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x192DF630)
+#define RPG_CLIENT_DEBUGUIADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE4490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugUIAdapter_TypeDefinitionIndex = 72678;
+	inline static constexpr unsigned int DebugUIAdapter_TypeDefinitionIndex = 72758;
 
 	class DebugUIAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGUIADAPTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGUIADAPTER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

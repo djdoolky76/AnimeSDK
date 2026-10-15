@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/BeforeRenderHelper_OrderBlock.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define UNITYENGINE_BEFORERENDERHELPER_GETUPDATEORDER_OFFSET UNITYSDK_OFFSET(0x1E1E7F30)
-#define UNITYENGINE_BEFORERENDERHELPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E1E5230)
-#define UNITYENGINE_BEFORERENDERHELPER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E1E4440)
-#define UNITYENGINE_BEFORERENDERHELPER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E1E4820)
-#define UNITYENGINE_BEFORERENDERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1E8100)
+#define UNITYENGINE_BEFORERENDERHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A6140)
+#define UNITYENGINE_BEFORERENDERHELPER_GETUPDATEORDER_OFFSET UNITYSDK_OFFSET(0x1F3A5F70)
+#define UNITYENGINE_BEFORERENDERHELPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3A3270)
+#define UNITYENGINE_BEFORERENDERHELPER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3A2480)
+#define UNITYENGINE_BEFORERENDERHELPER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3A2860)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BeforeRenderHelper_TypeDefinitionIndex = 4096;
+	inline static constexpr unsigned int BeforeRenderHelper_TypeDefinitionIndex = 4097;
 
 	class BeforeRenderHelper : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>** StaticGet_s_OrderBlocks()
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_s_OrderBlocks()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>**)Il2CppClass::FromTypeDefinitionIndex(BeforeRenderHelper_TypeDefinitionIndex)->GetStaticField(0xD530);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("UnityEngine", "BeforeRenderHelper")->GetStaticField(0xE940);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_BEFORERENDERHELPER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_BEFORERENDERHELPER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 GetUpdateOrder(::UnityEngine::Events::UnityAction* a1)
@@ -48,5 +47,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_BEFORERENDERHELPER_INVOKE_OFFSET))();
 		}
+
 	};
 }

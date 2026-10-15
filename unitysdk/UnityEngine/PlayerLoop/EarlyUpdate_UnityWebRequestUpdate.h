@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UnityWebRequestUpdate_TypeDefinitionIndex = 4552;
+	inline static constexpr unsigned int EarlyUpdate_UnityWebRequestUpdate_TypeDefinitionIndex = 4556;
 
-	struct alignas(1) EarlyUpdate_UnityWebRequestUpdate
+	struct alignas(4) EarlyUpdate_UnityWebRequestUpdate
 	{
 	};
 }

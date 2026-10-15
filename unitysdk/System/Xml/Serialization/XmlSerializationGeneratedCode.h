@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONGENERATEDCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17C47930)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONGENERATEDCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE66A0)
 
 namespace System::Xml::Serialization
 {
@@ -13,7 +13,8 @@ namespace System::Xml::Serialization
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONGENERATEDCODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONGENERATEDCODE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,32 +3,32 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/MuseumItemSkillType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MuseumItemSkillConfigRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE7D820)
-#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7DA10)
+#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8990D0)
+#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D898EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumItemSkillConfigRow_TypeDefinitionIndex = 14123;
+	inline static constexpr unsigned int MuseumItemSkillConfigRow_TypeDefinitionIndex = 14230;
 
 	class MuseumItemSkillConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParameter; // 0x10
-		::RPG::GameCore::MuseumItemSkillType Type; // 0x18
-		::System::UInt32 ItemSkillID; // 0x1C
+		::System::UInt32 ItemSkillID; // 0x18
+		::RPG::GameCore::MuseumItemSkillType Type; // 0x1C
 		::RPG::Client::TextID SkillDesc; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuseumItemSkillConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MuseumItemSkillConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuseumItemSkillConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MuseumItemSkillConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

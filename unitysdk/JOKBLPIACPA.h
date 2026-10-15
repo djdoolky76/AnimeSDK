@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+#define JOKBLPIACPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB799B0)
+
+inline static constexpr unsigned int JOKBLPIACPA_TypeDefinitionIndex = 43406;
+
+	class JOKBLPIACPA : public ::System::Object
+	{
+	public:
+		::UnityEngine::Vector2 NIBGNGICDOO; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JOKBLPIACPA_CTOR_OFFSET))(this);
+		}
+
+	};

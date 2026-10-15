@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimView.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_47EE63CB5C4DC8FC_5;
+class EMJIDLCDFMI;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace System { class String; }
 namespace UnityEngine { class BoxCollider; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1AC3F910)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_METHOD_7_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x1AC3F990)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0x1AC3FBB0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3FC90)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD4293B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_HIJDHCFHELC_OFFSET UNITYSDK_OFFSET(0xD4290B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xD429030)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xD4292D0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimDynamicSurfaceView_TypeDefinitionIndex = 76701;
+	inline static constexpr unsigned int FiveDimDynamicSurfaceView_TypeDefinitionIndex = 77172;
 
 	class FiveDimDynamicSurfaceView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
@@ -24,16 +23,16 @@ namespace RPG::Client::LittleGame::FiveDim
 		::UnityEngine::Vector3 EIKLCFAGEKP; // 0x208
 		::UnityEngine::Vector3 EJLBICDOEPN; // 0x214
 		::System::Boolean PENFGOBENKH; // 0x220
+		::System::Byte _padding0[0x7];
 		::UnityEngine::BoxCollider* SurfaceCollider; // 0x228
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::Entitas::IContext* a1, ::Class_1_47EE63CB5C4DC8FC_5* a2, ::Entitas::IEntity* a3)
+		::System::Void Initialize(::Entitas::IContext* a1, ::EMJIDLCDFMI* a2, ::Entitas::IEntity* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Class_1_47EE63CB5C4DC8FC_5*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_INITIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::EMJIDLCDFMI*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_INITIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Release(::System::String* a1)
@@ -41,9 +40,10 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_RELEASE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_D7852DE078ACC1F1()
+		::System::Void HIJDHCFHELC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_METHOD_7_D7852DE078ACC1F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_HIJDHCFHELC_OFFSET))(this);
 		}
+
 	};
 }

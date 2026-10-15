@@ -4,49 +4,33 @@
 #include "unitysdk/RPG/Client/Prop/WormCompassItemType.h"
 #include "unitysdk/RPG/Client/Prop/WormCompassPuzzleStaticItemBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client::Prop { class WormCompassPuzzleItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_ENABLEROUTEEFFECT_OFFSET UNITYSDK_OFFSET(0x17B39E80)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_ENDPOINTFINISH_OFFSET UNITYSDK_OFFSET(0x17B3B180)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GETDIRECTIONLOCALEULER_OFFSET UNITYSDK_OFFSET(0x17B3F1E0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GETROUTEEFFECTLENGTH_OFFSET UNITYSDK_OFFSET(0x17B3F940)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GETROUTEEFFECT_OFFSET UNITYSDK_OFFSET(0x17B3AE30)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GET_CURRENTDIRECTIONOBJ_OFFSET UNITYSDK_OFFSET(0x17B3D5D0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x17B3F2D0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_HIDEBOARD_OFFSET UNITYSDK_OFFSET(0x17B3F340)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_ISDIRECTIONITEM_OFFSET UNITYSDK_OFFSET(0x17B32D50)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_PLAYROUTEEFFECT_OFFSET UNITYSDK_OFFSET(0x17B3B2C0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_REFRESHOBJECTSTATUS_OFFSET UNITYSDK_OFFSET(0x17B34C50)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_SELECT_OFFSET UNITYSDK_OFFSET(0x17B3F580)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_STARTPOINTSETCONNECTED_OFFSET UNITYSDK_OFFSET(0x17B3F760)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B3FC80)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17B3FB80)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDE4010)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDDE3F10)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_ENABLEROUTEEFFECT_OFFSET UNITYSDK_OFFSET(0xDDDE430)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_ENDPOINTFINISH_OFFSET UNITYSDK_OFFSET(0xDDDF730)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GETDIRECTIONLOCALEULER_OFFSET UNITYSDK_OFFSET(0xDDE3570)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GETROUTEEFFECTLENGTH_OFFSET UNITYSDK_OFFSET(0xDDE3CD0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GETROUTEEFFECT_OFFSET UNITYSDK_OFFSET(0xDDDF3E0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GET_CURRENTDIRECTIONOBJ_OFFSET UNITYSDK_OFFSET(0xDDE1B80)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0xDDE3660)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_HIDEBOARD_OFFSET UNITYSDK_OFFSET(0xDDE36D0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_ISDIRECTIONITEM_OFFSET UNITYSDK_OFFSET(0xDDD7440)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_PLAYROUTEEFFECT_OFFSET UNITYSDK_OFFSET(0xDDDF870)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_REFRESHOBJECTSTATUS_OFFSET UNITYSDK_OFFSET(0xDDD9340)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_SELECT_OFFSET UNITYSDK_OFFSET(0xDDE3910)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_STARTPOINTSETCONNECTED_OFFSET UNITYSDK_OFFSET(0xDDE3AF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleItem_TypeDefinitionIndex = 78461;
+	inline static constexpr unsigned int WormCompassPuzzleItem_TypeDefinitionIndex = 78932;
 
 	class WormCompassPuzzleItem : public ::RPG::Client::Prop::WormCompassPuzzleStaticItemBase
 	{
 	public:
-		static ::System::Int32* StaticGet_OJPANMGEDPM()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14F60);
-		}
-		static ::System::Int32* StaticGet_CNMBEGECAOP()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14F64);
-		}
-		static ::System::Int32* StaticGet_BABGGLPLPEO()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14F68);
-		}
-		static ::System::Int32* StaticGet_FJEOAOMEHBB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14F6C);
-		}
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DirectionList; // 0x48
 		::UnityEngine::GameObject* DownStartPoint; // 0x50
 		::UnityEngine::GameObject* UpStartPoint; // 0x58
@@ -57,20 +41,40 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::System::Single>* LineRouteEffectLength; // 0x80
 		::System::Collections::Generic::List_1<::System::Single>* RoundRouteEffectLength; // 0x88
 		::System::Single RouteSpeed; // 0x90
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* ArrowEffect; // 0x98
 		::UnityEngine::GameObject* StartPointEffect; // 0xA0
 		::UnityEngine::GameObject* EndPointEffect; // 0xA8
 		::RPG::Client::Prop::WormCompassItemType ItemType; // 0xB0
 		::RPG::Client::Prop::WormCompassDirection Direction; // 0xB4
+		static ::System::Int32* StaticGet_CNMBEGECAOP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleItem")->GetStaticField(0x12AE0);
+		}
+
+		static ::System::Int32* StaticGet_OJPANMGEDPM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleItem")->GetStaticField(0x12AE4);
+		}
+
+		static ::System::Int32* StaticGet_FJEOAOMEHBB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleItem")->GetStaticField(0x12AE8);
+		}
+
+		static ::System::Int32* StaticGet_BABGGLPLPEO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "WormCompassPuzzleItem")->GetStaticField(0x12AEC);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::GameObject* get_CurrentDirectionObj()
@@ -137,5 +141,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEITEM_GET_STARTPOINT_OFFSET))(this);
 		}
+
 	};
 }

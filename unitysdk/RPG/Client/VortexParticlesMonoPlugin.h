@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-#include "unitysdk/RPG/Client/VortexParticlesBehavior_ParticleAttributes.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class VortexParticlesBehavior; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_VORTEXPARTICLESMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C81F860)
+#define RPG_CLIENT_VORTEXPARTICLESMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE458B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VortexParticlesMonoPlugin_TypeDefinitionIndex = 70679;
+	inline static constexpr unsigned int VortexParticlesMonoPlugin_TypeDefinitionIndex = 70715;
 
-	class VortexParticlesMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VortexParticlesBehavior*>
+	class VortexParticlesMonoPlugin
 	{
 	public:
 		::UnityEngine::ComputeShader* spawnCS; // 0x30
@@ -30,9 +27,11 @@ namespace RPG::Client
 		::System::Int32 capacity; // 0x50
 		::System::Int32 randomSeed; // 0x54
 		::System::Boolean prewarm; // 0x58
+		::System::Byte _padding0[0x3];
 		::System::Single prewarmFrameRate; // 0x5C
 		::System::Boolean prewarmDataCached; // 0x60
-		::Il2CppArray<::RPG::Client::VortexParticlesBehavior_ParticleAttributes>* prewarmData; // 0x68
+		::System::Byte _padding1[0x7];
+		::Il2CppArray<::System::Object*>* prewarmData; // 0x68
 		::UnityEngine::Mesh* renderMesh; // 0x70
 		::UnityEngine::Material* renderMaterial; // 0x78
 		::System::Single drag; // 0x80
@@ -47,10 +46,10 @@ namespace RPG::Client
 		::UnityEngine::AnimationCurve* sizeOverLifeTime; // 0xD0
 		::UnityEngine::AnimationCurve* velocityOverLifeTime; // 0xD8
 		::UnityEngine::AnimationCurve* orbitSpeedOverLifeTime; // 0xE0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VORTEXPARTICLESMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VORTEXPARTICLESMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

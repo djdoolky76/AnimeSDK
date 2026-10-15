@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Dynamic { class ExpandoObject_ExpandoData; }
 namespace System::Dynamic { class ExpandoObject_ValueCollection; }
 
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19A2B7D0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19A2B9B0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19A2BA10)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19A2B9C0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19A2B7C0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15__CTOR_OFFSET UNITYSDK_OFFSET(0x19A2B760)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5FA70)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1ED5FAE0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ED5FCC0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ED5FD20)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1ED5FCD0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ED5FAD0)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoObject_ValueCollection__GetEnumerator_d__15_TypeDefinitionIndex = 3679;
+	inline static constexpr unsigned int ExpandoObject_ValueCollection__GetEnumerator_d__15_TypeDefinitionIndex = 3680;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15>
 	class ExpandoObject_ValueCollection__GetEnumerator_d__15 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::System::Dynamic::ExpandoObject_ValueCollection* __4__this; // 0x18
-		::System::Dynamic::ExpandoObject_ExpandoData* _data_5__1; // 0x20
-		::System::Int32 _i_5__2; // 0x28
-		::System::Int32 __1__state; // 0x2C
-
+		::System::Dynamic::ExpandoObject_ExpandoData* _data_5__1; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Dynamic::ExpandoObject_ValueCollection* __4__this; // 0x20
+		::System::Int32 __1__state; // 0x28
+		::System::Int32 _i_5__2; // 0x2C
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -54,5 +54,6 @@ namespace System::Dynamic
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_VALUECOLLECTION__GETENUMERATOR_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

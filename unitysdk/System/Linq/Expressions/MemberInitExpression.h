@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
-
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class MemberBinding; }
 namespace System::Linq::Expressions { class NewExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1DF4AE10)
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1DF4AE00)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1EE003A0)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EE00390)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3246;
+	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3247;
 
 	class MemberInitExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* _Bindings_k__BackingField; // 0x10
-		::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField; // 0x18
-
+		::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* _Bindings_k__BackingField; // 0x18
 		::System::Linq::Expressions::NewExpression* get_NewExpression()
 		{
 			return ((::System::Linq::Expressions::NewExpression*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET))(this);
@@ -28,5 +26,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET))(this);
 		}
+
 	};
 }

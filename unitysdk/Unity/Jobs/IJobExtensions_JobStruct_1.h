@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int IJobExtensions_JobStruct_1_TypeDefinitionIndex = 3955;
+	inline static constexpr unsigned int IJobExtensions_JobStruct_1_TypeDefinitionIndex = 3956;
 
 	template <typename T>
-	struct IJobExtensions_JobStruct_1
+	struct alignas(4) IJobExtensions_JobStruct_1
 	{
 		static ::System::IntPtr* StaticGet_jobReflectionData()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(IJobExtensions_JobStruct_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::IntPtr*)UnitySDK::FromName("Unity.Jobs", "JobStruct`1")->GetStaticField(0x0);
 		}
+
 	};
 }

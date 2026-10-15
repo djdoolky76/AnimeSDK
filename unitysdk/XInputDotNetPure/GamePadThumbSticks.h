@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/XInputDotNetPure/GamePadThumbSticks_StickValue.h"
 
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x7846F0)
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS__CTOR_OFFSET UNITYSDK_OFFSET(0x6B85C0)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1D40)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 39486;
+	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 40783;
 
 	struct alignas(4) GamePadThumbSticks
 	{
 		::XInputDotNetPure::GamePadThumbSticks_StickValue left; // 0x10
 		::XInputDotNetPure::GamePadThumbSticks_StickValue right; // 0x18
-
 		::System::Void _ctor(::XInputDotNetPure::GamePadThumbSticks_StickValue a1, ::XInputDotNetPure::GamePadThumbSticks_StickValue a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XInputDotNetPure::GamePadThumbSticks_StickValue, ::XInputDotNetPure::GamePadThumbSticks_StickValue))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XInputDotNetPure::GamePadThumbSticks_StickValue, ::XInputDotNetPure::GamePadThumbSticks_StickValue))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::XInputDotNetPure::GamePadThumbSticks_StickValue get_Left()
@@ -30,5 +28,6 @@ namespace XInputDotNetPure
 		{
 			return ((::XInputDotNetPure::GamePadThumbSticks_StickValue(*)(::PVOID))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_RIGHT_OFFSET))(this);
 		}
+
 	};
 }

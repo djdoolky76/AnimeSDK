@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class PSDelegate_StoreIsEmptyCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A790)
-#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A7C0)
-#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A780)
-#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7A710)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF533E0)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF53370)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53410)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF47A20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_CheckPsStoreIsEmptyDelegate_TypeDefinitionIndex = 7687;
+	inline static constexpr unsigned int PSDelegate_CheckPsStoreIsEmptyDelegate_TypeDefinitionIndex = 7731;
 
 	class PSDelegate_CheckPsStoreIsEmptyDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PSDelegate_StoreIsEmptyCallback* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CHECKPSSTOREISEMPTYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

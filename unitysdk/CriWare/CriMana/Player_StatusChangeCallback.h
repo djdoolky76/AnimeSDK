@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriMana/Player_Status.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4ACA0)
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DC4ACF0)
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DC47EA0)
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4AC30)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1671BFA0)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1671BF30)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1671BFF0)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x167191A0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_StatusChangeCallback_TypeDefinitionIndex = 38924;
+	inline static constexpr unsigned int Player_StatusChangeCallback_TypeDefinitionIndex = 40221;
 
 	class Player_StatusChangeCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CriWare::CriMana::Player_Status a1)
@@ -38,5 +37,6 @@ namespace CriWare::CriMana
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

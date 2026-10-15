@@ -1,43 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class DrinkMakerTag; }
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_DRINKMAKERTAG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A68A6C0)
-#define RPG_CLIENT_DRINKMAKERTAG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68A700)
-#define RPG_CLIENT_DRINKMAKERTAG___C__GETALLTAGNAMESBYTYPE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A68A710)
+#define RPG_CLIENT_DRINKMAKERTAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCF1710)
+#define RPG_CLIENT_DRINKMAKERTAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCF1750)
+#define RPG_CLIENT_DRINKMAKERTAG___C__GETALLTAGNAMESBYTYPE_B__0_0_OFFSET UNITYSDK_OFFSET(0xCCF1760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerTag___c_TypeDefinitionIndex = 63699;
+	inline static constexpr unsigned int DrinkMakerTag___c_TypeDefinitionIndex = 63637;
 
 	class DrinkMakerTag___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DrinkMakerTag___c** StaticGet___9()
-		{
-			return (::RPG::Client::DrinkMakerTag___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerTag___c_TypeDefinitionIndex)->GetStaticField(0x5EDF0);
-		}
 		static ::System::Comparison_1<::RPG::Client::DrinkMakerTag*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerTag___c_TypeDefinitionIndex)->GetStaticField(0x5EDF8);
+			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E110);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E118);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERTAG___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERTAG___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERTAG___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERTAG___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _GetAllTagNamesByType_b__0_0(::RPG::Client::DrinkMakerTag* a1, ::RPG::Client::DrinkMakerTag* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DrinkMakerTag*, ::RPG::Client::DrinkMakerTag*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERTAG___C__GETALLTAGNAMESBYTYPE_B__0_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

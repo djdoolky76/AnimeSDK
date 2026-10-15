@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EnterHipplenGame; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENTERHIPPLENGAME_METHOD_3_C42C1F351EB5B454_OFFSET UNITYSDK_OFFSET(0x1D7C2E50)
-#define RPG_GAMECORE_ENTERHIPPLENGAME_METHOD_3_CB7896F61CAD2D91_OFFSET UNITYSDK_OFFSET(0x1D7C2F20)
-#define RPG_GAMECORE_ENTERHIPPLENGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2F10)
+#define RPG_GAMECORE_ENTERHIPPLENGAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6172C0)
+#define RPG_GAMECORE_ENTERHIPPLENGAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6172D0)
+#define RPG_GAMECORE_ENTERHIPPLENGAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D617200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterHipplenGame_TypeDefinitionIndex = 21058;
+	inline static constexpr unsigned int EnterHipplenGame_TypeDefinitionIndex = 21304;
 
 	class EnterHipplenGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERHIPPLENGAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERHIPPLENGAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C42C1F351EB5B454(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterHipplenGame*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnterHipplenGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterHipplenGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERHIPPLENGAME_METHOD_3_C42C1F351EB5B454_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnterHipplenGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERHIPPLENGAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CB7896F61CAD2D91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterHipplenGame* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnterHipplenGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterHipplenGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERHIPPLENGAME_METHOD_3_CB7896F61CAD2D91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnterHipplenGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERHIPPLENGAME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LevelEntitySpawnConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelPropSpawnConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELPROPSPAWNCONFIG_METHOD_3_89CCEF482ABDBF19_OFFSET UNITYSDK_OFFSET(0x1C12FC10)
-#define RPG_GAMECORE_LEVELPROPSPAWNCONFIG_METHOD_3_DF52097FA33DEEA2_OFFSET UNITYSDK_OFFSET(0x1C113ED0)
-#define RPG_GAMECORE_LEVELPROPSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C113EC0)
+#define RPG_GAMECORE_LEVELPROPSPAWNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79D970)
+#define RPG_GAMECORE_LEVELPROPSPAWNCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D79D980)
+#define RPG_GAMECORE_LEVELPROPSPAWNCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D79D600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropSpawnConfig_TypeDefinitionIndex = 17062;
+	inline static constexpr unsigned int LevelPropSpawnConfig_TypeDefinitionIndex = 17257;
 
 	class LevelPropSpawnConfig : public ::RPG::GameCore::LevelEntitySpawnConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPSPAWNCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPSPAWNCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_89CCEF482ABDBF19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropSpawnConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPropSpawnConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropSpawnConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPSPAWNCONFIG_METHOD_3_89CCEF482ABDBF19_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPropSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPSPAWNCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DF52097FA33DEEA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropSpawnConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPropSpawnConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPSPAWNCONFIG_METHOD_3_DF52097FA33DEEA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPropSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPSPAWNCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

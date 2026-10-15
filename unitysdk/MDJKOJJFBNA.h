@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AdventureMoveOnNavMeshFaceToType.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class GameEntity; }
+
+#define MDJKOJJFBNA_CLEAR_OFFSET UNITYSDK_OFFSET(0xB8A5A50)
+#define MDJKOJJFBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A5AA0)
+
+inline static constexpr unsigned int MDJKOJJFBNA_TypeDefinitionIndex = 57064;
+
+	class MDJKOJJFBNA : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::GameEntity* FMBKMMFOPIL; // 0x10
+		::RPG::GameCore::GameEntity* OICNIIBMFLK; // 0x18
+		::System::Single JMPPNFDHDPJ; // 0x20
+		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType OGMHHHNEEGI; // 0x24
+		::System::Single GCJMFBKLGHI; // 0x28
+		::System::Single MLINDPFAGFJ; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDJKOJJFBNA_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDJKOJJFBNA_CLEAR_OFFSET))(this);
+		}
+
+	};

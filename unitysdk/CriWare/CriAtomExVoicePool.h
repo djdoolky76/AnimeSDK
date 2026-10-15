@@ -1,52 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomExVoicePool_ExPitchShifterConfig.h"
-#include "unitysdk/CriWare/CriAtomExVoicePool_ExTimeStretchConfig.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool_PitchShifterMode.h"
-#include "unitysdk/CriWare/CriAtomExVoicePool_UsedVoicesInfo.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool_VoicePoolId.h"
 #include "unitysdk/CriWare/CriDisposable.h"
+#include "unitysdk/CriWare/CriAtomExVoicePool_ExPitchShifterConfig.h"
+#include "unitysdk/CriWare/CriAtomExVoicePool_ExTimeStretchConfig.h"
+#include "unitysdk/CriWare/CriAtomExVoicePool_UsedVoicesInfo.h"
 
-#define CRIWARE_CRIATOMEXVOICEPOOL_ATTACHDSPPITCHSHIFTER_OFFSET UNITYSDK_OFFSET(0x1D376450)
-#define CRIWARE_CRIATOMEXVOICEPOOL_ATTACHDSPTIMESTRETCH_OFFSET UNITYSDK_OFFSET(0x1D376310)
-#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPPITCHSHIFTER_OFFSET UNITYSDK_OFFSET(0x1D376500)
-#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPTIMESTRETCH_OFFSET UNITYSDK_OFFSET(0x1D3763C0)
-#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_DETACHDSP_OFFSET UNITYSDK_OFFSET(0x1D376610)
-#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_FREE_OFFSET UNITYSDK_OFFSET(0x1D376160)
-#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_OFFSET UNITYSDK_OFFSET(0x1D376280)
-#define CRIWARE_CRIATOMEXVOICEPOOL_CRIWARE50F5A43B_OFFSET UNITYSDK_OFFSET(0x1D375F70)
-#define CRIWARE_CRIATOMEXVOICEPOOL_DETACHDSP_OFFSET UNITYSDK_OFFSET(0x1D376590)
-#define CRIWARE_CRIATOMEXVOICEPOOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D376050)
-#define CRIWARE_CRIATOMEXVOICEPOOL_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D376690)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_1_OFFSET UNITYSDK_OFFSET(0x1D3761E0)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_OFFSET UNITYSDK_OFFSET(0x1D375EE0)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1D376010)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GET_MAXCHANNELS_OFFSET UNITYSDK_OFFSET(0x1D376030)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GET_MAXSAMPLINGRATE_OFFSET UNITYSDK_OFFSET(0x1D376040)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1D376000)
-#define CRIWARE_CRIATOMEXVOICEPOOL_GET_NUMVOICES_OFFSET UNITYSDK_OFFSET(0x1D376020)
-#define CRIWARE_CRIATOMEXVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D374370)
+#define CRIWARE_CRIATOMEXVOICEPOOL_ATTACHDSPPITCHSHIFTER_OFFSET UNITYSDK_OFFSET(0x166F1B80)
+#define CRIWARE_CRIATOMEXVOICEPOOL_ATTACHDSPTIMESTRETCH_OFFSET UNITYSDK_OFFSET(0x166F1A40)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPPITCHSHIFTER_OFFSET UNITYSDK_OFFSET(0x166F1C30)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPTIMESTRETCH_OFFSET UNITYSDK_OFFSET(0x166F1AF0)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_DETACHDSP_OFFSET UNITYSDK_OFFSET(0x166F1D40)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_FREE_OFFSET UNITYSDK_OFFSET(0x166F1890)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_OFFSET UNITYSDK_OFFSET(0x166F19B0)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CRIWARE50F5A43B_OFFSET UNITYSDK_OFFSET(0x166F16A0)
+#define CRIWARE_CRIATOMEXVOICEPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x166EFAA0)
+#define CRIWARE_CRIATOMEXVOICEPOOL_DETACHDSP_OFFSET UNITYSDK_OFFSET(0x166F1CC0)
+#define CRIWARE_CRIATOMEXVOICEPOOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x166F1780)
+#define CRIWARE_CRIATOMEXVOICEPOOL_FINALIZE_OFFSET UNITYSDK_OFFSET(0x166F1DC0)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_1_OFFSET UNITYSDK_OFFSET(0x166F1910)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_OFFSET UNITYSDK_OFFSET(0x166F1610)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x166F1740)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GET_MAXCHANNELS_OFFSET UNITYSDK_OFFSET(0x166F1760)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GET_MAXSAMPLINGRATE_OFFSET UNITYSDK_OFFSET(0x166F1770)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x166F1730)
+#define CRIWARE_CRIATOMEXVOICEPOOL_GET_NUMVOICES_OFFSET UNITYSDK_OFFSET(0x166F1750)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExVoicePool_TypeDefinitionIndex = 38773;
+	inline static constexpr unsigned int CriAtomExVoicePool_TypeDefinitionIndex = 40070;
 
 	class CriAtomExVoicePool : public ::CriWare::CriDisposable
 	{
 	public:
-		// static const ::System::Int32 StandardMemoryAsrVoicePoolId = 0x0; // 0x0
-		// static const ::System::Int32 StandardStreamingAsrVoicePoolId = 0x1; // 0x0
-		// static const ::System::Int32 StandardMemoryNsrVoicePoolId = 0x2; // 0x0
-		// static const ::System::Int32 StandardStreamingNsrVoicePoolId = 0x3; // 0x0
-		::System::IntPtr _handle; // 0x20
-		::System::Int32 _maxChannels; // 0x28
-		::System::Int32 _maxSamplingRate; // 0x2C
-		::System::Int32 _numVoices; // 0x30
-		::System::UInt32 _identifier; // 0x34
-
+		::System::UInt32 _identifier; // 0x20
+		::System::Int32 _maxChannels; // 0x24
+		::System::IntPtr _handle; // 0x28
+		::System::Int32 _maxSamplingRate; // 0x30
+		::System::Int32 _numVoices; // 0x34
+		// static const ::System::Object StandardMemoryAsrVoicePoolId; // 0x0
+		// static const ::System::Object StandardStreamingAsrVoicePoolId; // 0x0
+		// static const ::System::Object StandardMemoryNsrVoicePoolId; // 0x0
+		// static const ::System::Object StandardStreamingNsrVoicePoolId; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CTOR_OFFSET))(this);
 		}
 
 		static ::CriWare::CriAtomExVoicePool_UsedVoicesInfo GetNumUsedVoices(::CriWare::CriAtomExVoicePool_VoicePoolId a1)
@@ -109,14 +108,14 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_FINALIZE_OFFSET))(this);
 		}
 
-		static ::System::Void CRIWARE50F5A43B(::System::Int32 a1, ::System::Int32& a2, ::System::Int32& a3)
+		static ::System::Void CRIWARE50F5A43B(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIWARE50F5A43B_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIWARE50F5A43B_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void criAtomExVoicePool_GetNumUsedVoices(::System::IntPtr a1, ::System::Int32& a2, ::System::Int32& a3)
+		static ::System::Void criAtomExVoicePool_GetNumUsedVoices(::System::IntPtr a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_GETNUMUSEDVOICES_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void criAtomExVoicePool_Free(::System::IntPtr a1)
@@ -124,19 +123,20 @@ namespace CriWare
 			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_FREE_OFFSET))(a1);
 		}
 
-		static ::System::Void criAtomExVoicePool_AttachDspTimeStretch(::System::IntPtr a1, ::CriWare::CriAtomExVoicePool_ExTimeStretchConfig& a2, ::System::IntPtr a3, ::System::Int32 a4)
+		static ::System::Void criAtomExVoicePool_AttachDspTimeStretch(::System::IntPtr a1, ::CriWare::CriAtomExVoicePool_ExTimeStretchConfig a2, ::System::IntPtr a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::CriWare::CriAtomExVoicePool_ExTimeStretchConfig&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPTIMESTRETCH_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::IntPtr, ::CriWare::CriAtomExVoicePool_ExTimeStretchConfig, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPTIMESTRETCH_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void criAtomExVoicePool_AttachDspPitchShifter(::System::IntPtr a1, ::CriWare::CriAtomExVoicePool_ExPitchShifterConfig& a2, ::System::IntPtr a3, ::System::Int32 a4)
+		static ::System::Void criAtomExVoicePool_AttachDspPitchShifter(::System::IntPtr a1, ::CriWare::CriAtomExVoicePool_ExPitchShifterConfig a2, ::System::IntPtr a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::CriWare::CriAtomExVoicePool_ExPitchShifterConfig&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPPITCHSHIFTER_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::IntPtr, ::CriWare::CriAtomExVoicePool_ExPitchShifterConfig, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_ATTACHDSPPITCHSHIFTER_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void criAtomExVoicePool_DetachDsp(::System::IntPtr a1)
 		{
 			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXVOICEPOOL_CRIATOMEXVOICEPOOL_DETACHDSP_OFFSET))(a1);
 		}
+
 	};
 }

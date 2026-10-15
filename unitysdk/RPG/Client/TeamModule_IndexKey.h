@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_01618AD0437C8486.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/ACINIALAFDE.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_TEAMMODULE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B1A960)
-#define RPG_CLIENT_TEAMMODULE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B1A9C0)
-#define RPG_CLIENT_TEAMMODULE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B1A950)
-#define RPG_CLIENT_TEAMMODULE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6B4C20)
+#define RPG_CLIENT_TEAMMODULE_INDEXKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
+#define RPG_CLIENT_TEAMMODULE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xF27E0)
+#define RPG_CLIENT_TEAMMODULE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF2840)
+#define RPG_CLIENT_TEAMMODULE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF27D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamModule_IndexKey_TypeDefinitionIndex = 68124;
+	inline static constexpr unsigned int TeamModule_IndexKey_TypeDefinitionIndex = 68131;
 
 	struct alignas(4) TeamModule_IndexKey
 	{
-		::Enum_3_01618AD0437C8486 AvatarType; // 0x10
+		::ACINIALAFDE AvatarType; // 0x10
 		::System::UInt32 ID; // 0x14
-
-		::System::Void _ctor(::Enum_3_01618AD0437C8486 a1, ::System::UInt32 a2)
+		::System::Void _ctor(::ACINIALAFDE a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_01618AD0437C8486, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE_INDEXKEY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::ACINIALAFDE, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE_INDEXKEY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()
@@ -29,14 +26,17 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::RPG::Client::TeamModule_IndexKey a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TeamModule_IndexKey))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE_INDEXKEY_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

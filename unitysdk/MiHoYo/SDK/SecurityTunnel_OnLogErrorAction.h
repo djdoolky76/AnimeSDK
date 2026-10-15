@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33B10)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33B40)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD33790)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD33AA0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB04ADA0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB04AD30)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB04ADD0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB04ABA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_OnLogErrorAction_TypeDefinitionIndex = 46864;
+	inline static constexpr unsigned int SecurityTunnel_OnLogErrorAction_TypeDefinitionIndex = 46404;
 
 	class SecurityTunnel_OnLogErrorAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGERRORACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

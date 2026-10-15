@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C8A8FF0)
-#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C8A9060)
-#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C8A90C0)
-#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C8A9070)
-#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C8A8FE0)
-#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A8600)
+#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC14B20)
+#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EC15580)
+#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC155F0)
+#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC15650)
+#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EC15600)
+#define RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC15570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils___InvokeCoroutineUntil_d__25_TypeDefinitionIndex = 34570;
+	inline static constexpr unsigned int CoroutineUtils___InvokeCoroutineUntil_d__25_TypeDefinitionIndex = 35234;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25>
 	class CoroutineUtils___InvokeCoroutineUntil_d__25 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
+		::System::Func_1<::System::Boolean>* condition; // 0x10
 		::System::Action* callBack; // 0x18
-		::System::Func_1<::System::Boolean>* condition; // 0x20
+		::System::Object* __2__current; // 0x20
 		::System::Int32 __1__state; // 0x28
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -53,5 +53,6 @@ namespace RPG::Client
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS___INVOKECOROUTINEUNTIL_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,14 +3,13 @@
 #include "unitysdk/Mono/Security/Interface/AlertDescription.h"
 #include "unitysdk/Mono/Security/Interface/AlertLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MONO_SECURITY_INTERFACE_ALERT_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1D242E90)
-#define MONO_SECURITY_INTERFACE_ALERT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1D242E80)
-#define MONO_SECURITY_INTERFACE_ALERT_INFERALERTLEVEL_OFFSET UNITYSDK_OFFSET(0x1D242EE0)
-#define MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D242F20)
-#define MONO_SECURITY_INTERFACE_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D242EA0)
+#define MONO_SECURITY_INTERFACE_ALERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C004E50)
+#define MONO_SECURITY_INTERFACE_ALERT_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C004E40)
+#define MONO_SECURITY_INTERFACE_ALERT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1C004E30)
+#define MONO_SECURITY_INTERFACE_ALERT_INFERALERTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C004E90)
+#define MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C004ED0)
 
 namespace Mono::Security::Interface
 {
@@ -19,12 +18,11 @@ namespace Mono::Security::Interface
 	class Alert : public ::System::Object
 	{
 	public:
-		::Mono::Security::Interface::AlertLevel level; // 0x10
-		::Mono::Security::Interface::AlertDescription description; // 0x11
-
+		::Mono::Security::Interface::AlertDescription description; // 0x10
+		::Mono::Security::Interface::AlertLevel level; // 0x11
 		::System::Void _ctor(::Mono::Security::Interface::AlertDescription a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_ALERT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_ALERT_CTOR_OFFSET))(this, a1);
 		}
 
 		::Mono::Security::Interface::AlertLevel get_Level()
@@ -46,5 +44,6 @@ namespace Mono::Security::Interface
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

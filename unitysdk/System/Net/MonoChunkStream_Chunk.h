@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_READ_OFFSET UNITYSDK_OFFSET(0x1B046A00)
-#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B047950)
+#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F03E010)
+#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_READ_OFFSET UNITYSDK_OFFSET(0x1F03D0C0)
 
 namespace System::Net
 {
@@ -14,15 +14,15 @@ namespace System::Net
 	public:
 		::Il2CppArray<::System::Byte>* Bytes; // 0x10
 		::System::Int32 Offset; // 0x18
-
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_CHUNK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Read(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_READ_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

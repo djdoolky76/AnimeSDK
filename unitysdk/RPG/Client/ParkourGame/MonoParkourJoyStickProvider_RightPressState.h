@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourJoyStickProvider; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0x1C4DCF10)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0x1C4DD0D0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0x1C4DD080)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DCB70)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6C9E0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xDA6CD80)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xDA6CF40)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0xDA6CEF0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourJoyStickProvider_RightPressState_TypeDefinitionIndex = 74048;
+	inline static constexpr unsigned int MonoParkourJoyStickProvider_RightPressState_TypeDefinitionIndex = 74147;
 
 	class MonoParkourJoyStickProvider_RightPressState : public ::System::Object
 	{
 	public:
-		// static const ::System::Single _RightUIAngle; // 0x0
 		::RPG::Client::ParkourGame::MonoParkourJoyStickProvider* _Owner; // 0x10
-
+		// static const ::System::Object _RightUIAngle; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Enter(::RPG::Client::ParkourGame::MonoParkourJoyStickProvider* a1)
@@ -38,5 +36,6 @@ namespace RPG::Client::ParkourGame
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_RIGHTPRESSSTATE_EXIT_OFFSET))(this);
 		}
+
 	};
 }

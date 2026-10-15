@@ -1,68 +1,72 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_ThriftSharedMemoryBufferType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_DEFINES__CCTOR_OFFSET UNITYSDK_OFFSET(0x167D9B10)
-#define HOUDINIENGINEUNITY_HEU_DEFINES__CTOR_OFFSET UNITYSDK_OFFSET(0x167D9B00)
+#define HOUDINIENGINEUNITY_HEU_DEFINES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0F40)
+#define HOUDINIENGINEUNITY_HEU_DEFINES_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0F30)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 39136;
+	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 40433;
 
 	class HEU_Defines : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_HEU_ENGINE_ASSETS()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x48FB0);
-		}
-		static ::System::String** StaticGet_HEU_TEXTURES_PATH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x48FB8);
-		}
-		static ::System::String** StaticGet_HEU_BAKED_ASSETS_PATH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x48FC0);
-		}
 		static ::System::String** StaticGet_HEU_PLUGIN_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x48FC8);
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF70);
 		}
+
+		static ::System::String** StaticGet_HEU_TEXTURES_PATH()
+		{
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF78);
+		}
+
+		static ::System::String** StaticGet_HEU_BAKED_ASSETS_PATH()
+		{
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF80);
+		}
+
+		static ::System::String** StaticGet_HEU_ENGINE_ASSETS()
+		{
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF88);
+		}
+
 		static ::System::Int32* StaticGet_EDITABLE_MATERIAL_KEY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x10C80);
+			return (::System::Int32*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x13DA0);
 		}
+
 		static ::System::Int32* StaticGet_DEFAULT_MATERIAL_KEY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x10C84);
+			return (::System::Int32*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x13DA4);
 		}
+
 		// static const ::System::String* HEU_PRODUCT_NAME; // 0x0
 		// static const ::System::String* HEU_NAME; // 0x0
 		// static const ::System::String* HAPI_PATH; // 0x0
 		// static const ::System::String* HEU_ENVPATH_PREFIX; // 0x0
 		// static const ::System::String* HEU_ENVPATH_KEY; // 0x0
-		// static const ::System::Int32 HEU_INVALID_NODE_ID = 0xFFFFFFFF; // 0x0
+		// static const ::System::Object HEU_INVALID_NODE_ID; // 0x0
 		// static const ::System::String* HEU_DEFAULT_ASSET_NAME; // 0x0
 		// static const ::System::String* HEU_SESSION_PIPENAME; // 0x0
 		// static const ::System::String* HEU_SESSION_LOCALHOST; // 0x0
-		// static const ::System::Int32 HEU_SESSION_PORT = 0x2382; // 0x0
+		// static const ::System::Object HEU_SESSION_PORT; // 0x0
 		// static const ::System::String* HEU_SESSION_SHARED_MEMORY_NAME; // 0x0
-		// static const ::System::Int32 HEU_SESSION_SHARED_MEMORY_BUFFER_SIZE = 0x64; // 0x0
-		// static const ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType HEU_SESSION_SHARED_MEMORY_BUFFER_TYPE; // 0x0
-		// static const ::System::Single HEU_SESSION_TIMEOUT; // 0x0
-		// static const ::System::Boolean HEU_SESSION_AUTOCLOSE; // 0x0
-		// static const ::System::Int32 HAPI_MAX_PAGE_SIZE = 0x4E20; // 0x0
-		// static const ::System::Int32 HAPI_SEC_BEFORE_PROGRESS_BAR_SHOW = 0x3; // 0x0
-		// static const ::System::Int32 HAPI_MAX_VERTICES_PER_FACE = 0x3; // 0x0
-		// static const ::System::Boolean HAPI_CURVE_REFINE_TO_LINEAR; // 0x0
-		// static const ::System::Single HAPI_CURVE_LOD; // 0x0
-		// static const ::System::Single HAPI_VOLUME_POSITION_MULT; // 0x0
-		// static const ::System::Single HAPI_VOLUME_SURFACE_MAX_PT_PER_C; // 0x0
-		// static const ::System::Single HAPI_VOLUME_SURFACE_DELTA_MULT; // 0x0
-		// static const ::System::Single HAPI_VOLUME_SURFACE_PT_SIZE_MULT; // 0x0
+		// static const ::System::Object HEU_SESSION_SHARED_MEMORY_BUFFER_SIZE; // 0x0
+		// static const ::System::Object HEU_SESSION_SHARED_MEMORY_BUFFER_TYPE; // 0x0
+		// static const ::System::Object HEU_SESSION_TIMEOUT; // 0x0
+		// static const ::System::Object HEU_SESSION_AUTOCLOSE; // 0x0
+		// static const ::System::Object HAPI_MAX_PAGE_SIZE; // 0x0
+		// static const ::System::Object HAPI_SEC_BEFORE_PROGRESS_BAR_SHOW; // 0x0
+		// static const ::System::Object HAPI_MAX_VERTICES_PER_FACE; // 0x0
+		// static const ::System::Object HAPI_CURVE_REFINE_TO_LINEAR; // 0x0
+		// static const ::System::Object HAPI_CURVE_LOD; // 0x0
+		// static const ::System::Object HAPI_VOLUME_POSITION_MULT; // 0x0
+		// static const ::System::Object HAPI_VOLUME_SURFACE_MAX_PT_PER_C; // 0x0
+		// static const ::System::Object HAPI_VOLUME_SURFACE_DELTA_MULT; // 0x0
+		// static const ::System::Object HAPI_VOLUME_SURFACE_PT_SIZE_MULT; // 0x0
 		// static const ::System::String* DEFAULT_TOP_NODE_FILTER; // 0x0
 		// static const ::System::String* DEFAULT_TOP_OUTPUT_FILTER; // 0x0
 		// static const ::System::String* HAPI_ATTRIB_ORIENT; // 0x0
@@ -70,7 +74,7 @@ namespace HoudiniEngineUnity
 		// static const ::System::String* HAPI_ATTRIB_SCALE; // 0x0
 		// static const ::System::String* HAPI_ATTRIB_ALPHA; // 0x0
 		// static const ::System::String* HAPI_HANDLE_TRANSFORM; // 0x0
-		// static const ::System::Int32 HAPI_MAX_UVS = 0x8; // 0x0
+		// static const ::System::Object HAPI_MAX_UVS; // 0x0
 		// static const ::System::String* HAPI_OBJMERGE_TRANSFORM_PARAM; // 0x0
 		// static const ::System::String* HAPI_OBJMERGE_PACK_GEOMETRY; // 0x0
 		// static const ::System::String* HAPI_OBJPATH_1_PARAM; // 0x0
@@ -244,7 +248,7 @@ namespace HoudiniEngineUnity
 		// static const ::System::String* DEFAULT_TERRAIN_MATERIAL_PATH_URP; // 0x0
 		// static const ::System::String* DEFAULT_MATERIAL; // 0x0
 		// static const ::System::String* EDITABLE_MATERIAL; // 0x0
-		// static const ::System::Int32 HEU_INVALID_MATERIAL = 0xFFFFFFFF; // 0x0
+		// static const ::System::Object HEU_INVALID_MATERIAL; // 0x0
 		// static const ::System::String* HEU_ASSET_CACHE_PATH; // 0x0
 		// static const ::System::String* HEU_WORKING_PATH; // 0x0
 		// static const ::System::String* HEU_BAKED_PATH; // 0x0
@@ -275,15 +279,15 @@ namespace HoudiniEngineUnity
 		// static const ::System::String* HEU_EXT_TERRAINDATA; // 0x0
 		// static const ::System::String* HEU_EXT_TERRAINLAYER; // 0x0
 		// static const ::System::String* HEU_KEY_CTRL; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DEFINES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DEFINES_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DEFINES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DEFINES_CCTOR_OFFSET))();
 		}
+
 	};
 }

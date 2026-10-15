@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D160CB0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D160CE0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D15A760)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D160BC0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1673BD00)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1673BC10)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1673BD30)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16735780)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_TouchUpHandler_TypeDefinitionIndex = 38996;
+	inline static constexpr unsigned int EasyTouch_TouchUpHandler_TypeDefinitionIndex = 40293;
 
 	class EasyTouch_TouchUpHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +37,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHUPHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

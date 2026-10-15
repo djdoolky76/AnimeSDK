@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_DebugCsvLogRow_TypeDefinitionIndex = 56247;
+	inline static constexpr unsigned int EvolveBuildGearManager_DebugCsvLogRow_TypeDefinitionIndex = 56060;
 
 	struct alignas(4) EvolveBuildGearManager_DebugCsvLogRow
 	{

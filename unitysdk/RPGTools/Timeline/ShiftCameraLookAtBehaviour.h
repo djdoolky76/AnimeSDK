@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPG::GameCore { class AnchorInfo; }
 namespace RPGTools::Timeline { class ShiftCameraLookAtClip; }
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B0C07C0)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B0C07E0)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B0C0AC0)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B0C07D0)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C0DC0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE92D630)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE92CFE0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE92D000)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE92D2E0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE92CFF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShiftCameraLookAtBehaviour_TypeDefinitionIndex = 48282;
+	inline static constexpr unsigned int ShiftCameraLookAtBehaviour_TypeDefinitionIndex = 47823;
 
 	class ShiftCameraLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -28,10 +27,9 @@ namespace RPGTools::Timeline
 		::RPG::GameCore::AnchorInfo* _StartAnchorInfo; // 0x20
 		::RPG::GameCore::AnchorInfo* _EndAnchorInfo; // 0x28
 		::UnityEngine::AnimationCurve* _Curve; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::ShiftCameraLookAtClip* get_Clip()
@@ -53,5 +51,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

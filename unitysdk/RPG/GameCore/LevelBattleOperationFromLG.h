@@ -4,23 +4,22 @@
 #include "unitysdk/RPG/GameCore/LevelGraphOperationType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x184519B0)
-#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18451960)
-#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG__CTOR_OFFSET UNITYSDK_OFFSET(0x18451950)
+#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D7160)
+#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D71C0)
+#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D7170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBattleOperationFromLG_TypeDefinitionIndex = 56925;
+	inline static constexpr unsigned int LevelBattleOperationFromLG_TypeDefinitionIndex = 56746;
 
 	class LevelBattleOperationFromLG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LevelGraphOperationType OperationType; // 0x10
-		::System::UInt32 Param; // 0x14
-
+		::System::UInt32 Param; // 0x10
+		::RPG::GameCore::LevelGraphOperationType OperationType; // 0x14
 		::System::Void _ctor(::RPG::GameCore::LevelGraphOperationType a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelGraphOperationType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelGraphOperationType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -32,5 +31,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RenderTestCameraConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_METHOD_2_3E00AFC07B0A1281_OFFSET UNITYSDK_OFFSET(0x1DB8F710)
-#define RPG_GAMECORE_RENDERTESTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8FC00)
+#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D959F50)
+#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D959A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RenderTestCameraConfig_TypeDefinitionIndex = 24121;
+	inline static constexpr unsigned int RenderTestCameraConfig_TypeDefinitionIndex = 24400;
 
 	class RenderTestCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,15 +29,15 @@ namespace RPG::GameCore
 		::System::Single BodyFOV; // 0x40
 		::System::Single ChestFOV; // 0x44
 		::System::Single FaceFOV; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTCAMERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTCAMERACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3E00AFC07B0A1281(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RenderTestCameraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RenderTestCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RenderTestCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTCAMERACONFIG_METHOD_2_3E00AFC07B0A1281_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RenderTestCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTCAMERACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

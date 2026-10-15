@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C6B0)
-#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C6E0)
-#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7C6A0)
-#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7C630)
+#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF552E0)
+#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF55260)
+#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF55310)
+#define MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF552D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_UnregisterNPStateCallbackDelegate_TypeDefinitionIndex = 7723;
+	inline static constexpr unsigned int PSDelegate_UnregisterNPStateCallbackDelegate_TypeDefinitionIndex = 7767;
 
 	class PSDelegate_UnregisterNPStateCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_UNREGISTERNPSTATECALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD21430)
-#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD21460)
-#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD1C650)
-#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD213C0)
+#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F298950)
+#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2988E0)
+#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F298980)
+#define UNITYENGINE_RENDERING_PERFORMDYNAMICRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F293BE0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PerformDynamicRes_TypeDefinitionIndex = 34812;
+	inline static constexpr unsigned int PerformDynamicRes_TypeDefinitionIndex = 35481;
 
 	class PerformDynamicRes : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PERFORMDYNAMICRES__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PERFORMDYNAMICRES_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Invoke()
@@ -37,5 +36,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PERFORMDYNAMICRES_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

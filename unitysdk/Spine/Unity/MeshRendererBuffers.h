@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/SubmeshInstruction.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Spine/Unity/SubmeshInstruction.h"
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace Spine::Unity { class MeshRendererBuffers_SmartMesh; }
 namespace Spine::Unity { template <typename T> class DoubleBuffered_1; }
+namespace System { class Object; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_MESHRENDERERBUFFERS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1831D230)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1831D290)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_GETNEXTMESH_OFFSET UNITYSDK_OFFSET(0x1831D200)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_GETUPDATEDSHAREDMATERIALSARRAY_OFFSET UNITYSDK_OFFSET(0x1831CF10)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1831CCF0)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_MATERIALSCHANGEDINLASTUPDATE_OFFSET UNITYSDK_OFFSET(0x1831D000)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_UPDATESHAREDMATERIALS_OFFSET UNITYSDK_OFFSET(0x1831D090)
-#define SPINE_UNITY_MESHRENDERERBUFFERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1831D390)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ECE2330)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE2480)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ECE2390)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_GETNEXTMESH_OFFSET UNITYSDK_OFFSET(0x1ECE2300)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_GETUPDATEDSHAREDMATERIALSARRAY_OFFSET UNITYSDK_OFFSET(0x1ECE2010)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECE1DF0)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_MATERIALSCHANGEDINLASTUPDATE_OFFSET UNITYSDK_OFFSET(0x1ECE2100)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_UPDATESHAREDMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ECE2190)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshRendererBuffers_TypeDefinitionIndex = 43891;
+	inline static constexpr unsigned int MeshRendererBuffers_TypeDefinitionIndex = 45083;
 
 	class MeshRendererBuffers : public ::System::Object
 	{
 	public:
-		::Spine::Unity::DoubleBuffered_1<::Spine::Unity::MeshRendererBuffers_SmartMesh*>* doubleBufferedMesh; // 0x10
+		::Spine::Unity::DoubleBuffered_1<::System::Object*>* doubleBufferedMesh; // 0x10
 		::Il2CppArray<::UnityEngine::Material*>* sharedMaterials; // 0x18
 		::Spine::ExposedList_1<::UnityEngine::Material*>* submeshMaterials; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHRENDERERBUFFERS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHRENDERERBUFFERS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Initialize()
@@ -67,5 +66,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHRENDERERBUFFERS_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

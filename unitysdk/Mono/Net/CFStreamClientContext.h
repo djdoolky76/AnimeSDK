@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Mono::Net
 {
 	inline static constexpr unsigned int CFStreamClientContext_TypeDefinitionIndex = 2409;
 
-	struct alignas(8) CFStreamClientContext
+	struct alignas(4) CFStreamClientContext
 	{
 		::System::IntPtr Version; // 0x10
 		::System::IntPtr Info; // 0x18

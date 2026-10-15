@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightHandBookEquipItemType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONEQUIPOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD64340)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONEQUIPOPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD14C510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationEquipOption_TypeDefinitionIndex = 64703;
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationEquipOption_TypeDefinitionIndex = 64643;
 
 	class GridFightGameFormationEditor_GridFightGameFormationEquipOption : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightEquipItemConfig* EquipConfig; // 0x10
 		::RPG::Client::GridFightHandBookEquipItemType ItemType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONEQUIPOPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONEQUIPOPTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

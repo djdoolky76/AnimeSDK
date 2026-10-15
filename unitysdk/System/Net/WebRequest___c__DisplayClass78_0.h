@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::IO { class Stream; }
 namespace System::Net { class WebRequest; }
 namespace System::Security::Principal { class WindowsIdentity; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B98BF10)
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1B98D350)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F075590)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1F076990)
 
 namespace System::Net
 {
@@ -19,15 +18,15 @@ namespace System::Net
 	public:
 		::System::Security::Principal::WindowsIdentity* currentUser; // 0x10
 		::System::Net::WebRequest* __4__this; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Threading::Tasks::Task_1<::System::IO::Stream*>* _GetRequestStreamAsync_b__1()
 		{
 			return ((::System::Threading::Tasks::Task_1<::System::IO::Stream*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET))(this);
 		}
+
 	};
 }

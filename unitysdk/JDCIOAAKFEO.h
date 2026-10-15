@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class CaptureEntity; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define JDCIOAAKFEO_CTOR_OFFSET UNITYSDK_OFFSET(0x165AFE20)
+#define JDCIOAAKFEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165AFE50)
+
+inline static constexpr unsigned int JDCIOAAKFEO_TypeDefinitionIndex = 52634;
+
+	class JDCIOAAKFEO
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CaptureEntity* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CaptureEntity*))((::PBYTE)hIl2Cpp + JDCIOAAKFEO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDCIOAAKFEO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

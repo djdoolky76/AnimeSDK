@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/RoadRash/EAIBehindBehavior.h"
 #include "unitysdk/RPG/Client/LittleGame/RoadRash/EAICarState.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int AICarRuntimeState_TypeDefinitionIndex = 41288;
+	inline static constexpr unsigned int AICarRuntimeState_TypeDefinitionIndex = 42900;
 
 	struct alignas(4) AICarRuntimeState
 	{
@@ -19,13 +18,17 @@ namespace RPG::Client::LittleGame::RoadRash
 		::System::Boolean WasAheadLastFrame; // 0x28
 		::System::Boolean TutorialSpeedOverrideActive; // 0x29
 		::System::Boolean MatchSpeedOverrideActive; // 0x2A
+		::System::Byte _padding0[0x1];
 		::System::Single OvertakenConfirmTimer; // 0x2C
 		::System::Boolean LaneOffsetHoldActive; // 0x30
 		::System::Boolean HighSpeedChaseActive; // 0x31
+		::System::Byte _padding1[0x2];
 		::System::Single SmoothedTargetSpeed; // 0x34
 		::System::Boolean DesiredRoadOffsetOverrideActive; // 0x38
+		::System::Byte _padding2[0x3];
 		::System::Single DesiredRoadOffsetOverride; // 0x3C
 		::System::Boolean DesiredDistanceOverrideActive; // 0x40
+		::System::Byte _padding3[0x3];
 		::System::Single DesiredSignedDistanceOverride; // 0x44
 		::System::Single DesiredDistanceOverridePlayerAdvance; // 0x48
 	};

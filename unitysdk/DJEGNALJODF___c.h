@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T> class Func_1; }
+
+#define DJEGNALJODF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF22AEA0)
+#define DJEGNALJODF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF22AEE0)
+#define DJEGNALJODF___C___CREATEBIGDATARECOMMEND_B__4_0_OFFSET UNITYSDK_OFFSET(0xF22AF90)
+#define DJEGNALJODF___C___CREATESYSTEMRECOMMEND_B__3_0_OFFSET UNITYSDK_OFFSET(0xF22AEF0)
+
+inline static constexpr unsigned int DJEGNALJODF___c_TypeDefinitionIndex = 65584;
+
+	class DJEGNALJODF___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x531C0);
+		}
+
+		static ::System::Func_1<::System::String*>** StaticGet___9__3_0()
+		{
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x531C8);
+		}
+
+		static ::System::Func_1<::System::String*>** StaticGet___9__4_0()
+		{
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x531D0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DJEGNALJODF___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJEGNALJODF___C_CTOR_OFFSET))(this);
+		}
+
+		::System::String* __CreateSystemRecommend_b__3_0()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DJEGNALJODF___C___CREATESYSTEMRECOMMEND_B__3_0_OFFSET))(this);
+		}
+
+		::System::String* __CreateBigDataRecommend_b__4_0()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DJEGNALJODF___C___CREATEBIGDATARECOMMEND_B__4_0_OFFSET))(this);
+		}
+
+	};

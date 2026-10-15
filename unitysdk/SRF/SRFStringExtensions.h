@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET UNITYSDK_OFFSET(0x1EC38150)
+#define SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET UNITYSDK_OFFSET(0x1ED42810)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 34702;
+	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 35371;
 
 	class SRFStringExtensions : public ::System::Object
 	{
@@ -17,5 +17,6 @@ namespace SRF
 		{
 			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/SpinLock.h"
+#include "unitysdk/System/Object.h"
 
 namespace UnityEngine::Buffers
 {
-	inline static constexpr unsigned int DefaultArrayPool_1_Bucket_TypeDefinitionIndex = 4945;
+	inline static constexpr unsigned int DefaultArrayPool_1_Bucket_TypeDefinitionIndex = 4952;
 
 	template <typename T>
 	class DefaultArrayPool_1_Bucket : public ::System::Object

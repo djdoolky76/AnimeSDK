@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/SkeletonDataCompatibility_SourceType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18321010)
+#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE6150)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 43813;
+	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 45005;
 
 	class SkeletonDataCompatibility_VersionInfo : public ::System::Object
 	{
@@ -17,10 +16,10 @@ namespace Spine::Unity
 		::System::String* rawVersion; // 0x10
 		::Il2CppArray<::System::Int32>* version; // 0x18
 		::Spine::Unity::SkeletonDataCompatibility_SourceType sourceType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

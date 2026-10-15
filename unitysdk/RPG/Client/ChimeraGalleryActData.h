@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class ChimeraGalleryActRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x1B5F7430)
-#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B5F7300)
-#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B5F7370)
-#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_SORT_OFFSET UNITYSDK_OFFSET(0x1B5F74D0)
-#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x1B5F7310)
-#define RPG_CLIENT_CHIMERAGALLERYACTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F7570)
+#define RPG_CLIENT_CHIMERAGALLERYACTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB42720)
+#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0xCB425E0)
+#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xCB424B0)
+#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCB42520)
+#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_SORT_OFFSET UNITYSDK_OFFSET(0xCB42680)
+#define RPG_CLIENT_CHIMERAGALLERYACTDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xCB424C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryActData_TypeDefinitionIndex = 63485;
+	inline static constexpr unsigned int ChimeraGalleryActData_TypeDefinitionIndex = 63423;
 
 	class ChimeraGalleryActData : public ::System::Object
 	{
 	public:
 		::System::UInt32 _ID_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYACTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYACTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -51,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYACTDATA_GET_SORT_OFFSET))(this);
 		}
+
 	};
 }

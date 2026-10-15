@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelAsyncParams.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1ABC87C0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABC87D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEFEDB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BEFEDA0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelFriendListParams_TypeDefinitionIndex = 8558;
+	inline static constexpr unsigned int HoYoChannelFriendListParams_TypeDefinitionIndex = 8619;
 
 	class HoYoChannelFriendListParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELFRIENDLISTPARAMS_TOJSON_OFFSET))(this);
 		}
+
 	};
 }

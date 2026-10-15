@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierSetSelectBuffLevelConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_METHOD_3_3A37ECE63C07BFA3_OFFSET UNITYSDK_OFFSET(0x1E535420)
-#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_METHOD_3_7D89D9DE988D019F_OFFSET UNITYSDK_OFFSET(0x1E5353D0)
-#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E535410)
+#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ECF80)
+#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9ECF90)
+#define RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ECF40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierSetSelectBuffLevelConfig_TypeDefinitionIndex = 17759;
+	inline static constexpr unsigned int RogueModifierSetSelectBuffLevelConfig_TypeDefinitionIndex = 17971;
 
 	class RogueModifierSetSelectBuffLevelConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7D89D9DE988D019F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_METHOD_3_7D89D9DE988D019F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3A37ECE63C07BFA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_METHOD_3_3A37ECE63C07BFA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetSelectBuffLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETSELECTBUFFLEVELCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

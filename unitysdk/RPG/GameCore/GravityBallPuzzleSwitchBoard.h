@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class GravityBallPuzzleSwitchBoard; }
 
-#define RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_METHOD_3_DE0792828702A764_OFFSET UNITYSDK_OFFSET(0x1D95EC00)
-#define RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_METHOD_3_FABD99BA6A85B174_OFFSET UNITYSDK_OFFSET(0x1D95ED00)
-#define RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95EC90)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F6100)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F6170)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F6070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityBallPuzzleSwitchBoard_TypeDefinitionIndex = 20141;
+	inline static constexpr unsigned int GravityBallPuzzleSwitchBoard_TypeDefinitionIndex = 20378;
 
 	class GravityBallPuzzleSwitchBoard : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* PuzzleID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DE0792828702A764(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleSwitchBoard*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GravityBallPuzzleSwitchBoard* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GravityBallPuzzleSwitchBoard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_METHOD_3_DE0792828702A764_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GravityBallPuzzleSwitchBoard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FABD99BA6A85B174(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleSwitchBoard* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GravityBallPuzzleSwitchBoard* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GravityBallPuzzleSwitchBoard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_METHOD_3_FABD99BA6A85B174_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GravityBallPuzzleSwitchBoard*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLESWITCHBOARD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

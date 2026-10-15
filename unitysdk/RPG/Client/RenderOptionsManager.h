@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { template <typename T1, typename T2> class StateStack_2; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RENDEROPTIONSMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17963EE0)
-#define RPG_CLIENT_RENDEROPTIONSMANAGER_LENSFLAREPOPFLAG_OFFSET UNITYSDK_OFFSET(0x17963E70)
-#define RPG_CLIENT_RENDEROPTIONSMANAGER_LENSFLAREPUSHFLAG_OFFSET UNITYSDK_OFFSET(0x17963DD0)
-#define RPG_CLIENT_RENDEROPTIONSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17963BF0)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xDE92CF0)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDE93020)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER_LENSFLAREPOPFLAG_OFFSET UNITYSDK_OFFSET(0xDE92F90)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER_LENSFLAREPUSHFLAG_OFFSET UNITYSDK_OFFSET(0xDE92ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderOptionsManager_TypeDefinitionIndex = 70135;
+	inline static constexpr unsigned int RenderOptionsManager_TypeDefinitionIndex = 70171;
 
 	class RenderOptionsManager : public ::System::Object
 	{
 	public:
 		::RPG::Client::StateStack_2<::System::Boolean, ::System::String*>* flagEnableLensFlare; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDEROPTIONSMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDEROPTIONSMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void LensFlarePushFlag(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3)
@@ -38,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDEROPTIONSMANAGER_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

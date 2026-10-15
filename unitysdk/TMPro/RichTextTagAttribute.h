@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/TagUnitType.h"
 #include "unitysdk/TMPro/TagValueType.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int RichTextTagAttribute_TypeDefinitionIndex = 43498;
+	inline static constexpr unsigned int RichTextTagAttribute_TypeDefinitionIndex = 44690;
 
 	struct alignas(4) RichTextTagAttribute
 	{

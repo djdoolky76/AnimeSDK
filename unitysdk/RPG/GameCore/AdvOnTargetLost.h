@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvOnTargetLost; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVONTARGETLOST_METHOD_3_C822F08912D43C12_OFFSET UNITYSDK_OFFSET(0x1D6C2160)
-#define RPG_GAMECORE_ADVONTARGETLOST_METHOD_3_CBE2834239258519_OFFSET UNITYSDK_OFFSET(0x1D6C21A0)
-#define RPG_GAMECORE_ADVONTARGETLOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C2190)
+#define RPG_GAMECORE_ADVONTARGETLOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37BBE0)
+#define RPG_GAMECORE_ADVONTARGETLOST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37BBF0)
+#define RPG_GAMECORE_ADVONTARGETLOST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37BBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvOnTargetLost_TypeDefinitionIndex = 20109;
+	inline static constexpr unsigned int AdvOnTargetLost_TypeDefinitionIndex = 20346;
 
 	class AdvOnTargetLost : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVONTARGETLOST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVONTARGETLOST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C822F08912D43C12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvOnTargetLost*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvOnTargetLost* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvOnTargetLost*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVONTARGETLOST_METHOD_3_C822F08912D43C12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvOnTargetLost*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVONTARGETLOST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CBE2834239258519(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvOnTargetLost* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvOnTargetLost* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvOnTargetLost*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVONTARGETLOST_METHOD_3_CBE2834239258519_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvOnTargetLost*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVONTARGETLOST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

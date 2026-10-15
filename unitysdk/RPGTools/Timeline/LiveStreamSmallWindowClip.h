@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B59BF80)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B59BF70)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59C110)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE901170)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE901300)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE901160)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamSmallWindowClip_TypeDefinitionIndex = 48635;
+	inline static constexpr unsigned int LiveStreamSmallWindowClip_TypeDefinitionIndex = 48175;
 
 	class LiveStreamSmallWindowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean OpenSmallWindow; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -34,5 +32,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

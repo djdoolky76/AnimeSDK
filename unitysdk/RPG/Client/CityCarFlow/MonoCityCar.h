@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/CityCarFlow/MonoCityCar_BlockAudioEventConfig.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarControl; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFCB10)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCAR_CTOR_OFFSET UNITYSDK_OFFSET(0xCB69540)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCar_TypeDefinitionIndex = 80837;
+	inline static constexpr unsigned int MonoCityCar_TypeDefinitionIndex = 82217;
 
 	class MonoCityCar : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,11 +24,12 @@ namespace RPG::Client::CityCarFlow
 		::System::Single Deceleration; // 0x40
 		::System::Single EmergencyBrake; // 0x44
 		::System::Boolean IsPoliceCar; // 0x48
-		::Il2CppArray<::RPG::Client::CityCarFlow::MonoCityCar_BlockAudioEventConfig>* BlockAudioEventConfigs; // 0x50
-
+		::System::Byte _padding0[0x7];
+		::Il2CppArray<::System::Object*>* BlockAudioEventConfigs; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCAR_CTOR_OFFSET))(this);
 		}
+
 	};
 }

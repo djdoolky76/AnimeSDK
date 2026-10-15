@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_6DB5D1FB482336FB;
+class NGPNLKHIIMN;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOTVSCREENLOD_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C282D70)
-#define RPG_CLIENT_MONOTVSCREENLOD_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1C282F30)
-#define RPG_CLIENT_MONOTVSCREENLOD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C282EA0)
-#define RPG_CLIENT_MONOTVSCREENLOD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C282DF0)
-#define RPG_CLIENT_MONOTVSCREENLOD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C282E50)
-#define RPG_CLIENT_MONOTVSCREENLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C282F40)
+#define RPG_CLIENT_MONOTVSCREENLOD_AWAKE_OFFSET UNITYSDK_OFFSET(0xD85F810)
+#define RPG_CLIENT_MONOTVSCREENLOD_CTOR_OFFSET UNITYSDK_OFFSET(0xD85F9E0)
+#define RPG_CLIENT_MONOTVSCREENLOD_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD85F9D0)
+#define RPG_CLIENT_MONOTVSCREENLOD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD85F940)
+#define RPG_CLIENT_MONOTVSCREENLOD_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD85F890)
+#define RPG_CLIENT_MONOTVSCREENLOD_UPDATE_OFFSET UNITYSDK_OFFSET(0xD85F8F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTVScreenLod_TypeDefinitionIndex = 70709;
+	inline static constexpr unsigned int MonoTVScreenLod_TypeDefinitionIndex = 70745;
 
 	class MonoTVScreenLod : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,11 +22,10 @@ namespace RPG::Client
 		::System::String* KeyPerProp; // 0x18
 		::UnityEngine::GameObject* videoPlayerLod0; // 0x20
 		::Il2CppArray<::UnityEngine::GameObject*>* framePlayerLod1; // 0x28
-		::Class_2_6DB5D1FB482336FB* _Behavior; // 0x30
-
+		::NGPNLKHIIMN* _Behavior; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTVSCREENLOD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTVSCREENLOD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -50,9 +48,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTVSCREENLOD_ONDESTROY_OFFSET))(this);
 		}
 
-		::Class_2_6DB5D1FB482336FB* get_Behavior()
+		::NGPNLKHIIMN* get_Behavior()
 		{
-			return ((::Class_2_6DB5D1FB482336FB*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTVSCREENLOD_GET_BEHAVIOR_OFFSET))(this);
+			return ((::NGPNLKHIIMN*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTVSCREENLOD_GET_BEHAVIOR_OFFSET))(this);
 		}
+
 	};
 }

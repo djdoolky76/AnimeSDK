@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LDEBFOMPOGN_TypeDefinitionIndex = 28104;
+
+	enum class LDEBFOMPOGN : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		DDHFJFAKPCB = 6560,
+		KHMGHMMCJEM = 6566,
+		HGACHEAMGPI = 6563,
+		LBIGAGOEINK = 6575,
+		DANCIMOJIJM = 6554,
+		DDFCEHMLIAL = 6567,
+		HBIJLNGMBIB = 6558,
+		GKOKHIOBJDM = 6571,
+		OPAIFJPGJKA = 6555,
+	};

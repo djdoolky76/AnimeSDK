@@ -2,43 +2,45 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/TreeInstance.h"
-
 namespace HoudiniEngineUnity { class Test_TreeInstance; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF24E0)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF2520)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EEF2530)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EEF25A0)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B997650)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B997690)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9976A0)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B997710)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 39462;
+	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 40759;
 
 	class Test_TreeInstance_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__2_0()
-		{
-			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D120);
-		}
 		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D128);
+			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64550);
 		}
-		static ::HoudiniEngineUnity::Test_TreeInstance_Extensions___c** StaticGet___9()
+
+		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__2_0()
 		{
-			return (::HoudiniEngineUnity::Test_TreeInstance_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D130);
+			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64558);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64560);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CTOR_OFFSET))(this);
 		}
 
 		::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__1_0(::UnityEngine::TreeInstance a1)
@@ -50,5 +52,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::Test_TreeInstance*(*)(::PVOID, ::UnityEngine::TreeInstance))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET))(this, a1);
 		}
+
 	};
 }

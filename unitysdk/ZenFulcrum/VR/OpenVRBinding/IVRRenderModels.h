@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__FreeRenderModel; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__FreeTexture; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__FreeTextureD3D11; }
@@ -23,7 +21,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__RenderModelHasC
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels_TypeDefinitionIndex = 37843;
+	inline static constexpr unsigned int IVRRenderModels_TypeDefinitionIndex = 39140;
 
 	struct alignas(8) IVRRenderModels
 	{

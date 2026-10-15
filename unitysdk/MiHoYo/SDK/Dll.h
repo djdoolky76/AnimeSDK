@@ -1,43 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace MiHoYo::SDK { class Dll; }
 namespace MiHoYo::SDK { class Dll_OnDestroyDelegate; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_DLL_ADD_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x1C5FE2F0)
-#define MIHOYO_SDK_DLL_ADD_ONESC_OFFSET UNITYSDK_OFFSET(0x1C5FE230)
-#define MIHOYO_SDK_DLL_ADD_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1C5FE170)
-#define MIHOYO_SDK_DLL_ADD_ONTAB_OFFSET UNITYSDK_OFFSET(0x1C5FE0B0)
-#define MIHOYO_SDK_DLL_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C5DAA50)
-#define MIHOYO_SDK_DLL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C5FE830)
-#define MIHOYO_SDK_DLL_REMOVE_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x1C5FE350)
-#define MIHOYO_SDK_DLL_REMOVE_ONESC_OFFSET UNITYSDK_OFFSET(0x1C5FE290)
-#define MIHOYO_SDK_DLL_REMOVE_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1C5FE1D0)
-#define MIHOYO_SDK_DLL_REMOVE_ONTAB_OFFSET UNITYSDK_OFFSET(0x1C5FE110)
-#define MIHOYO_SDK_DLL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C5FE3B0)
-#define MIHOYO_SDK_DLL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FE840)
+#define MIHOYO_SDK_DLL_ADD_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x1BE1A480)
+#define MIHOYO_SDK_DLL_ADD_ONESC_OFFSET UNITYSDK_OFFSET(0x1BE1A3C0)
+#define MIHOYO_SDK_DLL_ADD_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1BE1A300)
+#define MIHOYO_SDK_DLL_ADD_ONTAB_OFFSET UNITYSDK_OFFSET(0x1BE1A240)
+#define MIHOYO_SDK_DLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1A9D0)
+#define MIHOYO_SDK_DLL_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BDF6B70)
+#define MIHOYO_SDK_DLL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BE1A9C0)
+#define MIHOYO_SDK_DLL_REMOVE_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x1BE1A4E0)
+#define MIHOYO_SDK_DLL_REMOVE_ONESC_OFFSET UNITYSDK_OFFSET(0x1BE1A420)
+#define MIHOYO_SDK_DLL_REMOVE_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1BE1A360)
+#define MIHOYO_SDK_DLL_REMOVE_ONTAB_OFFSET UNITYSDK_OFFSET(0x1BE1A2A0)
+#define MIHOYO_SDK_DLL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BE1A540)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Dll_TypeDefinitionIndex = 7897;
+	inline static constexpr unsigned int Dll_TypeDefinitionIndex = 7941;
 
 	class Dll : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::MiHoYo::SDK::Dll** StaticGet__instance()
-		{
-			return (::MiHoYo::SDK::Dll**)Il2CppClass::FromTypeDefinitionIndex(Dll_TypeDefinitionIndex)->GetStaticField(0x11B10);
-		}
 		::System::Action* OnTab; // 0x18
 		::System::Action* OnReturn; // 0x20
 		::System::Action* OnEsc; // 0x28
 		::System::Boolean escFromWin32; // 0x30
+		::System::Byte _padding0[0x7];
 		::MiHoYo::SDK::Dll_OnDestroyDelegate* DLLDestroyHandler; // 0x38
+		static ::MiHoYo::SDK::Dll** StaticGet__instance()
+		{
+			return (::MiHoYo::SDK::Dll**)UnitySDK::FromName("MiHoYo.SDK", "Dll")->GetStaticField(0xDD60);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void add_OnTab(::System::Action* a1)
@@ -94,5 +95,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

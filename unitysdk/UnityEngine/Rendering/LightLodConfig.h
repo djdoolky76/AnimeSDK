@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightLodConfig_TypeDefinitionIndex = 4831;
+	inline static constexpr unsigned int LightLodConfig_TypeDefinitionIndex = 4837;
 
 	struct alignas(4) LightLodConfig
 	{

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReadyFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E31A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E3200)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CD370)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E3130)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F625DC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F625D50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F625E20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F60F8C0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setReadyCallback_TypeDefinitionIndex = 38125;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setReadyCallback_TypeDefinitionIndex = 39422;
 
 	class BrowserNative_Calltype_zfb_setReadyCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc* a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETREADYCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

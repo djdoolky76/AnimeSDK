@@ -1,32 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ConvinceHPToSpliteLineConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CONVINCESPLITELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A29D5D0)
+#define RPG_CLIENT_CONVINCESPLITELINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBE9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceSpliteLineConfig_TypeDefinitionIndex = 60776;
+	inline static constexpr unsigned int ConvinceSpliteLineConfig_TypeDefinitionIndex = 60677;
 
 	class ConvinceSpliteLineConfig : public ::System::Object
 	{
 	public:
 		::System::Single LerpTime; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* StrongCurve; // 0x18
 		::System::Single StrongFloor; // 0x20
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* MediumCurve; // 0x28
 		::System::Single MediumFloor; // 0x30
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* WeakCurve; // 0x38
 		::System::Boolean UseHPChangePos; // 0x40
+		::System::Byte _padding3[0x7];
 		::System::Collections::Generic::List_1<::RPG::Client::ConvinceHPToSpliteLineConfig*>* HPToPos; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCESPLITELINECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCESPLITELINECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

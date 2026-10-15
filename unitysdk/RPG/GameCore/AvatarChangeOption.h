@@ -3,14 +3,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarChangeOption_TypeDefinitionIndex = 16940;
+	inline static constexpr unsigned int AvatarChangeOption_TypeDefinitionIndex = 17135;
 
 	enum class AvatarChangeOption : ::System::UInt32
 	{
-		None = 0x0,
-		InheritProperty = 0x1,
-		InheritAvatarBaseType = 0x2,
-		InheritDamageType = 0x4,
-		Option_Default = 0x3,
+		None = 0,
+		InheritProperty = 1,
+		InheritAvatarBaseType = 2,
+		InheritDamageType = 4,
+		Option_Default = 3,
 	};
 }

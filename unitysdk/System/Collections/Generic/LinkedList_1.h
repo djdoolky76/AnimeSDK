@@ -1,13 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/LinkedList_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
-namespace System { class Array; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 

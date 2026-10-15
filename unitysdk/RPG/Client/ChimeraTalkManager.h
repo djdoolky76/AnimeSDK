@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraTalkConditionType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChimeraData; }
 namespace RPG::Client { class ChimeraPeriodRandomTalkData; }
 namespace RPG::Client { class ChimeraTalkData; }
 namespace RPG::GameCore { class ChimeraTalk; }
 
-#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETIDLETALKCONTENT_OFFSET UNITYSDK_OFFSET(0x1B611A40)
-#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETTALKCONTENT_OFFSET UNITYSDK_OFFSET(0x1B611600)
-#define RPG_CLIENT_CHIMERATALKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6023F0)
-#define RPG_CLIENT_CHIMERATALKMANAGER__ISTALKCONDITIONVALID_OFFSET UNITYSDK_OFFSET(0x1B611990)
-#define RPG_CLIENT_CHIMERATALKMANAGER__TRYGETBUBBLETALK_OFFSET UNITYSDK_OFFSET(0x1B6116D0)
+#define RPG_CLIENT_CHIMERATALKMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4D500)
+#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETIDLETALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCB5CB30)
+#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETTALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCB5C6F0)
+#define RPG_CLIENT_CHIMERATALKMANAGER__ISTALKCONDITIONVALID_OFFSET UNITYSDK_OFFSET(0xCB5CA80)
+#define RPG_CLIENT_CHIMERATALKMANAGER__TRYGETBUBBLETALK_OFFSET UNITYSDK_OFFSET(0xCB5C7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTalkManager_TypeDefinitionIndex = 63561;
+	inline static constexpr unsigned int ChimeraTalkManager_TypeDefinitionIndex = 63499;
 
 	class ChimeraTalkManager : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::ChimeraTalkData* TryGetTalkContent(::RPG::Client::ChimeraData* a1, ::RPG::GameCore::ChimeraTalkConditionType a2)
@@ -45,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::ChimeraPeriodRandomTalkData*(*)(::PVOID, ::RPG::Client::ChimeraData*, ::RPG::GameCore::ChimeraTalkConditionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKMANAGER_TRYGETIDLETALKCONTENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

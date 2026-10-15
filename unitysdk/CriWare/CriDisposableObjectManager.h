@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriDisposableObjectManager_ModuleType.h"
-#include "unitysdk/CriWare/CriDisposableObjectManager_ObjectRef.h"
 #include "unitysdk/System/Object.h"
-
 namespace CriWare { class CriDisposable; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_CALLONMODULEFINALIZATION_OFFSET UNITYSDK_OFFSET(0x1D37BA90)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_DISPOSEALL_OFFSET UNITYSDK_OFFSET(0x1D384120)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_GETNEXTWITHTYPE_OFFSET UNITYSDK_OFFSET(0x1D3845E0)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x1D3840F0)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1D365120)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_SEARCHFORDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x1D383E70)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1D365630)
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3846E0)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_CALLONMODULEFINALIZATION_OFFSET UNITYSDK_OFFSET(0x166F71C0)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x166FFE10)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_DISPOSEALL_OFFSET UNITYSDK_OFFSET(0x166FF850)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_GETNEXTWITHTYPE_OFFSET UNITYSDK_OFFSET(0x166FFD10)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x166FF820)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x166E0850)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_SEARCHFORDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x166FF5A0)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x166E0D60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDisposableObjectManager_TypeDefinitionIndex = 38899;
+	inline static constexpr unsigned int CriDisposableObjectManager_TypeDefinitionIndex = 40196;
 
 	class CriDisposableObjectManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::CriWare::CriDisposableObjectManager_ObjectRef>** StaticGet_refList()
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_refList()
 		{
-			return (::System::Collections::Generic::List_1<::CriWare::CriDisposableObjectManager_ObjectRef>**)Il2CppClass::FromTypeDefinitionIndex(CriDisposableObjectManager_TypeDefinitionIndex)->GetStaticField(0x5D410);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("CriWare", "CriDisposableObjectManager")->GetStaticField(0x56A90);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIDISPOSABLEOBJECTMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIDISPOSABLEOBJECTMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 SearchForDisposable(::CriWare::CriDisposable* a1)
@@ -67,5 +66,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::CriWare::CriDisposableObjectManager_ModuleType))((::PBYTE)hIl2Cpp + CRIWARE_CRIDISPOSABLEOBJECTMANAGER_DISPOSEALL_OFFSET))(a1);
 		}
+
 	};
 }

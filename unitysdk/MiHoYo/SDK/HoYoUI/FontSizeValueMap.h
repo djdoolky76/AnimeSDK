@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/HoYoUI/SerializableDictionary_2.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_HOYOUI_FONTSIZEVALUEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F3F30)
+#define MIHOYO_SDK_HOYOUI_FONTSIZEVALUEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAA810)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int FontSizeValueMap_TypeDefinitionIndex = 47186;
+	inline static constexpr unsigned int FontSizeValueMap_TypeDefinitionIndex = 46726;
 
-	class FontSizeValueMap : public ::MiHoYo::SDK::HoYoUI::SerializableDictionary_2<::System::String*, ::System::Int32>
+	class FontSizeValueMap
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_FONTSIZEVALUEMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_FONTSIZEVALUEMAP_CTOR_OFFSET))(this);
 		}
+
 	};
 }

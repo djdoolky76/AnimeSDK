@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierAddMazeBuffAfterDressConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_METHOD_3_309723814F369B48_OFFSET UNITYSDK_OFFSET(0x1EE6C380)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_METHOD_3_BBE4B0DED18181CC_OFFSET UNITYSDK_OFFSET(0x1EE6C330)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6C370)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D705300)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D705310)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7052C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierAddMazeBuffAfterDressConfig_TypeDefinitionIndex = 19185;
+	inline static constexpr unsigned int GridFightModifierAddMazeBuffAfterDressConfig_TypeDefinitionIndex = 19415;
 
 	class GridFightModifierAddMazeBuffAfterDressConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BBE4B0DED18181CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_METHOD_3_BBE4B0DED18181CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_309723814F369B48(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_METHOD_3_309723814F369B48_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierAddMazeBuffAfterDressConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDMAZEBUFFAFTERDRESSCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

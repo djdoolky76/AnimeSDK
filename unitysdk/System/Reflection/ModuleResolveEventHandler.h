@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class ResolveEventArgs; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CC24A00)
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CC24A40)
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC249F0)
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC24900)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C2789F0)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2788F0)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C278A30)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C2789E0)
 
 namespace System::Reflection
 {
@@ -22,7 +21,7 @@ namespace System::Reflection
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Reflection::Module* Invoke(::System::Object* a1, ::System::ResolveEventArgs* a2)
@@ -39,5 +38,6 @@ namespace System::Reflection
 		{
 			return ((::System::Reflection::Module*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

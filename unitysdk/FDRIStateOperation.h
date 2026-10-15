@@ -3,19 +3,17 @@
 #include "unitysdk/RPG/GameCore/FDRIStateMaskEnum.h"
 #include "unitysdk/System/Object.h"
 
-class FiveDimRenderingItem;
+#define FDRISTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x156D8B50)
 
-#define FDRISTATEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1305C890)
+inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 47112;
 
-inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 47572;
-
-class FDRIStateOperation : public ::System::Object
-{
-public:
-	::RPG::GameCore::FDRIStateMaskEnum stateCode; // 0x10
-
-	::System::Void _ctor()
+	class FDRIStateOperation : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDRISTATEOPERATION__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::RPG::GameCore::FDRIStateMaskEnum stateCode; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDRISTATEOPERATION_CTOR_OFFSET))(this);
+		}
+
+	};

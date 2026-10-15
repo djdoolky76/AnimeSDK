@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HALHKJLBIKJ.h"
+class DBEILICHGCG;
+class JBACCAGFHON;
+class JBFGHNLMEDI;
+class MBKMLOCEJOM;
+
+#define MBKMLOCEJOM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB859150)
+#define MBKMLOCEJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8591C0)
+#define MBKMLOCEJOM_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xB8591D0)
+
+inline static constexpr unsigned int MBKMLOCEJOM_TypeDefinitionIndex = 76420;
+
+	class MBKMLOCEJOM : public ::HALHKJLBIKJ
+	{
+	public:
+		::System::Void _ctor(::JBFGHNLMEDI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JBFGHNLMEDI*))((::PBYTE)hIl2Cpp + MBKMLOCEJOM_CTOR_OFFSET))(this, a1);
+		}
+
+		static ::MBKMLOCEJOM* BPLPBPMEODA(::JBFGHNLMEDI* a1)
+		{
+			return ((::MBKMLOCEJOM*(*)(::JBFGHNLMEDI*))((::PBYTE)hIl2Cpp + MBKMLOCEJOM_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+		::System::Boolean OKPLPEELPBC(::JBACCAGFHON* a1, ::DBEILICHGCG* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::JBACCAGFHON*, ::DBEILICHGCG*))((::PBYTE)hIl2Cpp + MBKMLOCEJOM_OKPLPEELPBC_OFFSET))(this, a1, a2);
+		}
+
+	};

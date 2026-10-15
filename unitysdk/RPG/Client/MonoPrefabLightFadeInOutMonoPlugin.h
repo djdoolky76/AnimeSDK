@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-namespace RPG::Client { class MonoPrefabLightFadeInOutBehavior; }
-
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_ISFORBIDFASTFADING_OFFSET UNITYSDK_OFFSET(0x1AD01D00)
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_SETFADEINOUTINTENSITY_OFFSET UNITYSDK_OFFSET(0x1AD01C60)
-#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD01D40)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD84E820)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_ISFORBIDFASTFADING_OFFSET UNITYSDK_OFFSET(0xD84E7E0)
+#define RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_SETFADEINOUTINTENSITY_OFFSET UNITYSDK_OFFSET(0xD84E740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPrefabLightFadeInOutMonoPlugin_TypeDefinitionIndex = 70892;
+	inline static constexpr unsigned int MonoPrefabLightFadeInOutMonoPlugin_TypeDefinitionIndex = 70925;
 
-	class MonoPrefabLightFadeInOutMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MonoPrefabLightFadeInOutBehavior*>
+	class MonoPrefabLightFadeInOutMonoPlugin
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetFadeInOutIntensity(::System::Single a1)
@@ -29,5 +26,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPREFABLIGHTFADEINOUTMONOPLUGIN_ISFORBIDFASTFADING_OFFSET))(this);
 		}
+
 	};
 }

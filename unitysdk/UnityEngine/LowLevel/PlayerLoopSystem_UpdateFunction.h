@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EDFCB20)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EDFCB50)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EDFCB10)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFCAA0)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3C80D0)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C8050)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3C8100)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3C80C0)
 
 namespace UnityEngine::LowLevel
 {
-	inline static constexpr unsigned int PlayerLoopSystem_UpdateFunction_TypeDefinitionIndex = 4537;
+	inline static constexpr unsigned int PlayerLoopSystem_UpdateFunction_TypeDefinitionIndex = 4541;
 
 	class PlayerLoopSystem_UpdateFunction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace UnityEngine::LowLevel
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

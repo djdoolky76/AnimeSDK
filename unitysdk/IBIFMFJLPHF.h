@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/GCIJNNOFDHM.h"
+class LGCDLLEHBLG;
+class MLAOHDCAGOK;
+
+#define IBIFMFJLPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2B5F0)
+#define IBIFMFJLPHF_DABEOEDDFFB_OFFSET UNITYSDK_OFFSET(0x15E2BD20)
+#define IBIFMFJLPHF_IMANEDONBCP_OFFSET UNITYSDK_OFFSET(0x15E2B6A0)
+#define IBIFMFJLPHF_KALKHNLNNII_OFFSET UNITYSDK_OFFSET(0x15E2B710)
+#define IBIFMFJLPHF_KPCOOECCCDG_OFFSET UNITYSDK_OFFSET(0x15E2B850)
+#define IBIFMFJLPHF_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x15E2B9B0)
+#define IBIFMFJLPHF_NLKBMKLOKBB_OFFSET UNITYSDK_OFFSET(0x15E2BCA0)
+
+inline static constexpr unsigned int IBIFMFJLPHF_TypeDefinitionIndex = 62549;
+
+	class IBIFMFJLPHF : public ::System::Object
+	{
+	public:
+		::LGCDLLEHBLG* ACCBKLPMHDH; // 0x10
+		::MLAOHDCAGOK* FAGBIGDLJGA; // 0x18
+		::System::Void _ctor(::LGCDLLEHBLG* a1, ::MLAOHDCAGOK* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::LGCDLLEHBLG*, ::MLAOHDCAGOK*))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean IMANEDONBCP(::GCIJNNOFDHM a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_IMANEDONBCP_OFFSET))(this, a1);
+		}
+
+		::GCIJNNOFDHM LJBCDJNNBJH(::GCIJNNOFDHM a1)
+		{
+			return ((::GCIJNNOFDHM(*)(::PVOID, ::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_LJBCDJNNBJH_OFFSET))(this, a1);
+		}
+
+		static ::System::Boolean KALKHNLNNII(::GCIJNNOFDHM a1)
+		{
+			return ((::System::Boolean(*)(::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_KALKHNLNNII_OFFSET))(a1);
+		}
+
+		static ::System::Boolean KPCOOECCCDG(::GCIJNNOFDHM a1)
+		{
+			return ((::System::Boolean(*)(::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_KPCOOECCCDG_OFFSET))(a1);
+		}
+
+		::System::Boolean NLKBMKLOKBB(::GCIJNNOFDHM a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_NLKBMKLOKBB_OFFSET))(this, a1);
+		}
+
+		::GCIJNNOFDHM DABEOEDDFFB(::GCIJNNOFDHM a1)
+		{
+			return ((::GCIJNNOFDHM(*)(::PVOID, ::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IBIFMFJLPHF_DABEOEDDFFB_OFFSET))(this, a1);
+		}
+
+	};

@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChronicleCustomUnlockConditionConfig; }
+namespace RPG::GameCore { class MiddleSinglePackMissionConfig; }
 
-#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_METHOD_2_4FC8881B8AB639AD_OFFSET UNITYSDK_OFFSET(0x1D1A4220)
-#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A4340)
+#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8520A0)
+#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D851F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiddleSinglePackMissionConfig_TypeDefinitionIndex = 18756;
+	inline static constexpr unsigned int MiddleSinglePackMissionConfig_TypeDefinitionIndex = 18980;
 
 	class MiddleSinglePackMissionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 PackMissionID; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::ChronicleCustomUnlockConditionConfig*>* CustomUnlockConditionList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4FC8881B8AB639AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiddleSinglePackMissionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MiddleSinglePackMissionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiddleSinglePackMissionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_METHOD_2_4FC8881B8AB639AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MiddleSinglePackMissionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

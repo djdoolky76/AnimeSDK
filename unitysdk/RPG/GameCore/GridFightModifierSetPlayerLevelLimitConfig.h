@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierSetPlayerLevelLimitConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_METHOD_3_876E268BD4683520_OFFSET UNITYSDK_OFFSET(0x1EE6ED80)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_METHOD_3_8A16053EFA165B9C_OFFSET UNITYSDK_OFFSET(0x1EE6EDD0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6EDC0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D707D50)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D707D60)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D707D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierSetPlayerLevelLimitConfig_TypeDefinitionIndex = 19189;
+	inline static constexpr unsigned int GridFightModifierSetPlayerLevelLimitConfig_TypeDefinitionIndex = 19419;
 
 	class GridFightModifierSetPlayerLevelLimitConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_876E268BD4683520(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_METHOD_3_876E268BD4683520_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8A16053EFA165B9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_METHOD_3_8A16053EFA165B9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierSetPlayerLevelLimitConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERSETPLAYERLEVELLIMITCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/SignalTransformProcessor_SignalDrivenMode.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x1AF88950)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_GET_SHOULDPLAYCURVE_OFFSET UNITYSDK_OFFSET(0x1AF88960)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_62BBF6FB1430C4E2_OFFSET UNITYSDK_OFFSET(0x1AF885F0)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_9E3751A8C9767297_OFFSET UNITYSDK_OFFSET(0x1AF88780)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_A3CE3797867F0E52_OFFSET UNITYSDK_OFFSET(0x1AF883F0)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1AF88870)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1AF888C0)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0x1AF88900)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1AF88820)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x1AF88700)
-#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF88970)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_BHJECKLMBHF_OFFSET UNITYSDK_OFFSET(0xE0B8CF0)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B9070)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_FCJMNCIGGOF_OFFSET UNITYSDK_OFFSET(0xE0B8E80)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xE0B9050)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_GET_SHOULDPLAYCURVE_OFFSET UNITYSDK_OFFSET(0xE0B9060)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xE0B8F70)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_IECIAPPANHI_OFFSET UNITYSDK_OFFSET(0xE0B9000)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_JDAGFHEPMHF_OFFSET UNITYSDK_OFFSET(0xE0B8F20)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_LBFJIKCKNFA_OFFSET UNITYSDK_OFFSET(0xE0B8AF0)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xE0B8FC0)
+#define RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_OJBOOAFKFPD_OFFSET UNITYSDK_OFFSET(0xE0B8E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalTransformProcessor_TypeDefinitionIndex = 70954;
+	inline static constexpr unsigned int SignalTransformProcessor_TypeDefinitionIndex = 70986;
 
 	class SignalTransformProcessor : public ::System::Object
 	{
@@ -27,54 +26,55 @@ namespace RPG::Client
 		::RPG::Client::SignalTransformProcessor_SignalDrivenMode DrivenMode; // 0x10
 		::System::Single Threshold; // 0x14
 		::System::Single Speed; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* SignalCurve; // 0x20
 		::System::Int32 PhaseID; // 0x28
 		::System::Boolean _shouldPlayCurve; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Single _progress; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_A3CE3797867F0E52(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4)
+		::System::Single LBFJIKCKNFA(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_A3CE3797867F0E52_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_LBFJIKCKNFA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single Method_1_62BBF6FB1430C4E2(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4)
+		::System::Single BHJECKLMBHF(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_62BBF6FB1430C4E2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_BHJECKLMBHF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single Method_1_D437D090E63BE8A7(::System::Single a1)
+		::System::Single OJBOOAFKFPD(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_D437D090E63BE8A7_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_OJBOOAFKFPD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_9E3751A8C9767297(::System::Single a1, ::System::Single& a2)
+		::System::Void FCJMNCIGGOF(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_9E3751A8C9767297_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_FCJMNCIGGOF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void JDAGFHEPMHF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_JDAGFHEPMHF_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_1()
+		::System::Void HFKFNFKIEON()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_HFKFNFKIEON_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_2()
+		::System::Void OHMHJFANEIF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_OHMHJFANEIF_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_3()
+		::System::Void IECIAPPANHI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_IECIAPPANHI_OFFSET))(this);
 		}
 
 		::System::Single get_Progress()
@@ -86,5 +86,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALTRANSFORMPROCESSOR_GET_SHOULDPLAYCURVE_OFFSET))(this);
 		}
+
 	};
 }

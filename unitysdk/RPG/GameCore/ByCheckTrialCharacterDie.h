@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCheckTrialCharacterDie; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_C32A6210AA1A9142_OFFSET UNITYSDK_OFFSET(0x1C304F20)
-#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_C9C7F6F8193444C9_OFFSET UNITYSDK_OFFSET(0x1C304D70)
-#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_D2DC705C7257DFD8_OFFSET UNITYSDK_OFFSET(0x1C304DB0)
-#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_DD0C1B4F379D0215_OFFSET UNITYSDK_OFFSET(0x1C304F50)
-#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C304DA0)
+#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D469CA0)
+#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D469E50)
+#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D469E20)
+#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D469CB0)
+#define RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D469C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckTrialCharacterDie_TypeDefinitionIndex = 23175;
+	inline static constexpr unsigned int ByCheckTrialCharacterDie_TypeDefinitionIndex = 23440;
 
 	class ByCheckTrialCharacterDie : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::UInt32 CharacterID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C9C7F6F8193444C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckTrialCharacterDie*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckTrialCharacterDie* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckTrialCharacterDie*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_C9C7F6F8193444C9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckTrialCharacterDie*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D2DC705C7257DFD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckTrialCharacterDie* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckTrialCharacterDie* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckTrialCharacterDie*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_D2DC705C7257DFD8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckTrialCharacterDie*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C32A6210AA1A9142(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckTrialCharacterDie*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckTrialCharacterDie* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckTrialCharacterDie*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_C32A6210AA1A9142_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckTrialCharacterDie*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DD0C1B4F379D0215(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckTrialCharacterDie* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckTrialCharacterDie* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckTrialCharacterDie*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_METHOD_4_DD0C1B4F379D0215_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckTrialCharacterDie*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKTRIALCHARACTERDIE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

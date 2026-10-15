@@ -1,0 +1,11 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ABNBDDCDBCA_AOFMNFIMNCK_TypeDefinitionIndex = 25905;
+
+	enum class ABNBDDCDBCA_AOFMNFIMNCK : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		ODNGMIJLKKA = 100,
+		EBAAFDHEPLO = 101,
+	};

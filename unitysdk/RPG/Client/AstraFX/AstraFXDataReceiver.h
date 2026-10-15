@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AstraFX/AstraFXDataNode.h"
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_GET_ISPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B337E20)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_GET_ISRECEIVER_OFFSET UNITYSDK_OFFSET(0x1B337E30)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B337E40)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_CTOR_OFFSET UNITYSDK_OFFSET(0xC69F030)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_GET_ISPROVIDER_OFFSET UNITYSDK_OFFSET(0xC69F010)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_GET_ISRECEIVER_OFFSET UNITYSDK_OFFSET(0xC69F020)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataReceiver_TypeDefinitionIndex = 73581;
+	inline static constexpr unsigned int AstraFXDataReceiver_TypeDefinitionIndex = 73688;
 
 	class AstraFXDataReceiver : public ::RPG::Client::AstraFX::AstraFXDataNode
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsProvider()
@@ -27,5 +27,6 @@ namespace RPG::Client::AstraFX
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFXDATARECEIVER_GET_ISRECEIVER_OFFSET))(this);
 		}
+
 	};
 }

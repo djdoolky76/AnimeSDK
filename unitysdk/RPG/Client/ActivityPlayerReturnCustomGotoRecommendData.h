@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPlayerReturnRecommendData.h"
-
 namespace RPG::Client { class ConditionChecker; }
 
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_GET_GOTOID_OFFSET UNITYSDK_OFFSET(0x1B85E430)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1B85E360)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B85E2D0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC580A40)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_GET_GOTOID_OFFSET UNITYSDK_OFFSET(0xC580BA0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0xC580AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPlayerReturnCustomGotoRecommendData_TypeDefinitionIndex = 61967;
+	inline static constexpr unsigned int ActivityPlayerReturnCustomGotoRecommendData_TypeDefinitionIndex = 61877;
 
 	class ActivityPlayerReturnCustomGotoRecommendData : public ::RPG::Client::ActivityPlayerReturnRecommendData
 	{
 	public:
 		::RPG::Client::ConditionChecker* _Checker; // 0x20
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsAvailable()
@@ -31,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNCUSTOMGOTORECOMMENDDATA_GET_GOTOID_OFFSET))(this);
 		}
+
 	};
 }

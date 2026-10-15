@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/CFObject.h"
 
-#define MONO_NET_CFNUMBER_ASINT32_OFFSET UNITYSDK_OFFSET(0x1C472740)
-#define MONO_NET_CFNUMBER_CFNUMBERGETVALUE_OFFSET UNITYSDK_OFFSET(0x1C4726A0)
+#define MONO_NET_CFNUMBER_ASINT32_OFFSET UNITYSDK_OFFSET(0x1EF920A0)
+#define MONO_NET_CFNUMBER_CFNUMBERGETVALUE_OFFSET UNITYSDK_OFFSET(0x1EF92000)
 
 namespace Mono::Net
 {
@@ -12,14 +12,15 @@ namespace Mono::Net
 	class CFNumber : public ::Mono::Net::CFObject
 	{
 	public:
-		static ::System::Boolean CFNumberGetValue(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32& a3)
+		static ::System::Boolean CFNumberGetValue(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + MONO_NET_CFNUMBER_CFNUMBERGETVALUE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_CFNUMBER_CFNUMBERGETVALUE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Int32 AsInt32(::System::IntPtr a1)
 		{
 			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFNUMBER_ASINT32_OFFSET))(a1);
 		}
+
 	};
 }

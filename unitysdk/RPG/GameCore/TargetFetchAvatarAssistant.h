@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchAvatarAssistant; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_86B195EFDBF8B54F_OFFSET UNITYSDK_OFFSET(0x1E16C9D0)
-#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_BD3CF71317217CDE_OFFSET UNITYSDK_OFFSET(0x1E16C950)
-#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_CC5A87492E1407AF_OFFSET UNITYSDK_OFFSET(0x1E16CA50)
-#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_FA1EC9772A305762_OFFSET UNITYSDK_OFFSET(0x1E16CA30)
-#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E16C9C0)
+#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB32B00)
+#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB32B90)
+#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB32B70)
+#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB32B10)
+#define RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB32A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAvatarAssistant_TypeDefinitionIndex = 23665;
+	inline static constexpr unsigned int TargetFetchAvatarAssistant_TypeDefinitionIndex = 23939;
 
 	class TargetFetchAvatarAssistant : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_BD3CF71317217CDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAvatarAssistant*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAvatarAssistant* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAvatarAssistant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_BD3CF71317217CDE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_86B195EFDBF8B54F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAvatarAssistant* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAvatarAssistant* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_86B195EFDBF8B54F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FA1EC9772A305762(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAvatarAssistant*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAvatarAssistant* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAvatarAssistant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_FA1EC9772A305762_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CC5A87492E1407AF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAvatarAssistant* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAvatarAssistant* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_METHOD_4_CC5A87492E1407AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAVATARASSISTANT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

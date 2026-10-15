@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ScreenSpaceGPUParticles/ScreenSpaceGPUParticlesEmitter_Shape.h"
-#include "unitysdk/RPG/Client/TAMonoBase.h"
 #include "unitysdk/RPG/Client/TAUtils/SimpleTransform.h"
+#include "unitysdk/RPG/Client/TAMonoBase.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER_GET_EMITTERMATRIX_OFFSET UNITYSDK_OFFSET(0x1AF70C90)
-#define RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF70F90)
+#define RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE09F930)
+#define RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER_GET_EMITTERMATRIX_OFFSET UNITYSDK_OFFSET(0xE09F630)
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
-	inline static constexpr unsigned int ScreenSpaceGPUParticlesEmitter_TypeDefinitionIndex = 73599;
+	inline static constexpr unsigned int ScreenSpaceGPUParticlesEmitter_TypeDefinitionIndex = 73706;
 
 	class ScreenSpaceGPUParticlesEmitter : public ::RPG::Client::TAMonoBase
 	{
 	public:
 		::RPG::Client::ScreenSpaceGPUParticles::ScreenSpaceGPUParticlesEmitter_Shape EmitterShape; // 0x18
 		::RPG::Client::TAUtils::SimpleTransform EmitterTransform; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Matrix4x4 get_EmitterMatrix()
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLESEMITTER_GET_EMITTERMATRIX_OFFSET))(this);
 		}
+
 	};
 }

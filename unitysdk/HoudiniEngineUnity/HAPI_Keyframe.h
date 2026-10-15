@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x82E380)
+#define HOUDINIENGINEUNITY_HAPI_KEYFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 39213;
+	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 40510;
 
 	struct alignas(4) HAPI_Keyframe
 	{
@@ -14,10 +13,10 @@ namespace HoudiniEngineUnity
 		::System::Single value; // 0x14
 		::System::Single inTangent; // 0x18
 		::System::Single outTangent; // 0x1C
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_KEYFRAME_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

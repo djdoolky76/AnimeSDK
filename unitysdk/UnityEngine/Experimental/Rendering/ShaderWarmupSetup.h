@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/VertexAttributeDescriptor.h"
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int ShaderWarmupSetup_TypeDefinitionIndex = 4940;
+	inline static constexpr unsigned int ShaderWarmupSetup_TypeDefinitionIndex = 4947;
 
 	struct alignas(8) ShaderWarmupSetup
 	{

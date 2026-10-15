@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TimeRewindDestructibleBridgeStaticBindInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_METHOD_2_CFEDE5BE7CA1D7A8_OFFSET UNITYSDK_OFFSET(0x1D527B70)
-#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D527D90)
+#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5A120)
+#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB59CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindDestructibleBridgeStaticBindInfo_TypeDefinitionIndex = 16420;
+	inline static constexpr unsigned int TimeRewindDestructibleBridgeStaticBindInfo_TypeDefinitionIndex = 16596;
 
 	class TimeRewindDestructibleBridgeStaticBindInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +22,15 @@ namespace RPG::GameCore
 		::RPG::MVector3 SecondChildOffset; // 0x30
 		::RPG::MVector3 SecondChildRotation; // 0x3C
 		::System::Single ChildOverrideLockRaycastOffsetHeight; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CFEDE5BE7CA1D7A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_METHOD_2_CFEDE5BE7CA1D7A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

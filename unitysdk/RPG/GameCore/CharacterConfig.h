@@ -11,11 +11,11 @@
 #include "unitysdk/RPG/GameCore/ResilienceEnum.h"
 #include "unitysdk/RPG/GameCore/WeaponTypeEnum.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_1C30CE192ABE4C54;
-class Class_1_7A22A3DBEEDD1F80;
+class ENEIHJJPNPI;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AttachPointEffectAdaptionConfig; }
 namespace RPG::GameCore { class CharacterCameraConfig; }
+namespace RPG::GameCore { class CharacterConfig; }
 namespace RPG::GameCore { class CharacterEmoContextConfig; }
 namespace RPG::GameCore { class CharacterEntityColliderConfig; }
 namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
@@ -34,23 +34,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D11C720)
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D11BF20)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D120270)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D120130)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x1D1203B0)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1D120030)
-#define RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET UNITYSDK_OFFSET(0x1D1204D0)
-#define RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D11C630)
+#define RPG_GAMECORE_CHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53DAE0)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D53DBD0)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D53D3D0)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D541C40)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D541B00)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x1D541D80)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1D541A00)
+#define RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET UNITYSDK_OFFSET(0x1D541EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 16344;
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 16517;
 
 	class CharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Boolean IsHero; // 0x10
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::CharacterSomatoType SomatoType; // 0x14
 		::RPG::GameCore::BodySize CharacterBodySize; // 0x18
 		::RPG::MVector3 CharacterHUDOffset; // 0x1C
@@ -58,6 +59,7 @@ namespace RPG::GameCore
 		::RPG::MVector3 BuffPanelOffset; // 0x30
 		::RPG::MVector3 HitBoxOffset; // 0x3C
 		::System::Int32 TargetSelectGroup; // 0x48
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::RPG::GameCore::CharacterCameraConfig*>* CameraConfigList; // 0x50
 		::RPG::GameCore::CharacterCollisionType HitBoxType; // 0x58
 		::System::Single HitBoxWidth; // 0x5C
@@ -65,6 +67,7 @@ namespace RPG::GameCore
 		::System::Single HitBoxHeight; // 0x64
 		::System::String* HitBoxAttachPoint; // 0x68
 		::RPG::GameCore::ResilienceEnum Resilience; // 0x70
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::LocationConfig* Location; // 0x78
 		::System::Single VisualRadius; // 0x80
 		::System::Single LookAtIKEnableRadius; // 0x84
@@ -74,11 +77,12 @@ namespace RPG::GameCore
 		::System::Boolean PreloadUltraSkill; // 0x8B
 		::RPG::GameCore::BoolEx IsSpecialVisualCharacter; // 0x8C
 		::System::Boolean HideInTimeline; // 0x90
+		::System::Byte _padding3[0x7];
 		::Il2CppArray<::System::String*>* AnimEventConfigList; // 0x98
 		::Il2CppArray<::RPG::GameCore::SkillConfig*>* SkillList; // 0xA0
 		::Il2CppArray<::System::String*>* AbilityList; // 0xA8
 		::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>* SkillAbilityList; // 0xB0
-		::Class_1_1C30CE192ABE4C54* DynamicValues; // 0xB8
+		::ENEIHJJPNPI* DynamicValues; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* DynamicStrings; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* CustomValues; // 0xC8
 		::RPG::GameCore::WeaponTypeEnum WeaponType; // 0xD0
@@ -89,16 +93,20 @@ namespace RPG::GameCore
 		::System::String* InitAnimStateName; // 0xF0
 		::Il2CppArray<::System::String*>* WhitelistSkillStateForInterrupt; // 0xF8
 		::System::Single ModifierPerformTimeFactor; // 0x100
+		::System::Byte _padding4[0x4];
 		::RPG::GameCore::TaskConfig* AsAidAttackTask; // 0x108
 		::RPG::GameCore::TaskConfig* AsAidDefenderTask; // 0x110
 		::RPG::GameCore::TaskConfig* AsAidProtectorTask; // 0x118
 		::Il2CppArray<::System::String*>* DisableAnimEventLayers; // 0x120
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EHitDirectionType, ::RPG::GameCore::EFootIKMode>* OnHitEditFootIKModeMap; // 0x128
 		::System::Single RepeatOccurAnimWhenBeHitNormalizedTime; // 0x130
+		::System::Byte _padding5[0x4];
 		::System::String* CameraNamedDynamicOffset; // 0x138
 		::System::Boolean IgnoreDynamicOffsetBySelf; // 0x140
+		::System::Byte _padding6[0x3];
 		::System::Single OverrideHeightForCameraOffset; // 0x144
 		::System::Boolean MonsterIgnoreGlobalDymanicOffset; // 0x148
+		::System::Byte _padding7[0x3];
 		::System::UInt32 MaxMonsterPhase; // 0x14C
 		::Il2CppArray<::RPG::GameCore::CharacterPhaseConfig*>* PhaseList; // 0x150
 		::System::String* OverrideWaveMonsterPerform; // 0x158
@@ -112,16 +120,18 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* EffectAttachPointRedirect; // 0x198
 		::RPG::GameCore::MonsterConfig* MonsterConfig; // 0x1A0
 		::System::String* ElationConfigPath; // 0x1A8
-		::System::String* ResidentEffectKey; // 0x1B0
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x1B0
 		::System::String* ResidentPossessionKey; // 0x1B8
 		::System::String* EmotionCharacterID; // 0x1C0
 		::System::String* GraphEmotionAsset; // 0x1C8
 		::System::String* CharacterReplaceMaterialConfigPath; // 0x1D0
-		::Class_1_1C30CE192ABE4C54* AITagList; // 0x1D8
+		::ENEIHJJPNPI* AITagList; // 0x1D8
 		::RPG::GameCore::CharacterEmoContextConfig* ReplaceEmoConfig; // 0x1E0
 		::System::Boolean WillUnstage; // 0x1E8
+		::System::Byte _padding8[0x3];
 		::System::UInt32 ViewModeSortPriority; // 0x1EC
 		::System::UInt32 ViewModeExtraEffectID; // 0x1F0
+		::System::Byte _padding9[0x4];
 		::System::String* ReplaceAnimtorControllerPath; // 0x1F8
 		::RPG::GameCore::BoolEx CastShadow; // 0x200
 		::System::Boolean AlwaysCutOnSkillTargetTeamChange; // 0x204
@@ -131,20 +141,19 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::CustomTeamFormationConfig*>* CustomTeamFormationConfigs; // 0x208
 		::RPG::GameCore::CharacterUIConfig* UIConfig; // 0x210
 		::System::Collections::Generic::List_1<::System::String*>* ApplyDLCPaths; // 0x218
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterConfig* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetSkillIndexByTriggerKey(::System::String* a1)
@@ -171,5 +180,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,13 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int Action_6_TypeDefinitionIndex = 6496;
+	inline static constexpr unsigned int Action_6_TypeDefinitionIndex = 6505;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class Action_6 : public ::System::MulticastDelegate

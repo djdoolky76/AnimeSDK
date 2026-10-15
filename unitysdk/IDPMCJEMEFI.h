@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BAFCAJNDAOJ.h"
+class DFFKOJEMIDD;
+class KCNGFCAMLLN;
+class KLGICPNPKIC;
+
+#define IDPMCJEMEFI_BPKPLCLPDJA_OFFSET UNITYSDK_OFFSET(0x15EDA950)
+#define IDPMCJEMEFI_CLEAR_OFFSET UNITYSDK_OFFSET(0x15EDA890)
+#define IDPMCJEMEFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15EDABC0)
+#define IDPMCJEMEFI_DHCECDODIJN_OFFSET UNITYSDK_OFFSET(0x15EDA9A0)
+#define IDPMCJEMEFI_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x15EDAAF0)
+#define IDPMCJEMEFI_HPHOEOEMPBH_OFFSET UNITYSDK_OFFSET(0x15EDAAB0)
+#define IDPMCJEMEFI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EDA730)
+
+inline static constexpr unsigned int IDPMCJEMEFI_TypeDefinitionIndex = 73405;
+
+	class IDPMCJEMEFI : public ::BAFCAJNDAOJ
+	{
+	public:
+		::KCNGFCAMLLN* ODLDKLLBLNI; // 0x48
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_CTOR_OFFSET))(this);
+		}
+
+		::System::Void KPJGDHLENIP(::KCNGFCAMLLN* a1, ::KCNGFCAMLLN* a2, ::KCNGFCAMLLN* a3, ::KCNGFCAMLLN* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::KCNGFCAMLLN*, ::KCNGFCAMLLN*, ::KCNGFCAMLLN*, ::KCNGFCAMLLN*))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_KPJGDHLENIP_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_CLEAR_OFFSET))(this);
+		}
+
+		::System::Int32 BPKPLCLPDJA()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_BPKPLCLPDJA_OFFSET))(this);
+		}
+
+		::KLGICPNPKIC* DHCECDODIJN(::System::Int32 a1)
+		{
+			return ((::KLGICPNPKIC*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_DHCECDODIJN_OFFSET))(this, a1);
+		}
+
+		::System::Void GIGJMNCIFMJ(::DFFKOJEMIDD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DFFKOJEMIDD*))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_GIGJMNCIFMJ_OFFSET))(this, a1);
+		}
+
+		::KCNGFCAMLLN* HPHOEOEMPBH()
+		{
+			return ((::KCNGFCAMLLN*(*)(::PVOID))((::PBYTE)hIl2Cpp + IDPMCJEMEFI_HPHOEOEMPBH_OFFSET))(this);
+		}
+
+	};

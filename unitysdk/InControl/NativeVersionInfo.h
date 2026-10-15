@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeVersionInfo_TypeDefinitionIndex = 39575;
+	inline static constexpr unsigned int NativeVersionInfo_TypeDefinitionIndex = 40872;
 
 	struct alignas(4) NativeVersionInfo
 	{

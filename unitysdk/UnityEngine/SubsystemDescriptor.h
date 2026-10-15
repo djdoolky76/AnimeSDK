@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F00F090)
-#define UNITYENGINE_SUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00F0A0)
+#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4705A0)
+#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F470590)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 5819;
+	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 5827;
 
 	class SubsystemDescriptor : public ::System::Object
 	{
 	public:
 		::System::String* _id_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SUBSYSTEMDESCRIPTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SUBSYSTEMDESCRIPTOR_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_id()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET))(this);
 		}
+
 	};
 }

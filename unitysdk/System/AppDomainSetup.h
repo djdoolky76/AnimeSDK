@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_APPDOMAINSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16E29880)
+#define SYSTEM_APPDOMAINSETUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0727B0)
 
 namespace System
 {
@@ -25,21 +25,24 @@ namespace System
 		::System::String* shadow_copy_files; // 0x58
 		::System::Boolean publisher_policy; // 0x60
 		::System::Boolean path_changed; // 0x61
+		::System::Byte _padding0[0x2];
 		::System::Int32 loader_optimization; // 0x64
 		::System::Boolean disallow_binding_redirects; // 0x68
 		::System::Boolean disallow_code_downloads; // 0x69
+		::System::Byte _padding1[0x6];
 		::System::Object* _activationArguments; // 0x70
 		::System::Object* domain_initializer; // 0x78
 		::System::Object* application_trust; // 0x80
 		::Il2CppArray<::System::String*>* domain_initializer_args; // 0x88
 		::System::Boolean disallow_appbase_probe; // 0x90
+		::System::Byte _padding2[0x7];
 		::Il2CppArray<::System::Byte>* configuration_bytes; // 0x98
 		::Il2CppArray<::System::Byte>* serialized_non_primitives; // 0xA0
 		::System::String* _TargetFrameworkName_k__BackingField; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAINSETUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAINSETUP_CTOR_OFFSET))(this);
 		}
+
 	};
 }

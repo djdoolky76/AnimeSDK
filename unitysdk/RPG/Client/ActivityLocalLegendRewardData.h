@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ActivityLocalLegendRewardType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class ActivityLocalLegendRewardData; }
 namespace RPG::Client { class ActivityLocalLegendRewardGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF97290)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_GET_REWARDGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1AF97330)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_HASUNTAKENREWARD_1_OFFSET UNITYSDK_OFFSET(0x1AF969B0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_HASUNTAKENREWARD_OFFSET UNITYSDK_OFFSET(0x1AF967C0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_SET_REWARDGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1AF97340)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF97310)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC52F770)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC52F7F0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_GET_REWARDGROUPLIST_OFFSET UNITYSDK_OFFSET(0xC52F810)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_HASUNTAKENREWARD_1_OFFSET UNITYSDK_OFFSET(0xC52EE90)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_HASUNTAKENREWARD_OFFSET UNITYSDK_OFFSET(0xC52ECA0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_SET_REWARDGROUPLIST_OFFSET UNITYSDK_OFFSET(0xC52F820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardData_TypeDefinitionIndex = 61656;
+	inline static constexpr unsigned int ActivityLocalLegendRewardData_TypeDefinitionIndex = 61562;
 
 	class ActivityLocalLegendRewardData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityLocalLegendRewardGroup*>* _RewardGroupList_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ActivityLocalLegendRewardData* Create(::System::Collections::Generic::List_1<::RPG::Client::ActivityLocalLegendRewardGroup*>* a1)
@@ -51,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityLocalLegendRewardGroup*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA_SET_REWARDGROUPLIST_OFFSET))(this, a1);
 		}
+
 	};
 }

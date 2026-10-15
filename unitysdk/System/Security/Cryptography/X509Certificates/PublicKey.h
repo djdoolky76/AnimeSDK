@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace Mono::Security::X509 { class X509Certificate; }
+namespace Mono::Security::X509 { class X509Certificate_571251C08D3E3BD3; }
 namespace System::Security::Cryptography { class AsnEncodedData; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography { class DSA; }
 namespace System::Security::Cryptography { class Oid; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_DECODEDSA_OFFSET UNITYSDK_OFFSET(0x1B993F50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_DECODERSA_OFFSET UNITYSDK_OFFSET(0x1B993C10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GETUNSIGNEDBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1B994490)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_ENCODEDKEYVALUE_OFFSET UNITYSDK_OFFSET(0x1B993A20)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_ENCODEDPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B993A30)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1B993A40)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_OID_OFFSET UNITYSDK_OFFSET(0x1B994480)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9944F0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B992DC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F07DB40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07C410)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_DECODEDSA_OFFSET UNITYSDK_OFFSET(0x1F07D5A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_DECODERSA_OFFSET UNITYSDK_OFFSET(0x1F07D260)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GETUNSIGNEDBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1F07DAE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_ENCODEDKEYVALUE_OFFSET UNITYSDK_OFFSET(0x1F07D070)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_ENCODEDPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1F07D080)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1F07D090)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_GET_OID_OFFSET UNITYSDK_OFFSET(0x1F07DAD0)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -26,23 +25,23 @@ namespace System::Security::Cryptography::X509Certificates
 	class PublicKey : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_Empty()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PublicKey_TypeDefinitionIndex)->GetStaticField(0x21C30);
-		}
-		::System::Security::Cryptography::AsnEncodedData* _params; // 0x10
-		::System::Security::Cryptography::AsymmetricAlgorithm* _key; // 0x18
+		::System::Security::Cryptography::AsymmetricAlgorithm* _key; // 0x10
+		::System::Security::Cryptography::AsnEncodedData* _params; // 0x18
 		::System::Security::Cryptography::AsnEncodedData* _keyValue; // 0x20
 		::System::Security::Cryptography::Oid* _oid; // 0x28
-
-		::System::Void _ctor(::Mono::Security::X509::X509Certificate* a1)
+		static ::Il2CppArray<::System::Byte>** StaticGet_Empty()
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509Certificate*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY__CTOR_OFFSET))(this, a1);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Security.Cryptography.X509Certificates", "PublicKey")->GetStaticField(0x34EA0);
+		}
+
+		::System::Void _ctor(::Mono::Security::X509::X509Certificate_571251C08D3E3BD3* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509Certificate_571251C08D3E3BD3*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_CCTOR_OFFSET))();
 		}
 
 		::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue()
@@ -79,5 +78,6 @@ namespace System::Security::Cryptography::X509Certificates
 		{
 			return ((::System::Security::Cryptography::RSA*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_PUBLICKEY_DECODERSA_OFFSET))(a1);
 		}
+
 	};
 }

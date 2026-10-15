@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/HoYoUI/HoYoText.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
-
 namespace MiHoYo::SDK { class HrefClickEvent; }
-namespace MiHoYo::SDK { class MiHoYoSDKLinkImageText_HrefInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -15,56 +14,59 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1949E010)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1949BF80)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1949EDB0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1949CF10)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0x1949EB40)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x1949BFA0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1949BF90)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0x1949C000)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1949F2A0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1949F180)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFD2180)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD2060)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xAFD0E90)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAFCEEB0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xAFD1CC0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAFCFDE0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0xAFD1A50)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xAFCEED0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAFCEEC0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xAFCEF30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 46916;
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 46456;
 
 	class MiHoYoSDKLinkImageText : public ::MiHoYo::SDK::HoYoUI::HoYoText
 	{
 	public:
-		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
-		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x55780);
-		}
-		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
-		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x55788);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x55790);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x55798);
-		}
 		::System::String* m_OutputText; // 0x1F0
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_ImagesPool; // 0x1F8
 		::System::Collections::Generic::List_1<::System::Int32>* m_ImagesVertexIndex; // 0x200
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::MiHoYoSDKLinkImageText_HrefInfo*>* m_HrefInfos; // 0x208
+		::System::Collections::Generic::List_1<::System::Object*>* m_HrefInfos; // 0x208
 		::MiHoYo::SDK::HrefClickEvent* m_OnHrefClick; // 0x210
 		::Il2CppArray<::UnityEngine::UIVertex>* m_TempVerts; // 0x218
 		::UnityEngine::UIVertex vert; // 0x220
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC70);
+		}
+
+		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
+		{
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC78);
+		}
+
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC80);
+		}
+
+		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
+		{
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC88);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CCTOR_OFFSET))();
 		}
 
 		::MiHoYo::SDK::HrefClickEvent* get_onHrefClick()
@@ -106,5 +108,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
+
 	};
 }

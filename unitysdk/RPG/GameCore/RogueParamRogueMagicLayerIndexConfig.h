@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueParamRogueMagicLayerIndexConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_METHOD_6_626C9D6DFA6FF983_OFFSET UNITYSDK_OFFSET(0x1E545BC0)
-#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_METHOD_6_A2B635B26ADFD07F_OFFSET UNITYSDK_OFFSET(0x1E545B70)
-#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E545BB0)
+#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FD5E0)
+#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FD5F0)
+#define RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FD5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamRogueMagicLayerIndexConfig_TypeDefinitionIndex = 19606;
+	inline static constexpr unsigned int RogueParamRogueMagicLayerIndexConfig_TypeDefinitionIndex = 19836;
 
 	class RogueParamRogueMagicLayerIndexConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_A2B635B26ADFD07F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_METHOD_6_A2B635B26ADFD07F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_626C9D6DFA6FF983(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_METHOD_6_626C9D6DFA6FF983_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueMagicLayerIndexConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUEMAGICLAYERINDEXCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

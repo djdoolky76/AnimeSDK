@@ -3,37 +3,35 @@
 #include "unitysdk/Spine/CurveTimeline.h"
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_TRANSFORMCONSTRAINTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1EF62570)
-#define SPINE_TRANSFORMCONSTRAINTTIMELINE_GETCURVEVALUE_OFFSET UNITYSDK_OFFSET(0x1EF62840)
-#define SPINE_TRANSFORMCONSTRAINTTIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1EF62480)
-#define SPINE_TRANSFORMCONSTRAINTTIMELINE_GET_TRANSFORMCONSTRAINTINDEX_OFFSET UNITYSDK_OFFSET(0x1EF62490)
-#define SPINE_TRANSFORMCONSTRAINTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1EF624A0)
-#define SPINE_TRANSFORMCONSTRAINTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF623A0)
+#define SPINE_TRANSFORMCONSTRAINTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECC0130)
+#define SPINE_TRANSFORMCONSTRAINTTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECBFF60)
+#define SPINE_TRANSFORMCONSTRAINTTIMELINE_GETCURVEVALUE_OFFSET UNITYSDK_OFFSET(0x1ECC03E0)
+#define SPINE_TRANSFORMCONSTRAINTTIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1ECC0040)
+#define SPINE_TRANSFORMCONSTRAINTTIMELINE_GET_TRANSFORMCONSTRAINTINDEX_OFFSET UNITYSDK_OFFSET(0x1ECC0050)
+#define SPINE_TRANSFORMCONSTRAINTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECC0060)
 
 namespace Spine
 {
-	inline static constexpr unsigned int TransformConstraintTimeline_TypeDefinitionIndex = 38326;
+	inline static constexpr unsigned int TransformConstraintTimeline_TypeDefinitionIndex = 39623;
 
 	class TransformConstraintTimeline : public ::Spine::CurveTimeline
 	{
 	public:
-		// static const ::System::Int32 ENTRIES = 0x7; // 0x0
-		// static const ::System::Int32 ROTATE = 0x1; // 0x0
-		// static const ::System::Int32 X = 0x2; // 0x0
-		// static const ::System::Int32 Y = 0x3; // 0x0
-		// static const ::System::Int32 SCALEX = 0x4; // 0x0
-		// static const ::System::Int32 SCALEY = 0x5; // 0x0
-		// static const ::System::Int32 SHEARY = 0x6; // 0x0
 		::System::Int32 transformConstraintIndex; // 0x28
-
+		// static const ::System::Object ENTRIES; // 0x0
+		// static const ::System::Object ROTATE; // 0x0
+		// static const ::System::Object X; // 0x0
+		// static const ::System::Object Y; // 0x0
+		// static const ::System::Object SCALEX; // 0x0
+		// static const ::System::Object SCALEY; // 0x0
+		// static const ::System::Object SHEARY; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINTTIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINTTIMELINE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_FrameEntries()
@@ -56,9 +54,10 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINTTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void GetCurveValue(::System::Single& a1, ::System::Single& a2, ::System::Single& a3, ::System::Single& a4, ::System::Single& a5, ::System::Single& a6, ::System::Single a7)
+		::System::Void GetCurveValue(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINTTIMELINE_GETCURVEVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINTTIMELINE_GETCURVEVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

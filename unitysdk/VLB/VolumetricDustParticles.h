@@ -1,30 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/VLB/VolumetricDustParticles_Direction.h"
 #include "unitysdk/VLB/VolumetricDustParticles_ParticleType.h"
-
-class Class_3_3BA4173F442038F3;
 namespace UnityEngine { class ParticleSystem; }
 
-#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0x10506210)
-#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x10506230)
-#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0x10506220)
-#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x105062C0)
-#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0x10506280)
+#define VLB_VOLUMETRICDUSTPARTICLES_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9E8FC0)
+#define VLB_VOLUMETRICDUSTPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E8F80)
+#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xE9E8F10)
+#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xE9E8F30)
+#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xE9E8F20)
 
 namespace VLB
 {
-	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 49438;
+	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 49012;
 
-	class VolumetricDustParticles : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3BA4173F442038F3*>
+	class VolumetricDustParticles
 	{
 	public:
-		static ::System::Boolean* StaticGet_isFeatureSupported()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x12810);
-		}
 		::VLB::VolumetricDustParticles_ParticleType particleType; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::ParticleSystem* particlePrefab; // 0x38
 		::System::Single alpha; // 0x40
 		::System::Single size; // 0x44
@@ -33,17 +27,22 @@ namespace VLB
 		::System::Single density; // 0x50
 		::System::Single spawnMaxDistance; // 0x54
 		::System::Boolean cullingEnabled; // 0x58
+		::System::Byte _padding1[0x3];
 		::System::Single cullingMaxDistance; // 0x5C
 		::System::Boolean _isCulled_k__BackingField; // 0x60
+		static ::System::Boolean* StaticGet_isFeatureSupported()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("VLB", "VolumetricDustParticles")->GetStaticField(0x4440);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_isCulled()
@@ -60,5 +59,6 @@ namespace VLB
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvGameplayTrackNpcReset; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_METHOD_3_7A903F4CC8FBE9B1_OFFSET UNITYSDK_OFFSET(0x1D6B9C90)
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_METHOD_3_FB2A0522F0F67374_OFFSET UNITYSDK_OFFSET(0x1D6B9BC0)
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B9C80)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3734D0)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3734E0)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D373410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvGameplayTrackNpcReset_TypeDefinitionIndex = 21937;
+	inline static constexpr unsigned int AdvGameplayTrackNpcReset_TypeDefinitionIndex = 22185;
 
 	class AdvGameplayTrackNpcReset : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FB2A0522F0F67374(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGameplayTrackNpcReset*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvGameplayTrackNpcReset* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGameplayTrackNpcReset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_METHOD_3_FB2A0522F0F67374_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvGameplayTrackNpcReset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7A903F4CC8FBE9B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGameplayTrackNpcReset* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvGameplayTrackNpcReset* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGameplayTrackNpcReset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_METHOD_3_7A903F4CC8FBE9B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvGameplayTrackNpcReset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPCRESET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

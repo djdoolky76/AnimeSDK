@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Entitas { class IContext; }
 namespace Entitas { class IGroup; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ENTITAS_CONTEXTGROUPCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EEC8D00)
-#define ENTITAS_CONTEXTGROUPCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EEC8D40)
-#define ENTITAS_CONTEXTGROUPCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EEC8CF0)
-#define ENTITAS_CONTEXTGROUPCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC8C00)
+#define ENTITAS_CONTEXTGROUPCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16749BF0)
+#define ENTITAS_CONTEXTGROUPCHANGED_CTOR_OFFSET UNITYSDK_OFFSET(0x16749AF0)
+#define ENTITAS_CONTEXTGROUPCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16749C30)
+#define ENTITAS_CONTEXTGROUPCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x16749BE0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextGroupChanged_TypeDefinitionIndex = 9939;
+	inline static constexpr unsigned int ContextGroupChanged_TypeDefinitionIndex = 9997;
 
 	class ContextGroupChanged : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTGROUPCHANGED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTGROUPCHANGED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Entitas::IContext* a1, ::Entitas::IGroup* a2)
@@ -39,5 +38,6 @@ namespace Entitas
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTGROUPCHANGED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

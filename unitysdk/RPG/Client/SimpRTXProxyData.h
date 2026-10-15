@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client { class SimpRTXProxy; }
 
-#define RPG_CLIENT_SIMPRTXPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3AFC440)
+#define RPG_CLIENT_SIMPRTXPROXYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF1C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 70152;
+	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 70188;
 
 	struct alignas(4) SimpRTXProxyData
 	{
@@ -19,10 +17,10 @@ namespace RPG::Client
 		::System::Single rotateY; // 0x1C
 		::UnityEngine::Vector2 scale; // 0x20
 		::UnityEngine::Vector4 atlasUVST; // 0x28
-
 		::System::Void _ctor(::RPG::Client::SimpRTXProxy* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::SimpRTXProxy*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPRTXPROXYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::SimpRTXProxy*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPRTXPROXYDATA_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

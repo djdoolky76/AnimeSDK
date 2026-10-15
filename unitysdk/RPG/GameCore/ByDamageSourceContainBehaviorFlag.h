@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByDamageSourceContainBehaviorFlag; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_4B5C72D1644C12AD_OFFSET UNITYSDK_OFFSET(0x1BBD4630)
-#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_64AFFBBC809A6D47_OFFSET UNITYSDK_OFFSET(0x1BBD47C0)
-#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_B7DE979A62C4C050_OFFSET UNITYSDK_OFFSET(0x1BBD47F0)
-#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_F8948E17D9FF97C8_OFFSET UNITYSDK_OFFSET(0x1BBD45F0)
-#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD4620)
+#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C0750)
+#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4C0920)
+#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4C08F0)
+#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4C0760)
+#define RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4C0720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag_TypeDefinitionIndex = 23045;
+	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag_TypeDefinitionIndex = 23310;
 
 	class ByDamageSourceContainBehaviorFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* BehaviorFlags; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F8948E17D9FF97C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_F8948E17D9FF97C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4B5C72D1644C12AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_4B5C72D1644C12AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_64AFFBBC809A6D47(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_64AFFBBC809A6D47_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B7DE979A62C4C050(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_METHOD_4_B7DE979A62C4C050_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByDamageSourceContainBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYDAMAGESOURCECONTAINBEHAVIORFLAG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

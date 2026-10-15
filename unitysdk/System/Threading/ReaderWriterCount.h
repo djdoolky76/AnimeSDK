@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System::Threading { class ReaderWriterCount; }
 
-#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2FB30)
+#define SYSTEM_THREADING_READERWRITERCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0FB20)
 
 namespace System::Threading
 {
@@ -16,10 +17,10 @@ namespace System::Threading
 		::System::Int32 upgradecount; // 0x20
 		::System::Int32 readercount; // 0x24
 		::System::Int32 writercount; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_READERWRITERCOUNT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

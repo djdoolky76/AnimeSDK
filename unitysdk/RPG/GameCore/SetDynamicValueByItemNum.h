@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByItemNum; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_METHOD_3_311376B4D342610B_OFFSET UNITYSDK_OFFSET(0x1E81F060)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_METHOD_3_A7FE5B705F26545E_OFFSET UNITYSDK_OFFSET(0x1E81F020)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81F050)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA79460)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA79470)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA79430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByItemNum_TypeDefinitionIndex = 21520;
+	inline static constexpr unsigned int SetDynamicValueByItemNum_TypeDefinitionIndex = 21767;
 
 	class SetDynamicValueByItemNum : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A7FE5B705F26545E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByItemNum*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByItemNum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByItemNum*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_METHOD_3_A7FE5B705F26545E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByItemNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_311376B4D342610B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByItemNum* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByItemNum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByItemNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_METHOD_3_311376B4D342610B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByItemNum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

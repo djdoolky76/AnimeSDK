@@ -1,43 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Codable/JSONNode_Enumerator.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace Codable { class JSONNode; }
-namespace System { class String; }
+namespace System { class Object; }
 
-#define CODABLE_JSONNODE_KEYENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15F30)
-#define CODABLE_JSONNODE_KEYENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3BE8500)
-#define CODABLE_JSONNODE_KEYENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BE8430)
-#define CODABLE_JSONNODE_KEYENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B6AA10)
-#define CODABLE_JSONNODE_KEYENUMERATOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15C80)
-#define CODABLE_JSONNODE_KEYENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x3B6A9D0)
+#define CODABLE_JSONNODE_KEYENUMERATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1300)
+#define CODABLE_JSONNODE_KEYENUMERATOR_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1360)
+#define CODABLE_JSONNODE_KEYENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x12C0)
+#define CODABLE_JSONNODE_KEYENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1400)
+#define CODABLE_JSONNODE_KEYENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1390)
+#define CODABLE_JSONNODE_KEYENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x11D0)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 46520;
+	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 46071;
 
-	struct alignas(8) JSONNode_KeyEnumerator
+	struct alignas(4) JSONNode_KeyEnumerator
 	{
 		::Codable::JSONNode_Enumerator m_Enumerator; // 0x10
-
-		/*
-		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*> a1)
+		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
-		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*> a1)
+		::System::Void _ctor_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR_CTOR_1_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::Void _ctor_2(::Codable::JSONNode_Enumerator a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Codable::JSONNode_Enumerator))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Codable::JSONNode_Enumerator))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::Codable::JSONNode* get_Current()
@@ -50,9 +43,12 @@ namespace Codable
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR_MOVENEXT_OFFSET))(this);
 		}
 
+		/*
 		::Codable::JSONNode_KeyEnumerator GetEnumerator()
 		{
 			return ((::Codable::JSONNode_KeyEnumerator(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_KEYENUMERATOR_GETENUMERATOR_OFFSET))(this);
 		}
+		*/
+
 	};
 }

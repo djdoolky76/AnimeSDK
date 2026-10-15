@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitGetLevelReward; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITGETLEVELREWARD_METHOD_3_60831042F2ED0202_OFFSET UNITYSDK_OFFSET(0x1DEB95E0)
-#define RPG_GAMECORE_WAITGETLEVELREWARD_METHOD_3_AAFFE0A2DD6BDB3F_OFFSET UNITYSDK_OFFSET(0x1DEB96B0)
-#define RPG_GAMECORE_WAITGETLEVELREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB96A0)
+#define RPG_GAMECORE_WAITGETLEVELREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6BE30)
+#define RPG_GAMECORE_WAITGETLEVELREWARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6BE40)
+#define RPG_GAMECORE_WAITGETLEVELREWARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6BD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGetLevelReward_TypeDefinitionIndex = 20999;
+	inline static constexpr unsigned int WaitGetLevelReward_TypeDefinitionIndex = 21245;
 
 	class WaitGetLevelReward : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGETLEVELREWARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGETLEVELREWARD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_60831042F2ED0202(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGetLevelReward*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitGetLevelReward* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGetLevelReward*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGETLEVELREWARD_METHOD_3_60831042F2ED0202_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitGetLevelReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGETLEVELREWARD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AAFFE0A2DD6BDB3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGetLevelReward* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitGetLevelReward* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGetLevelReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGETLEVELREWARD_METHOD_3_AAFFE0A2DD6BDB3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitGetLevelReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGETLEVELREWARD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,50 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class RelicPresetPlanData; }
 namespace RPG::Client { class RelicPresetPlanViewModel; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__BUILDPLANVIEWMODELS_B__16_0_OFFSET UNITYSDK_OFFSET(0x1B677A30)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6779E0)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B677A20)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1B677A70)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_1_OFFSET UNITYSDK_OFFSET(0x1B677A90)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE7B370)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7B3B0)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__BUILDPLANVIEWMODELS_B__16_0_OFFSET UNITYSDK_OFFSET(0xDE7B3C0)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_0_OFFSET UNITYSDK_OFFSET(0xDE7B400)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_1_OFFSET UNITYSDK_OFFSET(0xDE7B420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex = 66876;
+	inline static constexpr unsigned int RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex = 66878;
 
 	class RelicPresetSaveDialogViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_1()
-		{
-			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66A00);
-		}
-		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66A08);
-		}
-		static ::RPG::Client::RelicPresetSaveDialogViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::RelicPresetSaveDialogViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66A10);
-		}
 		static ::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66A18);
+			return (::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D360);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D368);
+		}
+
+		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D370);
+		}
+
+		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_1()
+		{
+			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D378);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _BuildPlanViewModels_b__16_0(::RPG::Client::RelicPresetPlanData* a1, ::RPG::Client::RelicPresetPlanData* a2)
@@ -61,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicPresetPlanViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_1_OFFSET))(this, a1);
 		}
+
 	};
 }

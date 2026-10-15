@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1948EC40)
+#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_DEVICEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC9DF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameReportModel_DeviceInfo_TypeDefinitionIndex = 46801;
+	inline static constexpr unsigned int MiHoYoSDKGameReportModel_DeviceInfo_TypeDefinitionIndex = 46341;
 
 	class MiHoYoSDKGameReportModel_DeviceInfo : public ::System::Object
 	{
 	public:
 		::System::String* ip; // 0x10
 		::System::Int32 plat; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* device_id; // 0x20
 		::System::String* device_name; // 0x28
 		::System::String* device_model; // 0x30
@@ -24,10 +24,10 @@ namespace MiHoYo::SDK
 		::System::String* os; // 0x50
 		::System::String* channel_id; // 0x58
 		::System::String* channel_subid; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_DEVICEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_DEVICEINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

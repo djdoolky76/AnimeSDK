@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StageInvasionMaterialWhiteRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CAE63D0)
-#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE6490)
+#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE1D30)
+#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE1C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionMaterialWhiteRow_TypeDefinitionIndex = 14992;
+	inline static constexpr unsigned int StageInvasionMaterialWhiteRow_TypeDefinitionIndex = 15159;
 
 	class StageInvasionMaterialWhiteRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 MonsterID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageInvasionMaterialWhiteRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageInvasionMaterialWhiteRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageInvasionMaterialWhiteRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageInvasionMaterialWhiteRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowPuzzleHudWolfBroInBox; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_METHOD_3_388C9D23147CECDB_OFFSET UNITYSDK_OFFSET(0x1D098BD0)
-#define RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_METHOD_3_F037C5D90A51A308_OFFSET UNITYSDK_OFFSET(0x1D098B90)
-#define RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1D098BC0)
+#define RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB54E0)
+#define RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB54F0)
+#define RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB54B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowPuzzleHudWolfBroInBox_TypeDefinitionIndex = 22053;
+	inline static constexpr unsigned int ShowPuzzleHudWolfBroInBox_TypeDefinitionIndex = 22301;
 
 	class ShowPuzzleHudWolfBroInBox : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Show; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F037C5D90A51A308(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_METHOD_3_F037C5D90A51A308_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_388C9D23147CECDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_METHOD_3_388C9D23147CECDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPUZZLEHUDWOLFBROINBOX_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

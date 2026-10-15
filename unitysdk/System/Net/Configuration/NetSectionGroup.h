@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationSectionGroup.h"
 
-#define SYSTEM_NET_CONFIGURATION_NETSECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB42580)
+#define SYSTEM_NET_CONFIGURATION_NETSECTIONGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF3C80)
 
 namespace System::Net::Configuration
 {
@@ -13,7 +13,8 @@ namespace System::Net::Configuration
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_NETSECTIONGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_NETSECTIONGROUP_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,26 +3,25 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EOverlayDirection.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDB2F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDB380)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CEDB2E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDB270)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F655870)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6557F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F655900)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F655860)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__MoveGamepadFocusToNeighbor_TypeDefinitionIndex = 37818;
+	inline static constexpr unsigned int IVROverlay__MoveGamepadFocusToNeighbor_TypeDefinitionIndex = 39115;
 
 	class IVROverlay__MoveGamepadFocusToNeighbor : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::ZenFulcrum::VR::OpenVRBinding::EOverlayDirection a1, ::System::UInt64 a2)
@@ -39,5 +38,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__MOVEGAMEPADFOCUSTONEIGHBOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

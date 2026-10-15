@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MazeFloorConnectivityRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D278C60)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D279310)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D838B20)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8384B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeFloorConnectivityRow_TypeDefinitionIndex = 13947;
+	inline static constexpr unsigned int MazeFloorConnectivityRow_TypeDefinitionIndex = 14054;
 
 	class MazeFloorConnectivityRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 WayPointEntityID; // 0x10
-		::System::UInt32 LockAreaMapID; // 0x14
-		::System::UInt32 WayPointGroupID; // 0x18
+		::System::UInt32 ToFloorID; // 0x10
+		::System::UInt32 WayPointGroupID; // 0x14
+		::System::UInt32 LockAreaMapID; // 0x18
 		::System::UInt32 FromFloorID; // 0x1C
-		::System::UInt32 ToFloorID; // 0x20
-
+		::System::UInt32 WayPointEntityID; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeFloorConnectivityRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MazeFloorConnectivityRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeFloorConnectivityRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MazeFloorConnectivityRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Runtime::Remoting::Messaging { class Header; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1943DE30)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1943DE60)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1943DE20)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1943DD30)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C2BCBF0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2BCAF0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C2BCC20)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C2BCBE0)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -21,7 +20,7 @@ namespace System::Runtime::Remoting::Messaging
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* Invoke(::Il2CppArray<::System::Runtime::Remoting::Messaging::Header*>* a1)
@@ -38,5 +37,6 @@ namespace System::Runtime::Remoting::Messaging
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_HEADERHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -12,32 +11,29 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_CLEARRECORD_OFFSET UNITYSDK_OFFSET(0x1967B010)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_FPSBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1967A2C0)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_GETCURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1967AA40)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_MEMBTNCLICK_OFFSET UNITYSDK_OFFSET(0x19679C00)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONDETAILBTNCLICK_OFFSET UNITYSDK_OFFSET(0x19679BC0)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1967A590)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONLOWMEMORY_OFFSET UNITYSDK_OFFSET(0x1967B160)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_RECORDREALTIMEMEM_OFFSET UNITYSDK_OFFSET(0x19679EA0)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_SETUPUI_OFFSET UNITYSDK_OFFSET(0x19678120)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_START_OFFSET UNITYSDK_OFFSET(0x19678100)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_TRACKCURMEM_OFFSET UNITYSDK_OFFSET(0x1967B110)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_UPDATEFPS_OFFSET UNITYSDK_OFFSET(0x19679980)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_UPDATEMEM_OFFSET UNITYSDK_OFFSET(0x196793C0)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x19678F40)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1967B170)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_CLEARRECORD_OFFSET UNITYSDK_OFFSET(0xB081B00)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xB081C60)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_FPSBTNCLICK_OFFSET UNITYSDK_OFFSET(0xB080DB0)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_GETCURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xB081530)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_MEMBTNCLICK_OFFSET UNITYSDK_OFFSET(0xB0806B0)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONDETAILBTNCLICK_OFFSET UNITYSDK_OFFSET(0xB080670)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONDRAG_OFFSET UNITYSDK_OFFSET(0xB081080)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONLOWMEMORY_OFFSET UNITYSDK_OFFSET(0xB081C50)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_RECORDREALTIMEMEM_OFFSET UNITYSDK_OFFSET(0xB080950)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_SETUPUI_OFFSET UNITYSDK_OFFSET(0xB07EBB0)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_START_OFFSET UNITYSDK_OFFSET(0xB07EB90)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_TRACKCURMEM_OFFSET UNITYSDK_OFFSET(0xB081C00)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_UPDATEFPS_OFFSET UNITYSDK_OFFSET(0xB080430)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_UPDATEMEM_OFFSET UNITYSDK_OFFSET(0xB07FE40)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xB07F9A0)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int AppDevicePerformanceBehavior_TypeDefinitionIndex = 47385;
+	inline static constexpr unsigned int AppDevicePerformanceBehavior_TypeDefinitionIndex = 46925;
 
 	class AppDevicePerformanceBehavior : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* RECORDING; // 0x0
-		// static const ::System::String* MEM_START; // 0x0
-		// static const ::System::String* FPS_START; // 0x0
 		::UnityEngine::UI::Text* _fpsText; // 0x18
 		::UnityEngine::UI::Button* _fpsBtn; // 0x20
 		::UnityEngine::UI::InputField* _fpsTitle; // 0x28
@@ -47,6 +43,7 @@ namespace RPGTools
 		::UnityEngine::UI::InputField* _memTitle; // 0x48
 		::System::Single _memUpdateInterval; // 0x50
 		::System::Boolean _memTagFlag; // 0x54
+		::System::Byte _padding0[0x3];
 		::System::Single _memUpdateTimer; // 0x58
 		::System::Int32 _currentMemoryInMB; // 0x5C
 		::System::Int32 _maxMemoryInMB; // 0x60
@@ -54,9 +51,11 @@ namespace RPGTools
 		::System::Int32 _avgMemoryInMB; // 0x68
 		::System::Int32 _tagTotalMemoryInMB; // 0x6C
 		::System::Int32 _tagMemoryFlag; // 0x70
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::Color>* _memLevelColor; // 0x78
 		::System::Single _fpsUpdateInterval; // 0x80
 		::System::Boolean _fpsTagFlag; // 0x84
+		::System::Byte _padding2[0x3];
 		::System::Single fpsMin; // 0x88
 		::System::Single fpsMax; // 0x8C
 		::System::Single fpsAvg; // 0x90
@@ -67,16 +66,20 @@ namespace RPGTools
 		::System::Int32 _totalFrames; // 0xA8
 		::System::Single _timeleft; // 0xAC
 		::System::Boolean isTracking; // 0xB0
+		::System::Byte _padding3[0x3];
 		::System::Single _trackingUpdateInterval; // 0xB4
 		::System::Single _trackingUpdateTimer; // 0xB8
+		::System::Byte _padding4[0x4];
 		::System::Collections::Generic::List_1<::System::String*>* trackingMemList; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* fpsDataDict; // 0xC8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* continuousMemDict; // 0xD0
 		::System::Collections::Generic::List_1<::System::String*>* realTimeMemList; // 0xD8
-
+		// static const ::System::String* RECORDING; // 0x0
+		// static const ::System::String* MEM_START; // 0x0
+		// static const ::System::String* FPS_START; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -148,5 +151,6 @@ namespace RPGTools
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR_ONLOWMEMORY_OFFSET))(this);
 		}
+
 	};
 }

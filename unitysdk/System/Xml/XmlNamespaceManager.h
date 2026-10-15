@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Xml/XmlNamespaceManager_NamespaceDeclaration.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_ADDNAMESPACE_OFFSET UNITYSDK_OFFSET(0x183F1880)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x183F2090)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_GET_DEFAULTNAMESPACE_OFFSET UNITYSDK_OFFSET(0x183F16E0)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x183F16D0)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPNAMESPACEDECL_OFFSET UNITYSDK_OFFSET(0x183F1CF0)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPNAMESPACE_OFFSET UNITYSDK_OFFSET(0x183F2330)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPPREFIX_OFFSET UNITYSDK_OFFSET(0x183F2380)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_POPSCOPE_OFFSET UNITYSDK_OFFSET(0x183F1790)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_PUSHSCOPE_OFFSET UNITYSDK_OFFSET(0x183F1780)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_REMOVENAMESPACE_OFFSET UNITYSDK_OFFSET(0x183F1F20)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x183EAFB0)
-#define SYSTEM_XML_XMLNAMESPACEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x183F16A0)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_ADDNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EF4F9F0)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF49140)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4F810)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EF501D0)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_GET_DEFAULTNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EF4F850)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1EF4F840)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPNAMESPACEDECL_OFFSET UNITYSDK_OFFSET(0x1EF4FE30)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EF50470)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPPREFIX_OFFSET UNITYSDK_OFFSET(0x1EF504C0)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_POPSCOPE_OFFSET UNITYSDK_OFFSET(0x1EF4F900)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_PUSHSCOPE_OFFSET UNITYSDK_OFFSET(0x1EF4F8F0)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_REMOVENAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EF50060)
 
 namespace System::Xml
 {
@@ -28,23 +27,23 @@ namespace System::Xml
 	class XmlNamespaceManager : public ::System::Object
 	{
 	public:
-		::System::String* xml; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* hashTable; // 0x18
-		::System::String* xmlNs; // 0x20
-		::Il2CppArray<::System::Xml::XmlNamespaceManager_NamespaceDeclaration>* nsdecls; // 0x28
-		::System::Xml::XmlNameTable* nameTable; // 0x30
+		::System::Xml::XmlNameTable* nameTable; // 0x10
+		::Il2CppArray<::System::Object*>* nsdecls; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* hashTable; // 0x20
+		::System::String* xml; // 0x28
+		::System::String* xmlNs; // 0x30
 		::System::Boolean useHashtable; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Int32 scopeId; // 0x3C
 		::System::Int32 lastDecl; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMESPACEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMESPACEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Xml::XmlNameTable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMESPACEMANAGER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMESPACEMANAGER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNameTable* get_NameTable()
@@ -96,5 +95,6 @@ namespace System::Xml
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMESPACEMANAGER_LOOKUPPREFIX_OFFSET))(this, a1);
 		}
+
 	};
 }

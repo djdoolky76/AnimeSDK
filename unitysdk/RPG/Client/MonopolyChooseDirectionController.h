@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x1C2A01F0)
-#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1C2A0240)
-#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C2A03C0)
-#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A0640)
+#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD87CFA0)
+#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xD87CB80)
+#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xD87CBD0)
+#define RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD87CD20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyChooseDirectionController_TypeDefinitionIndex = 72757;
+	inline static constexpr unsigned int MonopolyChooseDirectionController_TypeDefinitionIndex = 72840;
 
 	class MonopolyChooseDirectionController : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +19,9 @@ namespace RPG::Client
 		::UnityEngine::Transform* PlayerRef; // 0x18
 		::UnityEngine::RectTransform* _Rect; // 0x20
 		::UnityEngine::RectTransform* _SelfRect; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::UnityEngine::Transform* a1)
@@ -40,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCHOOSEDIRECTIONCONTROLLER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E3D50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E3D80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E3D40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E3CD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F626970)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6268F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6269A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F626960)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_MessageFunc_TypeDefinitionIndex = 38075;
+	inline static constexpr unsigned int BrowserNative_MessageFunc_TypeDefinitionIndex = 39372;
 
 	class BrowserNative_MessageFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_MESSAGEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

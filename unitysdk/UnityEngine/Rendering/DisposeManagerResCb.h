@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CD1C020)
-#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CD1C050)
-#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CD1C010)
-#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1BFA0)
+#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F2935C0)
+#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1F293540)
+#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F2935F0)
+#define UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F2935B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DisposeManagerResCb_TypeDefinitionIndex = 34893;
+	inline static constexpr unsigned int DisposeManagerResCb_TypeDefinitionIndex = 35562;
 
 	class DisposeManagerResCb : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +36,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DISPOSEMANAGERRESCB_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

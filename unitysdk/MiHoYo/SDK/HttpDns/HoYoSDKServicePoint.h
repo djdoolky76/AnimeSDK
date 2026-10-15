@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_GET_CONNECTIONLIMIT_OFFSET UNITYSDK_OFFSET(0x1C6FAE70)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_SET_CONNECTIONLIMIT_OFFSET UNITYSDK_OFFSET(0x1C6FAE80)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F9970)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB01D0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_GET_CONNECTIONLIMIT_OFFSET UNITYSDK_OFFSET(0xAFB16F0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_SET_CONNECTIONLIMIT_OFFSET UNITYSDK_OFFSET(0xAFB1700)
 
 namespace MiHoYo::SDK::HttpDns
 {
-	inline static constexpr unsigned int HoYoSDKServicePoint_TypeDefinitionIndex = 47162;
+	inline static constexpr unsigned int HoYoSDKServicePoint_TypeDefinitionIndex = 46702;
 
 	class HoYoSDKServicePoint : public ::System::Object
 	{
 	public:
 		::System::Int32 _ConnectionLimit_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_ConnectionLimit()
@@ -29,5 +28,6 @@ namespace MiHoYo::SDK::HttpDns
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HTTPDNS_HOYOSDKSERVICEPOINT_SET_CONNECTIONLIMIT_OFFSET))(this, a1);
 		}
+
 	};
 }

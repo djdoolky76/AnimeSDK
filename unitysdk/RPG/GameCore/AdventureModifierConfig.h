@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/MazeBuffType.h"
 #include "unitysdk/RPG/GameCore/ModifierConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x1CBBAD70)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1CBB9DD0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CBB9D30)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB9D90)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x1D39C4A0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39B4C0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D39B500)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D39B460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 17306;
+	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 17502;
 
 	class AdventureModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
@@ -24,6 +24,7 @@ namespace RPG::GameCore
 		::System::Int32 LevelMax; // 0x40
 		::System::Boolean IsCountDownAfterBattle; // 0x44
 		::System::Boolean ApplyBehaviorFlagBindEffects; // 0x45
+		::System::Byte _padding0[0x2];
 		::Il2CppArray<::RPG::GameCore::AdventureModifierBehaviorFlag>* BehaviorFlagList; // 0x48
 		::System::Int32 HolyShieldPriority; // 0x50
 		::System::Single TickInterval; // 0x54
@@ -58,25 +59,25 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterBuffFullUpdate; // 0x138
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAcceptMoney; // 0x140
 		::RPG::GameCore::MazeBuffType MazeBuffType; // 0x148
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifierConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureModifierConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifierConfig* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureModifierConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean ContainsBehaviorFlag(::RPG::GameCore::AdventureModifierBehaviorFlag a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AdventureModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET))(this, a1);
 		}
+
 	};
 }

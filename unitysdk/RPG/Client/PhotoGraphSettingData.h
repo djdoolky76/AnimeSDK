@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphSettingItemType.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphSettingOptionType.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class PhotoGraphSettingDataConfig; }
 
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x18673920)
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18673930)
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_OPTIONTYPE_OFFSET UNITYSDK_OFFSET(0x186739A0)
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18672950)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDAF7C30)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xDAF8BF0)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDAF8C00)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_OPTIONTYPE_OFFSET UNITYSDK_OFFSET(0xDAF8C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphSettingData_TypeDefinitionIndex = 66493;
+	inline static constexpr unsigned int PhotoGraphSettingData_TypeDefinitionIndex = 66461;
 
 	class PhotoGraphSettingData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::PhotoGraphSettingDataConfig* _Config_k__BackingField; // 0x10
 		::System::Boolean IsEnable; // 0x18
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::PhotoGraphSettingItemType SettingType; // 0x1C
-
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphSettingDataConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PhotoGraphSettingDataConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHSETTINGDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PhotoGraphSettingDataConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHSETTINGDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::PhotoGraphSettingDataConfig* get_Config()
@@ -42,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::PhotoGraphSettingOptionType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_OPTIONTYPE_OFFSET))(this);
 		}
+
 	};
 }

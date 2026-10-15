@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1D7475C0)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1F0E9290)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 43123;
+	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 38708;
 
 	class StateMachineUtility : public ::System::Object
 	{
@@ -17,5 +16,6 @@ namespace Cysharp::Threading::Tasks::CompilerServices
 		{
 			return ((::System::Int32(*)(::System::Runtime::CompilerServices::IAsyncStateMachine*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET))(a1);
 		}
+
 	};
 }

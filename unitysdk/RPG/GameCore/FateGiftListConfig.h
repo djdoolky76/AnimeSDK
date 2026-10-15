@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateGiftListConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEGIFTLISTCONFIG_METHOD_2_E70819CFDB013A22_OFFSET UNITYSDK_OFFSET(0x1E0CD620)
-#define RPG_GAMECORE_FATEGIFTLISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CD660)
+#define RPG_GAMECORE_FATEGIFTLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66D4B0)
+#define RPG_GAMECORE_FATEGIFTLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66D470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateGiftListConfig_TypeDefinitionIndex = 19024;
+	inline static constexpr unsigned int FateGiftListConfig_TypeDefinitionIndex = 19254;
 
 	class FateGiftListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEGIFTLISTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEGIFTLISTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E70819CFDB013A22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateGiftListConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateGiftListConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateGiftListConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEGIFTLISTCONFIG_METHOD_2_E70819CFDB013A22_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateGiftListConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEGIFTLISTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

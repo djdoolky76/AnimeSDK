@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LockTargetParam.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class PropInteractMuteInputActionParam; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_METHOD_3_67BB5732E77B236A_OFFSET UNITYSDK_OFFSET(0x1D313380)
-#define RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_METHOD_3_B1D9918E2C45F791_OFFSET UNITYSDK_OFFSET(0x1D312410)
-#define RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D312400)
+#define RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FAFE0)
+#define RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2FAFF0)
+#define RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FBF60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInteractMuteInputActionParam_TypeDefinitionIndex = 10168;
+	inline static constexpr unsigned int PropInteractMuteInputActionParam_TypeDefinitionIndex = 10181;
 
 	class PropInteractMuteInputActionParam : public ::RPG::Client::LockTargetParam
 	{
 	public:
 		::Il2CppArray<::System::String*>* MuteInputActionList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_67BB5732E77B236A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PropInteractMuteInputActionParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::PropInteractMuteInputActionParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::PropInteractMuteInputActionParam*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_METHOD_3_67BB5732E77B236A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::PropInteractMuteInputActionParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B1D9918E2C45F791(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PropInteractMuteInputActionParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::PropInteractMuteInputActionParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::PropInteractMuteInputActionParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_METHOD_3_B1D9918E2C45F791_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::PropInteractMuteInputActionParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINTERACTMUTEINPUTACTIONPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

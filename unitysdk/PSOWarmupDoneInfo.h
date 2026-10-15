@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/WarmupQualitySet.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PSOWARMUPDONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA6AE0)
+#define PSOWARMUPDONEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC392120)
 
-inline static constexpr unsigned int PSOWarmupDoneInfo_TypeDefinitionIndex = 47881;
+inline static constexpr unsigned int PSOWarmupDoneInfo_TypeDefinitionIndex = 47421;
 
-class PSOWarmupDoneInfo : public ::System::Object
-{
-public:
-	::System::Collections::Generic::List_1<::WarmupQualitySet>* qualities; // 0x10
-
-	::System::Void _ctor()
+	class PSOWarmupDoneInfo : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PSOWARMUPDONEINFO__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Collections::Generic::List_1<::WarmupQualitySet>* qualities; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PSOWARMUPDONEINFO_CTOR_OFFSET))(this);
+		}
+
+	};

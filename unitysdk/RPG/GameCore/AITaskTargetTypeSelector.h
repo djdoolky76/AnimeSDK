@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AISelector.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AITaskTargetTypeSelector; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_AITASKTARGETTYPESELECTOR_METHOD_3_743F9A6C1BBE14AE_OFFSET UNITYSDK_OFFSET(0x1D324EE0)
-#define RPG_GAMECORE_AITASKTARGETTYPESELECTOR_METHOD_3_7B76DD661EC62FA1_OFFSET UNITYSDK_OFFSET(0x1D3246E0)
-#define RPG_GAMECORE_AITASKTARGETTYPESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3246D0)
+#define RPG_GAMECORE_AITASKTARGETTYPESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30D2B0)
+#define RPG_GAMECORE_AITASKTARGETTYPESELECTOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D30D2C0)
+#define RPG_GAMECORE_AITASKTARGETTYPESELECTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30DB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AITaskTargetTypeSelector_TypeDefinitionIndex = 15422;
+	inline static constexpr unsigned int AITaskTargetTypeSelector_TypeDefinitionIndex = 15593;
 
 	class AITaskTargetTypeSelector : public ::RPG::GameCore::AISelector
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x10
 		::System::Boolean InverseResultFlag; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AITASKTARGETTYPESELECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AITASKTARGETTYPESELECTOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_743F9A6C1BBE14AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AITaskTargetTypeSelector*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AITaskTargetTypeSelector* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AITaskTargetTypeSelector*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AITASKTARGETTYPESELECTOR_METHOD_3_743F9A6C1BBE14AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AITaskTargetTypeSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AITASKTARGETTYPESELECTOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7B76DD661EC62FA1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AITaskTargetTypeSelector* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AITaskTargetTypeSelector* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AITaskTargetTypeSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AITASKTARGETTYPESELECTOR_METHOD_3_7B76DD661EC62FA1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AITaskTargetTypeSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AITASKTARGETTYPESELECTOR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

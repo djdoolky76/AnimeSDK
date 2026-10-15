@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class AEGMKCGMPKA;
+class BAIBJGAMDAI;
+class BEACKINOAPF;
+class BLNGCDEDLBC;
+class DJFEFCNBJNO;
+class GBNJAFIOLIP;
+class GPOJDMAFJDE;
+class HPDGCJJCBIH;
+class LOCEIACFACA;
+class NEAAKMBHGFC;
+
+#define BIPIFKDGEFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB791270)
+#define BIPIFKDGEFO_GET_ASSEMBLER_OFFSET UNITYSDK_OFFSET(0xB7911D0)
+#define BIPIFKDGEFO_GET_DISPLAYSERVICE_OFFSET UNITYSDK_OFFSET(0xB791240)
+#define BIPIFKDGEFO_GET_ENDREPOSITORY_OFFSET UNITYSDK_OFFSET(0xB791230)
+#define BIPIFKDGEFO_GET_ENDSERVICE_OFFSET UNITYSDK_OFFSET(0xB791260)
+#define BIPIFKDGEFO_GET_FLOWMODEL_OFFSET UNITYSDK_OFFSET(0xB791220)
+#define BIPIFKDGEFO_GET_FLOWSERVICE_OFFSET UNITYSDK_OFFSET(0xB791210)
+#define BIPIFKDGEFO_GET_MAPSERVICE_OFFSET UNITYSDK_OFFSET(0xB7911E0)
+#define BIPIFKDGEFO_GET_MONSTERSERVICE_OFFSET UNITYSDK_OFFSET(0xB791200)
+#define BIPIFKDGEFO_GET_NETWORKSERVICE_OFFSET UNITYSDK_OFFSET(0xB7911F0)
+#define BIPIFKDGEFO_GET_RECOMMENDAVATARSERVICE_OFFSET UNITYSDK_OFFSET(0xB791250)
+
+inline static constexpr unsigned int BIPIFKDGEFO_TypeDefinitionIndex = 63958;
+
+	class BIPIFKDGEFO : public ::System::Object
+	{
+	public:
+		::BAIBJGAMDAI* _FlowModel_k__BackingField; // 0x10
+		::HPDGCJJCBIH* _EndRepository_k__BackingField; // 0x18
+		::DJFEFCNBJNO* _MapService_k__BackingField; // 0x20
+		::BEACKINOAPF* _FlowService_k__BackingField; // 0x28
+		::GPOJDMAFJDE* _DisplayService_k__BackingField; // 0x30
+		::LOCEIACFACA* _Assembler_k__BackingField; // 0x38
+		::BLNGCDEDLBC* _EndService_k__BackingField; // 0x40
+		::AEGMKCGMPKA* _NetworkService_k__BackingField; // 0x48
+		::NEAAKMBHGFC* _MonsterService_k__BackingField; // 0x50
+		::GBNJAFIOLIP* _RecommendAvatarService_k__BackingField; // 0x58
+		::System::Void _ctor(::LOCEIACFACA* a1, ::DJFEFCNBJNO* a2, ::AEGMKCGMPKA* a3, ::NEAAKMBHGFC* a4, ::BEACKINOAPF* a5, ::BAIBJGAMDAI* a6, ::HPDGCJJCBIH* a7, ::GPOJDMAFJDE* a8, ::GBNJAFIOLIP* a9, ::BLNGCDEDLBC* a10)
+		{
+			return ((::System::Void(*)(::PVOID, ::LOCEIACFACA*, ::DJFEFCNBJNO*, ::AEGMKCGMPKA*, ::NEAAKMBHGFC*, ::BEACKINOAPF*, ::BAIBJGAMDAI*, ::HPDGCJJCBIH*, ::GPOJDMAFJDE*, ::GBNJAFIOLIP*, ::BLNGCDEDLBC*))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+		}
+
+		::LOCEIACFACA* get_Assembler()
+		{
+			return ((::LOCEIACFACA*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_ASSEMBLER_OFFSET))(this);
+		}
+
+		::DJFEFCNBJNO* get_MapService()
+		{
+			return ((::DJFEFCNBJNO*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_MAPSERVICE_OFFSET))(this);
+		}
+
+		::AEGMKCGMPKA* get_NetworkService()
+		{
+			return ((::AEGMKCGMPKA*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_NETWORKSERVICE_OFFSET))(this);
+		}
+
+		::NEAAKMBHGFC* get_MonsterService()
+		{
+			return ((::NEAAKMBHGFC*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_MONSTERSERVICE_OFFSET))(this);
+		}
+
+		::BEACKINOAPF* get_FlowService()
+		{
+			return ((::BEACKINOAPF*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_FLOWSERVICE_OFFSET))(this);
+		}
+
+		::BAIBJGAMDAI* get_FlowModel()
+		{
+			return ((::BAIBJGAMDAI*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_FLOWMODEL_OFFSET))(this);
+		}
+
+		::HPDGCJJCBIH* get_EndRepository()
+		{
+			return ((::HPDGCJJCBIH*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_ENDREPOSITORY_OFFSET))(this);
+		}
+
+		::GPOJDMAFJDE* get_DisplayService()
+		{
+			return ((::GPOJDMAFJDE*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_DISPLAYSERVICE_OFFSET))(this);
+		}
+
+		::GBNJAFIOLIP* get_RecommendAvatarService()
+		{
+			return ((::GBNJAFIOLIP*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_RECOMMENDAVATARSERVICE_OFFSET))(this);
+		}
+
+		::BLNGCDEDLBC* get_EndService()
+		{
+			return ((::BLNGCDEDLBC*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIPIFKDGEFO_GET_ENDSERVICE_OFFSET))(this);
+		}
+
+	};

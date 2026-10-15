@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateInfo_TypeDefinitionIndex = 78424;
+	inline static constexpr unsigned int TeleportGateInfo_TypeDefinitionIndex = 78895;
 
 	struct alignas(8) TeleportGateInfo
 	{
@@ -15,6 +13,7 @@ namespace RPG::Client::Prop
 		::System::UInt32 SwitchGroupID; // 0x18
 		::System::UInt32 SwitchPropID; // 0x1C
 		::System::Boolean ForbidAimRotation; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::String* TeleportTextOverride; // 0x28
 		::System::String* RotateTextOverride; // 0x30
 	};

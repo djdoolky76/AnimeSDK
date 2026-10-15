@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WolfBroUseBullet; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WOLFBROUSEBULLET_METHOD_3_1E2289F7B25C2FFB_OFFSET UNITYSDK_OFFSET(0x1EFA93B0)
-#define RPG_GAMECORE_WOLFBROUSEBULLET_METHOD_3_404AB43E87ADF5FE_OFFSET UNITYSDK_OFFSET(0x1EFA92E0)
-#define RPG_GAMECORE_WOLFBROUSEBULLET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA93A0)
+#define RPG_GAMECORE_WOLFBROUSEBULLET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7BE10)
+#define RPG_GAMECORE_WOLFBROUSEBULLET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC7BE20)
+#define RPG_GAMECORE_WOLFBROUSEBULLET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC7BD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroUseBullet_TypeDefinitionIndex = 21342;
+	inline static constexpr unsigned int WolfBroUseBullet_TypeDefinitionIndex = 21588;
 
 	class WolfBroUseBullet : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_404AB43E87ADF5FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroUseBullet*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WolfBroUseBullet* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroUseBullet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLET_METHOD_3_404AB43E87ADF5FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WolfBroUseBullet*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1E2289F7B25C2FFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroUseBullet* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WolfBroUseBullet* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroUseBullet*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLET_METHOD_3_1E2289F7B25C2FFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WolfBroUseBullet*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System::Xml::Serialization { class TypeMember; }
 
-#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B08F0C0)
-#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B08F030)
-#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B08EF00)
-#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B08F120)
-#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B08EEF0)
+#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EECFB70)
+#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EECFD40)
+#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EECFCB0)
+#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EECFB80)
+#define SYSTEM_XML_SERIALIZATION_TYPEMEMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EECFDA0)
 
 namespace System::Xml::Serialization
 {
@@ -18,12 +19,11 @@ namespace System::Xml::Serialization
 	class TypeMember : public ::System::Object
 	{
 	public:
-		::System::String* member; // 0x10
-		::System::Type* type; // 0x18
-
+		::System::Type* type; // 0x10
+		::System::String* member; // 0x18
 		::System::Void _ctor(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_TYPEMEMBER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_TYPEMEMBER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -45,5 +45,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_TYPEMEMBER_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

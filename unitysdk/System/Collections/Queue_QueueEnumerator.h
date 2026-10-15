@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections { class Queue; }
 
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1C9DC550)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C9DC6C0)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C9DC5F0)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C9DC780)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DC200)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1C09D8E0)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C09D590)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C09DA50)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C09D980)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C09DB10)
 
 namespace System::Collections
 {
@@ -17,14 +17,13 @@ namespace System::Collections
 	class Queue_QueueEnumerator : public ::System::Object
 	{
 	public:
-		::System::Object* currentElement; // 0x10
-		::System::Collections::Queue* _q; // 0x18
+		::System::Collections::Queue* _q; // 0x10
+		::System::Object* currentElement; // 0x18
 		::System::Int32 _index; // 0x20
 		::System::Int32 _version; // 0x24
-
 		::System::Void _ctor(::System::Collections::Queue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Queue*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Queue*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* Clone()
@@ -46,5 +45,6 @@ namespace System::Collections
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

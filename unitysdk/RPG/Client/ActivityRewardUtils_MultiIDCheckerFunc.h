@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B879910)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B879950)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8795F0)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B879890)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC59C1D0)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC59C150)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC59C210)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0xC59BEB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils_MultiIDCheckerFunc_TypeDefinitionIndex = 61836;
+	inline static constexpr unsigned int ActivityRewardUtils_MultiIDCheckerFunc_TypeDefinitionIndex = 61746;
 
 	class ActivityRewardUtils_MultiIDCheckerFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::Il2CppArray<::System::UInt32>* a1, ::System::Func_2<::System::UInt32, ::System::Boolean>* a2)
@@ -38,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

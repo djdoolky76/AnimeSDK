@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define RPG_GAMECORE_JSONCONFIG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C107440)
-#define RPG_GAMECORE_JSONCONFIG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1C107450)
-#define RPG_GAMECORE_JSONCONFIG_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1C107490)
-#define RPG_GAMECORE_JSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C107520)
+#define RPG_GAMECORE_JSONCONFIG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D7721D0)
+#define RPG_GAMECORE_JSONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75F9B0)
+#define RPG_GAMECORE_JSONCONFIG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1D7721E0)
+#define RPG_GAMECORE_JSONCONFIG_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1D772220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 10852;
+	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 10868;
 
 	class JsonConfig : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONCONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
@@ -33,5 +34,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONCONFIG_SHAREBYCOPY_OFFSET))(this);
 		}
+
 	};
 }

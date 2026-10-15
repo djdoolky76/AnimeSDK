@@ -3,24 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF29CF0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1BF29E10)
-#define RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF29EE0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93FD20)
+#define RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE93FE40)
+#define RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE93FF10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageEvtTrack_TypeDefinitionIndex = 48843;
+	inline static constexpr unsigned int TalkImageEvtTrack_TypeDefinitionIndex = 48389;
 
 	class TalkImageEvtTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

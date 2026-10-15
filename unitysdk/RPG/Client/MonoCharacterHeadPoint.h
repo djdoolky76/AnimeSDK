@@ -3,23 +3,22 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MONOCHARACTERHEADPOINT_GET_WORLDPOS_OFFSET UNITYSDK_OFFSET(0x19E2ECC0)
-#define RPG_CLIENT_MONOCHARACTERHEADPOINT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x19E2EF00)
-#define RPG_CLIENT_MONOCHARACTERHEADPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2EF40)
+#define RPG_CLIENT_MONOCHARACTERHEADPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xD72A5D0)
+#define RPG_CLIENT_MONOCHARACTERHEADPOINT_GET_WORLDPOS_OFFSET UNITYSDK_OFFSET(0xD72A350)
+#define RPG_CLIENT_MONOCHARACTERHEADPOINT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xD72A590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCharacterHeadPoint_TypeDefinitionIndex = 68501;
+	inline static constexpr unsigned int MonoCharacterHeadPoint_TypeDefinitionIndex = 68535;
 
 	class MonoCharacterHeadPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single radius; // 0x18
 		::UnityEngine::Vector3 offset; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERHEADPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERHEADPOINT_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_WorldPos()
@@ -31,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCHARACTERHEADPOINT_ONDRAWGIZMOSSELECTED_OFFSET))(this);
 		}
+
 	};
 }

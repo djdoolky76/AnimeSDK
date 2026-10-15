@@ -1,63 +1,66 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InControlUpdateMode.h"
-#include "unitysdk/InControl/LogMessage.h"
-#include "unitysdk/InControl/SingletonMonoBehavior_1.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
+#include "unitysdk/InControl/LogMessage.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
 
-#define INCONTROL_INCONTROLMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x18E82F60)
-#define INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x18E83240)
-#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x18E82FC0)
-#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x18E830B0)
-#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x18E83100)
-#define INCONTROL_INCONTROLMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18E82480)
-#define INCONTROL_INCONTROLMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18E81560)
-#define INCONTROL_INCONTROLMANAGER_ONSCENEWASLOADED_OFFSET UNITYSDK_OFFSET(0x18E83190)
-#define INCONTROL_INCONTROLMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18E82820)
-#define INCONTROL_INCONTROLMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E83400)
-#define INCONTROL_INCONTROLMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E833D0)
+#define INCONTROL_INCONTROLMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9CDDF0)
+#define INCONTROL_INCONTROLMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CDDC0)
+#define INCONTROL_INCONTROLMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1B9CD950)
+#define INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B9CDC30)
+#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x1B9CD9B0)
+#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1B9CDAA0)
+#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1B9CDAF0)
+#define INCONTROL_INCONTROLMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B9CCE70)
+#define INCONTROL_INCONTROLMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B9CBF30)
+#define INCONTROL_INCONTROLMANAGER_ONSCENEWASLOADED_OFFSET UNITYSDK_OFFSET(0x1B9CDB80)
+#define INCONTROL_INCONTROLMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B9CD210)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlManager_TypeDefinitionIndex = 39518;
+	inline static constexpr unsigned int InControlManager_TypeDefinitionIndex = 40815;
 
-	class InControlManager : public ::InControl::SingletonMonoBehavior_1<::InControl::InControlManager*>
+	class InControlManager
 	{
 	public:
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_InControlUpdateMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(InControlManager_TypeDefinitionIndex)->GetStaticField(0xD60);
-		}
 		::System::Boolean logDebugInfo; // 0x18
 		::System::Boolean invertYAxis; // 0x19
 		::System::Boolean useFixedUpdate; // 0x1A
 		::System::Boolean dontDestroyOnLoad; // 0x1B
 		::System::Boolean suspendInBackground; // 0x1C
+		::System::Byte _padding0[0x3];
 		::InControl::InControlUpdateMode updateMode; // 0x20
 		::System::Boolean enableICade; // 0x24
 		::System::Boolean enableXInput; // 0x25
 		::System::Boolean xInputOverrideUpdateRate; // 0x26
+		::System::Byte _padding1[0x1];
 		::System::Int32 xInputUpdateRate; // 0x28
 		::System::Boolean xInputOverrideBufferSize; // 0x2C
+		::System::Byte _padding2[0x3];
 		::System::Int32 xInputBufferSize; // 0x30
 		::System::Boolean enableNativeInput; // 0x34
 		::System::Boolean nativeInputEnableXInput; // 0x35
 		::System::Boolean nativeInputEnableMFi; // 0x36
 		::System::Boolean nativeInputPreventSleep; // 0x37
 		::System::Boolean nativeInputOverrideUpdateRate; // 0x38
+		::System::Byte _padding3[0x3];
 		::System::Int32 nativeInputUpdateRate; // 0x3C
 		::System::Boolean applicationHasQuit; // 0x40
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_InControlUpdateMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("InControl", "InControlManager")->GetStaticField(0x14B30);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Void OnEnable()
@@ -104,5 +107,6 @@ namespace InControl
 		{
 			return ((::System::Void(*)(::InControl::LogMessage))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Xml::Linq { class XName; }
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XStreamingElement_TypeDefinitionIndex = 3908;
+	inline static constexpr unsigned int XStreamingElement_TypeDefinitionIndex = 3909;
 
 	class XStreamingElement : public ::System::Object
 	{

@@ -3,25 +3,24 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ADDITIONALBOUND_GET_ADDITIONALBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x196473D0)
-#define RPG_CLIENT_ADDITIONALBOUND_GET_ADDITIONALBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0x196473B0)
-#define RPG_CLIENT_ADDITIONALBOUND_SET_ADDITIONALBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x196473F0)
-#define RPG_CLIENT_ADDITIONALBOUND_SET_ADDITIONALBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0x196473C0)
-#define RPG_CLIENT_ADDITIONALBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19647400)
+#define RPG_CLIENT_ADDITIONALBOUND_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C32A0)
+#define RPG_CLIENT_ADDITIONALBOUND_GET_ADDITIONALBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xC5C3270)
+#define RPG_CLIENT_ADDITIONALBOUND_GET_ADDITIONALBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xC5C3250)
+#define RPG_CLIENT_ADDITIONALBOUND_SET_ADDITIONALBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xC5C3290)
+#define RPG_CLIENT_ADDITIONALBOUND_SET_ADDITIONALBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xC5C3260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdditionalBound_TypeDefinitionIndex = 68853;
+	inline static constexpr unsigned int AdditionalBound_TypeDefinitionIndex = 68887;
 
 	class AdditionalBound : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single _AdditionalBoundSize; // 0x18
 		::UnityEngine::Bounds _AdditionalBoundFull; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDITIONALBOUND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDITIONALBOUND_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_AdditionalBoundSize()
@@ -43,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDITIONALBOUND_SET_ADDITIONALBOUNDFULL_OFFSET))(this, a1);
 		}
+
 	};
 }

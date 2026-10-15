@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_RenderTexturePrecision_TypeDefinitionIndex = 42322;
+inline static constexpr unsigned int RefGPUParticleSystem_RenderTexturePrecision_TypeDefinitionIndex = 44009;
 
-enum class RefGPUParticleSystem_RenderTexturePrecision : ::System::Int32
-{
-	Half = 0,
-	Float = 1,
-};
+	enum class RefGPUParticleSystem_RenderTexturePrecision : ::System::Int32
+	{
+		Half = 0,
+		Float = 1,
+	};

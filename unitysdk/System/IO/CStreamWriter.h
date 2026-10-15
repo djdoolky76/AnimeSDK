@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/StreamWriter.h"
-
 namespace System { class String; }
 namespace System { class TermInfoDriver; }
 namespace System::IO { class Stream; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_IO_CSTREAMWRITER_INTERNALWRITECHARS_OFFSET UNITYSDK_OFFSET(0x18DA7160)
-#define SYSTEM_IO_CSTREAMWRITER_INTERNALWRITECHAR_OFFSET UNITYSDK_OFFSET(0x18DA7060)
-#define SYSTEM_IO_CSTREAMWRITER_INTERNALWRITESTRING_OFFSET UNITYSDK_OFFSET(0x18DA70E0)
-#define SYSTEM_IO_CSTREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x18DA6E20)
-#define SYSTEM_IO_CSTREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x18DA71F0)
-#define SYSTEM_IO_CSTREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x18DA7210)
-#define SYSTEM_IO_CSTREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x18DA6640)
-#define SYSTEM_IO_CSTREAMWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18DA6540)
+#define SYSTEM_IO_CSTREAMWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2205B0)
+#define SYSTEM_IO_CSTREAMWRITER_INTERNALWRITECHARS_OFFSET UNITYSDK_OFFSET(0x1C2211D0)
+#define SYSTEM_IO_CSTREAMWRITER_INTERNALWRITECHAR_OFFSET UNITYSDK_OFFSET(0x1C2210D0)
+#define SYSTEM_IO_CSTREAMWRITER_INTERNALWRITESTRING_OFFSET UNITYSDK_OFFSET(0x1C221150)
+#define SYSTEM_IO_CSTREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1C220E90)
+#define SYSTEM_IO_CSTREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1C221260)
+#define SYSTEM_IO_CSTREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1C221280)
+#define SYSTEM_IO_CSTREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1C2206B0)
 
 namespace System::IO
 {
@@ -24,10 +23,9 @@ namespace System::IO
 	{
 	public:
 		::System::TermInfoDriver* driver; // 0x68
-
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::Text::Encoding* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_CSTREAMWRITER__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_CSTREAMWRITER_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Write(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -64,5 +62,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_CSTREAMWRITER_WRITE_3_OFFSET))(this, a1);
 		}
+
 	};
 }

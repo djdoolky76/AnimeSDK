@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/GrantType.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABDCA0)
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__NEWDEVICEGRANTMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x18ABDCB0)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD23F80)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__NEWDEVICEGRANTMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1BD23F90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GrantManager___c__DisplayClass15_0_TypeDefinitionIndex = 9306;
+	inline static constexpr unsigned int GrantManager___c__DisplayClass15_0_TypeDefinitionIndex = 9364;
 
 	class GrantManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::String* url; // 0x10
 		::System::String* ticket; // 0x18
-		::System::String* url; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x20
 		::MiHoYo::SDK::GrantType type; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _NewDeviceGrantMessage_b__0(::System::Int32 a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__NEWDEVICEGRANTMESSAGE_B__0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXCATEGORY_REACTAISACMODULATIONPARAMETER_GET_ENABLEDECREMENTAISACMODULATIONKEY_OFFSET UNITYSDK_OFFSET(0xD328C0)
-#define CRIWARE_CRIATOMEXCATEGORY_REACTAISACMODULATIONPARAMETER_GET_ENABLEINCREMENTAISACMODULATIONKEY_OFFSET UNITYSDK_OFFSET(0x3BB1A90)
+#define CRIWARE_CRIATOMEXCATEGORY_REACTAISACMODULATIONPARAMETER_GET_ENABLEDECREMENTAISACMODULATIONKEY_OFFSET UNITYSDK_OFFSET(0x10C0)
+#define CRIWARE_CRIATOMEXCATEGORY_REACTAISACMODULATIONPARAMETER_GET_ENABLEINCREMENTAISACMODULATIONKEY_OFFSET UNITYSDK_OFFSET(0x2E8D5D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactAisacModulationParameter_TypeDefinitionIndex = 38695;
+	inline static constexpr unsigned int CriAtomExCategory_ReactAisacModulationParameter_TypeDefinitionIndex = 39992;
 
 	struct alignas(4) CriAtomExCategory_ReactAisacModulationParameter
 	{
@@ -15,7 +14,6 @@ namespace CriWare
 		::System::UInt32 decrementAisacModulationKey; // 0x14
 		::System::Int32 _enableIncrementAisacModulationKey; // 0x18
 		::System::UInt32 incrementAisacModulationKey; // 0x1C
-
 		::System::Boolean get_enableDecrementAisacModulationKey()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXCATEGORY_REACTAISACMODULATIONPARAMETER_GET_ENABLEDECREMENTAISACMODULATIONKEY_OFFSET))(this);
@@ -25,5 +23,6 @@ namespace CriWare
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXCATEGORY_REACTAISACMODULATIONPARAMETER_GET_ENABLEINCREMENTAISACMODULATIONKEY_OFFSET))(this);
 		}
+
 	};
 }

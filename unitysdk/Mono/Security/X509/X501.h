@@ -1,87 +1,100 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security { class ASN1; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MONO_SECURITY_X509_X501_APPENDENTRY_OFFSET UNITYSDK_OFFSET(0x1D257A10)
-#define MONO_SECURITY_X509_X501_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1D258CE0)
-#define MONO_SECURITY_X509_X501_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D2577E0)
-#define MONO_SECURITY_X509_X501__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D259020)
+#define MONO_SECURITY_X509_X501_APPENDENTRY_OFFSET UNITYSDK_OFFSET(0x1C064860)
+#define MONO_SECURITY_X509_X501_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C065E70)
+#define MONO_SECURITY_X509_X501_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1C065B30)
+#define MONO_SECURITY_X509_X501_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C064630)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X501_TypeDefinitionIndex = 2266;
+	inline static constexpr unsigned int X501_TypeDefinitionIndex = 57;
 
 	class X501 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_domainComponent()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF10);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_stateOrProvinceName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF18);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_givenName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF20);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_commonName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF28);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_organizationalUnitName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF30);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_streetAddress()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF38);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_organizationName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF40);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_localityName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF48);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_initial()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF50);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_countryName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF58);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_surname()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF60);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_dnQualifier()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF68);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_title()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF70);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9A0);
 		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_commonName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9A8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_organizationName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9B0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_stateOrProvinceName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9B8);
+		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_userid()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF78);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9C0);
 		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_streetAddress()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9C8);
+		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_email()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x2BF80);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9D0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_organizationalUnitName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9D8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_surname()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9E0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_domainComponent()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9E8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_dnQualifier()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9F0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_givenName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xD9F8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_initial()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xDA00);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_localityName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xDA08);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_countryName()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.X509", "X501")->GetStaticField(0xDA10);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X501__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X501_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* ToString(::Mono::Security::ASN1* a1)
@@ -98,5 +111,6 @@ namespace Mono::Security::X509
 		{
 			return ((::System::Void(*)(::System::Text::StringBuilder*, ::Mono::Security::ASN1*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X501_APPENDENTRY_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

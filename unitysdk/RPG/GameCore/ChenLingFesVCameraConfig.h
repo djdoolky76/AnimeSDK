@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingFesVCameraConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_METHOD_2_0B5278971023681C_OFFSET UNITYSDK_OFFSET(0x1E014EC0)
-#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E017C30)
+#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D563550)
+#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D560570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesVCameraConfig_TypeDefinitionIndex = 18213;
+	inline static constexpr unsigned int ChenLingFesVCameraConfig_TypeDefinitionIndex = 18428;
 
 	class ChenLingFesVCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -18,15 +18,15 @@ namespace RPG::GameCore
 		::RPG::MVector3 CameraCenterFollowOffset; // 0x10
 		::RPG::MVector3 CameraCenterLookAtOffset; // 0x1C
 		::System::Single CameraFOV; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESVCAMERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0B5278971023681C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesVCameraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesVCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesVCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_METHOD_2_0B5278971023681C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesVCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

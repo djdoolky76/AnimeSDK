@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/PhotoGraphIdentifyDisplayType.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphModeType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SwitchPhotoGraphMode; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_METHOD_3_455A2DFBD33CD5BE_OFFSET UNITYSDK_OFFSET(0x1E151930)
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_METHOD_3_BC1FA8DF523BC277_OFFSET UNITYSDK_OFFSET(0x1E1518E0)
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E151920)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB174E0)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB174F0)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB174A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchPhotoGraphMode_TypeDefinitionIndex = 20284;
+	inline static constexpr unsigned int SwitchPhotoGraphMode_TypeDefinitionIndex = 20522;
 
 	class SwitchPhotoGraphMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,25 +22,27 @@ namespace RPG::GameCore
 		::RPG::GameCore::PhotoGraphModeType PhotoGraphMode; // 0x18
 		::System::Boolean ExitWhenPreViewDialogFinish; // 0x1C
 		::System::Boolean SkipPhotoPreviewDialog; // 0x1D
+		::System::Byte _padding0[0x2];
 		::RPG::GameCore::DynamicFloat* IdentifyRadiusOverride; // 0x20
 		::System::Single IdentifyMaxExitDistance; // 0x28
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::TargetEvaluator* IdentifyLookAt; // 0x30
 		::System::Single InitFov; // 0x38
 		::RPG::GameCore::PhotoGraphIdentifyDisplayType IdentifyDisplayType; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHPHOTOGRAPHMODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BC1FA8DF523BC277(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchPhotoGraphMode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchPhotoGraphMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchPhotoGraphMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_METHOD_3_BC1FA8DF523BC277_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchPhotoGraphMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_455A2DFBD33CD5BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchPhotoGraphMode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchPhotoGraphMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchPhotoGraphMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_METHOD_3_455A2DFBD33CD5BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchPhotoGraphMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,41 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CLEARIMAGE_OFFSET UNITYSDK_OFFSET(0x17B1AE90)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x17B1AC30)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17B1ABB0)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_SHOWIMAGE_OFFSET UNITYSDK_OFFSET(0x17B1AC90)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B1AFF0)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17B1AFE0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDBF900)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CLEARIMAGE_OFFSET UNITYSDK_OFFSET(0xDDBF7A0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBF8F0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_EBIPCMFGMDK_OFFSET UNITYSDK_OFFSET(0xDDBF540)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDDBF4C0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_SHOWIMAGE_OFFSET UNITYSDK_OFFSET(0xDDBF5A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TrainPartyBuildPhotoWallItem_TypeDefinitionIndex = 77711;
+	inline static constexpr unsigned int TrainPartyBuildPhotoWallItem_TypeDefinitionIndex = 78182;
 
 	class TrainPartyBuildPhotoWallItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_DBLJMLMIIIL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildPhotoWallItem_TypeDefinitionIndex)->GetStaticField(0x14E80);
-		}
 		::UnityEngine::Renderer* ImageRenderer; // 0x18
 		::UnityEngine::Texture* CECNGLFHAPO; // 0x20
 		::System::String* BMDOOFPLCID; // 0x28
+		static ::System::Int32* StaticGet_DBLJMLMIIIL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "TrainPartyBuildPhotoWallItem")->GetStaticField(0x12880);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CCTOR_OFFSET))();
 		}
 
 		::System::Void OnDestroy()
@@ -53,9 +52,10 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CLEARIMAGE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void EBIPCMFGMDK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_EBIPCMFGMDK_OFFSET))(this);
 		}
+
 	};
 }

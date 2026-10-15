@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class Airship_AirshipEffectConfig; }
+
+#define RPG_CLIENT_AIRLINEWAY_BKDFMLDIINE_CTOR_OFFSET UNITYSDK_OFFSET(0xC63D090)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AirlineWay_BKDFMLDIINE_TypeDefinitionIndex = 59775;
+
+	class AirlineWay_BKDFMLDIINE : public ::System::Object
+	{
+	public:
+		::RPG::Client::Airship_AirshipEffectConfig* HPBAMMEFDMK; // 0x10
+		::System::Single BJOCBPFKJDP; // 0x18
+		::System::Int32 MDBEIMFCMOG; // 0x1C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEWAY_BKDFMLDIINE_CTOR_OFFSET))(this);
+		}
+
+	};
+}

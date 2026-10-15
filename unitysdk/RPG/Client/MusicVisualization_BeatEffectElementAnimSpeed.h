@@ -2,55 +2,55 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MusicVisualization_BeatEffectElementVisualBase.h"
 #include "unitysdk/UnityEngine/AnimatorClipInfo.h"
-
-class Class_1_159F4A26A6FBCACF;
-namespace RPG::Client { class MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam; }
+class BOMMJNIPOLG;
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_8A4821B6962F6B25_OFFSET UNITYSDK_OFFSET(0x1A313AB0)
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1A313CF0)
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_E530905EC9C5B4AD_OFFSET UNITYSDK_OFFSET(0x1A313A60)
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_EF9FF539AE18C3F9_OFFSET UNITYSDK_OFFSET(0x1A313D50)
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313E60)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0xD918410)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_HGPDJBBICOA_OFFSET UNITYSDK_OFFSET(0xD9182A0)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_JPPILOBIOJO_OFFSET UNITYSDK_OFFSET(0xD918300)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0xD918010)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_LKHPLBHJEPH_OFFSET UNITYSDK_OFFSET(0xD918060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_BeatEffectElementAnimSpeed_TypeDefinitionIndex = 70772;
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementAnimSpeed_TypeDefinitionIndex = 70810;
 
 	class MusicVisualization_BeatEffectElementAnimSpeed : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{
 	public:
-		::Il2CppArray<::RPG::Client::MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam*>* AnimStateParams; // 0x30
+		::Il2CppArray<::System::Object*>* AnimStateParams; // 0x30
 		::System::String* _ClipName; // 0x38
 		::Il2CppArray<::UnityEngine::AnimatorClipInfo>* _ClipInfos; // 0x40
 		::System::Single _AnimationDuration; // 0x48
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Animator* _Animator; // 0x50
 		::System::Int32 _RandomIndex; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_E530905EC9C5B4AD(::Class_1_159F4A26A6FBCACF* a1)
+		::System::Void KFDMIOANNDO(::BOMMJNIPOLG* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_E530905EC9C5B4AD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::BOMMJNIPOLG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_KFDMIOANNDO_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_9681042564541CD6()
+		::System::Void HGPDJBBICOA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_HGPDJBBICOA_OFFSET))(this);
 		}
 
-		static ::System::Int32 Method_2_EF9FF539AE18C3F9(::Il2CppArray<::RPG::Client::MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam*>* a1)
+		static ::System::Int32 JPPILOBIOJO(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::RPG::Client::MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_EF9FF539AE18C3F9_OFFSET))(a1);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_JPPILOBIOJO_OFFSET))(a1);
 		}
 
-		::System::Void Method_2_8A4821B6962F6B25(::Class_1_159F4A26A6FBCACF* a1)
+		::System::Void LKHPLBHJEPH(::BOMMJNIPOLG* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_METHOD_2_8A4821B6962F6B25_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::BOMMJNIPOLG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_LKHPLBHJEPH_OFFSET))(this, a1);
 		}
+
 	};
 }

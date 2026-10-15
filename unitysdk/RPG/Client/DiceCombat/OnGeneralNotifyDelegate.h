@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Google::Protobuf { class ByteString; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C4C10)
-#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C4C70)
-#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C4C00)
-#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C4B90)
+#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCCA9D00)
+#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA9C80)
+#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCCA9D60)
+#define RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCCA9CF0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int OnGeneralNotifyDelegate_TypeDefinitionIndex = 75657;
+	inline static constexpr unsigned int OnGeneralNotifyDelegate_TypeDefinitionIndex = 76134;
 
 	class OnGeneralNotifyDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt32 a1, ::Google::Protobuf::ByteString* a2)
@@ -38,5 +37,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONGENERALNOTIFYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

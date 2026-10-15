@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_FULLPARAMS_OFFSET UNITYSDK_OFFSET(0x1B3A0D80)
-#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_MIDDLEPARAMS_OFFSET UNITYSDK_OFFSET(0x1B3A0DD0)
-#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_SMALLPARAMS_OFFSET UNITYSDK_OFFSET(0x1B3A0E20)
-#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_STOPPARAMS_OFFSET UNITYSDK_OFFSET(0x1B3A0E70)
-#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_METHOD_2_0291408F883F68BB_OFFSET UNITYSDK_OFFSET(0x1B3A0F40)
-#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_METHOD_2_965753FE2B573CAF_OFFSET UNITYSDK_OFFSET(0x1B3A0EC0)
+#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0xD80C770)
+#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_EBLLCHBCJGG_OFFSET UNITYSDK_OFFSET(0xD80C7F0)
+#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_FULLPARAMS_OFFSET UNITYSDK_OFFSET(0xD80C630)
+#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_MIDDLEPARAMS_OFFSET UNITYSDK_OFFSET(0xD80C680)
+#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_SMALLPARAMS_OFFSET UNITYSDK_OFFSET(0xD80C6D0)
+#define RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_STOPPARAMS_OFFSET UNITYSDK_OFFSET(0xD80C720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams_TypeDefinitionIndex = 71110;
+	inline static constexpr unsigned int MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams_TypeDefinitionIndex = 71142;
 
 	struct alignas(4) MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams
 	{
@@ -19,35 +18,47 @@ namespace RPG::Client
 		::System::Single Middle; // 0x14
 		::System::Single Small; // 0x18
 		::System::Single Stop; // 0x1C
-
+		/*
 		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams get_FullParams()
 		{
 			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_FULLPARAMS_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams get_MiddleParams()
 		{
 			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_MIDDLEPARAMS_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams get_SmallParams()
 		{
 			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_SMALLPARAMS_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams get_StopParams()
 		{
 			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_GET_STOPPARAMS_OFFSET))();
 		}
+		*/
 
-		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams Method_2_965753FE2B573CAF(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams a1, ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams a2)
+		/*
+		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams ALJJDGONFDD(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams a1, ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams a2)
 		{
-			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams, ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_METHOD_2_965753FE2B573CAF_OFFSET))(a1, a2);
+			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams, ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_ALJJDGONFDD_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams Method_2_0291408F883F68BB(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams a1, ::System::Single a2)
+		/*
+		static ::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams EBLLCHBCJGG(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams a1, ::System::Single a2)
 		{
-			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_METHOD_2_0291408F883F68BB_OFFSET))(a1, a2);
+			return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOANIMMOUTHSHAPELAYERCONTROLLER_ANIMMOUTHSHAPEPARAMS_EBLLCHBCJGG_OFFSET))(a1, a2);
 		}
+		*/
+
 	};
 }

@@ -2,40 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraAnimationType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x189CE7E0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x189CE740)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0x189CE6D0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x189CE8B0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x189CE8A0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC3E0D0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC3E0C0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LAMNNMIAFIM_OFFSET UNITYSDK_OFFSET(0xDC3E000)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LPCNFDDCKEB_OFFSET UNITYSDK_OFFSET(0xDC3DF60)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0xDC3DEF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 77921;
+	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 78392;
 
 	class ChimeraAnimationAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_MEKAIIEIDHC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraAnimationAdapter_TypeDefinitionIndex)->GetStaticField(0x13CB0);
-		}
+		::UnityEngine::Animator* ChimeraAnimator; // 0x18
 		static ::System::Int32* StaticGet_KMKPGPIDKJF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraAnimationAdapter_TypeDefinitionIndex)->GetStaticField(0x13CB4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0xAD90);
 		}
-		::UnityEngine::Animator* ChimeraAnimator; // 0x18
+
+		static ::System::Int32* StaticGet_MEKAIIEIDHC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0xAD94);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Play(::RPG::Client::Prop::ChimeraAnimationType a1)
@@ -43,14 +43,15 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraAnimationType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_33ACA6CB2ABC73F7()
+		::System::Void LAMNNMIAFIM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LAMNNMIAFIM_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B1936CE4DA97AA45()
+		::System::Void LPCNFDDCKEB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LPCNFDDCKEB_OFFSET))(this);
 		}
+
 	};
 }

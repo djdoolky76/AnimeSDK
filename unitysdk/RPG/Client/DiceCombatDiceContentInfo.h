@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class ActivityDiceCombatDiceContentRow; }
 
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B8CAB90)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ISSKILLCONTENT_OFFSET UNITYSDK_OFFSET(0x1B8CA4F0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1B8CABB0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_SET_ID_OFFSET UNITYSDK_OFFSET(0x1B8CABA0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8CA300)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCCAF3D0)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0xCCAFC60)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ISSKILLCONTENT_OFFSET UNITYSDK_OFFSET(0xCCAF5C0)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ROW_OFFSET UNITYSDK_OFFSET(0xCCAFC80)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_SET_ID_OFFSET UNITYSDK_OFFSET(0xCCAFC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatDiceContentInfo_TypeDefinitionIndex = 63615;
+	inline static constexpr unsigned int DiceCombatDiceContentInfo_TypeDefinitionIndex = 63553;
 
 	class DiceCombatDiceContentInfo : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ActivityDiceCombatDiceContentRow* _Row; // 0x10
 		::System::UInt32 _ID_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -44,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ISSKILLCONTENT_OFFSET))(this);
 		}
+
 	};
 }

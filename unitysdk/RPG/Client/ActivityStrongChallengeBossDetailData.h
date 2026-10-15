@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class StrongChallengeBossDetailRow; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1B87B650)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B87B5E0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87B6C0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC59E1C0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0xC59E150)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC59E0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeBossDetailData_TypeDefinitionIndex = 61991;
+	inline static constexpr unsigned int ActivityStrongChallengeBossDetailData_TypeDefinitionIndex = 61907;
 
 	class ActivityStrongChallengeBossDetailData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::StrongChallengeBossDetailRow* _Row; // 0x10
 		::System::UInt32 BossDetailID; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Name()
@@ -33,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBOSSDETAILDATA_GET_DETAIL_OFFSET))(this);
 		}
+
 	};
 }

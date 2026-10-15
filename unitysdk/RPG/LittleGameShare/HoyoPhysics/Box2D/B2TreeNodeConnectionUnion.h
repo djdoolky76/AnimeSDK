@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TreeNodeConnectionUnion_TypeDefinitionIndex = 36110;
+	inline static constexpr unsigned int B2TreeNodeConnectionUnion_TypeDefinitionIndex = 36797;
 
 	struct alignas(4) B2TreeNodeConnectionUnion
 	{

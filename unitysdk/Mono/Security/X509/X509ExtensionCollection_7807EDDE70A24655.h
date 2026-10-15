@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/CollectionBase.h"
+namespace Mono::Security { class ASN1_6C67A52C6BBD45E0; }
+namespace System::Collections { class IEnumerator; }
+
+#define MONO_SECURITY_X509_X509EXTENSIONCOLLECTION_7807EDDE70A24655_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C01BF10)
+#define MONO_SECURITY_X509_X509EXTENSIONCOLLECTION_7807EDDE70A24655_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01DFC0)
+#define MONO_SECURITY_X509_X509EXTENSIONCOLLECTION_7807EDDE70A24655_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C01E010)
+
+namespace Mono::Security::X509
+{
+	inline static constexpr unsigned int X509ExtensionCollection_7807EDDE70A24655_TypeDefinitionIndex = 2271;
+
+	class X509ExtensionCollection_7807EDDE70A24655 : public ::System::Collections::CollectionBase
+	{
+	public:
+		::System::Boolean readOnly; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509EXTENSIONCOLLECTION_7807EDDE70A24655_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::Mono::Security::ASN1_6C67A52C6BBD45E0* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1_6C67A52C6BBD45E0*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509EXTENSIONCOLLECTION_7807EDDE70A24655_CTOR_1_OFFSET))(this, a1);
+		}
+
+		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509EXTENSIONCOLLECTION_7807EDDE70A24655_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+
+	};
+}

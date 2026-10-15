@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CJHHGHKGAIL_TypeDefinitionIndex = 25721;
+
+	enum class CJHHGHKGAIL : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		BPOCOHFIAOH = 1,
+		HMOGOHOFPFG = 2,
+		NCIPEHOHDMG = 3,
+		BHMEGEPHBIC = 4,
+		EHINOPGCAEE = 5,
+		PINPKNJDKLP = 6,
+		OIINGMJAHFA = 7,
+		ACEBEKCCMEG = 8,
+		HIOFMONBFLO = 9,
+		NDMLJELOPCM = 10,
+		KOKIHLKEJOL = 11,
+		CGDOBHJPMHI = 12,
+		MNFOFJKGCHL = 13,
+		MNPCJLJIKML = 14,
+		HDOBALIFGCG = 15,
+		HIGMNPCOONG = 16,
+		KPKNEPLALOK = 17,
+		NGIGCKJNPJC = 18,
+	};

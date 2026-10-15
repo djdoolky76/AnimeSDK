@@ -1,8 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { class Exception; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace System

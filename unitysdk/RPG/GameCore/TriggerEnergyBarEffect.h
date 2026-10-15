@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerEnergyBarEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_METHOD_3_1A85060C061433F0_OFFSET UNITYSDK_OFFSET(0x1D28D880)
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_METHOD_3_DAE9B80E8E12C6FF_OFFSET UNITYSDK_OFFSET(0x1D28D7E0)
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28D840)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC246F0)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC24730)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC24690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEnergyBarEffect_TypeDefinitionIndex = 22485;
+	inline static constexpr unsigned int TriggerEnergyBarEffect_TypeDefinitionIndex = 22740;
 
 	class TriggerEnergyBarEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::String* EffectPath; // 0x20
 		::System::Boolean IsLoop; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENERGYBAREFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENERGYBAREFFECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DAE9B80E8E12C6FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEnergyBarEffect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEnergyBarEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEnergyBarEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENERGYBAREFFECT_METHOD_3_DAE9B80E8E12C6FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEnergyBarEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENERGYBAREFFECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1A85060C061433F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEnergyBarEffect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEnergyBarEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEnergyBarEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENERGYBAREFFECT_METHOD_3_1A85060C061433F0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEnergyBarEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENERGYBAREFFECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_AsyncLoadOperationChecker_TypeDefinitionIndex = 4668;
+	inline static constexpr unsigned int PostLateUpdate_AsyncLoadOperationChecker_TypeDefinitionIndex = 4672;
 
-	struct alignas(1) PostLateUpdate_AsyncLoadOperationChecker
+	struct alignas(4) PostLateUpdate_AsyncLoadOperationChecker
 	{
 	};
 }

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoBase.h"
 
-#define RPG_CLIENT_TEMPLATEMONOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9DEA0)
+#define RPG_CLIENT_TEMPLATEMONOBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE1FDCE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TemplateMonoBase_TypeDefinitionIndex = 70741;
+	inline static constexpr unsigned int TemplateMonoBase_TypeDefinitionIndex = 70778;
 
 	class TemplateMonoBase : public ::RPG::Client::TAMonoBase
 	{
 	public:
 		::System::Int32 ExampleProperty; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEMPLATEMONOBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEMPLATEMONOBASE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,9 +3,9 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IDestructiblePropContext_1_TypeDefinitionIndex = 40661;
+	inline static constexpr unsigned int IDestructiblePropContext_1_TypeDefinitionIndex = 42766;
 
-	template <typename TEntity>
+	template <typename T>
 	class IDestructiblePropContext_1
 	{
 	public:

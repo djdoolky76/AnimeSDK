@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2TaskCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C799BB0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C799C40)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C788CD0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C799B30)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C847FF0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C847F70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C848080)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C837150)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2EnqueueTaskCallback_TypeDefinitionIndex = 35956;
+	inline static constexpr unsigned int b2EnqueueTaskCallback_TypeDefinitionIndex = 36643;
 
 	class b2EnqueueTaskCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* Invoke(::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::Object* a5)
@@ -38,5 +37,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ENQUEUETASKCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

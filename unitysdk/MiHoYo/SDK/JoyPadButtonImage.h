@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A61A6C0)
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1A61A610)
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A61A770)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BE5E4E0)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE5E560)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1BE5E430)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 7961;
+	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 8004;
 
 	class JoyPadButtonImage : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,10 +18,9 @@ namespace MiHoYo::SDK
 		::UnityEngine::Sprite* PS4Sprite; // 0x18
 		::UnityEngine::Sprite* XBoxSprite; // 0x20
 		::UnityEngine::Sprite* PS5Sprite; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADBUTTONIMAGE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Sprite* GetSprite(::System::String* a1)
@@ -34,5 +32,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,37 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
 namespace Hdg { class rdtSerializerVector3; }
+namespace System { class Object; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERBOUNDS_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A67710)
-#define HDG_RDTSERIALIZERBOUNDS_READ_OFFSET UNITYSDK_OFFSET(0x16A67960)
-#define HDG_RDTSERIALIZERBOUNDS_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x16A67680)
-#define HDG_RDTSERIALIZERBOUNDS_WRITE_OFFSET UNITYSDK_OFFSET(0x16A67790)
-#define HDG_RDTSERIALIZERBOUNDS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16A675C0)
-#define HDG_RDTSERIALIZERBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A675B0)
+#define HDG_RDTSERIALIZERBOUNDS_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF3FA80)
+#define HDG_RDTSERIALIZERBOUNDS_CTOR_OFFSET UNITYSDK_OFFSET(0xAF3FA70)
+#define HDG_RDTSERIALIZERBOUNDS_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF3FBC0)
+#define HDG_RDTSERIALIZERBOUNDS_READ_OFFSET UNITYSDK_OFFSET(0xAF3FE40)
+#define HDG_RDTSERIALIZERBOUNDS_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xAF3FB30)
+#define HDG_RDTSERIALIZERBOUNDS_WRITE_OFFSET UNITYSDK_OFFSET(0xAF3FC70)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerBounds_TypeDefinitionIndex = 47413;
+	inline static constexpr unsigned int rdtSerializerBounds_TypeDefinitionIndex = 46953;
 
 	class rdtSerializerBounds : public ::System::Object
 	{
 	public:
-		::Hdg::rdtSerializerVector3* centre; // 0x10
-		::Hdg::rdtSerializerVector3* size; // 0x18
-
+		::Hdg::rdtSerializerVector3* size; // 0x10
+		::Hdg::rdtSerializerVector3* centre; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBOUNDS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBOUNDS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBOUNDS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBOUNDS_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Bounds ToUnityType()
@@ -54,5 +53,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBOUNDS_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

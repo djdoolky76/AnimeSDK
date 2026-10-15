@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections { class Hashtable; }
@@ -11,12 +10,12 @@ namespace System::Net { class IWebProxy; }
 namespace System::Net::Cache { class RequestCachePolicy; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x183D4500)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAM_OFFSET UNITYSDK_OFFSET(0x183D36A0)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x183D4280)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETSTREAM_OFFSET UNITYSDK_OFFSET(0x183D3500)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER_REMOVE_OFFSET UNITYSDK_OFFSET(0x183D4050)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4600)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF32A10)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1EF32910)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAM_OFFSET UNITYSDK_OFFSET(0x1EF31AB0)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1EF326A0)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER_GETSTREAM_OFFSET UNITYSDK_OFFSET(0x1EF31910)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER_REMOVE_OFFSET UNITYSDK_OFFSET(0x1EF32470)
 
 namespace System::Xml
 {
@@ -26,10 +25,9 @@ namespace System::Xml
 	{
 	public:
 		::System::Collections::Hashtable* connections; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::IO::Stream* GetStream(::System::Uri* a1, ::System::Net::ICredentials* a2, ::System::Net::IWebProxy* a3, ::System::Net::Cache::RequestCachePolicy* a4)
@@ -56,5 +54,6 @@ namespace System::Xml
 		{
 			return ((::System::Threading::Tasks::Task_1<::System::IO::Stream*>*(*)(::PVOID, ::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAMASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

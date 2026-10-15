@@ -3,48 +3,45 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
-namespace System { class Type; }
-namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_29ED79A4693535A3_OFFSET UNITYSDK_OFFSET(0x1B11E5E0)
-#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_6424DA16BE1ACD1D_OFFSET UNITYSDK_OFFSET(0x1B11E700)
-#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_E78C6A7FA9F07F9A_OFFSET UNITYSDK_OFFSET(0x1B11E6A0)
-#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_EBCE0F8672AB6F83_OFFSET UNITYSDK_OFFSET(0x1B11E640)
-#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11CD30)
+#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xE33E400)
+#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_JENKLJKAHBE_OFFSET UNITYSDK_OFFSET(0xE340510)
+#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_PLJHBBFJDOO_1_OFFSET UNITYSDK_OFFSET(0xE340450)
+#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_PLJHBBFJDOO_2_OFFSET UNITYSDK_OFFSET(0xE3404B0)
+#define RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_PLJHBBFJDOO_OFFSET UNITYSDK_OFFSET(0xE3403F0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int MaterialSwitchTarget_TypeDefinitionIndex = 73973;
+	inline static constexpr unsigned int MaterialSwitchTarget_TypeDefinitionIndex = 74072;
 
 	class MaterialSwitchTarget : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_29ED79A4693535A3(::System::String* a1, ::System::Single a2)
+		::System::Void PLJHBBFJDOO(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_29ED79A4693535A3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_PLJHBBFJDOO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_EBCE0F8672AB6F83(::System::String* a1, ::UnityEngine::Vector3 a2)
+		::System::Void PLJHBBFJDOO_1(::System::String* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_EBCE0F8672AB6F83_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_PLJHBBFJDOO_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_E78C6A7FA9F07F9A(::System::String* a1, ::UnityEngine::Color a2)
+		::System::Void PLJHBBFJDOO_2(::System::String* a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_E78C6A7FA9F07F9A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_PLJHBBFJDOO_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_6424DA16BE1ACD1D(::System::String* a1, ::System::Boolean a2)
+		::System::Void JENKLJKAHBE(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_METHOD_1_6424DA16BE1ACD1D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_MATERIALSWITCHTARGET_JENKLJKAHBE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

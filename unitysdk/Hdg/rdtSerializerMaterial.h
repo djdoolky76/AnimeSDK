@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Hdg/rdtTcpMessageComponents_Property.h"
 #include "unitysdk/System/Object.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 namespace UnityEngine { class Material; }
 
-#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A6B280)
-#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET UNITYSDK_OFFSET(0x16A6B320)
-#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_WRITE_OFFSET UNITYSDK_OFFSET(0x16A6B2D0)
-#define HDG_RDTSERIALIZERMATERIAL_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A6AC70)
-#define HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16A6B370)
-#define HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16A6AD00)
-#define HDG_RDTSERIALIZERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6B890)
+#define HDG_RDTSERIALIZERMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xAF43D30)
+#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF43720)
+#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET UNITYSDK_OFFSET(0xAF437C0)
+#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_WRITE_OFFSET UNITYSDK_OFFSET(0xAF43770)
+#define HDG_RDTSERIALIZERMATERIAL_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF43100)
+#define HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0xAF43810)
+#define HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0xAF43190)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerMaterial_TypeDefinitionIndex = 47421;
+	inline static constexpr unsigned int rdtSerializerMaterial_TypeDefinitionIndex = 46961;
 
 	class rdtSerializerMaterial : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Object* Serialize(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
@@ -49,14 +48,15 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET))(this, a1);
 		}
 
-		static ::System::Void UpdateShaderParameters(::UnityEngine::Material* a1, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a2)
+		static ::System::Void UpdateShaderParameters(::UnityEngine::Material* a1, ::System::Collections::Generic::List_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _AddShaderParameters(::UnityEngine::Material* a1, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a2, ::Hdg::rdtSerializerRegistry* a3)
+		static ::System::Void _AddShaderParameters(::UnityEngine::Material* a1, ::System::Collections::Generic::List_1<::System::Object*>* a2, ::Hdg::rdtSerializerRegistry* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::System::Object*>*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

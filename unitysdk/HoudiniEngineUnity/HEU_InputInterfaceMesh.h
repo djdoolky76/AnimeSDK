@@ -3,7 +3,6 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_InputInterface.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace HoudiniEngineUnity { class HEU_InputData; }
 namespace HoudiniEngineUnity { class HEU_InputInterfaceMeshSettings; }
 namespace HoudiniEngineUnity { class HEU_InputInterfaceMesh_HEU_InputDataMesh; }
@@ -19,35 +18,34 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class SphereCollider; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEFORCOLLIDER_OFFSET UNITYSDK_OFFSET(0x11A57620)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET UNITYSDK_OFFSET(0x11A4DD80)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATESINGLEMESHDATA_OFFSET UNITYSDK_OFFSET(0x11A57C90)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GENERATEMESHDATASFROMGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x11A4E350)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETCOLLIDERGROUPBASENAME_OFFSET UNITYSDK_OFFSET(0x11A57550)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETMESHFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x11A58190)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETUVSFROMMESH_OFFSET UNITYSDK_OFFSET(0x11A536A0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x11A4DD70)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_ISTHISINPUTOBJECTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x11A53590)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADBOXCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x11A545E0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCAPSULECOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x11A556D0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x11A52A60)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADDATA_OFFSET UNITYSDK_OFFSET(0x11A4E7E0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADMESHCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x11A56CC0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADSPHERECOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x11A54E60)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4DD60)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEFORCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B915630)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET UNITYSDK_OFFSET(0x1B90BE90)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATESINGLEMESHDATA_OFFSET UNITYSDK_OFFSET(0x1B915CA0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90BE70)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GENERATEMESHDATASFROMGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B90C460)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETCOLLIDERGROUPBASENAME_OFFSET UNITYSDK_OFFSET(0x1B915560)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETMESHFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9161A0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETUVSFROMMESH_OFFSET UNITYSDK_OFFSET(0x1B9117B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B90BE80)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_ISTHISINPUTOBJECTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1B9116A0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADBOXCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1B9126F0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCAPSULECOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1B9136E0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1B910B70)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B90C8F0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADMESHCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1B914CD0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADSPHERECOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1B912EF0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputInterfaceMesh_TypeDefinitionIndex = 39348;
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_TypeDefinitionIndex = 40645;
 
 	class HEU_InputInterfaceMesh : public ::HoudiniEngineUnity::HEU_InputInterface
 	{
 	public:
 		::HoudiniEngineUnity::HEU_InputInterfaceMeshSettings* settings; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Initialize(::HoudiniEngineUnity::HEU_InputInterfaceMeshSettings* a1)
@@ -55,9 +53,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputInterfaceMeshSettings*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_INITIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::UnityEngine::GameObject* a3, ::System::Int32& a4)
+		::System::Boolean CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::UnityEngine::GameObject* a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean IsThisInputObjectSupported(::UnityEngine::GameObject* a1)
@@ -80,24 +78,24 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataMeshes*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean UploadBoxColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::BoxCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5)
+		::System::Boolean UploadBoxColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::BoxCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::BoxCollider*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADBOXCOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::BoxCollider*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADBOXCOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean UploadSphereColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::SphereCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5)
+		::System::Boolean UploadSphereColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::SphereCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::SphereCollider*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADSPHERECOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::SphereCollider*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADSPHERECOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean UploadCapsuleColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::CapsuleCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5)
+		::System::Boolean UploadCapsuleColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::CapsuleCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::CapsuleCollider*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCAPSULECOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::CapsuleCollider*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADCAPSULECOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean UploadMeshColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::MeshCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5)
+		::System::Boolean UploadMeshColliderData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::UnityEngine::MeshCollider* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::MeshCollider*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADMESHCOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::UnityEngine::MeshCollider*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_UPLOADMESHCOLLIDERDATA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::String* GetColliderGroupBaseName(::UnityEngine::Collider* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -105,9 +103,9 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)(::PVOID, ::UnityEngine::Collider*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETCOLLIDERGROUPBASENAME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean CreateInputNodeForCollider(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::String* a5, ::Il2CppArray<::System::Single>* a6, ::Il2CppArray<::System::Int32>* a7)
+		::System::Boolean CreateInputNodeForCollider(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::String* a5, ::Il2CppArray<::System::Single>* a6, ::Il2CppArray<::System::Int32>* a7)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Single>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEFORCOLLIDER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Single>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_CREATEINPUTNODEFORCOLLIDER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataMeshes* GenerateMeshDatasFromGameObject(::UnityEngine::GameObject* a1, ::System::Boolean a2)
@@ -124,5 +122,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::UnityEngine::Mesh*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_GETMESHFROMOBJECT_OFFSET))(a1);
 		}
+
 	};
 }

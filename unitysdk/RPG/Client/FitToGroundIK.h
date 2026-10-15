@@ -4,25 +4,24 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AttachPointMapping; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FITTOGROUNDIK_GET_IKENABLED_OFFSET UNITYSDK_OFFSET(0x1AE68EB0)
-#define RPG_CLIENT_FITTOGROUNDIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0x1AE675C0)
-#define RPG_CLIENT_FITTOGROUNDIK_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0x1AE68ED0)
-#define RPG_CLIENT_FITTOGROUNDIK_METHOD_5_048B2CC98DBD1BD8_OFFSET UNITYSDK_OFFSET(0x1AE67B80)
-#define RPG_CLIENT_FITTOGROUNDIK_METHOD_5_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0x1AE68CA0)
-#define RPG_CLIENT_FITTOGROUNDIK_METHOD_5_A63D06F4304A4527_OFFSET UNITYSDK_OFFSET(0x1AE68D60)
-#define RPG_CLIENT_FITTOGROUNDIK_PREPROCESS_OFFSET UNITYSDK_OFFSET(0x1AE67620)
-#define RPG_CLIENT_FITTOGROUNDIK_PROCESS_OFFSET UNITYSDK_OFFSET(0x1AE67730)
-#define RPG_CLIENT_FITTOGROUNDIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0x1AE67570)
-#define RPG_CLIENT_FITTOGROUNDIK_SET_IKENABLED_OFFSET UNITYSDK_OFFSET(0x1AE68EC0)
-#define RPG_CLIENT_FITTOGROUNDIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE68EE0)
+#define RPG_CLIENT_FITTOGROUNDIK_AJHADAFOIKH_OFFSET UNITYSDK_OFFSET(0xD000280)
+#define RPG_CLIENT_FITTOGROUNDIK_CPIHCCEBNHL_OFFSET UNITYSDK_OFFSET(0xD001460)
+#define RPG_CLIENT_FITTOGROUNDIK_CTOR_OFFSET UNITYSDK_OFFSET(0xD0015E0)
+#define RPG_CLIENT_FITTOGROUNDIK_GET_IKENABLED_OFFSET UNITYSDK_OFFSET(0xD0015B0)
+#define RPG_CLIENT_FITTOGROUNDIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xCFFFCC0)
+#define RPG_CLIENT_FITTOGROUNDIK_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xD0015D0)
+#define RPG_CLIENT_FITTOGROUNDIK_HAIHHFOPBLN_OFFSET UNITYSDK_OFFSET(0xD0013A0)
+#define RPG_CLIENT_FITTOGROUNDIK_PREPROCESS_OFFSET UNITYSDK_OFFSET(0xCFFFD20)
+#define RPG_CLIENT_FITTOGROUNDIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xCFFFE30)
+#define RPG_CLIENT_FITTOGROUNDIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xCFFFC70)
+#define RPG_CLIENT_FITTOGROUNDIK_SET_IKENABLED_OFFSET UNITYSDK_OFFSET(0xD0015C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FitToGroundIK_TypeDefinitionIndex = 68420;
+	inline static constexpr unsigned int FitToGroundIK_TypeDefinitionIndex = 68453;
 
 	class FitToGroundIK : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,6 +31,7 @@ namespace RPG::Client
 		::UnityEngine::Vector2 fitAngleRange; // 0x20
 		::UnityEngine::Vector2 fitOffsetRange; // 0x28
 		::System::Single fitLerpHalfTime; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* rootPoint; // 0x38
 		::Il2CppArray<::UnityEngine::Transform*>* detectPoints; // 0x40
 		::System::Single raycastDistance; // 0x48
@@ -39,12 +39,12 @@ namespace RPG::Client
 		::System::Single boxCastHalfWidth; // 0x50
 		::System::Single CLKJEOCKGKE; // 0x54
 		::System::Boolean MBIJMKPPLIO; // 0x58
+		::System::Byte _padding1[0x3];
 		::System::Single KFJFHJFDBFD; // 0x5C
 		::System::Single JLBKADKGMNJ; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SafeInit(::RPG::Client::AttachPointMapping* a1)
@@ -67,19 +67,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_PROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_5_627557CE4CD0ABB4(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Single HAIHHFOPBLN(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_METHOD_5_627557CE4CD0ABB4_OFFSET))(this, a1, a2, a3);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_HAIHHFOPBLN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_048B2CC98DBD1BD8(::System::Single& a1, ::System::Single& a2)
+		::System::Void AJHADAFOIKH(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_METHOD_5_048B2CC98DBD1BD8_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_AJHADAFOIKH_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 Method_5_A63D06F4304A4527()
+		::UnityEngine::Vector3 CPIHCCEBNHL()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_METHOD_5_A63D06F4304A4527_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_CPIHCCEBNHL_OFFSET))(this);
 		}
 
 		::System::Boolean get_IKEnabled()
@@ -96,5 +96,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FITTOGROUNDIK_GET_WEIGHT_OFFSET))(this);
 		}
+
 	};
 }

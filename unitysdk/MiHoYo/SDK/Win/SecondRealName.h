@@ -3,40 +3,50 @@
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/REAL_NAME_DIALOG_TYPE.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class SecondRealName; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAME_AWAKE_OFFSET UNITYSDK_OFFSET(0x187A7880)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_BACK_OFFSET UNITYSDK_OFFSET(0x187A8B90)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x187A8770)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_GETALERTCONTENT_OFFSET UNITYSDK_OFFSET(0x187A8960)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_GETIDENTITYINPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1879D1A0)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_GETNAMEINPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1879D180)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_HIDE_OFFSET UNITYSDK_OFFSET(0x18798290)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x187A8AC0)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187A8E70)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_SHOW_OFFSET UNITYSDK_OFFSET(0x18798C10)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_SUBMIT_OFFSET UNITYSDK_OFFSET(0x187A8BB0)
-#define MIHOYO_SDK_WIN_SECONDREALNAME_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x187A8110)
-#define MIHOYO_SDK_WIN_SECONDREALNAME__CLICKBACKBUTTON_B__27_0_OFFSET UNITYSDK_OFFSET(0x187A8ED0)
-#define MIHOYO_SDK_WIN_SECONDREALNAME__CLICKBACKBUTTON_B__27_1_OFFSET UNITYSDK_OFFSET(0x187A8F00)
-#define MIHOYO_SDK_WIN_SECONDREALNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x187A8E90)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDC6EB0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_BACK_OFFSET UNITYSDK_OFFSET(0x1BDC81C0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x1BDC7DA0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC84C0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_GETALERTCONTENT_OFFSET UNITYSDK_OFFSET(0x1BDC7F90)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_GETIDENTITYINPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1BDBC800)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_GETNAMEINPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1BDBC7E0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDB78F0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1BDC80F0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDC84A0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDB8270)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BDC81E0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BDC7740)
+#define MIHOYO_SDK_WIN_SECONDREALNAME__CLICKBACKBUTTON_B__27_0_OFFSET UNITYSDK_OFFSET(0x1BDC8500)
+#define MIHOYO_SDK_WIN_SECONDREALNAME__CLICKBACKBUTTON_B__27_1_OFFSET UNITYSDK_OFFSET(0x1BDC8530)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealName_TypeDefinitionIndex = 9492;
+	inline static constexpr unsigned int SecondRealName_TypeDefinitionIndex = 9550;
 
 	class SecondRealName : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* backButton; // 0x58
+		::UnityEngine::UI::Button* questionButton; // 0x60
+		::UnityEngine::UI::InputField* nameInput; // 0x68
+		::UnityEngine::UI::InputField* idInput; // 0x70
+		::UnityEngine::UI::Button* submitButton; // 0x78
+		::UnityEngine::UI::Text* submitButtonText; // 0x80
+		::System::Action* OnBack; // 0x88
+		::System::Action* OnSubmit; // 0x90
+		::MiHoYo::SDK::REAL_NAME_DIALOG_TYPE dialogType; // 0x98
 		static ::MiHoYo::SDK::Win::SecondRealName** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::SecondRealName**)Il2CppClass::FromTypeDefinitionIndex(SecondRealName_TypeDefinitionIndex)->GetStaticField(0x3A290);
+			return (::MiHoYo::SDK::Win::SecondRealName**)UnitySDK::FromName("MiHoYo.SDK.Win", "SecondRealName")->GetStaticField(0x2DF40);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BackButtonPath; // 0x0
 		// static const ::System::String* QuestionButtonPath; // 0x0
@@ -51,19 +61,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* DescPath; // 0x0
 		// static const ::System::String* SubDescPath; // 0x0
-		::UnityEngine::UI::Button* backButton; // 0x58
-		::UnityEngine::UI::Button* questionButton; // 0x60
-		::UnityEngine::UI::InputField* nameInput; // 0x68
-		::UnityEngine::UI::InputField* idInput; // 0x70
-		::UnityEngine::UI::Button* submitButton; // 0x78
-		::UnityEngine::UI::Text* submitButtonText; // 0x80
-		::System::Action* OnBack; // 0x88
-		::System::Action* OnSubmit; // 0x90
-		::MiHoYo::SDK::REAL_NAME_DIALOG_TYPE dialogType; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAME_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -135,5 +135,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAME__CLICKBACKBUTTON_B__27_1_OFFSET))(this, a1);
 		}
+
 	};
 }

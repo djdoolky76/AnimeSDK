@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_COOKIEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B1210)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_COOKIEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB027250)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKWebView_CookieInfo_TypeDefinitionIndex = 47236;
+	inline static constexpr unsigned int HoYoSDKWebView_CookieInfo_TypeDefinitionIndex = 46776;
 
 	class HoYoSDKWebView_CookieInfo : public ::System::Object
 	{
@@ -20,10 +19,10 @@ namespace MiHoYo::SDK::PluginUI
 		::System::String* expires; // 0x28
 		::System::Boolean http_only; // 0x30
 		::System::Boolean secure; // 0x31
-
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_COOKIEINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_COOKIEINFO_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

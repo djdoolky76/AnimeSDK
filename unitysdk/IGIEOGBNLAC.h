@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftOrderState.h"
+#include "unitysdk/System/Object.h"
+class BCFAKEGJPKN;
+class JLNEKELMDNJ;
+class PJPPGJEDCOG;
+
+#define IGIEOGBNLAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C51E7C0)
+#define IGIEOGBNLAC_GET_CUSTOMERACTORCONFIG_OFFSET UNITYSDK_OFFSET(0x1C534990)
+#define IGIEOGBNLAC_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1C534970)
+#define IGIEOGBNLAC_GET_ORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1C534980)
+#define IGIEOGBNLAC_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1C5349A0)
+#define IGIEOGBNLAC_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1C5349B0)
+
+inline static constexpr unsigned int IGIEOGBNLAC_TypeDefinitionIndex = 41868;
+
+	class IGIEOGBNLAC : public ::System::Object
+	{
+	public:
+		::BCFAKEGJPKN* _CustomerActorConfig_k__BackingField; // 0x10
+		::JLNEKELMDNJ* _OrderConfig_k__BackingField; // 0x18
+		::PJPPGJEDCOG* _RequirementConfig_k__BackingField; // 0x20
+		::RPG::Client::MechCraft::MechCraftOrderState _State_k__BackingField; // 0x28
+		::System::UInt32 _Identifier_k__BackingField; // 0x2C
+		::System::Void _ctor(::System::UInt32 a1, ::JLNEKELMDNJ* a2, ::BCFAKEGJPKN* a3, ::PJPPGJEDCOG* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::JLNEKELMDNJ*, ::BCFAKEGJPKN*, ::PJPPGJEDCOG*))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::UInt32 get_Identifier()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_GET_IDENTIFIER_OFFSET))(this);
+		}
+
+		::JLNEKELMDNJ* get_OrderConfig()
+		{
+			return ((::JLNEKELMDNJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_GET_ORDERCONFIG_OFFSET))(this);
+		}
+
+		::BCFAKEGJPKN* get_CustomerActorConfig()
+		{
+			return ((::BCFAKEGJPKN*(*)(::PVOID))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_GET_CUSTOMERACTORCONFIG_OFFSET))(this);
+		}
+
+		::PJPPGJEDCOG* get_RequirementConfig()
+		{
+			return ((::PJPPGJEDCOG*(*)(::PVOID))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_GET_REQUIREMENTCONFIG_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::MechCraftOrderState get_State()
+		{
+			return ((::RPG::Client::MechCraft::MechCraftOrderState(*)(::PVOID))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_GET_STATE_OFFSET))(this);
+		}
+
+	};

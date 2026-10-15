@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GFBNDCCANOG.h"
+#include "unitysdk/RPG/GameCore/ConfigDataPoolDictionaryValuePoolMember_2.h"
+class LELCKJPOPAO;
+namespace System { class Object; }
+
+#define MECLOIPCFOB_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x1D1215F0)
+#define MECLOIPCFOB_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x2F874F0)
+#define MECLOIPCFOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C2DCD0)
+#define MECLOIPCFOB_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1D121390)
+#define MECLOIPCFOB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C3D4D0)
+#define MECLOIPCFOB_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1D1212A0)
+#define MECLOIPCFOB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2FB1A20)
+#define MECLOIPCFOB_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2FB1820)
+#define MECLOIPCFOB_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define MECLOIPCFOB_GET_POOL_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define MECLOIPCFOB_HGILJMCFFEA_OFFSET UNITYSDK_OFFSET(0x3C3D4E0)
+#define MECLOIPCFOB_INIT_OFFSET UNITYSDK_OFFSET(0x140C0)
+#define MECLOIPCFOB_KIMPCNIGPHL_OFFSET UNITYSDK_OFFSET(0x3C3D500)
+#define MECLOIPCFOB_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D1216A0)
+
+inline static constexpr unsigned int MECLOIPCFOB_TypeDefinitionIndex = 10643;
+
+	struct alignas(8) MECLOIPCFOB
+	{
+		::LELCKJPOPAO* BEHHICMOFIE; // 0x10
+		::System::UInt32 IKKNJMJCDOJ; // 0x18
+		::System::Void Init(::LELCKJPOPAO* a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::LELCKJPOPAO*, ::System::UInt32))((::PBYTE)hIl2Cpp + MECLOIPCFOB_INIT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean get_IsValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MECLOIPCFOB_GET_ISVALID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Offset()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + MECLOIPCFOB_GET_OFFSET_OFFSET))(this);
+		}
+
+		::LELCKJPOPAO* get_Pool()
+		{
+			return ((::LELCKJPOPAO*(*)(::PVOID))((::PBYTE)hIl2Cpp + MECLOIPCFOB_GET_POOL_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MECLOIPCFOB_DISPOSE_OFFSET))(this);
+		}
+
+		/*
+		static ::System::Boolean FEIIDFFOICL(::MECLOIPCFOB a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::MECLOIPCFOB, ::System::Object*))((::PBYTE)hIl2Cpp + MECLOIPCFOB_FEIIDFFOICL_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::System::Boolean DLDBLNNPHKE(::MECLOIPCFOB a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::MECLOIPCFOB, ::System::Object*))((::PBYTE)hIl2Cpp + MECLOIPCFOB_DLDBLNNPHKE_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		::System::Boolean DGCGLNOLDIB(::MECLOIPCFOB a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MECLOIPCFOB))((::PBYTE)hIl2Cpp + MECLOIPCFOB_DGCGLNOLDIB_OFFSET))(this, a1);
+		}
+		*/
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MECLOIPCFOB_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MECLOIPCFOB_GETHASHCODE_OFFSET))(this);
+		}
+
+		/*
+		static ::System::Boolean BBNJCKPKPDN(::MECLOIPCFOB a1)
+		{
+			return ((::System::Boolean(*)(::MECLOIPCFOB))((::PBYTE)hIl2Cpp + MECLOIPCFOB_BBNJCKPKPDN_OFFSET))(a1);
+		}
+		*/
+
+		/*
+		static ::System::Boolean NHCFLDCDLCP(::MECLOIPCFOB a1)
+		{
+			return ((::System::Boolean(*)(::MECLOIPCFOB))((::PBYTE)hIl2Cpp + MECLOIPCFOB_NHCFLDCDLCP_OFFSET))(a1);
+		}
+		*/
+
+		::RPG::GameCore::ConfigDataPoolDictionaryValuePoolMember_2<::System::UInt32, ::GFBNDCCANOG> HGILJMCFFEA()
+		{
+			return ((::RPG::GameCore::ConfigDataPoolDictionaryValuePoolMember_2<::System::UInt32, ::GFBNDCCANOG>(*)(::PVOID))((::PBYTE)hIl2Cpp + MECLOIPCFOB_HGILJMCFFEA_OFFSET))(this);
+		}
+
+		::System::Void KIMPCNIGPHL(::RPG::GameCore::ConfigDataPoolDictionaryValuePoolMember_2<::System::UInt32, ::GFBNDCCANOG> a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConfigDataPoolDictionaryValuePoolMember_2<::System::UInt32, ::GFBNDCCANOG>))((::PBYTE)hIl2Cpp + MECLOIPCFOB_KIMPCNIGPHL_OFFSET))(this, a1);
+		}
+
+	};

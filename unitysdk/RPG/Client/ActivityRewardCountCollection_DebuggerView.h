@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ActivityRewardCountCollection; }
 namespace RPG::Client { class ActivityRewardCountData; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_GET_REWARDCOUNTS_OFFSET UNITYSDK_OFFSET(0x1B877A50)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B877A40)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xC59A550)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_GET_REWARDCOUNTS_OFFSET UNITYSDK_OFFSET(0xC59A560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardCountCollection_DebuggerView_TypeDefinitionIndex = 61875;
+	inline static constexpr unsigned int ActivityRewardCountCollection_DebuggerView_TypeDefinitionIndex = 61785;
 
 	class ActivityRewardCountCollection_DebuggerView : public ::System::Object
 	{
 	public:
 		::RPG::Client::ActivityRewardCountCollection* _Collection; // 0x10
-
 		::System::Void _ctor(::RPG::Client::ActivityRewardCountCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityRewardCountCollection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityRewardCountCollection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::ICollection_1<::RPG::Client::ActivityRewardCountData*>* get_RewardCounts()
 		{
 			return ((::System::Collections::Generic::ICollection_1<::RPG::Client::ActivityRewardCountData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_GET_REWARDCOUNTS_OFFSET))(this);
 		}
+
 	};
 }

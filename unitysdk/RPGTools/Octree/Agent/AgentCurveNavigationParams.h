@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPGTools::Octree::Agent
 {
-	inline static constexpr unsigned int AgentCurveNavigationParams_TypeDefinitionIndex = 49349;
+	inline static constexpr unsigned int AgentCurveNavigationParams_TypeDefinitionIndex = 48903;
 
 	struct alignas(4) AgentCurveNavigationParams
 	{

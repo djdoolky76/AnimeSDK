@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AK/Wwise/BaseType.h"
 #include "unitysdk/WwiseObjectType.h"
-
 class WwiseObjectReference;
 class WwiseRtpcReference;
 namespace UnityEngine { class GameObject; }
 
-#define AK_WWISE_RTPC_GETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x1D578FB0)
-#define AK_WWISE_RTPC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1D578D30)
-#define AK_WWISE_RTPC_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D578BC0)
-#define AK_WWISE_RTPC_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1D578C40)
-#define AK_WWISE_RTPC_SETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x1D578E30)
-#define AK_WWISE_RTPC_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1D578C50)
-#define AK_WWISE_RTPC_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D578BD0)
-#define AK_WWISE_RTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D578FC0)
+#define AK_WWISE_RTPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F541180)
+#define AK_WWISE_RTPC_GETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x1F541170)
+#define AK_WWISE_RTPC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1F540EF0)
+#define AK_WWISE_RTPC_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F540D80)
+#define AK_WWISE_RTPC_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F540E00)
+#define AK_WWISE_RTPC_SETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x1F540FF0)
+#define AK_WWISE_RTPC_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1F540E10)
+#define AK_WWISE_RTPC_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F540D90)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int RTPC_TypeDefinitionIndex = 43790;
+	inline static constexpr unsigned int RTPC_TypeDefinitionIndex = 44982;
 
 	class RTPC : public ::AK::Wwise::BaseType
 	{
 	public:
 		::WwiseRtpcReference* WwiseObjectReference; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_CTOR_OFFSET))(this);
 		}
 
 		::WwiseObjectReference* get_ObjectReference()
@@ -64,5 +62,6 @@ namespace AK::Wwise
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_GETGLOBALVALUE_OFFSET))(this);
 		}
+
 	};
 }

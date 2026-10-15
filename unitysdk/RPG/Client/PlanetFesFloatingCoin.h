@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -10,17 +9,17 @@ namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C36D820)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C36D860)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_PLAY_OFFSET UNITYSDK_OFFSET(0x1C36DCC0)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETDOUBLENUMBER_OFFSET UNITYSDK_OFFSET(0x1C36DBA0)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x1C36DC30)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C36D7E0)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C36DE90)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDB87540)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDB86ED0)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_ONCREATE_OFFSET UNITYSDK_OFFSET(0xDB86F10)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_PLAY_OFFSET UNITYSDK_OFFSET(0xDB87370)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETDOUBLENUMBER_OFFSET UNITYSDK_OFFSET(0xDB87250)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETNUMBER_OFFSET UNITYSDK_OFFSET(0xDB872E0)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDB86E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingCoin_TypeDefinitionIndex = 66516;
+	inline static constexpr unsigned int PlanetFesFloatingCoin_TypeDefinitionIndex = 66484;
 
 	class PlanetFesFloatingCoin : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,10 +32,9 @@ namespace RPG::Client
 		::UnityEngine::Transform* CGCPIPGIDNL; // 0x40
 		::UnityEngine::Transform* LPMFDOAACIP; // 0x48
 		::System::Single HBDJCFFDGDD; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESFLOATINGCOIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESFLOATINGCOIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -68,5 +66,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESFLOATINGCOIN_PLAY_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCallbackType.h"
 #include "unitysdk/System/Object.h"
-
 class AkAudioFormat;
 class AkAudioInputManager_AudioFormatDelegate;
 class AkAudioInputManager_AudioFormatInteropDelegate;
@@ -10,92 +9,99 @@ class AkAudioInputManager_AudioSamplesDelegate;
 class AkAudioInputManager_AudioSamplesInteropDelegate;
 class AkCallbackInfo;
 namespace AK::Wwise { class Event; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define AKAUDIOINPUTMANAGER_ADDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x1D57E360)
-#define AKAUDIOINPUTMANAGER_EVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D57E840)
-#define AKAUDIOINPUTMANAGER_INTERNALAUDIOFORMATDELEGATE_OFFSET UNITYSDK_OFFSET(0x1D57DED0)
-#define AKAUDIOINPUTMANAGER_INTERNALAUDIOSAMPLESDELEGATE_OFFSET UNITYSDK_OFFSET(0x1D57DD20)
-#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_1_OFFSET UNITYSDK_OFFSET(0x1D57E520)
-#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_2_OFFSET UNITYSDK_OFFSET(0x1D57E690)
-#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET UNITYSDK_OFFSET(0x1D57E120)
-#define AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D57E280)
-#define AKAUDIOINPUTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D57EB80)
+#define AKAUDIOINPUTMANAGER_ADDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x1F546520)
+#define AKAUDIOINPUTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F546D40)
+#define AKAUDIOINPUTMANAGER_EVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F546A00)
+#define AKAUDIOINPUTMANAGER_INTERNALAUDIOFORMATDELEGATE_OFFSET UNITYSDK_OFFSET(0x1F546090)
+#define AKAUDIOINPUTMANAGER_INTERNALAUDIOSAMPLESDELEGATE_OFFSET UNITYSDK_OFFSET(0x1F545EE0)
+#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_1_OFFSET UNITYSDK_OFFSET(0x1F5466E0)
+#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_2_OFFSET UNITYSDK_OFFSET(0x1F546850)
+#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET UNITYSDK_OFFSET(0x1F5462E0)
+#define AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F546440)
 
-inline static constexpr unsigned int AkAudioInputManager_TypeDefinitionIndex = 43618;
+inline static constexpr unsigned int AkAudioInputManager_TypeDefinitionIndex = 44810;
 
-class AkAudioInputManager : public ::System::Object
-{
-public:
-	static ::AkAudioInputManager_AudioFormatInteropDelegate** StaticGet_audioFormatDelegate()
+	class AkAudioInputManager : public ::System::Object
 	{
-		return (::AkAudioInputManager_AudioFormatInteropDelegate**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager_TypeDefinitionIndex)->GetStaticField(0xEB50);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkAudioInputManager_AudioSamplesDelegate*>** StaticGet_audioSamplesDelegates()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkAudioInputManager_AudioSamplesDelegate*>**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager_TypeDefinitionIndex)->GetStaticField(0xEB58);
-	}
-	static ::AkAudioInputManager_AudioSamplesInteropDelegate** StaticGet_audioSamplesDelegate()
-	{
-		return (::AkAudioInputManager_AudioSamplesInteropDelegate**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager_TypeDefinitionIndex)->GetStaticField(0xEB60);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkAudioInputManager_AudioFormatDelegate*>** StaticGet_audioFormatDelegates()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkAudioInputManager_AudioFormatDelegate*>**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager_TypeDefinitionIndex)->GetStaticField(0xEB68);
-	}
-	static ::AkAudioFormat** StaticGet_audioFormat()
-	{
-		return (::AkAudioFormat**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager_TypeDefinitionIndex)->GetStaticField(0xEB70);
-	}
-	static ::System::Boolean* StaticGet_initialized()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager_TypeDefinitionIndex)->GetStaticField(0x4740);
-	}
+	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_audioSamplesDelegates()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CB0);
+		}
 
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER__CCTOR_OFFSET))();
-	}
+		static ::AkAudioInputManager_AudioFormatInteropDelegate** StaticGet_audioFormatDelegate()
+		{
+			return (::AkAudioInputManager_AudioFormatInteropDelegate**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CB8);
+		}
 
-	static ::System::UInt32 PostAudioInputEvent(::AK::Wwise::Event* a1, ::UnityEngine::GameObject* a2, ::AkAudioInputManager_AudioSamplesDelegate* a3, ::AkAudioInputManager_AudioFormatDelegate* a4)
-	{
-		return ((::System::UInt32(*)(::AK::Wwise::Event*, ::UnityEngine::GameObject*, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET))(a1, a2, a3, a4);
-	}
+		static ::AkAudioInputManager_AudioSamplesInteropDelegate** StaticGet_audioSamplesDelegate()
+		{
+			return (::AkAudioInputManager_AudioSamplesInteropDelegate**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CC0);
+		}
 
-	static ::System::UInt32 PostAudioInputEvent_1(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::AkAudioInputManager_AudioSamplesDelegate* a3, ::AkAudioInputManager_AudioFormatDelegate* a4)
-	{
-		return ((::System::UInt32(*)(::System::UInt32, ::UnityEngine::GameObject*, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_1_OFFSET))(a1, a2, a3, a4);
-	}
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_audioFormatDelegates()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CC8);
+		}
 
-	static ::System::UInt32 PostAudioInputEvent_2(::System::String* a1, ::UnityEngine::GameObject* a2, ::AkAudioInputManager_AudioSamplesDelegate* a3, ::AkAudioInputManager_AudioFormatDelegate* a4)
-	{
-		return ((::System::UInt32(*)(::System::String*, ::UnityEngine::GameObject*, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_2_OFFSET))(a1, a2, a3, a4);
-	}
+		static ::AkAudioFormat** StaticGet_audioFormat()
+		{
+			return (::AkAudioFormat**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CD0);
+		}
 
-	static ::System::Boolean InternalAudioSamplesDelegate(::System::UInt32 a1, ::Il2CppArray<::System::Single>* a2, ::System::UInt32 a3, ::System::UInt32 a4)
-	{
-		return ((::System::Boolean(*)(::System::UInt32, ::Il2CppArray<::System::Single>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_INTERNALAUDIOSAMPLESDELEGATE_OFFSET))(a1, a2, a3, a4);
-	}
+		static ::System::Boolean* StaticGet_initialized()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1C80);
+		}
 
-	static ::System::Void InternalAudioFormatDelegate(::System::UInt32 a1, ::System::IntPtr a2)
-	{
-		return ((::System::Void(*)(::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_INTERNALAUDIOFORMATDELEGATE_OFFSET))(a1, a2);
-	}
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_CCTOR_OFFSET))();
+		}
 
-	static ::System::Void TryInitialize()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET))();
-	}
+		static ::System::UInt32 PostAudioInputEvent(::AK::Wwise::Event* a1, ::UnityEngine::GameObject* a2, ::AkAudioInputManager_AudioSamplesDelegate* a3, ::AkAudioInputManager_AudioFormatDelegate* a4)
+		{
+			return ((::System::UInt32(*)(::AK::Wwise::Event*, ::UnityEngine::GameObject*, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET))(a1, a2, a3, a4);
+		}
 
-	static ::System::Void AddPlayingID(::System::UInt32 a1, ::AkAudioInputManager_AudioSamplesDelegate* a2, ::AkAudioInputManager_AudioFormatDelegate* a3)
-	{
-		return ((::System::Void(*)(::System::UInt32, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_ADDPLAYINGID_OFFSET))(a1, a2, a3);
-	}
+		static ::System::UInt32 PostAudioInputEvent_1(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::AkAudioInputManager_AudioSamplesDelegate* a3, ::AkAudioInputManager_AudioFormatDelegate* a4)
+		{
+			return ((::System::UInt32(*)(::System::UInt32, ::UnityEngine::GameObject*, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_1_OFFSET))(a1, a2, a3, a4);
+		}
 
-	static ::System::Void EventCallback(::System::Object* a1, ::AkCallbackType a2, ::AkCallbackInfo* a3)
-	{
-		return ((::System::Void(*)(::System::Object*, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_EVENTCALLBACK_OFFSET))(a1, a2, a3);
-	}
-};
+		static ::System::UInt32 PostAudioInputEvent_2(::System::String* a1, ::UnityEngine::GameObject* a2, ::AkAudioInputManager_AudioSamplesDelegate* a3, ::AkAudioInputManager_AudioFormatDelegate* a4)
+		{
+			return ((::System::UInt32(*)(::System::String*, ::UnityEngine::GameObject*, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_2_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean InternalAudioSamplesDelegate(::System::UInt32 a1, ::Il2CppArray<::System::Single>* a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		{
+			return ((::System::Boolean(*)(::System::UInt32, ::Il2CppArray<::System::Single>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_INTERNALAUDIOSAMPLESDELEGATE_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void InternalAudioFormatDelegate(::System::UInt32 a1, ::System::IntPtr a2)
+		{
+			return ((::System::Void(*)(::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_INTERNALAUDIOFORMATDELEGATE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void TryInitialize()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET))();
+		}
+
+		static ::System::Void AddPlayingID(::System::UInt32 a1, ::AkAudioInputManager_AudioSamplesDelegate* a2, ::AkAudioInputManager_AudioFormatDelegate* a3)
+		{
+			return ((::System::Void(*)(::System::UInt32, ::AkAudioInputManager_AudioSamplesDelegate*, ::AkAudioInputManager_AudioFormatDelegate*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_ADDPLAYINGID_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void EventCallback(::System::Object* a1, ::AkCallbackType a2, ::AkCallbackInfo* a3)
+		{
+			return ((::System::Void(*)(::System::Object*, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_EVENTCALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+	};

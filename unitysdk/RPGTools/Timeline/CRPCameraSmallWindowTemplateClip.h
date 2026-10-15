@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D136210)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D136200)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_METHOD_4_C446CE6A5E1982BC_OFFSET UNITYSDK_OFFSET(0x1D1363A0)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_METHOD_4_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x1D1361A0)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D136400)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B6B40)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B6D30)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_DHKKJOCBPDK_OFFSET UNITYSDK_OFFSET(0xE8B6AD0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B6B30)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_GIOKIMNFJDP_OFFSET UNITYSDK_OFFSET(0xE8B6CD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSmallWindowTemplateClip_TypeDefinitionIndex = 48363;
+	inline static constexpr unsigned int CRPCameraSmallWindowTemplateClip_TypeDefinitionIndex = 47903;
 
 	class CRPCameraSmallWindowTemplateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* SmallWindowActorUniqueNames; // 0x18
 		::System::Collections::Generic::List_1<::System::String*>* SmallWindowTimelineEffectUniqueNames; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_4_DA1BF2C227DC3D86()
+		::System::String* DHKKJOCBPDK()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_METHOD_4_DA1BF2C227DC3D86_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_DHKKJOCBPDK_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -45,9 +43,10 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::System::String*>* Method_4_C446CE6A5E1982BC()
+		::System::Collections::Generic::List_1<::System::String*>* GIOKIMNFJDP()
 		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_METHOD_4_C446CE6A5E1982BC_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWTEMPLATECLIP_GIOKIMNFJDP_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,30 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_EDITOR_SKILLGRIDCONFIG_GET_COLS_OFFSET UNITYSDK_OFFSET(0x16849600)
-#define RPG_EDITOR_SKILLGRIDCONFIG_GET_DIRSPACINGPX_OFFSET UNITYSDK_OFFSET(0x16849560)
-#define RPG_EDITOR_SKILLGRIDCONFIG_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x16849710)
-#define RPG_EDITOR_SKILLGRIDCONFIG_GET_UNITPX_OFFSET UNITYSDK_OFFSET(0x168494C0)
-#define RPG_EDITOR_SKILLGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16849820)
+#define RPG_EDITOR_SKILLGRIDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A3400)
+#define RPG_EDITOR_SKILLGRIDCONFIG_GET_COLS_OFFSET UNITYSDK_OFFSET(0xE4A31E0)
+#define RPG_EDITOR_SKILLGRIDCONFIG_GET_DIRSPACINGPX_OFFSET UNITYSDK_OFFSET(0xE4A3140)
+#define RPG_EDITOR_SKILLGRIDCONFIG_GET_ROWS_OFFSET UNITYSDK_OFFSET(0xE4A32F0)
+#define RPG_EDITOR_SKILLGRIDCONFIG_GET_UNITPX_OFFSET UNITYSDK_OFFSET(0xE4A30A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillGridConfig_TypeDefinitionIndex = 52328;
+	inline static constexpr unsigned int SkillGridConfig_TypeDefinitionIndex = 52041;
 
 	class SkillGridConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean IsHorizontalLayout; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 SplitValue; // 0x14
 		::UnityEngine::RectTransform* RootContent; // 0x18
 		::System::Single DirSpacing; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLGRIDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLGRIDCONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_UnitPx()
@@ -47,5 +46,6 @@ namespace RPG::Editor
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLGRIDCONFIG_GET_ROWS_OFFSET))(this);
 		}
+
 	};
 }

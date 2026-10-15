@@ -1,38 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleCollegeAimShow; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_METHOD_3_93ED30DC028A6786_OFFSET UNITYSDK_OFFSET(0x1B2F2310)
-#define RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_METHOD_3_C9E8FCF83F2E1DFB_OFFSET UNITYSDK_OFFSET(0x1B2F22D0)
-#define RPG_GAMECORE_BATTLECOLLEGEAIMSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F2300)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D426460)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D426470)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D426430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCollegeAimShow_TypeDefinitionIndex = 23430;
+	inline static constexpr unsigned int BattleCollegeAimShow_TypeDefinitionIndex = 23703;
 
 	class BattleCollegeAimShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 AimID; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* CurValue; // 0x20
 		::RPG::GameCore::DynamicFloat* TotalValue; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMSHOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C9E8FCF83F2E1DFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleCollegeAimShow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleCollegeAimShow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleCollegeAimShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_METHOD_3_C9E8FCF83F2E1DFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleCollegeAimShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_93ED30DC028A6786(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleCollegeAimShow* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleCollegeAimShow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleCollegeAimShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_METHOD_3_93ED30DC028A6786_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleCollegeAimShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMSHOW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

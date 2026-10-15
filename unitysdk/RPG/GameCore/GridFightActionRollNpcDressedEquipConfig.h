@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightActionRollNpcDressedEquipConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_METHOD_6_1452E3AAB6AA8E12_OFFSET UNITYSDK_OFFSET(0x1D95FAF0)
-#define RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_METHOD_6_DAB7E5A7839347B6_OFFSET UNITYSDK_OFFSET(0x1D95FED0)
-#define RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95FAE0)
+#define RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F6F50)
+#define RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F6F60)
+#define RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F7340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActionRollNpcDressedEquipConfig_TypeDefinitionIndex = 19087;
+	inline static constexpr unsigned int GridFightActionRollNpcDressedEquipConfig_TypeDefinitionIndex = 19317;
 
 	class GridFightActionRollNpcDressedEquipConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_DAB7E5A7839347B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_METHOD_6_DAB7E5A7839347B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_1452E3AAB6AA8E12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_METHOD_6_1452E3AAB6AA8E12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightActionRollNpcDressedEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONROLLNPCDRESSEDEQUIPCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

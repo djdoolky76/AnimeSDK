@@ -3,12 +3,12 @@
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLPlayStation4NativeProfile_ProductId_TypeDefinitionIndex = 39990;
+	inline static constexpr unsigned int SDLPlayStation4NativeProfile_ProductId_TypeDefinitionIndex = 41287;
 
 	enum class SDLPlayStation4NativeProfile_ProductId : ::System::UInt16
 	{
-		SONY_DS4 = 0x5C4,
-		SONY_DS4_DONGLE = 0xBA0,
-		SONY_DS4_SLIM = 0x9CC,
+		SONY_DS4 = 1476,
+		SONY_DS4_DONGLE = 2976,
+		SONY_DS4_SLIM = 2508,
 	};
 }

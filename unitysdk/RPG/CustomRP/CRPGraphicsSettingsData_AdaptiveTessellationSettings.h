@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/AdaptiveTessellationDrawControl.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ADAPTIVETESSELLATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x192AEC20)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ADAPTIVETESSELLATIONSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD4F80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_AdaptiveTessellationSettings_TypeDefinitionIndex = 36984;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_AdaptiveTessellationSettings_TypeDefinitionIndex = 37669;
 
 	class CRPGraphicsSettingsData_AdaptiveTessellationSettings : public ::System::Object
 	{
@@ -19,11 +19,12 @@ namespace RPG::CustomRP
 		::System::Boolean ForceComplexDicingPattern; // 0x14
 		::System::Boolean ForceWireframe; // 0x15
 		::System::Boolean EnableWaterSSR; // 0x16
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Rendering::AdaptiveTessellationDrawControl DrawControl; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ADAPTIVETESSELLATIONSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ADAPTIVETESSELLATIONSETTINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

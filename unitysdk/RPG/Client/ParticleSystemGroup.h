@@ -1,42 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class ParticleSystemChildGroup; }
+namespace RPG::Client { class ParticleSystemGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_ADDCHILDGROUP_OFFSET UNITYSDK_OFFSET(0x1C4F6060)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0x1C4F6220)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C4F6CC0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_REMOVECHILDGROUP_OFFSET UNITYSDK_OFFSET(0x1C4F5FD0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARENTALPHA_OFFSET UNITYSDK_OFFSET(0x1C4F5860)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARTICLECOLORALPHA_OFFSET UNITYSDK_OFFSET(0x1C4F57D0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_START_OFFSET UNITYSDK_OFFSET(0x1C4F6270)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C4F6BB0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F6D70)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP__INIT_OFFSET UNITYSDK_OFFSET(0x1C4F62C0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP__ONALPHACHANGE_OFFSET UNITYSDK_OFFSET(0x1C4F6800)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_ADDCHILDGROUP_OFFSET UNITYSDK_OFFSET(0xDA85F80)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA86C90)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xDA86140)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDA86BE0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_REMOVECHILDGROUP_OFFSET UNITYSDK_OFFSET(0xDA85EF0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARENTALPHA_OFFSET UNITYSDK_OFFSET(0xDA85780)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARTICLECOLORALPHA_OFFSET UNITYSDK_OFFSET(0xDA856F0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_START_OFFSET UNITYSDK_OFFSET(0xDA86190)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0xDA86AD0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xDA861E0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP__ONALPHACHANGE_OFFSET UNITYSDK_OFFSET(0xDA86720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticleSystemGroup_TypeDefinitionIndex = 68975;
+	inline static constexpr unsigned int ParticleSystemGroup_TypeDefinitionIndex = 69011;
 
 	class ParticleSystemGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _IgnoreParentGroups; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single _TargetAlpha; // 0x1C
 		::System::Single _PreAlpha; // 0x20
 		::System::Single _ParentAlpha; // 0x24
 		::System::Boolean _ParentAlphaDirty; // 0x28
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::RPG::Client::ParticleSystemGroup*>* _ChildParticleSystemGroups; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>* _CachedParticleSystemRenderer; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::ParticleSystemChildGroup*>* _ChildParticleSystemChildGroups; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetParentAlpha(::System::Single a1)
@@ -88,5 +89,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_GET_TARGETALPHA_OFFSET))(this);
 		}
+
 	};
 }

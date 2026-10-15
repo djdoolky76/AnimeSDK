@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_STANDARDVOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB7C1F0)
+#define CRIWARE_CRIATOMCONFIG_STANDARDVOICEPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x166BE430)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_StandardVoicePoolConfig_TypeDefinitionIndex = 38856;
+	inline static constexpr unsigned int CriAtomConfig_StandardVoicePoolConfig_TypeDefinitionIndex = 40153;
 
 	class CriAtomConfig_StandardVoicePoolConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 memoryVoices; // 0x10
 		::System::Int32 streamingVoices; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCONFIG_STANDARDVOICEPOOLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCONFIG_STANDARDVOICEPOOLCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

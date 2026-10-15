@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6720)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6770)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CED6710)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED66A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F650CA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F650C20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F650CF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F650C90)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__SetExplicitTimingMode_TypeDefinitionIndex = 37759;
+	inline static constexpr unsigned int IVRCompositor__SetExplicitTimingMode_TypeDefinitionIndex = 39056;
 
 	class IVRCompositor__SetExplicitTimingMode : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETEXPLICITTIMINGMODE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

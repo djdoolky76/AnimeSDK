@@ -3,11 +3,10 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ContactBeginTouchEvent.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ContactEndTouchEvent.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ContactHitEvent.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactEvents_TypeDefinitionIndex = 35938;
+	inline static constexpr unsigned int B2ContactEvents_TypeDefinitionIndex = 36625;
 
 	struct alignas(8) B2ContactEvents
 	{

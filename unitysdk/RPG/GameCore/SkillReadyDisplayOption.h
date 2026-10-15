@@ -3,13 +3,13 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillReadyDisplayOption_TypeDefinitionIndex = 17975;
+	inline static constexpr unsigned int SkillReadyDisplayOption_TypeDefinitionIndex = 18189;
 
 	enum class SkillReadyDisplayOption : ::System::UInt16
 	{
-		None = 0x0,
-		ShowOutline = 0x1,
-		ShowCrossHair = 0x2,
-		All = 0xFFFF,
+		None = 0,
+		ShowOutline = 1,
+		ShowCrossHair = 2,
+		All = 65535,
 	};
 }

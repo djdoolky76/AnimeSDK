@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Object; }
+namespace System::ComponentModel { class BrowsableAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C495E60)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C495EC0)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GET_BROWSABLE_OFFSET UNITYSDK_OFFSET(0x1C495E50)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C495ED0)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C495F90)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C495E40)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFB5780)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB5630)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFB5650)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFB56B0)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GET_BROWSABLE_OFFSET UNITYSDK_OFFSET(0x1EFB5640)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EFB56C0)
 
 namespace System::ComponentModel
 {
@@ -18,28 +18,30 @@ namespace System::ComponentModel
 	class BrowsableAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::BrowsableAttribute** StaticGet_Default()
-		{
-			return (::System::ComponentModel::BrowsableAttribute**)Il2CppClass::FromTypeDefinitionIndex(BrowsableAttribute_TypeDefinitionIndex)->GetStaticField(0x32AC0);
-		}
+		::System::Boolean browsable; // 0x10
 		static ::System::ComponentModel::BrowsableAttribute** StaticGet_Yes()
 		{
-			return (::System::ComponentModel::BrowsableAttribute**)Il2CppClass::FromTypeDefinitionIndex(BrowsableAttribute_TypeDefinitionIndex)->GetStaticField(0x32AC8);
+			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x2B290);
 		}
+
 		static ::System::ComponentModel::BrowsableAttribute** StaticGet_No()
 		{
-			return (::System::ComponentModel::BrowsableAttribute**)Il2CppClass::FromTypeDefinitionIndex(BrowsableAttribute_TypeDefinitionIndex)->GetStaticField(0x32AD0);
+			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x2B298);
 		}
-		::System::Boolean browsable; // 0x10
+
+		static ::System::ComponentModel::BrowsableAttribute** StaticGet_Default()
+		{
+			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x2B2A0);
+		}
 
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_Browsable()
@@ -61,5 +63,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET))(this);
 		}
+
 	};
 }

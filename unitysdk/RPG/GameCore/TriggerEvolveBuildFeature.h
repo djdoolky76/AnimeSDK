@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildFeatureType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerEvolveBuildFeature; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_METHOD_3_07252C0DD45CC917_OFFSET UNITYSDK_OFFSET(0x1D28E2B0)
-#define RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_METHOD_3_BF588B0F6A6CE522_OFFSET UNITYSDK_OFFSET(0x1D28E270)
-#define RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28E2A0)
+#define RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC25150)
+#define RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC25160)
+#define RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC25120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEvolveBuildFeature_TypeDefinitionIndex = 22270;
+	inline static constexpr unsigned int TriggerEvolveBuildFeature_TypeDefinitionIndex = 22519;
 
 	class TriggerEvolveBuildFeature : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::EvolveBuildFeatureType Feature; // 0x18
 		::System::Boolean IsRevert; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF588B0F6A6CE522(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEvolveBuildFeature*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEvolveBuildFeature* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEvolveBuildFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_METHOD_3_BF588B0F6A6CE522_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEvolveBuildFeature*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_07252C0DD45CC917(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEvolveBuildFeature* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerEvolveBuildFeature* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEvolveBuildFeature*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_METHOD_3_07252C0DD45CC917_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerEvolveBuildFeature*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREVOLVEBUILDFEATURE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

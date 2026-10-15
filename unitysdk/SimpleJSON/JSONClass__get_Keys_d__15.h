@@ -1,40 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_KeyCollection_Enumerator.h"
 #include "unitysdk/System/Object.h"
-
 namespace SimpleJSON { class JSONClass; }
-namespace SimpleJSON { class JSONNode; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EEDD930)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_STRING__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EEDDBA0)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_STRING__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EEDDB30)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EEDDC20)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EEDDB90)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EEDDB40)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EEDD910)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDBD60)
-#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EEDD920)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC29C60)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EC2B7E0)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_STRING__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC2BA50)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_STRING__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC2B9E0)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC2BAD0)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC2BA40)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EC2B9F0)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC2B7C0)
+#define SIMPLEJSON_JSONCLASS__GET_KEYS_D__15___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EC2B7D0)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSONClass__get_Keys_d__15_TypeDefinitionIndex = 9906;
+	inline static constexpr unsigned int JSONClass__get_Keys_d__15_TypeDefinitionIndex = 9964;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15>
 	class JSONClass__get_Keys_d__15 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2_KeyCollection_Enumerator<::System::String*, ::SimpleJSON::JSONNode*> __7__wrap1; // 0x10
-		::SimpleJSON::JSONClass* __4__this; // 0x28
+		::SimpleJSON::JSONClass* __4__this; // 0x10
+		::System::Object* __7__wrap1; // 0x18
+		::System::Byte _padding0[0x10];
 		::System::String* __2__current; // 0x30
 		::System::Int32 __1__state; // 0x38
 		::System::Int32 __l__initialThreadId; // 0x3C
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSONCLASS__GET_KEYS_D__15__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -76,5 +75,6 @@ namespace SimpleJSON
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSONCLASS__GET_KEYS_D__15_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

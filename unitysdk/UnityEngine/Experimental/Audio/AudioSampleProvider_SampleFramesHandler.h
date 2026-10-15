@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Experimental::Audio { class AudioSampleProvider; }
 
-#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F0022D0)
-#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F002330)
-#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F0021B0)
-#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0021E0)
+#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F395760)
+#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F395670)
+#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3957C0)
+#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F395640)
 
 namespace UnityEngine::Experimental::Audio
 {
-	inline static constexpr unsigned int AudioSampleProvider_SampleFramesHandler_TypeDefinitionIndex = 5149;
+	inline static constexpr unsigned int AudioSampleProvider_SampleFramesHandler_TypeDefinitionIndex = 5156;
 
 	class AudioSampleProvider_SampleFramesHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Experimental::Audio::AudioSampleProvider* a1, ::System::UInt32 a2)
@@ -38,5 +37,6 @@ namespace UnityEngine::Experimental::Audio
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_SAMPLEFRAMESHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

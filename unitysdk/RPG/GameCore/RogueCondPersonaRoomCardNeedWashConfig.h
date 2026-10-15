@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueCondPersonaRoomCardNeedWashConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_METHOD_6_4F641FE00FA1CE46_OFFSET UNITYSDK_OFFSET(0x1D918BA0)
-#define RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_METHOD_6_52EFC6BEBADA56E2_OFFSET UNITYSDK_OFFSET(0x1D918BF0)
-#define RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D918BE0)
+#define RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D984B90)
+#define RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D984BA0)
+#define RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D984B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCondPersonaRoomCardNeedWashConfig_TypeDefinitionIndex = 19577;
+	inline static constexpr unsigned int RogueCondPersonaRoomCardNeedWashConfig_TypeDefinitionIndex = 19807;
 
 	class RogueCondPersonaRoomCardNeedWashConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_4F641FE00FA1CE46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_METHOD_6_4F641FE00FA1CE46_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_52EFC6BEBADA56E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_METHOD_6_52EFC6BEBADA56E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueCondPersonaRoomCardNeedWashConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDPERSONAROOMCARDNEEDWASHCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

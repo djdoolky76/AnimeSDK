@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD2BDB0)
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD2BE00)
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2BDA0)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EB670)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EB680)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EB6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnAvatarChangeFinish_TypeDefinitionIndex = 56897;
+	inline static constexpr unsigned int LevelTurnAvatarChangeFinish_TypeDefinitionIndex = 56718;
 
 	class LevelTurnAvatarChangeFinish : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNAVATARCHANGEFINISH_GETSOURCERUNTIMEID_OFFSET))(this);
 		}
+
 	};
 }

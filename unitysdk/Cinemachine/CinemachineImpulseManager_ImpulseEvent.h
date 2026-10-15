@@ -4,39 +4,37 @@
 #include "unitysdk/Cinemachine/CinemachineImpulseManager_ImpulseEvent_DirectionMode.h"
 #include "unitysdk/Cinemachine/CinemachineImpulseManager_ImpulseEvent_DissipationMode.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Quaternion.h"
 namespace Cinemachine { class ISignalSource6D; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CANCEL_OFFSET UNITYSDK_OFFSET(0x18C64F30)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x18C64370)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_DISTANCEDECAY_OFFSET UNITYSDK_OFFSET(0x18C64F80)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_GETDECAYEDSIGNAL_OFFSET UNITYSDK_OFFSET(0x18C643C0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_GET_EXPIRED_OFFSET UNITYSDK_OFFSET(0x18C641E0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C64C00)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CANCEL_OFFSET UNITYSDK_OFFSET(0x166813C0)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x16680800)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x16681090)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_DISTANCEDECAY_OFFSET UNITYSDK_OFFSET(0x16681410)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_GETDECAYEDSIGNAL_OFFSET UNITYSDK_OFFSET(0x16680850)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_GET_EXPIRED_OFFSET UNITYSDK_OFFSET(0x16680670)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseManager_ImpulseEvent_TypeDefinitionIndex = 38577;
+	inline static constexpr unsigned int CinemachineImpulseManager_ImpulseEvent_TypeDefinitionIndex = 39874;
 
 	class CinemachineImpulseManager_ImpulseEvent : public ::System::Object
 	{
 	public:
-		::Cinemachine::ISignalSource6D* m_SignalSource; // 0x10
-		::Cinemachine::CinemachineImpulseManager_EnvelopeDefinition m_Envelope; // 0x18
-		::System::Single m_StartTime; // 0x38
+		::Cinemachine::CinemachineImpulseManager_EnvelopeDefinition m_Envelope; // 0x10
+		::Cinemachine::ISignalSource6D* m_SignalSource; // 0x30
+		::System::Single m_Radius; // 0x38
 		::UnityEngine::Vector3 m_Position; // 0x3C
-		::System::Single m_Radius; // 0x48
-		::Cinemachine::CinemachineImpulseManager_ImpulseEvent_DissipationMode m_DissipationMode; // 0x4C
-		::System::Single m_DissipationDistance; // 0x50
-		::System::Single m_PropagationSpeed; // 0x54
-		::System::Int32 m_Channel; // 0x58
-		::Cinemachine::CinemachineImpulseManager_ImpulseEvent_DirectionMode m_DirectionMode; // 0x5C
-
+		::System::Single m_StartTime; // 0x48
+		::Cinemachine::CinemachineImpulseManager_ImpulseEvent_DirectionMode m_DirectionMode; // 0x4C
+		::Cinemachine::CinemachineImpulseManager_ImpulseEvent_DissipationMode m_DissipationMode; // 0x50
+		::System::Int32 m_Channel; // 0x54
+		::System::Single m_DissipationDistance; // 0x58
+		::System::Single m_PropagationSpeed; // 0x5C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_Expired()
@@ -54,14 +52,15 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_DISTANCEDECAY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetDecayedSignal(::UnityEngine::Vector3 a1, ::System::Boolean a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Quaternion& a4)
+		::System::Boolean GetDecayedSignal(::UnityEngine::Vector3 a1, ::System::Boolean a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_GETDECAYEDSIGNAL_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_GETDECAYEDSIGNAL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_IMPULSEEVENT_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

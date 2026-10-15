@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A70F30)
-#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A70F70)
-#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A6E8C0)
-#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A70E40)
+#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF49330)
+#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF49240)
+#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF49370)
+#define HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF46D10)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerRegistry_ConvertObjectDelegate_TypeDefinitionIndex = 47427;
+	inline static constexpr unsigned int rdtSerializerRegistry_ConvertObjectDelegate_TypeDefinitionIndex = 46967;
 
 	class rdtSerializerRegistry_ConvertObjectDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* Invoke(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
@@ -38,5 +37,6 @@ namespace Hdg
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_CONVERTOBJECTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

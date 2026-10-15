@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StreamingBlockVolumeComponentData.h"
-
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_GET_EFFECTBLOCKSHIDEORHLODTAG_OFFSET UNITYSDK_OFFSET(0x119C5D50)
-#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_SET_EFFECTBLOCKSHIDEORHLODTAG_OFFSET UNITYSDK_OFFSET(0x119C5D60)
-#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x119C5DC0)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE771A30)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_GET_EFFECTBLOCKSHIDEORHLODTAG_OFFSET UNITYSDK_OFFSET(0xE7719C0)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_SET_EFFECTBLOCKSHIDEORHLODTAG_OFFSET UNITYSDK_OFFSET(0xE7719D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingBlockVolumeComponentEditorData_TypeDefinitionIndex = 53812;
+	inline static constexpr unsigned int StreamingBlockVolumeComponentEditorData_TypeDefinitionIndex = 53596;
 
 	class StreamingBlockVolumeComponentEditorData : public ::RPG::GameCore::StreamingBlockVolumeComponentData
 	{
 	public:
 		::RPG::GameCore::HoyoTagContainer* _effectBlocksHideOrHlodTag; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::HoyoTagContainer* get_EffectBlocksHideOrHLODTag()
@@ -31,5 +29,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HoyoTagContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTEDITORDATA_SET_EFFECTBLOCKSHIDEORHLODTAG_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class GuestBindMail; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
@@ -9,45 +9,26 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x18ABE5E0)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x18ABF290)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_BIND_OFFSET UNITYSDK_OFFSET(0x18ABF2D0)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_CLOSE_OFFSET UNITYSDK_OFFSET(0x18ABF2B0)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_FORGETPASSWORD_OFFSET UNITYSDK_OFFSET(0x18ABF530)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x18ABE540)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18ABF570)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_REGISTER_OFFSET UNITYSDK_OFFSET(0x18ABF550)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_SETMAILINPUTTEXT_OFFSET UNITYSDK_OFFSET(0x18ABE5B0)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x18ABE3E0)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x18ABF280)
-#define MIHOYO_SDK_WIN_GUESTBINDMAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABF590)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD248C0)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_BACK_OFFSET UNITYSDK_OFFSET(0x1BD25570)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_BIND_OFFSET UNITYSDK_OFFSET(0x1BD255B0)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BD25590)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD25870)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_FORGETPASSWORD_OFFSET UNITYSDK_OFFSET(0x1BD25810)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD24820)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD25850)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_REGISTER_OFFSET UNITYSDK_OFFSET(0x1BD25830)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_SETMAILINPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1BD24890)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD246C0)
+#define MIHOYO_SDK_WIN_GUESTBINDMAIL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD25560)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GuestBindMail_TypeDefinitionIndex = 9439;
+	inline static constexpr unsigned int GuestBindMail_TypeDefinitionIndex = 9497;
 
 	class GuestBindMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::GuestBindMail** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::GuestBindMail**)Il2CppClass::FromTypeDefinitionIndex(GuestBindMail_TypeDefinitionIndex)->GetStaticField(0x26DF0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* MailInputPath; // 0x0
-		// static const ::System::String* PasswordInputPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* RegisterButtonPath; // 0x0
-		// static const ::System::String* ForgetPasswordButtonPath; // 0x0
-		// static const ::System::String* MailInputTextPath; // 0x0
-		// static const ::System::String* PasswordInputTextPath; // 0x0
-		// static const ::System::String* MailInputPlaceholderPath; // 0x0
-		// static const ::System::String* PasswordInputPlaceholderPath; // 0x0
-		// static const ::System::String* SubmitButtonTextPath; // 0x0
-		// static const ::System::String* RegisterButtonTextPath; // 0x0
-		// static const ::System::String* ForgetPasswordButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* closeButton; // 0x58
 		::UnityEngine::UI::Button* backButton; // 0x60
 		::UnityEngine::UI::InputField* mailInput; // 0x68
@@ -63,10 +44,29 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnRegister; // 0xB8
 		::System::Action* OnForget; // 0xC0
 		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0xC8
+		static ::MiHoYo::SDK::Win::GuestBindMail** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::GuestBindMail**)UnitySDK::FromName("MiHoYo.SDK.Win", "GuestBindMail")->GetStaticField(0x2D0F0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* MailInputPath; // 0x0
+		// static const ::System::String* PasswordInputPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* RegisterButtonPath; // 0x0
+		// static const ::System::String* ForgetPasswordButtonPath; // 0x0
+		// static const ::System::String* MailInputTextPath; // 0x0
+		// static const ::System::String* PasswordInputTextPath; // 0x0
+		// static const ::System::String* MailInputPlaceholderPath; // 0x0
+		// static const ::System::String* PasswordInputPlaceholderPath; // 0x0
+		// static const ::System::String* SubmitButtonTextPath; // 0x0
+		// static const ::System::String* RegisterButtonTextPath; // 0x0
+		// static const ::System::String* ForgetPasswordButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDMAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDMAIL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -123,5 +123,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDMAIL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

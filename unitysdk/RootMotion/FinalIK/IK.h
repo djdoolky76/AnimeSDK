@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/SolverManager.h"
 
-namespace RootMotion::FinalIK { class IKSolver; }
-
-#define ROOTMOTION_FINALIK_IK_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x196A6FD0)
-#define ROOTMOTION_FINALIK_IK_INITIATESOLVER_OFFSET UNITYSDK_OFFSET(0x196A6DB0)
-#define ROOTMOTION_FINALIK_IK_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x196A70A0)
-#define ROOTMOTION_FINALIK_IK_UPDATESOLVER_OFFSET UNITYSDK_OFFSET(0x196A6C10)
-#define ROOTMOTION_FINALIK_IK__CTOR_OFFSET UNITYSDK_OFFSET(0x196A7140)
+#define ROOTMOTION_FINALIK_IK_CTOR_OFFSET UNITYSDK_OFFSET(0xB0AE560)
+#define ROOTMOTION_FINALIK_IK_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0xB0AE3F0)
+#define ROOTMOTION_FINALIK_IK_INITIATESOLVER_OFFSET UNITYSDK_OFFSET(0xB0AE1A0)
+#define ROOTMOTION_FINALIK_IK_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xB0AE4C0)
+#define ROOTMOTION_FINALIK_IK_UPDATESOLVER_OFFSET UNITYSDK_OFFSET(0xB0ADFE0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IK_TypeDefinitionIndex = 44872;
+	inline static constexpr unsigned int IK_TypeDefinitionIndex = 46011;
 
 	class IK : public ::RootMotion::SolverManager
 	{
 	public:
 		::System::Boolean lockIKPosition; // 0x38
 		::System::Boolean lockIKPhysics; // 0x39
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UpdateSolver()
@@ -44,5 +41,6 @@ namespace RootMotion::FinalIK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IK_ONDRAWGIZMOSSELECTED_OFFSET))(this);
 		}
+
 	};
 }

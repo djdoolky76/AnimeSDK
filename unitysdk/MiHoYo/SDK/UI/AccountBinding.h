@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI { class AccountBinding; }
 namespace MiHoYo::SDK::Win { class BubbleTooltipHost; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
@@ -14,75 +14,40 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B9BDD40)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_BACK_OFFSET UNITYSDK_OFFSET(0x1B9C1200)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_BINDACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B9C1980)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_CAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B9BD6C0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_CLEARCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1B9BDAB0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_CLEARINPUTACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B9BD920)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B9C1220)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_HIDE_OFFSET UNITYSDK_OFFSET(0x1B9BDCD0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1B9BD0B0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1B9BD2C0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONAGREEMENTCHECKBOXTOGGLECLICKED_OFFSET UNITYSDK_OFFSET(0x1B9C1820)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONCAPTCHACODEINPUTFIELDVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B9C1620)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONCAPTCHACOUNTDOWNENDS_OFFSET UNITYSDK_OFFSET(0x1B9C14E0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONMAILINPUTFIELDVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B9C1550)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_REFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1B9C1B70)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_REQUESTCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1B9C1240)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_SETINPUTACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B9BD8D0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1B9BCFC0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_SETSENDCAPTCHABUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1B9BD5C0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_SHOWPRIVACYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1B9C1A90)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_SHOWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x1B9C19E0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_SHOW_OFFSET UNITYSDK_OFFSET(0x1B9BDBC0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_STARTCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B9BD340)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_STOPCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B9BD710)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING_UPDATECAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B9C1410)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C1BD0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFB9DD0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_BACK_OFFSET UNITYSDK_OFFSET(0x1BFBD290)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_BINDACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFBDA10)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_CAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BFB9750)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_CLEARCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BFB9B40)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_CLEARINPUTACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFB99B0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BFBD2B0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFBDC60)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFB9D60)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BFB9140)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1BFB9350)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONAGREEMENTCHECKBOXTOGGLECLICKED_OFFSET UNITYSDK_OFFSET(0x1BFBD8B0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONCAPTCHACODEINPUTFIELDVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BFBD6B0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONCAPTCHACOUNTDOWNENDS_OFFSET UNITYSDK_OFFSET(0x1BFBD570)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_ONMAILINPUTFIELDVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BFBD5E0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_REFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BFBDC00)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_REQUESTCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BFBD2D0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_SETINPUTACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFB9960)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BFB9050)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_SETSENDCAPTCHABUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BFB9650)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_SHOWPRIVACYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1BFBDB20)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_SHOWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x1BFBDA70)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFB9C50)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_STARTCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BFB93D0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_STOPCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BFB97A0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING_UPDATECAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BFBD4A0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AccountBinding_TypeDefinitionIndex = 8330;
+	inline static constexpr unsigned int AccountBinding_TypeDefinitionIndex = 8373;
 
 	class AccountBinding : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::AccountBinding** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::AccountBinding**)Il2CppClass::FromTypeDefinitionIndex(AccountBinding_TypeDefinitionIndex)->GetStaticField(0x20280);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::Int32 CAPTCHA_RESEND_COUNTDOWN_SECONDS = 0x3C; // 0x0
-		// static const ::System::String* backBtnPath; // 0x0
-		// static const ::System::String* closeBtnPath; // 0x0
-		// static const ::System::String* titleTextPath; // 0x0
-		// static const ::System::String* descTextPath; // 0x0
-		// static const ::System::String* manualBindTitleTextPath; // 0x0
-		// static const ::System::String* mailInputPath; // 0x0
-		// static const ::System::String* mailInputClearAllBtnPath; // 0x0
-		// static const ::System::String* codeInputPath; // 0x0
-		// static const ::System::String* codeInputClearAllBtnPath; // 0x0
-		// static const ::System::String* sendCaptchaBtnPath; // 0x0
-		// static const ::System::String* sendCaptchaBtnTextPath; // 0x0
-		// static const ::System::String* showUserAgreementObjPath; // 0x0
-		// static const ::System::String* viewUserAgreementLabelTextPath; // 0x0
-		// static const ::System::String* viewUserAgreementBtnPath; // 0x0
-		// static const ::System::String* showPrivacyProtocolObjPath; // 0x0
-		// static const ::System::String* viewPrivacyProtocolLabelTextPath; // 0x0
-		// static const ::System::String* viewPrivacyProtocolBtnPath; // 0x0
-		// static const ::System::String* agreementCheckboxPath; // 0x0
-		// static const ::System::String* agreementCheckboxTextPath; // 0x0
-		// static const ::System::String* bindBtnTipsPath; // 0x0
-		// static const ::System::String* bindBtnPath; // 0x0
-		// static const ::System::String* bindBtnTextPath; // 0x0
-		// static const ::System::String* qrBindTitleTextPath; // 0x0
-		// static const ::System::String* qrImagePath; // 0x0
-		// static const ::System::String* qrLoadingPanelPath; // 0x0
-		// static const ::System::String* qrExpiredPanelPath; // 0x0
-		// static const ::System::String* qrRefreshBtnPath; // 0x0
-		// static const ::System::String* qrStatusTipsTextPath; // 0x0
-		// static const ::System::String* scanInstructionTextPath; // 0x0
 		::UnityEngine::UI::Text* titleText; // 0x58
 		::UnityEngine::UI::Text* descText; // 0x60
 		::UnityEngine::UI::Text* manualBindTitleText; // 0x68
@@ -115,9 +80,11 @@ namespace MiHoYo::SDK::UI
 		::UnityEngine::GameObject* qrExpiredPanelObj; // 0x140
 		::UnityEngine::GameObject* qrStatusTipsTextObj; // 0x148
 		::System::Single resendCaptchaCountdownSeconds; // 0x150
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Coroutine* CaptchaCountdownCoroutine; // 0x158
 		::System::String* gamertag; // 0x160
 		::System::Boolean showAgreement; // 0x168
+		::System::Byte _padding1[0x7];
 		::System::Action* OnBackBtnClicked; // 0x170
 		::System::Action* OnCloseBtnClicked; // 0x178
 		::System::Action_1<::System::String*>* OnGetCaptchaBtnClicked; // 0x180
@@ -125,10 +92,45 @@ namespace MiHoYo::SDK::UI
 		::System::Action* OnShowPrivacyProtocolClicked; // 0x190
 		::System::Action_1<::System::String*>* OnBindBtnClicked; // 0x198
 		::System::Action* OnQRRefreshBtnClicked; // 0x1A0
+		static ::MiHoYo::SDK::UI::AccountBinding** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::AccountBinding**)UnitySDK::FromName("MiHoYo.SDK.UI", "AccountBinding")->GetStaticField(0x2AA90);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::Object CAPTCHA_RESEND_COUNTDOWN_SECONDS; // 0x0
+		// static const ::System::String* backBtnPath; // 0x0
+		// static const ::System::String* closeBtnPath; // 0x0
+		// static const ::System::String* titleTextPath; // 0x0
+		// static const ::System::String* descTextPath; // 0x0
+		// static const ::System::String* manualBindTitleTextPath; // 0x0
+		// static const ::System::String* mailInputPath; // 0x0
+		// static const ::System::String* mailInputClearAllBtnPath; // 0x0
+		// static const ::System::String* codeInputPath; // 0x0
+		// static const ::System::String* codeInputClearAllBtnPath; // 0x0
+		// static const ::System::String* sendCaptchaBtnPath; // 0x0
+		// static const ::System::String* sendCaptchaBtnTextPath; // 0x0
+		// static const ::System::String* showUserAgreementObjPath; // 0x0
+		// static const ::System::String* viewUserAgreementLabelTextPath; // 0x0
+		// static const ::System::String* viewUserAgreementBtnPath; // 0x0
+		// static const ::System::String* showPrivacyProtocolObjPath; // 0x0
+		// static const ::System::String* viewPrivacyProtocolLabelTextPath; // 0x0
+		// static const ::System::String* viewPrivacyProtocolBtnPath; // 0x0
+		// static const ::System::String* agreementCheckboxPath; // 0x0
+		// static const ::System::String* agreementCheckboxTextPath; // 0x0
+		// static const ::System::String* bindBtnTipsPath; // 0x0
+		// static const ::System::String* bindBtnPath; // 0x0
+		// static const ::System::String* bindBtnTextPath; // 0x0
+		// static const ::System::String* qrBindTitleTextPath; // 0x0
+		// static const ::System::String* qrImagePath; // 0x0
+		// static const ::System::String* qrLoadingPanelPath; // 0x0
+		// static const ::System::String* qrExpiredPanelPath; // 0x0
+		// static const ::System::String* qrRefreshBtnPath; // 0x0
+		// static const ::System::String* qrStatusTipsTextPath; // 0x0
+		// static const ::System::String* scanInstructionTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ACCOUNTBINDING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ACCOUNTBINDING_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetQRImage(::System::String* a1)
@@ -255,5 +257,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ACCOUNTBINDING_REFRESHQRIMAGE_OFFSET))(this);
 		}
+
 	};
 }

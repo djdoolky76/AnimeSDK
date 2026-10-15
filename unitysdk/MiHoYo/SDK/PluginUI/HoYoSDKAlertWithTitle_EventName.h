@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKAlertWithTitle_EventName_TypeDefinitionIndex = 47203;
+	inline static constexpr unsigned int HoYoSDKAlertWithTitle_EventName_TypeDefinitionIndex = 46743;
 
 	class HoYoSDKAlertWithTitle_EventName : public ::System::Object
 	{

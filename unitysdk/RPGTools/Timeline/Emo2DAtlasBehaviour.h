@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class Emo2DAtlasClip; }
 
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B56EC50)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B56EC70)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B56EC60)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56ED70)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D3BA0)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8D3A80)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8D3AA0)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8D3A90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int Emo2DAtlasBehaviour_TypeDefinitionIndex = 48547;
+	inline static constexpr unsigned int Emo2DAtlasBehaviour_TypeDefinitionIndex = 48087;
 
 	class Emo2DAtlasBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::Emo2DAtlasClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::Emo2DAtlasClip* get_Clip()
@@ -39,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

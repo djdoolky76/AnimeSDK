@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F90F0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9120)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F90E0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F9070)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15370)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE152F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE153A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE15360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetSandboxIdDelegate_TypeDefinitionIndex = 7618;
+	inline static constexpr unsigned int ConsoleDelegate_GetSandboxIdDelegate_TypeDefinitionIndex = 7672;
 
 	class ConsoleDelegate_GetSandboxIdDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +37,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETSANDBOXIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

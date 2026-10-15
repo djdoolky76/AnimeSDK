@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/ExposedReference_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
 namespace RPGTools::Timeline { class CameraData; }
 namespace RPGTools::Timeline { class MainCameraTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B59E1A0)
-#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B59E190)
-#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59E3B0)
+#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE903390)
+#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9035A0)
+#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE903380)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MainCameraTimelineClip_TypeDefinitionIndex = 48903;
+	inline static constexpr unsigned int MainCameraTimelineClip_TypeDefinitionIndex = 48449;
 
 	class MainCameraTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -24,19 +23,23 @@ namespace RPGTools::Timeline
 		::RPGTools::Timeline::MainCameraTimelineBehaviour* template_; // 0x18
 		::RPGTools::Timeline::CameraData* cameraData; // 0x20
 		::System::Boolean lookAtMode; // 0x28
+		::System::Byte _padding0[0x7];
 		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> lookAtTarget; // 0x30
+		::System::Byte _padding1[0x8];
 		::System::Boolean ignoreTimeScale; // 0x40
 		::System::Boolean enterLerp; // 0x41
+		::System::Byte _padding2[0x2];
 		::System::Single enterLerpDuration; // 0x44
 		::System::Boolean exitLerp; // 0x48
+		::System::Byte _padding3[0x3];
 		::System::Single exitLerpDuration; // 0x4C
 		::System::Boolean pauseLevel; // 0x50
 		::System::Boolean hideUIInstant; // 0x51
+		::System::Byte _padding4[0x2];
 		::System::Single nearClip; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -48,5 +51,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -4,42 +4,56 @@
 #include "unitysdk/MiHoYo/SDK/PC/OS/CXHandheld/HandheldUserAgreementDialog_DisplayMode.h"
 #include "unitysdk/MiHoYo/SDK/ReportType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldUserAgreementDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x1A24A8B0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A248950)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1A24BDB0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x1A24AF30)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1A24BDE0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1A248780)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A24BD90)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_REPORTSCROLLBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1A2487F0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1A24BE10)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1A248680)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1A24AF90)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A24AFE0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_0_OFFSET UNITYSDK_OFFSET(0x1A24BE80)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_1_OFFSET UNITYSDK_OFFSET(0x1A24BE90)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_2_OFFSET UNITYSDK_OFFSET(0x1A24BEC0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_3_OFFSET UNITYSDK_OFFSET(0x1A24BEF0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A24BE20)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x1BECD1B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BECB250)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BECE6B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x1BECD830)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BECE6E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BECE720)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BECB080)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BECE690)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_REPORTSCROLLBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BECB0F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BECE710)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BECAF80)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BECD890)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BECD8E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_0_OFFSET UNITYSDK_OFFSET(0x1BECE780)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_1_OFFSET UNITYSDK_OFFSET(0x1BECE790)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_2_OFFSET UNITYSDK_OFFSET(0x1BECE7C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_3_OFFSET UNITYSDK_OFFSET(0x1BECE7F0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldUserAgreementDialog_TypeDefinitionIndex = 8758;
+	inline static constexpr unsigned int HandheldUserAgreementDialog_TypeDefinitionIndex = 8819;
 
 	class HandheldUserAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
+		::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog_DisplayMode displayMode; // 0xC0
+		::MiHoYo::SDK::ReportType reportType; // 0xC4
+		::System::Boolean isScrollbarVisible; // 0xC8
+		::System::Boolean reportScoll; // 0xC9
+		::System::Boolean interactable; // 0xCA
+		::System::Byte _padding0[0x5];
+		::System::Action* OnUserAgreementClicked; // 0xD0
+		::System::Action* OnPrivacyPolicyClicked; // 0xD8
+		::System::Action* OnChildrenPrivacyClicked; // 0xE0
+		::System::Action* OnAgreementCanceled; // 0xE8
+		::System::Action* OnAgreementAccepted; // 0xF0
+		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xF8
+		::UnityEngine::GameObject* ProtocolImageObj; // 0x100
+		::UnityEngine::GameObject* PrivacyImageObj; // 0x108
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(HandheldUserAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x19E10);
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "HandheldUserAgreementDialog")->GetStaticField(0x16E50);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitlePath; // 0x0
 		// static const ::System::String* ContentTextPath; // 0x0
@@ -56,24 +70,10 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		// static const ::System::String* ScrollBtnPath; // 0x0
 		// static const ::System::String* ScrollBtnTextPath; // 0x0
 		// static const ::System::String* ScrollBarPath; // 0x0
-		// static const ::System::Int32 xcloud_button_width = 0x20; // 0x0
-		::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog_DisplayMode displayMode; // 0xC0
-		::MiHoYo::SDK::ReportType reportType; // 0xC4
-		::System::Boolean isScrollbarVisible; // 0xC8
-		::System::Boolean reportScoll; // 0xC9
-		::System::Boolean interactable; // 0xCA
-		::System::Action* OnUserAgreementClicked; // 0xD0
-		::System::Action* OnPrivacyPolicyClicked; // 0xD8
-		::System::Action* OnChildrenPrivacyClicked; // 0xE0
-		::System::Action* OnAgreementCanceled; // 0xE8
-		::System::Action* OnAgreementAccepted; // 0xF0
-		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xF8
-		::UnityEngine::GameObject* ProtocolImageObj; // 0x100
-		::UnityEngine::GameObject* PrivacyImageObj; // 0x108
-
+		// static const ::System::Object xcloud_button_width; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog_DisplayMode a1)
@@ -155,5 +155,6 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG__AWAKE_B__35_3_OFFSET))(this);
 		}
+
 	};
 }

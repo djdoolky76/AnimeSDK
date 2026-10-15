@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_AA3647312B318D6B;
-class Class_1_BE27584A7A63E572;
-namespace RPG::Client::LittleGame::ChenLing { class ChenLingEffectProfilerDebugView_EffectPathRow; }
-namespace RPG::Client::LittleGame::ChenLing { class ChenLingEffectProfilerDebugView_ReasonRow; }
+class FLDCOAJPMEP;
+class LDLCIEJKBNH;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_METHOD_5_39D78A8EB32A5315_OFFSET UNITYSDK_OFFSET(0x1AC16830)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_METHOD_5_5CCCEEABA4778486_OFFSET UNITYSDK_OFFSET(0x1AC16CA0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AC167E0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_REFRESHNOW_OFFSET UNITYSDK_OFFSET(0x1AC169C0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_RESETPROFILERSESSION_OFFSET UNITYSDK_OFFSET(0x1AC17F80)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AC16C00)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC180A0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD402290)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_IFGNDIINEJH_OFFSET UNITYSDK_OFFSET(0xD400E90)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_NNNNOOEGHBJ_OFFSET UNITYSDK_OFFSET(0xD400A20)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD4009D0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_REFRESHNOW_OFFSET UNITYSDK_OFFSET(0xD400BB0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_RESETPROFILERSESSION_OFFSET UNITYSDK_OFFSET(0xD402170)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xD400DF0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingEffectProfilerDebugView_TypeDefinitionIndex = 77370;
+	inline static constexpr unsigned int ChenLingEffectProfilerDebugView_TypeDefinitionIndex = 77841;
 
 	class ChenLingEffectProfilerDebugView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _AutoRefresh; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single _RefreshIntervalSec; // 0x1C
 		::System::Int32 _TopN; // 0x20
 		::System::Boolean _ProfilerEnabled; // 0x24
+		::System::Byte _padding1[0x3];
 		::System::String* _Status; // 0x28
 		::System::Int64 _TotalSyncRequests; // 0x30
 		::System::Int64 _TotalAsyncRequests; // 0x38
@@ -51,15 +51,15 @@ namespace RPG::Client::LittleGame::ChenLing
 		::System::Single _AsyncAvgLatencyMs; // 0x94
 		::System::Single _AsyncP95LatencyMs; // 0x98
 		::System::Single _AsyncMaxLatencyMs; // 0x9C
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingEffectProfilerDebugView_EffectPathRow*>* _TopPathRows; // 0xA0
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingEffectProfilerDebugView_ReasonRow*>* _RemoveReasonRows; // 0xA8
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingEffectProfilerDebugView_ReasonRow*>* _AsyncFailureReasonRows; // 0xB0
+		::System::Collections::Generic::List_1<::System::Object*>* _TopPathRows; // 0xA0
+		::System::Collections::Generic::List_1<::System::Object*>* _RemoveReasonRows; // 0xA8
+		::System::Collections::Generic::List_1<::System::Object*>* _AsyncFailureReasonRows; // 0xB0
 		::System::Single PGMIOKKLHIE; // 0xB8
-		::Class_1_BE27584A7A63E572* ADJNOFMEIKM; // 0xC0
-
+		::System::Byte _padding2[0x4];
+		::LDLCIEJKBNH* ADJNOFMEIKM; // 0xC0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -82,14 +82,15 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_RESETPROFILERSESSION_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_39D78A8EB32A5315()
+		::System::Boolean NNNNOOEGHBJ()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_METHOD_5_39D78A8EB32A5315_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_NNNNOOEGHBJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_5CCCEEABA4778486(::Class_1_AA3647312B318D6B* a1)
+		::System::Void IFGNDIINEJH(::FLDCOAJPMEP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_AA3647312B318D6B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_METHOD_5_5CCCEEABA4778486_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::FLDCOAJPMEP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_IFGNDIINEJH_OFFSET))(this, a1);
 		}
+
 	};
 }

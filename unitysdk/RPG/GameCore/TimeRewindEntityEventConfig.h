@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TimeRewindEntityEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_METHOD_2_11DA05A8B70E24A8_OFFSET UNITYSDK_OFFSET(0x1D528300)
-#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D528520)
+#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5A8B0)
+#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5A690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEntityEventConfig_TypeDefinitionIndex = 16426;
+	inline static constexpr unsigned int TimeRewindEntityEventConfig_TypeDefinitionIndex = 16602;
 
 	class TimeRewindEntityEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,15 +19,15 @@ namespace RPG::GameCore
 		::System::Boolean TriggerInRewind; // 0x18
 		::System::Boolean TriggerInForward; // 0x19
 		::System::Boolean MinimumTrigger; // 0x1A
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_11DA05A8B70E24A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindEntityEventConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRewindEntityEventConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindEntityEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_METHOD_2_11DA05A8B70E24A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRewindEntityEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

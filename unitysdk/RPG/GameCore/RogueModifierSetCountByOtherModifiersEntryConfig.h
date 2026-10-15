@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierSetCountByOtherModifiersEntryConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_METHOD_2_6B70C3D3AF662335_OFFSET UNITYSDK_OFFSET(0x1E535200)
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E535240)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ECDB0)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ECD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierSetCountByOtherModifiersEntryConfig_TypeDefinitionIndex = 17510;
+	inline static constexpr unsigned int RogueModifierSetCountByOtherModifiersEntryConfig_TypeDefinitionIndex = 17722;
 
 	class RogueModifierSetCountByOtherModifiersEntryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6B70C3D3AF662335(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetCountByOtherModifiersEntryConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetCountByOtherModifiersEntryConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetCountByOtherModifiersEntryConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_METHOD_2_6B70C3D3AF662335_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetCountByOtherModifiersEntryConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

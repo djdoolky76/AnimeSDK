@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF__CTOR_OFFSET UNITYSDK_OFFSET(0x19437320)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B6130)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -16,10 +15,10 @@ namespace System::Runtime::Remoting::Messaging
 		::System::Runtime::Remoting::ObjRef* objref; // 0x10
 		::Il2CppArray<::System::Byte>* TypeInfo; // 0x18
 		::System::Int32 SourceDomain; // 0x20
-
 		::System::Void _ctor(::System::Runtime::Remoting::ObjRef* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::ObjRef*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::ObjRef*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

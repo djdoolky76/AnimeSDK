@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/GridFightTraitEffectType.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class GridFightTraitEffectIdConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1BB08E70)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x1BB08BB0)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_TRAITEFFECTDESC_OFFSET UNITYSDK_OFFSET(0x1BB08EC0)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_TRAITEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1BB08C80)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB08E60)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B0810)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD2B0820)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0xD2B0560)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_TRAITEFFECTDESC_OFFSET UNITYSDK_OFFSET(0xD2B0870)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_TRAITEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xD2B0630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEffectConfig_TypeDefinitionIndex = 65514;
+	inline static constexpr unsigned int GridFightTraitEffectConfig_TypeDefinitionIndex = 65454;
 
 	class GridFightTraitEffectConfig : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GridFightTraitEffectIdConfigRow* _Row; // 0x10
-
 		::System::Void _ctor(::RPG::GameCore::GridFightTraitEffectIdConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightTraitEffectIdConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightTraitEffectIdConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -46,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTCONFIG_GET_TRAITEFFECTDESC_OFFSET))(this);
 		}
+
 	};
 }

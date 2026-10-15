@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PamChatQuickFunctionType.h"
 #include "unitysdk/System/Object.h"
+class EHFPIBGDAKP;
 
-class Class_1_E7B9DD65288306D6;
-
-#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D50E0)
-#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0x1C4D5BE0)
+#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA64F60)
+#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xDA65A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 63341;
+	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 63279;
 
 	class PamChatData___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::PamChatQuickFunctionType type; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetPamChatQuickFunction_b__0(::Class_1_E7B9DD65288306D6* a1)
+		::System::Boolean _GetPamChatQuickFunction_b__0(::EHFPIBGDAKP* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_E7B9DD65288306D6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::EHFPIBGDAKP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

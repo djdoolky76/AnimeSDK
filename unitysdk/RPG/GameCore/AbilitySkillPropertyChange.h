@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/SkillPropertyType.h"
-
+namespace RPG::GameCore { class AbilitySkillPropertyChange; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1121B110)
-#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1121B0D0)
-#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1121B160)
-#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x1121B060)
-#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1121B170)
-#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1121B180)
+#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4B0E50)
+#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4B0DE0)
+#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4B0DA0)
+#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xE4B0E30)
+#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE4B0D30)
+#define RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xE4B0E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilitySkillPropertyChange_TypeDefinitionIndex = 56775;
+	inline static constexpr unsigned int AbilitySkillPropertyChange_TypeDefinitionIndex = 56596;
 
-	class AbilitySkillPropertyChange : public ::Class_1_BF7A075734D15E98
+	class AbilitySkillPropertyChange : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::SkillPropertyType _PropertyType_k__BackingField; // 0x18
-		::System::UInt32 _EntityRuntimeID; // 0x1C
-
+		::System::UInt32 _EntityRuntimeID; // 0x18
+		::RPG::GameCore::SkillPropertyType _PropertyType_k__BackingField; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AbilitySkillPropertyChange* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::SkillPropertyType a2)
@@ -52,5 +51,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSKILLPROPERTYCHANGE_SET_PROPERTYTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

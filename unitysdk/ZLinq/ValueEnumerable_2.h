@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerable_2_TypeDefinitionIndex = 6085;
+	inline static constexpr unsigned int ValueEnumerable_2_TypeDefinitionIndex = 6093;
 
-	template <typename TEnumerator, typename T>
-	struct ValueEnumerable_2
+	template <typename T1, typename T2>
+	struct alignas(8) ValueEnumerable_2
 	{
-		TEnumerator Enumerator; // 0x0
+		T1 Enumerator; // 0x0
 	};
 }

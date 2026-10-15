@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVATMOSPHEREQUALITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x106CEE50)
+#define ENVIROMENTSYSTEMV2SPACE_ENVATMOSPHEREQUALITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1562E940)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvAtmosphereQualityConfig_TypeDefinitionIndex = 49723;
+	inline static constexpr unsigned int EnvAtmosphereQualityConfig_TypeDefinitionIndex = 49297;
 
 	class EnvAtmosphereQualityConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -26,10 +26,10 @@ namespace EnviromentSystemV2Space
 		::Il2CppArray<::System::Int32>* multiScatteredLuminanceLutSizeWidth; // 0x78
 		::Il2CppArray<::System::Int32>* multiScatteredLuminanceLutSizeHeight; // 0x80
 		::Il2CppArray<::System::Int32>* multiScatteringSampleCount; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVATMOSPHEREQUALITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVATMOSPHEREQUALITYCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,28 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstance; }
+namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlot; }
 namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_GETSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x1A8E49E0)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_PLAYMOTIONFROM_OFFSET UNITYSDK_OFFSET(0x1A8E6670)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A8E6600)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E6410)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC63A00)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_GETSCREENPOINT_OFFSET UNITYSDK_OFFSET(0xDC690A0)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_PLAYMOTIONFROM_OFFSET UNITYSDK_OFFSET(0xDC6ACC0)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xDC6AC50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelTeamMemberSlot_TypeDefinitionIndex = 77887;
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlot_TypeDefinitionIndex = 78358;
 
 	class ChimeraDuelTeamMemberSlot : public ::System::Object
 	{
 	public:
 		::RPG::Client::Prop::ChimeraDuelShopChimeraInstance* Instance; // 0x10
 		::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView* _View; // 0x18
-
 		::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void SetVisible(::System::Boolean a1)
@@ -40,5 +39,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_GETSCREENPOINT_OFFSET))(this);
 		}
+
 	};
 }

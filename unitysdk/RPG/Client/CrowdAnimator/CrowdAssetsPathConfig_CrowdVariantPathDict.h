@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdAssetsPathConfig_CrowdVariantPathDict_TypeDefinitionIndex = 73609;
+	inline static constexpr unsigned int CrowdAssetsPathConfig_CrowdVariantPathDict_TypeDefinitionIndex = 73716;
 
 	struct alignas(8) CrowdAssetsPathConfig_CrowdVariantPathDict
 	{

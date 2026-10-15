@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
-
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET UNITYSDK_OFFSET(0x1EAC1660)
+#define UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET UNITYSDK_OFFSET(0x1F3E8DF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 4137;
+	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 4138;
 
 	class RenderSettings : public ::UnityEngine::Object
 	{
@@ -17,5 +16,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::Light*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET))();
 		}
+
 	};
 }

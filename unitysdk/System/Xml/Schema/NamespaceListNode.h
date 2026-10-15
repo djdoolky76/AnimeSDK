@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/SyntaxTreeNode.h"
-
 namespace System { class Object; }
 namespace System::Collections { class ICollection; }
 namespace System::Xml::Schema { class BitSet; }
@@ -10,11 +9,11 @@ namespace System::Xml::Schema { class NamespaceList; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1BAE9400)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1BAE8BF0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GETRESOLVEDSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1BAE8BC0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1BAE9450)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE8BB0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1EE939F0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE931A0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1EE931E0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GETRESOLVEDSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1EE931B0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1EE93A40)
 
 namespace System::Xml::Schema
 {
@@ -25,10 +24,9 @@ namespace System::Xml::Schema
 	public:
 		::System::Xml::Schema::NamespaceList* namespaceList; // 0x10
 		::System::Object* particle; // 0x18
-
 		::System::Void _ctor(::System::Xml::Schema::NamespaceList* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::NamespaceList*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELISTNODE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::NamespaceList*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::ICollection* GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary* a1)
@@ -50,5 +48,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET))(this);
 		}
+
 	};
 }

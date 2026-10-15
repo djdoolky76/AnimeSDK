@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class TSCMaterialReferenceCache; }
-namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x197A3C30)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_DISABLETESTMODE_OFFSET UNITYSDK_OFFSET(0x197A3AB0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ENABLETESTMODE_OFFSET UNITYSDK_OFFSET(0x197A3A20)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_METHOD_7_491027A35182E1D6_OFFSET UNITYSDK_OFFSET(0x197A3710)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ONENTERMAP_OFFSET UNITYSDK_OFFSET(0x197A38C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ONLIGHTMOVE_OFFSET UNITYSDK_OFFSET(0x197A3620)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ONTSCCHANGE_OFFSET UNITYSDK_OFFSET(0x197A3660)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_OVERRIDESECONDEDGE_OFFSET UNITYSDK_OFFSET(0x197A0DA0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_REGISTERRENDERER_OFFSET UNITYSDK_OFFSET(0x197A3900)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_SETEDGEPARAM_OFFSET UNITYSDK_OFFSET(0x197A37C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_SETEDGESCALE_OFFSET UNITYSDK_OFFSET(0x197A10C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0x197A3BE0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_UNREGISTERRENDERER_OFFSET UNITYSDK_OFFSET(0x197A39A0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x197A3C80)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE28F820)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xE28F7D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_DISABLETESTMODE_OFFSET UNITYSDK_OFFSET(0xE28F650)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ENABLETESTMODE_OFFSET UNITYSDK_OFFSET(0xE28F5C0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_IOCJCCBAIBE_OFFSET UNITYSDK_OFFSET(0xE28F2B0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ONENTERMAP_OFFSET UNITYSDK_OFFSET(0xE28F460)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ONLIGHTMOVE_OFFSET UNITYSDK_OFFSET(0xE28F1C0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_ONTSCCHANGE_OFFSET UNITYSDK_OFFSET(0xE28F200)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_OVERRIDESECONDEDGE_OFFSET UNITYSDK_OFFSET(0xE28C920)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_REGISTERRENDERER_OFFSET UNITYSDK_OFFSET(0xE28F4A0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_SETEDGEPARAM_OFFSET UNITYSDK_OFFSET(0xE28F360)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_SETEDGESCALE_OFFSET UNITYSDK_OFFSET(0xE28CC40)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xE28F780)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_UNREGISTERRENDERER_OFFSET UNITYSDK_OFFSET(0xE28F540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupMonoPlugin_TypeDefinitionIndex = 70187;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupMonoPlugin_TypeDefinitionIndex = 70223;
 
-	class TimeSpaceCrisscrossGroupMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*>
+	class TimeSpaceCrisscrossGroupMonoPlugin
 	{
 	public:
 		::UnityEngine::Vector3 ConePotisionA; // 0x30
@@ -39,16 +36,19 @@ namespace RPG::Client
 		::System::Single ConeAngleA; // 0x48
 		::System::Single ConeDistanceA; // 0x4C
 		::System::Boolean EnableConeA; // 0x50
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 ConePotisionB; // 0x54
 		::UnityEngine::Vector3 ConeDirectionB; // 0x60
 		::System::Single ConeAngleB; // 0x6C
 		::System::Single ConeDistanceB; // 0x70
 		::System::Boolean EnableConeB; // 0x74
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector3 ConePotisionC; // 0x78
 		::UnityEngine::Vector3 ConeDirectionC; // 0x84
 		::System::Single ConeAngleC; // 0x90
 		::System::Single ConeDistanceC; // 0x94
 		::System::Boolean EnableConeC; // 0x98
+		::System::Byte _padding2[0x3];
 		::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState TSCState; // 0x9C
 		::UnityEngine::Material* TSCSpecialFixMat; // 0xA0
 		::UnityEngine::Material* TSCSimpFixMat; // 0xA8
@@ -59,16 +59,17 @@ namespace RPG::Client
 		::System::Boolean ShowWarningInfo; // 0xBB
 		::System::Single TSCNoiseScale; // 0xBC
 		::System::Boolean EnableSecondEdge; // 0xC0
+		::System::Byte _padding3[0x3];
 		::System::Int32 SecondEdgeConeID; // 0xC4
 		::System::Single SecondEdgeAngle; // 0xC8
 		::UnityEngine::Color SecondEdgeColor; // 0xCC
 		::System::Single SecondEdgeWidthScale; // 0xDC
 		::System::Single SecondEdgeCylinderRadius; // 0xE0
+		::System::Byte _padding4[0x4];
 		::UnityEngine::Coroutine* ABOGAIIGECL; // 0xE8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnLightMove()
@@ -116,9 +117,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_DISABLETESTMODE_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_7_491027A35182E1D6(::System::Single a1, ::System::Single a2)
+		::System::Collections::IEnumerator* IOCJCCBAIBE(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_METHOD_7_491027A35182E1D6_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_IOCJCCBAIBE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Spawned()
@@ -135,5 +136,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPMONOPLUGIN_OVERRIDESECONDEDGE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

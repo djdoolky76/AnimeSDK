@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7DFAC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7DFB00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7DD590)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DFA40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6226E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F622660)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F622720)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6200E0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_addUrlFolderMapping_TypeDefinitionIndex = 38118;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_addUrlFolderMapping_TypeDefinitionIndex = 39415;
 
 	class BrowserNative_Calltype_zfb_addUrlFolderMapping : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::String* a2)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_ADDURLFOLDERMAPPING_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

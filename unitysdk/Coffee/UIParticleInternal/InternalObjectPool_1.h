@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System { template <typename T> class Predicate_1; }
@@ -9,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int InternalObjectPool_1_TypeDefinitionIndex = 43946;
+	inline static constexpr unsigned int InternalObjectPool_1_TypeDefinitionIndex = 45138;
 
 	template <typename T>
 	class InternalObjectPool_1 : public ::System::Object

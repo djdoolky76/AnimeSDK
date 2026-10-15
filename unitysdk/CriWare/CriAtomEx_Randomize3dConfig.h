@@ -2,44 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dCalcType.h"
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dParamType.h"
-#include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CLEARCALCPARAMS_OFFSET UNITYSDK_OFFSET(0x3BAE660)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GETPARAMBYTYPE_OFFSET UNITYSDK_OFFSET(0x3BAE6A0)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONPARAMETER1_OFFSET UNITYSDK_OFFSET(0x3BAE4D0)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONPARAMETER2_OFFSET UNITYSDK_OFFSET(0x3BAE500)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONPARAMETER3_OFFSET UNITYSDK_OFFSET(0x3BAE530)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONTYPE_OFFSET UNITYSDK_OFFSET(0x784260)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_FOLLOWSORIGINALSOURCE_OFFSET UNITYSDK_OFFSET(0x182E0)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_SETPARAMBYTYPE_OFFSET UNITYSDK_OFFSET(0x3BAE6B0)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BAE570)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3BAE5F0)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x3BAE560)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CLEARCALCPARAMS_OFFSET UNITYSDK_OFFSET(0x2E8A150)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E8A060)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x2E8A0E0)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8A050)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GETPARAMBYTYPE_OFFSET UNITYSDK_OFFSET(0x2E8A190)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONPARAMETER1_OFFSET UNITYSDK_OFFSET(0x2E89FC0)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONPARAMETER2_OFFSET UNITYSDK_OFFSET(0x2E89FF0)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONPARAMETER3_OFFSET UNITYSDK_OFFSET(0x2E8A020)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONTYPE_OFFSET UNITYSDK_OFFSET(0xFDF0)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_FOLLOWSORIGINALSOURCE_OFFSET UNITYSDK_OFFSET(0xC200)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_SETPARAMBYTYPE_OFFSET UNITYSDK_OFFSET(0x2E8A1A0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_Randomize3dConfig_TypeDefinitionIndex = 38671;
+	inline static constexpr unsigned int CriAtomEx_Randomize3dConfig_TypeDefinitionIndex = 39968;
 
 	struct alignas(8) CriAtomEx_Randomize3dConfig
 	{
-		// static const ::System::Int32 NumOfCalcParams = 0x3; // 0x0
 		::System::Boolean followsOriginalSource; // 0x10
+		::System::Byte _padding0[0x3];
 		::CriWare::CriAtomEx_Randomize3dCalcType calculationType; // 0x14
 		::Il2CppArray<::System::Single>* calculationParameters; // 0x18
-
+		// static const ::System::Object NumOfCalcParams; // 0x0
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Boolean a1, ::CriWare::CriAtomEx_Randomize3dCalcType a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::CriWare::CriAtomEx_Randomize3dCalcType, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::CriWare::CriAtomEx_Randomize3dCalcType, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void _ctor_2(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_FollowsOriginalSource()
@@ -72,14 +71,15 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CLEARCALCPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetParamByType(::CriWare::CriAtomEx_Randomize3dParamType a1, ::System::Single& a2)
+		::System::Boolean GetParamByType(::CriWare::CriAtomEx_Randomize3dParamType a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::CriWare::CriAtomEx_Randomize3dParamType, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GETPARAMBYTYPE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::CriWare::CriAtomEx_Randomize3dParamType, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GETPARAMBYTYPE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean SetParamByType(::CriWare::CriAtomEx_Randomize3dParamType a1, ::System::Single a2)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::CriWare::CriAtomEx_Randomize3dParamType, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_SETPARAMBYTYPE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

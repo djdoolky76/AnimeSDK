@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RoguePersonaRoomCardFilterBaseConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RoguePersonaRoomCardFilterByLevelRangeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_METHOD_3_39B9AEFBE609ADBE_OFFSET UNITYSDK_OFFSET(0x1E546C70)
-#define RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_METHOD_3_B6707E2BB4C576A2_OFFSET UNITYSDK_OFFSET(0x1E546F40)
-#define RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E546C60)
+#define RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FE690)
+#define RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FE6A0)
+#define RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FE970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoguePersonaRoomCardFilterByLevelRangeConfig_TypeDefinitionIndex = 19639;
+	inline static constexpr unsigned int RoguePersonaRoomCardFilterByLevelRangeConfig_TypeDefinitionIndex = 19869;
 
 	class RoguePersonaRoomCardFilterByLevelRangeConfig : public ::RPG::GameCore::RoguePersonaRoomCardFilterBaseConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B6707E2BB4C576A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_METHOD_3_B6707E2BB4C576A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_39B9AEFBE609ADBE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_METHOD_3_39B9AEFBE609ADBE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RoguePersonaRoomCardFilterByLevelRangeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPERSONAROOMCARDFILTERBYLEVELRANGECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

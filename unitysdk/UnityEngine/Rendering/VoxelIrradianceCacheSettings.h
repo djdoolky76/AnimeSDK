@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/VoxelIrradianceCacheShadingFallback.h"
 #include "unitysdk/UnityEngine/Rendering/VoxelIrradianceCacheShadingPass.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VoxelIrradianceCacheSettings_TypeDefinitionIndex = 4857;
+	inline static constexpr unsigned int VoxelIrradianceCacheSettings_TypeDefinitionIndex = 4863;
 
 	struct alignas(4) VoxelIrradianceCacheSettings
 	{
@@ -15,6 +14,7 @@ namespace UnityEngine::Rendering
 		::System::Boolean HDRAmbientTex; // 0x12
 		::System::Boolean SHCompression; // 0x13
 		::System::Boolean EvalSHSimple; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Rendering::VoxelIrradianceCacheShadingPass ShadingPass; // 0x18
 		::UnityEngine::Rendering::VoxelIrradianceCacheShadingFallback ShadingFallback; // 0x1C
 	};

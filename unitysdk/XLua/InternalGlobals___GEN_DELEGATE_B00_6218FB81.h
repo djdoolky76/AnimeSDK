@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12B22440)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12B22480)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B22430)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81__CTOR_OFFSET UNITYSDK_OFFSET(0x12B22340)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA5840)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA5740)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA5880)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA5830)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_6218FB81_TypeDefinitionIndex = 50532;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_6218FB81_TypeDefinitionIndex = 50201;
 
 	class InternalGlobals___GEN_DELEGATE_B00_6218FB81 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Events::UnityEvent_1<::System::Single>* a1, ::UnityEngine::Events::UnityAction_1<::System::Single>* a2)
@@ -39,5 +38,6 @@ namespace XLua
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

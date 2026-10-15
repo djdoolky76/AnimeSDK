@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/WrapMode.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FloatCurve; }
 namespace RPG::GameCore { class FloatCurveKeyframe; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_GAMECORE_FLOATCURVE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DCAB940)
-#define RPG_GAMECORE_FLOATCURVE_GET_CACHEDANIMCURVE_OFFSET UNITYSDK_OFFSET(0x1DCABD20)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_0739E5F4AFDDD8B0_OFFSET UNITYSDK_OFFSET(0x1DCA9D30)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_28633EAD2621903E_OFFSET UNITYSDK_OFFSET(0x1DCABD70)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_6115B8FF6F2F3006_OFFSET UNITYSDK_OFFSET(0x1DCAC220)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_65C44E317041EBAA_OFFSET UNITYSDK_OFFSET(0x1DCABDB0)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1DCAC1E0)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_8A6035CCBA726F8F_OFFSET UNITYSDK_OFFSET(0x1DCABCC0)
-#define RPG_GAMECORE_FLOATCURVE_METHOD_2_B7AEDE66D3D00F7D_OFFSET UNITYSDK_OFFSET(0x1DCABF50)
-#define RPG_GAMECORE_FLOATCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCAB930)
+#define RPG_GAMECORE_FLOATCURVE_ANIFKJCALAJ_OFFSET UNITYSDK_OFFSET(0x1D6B6CC0)
+#define RPG_GAMECORE_FLOATCURVE_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x1D6B67A0)
+#define RPG_GAMECORE_FLOATCURVE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1D6B6D00)
+#define RPG_GAMECORE_FLOATCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B6410)
+#define RPG_GAMECORE_FLOATCURVE_EPKOPMFFAOA_OFFSET UNITYSDK_OFFSET(0x1D6B6A30)
+#define RPG_GAMECORE_FLOATCURVE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D6B6420)
+#define RPG_GAMECORE_FLOATCURVE_GET_CACHEDANIMCURVE_OFFSET UNITYSDK_OFFSET(0x1D6B6800)
+#define RPG_GAMECORE_FLOATCURVE_HLLPFDHEDDO_OFFSET UNITYSDK_OFFSET(0x1D6B6850)
+#define RPG_GAMECORE_FLOATCURVE_LCCLFNNGFFO_OFFSET UNITYSDK_OFFSET(0x1D6B6890)
+#define RPG_GAMECORE_FLOATCURVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69F880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatCurve_TypeDefinitionIndex = 16164;
+	inline static constexpr unsigned int FloatCurve_TypeDefinitionIndex = 16337;
 
 	class FloatCurve : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,15 +29,14 @@ namespace RPG::GameCore
 		::RPG::GameCore::WrapMode PreWrapMode; // 0x18
 		::RPG::GameCore::WrapMode PostWrapMode; // 0x1C
 		::UnityEngine::AnimationCurve* _CachedAnimCurve; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0739E5F4AFDDD8B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloatCurve*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloatCurve* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloatCurve*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_0739E5F4AFDDD8B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloatCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean Equals(::UnityEngine::AnimationCurve* a1)
@@ -45,39 +44,40 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::AnimationCurve* Method_2_8A6035CCBA726F8F(::RPG::GameCore::FloatCurve* a1)
+		static ::UnityEngine::AnimationCurve* BBNJCKPKPDN(::RPG::GameCore::FloatCurve* a1)
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::RPG::GameCore::FloatCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_8A6035CCBA726F8F_OFFSET))(a1);
+			return ((::UnityEngine::AnimationCurve*(*)(::RPG::GameCore::FloatCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_BBNJCKPKPDN_OFFSET))(a1);
 		}
 
-		::UnityEngine::AnimationCurve* Method_2_28633EAD2621903E()
+		::UnityEngine::AnimationCurve* HLLPFDHEDDO()
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_28633EAD2621903E_OFFSET))(this);
+			return ((::UnityEngine::AnimationCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_HLLPFDHEDDO_OFFSET))(this);
 		}
 
-		::System::Void Method_2_65C44E317041EBAA(::UnityEngine::AnimationCurve* a1)
+		::System::Void LCCLFNNGFFO(::UnityEngine::AnimationCurve* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_65C44E317041EBAA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_LCCLFNNGFFO_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_B7AEDE66D3D00F7D(::UnityEngine::AnimationCurve* a1)
+		::System::Void EPKOPMFFAOA(::UnityEngine::AnimationCurve* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_B7AEDE66D3D00F7D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_EPKOPMFFAOA_OFFSET))(this, a1);
 		}
 
-		static ::RPG::GameCore::FloatCurve* Method_2_6115B8FF6F2F3006(::UnityEngine::AnimationCurve* a1)
+		static ::RPG::GameCore::FloatCurve* BPLPBPMEODA(::UnityEngine::AnimationCurve* a1)
 		{
-			return ((::RPG::GameCore::FloatCurve*(*)(::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_6115B8FF6F2F3006_OFFSET))(a1);
+			return ((::RPG::GameCore::FloatCurve*(*)(::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_BPLPBPMEODA_OFFSET))(a1);
 		}
 
-		::System::Void Method_2_832295EC279E5994()
+		::System::Void ANIFKJCALAJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_METHOD_2_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_ANIFKJCALAJ_OFFSET))(this);
 		}
 
 		::UnityEngine::AnimationCurve* get_CachedAnimCurve()
 		{
 			return ((::UnityEngine::AnimationCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVE_GET_CACHEDANIMCURVE_OFFSET))(this);
 		}
+
 	};
 }

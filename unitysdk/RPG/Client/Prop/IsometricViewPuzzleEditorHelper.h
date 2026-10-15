@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ADJUST_OFFSET UNITYSDK_OFFSET(0x161041E0)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x16103E90)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x161045A0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ADJUST_OFFSET UNITYSDK_OFFSET(0xDCFE2B0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xDCFE670)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xDCFDF60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int IsometricViewPuzzleEditorHelper_TypeDefinitionIndex = 78171;
+	inline static constexpr unsigned int IsometricViewPuzzleEditorHelper_TypeDefinitionIndex = 78642;
 
 	class IsometricViewPuzzleEditorHelper : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,10 +23,9 @@ namespace RPG::Client::Prop
 		::UnityEngine::Vector3 PCFEFNLILMC; // 0x38
 		::UnityEngine::Vector3 AFOHLKJKDMK; // 0x44
 		::System::Boolean DDAPPHOOGFD; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDrawGizmos()
@@ -39,5 +37,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ADJUST_OFFSET))(this, a1);
 		}
+
 	};
 }

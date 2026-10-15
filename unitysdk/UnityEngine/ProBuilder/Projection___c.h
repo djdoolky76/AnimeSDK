@@ -3,43 +3,45 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/SimpleTuple_2.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192149E0)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19214A20)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_0_OFFSET UNITYSDK_OFFSET(0x19214A30)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET UNITYSDK_OFFSET(0x19214A50)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F232BE0)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F232C20)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F232C30)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET UNITYSDK_OFFSET(0x1F232C50)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 43222;
+	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 44414;
 
 	class Projection___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x64730);
-		}
-		static ::UnityEngine::ProBuilder::Projection___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::Projection___c**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x64738);
-		}
 		static ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x64740);
+			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51150);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51158);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51160);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _Sort_b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2> a1, ::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2> a2)
@@ -51,5 +53,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET))(this, a1);
 		}
+
 	};
 }

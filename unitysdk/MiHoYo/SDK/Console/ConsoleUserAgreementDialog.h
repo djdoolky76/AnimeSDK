@@ -4,38 +4,51 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleUserAgreementDialog_DisplayMode.h"
 #include "unitysdk/MiHoYo/SDK/ReportType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+namespace MiHoYo::SDK::Console { class ConsoleUserAgreementDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x173423C0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x17340A30)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x17343590)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x17342A90)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x173435B0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x17340860)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17343570)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_REPORTSCROLLBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x173408D0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x17340760)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x17342AF0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x17342B40)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__AWAKE_B__32_0_OFFSET UNITYSDK_OFFSET(0x17343620)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x173435D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x1BC74B50)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC731C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC75D20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x1BC75220)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC75D40)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC75D60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC72FF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC75D00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_REPORTSCROLLBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BC73060)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC72EF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BC75280)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC752D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__AWAKE_B__32_0_OFFSET UNITYSDK_OFFSET(0x1BC75DB0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUserAgreementDialog_TypeDefinitionIndex = 8949;
+	inline static constexpr unsigned int ConsoleUserAgreementDialog_TypeDefinitionIndex = 9010;
 
 	class ConsoleUserAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
+		::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_DisplayMode displayMode; // 0xC0
+		::MiHoYo::SDK::ReportType reportType; // 0xC4
+		::System::Boolean isScrollbarVisible; // 0xC8
+		::System::Boolean reportScoll; // 0xC9
+		::System::Byte _padding0[0x6];
+		::System::Action* OnUserAgreementClicked; // 0xD0
+		::System::Action* OnPrivacyPolicyClicked; // 0xD8
+		::System::Action* OnChildrenPrivacyClicked; // 0xE0
+		::System::Action* OnAgreementCanceled; // 0xE8
+		::System::Action* OnAgreementAccepted; // 0xF0
+		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xF8
+		::UnityEngine::GameObject* ProtocolImageObj; // 0x100
+		::UnityEngine::GameObject* PrivacyImageObj; // 0x108
 		static ::MiHoYo::SDK::Console::ConsoleUserAgreementDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleUserAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUserAgreementDialog_TypeDefinitionIndex)->GetStaticField(0xB610);
+			return (::MiHoYo::SDK::Console::ConsoleUserAgreementDialog**)UnitySDK::FromName("MiHoYo.SDK.Console", "ConsoleUserAgreementDialog")->GetStaticField(0x564D0);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitlePath; // 0x0
 		// static const ::System::String* ContentTextPath; // 0x0
@@ -50,23 +63,10 @@ namespace MiHoYo::SDK::Console
 		// static const ::System::String* ScrollBtnPath; // 0x0
 		// static const ::System::String* ScrollBtnTextPath; // 0x0
 		// static const ::System::String* ScrollBarPath; // 0x0
-		// static const ::System::Int32 xcloud_button_width = 0x20; // 0x0
-		::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_DisplayMode displayMode; // 0xC0
-		::MiHoYo::SDK::ReportType reportType; // 0xC4
-		::System::Boolean isScrollbarVisible; // 0xC8
-		::System::Boolean reportScoll; // 0xC9
-		::System::Action* OnUserAgreementClicked; // 0xD0
-		::System::Action* OnPrivacyPolicyClicked; // 0xD8
-		::System::Action* OnChildrenPrivacyClicked; // 0xE0
-		::System::Action* OnAgreementCanceled; // 0xE8
-		::System::Action* OnAgreementAccepted; // 0xF0
-		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xF8
-		::UnityEngine::GameObject* ProtocolImageObj; // 0x100
-		::UnityEngine::GameObject* PrivacyImageObj; // 0x108
-
+		// static const ::System::Object xcloud_button_width; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_DisplayMode a1)
@@ -128,5 +128,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__AWAKE_B__32_0_OFFSET))(this, a1);
 		}
+
 	};
 }

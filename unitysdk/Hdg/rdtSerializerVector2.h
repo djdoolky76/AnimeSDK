@@ -2,36 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
+namespace System { class Object; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERVECTOR2_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A717E0)
-#define HDG_RDTSERIALIZERVECTOR2_READ_OFFSET UNITYSDK_OFFSET(0x16A71930)
-#define HDG_RDTSERIALIZERVECTOR2_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x16A717D0)
-#define HDG_RDTSERIALIZERVECTOR2_WRITE_OFFSET UNITYSDK_OFFSET(0x16A71810)
-#define HDG_RDTSERIALIZERVECTOR2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16A70650)
-#define HDG_RDTSERIALIZERVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x16A717C0)
+#define HDG_RDTSERIALIZERVECTOR2_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF48A70)
+#define HDG_RDTSERIALIZERVECTOR2_CTOR_OFFSET UNITYSDK_OFFSET(0xAF49BC0)
+#define HDG_RDTSERIALIZERVECTOR2_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF49BE0)
+#define HDG_RDTSERIALIZERVECTOR2_READ_OFFSET UNITYSDK_OFFSET(0xAF49D30)
+#define HDG_RDTSERIALIZERVECTOR2_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xAF49BD0)
+#define HDG_RDTSERIALIZERVECTOR2_WRITE_OFFSET UNITYSDK_OFFSET(0xAF49C10)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerVector2_TypeDefinitionIndex = 47433;
+	inline static constexpr unsigned int rdtSerializerVector2_TypeDefinitionIndex = 46973;
 
 	class rdtSerializerVector2 : public ::System::Object
 	{
 	public:
 		::System::Single y; // 0x10
 		::System::Single x; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERVECTOR2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERVECTOR2_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERVECTOR2__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERVECTOR2_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 ToUnityType()
@@ -53,5 +52,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERVECTOR2_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/FormatFlags.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormatFlag_TypeDefinitionIndex = 5051;
+	inline static constexpr unsigned int TextFormatFlag_TypeDefinitionIndex = 5058;
 
 	struct alignas(4) TextFormatFlag
 	{

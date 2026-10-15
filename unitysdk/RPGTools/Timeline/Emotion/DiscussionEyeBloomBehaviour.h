@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline::Emotion { class DiscussionEyeBloomClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B578BF0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B578C10)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B578C00)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B578E70)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DDC00)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8DD980)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8DD9A0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8DD990)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionEyeBloomBehaviour_TypeDefinitionIndex = 49173;
+	inline static constexpr unsigned int DiscussionEyeBloomBehaviour_TypeDefinitionIndex = 48719;
 
 	class DiscussionEyeBloomBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::Emotion::DiscussionEyeBloomClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::Emotion::DiscussionEyeBloomClip* get_Clip()
@@ -39,5 +37,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

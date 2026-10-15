@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SceneViewDrawModeSetting_TypeDefinitionIndex = 4816;
+	inline static constexpr unsigned int SceneViewDrawModeSetting_TypeDefinitionIndex = 4821;
 
 	struct alignas(4) SceneViewDrawModeSetting
 	{

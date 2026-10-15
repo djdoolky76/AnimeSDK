@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyPerformance; }
+namespace RPG::GameCore { class TrainPartyPerformanceConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_METHOD_2_56780F20D7A07253_OFFSET UNITYSDK_OFFSET(0x1D538770)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5389C0)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC06B30)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC068E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPerformanceConfig_TypeDefinitionIndex = 16088;
+	inline static constexpr unsigned int TrainPartyPerformanceConfig_TypeDefinitionIndex = 16261;
 
 	class TrainPartyPerformanceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,15 +21,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* Characters; // 0x20
 		::Il2CppArray<::RPG::GameCore::TrainPartyPerformance*>* Performances; // 0x28
 		::Il2CppArray<::RPG::GameCore::TrainPartyPerformance*>* ConstPerformances; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_56780F20D7A07253(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyPerformanceConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyPerformanceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPerformanceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_METHOD_2_56780F20D7A07253_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyPerformanceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

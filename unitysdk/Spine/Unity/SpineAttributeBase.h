@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
-
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEATTRIBUTEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1833FD50)
+#define SPINE_UNITY_SPINEATTRIBUTEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED04BF0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAttributeBase_TypeDefinitionIndex = 43898;
+	inline static constexpr unsigned int SpineAttributeBase_TypeDefinitionIndex = 45090;
 
 	class SpineAttributeBase : public ::UnityEngine::PropertyAttribute
 	{
@@ -17,10 +16,10 @@ namespace Spine::Unity
 		::System::String* startsWith; // 0x18
 		::System::Boolean fallbackToTextField; // 0x20
 		::System::Boolean includeNone; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTRIBUTEBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTRIBUTEBASE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

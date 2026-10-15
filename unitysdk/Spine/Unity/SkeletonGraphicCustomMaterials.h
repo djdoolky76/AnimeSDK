@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/SkeletonGraphicCustomMaterials_AtlasMaterialOverride.h"
-#include "unitysdk/Spine/Unity/SkeletonGraphicCustomMaterials_AtlasTextureOverride.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine::Unity { class SkeletonGraphic; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1832A070)
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18329F00)
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_REMOVECUSTOMMATERIALOVERRIDES_OFFSET UNITYSDK_OFFSET(0x18329840)
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_REMOVECUSTOMTEXTUREOVERRIDES_OFFSET UNITYSDK_OFFSET(0x18329C80)
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_SETCUSTOMMATERIALOVERRIDES_OFFSET UNITYSDK_OFFSET(0x18329680)
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_SETCUSTOMTEXTUREOVERRIDES_OFFSET UNITYSDK_OFFSET(0x18329AC0)
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1832A140)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEEF20)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ECEEE50)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ECEECE0)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_REMOVECUSTOMMATERIALOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1ECEE620)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_REMOVECUSTOMTEXTUREOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1ECEEA60)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_SETCUSTOMMATERIALOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1ECEE460)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_SETCUSTOMTEXTUREOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1ECEE8A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_TypeDefinitionIndex = 43858;
+	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_TypeDefinitionIndex = 45050;
 
 	class SkeletonGraphicCustomMaterials : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Spine::Unity::SkeletonGraphic* skeletonGraphic; // 0x18
-		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasMaterialOverride>* customMaterialOverrides; // 0x20
-		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasTextureOverride>* customTextureOverrides; // 0x28
-
+		::System::Collections::Generic::List_1<::System::Object*>* customMaterialOverrides; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* customTextureOverrides; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetCustomMaterialOverrides()
@@ -60,5 +57,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

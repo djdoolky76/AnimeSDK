@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationStream_TypeDefinitionIndex = 5751;
+	inline static constexpr unsigned int AnimationStream_TypeDefinitionIndex = 5759;
 
-	struct alignas(8) AnimationStream
+	struct alignas(4) AnimationStream
 	{
 		::System::UInt32 m_AnimatorBindingsVersion; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::IntPtr constant; // 0x18
 		::System::IntPtr input; // 0x20
 		::System::IntPtr output; // 0x28

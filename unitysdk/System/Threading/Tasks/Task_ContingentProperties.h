@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-
+#include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ManualResetEventSlim; }
@@ -11,9 +10,9 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskExceptionHolder; }
 namespace System::Threading::Tasks { template <typename T> class Shared_1; }
 
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C65D580)
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_SETCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C65D560)
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C65A2C0)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C122080)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C125340)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_SETCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C125320)
 
 namespace System::Threading::Tasks
 {
@@ -22,18 +21,17 @@ namespace System::Threading::Tasks
 	class Task_ContingentProperties : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEventSlim* m_completionEvent; // 0x10
-		::System::Threading::CancellationToken m_cancellationToken; // 0x18
-		::System::Threading::ExecutionContext* m_capturedContext; // 0x20
-		::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder; // 0x28
+		::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration; // 0x10
+		::System::Threading::ManualResetEventSlim* m_completionEvent; // 0x18
+		::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder; // 0x20
+		::System::Threading::CancellationToken m_cancellationToken; // 0x28
 		::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren; // 0x30
-		::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration; // 0x38
-		::System::Int32 m_internalCancellationRequested; // 0x40
-		::System::Int32 m_completionCountdown; // 0x44
-
+		::System::Threading::ExecutionContext* m_capturedContext; // 0x38
+		::System::Int32 m_completionCountdown; // 0x40
+		::System::Int32 m_internalCancellationRequested; // 0x44
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetCompleted()
@@ -45,5 +43,6 @@ namespace System::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET))(this);
 		}
+
 	};
 }

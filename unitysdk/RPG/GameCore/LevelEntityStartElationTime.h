@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelEntityStartElationTime; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD237A0)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD23840)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD237F0)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_INIT_OFFSET UNITYSDK_OFFSET(0x1DD23740)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD23890)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E30A0)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E3190)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E3140)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E30F0)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_INIT_OFFSET UNITYSDK_OFFSET(0xE6E3040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityStartElationTime_TypeDefinitionIndex = 56935;
+	inline static constexpr unsigned int LevelEntityStartElationTime_TypeDefinitionIndex = 56756;
 
-	class LevelEntityStartElationTime : public ::Class_1_BF7A075734D15E98
+	class LevelEntityStartElationTime : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x18
-		::RPG::GameCore::GameEntity* Caster; // 0x20
-
+		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelEntityStartElationTime* Init(::RPG::GameCore::GameEntity* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
@@ -46,5 +45,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

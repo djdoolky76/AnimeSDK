@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetBattleAchievement; }
 
-#define RPG_GAMECORE_SETBATTLEACHIEVEMENT_METHOD_3_20A0441BF8EA421A_OFFSET UNITYSDK_OFFSET(0x1DB548C0)
-#define RPG_GAMECORE_SETBATTLEACHIEVEMENT_METHOD_3_41AF54801A4E8194_OFFSET UNITYSDK_OFFSET(0x1DB549C0)
-#define RPG_GAMECORE_SETBATTLEACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB54950)
+#define RPG_GAMECORE_SETBATTLEACHIEVEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA68AC0)
+#define RPG_GAMECORE_SETBATTLEACHIEVEMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA68B30)
+#define RPG_GAMECORE_SETBATTLEACHIEVEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA68A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleAchievement_TypeDefinitionIndex = 22916;
+	inline static constexpr unsigned int SetBattleAchievement_TypeDefinitionIndex = 23177;
 
 	class SetBattleAchievement : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,20 +22,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* ModifyValue; // 0x20
 		::System::Boolean TagMatch; // 0x28
 		::System::Boolean ClientAuthority; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEACHIEVEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEACHIEVEMENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_20A0441BF8EA421A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleAchievement*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetBattleAchievement* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleAchievement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEACHIEVEMENT_METHOD_3_20A0441BF8EA421A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetBattleAchievement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEACHIEVEMENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_41AF54801A4E8194(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleAchievement* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetBattleAchievement* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleAchievement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEACHIEVEMENT_METHOD_3_41AF54801A4E8194_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetBattleAchievement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEACHIEVEMENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

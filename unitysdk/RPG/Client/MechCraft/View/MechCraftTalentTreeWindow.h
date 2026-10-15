@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaWindow.h"
+class FOHGGGFAGNK;
+namespace RPG::Client::MechCraft::View { class MechCraftTalentTreeControl; }
+namespace UnityEngine { class Coroutine; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xD667C60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW_GET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD667BA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW_SET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD667C50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD667E90)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xD6682D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD667D50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW___ONBINDVIEWMODEL_B__7_0_OFFSET UNITYSDK_OFFSET(0xD668630)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftTalentTreeWindow_TypeDefinitionIndex = 80058;
+
+	class MechCraftTalentTreeWindow : public ::Sofa::BaseSofaWindow
+	{
+	public:
+		::RPG::Client::MechCraft::View::MechCraftTalentTreeControl* _Control; // 0x48
+		::UnityEngine::Coroutine* _WaitForFadeInProtectEnd; // 0x50
+		::System::Void _ctor(::FOHGGGFAGNK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FOHGGGFAGNK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW_CTOR_OFFSET))(this, a1);
+		}
+
+		::FOHGGGFAGNK* get__TypedDataContext()
+		{
+			return ((::FOHGGGFAGNK*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW_GET__TYPEDDATACONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set__TypedDataContext(::FOHGGGFAGNK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FOHGGGFAGNK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW_SET__TYPEDDATACONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _OnExitFinalStep()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW__ONEXITFINALSTEP_OFFSET))(this);
+		}
+
+		::System::Void __OnBindViewModel_b__7_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREEWINDOW___ONBINDVIEWMODEL_B__7_0_OFFSET))(this);
+		}
+
+	};
+}

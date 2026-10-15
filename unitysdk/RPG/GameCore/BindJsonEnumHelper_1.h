@@ -6,15 +6,16 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindJsonEnumHelper_1_TypeDefinitionIndex = 24568;
+	inline static constexpr unsigned int BindJsonEnumHelper_1_TypeDefinitionIndex = 24850;
 
-	template <typename E>
+	template <typename T>
 	class BindJsonEnumHelper_1 : public ::System::Object
 	{
 	public:
 		static ::System::Nullable_1<::RPG::GameCore::JsonEnumCategory>* StaticGet_BindCategory()
 		{
-			return (::System::Nullable_1<::RPG::GameCore::JsonEnumCategory>*)Il2CppClass::FromTypeDefinitionIndex(BindJsonEnumHelper_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Nullable_1<::RPG::GameCore::JsonEnumCategory>*)UnitySDK::FromName("RPG.GameCore", "BindJsonEnumHelper`1")->GetStaticField(0x0);
 		}
+
 	};
 }

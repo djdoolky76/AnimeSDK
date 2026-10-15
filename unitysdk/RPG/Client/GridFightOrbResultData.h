@@ -2,23 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightBonusResultData.h"
 
-#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_GET_ORBUID_OFFSET UNITYSDK_OFFSET(0x1BC58450)
-#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_SETORBUID_OFFSET UNITYSDK_OFFSET(0x1BC58400)
-#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_SET_ORBUID_OFFSET UNITYSDK_OFFSET(0x1BC58460)
-#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC58470)
+#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C14A0)
+#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_GET_ORBUID_OFFSET UNITYSDK_OFFSET(0xD1C1480)
+#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_SETORBUID_OFFSET UNITYSDK_OFFSET(0xD1C1430)
+#define RPG_CLIENT_GRIDFIGHTORBRESULTDATA_SET_ORBUID_OFFSET UNITYSDK_OFFSET(0xD1C1490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbResultData_TypeDefinitionIndex = 64500;
+	inline static constexpr unsigned int GridFightOrbResultData_TypeDefinitionIndex = 64440;
 
 	class GridFightOrbResultData : public ::RPG::Client::GridFightBonusResultData
 	{
 	public:
 		::System::UInt32 _OrbUID_k__BackingField; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBRESULTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBRESULTDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetOrbUID(::System::UInt32 a1)
@@ -35,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBRESULTDATA_SET_ORBUID_OFFSET))(this, a1);
 		}
+
 	};
 }

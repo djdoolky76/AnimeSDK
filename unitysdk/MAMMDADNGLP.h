@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MAMMDADNGLP_TypeDefinitionIndex = 31501;
+
+	enum class MAMMDADNGLP : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		GKGFCOKEOMC = 7605,
+		KHHMEFCDMIF = 7604,
+		KLNPCNHGBOL = 7617,
+		NGGHDCPOHPO = 7606,
+		HOFFDKBENKE = 7608,
+		COGBLKIKFGC = 7609,
+		HMNNLLKLONN = 7620,
+		LKIKIOEFJEC = 7621,
+		KIHFCPKBOIA = 7612,
+		IIIEABNLKFH = 7607,
+		GOMKMPEBCBM = 7610,
+		BCJECGLBFMD = 7616,
+		NDBDDBICHPP = 7625,
+	};

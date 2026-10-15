@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideStageItemBehaviour_StageItemInfo_TypeDefinitionIndex = 48607;
+	inline static constexpr unsigned int HideStageItemBehaviour_StageItemInfo_TypeDefinitionIndex = 48147;
 
 	struct alignas(8) HideStageItemBehaviour_StageItemInfo
 	{

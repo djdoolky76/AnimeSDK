@@ -1,46 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ByIsBodyPart.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsBodyPartClientOnly; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_6FCCA23DB96CDE5E_OFFSET UNITYSDK_OFFSET(0x1CD965E0)
-#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_A00C8E5588B4B7A2_OFFSET UNITYSDK_OFFSET(0x1CD96790)
-#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_A5BDB866A2649BAF_OFFSET UNITYSDK_OFFSET(0x1CD965A0)
-#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_AF1FDDE21D09BB84_OFFSET UNITYSDK_OFFSET(0x1CD96760)
-#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD965D0)
+#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DBDA0)
+#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4DC660)
+#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4DC600)
+#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4DBDB0)
+#define RPG_GAMECORE_BYISBODYPARTCLIENTONLY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4DC630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsBodyPartClientOnly_TypeDefinitionIndex = 23048;
+	inline static constexpr unsigned int ByIsBodyPartClientOnly_TypeDefinitionIndex = 23313;
 
 	class ByIsBodyPartClientOnly : public ::RPG::GameCore::ByIsBodyPart
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_A5BDB866A2649BAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsBodyPartClientOnly*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsBodyPartClientOnly* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsBodyPartClientOnly*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_A5BDB866A2649BAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsBodyPartClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_6FCCA23DB96CDE5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsBodyPartClientOnly* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsBodyPartClientOnly* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsBodyPartClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_6FCCA23DB96CDE5E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsBodyPartClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_AF1FDDE21D09BB84(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartClientOnly*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartClientOnly* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartClientOnly*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_AF1FDDE21D09BB84_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_A00C8E5588B4B7A2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartClientOnly* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsBodyPartClientOnly* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_METHOD_5_A00C8E5588B4B7A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsBodyPartClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISBODYPARTCLIENTONLY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

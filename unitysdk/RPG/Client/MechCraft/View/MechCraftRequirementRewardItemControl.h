@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+class LMJCAJNDODP;
+namespace RPG::Client::MechCraft::View { class MechCraftRequirementRewardItemControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD652E40)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_HEHMNGANAJO_OFFSET UNITYSDK_OFFSET(0xD652620)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xD652680)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_KCEDLPGDJLN_OFFSET UNITYSDK_OFFSET(0xD6525E0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftRequirementRewardItemControl_TypeDefinitionIndex = 79999;
+
+	class MechCraftRequirementRewardItemControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::LMJCAJNDODP* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftRequirementRewardItemControlBinder* _Binder; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_CTOR_OFFSET))(this);
+		}
+
+		::LMJCAJNDODP* KCEDLPGDJLN()
+		{
+			return ((::LMJCAJNDODP*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_KCEDLPGDJLN_OFFSET))(this);
+		}
+
+		::System::Void HEHMNGANAJO(::LMJCAJNDODP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LMJCAJNDODP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_HEHMNGANAJO_OFFSET))(this, a1);
+		}
+
+		::System::Void KANMCJHEFJJ(::LMJCAJNDODP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LMJCAJNDODP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREMENTREWARDITEMCONTROL_KANMCJHEFJJ_OFFSET))(this, a1);
+		}
+
+	};
+}

@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WolfBroGunPlayPuzzleModifyEnergy; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_METHOD_3_3B9E57707B806160_OFFSET UNITYSDK_OFFSET(0x1EFA7FB0)
-#define RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_METHOD_3_85947146AD2942F3_OFFSET UNITYSDK_OFFSET(0x1EFA7FF0)
-#define RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA7FE0)
+#define RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7A9F0)
+#define RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC7AA00)
+#define RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC7A9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroGunPlayPuzzleModifyEnergy_TypeDefinitionIndex = 20133;
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleModifyEnergy_TypeDefinitionIndex = 20370;
 
 	class WolfBroGunPlayPuzzleModifyEnergy : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Single Value; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3B9E57707B806160(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_METHOD_3_3B9E57707B806160_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_85947146AD2942F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_METHOD_3_85947146AD2942F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROGUNPLAYPUZZLEMODIFYENERGY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

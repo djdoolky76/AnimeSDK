@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CED30)
-#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CED70)
-#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B6CED20)
-#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CEC30)
+#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1900)
+#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B1800)
+#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC7B1940)
+#define RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xC7B18F0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int LuaAddOnBackPressedCallbackAction_TypeDefinitionIndex = 80429;
+	inline static constexpr unsigned int LuaAddOnBackPressedCallbackAction_TypeDefinitionIndex = 81757;
 
 	class LuaAddOnBackPressedCallbackAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::XLua::LuaTable* a1, ::System::Func_1<::System::Boolean>* a2)
@@ -39,5 +38,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_LUAADDONBACKPRESSEDCALLBACKACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

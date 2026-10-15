@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace XLua { class LuaTable; }
 namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaTable__GetKeys_d__16_1_TypeDefinitionIndex = 50544;
+	inline static constexpr unsigned int LuaTable__GetKeys_d__16_1_TypeDefinitionIndex = 50213;
 
 	template <typename T>
 	class LuaTable__GetKeys_d__16_1 : public ::System::Object

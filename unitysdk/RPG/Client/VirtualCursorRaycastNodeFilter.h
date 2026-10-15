@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_ADDNODE_OFFSET UNITYSDK_OFFSET(0x1C8164B0)
-#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_CLEARNODES_OFFSET UNITYSDK_OFFSET(0x1C8165D0)
-#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_REMOVENODE_OFFSET UNITYSDK_OFFSET(0x1C816560)
-#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_RPG_CLIENT_IVIRTUALCURSORRAYCASTFILTER_ISRAYCASTVALID_OFFSET UNITYSDK_OFFSET(0x1C814DA0)
-#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_START_OFFSET UNITYSDK_OFFSET(0x1C816640)
-#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C816750)
+#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_ADDNODE_OFFSET UNITYSDK_OFFSET(0xE44D620)
+#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_CLEARNODES_OFFSET UNITYSDK_OFFSET(0xE44D740)
+#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE44D8C0)
+#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_REMOVENODE_OFFSET UNITYSDK_OFFSET(0xE44D6D0)
+#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_RPG_CLIENT_IVIRTUALCURSORRAYCASTFILTER_ISRAYCASTVALID_OFFSET UNITYSDK_OFFSET(0xE44BFA0)
+#define RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_START_OFFSET UNITYSDK_OFFSET(0xE44D7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursorRaycastNodeFilter_TypeDefinitionIndex = 73145;
+	inline static constexpr unsigned int VirtualCursorRaycastNodeFilter_TypeDefinitionIndex = 73241;
 
 	class VirtualCursorRaycastNodeFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _AllowRaycastNodes; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean RPG_Client_IVirtualCursorRaycastFilter_IsRaycastValid(::UnityEngine::EventSystems::RaycastResult a1)
@@ -51,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORRAYCASTNODEFILTER_START_OFFSET))(this);
 		}
+
 	};
 }

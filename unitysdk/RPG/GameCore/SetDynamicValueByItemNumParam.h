@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueParamBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByItemNumParam; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_METHOD_4_5EF29EC0E840D29B_OFFSET UNITYSDK_OFFSET(0x1E81F070)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_METHOD_4_853D82E25B33941F_OFFSET UNITYSDK_OFFSET(0x1E81F0C0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81F0B0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA794C0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA794D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA79480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByItemNumParam_TypeDefinitionIndex = 21521;
+	inline static constexpr unsigned int SetDynamicValueByItemNumParam_TypeDefinitionIndex = 21768;
 
 	class SetDynamicValueByItemNumParam : public ::RPG::GameCore::SetDynamicValueParamBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5EF29EC0E840D29B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByItemNumParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByItemNumParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByItemNumParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_METHOD_4_5EF29EC0E840D29B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByItemNumParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_853D82E25B33941F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByItemNumParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByItemNumParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByItemNumParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_METHOD_4_853D82E25B33941F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByItemNumParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYITEMNUMPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Net/Security/SslPolicyErrors.h"
-
+#include "unitysdk/System/MulticastDelegate.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B95D740)
-#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B95D7E0)
-#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B95D710)
-#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B95D620)
+#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F047A00)
+#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0478E0)
+#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F047AA0)
+#define SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F0479D0)
 
 namespace System::Net::Security
 {
@@ -23,7 +22,7 @@ namespace System::Net::Security
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::Object* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::System::Net::Security::SslPolicyErrors a4)
@@ -40,5 +39,6 @@ namespace System::Net::Security
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_REMOTECERTIFICATEVALIDATIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

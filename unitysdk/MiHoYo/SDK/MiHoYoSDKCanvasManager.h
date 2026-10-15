@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { class String; }
+namespace MiHoYo::SDK { class MiHoYoSDKCanvasManager; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_DESTROYCANVAS_OFFSET UNITYSDK_OFFSET(0x19484100)
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_GETCANVAS_OFFSET UNITYSDK_OFFSET(0x19483E90)
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_GETSCALE_OFFSET UNITYSDK_OFFSET(0x19483F30)
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x19483E10)
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19483D00)
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_TRYDESTROYCANVAS_OFFSET UNITYSDK_OFFSET(0x19484170)
-#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19483E00)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC8B90)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_DESTROYCANVAS_OFFSET UNITYSDK_OFFSET(0xAFC8E40)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_GETCANVAS_OFFSET UNITYSDK_OFFSET(0xAFC8C20)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_GETSCALE_OFFSET UNITYSDK_OFFSET(0xAFC8CC0)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xAFC8BA0)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFC8A90)
+#define MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_TRYDESTROYCANVAS_OFFSET UNITYSDK_OFFSET(0xAFC8EB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKCanvasManager_TypeDefinitionIndex = 46919;
+	inline static constexpr unsigned int MiHoYoSDKCanvasManager_TypeDefinitionIndex = 46459;
 
 	class MiHoYoSDKCanvasManager : public ::System::Object
 	{
 	public:
+		::UnityEngine::GameObject* canvas; // 0x10
 		static ::MiHoYo::SDK::MiHoYoSDKCanvasManager** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKCanvasManager**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKCanvasManager_TypeDefinitionIndex)->GetStaticField(0x54070);
+			return (::MiHoYo::SDK::MiHoYoSDKCanvasManager**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKCanvasManager")->GetStaticField(0x2A9C0);
 		}
+
 		// static const ::System::String* CanvasPrefabPath; // 0x0
 		// static const ::System::String* CanvasName; // 0x0
-		::UnityEngine::GameObject* canvas; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKCANVASMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoSDKCanvasManager* Instance()
@@ -62,5 +61,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKCANVASMANAGER_TRYDESTROYCANVAS_OFFSET))(this);
 		}
+
 	};
 }

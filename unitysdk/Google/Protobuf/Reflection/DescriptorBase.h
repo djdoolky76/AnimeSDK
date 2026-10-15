@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace Google::Protobuf::Reflection { class DescriptorBase; }
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x1AA893B0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1AA893A0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1AA89390)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA89380)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B842880)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x1B8428B0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1B8428A0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1B842890)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorBase_TypeDefinitionIndex = 5519;
+	inline static constexpr unsigned int DescriptorBase_TypeDefinitionIndex = 5526;
 
 	class DescriptorBase : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::FileDescriptor* _File_k__BackingField; // 0x10
-		::System::String* _FullName_k__BackingField; // 0x18
+		::System::String* _FullName_k__BackingField; // 0x10
+		::Google::Protobuf::Reflection::FileDescriptor* _File_k__BackingField; // 0x18
 		::System::Int32 _Index_k__BackingField; // 0x20
-
 		::System::Void _ctor(::Google::Protobuf::Reflection::FileDescriptor* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_FullName()
@@ -41,5 +40,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::System::Collections::Generic::IReadOnlyList_1<::Google::Protobuf::Reflection::DescriptorBase*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/TutorialGuideUIContextType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialGuideUIContextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_METHOD_2_E5E3A9B97425398F_OFFSET UNITYSDK_OFFSET(0x1D2A79A0)
-#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A7AE0)
+#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3EE40)
+#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC3ED00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideUIContextConfig_TypeDefinitionIndex = 24048;
+	inline static constexpr unsigned int TutorialGuideUIContextConfig_TypeDefinitionIndex = 24327;
 
 	class TutorialGuideUIContextConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::TutorialGuideUIContextType Type; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Name; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E5E3A9B97425398F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialGuideUIContextConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialGuideUIContextConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialGuideUIContextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_METHOD_2_E5E3A9B97425398F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialGuideUIContextConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D14A950)
-#define RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1D14AAD0)
-#define RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D14AB40)
+#define RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8CB4B0)
+#define RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CB6A0)
+#define RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8CB630)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceHpChangeTrack_TypeDefinitionIndex = 48505;
+	inline static constexpr unsigned int ConvinceHpChangeTrack_TypeDefinitionIndex = 48045;
 
 	class ConvinceHpChangeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEHPCHANGETRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

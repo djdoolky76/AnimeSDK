@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskLoopRunners_UniTaskLoopRunnerLastUpdate_TypeDefinitionIndex = 42602;
+	inline static constexpr unsigned int UniTaskLoopRunners_UniTaskLoopRunnerLastUpdate_TypeDefinitionIndex = 38187;
 
-	struct alignas(1) UniTaskLoopRunners_UniTaskLoopRunnerLastUpdate
+	struct alignas(4) UniTaskLoopRunners_UniTaskLoopRunnerLastUpdate
 	{
 	};
 }

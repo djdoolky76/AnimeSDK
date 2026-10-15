@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class Action; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1A912260)
-#define RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1A912300)
-#define RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9123A0)
+#define RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_CTOR_OFFSET UNITYSDK_OFFSET(0xDC96280)
+#define RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xDC96140)
+#define RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xDC961E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleMeshArea_TypeDefinitionIndex = 78102;
+	inline static constexpr unsigned int DronesPuzzleMeshArea_TypeDefinitionIndex = 78573;
 
 	class DronesPuzzleMeshArea : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,10 +18,9 @@ namespace RPG::Client::Prop
 		::UnityEngine::Collider* targetCollider; // 0x18
 		::System::Action* OnEnter; // 0x20
 		::System::Action* OnExit; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
@@ -34,5 +32,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DRONESPUZZLEMESHAREA_ONTRIGGEREXIT_OFFSET))(this, a1);
 		}
+
 	};
 }

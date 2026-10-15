@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/CookieToken.h"
-#include "unitysdk/System/Net/CookieTokenizer_RecognizedAttribute.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_COOKIETOKENIZER_EXTRACT_OFFSET UNITYSDK_OFFSET(0x1B00D270)
-#define SYSTEM_NET_COOKIETOKENIZER_FINDNEXT_OFFSET UNITYSDK_OFFSET(0x1B00D2E0)
-#define SYSTEM_NET_COOKIETOKENIZER_GET_ENDOFCOOKIE_OFFSET UNITYSDK_OFFSET(0x1B00D1D0)
-#define SYSTEM_NET_COOKIETOKENIZER_GET_EOF_OFFSET UNITYSDK_OFFSET(0x1B00D1C0)
-#define SYSTEM_NET_COOKIETOKENIZER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B00D1F0)
-#define SYSTEM_NET_COOKIETOKENIZER_GET_QUOTED_OFFSET UNITYSDK_OFFSET(0x1B00D210)
-#define SYSTEM_NET_COOKIETOKENIZER_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1B00D230)
-#define SYSTEM_NET_COOKIETOKENIZER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B00D250)
-#define SYSTEM_NET_COOKIETOKENIZER_NEXT_OFFSET UNITYSDK_OFFSET(0x1B00CF50)
-#define SYSTEM_NET_COOKIETOKENIZER_RESET_OFFSET UNITYSDK_OFFSET(0x1B00D640)
-#define SYSTEM_NET_COOKIETOKENIZER_SET_ENDOFCOOKIE_OFFSET UNITYSDK_OFFSET(0x1B00D1E0)
-#define SYSTEM_NET_COOKIETOKENIZER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B00D200)
-#define SYSTEM_NET_COOKIETOKENIZER_SET_QUOTED_OFFSET UNITYSDK_OFFSET(0x1B00D220)
-#define SYSTEM_NET_COOKIETOKENIZER_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1B00D240)
-#define SYSTEM_NET_COOKIETOKENIZER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B00D260)
-#define SYSTEM_NET_COOKIETOKENIZER_TOKENFROMNAME_OFFSET UNITYSDK_OFFSET(0x1B00D680)
-#define SYSTEM_NET_COOKIETOKENIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B00D950)
-#define SYSTEM_NET_COOKIETOKENIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00C4E0)
+#define SYSTEM_NET_COOKIETOKENIZER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F004300)
+#define SYSTEM_NET_COOKIETOKENIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F002E90)
+#define SYSTEM_NET_COOKIETOKENIZER_EXTRACT_OFFSET UNITYSDK_OFFSET(0x1F003C20)
+#define SYSTEM_NET_COOKIETOKENIZER_FINDNEXT_OFFSET UNITYSDK_OFFSET(0x1F003C90)
+#define SYSTEM_NET_COOKIETOKENIZER_GET_ENDOFCOOKIE_OFFSET UNITYSDK_OFFSET(0x1F003B80)
+#define SYSTEM_NET_COOKIETOKENIZER_GET_EOF_OFFSET UNITYSDK_OFFSET(0x1F003B70)
+#define SYSTEM_NET_COOKIETOKENIZER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F003BA0)
+#define SYSTEM_NET_COOKIETOKENIZER_GET_QUOTED_OFFSET UNITYSDK_OFFSET(0x1F003BC0)
+#define SYSTEM_NET_COOKIETOKENIZER_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1F003BE0)
+#define SYSTEM_NET_COOKIETOKENIZER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F003C00)
+#define SYSTEM_NET_COOKIETOKENIZER_NEXT_OFFSET UNITYSDK_OFFSET(0x1F003900)
+#define SYSTEM_NET_COOKIETOKENIZER_RESET_OFFSET UNITYSDK_OFFSET(0x1F003FF0)
+#define SYSTEM_NET_COOKIETOKENIZER_SET_ENDOFCOOKIE_OFFSET UNITYSDK_OFFSET(0x1F003B90)
+#define SYSTEM_NET_COOKIETOKENIZER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1F003BB0)
+#define SYSTEM_NET_COOKIETOKENIZER_SET_QUOTED_OFFSET UNITYSDK_OFFSET(0x1F003BD0)
+#define SYSTEM_NET_COOKIETOKENIZER_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1F003BF0)
+#define SYSTEM_NET_COOKIETOKENIZER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F003C10)
+#define SYSTEM_NET_COOKIETOKENIZER_TOKENFROMNAME_OFFSET UNITYSDK_OFFSET(0x1F004030)
 
 namespace System::Net
 {
@@ -32,33 +31,35 @@ namespace System::Net
 	class CookieTokenizer : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Net::CookieTokenizer_RecognizedAttribute>** StaticGet_RecognizedAttributes()
-		{
-			return (::Il2CppArray<::System::Net::CookieTokenizer_RecognizedAttribute>**)Il2CppClass::FromTypeDefinitionIndex(CookieTokenizer_TypeDefinitionIndex)->GetStaticField(0x19410);
-		}
-		static ::Il2CppArray<::System::Net::CookieTokenizer_RecognizedAttribute>** StaticGet_RecognizedServerAttributes()
-		{
-			return (::Il2CppArray<::System::Net::CookieTokenizer_RecognizedAttribute>**)Il2CppClass::FromTypeDefinitionIndex(CookieTokenizer_TypeDefinitionIndex)->GetStaticField(0x19418);
-		}
-		::System::String* m_value; // 0x10
-		::System::String* m_tokenStream; // 0x18
+		::System::String* m_tokenStream; // 0x10
+		::System::String* m_value; // 0x18
 		::System::String* m_name; // 0x20
 		::System::Net::CookieToken m_token; // 0x28
-		::System::Int32 m_tokenLength; // 0x2C
-		::System::Int32 m_index; // 0x30
-		::System::Boolean m_quoted; // 0x34
-		::System::Boolean m_eofCookie; // 0x35
-		::System::Int32 m_start; // 0x38
-		::System::Int32 m_length; // 0x3C
+		::System::Int32 m_start; // 0x2C
+		::System::Int32 m_length; // 0x30
+		::System::Int32 m_index; // 0x34
+		::System::Boolean m_eofCookie; // 0x38
+		::System::Boolean m_quoted; // 0x39
+		::System::Byte _padding0[0x2];
+		::System::Int32 m_tokenLength; // 0x3C
+		static ::Il2CppArray<::System::Object*>** StaticGet_RecognizedServerAttributes()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Net", "CookieTokenizer")->GetStaticField(0x2ECF0);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_RecognizedAttributes()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Net", "CookieTokenizer")->GetStaticField(0x2ECF8);
+		}
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_EndOfCookie()
@@ -140,5 +141,6 @@ namespace System::Net
 		{
 			return ((::System::Net::CookieToken(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_TOKENFROMNAME_OFFSET))(this, a1);
 		}
+
 	};
 }

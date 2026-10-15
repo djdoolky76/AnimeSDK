@@ -5,17 +5,16 @@
 #include "unitysdk/RPG/Client/RoadRash/RoadRashGameSettingsConfigure_ImpactEffectConfig.h"
 #include "unitysdk/RPG/Client/RoadRash/RoadRashGameSettingsConfigure_SlamLateralImpactConfig.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace RPG::Client::RoadRash { class MonoRoadRashGameAccelerationRing; }
 namespace RPG::Client::RoadRash { class MonoRoadRashGameCar; }
 namespace RPG::Client::RoadRash { class RoadRashGameSettingsConfigure_AICarConfig; }
 namespace RPG::Client::RoadRash { class RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig; }
 
-#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6B550)
+#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDBAD0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_TypeDefinitionIndex = 75479;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_TypeDefinitionIndex = 75894;
 
 	class RoadRashGameSettingsConfigure : public ::UnityEngine::ScriptableObject
 	{
@@ -29,10 +28,10 @@ namespace RPG::Client::RoadRash
 		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_FallingLandingQTEConfig FallingLandingConfig; // 0xB8
 		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig* TREventDetectorConfig; // 0xC8
 		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_AICarConfig* AIConfig; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/Allocator.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
-
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x1CE3FFB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_CREATEGAMEOBJECTWITHUNDO_OFFSET UNITYSDK_OFFSET(0x1CE33670)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET UNITYSDK_OFFSET(0x1CE3E160)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DESTROYUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1CE33DE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x1F14BC50)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_CREATEGAMEOBJECTWITHUNDO_OFFSET UNITYSDK_OFFSET(0x1F13F300)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET UNITYSDK_OFFSET(0x1F149E00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DESTROYUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F13FA80)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int RuntimeUtils_TypeDefinitionIndex = 44750;
+	inline static constexpr unsigned int RuntimeUtils_TypeDefinitionIndex = 45889;
 
 	class RuntimeUtils : public ::System::Object
 	{
@@ -40,5 +37,6 @@ namespace UnityEngine::Formats::Alembic::Importer
 		{
 			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET))(a1, a2);
 		}
+
 	};
 }

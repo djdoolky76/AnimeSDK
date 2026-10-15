@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
-
-namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedObject_1; }
+#include "unitysdk/System/Object.h"
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int PinnedObject_1_TypeDefinitionIndex = 44703;
+	inline static constexpr unsigned int PinnedObject_1_TypeDefinitionIndex = 45842;
 
 	template <typename T>
 	class PinnedObject_1 : public ::System::Object

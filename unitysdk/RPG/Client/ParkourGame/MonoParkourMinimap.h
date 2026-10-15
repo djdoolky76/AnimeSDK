@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+namespace System { class Object; }
 
-namespace RPG::Client::ParkourGame { class MonoParkourMinimap_MiniRoad; }
-
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DD270)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6D0E0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 74052;
+	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 74151;
 
 	class MonoParkourMinimap : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single TextureSize; // 0x0
 		::UnityEngine::Vector3 Center; // 0x18
 		::UnityEngine::Vector3 Size; // 0x24
-		::Il2CppArray<::RPG::Client::ParkourGame::MonoParkourMinimap_MiniRoad*>* Roads; // 0x30
-
+		::Il2CppArray<::System::Object*>* Roads; // 0x30
+		// static const ::System::Object TextureSize; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP_CTOR_OFFSET))(this);
 		}
+
 	};
 }

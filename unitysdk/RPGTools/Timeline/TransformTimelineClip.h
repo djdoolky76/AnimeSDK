@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class TransformTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF2CC10)
-#define RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BF2CC00)
-#define RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2CD00)
+#define RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE942C40)
+#define RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE942D30)
+#define RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE942C30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TransformTimelineClip_TypeDefinitionIndex = 48977;
+	inline static constexpr unsigned int TransformTimelineClip_TypeDefinitionIndex = 48523;
 
 	class TransformTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::TransformTimelineBehaviour* template_; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSFORMTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

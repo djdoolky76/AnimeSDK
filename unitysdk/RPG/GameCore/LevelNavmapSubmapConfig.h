@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/MinimapAreaType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelNavmapSubmapConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C1253F0)
-#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1255E0)
+#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D791C00)
+#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D791A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavmapSubmapConfig_TypeDefinitionIndex = 17030;
+	inline static constexpr unsigned int LevelNavmapSubmapConfig_TypeDefinitionIndex = 17225;
 
 	class LevelNavmapSubmapConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,15 +20,15 @@ namespace RPG::GameCore
 		::System::UInt32 AreaID; // 0x18
 		::System::Int32 DefaultLayer; // 0x1C
 		::System::UInt32 ParentSubmapID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNavmapSubmapConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelNavmapSubmapConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavmapSubmapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelNavmapSubmapConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Http/Headers/HttpHeaders.h"
 #include "unitysdk/System/Nullable_1.h"
-
 namespace System::Net::Http { class HttpContent; }
 namespace System::Net::Http::Headers { class MediaTypeHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x1E7DA920)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1E7DAC10)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1E7DAC50)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DA760)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE214A0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x1EE21660)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1EE21950)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1EE21990)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpContentHeaders_TypeDefinitionIndex = 3790;
+	inline static constexpr unsigned int HttpContentHeaders_TypeDefinitionIndex = 3791;
 
 	class HttpContentHeaders : public ::System::Net::Http::Headers::HttpHeaders
 	{
 	public:
 		::System::Net::Http::HttpContent* content; // 0x20
-
 		::System::Void _ctor(::System::Net::Http::HttpContent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::Int64> get_ContentLength()
@@ -39,5 +37,6 @@ namespace System::Net::Http::Headers
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::MediaTypeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KKHKACBICMH_TypeDefinitionIndex = 75933;
+
+	struct alignas(4) KKHKACBICMH
+	{
+		::System::Single IDKONBFPBLH; // 0x10
+		::System::Single NPAFMEBNFOB; // 0x14
+		::System::Single FGPFPAHBPFH; // 0x18
+		::System::Int32 DDKMCNFAECO; // 0x1C
+		::System::Single GKBAJIBGNPK; // 0x20
+		::System::Single HKHPEFCDPGP; // 0x24
+	};

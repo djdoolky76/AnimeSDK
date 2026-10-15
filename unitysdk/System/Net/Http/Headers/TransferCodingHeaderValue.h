@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Net/Http/Headers/Token.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
+namespace System::Net::Http::Headers { class TransferCodingHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7E7340)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7E7460)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1E7E7290)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E7E72E0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7E72F0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E7550)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E7E7620)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7E7580)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7E72D0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E7010)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE2E0D0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2DE10)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE2E140)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE2E260)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1EE2E090)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE2E0E0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE2E0F0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE2E350)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1EE2E420)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2E380)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int TransferCodingHeaderValue_TypeDefinitionIndex = 3826;
+	inline static constexpr unsigned int TransferCodingHeaderValue_TypeDefinitionIndex = 3827;
 
 	class TransferCodingHeaderValue : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters; // 0x10
-		::System::String* value; // 0x18
-
+		::System::String* value; // 0x10
+		::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters; // 0x18
 		::System::Void _ctor(::System::Net::Http::Headers::TransferCodingHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::TransferCodingHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::TransferCodingHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_CTOR_1_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters()
@@ -70,14 +70,15 @@ namespace System::Net::Http::Headers
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*& a3)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::TransferCodingHeaderValue*& a2, ::System::Net::Http::Headers::Token& a3)
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::TransferCodingHeaderValue* a2, ::System::Net::Http::Headers::Token a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::TransferCodingHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::TransferCodingHeaderValue*, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A970)
-#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A9C0)
-#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E7A960)
-#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7A8F0)
+#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF535C0)
+#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF53540)
+#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF53610)
+#define MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF535B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_CreateTrophyContextDelegate_TypeDefinitionIndex = 7698;
+	inline static constexpr unsigned int PSDelegate_CreateTrophyContextDelegate_TypeDefinitionIndex = 7742;
 
 	class PSDelegate_CreateTrophyContextDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32& a1)
+		::System::Void Invoke(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_INVOKE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32& a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::Int32& a1, ::System::IAsyncResult* a2)
+		::System::Void EndInvoke(::System::Int32 a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_ENDINVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CREATETROPHYCONTEXTDELEGATE_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

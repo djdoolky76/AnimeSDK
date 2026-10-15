@@ -4,16 +4,16 @@
 #include "unitysdk/RPG/GameCore/SummonUnitUniqueGroup.h"
 #include "unitysdk/RPG/GameCore/SummonerType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SummonUnitDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CB147C0)
-#define RPG_GAMECORE_SUMMONUNITDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB14BD0)
+#define RPG_GAMECORE_SUMMONUNITDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB10390)
+#define RPG_GAMECORE_SUMMONUNITDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0FF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitDataRow_TypeDefinitionIndex = 15036;
+	inline static constexpr unsigned int SummonUnitDataRow_TypeDefinitionIndex = 15207;
 
 	class SummonUnitDataRow : public ::System::Object
 	{
@@ -21,22 +21,22 @@ namespace RPG::GameCore
 		::System::String* JsonPath; // 0x10
 		::RPG::Client::TextID DefaultName; // 0x18
 		::System::UInt32 ID; // 0x28
-		::RPG::GameCore::SummonerType SummonerType; // 0x2C
-		::System::Boolean DestroyOnEnterBattle; // 0x30
-		::System::Boolean IsTeamSummon; // 0x31
-		::System::Boolean IsClient; // 0x32
-		::System::Boolean RemoveMazeBuffOnDestroy; // 0x33
-		::System::UInt32 MaxSummonCount; // 0x34
-		::RPG::GameCore::SummonUnitUniqueGroup UniqueGroup; // 0x38
-
+		::RPG::GameCore::SummonUnitUniqueGroup UniqueGroup; // 0x2C
+		::System::UInt32 MaxSummonCount; // 0x30
+		::System::Boolean RemoveMazeBuffOnDestroy; // 0x34
+		::System::Boolean IsTeamSummon; // 0x35
+		::System::Boolean DestroyOnEnterBattle; // 0x36
+		::System::Boolean IsClient; // 0x37
+		::RPG::GameCore::SummonerType SummonerType; // 0x38
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITDATAROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITDATAROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitDataRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::SummonUnitDataRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITDATAROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SummonUnitDataRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

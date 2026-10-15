@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/PerObjectData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Rendering/SortingCriteria.h"
-
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x3A4C500)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_CULLINGRESULT_OFFSET UNITYSDK_OFFSET(0x3BB3BD0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_PASSNAMES_OFFSET UNITYSDK_OFFSET(0x3A4C540)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_PASSNAME_OFFSET UNITYSDK_OFFSET(0x3BB3BF0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_ISVALID_OFFSET UNITYSDK_OFFSET(0x3BB3D20)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_CAMERA_OFFSET UNITYSDK_OFFSET(0x3A4C510)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_CULLINGRESULT_OFFSET UNITYSDK_OFFSET(0x3BB3BE0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_PASSNAMES_OFFSET UNITYSDK_OFFSET(0x3A4C550)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_PASSNAME_OFFSET UNITYSDK_OFFSET(0x3BB3C00)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BB3C90)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x3BB3C10)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C65580)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_CTOR_OFFSET UNITYSDK_OFFSET(0x3C65500)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x2031CC0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_CULLINGRESULT_OFFSET UNITYSDK_OFFSET(0x3C654C0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_PASSNAMES_OFFSET UNITYSDK_OFFSET(0x2031D00)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_GET_PASSNAME_OFFSET UNITYSDK_OFFSET(0x3C654E0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_ISVALID_OFFSET UNITYSDK_OFFSET(0x3C65610)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_CAMERA_OFFSET UNITYSDK_OFFSET(0x2031CD0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_CULLINGRESULT_OFFSET UNITYSDK_OFFSET(0x3C654D0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_PASSNAMES_OFFSET UNITYSDK_OFFSET(0x2031D10)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_SET_PASSNAME_OFFSET UNITYSDK_OFFSET(0x3C654F0)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RendererListDesc_TypeDefinitionIndex = 34776;
+	inline static constexpr unsigned int RendererListDesc_TypeDefinitionIndex = 35445;
 
 	struct alignas(8) RendererListDesc
 	{
@@ -34,23 +32,26 @@ namespace UnityEngine::Experimental::Rendering
 		::UnityEngine::Rendering::PerObjectData rendererConfiguration; // 0x14
 		::UnityEngine::Rendering::RenderQueueRange renderQueueRange; // 0x18
 		::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock; // 0x20
+		::System::Byte _padding0[0x68];
 		::UnityEngine::Material* overrideMaterial; // 0x90
 		::System::Boolean excludeObjectMotionVectors; // 0x98
+		::System::Byte _padding1[0x3];
 		::System::Int32 layerMask; // 0x9C
 		::System::Int32 overrideMaterialPassIndex; // 0xA0
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Rendering::CullingResults _cullingResult_k__BackingField; // 0xA8
 		::UnityEngine::Camera* _camera_k__BackingField; // 0xB8
 		::UnityEngine::Rendering::ShaderTagId _passName_k__BackingField; // 0xC0
+		::System::Byte _padding3[0x4];
 		::Il2CppArray<::UnityEngine::Rendering::ShaderTagId>* _passNames_k__BackingField; // 0xC8
-
 		::System::Void _ctor(::UnityEngine::Rendering::ShaderTagId a1, ::UnityEngine::Rendering::CullingResults a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ShaderTagId, ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ShaderTagId, ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::Il2CppArray<::UnityEngine::Rendering::ShaderTagId>* a1, ::UnityEngine::Rendering::CullingResults a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Rendering::ShaderTagId>*, ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Rendering::ShaderTagId>*, ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Rendering::CullingResults get_cullingResult()
@@ -97,5 +98,6 @@ namespace UnityEngine::Experimental::Rendering
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLISTDESC_ISVALID_OFFSET))(this);
 		}
+
 	};
 }

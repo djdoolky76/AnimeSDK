@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/ValueDropdownItem_1.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPGTools::Timeline { class AnimatorParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_FCVSIMULATIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58B180)
+#define RPGTOOLS_TIMELINE_FCVSIMULATIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F0660)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FCVSimulationParam_TypeDefinitionIndex = 48581;
+	inline static constexpr unsigned int FCVSimulationParam_TypeDefinitionIndex = 48121;
 
 	class FCVSimulationParam : public ::System::Object
 	{
@@ -21,10 +20,10 @@ namespace RPGTools::Timeline
 		::RPGTools::Timeline::AnimatorParam* Param; // 0x20
 		::System::Collections::Generic::List_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::String*>>* _groups; // 0x28
 		::System::Collections::Generic::List_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::String*>>* _props; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FCVSIMULATIONPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FCVSIMULATIONPARAM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

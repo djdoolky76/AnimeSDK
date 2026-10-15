@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IGridFightTraitEffect; }
-namespace RPG::Client { template <typename T> class GridFightTrait___c__20_1; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTrait___c__20_1_TypeDefinitionIndex = 65489;
+	inline static constexpr unsigned int GridFightTrait___c__20_1_TypeDefinitionIndex = 65429;
 
 	template <typename T>
 	class GridFightTrait___c__20_1 : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightTrait___c__20_1<T>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightTrait___c__20_1<T>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTrait___c__20_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c__20`1")->GetStaticField(0x0);
 		}
+
 		static ::System::Func_2<::RPG::Client::IGridFightTraitEffect*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::RPG::Client::IGridFightTraitEffect*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTrait___c__20_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Func_2<::RPG::Client::IGridFightTraitEffect*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c__20`1")->GetStaticField(0x0);
 		}
+
 	};
 }

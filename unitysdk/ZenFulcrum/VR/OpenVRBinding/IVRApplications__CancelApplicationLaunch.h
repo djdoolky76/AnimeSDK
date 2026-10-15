@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FC940)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FC970)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D7F6BE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FC8D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F64B0F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64B080)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F64B120)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6453B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications__CancelApplicationLaunch_TypeDefinitionIndex = 37666;
+	inline static constexpr unsigned int IVRApplications__CancelApplicationLaunch_TypeDefinitionIndex = 38963;
 
 	class IVRApplications__CancelApplicationLaunch : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::String* a1)
@@ -38,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__CANCELAPPLICATIONLAUNCH_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

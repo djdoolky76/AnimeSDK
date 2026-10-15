@@ -2,55 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UI/Internal/OS/OAuthType.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI::Internal::OS { class ThirdpartyOAuthWaiting; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CD6D670)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_HIDE_OFFSET UNITYSDK_OFFSET(0x1CD6C090)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CD6E1A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOWFAILEDSTAGE_OFFSET UNITYSDK_OFFSET(0x1CD6D0F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOWTIMEOUTSTAGE_OFFSET UNITYSDK_OFFSET(0x1CD6CB80)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOWWAITINGSTAGE_OFFSET UNITYSDK_OFFSET(0x1CD6C2C0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOW_OFFSET UNITYSDK_OFFSET(0x1CD6C170)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6E1D0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWFAILEDSTAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x1CD6E290)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWFAILEDSTAGE_B__33_1_OFFSET UNITYSDK_OFFSET(0x1CD6E2B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWTIMEOUTSTAGE_B__32_0_OFFSET UNITYSDK_OFFSET(0x1CD6E250)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWTIMEOUTSTAGE_B__32_1_OFFSET UNITYSDK_OFFSET(0x1CD6E270)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWWAITINGSTAGE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1CD6E210)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWWAITINGSTAGE_B__31_1_OFFSET UNITYSDK_OFFSET(0x1CD6E230)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFE1430)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1F90)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFDFE50)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BFE1F60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOWFAILEDSTAGE_OFFSET UNITYSDK_OFFSET(0x1BFE0EB0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOWTIMEOUTSTAGE_OFFSET UNITYSDK_OFFSET(0x1BFE0940)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOWWAITINGSTAGE_OFFSET UNITYSDK_OFFSET(0x1BFE0080)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFDFF30)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWFAILEDSTAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x1BFE2050)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWFAILEDSTAGE_B__33_1_OFFSET UNITYSDK_OFFSET(0x1BFE2070)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWTIMEOUTSTAGE_B__32_0_OFFSET UNITYSDK_OFFSET(0x1BFE2010)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWTIMEOUTSTAGE_B__32_1_OFFSET UNITYSDK_OFFSET(0x1BFE2030)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWWAITINGSTAGE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1BFE1FD0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWWAITINGSTAGE_B__31_1_OFFSET UNITYSDK_OFFSET(0x1BFE1FF0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int ThirdpartyOAuthWaiting_TypeDefinitionIndex = 8396;
+	inline static constexpr unsigned int ThirdpartyOAuthWaiting_TypeDefinitionIndex = 8439;
 
 	class ThirdpartyOAuthWaiting : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::Internal::OS::ThirdpartyOAuthWaiting** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::Internal::OS::ThirdpartyOAuthWaiting**)Il2CppClass::FromTypeDefinitionIndex(ThirdpartyOAuthWaiting_TypeDefinitionIndex)->GetStaticField(0x26170);
-		}
-		static ::MiHoYo::SDK::UI::Internal::OS::OAuthType* StaticGet_AuthType()
-		{
-			return (::MiHoYo::SDK::UI::Internal::OS::OAuthType*)Il2CppClass::FromTypeDefinitionIndex(ThirdpartyOAuthWaiting_TypeDefinitionIndex)->GetStaticField(0xB650);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* IconWarningPath; // 0x0
-		// static const ::System::String* IconGooglePath; // 0x0
-		// static const ::System::String* IconApplePath; // 0x0
-		// static const ::System::String* IconFacebookPath; // 0x0
-		// static const ::System::String* IconTwitterPath; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescPath; // 0x0
-		// static const ::System::String* PrimaryButtonPath; // 0x0
-		// static const ::System::String* PrimaryButtonTextPath; // 0x0
-		// static const ::System::String* SecondaryBtnPath; // 0x0
-		// static const ::System::String* SecondaryBtnTextPath; // 0x0
 		::UnityEngine::GameObject* iconWarning; // 0x58
 		::UnityEngine::GameObject* iconGoogle; // 0x60
 		::UnityEngine::GameObject* iconApple; // 0x68
@@ -64,10 +43,31 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::UnityEngine::UI::Button* secondaryButton; // 0xA8
 		::System::Action* OnBack; // 0xB0
 		::System::Action* OnRetry; // 0xB8
+		static ::MiHoYo::SDK::UI::Internal::OS::ThirdpartyOAuthWaiting** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::Internal::OS::ThirdpartyOAuthWaiting**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "ThirdpartyOAuthWaiting")->GetStaticField(0x2B9A0);
+		}
 
+		static ::MiHoYo::SDK::UI::Internal::OS::OAuthType* StaticGet_AuthType()
+		{
+			return (::MiHoYo::SDK::UI::Internal::OS::OAuthType*)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "ThirdpartyOAuthWaiting")->GetStaticField(0x91E0);
+		}
+
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* IconWarningPath; // 0x0
+		// static const ::System::String* IconGooglePath; // 0x0
+		// static const ::System::String* IconApplePath; // 0x0
+		// static const ::System::String* IconFacebookPath; // 0x0
+		// static const ::System::String* IconTwitterPath; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescPath; // 0x0
+		// static const ::System::String* PrimaryButtonPath; // 0x0
+		// static const ::System::String* PrimaryButtonTextPath; // 0x0
+		// static const ::System::String* SecondaryBtnPath; // 0x0
+		// static const ::System::String* SecondaryBtnTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -134,5 +134,6 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING__SHOWFAILEDSTAGE_B__33_1_OFFSET))(this);
 		}
+
 	};
 }
